@@ -104,6 +104,7 @@ data class RomUpdate(
     val oldVersion: String = "",
     val newVersion: String = "",
     val versionId: Long = 0,
+    val portId: Long = 0,
     val detectedAt: String = "",
     val kind: String = "",
     val deviceName: String = "",

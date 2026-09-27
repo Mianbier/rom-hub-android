@@ -305,14 +305,19 @@ private fun TabPage(title: String, vm: AppViewModel, bottomInnerPadding: Dp) {
             bottomInnerPadding = bottomInnerPadding,
             onSeen = { vm.markFeedSeen() },
             onOpenVersion = { u ->
-                vm.nav.push(
-                    Screen.VersionList(
-                        code = u.codename,
-                        region = u.region,
-                        branch = u.branch,
-                        highlight = u.newVersion,
+                // 移植包事件跳移植包详情；官方版本事件才跳版本列表
+                if (u.kind == "port") {
+                    vm.nav.push(Screen.PortDetail(u.portId))
+                } else {
+                    vm.nav.push(
+                        Screen.VersionList(
+                            code = u.codename,
+                            region = u.region,
+                            branch = u.branch,
+                            highlight = u.newVersion,
+                        )
                     )
-                )
+                }
             },
         )
 

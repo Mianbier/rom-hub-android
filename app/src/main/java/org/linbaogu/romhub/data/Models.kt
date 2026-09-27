@@ -90,6 +90,7 @@ data class RomVersion(
     val regionZh: String = "",
     val branchZh: String = "",
     val mirrors: List<Mirror> = emptyList(),
+    val speedSig: String = "",
 )
 
 @Serializable

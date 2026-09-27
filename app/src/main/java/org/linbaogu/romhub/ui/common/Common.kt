@@ -32,8 +32,14 @@ import top.yukonga.miuix.kmp.theme.MiuixTheme
 
 // ---------------------------------------------------------------- 镜像
 
-val MIRROR_HOSTS: List<Pair<String, String>> = listOf(
-    "高速链接" to "https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com",
+val MIRROR_HOSTS_SIGNED: List<Pair<String, String>> = listOf(
+    "一号链接" to "https://ultimateota.d.miui.com",
+    "二号链接" to "https://superota.d.miui.com",
+)
+
+val MIRROR_HOSTS_UNSIGNED: List<Pair<String, String>> = listOf(
+    "三号链接" to "https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com",
+    "四号链接" to "https://cdnorg.d.miui.com",
 )
 
 fun swapHost(url: String, base: String): String {
@@ -52,13 +58,22 @@ fun mirrorsOf(v: RomVersion): List<Mirror> {
     val rec = v.recoveryUrl
     val fast = v.fastbootUrl
     if (rec.isBlank() && fast.isBlank()) return emptyList()
-    return MIRROR_HOSTS.map { (name, base) ->
+    val sig = v.speedSig
+    val signed = MIRROR_HOSTS_SIGNED.map { (name, base) ->
+        Mirror(
+            name = name,
+            recovery = if (rec.isBlank()) "" else swapHost(rec, base) + sig,
+            fastboot = if (fast.isBlank()) "" else swapHost(fast, base) + sig,
+        )
+    }
+    val unsigned = MIRROR_HOSTS_UNSIGNED.map { (name, base) ->
         Mirror(
             name = name,
             recovery = if (rec.isBlank()) "" else swapHost(rec, base),
             fastboot = if (fast.isBlank()) "" else swapHost(fast, base),
         )
     }
+    return signed + unsigned
 }
 
 fun openUrl(ctx: Context, url: String) {

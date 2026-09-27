@@ -33,8 +33,7 @@ import top.yukonga.miuix.kmp.theme.MiuixTheme
 // ---------------------------------------------------------------- 镜像
 
 val MIRROR_HOSTS: List<Pair<String, String>> = listOf(
-    "一号链接" to "https://cdnorg.d.miui.com",
-    "二号链接" to "https://bn.d.miui.com",
+    "高速链接" to "https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com",
 )
 
 fun swapHost(url: String, base: String): String {

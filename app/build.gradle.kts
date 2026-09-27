@@ -20,8 +20,8 @@ android {
         applicationId = "org.linbaogu.romhub"
         minSdk = 33
         targetSdk = 37
-        versionCode = 11
-        versionName = "1.0.10"
+        versionCode = 12
+        versionName = "1.0.11"
         resourceConfigurations += listOf("zh", "en")
     }
 

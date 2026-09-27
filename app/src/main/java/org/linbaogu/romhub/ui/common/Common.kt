@@ -31,15 +31,14 @@ import top.yukonga.miuix.kmp.basic.Text
 import top.yukonga.miuix.kmp.theme.MiuixTheme
 
 // ---------------------------------------------------------------- 镜像
-
-val MIRROR_HOSTS_SIGNED: List<Pair<String, String>> = listOf(
-    "一号链接" to "https://ultimateota.d.miui.com",
-    "二号链接" to "https://superota.d.miui.com",
-)
-
-val MIRROR_HOSTS_UNSIGNED: List<Pair<String, String>> = listOf(
-    "三号链接" to "https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com",
-    "四号链接" to "https://cdnorg.d.miui.com",
+// 五个官方镜像（和 xiaomirom 等索引站一致）：同一路径、不同域名、全部免签名。
+// 排在前面的实测永远能下（206），排在后面的 bigota/hugeota 可能 403 —— 按用户要求保留。
+val MIRROR_HOSTS: List<Pair<String, String>> = listOf(
+    "阿里云 OSS" to "https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com",
+    "cdnorg" to "https://cdnorg.d.miui.com",
+    "bn" to "https://bn.d.miui.com",
+    "bigota" to "https://bigota.d.miui.com",
+    "hugeota" to "https://hugeota.d.miui.com",
 )
 
 fun swapHost(url: String, base: String): String {
@@ -58,22 +57,13 @@ fun mirrorsOf(v: RomVersion): List<Mirror> {
     val rec = v.recoveryUrl
     val fast = v.fastbootUrl
     if (rec.isBlank() && fast.isBlank()) return emptyList()
-    val sig = v.speedSig
-    val signed = MIRROR_HOSTS_SIGNED.map { (name, base) ->
-        Mirror(
-            name = name,
-            recovery = if (rec.isBlank()) "" else swapHost(rec, base) + sig,
-            fastboot = if (fast.isBlank()) "" else swapHost(fast, base) + sig,
-        )
-    }
-    val unsigned = MIRROR_HOSTS_UNSIGNED.map { (name, base) ->
+    return MIRROR_HOSTS.map { (name, base) ->
         Mirror(
             name = name,
             recovery = if (rec.isBlank()) "" else swapHost(rec, base),
             fastboot = if (fast.isBlank()) "" else swapHost(fast, base),
         )
     }
-    return signed + unsigned
 }
 
 fun openUrl(ctx: Context, url: String) {

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ROM Hub</string>
+    <string name="dev_server_hint">服务地址</string>
+</resources>

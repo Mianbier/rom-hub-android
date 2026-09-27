@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  全部走 https，且只信任系统证书。
+
+  改动原因：这份配置原先是为了「用户可以把服务地址改成局域网 http://192.168.x.x:8787」
+  才放开明文流量、并信任用户自行安装的 CA。该入口已移除、服务器地址固定为 https，
+  所以明文和用户 CA 两项都不再需要 —— 留着等于给发布版留一个中间人攻击的口子。
+-->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+</network-security-config>

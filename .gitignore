@@ -1,0 +1,28 @@
+# Gradle / 构建产物
+*.iml
+.gradle/
+/.kotlin/
+build/
+/app/build/
+/captures/
+.externalNativeBuild/
+.cxx/
+local.properties
+
+# IDE
+/.idea/
+/.idea
+/.vscode/
+*.ipr
+*.iws
+.DS_Store
+
+# 构建输出（根目录下的成品 APK 不入库）
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+
+# 日志
+*.log

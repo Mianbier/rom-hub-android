@@ -143,6 +143,45 @@ fun DeviceDetailScreen(
             item { ErrorHint(error) { reload++ } }
         }
 
+        if (ports.isNotEmpty()) {
+            item { SectionLabel("社区移植包（${ports.size}）") }
+            items(ports, key = { "p${it.id}" }) { p ->
+                Card(onClick = { onOpenPort(p.id) }, showIndication = true) {
+                    Column(Modifier.padding(horizontal = 14.dp, vertical = 12.dp)) {
+                        Row(verticalAlignment = Alignment.CenterVertically) {
+                            StateChip(state = "移植包")
+                            if (p.portType.isNotBlank()) {
+                                Spacer(Modifier.width(6.dp))
+                                Text(
+                                    p.portType,
+                                    fontSize = MiuixTheme.textStyles.footnote2.fontSize,
+                                    color = MiuixTheme.colorScheme.onSurfaceVariantSummary,
+                                )
+                            }
+                        }
+                        Spacer(Modifier.height(6.dp))
+                        Text(
+                            p.title.ifBlank { p.fileName },
+                            fontSize = MiuixTheme.textStyles.footnote1.fontSize,
+                            fontWeight = FontWeight.Medium,
+                            maxLines = 2,
+                            overflow = TextOverflow.Ellipsis,
+                        )
+                        Spacer(Modifier.height(2.dp))
+                        Text(
+                            text = listOfNotNull(
+                                p.author.takeIf { it.isNotBlank() }?.let { "作者 $it" },
+                                p.fileSize.takeIf { it.isNotBlank() },
+                                p.shortDate.takeIf { it.isNotBlank() },
+                            ).joinToString(" · "),
+                            fontSize = MiuixTheme.textStyles.footnote2.fontSize,
+                            color = MiuixTheme.colorScheme.onSurfaceVariantSummary,
+                        )
+                    }
+                }
+            }
+        }
+
         if (roms.isNotEmpty()) {
             item { SectionLabel("官方包（按地区 × 分支）") }
             items(roms, key = { it.id }) { r ->
@@ -180,45 +219,6 @@ fun DeviceDetailScreen(
                         Text(
                             "›",
                             fontSize = MiuixTheme.textStyles.title3.fontSize,
-                            color = MiuixTheme.colorScheme.onSurfaceVariantSummary,
-                        )
-                    }
-                }
-            }
-        }
-
-        if (ports.isNotEmpty()) {
-            item { SectionLabel("社区移植包（${ports.size}）") }
-            items(ports, key = { "p${it.id}" }) { p ->
-                Card(onClick = { onOpenPort(p.id) }, showIndication = true) {
-                    Column(Modifier.padding(horizontal = 14.dp, vertical = 12.dp)) {
-                        Row(verticalAlignment = Alignment.CenterVertically) {
-                            StateChip(state = "移植包")
-                            if (p.portType.isNotBlank()) {
-                                Spacer(Modifier.width(6.dp))
-                                Text(
-                                    p.portType,
-                                    fontSize = MiuixTheme.textStyles.footnote2.fontSize,
-                                    color = MiuixTheme.colorScheme.onSurfaceVariantSummary,
-                                )
-                            }
-                        }
-                        Spacer(Modifier.height(6.dp))
-                        Text(
-                            p.title.ifBlank { p.fileName },
-                            fontSize = MiuixTheme.textStyles.footnote1.fontSize,
-                            fontWeight = FontWeight.Medium,
-                            maxLines = 2,
-                            overflow = TextOverflow.Ellipsis,
-                        )
-                        Spacer(Modifier.height(2.dp))
-                        Text(
-                            text = listOfNotNull(
-                                p.author.takeIf { it.isNotBlank() }?.let { "作者 $it" },
-                                p.fileSize.takeIf { it.isNotBlank() },
-                                p.shortDate.takeIf { it.isNotBlank() },
-                            ).joinToString(" · "),
-                            fontSize = MiuixTheme.textStyles.footnote2.fontSize,
                             color = MiuixTheme.colorScheme.onSurfaceVariantSummary,
                         )
                     }

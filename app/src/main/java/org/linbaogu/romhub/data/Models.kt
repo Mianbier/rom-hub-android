@@ -96,6 +96,9 @@ data class RomVersion(
 data class RomVersionListResp(val total: Int = 0, val items: List<RomVersion> = emptyList())
 
 @Serializable
+data class FastLinkResp(val url: String = "")
+
+@Serializable
 data class RomUpdate(
     val id: Long = 0,
     val codename: String = "",

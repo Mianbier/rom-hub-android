@@ -135,6 +135,10 @@ object Api {
     suspend fun romVersion(ctx: Context, vid: Long): RomVersion =
         decode(raw(ctx, "/api/rom-versions/$vid"))
 
+    /** 给某个版本现签一个官方高速直链（签名会过期，所以点下载时现取）。 */
+    suspend fun fastLink(ctx: Context, vid: Long): String =
+        decode<FastLinkResp>(raw(ctx, "/api/rom-versions/$vid/fast-link", timeoutSec = 60)).url
+
     /** 让服务端按需补一次直链（前端打开设备页时也会自己调）。 */
     suspend fun resolvePending(ctx: Context, code: String, region: String, branch: String): String =
         raw(

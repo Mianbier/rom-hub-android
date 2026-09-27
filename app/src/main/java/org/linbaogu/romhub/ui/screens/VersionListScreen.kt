@@ -15,6 +15,7 @@ import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -25,6 +26,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
+import kotlinx.coroutines.launch
 import org.linbaogu.romhub.data.Api
 import org.linbaogu.romhub.data.Mirror
 import org.linbaogu.romhub.data.RomVersion
@@ -122,8 +124,27 @@ private fun VersionCard(
     onOpen: (String) -> Unit,
 ) {
     val cs = MiuixTheme.colorScheme
+    val ctx = LocalContext.current
+    val scope = rememberCoroutineScope()
     val mirrors = remember(v) { mirrorsOf(v) }
     val state = versionState(v)
+    var fastLoading by remember { mutableStateOf(false) }
+    var fastError by remember { mutableStateOf("") }
+
+    fun fastDownload() {
+        if (fastLoading) return
+        fastLoading = true
+        fastError = ""
+        scope.launch {
+            val url = runCatching { Api.fastLink(ctx, v.id) }.getOrNull()
+            if (url.isNullOrBlank()) {
+                fastError = "高速链接获取失败，请用下方备用镜像"
+            } else {
+                openUrl(ctx, url)
+            }
+            fastLoading = false
+        }
+    }
 
     Card {
         Column(Modifier.padding(horizontal = 14.dp, vertical = 12.dp)) {
@@ -158,16 +179,29 @@ private fun VersionCard(
                 color = cs.onSurfaceVariantSummary,
             )
 
-            if (v.recoveryUrl.isBlank() && v.fastbootUrl.isBlank() && mirrors.isEmpty()) {
-                Spacer(Modifier.height(8.dp))
+            Spacer(Modifier.height(10.dp))
+            PrimaryButton(
+                text = if (fastLoading) "正在获取高速链接…" else "高速下载",
+                enabled = !fastLoading,
+            ) { fastDownload() }
+            if (fastError.isNotBlank()) {
+                Spacer(Modifier.height(6.dp))
                 Text(
-                    "直链还在解析中，稍后回来看看（后台会自动补齐）",
+                    fastError,
+                    fontSize = MiuixTheme.textStyles.footnote2.fontSize,
+                    color = cs.error,
+                )
+            }
+            if (mirrors.isNotEmpty()) {
+                Spacer(Modifier.height(6.dp))
+                GhostButton(if (expanded) "收起备用镜像" else "备用镜像（${mirrors.size} 个）") { onToggle() }
+            } else if (v.recoveryUrl.isBlank() && v.fastbootUrl.isBlank()) {
+                Spacer(Modifier.height(6.dp))
+                Text(
+                    "直链解析中，可先点「高速下载」",
                     fontSize = MiuixTheme.textStyles.footnote2.fontSize,
                     color = cs.onSurfaceVariantSummary,
                 )
-            } else {
-                Spacer(Modifier.height(10.dp))
-                GhostButton(if (expanded) "收起链接" else "展开下载链接（${mirrors.size} 个镜像）") { onToggle() }
             }
 
             if (expanded && mirrors.isNotEmpty()) {

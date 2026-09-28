@@ -32,6 +32,7 @@ object Prefs {
     private const val K_NOTIFY_PROMPTED = "notify_prompt_shown"
     private const val K_WELCOME_DONE = "welcome_done"
     private const val K_NOTIFY_PORTS = "notify_ports"
+    private const val K_NOTIFY_BG = "notify_background_listen"
     private const val K_NOTIFY_OFFICIAL = "notify_official"
     private const val K_NAV = "nav_state"
 
@@ -136,4 +137,10 @@ object Prefs {
 
     fun setNotifyOfficial(context: Context, on: Boolean) =
         sp(context).edit { putBoolean(K_NOTIFY_OFFICIAL, on) }
+
+    /** 后台常驻监听（前台服务，默认关——要常驻一条通知栏）。 */
+    fun notifyBackground(context: Context): Boolean = sp(context).getBoolean(K_NOTIFY_BG, false)
+
+    fun setNotifyBackground(context: Context, on: Boolean) =
+        sp(context).edit { putBoolean(K_NOTIFY_BG, on) }
 }

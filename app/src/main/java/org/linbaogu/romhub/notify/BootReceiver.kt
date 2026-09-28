@@ -10,7 +10,13 @@ class BootReceiver : BroadcastReceiver() {
         when (intent.action) {
             Intent.ACTION_BOOT_COMPLETED,
             Intent.ACTION_MY_PACKAGE_REPLACED,
-            -> NotifyScheduler.schedule(context)
+            -> {
+                NotifyScheduler.schedule(context)
+                // 用户开过「后台实时提醒」的话，开机后把常驻服务也拉起来
+                if (org.linbaogu.romhub.core.Prefs.notifyBackground(context)) {
+                    NotifyScheduler.setBackgroundListen(context, true)
+                }
+            }
         }
     }
 }

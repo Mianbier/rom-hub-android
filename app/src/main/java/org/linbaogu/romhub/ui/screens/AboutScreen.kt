@@ -68,6 +68,7 @@ fun AboutScreen(
     var notifyOn by remember { mutableStateOf(Prefs.notifyEnabled(ctx)) }
     var notifyOfficial by remember { mutableStateOf(Prefs.notifyOfficial(ctx)) }
     var notifyPorts by remember { mutableStateOf(Prefs.notifyPorts(ctx)) }
+    var notifyBg by remember { mutableStateOf(Prefs.notifyBackground(ctx)) }
     var showAllOss by remember { mutableStateOf(false) }
     val notifyPerm = rememberNotifyPermission()
 
@@ -245,6 +246,16 @@ fun AboutScreen(
                             checked = notifyPorts,
                             enabled = notifyOn,
                         ) { notifyPorts = it; Prefs.setNotifyPorts(ctx, it) }
+                        HorizontalDivider(color = MiuixTheme.colorScheme.dividerLine)
+                        SwitchRow(
+                            title = "后台实时提醒",
+                            summary = "退到后台仍每分钟检查一次；通知栏会常驻一条监听提示",
+                            checked = notifyBg,
+                            enabled = notifyOn,
+                        ) {
+                            notifyBg = it
+                            NotifyScheduler.setBackgroundListen(ctx, it)
+                        }
                     }
                 }
             }

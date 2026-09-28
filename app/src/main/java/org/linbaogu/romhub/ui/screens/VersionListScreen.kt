@@ -1,5 +1,6 @@
 package org.linbaogu.romhub.ui.screens
 
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -9,6 +10,7 @@ import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
@@ -29,6 +31,8 @@ import org.linbaogu.romhub.data.Api
 import org.linbaogu.romhub.data.Mirror
 import org.linbaogu.romhub.data.RomVersion
 import org.linbaogu.romhub.ui.common.ErrorHint
+import org.linbaogu.romhub.ui.common.HcDivider
+import org.linbaogu.romhub.ui.common.HcGroup
 import org.linbaogu.romhub.ui.common.Hint
 import org.linbaogu.romhub.ui.common.InfoRow
 import org.linbaogu.romhub.ui.common.ListScreen
@@ -39,7 +43,11 @@ import org.linbaogu.romhub.ui.component.GhostButton
 import org.linbaogu.romhub.ui.component.PrimaryButton
 import top.yukonga.miuix.kmp.basic.Card
 import top.yukonga.miuix.kmp.basic.HorizontalDivider
+import top.yukonga.miuix.kmp.basic.Icon
 import top.yukonga.miuix.kmp.basic.Text
+import top.yukonga.miuix.kmp.icon.MiuixIcons
+import top.yukonga.miuix.kmp.icon.extended.ExpandLess
+import top.yukonga.miuix.kmp.icon.extended.ExpandMore
 import top.yukonga.miuix.kmp.theme.MiuixTheme
 
 @Composable
@@ -93,98 +101,125 @@ fun VersionListScreen(
             item { Hint("该分支暂无版本记录") }
         }
 
-        items(items, key = { it.id }) { v ->
-            val isHighlight = highlight.isNotBlank() && v.version == highlight
-            val isOpen = expanded.contains(v.version)
-            VersionCard(
-                v = v,
-                highlighted = isHighlight,
-                expanded = isOpen,
-                onToggle = {
-                    expanded = if (isOpen) expanded - v.version else expanded + v.version
+        // HyperCeiler 结构：全部版本装进一张实底大卡片，每个版本是一行，
+        // 点行就地展开下载链接（和 HyperOS 设置项的展开方式一致）
+        if (items.isNotEmpty()) {
+            item {
+                HcGroup {
+                    items.forEachIndexed { i, v ->
+                        val isHighlight = highlight.isNotBlank() && v.version == highlight
+                        val isOpen = expanded.contains(v.version)
+                        if (i > 0) HcDivider(startIndent = 16.dp)
+                        VersionRow(
+                            v = v,
+                            highlighted = isHighlight,
+                            expanded = isOpen,
+                            onToggle = {
+                                expanded =
+                                    if (isOpen) expanded - v.version else expanded + v.version
+                            },
+                        )
+                        if (isOpen) {
+                            VersionLinks(
+                                v = v,
+                                onCopy = { text -> clipboard.setText(AnnotatedString(text)) },
+                                onOpen = { url -> openUrl(ctx, url) },
+                            )
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/** HyperCeiler 式版本行：版本号 + 日期/Android/大小 + 状态标签 + 展开箭头。 */
+@Composable
+private fun VersionRow(
+    v: RomVersion,
+    highlighted: Boolean,
+    expanded: Boolean,
+    onToggle: () -> Unit,
+) {
+    val cs = MiuixTheme.colorScheme
+    val mirrors = remember(v) { mirrorsOf(v) }
+    val state = versionState(v)
+    val noLink = mirrors.isEmpty() && v.recoveryUrl.isBlank() && v.fastbootUrl.isBlank()
+
+    Row(
+        Modifier
+            .fillMaxWidth()
+            .clickable(enabled = mirrors.isNotEmpty(), onClick = onToggle)
+            .padding(horizontal = 16.dp, vertical = 12.dp),
+        verticalAlignment = Alignment.CenterVertically,
+    ) {
+        Column(Modifier.weight(1f)) {
+            Text(
+                text = v.version,
+                fontSize = MiuixTheme.textStyles.body1.fontSize,
+                fontWeight = FontWeight.SemiBold,
+                maxLines = 1,
+                overflow = TextOverflow.Ellipsis,
+                color = if (highlighted) cs.primary else cs.onSurface,
+            )
+            Spacer(Modifier.height(2.dp))
+            Text(
+                text = buildString {
+                    val parts = listOfNotNull(
+                        v.romDate.takeIf { it.isNotBlank() },
+                        v.android.takeIf { it.isNotBlank() }?.let { "Android $it" },
+                        v.sizeText.takeIf { it.isNotBlank() },
+                    )
+                    append(parts.joinToString(" · "))
+                    if (noLink) {
+                        if (isNotEmpty()) append(" · ")
+                        append("直链解析中")
+                    }
                 },
-                onCopy = { text ->
-                    clipboard.setText(AnnotatedString(text))
-                },
-                onOpen = { url -> openUrl(ctx, url) },
+                fontSize = MiuixTheme.textStyles.footnote2.fontSize,
+                color = cs.onSurfaceVariantSummary,
+                maxLines = 1,
+                overflow = TextOverflow.Ellipsis,
+            )
+        }
+        if (highlighted) {
+            Spacer(Modifier.width(6.dp))
+            StateChip(state = "更新", textOverride = "订阅的版本")
+        }
+        if (state.isNotBlank()) {
+            Spacer(Modifier.width(6.dp))
+            StateChip(state = state)
+        }
+        if (mirrors.isNotEmpty()) {
+            Spacer(Modifier.width(8.dp))
+            Icon(
+                if (expanded) MiuixIcons.ExpandLess else MiuixIcons.ExpandMore,
+                contentDescription = null,
+                tint = cs.onSurfaceVariantSummary.copy(alpha = 0.6f),
+                modifier = Modifier.size(18.dp),
             )
         }
     }
 }
 
+/** 展开后的下载链接区（在卡片内部、行下方就地展开）。 */
 @Composable
-private fun VersionCard(
+private fun VersionLinks(
     v: RomVersion,
-    highlighted: Boolean,
-    expanded: Boolean,
-    onToggle: () -> Unit,
     onCopy: (String) -> Unit,
     onOpen: (String) -> Unit,
 ) {
     val cs = MiuixTheme.colorScheme
     val mirrors = remember(v) { mirrorsOf(v) }
-    val state = versionState(v)
-
-    Card {
-        Column(Modifier.padding(horizontal = 14.dp, vertical = 12.dp)) {
-            Row(verticalAlignment = Alignment.CenterVertically) {
-                Text(
-                    text = v.version,
-                    fontSize = MiuixTheme.textStyles.body1.fontSize,
-                    fontWeight = FontWeight.SemiBold,
-                    maxLines = 1,
-                    overflow = TextOverflow.Ellipsis,
-                    color = if (highlighted) cs.primary else cs.onSurface,
-                    modifier = Modifier.weight(1f, fill = false),
-                )
-                if (highlighted) {
-                    Spacer(Modifier.width(6.dp))
-                    StateChip(state = "更新", textOverride = "订阅的版本")
-                }
-                if (state.isNotBlank()) {
-                    Spacer(Modifier.width(6.dp))
-                    StateChip(state = state)
-                }
-            }
-
-            Spacer(Modifier.height(6.dp))
-            Text(
-                text = listOfNotNull(
-                    v.romDate.takeIf { it.isNotBlank() },
-                    v.android.takeIf { it.isNotBlank() }?.let { "Android $it" },
-                    v.sizeText.takeIf { it.isNotBlank() },
-                ).joinToString(" · "),
-                fontSize = MiuixTheme.textStyles.footnote2.fontSize,
-                color = cs.onSurfaceVariantSummary,
-            )
-
-            if (mirrors.isNotEmpty()) {
-                Spacer(Modifier.height(10.dp))
-                GhostButton(if (expanded) "收起链接" else "下载链接") { onToggle() }
-            } else if (v.recoveryUrl.isBlank() && v.fastbootUrl.isBlank()) {
-                Spacer(Modifier.height(8.dp))
-                Text(
-                    "直链还在解析中，稍后回来看看（后台会自动补齐）",
-                    fontSize = MiuixTheme.textStyles.footnote2.fontSize,
-                    color = cs.onSurfaceVariantSummary,
-                )
-            }
-
-            if (expanded && mirrors.isNotEmpty()) {
-                Spacer(Modifier.height(6.dp))
-                HorizontalDivider(color = cs.dividerLine)
-                Spacer(Modifier.height(6.dp))
-                if (v.filenameRec.isNotBlank()) {
-                    InfoRow("卡刷包名", v.filenameRec, mono = true)
-                }
-                if (v.filenameFast.isNotBlank()) {
-                    InfoRow("线刷包名", v.filenameFast, mono = true)
-                }
-                mirrors.forEach { m ->
-                    MirrorBlock(m, onCopy, onOpen)
-                }
-            }
+    Column(Modifier.padding(start = 16.dp, end = 16.dp, bottom = 14.dp)) {
+        HorizontalDivider(color = cs.dividerLine)
+        Spacer(Modifier.height(8.dp))
+        if (v.filenameRec.isNotBlank()) InfoRow("卡刷包名", v.filenameRec, mono = true)
+        if (v.filenameFast.isNotBlank()) InfoRow("线刷包名", v.filenameFast, mono = true)
+        if (v.filenameRec.isNotBlank() || v.filenameFast.isNotBlank()) {
+            Spacer(Modifier.height(4.dp))
         }
+        mirrors.forEach { m -> MirrorBlock(m, onCopy, onOpen) }
     }
 }
 

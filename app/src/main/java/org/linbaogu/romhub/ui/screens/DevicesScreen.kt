@@ -1,5 +1,6 @@
 package org.linbaogu.romhub.ui.screens
 
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -35,13 +36,18 @@ import org.linbaogu.romhub.data.DeviceItem
 import org.linbaogu.romhub.data.Repo
 import org.linbaogu.romhub.ui.common.Chip
 import org.linbaogu.romhub.ui.common.ErrorHint
+import org.linbaogu.romhub.ui.common.HcDivider
+import org.linbaogu.romhub.ui.common.HcGroup
+import org.linbaogu.romhub.ui.common.HcSearchBar
 import org.linbaogu.romhub.ui.common.Hint
 import org.linbaogu.romhub.ui.common.ListScreen
 import org.linbaogu.romhub.ui.common.SectionLabel
 import org.linbaogu.romhub.ui.common.StateChip
 import top.yukonga.miuix.kmp.basic.Card
+import top.yukonga.miuix.kmp.basic.Icon
 import top.yukonga.miuix.kmp.basic.Text
-import top.yukonga.miuix.kmp.basic.TextField
+import top.yukonga.miuix.kmp.icon.MiuixIcons
+import top.yukonga.miuix.kmp.icon.extended.ChevronForward
 import top.yukonga.miuix.kmp.theme.MiuixTheme
 
 const val HF_IMG = "https://data.hyperos.fans/assets/images/"
@@ -195,12 +201,10 @@ fun DevicesScreen(
         contentPadding = PaddingValues(horizontal = 12.dp),
     ) {
         item {
-            TextField(
+            HcSearchBar(
                 value = typed,
                 onValueChange = { typed = it },
-                label = "搜索机型名、代号或版本号",
-                singleLine = true,
-                modifier = Modifier.fillMaxWidth(),
+                hint = "搜索机型名、代号或版本号",
             )
         }
 
@@ -229,79 +233,76 @@ fun DevicesScreen(
                 },
                 fontSize = MiuixTheme.textStyles.footnote2.fontSize,
                 color = MiuixTheme.colorScheme.onSurfaceVariantSummary,
-                modifier = Modifier.padding(start = 6.dp, top = 2.dp),
+                modifier = Modifier.padding(start = 10.dp, top = 2.dp),
             )
         }
 
+        // HyperCeiler 结构：每个系列一张实底大卡片，设备是卡内的行
         sections.forEach { (group, list) ->
             item(key = "sec_$group") { SectionLabel(group) }
-            items(list, key = { it.code }) { d ->
-                DeviceCard(d) { onOpenDevice(d.code) }
+            item(key = "grp_$group") {
+                HcGroup {
+                    list.forEachIndexed { i, d ->
+                        if (i > 0) HcDivider(startIndent = 16.dp + 52.dp + 14.dp)
+                        DeviceRow(d) { onOpenDevice(d.code) }
+                    }
+                }
             }
         }
     }
 }
 
+/** HyperCeiler 式设备行：圆角方形图标 + 名称/代号 + 细箭头，装在系列大卡片里。 */
 @Composable
-private fun DeviceCard(d: DeviceItem, onClick: () -> Unit) {
+private fun DeviceRow(d: DeviceItem, onClick: () -> Unit) {
     val cs = MiuixTheme.colorScheme
-    Card(onClick = onClick, showIndication = true) {
-        Row(
-            Modifier
-                .fillMaxWidth()
-                .padding(horizontal = 14.dp, vertical = 12.dp),
-            verticalAlignment = Alignment.CenterVertically,
-        ) {
-            DeviceThumb(d, 52.dp)
-            Spacer(Modifier.width(14.dp))
-            Column(Modifier.weight(1f)) {
-                Row(verticalAlignment = Alignment.CenterVertically) {
-                    Text(
-                        text = d.displayName,
-                        fontSize = MiuixTheme.textStyles.body1.fontSize,
-                        fontWeight = FontWeight.Medium,
-                        maxLines = 1,
-                        overflow = TextOverflow.Ellipsis,
-                        modifier = Modifier.weight(1f, fill = false),
-                    )
-                    Spacer(Modifier.width(6.dp))
-                    // 品牌标签走归一后的名字，避免出现裸的 "xiaomi"
-                    StateChip(state = "", textOverride = brandKey(d))
-                }
-                Spacer(Modifier.height(3.dp))
+    Row(
+        Modifier
+            .fillMaxWidth()
+            .clickable(onClick = onClick)
+            .padding(horizontal = 16.dp, vertical = 12.dp),
+        verticalAlignment = Alignment.CenterVertically,
+    ) {
+        DeviceThumb(d, 52.dp)
+        Spacer(Modifier.width(14.dp))
+        Column(Modifier.weight(1f)) {
+            Row(verticalAlignment = Alignment.CenterVertically) {
                 Text(
-                    text = buildString {
-                        append(d.code)
-                        if (d.series.isNotBlank()) append(" · ${d.series}")
-                        if (d.romCount > 0) append(" · ${d.romCount} 个分支")
-                    },
-                    fontSize = MiuixTheme.textStyles.footnote2.fontSize,
-                    color = cs.onSurfaceVariantSummary,
+                    text = d.displayName,
+                    fontSize = MiuixTheme.textStyles.body1.fontSize,
+                    fontWeight = FontWeight.Medium,
                     maxLines = 1,
                     overflow = TextOverflow.Ellipsis,
+                    modifier = Modifier.weight(1f, fill = false),
                 )
-                if (d.latestVersion.isNotBlank()) {
-                    Spacer(Modifier.height(4.dp))
-                    Row(verticalAlignment = Alignment.CenterVertically) {
-                        Text(
-                            text = d.latestVersion,
-                            fontSize = MiuixTheme.textStyles.footnote2.fontSize,
-                            color = cs.primary,
-                            maxLines = 1,
-                            overflow = TextOverflow.Ellipsis,
-                            modifier = Modifier.weight(1f, fill = false),
-                        )
-                        if (d.lastDate.isNotBlank()) {
-                            Spacer(Modifier.width(8.dp))
-                            Text(
-                                text = d.lastDate,
-                                fontSize = MiuixTheme.textStyles.footnote2.fontSize,
-                                color = cs.onSurfaceVariantSummary,
-                            )
-                        }
-                    }
-                }
+                Spacer(Modifier.width(6.dp))
+                // 品牌标签走归一后的名字，避免出现裸的 "xiaomi"
+                StateChip(state = "", textOverride = brandKey(d))
             }
+            Spacer(Modifier.height(3.dp))
+            Text(
+                text = buildString {
+                    append(d.code)
+                    if (d.latestVersion.isNotBlank()) append(" · ${d.latestVersion}")
+                },
+                fontSize = MiuixTheme.textStyles.footnote2.fontSize,
+                color = cs.onSurfaceVariantSummary,
+                maxLines = 1,
+                overflow = TextOverflow.Ellipsis,
+            )
         }
+        Spacer(Modifier.width(8.dp))
+        Text(
+            text = if (d.romCount > 0) "${d.romCount}" else "",
+            fontSize = MiuixTheme.textStyles.footnote2.fontSize,
+            color = cs.onSurfaceVariantSummary,
+        )
+        Spacer(Modifier.width(6.dp))
+        Icon(
+            MiuixIcons.ChevronForward,
+            contentDescription = null,
+            tint = cs.onSurfaceVariantSummary.copy(alpha = 0.55f),
+            modifier = Modifier.size(16.dp),
+        )
     }
 }

@@ -30,6 +30,7 @@ object Prefs {
     private const val K_NOTIFY_LAST_ID = "notify_last_id"
     private const val K_NOTIFY_ON = "notify_enabled"
     private const val K_NOTIFY_PROMPTED = "notify_prompt_shown"
+    private const val K_WELCOME_DONE = "welcome_done"
     private const val K_NOTIFY_PORTS = "notify_ports"
     private const val K_NOTIFY_OFFICIAL = "notify_official"
     private const val K_NAV = "nav_state"
@@ -113,6 +114,15 @@ object Prefs {
 
     fun setNotifyPromptShown(context: Context, shown: Boolean) =
         sp(context).edit { putBoolean(K_NOTIFY_PROMPTED, shown) }
+
+    // ---------------------------------------------------------------- 首次启动引导
+
+    /** HyperCeiler 式欢迎页：看完并同意条款后置 true，之后不再出现。 */
+    fun welcomeDone(context: Context): Boolean =
+        sp(context).getBoolean(K_WELCOME_DONE, false)
+
+    fun setWelcomeDone(context: Context, done: Boolean) =
+        sp(context).edit { putBoolean(K_WELCOME_DONE, done) }
 
     fun setNotifyEnabled(context: Context, on: Boolean) =
         sp(context).edit { putBoolean(K_NOTIFY_ON, on) }

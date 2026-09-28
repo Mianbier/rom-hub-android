@@ -2,6 +2,7 @@ package org.linbaogu.romhub.ui.screens
 
 import org.linbaogu.romhub.ui.notify.openNotificationSettings
 import org.linbaogu.romhub.ui.notify.rememberNotifyPermission
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.lazy.items
@@ -15,6 +16,7 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
@@ -23,11 +25,15 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.Brush
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import org.linbaogu.romhub.BuildConfig
 import org.linbaogu.romhub.core.Prefs
 import org.linbaogu.romhub.core.Role
@@ -80,32 +86,42 @@ fun AboutScreen(
             bottomInnerPadding = bottomInnerPadding,
             contentPadding = PaddingValues(horizontal = 12.dp),
         ) {
-            // ------------------------------------------------ 头部
+            // ------------------------------------------------ 头部（HyperCeiler 式渐变横幅）
             item {
+                val grad = Brush.linearGradient(
+                    listOf(
+                        Color(0xFFF7C8DC),
+                        Color(0xFFC9C4F4),
+                        Color(0xFFB9D4F2),
+                    ),
+                )
                 Column(
-                    Modifier.fillMaxWidth().padding(vertical = 18.dp),
+                    Modifier
+                        .fillMaxWidth()
+                        .clip(RoundedCornerShape(22.dp))
+                        .background(grad)
+                        .padding(vertical = 34.dp),
                     horizontalAlignment = Alignment.CenterHorizontally,
                 ) {
-                    AppLogo(88.dp)
+                    AppLogo(96.dp)
                     Spacer(Modifier.height(14.dp))
                     Text(
                         "ROM Hub",
                         fontSize = MiuixTheme.textStyles.title1.fontSize,
                         fontWeight = FontWeight.Bold,
+                        color = Color(0xFF5B4BC4),
                     )
                     Spacer(Modifier.height(4.dp))
                     Text(
-                        "小米 ROM 索引与社区移植包",
+                        "${BuildConfig.VERSION_NAME} | ${BuildConfig.VERSION_CODE}",
                         fontSize = MiuixTheme.textStyles.footnote1.fontSize,
-                        color = MiuixTheme.colorScheme.onSurfaceVariantSummary,
+                        color = Color(0xFF6B5E9E),
                     )
-                    Spacer(Modifier.height(8.dp))
-                    Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                        Chip("v${BuildConfig.VERSION_NAME}", false) { }
-                        Chip("AGPL-3.0", false) { openUrl(ctx, HelpLinks.LICENSE_URL) }
-                    }
                 }
             }
+
+            // ------------------------------------------------ 本机信息（HyperCeiler 式大卡片）
+            item { DeviceInfoCard() }
 
             // ------------------------------------------------ 关于本应用
             item { SectionLabel("关于本应用") }
@@ -340,9 +356,87 @@ fun AboutScreen(
     }
 }
 
+// ---------------------------------------------------------------- 本机信息
+
+/** 读取系统属性（HyperOS / SoC 型号等不在 Build 里的信息）。 */
+private fun sysProp(key: String): String = runCatching {
+    @Suppress("DiscouragedPrivateApi", "PrivateApi")
+    val sp = Class.forName("android.os.SystemProperties")
+    val get = sp.getMethod("get", String::class.java)
+    (get.invoke(null, key) as? String).orEmpty().trim()
+}.getOrDefault("")
+
+/** HyperOS / MIUI 版本，都没有就退回 Android 版本。 */
+private fun osVersionText(): String {
+    sysProp("ro.mi.os.version.name").takeIf { it.isNotBlank() }?.let { return "HyperOS $it" }
+    sysProp("ro.miui.ui.version.name").takeIf { it.isNotBlank() }?.let { return "MIUI $it" }
+    return "Android ${android.os.Build.VERSION.RELEASE}"
+}
+
+private fun kernelVersion(): String = runCatching {
+    java.io.File("/proc/version").readText().trim()
+        .substringAfter("version ").substringBefore(" (")
+        .ifBlank { "—" }
+}.getOrDefault("—")
+
+/** HyperCeiler 式「本机信息」大卡片：设备名大标题 + 三行「值 + 小灰标签」。 */
 @Composable
-private fun OssCard(item: OssItem, ctx: android.content.Context) {
-    Card(onClick = { openUrl(ctx, item.url) }, showIndication = true) {
+private fun DeviceInfoCard() {
+    val ctx = LocalContext.current
+    val cs = MiuixTheme.colorScheme
+    data class Line(val value: String, val label: String)
+    val lines = remember {
+        val tm = ctx.resources.displayMetrics
+        val osName = osVersionText()
+        buildList {
+            add(Line("${android.os.Build.MANUFACTURER} ${android.os.Build.MODEL}".trim(), "设备型号"))
+            add(Line("Android ${android.os.Build.VERSION.RELEASE}", "Android 版本"))
+            add(Line(osName, "OS 版本"))
+            add(
+                Line(
+                    sysProp("ro.soc.model").ifBlank {
+                        sysProp("ro.board.platform").ifBlank { android.os.Build.HARDWARE }
+                    },
+                    "处理器",
+                ),
+            )
+            add(
+                Line(
+                    "${tm.widthPixels} × ${tm.heightPixels}",
+                    "屏幕分辨率",
+                ),
+            )
+        }
+    }
+    Card {
+        Column(Modifier.padding(horizontal = 20.dp, vertical = 18.dp)) {
+            Text(
+                text = lines.firstOrNull()?.value ?: "—",
+                fontSize = 26.sp,
+                fontWeight = FontWeight.Bold,
+                color = cs.onSurface,
+            )
+            Spacer(Modifier.height(14.dp))
+            lines.forEach { line ->
+                Text(
+                    text = line.value,
+                    fontSize = 17.sp,
+                    fontWeight = FontWeight.Medium,
+                    color = cs.onSurface,
+                )
+                Text(
+                    text = line.label,
+                    fontSize = MiuixTheme.textStyles.footnote2.fontSize,
+                    color = cs.onSurfaceVariantSummary,
+                )
+                Spacer(Modifier.height(10.dp))
+            }
+        }
+    }
+}
+
+@Composable
+private fun OssCard(item: OssItem, ctx: android.content.Context) {    Card(onClick = { openUrl(ctx, item.url) }, showIndication = true) {
         Column(Modifier.padding(14.dp)) {
             Row(verticalAlignment = Alignment.CenterVertically) {
                 Text(

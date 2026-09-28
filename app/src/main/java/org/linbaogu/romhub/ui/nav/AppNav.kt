@@ -33,6 +33,31 @@ class AppNavState(private val persist: (String) -> Unit = {}) {
 
     val stack = mutableStateListOf<Screen>(Screen.Tab(0))
 
+    /**
+     * 与 [stack] 平行的页面唯一 id（自增）。
+     *
+     * 用途：深层页面**常驻 composition** 的 key —— 栈里的页面从不销毁，
+     * 返回时数据/滚动位置/输入框内容原样还在，零重新加载。
+     */
+    val uids = mutableStateListOf<Long>(0L)
+    private var uidSeq = 0L
+
+    /**
+     * 刚被 pop 出去的页面（幽灵层）：返回动画期间仍渲染在最上层播放滑出，
+     * 动画结束后由 [clearGhost] 真正移除。没有它，pop 的瞬间旧页面会直接消失。
+     */
+    var ghost by mutableStateOf<Screen?>(null)
+        private set
+    var ghostUid by mutableStateOf(0L)
+        private set
+
+    fun clearGhost() {
+        ghost = null
+        ghostUid = 0L
+    }
+
+    fun uidAt(index: Int): Long = uids.getOrNull(index) ?: index.toLong()
+
     var tabCount by mutableStateOf(3)
 
     val current: Screen get() = stack.last()
@@ -41,29 +66,43 @@ class AppNavState(private val persist: (String) -> Unit = {}) {
 
     val currentTab: Int get() = (stack.firstOrNull() as? Screen.Tab)?.index ?: 0
 
+    private fun resetIds() {
+        uids.clear()
+        uids.add(++uidSeq)
+    }
+
     fun switchTab(index: Int) {
         if (index !in 0 until tabCount) return
         stack.clear()
         stack.add(Screen.Tab(index))
+        resetIds()
+        clearGhost()
         save()
     }
 
     fun push(screen: Screen) {
         if (stack.size > 24) return
         stack.add(screen)
+        uids.add(++uidSeq)
         save()
     }
 
     fun replaceTop(screen: Screen) {
         if (stack.isNotEmpty()) stack.removeAt(stack.lastIndex)
         stack.add(screen)
+        // replaceTop 语义上是"换一页"，给它新 id，旧状态不恢复
+        if (uids.isNotEmpty()) uids[uids.lastIndex] = ++uidSeq else uids.add(++uidSeq)
         save()
     }
 
     /** @return true 表示已消费；false 表示该交给系统了 */
     fun back(): Boolean {
         if (stack.size > 1) {
+            // 被弹出的页面先进幽灵层播放滑出动画，等动画结束再真正销毁
+            ghost = stack.last()
+            ghostUid = uids.last()
             stack.removeAt(stack.lastIndex)
+            if (uids.size > stack.size) uids.removeAt(uids.lastIndex)
             save()
             return true
         }
@@ -77,7 +116,11 @@ class AppNavState(private val persist: (String) -> Unit = {}) {
 
     fun toRoot() {
         if (stack.size <= 1) return
+        // 连续弹多层：只留最顶那个做幽灵动画，其余直接销毁
+        ghost = stack.last()
+        ghostUid = uids.last()
         while (stack.size > 1) stack.removeAt(stack.lastIndex)
+        while (uids.size > 1) uids.removeAt(uids.lastIndex)
         save()
     }
 
@@ -113,6 +156,9 @@ class AppNavState(private val persist: (String) -> Unit = {}) {
         if ((head as Screen.Tab).index !in 0 until tabCount) fixed[0] = Screen.Tab(0)
         stack.clear()
         stack.addAll(fixed)
+        // 恢复的栈没有历史 id，逐层重新分配（进程被杀后 saveable 状态本就没了）
+        resetIds()
+        repeat(fixed.size - 1) { uids.add(++uidSeq) }
     }
 
     private fun decodeScreen(s: String): Screen? = when (s.firstOrNull()) {

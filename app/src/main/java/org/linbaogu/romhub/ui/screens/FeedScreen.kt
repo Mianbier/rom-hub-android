@@ -1,5 +1,9 @@
 package org.linbaogu.romhub.ui.screens
 
+import androidx.compose.foundation.clickable
+import org.linbaogu.romhub.ui.common.HcDivider
+import org.linbaogu.romhub.ui.common.HcGroup
+import top.yukonga.miuix.kmp.icon.extended.ChevronForward
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
@@ -135,26 +139,37 @@ fun FeedScreen(
             item { Hint("这个筛选下暂无动态") }
         }
 
-        var lastDay = ""
-        shown.forEach { u ->
-            val day = u.shortDate.substringBefore(' ').ifBlank { u.detectedAt.take(10) }
-            if (day != lastDay) {
-                lastDay = day
-                item(key = "day_${day}_${u.id}") { SectionLabel(day) }
-            }
-            item(key = u.id) {
-                FeedCard(u) { onOpenVersion(u) }
+        // HyperCeiler 结构：同一天的动态装进一张实底大卡片，每条是一行
+        // ⚠ LazyListScope 的 content 不是 @Composable 上下文，这里不能 remember
+        val grouped = shown.groupBy { u ->
+            u.shortDate.substringBefore(' ').ifBlank { u.detectedAt.take(10) }
+        }
+        grouped.forEach { (day, list) ->
+            item(key = "day_$day") { SectionLabel(day) }
+            item(key = "grp_$day") {
+                HcGroup {
+                    list.forEachIndexed { i, u ->
+                        if (i > 0) HcDivider(startIndent = 16.dp)
+                        FeedRow(u) { onOpenVersion(u) }
+                    }
+                }
             }
         }
     }
 }
 
 @Composable
-private fun FeedCard(u: RomUpdate, onClick: () -> Unit) {
+private fun FeedRow(u: RomUpdate, onClick: () -> Unit) {
     val cs = MiuixTheme.colorScheme
     val label = kindLabel(u.kind, u.kindZh, u.state)
-    Card(onClick = onClick, showIndication = true) {
-        Column(Modifier.padding(horizontal = 14.dp, vertical = 12.dp)) {
+    Row(
+        Modifier
+            .fillMaxWidth()
+            .clickable(onClick = onClick)
+            .padding(horizontal = 16.dp, vertical = 12.dp),
+        verticalAlignment = Alignment.CenterVertically,
+    ) {
+        Column(Modifier.weight(1f)) {
             Row(verticalAlignment = Alignment.CenterVertically) {
                 Text(
                     text = u.deviceName.ifBlank { u.codename },
@@ -223,5 +238,12 @@ private fun FeedCard(u: RomUpdate, onClick: () -> Unit) {
                 color = cs.onSurfaceVariantSummary,
             )
         }
+        Spacer(Modifier.width(8.dp))
+        Icon(
+            MiuixIcons.ChevronForward,
+            contentDescription = null,
+            tint = cs.onSurfaceVariantSummary.copy(alpha = 0.55f),
+            modifier = Modifier.size(16.dp),
+        )
     }
 }

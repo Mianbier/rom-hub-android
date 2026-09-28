@@ -9,7 +9,6 @@ import androidx.compose.foundation.layout.WindowInsetsSides
 import androidx.compose.foundation.layout.add
 import androidx.compose.foundation.layout.displayCutout
 import androidx.compose.foundation.layout.fillMaxHeight
-import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.only
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.systemBars
@@ -21,7 +20,6 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.input.nestedscroll.nestedScroll
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
-import org.linbaogu.romhub.ui.effect.BgEffectBackground
 import top.yukonga.miuix.kmp.basic.Icon
 import top.yukonga.miuix.kmp.basic.IconButton
 import top.yukonga.miuix.kmp.basic.MiuixScrollBehavior
@@ -91,14 +89,10 @@ fun ListScreen(
             .add(WindowInsets.displayCutout)
             .only(WindowInsetsSides.Horizontal),
     ) { innerPadding ->
-        // ② 采样层：极光 + 列表都在里面
+        // ② 采样层：列表内容（光效已提升到 AppRoot 全局层，页面保持透明，
+        //    顶栏玻璃这里采样到的是列表滚动内容）
         Box(modifier = if (barBackdrop != null) Modifier.layerBackdrop(barBackdrop) else Modifier) {
-            BgEffectBackground(
-                dynamicBackground = true,
-                modifier = Modifier.fillMaxSize(),
-                isFullSize = true,
-            ) {
-                LazyColumn(
+            LazyColumn(
                     modifier = Modifier
                         .fillMaxHeight()
                         .scrollEndHaptic()
@@ -114,7 +108,6 @@ fun ListScreen(
                         Box(Modifier.padding(top = bottomInnerPadding + 12.dp))
                     }
                 }
-            }
         }
     }
 }

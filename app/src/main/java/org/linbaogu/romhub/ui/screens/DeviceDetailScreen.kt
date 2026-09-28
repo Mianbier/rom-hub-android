@@ -3,6 +3,13 @@ package org.linbaogu.romhub.ui.screens
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.clickable
+import org.linbaogu.romhub.ui.common.HcDivider
+import org.linbaogu.romhub.ui.common.HcGroup
+import top.yukonga.miuix.kmp.basic.Icon
+import top.yukonga.miuix.kmp.icon.MiuixIcons
+import top.yukonga.miuix.kmp.icon.extended.ChevronForward
+import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
@@ -145,38 +152,58 @@ fun DeviceDetailScreen(
 
         if (ports.isNotEmpty()) {
             item { SectionLabel("社区移植包（${ports.size}）") }
-            items(ports, key = { "p${it.id}" }) { p ->
-                Card(onClick = { onOpenPort(p.id) }, showIndication = true) {
-                    Column(Modifier.padding(horizontal = 14.dp, vertical = 12.dp)) {
-                        Row(verticalAlignment = Alignment.CenterVertically) {
-                            StateChip(state = "移植包")
-                            if (p.portType.isNotBlank()) {
-                                Spacer(Modifier.width(6.dp))
+            item {
+                HcGroup {
+                    ports.forEachIndexed { i, p ->
+                        if (i > 0) HcDivider(startIndent = 16.dp)
+                        Row(
+                            Modifier
+                                .fillMaxWidth()
+                                .clickable { onOpenPort(p.id) }
+                                .padding(horizontal = 16.dp, vertical = 12.dp),
+                            verticalAlignment = Alignment.CenterVertically,
+                        ) {
+                            Column(Modifier.weight(1f)) {
+                                Row(verticalAlignment = Alignment.CenterVertically) {
+                                    StateChip(state = "移植包")
+                                    if (p.portType.isNotBlank()) {
+                                        Spacer(Modifier.width(6.dp))
+                                        Text(
+                                            p.portType,
+                                            fontSize = MiuixTheme.textStyles.footnote2.fontSize,
+                                            color = MiuixTheme.colorScheme.onSurfaceVariantSummary,
+                                        )
+                                    }
+                                }
+                                Spacer(Modifier.height(4.dp))
                                 Text(
-                                    p.portType,
+                                    p.title.ifBlank { p.fileName },
+                                    fontSize = MiuixTheme.textStyles.body1.fontSize,
+                                    fontWeight = FontWeight.Medium,
+                                    maxLines = 1,
+                                    overflow = TextOverflow.Ellipsis,
+                                )
+                                Spacer(Modifier.height(2.dp))
+                                Text(
+                                    text = listOfNotNull(
+                                        p.author.takeIf { it.isNotBlank() }?.let { "作者 $it" },
+                                        p.fileSize.takeIf { it.isNotBlank() },
+                                        p.shortDate.takeIf { it.isNotBlank() },
+                                    ).joinToString(" · "),
                                     fontSize = MiuixTheme.textStyles.footnote2.fontSize,
                                     color = MiuixTheme.colorScheme.onSurfaceVariantSummary,
+                                    maxLines = 1,
+                                    overflow = TextOverflow.Ellipsis,
                                 )
                             }
+                            Spacer(Modifier.width(8.dp))
+                            Icon(
+                                MiuixIcons.ChevronForward,
+                                contentDescription = null,
+                                tint = MiuixTheme.colorScheme.onSurfaceVariantSummary.copy(alpha = 0.55f),
+                                modifier = Modifier.size(16.dp),
+                            )
                         }
-                        Spacer(Modifier.height(6.dp))
-                        Text(
-                            p.title.ifBlank { p.fileName },
-                            fontSize = MiuixTheme.textStyles.footnote1.fontSize,
-                            fontWeight = FontWeight.Medium,
-                            maxLines = 2,
-                            overflow = TextOverflow.Ellipsis,
-                        )
-                        Spacer(Modifier.height(2.dp))
-                        Text(
-                            text = listOfNotNull(
-                                p.author.takeIf { it.isNotBlank() }?.let { "作者 $it" },
-                                p.fileSize.takeIf { it.isNotBlank() },
-                                p.shortDate.takeIf { it.isNotBlank() },
-                            ).joinToString(" · "),
-                            fontSize = MiuixTheme.textStyles.footnote2.fontSize,
-                            color = MiuixTheme.colorScheme.onSurfaceVariantSummary,
-                        )
                     }
                 }
             }
@@ -184,43 +211,51 @@ fun DeviceDetailScreen(
 
         if (roms.isNotEmpty()) {
             item { SectionLabel("官方包（按地区 × 分支）") }
-            items(roms, key = { it.id }) { r ->
-                Card(onClick = { onOpenVersions(r) }, showIndication = true) {
-                    Row(
-                        Modifier
-                            .fillMaxWidth()
-                            .padding(horizontal = 14.dp, vertical = 12.dp),
-                        verticalAlignment = Alignment.CenterVertically,
-                    ) {
-                        Column(Modifier.weight(1f)) {
-                            Row(verticalAlignment = Alignment.CenterVertically) {
-                                StateChip(state = "", textOverride = r.regionZh.ifBlank { r.region })
-                                Spacer(Modifier.width(6.dp))
-                                StateChip(state = "", textOverride = r.branchZh.ifBlank { r.branch })
+            item {
+                HcGroup {
+                    roms.forEachIndexed { i, r ->
+                        if (i > 0) HcDivider(startIndent = 16.dp)
+                        Row(
+                            Modifier
+                                .fillMaxWidth()
+                                .clickable { onOpenVersions(r) }
+                                .padding(horizontal = 16.dp, vertical = 12.dp),
+                            verticalAlignment = Alignment.CenterVertically,
+                        ) {
+                            Column(Modifier.weight(1f)) {
+                                Row(verticalAlignment = Alignment.CenterVertically) {
+                                    StateChip(state = "", textOverride = r.regionZh.ifBlank { r.region })
+                                    Spacer(Modifier.width(6.dp))
+                                    StateChip(state = "", textOverride = r.branchZh.ifBlank { r.branch })
+                                }
+                                Spacer(Modifier.height(4.dp))
+                                Text(
+                                    text = r.latestVersion.ifBlank { "暂无版本号" },
+                                    fontSize = MiuixTheme.textStyles.body1.fontSize,
+                                    fontWeight = FontWeight.Medium,
+                                    maxLines = 1,
+                                    overflow = TextOverflow.Ellipsis,
+                                )
+                                Spacer(Modifier.height(2.dp))
+                                Text(
+                                    text = listOfNotNull(
+                                        r.latestDate.takeIf { it.isNotBlank() },
+                                        if (r.versionCount > 0) "${r.versionCount} 个版本" else null,
+                                    ).joinToString(" · "),
+                                    fontSize = MiuixTheme.textStyles.footnote2.fontSize,
+                                    color = MiuixTheme.colorScheme.onSurfaceVariantSummary,
+                                    maxLines = 1,
+                                    overflow = TextOverflow.Ellipsis,
+                                )
                             }
-                            Spacer(Modifier.height(6.dp))
-                            Text(
-                                text = r.latestVersion.ifBlank { "暂无版本号" },
-                                fontSize = MiuixTheme.textStyles.footnote1.fontSize,
-                                fontWeight = FontWeight.Medium,
-                                maxLines = 1,
-                                overflow = TextOverflow.Ellipsis,
-                            )
-                            Spacer(Modifier.height(2.dp))
-                            Text(
-                                text = listOfNotNull(
-                                    r.latestDate.takeIf { it.isNotBlank() },
-                                    if (r.versionCount > 0) "${r.versionCount} 个版本" else null,
-                                ).joinToString(" · "),
-                                fontSize = MiuixTheme.textStyles.footnote2.fontSize,
-                                color = MiuixTheme.colorScheme.onSurfaceVariantSummary,
+                            Spacer(Modifier.width(8.dp))
+                            Icon(
+                                MiuixIcons.ChevronForward,
+                                contentDescription = null,
+                                tint = MiuixTheme.colorScheme.onSurfaceVariantSummary.copy(alpha = 0.55f),
+                                modifier = Modifier.size(16.dp),
                             )
                         }
-                        Text(
-                            "›",
-                            fontSize = MiuixTheme.textStyles.title3.fontSize,
-                            color = MiuixTheme.colorScheme.onSurfaceVariantSummary,
-                        )
                     }
                 }
             }

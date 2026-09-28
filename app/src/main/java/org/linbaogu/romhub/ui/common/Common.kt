@@ -12,11 +12,14 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.defaultMinSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.foundation.text.BasicTextField
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -24,10 +27,17 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
+import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import org.linbaogu.romhub.data.Mirror
 import org.linbaogu.romhub.data.RomVersion
+import top.yukonga.miuix.kmp.basic.Card
+import top.yukonga.miuix.kmp.basic.HorizontalDivider
+import top.yukonga.miuix.kmp.basic.Icon
 import top.yukonga.miuix.kmp.basic.Text
+import top.yukonga.miuix.kmp.icon.MiuixIcons
+import top.yukonga.miuix.kmp.icon.extended.ChevronForward
+import top.yukonga.miuix.kmp.icon.extended.Search
 import top.yukonga.miuix.kmp.theme.MiuixTheme
 
 // ---------------------------------------------------------------- 镜像
@@ -202,14 +212,168 @@ val CardPadding = PaddingValues(horizontal = 14.dp, vertical = 12.dp)
 
 @Composable
 fun SectionLabel(text: String) {
+    // HyperCeiler 的分组标题：主色小字，卡片上方左侧
     Text(
         text = text,
-        color = MiuixTheme.colorScheme.onBackgroundVariant,
+        color = MiuixTheme.colorScheme.primary,
         fontSize = MiuixTheme.textStyles.footnote1.fontSize,
         fontWeight = FontWeight.Medium,
-        modifier = Modifier.padding(start = 6.dp, top = 14.dp, bottom = 6.dp),
+        modifier = Modifier.padding(start = 10.dp, top = 16.dp, bottom = 8.dp),
     )
 }
 
 @Composable
 fun VSpace(h: Int) = Spacer(Modifier.height(h.dp))
+
+// ---------------------------------------------------------------- HyperCeiler 式分组卡片
+
+/**
+ * HyperCeiler 的列表结构：**一张实底大卡片里装多个行**，行与行之间细分割线，
+ * 而不是每行一张散卡片。
+ *
+ * 用法：
+ * ```
+ * HcGroup {
+ *     HcRow(title = "系统框架", subtitle = "system", onClick = { ... })
+ *     HcDivider()
+ *     HcRow(...)
+ * }
+ * ```
+ */
+@Composable
+fun HcGroup(
+    modifier: Modifier = Modifier,
+    content: @Composable () -> Unit,
+) {
+    Card(modifier = modifier.fillMaxWidth()) {
+        Column(modifier = Modifier.fillMaxWidth()) {
+            content()
+        }
+    }
+}
+
+/** 行之间的细分割线（HyperCeiler：左侧缩进对齐文字）。 */
+@Composable
+fun HcDivider(startIndent: Dp = 16.dp) {
+    HorizontalDivider(
+        modifier = Modifier.padding(start = startIndent),
+        color = MiuixTheme.colorScheme.dividerLine,
+        thickness = 0.5.dp,
+    )
+}
+
+/**
+ * HyperCeiler 式列表行：标题 + 副标题 + 右侧自定义内容（默认细箭头）。
+ * 点击整行生效；不传 onClick 就是纯展示行。
+ */
+@Composable
+fun HcRow(
+    title: String,
+    subtitle: String = "",
+    trailing: @Composable (() -> Unit)? = null,
+    showArrow: Boolean = false,
+    onClick: (() -> Unit)? = null,
+    minHeight: Dp = 56.dp,
+) {
+    val cs = MiuixTheme.colorScheme
+    val row: @Composable () -> Unit = {
+        Row(
+            Modifier
+                .fillMaxWidth()
+                .defaultMinSize(minHeight = minHeight)
+                .padding(horizontal = 16.dp, vertical = 12.dp),
+            verticalAlignment = Alignment.CenterVertically,
+        ) {
+            Column(Modifier.weight(1f)) {
+                Text(
+                    title,
+                    fontSize = MiuixTheme.textStyles.body1.fontSize,
+                    color = cs.onSurface,
+                )
+                if (subtitle.isNotBlank()) {
+                    Spacer(Modifier.height(2.dp))
+                    Text(
+                        subtitle,
+                        fontSize = MiuixTheme.textStyles.footnote2.fontSize,
+                        color = cs.onSurfaceVariantSummary,
+                        maxLines = 1,
+                        overflow = TextOverflow.Ellipsis,
+                    )
+                }
+            }
+            if (trailing != null) {
+                Spacer(Modifier.width(8.dp))
+                trailing()
+            }
+            if (showArrow) {
+                Spacer(Modifier.width(4.dp))
+                Icon(
+                    MiuixIcons.ChevronForward,
+                    contentDescription = null,
+                    tint = cs.onSurfaceVariantSummary.copy(alpha = 0.55f),
+                    modifier = Modifier.size(16.dp),
+                )
+            }
+        }
+    }
+    if (onClick != null) {
+        Box(
+            Modifier
+                .fillMaxWidth()
+                .clip(RoundedCornerShape(0.dp))
+                .clickable(onClick = onClick),
+        ) { row() }
+    } else {
+        row()
+    }
+}
+
+/** HyperCeiler 式搜索框：全宽胶囊、浅灰底、左侧放大镜。 */
+@Composable
+fun HcSearchBar(
+    value: String,
+    onValueChange: (String) -> Unit,
+    hint: String,
+    modifier: Modifier = Modifier,
+) {
+    val cs = MiuixTheme.colorScheme
+    Row(
+        modifier
+            .fillMaxWidth()
+            .clip(RoundedCornerShape(50))
+            .background(cs.surfaceVariant.copy(alpha = 0.65f))
+            .padding(horizontal = 16.dp, vertical = 12.dp),
+        verticalAlignment = Alignment.CenterVertically,
+    ) {
+        Icon(
+            MiuixIcons.Search,
+            contentDescription = null,
+            tint = cs.onSurfaceVariantSummary,
+            modifier = Modifier.size(18.dp),
+        )
+        Spacer(Modifier.width(10.dp))
+        BasicTextField(
+            value = value,
+            onValueChange = onValueChange,
+            singleLine = true,
+            textStyle = androidx.compose.ui.text.TextStyle(
+                fontSize = MiuixTheme.textStyles.body2.fontSize,
+                color = cs.onSurface,
+            ),
+            cursorBrush = androidx.compose.ui.graphics.SolidColor(cs.primary),
+            decorationBox = { inner ->
+                Box {
+                    if (value.isEmpty()) {
+                        Text(
+                            hint,
+                            fontSize = MiuixTheme.textStyles.body2.fontSize,
+                            color = cs.onSurfaceVariantSummary,
+                        )
+                    }
+                    inner()
+                }
+            },
+            modifier = Modifier.weight(1f),
+        )
+    }
+}

@@ -8,6 +8,8 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.isActive
 import kotlinx.coroutines.launch
 import org.linbaogu.romhub.BuildConfig
 import org.linbaogu.romhub.core.Prefs
@@ -29,6 +31,9 @@ import top.yukonga.miuix.kmp.icon.extended.Update
 import top.yukonga.miuix.kmp.icon.extended.UploadCloud
 
 data class TabSpec(val title: String, val icon: ImageVector)
+
+/** 前台动态轮询间隔（毫秒）。 */
+private const val FEED_POLL_MS = 30_000L
 
 class AppViewModel(app: Application) : AndroidViewModel(app) {
 
@@ -84,7 +89,33 @@ class AppViewModel(app: Application) : AndroidViewModel(app) {
 
         NotifyScheduler.schedule(ctx)
         viewModelScope.launch { runCatching { stats = Repo.stats(ctx) } }
-        viewModelScope.launch { runCatching { Repo.refreshFeed(ctx) ; unread = Repo.unreadCount(ctx) } }
+        // 实时动态：前台每 30 秒拉一次，新动态立刻反映到未读数（底栏小红点）
+        startRealtimeFeed()
+    }
+
+    // ------------------------------------------------------------ 实时动态
+
+    /**
+     * 前台实时刷新动态。
+     *
+     * 以前只有启动时拉一次、且 onResume 只读本地缓存的旧值 —— 用户上传了包
+     * 之后 App 里毫无反应，底栏小红点也永远是 0。现在改成：
+     *  ① 先补建「已读基线」（首次安装或后台 Worker 没跑起来时永远没基线，
+     *     导致未读数恒为 0、红点从不出现）；
+     *  ② 之后每 30 秒拉一次服务端，有新条目就更新未读数并发通知。
+     */
+    private fun startRealtimeFeed() {
+        viewModelScope.launch {
+            // ① 基线必须先有，否则新条目永远不会算成未读
+            runCatching { Repo.initFeedBaselineIfNeeded(ctx) }
+            while (isActive) {
+                runCatching {
+                    Repo.refreshFeed(ctx)
+                    unread = Repo.unreadCount(ctx)
+                }
+                delay(FEED_POLL_MS)
+            }
+        }
     }
 
     // ------------------------------------------------------------ 会话
@@ -184,6 +215,16 @@ class AppViewModel(app: Application) : AndroidViewModel(app) {
 
     fun refreshUnread() {
         unread = Repo.unreadCount(ctx)
+    }
+
+    /** 立刻拉一次动态（从后台切回前台时调，比等轮询更快感知新内容）。 */
+    fun refreshFeedNow() {
+        viewModelScope.launch {
+            runCatching {
+                Repo.refreshFeed(ctx)
+                unread = Repo.unreadCount(ctx)
+            }
+        }
     }
 
     // ------------------------------------------------------------ App 自检更新

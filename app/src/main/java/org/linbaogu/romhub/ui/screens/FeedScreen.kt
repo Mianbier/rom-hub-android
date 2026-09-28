@@ -86,6 +86,18 @@ fun FeedScreen(
         }
     }
 
+    // 实时：停在动态页时每 20 秒拉一次，新动态自己冒出来（不用手动刷新）
+    LaunchedEffect(state) {
+        while (true) {
+            kotlinx.coroutines.delay(20_000)
+            if (state != "全部") continue
+            runCatching {
+                val fresh = Repo.refreshFeed(ctx, limit = 120).items
+                if (fresh.firstOrNull()?.id != items.firstOrNull()?.id) items = fresh
+            }
+        }
+    }
+
     // 看过了就清小红点
     LaunchedEffect(items.size) {
         if (items.isNotEmpty()) onSeen()

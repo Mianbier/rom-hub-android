@@ -58,8 +58,13 @@ object Repo {
         old.forEach { if (!merged.containsKey(it.id)) merged[it.id] = it }
         val sorted = merged.values.sortedByDescending { it.id }.take(FEED_KEEP)
 
-        val maxSeen = Prefs.feedMaxSeenId(ctx)
-        val unread = if (maxSeen <= 0L) 0 else sorted.count { it.id > maxSeen }
+        // ⚠ 首次拿到数据时必须先建「已读基线」：原来 maxSeen 为 0 时未读恒为 0，
+        //   于是之后的新动态永远不算未读、底栏小红点永远不出现。
+        if (Prefs.feedMaxSeenId(ctx) <= 0L) {
+            val maxNow = sorted.maxOfOrNull { it.id } ?: 0L
+            if (maxNow > 0L) Prefs.setFeedMaxSeenId(ctx, maxNow)
+        }
+        val unread = sorted.count { it.id > Prefs.feedMaxSeenId(ctx) }
 
         val result = RomUpdateListResp(
             total = sorted.size,

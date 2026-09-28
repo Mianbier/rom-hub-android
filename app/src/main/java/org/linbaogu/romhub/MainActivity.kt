@@ -39,7 +39,8 @@ class MainActivity : ComponentActivity() {
     override fun onResume() {
         super.onResume()
         vm.refreshSession()
-        vm.refreshUnread()
+        // 实时：切回前台立刻拉一次动态（含未读数，底栏小红点）
+        vm.refreshFeedNow()
         vm.refreshStats()
     }
 }

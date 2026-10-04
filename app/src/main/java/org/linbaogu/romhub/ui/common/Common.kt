@@ -328,8 +328,56 @@ fun HcRow(
     }
 }
 
-/** HyperCeiler 式搜索框：全宽胶囊、浅灰底、左侧放大镜。 */
+/**
+ * 「标题 —— 右侧值」的设置行，右侧带一个小箭头。
+ *
+ * 和 [HcRow] 的区别：这个更紧凑、值是短文本（「8 线程」「已登录」），
+ * 用于设置页里那种一列排下来的选项。
+ */
 @Composable
+fun HyphenRow(
+    label: String,
+    value: String,
+    onClick: (() -> Unit)? = null,
+) {
+    val cs = MiuixTheme.colorScheme
+    val row: @Composable () -> Unit = {
+        Row(
+            Modifier
+                .fillMaxWidth()
+                .padding(horizontal = 16.dp, vertical = 14.dp),
+            verticalAlignment = Alignment.CenterVertically,
+        ) {
+            Text(
+                label,
+                fontSize = MiuixTheme.textStyles.body1.fontSize,
+                color = cs.onSurface,
+                modifier = Modifier.weight(1f),
+            )
+            Text(
+                value,
+                fontSize = MiuixTheme.textStyles.footnote1.fontSize,
+                color = cs.onSurfaceVariantSummary,
+            )
+            if (onClick != null) {
+                Spacer(Modifier.size(4.dp))
+                Icon(
+                    MiuixIcons.ChevronForward,
+                    contentDescription = null,
+                    tint = cs.onSurfaceVariantSummary.copy(alpha = 0.55f),
+                    modifier = Modifier.size(16.dp),
+                )
+            }
+        }
+    }
+    if (onClick != null) {
+        Box(Modifier.fillMaxWidth().clickable(onClick = onClick)) { row() }
+    } else {
+        row()
+    }
+}
+
+/** HyperCeiler 式搜索框：全宽胶囊、浅灰底、左侧放大镜。 */@Composable
 fun HcSearchBar(
     value: String,
     onValueChange: (String) -> Unit,

@@ -42,6 +42,8 @@ fun AppUpdateDialog(
     currentName: String,
     onDownload: (String) -> Unit,
     onLater: () -> Unit,
+    /** 用内置多线程下载器下（比浏览器快、能断点续传）；为空则只显示浏览器那一项 */
+    onDownloadWithApp: ((String) -> Unit)? = null,
 ) {
     Dialog(
         onDismissRequest = { if (!info.force) onLater() },
@@ -102,7 +104,19 @@ fun AppUpdateDialog(
                 )
 
                 Spacer(Modifier.height(18.dp))
-                PrimaryButton("下载 v${info.versionName}") { onDownload(info.url) }
+                if (onDownloadWithApp != null) {
+                    PrimaryButton("用下载器下载 v${info.versionName}") { onDownloadWithApp(info.url) }
+                    Spacer(Modifier.height(6.dp))
+                    Text(
+                        "内置多线程下载器：快、能续传，下完在「网盘下载器 → 下载」里能看到进度。",
+                        fontSize = MiuixTheme.textStyles.footnote2.fontSize,
+                        color = MiuixTheme.colorScheme.onSurfaceVariantSummary,
+                    )
+                    Spacer(Modifier.height(6.dp))
+                    GhostButton("用浏览器下载") { onDownload(info.url) }
+                } else {
+                    PrimaryButton("下载 v${info.versionName}") { onDownload(info.url) }
+                }
                 if (!info.force) {
                     Spacer(Modifier.height(6.dp))
                     GhostButton("以后再说") { onLater() }

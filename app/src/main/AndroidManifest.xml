@@ -6,9 +6,23 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <!-- 下载：前台服务保活 + 唤醒锁（任务全停就自己退出，不常驻） -->
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <!-- 下载文件要落到公共 Download/rom-hub/：
+         Android 10 及以下用 WRITE_EXTERNAL_STORAGE，11+ 用「所有文件访问」(MANAGE_EXTERNAL_STORAGE)。
+         后者需要用户到系统设置页手动开，首次进 App 会引导。 -->
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="29" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+    <uses-permission
+        android:name="android.permission.MANAGE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
 
     <application
         android:name=".RomHubApp"
@@ -23,6 +37,11 @@
         android:networkSecurityConfig="@xml/network_security_config"
         android:theme="@style/Theme.RomHub">
 
+        <service
+            android:name=".download.DownloadService"
+            android:exported="false"
+            android:foregroundServiceType="dataSync" />
+
         <activity
             android:name=".MainActivity"
             android:exported="true"
@@ -34,12 +53,33 @@
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
 
-        <service
-            android:name=".notify.NotifyForegroundService"
-            android:exported="false"
-            android:foregroundServiceType="dataSync" />
+            <!-- 自有深链：romhub://download?url=...（外部 App 也能唤起下载） -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="romhub" />
+            </intent-filter>
+
+            <!-- 网盘分享链接：在浏览器/其他 App 里点链接时，能选「用 ROM Hub 打开」
+                 直接进下载页并开始解析下载。只认这几家的域名，不会抢别的链接。 -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="https" android:host="pan.quark.cn" />
+                <data android:scheme="https" android:host="drive.uc.cn" />
+                <data android:scheme="https" android:host="pan.baidu.com" />
+                <data android:scheme="https" android:host="115.com" />
+                <data android:scheme="https" android:host="115cdn.com" />
+                <data android:scheme="https" android:host="115rc.com" />
+                <data android:scheme="https" android:host="www.123pan.com" />
+                <data android:scheme="https" android:host="www.123865.com" />
+                <data android:scheme="https" android:host="yun.139.com" />
+                <data android:scheme="https" android:host="pan.xunlei.com" />
+            </intent-filter>
+        </activity>
 
         <receiver
             android:name=".notify.BootReceiver"

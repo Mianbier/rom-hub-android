@@ -117,6 +117,39 @@ object OssCredits {
         ),
     )
 
+    /**
+     * ROM 数据包来源站点的署名清单。
+     *
+     * 这些信息**不是我编的**：直接取自各自站点页脚/关于页的公开署名，
+     * ROM Hub 只是搬运它们的包链接，必须在「关于」页把人名字摆出来。
+     */
+    data class SourceCredit(
+        /** 站点名 */
+        val site: String,
+        val siteUrl: String,
+        /** 一行总述 */
+        val summary: String,
+        /** 逐位贡献者：姓名 → 贡献 */
+        val people: List<Pair<String, String>>,
+    )
+
+    object RomSourceCredits {
+
+        /** RomCloud —— 多品牌 ROM 包源（小米 / Redmi / OPPO / 一加 / Realme / 魅族 / 联想） */
+        val romCloud = SourceCredit(
+            site = "RomCloud",
+            siteUrl = "https://roms.lian86.top/",
+            summary = "OPPO、一加、Realme、魅族、联想等品牌的 ROM 包索引与包链接来源。",
+            people = listOf(
+                "Tech_Sky" to "网站编写与维护",
+                "可怜太可怜" to "部分 ROM 资源提供",
+                "桜酱没有未来" to "ColorOS 16 ROM 爬取与下载接口解析技术支持",
+            ),
+        )
+
+        val all: List<SourceCredit> get() = listOf(romCloud)
+    }
+
     /** 数据来源 */
     val dataSources: List<OssItem> = listOf(
         OssItem(
@@ -142,6 +175,13 @@ object OssCredits {
             license = "权利人所有",
             url = "https://www.mi.com/",
             note = "官方固件直链与官方公告",
+        ),
+        OssItem(
+            name = "RomCloud（roms.lian86.top）",
+            license = "第三方站点数据",
+            url = "https://roms.lian86.top/",
+            author = "Tech_Sky（网站编写与维护）· 可怜太可怜（部分 ROM 资源）· 桜酱没有未来（ColorOS 接口解析）",
+            note = "OPPO / 一加 / Realme / 魅族 / 联想 等多品牌 ROM 包索引与包链接来源",
         ),
     )
 

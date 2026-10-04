@@ -1,15 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  全部走 https，且只信任系统证书。
+  为什么要放开明文：
+  服务端可以跑在电脑上，也可以直接跑在手机本机（127.0.0.1:8787）。
+  手机本机 / 局域网这种场景只能是 http；如果禁掉明文，App 会直接连不上自建服务，
+  表现就是「手机明明跑着服务，App 却提示服务不可用」。
 
-  改动原因：这份配置原先是为了「用户可以把服务地址改成局域网 http://192.168.x.x:8787」
-  才放开明文流量、并信任用户自行安装的 CA。该入口已移除、服务器地址固定为 https，
-  所以明文和用户 CA 两项都不再需要 —— 留着等于给发布版留一个中间人攻击的口子。
+  安全边界：仍然只信任系统证书（不信任用户自装 CA），外网域名的中间人门槛没被降低。
 -->
 <network-security-config>
-    <base-config cleartextTrafficPermitted="false">
+    <base-config cleartextTrafficPermitted="true">
         <trust-anchors>
             <certificates src="system" />
         </trust-anchors>
     </base-config>
+
+    <!-- 本机自建服务：手机跑服务端时走这里，不受网络切换影响 -->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="false">127.0.0.1</domain>
+        <domain includeSubdomains="false">localhost</domain>
+    </domain-config>
 </network-security-config>

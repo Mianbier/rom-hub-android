@@ -42,5 +42,13 @@ class MainActivity : ComponentActivity() {
         // 实时：切回前台立刻拉一次动态（含未读数，底栏小红点）
         vm.refreshFeedNow()
         vm.refreshStats()
+        // 接上实时更新通道（服务端有新包会立刻推过来）
+        vm.onForeground()
+    }
+
+    override fun onPause() {
+        super.onPause()
+        // 离开前台：断开实时通道，改由系统调度的兜底轮询接管
+        vm.onBackground()
     }
 }

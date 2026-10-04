@@ -128,11 +128,14 @@ object Repo {
 
     private const val K_SEEN_PORTS = "seen_port_ids"
 
-    private fun isNewPort(ctx: Context, p: PortPackage): Boolean {
+    /** 这个移植包有没有推过通知（实时通道和后台轮询共用同一份记录，避免重复打扰）。 */
+    fun isNewPort(ctx: Context, portId: Long): Boolean {
         val seen = ctx.getSharedPreferences("romhub_prefs", Context.MODE_PRIVATE)
             .getStringSet(K_SEEN_PORTS, emptySet())?.toSet() ?: emptySet()
-        return !seen.contains(p.id.toString())
+        return !seen.contains(portId.toString())
     }
+
+    private fun isNewPort(ctx: Context, p: PortPackage): Boolean = isNewPort(ctx, p.id)
 
     fun markPortsSeen(ctx: Context, ids: List<Long>) {
         val sp = ctx.getSharedPreferences("romhub_prefs", Context.MODE_PRIVATE)

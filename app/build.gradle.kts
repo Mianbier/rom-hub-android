@@ -20,8 +20,8 @@ android {
         applicationId = "org.linbaogu.romhub"
         minSdk = 33
         targetSdk = 37
-        versionCode = 18
-        versionName = "1.0.13"
+        versionCode = 45
+        versionName = "1.1.5"
         resourceConfigurations += listOf("zh", "en")
     }
 
@@ -37,7 +37,8 @@ android {
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro",
             )
-            // 用 debug 签名，方便直接安装；正式发布请换成自己的 keystore
+            // ⚠ 签名不要动：已发布的 11 个版本都是用这个 debug 证书签的。
+            //    换成别的 keystore 会导致签名不一致，用户必须卸载才能升级。
             signingConfig = signingConfigs.getByName("debug")
         }
     }

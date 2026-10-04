@@ -3,84 +3,93 @@ package org.linbaogu.romhub.notify
 import android.content.Context
 import androidx.work.CoroutineWorker
 import androidx.work.WorkerParameters
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
 import org.linbaogu.romhub.core.Prefs
 import org.linbaogu.romhub.data.Repo
 
 /**
- * 后台轮询：定时看一遍订阅机型有没有新的官方包 / 移植包，有就发系统通知。
+ * 兜底轮询：App 不在前台时由系统 15 分钟调度一次。
  *
- * 通知内容会写清「官方包还是移植包」以及版本号；
- * 点击后通过 romhub:// 深链直接跳到对应页面。
+ * 只收**已订阅机型**的新更新；通知的标题是「机型 · 更新类型」、
+ * 下面一行小字是版本号，点击直接进对应版本 / 移植包页面。
+ *
+ * 它是第二道防线 —— 前台那层实时通道（UpdateStream）负责秒级到达，
+ * 这层只负责「App 长时间没打开」时不错过。
  */
 class NotifyWorker(
     ctx: Context,
     params: WorkerParameters,
 ) : CoroutineWorker(ctx, params) {
 
-    override suspend fun doWork(): Result {
+    override suspend fun doWork(): Result = withContext(Dispatchers.IO) {
         val ctx = applicationContext
-        if (!Prefs.notifyEnabled(ctx)) return Result.success()
+        if (!Prefs.notifyEnabled(ctx)) return@withContext Result.success()
 
-        // 顺手把动态快照刷新，这样小红点/未读数在后台也是准的
+        // 顺手刷新动态快照，让未读数/底栏小红点也跟上
         runCatching { Repo.refreshFeed(ctx, limit = 80) }
         runCatching { Repo.initFeedBaselineIfNeeded(ctx) }
 
         val (official, ports) = runCatching { Repo.pollNewUpdates(ctx) }
             .getOrDefault(emptyList<org.linbaogu.romhub.data.RomUpdate>() to emptyList())
 
-        if (official.isEmpty() && ports.isEmpty()) return Result.success()
+        val subs = Prefs.subscriptions(ctx)
+        var maxId = Prefs.notifyLastId(ctx)
 
-        var n = 0
-        var maxUpdateId = Prefs.notifyLastId(ctx)
-
-        official.take(8).forEach { u ->
-            val isOfficial = u.kind != "port"
-            val kindLabel = if (isOfficial) "官方包更新" else "移植包更新"
-            val ver = u.newVersion.ifBlank { u.versionId.toString() }
-            val state = u.state.ifBlank { u.kindZh }.ifBlank { "" }
-            val title = "${u.deviceName.ifBlank { u.codename }} · $kindLabel"
-            val body = buildString {
-                append("版本 $ver")
-                if (u.branchZh.isNotBlank()) append("（${u.branchZh}）")
-                if (state.isNotBlank()) append(" · $state")
-                if (u.stateText.isNotBlank()) append("\n${u.stateText}")
+        official.asSequence()
+            .filter { subs.contains(it.codename) }      // 再兜一次：只认订阅机型
+            .filter { it.id > Prefs.notifyLastId(ctx) }
+            .take(8)
+            .forEach { u ->
+                val ver = u.newVersion.ifBlank { u.versionId.toString() }
+                val extra = listOfNotNull(
+                    u.branchZh.takeIf { it.isNotBlank() },
+                    u.stateZhSafe(),
+                ).joinToString(" · ")
+                Notifications.showUpdate(
+                    ctx = ctx,
+                    id = 10_000 + (u.id % 1_000_000L).toInt(),
+                    device = u.deviceName,
+                    codename = u.codename,
+                    kind = u.kind,
+                    version = ver,
+                    summary = extra,
+                    deepLink = Notifications.versionLink(
+                        u.codename, u.region, u.branch, ver,
+                    ),
+                )
+                if (u.id > maxId) maxId = u.id
             }
-            val link = "romhub://ver?code=${u.codename}&region=${u.region}" +
-                    "&branch=${u.branch}&ver=${enc(ver)}"
-            Notifications.show(
-                ctx = ctx,
-                id = (10_000 + u.id).toInt(),
-                title = title,
-                body = body,
-                bigText = u.desc.ifBlank { body },
-                deepLink = link,
-            )
-            if (u.id > maxUpdateId) maxUpdateId = u.id
-            n++
-        }
 
-        ports.take(8).forEach { p ->
-            val title = "${p.deviceName.ifBlank { p.codename }} · 移植包更新"
-            val body = buildString {
-                append(p.title.ifBlank { p.fileName.ifBlank { "新的移植包" } })
-                if (p.version.isNotBlank()) append(" · ${p.version}")
-                if (p.author.isNotBlank()) append("\n作者：${p.author}")
+        if (official.isNotEmpty()) Prefs.setNotifyLastId(ctx, maxId)
+
+        ports.asSequence()
+            .filter { subs.contains(it.codename) }
+            .filter { Repo.isNewPort(ctx, it.id) }
+            .take(8)
+            .forEach { p ->
+                val title = p.title.ifBlank { p.fileName.ifBlank { "新的移植包" } }
+                val extra = listOfNotNull(
+                    p.version.takeIf { it.isNotBlank() },
+                    p.author.takeIf { it.isNotBlank() }?.let { "作者：$it" },
+                ).joinToString(" · ")
+                Notifications.showUpdate(
+                    ctx = ctx,
+                    id = 20_000 + (p.id % 1_000_000L).toInt(),
+                    device = p.deviceName,
+                    codename = p.codename,
+                    kind = "port",
+                    version = title,
+                    summary = extra,
+                    deepLink = Notifications.portLink(p.id),
+                )
             }
-            Notifications.show(
-                ctx = ctx,
-                id = (20_000 + p.id).toInt(),
-                title = title,
-                body = body,
-                bigText = (p.notice.ifBlank { body }),
-                deepLink = "romhub://port?id=${p.id}",
-            )
-            n++
-        }
-
-        Prefs.setNotifyLastId(ctx, maxUpdateId)
         Repo.markPortsSeen(ctx, ports.map { it.id })
-        return Result.success()
+
+        Result.success()
     }
 
-    private fun enc(s: String) = java.net.URLEncoder.encode(s, "UTF-8")
+    /** state 有时是英文 raw 值，中文优先用 stateText。 */
+    private fun org.linbaogu.romhub.data.RomUpdate.stateZhSafe(): String? =
+        (stateText.ifBlank { state }).ifBlank { kindZh }.takeIf { it.isNotBlank() }
 }

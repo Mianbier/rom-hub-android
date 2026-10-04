@@ -1,5 +1,8 @@
 package org.linbaogu.romhub.ui.screens
 
+import android.net.Uri
+import androidx.activity.compose.rememberLauncherForActivityResult
+import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -69,8 +72,41 @@ fun UploadScreen(
 
     var busy by remember { mutableStateOf(false) }
     var parsing by remember { mutableStateOf(false) }
+    var uploadingImage by remember { mutableStateOf(false) }
     var msg by remember { mutableStateOf("") }
     var isErr by remember { mutableStateOf(false) }
+
+    // 公告配图：从相册选一张 -> 传到服务端 -> 把返回的图片地址插进公告文本。
+    // 服务端返回的是公网固定域名地址，所以以后换网络、换局域网 IP 都不影响显示。
+    val pickImage = rememberLauncherForActivityResult(
+        ActivityResultContracts.GetContent()
+    ) { uri: Uri? ->
+        if (uri == null) return@rememberLauncherForActivityResult
+        scope.launch {
+            uploadingImage = true
+            msg = ""
+            runCatching {
+                val mime = ctx.contentResolver.getType(uri) ?: "image/jpeg"
+                val bytes = ctx.contentResolver.openInputStream(uri)?.use { it.readBytes() }
+                    ?: error("读不到这张图片")
+                val ext = mime.substringAfter('/', "jpg").substringBefore(';')
+                val name = uri.lastPathSegment
+                    ?.substringAfterLast('/')
+                    ?.takeIf { it.isNotBlank() && it.contains('.') }
+                    ?: "notice_${System.currentTimeMillis()}.$ext"
+                Api.uploadImage(ctx, bytes, name, mime, token)
+            }.onSuccess { url ->
+                uploadingImage = false
+                isErr = false
+                notice = (notice.trimEnd() + if (notice.isBlank()) "" else "\n") + url
+                msg = "图片已上传，地址已插入公告"
+            }.onFailure {
+                uploadingImage = false
+                isErr = true
+                msg = it.message ?: "图片上传失败"
+            }
+        }
+    }
 
     LaunchedEffect(Unit) {
         if (devices.isEmpty()) {
@@ -316,7 +352,8 @@ fun UploadScreen(
                     )
                     Spacer(Modifier.height(4.dp))
                     Text(
-                        "写清刷入方式、注意事项、已知问题。这段会显示在详情页。",
+                        "写清刷入方式、注意事项、已知问题。这段会显示在详情页。\n" +
+                            "可以直接粘贴 https 链接；也可以点下面按钮上传图片，图片地址会自动插进来。",
                         fontSize = MiuixTheme.textStyles.footnote2.fontSize,
                         color = MiuixTheme.colorScheme.onSurfaceVariantSummary,
                     )
@@ -329,6 +366,11 @@ fun UploadScreen(
                         maxLines = 6,
                         modifier = Modifier.fillMaxWidth(),
                     )
+                    Spacer(Modifier.height(8.dp))
+                    GhostButton(
+                        text = if (uploadingImage) "正在上传图片…" else "插入图片（从相册选一张）",
+                        enabled = !uploadingImage,
+                    ) { pickImage.launch("image/*") }
                 }
             }
         }

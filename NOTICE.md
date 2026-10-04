@@ -28,10 +28,57 @@ ROM Hub（包名 `org.linbaogu.romhub`）是一个第三方非官方的小米 RO
 |---|---|---|---|---|
 | KernelSU | GNU General Public License v3.0 | weishu (tiann) 及 KernelSU 贡献者 | https://github.com/tiann/KernelSU | 以下文件由 KernelSU 的实现移植而来：`FloatingBottomBar.kt`、`DampedDragAnimation.kt`、`InteractiveHighlight.kt`、`DragGestureInspector.kt`（`ui/miuix/`）、`ui/liquid/`（Lens / Vibrancy / InnerShadow / CombinedBackdrop）、`ui/effect/`（OS3 极光背景） |
 | HyperCeiler | GNU Affero General Public License v3.0 | ReChronoRain 及 HyperCeiler 贡献者 | https://github.com/ReChronoRain/HyperCeiler | 「关于」页面的整体布局与背景特效（`bg_frag.glsl` 及其全套参数 `BgEffectDataManager`）以 HyperCeiler 的关于页为蓝本 |
+| YunX（云析） | GNU Affero General Public License v3.0 | CYQawa | https://github.com/CYQawa/YunX | 底栏「网盘下载器」的全部能力由云析移植而来，见下方明细 |
 
-> **为什么本项目选 AGPL-3.0：** 上表中 HyperCeiler 使用 AGPL-3.0。
+### 云析（YunX）移植明细
+
+`pan/`、`download/` 与相关 UI 层为云析源码移植，**只改包名 `com.yunx.app` → `org.linbaogu.romhub`**，
+并把 Room 数据库换成 JSON 文件存储（`pan/store/AccountStore.kt`、`BookmarkStore.kt`）。
+
+| 云析原路径 | 本项目落点 | 内容 |
+|---|---|---|
+| `data/network/*` | `pan/*` | 夸克 / UC / 百度 / 115 / 123 / 移动云盘 / 迅雷 的 API 封装、ShareLinkParser、GitHub API |
+| `data/network/model/*` | `pan/model/*` | ShareModels、ShareExpire |
+| `data/repository/*` | `pan/repo/*` | 7 家的账号仓库 + 分享解析仓库（建会话 → 列文件 → 转存 → 取直链） |
+| `data/security/CredentialCipher.kt` | `pan/security/CredentialCipher.kt` | 凭证落盘加密 |
+| `data/db/*Account*Entity/Dao.kt` | `pan/store/AccountStore.kt` | 账号存储（Room → JSON） |
+| `data/db/Bookmark*` | `pan/store/BookmarkStore.kt` | 收藏存储（Room → JSON） |
+| `data/prefs/SettingsRepository.kt` | `core/Prefs.kt` | 下载设置项并入本项目已有 Prefs |
+| `data/download/ChunkDownloader.kt` | `download/ChunkDownloader.kt` | 多线程分片 + 断点续传 |
+| `data/download/HlsDownloader.kt` `HlsRequestPolicy.kt` `HttpRangePolicy.kt` `DownloadPlatform.kt` | `download/` 同名文件 | HLS 下载与请求策略 |
+| `data/download/DownloadManager.kt` `DownloadService.kt` | `download/` 同名文件 | 任务队列与前台服务（并入本项目已有下载体系） |
+| `data/update/UpdateChecker.kt` | `ui/update/` + `data/AppUpdateInfo` | 更新检查（并入本项目已有更新体系） |
+| `data/backup/AuthBackupManager.kt` | `pan/store/AccountStore.kt` | 账号备份导入导出能力 |
+| `ui/login/*` | `ui/login/WebPanLoginScreen.kt` 等 | 6 家 WebView 登录 + 迅雷账密短信登录（收拢成 `WebPanLoginSpec` 单一泛化页面） |
+| `ui/screens/BookmarkScreen.kt` | `ui/screens/BookmarkScreen.kt` | 收藏页 |
+| `ui/screens/DownloadScreen.kt` | `ui/screens/DownloadScreen.kt` | 下载页（与原有下载体系合并） |
+| `ui/screens/SettingsScreen.kt` | `ui/screens/DownloadSettingsScreen.kt` | 下载设置页 |
+| `ui/screens/BookmarkScreen.kt` | `ui/screens/BookmarkScreen.kt` | 收藏页 |
+| `ui/screens/CloudFileSheets.kt` `SaveToCloudSheet.kt` | `ui/screens/CloudFileSheets.kt` | 云盘文件操作弹窗（下载直链 / 新建文件夹 / 重命名 / 批量分享 / 移动 / 删除确认） |
+| `ui/screens/*CloudScreen.kt`（7 家） | `ui/screens/CloudBrowserScreen.kt` + `cloud/CloudApi.kt` + `cloud/CloudBrowserViewModel.kt` | **云盘文件浏览**：面包屑、列表、搜索、多选、下载 / 重命名 / 移动 / 删除 / 新建文件夹 / 分享。7 家的差异收拢进 `CloudApi` 适配器，UI 与 ViewModel 只有一份 |
+| `ui/viewmodel/*` | `ui/login/PanAccounts.kt` | 7 个 AccountViewModel 收拢为单例门面 |
+| `ui/SnackbarController.kt` | `ui/common/Snackbar.kt` | 全局轻提示 |
+| `ui/components/ExpressiveLoading.kt` 等 | `ui/login/WebLoadingBar.kt` 等 | 加载指示器等小组件 |
+| `util/*` | `pan/XunleiDeviceFingerprint.kt`、`ui/screens/SimpleMarkdown.kt` 等 | 设备指纹、轻量 Markdown 渲染 |
+
+**未移植**：云析自身的 Onboarding / 主题 / 关于 / 更新弹窗等「App 自身设置体系」——
+本项目已有对应实现（关于页、更新弹窗、主题跟随系统），故未重复搬入。
+
+**有意偏离（改写而非照搬）**：
+1. `data/db/` 的 Room 数据库 → JSON 文件存储（`pan/store/`），少一个 KSP/Room 依赖。
+2. 7 个 `*AccountViewModel` → 单例门面 `PanAccounts`。
+3. 7 个 `*CloudViewModel`（各约 680 行、逻辑高度重复）+ 7 个 `*CloudScreen`
+   → 1 个 `CloudApi` 接口 + 7 个轻量适配器 + 1 个共用 `CloudBrowserViewModel` / `CloudBrowserScreen`。
+4. 「保存到本机」的 MediaStore 链路未搬：本项目下载改落公共 `Download/rom-hub/`，
+   走 `MANAGE_EXTERNAL_STORAGE`（所有文件访问）一次性授权；未授权时自动退回 App 私有目录，
+   功能不中断（见 `core/StoragePermission.kt`、`download/DownloadStore.kt`）。
+5. 下载体验在本项目侧有增强：通知栏进度 + 暂停/继续/取消（`download/DownloadService.kt`）、
+   任务卡进度/速度/剩余时间/打开文件（`ui/screens/DownloadScreen.kt`）、
+   各下载入口统一提示并跳转到「网盘下载器 → 下载」段。
+
+> **为什么本项目选 AGPL-3.0：** 上表中 HyperCeiler 与云析均使用 AGPL-3.0。
 > 由于本项目在其基础上做了移植与改写，采用 AGPL-3.0 可以同时满足
-> KernelSU（GPL-3.0）与 HyperCeiler（AGPL-3.0）的许可义务。
+> KernelSU（GPL-3.0）、HyperCeiler（AGPL-3.0）与云析（AGPL-3.0）的许可义务。
 
 ---
 

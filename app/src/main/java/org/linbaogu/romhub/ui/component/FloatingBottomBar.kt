@@ -202,6 +202,13 @@ fun RowScope.FloatingBottomBarItem(
     )
 }
 
+/**
+ * 选中滑块是否使用毛玻璃折射。
+ * 滑块叠了一层 backdrop 采样 + 高光，属于每帧都要重算的重活；
+ * 关掉后退化成半透明色块，切 tab 时的开销明显下降。
+ */
+private const val INDICATOR_BLUR = true
+
 @Composable
 fun FloatingBottomBar(
     modifier: Modifier = Modifier,
@@ -431,7 +438,7 @@ fun FloatingBottomBar(
 
         if (tabWidthPx > 0f) {
             val tabWidthDp = with(density) { tabWidthPx.toDp() }
-            if (isBlurEnabled) {
+            if (isBlurEnabled && INDICATOR_BLUR) {
                 Box(
                     Modifier
                         .padding(horizontal = 4.dp)

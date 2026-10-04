@@ -21,10 +21,14 @@ import org.linbaogu.romhub.data.DevApplyReq
 import org.linbaogu.romhub.data.Repo
 import org.linbaogu.romhub.data.RomStats
 import org.linbaogu.romhub.notify.NotifyScheduler
+import org.linbaogu.romhub.notify.UpdateStream
+import org.linbaogu.romhub.pan.SharePlatform
 import org.linbaogu.romhub.ui.nav.AppNavState
 import org.linbaogu.romhub.ui.nav.Screen
 import org.linbaogu.romhub.ui.nav.parseDeepLink
 import top.yukonga.miuix.kmp.icon.MiuixIcons
+import top.yukonga.miuix.kmp.icon.extended.Download
+import top.yukonga.miuix.kmp.icon.extended.GridView
 import top.yukonga.miuix.kmp.icon.extended.Home
 import top.yukonga.miuix.kmp.icon.extended.Info
 import top.yukonga.miuix.kmp.icon.extended.Update
@@ -62,11 +66,81 @@ class AppViewModel(app: Application) : AndroidViewModel(app) {
 
     private var pendingDeepLink: Screen? = null
 
+    /** 从外部点进来的下载链接（浏览器分享 / romhub://download?url=），下载页消费一次就清掉。 */
+    var pendingDownloadUrl by androidx.compose.runtime.mutableStateOf<String?>(null)
+        private set
+
+    fun consumePendingDownload() { pendingDownloadUrl = null }
+
+    /**
+     * 请求「网盘下载器」停在某个分段（0 账号 / 1 下载 / 2 收藏 / 3 设置）。
+     *
+     * 用途：其它页面点「用下载器下载」后，直接切过去并落在「下载」段，
+     * 而不是只弹一句提示让用户自己找 —— 用户反馈「点了没反应」就是缺这个跳转。
+     */
+    var pendingPanSegment by androidx.compose.runtime.mutableStateOf<Int?>(null)
+        private set
+
+    fun consumePendingPanSegment() { pendingPanSegment = null }
+
+    /** 跳到底栏的「网盘下载器」并落在指定分段。 */
+    fun openDownloader(segment: Int = 1) {
+        pendingPanSegment = segment
+        val idx = tabs.indexOfFirst { it.title == "网盘下载器" }
+        if (idx >= 0) nav.switchTab(idx)
+    }
+
+    /**
+     * 带链接跳「网盘下载器」：切到该 tab、落在「下载」段、把链接自动填进输入框并开始解析。
+     *
+     * 用途：移植包详情页点「用下载器下载」—— 用户不用自己去下载段再粘一次链接。
+     */
+    fun openDownloaderWithUrl(url: String) {
+        pendingDownloadUrl = url
+        openDownloader(1)
+    }
+
+    /**
+     * 全屏覆盖页（登录页 / 云盘浏览页）。
+     *
+     * 为什么要提到这一层而不是留在 `PanHubScreen` 里：这两个页面里有 **WebView**，
+     * 而 `PanHubScreen` 在 `HorizontalPager` 内部 —— pager 的预组合与视觉位移会让
+     * WebView 反复重绘（表现为「一直闪烁」）。挂到 App 最外层（pager 之外）才彻底干净。
+     */
+    sealed interface PanOverlay {
+        data class Login(val platform: SharePlatform) : PanOverlay
+        data class Browse(val platform: SharePlatform) : PanOverlay
+    }
+
+    var panOverlay by androidx.compose.runtime.mutableStateOf<PanOverlay?>(null)
+        private set
+
+    fun openPanLogin(platform: SharePlatform) { panOverlay = PanOverlay.Login(platform) }
+
+    fun openPanBrowse(platform: SharePlatform) { panOverlay = PanOverlay.Browse(platform) }
+
+    fun closePanOverlay() { panOverlay = null }
+
+    /**
+     * 账号状态版本号：登录成功 / 退出登录后 +1，用来催账号列表刷新。
+     *
+     * 为什么需要它：登录页现在是挂在 pager **之外**的覆盖层，关闭后
+     * `PanAccountScreen` 并不会重新组合（它一直活着），`LaunchedEffect(Unit)` 不会重跑
+     * → 列表还显示旧状态（用户反馈：登录成功了但账号页还写「未登录」）。
+     * 把本值当 `LaunchedEffect` 的 key，每次变更就重读一次账号状态。
+     */
+    var accountRev by androidx.compose.runtime.mutableIntStateOf(0)
+        private set
+
+    fun bumpAccountRev() { accountRev++ }
+
     val tabs: List<TabSpec>
         get() = if (session.role == Role.DEV) {
             listOf(
                 TabSpec("主页", MiuixIcons.Home),
                 TabSpec("动态", MiuixIcons.Update),
+                TabSpec("固件下载", MiuixIcons.GridView),
+                TabSpec("网盘下载器", MiuixIcons.Download),
                 TabSpec("包上传", MiuixIcons.UploadCloud),
                 TabSpec("关于", MiuixIcons.Info),
             )
@@ -74,6 +148,8 @@ class AppViewModel(app: Application) : AndroidViewModel(app) {
             listOf(
                 TabSpec("主页", MiuixIcons.Home),
                 TabSpec("动态", MiuixIcons.Update),
+                TabSpec("固件下载", MiuixIcons.GridView),
+                TabSpec("网盘下载器", MiuixIcons.Download),
                 TabSpec("关于", MiuixIcons.Info),
             )
         }
@@ -87,10 +163,32 @@ class AppViewModel(app: Application) : AndroidViewModel(app) {
         // 每次启动问一次有没有新版本（失败静默，不影响使用）
         checkAppUpdate()
 
+        // 后台兜底：15 分钟一轮的系统调度任务（前台那层实时通道才管「秒级到达」）
         NotifyScheduler.schedule(ctx)
         viewModelScope.launch { runCatching { stats = Repo.stats(ctx) } }
         // 实时动态：前台每 30 秒拉一次，新动态立刻反映到未读数（底栏小红点）
         startRealtimeFeed()
+    }
+
+    // ------------------------------------------------------------ 实时更新通道
+
+    /**
+     * 前台实时通道：**取代了以前那个常驻在前台服务里的轮询**。
+     *
+     * App 在前台时挂一条 SSE 连接，服务端一有新动态立刻推过来（通常 1~3 秒到通知栏）；
+     * 退到后台就把连接断开 —— 不留常驻通知、不占后台资源。
+     */
+    private val updateStream by lazy { UpdateStream(ctx) }
+
+    /** Activity 回到前台：接上实时通道。 */
+    fun onForeground() {
+        updateStream.start()
+    }
+
+    /** Activity 离开前台：断开实时通道，并排一次 1 分钟后的兜底检查。 */
+    fun onBackground() {
+        updateStream.stop()
+        NotifyScheduler.scheduleTail(ctx)
     }
 
     // ------------------------------------------------------------ 实时动态
@@ -189,10 +287,44 @@ class AppViewModel(app: Application) : AndroidViewModel(app) {
     // ------------------------------------------------------------ 深链
 
     fun handleDeepLink(uri: String?) {
-        val s = uri?.let { parseDeepLink(it) } ?: return
+        if (uri.isNullOrBlank()) return
+
+        // ① 外部 http(s) 链接（浏览器里点网盘分享链接，选「用 ROM Hub 打开」）
+        if (uri.startsWith("http://") || uri.startsWith("https://")) {
+            pendingDownloadUrl = uri
+            switchTabByTitle("网盘下载器")
+            return
+        }
+        if (!uri.startsWith("romhub://")) return
+
+        // ② romhub://download?url=xxx
+        val path = uri.removePrefix("romhub://").substringBefore('?')
+        when (path) {
+            "download" -> {
+                uri.substringAfter("url=", "").takeIf { it.isNotBlank() }?.let {
+                    pendingDownloadUrl = decodeUriPart(it)
+                }
+                switchTabByTitle("网盘下载器")
+                return
+            }
+            "about" -> { switchTabByTitle("关于"); return }
+            "feed" -> { switchTabByTitle("动态"); return }
+        }
+
+        // ③ 其它深链（版本页 / 移植包详情 / 机型）
+        val s = parseDeepLink(uri) ?: return
         pendingDeepLink = s
         if (session.role != Role.NONE) applyPendingDeepLink()
     }
+
+    /** 按标题切 tab —— 索引会随身份（开发者/游客）变化，别写死数字。 */
+    private fun switchTabByTitle(title: String) {
+        val i = tabs.indexOfFirst { it.title == title }
+        if (i >= 0) nav.switchTab(i)
+    }
+
+    private fun decodeUriPart(s: String): String =
+        runCatching { java.net.URLDecoder.decode(s, "UTF-8") }.getOrDefault(s)
 
     private fun applyPendingDeepLink() {
         val s = pendingDeepLink ?: return

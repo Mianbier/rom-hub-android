@@ -16,6 +16,16 @@ sealed interface Screen {
         val highlight: String = "",
     ) : Screen
     data class PortDetail(val id: Long) : Screen
+
+    /** 某品牌下的机型列表。 [brandKey] 见 BrandCatalog。 */
+    data class BrandDevices(val brandKey: String) : Screen
+
+    /** 某台机型的版本列表。 [brandKey] + [deviceName] 定位一台机器。 */
+    data class BrandVersions(
+        val brandKey: String,
+        val deviceName: String,
+        val series: String,
+    ) : Screen
 }
 
 /**
@@ -137,6 +147,8 @@ class AppNavState(private val persist: (String) -> Unit = {}) {
             is Screen.DeviceDetail -> "d${s.code}"
             is Screen.VersionList -> "r${s.code},${s.region},${s.branch},${s.highlight}"
             is Screen.PortDetail -> "p${s.id}"
+            is Screen.BrandDevices -> "b${s.brandKey}"
+            is Screen.BrandVersions -> "B${enc(s.brandKey)},${enc(s.deviceName)},${enc(s.series)}"
         }
     }
 
@@ -173,8 +185,22 @@ class AppNavState(private val persist: (String) -> Unit = {}) {
                 null
             }
         }
+        // 机型名里可能有逗号（vivo 有「iQOO 7 4GB+128GB版」这类），
+        // 所以按分隔符切成三段，第一段是品牌、最后一段是系列，中间全部算机型名
+        'B' -> {
+            val f = s.drop(1).split(',')
+            if (f.size >= 3) {
+                Screen.BrandVersions(unescapeField(f[0]), f.dropLast(2).joinToString(","), unescapeField(f.last()))
+            } else {
+                null
+            }
+        }
+        'b' -> s.drop(1).takeIf { it.isNotBlank() }?.let { Screen.BrandDevices(unescapeField(it)) }
         else -> null
     }
+
+    /** 快照里逗号分隔的字段要转义，否则机型名里的逗号会把栈解析坏。 */
+    private fun enc(s: String): String = java.net.URLEncoder.encode(s, "UTF-8")
 }
 
 /** 解析 romhub:// 深链。通知点击后走这里。 */
@@ -204,12 +230,15 @@ fun parseDeepLink(uri: String): Screen? {
 
         "port" -> q["id"]?.toLongOrNull()?.let { Screen.PortDetail(it) }
         "dev" -> q["code"]?.takeIf { it.isNotBlank() }?.let { Screen.DeviceDetail(it) }
-        "feed" -> Screen.Tab(1)
-        "about" -> Screen.Tab(2)
         else -> null
     }
 }
 
 private fun decode(s: String): String = runCatching {
+    java.net.URLDecoder.decode(s, "UTF-8")
+}.getOrDefault(s)
+
+/** 快照字段的反转义，与 [AppNavState] 里的 enc 配对。 */
+private fun unescapeField(s: String): String = runCatching {
     java.net.URLDecoder.decode(s, "UTF-8")
 }.getOrDefault(s)

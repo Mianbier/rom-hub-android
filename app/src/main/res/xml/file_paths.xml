@@ -3,4 +3,6 @@
     <files-path name="downloads" path="downloads/" />
     <cache-path name="cache" path="." />
     <external-files-path name="ext" path="." />
+    <!-- 公共下载目录（Download/rom-hub/）：开了「所有文件访问」后文件落在这里 -->
+    <external-path name="public_downloads" path="Download/" />
 </paths>

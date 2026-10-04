@@ -68,7 +68,6 @@ fun AboutScreen(
     var notifyOn by remember { mutableStateOf(Prefs.notifyEnabled(ctx)) }
     var notifyOfficial by remember { mutableStateOf(Prefs.notifyOfficial(ctx)) }
     var notifyPorts by remember { mutableStateOf(Prefs.notifyPorts(ctx)) }
-    var notifyBg by remember { mutableStateOf(Prefs.notifyBackground(ctx)) }
     var showAllOss by remember { mutableStateOf(false) }
     val notifyPerm = rememberNotifyPermission()
 
@@ -132,7 +131,10 @@ fun AboutScreen(
                         InfoRow("应用名称", "ROM Hub")
                         InfoRow("版本", "v${BuildConfig.VERSION_NAME}（${BuildConfig.VERSION_CODE}）")
                         InfoRow("作者", "Tian-Self")
-                        InfoRow("数据来源", "小米官方 OTA、小米社区、hyperos.fans、xiaomirom 等公开渠道")
+                        InfoRow(
+                            "数据来源",
+                            "小米官方 OTA、小米社区、hyperos.fans、xiaomirom、RomCloud 等公开渠道",
+                        )
                         InfoRow("许可", "GNU Affero General Public License v3.0")
                         Spacer(Modifier.height(8.dp))
                         Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
@@ -192,7 +194,11 @@ fun AboutScreen(
                 }
             }
 
-            // ------------------------------------------------ 订阅
+            // 「服务器」区块已按用户要求移除：服务器地址属于部署配置，
+            // 摆在「关于」里给普通用户看没意义。ServerAddressCard 组件保留，
+            // 之后要挪到设置页/登录页时直接复用。
+
+            // ------------------------------------------------ 订阅更新提醒
             item { SectionLabel("订阅更新提醒") }
             item {
                 Card {
@@ -247,15 +253,13 @@ fun AboutScreen(
                             enabled = notifyOn,
                         ) { notifyPorts = it; Prefs.setNotifyPorts(ctx, it) }
                         HorizontalDivider(color = MiuixTheme.colorScheme.dividerLine)
-                        SwitchRow(
-                            title = "后台实时提醒",
-                            summary = "退到后台仍每分钟检查一次；通知栏会常驻一条监听提示",
-                            checked = notifyBg,
-                            enabled = notifyOn,
-                        ) {
-                            notifyBg = it
-                            NotifyScheduler.setBackgroundListen(ctx, it)
-                        }
+                        Text(
+                            "App 在前台时走实时通道，新包几秒内到达；" +
+                                    "退到后台由系统 15 分钟调度一次兜底，不常驻后台、不留常驻通知。",
+                            fontSize = MiuixTheme.textStyles.footnote2.fontSize,
+                            color = MiuixTheme.colorScheme.onSurfaceVariantSummary,
+                            modifier = Modifier.padding(top = 8.dp),
+                        )
                     }
                 }
             }
@@ -343,6 +347,23 @@ fun AboutScreen(
                 }
             }
 
+            // ------------------------------------------------ ROM 包来源站点与作者署名
+            item { SectionLabel("ROM 包来源与作者") }
+            OssCredits.RomSourceCredits.all.forEach { credit ->                item { SourceCreditCard(credit, ctx) }
+            }
+            item {
+                Card {
+                    Column(Modifier.padding(14.dp)) {
+                        Text(
+                            "以上站点是各自独立运营的第三方 ROM 索引站，署名摘自它们的公开页脚。" +
+                                    "ROM Hub 只是把它们整理进统一的界面与下载器里，版权归各自权利人所有。",
+                            fontSize = MiuixTheme.textStyles.footnote2.fontSize,
+                            color = MiuixTheme.colorScheme.onSurfaceVariantSummary,
+                        )
+                    }
+                }
+            }
+
             item {
                 Card {
                     Column(Modifier.padding(14.dp)) {
@@ -356,7 +377,11 @@ fun AboutScreen(
                             "感谢 KernelSU 的 weishu 与 HyperCeiler 的 ReChronoRain，" +
                                     "他们开源了整套澎湃 OS 风格的界面与动效实现；" +
                                     "感谢 compose-miuix-ui 与 Kyant0 提供的 Miuix、AndroidLiquidGlass；" +
-                                    "也感谢 hyperos.fans 等站点长期维护的公开数据。",
+                                    "也感谢 hyperos.fans、xiaomirom 等站点长期维护的公开数据。\n" +
+                                    "特别感谢 Tech_Sky 编写并维护 RomCloud，" +
+                                    "感谢 可怜太可怜 提供的 ROM 资源，" +
+                                    "感谢 桜酱没有未来 攻克的 ColorOS 爬取与下载接口解析 —— " +
+                                    "没有他们，本应用的 OPPO / 一加 / Realme / 魅族 / 联想 品牌无从谈起。",
                             fontSize = MiuixTheme.textStyles.footnote1.fontSize,
                             color = MiuixTheme.colorScheme.onSurface,
                         )
@@ -442,6 +467,72 @@ private fun DeviceInfoCard() {
                 )
                 Spacer(Modifier.height(10.dp))
             }
+        }
+    }
+}
+
+/**
+ * 单个 ROM 包来源站点的署名卡片。
+ *
+ * 站点名 + 一句话说明在上，下面逐行列出「人名 —— 贡献」，
+ * 整卡可点，跳到该站点首页。
+ */
+@Composable
+private fun SourceCreditCard(credit: OssCredits.SourceCredit, ctx: android.content.Context) {
+    Card(onClick = { openUrl(ctx, credit.siteUrl) }, showIndication = true) {
+        Column(Modifier.padding(14.dp)) {
+            Row(verticalAlignment = Alignment.CenterVertically) {
+                Text(
+                    credit.site,
+                    fontSize = MiuixTheme.textStyles.body1.fontSize,
+                    fontWeight = FontWeight.Medium,
+                    modifier = Modifier.weight(1f, fill = false),
+                )
+                Spacer(Modifier.width(8.dp))
+                Text(
+                    "ROM 包来源",
+                    fontSize = MiuixTheme.textStyles.footnote2.fontSize,
+                    color = MiuixTheme.colorScheme.primary,
+                )
+            }
+            Spacer(Modifier.height(4.dp))
+            Text(
+                credit.summary,
+                fontSize = MiuixTheme.textStyles.footnote2.fontSize,
+                color = MiuixTheme.colorScheme.onSurfaceVariantSummary,
+            )
+            Spacer(Modifier.height(10.dp))
+            HorizontalDivider(color = MiuixTheme.colorScheme.dividerLine)
+            credit.people.forEachIndexed { index, (who, what) ->
+                Spacer(Modifier.height(10.dp))
+                Row(verticalAlignment = Alignment.CenterVertically) {
+                    Text(
+                        who,
+                        fontSize = MiuixTheme.textStyles.body2.fontSize,
+                        fontWeight = FontWeight.Medium,
+                        color = MiuixTheme.colorScheme.onSurface,
+                        modifier = Modifier.weight(1f, fill = false),
+                    )
+                    Spacer(Modifier.width(10.dp))
+                    Text(
+                        what,
+                        fontSize = MiuixTheme.textStyles.footnote2.fontSize,
+                        color = MiuixTheme.colorScheme.onSurfaceVariantSummary,
+                    )
+                }
+                if (index != credit.people.lastIndex) {
+                    Spacer(Modifier.height(6.dp))
+                    HorizontalDivider(color = MiuixTheme.colorScheme.dividerLine)
+                }
+            }
+            Spacer(Modifier.height(8.dp))
+            Text(
+                credit.siteUrl,
+                fontSize = MiuixTheme.textStyles.footnote2.fontSize,
+                color = MiuixTheme.colorScheme.primary,
+                maxLines = 1,
+                overflow = TextOverflow.Ellipsis,
+            )
         }
     }
 }

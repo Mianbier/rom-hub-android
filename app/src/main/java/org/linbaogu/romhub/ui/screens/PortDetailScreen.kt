@@ -14,6 +14,7 @@ import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -23,12 +24,19 @@ import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
 import org.linbaogu.romhub.data.Api
 import org.linbaogu.romhub.data.PortPackage
+import org.linbaogu.romhub.download.DownloadEntry
+import org.linbaogu.romhub.pan.PanHub
 import org.linbaogu.romhub.ui.common.ErrorHint
 import org.linbaogu.romhub.ui.common.Hint
 import org.linbaogu.romhub.ui.common.InfoRow
 import org.linbaogu.romhub.ui.common.ListScreen
+import org.linbaogu.romhub.ui.common.NoticeRichText
+import org.linbaogu.romhub.ui.common.SnackbarController
 import org.linbaogu.romhub.ui.common.StateChip
 import org.linbaogu.romhub.ui.common.openUrl
 import org.linbaogu.romhub.ui.component.GhostButton
@@ -43,13 +51,18 @@ fun PortDetailScreen(
     id: Long,
     bottomInnerPadding: Dp,
     onBack: () -> Unit,
+    /** 点「用下载器下载」后跳到「网盘下载器 → 下载」段，并把分享链接一起带过去（可选） */
+    onGoDownloader: ((String) -> Unit)? = null,
 ) {
     val ctx = LocalContext.current
     val clipboard = LocalClipboardManager.current
+    val scope = rememberCoroutineScope()
     var item by remember { mutableStateOf<PortPackage?>(null) }
     var loading by remember { mutableStateOf(true) }
     var error by remember { mutableStateOf("") }
     var reload by remember { mutableStateOf(0) }
+    // 「用下载器下载」在途状态：解析分享链接要几秒，给按钮一个视觉反馈，防重复点击
+    var starting by remember { mutableStateOf(false) }
 
     LaunchedEffect(id, reload) {
         loading = true
@@ -117,10 +130,11 @@ fun PortDetailScreen(
                             Spacer(Modifier.height(6.dp))
                             HorizontalDivider(color = MiuixTheme.colorScheme.dividerLine)
                             Spacer(Modifier.height(8.dp))
-                            Text(
-                                p.notice,
-                                fontSize = MiuixTheme.textStyles.footnote1.fontSize,
-                                color = MiuixTheme.colorScheme.onSurface,
+                            // 公告可能是「文字 + 下载链接 + 截图」，走富文本渲染：
+                            // 链接蓝色下划线可点开浏览器、图片直接显示、整段可复制
+                            NoticeRichText(
+                                text = p.notice,
+                                modifier = Modifier.fillMaxWidth(),
                             )
                         }
                     }
@@ -128,7 +142,42 @@ fun PortDetailScreen(
             }
 
             item {
-                PrimaryButton("打开网盘链接") { openUrl(ctx, p.shareUrl) }
+                PrimaryButton(if (starting) "正在开始下载…" else "用下载器下载") {
+                    if (starting) return@PrimaryButton
+                    starting = true
+                    // 这就是「点分享链接直接进下载器」：把网盘分享链接丢给统一入口，
+                    // 只有一个文件就自动开始下，多个文件会把选择权交回「下载」段。
+                    scope.launch {
+                        val r = withContext(Dispatchers.IO) {
+                            runCatching { DownloadEntry.start(ctx, p.shareUrl, null) }
+                                .getOrElse { DownloadEntry.EntryResult.Failed(it.message ?: "出错了") }
+                        }
+                        starting = false
+                        val msg = when (r) {
+                            is DownloadEntry.EntryResult.Started -> "已开始下载：${r.task.fileName}"
+                            is DownloadEntry.EntryResult.ChooseFiles -> "分享里有 ${r.files.size} 个文件，去「下载」段选"
+                            is DownloadEntry.EntryResult.NeedLogin -> "需要先登录${PanHub.platformName(r.platform)}（已跳到账号段）"
+                            is DownloadEntry.EntryResult.NeedPassword -> "这个分享需要提取码，去「下载」段填入"
+                            is DownloadEntry.EntryResult.GitHubRepo -> "这是 GitHub 仓库，去「下载」段打开仓库挑文件"
+                            is DownloadEntry.EntryResult.Failed -> r.message
+                        }
+                        SnackbarController.show(msg)
+
+                        // 跳转规则：**不管什么结果都跳到「网盘下载器」**，让用户直接看到进度/选择。
+                        //   · 已开始   → 「下载」段看进度（不带链接，避免重复入队）
+                        //   · 未登录   → 「账号」段去登录
+                        //   · 多文件 / 要提取码 → 「下载」段并预填链接，用户直接选/填
+                        // 注意：本页是栈里的深层页面，切 tab 会整栈替换掉它，所以必须先开始下载再跳。
+                        when (r) {
+                            is DownloadEntry.EntryResult.Started -> onGoDownloader?.invoke("")
+                            is DownloadEntry.EntryResult.NeedLogin -> onGoDownloader?.invoke("")
+                            else -> onGoDownloader?.invoke(p.shareUrl)
+                        }
+                    }
+                }
+            }
+            item {
+                GhostButton("打开网盘链接") { openUrl(ctx, p.shareUrl) }
             }
             item {
                 GhostButton("复制分享链接") {

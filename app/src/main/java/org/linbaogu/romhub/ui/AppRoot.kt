@@ -38,7 +38,10 @@ import kotlinx.coroutines.flow.distinctUntilChanged
 import org.linbaogu.romhub.BuildConfig
 import org.linbaogu.romhub.core.Prefs
 import org.linbaogu.romhub.core.Role
+import org.linbaogu.romhub.core.StoragePermission
 import org.linbaogu.romhub.data.Repo
+import org.linbaogu.romhub.ui.common.GlobalSnackbarHost
+import org.linbaogu.romhub.ui.common.SnackbarController
 import org.linbaogu.romhub.ui.common.openUrl
 import org.linbaogu.romhub.ui.component.AppLogo
 import org.linbaogu.romhub.ui.component.FloatingBottomBar
@@ -46,13 +49,23 @@ import org.linbaogu.romhub.ui.component.FloatingBottomBarItem
 import org.linbaogu.romhub.ui.effect.BgEffectBackground
 import org.linbaogu.romhub.ui.nav.Screen
 import org.linbaogu.romhub.ui.notify.NotifyPermissionDialog
+import org.linbaogu.romhub.ui.pan.StoragePermissionDialog
 import org.linbaogu.romhub.ui.notify.canPostNotifications
 import org.linbaogu.romhub.ui.notify.rememberNotifyPermission
 import org.linbaogu.romhub.ui.screens.AboutScreen
+import org.linbaogu.romhub.ui.screens.BrandDevicesScreen
+import org.linbaogu.romhub.ui.screens.BrandPickerScreen
+import org.linbaogu.romhub.ui.screens.BrandVersionsScreen
+import org.linbaogu.romhub.ui.screens.CloudBrowserScreen
 import org.linbaogu.romhub.ui.screens.DeviceDetailScreen
+import org.linbaogu.romhub.ui.screens.DownloadScreen
 import org.linbaogu.romhub.ui.screens.DevicesScreen
 import org.linbaogu.romhub.ui.screens.FeedScreen
+import org.linbaogu.romhub.ui.screens.FullScreenLayer
 import org.linbaogu.romhub.ui.screens.LoginScreen
+import org.linbaogu.romhub.pan.store.BookmarkStore
+import org.linbaogu.romhub.ui.screens.PanHubScreen
+import org.linbaogu.romhub.ui.screens.PanLoginEntry
 import org.linbaogu.romhub.ui.screens.PortDetailScreen
 import org.linbaogu.romhub.ui.screens.UploadScreen
 import org.linbaogu.romhub.ui.screens.VersionListScreen
@@ -118,6 +131,25 @@ fun AppRoot(vm: AppViewModel) {
             },
         )
     }
+
+    // 存储权限：下载要落到公共 Download/rom-hub/，Android 11+ 只能去系统设置手动开。
+    // 同样是「先讲清楚再跳转」，且只主动弹一次；不开就退回 App 私有目录，功能不中断。
+    var askingStorage by remember {
+        mutableStateOf(!Prefs.storagePromptShown(ctx) && !StoragePermission.granted(ctx))
+    }
+    if (askingStorage) {
+        StoragePermissionDialog(
+            onAllow = {
+                Prefs.setStoragePromptShown(ctx, true)
+                askingStorage = false
+                StoragePermission.openAllFilesSettings(ctx)
+            },
+            onLater = {
+                Prefs.setStoragePromptShown(ctx, true)
+                askingStorage = false
+            },
+        )
+    }
 }
 
 // ---------------------------------------------------------------- 开屏动画
@@ -161,6 +193,10 @@ private fun MainShell(vm: AppViewModel) {
     val tabs = vm.tabs
     val surface = MiuixTheme.colorScheme.surface
 
+    // 收藏仓库：整页共用一个实例（内部有 StateFlow，切 tab 不会丢状态）
+    val appCtx = LocalContext.current.applicationContext
+    val bookmarks = remember(appCtx) { BookmarkStore(appCtx) }
+
     // 从上次的 tab 起步（nav 状态可以跨进程恢复），避免开屏先闪一下首页
     val pagerState = rememberPagerState(initialPage = nav.currentTab, pageCount = { tabs.size })
 
@@ -173,7 +209,8 @@ private fun MainShell(vm: AppViewModel) {
 
     // 返回：KSU 的①②③ —— 只在「有更深的页」或「不在第 0 个 tab」时拦截，
     // 其余情况交给系统（等于 KSU 的规则③）
-    BackHandler(enabled = nav.stack.size > 1 || nav.currentTab != 0) {
+    // 注意：全屏覆盖页（登录/云盘浏览）自己带 BackHandler，覆盖页打开时这里必须让路。
+    BackHandler(enabled = vm.panOverlay == null && (nav.stack.size > 1 || nav.currentTab != 0)) {
         nav.back()
     }
 
@@ -221,6 +258,8 @@ private fun MainShell(vm: AppViewModel) {
                     .onSizeChanged { pagerW = it.width.toFloat().coerceAtLeast(1f) }
                     .graphicsLayer { translationX = pagerShift.value * pagerW },
                 userScrollEnabled = nav.isAtRoot,
+                // 只保留当前页 + 直接相邻的（这里 1 已经够用：跳转后 pager 会立刻
+                // 把目标页设为 currentPage，不再需要跨多页预渲染）。
                 beyondViewportPageCount = 1,
                 // HyperOS 底栏切换手感：弹簧回弹吸附，而不是匀速滑到头
                 flingBehavior = PagerDefaults.flingBehavior(
@@ -229,7 +268,7 @@ private fun MainShell(vm: AppViewModel) {
                 ),
             ) { page ->
                 if (page < tabs.size) {
-                    TabPage(tabs[page].title, vm, bottomInnerPadding)
+                    TabPage(tabs[page].title, vm, bookmarks, bottomInnerPadding)
                 }
             }
 
@@ -311,7 +350,47 @@ private fun MainShell(vm: AppViewModel) {
             }
         }
 
-        // ③ 轻量提示条：手动「检查更新」等操作的回执（2.6 秒自动消失）
+        // ③ 全局提示条宿主。
+        //    必须挂在最外层：SnackbarController.show() 是全局广播，
+        //    之前只有 CloudBrowserScreen 自己挂了宿主，其它页面发出去的提示没人渲染，
+        //    表现为「点了按钮没反应」。
+        //    放在底栏之后 → 提示条盖在底栏之上；不参与点击（Box 不消费事件）。
+        GlobalSnackbarHost(
+            modifier = Modifier
+                .align(Alignment.BottomCenter)
+                .padding(bottom = barBottom + 56.dp),
+        )
+
+        // ④ 全屏覆盖页（登录 / 云盘浏览）—— 必须挂在 **pager 之外**、最外层。
+        //    这两个页面含 WebView：留在 pager 里会被预组合反复重绘 → 「一直闪烁」。
+        //    返回键交给页面自己的 BackHandler（云盘浏览页有三级逻辑），这里只兜底关覆盖层。
+        vm.panOverlay?.let { ov ->
+            FullScreenLayer(onBack = { vm.closePanOverlay() }) {
+                when (ov) {
+                    is AppViewModel.PanOverlay.Login -> PanLoginEntry(
+                        platform = ov.platform,
+                        onBack = { vm.closePanOverlay() },
+                        onSaved = {
+                            // 登录成功：关掉覆盖页 + 催账号列表重读（否则还显示「未登录」）
+                            vm.closePanOverlay()
+                            vm.bumpAccountRev()
+                        },
+                    )
+
+                    is AppViewModel.PanOverlay.Browse -> CloudBrowserScreen(
+                        platform = ov.platform,
+                        bottomInnerPadding = bottomInnerPadding,
+                        onExit = { vm.closePanOverlay() },
+                        onDownloadStarted = {
+                            vm.closePanOverlay()
+                            vm.openDownloader(1)
+                        },
+                    )
+                }
+            }
+        }
+
+        // ④ 轻量提示条：手动「检查更新」等操作的回执（2.6 秒自动消失）
         val msg = vm.globalMessage
         if (msg != null) {
             LaunchedEffect(msg) {
@@ -329,7 +408,7 @@ private fun MainShell(vm: AppViewModel) {
             }
         }
 
-        // ④ 发现新版本 → 弹更新提示。挂最外层，和权限弹窗同级，不会被任何页面挡住。
+        // ⑤ 发现新版本 → 弹更新提示。挂最外层，和权限弹窗同级，不会被任何页面挡住。
         val up = vm.appUpdate
         if (up != null && !vm.updateDismissed) {
             val actx = LocalContext.current
@@ -337,6 +416,14 @@ private fun MainShell(vm: AppViewModel) {
                 info = up,
                 currentName = BuildConfig.VERSION_NAME,
                 onDownload = { openUrl(actx, it) },
+                onDownloadWithApp = {
+                    org.linbaogu.romhub.download.DownloadManager.add(
+                        url = it,
+                        fileName = "ROMHub-v${up.versionName}.apk",
+                        subDir = "update",
+                    )
+                    vm.globalMessage = "已加入下载队列，去「网盘下载器 → 下载」看进度"
+                },
                 onLater = { vm.dismissUpdate() },
             )
         }
@@ -378,7 +465,10 @@ private fun DeepLayer(isTop: Boolean, isGhost: Boolean, content: @Composable () 
         Box(
             Modifier
                 .fillMaxSize()
-                .background(MiuixTheme.colorScheme.surface.copy(alpha = 0.97f))
+                // 必须完全不透明：这里原来是 surface.copy(alpha = 0.97f)，
+                // 留了 3% 透明，新页滑入时会透出下面旧页的字（用户报「微微显示上一页的字」）。
+                // 页面本来就不该有透视效果，压成实色即可。
+                .background(MiuixTheme.colorScheme.surface)
         )
         content()
     }
@@ -413,18 +503,47 @@ private fun DeepScreenContent(screen: Screen, vm: AppViewModel, bottomInnerPaddi
             highlight = screen.highlight,
             bottomInnerPadding = bottomInnerPadding,
             onBack = { vm.nav.back() },
+            onGoDownloader = { vm.openDownloader(1) },
         )
 
         is Screen.PortDetail -> PortDetailScreen(
             id = screen.id,
             bottomInnerPadding = bottomInnerPadding,
             onBack = { vm.nav.back() },
+            // 带链接跳过去：用户落地就在「下载」段看到链接已填好并自动解析
+            onGoDownloader = { url ->
+                if (url.isBlank()) vm.openDownloader(1) else vm.openDownloaderWithUrl(url)
+            },
+        )
+
+        is Screen.BrandDevices -> BrandDevicesScreen(
+            brandKey = screen.brandKey,
+            bottomInnerPadding = bottomInnerPadding,
+            onBack = { vm.nav.back() },
+            onOpenDevice = { d ->
+                vm.nav.push(
+                    Screen.BrandVersions(
+                        brandKey = screen.brandKey,
+                        deviceName = d.name,
+                        series = d.series,
+                    )
+                )
+            },
+        )
+
+        is Screen.BrandVersions -> BrandVersionsScreen(
+            brandKey = screen.brandKey,
+            deviceName = screen.deviceName,
+            series = screen.series,
+            bottomInnerPadding = bottomInnerPadding,
+            onBack = { vm.nav.back() },
+            onGoDownloader = { vm.openDownloader(1) },
         )
     }
 }
 
 @Composable
-private fun TabPage(title: String, vm: AppViewModel, bottomInnerPadding: Dp) {
+private fun TabPage(title: String, vm: AppViewModel, bookmarks: BookmarkStore, bottomInnerPadding: Dp) {
     val stats = vm.stats
     val subtitle = stats?.let {
         "${it.devices} 款机型 · ${it.versions} 个版本"
@@ -456,6 +575,27 @@ private fun TabPage(title: String, vm: AppViewModel, bottomInnerPadding: Dp) {
                     )
                 }
             },
+        )
+
+        "固件下载" -> BrandPickerScreen(
+            subtitle = subtitle,
+            bottomInnerPadding = bottomInnerPadding,
+            onPick = { brand -> vm.nav.push(Screen.BrandDevices(brand.key)) },
+            onNotReady = { name -> SnackbarController.show("$name 的数据源还在接入中") },
+            onOpenXiaomi = { vm.nav.switchTab(0) },
+        )
+
+        "网盘下载器" -> PanHubScreen(
+            bookmarks = bookmarks,
+            bottomInnerPadding = bottomInnerPadding,
+            initialUrl = vm.pendingDownloadUrl,
+            onConsumed = { vm.consumePendingDownload() },
+            initialSegment = vm.pendingPanSegment,
+            onSegmentConsumed = { vm.consumePendingPanSegment() },
+            onOpenLogin = { vm.openPanLogin(it) },
+            onOpenBrowse = { vm.openPanBrowse(it) },
+            accountRev = vm.accountRev,
+            onAccountChanged = { vm.bumpAccountRev() },
         )
 
         "包上传" -> UploadScreen(

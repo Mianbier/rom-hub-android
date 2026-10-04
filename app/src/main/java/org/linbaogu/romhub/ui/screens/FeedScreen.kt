@@ -29,6 +29,10 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
+import kotlinx.coroutines.async
+import kotlinx.coroutines.coroutineScope
+import kotlinx.coroutines.sync.Mutex
+import kotlinx.coroutines.sync.withLock
 import org.linbaogu.romhub.data.Api
 import org.linbaogu.romhub.data.Repo
 import org.linbaogu.romhub.data.RomUpdate
@@ -60,29 +64,55 @@ fun FeedScreen(
     var items by remember { mutableStateOf(Repo.cachedFeed(ctx).items) }
     var counts by remember { mutableStateOf(emptyMap<String, Int>()) }
     var loading by remember { mutableStateOf(items.isEmpty()) }
+    var refreshing by remember { mutableStateOf(false) }
     var error by remember { mutableStateOf("") }
     var state by remember { mutableStateOf("全部") }
     var onlyCN by remember { mutableStateOf(false) }
     var reload by remember { mutableStateOf(0) }
 
+    // 同一时间只允许一个请求在跑：手点刷新、切标签、20 秒自动刷新不会互相撞车，
+    // 也就不会「前一次还没回来后一次又超时」地连环报错。
+    val reqLock = remember { Mutex() }
+
     LaunchedEffect(state, reload) {
-        loading = items.isEmpty()
-        error = ""
-        runCatching {
-            val resp = if (state == "全部") {
-                Api.romUpdates(ctx, limit = 120)
-            } else {
-                Api.romUpdates(ctx, limit = 120, state = state)
+        // 让切换动画先跑完再干活。
+        // 动态页有两个并发网络请求（列表 + 标签计数）+ 120 条的解析，
+        // 若在 tab 切换的那一帧就发起，会明显拖慢 pager 的转场（用户反馈「卡一下才过去」）。
+        // 这里只是把「开始干活」推迟一小会儿，不改变任何可见状态。
+        kotlinx.coroutines.delay(if (items.isEmpty()) 180 else 0)
+        reqLock.withLock {
+            val firstLoad = items.isEmpty()
+            // ⚠ 只有列表真的空着才整屏转圈；已经有内容时是「静默刷新」，
+            //   列表留在原地，绝不会一闪变空再弹错误。
+            loading = firstLoad
+            refreshing = !firstLoad
+            error = ""
+            runCatching {
+                if (state == "全部") {
+                    // 只拉一次列表（同时写进本地快照），标签计数并行取（那个接口很小）
+                    coroutineScope {
+                        val list = async { Repo.refreshFeed(ctx, limit = 120) }
+                        val cs = async {
+                            runCatching { Api.updateStates(ctx) }.getOrDefault(emptyMap())
+                        }
+                        val resp = list.await()
+                        counts = cs.await()
+                        resp.items
+                    }
+                } else {
+                    val resp = Api.romUpdates(ctx, limit = 120, state = state)
+                    counts = resp.counts
+                    resp.items
+                }
+            }.onSuccess {
+                items = it
+                loading = false
+                refreshing = false
+            }.onFailure {
+                error = it.message ?: "加载失败"
+                loading = false
+                refreshing = false
             }
-            counts = resp.counts
-            // 「全部」时把结果合并进本地快照，保持动态页的离线数据是最新的
-            if (state == "全部") Repo.refreshFeed(ctx, limit = 120).items else resp.items
-        }.onSuccess {
-            items = it
-            loading = false
-        }.onFailure {
-            error = it.message ?: "加载失败"
-            loading = false
         }
     }
 
@@ -91,9 +121,12 @@ fun FeedScreen(
         while (true) {
             kotlinx.coroutines.delay(20_000)
             if (state != "全部") continue
-            runCatching {
-                val fresh = Repo.refreshFeed(ctx, limit = 120).items
-                if (fresh.firstOrNull()?.id != items.firstOrNull()?.id) items = fresh
+            // 后台静默刷新：失败不提示（免得没事就弹一条错误），也不抢正在跑的请求
+            if (!reqLock.isLocked) {
+                runCatching {
+                    val fresh = reqLock.withLock { Repo.refreshFeed(ctx, limit = 120) }.items
+                    if (fresh.firstOrNull()?.id != items.firstOrNull()?.id) items = fresh
+                }
             }
         }
     }
@@ -107,6 +140,13 @@ fun FeedScreen(
         if (onlyCN) items.filter { it.region == "cn" } else items
     }
 
+    // 按日期分组的成本不低（120 条 × 每次重组都要重算 + 重排），
+    // 而它只依赖 shown —— 用 remember 缓存，切 tab / 高频重组时不再重复算。
+    // 这一步是「最右 tab 点动态卡一下」的主要来源之一（pager 切页会触发重组）。
+    val grouped = remember(shown) {
+        shown.groupBy { u -> u.shortDate.substringBefore(' ').ifBlank { u.detectedAt.take(10) } }
+    }
+
     ListScreen(
         title = "动态",
         largeTitle = "动态",
@@ -114,7 +154,7 @@ fun FeedScreen(
         bottomInnerPadding = bottomInnerPadding,
         contentPadding = PaddingValues(horizontal = 12.dp),
         actions = {
-            IconButton(onClick = { reload++ }) {
+            IconButton(onClick = { if (!loading && !refreshing) reload++ }) {
                 Icon(MiuixIcons.Refresh, contentDescription = "刷新")
             }
         },
@@ -146,16 +186,16 @@ fun FeedScreen(
         },
     ) {
         if (loading) item { Hint("正在加载动态…") }
+        if (refreshing) item { Hint("正在刷新…") }
+        // 出错也只是一条横幅，下面的列表照常显示（不清空、不闪屏）
         if (error.isNotBlank()) item { ErrorHint(error) { reload++ } }
-        if (!loading && error.isBlank() && shown.isEmpty()) {
+        if (!loading && !refreshing && error.isBlank() && shown.isEmpty()) {
             item { Hint("这个筛选下暂无动态") }
         }
 
         // HyperCeiler 结构：同一天的动态装进一张实底大卡片，每条是一行
         // ⚠ LazyListScope 的 content 不是 @Composable 上下文，这里不能 remember
-        val grouped = shown.groupBy { u ->
-            u.shortDate.substringBefore(' ').ifBlank { u.detectedAt.take(10) }
-        }
+        //   → 分组已经在上面 remember 好了（grouped）
         grouped.forEach { (day, list) ->
             item(key = "day_$day") { SectionLabel(day) }
             item(key = "grp_$day") {

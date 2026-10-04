@@ -376,10 +376,15 @@ class AppViewModel(app: Application) : AndroidViewModel(app) {
                     info.versionCode > BuildConfig.VERSION_CODE
             appUpdate = if (newer) info else null
             if (manual) {
-                globalMessage = if (newer) {
-                    "有新版本 v${info.versionName}"
-                } else {
-                    "已是最新版本（v${BuildConfig.VERSION_NAME}）"
+                globalMessage = when {
+                    newer -> "有新版本 v${info.versionName}"
+                    // 服务端配置文件是空的（version_code=0 且没有下载链接）。
+                    // 这时如果说「已是最新版本」是骗人的 —— 真实情况是**查不到**新版本，
+                    // 用户按了按钮却得到一个假结论，会以为已经是最新的。
+                    // 这种情况要说清楚，让他去 GitHub Releases 看。
+                    info.versionCode <= 0 -> "暂时查不到新版本（服务端未配置更新信息），" +
+                            "可直接到 GitHub Releases 查看"
+                    else -> "已是最新版本（v${BuildConfig.VERSION_NAME}）"
                 }
             }
         }

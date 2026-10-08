@@ -1,8 +1,1 @@
-<?xml version="1.0" encoding="utf-8"?>
-<paths>
-    <files-path name="downloads" path="downloads/" />
-    <cache-path name="cache" path="." />
-    <external-files-path name="ext" path="." />
-    <!-- 公共下载目录（Download/rom-hub/）：开了「所有文件访问」后文件落在这里 -->
-    <external-path name="public_downloads" path="Download/" />
-</paths>
+PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHBhdGhzPgogICAgPGZpbGVzLXBhdGggbmFtZT0iZG93bmxvYWRzIiBwYXRoPSJkb3dubG9hZHMvIiAvPgogICAgPGNhY2hlLXBhdGggbmFtZT0iY2FjaGUiIHBhdGg9Ii4iIC8+CiAgICA8ZXh0ZXJuYWwtZmlsZXMtcGF0aCBuYW1lPSJleHQiIHBhdGg9Ii4iIC8+CiAgICA8IS0tIOWFrOWFseS4i+i9veebruW9le+8iERvd25sb2FkL3JvbS1odWIv77yJ77ya5byA5LqG44CM5omA5pyJ5paH5Lu26K6/6Zeu44CN5ZCO5paH5Lu26JC95Zyo6L+Z6YeMIC0tPgogICAgPGV4dGVybmFsLXBhdGggbmFtZT0icHVibGljX2Rvd25sb2FkcyIgcGF0aD0iRG93bmxvYWQvIiAvPgo8L3BhdGhzPgo=

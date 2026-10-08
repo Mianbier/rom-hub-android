@@ -1,2 +1,1 @@
-# ROM Hub 混淆规则（当前不开启 minify，留作后续使用）
--keepattributes *Annotation*
+IyBST00gSHViIOa3t+a3huinhOWIme+8iOW9k+WJjeS4jeW8gOWQryBtaW5pZnnvvIznlZnkvZzlkI7nu63kvb/nlKjvvIkKLWtlZXBhdHRyaWJ1dGVzICpBbm5vdGF0aW9uKgo=

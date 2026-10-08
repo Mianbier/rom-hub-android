@@ -1,15 +1,1 @@
-// Adapted from Kyant0/AndroidLiquidGlass (Apache 2.0)
-// via KernelSU ui/component/liquid/Vibrancy.kt — 原样移植，保持视觉效果一致。
-
-package org.linbaogu.romhub.ui.liquid
-
-import top.yukonga.miuix.kmp.blur.BackdropEffectScope
-import top.yukonga.miuix.kmp.blur.colorControls
-
-fun BackdropEffectScope.vibrancy() {
-    colorControls(
-        brightness = 0f,
-        contrast = 1f,
-        saturation = 1.5f,
-    )
-}
+Ly8gQWRhcHRlZCBmcm9tIEt5YW50MC9BbmRyb2lkTGlxdWlkR2xhc3MgKEFwYWNoZSAyLjApCi8vIHZpYSBLZXJuZWxTVSB1aS9jb21wb25lbnQvbGlxdWlkL1ZpYnJhbmN5Lmt0IOKAlCDljp/moLfnp7vmpI3vvIzkv53mjIHop4bop4nmlYjmnpzkuIDoh7TjgIIKCnBhY2thZ2Ugb3JnLmxpbmJhb2d1LnJvbWh1Yi51aS5saXF1aWQKCmltcG9ydCB0b3AueXVrb25nYS5taXVpeC5rbXAuYmx1ci5CYWNrZHJvcEVmZmVjdFNjb3BlCmltcG9ydCB0b3AueXVrb25nYS5taXVpeC5rbXAuYmx1ci5jb2xvckNvbnRyb2xzCgpmdW4gQmFja2Ryb3BFZmZlY3RTY29wZS52aWJyYW5jeSgpIHsKICAgIGNvbG9yQ29udHJvbHMoCiAgICAgICAgYnJpZ2h0bmVzcyA9IDBmLAogICAgICAgIGNvbnRyYXN0ID0gMWYsCiAgICAgICAgc2F0dXJhdGlvbiA9IDEuNWYsCiAgICApCn0K

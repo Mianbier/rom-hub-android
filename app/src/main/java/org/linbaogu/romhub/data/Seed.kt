@@ -1,1 +1,30 @@
-cGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLmRhdGEKCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dAppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkRpc3BhdGNoZXJzCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMud2l0aENvbnRleHQKCi8qKgogKiDlhoXnva7np43lrZDmlbDmja7vvJroo4Xov5sgQVBLIOeahOmCo+S7veOAjOacgOS9juWPr+aYvuekuuWGheWuueOAjeOAggogKgogKiAjIyDkuLrku4DkuYjpnIDopoEKICoKICog5Yqo5oCB5ZKM57uf6K6h55qE5a6e6ZmF5Y+W5YC86aG65bqP5piv77ya5a6e5pe25o6l5Y+jIOKGkiBDRE4g5b+r54WnIOKGkiDmnKzlnLDnvJPlrZgg4oaSICoq5YaF572u56eN5a2QKirjgIIKICog5YmN5LiJ57qn6YO95Y+v6IO95ZCM5pe25Li656m6IOKAlOKAlCDliJroo4XlroznrKzkuIDmrKHmiZPlvIDjgIHov5jmsqHogZTnvZHjgIFDRE4g6YKj5Liq5Z+f5ZCN5oGw5aW95Lmf6Kej5p6Q5LiN5LqG44CCCiAqIOi/meaXtuWAmeWmguaenOWPquWbnuS4gOS4quepuuWIl+ihqO+8jOS4u+mhteWwseaYr+S4gOeJhyAw44CB5Yqo5oCB6aG15piv44CM5pqC5peg5Yqo5oCB44CN77yMCiAqIOeUqOaIt+S8muS7peS4uiBBcHAg5Z2P5LqG44CC56eN5a2Q5L+d6K+BKirku7vkvZXmg4XlhrXkuIvpg73mnInkuIDkuKrog73nnIvnmoTkuJzopb8qKu+8jAogKiDlubbkuJTmmI7noa7lkYror4nnlKjmiLfov5nmmK/lhoXnva7mlbDmja7jgIHogZTnvZHlkI7kvJroh6rliqjmjaLmiJDlrp7ml7bmlbDmja7jgIIKICovCmludGVybmFsIG9iamVjdCBTZWVkIHsKCiAgICAvKiog6aaW6aG157uf6K6h55qE5YWc5bqV5pWw5a2X44CC5omT5YyF5pe255qE55yf5YC877yM6IGU572R5ZCO56uL5Yi76KKr5a6e5pe25pWw5o2u6KaG55uW44CCICovCiAgICBzdXNwZW5kIGZ1biBzdGF0cyhjdHg6IENvbnRleHQpOiBSb21TdGF0cz8gPSB3aXRoQ29udGV4dChEaXNwYXRjaGVycy5JTykgewogICAgICAgIHJlYWRBc3NldChjdHgsICJzZWVkX3N0YXRzLmpzb24iKT8ubGV0IHsKICAgICAgICAgICAgcnVuQ2F0Y2hpbmcgeyBSb21Kc29uLmRlY29kZUZyb21TdHJpbmc8Um9tU3RhdHM+KGl0KSB9LmdldE9yTnVsbCgpCiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIHJlYWRBc3NldChjdHg6IENvbnRleHQsIG5hbWU6IFN0cmluZyk6IFN0cmluZz8gPSBydW5DYXRjaGluZyB7CiAgICAgICAgY3R4LmFwcGxpY2F0aW9uQ29udGV4dC5hc3NldHMub3BlbihuYW1lKS5idWZmZXJlZFJlYWRlcigpLnVzZSB7IGl0LnJlYWRUZXh0KCkgfQogICAgfS5nZXRPck51bGwoKQp9
+package org.linbaogu.romhub.data
+
+import android.content.Context
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
+
+/**
+ * 内置种子数据：装进 APK 的那份「最低可显示内容」。
+ *
+ * ## 为什么需要
+ *
+ * 动态和统计的实际取值顺序是：实时接口 → CDN 快照 → 本地缓存 → **内置种子**。
+ * 前三级都可能同时为空 —— 刚装完第一次打开、还没联网、CDN 那个域名恰好也解析不了。
+ * 这时候如果只回一个空列表，主页就是一片 0、动态页是「暂无动态」，
+ * 用户会以为 App 坏了。种子保证**任何情况下都有一个能看的东西**，
+ * 并且明确告诉用户这是内置数据、联网后会自动换成实时数据。
+ */
+internal object Seed {
+
+    /** 首页统计的兜底数字。打包时的真值，联网后立刻被实时数据覆盖。 */
+    suspend fun stats(ctx: Context): RomStats? = withContext(Dispatchers.IO) {
+        readAsset(ctx, "seed_stats.json")?.let {
+            runCatching { RomJson.decodeFromString<RomStats>(it) }.getOrNull()
+        }
+    }
+
+    private fun readAsset(ctx: Context, name: String): String? = runCatching {
+        ctx.applicationContext.assets.open(name).bufferedReader().use { it.readText() }
+    }.getOrNull()
+}

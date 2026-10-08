@@ -1,1 +1,60 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IS0tCiAgfiBUaGlzIGZpbGUgaXMgcGFydCBvZiBIeXBlckNlaWxlci4KICB+CiAgfiBIeXBlckNlaWxlciBpcyBmcmVlIHNvZnR3YXJlOiB5b3UgY2FuIHJlZGlzdHJpYnV0ZSBpdCBhbmQvb3IgbW9kaWZ5CiAgfiBpdCB1bmRlciB0aGUgdGVybXMgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBhcwogIH4gcHVibGlzaGVkIGJ5IHRoZSBGcmVlIFNvZnR3YXJlIEZvdW5kYXRpb24sIGVpdGhlciB2ZXJzaW9uIDMgb2YgdGhlCiAgfiBMaWNlbnNlLgogIH4KICB+IFRoaXMgcHJvZ3JhbSBpcyBkaXN0cmlidXRlZCBpbiB0aGUgaG9wZSB0aGF0IGl0IHdpbGwgYmUgdXNlZnVsLAogIH4gYnV0IFdJVEhPVVQgQU5ZIFdBUlJBTlRZOyB3aXRob3V0IGV2ZW4gdGhlIGltcGxpZWQgd2FycmFudHkgb2YKICB+IE1FUkNIQU5UQUJJTElUWSBvciBGSVRORVNTIEZPUiBBIFBBUlRJQ1VMQVIgUFVSUE9TRS4gIFNlZSB0aGUKICB+IEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBmb3IgbW9yZSBkZXRhaWxzLgogIH4KICB+IFlvdSBzaG91bGQgaGF2ZSByZWNlaXZlZCBhIGNvcHkgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZQogIH4gYWxvbmcgd2l0aCB0aGlzIHByb2dyYW0uICBJZiBub3QsIHNlZSA8aHR0cHM6Ly93d3cuZ251Lm9yZy9saWNlbnNlcy8+LgogIH4KICB+IENvcHlyaWdodCAoQykgMjAyMy0yMDI2IEh5cGVyQ2VpbGVyIENvbnRyaWJ1dGlvbnMKICAtLT4KPFByZWZlcmVuY2VTY3JlZW4geG1sbnM6YW5kcm9pZD0iaHR0cDovL3NjaGVtYXMuYW5kcm9pZC5jb20vYXBrL3Jlcy9hbmRyb2lkIj4KCiAgICA8UHJlZmVyZW5jZUNhdGVnb3J5PgoKICAgIDxTd2l0Y2hQcmVmZXJlbmNlCiAgICAgICAgYW5kcm9pZDppY29uPSJAZHJhd2FibGUvaWNfZGVmYXVsdCIKICAgICAgICBhbmRyb2lkOmtleT0icHJlZnNfa2V5X3N5c3RlbV91aV9zYWZlX21vZGVfZW5hYmxlIgogICAgICAgIGFuZHJvaWQ6bGF5b3V0PSJAbGF5b3V0L3ByZWZlcmVuY2VfaGVhZGVyIgogICAgICAgIGFuZHJvaWQ6c3VtbWFyeT0iY29tLmFuZHJvaWQuc3lzdGVtdWkiCiAgICAgICAgYW5kcm9pZDp0aXRsZT0iQHN0cmluZy9zeXN0ZW1fdWkiIC8+CgogICAgPFN3aXRjaFByZWZlcmVuY2UKICAgICAgICBhbmRyb2lkOmljb249IkBkcmF3YWJsZS9pY19kZWZhdWx0IgogICAgICAgIGFuZHJvaWQ6a2V5PSJwcmVmc19rZXlfaG9tZV9zYWZlX21vZGVfZW5hYmxlIgogICAgICAgIGFuZHJvaWQ6bGF5b3V0PSJAbGF5b3V0L3ByZWZlcmVuY2VfaGVhZGVyIgogICAgICAgIGFuZHJvaWQ6c3VtbWFyeT0iY29tLm1pdWkuaG9tZSIKICAgICAgICBhbmRyb2lkOnRpdGxlPSJAc3RyaW5nL21paG9tZSIgLz4KCiAgICA8U3dpdGNoUHJlZmVyZW5jZQogICAgICAgIGFuZHJvaWQ6aWNvbj0iQGRyYXdhYmxlL2ljX2RlZmF1bHQiCiAgICAgICAgYW5kcm9pZDprZXk9InByZWZzX2tleV9zeXN0ZW1fc2V0dGluZ3Nfc2FmZV9tb2RlX2VuYWJsZSIKICAgICAgICBhbmRyb2lkOmxheW91dD0iQGxheW91dC9wcmVmZXJlbmNlX2hlYWRlciIKICAgICAgICBhbmRyb2lkOnN1bW1hcnk9ImNvbS5hbmRyb2lkLnNldHRpbmdzIgogICAgICAgIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvc3lzdGVtX3NldHRpbmdzIiAvPgoKICAgIDxTd2l0Y2hQcmVmZXJlbmNlCiAgICAgICAgYW5kcm9pZDppY29uPSJAZHJhd2FibGUvaWNfZGVmYXVsdCIKICAgICAgICBhbmRyb2lkOmtleT0icHJlZnNfa2V5X3NlY3VyaXR5X2NlbnRlcl9zYWZlX21vZGVfZW5hYmxlIgogICAgICAgIGFuZHJvaWQ6bGF5b3V0PSJAbGF5b3V0L3ByZWZlcmVuY2VfaGVhZGVyIgogICAgICAgIGFuZHJvaWQ6c3VtbWFyeT0iY29tLm1pdWkuc2VjdXJpdHljZW50ZXIiCiAgICAgICAgYW5kcm9pZDp0aXRsZT0iQHN0cmluZy9zZWN1cml0eV9jZW50ZXJfaHlwZXJvcyIgLz4KCiAgICA8U3dpdGNoUHJlZmVyZW5jZQogICAgICAgIGFuZHJvaWQ6aWNvbj0iQGRyYXdhYmxlL2ljX2RlZmF1bHQiCiAgICAgICAgYW5kcm9pZDprZXk9InByZWZzX2tleV9kZW1vX3NhZmVfbW9kZV9lbmFibGUiCiAgICAgICAgYW5kcm9pZDpsYXlvdXQ9IkBsYXlvdXQvcHJlZmVyZW5jZV9oZWFkZXIiCiAgICAgICAgYW5kcm9pZDpzdW1tYXJ5PSJjb20uaGNoZW4uZGVtbyIKICAgICAgICBhbmRyb2lkOnRpdGxlPSJAc3RyaW5nL2RlbW8iIC8+CgogICAgPC9QcmVmZXJlbmNlQ2F0ZWdvcnk+Cgo8L1ByZWZlcmVuY2VTY3JlZW4+Cg==
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ This file is part of HyperCeiler.
+  ~
+  ~ HyperCeiler is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU Affero General Public License as
+  ~ published by the Free Software Foundation, either version 3 of the
+  ~ License.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU Affero General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU Affero General Public License
+  ~ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+  ~
+  ~ Copyright (C) 2023-2026 HyperCeiler Contributions
+  -->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory>
+
+    <SwitchPreference
+        android:icon="@drawable/ic_default"
+        android:key="prefs_key_system_ui_safe_mode_enable"
+        android:layout="@layout/preference_header"
+        android:summary="com.android.systemui"
+        android:title="@string/system_ui" />
+
+    <SwitchPreference
+        android:icon="@drawable/ic_default"
+        android:key="prefs_key_home_safe_mode_enable"
+        android:layout="@layout/preference_header"
+        android:summary="com.miui.home"
+        android:title="@string/mihome" />
+
+    <SwitchPreference
+        android:icon="@drawable/ic_default"
+        android:key="prefs_key_system_settings_safe_mode_enable"
+        android:layout="@layout/preference_header"
+        android:summary="com.android.settings"
+        android:title="@string/system_settings" />
+
+    <SwitchPreference
+        android:icon="@drawable/ic_default"
+        android:key="prefs_key_security_center_safe_mode_enable"
+        android:layout="@layout/preference_header"
+        android:summary="com.miui.securitycenter"
+        android:title="@string/security_center_hyperos" />
+
+    <SwitchPreference
+        android:icon="@drawable/ic_default"
+        android:key="prefs_key_demo_safe_mode_enable"
+        android:layout="@layout/preference_header"
+        android:summary="com.hchen.demo"
+        android:title="@string/demo" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

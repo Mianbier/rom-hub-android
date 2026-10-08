@@ -1,1 +1,37 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IS0tCiAgfiBUaGlzIGZpbGUgaXMgcGFydCBvZiBIeXBlckNlaWxlci4KICB+CiAgfiBIeXBlckNlaWxlciBpcyBmcmVlIHNvZnR3YXJlOiB5b3UgY2FuIHJlZGlzdHJpYnV0ZSBpdCBhbmQvb3IgbW9kaWZ5CiAgfiBpdCB1bmRlciB0aGUgdGVybXMgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBhcwogIH4gcHVibGlzaGVkIGJ5IHRoZSBGcmVlIFNvZnR3YXJlIEZvdW5kYXRpb24sIGVpdGhlciB2ZXJzaW9uIDMgb2YgdGhlCiAgfiBMaWNlbnNlLgogIH4KICB+IFRoaXMgcHJvZ3JhbSBpcyBkaXN0cmlidXRlZCBpbiB0aGUgaG9wZSB0aGF0IGl0IHdpbGwgYmUgdXNlZnVsLAogIH4gYnV0IFdJVEhPVVQgQU5ZIFdBUlJBTlRZOyB3aXRob3V0IGV2ZW4gdGhlIGltcGxpZWQgd2FycmFudHkgb2YKICB+IE1FUkNIQU5UQUJJTElUWSBvciBGSVRORVNTIEZPUiBBIFBBUlRJQ1VMQVIgUFVSUE9TRS4gIFNlZSB0aGUKICB+IEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBmb3IgbW9yZSBkZXRhaWxzLgogIH4KICB+IFlvdSBzaG91bGQgaGF2ZSByZWNlaXZlZCBhIGNvcHkgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZQogIH4gYWxvbmcgd2l0aCB0aGlzIHByb2dyYW0uICBJZiBub3QsIHNlZSA8aHR0cHM6Ly93d3cuZ251Lm9yZy9saWNlbnNlcy8+LgogIH4KICB+IENvcHlyaWdodCAoQykgMjAyMy0yMDI2IEh5cGVyQ2VpbGVyIENvbnRyaWJ1dGlvbnMKICAtLT4KPHZlY3RvciB4bWxuczphbmRyb2lkPSJodHRwOi8vc2NoZW1hcy5hbmRyb2lkLmNvbS9hcGsvcmVzL2FuZHJvaWQiCiAgICBhbmRyb2lkOndpZHRoPSIyNmRwIgogICAgYW5kcm9pZDpoZWlnaHQ9IjI2ZHAiCiAgICBhbmRyb2lkOnZpZXdwb3J0V2lkdGg9IjI2LjAiCiAgICBhbmRyb2lkOnZpZXdwb3J0SGVpZ2h0PSIyNi4wIj4KICAgIDxwYXRoCiAgICAgICAgYW5kcm9pZDpmaWxsQ29sb3I9IiNGRjM2RDE2NyIKICAgICAgICBhbmRyb2lkOnBhdGhEYXRhPSJNMTMsMjVDMTkuNjI3LDI1IDI1LDE5LjYyNyAyNSwxM0MyNSw2LjM3MyAxOS42MjcsMSAxMywxQzYuMzczLDEgMSw2LjM3MyAxLDEzQzEsMTkuNjI3IDYuMzczLDI1IDEzLDI1WiIgLz4KICAgIDxwYXRoCiAgICAgICAgYW5kcm9pZDpmaWxsQ29sb3I9IiMwMDAwMDAwMCIKICAgICAgICBhbmRyb2lkOnBhdGhEYXRhPSJNMTMsMjUuMzY4QzE5LjgzLDI1LjM2OCAyNS4zNjgsMTkuODMgMjUuMzY4LDEzQzI1LjM2OCw2LjE3IDE5LjgzLDAuNjMyIDEzLDAuNjMyQzYuMTcsMC42MzIgMC42MzIsNi4xNyAwLjYzMiwxM0MwLjYzMiwxOS44MyA2LjE3LDI1LjM2OCAxMywyNS4zNjhaIgogICAgICAgIGFuZHJvaWQ6c3Ryb2tlV2lkdGg9IjAuNzM1Mjk0IgogICAgICAgIGFuZHJvaWQ6c3Ryb2tlQWxwaGE9IjAuMSIKICAgICAgICBhbmRyb2lkOnN0cm9rZUNvbG9yPSIjRkZGRkZGRkYiIC8+CiAgICA8cGF0aAogICAgICAgIGFuZHJvaWQ6ZmlsbENvbG9yPSIjRkZGRkZGRkYiCiAgICAgICAgYW5kcm9pZDpmaWxsVHlwZT0iZXZlbk9kZCIKICAgICAgICBhbmRyb2lkOnBhdGhEYXRhPSJNMTQuMTAzLDguNTg4QzE0LjEwMyw3Ljk3OSAxMy42MDksNy40ODUgMTMsNy40ODVDMTIuMzkxLDcuNDg1IDExLjg5Nyw3Ljk3OSAxMS44OTcsOC41ODhWMTEuODk3SDguNTg4QzcuOTc5LDExLjg5NyA3LjQ4NSwxMi4zOTEgNy40ODUsMTNDNy40ODUsMTMuNjA5IDcuOTc5LDE0LjEwMyA4LjU4OCwxNC4xMDNIMTEuODk3VjE3LjQxMkMxMS44OTcsMTguMDIxIDEyLjM5MSwxOC41MTUgMTMsMTguNTE1QzEzLjYwOSwxOC41MTUgMTQuMTAzLDE4LjAyMSAxNC4xMDMsMTcuNDEyVjE0LjEwM0gxNy40MTJDMTguMDIxLDE0LjEwMyAxOC41MTUsMTMuNjA5IDE4LjUxNSwxM0MxOC41MTUsMTIuMzkxIDE4LjAyMSwxMS44OTcgMTcuNDEyLDExLjg5N0gxNC4xMDNWOC41ODhaIiAvPgo8L3ZlY3Rvcj4K
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ This file is part of HyperCeiler.
+  ~
+  ~ HyperCeiler is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU Affero General Public License as
+  ~ published by the Free Software Foundation, either version 3 of the
+  ~ License.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU Affero General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU Affero General Public License
+  ~ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+  ~
+  ~ Copyright (C) 2023-2026 HyperCeiler Contributions
+  -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="26dp"
+    android:height="26dp"
+    android:viewportWidth="26.0"
+    android:viewportHeight="26.0">
+    <path
+        android:fillColor="#FF36D167"
+        android:pathData="M13,25C19.627,25 25,19.627 25,13C25,6.373 19.627,1 13,1C6.373,1 1,6.373 1,13C1,19.627 6.373,25 13,25Z" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M13,25.368C19.83,25.368 25.368,19.83 25.368,13C25.368,6.17 19.83,0.632 13,0.632C6.17,0.632 0.632,6.17 0.632,13C0.632,19.83 6.17,25.368 13,25.368Z"
+        android:strokeWidth="0.735294"
+        android:strokeAlpha="0.1"
+        android:strokeColor="#FFFFFFFF" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:fillType="evenOdd"
+        android:pathData="M14.103,8.588C14.103,7.979 13.609,7.485 13,7.485C12.391,7.485 11.897,7.979 11.897,8.588V11.897H8.588C7.979,11.897 7.485,12.391 7.485,13C7.485,13.609 7.979,14.103 8.588,14.103H11.897V17.412C11.897,18.021 12.391,18.515 13,18.515C13.609,18.515 14.103,18.021 14.103,17.412V14.103H17.412C18.021,14.103 18.515,13.609 18.515,13C18.515,12.391 18.021,11.897 17.412,11.897H14.103V8.588Z" />
+</vector>

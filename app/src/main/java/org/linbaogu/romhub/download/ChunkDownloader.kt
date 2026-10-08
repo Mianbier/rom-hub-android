@@ -1,1 +1,509 @@
-cGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLmRvd25sb2FkCgppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkRpc3BhdGNoZXJzCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuYXN5bmMKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5hd2FpdEFsbAppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmNvcm91dGluZVNjb3BlCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZGVsYXkKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5zeW5jLlNlbWFwaG9yZQppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLnN5bmMud2l0aFBlcm1pdAppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLndpdGhDb250ZXh0CmltcG9ydCBva2h0dHAzLkNhbGwKaW1wb3J0IG9raHR0cDMuT2tIdHRwQ2xpZW50CmltcG9ydCBva2h0dHAzLlJlcXVlc3QKaW1wb3J0IGphdmEuaW8uRmlsZQppbXBvcnQgamF2YS5pby5SYW5kb21BY2Nlc3NGaWxlCmltcG9ydCBqYXZhLnV0aWwuQ29sbGVjdGlvbnMKaW1wb3J0IGphdmEudXRpbC5jb25jdXJyZW50LkNvbmN1cnJlbnRIYXNoTWFwCmltcG9ydCBqYXZhLnV0aWwuY29uY3VycmVudC5hdG9taWMuQXRvbWljTG9uZwoKLyoqCiAqIOWkmue6v+eoi+WIhueJh+S4i+i9veWZqOOAggogKgogKiDljp/nkIbvvIjot5/miYDmnIki6auY6YCf5LiL6L295ZmoIuS4gOagt++8ie+8mgogKiAgIDEuIOWFiOaOoua1i+aAu+Wkp+Wwj++8jOaKiuaWh+S7tuWIh+aIkCBOIOeJh++8mwogKiAgIDIuIOavj+eJh+WPkeS4gOS4quW4piBgUmFuZ2U6IGJ5dGVzPWEtYmAg55qE6K+35rGC77yM5ZCE6Ieq5bm25Y+R5LiL6L2977ybCiAqICAgMy4gKirmr4/niYflhpnoh6rlt7HnmoTni6znq4vkuLTml7bmlofku7YqKu+8iGDnm67moIflkI0ucGFydE5g77yJ77yM5LqS5LiN5bmy5omw77ybCiAqICAgNC4g5omA5pyJ54mH5LiL5a6M5ZCO5oyJ5bqP5Y+36aG65bqPIG1lcmdlIOaIkOacgOe7iOaWh+S7tu+8mwogKiAgIDUuIOavj+eJh+eahOS4i+WIsOeahOWtl+iKguaVsOiusOWcqCBbQ2h1bmtTdGF0ZS5kb25lXSDph4wg4oaSIOaWreS6huWGjei/nuaOpeedgOS4i++8iOaWreeCuee7reS8oO+8ieOAggogKgogKiAjIyDkuLrku4DkuYjmr4/niYfopoHlhpnni6znq4vmlofku7bvvIjph43opoHvvIkKICoKICog6ICB5a6e546w5piv44CM5q+P54mH5ZCE6IeqIGBSYW5kb21BY2Nlc3NGaWxlKGRlc3QsInJ3Iikuc2VlayhzdGFydCtkb25lKWAg5YaZ5ZCM5LiA5Liq5paH5Lu244CN44CCCiAqIOi/meWcqCoq5aSa57q/56iL5LiL5piv5LiN5Y+v6Z2g55qEKirvvJpQT1NJWCDnmoQgYGxzZWVrKClgICsgYHdyaXRlKClgIOS4jeaYr+WOn+WtkOaTjeS9nO+8jAogKiBBbmRyb2lkL0Jpb25pYyDkuIvmm7TmsqHmnInkv53or4HjgILlrp7mtYvvvIjlpKfph4/npL7ljLrmoYjkvovvvInlvZMgMyDkuKrku6XkuIrnur/nqIvlr7nlkIzkuIDmlofku7YKICog5bm25Y+RIGBzZWVrKClgK2B3cml0ZSgpYCDml7bvvIzkvJrlh7rnjrAqKuWtl+iKgumUmeS9jSoq77yI5YGP56e7IMKx5Yeg5Y2B5Yiw5Yeg5Y2D5a2X6IqC77yJ77yMCiAqIOS4i+WHuuadpeeahOaWh+S7tueci+i1t+adpeWkp+Wwj+Wvue+8jOWGheWuueWNtOaYr+mUmeeahCDigJTigJQg6KGo546w5bCx5pivKipBUEsg5a6J6KOF5oql562+5ZCN5LiN5LiA6Ie0KirjgIEKICogWklQIOino+WOi+aKpSBDUkMg6ZSZ6K+v44CCCiAqCiAqIOaJgOS7peaUueaIkO+8muavj+eJh+WGmeeLrOeriyBwYXJ0IOaWh+S7tu+8jOWFqOmDqOWujOaIkOWQjuaMieW6j+WQiOW5tuOAggogKiDni6znq4vmlofku7YgPSDmr4/kuKrniYflj6rmnInkuIDkuKrlhpnogIUgPSDlpKnnhLbml6Dnq57mgIHvvIzku6Pku7flj6rmmK8gbWVyZ2Ug5pe25aSa5LiA5qyh6aG65bqP5ou36LSd44CCCiAqCiAqICMjIOS4uuS7gOS5iOmrmOe6v+eoi+S8miLljaHmrbsi77yINjQg57q/56iL5Lul5LiK6LeR5LiN5Yqo77yJCiAqCiAqIOiAgeWunueOsOaKiuWcqOmAlOivt+axguWOi+WcqOS4gOS4quWbuuWumueahCBgU2VtYXBob3JlKDMyKWAg6YeM77yMYHJ1bkNodW5rYCDlpLHotKXph43or5Xml7YKICog6KaB6YeN5pawIGBnYXRlLmFjcXVpcmUoKWDjgILpq5jnur/nqIvvvIg2NC8xMjgvMjU277yJ5LiL54mH5pWw5aSa44CB6YeN6K+V5Lmf5aSa77yMCiAqIOWkp+mHj+WNj+eoi+WcqOS/oeWPt+mHj+WJjeaOkumYnyArIE9rSHR0cCDnmoQgYG1heFJlcXVlc3RzUGVySG9zdGAg6Zif5YiX5Y+g5Yqg77yMCiAqIOS4gOaXpuaciei/nuaOpeiiqyBDRE4g6Z2Z6buY5oyC5L2P77yM5bCx5b2i5oiQ5rS76ZSB77ya6L+b5bqm5rC46L+c5LiN5Yqo44CCCiAqCiAqIOaWsOWunueOsOeahOmZkOa1geaUueaIkCAqKuS4pOWxguOAgeS4lOS4jeS8muatu+mUgSoq77yaCiAqICAgwrcg5Y2P56iL5bGC77ya55SoIFtjaHVua1NlbWFwaG9yZV0g5o6n5Yi25Zyo6YCU5YiG54mH5pWw77yI5Y+v6ZqP5qGj5L2N5pS+5aSn5YiwIFtNQVhfSU5GTElHSFRd77yJ77ybCiAqICAgwrcg572R57uc5bGC77ya5Lqk57uZIE9rSHR0cCDoh6rlt7HnmoQgRGlzcGF0Y2hlcu+8iOWcqCBEb3dubG9hZE1hbmFnZXIg6YeM5oyJ5qGj5L2N6YWN572u77yJ44CCCiAqIOWFs+mUrueCueaYryoq6YeN6K+V5LiN6LWw6Zif5YiXKirvvJrliIbniYfkuIDml6bmi7/liLDorrjlj6/lsLHmiormlbTniYfvvIjlkKvph43or5XvvInot5Hlrozlho3ov5jvvIwKICog6YG/5YWNIumHjeivleimgemHjeaWsOaOkumYnyLpgKDmiJDnmoTppaXppb/jgIIKICovCmNsYXNzIENodW5rRG93bmxvYWRlcihwcml2YXRlIHZhbCBjbGllbnQ6IE9rSHR0cENsaWVudCkgewoKICAgIHByaXZhdGUgdmFsIGluZmxpZ2h0ID0gQ29uY3VycmVudEhhc2hNYXA8TG9uZywgTXV0YWJsZVNldDxDYWxsPj4oKQogICAgcHJpdmF0ZSB2YWwgY2FuY2VsbGVkSWRzOiBNdXRhYmxlU2V0PExvbmc+ID0gQ29sbGVjdGlvbnMuc3luY2hyb25pemVkU2V0KG11dGFibGVTZXRPZigpKQoKICAgIC8qKiDmr4/niYflt7Lnu4/okL3nm5jnmoTlrZfoioLmlbDvvIjmjInniYfluo/lj7fvvInvvIznlKjkuo4gVUkg5pi+56S65LiO5pat54K557ut5Lyg44CCICovCiAgICBwcml2YXRlIHZhbCBwYXJ0RG9uZSA9IENvbmN1cnJlbnRIYXNoTWFwPFN0cmluZywgQXRvbWljTG9uZz4oKQoKICAgIC8qKiDljZXniYflpLHotKXph43or5XkuIrpmZDvvIjot5/nlKjmiLforr7nva7lkIzmraXvvIzpu5jorqQgM++8ieOAgiAqLwogICAgQFZvbGF0aWxlIHByaXZhdGUgdmFyIHJldHJ5TGltaXQgPSAzCgogICAgLyoqIOmHjeivleaMh+aVsOmAgOmBv+WfuuaVsO+8iOavq+enku+8jOm7mOiupCAxc++8ieOAgiAqLwogICAgQFZvbGF0aWxlIHByaXZhdGUgdmFyIHJldHJ5QmFzZU1zID0gMTAwMEwKCiAgICAvKioKICAgICAqIOWQiOW5tuWujOaIkOWQjuaYr+WQpuWIoOaOiSAucGFydHMg55uu5b2V77yI6buY6K6k5Yig77yJ44CCCiAgICAgKiDnlLEgW0Rvd25sb2FkTWFuYWdlcl0g5oyJ6K6+572u5ZCM5q2lIOKAlOKAlCDlvIDkuobjgIzkv53nlZnliIbniYfmlofku7bjgI3lsLHnlZnnnYDmlrnkvr/mjpLmn6XjgIIKICAgICAqLwogICAgQFZvbGF0aWxlIHZhciBrZWVwUGFydHMgPSBmYWxzZQoKICAgIHByaXZhdGUgZnVuIHRyYWNrKHRhc2tJZDogTG9uZywgY2FsbDogQ2FsbCkgewogICAgICAgIGluZmxpZ2h0LmdldE9yUHV0KHRhc2tJZCkgeyBDb2xsZWN0aW9ucy5zeW5jaHJvbml6ZWRTZXQobXV0YWJsZVNldE9mKCkpIH0uYWRkKGNhbGwpCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gdW50cmFjayh0YXNrSWQ6IExvbmcsIGNhbGw6IENhbGwpIHsKICAgICAgICBpbmZsaWdodFt0YXNrSWRdPy5yZW1vdmUoY2FsbCkKICAgIH0KCiAgICAvKiog5YGc5q2i5p+Q5Liq5Lu75Yqh77ya5oqK5a6D5omA5pyJ5Zyo6aOe55qE6K+35rGC5omT5pat44CCICovCiAgICBmdW4gY2FuY2VsKHRhc2tJZDogTG9uZykgewogICAgICAgIGNhbmNlbGxlZElkcy5hZGQodGFza0lkKQogICAgICAgIGluZmxpZ2h0LnJlbW92ZSh0YXNrSWQpPy5mb3JFYWNoIHsgcnVuQ2F0Y2hpbmcgeyBpdC5jYW5jZWwoKSB9IH0KICAgIH0KCiAgICBmdW4gaXNDYW5jZWxsZWQodGFza0lkOiBMb25nKTogQm9vbGVhbiA9IHRhc2tJZCBpbiBjYW5jZWxsZWRJZHMKCiAgICBmdW4gY2xlYXJDYW5jZWwodGFza0lkOiBMb25nKSB7CiAgICAgICAgY2FuY2VsbGVkSWRzLnJlbW92ZSh0YXNrSWQpCiAgICB9CgogICAgLy8gLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSDliIbniYfop4TliJIKCiAgICAvKioKICAgICAqIOaKiiBbdG90YWxdIOWtl+iKguWIh+aIkOeJh+OAggogICAgICoKICAgICAqIOeJh+aVsCA9IOe6v+eoi+aVsO+8iOS4iumZkCBbTUFYX1RIUkVBRFNdID0gMjU277yJ44CCCiAgICAgKgogICAgICog5pyA5bCP54mH6ZW/5LiN5piv5Zu65a6a55qEIDFNQu+8jOiAjOaYr+maj+e6v+eoi+aVsOiHqumAguW6lO+8mgogICAgICog5byAIDI1NiDnur/nqIvml7boi6Xku43opoHmsYLmr4/niYcgMU1C77yM5paH5Lu25bCP5LqOIDI1Nk1CIOWwseawuOi/nOW8gOS4jea7oee6v+eoi++8jAogICAgICog55m955m95rWq6LS555So5oi36YCJ55qE5qGj5L2N44CC5omA5Lul57q/56iL5pWw6LaK6auY77yM5YWB6K6455qE54mH6LaK5bCP77yI5LiL6ZmQIDY0S0LvvInjgIIKICAgICAqCiAgICAgKiDmnKrnn6XlpKflsI/vvIh0b3RhbCA8PSAw77yJ6L+U5Zue56m66KGo77yM5Lqk57uZ5Y2V57q/56iL5YWc5bqV44CCCiAgICAgKi8KICAgIGZ1biBwbGFuQ2h1bmtzKHRvdGFsOiBMb25nLCB0aHJlYWRzOiBJbnQpOiBMaXN0PENodW5rU3RhdGU+IHsKICAgICAgICBpZiAodG90YWwgPD0gMEwpIHJldHVybiBlbXB0eUxpc3QoKQogICAgICAgIHZhciBuID0gdGhyZWFkcy5jb2VyY2VJbigxLCBNQVhfVEhSRUFEUykKICAgICAgICB2YWwgbWluQ2h1bmsgPSBtaW5DaHVua1NpemVGb3IobikKICAgICAgICBpZiAodG90YWwgLyBuIDwgbWluQ2h1bmspIG4gPSAodG90YWwgLyBtaW5DaHVuaykudG9JbnQoKS5jb2VyY2VBdExlYXN0KDEpCiAgICAgICAgdmFsIHBlciA9IHRvdGFsIC8gbgogICAgICAgIHJldHVybiAoMCB1bnRpbCBuKS5tYXAgeyBpIC0+CiAgICAgICAgICAgIHZhbCBzdGFydCA9IGkgKiBwZXIKICAgICAgICAgICAgdmFsIGVuZCA9IGlmIChpID09IG4gLSAxKSB0b3RhbCAtIDEgZWxzZSBzdGFydCArIHBlciAtIDEKICAgICAgICAgICAgQ2h1bmtTdGF0ZShzdGFydCwgZW5kKQogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIOavj+eJh+acgOWwj+Wtl+iKguaVsO+8mue6v+eoi+aVsOi2iumrmOWIh+W+l+i2iue7huOAggogICAgICoKICAgICAqIDgg57q/56iLIOKGkiAxTUIv54mH77ybNjQg57q/56iLIOKGkiAyNTZLQi/niYfvvJsyNTYg57q/56iLIOKGkiA2NEtCL+eJh+OAggogICAgICog5YaN5L2O5bCx5rKh5oSP5LmJ5LqG77ya5LiA54mH55qE6K+35rGC5aS05byA6ZSA5Lya6LaF6L+H5pS255uK44CCCiAgICAgKi8KICAgIHByaXZhdGUgZnVuIG1pbkNodW5rU2l6ZUZvcih0aHJlYWRzOiBJbnQpOiBMb25nID0gd2hlbiB7CiAgICAgICAgdGhyZWFkcyA8PSA4IC0+IDFMICogMTAyNCAqIDEwMjQKICAgICAgICB0aHJlYWRzIDw9IDMyIC0+IDUxMkwgKiAxMDI0CiAgICAgICAgdGhyZWFkcyA8PSAxMjggLT4gMjU2TCAqIDEwMjQKICAgICAgICBlbHNlIC0+IDY0TCAqIDEwMjQKICAgIH0KCiAgICAvKioKICAgICAqIOWQjOaXtuWcqOmjnueahOivt+axguS4iumZkO+8iOaMieaho+S9jee8qeaUvu+8ieOAggogICAgICoKICAgICAqIOiAgeWunueOsOaYr+WbuuWumiAzMu+8mumAiSA2NCAvIDEyOCAvIDI1NiDml7YgYGNvZXJjZUF0TW9zdCgzMilgIOe7n+e7n+WOi+WbniAzMu+8jAogICAgICog5qGj5L2N5b2i5ZCM6Jma6K6+44CC5pS55oiQ6ZqP5qGj5L2N5pS+5aSn77yM5L2G6K6+5LiA5Liq57ud5a+55aSp6Iqx5p2/IFtNQVhfSU5GTElHSFRfSEFSRF3vvIwKICAgICAqIOWFjeW+lyAyNTYg5qGj55yf55qE5ZCM5pe25byAIDI1NiDmnaEgVENQIOKAlOKAlCDmiYvmnLrnmoQgTkFUIOihqOaSkeS4jeS9j+OAggogICAgICovCiAgICBwcml2YXRlIGZ1biBpbmZsaWdodEZvcih0aHJlYWRzOiBJbnQpOiBJbnQgPSB3aGVuIHsKICAgICAgICB0aHJlYWRzIDw9IDggLT4gOAogICAgICAgIHRocmVhZHMgPD0gMTYgLT4gMTYKICAgICAgICB0aHJlYWRzIDw9IDMyIC0+IDMyCiAgICAgICAgdGhyZWFkcyA8PSA2NCAtPiA0OAogICAgICAgIGVsc2UgLT4gTUFYX0lORkxJR0hUX0hBUkQKICAgIH0KCiAgICAvLyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tIOWIhueJh+S4i+i9vQoKICAgIC8qKgogICAgICog5oyJIFt0YXNrXS5jaHVua3Mg5bm25Y+R5LiL6L295YiwKirni6znq4sgcGFydCDmlofku7YqKu+8jOacgOWQjuWQiOW5tuOAggogICAgICoKICAgICAqIEByZXR1cm4gdHJ1ZSDlhajpg6jniYfpg73lrozmiJDkuJTlkIjlubbmiJDlip/jgIIKICAgICAqIEB0aHJvd3MgUmFuZ2VJZ25vcmVkIOacjeWKoeWZqOaXoOinhiBSYW5nZe+8iOmcgOimgeiwg+eUqOaWueWbnumAgOWIsOWNlee6v+eoi++8ieOAggogICAgICovCiAgICBzdXNwZW5kIGZ1biBkb3dubG9hZENodW5rZWQoCiAgICAgICAgdGFzazogRG93bmxvYWRUYXNrLAogICAgICAgIGRlc3Q6IEZpbGUsCiAgICAgICAgb25Qcm9ncmVzczogKCkgLT4gVW5pdCwKICAgICk6IEJvb2xlYW4gewogICAgICAgIHZhbCBjaHVua3MgPSB0YXNrLmNodW5rcwogICAgICAgIGlmIChjaHVua3MuaXNFbXB0eSgpKSByZXR1cm4gZmFsc2UKCiAgICAgICAgLy8g5bm25Y+R5pWw5b+F6aG76Lef44CM5YiH5LqG5Yeg54mH44CN55So55qE6YKj5Liq5pWw5a2X5LiA6Ie044CCCiAgICAgICAgLy8gdGFzay5hY3RpdmVUaHJlYWRzIOaYr+inhOWIkuWIhueJh+aXtuWGmeeahO+8jOato+W4uOS4gOWumuacieWAvO+8mwogICAgICAgIC8vIOS4h+S4gOayoeacie+8iOiAgeWtmOahoy/lvILluLjot6/lvoTvvInvvIzpgIDljJbliLDjgIzmjInniYfmlbDmjqjjgI3ogIzkuI3mmK/noaznvJbnoIEgOCDigJTigJQKICAgICAgICAvLyDnoaznvJbnoIHkvJrorqkgMjU2IOeJh+eahOaWh+S7tuWPquW8gCA4IOS4quW5tuWPke+8jOaFouW+l+WDj+WNoeS9j+OAggogICAgICAgIHZhbCB0aHJlYWRzID0gdGFzay5lZmZlY3RpdmVUaHJlYWRzKGNodW5rcy5zaXplLmNvZXJjZUF0TW9zdChNQVhfVEhSRUFEUykpCiAgICAgICAgdmFsIGNhcCA9IGluZmxpZ2h0Rm9yKHRocmVhZHMpCiAgICAgICAgYW5kcm9pZC51dGlsLkxvZy5pKAogICAgICAgICAgICAiUm9tSHViREwiLAogICAgICAgICAgICAiZG93bmxvYWRDaHVua2VkIOW8gOWni++8miR7Y2h1bmtzLnNpemV9IOeJhyDnur/nqIs9JHRocmVhZHMg5Zyo6YCU5LiK6ZmQPSRjYXAiLAogICAgICAgICkKCiAgICAgICAgLy8g5riF55CG5Y6G5Y+y6YGX55WZ55qEIHBhcnQg5q6L54mH77yI5LiK5LiA5qyh5Lit5pat55WZ5LiL55qE77yJCiAgICAgICAgdmFsIHBhcnREaXIgPSBGaWxlKGRlc3QucGFyZW50RmlsZSwgIi4ke2Rlc3QubmFtZX0ucGFydHMiKQogICAgICAgIGlmICghcGFydERpci5leGlzdHMoKSkgcGFydERpci5ta2RpcnMoKQoKICAgICAgICB2YWwgb2sgPSBjb3JvdXRpbmVTY29wZSB7CiAgICAgICAgICAgIC8vIOS4pOWxgumZkOa1ge+8jOS4lOmDveS4jeS8muatu+mUge+8mgogICAgICAgICAgICAvLyAgIMK3IGdhdGXvvJrljY/nqIvniYjkv6Hlj7fph4/vvIgqKuaMgui1tyoq562J5b6F77yM5LiN6Zi75aGe57q/56iL77yJ77yM5o6n5Yi25Zyo6YCU5YiG54mH5pWw77ybCiAgICAgICAgICAgIC8vICAgwrcg6LCD5bqm5Zmo77ya5oqK6L+Z5LiA5om55YiG54mH6ZKJ5Zyo5a656YeP5Li6IGNhcCDnmoTosIPluqblmajkuIrvvIzpgb/lhY0gMjU2IOS4quWNj+eoiwogICAgICAgICAgICAvLyAgICAg5LiA6LW35raM6L+bIERpc3BhdGNoZXJzLklPIOWOu+aKoumCo+WHoOWNgeS4que6v+eoi+OAggogICAgICAgICAgICAvLwogICAgICAgICAgICAvLyDimqAg6L+Z6YeM57ud5LiN6IO955SoIGphdmEudXRpbC5jb25jdXJyZW50LlNlbWFwaG9yZSDnmoQgYWNxdWlyZSgp77yaCiAgICAgICAgICAgIC8vICAg5a6D5pivKirpmLvloZ4qKuiwg+eUqO+8jOS8muaKiiBEaXNwYXRjaGVycy5JTyDnmoTnur/nqIvnnJ/nmoTloLXmrbvjgILopoHkuIsgMjU2IOeJhwogICAgICAgICAgICAvLyAgIOaXtu+8jOetieiuuOWPr+eahOWNj+eoi+aKiue6v+eoi+axoOWNoOa7oe+8jOecn+ato+ivpeS8oOaVsOaNrueahOWNj+eoi+WPjeiAjOaLv+S4jeWIsOe6v+eoi++8jAogICAgICAgICAgICAvLyAgIOaVtOadoeS4i+i9veWwsSLljaHlnKjlvIDlp4vlpIQi4oCU4oCU5pel5b+X5pyJ44CB6L+e5o6l5rKh5pyJ44CB5LiA5Liq5a2X6IqC5LiN5Yqo44CCCiAgICAgICAgICAgIHZhbCBnYXRlID0gU2VtYXBob3JlKGNhcCkKICAgICAgICAgICAgdmFsIGRpc3BhdGNoZXIgPSBEaXNwYXRjaGVycy5JTy5saW1pdGVkUGFyYWxsZWxpc20oY2FwLmNvZXJjZUF0TGVhc3QoMSkpCiAgICAgICAgICAgIHZhbCByZXN1bHRzID0gY2h1bmtzLm1hcEluZGV4ZWQgeyBpbmRleCwgY2h1bmsgLT4KICAgICAgICAgICAgICAgIGFzeW5jKGRpc3BhdGNoZXIpIHsKICAgICAgICAgICAgICAgICAgICAvLyDmi7/liLDorrjlj6/miY3lj5Hor7fmsYLvvJvorrjlj6/lnKjmlbTniYfvvIjlkKvph43or5XvvInot5HlrozlkI7miY3ph4rmlL7vvIwKICAgICAgICAgICAgICAgICAgICAvLyDov5nmoLfph43or5XkuI3kvJrot58i6L+Y5rKh5byA5aeL55qE54mHIuaKouiuuOWPr++8jOmBv+WFjemrmOe6v+eoi+S4i+mlv+atu+OAggogICAgICAgICAgICAgICAgICAgIGdhdGUud2l0aFBlcm1pdCB7CiAgICAgICAgICAgICAgICAgICAgICAgIHJ1bkNodW5rKHRhc2ssIGluZGV4LCBjaHVuaywgcGFydERpciwgb25Qcm9ncmVzcykKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0uYXdhaXRBbGwoKQogICAgICAgICAgICByZXN1bHRzLmFsbCB7IGl0IH0KICAgICAgICB9CiAgICAgICAgaWYgKCFvaykgcmV0dXJuIGZhbHNlCgogICAgICAgIC8vIOWFqOmDqOeJh+WujOaIkCDihpIg5oyJ5bqP5Y+36aG65bqP5ZCI5bm25oiQ55uu5qCH5paH5Lu2CiAgICAgICAgcmV0dXJuIG1lcmdlUGFydHModGFzaywgY2h1bmtzLCBwYXJ0RGlyLCBkZXN0LCBvblByb2dyZXNzKQogICAgfQoKICAgIC8qKgogICAgICog5aSn5bCP5pyq55+l5pe255qE5YWc5bqV77ya55So5LiA5qyhKirmma7pgJogR0VUKirvvIjkuI3lj5EgUmFuZ2XvvInmiorlpKflsI/pl67lh7rmnaXjgIIKICAgICAqCiAgICAgKiDop6blj5HlnLrmma/vvJrmjqLmtYvor7fmsYLvvIhgUmFuZ2U6IGJ5dGVzPTAtMGDvvInlpLHotKUg4oCU4oCUIOa6kOermeWvuSLlj6rlj5bpppblrZfoioIi6L+Z56eNCiAgICAgKiDor7fmsYLkuI3lj4vlpb3vvIjmnInkupsgQ0ROIOS8miA0MDMv5oyC6LW377yJ77yM5L2GKirlrozmlbQgR0VUIOaYr+mAmueahCoq44CCCiAgICAgKgogICAgICog5Li65LuA5LmI5LiN55SoIuW8gOaUvuWMuumXtOeahOWkmueJhyLvvJrpgqPmoLfmr4/kuKrniYfpg73lvpfku44gMCDor7vliLDlsL7vvIwKICAgICAqIOetieS6juWQjOS4gOS4quaWh+S7tuiiq+W5tuWPkeS4iyBOIOmBje+8jOe6r+a1qui0uea1gemHj+OAggogICAgICoKICAgICAqIOi/memHjOeahOWBmuazleaYr++8muWPkeS4gOS4quS4jeW4piBSYW5nZSDnmoQgR0VU77yMKirlj6ror7vlk43lupTlpLTlsLHmlq3lvIAqKgogICAgICog77yIYGNhbGwuY2FuY2VsKClgIC8gYGJvZHkuY2xvc2UoKWDvvInvvIzmi7/liLAgYENvbnRlbnQtTGVuZ3RoYCDlsLHog73mraPluLjliIbniYfkuobjgIIKICAgICAqIOaLv+S4jeWIsO+8iGNodW5rZWQg57yW56CB562J77yJ5omN55yf5q2j6YCA5Yiw5Y2V57q/56iL44CCCiAgICAgKgogICAgICogQHJldHVybiDmgLvlrZfoioLmlbDvvJs8PSAwIOihqOekuuaLv+S4jeWIsOOAggogICAgICovCiAgICBmdW4gcHJvYmVTaXplQnlIZWFkKGNsaWVudDogT2tIdHRwQ2xpZW50LCB0YXNrOiBEb3dubG9hZFRhc2spOiBMb25nIHsKICAgICAgICB2YWwgcmVxID0gUmVxdWVzdC5CdWlsZGVyKCkKICAgICAgICAgICAgLnVybCh0YXNrLnVybCkKICAgICAgICAgICAgLmhlYWRlcigiVXNlci1BZ2VudCIsIFJhbmdlUHJvYmUuVUEpCiAgICAgICAgICAgIC5oZWFkZXIoIkFjY2VwdCIsICIqLyoiKQogICAgICAgICAgICAuYXBwbHkgeyB0YXNrLmhlYWRlcnMuZm9yRWFjaCB7IChrLCB2KSAtPiBpZiAoay5pc05vdEJsYW5rKCkpIGhlYWRlcihrLCB2KSB9IH0KICAgICAgICAgICAgLmdldCgpCiAgICAgICAgICAgIC5idWlsZCgpCiAgICAgICAgdmFsIGNhbGwgPSBjbGllbnQubmV3Q2FsbChyZXEpCiAgICAgICAgcmV0dXJuIHRyeSB7CiAgICAgICAgICAgIGNhbGwuZXhlY3V0ZSgpLnVzZSB7IHJlc3AgLT4KICAgICAgICAgICAgICAgIGlmICghcmVzcC5pc1N1Y2Nlc3NmdWwpIHJldHVybiAwTAogICAgICAgICAgICAgICAgcmVzcC5ib2R5Py5jb250ZW50TGVuZ3RoKCk/LnRha2VJZiB7IGl0ID4gMCB9ID86IDBMCiAgICAgICAgICAgIH0KICAgICAgICB9IGNhdGNoIChlOiBUaHJvd2FibGUpIHsKICAgICAgICAgICAgYW5kcm9pZC51dGlsLkxvZy53KCJSb21IdWJETCIsICJwcm9iZVNpemVCeUhlYWQg5aSx6LSl77yaJHtlLm1lc3NhZ2V9IikKICAgICAgICAgICAgMEwKICAgICAgICB9IGZpbmFsbHkgewogICAgICAgICAgICBydW5DYXRjaGluZyB7IGNhbGwuY2FuY2VsKCkgfQogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIGZ1biBwYXJ0RmlsZShwYXJ0RGlyOiBGaWxlLCBpbmRleDogSW50KTogRmlsZSA9IEZpbGUocGFydERpciwgIiUwNWQucGFydCIuZm9ybWF0KGluZGV4KSkKCiAgICBwcml2YXRlIHN1c3BlbmQgZnVuIHJ1bkNodW5rKAogICAgICAgIHRhc2s6IERvd25sb2FkVGFzaywKICAgICAgICBpbmRleDogSW50LAogICAgICAgIGNodW5rOiBDaHVua1N0YXRlLAogICAgICAgIHBhcnREaXI6IEZpbGUsCiAgICAgICAgb25Qcm9ncmVzczogKCkgLT4gVW5pdCwKICAgICk6IEJvb2xlYW4gewogICAgICAgIHZhciBhdHRlbXB0ID0gMAogICAgICAgIHdoaWxlICh0cnVlKSB7CiAgICAgICAgICAgIGlmIChpc0NhbmNlbGxlZCh0YXNrLmlkKSkgcmV0dXJuIGZhbHNlCiAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICBkb3dubG9hZENodW5rT25jZSh0YXNrLCBpbmRleCwgY2h1bmssIHBhcnREaXIsIG9uUHJvZ3Jlc3MpCiAgICAgICAgICAgICAgICByZXR1cm4gY2h1bmsuZmluaXNoZWQKICAgICAgICAgICAgfSBjYXRjaCAoZTogUmFuZ2VJZ25vcmVkRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICB0aHJvdyBlCiAgICAgICAgICAgIH0gY2F0Y2ggKGU6IFRocm93YWJsZSkgewogICAgICAgICAgICAgICAgYXR0ZW1wdCsrCiAgICAgICAgICAgICAgICBpZiAoYXR0ZW1wdCA+IHJldHJ5TGltaXQpIHsKICAgICAgICAgICAgICAgICAgICB0aHJvdyBJbGxlZ2FsU3RhdGVFeGNlcHRpb24oCiAgICAgICAgICAgICAgICAgICAgICAgICLliIbniYcgJHtjaHVuay5zdGFydH0tJHtjaHVuay5lbmR9IOWksei0pe+8miR7ZS5tZXNzYWdlID86IGUuamF2YUNsYXNzLnNpbXBsZU5hbWV9IgogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIC8vIOaMh+aVsOmAgOmBv++8mmJhc2XjgIFiYXNlKjLjgIFiYXNlKjTigKbvvIhiYXNlIOeUsSBzZXRSZXRyeVBvbGljeSDkvKDlhaXvvIzpu5jorqQgMXPvvIkKICAgICAgICAgICAgICAgIGRlbGF5KHJldHJ5QmFzZU1zIHNobCAoYXR0ZW1wdCAtIDEpKQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICog5ZCM5q2l55So5oi355qE44CM6YeN6K+V5qyh5pWwIC8g6YeN6K+V6Ze06ZqU44CN6K6+572u44CCCiAgICAgKgogICAgICog55Sx55So5oi35Zyo6K6+572u6YeM6YWN572u6YeN6K+V5qyh5pWw5LiO6Ze06ZqU44CCCiAgICAgKiDnlLEgW0Rvd25sb2FkTWFuYWdlcl0g5ZyoIGluaXQg5ZKM6K6+572u5Y+Y5pu05pe26LCD55SoIOKAlOKAlCDov5nmoLfkuIvovb3lmajnmoTph43or5XooYzkuLoKICAgICAqIOi3n+eVjOmdouS4iuaYvuekuueahOS4gOiHtO+8jOiAjOS4jeaYr+WGmeatu+OAggogICAgICovCiAgICBmdW4gc2V0UmV0cnlQb2xpY3koY291bnQ6IEludCwgYmFzZUludGVydmFsU2VjOiBJbnQpIHsKICAgICAgICByZXRyeUxpbWl0ID0gY291bnQuY29lcmNlSW4oMSwgMTApCiAgICAgICAgcmV0cnlCYXNlTXMgPSBiYXNlSW50ZXJ2YWxTZWMuY29lcmNlSW4oMSwgNjApICogMTAwMEwKICAgIH0KCiAgICBwcml2YXRlIGZ1biBkb3dubG9hZENodW5rT25jZSgKICAgICAgICB0YXNrOiBEb3dubG9hZFRhc2ssCiAgICAgICAgaW5kZXg6IEludCwKICAgICAgICBjaHVuazogQ2h1bmtTdGF0ZSwKICAgICAgICBwYXJ0RGlyOiBGaWxlLAogICAgICAgIG9uUHJvZ3Jlc3M6ICgpIC0+IFVuaXQsCiAgICApIHsKICAgICAgICB2YWwgZnJvbSA9IGNodW5rLnN0YXJ0ICsgY2h1bmsuZG9uZQogICAgICAgIGlmIChmcm9tID4gY2h1bmsuZW5kKSByZXR1cm4KCiAgICAgICAgdmFsIHBhcnQgPSBwYXJ0RmlsZShwYXJ0RGlyLCBpbmRleCkKICAgICAgICAvLyDkuIrmrKHov5nniYfkuIvliLDlk6rkuobvvJrku6Xno4Hnm5jkuIrnmoQgcGFydCDmlofku7blpKflsI/kuLrlh4bvvIjmr5TlhoXlrZjph4znmoQgZG9uZSDmm7Tlj6/kv6HvvIkKICAgICAgICB2YWwgZXhpc3RpbmcgPSBpZiAocGFydC5leGlzdHMoKSkgcGFydC5sZW5ndGgoKSBlbHNlIDBMCiAgICAgICAgaWYgKGV4aXN0aW5nIDwgY2h1bmsuZG9uZSkgewogICAgICAgICAgICAvLyDorrDlvZXor7TkuIvkuobov5nkuYjlpJrvvIzkvYbmlofku7bmm7Tnn60g4oaSIOS7peaWh+S7tuS4uuWHhu+8jOWbnumAgAogICAgICAgICAgICBjaHVuay5kb25lID0gZXhpc3RpbmcKICAgICAgICB9CiAgICAgICAgdmFsIHN0YXJ0RnJvbSA9IGNodW5rLnN0YXJ0ICsgY2h1bmsuZG9uZQogICAgICAgIGlmIChzdGFydEZyb20gPiBjaHVuay5lbmQpIHJldHVybgoKICAgICAgICB2YWwgcmVxID0gUmVxdWVzdC5CdWlsZGVyKCkKICAgICAgICAgICAgLnVybCh0YXNrLnVybCkKICAgICAgICAgICAgLmhlYWRlcigiUmFuZ2UiLCAiYnl0ZXM9JHN0YXJ0RnJvbS0ke2NodW5rLmVuZH0iKQogICAgICAgICAgICAuaGVhZGVyKCJVc2VyLUFnZW50IiwgUmFuZ2VQcm9iZS5VQSkKICAgICAgICAgICAgLmhlYWRlcigiQWNjZXB0IiwgIiovKiIpCiAgICAgICAgICAgIC5hcHBseSB7IHRhc2suaGVhZGVycy5mb3JFYWNoIHsgKGssIHYpIC0+IGlmIChrLmlzTm90QmxhbmsoKSkgaGVhZGVyKGssIHYpIH0gfQogICAgICAgICAgICAuZ2V0KCkKICAgICAgICAgICAgLmJ1aWxkKCkKCiAgICAgICAgdmFsIGNhbGwgPSBjbGllbnQubmV3Q2FsbChyZXEpCiAgICAgICAgdHJhY2sodGFzay5pZCwgY2FsbCkKICAgICAgICB0cnkgewogICAgICAgICAgICBhbmRyb2lkLnV0aWwuTG9nLmkoIlJvbUh1YkRMIiwgIuWIhueJhyAjJGluZGV4IOivt+axgiBSYW5nZT0kc3RhcnRGcm9tLSR7Y2h1bmsuZW5kfSIpCiAgICAgICAgICAgIGNhbGwuZXhlY3V0ZSgpLnVzZSB7IHJlc3AgLT4KICAgICAgICAgICAgICAgIC8vIOaIkeS7rOaYjuehruimgeS6hiBSYW5nZe+8jOacjeWKoeWZqOWNtOWbniAyMDAgPSDlroPkuI3mlK/mjIHliIbniYcKICAgICAgICAgICAgICAgIGlmIChyZXNwLmNvZGUgPT0gMjAwKSB0aHJvdyBSYW5nZUlnbm9yZWRFeGNlcHRpb24oKQogICAgICAgICAgICAgICAgaWYgKHJlc3AuY29kZSAhPSAyMDYpIHsKICAgICAgICAgICAgICAgICAgICB0aHJvdyBJbGxlZ2FsU3RhdGVFeGNlcHRpb24oIkhUVFAgJHtyZXNwLmNvZGV9IikKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIHZhbCBib2R5ID0gcmVzcC5ib2R5ID86IHRocm93IElsbGVnYWxTdGF0ZUV4Y2VwdGlvbigi5ZON5bqU5Li656m6IikKCiAgICAgICAgICAgICAgICAvLyDlhpkqKuiHquW3seeahCoqIHBhcnQg5paH5Lu277yM6L+95Yqg5qih5byP44CCCiAgICAgICAgICAgICAgICAvLyDlm6DkuLrov5nkuIDniYflj6rmnInov5nkuIDkuKrlhpnlhaXogIXvvIzkuI3pnIDopoEgc2Vla++8jOS5n+S4jeS8muacieernuaAgeOAggogICAgICAgICAgICAgICAgamF2YS5pby5GaWxlT3V0cHV0U3RyZWFtKHBhcnQsIHRydWUpLnVzZSB7IG91dCAtPgogICAgICAgICAgICAgICAgICAgIHZhbCBidWYgPSBCeXRlQXJyYXkoQlVGRkVSKQogICAgICAgICAgICAgICAgICAgIGJvZHkuYnl0ZVN0cmVhbSgpLnVzZSB7IGlucHV0IC0+CiAgICAgICAgICAgICAgICAgICAgICAgIHdoaWxlICh0cnVlKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZiAoaXNDYW5jZWxsZWQodGFzay5pZCkpIHRocm93IEludGVycnVwdGVkRXhjZXB0aW9uKCLlt7Llj5bmtogiKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsIHJlYWQgPSBpbnB1dC5yZWFkKGJ1ZikKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmIChyZWFkIDw9IDApIGJyZWFrCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBvdXQud3JpdGUoYnVmLCAwLCByZWFkKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgY2h1bmsuZG9uZSArPSByZWFkCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBvblByb2dyZXNzKCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmIChjaHVuay5kb25lID49IGNodW5rLnNpemUpIGJyZWFrCiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgb3V0LmZsdXNoKCkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGlmIChjaHVuay5kb25lID4gY2h1bmsuc2l6ZSkgY2h1bmsuZG9uZSA9IGNodW5rLnNpemUKICAgICAgICAgICAgfQogICAgICAgIH0gZmluYWxseSB7CiAgICAgICAgICAgIHVudHJhY2sodGFzay5pZCwgY2FsbCkKICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiDmiorlkIQgcGFydCDmlofku7bmjInluo/lj7fpobrluo/mi7zmjqXmiJDmnIDnu4jmlofku7bjgIIKICAgICAqCiAgICAgKiDlkIjlubbnlKgqKua1geW8j+aLt+i0nSoq77yIOE1CIOe8k+WGsu+8ie+8jOS4jeS4gOasoeaAp+ivu+i/m+WGheWtmCDigJTigJQgUk9NIOWMheWlveWHoOS4qiBH44CCCiAgICAgKiDlhYjlhpkgYC50bXBg44CB5qCh6aqM5aSn5bCP6YCa6L+H5ZCO5YaN5Y6f5a2Q5pS55ZCN77yM6YG/5YWN5Lit6YCU5aSx6LSl55WZ5LiL5LiA5LiqIuWkp+Wwj+WvueS9huWGheWuueS4jeWFqCLnmoQKICAgICAqIOaIkOWTgeaWh+S7tumql+i/h+eUqOaIt+OAggogICAgICovCiAgICBwcml2YXRlIHN1c3BlbmQgZnVuIG1lcmdlUGFydHMoCiAgICAgICAgdGFzazogRG93bmxvYWRUYXNrLAogICAgICAgIGNodW5rczogTGlzdDxDaHVua1N0YXRlPiwKICAgICAgICBwYXJ0RGlyOiBGaWxlLAogICAgICAgIGRlc3Q6IEZpbGUsCiAgICAgICAgb25Qcm9ncmVzczogKCkgLT4gVW5pdCwKICAgICk6IEJvb2xlYW4gPSB3aXRoQ29udGV4dChEaXNwYXRjaGVycy5JTykgewogICAgICAgIHZhbCB0bXAgPSBGaWxlKGRlc3QucGFyZW50RmlsZSwgIiR7ZGVzdC5uYW1lfS50bXAiKQogICAgICAgIHRyeSB7CiAgICAgICAgICAgIGphdmEuaW8uRmlsZU91dHB1dFN0cmVhbSh0bXApLnVzZSB7IG91dCAtPgogICAgICAgICAgICAgICAgdmFsIGJ1ZiA9IEJ5dGVBcnJheShNRVJHRV9CVUZGRVIpCiAgICAgICAgICAgICAgICBjaHVua3MuaW5kaWNlcy5mb3JFYWNoIHsgaSAtPgogICAgICAgICAgICAgICAgICAgIHZhbCBwYXJ0ID0gcGFydEZpbGUocGFydERpciwgaSkKICAgICAgICAgICAgICAgICAgICBpZiAoIXBhcnQuZXhpc3RzKCkpIHsKICAgICAgICAgICAgICAgICAgICAgICAgdGhyb3cgSWxsZWdhbFN0YXRlRXhjZXB0aW9uKCLliIbniYcgJGkg57y65aSx77yM5peg5rOV5ZCI5bm2IikKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgcGFydC5pbnB1dFN0cmVhbSgpLnVzZSB7IGlucHV0IC0+CiAgICAgICAgICAgICAgICAgICAgICAgIHdoaWxlICh0cnVlKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZiAoaXNDYW5jZWxsZWQodGFzay5pZCkpIHRocm93IEludGVycnVwdGVkRXhjZXB0aW9uKCLlt7Llj5bmtogiKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsIHJlYWQgPSBpbnB1dC5yZWFkKGJ1ZikKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmIChyZWFkIDw9IDApIGJyZWFrCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBvdXQud3JpdGUoYnVmLCAwLCByZWFkKQogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgb3V0LmZsdXNoKCkKICAgICAgICAgICAgICAgIG91dC5mZC5zeW5jKCkgICAvLyDokL3nm5jvvIzliKvorqnnlKjmiLfmi7/liLDov5jlnKjpobXnvJPlrZjph4znmoTljYrmiJDlk4EKICAgICAgICAgICAgfQoKICAgICAgICAgICAgLy8g5ZCI5bm25ZCO5qCh6aqM77ya5aSn5bCP5b+F6aG76Lef5pyN5Yqh56uv5aOw5piO55qE5LiA6Ie0CiAgICAgICAgICAgIHZhbCBleHBlY3QgPSB0YXNrLnRvdGFsQnl0ZXMKICAgICAgICAgICAgdmFsIGFjdHVhbCA9IHRtcC5sZW5ndGgoKQogICAgICAgICAgICBpZiAoZXhwZWN0ID4gMCAmJiBhY3R1YWwgIT0gZXhwZWN0KSB7CiAgICAgICAgICAgICAgICB0bXAuZGVsZXRlKCkKICAgICAgICAgICAgICAgIHRocm93IElsbGVnYWxTdGF0ZUV4Y2VwdGlvbigi5paH5Lu25aSn5bCP5qCh6aqM5aSx6LSl77ya5pyf5pybICRleHBlY3Qg5a2X6IqC77yM5a6e6ZmFICRhY3R1YWwg5a2X6IqCIikKICAgICAgICAgICAgfQoKICAgICAgICAgICAgaWYgKGRlc3QuZXhpc3RzKCkpIGRlc3QuZGVsZXRlKCkKICAgICAgICAgICAgaWYgKCF0bXAucmVuYW1lVG8oZGVzdCkpIHsKICAgICAgICAgICAgICAgIC8vIHJlbmFtZSDlpLHotKXvvIjot6jorr7lpIfnrYnvvInvvJrpgIDljJbmiJDmi7fotJ0KICAgICAgICAgICAgICAgIHRtcC5jb3B5VG8oZGVzdCwgb3ZlcndyaXRlID0gdHJ1ZSkKICAgICAgICAgICAgICAgIHRtcC5kZWxldGUoKQogICAgICAgICAgICB9CgogICAgICAgICAgICAvLyDmiJDlip/lkI7muIXmjokgcGFydCDnm67lvZXvvIjpmaTpnZ7nlKjmiLflvIDkuobjgIzkv53nlZnliIbniYfmlofku7bjgI3vvIkKICAgICAgICAgICAgaWYgKCFrZWVwUGFydHMpIHJ1bkNhdGNoaW5nIHsgcGFydERpci5kZWxldGVSZWN1cnNpdmVseSgpIH0KICAgICAgICAgICAgb25Qcm9ncmVzcygpCiAgICAgICAgICAgIHRydWUKICAgICAgICB9IGNhdGNoIChlOiBUaHJvd2FibGUpIHsKICAgICAgICAgICAgcnVuQ2F0Y2hpbmcgeyB0bXAuZGVsZXRlKCkgfQogICAgICAgICAgICB0aHJvdyBlCiAgICAgICAgfQogICAgfQoKICAgIC8vIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0g5Y2V57q/56iL5YWc5bqVCgogICAgLyoqCiAgICAgKiDkuI3mlK/mjIHliIbniYfvvIjmiJblpKflsI/mnKrnn6XvvInml7bnlKjvvJrnm7TmjqUgR0VUIOaVtOS4quaWh+S7tu+8jOmhuuedgOWGmeOAggogICAgICog5rKh5pyJ5pat54K557ut5LygIOKAlOKAlCDkuK3mlq3kuobkuIvmrKHlj6rog73ph43mnaXjgIIKICAgICAqLwogICAgc3VzcGVuZCBmdW4gZG93bmxvYWRGdWxsKAogICAgICAgIHRhc2s6IERvd25sb2FkVGFzaywKICAgICAgICBkZXN0OiBGaWxlLAogICAgICAgIG9uUHJvZ3Jlc3M6ICgpIC0+IFVuaXQsCiAgICApOiBCb29sZWFuID0gd2l0aENvbnRleHQoRGlzcGF0Y2hlcnMuSU8pIHsKICAgICAgICB2YWwgcmVxID0gUmVxdWVzdC5CdWlsZGVyKCkKICAgICAgICAgICAgLnVybCh0YXNrLnVybCkKICAgICAgICAgICAgLmhlYWRlcigiVXNlci1BZ2VudCIsIFJhbmdlUHJvYmUuVUEpCiAgICAgICAgICAgIC5oZWFkZXIoIkFjY2VwdCIsICIqLyoiKQogICAgICAgICAgICAuYXBwbHkgeyB0YXNrLmhlYWRlcnMuZm9yRWFjaCB7IChrLCB2KSAtPiBpZiAoay5pc05vdEJsYW5rKCkpIGhlYWRlcihrLCB2KSB9IH0KICAgICAgICAgICAgLmdldCgpCiAgICAgICAgICAgIC5idWlsZCgpCgogICAgICAgIHZhbCBjYWxsID0gY2xpZW50Lm5ld0NhbGwocmVxKQogICAgICAgIHRyYWNrKHRhc2suaWQsIGNhbGwpCiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgY2FsbC5leGVjdXRlKCkudXNlIHsgcmVzcCAtPgogICAgICAgICAgICAgICAgaWYgKCFyZXNwLmlzU3VjY2Vzc2Z1bCkgdGhyb3cgSWxsZWdhbFN0YXRlRXhjZXB0aW9uKCJIVFRQICR7cmVzcC5jb2RlfSIpCiAgICAgICAgICAgICAgICB2YWwgYm9keSA9IHJlc3AuYm9keSA/OiB0aHJvdyBJbGxlZ2FsU3RhdGVFeGNlcHRpb24oIuWTjeW6lOS4uuepuiIpCgogICAgICAgICAgICAgICAgLy8g5Y2V57q/56iL5Lmf6K6w5LiA5Liq44CM5pW05paH5Lu254mH44CN77yM6L+b5bqm5p2h5aW9566XCiAgICAgICAgICAgICAgICB2YWwgdG90YWwgPSB0YXNrLnRvdGFsQnl0ZXMudGFrZUlmIHsgaXQgPiAwIH0gPzogYm9keS5jb250ZW50TGVuZ3RoKCkKICAgICAgICAgICAgICAgIHZhbCBjaHVuayA9IHRhc2suY2h1bmtzLmZpcnN0T3JOdWxsKCkgPzogQ2h1bmtTdGF0ZSgwLCB0b3RhbCAtIDEpLmFsc28gewogICAgICAgICAgICAgICAgICAgIHRhc2suY2h1bmtzID0gbGlzdE9mKGl0KQogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIGRlc3Qub3V0cHV0U3RyZWFtKCkudXNlIHsgb3V0IC0+CiAgICAgICAgICAgICAgICAgICAgdmFsIGJ1ZiA9IEJ5dGVBcnJheShCVUZGRVIpCiAgICAgICAgICAgICAgICAgICAgYm9keS5ieXRlU3RyZWFtKCkudXNlIHsgaW5wdXQgLT4KICAgICAgICAgICAgICAgICAgICAgICAgd2hpbGUgKHRydWUpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmIChpc0NhbmNlbGxlZCh0YXNrLmlkKSkgdGhyb3cgSW50ZXJydXB0ZWRFeGNlcHRpb24oIuW3suWPlua2iCIpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWwgcmVhZCA9IGlucHV0LnJlYWQoYnVmKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgaWYgKHJlYWQgPD0gMCkgYnJlYWsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIG91dC53cml0ZShidWYsIDAsIHJlYWQpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjaHVuay5kb25lICs9IHJlYWQKICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uUHJvZ3Jlc3MoKQogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIG91dC5mbHVzaCgpCiAgICAgICAgICAgICAgICAgICAgb3V0LmZkLnN5bmMoKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgaWYgKHRvdGFsID4gMCkgewogICAgICAgICAgICAgICAgICAgIHRhc2sudG90YWxCeXRlcyA9IHRvdGFsCiAgICAgICAgICAgICAgICAgICAgY2h1bmsuZG9uZSA9IHRvdGFsCiAgICAgICAgICAgICAgICAgICAgdmFsIG5ld0NodW5rID0gQ2h1bmtTdGF0ZShjaHVuay5zdGFydCwgdG90YWwgLSAxKS5hbHNvIHsgaXQuZG9uZSA9IHRvdGFsIH0KICAgICAgICAgICAgICAgICAgICB0YXNrLmNodW5rcyA9IGxpc3RPZihuZXdDaHVuaykKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIHRydWUKICAgICAgICAgICAgfQogICAgICAgIH0gZmluYWxseSB7CiAgICAgICAgICAgIHVudHJhY2sodGFzay5pZCwgY2FsbCkKICAgICAgICB9CiAgICB9CgogICAgLyoqIOacjeWKoeWZqOS4jeaUr+aMgSBSYW5nZSDnmoTkv6Hlj7fjgIIgKi8KICAgIGNsYXNzIFJhbmdlSWdub3JlZEV4Y2VwdGlvbiA6IElsbGVnYWxTdGF0ZUV4Y2VwdGlvbigi5pyN5Yqh5Zmo5LiN5pSv5oyB5YiG54mH5LiL6L29IikKCiAgICBjb21wYW5pb24gb2JqZWN0IHsKICAgICAgICBwcml2YXRlIGNvbnN0IHZhbCBCVUZGRVIgPSA2NCAqIDEwMjQKICAgICAgICBwcml2YXRlIGNvbnN0IHZhbCBNRVJHRV9CVUZGRVIgPSA4ICogMTAyNCAqIDEwMjQKICAgICAgICBwcml2YXRlIGNvbnN0IHZhbCBDSFVOS19SRVRSSUVTID0gMwoKICAgICAgICAvKioKICAgICAgICAgKiDnur/nqIvmlbDnoazkuIrpmZDvvIjnlKjmiLflj6/pgInnmoTmnIDlpKfmoaPkvY3vvInjgIIKICAgICAgICAgKgogICAgICAgICAqIDI1NiDmmK/mnYPooaHnu5PmnpzvvJpST00g5YyF5pmu6YGNIDV+MTJHQu+8jOWIh+WIsCAyNTYg54mH5q+P54mH5Lmf5pyJ5Yeg5Y2BIE1C77yMCiAgICAgICAgICog5pS255uK77yI5ZCD5ruh5bim5a6977yJ6L+Y5Zyo77yb5L2G5YaN5b6A5LiK5Y2V5Liq5paH5Lu25YiH5b6X5aSq56KO77yMCiAgICAgICAgICog6K+35rGC5aS05byA6ZSA5ZKMIENETiDpo47mjqfpg73kuI3liJLnrpfjgIIKICAgICAgICAgKi8KICAgICAgICBjb25zdCB2YWwgTUFYX1RIUkVBRFMgPSAyNTYKCiAgICAgICAgLyoqCiAgICAgICAgICog55yf5q2j5Zyo6aOe55qE572R57uc6K+35rGC5LiK6ZmQ77yI57ud5a+55aSp6Iqx5p2/77yJ44CCCiAgICAgICAgICoKICAgICAgICAgKiDkuI4gW01BWF9USFJFQURTXSDljLrliIbvvJrov5nkuKrmmK8qKuWQjOaXtuaJk+W8gOeahOi/nuaOpeaVsCoq44CCCiAgICAgICAgICogMjU2IOS4qui/nuaOpeWQjOaXtuaPoeaJi+S8muaKiuaJi+acuueahCBOQVQg6KGo5ZKM556s5pe25YaF5a2Y5omT54iG77yMCiAgICAgICAgICog5omA5Lul5a6e6ZmF5bm25Y+R5Y6L5Zyo6L+Z6YeM77yM54mH5pWw5Y+v5Lul5pu05aSa44CB5o6S6Zif5Y2z5Y+v44CCCiAgICAgICAgICoKICAgICAgICAgKiDms6jmhI/vvJrlrp7pmYXlubblj5Hov5jkvJrmjInmoaPkvY3nvKnmlL7vvIjop4EgW2luZmxpZ2h0Rm9yXe+8ie+8jOS4jeimgeWGmeatu+OAggogICAgICAgICAqLwogICAgICAgIGNvbnN0IHZhbCBNQVhfSU5GTElHSFRfSEFSRCA9IDY0CgogICAgICAgIC8qKgogICAgICAgICAqIOWFvOWuueaXp+W8leeUqO+8muiAgeS7o+eggemHjOeUqOi/meS4quWQjeWtl+ihqOekuiLlnKjpgJTkuIrpmZAi44CCCiAgICAgICAgICog5L+d55WZ5bi46YeP6YG/5YWN5Yir5aSE57yW6K+R5LiN6L+H77yM5a6e6ZmF5LulIFtpbmZsaWdodEZvcl0g5Li65YeG44CCCiAgICAgICAgICovCiAgICAgICAgQERlcHJlY2F0ZWQoIuaUueeUqCBpbmZsaWdodEZvcih0aHJlYWRzKSDmjInmoaPkvY3nvKnmlL4iLCBSZXBsYWNlV2l0aCgiTUFYX0lORkxJR0hUX0hBUkQiKSkKICAgICAgICBjb25zdCB2YWwgTUFYX0lORkxJR0hUID0gMzIKICAgIH0KfQo=
+package org.linbaogu.romhub.download
+
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.async
+import kotlinx.coroutines.awaitAll
+import kotlinx.coroutines.coroutineScope
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.sync.Semaphore
+import kotlinx.coroutines.sync.withPermit
+import kotlinx.coroutines.withContext
+import okhttp3.Call
+import okhttp3.OkHttpClient
+import okhttp3.Request
+import java.io.File
+import java.io.RandomAccessFile
+import java.util.Collections
+import java.util.concurrent.ConcurrentHashMap
+import java.util.concurrent.atomic.AtomicLong
+
+/**
+ * 多线程分片下载器。
+ *
+ * 原理（跟所有"高速下载器"一样）：
+ *   1. 先探测总大小，把文件切成 N 片；
+ *   2. 每片发一个带 `Range: bytes=a-b` 的请求，各自并发下载；
+ *   3. **每片写自己的独立临时文件**（`目标名.partN`），互不干扰；
+ *   4. 所有片下完后按序号顺序 merge 成最终文件；
+ *   5. 每片的下到的字节数记在 [ChunkState.done] 里 → 断了再连接着下（断点续传）。
+ *
+ * ## 为什么每片要写独立文件（重要）
+ *
+ * 老实现是「每片各自 `RandomAccessFile(dest,"rw").seek(start+done)` 写同一个文件」。
+ * 这在**多线程下是不可靠的**：POSIX 的 `lseek()` + `write()` 不是原子操作，
+ * Android/Bionic 下更没有保证。实测（大量社区案例）当 3 个以上线程对同一文件
+ * 并发 `seek()`+`write()` 时，会出现**字节错位**（偏移 ±几十到几千字节），
+ * 下出来的文件看起来大小对，内容却是错的 —— 表现就是**APK 安装报签名不一致**、
+ * ZIP 解压报 CRC 错误。
+ *
+ * 所以改成：每片写独立 part 文件，全部完成后按序合并。
+ * 独立文件 = 每个片只有一个写者 = 天然无竞态，代价只是 merge 时多一次顺序拷贝。
+ *
+ * ## 为什么高线程会"卡死"（64 线程以上跑不动）
+ *
+ * 老实现把在途请求压在一个固定的 `Semaphore(32)` 里，`runChunk` 失败重试时
+ * 要重新 `gate.acquire()`。高线程（64/128/256）下片数多、重试也多，
+ * 大量协程在信号量前排队 + OkHttp 的 `maxRequestsPerHost` 队列叠加，
+ * 一旦有连接被 CDN 静默挂住，就形成活锁：进度永远不动。
+ *
+ * 新实现的限流改成 **两层、且不会死锁**：
+ *   · 协程层：用 [chunkSemaphore] 控制在途分片数（可随档位放大到 [MAX_INFLIGHT]）；
+ *   · 网络层：交给 OkHttp 自己的 Dispatcher（在 DownloadManager 里按档位配置）。
+ * 关键点是**重试不走队列**：分片一旦拿到许可就把整片（含重试）跑完再还，
+ * 避免"重试要重新排队"造成的饥饿。
+ */
+class ChunkDownloader(private val client: OkHttpClient) {
+
+    private val inflight = ConcurrentHashMap<Long, MutableSet<Call>>()
+    private val cancelledIds: MutableSet<Long> = Collections.synchronizedSet(mutableSetOf())
+
+    /** 每片已经落盘的字节数（按片序号），用于 UI 显示与断点续传。 */
+    private val partDone = ConcurrentHashMap<String, AtomicLong>()
+
+    /** 单片失败重试上限（跟用户设置同步，默认 3）。 */
+    @Volatile private var retryLimit = 3
+
+    /** 重试指数退避基数（毫秒，默认 1s）。 */
+    @Volatile private var retryBaseMs = 1000L
+
+    /**
+     * 合并完成后是否删掉 .parts 目录（默认删）。
+     * 由 [DownloadManager] 按设置同步 —— 开了「保留分片文件」就留着方便排查。
+     */
+    @Volatile var keepParts = false
+
+    private fun track(taskId: Long, call: Call) {
+        inflight.getOrPut(taskId) { Collections.synchronizedSet(mutableSetOf()) }.add(call)
+    }
+
+    private fun untrack(taskId: Long, call: Call) {
+        inflight[taskId]?.remove(call)
+    }
+
+    /** 停止某个任务：把它所有在飞的请求打断。 */
+    fun cancel(taskId: Long) {
+        cancelledIds.add(taskId)
+        inflight.remove(taskId)?.forEach { runCatching { it.cancel() } }
+    }
+
+    fun isCancelled(taskId: Long): Boolean = taskId in cancelledIds
+
+    fun clearCancel(taskId: Long) {
+        cancelledIds.remove(taskId)
+    }
+
+    // ---------------------------------------------------------------- 分片规划
+
+    /**
+     * 把 [total] 字节切成片。
+     *
+     * 片数 = 线程数（上限 [MAX_THREADS] = 256）。
+     *
+     * 最小片长不是固定的 1MB，而是随线程数自适应：
+     * 开 256 线程时若仍要求每片 1MB，文件小于 256MB 就永远开不满线程，
+     * 白白浪费用户选的档位。所以线程数越高，允许的片越小（下限 64KB）。
+     *
+     * 未知大小（total <= 0）返回空表，交给单线程兜底。
+     */
+    fun planChunks(total: Long, threads: Int): List<ChunkState> {
+        if (total <= 0L) return emptyList()
+        var n = threads.coerceIn(1, MAX_THREADS)
+        val minChunk = minChunkSizeFor(n)
+        if (total / n < minChunk) n = (total / minChunk).toInt().coerceAtLeast(1)
+        val per = total / n
+        return (0 until n).map { i ->
+            val start = i * per
+            val end = if (i == n - 1) total - 1 else start + per - 1
+            ChunkState(start, end)
+        }
+    }
+
+    /**
+     * 每片最小字节数：线程数越高切得越细。
+     *
+     * 8 线程 → 1MB/片；64 线程 → 256KB/片；256 线程 → 64KB/片。
+     * 再低就没意义了：一片的请求头开销会超过收益。
+     */
+    private fun minChunkSizeFor(threads: Int): Long = when {
+        threads <= 8 -> 1L * 1024 * 1024
+        threads <= 32 -> 512L * 1024
+        threads <= 128 -> 256L * 1024
+        else -> 64L * 1024
+    }
+
+    /**
+     * 同时在飞的请求上限（按档位缩放）。
+     *
+     * 老实现是固定 32：选 64 / 128 / 256 时 `coerceAtMost(32)` 统统压回 32，
+     * 档位形同虚设。改成随档位放大，但设一个绝对天花板 [MAX_INFLIGHT_HARD]，
+     * 免得 256 档真的同时开 256 条 TCP —— 手机的 NAT 表撑不住。
+     */
+    private fun inflightFor(threads: Int): Int = when {
+        threads <= 8 -> 8
+        threads <= 16 -> 16
+        threads <= 32 -> 32
+        threads <= 64 -> 48
+        else -> MAX_INFLIGHT_HARD
+    }
+
+    // ---------------------------------------------------------------- 分片下载
+
+    /**
+     * 按 [task].chunks 并发下载到**独立 part 文件**，最后合并。
+     *
+     * @return true 全部片都完成且合并成功。
+     * @throws RangeIgnored 服务器无视 Range（需要调用方回退到单线程）。
+     */
+    suspend fun downloadChunked(
+        task: DownloadTask,
+        dest: File,
+        onProgress: () -> Unit,
+    ): Boolean {
+        val chunks = task.chunks
+        if (chunks.isEmpty()) return false
+
+        // 并发数必须跟「切了几片」用的那个数字一致。
+        // task.activeThreads 是规划分片时写的，正常一定有值；
+        // 万一没有（老存档/异常路径），退化到「按片数推」而不是硬编码 8 ——
+        // 硬编码会让 256 片的文件只开 8 个并发，慢得像卡住。
+        val threads = task.effectiveThreads(chunks.size.coerceAtMost(MAX_THREADS))
+        val cap = inflightFor(threads)
+        android.util.Log.i(
+            "RomHubDL",
+            "downloadChunked 开始：${chunks.size} 片 线程=$threads 在途上限=$cap",
+        )
+
+        // 清理历史遗留的 part 残片（上一次中断留下的）
+        val partDir = File(dest.parentFile, ".${dest.name}.parts")
+        if (!partDir.exists()) partDir.mkdirs()
+
+        val ok = coroutineScope {
+            // 两层限流，且都不会死锁：
+            //   · gate：协程版信号量（**挂起**等待，不阻塞线程），控制在途分片数；
+            //   · 调度器：把这一批分片钉在容量为 cap 的调度器上，避免 256 个协程
+            //     一起涌进 Dispatchers.IO 去抢那几十个线程。
+            //
+            // ⚠ 这里绝不能用 java.util.concurrent.Semaphore 的 acquire()：
+            //   它是**阻塞**调用，会把 Dispatchers.IO 的线程真的堵死。要下 256 片
+            //   时，等许可的协程把线程池占满，真正该传数据的协程反而拿不到线程，
+            //   整条下载就"卡在开始处"——日志有、连接没有、一个字节不动。
+            val gate = Semaphore(cap)
+            val dispatcher = Dispatchers.IO.limitedParallelism(cap.coerceAtLeast(1))
+            val results = chunks.mapIndexed { index, chunk ->
+                async(dispatcher) {
+                    // 拿到许可才发请求；许可在整片（含重试）跑完后才释放，
+                    // 这样重试不会跟"还没开始的片"抢许可，避免高线程下饿死。
+                    gate.withPermit {
+                        runChunk(task, index, chunk, partDir, onProgress)
+                    }
+                }
+            }.awaitAll()
+            results.all { it }
+        }
+        if (!ok) return false
+
+        // 全部片完成 → 按序号顺序合并成目标文件
+        return mergeParts(task, chunks, partDir, dest, onProgress)
+    }
+
+    /**
+     * 大小未知时的兜底：用一次**普通 GET**（不发 Range）把大小问出来。
+     *
+     * 触发场景：探测请求（`Range: bytes=0-0`）失败 —— 源站对"只取首字节"这种
+     * 请求不友好（有些 CDN 会 403/挂起），但**完整 GET 是通的**。
+     *
+     * 为什么不用"开放区间的多片"：那样每个片都得从 0 读到尾，
+     * 等于同一个文件被并发下 N 遍，纯浪费流量。
+     *
+     * 这里的做法是：发一个不带 Range 的 GET，**只读响应头就断开**
+     * （`call.cancel()` / `body.close()`），拿到 `Content-Length` 就能正常分片了。
+     * 拿不到（chunked 编码等）才真正退到单线程。
+     *
+     * @return 总字节数；<= 0 表示拿不到。
+     */
+    fun probeSizeByHead(client: OkHttpClient, task: DownloadTask): Long {
+        val req = Request.Builder()
+            .url(task.url)
+            .header("User-Agent", RangeProbe.UA)
+            .header("Accept", "*/*")
+            .apply { task.headers.forEach { (k, v) -> if (k.isNotBlank()) header(k, v) } }
+            .get()
+            .build()
+        val call = client.newCall(req)
+        return try {
+            call.execute().use { resp ->
+                if (!resp.isSuccessful) return 0L
+                resp.body?.contentLength()?.takeIf { it > 0 } ?: 0L
+            }
+        } catch (e: Throwable) {
+            android.util.Log.w("RomHubDL", "probeSizeByHead 失败：${e.message}")
+            0L
+        } finally {
+            runCatching { call.cancel() }
+        }
+    }
+
+    private fun partFile(partDir: File, index: Int): File = File(partDir, "%05d.part".format(index))
+
+    private suspend fun runChunk(
+        task: DownloadTask,
+        index: Int,
+        chunk: ChunkState,
+        partDir: File,
+        onProgress: () -> Unit,
+    ): Boolean {
+        var attempt = 0
+        while (true) {
+            if (isCancelled(task.id)) return false
+            try {
+                downloadChunkOnce(task, index, chunk, partDir, onProgress)
+                return chunk.finished
+            } catch (e: RangeIgnoredException) {
+                throw e
+            } catch (e: Throwable) {
+                attempt++
+                if (attempt > retryLimit) {
+                    throw IllegalStateException(
+                        "分片 ${chunk.start}-${chunk.end} 失败：${e.message ?: e.javaClass.simpleName}"
+                    )
+                }
+                // 指数退避：base、base*2、base*4…（base 由 setRetryPolicy 传入，默认 1s）
+                delay(retryBaseMs shl (attempt - 1))
+            }
+        }
+    }
+
+    /**
+     * 同步用户的「重试次数 / 重试间隔」设置。
+     *
+     * 由用户在设置里配置重试次数与间隔。
+     * 由 [DownloadManager] 在 init 和设置变更时调用 —— 这样下载器的重试行为
+     * 跟界面上显示的一致，而不是写死。
+     */
+    fun setRetryPolicy(count: Int, baseIntervalSec: Int) {
+        retryLimit = count.coerceIn(1, 10)
+        retryBaseMs = baseIntervalSec.coerceIn(1, 60) * 1000L
+    }
+
+    private fun downloadChunkOnce(
+        task: DownloadTask,
+        index: Int,
+        chunk: ChunkState,
+        partDir: File,
+        onProgress: () -> Unit,
+    ) {
+        val from = chunk.start + chunk.done
+        if (from > chunk.end) return
+
+        val part = partFile(partDir, index)
+        // 上次这片下到哪了：以磁盘上的 part 文件大小为准（比内存里的 done 更可信）
+        val existing = if (part.exists()) part.length() else 0L
+        if (existing < chunk.done) {
+            // 记录说下了这么多，但文件更短 → 以文件为准，回退
+            chunk.done = existing
+        }
+        val startFrom = chunk.start + chunk.done
+        if (startFrom > chunk.end) return
+
+        val req = Request.Builder()
+            .url(task.url)
+            .header("Range", "bytes=$startFrom-${chunk.end}")
+            .header("User-Agent", RangeProbe.UA)
+            .header("Accept", "*/*")
+            .apply { task.headers.forEach { (k, v) -> if (k.isNotBlank()) header(k, v) } }
+            .get()
+            .build()
+
+        val call = client.newCall(req)
+        track(task.id, call)
+        try {
+            android.util.Log.i("RomHubDL", "分片 #$index 请求 Range=$startFrom-${chunk.end}")
+            call.execute().use { resp ->
+                // 我们明确要了 Range，服务器却回 200 = 它不支持分片
+                if (resp.code == 200) throw RangeIgnoredException()
+                if (resp.code != 206) {
+                    throw IllegalStateException("HTTP ${resp.code}")
+                }
+                val body = resp.body ?: throw IllegalStateException("响应为空")
+
+                // 写**自己的** part 文件，追加模式。
+                // 因为这一片只有这一个写入者，不需要 seek，也不会有竞态。
+                java.io.FileOutputStream(part, true).use { out ->
+                    val buf = ByteArray(BUFFER)
+                    body.byteStream().use { input ->
+                        while (true) {
+                            if (isCancelled(task.id)) throw InterruptedException("已取消")
+                            val read = input.read(buf)
+                            if (read <= 0) break
+                            out.write(buf, 0, read)
+                            chunk.done += read
+                            onProgress()
+                            if (chunk.done >= chunk.size) break
+                        }
+                    }
+                    out.flush()
+                }
+                if (chunk.done > chunk.size) chunk.done = chunk.size
+            }
+        } finally {
+            untrack(task.id, call)
+        }
+    }
+
+    /**
+     * 把各 part 文件按序号顺序拼接成最终文件。
+     *
+     * 合并用**流式拷贝**（8MB 缓冲），不一次性读进内存 —— ROM 包好几个 G。
+     * 先写 `.tmp`、校验大小通过后再原子改名，避免中途失败留下一个"大小对但内容不全"的
+     * 成品文件骗过用户。
+     */
+    private suspend fun mergeParts(
+        task: DownloadTask,
+        chunks: List<ChunkState>,
+        partDir: File,
+        dest: File,
+        onProgress: () -> Unit,
+    ): Boolean = withContext(Dispatchers.IO) {
+        val tmp = File(dest.parentFile, "${dest.name}.tmp")
+        try {
+            java.io.FileOutputStream(tmp).use { out ->
+                val buf = ByteArray(MERGE_BUFFER)
+                chunks.indices.forEach { i ->
+                    val part = partFile(partDir, i)
+                    if (!part.exists()) {
+                        throw IllegalStateException("分片 $i 缺失，无法合并")
+                    }
+                    part.inputStream().use { input ->
+                        while (true) {
+                            if (isCancelled(task.id)) throw InterruptedException("已取消")
+                            val read = input.read(buf)
+                            if (read <= 0) break
+                            out.write(buf, 0, read)
+                        }
+                    }
+                }
+                out.flush()
+                out.fd.sync()   // 落盘，别让用户拿到还在页缓存里的半成品
+            }
+
+            // 合并后校验：大小必须跟服务端声明的一致
+            val expect = task.totalBytes
+            val actual = tmp.length()
+            if (expect > 0 && actual != expect) {
+                tmp.delete()
+                throw IllegalStateException("文件大小校验失败：期望 $expect 字节，实际 $actual 字节")
+            }
+
+            if (dest.exists()) dest.delete()
+            if (!tmp.renameTo(dest)) {
+                // rename 失败（跨设备等）：退化成拷贝
+                tmp.copyTo(dest, overwrite = true)
+                tmp.delete()
+            }
+
+            // 成功后清掉 part 目录（除非用户开了「保留分片文件」）
+            if (!keepParts) runCatching { partDir.deleteRecursively() }
+            onProgress()
+            true
+        } catch (e: Throwable) {
+            runCatching { tmp.delete() }
+            throw e
+        }
+    }
+
+    // ---------------------------------------------------------------- 单线程兜底
+
+    /**
+     * 不支持分片（或大小未知）时用：直接 GET 整个文件，顺着写。
+     * 没有断点续传 —— 中断了下次只能重来。
+     */
+    suspend fun downloadFull(
+        task: DownloadTask,
+        dest: File,
+        onProgress: () -> Unit,
+    ): Boolean = withContext(Dispatchers.IO) {
+        val req = Request.Builder()
+            .url(task.url)
+            .header("User-Agent", RangeProbe.UA)
+            .header("Accept", "*/*")
+            .apply { task.headers.forEach { (k, v) -> if (k.isNotBlank()) header(k, v) } }
+            .get()
+            .build()
+
+        val call = client.newCall(req)
+        track(task.id, call)
+        try {
+            call.execute().use { resp ->
+                if (!resp.isSuccessful) throw IllegalStateException("HTTP ${resp.code}")
+                val body = resp.body ?: throw IllegalStateException("响应为空")
+
+                // 单线程也记一个「整文件片」，进度条好算
+                val total = task.totalBytes.takeIf { it > 0 } ?: body.contentLength()
+                val chunk = task.chunks.firstOrNull() ?: ChunkState(0, total - 1).also {
+                    task.chunks = listOf(it)
+                }
+
+                dest.outputStream().use { out ->
+                    val buf = ByteArray(BUFFER)
+                    body.byteStream().use { input ->
+                        while (true) {
+                            if (isCancelled(task.id)) throw InterruptedException("已取消")
+                            val read = input.read(buf)
+                            if (read <= 0) break
+                            out.write(buf, 0, read)
+                            chunk.done += read
+                            onProgress()
+                        }
+                    }
+                    out.flush()
+                    out.fd.sync()
+                }
+                if (total > 0) {
+                    task.totalBytes = total
+                    chunk.done = total
+                    val newChunk = ChunkState(chunk.start, total - 1).also { it.done = total }
+                    task.chunks = listOf(newChunk)
+                }
+                true
+            }
+        } finally {
+            untrack(task.id, call)
+        }
+    }
+
+    /** 服务器不支持 Range 的信号。 */
+    class RangeIgnoredException : IllegalStateException("服务器不支持分片下载")
+
+    companion object {
+        private const val BUFFER = 64 * 1024
+        private const val MERGE_BUFFER = 8 * 1024 * 1024
+        private const val CHUNK_RETRIES = 3
+
+        /**
+         * 线程数硬上限（用户可选的最大档位）。
+         *
+         * 256 是权衡结果：ROM 包普遍 5~12GB，切到 256 片每片也有几十 MB，
+         * 收益（吃满带宽）还在；但再往上单个文件切得太碎，
+         * 请求头开销和 CDN 风控都不划算。
+         */
+        const val MAX_THREADS = 256
+
+        /**
+         * 真正在飞的网络请求上限（绝对天花板）。
+         *
+         * 与 [MAX_THREADS] 区分：这个是**同时打开的连接数**。
+         * 256 个连接同时握手会把手机的 NAT 表和瞬时内存打爆，
+         * 所以实际并发压在这里，片数可以更多、排队即可。
+         *
+         * 注意：实际并发还会按档位缩放（见 [inflightFor]），不要写死。
+         */
+        const val MAX_INFLIGHT_HARD = 64
+
+        /**
+         * 兼容旧引用：老代码里用这个名字表示"在途上限"。
+         * 保留常量避免别处编译不过，实际以 [inflightFor] 为准。
+         */
+        @Deprecated("改用 inflightFor(threads) 按档位缩放", ReplaceWith("MAX_INFLIGHT_HARD"))
+        const val MAX_INFLIGHT = 32
+    }
+}

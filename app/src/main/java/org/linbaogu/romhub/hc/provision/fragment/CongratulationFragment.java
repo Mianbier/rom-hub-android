@@ -1,1 +1,366 @@
-LyoKICogVGhpcyBmaWxlIGlzIHBhcnQgb2YgSHlwZXJDZWlsZXIuCgogKiBIeXBlckNlaWxlciBpcyBmcmVlIHNvZnR3YXJlOiB5b3UgY2FuIHJlZGlzdHJpYnV0ZSBpdCBhbmQvb3IgbW9kaWZ5CiAqIGl0IHVuZGVyIHRoZSB0ZXJtcyBvZiB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGFzCiAqIHB1Ymxpc2hlZCBieSB0aGUgRnJlZSBTb2Z0d2FyZSBGb3VuZGF0aW9uLCBlaXRoZXIgdmVyc2lvbiAzIG9mIHRoZQogKiBMaWNlbnNlLgoKICogVGhpcyBwcm9ncmFtIGlzIGRpc3RyaWJ1dGVkIGluIHRoZSBob3BlIHRoYXQgaXQgd2lsbCBiZSB1c2VmdWwsCiAqIGJ1dCBXSVRIT1VUIEFOWSBXQVJSQU5UWTsgd2l0aG91dCBldmVuIHRoZSBpbXBsaWVkIHdhcnJhbnR5IG9mCiAqIE1FUkNIQU5UQUJJTElUWSBvciBGSVRORVNTIEZPUiBBIFBBUlRJQ1VMQVIgUFVSUE9TRS4gIFNlZSB0aGUKICogR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGZvciBtb3JlIGRldGFpbHMuCgogKiBZb3Ugc2hvdWxkIGhhdmUgcmVjZWl2ZWQgYSBjb3B5IG9mIHRoZSBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UKICogYWxvbmcgd2l0aCB0aGlzIHByb2dyYW0uICBJZiBub3QsIHNlZSA8aHR0cHM6Ly93d3cuZ251Lm9yZy9saWNlbnNlcy8+LgoKICogQ29weXJpZ2h0IChDKSAyMDIzLTIwMjYgSHlwZXJDZWlsZXIgQ29udHJpYnV0aW9ucwogKi8KcGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLmhjLnByb3Zpc2lvbi5mcmFnbWVudDsKCmltcG9ydCBhbmRyb2lkLmFwcC5BY3Rpdml0eU9wdGlvbnM7CmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuSW50ZW50OwppbXBvcnQgYW5kcm9pZC5jb250ZW50LnJlcy5Db25maWd1cmF0aW9uOwppbXBvcnQgYW5kcm9pZC5vcy5CdW5kbGU7CmltcG9ydCBhbmRyb2lkLm9zLkhhbmRsZXI7CmltcG9ydCBhbmRyb2lkLnV0aWwuTG9nOwppbXBvcnQgYW5kcm9pZC52aWV3LlZpZXc7CmltcG9ydCBhbmRyb2lkLndpZGdldC5JbWFnZVZpZXc7CmltcG9ydCBhbmRyb2lkLndpZGdldC5UZXh0VmlldzsKCmltcG9ydCBhbmRyb2lkeC5hbm5vdGF0aW9uLk5vbk51bGw7CmltcG9ydCBhbmRyb2lkeC5hbm5vdGF0aW9uLk51bGxhYmxlOwoKaW1wb3J0IG9yZy5saW5iYW9ndS5yb21odWIuaGMuY29tbW9uLkFwcExhbmd1YWdlSGVscGVyOwppbXBvcnQgb3JnLmxpbmJhb2d1LnJvbWh1Yi5SOwppbXBvcnQgb3JnLmxpbmJhb2d1LnJvbWh1Yi5oYy5wcm92aXNpb24ucmVuZGVyZW5naW5lLkdsb3dDb250cm9sbGVyOwppbXBvcnQgb3JnLmxpbmJhb2d1LnJvbWh1Yi5oYy5wcm92aXNpb24ucmVuZGVyZW5naW5lLlJlbmRlclZpZXdMYXlvdXQ7CmltcG9ydCBvcmcubGluYmFvZ3Uucm9taHViLmhjLnByb3Zpc2lvbi51dGlscy5JT25Gb2N1c0xpc3RlbmVyOwppbXBvcnQgb3JnLmxpbmJhb2d1LnJvbWh1Yi5oYy5wcm92aXNpb24udXRpbHMuVXRpbHM7CgppbXBvcnQgZmFuLmFuaW1hdGlvbi5Gb2xtZTsKaW1wb3J0IGZhbi5hbmltYXRpb24uRm9sbWVFYXNlOwppbXBvcnQgZmFuLmFuaW1hdGlvbi5JU3RhdGVTdHlsZTsKaW1wb3J0IGZhbi5hbmltYXRpb24uYmFzZS5BbmltQ29uZmlnOwppbXBvcnQgZmFuLmFuaW1hdGlvbi5jb250cm9sbGVyLkFuaW1TdGF0ZTsKaW1wb3J0IGZhbi5hbmltYXRpb24ubGlzdGVuZXIuVHJhbnNpdGlvbkxpc3RlbmVyOwppbXBvcnQgZmFuLmFuaW1hdGlvbi5wcm9wZXJ0eS5WaWV3UHJvcGVydHk7CmltcG9ydCBmYW4uY29yZS51dGlscy5NaXVpQmx1clV0aWxzOwppbXBvcnQgZmFuLmludGVybmFsLnV0aWxzLkxpdGVVdGlsczsKaW1wb3J0IGZhbi5wcm92aXNpb24uT29iZVV0aWxzOwoKcHVibGljIGNsYXNzIENvbmdyYXR1bGF0aW9uRnJhZ21lbnQgZXh0ZW5kcyBCYXNlRnJhZ21lbnQgaW1wbGVtZW50cyBJT25Gb2N1c0xpc3RlbmVyIHsKCiAgICBwcml2YXRlIHN0YXRpYyBmaW5hbCBTdHJpbmcgVEFHID0gIlByb3Zpc2lvbjpDb25ncmF0dWxhdGlvbkZyYWdtZW50IjsKCiAgICBwcml2YXRlIGZpbmFsIGludCBERUxBWV9USU1FID0gIU9vYmVVdGlscy5pc0xpdGVPckxvd0RldmljZSgpID8gMTAwMDAgOiAxNTAwMDsKCiAgICBwcml2YXRlIGJvb2xlYW4gSVNfU1VQUE9SVF9ORVdfUFJPVklTSU9OX1NUUkFURUdZOwoKICAgIHByaXZhdGUgbG9uZyBlbmRUaW1lOwogICAgcHJpdmF0ZSBsb25nIGluaXRUaW1lOwoKICAgIHByaXZhdGUgYm9vbGVhbiBpc0ZpcnN0Qm9vdCA9IHRydWU7CiAgICBwcml2YXRlIGJvb2xlYW4gaXNDb21wbGV0ZTsKCiAgICBwcml2YXRlIFZpZXcgbUdsb3dFZmZlY3RWaWV3OwogICAgcHJpdmF0ZSBWaWV3IG1Db250ZW50VmlldzsKICAgIHByaXZhdGUgSW1hZ2VWaWV3IG1Mb2dvSW1hZ2U7CiAgICBwcml2YXRlIEltYWdlVmlldyBtVGV4dExvZ29JbWFnZTsKICAgIHByaXZhdGUgVmlldyBtTG9nb0ltYWdlV3JhcHBlcjsKICAgIHByaXZhdGUgVmlldyBtTmV4dDsKICAgIHByaXZhdGUgVmlldyBtTmV4dFZpZXc7CiAgICBwcml2YXRlIFRleHRWaWV3IG1TeXN0ZW1TdGF0ZVRleHQ7CiAgICBwcml2YXRlIFJlbmRlclZpZXdMYXlvdXQgbVJlbmRlclZpZXdMYXlvdXQ7CgogICAgcHJpdmF0ZSBHbG93Q29udHJvbGxlciBtR2xvd0NvbnRyb2xsZXI7CgogICAgcHJpdmF0ZSBmaW5hbCBIYW5kbGVyIG1IYW5kbGVyID0gbmV3IEhhbmRsZXIoKTsKCiAgICBAT3ZlcnJpZGUKICAgIHByb3RlY3RlZCBpbnQgZ2V0TGF5b3V0SWQoKSB7CiAgICAgICAgcmV0dXJuIFIubGF5b3V0LnByb3Zpc2lvbl9jb25ncmF0dWxhdGlvbl9sYXlvdXQ7CiAgICB9CgogICAgQE92ZXJyaWRlCiAgICBwdWJsaWMgdm9pZCBvblZpZXdDcmVhdGVkKEBOb25OdWxsIFZpZXcgdmlldywgQE51bGxhYmxlIEJ1bmRsZSBzYXZlZEluc3RhbmNlU3RhdGUpIHsKICAgICAgICBzdXBlci5vblZpZXdDcmVhdGVkKHZpZXcsIHNhdmVkSW5zdGFuY2VTdGF0ZSk7CiAgICAgICAgaW5pdFRpbWUgPSBTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKTsKICAgICAgICBpbml0U2V0dXBXaXphcmRBbmltQ29ubmVjdGlvbigpOwogICAgICAgIGluaXRWaWV3KHZpZXcpOwogICAgICAgIGluaXRCYWNrR3JvdW5kKCk7CiAgICAgICAgc2V0dXBCbHVyQmFja2dyb3VuZCgpOwogICAgICAgIGRpc3BsYXlPU0xvZ29EZWxheSgpOwogICAgfQoKICAgIHByaXZhdGUgdm9pZCBpbml0VmlldyhWaWV3IHZpZXcpIHsKICAgICAgICBtUmVuZGVyVmlld0xheW91dCA9IHZpZXcuZmluZFZpZXdCeUlkKFIuaWQucmVuZGVyX3ZpZXdfbGF5b3V0KTsKICAgICAgICBtQ29udGVudFZpZXcgPSB2aWV3LmZpbmRWaWV3QnlJZChSLmlkLmNvbnRlbnRfdmlldyk7CiAgICAgICAgbUxvZ29JbWFnZVdyYXBwZXIgPSB2aWV3LmZpbmRWaWV3QnlJZChSLmlkLmxvZ29faW1hZ2Vfd3JhcHBlcik7CiAgICAgICAgbUxvZ29JbWFnZSA9IHZpZXcuZmluZFZpZXdCeUlkKFIuaWQubG9nb19pbWFnZSk7CiAgICAgICAgbVRleHRMb2dvSW1hZ2UgPSB2aWV3LmZpbmRWaWV3QnlJZChSLmlkLnRleHRfbG9nb19pbWFnZSk7CiAgICAgICAgbVN5c3RlbVN0YXRlVGV4dCA9IHZpZXcuZmluZFZpZXdCeUlkKFIuaWQuc3lzdGVtX3N0YXRlX3RleHQpOwogICAgICAgIG1OZXh0VmlldyA9IHZpZXcuZmluZFZpZXdCeUlkKFIuaWQubmV4dCk7CiAgICAgICAgbU5leHQgPSB2aWV3LmZpbmRWaWV3QnlJZChSLmlkLmJ0bl9iZyk7CiAgICAgICAgbVN5c3RlbVN0YXRlVGV4dC5zZXRUZXh0KElTX1NVUFBPUlRfTkVXX1BST1ZJU0lPTl9TVFJBVEVHWSA/CiAgICAgICAgICAgIFIuc3RyaW5nLnByb3Zpc2lvbl9zeXN0ZW1fcHJlcGFyaW5nIDoKICAgICAgICAgICAgUi5zdHJpbmcucHJvdmlzaW9uX3N5c3RlbV9jb21wbGV0ZQogICAgICAgICk7CiAgICAgICAgaWYgKFV0aWxzLklTX1NVUFBPUlRfQU5JTSkgewogICAgICAgICAgICBtTG9nb0ltYWdlV3JhcHBlci5zZXRWaXNpYmlsaXR5KFZpZXcuR09ORSk7CiAgICAgICAgfQogICAgICAgIG1OZXh0Vmlldy5zZXRWaXNpYmlsaXR5KFZpZXcuR09ORSk7CiAgICAgICAgbU5leHRWaWV3LnNldEVuYWJsZWQoZmFsc2UpOwogICAgICAgIEZvbG1lLnVzZShtTmV4dFZpZXcpLnRvdWNoKCkuc2V0U2NhbGUoMS4wZikuaGFuZGxlVG91Y2hPZih0aGlzLm1OZXh0Vmlldyk7CiAgICAgICAgbU5leHRWaWV3LnNldE9uQ2xpY2tMaXN0ZW5lcih2IC0+IHsKICAgICAgICAgICAgc3RhcnRIb21lKCk7CiAgICAgICAgICAgIHN0YXJ0UGFnZUFuaW0oKTsKICAgICAgICB9KTsKICAgIH0KCiAgICBwcml2YXRlIHZvaWQgaW5pdEJhY2tHcm91bmQoKSB7CiAgICAgICAgc2V0U2hhZGVyQmFja0dyb3VuZCgpOwogICAgICAgIHNldEJhY2tHcm91bmROb0FuaW0oKTsKICAgIH0KCiAgICBwcml2YXRlIHZvaWQgc2V0U2hhZGVyQmFja0dyb3VuZCgpIHsKICAgICAgICBpZiAoVXRpbHMuSVNfU1VQUE9SVF9BTklNICYmIG1Db250ZW50VmlldyAhPSBudWxsKSB7CiAgICAgICAgICAgIG1Db250ZW50Vmlldy5zZXRCYWNrZ3JvdW5kKG51bGwpOwogICAgICAgICAgICBpZiAobVJlbmRlclZpZXdMYXlvdXQgIT0gbnVsbCkgewogICAgICAgICAgICAgICAgbVJlbmRlclZpZXdMYXlvdXQuc2V0VmlzaWJpbGl0eShWaWV3LlZJU0lCTEUpOwogICAgICAgICAgICAgICAgbUdsb3dFZmZlY3RWaWV3ID0gbmV3IFZpZXcocmVxdWlyZUNvbnRleHQoKSk7CiAgICAgICAgICAgICAgICBtUmVuZGVyVmlld0xheW91dC5hdHRhY2hWaWV3KG1HbG93RWZmZWN0VmlldywgMC4yZiwgLTE2Nzc3MjE2KTsKICAgICAgICAgICAgICAgIG1HbG93Q29udHJvbGxlciA9IG5ldyBHbG93Q29udHJvbGxlcihtR2xvd0VmZmVjdFZpZXcpOwogICAgICAgICAgICAgICAgbUdsb3dDb250cm9sbGVyLnN0YXJ0KGZhbHNlKTsKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIHZvaWQgc2V0QmFja0dyb3VuZE5vQW5pbSgpIHsKICAgICAgICBpZiAoVXRpbHMuSVNfU1VQUE9SVF9BTklNIHx8IG1Db250ZW50VmlldyA9PSBudWxsKSByZXR1cm47CiAgICAgICAgbUNvbnRlbnRWaWV3LnNldEJhY2tncm91bmRSZXNvdXJjZShSLmRyYXdhYmxlLnByb3Zpc2lvbl9sb2dvX2ltYWdlX2JnKTsKICAgIH0KCiAgICBwcml2YXRlIHZvaWQgc2V0dXBCbHVyQmFja2dyb3VuZCgpIHsKICAgICAgICBpZiAoTWl1aUJsdXJVdGlscy5pc0VuYWJsZSgpICYmICFMaXRlVXRpbHMuaXNDb21tb25MaXRlU3RyYXRlZ3koKSAmJgogICAgICAgICAgICBNaXVpQmx1clV0aWxzLmlzRWZmZWN0RW5hYmxlKHJlcXVpcmVDb250ZXh0KCkpKSB7CiAgICAgICAgICAgIE1pdWlCbHVyVXRpbHMuc2V0QmFja2dyb3VuZEJsdXIobUNvbnRlbnRWaWV3LCAoaW50KSAoKGdldFJlc291cmNlcygpLmdldERpc3BsYXlNZXRyaWNzKCkuZGVuc2l0eSAqIDUwLjBmKSArIDAuNWYpKTsKICAgICAgICAgICAgTWl1aUJsdXJVdGlscy5zZXRWaWV3Qmx1ck1vZGUobUNvbnRlbnRWaWV3LCAwKTsKICAgICAgICAgICAgaWYgKG1Mb2dvSW1hZ2UgIT0gbnVsbCkgewogICAgICAgICAgICAgICAgc2V0dXBWaWV3Qmx1cihtTG9nb0ltYWdlLCB0cnVlLCBuZXcgaW50W117LTg2NzU0NjU1MCwgLTExNTc5NTY5LCAtMTUwMTEzMjh9LCBuZXcgaW50W117MTksIDEwMCwgMTA2fSk7CiAgICAgICAgICAgICAgICBtTG9nb0ltYWdlLnNldEltYWdlUmVzb3VyY2UoUi5kcmF3YWJsZS5wcm92aXNpb25fbG9nb19pbWFnZSk7CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGlmIChtVGV4dExvZ29JbWFnZSAhPSBudWxsKSB7CiAgICAgICAgICAgICAgICBzZXR1cFZpZXdCbHVyKG1UZXh0TG9nb0ltYWdlLCB0cnVlLCBuZXcgaW50W117LTg2NzU0NjU1MCwgLTExNTc5NTY5LCAtMTUwMTEzMjh9LCBuZXcgaW50W117MTksIDEwMCwgMTA2fSk7CiAgICAgICAgICAgICAgICBtVGV4dExvZ29JbWFnZS5zZXRJbWFnZVJlc291cmNlKFIuZHJhd2FibGUucHJvdmlzaW9uX3RleHRfbG9nb19pbWFnZSk7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgaWYgKG1OZXh0ICE9IG51bGwpIHsKICAgICAgICAgICAgICAgIHNldHVwVmlld0JsdXIobU5leHQsIHRydWUsIG5ldyBpbnRbXXstMTI3NjM4NDMsIC0xNTAyMTA1Nn0sIG5ldyBpbnRbXXsxMDAsIDEwNn0pOwogICAgICAgICAgICAgICAgbU5leHQuc2V0QmFja2dyb3VuZFJlc291cmNlKFIuZHJhd2FibGUucHJvdmlzaW9uX25leHRfYnRuX2JhY2tncm91bmQpOwogICAgICAgICAgICB9CiAgICAgICAgICAgIGlmIChtU3lzdGVtU3RhdGVUZXh0ID09IG51bGwpIHJldHVybjsKICAgICAgICAgICAgc2V0dXBWaWV3Qmx1cihtU3lzdGVtU3RhdGVUZXh0LCB0cnVlLCBuZXcgaW50W117LTg2OTkxNTA5OCwgLTE3MjQ2OTc4MDV9LCBuZXcgaW50W117MTksIDN9KTsKICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSB2b2lkIHNldHVwVmlld0JsdXIoVmlldyB2aWV3LCBib29sZWFuIHosIGludFtdIGlBcnIsIGludFtdIGlBcnIyKSB7CiAgICAgICAgaWYgKHZpZXcgPT0gbnVsbCkgcmV0dXJuOwogICAgICAgIGlmICh6KSB7CiAgICAgICAgICAgIE1pdWlCbHVyVXRpbHMuc2V0Vmlld0JsdXJNb2RlKHZpZXcsIDMpOwogICAgICAgICAgICBmb3IgKGludCBpID0gMDsgaSA8IGlBcnIubGVuZ3RoOyBpKyspIHsKICAgICAgICAgICAgICAgIE1pdWlCbHVyVXRpbHMuYWRkQmFja2dyb3VuZEJsZW5kZXJDb2xvcih2aWV3LCBpQXJyW2ldLCBpQXJyMltpXSk7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgcmV0dXJuOwogICAgICAgIH0KICAgICAgICBNaXVpQmx1clV0aWxzLnNldFZpZXdCbHVyTW9kZSh2aWV3LCAwKTsKICAgICAgICBNaXVpQmx1clV0aWxzLmNsZWFyQmFja2dyb3VuZEJsZW5kQ29uZmlnKHZpZXcpOwogICAgfQoKICAgIHByaXZhdGUgdm9pZCBkaXNwbGF5T1NMb2dvRGVsYXkoKSB7CiAgICAgICAgbUNvbnRlbnRWaWV3LnBvc3REZWxheWVkKCgpIC0+IHsKICAgICAgICAgICAgaWYgKG1Mb2dvSW1hZ2VXcmFwcGVyICE9IG51bGwpIHsKICAgICAgICAgICAgICAgIHN0YXJ0TG9nb0FuaW0obUxvZ29JbWFnZVdyYXBwZXIpOwogICAgICAgICAgICAgICAgbUxvZ29JbWFnZVdyYXBwZXIuc2V0VmlzaWJpbGl0eShWaWV3LlZJU0lCTEUpOwogICAgICAgICAgICB9CiAgICAgICAgICAgIGlmIChtU3lzdGVtU3RhdGVUZXh0ICE9IG51bGwpIHsKICAgICAgICAgICAgICAgIG1TeXN0ZW1TdGF0ZVRleHQuc2V0VGV4dChSLnN0cmluZy5wcm92aXNpb25fc3lzdGVtX2NvbXBsZXRlKTsKICAgICAgICAgICAgfQogICAgICAgICAgICBpZiAobU5leHRWaWV3ICE9IG51bGwpIHsKICAgICAgICAgICAgICAgIHN0YXJ0QnRuQW5pbShtTmV4dFZpZXcpOwogICAgICAgICAgICAgICAgbU5leHRWaWV3LnNldFZpc2liaWxpdHkoVmlldy5WSVNJQkxFKTsKICAgICAgICAgICAgfQogICAgICAgICAgICBpc0NvbXBsZXRlID0gdHJ1ZTsKICAgICAgICAgICAgZW5kVGltZSA9IFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpOwogICAgICAgICAgICBMb2cuZCgiUHJvdmlzaW9uQ29uZ3JhdHVsYXRpb25BY3Rpdml0eSIsICJkaXNwbGF5T1NMb2dvRGVsYXk6ICIgKyAoZW5kVGltZSAtIGluaXRUaW1lKSArICIgZW5kVGltZSAiICsgZW5kVGltZSk7CiAgICAgICAgfSwgREVMQVlfVElNRSk7CiAgICB9CgogICAgcHJpdmF0ZSB2b2lkIGluaXRTZXR1cFdpemFyZEFuaW1Db25uZWN0aW9uKCkgewogICAgICAgIExvZy5kKCJQcm92aXNpb25Db25ncmF0dWxhdGlvbkFjdGl2aXR5IiwgIm9uU2V0dXBDb21wbGV0ZSIpOwogICAgICAgIHJlZnJlc2hDb21wbGV0ZWRWaWV3KCk7CiAgICAgICAgSVNfU1VQUE9SVF9ORVdfUFJPVklTSU9OX1NUUkFURUdZID0gZmFsc2U7CiAgICB9CgogICAgcHJpdmF0ZSB2b2lkIHJlZnJlc2hDb21wbGV0ZWRWaWV3KCkgewogICAgICAgIHJlcXVpcmVBY3Rpdml0eSgpLnJ1bk9uVWlUaHJlYWQoKCkgLT4gewogICAgICAgICAgICBpZiAobVN5c3RlbVN0YXRlVGV4dCAhPSBudWxsKSB7CiAgICAgICAgICAgICAgICBtU3lzdGVtU3RhdGVUZXh0LnNldFRleHQoUi5zdHJpbmcucHJvdmlzaW9uX3N5c3RlbV9jb21wbGV0ZSk7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgaWYgKG1OZXh0VmlldyAhPSBudWxsKSB7CiAgICAgICAgICAgICAgICBzdGFydEJ0bkFuaW0obU5leHRWaWV3KTsKICAgICAgICAgICAgICAgIG1OZXh0Vmlldy5zZXRWaXNpYmlsaXR5KFZpZXcuVklTSUJMRSk7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgaXNDb21wbGV0ZSA9IHRydWU7CiAgICAgICAgfSk7CiAgICB9CgogICAgcHJpdmF0ZSB2b2lkIHN0YXJ0QW5pbSgpIHsKICAgICAgICBpc0ZpcnN0Qm9vdCA9IGZhbHNlOwogICAgICAgIGlmIChVdGlscy5JU19TVVBQT1JUX0FOSU0gJiYgbUxvZ29JbWFnZVdyYXBwZXIgIT0gbnVsbCkgewogICAgICAgICAgICBzdGFydExvZ29BbmltKG1Mb2dvSW1hZ2VXcmFwcGVyKTsKICAgICAgICB9CiAgICAgICAgaWYgKCFJU19TVVBQT1JUX05FV19QUk9WSVNJT05fU1RSQVRFR1kgJiYgbU5leHRWaWV3ICE9IG51bGwpIHsKICAgICAgICAgICAgc3RhcnRCdG5BbmltKG1OZXh0Vmlldyk7CiAgICAgICAgICAgIGlzQ29tcGxldGUgPSB0cnVlOwogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIHZvaWQgc3RhcnRMb2dvQW5pbShWaWV3IHZpZXcpIHsKICAgICAgICBpZiAodmlldyA9PSBudWxsIHx8IHZpZXcuZ2V0VmlzaWJpbGl0eSgpID09IFZpZXcuVklTSUJMRSkgcmV0dXJuOwogICAgICAgIHZpZXcuc2V0VmlzaWJpbGl0eShWaWV3LlZJU0lCTEUpOwogICAgICAgIEFuaW1TdGF0ZSBhbmltU3RhdGUgPSBuZXcgQW5pbVN0YXRlKCJzdGFydCIpOwogICAgICAgIEFuaW1TdGF0ZSBhbHBoYVN0YXRlID0gYW5pbVN0YXRlLmFkZChWaWV3UHJvcGVydHkuQUxQSEEsIDAuMGQpOwogICAgICAgIEFuaW1TdGF0ZSB0cmFuc2xhdGlvbllTdGF0ZSA9IGFscGhhU3RhdGUuYWRkKFZpZXdQcm9wZXJ0eS5UUkFOU0xBVElPTl9ZLCAxMDAuMGQpOwoKICAgICAgICBBbmltU3RhdGUgYW5pbVN0YXRlMiA9IG5ldyBBbmltU3RhdGUoImVuZCIpOwogICAgICAgIEFuaW1TdGF0ZSBhbHBoYVN0YXRlMiA9IGFuaW1TdGF0ZTIuYWRkKFZpZXdQcm9wZXJ0eS5BTFBIQSwgMS4wZCk7CiAgICAgICAgQW5pbVN0YXRlIHRyYW5zbGF0aW9uWVN0YXRlMiA9IGFscGhhU3RhdGUyLmFkZChWaWV3UHJvcGVydHkuVFJBTlNMQVRJT05fWSwgMC4wZCk7CgogICAgICAgIEFuaW1Db25maWcgY29uZmlnID0gbmV3IEFuaW1Db25maWcoKTsKICAgICAgICBjb25maWcuc2V0RWFzZShGb2xtZUVhc2UucXVhcnRPdXQoMTUwMEwpKTsKCiAgICAgICAgRm9sbWUudXNlKHZpZXcpLnN0YXRlKCkuc2V0VG8odHJhbnNsYXRpb25ZU3RhdGUpLnRvKHRyYW5zbGF0aW9uWVN0YXRlMiwgY29uZmlnKTsKICAgIH0KCiAgICBwcml2YXRlIHZvaWQgc3RhcnRCdG5BbmltKFZpZXcgdmlldykgewogICAgICAgIGlmICh2aWV3ID09IG51bGwpIHJldHVybjsKCiAgICAgICAgdmlldy5wb3N0RGVsYXllZCgoKSAtPiB7CiAgICAgICAgICAgIHZpZXcuc2V0RW5hYmxlZCh0cnVlKTsKICAgICAgICAgICAgTG9nLmQoIlByb3Zpc2lvbkNvbmdyYXR1bGF0aW9uQWN0aXZpdHkiLCAic3RhcnRCdG5BbmltOiBtTmV4dFZpZXcgc2V0RW5hYmxlZCIpOwogICAgICAgIH0sIDIwMDBMKTsKICAgICAgICBpZiAodmlldy5nZXRWaXNpYmlsaXR5KCkgPT0gVmlldy5WSVNJQkxFKSByZXR1cm47CiAgICAgICAgdmlldy5zZXRWaXNpYmlsaXR5KFZpZXcuVklTSUJMRSk7CiAgICAgICAgQW5pbUNvbmZpZyBkZWxheSA9IG5ldyBBbmltQ29uZmlnKCkuc2V0RWFzZShGb2xtZUVhc2Uuc2luT3V0KDQ1MEwpKS5zZXREZWxheSgxMDAwTCk7CiAgICAgICAgZGVsYXkuYWRkTGlzdGVuZXJzKG5ldyBUcmFuc2l0aW9uTGlzdGVuZXIoKSB7CiAgICAgICAgICAgIEBPdmVycmlkZQogICAgICAgICAgICBwdWJsaWMgdm9pZCBvbkNvbXBsZXRlKE9iamVjdCB0b1RhZykgewogICAgICAgICAgICAgICAgc3VwZXIub25Db21wbGV0ZSh0b1RhZyk7CiAgICAgICAgICAgICAgICB2aWV3LnNldEVuYWJsZWQodHJ1ZSk7CiAgICAgICAgICAgICAgICBMb2cuZCgiUHJvdmlzaW9uQ29uZ3JhdHVsYXRpb25BY3Rpdml0eSIsICJvbkNvbXBsZXRlOiBtTmV4dFZpZXcgc2V0RW5hYmxlZCIpOwogICAgICAgICAgICB9CiAgICAgICAgfSk7CiAgICAgICAgSVN0YXRlU3R5bGUgc3RhdGUgPSBGb2xtZS51c2Uodmlldykuc3RhdGUoKTsKICAgICAgICBWaWV3UHJvcGVydHkgdmlld1Byb3BlcnR5ID0gVmlld1Byb3BlcnR5LkFMUEhBOwogICAgICAgIHN0YXRlLnNldFRvKHZpZXdQcm9wZXJ0eSwgRmxvYXQudmFsdWVPZigwLjBmKSkudG8odmlld1Byb3BlcnR5LCBGbG9hdC52YWx1ZU9mKDEuMGYpLCBkZWxheSk7CiAgICB9CgogICAgcHJpdmF0ZSB2b2lkIHN0YXJ0UGFnZUFuaW0oKSB7CiAgICAgICAgQW5pbVN0YXRlIGFuaW1TdGF0ZSA9IG5ldyBBbmltU3RhdGUoInN0YXJ0Iik7CiAgICAgICAgVmlld1Byb3BlcnR5IHZpZXdQcm9wZXJ0eSA9IFZpZXdQcm9wZXJ0eS5BTFBIQTsKICAgICAgICBBbmltU3RhdGUgYWRkID0gYW5pbVN0YXRlLmFkZCh2aWV3UHJvcGVydHksIDEuMGQpOwogICAgICAgIFZpZXdQcm9wZXJ0eSB2aWV3UHJvcGVydHkyID0gVmlld1Byb3BlcnR5LlNDQUxFX1g7CiAgICAgICAgQW5pbVN0YXRlIGFkZDIgPSBhZGQuYWRkKHZpZXdQcm9wZXJ0eTIsIDEuMGQpOwogICAgICAgIFZpZXdQcm9wZXJ0eSB2aWV3UHJvcGVydHkzID0gVmlld1Byb3BlcnR5LlNDQUxFX1k7CiAgICAgICAgQW5pbVN0YXRlIGFkZDMgPSBhZGQyLmFkZCh2aWV3UHJvcGVydHkzLCAxLjBkKTsKICAgICAgICBBbmltU3RhdGUgYWRkNCA9IG5ldyBBbmltU3RhdGUoImVuZCIpLmFkZCh2aWV3UHJvcGVydHksIDAuMGQpLmFkZCh2aWV3UHJvcGVydHkyLCAwLjhkKS5hZGQodmlld1Byb3BlcnR5MywgMC44ZCk7CiAgICAgICAgQW5pbUNvbmZpZyBhbmltQ29uZmlnID0gbmV3IEFuaW1Db25maWcoKTsKICAgICAgICBhbmltQ29uZmlnLnNldFNwZWNpYWwodmlld1Byb3BlcnR5MiwgRm9sbWVFYXNlLnNwcmluZygxLjBmLCAwLjM2ZikpOwogICAgICAgIGFuaW1Db25maWcuc2V0U3BlY2lhbCh2aWV3UHJvcGVydHkzLCBGb2xtZUVhc2Uuc3ByaW5nKDEuMGYsIDAuMzZmKSk7CiAgICAgICAgYW5pbUNvbmZpZy5zZXRTcGVjaWFsKHZpZXdQcm9wZXJ0eSwgRm9sbWVFYXNlLnNpbk91dCgzNjBMKSk7CiAgICAgICAgaWYgKG1Mb2dvSW1hZ2VXcmFwcGVyICE9IG51bGwpIHsKICAgICAgICAgICAgRm9sbWUudXNlKG1Mb2dvSW1hZ2VXcmFwcGVyKS5zdGF0ZSgpLnNldFRvKGFkZDMpLnRvKGFkZDQsIGFuaW1Db25maWcpOwogICAgICAgIH0KICAgICAgICBpZiAobU5leHRWaWV3ICE9IG51bGwpIHsKICAgICAgICAgICAgRm9sbWUudXNlKG1OZXh0Vmlldykuc3RhdGUoKS5zZXRUbyhhZGQzKS50byhhZGQ0LCBhbmltQ29uZmlnKTsKICAgICAgICB9CiAgICB9CgogICAgQE92ZXJyaWRlCiAgICBwdWJsaWMgdm9pZCBvblN0YXJ0KCkgewogICAgICAgIHN1cGVyLm9uU3RhcnQoKTsKICAgICAgICBpZiAobUdsb3dDb250cm9sbGVyICE9IG51bGwpIHsKICAgICAgICAgICAgbUdsb3dDb250cm9sbGVyLnN0YXJ0KGZhbHNlKTsKICAgICAgICB9CiAgICB9CgogICAgQE92ZXJyaWRlCiAgICBwdWJsaWMgdm9pZCBvblJlc3VtZSgpIHsKICAgICAgICBzdXBlci5vblJlc3VtZSgpOwogICAgICAgIExvZy5kKCJQcm92aXNpb25Db25ncmF0dWxhdGlvbkFjdGl2aXR5IiwgIm9uUmVzdW1lIik7CiAgICAgICAgbUhhbmRsZXIucG9zdERlbGF5ZWQoKCkgLT4gewogICAgICAgICAgICBpZiAoaXNGaXJzdEJvb3QpIHsKICAgICAgICAgICAgICAgIHN0YXJ0QW5pbSgpOwogICAgICAgICAgICB9CiAgICAgICAgfSwgMzAwTCk7CiAgICB9CgogICAgQE92ZXJyaWRlCiAgICBwdWJsaWMgdm9pZCBvbkNvbmZpZ3VyYXRpb25DaGFuZ2VkKEBOb25OdWxsIENvbmZpZ3VyYXRpb24gbmV3Q29uZmlnKSB7CiAgICAgICAgc3VwZXIub25Db25maWd1cmF0aW9uQ2hhbmdlZChuZXdDb25maWcpOwogICAgICAgIExvZy5kKCJQcm92aXNpb25Db25ncmF0dWxhdGlvbkFjdGl2aXR5IiwgIm9uQ29uZmlndXJhdGlvbkNoYW5nZWQ6ICIgKyBuZXdDb25maWcpOwogICAgICAgIHNldEJhY2tHcm91bmROb0FuaW0oKTsKICAgIH0KCiAgICBAT3ZlcnJpZGUKICAgIHB1YmxpYyB2b2lkIG9uV2luZG93Rm9jdXNDaGFuZ2VkKGJvb2xlYW4gaGFzRm9jdXMpIHsKICAgICAgICBMb2cuZCgiUHJvdmlzaW9uQ29uZ3JhdHVsYXRpb25BY3Rpdml0eSIsICJvbldpbmRvd0ZvY3VzQ2hhbmdlZDogaXNGaXJzdEJvb3QgIiArIHRoaXMuaXNGaXJzdEJvb3QpOwogICAgICAgIGlmIChpc0ZpcnN0Qm9vdCkgewogICAgICAgICAgICBzdGFydEFuaW0oKTsKICAgICAgICB9CiAgICB9CgogICAgQE92ZXJyaWRlCiAgICBwdWJsaWMgdm9pZCBvblN0b3AoKSB7CiAgICAgICAgc3VwZXIub25TdG9wKCk7CiAgICAgICAgTG9nLmQoVEFHLCAib25TdG9wIik7CiAgICAgICAgaWYgKG1HbG93Q29udHJvbGxlciAhPSBudWxsKSB7CiAgICAgICAgICAgIG1HbG93Q29udHJvbGxlci5zdG9wKCk7CiAgICAgICAgfQogICAgICAgIGlmIChpc0NvbXBsZXRlKSB7CiAgICAgICAgICAgIHJlcXVpcmVBY3Rpdml0eSgpLmZpbmlzaCgpOwogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIHZvaWQgc3RhcnRIb21lKCkgewogICAgICAgIGJvb2xlYW4gaXNEZWJ1Z09vYmUgPSBPb2JlVXRpbHMuaXNEZWJ1Z09vYmVNb2RlKHJlcXVpcmVBY3Rpdml0eSgpKTsKICAgICAgICBpZiAoIWlzRGVidWdPb2JlKSB7CiAgICAgICAgICAgIEFwcExhbmd1YWdlSGVscGVyLmZyZWV6ZUN1cnJlbnRMb2NhbGVJZlVuc2V0KHJlcXVpcmVDb250ZXh0KCkpOwogICAgICAgICAgICBPb2JlVXRpbHMuc2V0UHJvdmlzaW9uZWQocmVxdWlyZUNvbnRleHQoKSwgdHJ1ZSk7CiAgICAgICAgfQogICAgICAgIHRyeSB7CiAgICAgICAgICAgIEFjdGl2aXR5T3B0aW9ucyBjdXN0b21UYXNrQW5pbWF0aW9uID0gQWN0aXZpdHlPcHRpb25zLm1ha2VDdXN0b21BbmltYXRpb24ocmVxdWlyZUNvbnRleHQoKSwgUi5hbmltLmVudGVyX2hvbWVfYW5pbSwgUi5hbmltLnByb3Zpc2lvbl9vdXRfYW5pbSk7CiAgICAgICAgICAgIHN0YXJ0QWN0aXZpdHkoZ2V0SG9tZUludGVudCgpLCBjdXN0b21UYXNrQW5pbWF0aW9uLnRvQnVuZGxlKCkpOwogICAgICAgICAgICBMb2cuZChUQUcsICJzdGFydEhvbWUgc3VjY2VzcyAiICsgY3VzdG9tVGFza0FuaW1hdGlvbik7CiAgICAgICAgfSBjYXRjaCAoRXhjZXB0aW9uIGV4KSB7fQogICAgICAgIExvZy5lKFRBRywgImdldEFjdGl2aXR5T3B0aW9ucyBmYWlsIik7CiAgICAgICAgZmluaXNoKCk7CiAgICB9CgoKICAgIHByaXZhdGUgSW50ZW50IGdldEhvbWVJbnRlbnQoKSB7CiAgICAgICAgSW50ZW50IGludGVudCA9IG5ldyBJbnRlbnQoSW50ZW50LkFDVElPTl9NQUlOKTsKICAgICAgICBpbnRlbnQuc2V0UGFja2FnZShyZXF1aXJlQ29udGV4dCgpLmdldFBhY2thZ2VOYW1lKCkpOwogICAgICAgIGlmIChPb2JlVXRpbHMuaXNEZWJ1Z09vYmVNb2RlKHJlcXVpcmVBY3Rpdml0eSgpKSkgewogICAgICAgICAgICBpbnRlbnQuc2V0Q2xhc3NOYW1lKHJlcXVpcmVDb250ZXh0KCksICJvcmcubGluYmFvZ3Uucm9taHViLk1haW5BY3Rpdml0eSIpOwogICAgICAgICAgICBpbnRlbnQucHV0RXh0cmEoT29iZVV0aWxzLkVYVFJBX0RFQlVHX09PQkUsIHRydWUpOwogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIGludGVudC5zZXRDbGFzc05hbWUocmVxdWlyZUNvbnRleHQoKSwgIm9yZy5saW5iYW9ndS5yb21odWIuTWFpbkFjdGl2aXR5Iik7CiAgICAgICAgfQogICAgICAgIC8vIOa4hemZpOaOieW8leWvvOmhteaJgOWcqOeahOaVtOS4quS7u+WKoeagiAogICAgICAgIC8vIOi/meagt+i3s+i9rOWQju+8jOagiOWGheWPquacieS4u+mhte+8jOaMiei/lOWbnumUruS8muebtOaOpeWbnuWIsOaJi+acuuahjOmdogogICAgICAgIGludGVudC5hZGRGbGFncyhJbnRlbnQuRkxBR19BQ1RJVklUWV9ORVdfVEFTSyB8IEludGVudC5GTEFHX0FDVElWSVRZX0NMRUFSX1RBU0spOwogICAgICAgIHJldHVybiBpbnRlbnQ7CiAgICB9Cn0K
+/*
+ * This file is part of HyperCeiler.
+
+ * HyperCeiler is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as
+ * published by the Free Software Foundation, either version 3 of the
+ * License.
+
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Affero General Public License for more details.
+
+ * You should have received a copy of the GNU Affero General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+ * Copyright (C) 2023-2026 HyperCeiler Contributions
+ */
+package org.linbaogu.romhub.hc.provision.fragment;
+
+import android.app.ActivityOptions;
+import android.content.Intent;
+import android.content.res.Configuration;
+import android.os.Bundle;
+import android.os.Handler;
+import android.util.Log;
+import android.view.View;
+import android.widget.ImageView;
+import android.widget.TextView;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+
+import org.linbaogu.romhub.hc.common.AppLanguageHelper;
+import org.linbaogu.romhub.R;
+import org.linbaogu.romhub.hc.provision.renderengine.GlowController;
+import org.linbaogu.romhub.hc.provision.renderengine.RenderViewLayout;
+import org.linbaogu.romhub.hc.provision.utils.IOnFocusListener;
+import org.linbaogu.romhub.hc.provision.utils.Utils;
+
+import fan.animation.Folme;
+import fan.animation.FolmeEase;
+import fan.animation.IStateStyle;
+import fan.animation.base.AnimConfig;
+import fan.animation.controller.AnimState;
+import fan.animation.listener.TransitionListener;
+import fan.animation.property.ViewProperty;
+import fan.core.utils.MiuiBlurUtils;
+import fan.internal.utils.LiteUtils;
+import fan.provision.OobeUtils;
+
+public class CongratulationFragment extends BaseFragment implements IOnFocusListener {
+
+    private static final String TAG = "Provision:CongratulationFragment";
+
+    private final int DELAY_TIME = !OobeUtils.isLiteOrLowDevice() ? 10000 : 15000;
+
+    private boolean IS_SUPPORT_NEW_PROVISION_STRATEGY;
+
+    private long endTime;
+    private long initTime;
+
+    private boolean isFirstBoot = true;
+    private boolean isComplete;
+
+    private View mGlowEffectView;
+    private View mContentView;
+    private ImageView mLogoImage;
+    private ImageView mTextLogoImage;
+    private View mLogoImageWrapper;
+    private View mNext;
+    private View mNextView;
+    private TextView mSystemStateText;
+    private RenderViewLayout mRenderViewLayout;
+
+    private GlowController mGlowController;
+
+    private final Handler mHandler = new Handler();
+
+    @Override
+    protected int getLayoutId() {
+        return R.layout.provision_congratulation_layout;
+    }
+
+    @Override
+    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+        initTime = System.currentTimeMillis();
+        initSetupWizardAnimConnection();
+        initView(view);
+        initBackGround();
+        setupBlurBackground();
+        displayOSLogoDelay();
+    }
+
+    private void initView(View view) {
+        mRenderViewLayout = view.findViewById(R.id.render_view_layout);
+        mContentView = view.findViewById(R.id.content_view);
+        mLogoImageWrapper = view.findViewById(R.id.logo_image_wrapper);
+        mLogoImage = view.findViewById(R.id.logo_image);
+        mTextLogoImage = view.findViewById(R.id.text_logo_image);
+        mSystemStateText = view.findViewById(R.id.system_state_text);
+        mNextView = view.findViewById(R.id.next);
+        mNext = view.findViewById(R.id.btn_bg);
+        mSystemStateText.setText(IS_SUPPORT_NEW_PROVISION_STRATEGY ?
+            R.string.provision_system_preparing :
+            R.string.provision_system_complete
+        );
+        if (Utils.IS_SUPPORT_ANIM) {
+            mLogoImageWrapper.setVisibility(View.GONE);
+        }
+        mNextView.setVisibility(View.GONE);
+        mNextView.setEnabled(false);
+        Folme.use(mNextView).touch().setScale(1.0f).handleTouchOf(this.mNextView);
+        mNextView.setOnClickListener(v -> {
+            startHome();
+            startPageAnim();
+        });
+    }
+
+    private void initBackGround() {
+        setShaderBackGround();
+        setBackGroundNoAnim();
+    }
+
+    private void setShaderBackGround() {
+        if (Utils.IS_SUPPORT_ANIM && mContentView != null) {
+            mContentView.setBackground(null);
+            if (mRenderViewLayout != null) {
+                mRenderViewLayout.setVisibility(View.VISIBLE);
+                mGlowEffectView = new View(requireContext());
+                mRenderViewLayout.attachView(mGlowEffectView, 0.2f, -16777216);
+                mGlowController = new GlowController(mGlowEffectView);
+                mGlowController.start(false);
+            }
+        }
+    }
+
+    private void setBackGroundNoAnim() {
+        if (Utils.IS_SUPPORT_ANIM || mContentView == null) return;
+        mContentView.setBackgroundResource(R.drawable.provision_logo_image_bg);
+    }
+
+    private void setupBlurBackground() {
+        if (MiuiBlurUtils.isEnable() && !LiteUtils.isCommonLiteStrategy() &&
+            MiuiBlurUtils.isEffectEnable(requireContext())) {
+            MiuiBlurUtils.setBackgroundBlur(mContentView, (int) ((getResources().getDisplayMetrics().density * 50.0f) + 0.5f));
+            MiuiBlurUtils.setViewBlurMode(mContentView, 0);
+            if (mLogoImage != null) {
+                setupViewBlur(mLogoImage, true, new int[]{-867546550, -11579569, -15011328}, new int[]{19, 100, 106});
+                mLogoImage.setImageResource(R.drawable.provision_logo_image);
+            }
+
+            if (mTextLogoImage != null) {
+                setupViewBlur(mTextLogoImage, true, new int[]{-867546550, -11579569, -15011328}, new int[]{19, 100, 106});
+                mTextLogoImage.setImageResource(R.drawable.provision_text_logo_image);
+            }
+            if (mNext != null) {
+                setupViewBlur(mNext, true, new int[]{-12763843, -15021056}, new int[]{100, 106});
+                mNext.setBackgroundResource(R.drawable.provision_next_btn_background);
+            }
+            if (mSystemStateText == null) return;
+            setupViewBlur(mSystemStateText, true, new int[]{-869915098, -1724697805}, new int[]{19, 3});
+        }
+    }
+
+    private void setupViewBlur(View view, boolean z, int[] iArr, int[] iArr2) {
+        if (view == null) return;
+        if (z) {
+            MiuiBlurUtils.setViewBlurMode(view, 3);
+            for (int i = 0; i < iArr.length; i++) {
+                MiuiBlurUtils.addBackgroundBlenderColor(view, iArr[i], iArr2[i]);
+            }
+            return;
+        }
+        MiuiBlurUtils.setViewBlurMode(view, 0);
+        MiuiBlurUtils.clearBackgroundBlendConfig(view);
+    }
+
+    private void displayOSLogoDelay() {
+        mContentView.postDelayed(() -> {
+            if (mLogoImageWrapper != null) {
+                startLogoAnim(mLogoImageWrapper);
+                mLogoImageWrapper.setVisibility(View.VISIBLE);
+            }
+            if (mSystemStateText != null) {
+                mSystemStateText.setText(R.string.provision_system_complete);
+            }
+            if (mNextView != null) {
+                startBtnAnim(mNextView);
+                mNextView.setVisibility(View.VISIBLE);
+            }
+            isComplete = true;
+            endTime = System.currentTimeMillis();
+            Log.d("ProvisionCongratulationActivity", "displayOSLogoDelay: " + (endTime - initTime) + " endTime " + endTime);
+        }, DELAY_TIME);
+    }
+
+    private void initSetupWizardAnimConnection() {
+        Log.d("ProvisionCongratulationActivity", "onSetupComplete");
+        refreshCompletedView();
+        IS_SUPPORT_NEW_PROVISION_STRATEGY = false;
+    }
+
+    private void refreshCompletedView() {
+        requireActivity().runOnUiThread(() -> {
+            if (mSystemStateText != null) {
+                mSystemStateText.setText(R.string.provision_system_complete);
+            }
+            if (mNextView != null) {
+                startBtnAnim(mNextView);
+                mNextView.setVisibility(View.VISIBLE);
+            }
+            isComplete = true;
+        });
+    }
+
+    private void startAnim() {
+        isFirstBoot = false;
+        if (Utils.IS_SUPPORT_ANIM && mLogoImageWrapper != null) {
+            startLogoAnim(mLogoImageWrapper);
+        }
+        if (!IS_SUPPORT_NEW_PROVISION_STRATEGY && mNextView != null) {
+            startBtnAnim(mNextView);
+            isComplete = true;
+        }
+    }
+
+    private void startLogoAnim(View view) {
+        if (view == null || view.getVisibility() == View.VISIBLE) return;
+        view.setVisibility(View.VISIBLE);
+        AnimState animState = new AnimState("start");
+        AnimState alphaState = animState.add(ViewProperty.ALPHA, 0.0d);
+        AnimState translationYState = alphaState.add(ViewProperty.TRANSLATION_Y, 100.0d);
+
+        AnimState animState2 = new AnimState("end");
+        AnimState alphaState2 = animState2.add(ViewProperty.ALPHA, 1.0d);
+        AnimState translationYState2 = alphaState2.add(ViewProperty.TRANSLATION_Y, 0.0d);
+
+        AnimConfig config = new AnimConfig();
+        config.setEase(FolmeEase.quartOut(1500L));
+
+        Folme.use(view).state().setTo(translationYState).to(translationYState2, config);
+    }
+
+    private void startBtnAnim(View view) {
+        if (view == null) return;
+
+        view.postDelayed(() -> {
+            view.setEnabled(true);
+            Log.d("ProvisionCongratulationActivity", "startBtnAnim: mNextView setEnabled");
+        }, 2000L);
+        if (view.getVisibility() == View.VISIBLE) return;
+        view.setVisibility(View.VISIBLE);
+        AnimConfig delay = new AnimConfig().setEase(FolmeEase.sinOut(450L)).setDelay(1000L);
+        delay.addListeners(new TransitionListener() {
+            @Override
+            public void onComplete(Object toTag) {
+                super.onComplete(toTag);
+                view.setEnabled(true);
+                Log.d("ProvisionCongratulationActivity", "onComplete: mNextView setEnabled");
+            }
+        });
+        IStateStyle state = Folme.use(view).state();
+        ViewProperty viewProperty = ViewProperty.ALPHA;
+        state.setTo(viewProperty, Float.valueOf(0.0f)).to(viewProperty, Float.valueOf(1.0f), delay);
+    }
+
+    private void startPageAnim() {
+        AnimState animState = new AnimState("start");
+        ViewProperty viewProperty = ViewProperty.ALPHA;
+        AnimState add = animState.add(viewProperty, 1.0d);
+        ViewProperty viewProperty2 = ViewProperty.SCALE_X;
+        AnimState add2 = add.add(viewProperty2, 1.0d);
+        ViewProperty viewProperty3 = ViewProperty.SCALE_Y;
+        AnimState add3 = add2.add(viewProperty3, 1.0d);
+        AnimState add4 = new AnimState("end").add(viewProperty, 0.0d).add(viewProperty2, 0.8d).add(viewProperty3, 0.8d);
+        AnimConfig animConfig = new AnimConfig();
+        animConfig.setSpecial(viewProperty2, FolmeEase.spring(1.0f, 0.36f));
+        animConfig.setSpecial(viewProperty3, FolmeEase.spring(1.0f, 0.36f));
+        animConfig.setSpecial(viewProperty, FolmeEase.sinOut(360L));
+        if (mLogoImageWrapper != null) {
+            Folme.use(mLogoImageWrapper).state().setTo(add3).to(add4, animConfig);
+        }
+        if (mNextView != null) {
+            Folme.use(mNextView).state().setTo(add3).to(add4, animConfig);
+        }
+    }
+
+    @Override
+    public void onStart() {
+        super.onStart();
+        if (mGlowController != null) {
+            mGlowController.start(false);
+        }
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        Log.d("ProvisionCongratulationActivity", "onResume");
+        mHandler.postDelayed(() -> {
+            if (isFirstBoot) {
+                startAnim();
+            }
+        }, 300L);
+    }
+
+    @Override
+    public void onConfigurationChanged(@NonNull Configuration newConfig) {
+        super.onConfigurationChanged(newConfig);
+        Log.d("ProvisionCongratulationActivity", "onConfigurationChanged: " + newConfig);
+        setBackGroundNoAnim();
+    }
+
+    @Override
+    public void onWindowFocusChanged(boolean hasFocus) {
+        Log.d("ProvisionCongratulationActivity", "onWindowFocusChanged: isFirstBoot " + this.isFirstBoot);
+        if (isFirstBoot) {
+            startAnim();
+        }
+    }
+
+    @Override
+    public void onStop() {
+        super.onStop();
+        Log.d(TAG, "onStop");
+        if (mGlowController != null) {
+            mGlowController.stop();
+        }
+        if (isComplete) {
+            requireActivity().finish();
+        }
+    }
+
+    private void startHome() {
+        boolean isDebugOobe = OobeUtils.isDebugOobeMode(requireActivity());
+        if (!isDebugOobe) {
+            AppLanguageHelper.freezeCurrentLocaleIfUnset(requireContext());
+            OobeUtils.setProvisioned(requireContext(), true);
+        }
+        try {
+            ActivityOptions customTaskAnimation = ActivityOptions.makeCustomAnimation(requireContext(), R.anim.enter_home_anim, R.anim.provision_out_anim);
+            startActivity(getHomeIntent(), customTaskAnimation.toBundle());
+            Log.d(TAG, "startHome success " + customTaskAnimation);
+        } catch (Exception ex) {}
+        Log.e(TAG, "getActivityOptions fail");
+        finish();
+    }
+
+
+    private Intent getHomeIntent() {
+        Intent intent = new Intent(Intent.ACTION_MAIN);
+        intent.setPackage(requireContext().getPackageName());
+        if (OobeUtils.isDebugOobeMode(requireActivity())) {
+            intent.setClassName(requireContext(), "org.linbaogu.romhub.MainActivity");
+            intent.putExtra(OobeUtils.EXTRA_DEBUG_OOBE, true);
+        } else {
+            intent.setClassName(requireContext(), "org.linbaogu.romhub.MainActivity");
+        }
+        // 清除掉引导页所在的整个任务栈
+        // 这样跳转后，栈内只有主页，按返回键会直接回到手机桌面
+        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+        return intent;
+    }
+}

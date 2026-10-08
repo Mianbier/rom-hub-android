@@ -1,1 +1,80 @@
-Ly8gdmlhIEtlcm5lbFNVIHVpL2NvbXBvbmVudC9taXVpeC9tb2RpZmllci9EcmFnR2VzdHVyZUluc3BlY3Rvci5rdCDigJQg5Y6f5qC356e75qSN44CCCi8vIOW6leagj+aLluaLveeUqOeahOaYr+OAjOaMieS4i+WNs+W8gOWni+OAjeeahOivreS5ie+8iOS4jeetiSBzbG9w77yJ77yM5omA5Lul5LiN6IO955SoIGRldGVjdERyYWdHZXN0dXJlc+OAggoKcGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLnVpLm1pdWl4Lm1vZGlmaWVyCgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmdlc3R1cmVzLmF3YWl0RWFjaEdlc3R1cmUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5nZXN0dXJlcy5hd2FpdEZpcnN0RG93bgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5nZW9tZXRyeS5PZmZzZXQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuaW5wdXQucG9pbnRlci5Bd2FpdFBvaW50ZXJFdmVudFNjb3BlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmlucHV0LnBvaW50ZXIuUG9pbnRlckV2ZW50UGFzcwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5pbnB1dC5wb2ludGVyLlBvaW50ZXJJZAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5pbnB1dC5wb2ludGVyLlBvaW50ZXJJbnB1dENoYW5nZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5pbnB1dC5wb2ludGVyLlBvaW50ZXJJbnB1dFNjb3BlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmlucHV0LnBvaW50ZXIuY2hhbmdlZFRvVXBJZ25vcmVDb25zdW1lZAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5pbnB1dC5wb2ludGVyLnBvc2l0aW9uQ2hhbmdlSWdub3JlQ29uc3VtZWQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudXRpbC5mYXN0Rmlyc3RPck51bGwKCnN1c3BlbmQgZnVuIFBvaW50ZXJJbnB1dFNjb3BlLmluc3BlY3REcmFnR2VzdHVyZXMoCiAgICBvbkRyYWdTdGFydDogKGRvd246IFBvaW50ZXJJbnB1dENoYW5nZSkgLT4gVW5pdCA9IHt9LAogICAgb25EcmFnRW5kOiAoY2hhbmdlOiBQb2ludGVySW5wdXRDaGFuZ2UpIC0+IFVuaXQgPSB7fSwKICAgIG9uRHJhZ0NhbmNlbDogKCkgLT4gVW5pdCA9IHt9LAogICAgb25EcmFnOiAoY2hhbmdlOiBQb2ludGVySW5wdXRDaGFuZ2UsIGRyYWdBbW91bnQ6IE9mZnNldCkgLT4gVW5pdAopIHsKICAgIGF3YWl0RWFjaEdlc3R1cmUgewogICAgICAgIHZhbCBkb3duID0gYXdhaXRGaXJzdERvd24oCiAgICAgICAgICAgIHJlcXVpcmVVbmNvbnN1bWVkID0gZmFsc2UsCiAgICAgICAgICAgIHBhc3MgPSBQb2ludGVyRXZlbnRQYXNzLkluaXRpYWwsCiAgICAgICAgKQoKICAgICAgICBvbkRyYWdTdGFydChkb3duKQogICAgICAgIG9uRHJhZyhkb3duLCBPZmZzZXQuWmVybykKICAgICAgICB2YWwgdXBFdmVudCA9IGRyYWcoCiAgICAgICAgICAgIHBvaW50ZXJJZCA9IGRvd24uaWQsCiAgICAgICAgICAgIG9uRHJhZyA9IHsgb25EcmFnKGl0LCBpdC5wb3NpdGlvbkNoYW5nZUlnbm9yZUNvbnN1bWVkKCkpIH0sCiAgICAgICAgKQogICAgICAgIGlmICh1cEV2ZW50ICE9IG51bGwpIG9uRHJhZ0VuZCh1cEV2ZW50KSBlbHNlIG9uRHJhZ0NhbmNlbCgpCiAgICB9Cn0KCnByaXZhdGUgc3VzcGVuZCBpbmxpbmUgZnVuIEF3YWl0UG9pbnRlckV2ZW50U2NvcGUuZHJhZygKICAgIHBvaW50ZXJJZDogUG9pbnRlcklkLAogICAgb25EcmFnOiAoUG9pbnRlcklucHV0Q2hhbmdlKSAtPiBVbml0Cik6IFBvaW50ZXJJbnB1dENoYW5nZT8gewogICAgdmFsIGlzUG9pbnRlclVwID0gY3VycmVudEV2ZW50LmNoYW5nZXMuZmFzdEZpcnN0T3JOdWxsIHsgaXQuaWQgPT0gcG9pbnRlcklkIH0/LnByZXNzZWQgIT0gdHJ1ZQogICAgaWYgKGlzUG9pbnRlclVwKSB7CiAgICAgICAgcmV0dXJuIG51bGwKICAgIH0KICAgIHZhciBwb2ludGVyID0gcG9pbnRlcklkCiAgICB3aGlsZSAodHJ1ZSkgewogICAgICAgIHZhbCBjaGFuZ2UgPSBhd2FpdERyYWdPclVwKHBvaW50ZXIpID86IHJldHVybiBudWxsCiAgICAgICAgaWYgKGNoYW5nZS5jaGFuZ2VkVG9VcElnbm9yZUNvbnN1bWVkKCkpIHsKICAgICAgICAgICAgcmV0dXJuIGNoYW5nZQogICAgICAgIH0KICAgICAgICBvbkRyYWcoY2hhbmdlKQogICAgICAgIHBvaW50ZXIgPSBjaGFuZ2UuaWQKICAgIH0KfQoKcHJpdmF0ZSBzdXNwZW5kIGlubGluZSBmdW4gQXdhaXRQb2ludGVyRXZlbnRTY29wZS5hd2FpdERyYWdPclVwKAogICAgcG9pbnRlcklkOiBQb2ludGVySWQKKTogUG9pbnRlcklucHV0Q2hhbmdlPyB7CiAgICB2YXIgcG9pbnRlciA9IHBvaW50ZXJJZAogICAgd2hpbGUgKHRydWUpIHsKICAgICAgICB2YWwgZXZlbnQgPSBhd2FpdFBvaW50ZXJFdmVudChQb2ludGVyRXZlbnRQYXNzLkluaXRpYWwpCiAgICAgICAgdmFsIGRyYWdFdmVudCA9IGV2ZW50LmNoYW5nZXMuZmFzdEZpcnN0T3JOdWxsIHsgaXQuaWQgPT0gcG9pbnRlciB9ID86IHJldHVybiBudWxsCiAgICAgICAgaWYgKGRyYWdFdmVudC5jaGFuZ2VkVG9VcElnbm9yZUNvbnN1bWVkKCkpIHsKICAgICAgICAgICAgdmFsIG90aGVyRG93biA9IGV2ZW50LmNoYW5nZXMuZmFzdEZpcnN0T3JOdWxsIHsgaXQucHJlc3NlZCB9CiAgICAgICAgICAgIGlmIChvdGhlckRvd24gPT0gbnVsbCkgewogICAgICAgICAgICAgICAgcmV0dXJuIGRyYWdFdmVudAogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgcG9pbnRlciA9IG90aGVyRG93bi5pZAogICAgICAgICAgICB9CiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgdmFsIGhhc0RyYWdnZWQgPSBkcmFnRXZlbnQucHJldmlvdXNQb3NpdGlvbiAhPSBkcmFnRXZlbnQucG9zaXRpb24KICAgICAgICAgICAgaWYgKGhhc0RyYWdnZWQpIHsKICAgICAgICAgICAgICAgIHJldHVybiBkcmFnRXZlbnQKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KfQo=
+// via KernelSU ui/component/miuix/modifier/DragGestureInspector.kt — 原样移植。
+// 底栏拖拽用的是「按下即开始」的语义（不等 slop），所以不能用 detectDragGestures。
+
+package org.linbaogu.romhub.ui.miuix.modifier
+
+import androidx.compose.foundation.gestures.awaitEachGesture
+import androidx.compose.foundation.gestures.awaitFirstDown
+import androidx.compose.ui.geometry.Offset
+import androidx.compose.ui.input.pointer.AwaitPointerEventScope
+import androidx.compose.ui.input.pointer.PointerEventPass
+import androidx.compose.ui.input.pointer.PointerId
+import androidx.compose.ui.input.pointer.PointerInputChange
+import androidx.compose.ui.input.pointer.PointerInputScope
+import androidx.compose.ui.input.pointer.changedToUpIgnoreConsumed
+import androidx.compose.ui.input.pointer.positionChangeIgnoreConsumed
+import androidx.compose.ui.util.fastFirstOrNull
+
+suspend fun PointerInputScope.inspectDragGestures(
+    onDragStart: (down: PointerInputChange) -> Unit = {},
+    onDragEnd: (change: PointerInputChange) -> Unit = {},
+    onDragCancel: () -> Unit = {},
+    onDrag: (change: PointerInputChange, dragAmount: Offset) -> Unit
+) {
+    awaitEachGesture {
+        val down = awaitFirstDown(
+            requireUnconsumed = false,
+            pass = PointerEventPass.Initial,
+        )
+
+        onDragStart(down)
+        onDrag(down, Offset.Zero)
+        val upEvent = drag(
+            pointerId = down.id,
+            onDrag = { onDrag(it, it.positionChangeIgnoreConsumed()) },
+        )
+        if (upEvent != null) onDragEnd(upEvent) else onDragCancel()
+    }
+}
+
+private suspend inline fun AwaitPointerEventScope.drag(
+    pointerId: PointerId,
+    onDrag: (PointerInputChange) -> Unit
+): PointerInputChange? {
+    val isPointerUp = currentEvent.changes.fastFirstOrNull { it.id == pointerId }?.pressed != true
+    if (isPointerUp) {
+        return null
+    }
+    var pointer = pointerId
+    while (true) {
+        val change = awaitDragOrUp(pointer) ?: return null
+        if (change.changedToUpIgnoreConsumed()) {
+            return change
+        }
+        onDrag(change)
+        pointer = change.id
+    }
+}
+
+private suspend inline fun AwaitPointerEventScope.awaitDragOrUp(
+    pointerId: PointerId
+): PointerInputChange? {
+    var pointer = pointerId
+    while (true) {
+        val event = awaitPointerEvent(PointerEventPass.Initial)
+        val dragEvent = event.changes.fastFirstOrNull { it.id == pointer } ?: return null
+        if (dragEvent.changedToUpIgnoreConsumed()) {
+            val otherDown = event.changes.fastFirstOrNull { it.pressed }
+            if (otherDown == null) {
+                return dragEvent
+            } else {
+                pointer = otherDown.id
+            }
+        } else {
+            val hasDragged = dragEvent.previousPosition != dragEvent.position
+            if (hasDragged) {
+                return dragEvent
+            }
+        }
+    }
+}

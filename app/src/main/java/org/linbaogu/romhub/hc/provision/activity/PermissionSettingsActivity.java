@@ -1,1 +1,85 @@
-LyoKICogVGhpcyBmaWxlIGlzIHBhcnQgb2YgSHlwZXJDZWlsZXIuCgogKiBIeXBlckNlaWxlciBpcyBmcmVlIHNvZnR3YXJlOiB5b3UgY2FuIHJlZGlzdHJpYnV0ZSBpdCBhbmQvb3IgbW9kaWZ5CiAqIGl0IHVuZGVyIHRoZSB0ZXJtcyBvZiB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGFzCiAqIHB1Ymxpc2hlZCBieSB0aGUgRnJlZSBTb2Z0d2FyZSBGb3VuZGF0aW9uLCBlaXRoZXIgdmVyc2lvbiAzIG9mIHRoZQogKiBMaWNlbnNlLgoKICogVGhpcyBwcm9ncmFtIGlzIGRpc3RyaWJ1dGVkIGluIHRoZSBob3BlIHRoYXQgaXQgd2lsbCBiZSB1c2VmdWwsCiAqIGJ1dCBXSVRIT1VUIEFOWSBXQVJSQU5UWTsgd2l0aG91dCBldmVuIHRoZSBpbXBsaWVkIHdhcnJhbnR5IG9mCiAqIE1FUkNIQU5UQUJJTElUWSBvciBGSVRORVNTIEZPUiBBIFBBUlRJQ1VMQVIgUFVSUE9TRS4gIFNlZSB0aGUKICogR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGZvciBtb3JlIGRldGFpbHMuCgogKiBZb3Ugc2hvdWxkIGhhdmUgcmVjZWl2ZWQgYSBjb3B5IG9mIHRoZSBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UKICogYWxvbmcgd2l0aCB0aGlzIHByb2dyYW0uICBJZiBub3QsIHNlZSA8aHR0cHM6Ly93d3cuZ251Lm9yZy9saWNlbnNlcy8+LgoKICogQ29weXJpZ2h0IChDKSAyMDIzLTIwMjYgSHlwZXJDZWlsZXIgQ29udHJpYnV0aW9ucwogKi8KcGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLmhjLnByb3Zpc2lvbi5hY3Rpdml0eTsKCmltcG9ydCBhbmRyb2lkLm9zLkhhbmRsZXI7CgppbXBvcnQgYW5kcm9pZHguZnJhZ21lbnQuYXBwLkZyYWdtZW50OwoKaW1wb3J0IG9yZy5saW5iYW9ndS5yb21odWIuUjsKaW1wb3J0IG9yZy5saW5iYW9ndS5yb21odWIuaGMucHJvdmlzaW9uLmZyYWdtZW50LlBlcm1pc3Npb25TZXR0aW5nc0ZyYWdtZW50OwoKcHVibGljIGNsYXNzIFBlcm1pc3Npb25TZXR0aW5nc0FjdGl2aXR5IGV4dGVuZHMgQmFzZUFjdGl2aXR5IHsKCiAgICBwcml2YXRlIGZpbmFsIEhhbmRsZXIgbUJvdHRvbUhhbmRsZXIgPSBuZXcgSGFuZGxlcigpOwoKICAgIEBPdmVycmlkZQogICAgcHJvdGVjdGVkIGludCBnZXRMb2dvRHJhd2FibGVJZCgpIHsKICAgICAgICByZXR1cm4gMDsKICAgIH0KCiAgICBAT3ZlcnJpZGUKICAgIHByb3RlY3RlZCBpbnQgZ2V0UHJldmlld0RyYXdhYmxlKCkgewogICAgICAgIHJldHVybiBSLmRyYXdhYmxlLnByb3Zpc2lvbl9zZXJ2aWNlX3N0YXRlOwogICAgfQoKICAgIEBPdmVycmlkZQogICAgcHJvdGVjdGVkIGludCBnZXRUaXRsZVN0cmluZ0lkKCkgewogICAgICAgIHJldHVybiBSLnN0cmluZy5wcm92aXNpb25fcGVybWlzc2lvbl9zZXR0aW5nc190aXRsZTsKICAgIH0KCiAgICBAT3ZlcnJpZGUKICAgIHByb3RlY3RlZCBDaGFyU2VxdWVuY2UgZ2V0TGlzdERlc2NDaGFyU2VxdWVuY2UoKSB7CiAgICAgICAgcmV0dXJuIG51bGw7CiAgICB9CgogICAgQE92ZXJyaWRlCiAgICBwcm90ZWN0ZWQgRnJhZ21lbnQgZ2V0RnJhZ21lbnQoKSB7CiAgICAgICAgcmV0dXJuIG5ldyBQZXJtaXNzaW9uU2V0dGluZ3NGcmFnbWVudCgpOwogICAgfQoKICAgIEBPdmVycmlkZQogICAgcHJvdGVjdGVkIFN0cmluZyBnZXRGcmFnbWVudFRhZygpIHsKICAgICAgICByZXR1cm4gUGVybWlzc2lvblNldHRpbmdzRnJhZ21lbnQuY2xhc3MuZ2V0U2ltcGxlTmFtZSgpOwogICAgfQoKICAgIEBPdmVycmlkZQogICAgcHVibGljIHZvaWQgb25OZXh0QW1pblN0YXJ0KCkgewogICAgICAgIHN1cGVyLm9uTmV4dEFtaW5TdGFydCgpOwogICAgICAgIHNldFJlc3VsdCgtMSk7CiAgICAgICAgZmluaXNoKCk7CiAgICB9CgogICAgcHVibGljIHZvaWQgZW5hYmxlQnRuQ2xpY2soKSB7CiAgICAgICAgYWRkQ2xpY2thYmxlKGZhbHNlKTsKICAgICAgICBtQm90dG9tSGFuZGxlci5wb3N0RGVsYXllZCgoKSAtPiBhZGRDbGlja2FibGUodHJ1ZSksIDEwMDBMKTsKICAgIH0KCiAgICBwdWJsaWMgdm9pZCBhZGRDbGlja2FibGUoYm9vbGVhbiBjbGlja2FibGUpIHsKICAgICAgICBpZiAobUNvbmZpcm1CdXR0b24gIT0gbnVsbCkgewogICAgICAgICAgICBtQ29uZmlybUJ1dHRvbi5zZXRBbHBoYShjbGlja2FibGUgPyBOT19BTFBIQSA6IEhBTEZfQUxQSEEpOwogICAgICAgICAgICBtQ29uZmlybUJ1dHRvbi5zZXRDbGlja2FibGUoY2xpY2thYmxlKTsKICAgICAgICB9CiAgICAgICAgaWYgKG1OZXdCYWNrQnRuICE9IG51bGwpIHsKICAgICAgICAgICAgbU5ld0JhY2tCdG4uc2V0QWxwaGEoY2xpY2thYmxlID8gTk9fQUxQSEEgOiBIQUxGX0FMUEhBKTsKICAgICAgICAgICAgbU5ld0JhY2tCdG4uc2V0Q2xpY2thYmxlKGNsaWNrYWJsZSk7CiAgICAgICAgfQogICAgfQoKfQo=
+/*
+ * This file is part of HyperCeiler.
+
+ * HyperCeiler is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as
+ * published by the Free Software Foundation, either version 3 of the
+ * License.
+
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Affero General Public License for more details.
+
+ * You should have received a copy of the GNU Affero General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+ * Copyright (C) 2023-2026 HyperCeiler Contributions
+ */
+package org.linbaogu.romhub.hc.provision.activity;
+
+import android.os.Handler;
+
+import androidx.fragment.app.Fragment;
+
+import org.linbaogu.romhub.R;
+import org.linbaogu.romhub.hc.provision.fragment.PermissionSettingsFragment;
+
+public class PermissionSettingsActivity extends BaseActivity {
+
+    private final Handler mBottomHandler = new Handler();
+
+    @Override
+    protected int getLogoDrawableId() {
+        return 0;
+    }
+
+    @Override
+    protected int getPreviewDrawable() {
+        return R.drawable.provision_service_state;
+    }
+
+    @Override
+    protected int getTitleStringId() {
+        return R.string.provision_permission_settings_title;
+    }
+
+    @Override
+    protected CharSequence getListDescCharSequence() {
+        return null;
+    }
+
+    @Override
+    protected Fragment getFragment() {
+        return new PermissionSettingsFragment();
+    }
+
+    @Override
+    protected String getFragmentTag() {
+        return PermissionSettingsFragment.class.getSimpleName();
+    }
+
+    @Override
+    public void onNextAminStart() {
+        super.onNextAminStart();
+        setResult(-1);
+        finish();
+    }
+
+    public void enableBtnClick() {
+        addClickable(false);
+        mBottomHandler.postDelayed(() -> addClickable(true), 1000L);
+    }
+
+    public void addClickable(boolean clickable) {
+        if (mConfirmButton != null) {
+            mConfirmButton.setAlpha(clickable ? NO_ALPHA : HALF_ALPHA);
+            mConfirmButton.setClickable(clickable);
+        }
+        if (mNewBackBtn != null) {
+            mNewBackBtn.setAlpha(clickable ? NO_ALPHA : HALF_ALPHA);
+            mNewBackBtn.setClickable(clickable);
+        }
+    }
+
+}

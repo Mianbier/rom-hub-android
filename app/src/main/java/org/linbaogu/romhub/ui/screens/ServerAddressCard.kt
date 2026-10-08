@@ -1,1 +1,100 @@
-cGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLnVpLnNjcmVlbnMNCg0KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuQXJyYW5nZW1lbnQNCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LkNvbHVtbg0KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuUm93DQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5TcGFjZXINCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LmZpbGxNYXhXaWR0aA0KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuaGVpZ2h0DQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLkNvbXBvc2FibGUNCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuZ2V0VmFsdWUNCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUubXV0YWJsZVN0YXRlT2YNCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUucmVtZW1iZXINCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUucmVtZW1iZXJDb3JvdXRpbmVTY29wZQ0KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5zZXRWYWx1ZQ0KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuTW9kaWZpZXINCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnBsYXRmb3JtLkxvY2FsQ29udGV4dA0KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudW5pdC5kcA0KaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5EaXNwYXRjaGVycw0KaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5sYXVuY2gNCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMud2l0aENvbnRleHQNCmltcG9ydCBvcmcubGluYmFvZ3Uucm9taHViLmNvcmUuUHJlZnMNCmltcG9ydCBvcmcubGluYmFvZ3Uucm9taHViLmRhdGEuQXBpDQppbXBvcnQgb3JnLmxpbmJhb2d1LnJvbWh1Yi51aS5jb21wb25lbnQuR2hvc3RCdXR0b24NCmltcG9ydCB0b3AueXVrb25nYS5taXVpeC5rbXAuYmFzaWMuVGV4dA0KaW1wb3J0IHRvcC55dWtvbmdhLm1pdWl4LmttcC50aGVtZS5NaXVpeFRoZW1lDQoNCi8qKg0KICrjgIzmnI3liqHlmajlnLDlnYDjgI3ljaHniYfjgIINCiAqDQogKiDmnI3liqHnq6/og73ot5HlnKjkuInkuKrlnLDmlrnvvIznvZHnu5zkuZ/kuIDnm7TlnKjlj5jvvIzmiYDku6Xov5nph4zorqnlnLDlnYDlj6/op4HjgIHlj6/liIfmjaLvvJoNCiAqICAgwrcg5omL5py65pys5py677yIMTI3LjAuMC4xOjg3ODfvvInigJTigJQg5pyN5Yqh6LeR5Zyo5omL5py65LiK77yM5Lu75L2V572R57uc6YO96YCa77yM5pyA56izDQogKiAgIMK3IOWxgOWfn+e9keeUteiEke+8iGh0dHA6Ly8xOTIuMTY4LngueDo4Nzg377yJ4oCU4oCUIOWQjOS4gOS4qiBXaUZpIOS4i+eahOeUteiEkei3keacjeWKoQ0KICogICDCtyDlhaznvZHln5/lkI0g4oCU4oCUIOeUteiEkeW8gOedgOmap+mBk+eahOaXtuWAmeeUqA0KICoNCiAqIOW5s+aXtuS4jeeUqOeuoe+8muivt+axguWksei0peS8muiHquWKqOW+gOS4i+WAku+8iOingSBBcGkucGlja05leHRCYXNl77yJ77yb6L+Z6YeM5Li76KaB5piv57uZ55So5oi35LiA5LiqDQogKiDmiYvliqjlhZzlupXlkozjgIzkuIDnnLznnIvliLDnjrDlnKjov57nmoTmmK/osIHjgI3nmoTlnLDmlrnjgIINCiAqLw0KQENvbXBvc2FibGUNCmZ1biBTZXJ2ZXJBZGRyZXNzQ2FyZCgpIHsNCiAgICB2YWwgY3R4ID0gTG9jYWxDb250ZXh0LmN1cnJlbnQNCiAgICB2YWwgc2NvcGUgPSByZW1lbWJlckNvcm91dGluZVNjb3BlKCkNCiAgICB2YXIgY3VyIGJ5IHJlbWVtYmVyIHsgbXV0YWJsZVN0YXRlT2YoQXBpLmN1cnJlbnRCYXNlKGN0eCkpIH0NCiAgICB2YXIgbXNnIGJ5IHJlbWVtYmVyIHsgbXV0YWJsZVN0YXRlT2YoIiIpIH0NCiAgICB2YXIgYnVzeSBieSByZW1lbWJlciB7IG11dGFibGVTdGF0ZU9mKGZhbHNlKSB9DQoNCiAgICBDb2x1bW4oTW9kaWZpZXIuZmlsbE1heFdpZHRoKCkpIHsNCiAgICAgICAgVGV4dCgi5b2T5YmN5Zyw5Z2AIiwgZm9udFNpemUgPSBNaXVpeFRoZW1lLnRleHRTdHlsZXMuZm9vdG5vdGUyLmZvbnRTaXplLCBjb2xvciA9IE1pdWl4VGhlbWUuY29sb3JTY2hlbWUub25TdXJmYWNlVmFyaWFudFN1bW1hcnkpDQogICAgICAgIFNwYWNlcihNb2RpZmllci5oZWlnaHQoMi5kcCkpDQogICAgICAgIFRleHQoY3VyLCBmb250U2l6ZSA9IE1pdWl4VGhlbWUudGV4dFN0eWxlcy5ib2R5MS5mb250U2l6ZSkNCg0KICAgICAgICBTcGFjZXIoTW9kaWZpZXIuaGVpZ2h0KDEwLmRwKSkNCiAgICAgICAgUm93KGhvcml6b250YWxBcnJhbmdlbWVudCA9IEFycmFuZ2VtZW50LnNwYWNlZEJ5KDguZHApKSB7DQogICAgICAgICAgICBHaG9zdEJ1dHRvbihpZiAoYnVzeSkgIuaOoua1i+S4reKApiIgZWxzZSAi6Ieq5Yqo5o6i5rWLIikgew0KICAgICAgICAgICAgICAgIGJ1c3kgPSB0cnVlDQogICAgICAgICAgICAgICAgc2NvcGUubGF1bmNoIHsNCiAgICAgICAgICAgICAgICAgICAgdmFsIGZvdW5kID0gd2l0aENvbnRleHQoRGlzcGF0Y2hlcnMuSU8pIHsgQXBpLmF1dG9EZXRlY3QoY3R4KSB9DQogICAgICAgICAgICAgICAgICAgIGN1ciA9IEFwaS5jdXJyZW50QmFzZShjdHgpDQogICAgICAgICAgICAgICAgICAgIG1zZyA9IGlmIChmb3VuZCAhPSBudWxsKSAi5bey6L+e5LiK77yaJGZvdW5kIiBlbHNlICLkuInkuKrlnLDlnYDpg73ov57kuI3kuIog4oCU4oCUIOehruiupOacjeWKoeerr+i1t+adpeS6huWQl++8nyINCiAgICAgICAgICAgICAgICAgICAgYnVzeSA9IGZhbHNlDQogICAgICAgICAgICAgICAgfQ0KICAgICAgICAgICAgfQ0KICAgICAgICAgICAgR2hvc3RCdXR0b24oIueUqOaJi+acuuacrOacuiIpIHsNCiAgICAgICAgICAgICAgICBidXN5ID0gdHJ1ZQ0KICAgICAgICAgICAgICAgIHNjb3BlLmxhdW5jaCB7DQogICAgICAgICAgICAgICAgICAgIHZhbCB1cmwgPSBQcmVmcy5sb2NhbEJhc2VzKCkuZmlyc3QoKQ0KICAgICAgICAgICAgICAgICAgICB2YWwgb2sgPSB3aXRoQ29udGV4dChEaXNwYXRjaGVycy5JTykgew0KICAgICAgICAgICAgICAgICAgICAgICAgUHJlZnMuc2V0U2VydmVyQmFzZShjdHgsIHVybCkNCiAgICAgICAgICAgICAgICAgICAgICAgIEFwaS5wcm9iZSh1cmwpDQogICAgICAgICAgICAgICAgICAgIH0NCiAgICAgICAgICAgICAgICAgICAgY3VyID0gQXBpLmN1cnJlbnRCYXNlKGN0eCkNCiAgICAgICAgICAgICAgICAgICAgbXNnID0gaWYgKG9rKSAi5bey5YiH5Yiw5omL5py65pys5py65pyN5Yqh77yaJHVybCINCiAgICAgICAgICAgICAgICAgICAgZWxzZSAi5omL5py65pys5py6ICR1cmwg5LiK5rKh5pyJ5pyN5Yqh5Zyo6LeRIg0KICAgICAgICAgICAgICAgICAgICBidXN5ID0gZmFsc2UNCiAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICB9DQogICAgICAgICAgICBHaG9zdEJ1dHRvbigi55So5YWs572RIikgew0KICAgICAgICAgICAgICAgIFByZWZzLmNsZWFyU2VydmVyQmFzZShjdHgpDQogICAgICAgICAgICAgICAgY3VyID0gQXBpLmN1cnJlbnRCYXNlKGN0eCkNCiAgICAgICAgICAgICAgICBtc2cgPSAi5bey5YiH5Zue5YWs572R77yaJHtQcmVmcy5ERUZBVUxUX0JBU0V9Ig0KICAgICAgICAgICAgfQ0KICAgICAgICB9DQoNCiAgICAgICAgaWYgKG1zZy5pc05vdEJsYW5rKCkpIHsNCiAgICAgICAgICAgIFNwYWNlcihNb2RpZmllci5oZWlnaHQoOC5kcCkpDQogICAgICAgICAgICBUZXh0KA0KICAgICAgICAgICAgICAgIG1zZywNCiAgICAgICAgICAgICAgICBmb250U2l6ZSA9IE1pdWl4VGhlbWUudGV4dFN0eWxlcy5mb290bm90ZTIuZm9udFNpemUsDQogICAgICAgICAgICAgICAgY29sb3IgPSBNaXVpeFRoZW1lLmNvbG9yU2NoZW1lLm9uU3VyZmFjZVZhcmlhbnRTdW1tYXJ5LA0KICAgICAgICAgICAgKQ0KICAgICAgICB9DQoNCiAgICAgICAgU3BhY2VyKE1vZGlmaWVyLmhlaWdodCg4LmRwKSkNCiAgICAgICAgVGV4dCgNCiAgICAgICAgICAgICLmnI3liqHnq6/ot5HlnKjmiYvmnLrkuIrlsLHnlKjjgIznlKjmiYvmnLrmnKzmnLrjgI3vvJvot5HlnKjnlLXohJHkuIrml7bvvIzmiYvmnLrlkoznlLXohJHov57lkIzkuIDkuKogV2lGae+8jCIgKw0KICAgICAgICAgICAgICAgICAgICAi5oqK55S16ISR55qE5bGA5Z+f572RIElQ77yI5aaCIGh0dHA6Ly8xOTIuMTY4LjEuNTo4Nzg377yJ5aGr6L+b5Y675Y2z5Y+vIOKAlOKAlCDmjaLnvZHnu5zlkI7lnLDlnYDlj6/og73opoHph43loavjgIIiLA0KICAgICAgICAgICAgZm9udFNpemUgPSBNaXVpeFRoZW1lLnRleHRTdHlsZXMuZm9vdG5vdGUyLmZvbnRTaXplLA0KICAgICAgICAgICAgY29sb3IgPSBNaXVpeFRoZW1lLmNvbG9yU2NoZW1lLm9uU3VyZmFjZVZhcmlhbnRTdW1tYXJ5LA0KICAgICAgICApDQogICAgfQ0KfQ0K
+package org.linbaogu.romhub.ui.screens
+
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.rememberCoroutineScope
+import androidx.compose.runtime.setValue
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.unit.dp
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
+import org.linbaogu.romhub.core.Prefs
+import org.linbaogu.romhub.data.Api
+import org.linbaogu.romhub.ui.component.GhostButton
+import top.yukonga.miuix.kmp.basic.Text
+import top.yukonga.miuix.kmp.theme.MiuixTheme
+
+/**
+ *「服务器地址」卡片。
+ *
+ * 服务端能跑在三个地方，网络也一直在变，所以这里让地址可见、可切换：
+ *   · 手机本机（127.0.0.1:8787）—— 服务跑在手机上，任何网络都通，最稳
+ *   · 局域网电脑（http://192.168.x.x:8787）—— 同一个 WiFi 下的电脑跑服务
+ *   · 公网域名 —— 电脑开着隧道的时候用
+ *
+ * 平时不用管：请求失败会自动往下倒（见 Api.pickNextBase）；这里主要是给用户一个
+ * 手动兜底和「一眼看到现在连的是谁」的地方。
+ */
+@Composable
+fun ServerAddressCard() {
+    val ctx = LocalContext.current
+    val scope = rememberCoroutineScope()
+    var cur by remember { mutableStateOf(Api.currentBase(ctx)) }
+    var msg by remember { mutableStateOf("") }
+    var busy by remember { mutableStateOf(false) }
+
+    Column(Modifier.fillMaxWidth()) {
+        Text("当前地址", fontSize = MiuixTheme.textStyles.footnote2.fontSize, color = MiuixTheme.colorScheme.onSurfaceVariantSummary)
+        Spacer(Modifier.height(2.dp))
+        Text(cur, fontSize = MiuixTheme.textStyles.body1.fontSize)
+
+        Spacer(Modifier.height(10.dp))
+        Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+            GhostButton(if (busy) "探测中…" else "自动探测") {
+                busy = true
+                scope.launch {
+                    val found = withContext(Dispatchers.IO) { Api.autoDetect(ctx) }
+                    cur = Api.currentBase(ctx)
+                    msg = if (found != null) "已连上：$found" else "三个地址都连不上 —— 确认服务端起来了吗？"
+                    busy = false
+                }
+            }
+            GhostButton("用手机本机") {
+                busy = true
+                scope.launch {
+                    val url = Prefs.localBases().first()
+                    val ok = withContext(Dispatchers.IO) {
+                        Prefs.setServerBase(ctx, url)
+                        Api.probe(url)
+                    }
+                    cur = Api.currentBase(ctx)
+                    msg = if (ok) "已切到手机本机服务：$url"
+                    else "手机本机 $url 上没有服务在跑"
+                    busy = false
+                }
+            }
+            GhostButton("用公网") {
+                Prefs.clearServerBase(ctx)
+                cur = Api.currentBase(ctx)
+                msg = "已切回公网：${Prefs.DEFAULT_BASE}"
+            }
+        }
+
+        if (msg.isNotBlank()) {
+            Spacer(Modifier.height(8.dp))
+            Text(
+                msg,
+                fontSize = MiuixTheme.textStyles.footnote2.fontSize,
+                color = MiuixTheme.colorScheme.onSurfaceVariantSummary,
+            )
+        }
+
+        Spacer(Modifier.height(8.dp))
+        Text(
+            "服务端跑在手机上就用「用手机本机」；跑在电脑上时，手机和电脑连同一个 WiFi，" +
+                    "把电脑的局域网 IP（如 http://192.168.1.5:8787）填进去即可 —— 换网络后地址可能要重填。",
+            fontSize = MiuixTheme.textStyles.footnote2.fontSize,
+            color = MiuixTheme.colorScheme.onSurfaceVariantSummary,
+        )
+    }
+}

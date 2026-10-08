@@ -1,1 +1,91 @@
-Ly8gTWlycm9yZWQgZnJvbSBjb21wb3NlLW1pdWl4LXVpIGV4YW1wbGUgLyBLZXJuZWxTVSB1aS9jb21wb25lbnQvbWl1aXgvZWZmZWN0L09TM0JnRnJhZy5rdAovLyDmvo7muYMgT1Mg55qE44CM5p6B5YWJ44CN6IOM5pmvIEFHU0wg54mH5YWD552A6Imy5ZmoIOKAlOKAlCDnibnmlYjmnKzkvZPjgIIKCnBhY2thZ2Ugb3JnLmxpbmJhb2d1LnJvbWh1Yi51aS5lZmZlY3QKCmNvbnN0IHZhbCBPUzNfQkdfRlJBRyA9ICIiIgogICAgdW5pZm9ybSB2ZWMyIHVSZXNvbHV0aW9uOwogICAgdW5pZm9ybSBmbG9hdCB1QW5pbVRpbWU7CiAgICB1bmlmb3JtIHZlYzQgdUJvdW5kOwogICAgdW5pZm9ybSBmbG9hdCB1VHJhbnNsYXRlWTsKICAgIHVuaWZvcm0gdmVjMyB1UG9pbnRzWzRdOwogICAgdW5pZm9ybSB2ZWMyIHVQb2ludHNBbmltWzRdOwogICAgdW5pZm9ybSB2ZWM0IHVDb2xvcnNbNF07CiAgICB1bmlmb3JtIGZsb2F0IHVBbHBoYU11bHRpOwogICAgdW5pZm9ybSBmbG9hdCB1Tm9pc2VTY2FsZTsKICAgIHVuaWZvcm0gZmxvYXQgdVBvaW50UmFkaXVzTXVsdGk7CiAgICB1bmlmb3JtIGZsb2F0IHVTYXR1cmF0ZU9mZnNldDsKICAgIHVuaWZvcm0gZmxvYXQgdUxpZ2h0T2Zmc2V0OwoKICAgIHZlYzMgcmdiMmhzdih2ZWMzIGMpIHsKICAgICAgICB2ZWM0IEsgPSB2ZWM0KDAuMCwgLTEuMCAvIDMuMCwgMi4wIC8gMy4wLCAtMS4wKTsKICAgICAgICB2ZWM0IHAgPSBtaXgodmVjNChjLmJnLCBLLnd6KSwgdmVjNChjLmdiLCBLLnh5KSwgc3RlcChjLmIsIGMuZykpOwogICAgICAgIHZlYzQgcSA9IG1peCh2ZWM0KHAueHl3LCBjLnIpLCB2ZWM0KGMuciwgcC55engpLCBzdGVwKHAueCwgYy5yKSk7CiAgICAgICAgZmxvYXQgZCA9IHEueCAtIG1pbihxLncsIHEueSk7CiAgICAgICAgZmxvYXQgZSA9IDEuMGUtMTA7CiAgICAgICAgcmV0dXJuIHZlYzMoYWJzKHEueiArIChxLncgLSBxLnkpIC8gKDYuMCAqIGQgKyBlKSksIGQgLyAocS54ICsgZSksIHEueCk7CiAgICB9CgogICAgdmVjMyBoc3YycmdiKHZlYzMgYykgewogICAgICAgIHZlYzQgSyA9IHZlYzQoMS4wLCAyLjAgLyAzLjAsIDEuMCAvIDMuMCwgMy4wKTsKICAgICAgICB2ZWMzIHAgPSBhYnMoZnJhY3QoYy54eHggKyBLLnh5eikgKiA2LjAgLSBLLnd3dyk7CiAgICAgICAgcmV0dXJuIGMueiAqIG1peChLLnh4eCwgY2xhbXAocCAtIEsueHh4LCAwLjAsIDEuMCksIGMueSk7CiAgICB9CgogICAgZmxvYXQgaGFzaCh2ZWMyIHApIHsKICAgICAgICB2ZWMzIHAzID0gZnJhY3QodmVjMyhwLnh5eCkgKiAwLjEzKTsKICAgICAgICBwMyArPSBkb3QocDMsIHAzLnl6eCArIDMuMzMzKTsKICAgICAgICByZXR1cm4gZnJhY3QoKHAzLnggKyBwMy55KSAqIHAzLnopOwogICAgfQoKICAgIGZsb2F0IHBlcmxpbih2ZWMyIHgpIHsKICAgICAgICB2ZWMyIGkgPSBmbG9vcih4KTsgdmVjMiBmID0gZnJhY3QoeCk7CgogICAgICAgIGZsb2F0IGEgPSBoYXNoKGkpOyBmbG9hdCBiID0gaGFzaChpICsgdmVjMigxLjAsIDAuMCkpOwogICAgICAgIGZsb2F0IGMgPSBoYXNoKGkgKyB2ZWMyKDAuMCwgMS4wKSk7IGZsb2F0IGQgPSBoYXNoKGkgKyB2ZWMyKDEuMCwgMS4wKSk7CgogICAgICAgIHZlYzIgdSA9IGYgKiBmICogKDMuMCAtIDIuMCAqIGYpOwogICAgICAgIHJldHVybiBtaXgoYSwgYiwgdS54KSArIChjIC0gYSkgKiB1LnkgKiAoMS4wIC0gdS54KSArIChkIC0gYikgKiB1LnggKiB1Lnk7CiAgICB9CgogICAgZmxvYXQgZ3JhZGllbnROb2lzZShpbiB2ZWMyIHV2KSB7CiAgICAgICAgcmV0dXJuIGZyYWN0KDUyLjk4MjkxODkgKiBmcmFjdChkb3QodXYsIHZlYzIoMC4wNjcxMTA1NiwgMC4wMDU4MzcxNSkpKSk7CiAgICB9CgogICAgdmVjNCBtYWluKHZlYzIgZnJhZ0Nvb3JkKXsKICAgICAgICB2ZWMyIHZVdiA9IGZyYWdDb29yZC91UmVzb2x1dGlvbjsKICAgICAgICB2VXYueSA9IDEuMC12VXYueTsKICAgICAgICB2ZWMyIHV2ID0gdlV2OwogICAgICAgIHV2IC09IHZlYzIoMC4sIHVUcmFuc2xhdGVZKTsKICAgICAgICB1di54eSAtPSB1Qm91bmQueHk7CiAgICAgICAgdXYueHkgLz0gdUJvdW5kLnp3OwoKICAgICAgICB2ZWM0IGNvbG9yID0gdmVjNCgwLjApOwogICAgICAgIGZsb2F0IG5vaXNlVmFsdWUgPSBwZXJsaW4odlV2ICogdU5vaXNlU2NhbGUgKyB2ZWMyKC11QW5pbVRpbWUsIC11QW5pbVRpbWUpKTsKCiAgICAgICAgZm9yIChpbnQgaSA9IDA7IGkgPCA0OyBpKyspewogICAgICAgICAgICB2ZWM0IHBvaW50Q29sb3IgPSB1Q29sb3JzW2ldOwogICAgICAgICAgICBwb2ludENvbG9yLnJnYiAqPSBwb2ludENvbG9yLmE7CiAgICAgICAgICAgIHZlYzIgcG9pbnQgPSB1UG9pbnRzQW5pbVtpXTsKICAgICAgICAgICAgZmxvYXQgcmFkID0gdVBvaW50c1tpXS56ICogdVBvaW50UmFkaXVzTXVsdGk7CgogICAgICAgICAgICBmbG9hdCBkID0gZGlzdGFuY2UodXYsIHBvaW50KTsKICAgICAgICAgICAgZmxvYXQgcGN0ID0gc21vb3Roc3RlcChyYWQsIDAuLCBkKTsKICAgICAgICAgICAgY29sb3IucmdiID0gbWl4KGNvbG9yLnJnYiwgcG9pbnRDb2xvci5yZ2IsIHBjdCk7CiAgICAgICAgICAgIGNvbG9yLmEgPSBtaXgoY29sb3IuYSwgcG9pbnRDb2xvci5hLCBwY3QpOwogICAgICAgIH0KCiAgICAgICAgZmxvYXQgb3Bwb3NpdGVOb2lzZSA9IHNtb290aHN0ZXAoMC4sIDEuLCBub2lzZVZhbHVlKTsKICAgICAgICBjb2xvci5yZ2IgLz0gY29sb3IuYTsKICAgICAgICB2ZWMzIGhzdiA9IHJnYjJoc3YoY29sb3IucmdiKTsKICAgICAgICBoc3YueSA9IG1peChoc3YueSwgMC4wLCBvcHBvc2l0ZU5vaXNlICogdVNhdHVyYXRlT2Zmc2V0KTsKICAgICAgICBjb2xvci5yZ2IgPSBoc3YycmdiKGhzdik7CiAgICAgICAgY29sb3IucmdiICs9IG9wcG9zaXRlTm9pc2UgKiB1TGlnaHRPZmZzZXQ7CgogICAgICAgIGNvbG9yLmEgPSBjbGFtcChjb2xvci5hLCAwLiwgMS4pOwogICAgICAgIGNvbG9yLmEgKj0gdUFscGhhTXVsdGk7CgogICAgICAgIGNvbG9yICs9ICgxMC4wIC8gMjU1LjApICogZ3JhZGllbnROb2lzZShmcmFnQ29vcmQueHkpIC0gKDUuMCAvIDI1NS4wKTsKICAgICAgICByZXR1cm4gdmVjNChjb2xvci5yZ2IgKiBjb2xvci5hLCBjb2xvci5hKTsKICAgIH0KIiIiCg==
+// Mirrored from compose-miuix-ui example / KernelSU ui/component/miuix/effect/OS3BgFrag.kt
+// 澎湃 OS 的「极光」背景 AGSL 片元着色器 —— 特效本体。
+
+package org.linbaogu.romhub.ui.effect
+
+const val OS3_BG_FRAG = """
+    uniform vec2 uResolution;
+    uniform float uAnimTime;
+    uniform vec4 uBound;
+    uniform float uTranslateY;
+    uniform vec3 uPoints[4];
+    uniform vec2 uPointsAnim[4];
+    uniform vec4 uColors[4];
+    uniform float uAlphaMulti;
+    uniform float uNoiseScale;
+    uniform float uPointRadiusMulti;
+    uniform float uSaturateOffset;
+    uniform float uLightOffset;
+
+    vec3 rgb2hsv(vec3 c) {
+        vec4 K = vec4(0.0, -1.0 / 3.0, 2.0 / 3.0, -1.0);
+        vec4 p = mix(vec4(c.bg, K.wz), vec4(c.gb, K.xy), step(c.b, c.g));
+        vec4 q = mix(vec4(p.xyw, c.r), vec4(c.r, p.yzx), step(p.x, c.r));
+        float d = q.x - min(q.w, q.y);
+        float e = 1.0e-10;
+        return vec3(abs(q.z + (q.w - q.y) / (6.0 * d + e)), d / (q.x + e), q.x);
+    }
+
+    vec3 hsv2rgb(vec3 c) {
+        vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);
+        vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);
+        return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);
+    }
+
+    float hash(vec2 p) {
+        vec3 p3 = fract(vec3(p.xyx) * 0.13);
+        p3 += dot(p3, p3.yzx + 3.333);
+        return fract((p3.x + p3.y) * p3.z);
+    }
+
+    float perlin(vec2 x) {
+        vec2 i = floor(x); vec2 f = fract(x);
+
+        float a = hash(i); float b = hash(i + vec2(1.0, 0.0));
+        float c = hash(i + vec2(0.0, 1.0)); float d = hash(i + vec2(1.0, 1.0));
+
+        vec2 u = f * f * (3.0 - 2.0 * f);
+        return mix(a, b, u.x) + (c - a) * u.y * (1.0 - u.x) + (d - b) * u.x * u.y;
+    }
+
+    float gradientNoise(in vec2 uv) {
+        return fract(52.9829189 * fract(dot(uv, vec2(0.06711056, 0.00583715))));
+    }
+
+    vec4 main(vec2 fragCoord){
+        vec2 vUv = fragCoord/uResolution;
+        vUv.y = 1.0-vUv.y;
+        vec2 uv = vUv;
+        uv -= vec2(0., uTranslateY);
+        uv.xy -= uBound.xy;
+        uv.xy /= uBound.zw;
+
+        vec4 color = vec4(0.0);
+        float noiseValue = perlin(vUv * uNoiseScale + vec2(-uAnimTime, -uAnimTime));
+
+        for (int i = 0; i < 4; i++){
+            vec4 pointColor = uColors[i];
+            pointColor.rgb *= pointColor.a;
+            vec2 point = uPointsAnim[i];
+            float rad = uPoints[i].z * uPointRadiusMulti;
+
+            float d = distance(uv, point);
+            float pct = smoothstep(rad, 0., d);
+            color.rgb = mix(color.rgb, pointColor.rgb, pct);
+            color.a = mix(color.a, pointColor.a, pct);
+        }
+
+        float oppositeNoise = smoothstep(0., 1., noiseValue);
+        color.rgb /= color.a;
+        vec3 hsv = rgb2hsv(color.rgb);
+        hsv.y = mix(hsv.y, 0.0, oppositeNoise * uSaturateOffset);
+        color.rgb = hsv2rgb(hsv);
+        color.rgb += oppositeNoise * uLightOffset;
+
+        color.a = clamp(color.a, 0., 1.);
+        color.a *= uAlphaMulti;
+
+        color += (10.0 / 255.0) * gradientNoise(fragCoord.xy) - (5.0 / 255.0);
+        return vec4(color.rgb * color.a, color.a);
+    }
+"""

@@ -1,1 +1,18 @@
-PHZlY3RvciB4bWxuczphbmRyb2lkPSJodHRwOi8vc2NoZW1hcy5hbmRyb2lkLmNvbS9hcGsvcmVzL2FuZHJvaWQiCiAgICBhbmRyb2lkOnZpZXdwb3J0V2lkdGg9IjYwIgogICAgYW5kcm9pZDp2aWV3cG9ydEhlaWdodD0iNTYiCiAgICBhbmRyb2lkOndpZHRoPSI2MGRwIgogICAgYW5kcm9pZDpoZWlnaHQ9IjU2ZHAiPgogICAgPHBhdGgKICAgICAgICBhbmRyb2lkOmZpbGxDb2xvcj0iQGNvbG9yL2xpZ2h0X21vZGVfaWNvbl9jb2xvcl9zaW5nbGVfdG9uZSIKICAgICAgICBhbmRyb2lkOnBhdGhEYXRhPSJNNiAyNmMwLTEuNjYgMS4zNC0zIDMtM2gyYzEuNjYgMCAzIDEuMzQgMyAzdjRjMCAxLjY2LTEuMzQgMy0zIDNoLTJjLTEuNjYgMC0zLTEuMzQtMy0zeiIgLz4KICAgIDxwYXRoCiAgICAgICAgYW5kcm9pZDpmaWxsQ29sb3I9IkBjb2xvci9saWdodF9tb2RlX2ljb25fY29sb3Jfc2luZ2xlX3RvbmUiCiAgICAgICAgYW5kcm9pZDpwYXRoRGF0YT0iTTIxIDIyYzAtMS42NiAxLjM0LTMgMy0zaDJjMS42NiAwIDMgMS4zNCAzIDN2OGMwIDEuNjYtMS4zNCAzLTMgM2gtMmMtMS42NiAwLTMtMS4zNC0zLTN6IiAvPgogICAgPHBhdGgKICAgICAgICBhbmRyb2lkOmZpbGxDb2xvcj0iQGNvbG9yL2xpZ2h0X21vZGVfaWNvbl9jb2xvcl9zaW5nbGVfdG9uZSIKICAgICAgICBhbmRyb2lkOnBhdGhEYXRhPSJNMzYgMThjMC0xLjY2IDEuMzQtMyAzLTNoMmMxLjY2IDAgMyAxLjM0IDMgM3YxMmMwIDEuNjYtMS4zNCAzLTMgM2gtMmMtMS42NiAwLTMtMS4zNC0zLTN6IiAvPgogICAgPHBhdGgKICAgICAgICBhbmRyb2lkOmZpbGxDb2xvcj0iQGNvbG9yL2xpZ2h0X21vZGVfaWNvbl90cmFuc3BhcmVudF9jb2xvcl9zaW5nbGVfdG9uZSIKICAgICAgICBhbmRyb2lkOnBhdGhEYXRhPSJNNTEgMTRjMC0xLjY2IDEuMzQtMyAzLTNoMmMxLjY2IDAgMyAxLjM0IDMgM3YxNmMwIDEuNjYtMS4zNCAzLTMgM2gtMmMtMS42NiAwLTMtMS4zNC0zLTN6IiAvPgo8L3ZlY3Rvcj4=
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:viewportWidth="60"
+    android:viewportHeight="56"
+    android:width="60dp"
+    android:height="56dp">
+    <path
+        android:fillColor="@color/light_mode_icon_color_single_tone"
+        android:pathData="M6 26c0-1.66 1.34-3 3-3h2c1.66 0 3 1.34 3 3v4c0 1.66-1.34 3-3 3h-2c-1.66 0-3-1.34-3-3z" />
+    <path
+        android:fillColor="@color/light_mode_icon_color_single_tone"
+        android:pathData="M21 22c0-1.66 1.34-3 3-3h2c1.66 0 3 1.34 3 3v8c0 1.66-1.34 3-3 3h-2c-1.66 0-3-1.34-3-3z" />
+    <path
+        android:fillColor="@color/light_mode_icon_color_single_tone"
+        android:pathData="M36 18c0-1.66 1.34-3 3-3h2c1.66 0 3 1.34 3 3v12c0 1.66-1.34 3-3 3h-2c-1.66 0-3-1.34-3-3z" />
+    <path
+        android:fillColor="@color/light_mode_icon_transparent_color_single_tone"
+        android:pathData="M51 14c0-1.66 1.34-3 3-3h2c1.66 0 3 1.34 3 3v16c0 1.66-1.34 3-3 3h-2c-1.66 0-3-1.34-3-3z" />
+</vector>

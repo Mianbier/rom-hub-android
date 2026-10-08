@@ -1,1 +1,40 @@
-LyoKICog5pCs6L+Q6IeqIFl1blggKOS6keaekCkgLSBDb3B5cmlnaHQgKEMpIDIwMjYgQ1lRYXdhCiAqIOWOn+aWh+S7tu+8mmFwcC9zcmMvbWFpbi9rb3RsaW4vY29tL3l1bngvYXBwL2RhdGEvZG93bmxvYWQvSGxzUmVxdWVzdFBvbGljeS5rdAogKiDorrjlj6/vvJpHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UgdjMuMO+8iOingemhueebruaguSBMSUNFTlNF77yJCiAqLwoKcGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLmRvd25sb2FkCgppbXBvcnQgb2todHRwMy5IdHRwVXJsCmltcG9ydCBva2h0dHAzLkh0dHBVcmwuQ29tcGFuaW9uLnRvSHR0cFVybE9yTnVsbAoKLyoqCiAqIEhMUyDlkITor7fmsYLvvIjmkq3mlL7liJfooaggLyDph43lrprlkJEgLyDliJ3lp4vliIbniYcgLyDlqpLkvZPliIbniYfvvInnmoTmupDkuI7or7fmsYLlpLTnrZbnlaXjgIIKICoKICog5qC45b+D57qm5p2f77yaKirlh63or4HvvIhDb29raWUgLyBBdXRob3JpemF0aW9u77yJ57ud5LiN6Leo5rqQ6L2s5Y+RKirjgIIKICog5YiG54mH5bi45bi46JC95ZyoIENETiDkuIrvvIjlkozmkq3mlL7liJfooajkuI3lkIzln5/vvInvvIzmiornmbvlvZXmgIHlj5Hov4fljrvnrYnkuo7miorotKblj7fpgIHkurrjgIIKICovCmludGVybmFsIG9iamVjdCBIbHNSZXF1ZXN0UG9saWN5IHsKCiAgICBwcml2YXRlIHZhbCBzZW5zaXRpdmVIZWFkZXJzID0gc2V0T2YoCiAgICAgICAgImF1dGhvcml6YXRpb24iLCAiY29va2llIiwgIm9yaWdpbiIsICJwcm94eS1hdXRob3JpemF0aW9uIiwgInJlZmVyZXIiLAogICAgKQoKICAgIGZ1biBpbml0aWFsVXJsKHVybDogU3RyaW5nKTogSHR0cFVybD8gPSB1cmwudG9IdHRwVXJsT3JOdWxsKCk/LnRha2VJZiB7IGl0LmlzSHR0cHMgfQoKICAgIGZ1biByZXNvbHZlKGJhc2U6IEh0dHBVcmwsIGNhbmRpZGF0ZTogU3RyaW5nKTogSHR0cFVybD8gPQogICAgICAgIGJhc2UucmVzb2x2ZShjYW5kaWRhdGUpPy50YWtlSWYgeyBpdC5pc0h0dHBzIH0KCiAgICBmdW4gaGVhZGVyc0ZvcigKICAgICAgICB0YXJnZXQ6IEh0dHBVcmwsCiAgICAgICAgY3JlZGVudGlhbE9yaWdpbjogSHR0cFVybCwKICAgICAgICBoZWFkZXJzOiBNYXA8U3RyaW5nLCBTdHJpbmc+LAogICAgKTogTWFwPFN0cmluZywgU3RyaW5nPiB7CiAgICAgICAgaWYgKHNhbWVPcmlnaW4odGFyZ2V0LCBjcmVkZW50aWFsT3JpZ2luKSkgcmV0dXJuIGhlYWRlcnMKICAgICAgICByZXR1cm4gaGVhZGVycy5maWx0ZXJLZXlzIHsgaXQubG93ZXJjYXNlKCkgIWluIHNlbnNpdGl2ZUhlYWRlcnMgfQogICAgfQoKICAgIGZ1biBzYW1lT3JpZ2luKGxlZnQ6IEh0dHBVcmwsIHJpZ2h0OiBIdHRwVXJsKTogQm9vbGVhbiA9CiAgICAgICAgbGVmdC5zY2hlbWUgPT0gcmlnaHQuc2NoZW1lICYmIGxlZnQuaG9zdCA9PSByaWdodC5ob3N0ICYmIGxlZnQucG9ydCA9PSByaWdodC5wb3J0Cn0K
+/*
+ * 搬运自 YunX (云析) - Copyright (C) 2026 CYQawa
+ * 原文件：app/src/main/kotlin/com/yunx/app/data/download/HlsRequestPolicy.kt
+ * 许可：GNU Affero General Public License v3.0（见项目根 LICENSE）
+ */
+
+package org.linbaogu.romhub.download
+
+import okhttp3.HttpUrl
+import okhttp3.HttpUrl.Companion.toHttpUrlOrNull
+
+/**
+ * HLS 各请求（播放列表 / 重定向 / 初始分片 / 媒体分片）的源与请求头策略。
+ *
+ * 核心约束：**凭证（Cookie / Authorization）绝不跨源转发**。
+ * 分片常常落在 CDN 上（和播放列表不同域），把登录态发过去等于把账号送人。
+ */
+internal object HlsRequestPolicy {
+
+    private val sensitiveHeaders = setOf(
+        "authorization", "cookie", "origin", "proxy-authorization", "referer",
+    )
+
+    fun initialUrl(url: String): HttpUrl? = url.toHttpUrlOrNull()?.takeIf { it.isHttps }
+
+    fun resolve(base: HttpUrl, candidate: String): HttpUrl? =
+        base.resolve(candidate)?.takeIf { it.isHttps }
+
+    fun headersFor(
+        target: HttpUrl,
+        credentialOrigin: HttpUrl,
+        headers: Map<String, String>,
+    ): Map<String, String> {
+        if (sameOrigin(target, credentialOrigin)) return headers
+        return headers.filterKeys { it.lowercase() !in sensitiveHeaders }
+    }
+
+    fun sameOrigin(left: HttpUrl, right: HttpUrl): Boolean =
+        left.scheme == right.scheme && left.host == right.host && left.port == right.port
+}

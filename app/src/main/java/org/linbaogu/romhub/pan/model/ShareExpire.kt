@@ -1,1 +1,148 @@
-LyoKICogWXVuWCAo5LqR5p6QKSAtIEEgbmV0d29yayBkcml2ZSBzaGFyZS1saW5rIHBhcnNlciBhbmQgaGlnaC1zcGVlZCBkb3dubG9hZGVyIGZvciBBbmRyb2lkLgogKiBDb3B5cmlnaHQgKEMpIDIwMjYgQ1lRYXdhCiAqCiAqIFRoaXMgcHJvZ3JhbSBpcyBmcmVlIHNvZnR3YXJlOiB5b3UgY2FuIHJlZGlzdHJpYnV0ZSBpdCBhbmQvb3IgbW9kaWZ5CiAqIGl0IHVuZGVyIHRoZSB0ZXJtcyBvZiB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGFzIHB1Ymxpc2hlZCBieQogKiB0aGUgRnJlZSBTb2Z0d2FyZSBGb3VuZGF0aW9uLCBlaXRoZXIgdmVyc2lvbiAzIG9mIHRoZSBMaWNlbnNlLCBvcgogKiAoYXQgeW91ciBvcHRpb24pIGFueSBsYXRlciB2ZXJzaW9uLgogKgogKiBUaGlzIHByb2dyYW0gaXMgZGlzdHJpYnV0ZWQgaW4gdGhlIGhvcGUgdGhhdCBpdCB3aWxsIGJlIHVzZWZ1bCwKICogYnV0IFdJVEhPVVQgQU5ZIFdBUlJBTlRZOyB3aXRob3V0IGV2ZW4gdGhlIGltcGxpZWQgd2FycmFudHkgb2YKICogTUVSQ0hBTlRBQklMSVRZIG9yIEZJVE5FU1MgRk9SIEEgUEFSVElDVUxBUiBQVVJQT1NFLiAgU2VlIHRoZQogKiBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UgZm9yIG1vcmUgZGV0YWlscy4KICoKICogWW91IHNob3VsZCBoYXZlIHJlY2VpdmVkIGEgY29weSBvZiB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlCiAqIGFsb25nIHdpdGggdGhpcyBwcm9ncmFtLiAgSWYgbm90LCBzZWUgPGh0dHBzOi8vd3d3LmdudS5vcmcvbGljZW5zZXMvPi4KICovCgpwYWNrYWdlIG9yZy5saW5iYW9ndS5yb21odWIucGFuLm1vZGVsCgovKioKICog5YiG5Lqr5pyJ5pWI5pyf77yIVUkg5Lit5oCn56CB77yM5YWt5aSn572R55uY6aG15YWx55So77yM6K+m6KeBIEFnZW50Lm1kIMKnMy4yMO+8ieOAggogKgogKiDlj5blgLzvvJpbRk9SRVZFUl0gPSAxIOawuOS5heacieaViOOAgVtPTkVfREFZXSA9IDIgMSDlpKnjgIFbU0VWRU5fREFZU10gPSAzIDcg5aSp44CBW1RISVJUWV9EQVlTXSA9IDQgMzAg5aSp44CCCiAqIGBDbG91ZEZpbGVTaGVldHNgIOeahOacieaViOacn+mAieaLqeWZqOS4jue7k+aenOaYvuekuu+8iGBleHBpcmVMYWJlbGDvvInpg73ku6XmraTkuLrlh4bjgIIKICoKICogKirlkITlubPlj7DmjqXlj6PnmoTmnInmlYjmnJ/or63kuYnlrozlhajkuI3lkIzvvIznpoHmraLmiorkuK3mgKfnoIHnm7TmjqXkuIvlj5Hnu5nmjqXlj6MqKu+8jOW/hemhu+WFiOeUqOacrOWvueixoei9rOaNogogKiDvvIgyMDI2LTEwIOeahCBidWfvvJoxMzkv55m+5bqmLzEyMyDkuInkuKrlubPlj7DmiorkuK3mgKfnoIHlvZPmiJDkuoblpKnmlbDvvIzlr7zoh7TjgIzpgInmsLjkuYXlu7rmiJAgMSDlpKnjgIEKICog6YCJ5YW25LuW5pi+56S65rC45LmFLzMwIOWkqeOAje+8ie+8mgogKgogKiB8IOW5s+WPsCB8IOaOpeWPo+Wtl+autSB8IOecn+WunuivreS5iSB8IOi9rOaNoiB8CiAqIHwtLS18LS0tfC0tLXwtLS18CiAqIHwgMTM5IHwgYHBlcmlvZGAgfCDlpKnmlbDvvJvmsLjkuYUgPSAqKuS4jeS8oOivpeWtl+autSoqIHwgW2RheXNPck51bGxdIHwKICogfCDnmb7luqYgfCBgcGVyaW9kYCB8IDAvMS83LzMw77ybMCA9IOawuOS5hSB8IFtiYWlkdVBlcmlvZF0gfAogKiB8IDEyMyB8IGBleHBpcmF0aW9uYCB8IOe7neWvuSBJU08g5pe26Ze05Liy77yIbm93ICsg5aSp5pWw77yJ77yb5rC45LmFID0gMjA5OSDlk6jlhbUgfCBbZGF5c09yTnVsbF0gfAogKiB8IOi/hembtyB8IGBleHBpcmF0aW9uX2RheXNgIHwgKirlrZfnrKbkuLIqKiAiLTEiLyIxIi8iNyIvIjMwIu+8my0xID0g5rC45LmFIHwgW3h1bmxlaURheXNdIHwKICogfCDlpLjlhYsgLyBVQyB8IGBleHBpcmVkX3R5cGVgIHwg5Y+W5YC85oGw5aW9562J5LqO5Lit5oCn56CB5pys6Lqr77yM5Y6f5YC855u05LygIHwg5pegIHwKICogfCAxMTUgfCBgc2hhcmVfZHVyYXRpb25gIHwgKirlrZfnrKbkuLIqKiAiLTEiLyIxIi8iMyIvIjUiLyI3Ii8iMTUi77yb5qGj5L2N5LiO5pys5Lit5oCn56CB5LiN5ZCM77yI5pegIDMwIOWkqeOAgeWkmiAzLzE1IOWkqe+8iSB8IFtwYW4xMTVEdXJhdGlvbl0gfAogKgogKiDmnKrnn6Xku6PnoIHkuIDlvovmipvlvILluLjvvIhmYWlsLWxvdWTvvInvvJrov4fljrvlkITlubPlj7DnlKggYGVsc2UgLT4g5rC45LmFIC8gMzAg5aSpIC8gIi0xImAg5YWc5bqV77yMCiAqIOS8muaKiuOAjOaWsOWinuS4gOenjeacieaViOacn+S9huW/mOS6huaYoOWwhOOAjemdmem7mOWPmOaIkOWPpuS4gOenjeacieaViOacn++8jOWugeWPr+aKpemUmeS5n+S4jeimgeW7uumUmeWIhuS6q+OAggogKi8Kb2JqZWN0IFNoYXJlRXhwaXJlIHsKICAgIC8qKgogICAgICog5pyq55+l5pyJ5pWI5pyf77ya5pyN5Yqh56uv5pyq6L+U5Zue6K+l5a2X5q6144CB5oiW6L+U5Zue5LqG5pys6aG555uu5LiN6K6k6K+G55qE5Y+W5YC844CCCiAgICAgKiAqKuWPqueUqOS6juaYvuekuuWbnuWhqyoq77yIYGV4cGlyZUxhYmVsYCDkvJrmmL7npLrjgIzmnKrnn6XjgI3vvInvvJvkvZzkuLror7fmsYLlj4LmlbDkvJrooqvovazmjaLlh73mlbDmipvlvILluLjmi6bkuIvjgIIKICAgICAqLwogICAgY29uc3QgdmFsIFVOS05PV04gPSAwCgogICAgLyoqIOawuOS5heacieaViCAqLwogICAgY29uc3QgdmFsIEZPUkVWRVIgPSAxCgogICAgLyoqIDEg5aSpICovCiAgICBjb25zdCB2YWwgT05FX0RBWSA9IDIKCiAgICAvKiogNyDlpKkgKi8KICAgIGNvbnN0IHZhbCBTRVZFTl9EQVlTID0gMwoKICAgIC8qKiAzMCDlpKkgKi8KICAgIGNvbnN0IHZhbCBUSElSVFlfREFZUyA9IDQKCiAgICAvKioKICAgICAqIOS4reaAp+eggSDihpIg5aSp5pWw77yb5rC45LmF6L+U5ZueIGBudWxsYO+8iDEzOSDnmoQgYHBlcmlvZGDjgIExMjMg55qEIGBleHBpcmF0aW9uYCDnlKjvvInjgIIKICAgICAqLwogICAgZnVuIGRheXNPck51bGwoZXhwaXJlZFR5cGU6IEludCk6IEludD8gPSB3aGVuIChleHBpcmVkVHlwZSkgewogICAgICAgIE9ORV9EQVkgLT4gMQogICAgICAgIFNFVkVOX0RBWVMgLT4gNwogICAgICAgIFRISVJUWV9EQVlTIC0+IDMwCiAgICAgICAgRk9SRVZFUiAtPiBudWxsCiAgICAgICAgZWxzZSAtPiB0aHJvdyBJbGxlZ2FsQXJndW1lbnRFeGNlcHRpb24oIuacquefpeeahOWIhuS6q+acieaViOacn+S7o+egge+8miRleHBpcmVkVHlwZSIpCiAgICB9CgogICAgLyoqCiAgICAgKiDkuK3mgKfnoIEg4oaSIOeZvuW6piBgcGVyaW9kYO+8iDAgPSDmsLjkuYXmnInmlYjvvInjgIIKICAgICAqLwogICAgZnVuIGJhaWR1UGVyaW9kKGV4cGlyZWRUeXBlOiBJbnQpOiBJbnQgPSBkYXlzT3JOdWxsKGV4cGlyZWRUeXBlKSA/OiAwCgogICAgLyoqCiAgICAgKiDkuK3mgKfnoIEg4oaSIOi/hembtyBgZXhwaXJhdGlvbl9kYXlzYO+8iCoq5a2X56ym5LiyKirvvIwtMSA9IOawuOS5heacieaViO+8ieOAggogICAgICovCiAgICBmdW4geHVubGVpRGF5cyhleHBpcmVkVHlwZTogSW50KTogU3RyaW5nID0gZGF5c09yTnVsbChleHBpcmVkVHlwZSk/LnRvU3RyaW5nKCkgPzogIi0xIgoKICAgIC8vIC0tLS0tLS0tLS0gMTE1IOS4k+Wxnuaho+S9jSAtLS0tLS0tLS0tCiAgICAvLyAxMTUg55qE5qGj5L2N5piv44CM6ZW/5pyfIC8gMSDlpKkgLyAzIOWkqSAvIDUg5aSpIC8gNyDlpKkgLyAxNSDlpKnjgI3vvIjmjqXlj6Mgc2hhcmVfZHVyYXRpb24gPSAtMS8xLzMvNS83LzE177yJ77yMCiAgICAvLyDml6LkuI3mmK/kuK3mgKfnoIHlj5blgLzjgIHkuZ/msqHmnIkgMzAg5aSp77yM5omA5Lul5Y2V54us5Y2g55SoIDEwMS4uMTA1IOS4gOauteeggeS9je+8jAogICAgLy8g6YG/5YWN5LiO5Lit5oCn56CBIDPvvIg3IOWkqe+8ieetieaSnui9puWQjue7k+aenOW8ueeql+aYvuekuuaIkOWPpuS4gOenjeacieaViOacn+OAggogICAgLy8g5pys6aG555uuIFVJIOWPquaatOmcsuOAjOmVv+acnyAvIDEg5aSpIC8gMyDlpKkgLyA3IOWkqSAvIDE1IOWkqeOAjeS6lOaho++8iOeUqOaIt+eahOaho+S9jeWGs+etlu+8jOingSBBZ2VudC5tZCDCpzMuMjXvvInjgIIKCiAgICAvKiogMTE177ya6ZW/5pyf77yI5o6l5Y+jIGBzaGFyZV9kdXJhdGlvbj0tMWDvvIkgKi8KICAgIGNvbnN0IHZhbCBQQU4xMTVfRk9SRVZFUiA9IDEwMQoKICAgIC8qKiAxMTXvvJoxIOWkqSAqLwogICAgY29uc3QgdmFsIFBBTjExNV9PTkVfREFZID0gMTAyCgogICAgLyoqIDExNe+8mjMg5aSp77yI6YCa55So5Lit5oCn56CB5rKh5pyJ6L+Z5LiA5qGj77yJICovCiAgICBjb25zdCB2YWwgUEFOMTE1X1RIUkVFX0RBWVMgPSAxMDMKCiAgICAvKiogMTE177yaNyDlpKkgKi8KICAgIGNvbnN0IHZhbCBQQU4xMTVfU0VWRU5fREFZUyA9IDEwNAoKICAgIC8qKiAxMTXvvJoxNSDlpKnvvIjpgJrnlKjkuK3mgKfnoIHmsqHmnInov5nkuIDmoaPvvIkgKi8KICAgIGNvbnN0IHZhbCBQQU4xMTVfRklGVEVFTl9EQVlTID0gMTA1CgogICAgLyoqIDExNSDmnInmlYjmnJ/pgInpobnvvIjlsZXnpLrmlofmoYgg4oaSIOeggeS9je+8ie+8jOeUsSAxMTUg5LqR55uY6aG15Lyg57uZIGBDbG91ZEZpbGVTaGVldHNgICovCiAgICB2YWwgUEFOMTE1X09QVElPTlM6IExpc3Q8UGFpcjxTdHJpbmcsIEludD4+ID0gbGlzdE9mKAogICAgICAgICLmsLjkuYXmnInmlYgiIHRvIFBBTjExNV9GT1JFVkVSLAogICAgICAgICIxIOWkqSIgdG8gUEFOMTE1X09ORV9EQVksCiAgICAgICAgIjMg5aSpIiB0byBQQU4xMTVfVEhSRUVfREFZUywKICAgICAgICAiNyDlpKkiIHRvIFBBTjExNV9TRVZFTl9EQVlTLAogICAgICAgICIxNSDlpKkiIHRvIFBBTjExNV9GSUZURUVOX0RBWVMKICAgICkKCiAgICAvKiogMTE1IOeggeS9jSDihpIgYHNoYXJlX2R1cmF0aW9uYO+8iGAtMWAgPSDplb/mnJ/vvIzlhbbkvZnkuLrlpKnmlbDkuLLvvIkgKi8KICAgIGZ1biBwYW4xMTVEdXJhdGlvbihleHBpcmVkVHlwZTogSW50KTogU3RyaW5nID0gd2hlbiAoZXhwaXJlZFR5cGUpIHsKICAgICAgICBQQU4xMTVfRk9SRVZFUiAtPiAiLTEiCiAgICAgICAgUEFOMTE1X09ORV9EQVkgLT4gIjEiCiAgICAgICAgUEFOMTE1X1RIUkVFX0RBWVMgLT4gIjMiCiAgICAgICAgUEFOMTE1X1NFVkVOX0RBWVMgLT4gIjciCiAgICAgICAgUEFOMTE1X0ZJRlRFRU5fREFZUyAtPiAiMTUiCiAgICAgICAgZWxzZSAtPiB0aHJvdyBJbGxlZ2FsQXJndW1lbnRFeGNlcHRpb24oIuacquefpeeahOWIhuS6q+acieaViOacn+S7o+egge+8miRleHBpcmVkVHlwZSIpCiAgICB9CgogICAgLyoqCiAgICAgKiAxMTUgYHNoYXJlX2R1cmF0aW9uYCDlrZfnrKbkuLIg4oaSIDExNSDnoIHkvY3vvIhbcGFuMTE1RHVyYXRpb25dIOeahOWPjeWQkeaYoOWwhO+8ieOAggogICAgICog55So5LqO44CM5pS55pyJ5pWI5pyf5aSx6LSl5pe25oyJ5pyN5Yqh56uv6L+U5Zue5YC85Zue5aGr55yf5a6e5qGj5L2N44CN77yb6K6k5LiN5Ye655qE5YC86L+U5ZueIFtVTktOT1dOXe+8iOeVjOmdouaYvuekuuOAjOacquefpeOAje+8ieOAggogICAgICog5rOo5oSPIDExNSDmnIkgYDVgIOWkqeaho+iAjOacrOmhueebriBVSSDmsqHmnInvvIzkuZ/kvJrokL3liLAgW1VOS05PV05d44CCCiAgICAgKi8KICAgIGZ1biBwYW4xMTVDb2RlT2YoZHVyYXRpb246IFN0cmluZyk6IEludCA9IHdoZW4gKGR1cmF0aW9uLnRyaW0oKSkgewogICAgICAgICItMSIgLT4gUEFOMTE1X0ZPUkVWRVIKICAgICAgICAiMSIgLT4gUEFOMTE1X09ORV9EQVkKICAgICAgICAiMyIgLT4gUEFOMTE1X1RIUkVFX0RBWVMKICAgICAgICAiNyIgLT4gUEFOMTE1X1NFVkVOX0RBWVMKICAgICAgICAiMTUiIC0+IFBBTjExNV9GSUZURUVOX0RBWVMKICAgICAgICBlbHNlIC0+IFVOS05PV04KICAgIH0KCiAgICAvKioKICAgICAqIDExNSDov5Tlm57nmoTmnInmlYjmnJ/mlofmoYjvvIjliJvlu7rlk43lupTph4znmoQgYHNoYXJlX2V4X2R1cmF0aW9uYO+8jOW9ouWmgiBgMTXlpKlgIC8gYOmVv+acn2DvvInihpIgMTE1IOeggeS9jeOAggogICAgICog5LiOIFtwYW4xMTVDb2RlT2ZdIOS4gOagt+WPqueUqOS6juWbnuWhq+aYvuekuu+8jOiupOS4jeWHuui/lOWbniBbVU5LTk9XTl3jgIIKICAgICAqLwogICAgZnVuIHBhbjExNUNvZGVPZlRleHQodGV4dDogU3RyaW5nKTogSW50IHsKICAgICAgICB2YWwgdmFsdWUgPSB0ZXh0LnRyaW0oKQogICAgICAgIGlmICh2YWx1ZS5pc0VtcHR5KCkpIHJldHVybiBVTktOT1dOCiAgICAgICAgaWYgKHZhbHVlLmNvbnRhaW5zKCLplb/mnJ8iKSB8fCB2YWx1ZS5jb250YWlucygi5rC45LmFIikpIHJldHVybiBQQU4xMTVfRk9SRVZFUgogICAgICAgIHZhbCBkYXlzID0gdmFsdWUudGFrZVdoaWxlIHsgaXQuaXNEaWdpdCgpIH0KICAgICAgICByZXR1cm4gaWYgKGRheXMuaXNFbXB0eSgpKSBVTktOT1dOIGVsc2UgcGFuMTE1Q29kZU9mKGRheXMpCiAgICB9Cn0K
+/*
+ * YunX (云析) - A network drive share-link parser and high-speed downloader for Android.
+ * Copyright (C) 2026 CYQawa
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Affero General Public License for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
+package org.linbaogu.romhub.pan.model
+
+/**
+ * 分享有效期（UI 中性码，六大网盘页共用，详见 Agent.md §3.20）。
+ *
+ * 取值：[FOREVER] = 1 永久有效、[ONE_DAY] = 2 1 天、[SEVEN_DAYS] = 3 7 天、[THIRTY_DAYS] = 4 30 天。
+ * `CloudFileSheets` 的有效期选择器与结果显示（`expireLabel`）都以此为准。
+ *
+ * **各平台接口的有效期语义完全不同，禁止把中性码直接下发给接口**，必须先用本对象转换
+ * （2026-10 的 bug：139/百度/123 三个平台把中性码当成了天数，导致「选永久建成 1 天、
+ * 选其他显示永久/30 天」）：
+ *
+ * | 平台 | 接口字段 | 真实语义 | 转换 |
+ * |---|---|---|---|
+ * | 139 | `period` | 天数；永久 = **不传该字段** | [daysOrNull] |
+ * | 百度 | `period` | 0/1/7/30；0 = 永久 | [baiduPeriod] |
+ * | 123 | `expiration` | 绝对 ISO 时间串（now + 天数）；永久 = 2099 哨兵 | [daysOrNull] |
+ * | 迅雷 | `expiration_days` | **字符串** "-1"/"1"/"7"/"30"；-1 = 永久 | [xunleiDays] |
+ * | 夸克 / UC | `expired_type` | 取值恰好等于中性码本身，原值直传 | 无 |
+ * | 115 | `share_duration` | **字符串** "-1"/"1"/"3"/"5"/"7"/"15"；档位与本中性码不同（无 30 天、多 3/15 天） | [pan115Duration] |
+ *
+ * 未知代码一律抛异常（fail-loud）：过去各平台用 `else -> 永久 / 30 天 / "-1"` 兜底，
+ * 会把「新增一种有效期但忘了映射」静默变成另一种有效期，宁可报错也不要建错分享。
+ */
+object ShareExpire {
+    /**
+     * 未知有效期：服务端未返回该字段、或返回了本项目不认识的取值。
+     * **只用于显示回填**（`expireLabel` 会显示「未知」）；作为请求参数会被转换函数抛异常拦下。
+     */
+    const val UNKNOWN = 0
+
+    /** 永久有效 */
+    const val FOREVER = 1
+
+    /** 1 天 */
+    const val ONE_DAY = 2
+
+    /** 7 天 */
+    const val SEVEN_DAYS = 3
+
+    /** 30 天 */
+    const val THIRTY_DAYS = 4
+
+    /**
+     * 中性码 → 天数；永久返回 `null`（139 的 `period`、123 的 `expiration` 用）。
+     */
+    fun daysOrNull(expiredType: Int): Int? = when (expiredType) {
+        ONE_DAY -> 1
+        SEVEN_DAYS -> 7
+        THIRTY_DAYS -> 30
+        FOREVER -> null
+        else -> throw IllegalArgumentException("未知的分享有效期代码：$expiredType")
+    }
+
+    /**
+     * 中性码 → 百度 `period`（0 = 永久有效）。
+     */
+    fun baiduPeriod(expiredType: Int): Int = daysOrNull(expiredType) ?: 0
+
+    /**
+     * 中性码 → 迅雷 `expiration_days`（**字符串**，-1 = 永久有效）。
+     */
+    fun xunleiDays(expiredType: Int): String = daysOrNull(expiredType)?.toString() ?: "-1"
+
+    // ---------- 115 专属档位 ----------
+    // 115 的档位是「长期 / 1 天 / 3 天 / 5 天 / 7 天 / 15 天」（接口 share_duration = -1/1/3/5/7/15），
+    // 既不是中性码取值、也没有 30 天，所以单独占用 101..105 一段码位，
+    // 避免与中性码 3（7 天）等撞车后结果弹窗显示成另一种有效期。
+    // 本项目 UI 只暴露「长期 / 1 天 / 3 天 / 7 天 / 15 天」五档（用户的档位决策，见 Agent.md §3.25）。
+
+    /** 115：长期（接口 `share_duration=-1`） */
+    const val PAN115_FOREVER = 101
+
+    /** 115：1 天 */
+    const val PAN115_ONE_DAY = 102
+
+    /** 115：3 天（通用中性码没有这一档） */
+    const val PAN115_THREE_DAYS = 103
+
+    /** 115：7 天 */
+    const val PAN115_SEVEN_DAYS = 104
+
+    /** 115：15 天（通用中性码没有这一档） */
+    const val PAN115_FIFTEEN_DAYS = 105
+
+    /** 115 有效期选项（展示文案 → 码位），由 115 云盘页传给 `CloudFileSheets` */
+    val PAN115_OPTIONS: List<Pair<String, Int>> = listOf(
+        "永久有效" to PAN115_FOREVER,
+        "1 天" to PAN115_ONE_DAY,
+        "3 天" to PAN115_THREE_DAYS,
+        "7 天" to PAN115_SEVEN_DAYS,
+        "15 天" to PAN115_FIFTEEN_DAYS
+    )
+
+    /** 115 码位 → `share_duration`（`-1` = 长期，其余为天数串） */
+    fun pan115Duration(expiredType: Int): String = when (expiredType) {
+        PAN115_FOREVER -> "-1"
+        PAN115_ONE_DAY -> "1"
+        PAN115_THREE_DAYS -> "3"
+        PAN115_SEVEN_DAYS -> "7"
+        PAN115_FIFTEEN_DAYS -> "15"
+        else -> throw IllegalArgumentException("未知的分享有效期代码：$expiredType")
+    }
+
+    /**
+     * 115 `share_duration` 字符串 → 115 码位（[pan115Duration] 的反向映射）。
+     * 用于「改有效期失败时按服务端返回值回填真实档位」；认不出的值返回 [UNKNOWN]（界面显示「未知」）。
+     * 注意 115 有 `5` 天档而本项目 UI 没有，也会落到 [UNKNOWN]。
+     */
+    fun pan115CodeOf(duration: String): Int = when (duration.trim()) {
+        "-1" -> PAN115_FOREVER
+        "1" -> PAN115_ONE_DAY
+        "3" -> PAN115_THREE_DAYS
+        "7" -> PAN115_SEVEN_DAYS
+        "15" -> PAN115_FIFTEEN_DAYS
+        else -> UNKNOWN
+    }
+
+    /**
+     * 115 返回的有效期文案（创建响应里的 `share_ex_duration`，形如 `15天` / `长期`）→ 115 码位。
+     * 与 [pan115CodeOf] 一样只用于回填显示，认不出返回 [UNKNOWN]。
+     */
+    fun pan115CodeOfText(text: String): Int {
+        val value = text.trim()
+        if (value.isEmpty()) return UNKNOWN
+        if (value.contains("长期") || value.contains("永久")) return PAN115_FOREVER
+        val days = value.takeWhile { it.isDigit() }
+        return if (days.isEmpty()) UNKNOWN else pan115CodeOf(days)
+    }
+}

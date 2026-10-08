@@ -1,1 +1,35 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHJlc291cmNlcz4KICAgIDxzdHlsZSBuYW1lPSJTdWJTZXR0aW5nc1RoZW1lIiBwYXJlbnQ9IkJhc2UuVGhlbWUuSHlwZXJDZWlsZXIuRGF5TmlnaHQiPgoKICAgICAgICA8aXRlbSBuYW1lPSJhbmRyb2lkOndpbmRvd0xheW91dEluRGlzcGxheUN1dG91dE1vZGUiPnNob3J0RWRnZXM8L2l0ZW0+CiAgICAgICAgPGl0ZW0gbmFtZT0iYW5kcm9pZDp3aW5kb3dCYWNrZ3JvdW5kIj5AY29sb3IvbWl1aXhfZGVzaWduX2RlZmF1bHRfY29sb3Jfc3VyZmFjZV92YXJpYW50X2xpZ2h0PC9pdGVtPgoKICAgICAgICA8aXRlbSBuYW1lPSJjb250ZW50QXV0b0ZpdFN5c3RlbVdpbmRvdyI+ZmFsc2U8L2l0ZW0+CiAgICAgICAgPGl0ZW0gbmFtZT0id2luZG93RXh0cmFQYWRkaW5nSG9yaXpvbnRhbEVuYWJsZSI+dHJ1ZTwvaXRlbT4KICAgICAgICA8aXRlbSBuYW1lPSJ3aW5kb3dFeHRyYVBhZGRpbmdBcHBseVRvQ29udGVudEVuYWJsZSI+ZmFsc2U8L2l0ZW0+CgogICAgICAgIDxpdGVtIG5hbWU9InByZWZlcmVuY2VUaGVtZSI+QHN0eWxlL1RoZW1lT3ZlcmxheS5QcmVmZXJlbmNlLkxpZ2h0Lk9TMjwvaXRlbT4KCiAgICAgICAgPGl0ZW0gbmFtZT0idGV4dENvbG9yRGlhbG9nTGlzdEl0ZW0iPkBjb2xvci9taXVpeF9hcHBjb21wYXRfZGlhbG9nX2xpc3RfdGV4dF9saWdodDwvaXRlbT4KICAgICAgICA8aXRlbSBuYW1lPSJkaWFsb2dMaXN0UHJlZmVycmVkSXRlbUhlaWdodCI+QGRpbWVuL21pdWl4X2FwcGNvbXBhdF9kaWFsb2dfbGlzdF9wcmVmZXJyZWRfaXRlbV9oZWlnaHQ8L2l0ZW0+CgogICAgICAgIDxpdGVtIG5hbWU9ImRpYWxvZ0xpc3RJdGVtQmFja2dyb3VuZCI+QGRyYXdhYmxlL21pdWl4X2FwcGNvbXBhdF9saXN0X2l0ZW1fYmdfZGlhbG9nX2xpZ2h0PC9pdGVtPgogICAgICAgIDxpdGVtIG5hbWU9ImRpYWxvZ011bHRpQ2hvaWNlTGlzdEl0ZW1CYWNrZ3JvdW5kIj5AZHJhd2FibGUvbWl1aXhfYXBwY29tcGF0X2xpc3RfaXRlbV9iZ19tdWx0aWNob2ljZV9saWdodDwvaXRlbT4KICAgICAgICA8aXRlbSBuYW1lPSJkaWFsb2dNdWx0aUNob2ljZUxpc3RJdGVtRm9yZWdyb3VuZCI+QGRyYXdhYmxlL21pdWl4X2FwcGNvbXBhdF9saXN0X2l0ZW1fZmdfbXVsdGljaG9pY2VfbGlnaHQ8L2l0ZW0+CiAgICA8L3N0eWxlPgoKCiAgICA8c3R5bGUgbmFtZT0iU3ViUGlja2VyVGhlbWUiIHBhcmVudD0iVGhlbWUuQXBwQ29tcGF0LkRheU5pZ2h0Ij4KICAgICAgICA8aXRlbSBuYW1lPSJhbmRyb2lkOmFjdGlvbkJhckl0ZW1CYWNrZ3JvdW5kIj5AYW5kcm9pZDpjb2xvci90cmFuc3BhcmVudDwvaXRlbT4KICAgICAgICA8aXRlbSBuYW1lPSJzZWFyY2hBY3Rpb25Nb2RlSW5wdXRCYWNrZ3JvdW5kIj5AY29sb3IvbWl1aXhfZGVzaWduX2RlZmF1bHRfY29sb3Jfc3VyZmFjZV92YXJpYW50X2xpZ2h0PC9pdGVtPgogICAgICAgIDxpdGVtIG5hbWU9IndpbmRvd1NlYXJjaE1hc2siPkBjb2xvci9taXVpeF9kZXNpZ25fZGVmYXVsdF9jb2xvcl9zdXJmYWNlX3ZhcmlhbnRfbGlnaHQ8L2l0ZW0+CiAgICAgICAgPGl0ZW0gbmFtZT0iYW5kcm9pZDp3aW5kb3dCYWNrZ3JvdW5kIj5AY29sb3IvbWl1aXhfZGVzaWduX2RlZmF1bHRfY29sb3Jfc3VyZmFjZV92YXJpYW50X2xpZ2h0PC9pdGVtPgogICAgICAgIDxpdGVtIG5hbWU9IndpbmRvd1NwbGl0QWN0aW9uQmFyIj50cnVlPC9pdGVtPgogICAgICAgIDxpdGVtIG5hbWU9ImVuZEFjdGlvbk1lbnVFbmFibGVkIj50cnVlPC9pdGVtPgogICAgPC9zdHlsZT4KCiAgICA8c3R5bGUgbmFtZT0iQXByaWxGb29sc1ByZWZlcmVuY2VUaGVtZSIgcGFyZW50PSJAc3R5bGUvVGhlbWVPdmVybGF5LlByZWZlcmVuY2UuTGlnaHQuT1MyIj4KICAgICAgICA8aXRlbSBuYW1lPSJzd2l0Y2hQcmVmZXJlbmNlU3R5bGUiPkBzdHlsZS9BcHJpbEZvb2xzcHJlU3dpdGNoUHJlZmVyZW5jZTwvaXRlbT4KICAgIDwvc3R5bGU+CjwvcmVzb3VyY2VzPgo=
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SubSettingsTheme" parent="Base.Theme.HyperCeiler.DayNight">
+
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+        <item name="android:windowBackground">@color/miuix_design_default_color_surface_variant_light</item>
+
+        <item name="contentAutoFitSystemWindow">false</item>
+        <item name="windowExtraPaddingHorizontalEnable">true</item>
+        <item name="windowExtraPaddingApplyToContentEnable">false</item>
+
+        <item name="preferenceTheme">@style/ThemeOverlay.Preference.Light.OS2</item>
+
+        <item name="textColorDialogListItem">@color/miuix_appcompat_dialog_list_text_light</item>
+        <item name="dialogListPreferredItemHeight">@dimen/miuix_appcompat_dialog_list_preferred_item_height</item>
+
+        <item name="dialogListItemBackground">@drawable/miuix_appcompat_list_item_bg_dialog_light</item>
+        <item name="dialogMultiChoiceListItemBackground">@drawable/miuix_appcompat_list_item_bg_multichoice_light</item>
+        <item name="dialogMultiChoiceListItemForeground">@drawable/miuix_appcompat_list_item_fg_multichoice_light</item>
+    </style>
+
+
+    <style name="SubPickerTheme" parent="Theme.AppCompat.DayNight">
+        <item name="android:actionBarItemBackground">@android:color/transparent</item>
+        <item name="searchActionModeInputBackground">@color/miuix_design_default_color_surface_variant_light</item>
+        <item name="windowSearchMask">@color/miuix_design_default_color_surface_variant_light</item>
+        <item name="android:windowBackground">@color/miuix_design_default_color_surface_variant_light</item>
+        <item name="windowSplitActionBar">true</item>
+        <item name="endActionMenuEnabled">true</item>
+    </style>
+
+    <style name="AprilFoolsPreferenceTheme" parent="@style/ThemeOverlay.Preference.Light.OS2">
+        <item name="switchPreferenceStyle">@style/AprilFoolspreSwitchPreference</item>
+    </style>
+</resources>

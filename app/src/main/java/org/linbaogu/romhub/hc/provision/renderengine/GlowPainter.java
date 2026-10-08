@@ -1,1 +1,170 @@
-LyoKICogVGhpcyBmaWxlIGlzIHBhcnQgb2YgUk9NIEh1YiwgcmVsZWFzZWQgdW5kZXIgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSB2My4wLgogKgogKiDmnKzmlofku7bnp7vmpI0gLyDmlLnlhpnoh6ogSHlwZXJDZWlsZXLvvIhBR1BMLTMuMO+8jENvcHlyaWdodCAoQykgMjAyMy0yMDI2IEh5cGVyQ2VpbGVyCiAqIENvbnRyaWJ1dGlvbnPvvInvvIzmiJbkuLrlhbbnrYnku7fmm7/ouqvlrp7njrAg4oCU4oCUIOWujOaVtOadpea6kOS4jum4o+iwouingemhueebruagueebruW9lSBOT1RJQ0UubWTjgIIKICoKICogVGhpcyBwcm9ncmFtIGlzIGZyZWUgc29mdHdhcmU6IHlvdSBjYW4gcmVkaXN0cmlidXRlIGl0IGFuZC9vciBtb2RpZnkgaXQgdW5kZXIgdGhlIHRlcm1zCiAqIG9mIHRoZSBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UgYXMgcHVibGlzaGVkIGJ5IHRoZSBGcmVlIFNvZnR3YXJlIEZvdW5kYXRpb24sCiAqIGVpdGhlciB2ZXJzaW9uIDMgb2YgdGhlIExpY2Vuc2UuCiAqCiAqIFRoaXMgcHJvZ3JhbSBpcyBkaXN0cmlidXRlZCBpbiB0aGUgaG9wZSB0aGF0IGl0IHdpbGwgYmUgdXNlZnVsLCBidXQgV0lUSE9VVCBBTlkgV0FSUkFOVFk7CiAqIHdpdGhvdXQgZXZlbiB0aGUgaW1wbGllZCB3YXJyYW50eSBvZiBNRVJDSEFOVEFCSUxJVFkgb3IgRklUTkVTUyBGT1IgQSBQQVJUSUNVTEFSIFBVUlBPU0UuCiAqIFNlZSB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGZvciBtb3JlIGRldGFpbHMuCiAqCiAqIFlvdSBzaG91bGQgaGF2ZSByZWNlaXZlZCBhIGNvcHkgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBhbG9uZyB3aXRoIHRoaXMKICogcHJvZ3JhbS4gIElmIG5vdCwgc2VlIDxodHRwczovL3d3dy5nbnUub3JnL2xpY2Vuc2VzLz4uCiAqLwoKcGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLmhjLnByb3Zpc2lvbi5yZW5kZXJlbmdpbmU7CgppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQ7CmltcG9ydCBhbmRyb2lkLmNvbnRlbnQucmVzLlJlc291cmNlczsKaW1wb3J0IGFuZHJvaWQuZ3JhcGhpY3MuUmVuZGVyRWZmZWN0OwppbXBvcnQgYW5kcm9pZC5ncmFwaGljcy5SdW50aW1lU2hhZGVyOwppbXBvcnQgYW5kcm9pZC51dGlsLkxvZzsKCmltcG9ydCBvcmcubGluYmFvZ3Uucm9taHViLlI7CgppbXBvcnQgamF2YS5pby5JbnB1dFN0cmVhbTsKaW1wb3J0IGphdmEudXRpbC5TY2FubmVyOwoKcHVibGljIGNsYXNzIEdsb3dQYWludGVyIHsKCgogICAgZmxvYXQgdVRpbWU7CiAgICBmbG9hdFtdIHVSZXNvbHV0aW9uID0gezE5MjAuMGYsIDEwODAuMGZ9OwogICAgbG9uZyBtRnJhbWVEdXJhdGlvbiA9IDE2OwogICAgZmxvYXQgdVNjYWxlMiA9IDAuODJmOwogICAgZmxvYXQgdVNwZWVkMiA9IDAuNDlmOwogICAgZmxvYXQgdUNvbG9ySW5NaW4gPSAwLjNmOwogICAgZmxvYXQgdUNvbG9ySW5NYXggPSAxLjBmOwogICAgZmxvYXQgdUNvbG9yT3V0TWluID0gMC4zZjsKICAgIGZsb2F0IHVDb2xvck91dE1heCA9IDAuODZmOwogICAgZmxvYXQgdUNvbG9yTWlkUG9pbnQgPSAwLjQ3ZjsKICAgIGZsb2F0IHVVc2VPa2xhYiA9IDEuMGY7CiAgICBmbG9hdFtdIHVDb2xvckJsYWNrID0gezAuOTYxZiwgMC4xNTdmLCAwLjE1N2Z9OwogICAgZmxvYXRbXSB1Q29sb3JNaWQgPSB7MC42MDRmLCAwLjY1OWYsIDAuOTYxZn07CiAgICBmbG9hdFtdIHVDb2xvcldoaXRlID0gezAuMzAyZiwgMC4yOWYsIDAuODQzZn07CiAgICBmbG9hdCB1U2NhbGUgPSAxLjNmOwogICAgZmxvYXQgdVNwZWVkID0gMC40ZjsKICAgIGZsb2F0IHVCcmlnaHRuZXNzSW5NaW4gPSAwLjI1ZjsKICAgIGZsb2F0IHVCcmlnaHRuZXNzSW5NYXggPSAxLjBmOwogICAgZmxvYXQgdUJyaWdodG5lc3NPdXRNaW4gPSAwLjI1ZjsKICAgIGZsb2F0IHVCcmlnaHRuZXNzT3V0TWF4ID0gMS4wZjsKICAgIGZsb2F0IHVTaG93Q2lyY2xlID0gMS4wZjsKICAgIGZsb2F0IHVDaXJjbGVUaGlja25lc3MgPSAwLjRmOwogICAgZmxvYXQgdUNpcmNsZUZpbmFsUmFkaXVzID0gMS4wZjsKICAgIGZsb2F0IHVDaXJjbGVZT2Zmc2V0ID0gMC4xZjsKICAgIGZsb2F0IHVDaXJjbGVTcGVlZCA9IDAuOWY7CiAgICBmbG9hdCB1Q2lyY2xlQ29sb3JGcmVxID0gMS4wZjsKICAgIGZsb2F0IHVDaXJjbGVDb2xvclNwZWVkID0gMC4wZjsKICAgIGZsb2F0IHVDaXJjbGVFYXNpbmcgPSAxLjRmOwogICAgZmxvYXQgdUNpcmNsZUFuaW1hdGlvbk9mZnNldCA9IDAuMGY7CiAgICBmbG9hdCB1TWFza0RlbGF5ID0gMC4zZjsKICAgIGZsb2F0IHVNYXNrVGhpY2tuZXNzID0gMC4zZjsKICAgIGZsb2F0IHVDaXJjbGVTY3JlZW5CbGVuZCA9IDEuMGY7CiAgICBmbG9hdCB1Q2lyY2xlQWRkQmxlbmQgPSAwLjA0ZjsKICAgIGZsb2F0IHVDaXJjbGVDb2xvck9mZnNldCA9IDAuMjVmOwogICAgZmxvYXQgdUNpcmNsZVVWRGlzdG9ydCA9IDAuMGY7CiAgICBmbG9hdCB1Q29sb3JUb0Rpc3RvcnRXaWR0aFJhdGlvID0gMC42ZjsKICAgIGZsb2F0IHVEaXN0b3J0U3RhcnRUaW1lID0gMC4yZjsKICAgIGZsb2F0IHVEaXN0b3J0RW5kVGltZSA9IDAuM2Y7CiAgICBmbG9hdCB1RGlzdG9ydFN0YXJ0ID0gMC4wZjsKICAgIGZsb2F0IHVEaXN0b3J0RW5kID0gMS4wZjsKICAgIGZsb2F0IHVTdHJpcGVGcmVxdWVuY3kgPSAwLjBmOwogICAgZmxvYXQgdVN0cmlwZVN0cmVuZ3RoWCA9IDAuMGY7CiAgICBmbG9hdCB1U3RyaXBlU3RyZW5ndGhZID0gMC4wZjsKICAgIGZsb2F0IHVTdHJpcGVVVkRpc3RvcnQgPSAwLjBmOwoKICAgIFJ1bnRpbWVTaGFkZXIgbVNoYWRlcjsKCiAgICBwdWJsaWMgR2xvd1BhaW50ZXIoQ29udGV4dCBjb250ZXh0KSB7CiAgICAgICAgU3RyaW5nIHN0ckxvYWRTaGFkZXIgPSBsb2FkU2hhZGVyKGNvbnRleHQuZ2V0UmVzb3VyY2VzKCksIFIucmF3Lmdsb3cpOwogICAgICAgIHN0ckxvYWRTaGFkZXIuZ2V0Q2xhc3MoKTsKICAgICAgICBtU2hhZGVyID0gbmV3IFJ1bnRpbWVTaGFkZXIoc3RyTG9hZFNoYWRlcik7CiAgICAgICAgbVNoYWRlci5zZXRGbG9hdFVuaWZvcm0oInVTY2FsZTIiLCB1U2NhbGUyKTsKICAgICAgICBtU2hhZGVyLnNldEZsb2F0VW5pZm9ybSgidVNwZWVkMiIsIHVTcGVlZDIpOwogICAgICAgIG1TaGFkZXIuc2V0RmxvYXRVbmlmb3JtKCJ1Q29sb3JJbk1pbiIsIHVDb2xvckluTWluKTsKICAgICAgICBtU2hhZGVyLnNldEZsb2F0VW5pZm9ybSgidUNvbG9ySW5NYXgiLCB1Q29sb3JJbk1heCk7CiAgICAgICAgbVNoYWRlci5zZXRGbG9hdFVuaWZvcm0oInVDb2xvck91dE1pbiIsIHRoaXMudUNvbG9yT3V0TWluKTsKICAgICAgICBtU2hhZGVyLnNldEZsb2F0VW5pZm9ybSgidUNvbG9yT3V0TWF4IiwgdGhpcy51Q29sb3JPdXRNYXgpOwogICAgICAgIG1TaGFkZXIuc2V0RmxvYXRVbmlmb3JtKCJ1Q29sb3JNaWRQb2ludCIsIHRoaXMudUNvbG9yTWlkUG9pbnQpOwogICAgICAgIG1TaGFkZXIuc2V0RmxvYXRVbmlmb3JtKCJ1VXNlT2tsYWIiLCB0aGlzLnVVc2VPa2xhYik7CiAgICAgICAgbVNoYWRlci5zZXRGbG9hdFVuaWZvcm0oInVDb2xvckJsYWNrIiwgdGhpcy51Q29sb3JCbGFjayk7CiAgICAgICAgbVNoYWRlci5zZXRGbG9hdFVuaWZvcm0oInVDb2xvck1pZCIsIHRoaXMudUNvbG9yTWlkKTsKICAgICAgICBtU2hhZGVyLnNldEZsb2F0VW5pZm9ybSgidUNvbG9yV2hpdGUiLCB0aGlzLnVDb2xvcldoaXRlKTsKICAgICAgICBtU2hhZGVyLnNldEZsb2F0VW5pZm9ybSgidVNjYWxlIiwgdGhpcy51U2NhbGUpOwogICAgICAgIG1TaGFkZXIuc2V0RmxvYXRVbmlmb3JtKCJ1U3BlZWQiLCB0aGlzLnVTcGVlZCk7CiAgICAgICAgbVNoYWRlci5zZXRGbG9hdFVuaWZvcm0oInVCcmlnaHRuZXNzSW5NaW4iLCB0aGlzLnVCcmlnaHRuZXNzSW5NaW4pOwogICAgICAgIG1TaGFkZXIuc2V0RmxvYXRVbmlmb3JtKCJ1QnJpZ2h0bmVzc0luTWF4IiwgdGhpcy51QnJpZ2h0bmVzc0luTWF4KTsKICAgICAgICBtU2hhZGVyLnNldEZsb2F0VW5pZm9ybSgidUJyaWdodG5lc3NPdXRNaW4iLCB0aGlzLnVCcmlnaHRuZXNzT3V0TWluKTsKICAgICAgICBtU2hhZGVyLnNldEZsb2F0VW5pZm9ybSgidUJyaWdodG5lc3NPdXRNYXgiLCB0aGlzLnVCcmlnaHRuZXNzT3V0TWF4KTsKICAgICAgICBtU2hhZGVyLnNldEZsb2F0VW5pZm9ybSgidVNob3dDaXJjbGUiLCB0aGlzLnVTaG93Q2lyY2xlKTsKICAgICAgICBtU2hhZGVyLnNldEZsb2F0VW5pZm9ybSgidUNpcmNsZVRoaWNrbmVzcyIsIHRoaXMudUNpcmNsZVRoaWNrbmVzcyk7CiAgICAgICAgbVNoYWRlci5zZXRGbG9hdFVuaWZvcm0oInVDaXJjbGVGaW5hbFJhZGl1cyIsIHRoaXMudUNpcmNsZUZpbmFsUmFkaXVzKTsKICAgICAgICBtU2hhZGVyLnNldEZsb2F0VW5pZm9ybSgidUNpcmNsZVlPZmZzZXQiLCB0aGlzLnVDaXJjbGVZT2Zmc2V0KTsKICAgICAgICBtU2hhZGVyLnNldEZsb2F0VW5pZm9ybSgidUNpcmNsZVNwZWVkIiwgdGhpcy51Q2lyY2xlU3BlZWQpOwogICAgICAgIG1TaGFkZXIuc2V0RmxvYXRVbmlmb3JtKCJ1Q2lyY2xlQ29sb3JGcmVxIiwgdGhpcy51Q2lyY2xlQ29sb3JGcmVxKTsKICAgICAgICBtU2hhZGVyLnNldEZsb2F0VW5pZm9ybSgidUNpcmNsZUNvbG9yU3BlZWQiLCB0aGlzLnVDaXJjbGVDb2xvclNwZWVkKTsKICAgICAgICBtU2hhZGVyLnNldEZsb2F0VW5pZm9ybSgidUNpcmNsZUVhc2luZyIsIHRoaXMudUNpcmNsZUVhc2luZyk7CiAgICAgICAgbVNoYWRlci5zZXRGbG9hdFVuaWZvcm0oInVDaXJjbGVBbmltYXRpb25PZmZzZXQiLCB0aGlzLnVDaXJjbGVBbmltYXRpb25PZmZzZXQpOwogICAgICAgIG1TaGFkZXIuc2V0RmxvYXRVbmlmb3JtKCJ1TWFza0RlbGF5IiwgdGhpcy51TWFza0RlbGF5KTsKICAgICAgICBtU2hhZGVyLnNldEZsb2F0VW5pZm9ybSgidU1hc2tUaGlja25lc3MiLCB0aGlzLnVNYXNrVGhpY2tuZXNzKTsKICAgICAgICBtU2hhZGVyLnNldEZsb2F0VW5pZm9ybSgidUNpcmNsZVNjcmVlbkJsZW5kIiwgdGhpcy51Q2lyY2xlU2NyZWVuQmxlbmQpOwogICAgICAgIG1TaGFkZXIuc2V0RmxvYXRVbmlmb3JtKCJ1Q2lyY2xlQWRkQmxlbmQiLCB0aGlzLnVDaXJjbGVBZGRCbGVuZCk7CiAgICAgICAgbVNoYWRlci5zZXRGbG9hdFVuaWZvcm0oInVDaXJjbGVDb2xvck9mZnNldCIsIHRoaXMudUNpcmNsZUNvbG9yT2Zmc2V0KTsKICAgICAgICBtU2hhZGVyLnNldEZsb2F0VW5pZm9ybSgidUNpcmNsZVVWRGlzdG9ydCIsIHVDaXJjbGVVVkRpc3RvcnQpOwogICAgICAgIG1TaGFkZXIuc2V0RmxvYXRVbmlmb3JtKCJ1Q29sb3JUb0Rpc3RvcnRXaWR0aFJhdGlvIiwgdUNvbG9yVG9EaXN0b3J0V2lkdGhSYXRpbyk7CiAgICAgICAgbVNoYWRlci5zZXRGbG9hdFVuaWZvcm0oInVEaXN0b3J0U3RhcnRUaW1lIiwgdURpc3RvcnRTdGFydFRpbWUpOwogICAgICAgIG1TaGFkZXIuc2V0RmxvYXRVbmlmb3JtKCJ1RGlzdG9ydEVuZFRpbWUiLCB1RGlzdG9ydEVuZFRpbWUpOwogICAgICAgIG1TaGFkZXIuc2V0RmxvYXRVbmlmb3JtKCJ1RGlzdG9ydFN0YXJ0IiwgdURpc3RvcnRTdGFydCk7CiAgICAgICAgbVNoYWRlci5zZXRGbG9hdFVuaWZvcm0oInVEaXN0b3J0RW5kIiwgdURpc3RvcnRFbmQpOwogICAgICAgIG1TaGFkZXIuc2V0RmxvYXRVbmlmb3JtKCJ1U3RyaXBlRnJlcXVlbmN5IiwgdVN0cmlwZUZyZXF1ZW5jeSk7CiAgICAgICAgbVNoYWRlci5zZXRGbG9hdFVuaWZvcm0oInVTdHJpcGVTdHJlbmd0aFgiLCB1U3RyaXBlU3RyZW5ndGhYKTsKICAgICAgICBtU2hhZGVyLnNldEZsb2F0VW5pZm9ybSgidVN0cmlwZVN0cmVuZ3RoWSIsIHVTdHJpcGVTdHJlbmd0aFkpOwogICAgICAgIG1TaGFkZXIuc2V0RmxvYXRVbmlmb3JtKCJ1U3RyaXBlVVZEaXN0b3J0IiwgdVN0cmlwZVVWRGlzdG9ydCk7CiAgICB9CgogICAgcHVibGljIFJlbmRlckVmZmVjdCBnZXRSZW5kZXJFZmZlY3QoKSB7CiAgICAgICAgcmV0dXJuIFJlbmRlckVmZmVjdC5jcmVhdGVTaGFkZXJFZmZlY3QobVNoYWRlcik7CiAgICB9CgogICAgcHVibGljIHZvaWQgc2V0QW5pbVRpbWUoZmxvYXQgdmFsdWUpIHsKICAgICAgICBtU2hhZGVyLnNldEZsb2F0VW5pZm9ybSgidVRpbWUiLCB2YWx1ZSk7CiAgICB9CgogICAgcHVibGljIHZvaWQgc2V0UmVzb2x1dGlvbihmbG9hdCB2YWx1ZTEsIGZsb2F0IHZhbHVlMikgewogICAgICAgIG1TaGFkZXIuc2V0RmxvYXRVbmlmb3JtKCJ1UmVzb2x1dGlvbiIsIHZhbHVlMSwgdmFsdWUyKTsKICAgIH0KCiAgICBwdWJsaWMgdm9pZCBzZXRDaXJjbGVZT2Zmc2V0KGZsb2F0IHZhbHVlKSB7CiAgICAgICAgdUNpcmNsZVlPZmZzZXQgPSB2YWx1ZTsKICAgICAgICBtU2hhZGVyLnNldEZsb2F0VW5pZm9ybSgidUNpcmNsZVlPZmZzZXQiLCB2YWx1ZSk7CiAgICB9CgogICAgcHVibGljIHZvaWQgbmVlZEFkbWlzc2lvbihib29sZWFuIG5lZWQpIHsKICAgICAgICBtU2hhZGVyLnNldEZsb2F0VW5pZm9ybSgidVNob3dDaXJjbGUiLCBuZWVkID8gMS4wZiA6IDAuMGYpOwogICAgfQoKICAgIHByaXZhdGUgU3RyaW5nIGxvYWRTaGFkZXIoUmVzb3VyY2VzIHJlc291cmNlcywgaW50IGkpIHsKICAgICAgICB0cnkgewogICAgICAgICAgICBJbnB1dFN0cmVhbSBpbnB1dFN0cmVhbU9wZW5SYXdSZXNvdXJjZSA9IHJlc291cmNlcy5vcGVuUmF3UmVzb3VyY2UoaSk7CiAgICAgICAgICAgIFNjYW5uZXIgc2Nhbm5lciA9IG5ldyBTY2FubmVyKGlucHV0U3RyZWFtT3BlblJhd1Jlc291cmNlKTsKICAgICAgICAgICAgU3RyaW5nQnVpbGRlciBzYiA9IG5ldyBTdHJpbmdCdWlsZGVyKCk7CiAgICAgICAgICAgIHdoaWxlIChzY2FubmVyLmhhc05leHRMaW5lKCkpIHsKICAgICAgICAgICAgICAgIHNiLmFwcGVuZChzY2FubmVyLm5leHRMaW5lKCkpOwogICAgICAgICAgICAgICAgc2IuYXBwZW5kKCJcbiIpOwogICAgICAgICAgICB9CiAgICAgICAgICAgIFN0cmluZyBzdHJpbmcgPSBzYi50b1N0cmluZygpOwogICAgICAgICAgICBzY2FubmVyLmNsb3NlKCk7CiAgICAgICAgICAgIGlmIChpbnB1dFN0cmVhbU9wZW5SYXdSZXNvdXJjZSAhPSBudWxsKSB7CiAgICAgICAgICAgICAgICBpbnB1dFN0cmVhbU9wZW5SYXdSZXNvdXJjZS5jbG9zZSgpOwogICAgICAgICAgICB9CiAgICAgICAgICAgIHJldHVybiBzdHJpbmc7CiAgICAgICAgfSBjYXRjaCAoRXhjZXB0aW9uIGUpIHsKICAgICAgICAgICAgTG9nLmUoIkVycm9yIiwgZS50b1N0cmluZygpKTsKICAgICAgICAgICAgcmV0dXJuIG51bGw7CiAgICAgICAgfQogICAgfQp9Cg==
+/*
+ * This file is part of ROM Hub, released under the GNU Affero General Public License v3.0.
+ *
+ * 本文件移植 / 改写自 HyperCeiler（AGPL-3.0，Copyright (C) 2023-2026 HyperCeiler
+ * Contributions），或为其等价替身实现 —— 完整来源与鸣谢见项目根目录 NOTICE.md。
+ *
+ * This program is free software: you can redistribute it and/or modify it under the terms
+ * of the GNU Affero General Public License as published by the Free Software Foundation,
+ * either version 3 of the License.
+ *
+ * This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+ * without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * See the GNU Affero General Public License for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License along with this
+ * program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
+package org.linbaogu.romhub.hc.provision.renderengine;
+
+import android.content.Context;
+import android.content.res.Resources;
+import android.graphics.RenderEffect;
+import android.graphics.RuntimeShader;
+import android.util.Log;
+
+import org.linbaogu.romhub.R;
+
+import java.io.InputStream;
+import java.util.Scanner;
+
+public class GlowPainter {
+
+
+    float uTime;
+    float[] uResolution = {1920.0f, 1080.0f};
+    long mFrameDuration = 16;
+    float uScale2 = 0.82f;
+    float uSpeed2 = 0.49f;
+    float uColorInMin = 0.3f;
+    float uColorInMax = 1.0f;
+    float uColorOutMin = 0.3f;
+    float uColorOutMax = 0.86f;
+    float uColorMidPoint = 0.47f;
+    float uUseOklab = 1.0f;
+    float[] uColorBlack = {0.961f, 0.157f, 0.157f};
+    float[] uColorMid = {0.604f, 0.659f, 0.961f};
+    float[] uColorWhite = {0.302f, 0.29f, 0.843f};
+    float uScale = 1.3f;
+    float uSpeed = 0.4f;
+    float uBrightnessInMin = 0.25f;
+    float uBrightnessInMax = 1.0f;
+    float uBrightnessOutMin = 0.25f;
+    float uBrightnessOutMax = 1.0f;
+    float uShowCircle = 1.0f;
+    float uCircleThickness = 0.4f;
+    float uCircleFinalRadius = 1.0f;
+    float uCircleYOffset = 0.1f;
+    float uCircleSpeed = 0.9f;
+    float uCircleColorFreq = 1.0f;
+    float uCircleColorSpeed = 0.0f;
+    float uCircleEasing = 1.4f;
+    float uCircleAnimationOffset = 0.0f;
+    float uMaskDelay = 0.3f;
+    float uMaskThickness = 0.3f;
+    float uCircleScreenBlend = 1.0f;
+    float uCircleAddBlend = 0.04f;
+    float uCircleColorOffset = 0.25f;
+    float uCircleUVDistort = 0.0f;
+    float uColorToDistortWidthRatio = 0.6f;
+    float uDistortStartTime = 0.2f;
+    float uDistortEndTime = 0.3f;
+    float uDistortStart = 0.0f;
+    float uDistortEnd = 1.0f;
+    float uStripeFrequency = 0.0f;
+    float uStripeStrengthX = 0.0f;
+    float uStripeStrengthY = 0.0f;
+    float uStripeUVDistort = 0.0f;
+
+    RuntimeShader mShader;
+
+    public GlowPainter(Context context) {
+        String strLoadShader = loadShader(context.getResources(), R.raw.glow);
+        strLoadShader.getClass();
+        mShader = new RuntimeShader(strLoadShader);
+        mShader.setFloatUniform("uScale2", uScale2);
+        mShader.setFloatUniform("uSpeed2", uSpeed2);
+        mShader.setFloatUniform("uColorInMin", uColorInMin);
+        mShader.setFloatUniform("uColorInMax", uColorInMax);
+        mShader.setFloatUniform("uColorOutMin", this.uColorOutMin);
+        mShader.setFloatUniform("uColorOutMax", this.uColorOutMax);
+        mShader.setFloatUniform("uColorMidPoint", this.uColorMidPoint);
+        mShader.setFloatUniform("uUseOklab", this.uUseOklab);
+        mShader.setFloatUniform("uColorBlack", this.uColorBlack);
+        mShader.setFloatUniform("uColorMid", this.uColorMid);
+        mShader.setFloatUniform("uColorWhite", this.uColorWhite);
+        mShader.setFloatUniform("uScale", this.uScale);
+        mShader.setFloatUniform("uSpeed", this.uSpeed);
+        mShader.setFloatUniform("uBrightnessInMin", this.uBrightnessInMin);
+        mShader.setFloatUniform("uBrightnessInMax", this.uBrightnessInMax);
+        mShader.setFloatUniform("uBrightnessOutMin", this.uBrightnessOutMin);
+        mShader.setFloatUniform("uBrightnessOutMax", this.uBrightnessOutMax);
+        mShader.setFloatUniform("uShowCircle", this.uShowCircle);
+        mShader.setFloatUniform("uCircleThickness", this.uCircleThickness);
+        mShader.setFloatUniform("uCircleFinalRadius", this.uCircleFinalRadius);
+        mShader.setFloatUniform("uCircleYOffset", this.uCircleYOffset);
+        mShader.setFloatUniform("uCircleSpeed", this.uCircleSpeed);
+        mShader.setFloatUniform("uCircleColorFreq", this.uCircleColorFreq);
+        mShader.setFloatUniform("uCircleColorSpeed", this.uCircleColorSpeed);
+        mShader.setFloatUniform("uCircleEasing", this.uCircleEasing);
+        mShader.setFloatUniform("uCircleAnimationOffset", this.uCircleAnimationOffset);
+        mShader.setFloatUniform("uMaskDelay", this.uMaskDelay);
+        mShader.setFloatUniform("uMaskThickness", this.uMaskThickness);
+        mShader.setFloatUniform("uCircleScreenBlend", this.uCircleScreenBlend);
+        mShader.setFloatUniform("uCircleAddBlend", this.uCircleAddBlend);
+        mShader.setFloatUniform("uCircleColorOffset", this.uCircleColorOffset);
+        mShader.setFloatUniform("uCircleUVDistort", uCircleUVDistort);
+        mShader.setFloatUniform("uColorToDistortWidthRatio", uColorToDistortWidthRatio);
+        mShader.setFloatUniform("uDistortStartTime", uDistortStartTime);
+        mShader.setFloatUniform("uDistortEndTime", uDistortEndTime);
+        mShader.setFloatUniform("uDistortStart", uDistortStart);
+        mShader.setFloatUniform("uDistortEnd", uDistortEnd);
+        mShader.setFloatUniform("uStripeFrequency", uStripeFrequency);
+        mShader.setFloatUniform("uStripeStrengthX", uStripeStrengthX);
+        mShader.setFloatUniform("uStripeStrengthY", uStripeStrengthY);
+        mShader.setFloatUniform("uStripeUVDistort", uStripeUVDistort);
+    }
+
+    public RenderEffect getRenderEffect() {
+        return RenderEffect.createShaderEffect(mShader);
+    }
+
+    public void setAnimTime(float value) {
+        mShader.setFloatUniform("uTime", value);
+    }
+
+    public void setResolution(float value1, float value2) {
+        mShader.setFloatUniform("uResolution", value1, value2);
+    }
+
+    public void setCircleYOffset(float value) {
+        uCircleYOffset = value;
+        mShader.setFloatUniform("uCircleYOffset", value);
+    }
+
+    public void needAdmission(boolean need) {
+        mShader.setFloatUniform("uShowCircle", need ? 1.0f : 0.0f);
+    }
+
+    private String loadShader(Resources resources, int i) {
+        try {
+            InputStream inputStreamOpenRawResource = resources.openRawResource(i);
+            Scanner scanner = new Scanner(inputStreamOpenRawResource);
+            StringBuilder sb = new StringBuilder();
+            while (scanner.hasNextLine()) {
+                sb.append(scanner.nextLine());
+                sb.append("\n");
+            }
+            String string = sb.toString();
+            scanner.close();
+            if (inputStreamOpenRawResource != null) {
+                inputStreamOpenRawResource.close();
+            }
+            return string;
+        } catch (Exception e) {
+            Log.e("Error", e.toString());
+            return null;
+        }
+    }
+}

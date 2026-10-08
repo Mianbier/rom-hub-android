@@ -1,1 +1,187 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IS0tCiAgfiBUaGlzIGZpbGUgaXMgcGFydCBvZiBIeXBlckNlaWxlci4KICB+CiAgfiBIeXBlckNlaWxlciBpcyBmcmVlIHNvZnR3YXJlOiB5b3UgY2FuIHJlZGlzdHJpYnV0ZSBpdCBhbmQvb3IgbW9kaWZ5CiAgfiBpdCB1bmRlciB0aGUgdGVybXMgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBhcwogIH4gcHVibGlzaGVkIGJ5IHRoZSBGcmVlIFNvZnR3YXJlIEZvdW5kYXRpb24sIGVpdGhlciB2ZXJzaW9uIDMgb2YgdGhlCiAgfiBMaWNlbnNlLgogIH4KICB+IFRoaXMgcHJvZ3JhbSBpcyBkaXN0cmlidXRlZCBpbiB0aGUgaG9wZSB0aGF0IGl0IHdpbGwgYmUgdXNlZnVsLAogIH4gYnV0IFdJVEhPVVQgQU5ZIFdBUlJBTlRZOyB3aXRob3V0IGV2ZW4gdGhlIGltcGxpZWQgd2FycmFudHkgb2YKICB+IE1FUkNIQU5UQUJJTElUWSBvciBGSVRORVNTIEZPUiBBIFBBUlRJQ1VMQVIgUFVSUE9TRS4gIFNlZSB0aGUKICB+IEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBmb3IgbW9yZSBkZXRhaWxzLgogIH4KICB+IFlvdSBzaG91bGQgaGF2ZSByZWNlaXZlZCBhIGNvcHkgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZQogIH4gYWxvbmcgd2l0aCB0aGlzIHByb2dyYW0uICBJZiBub3QsIHNlZSA8aHR0cHM6Ly93d3cuZ251Lm9yZy9saWNlbnNlcy8+LgogIH4KICB+IENvcHlyaWdodCAoQykgMjAyMy0yMDI2IEh5cGVyQ2VpbGVyIENvbnRyaWJ1dGlvbnMKICAtLT4KPFByZWZlcmVuY2VTY3JlZW4geG1sbnM6YW5kcm9pZD0iaHR0cDovL3NjaGVtYXMuYW5kcm9pZC5jb20vYXBrL3Jlcy9hbmRyb2lkIgogICAgeG1sbnM6YXBwPSJodHRwOi8vc2NoZW1hcy5hbmRyb2lkLmNvbS9hcGsvcmVzLWF1dG8iCiAgICBhcHA6bXlMb2NhdGlvbj0iQHN0cmluZy9zeXN0ZW1fdWlfc3RhdHVzYmFyX25ldHdvcmtfc3BlZWRfaW5kaWNhdG9yX3RpdGxlIgogICAgYXBwOnF1aWNrX3Jlc3RhcnQ9ImNvbS5hbmRyb2lkLnN5c3RlbXVpIj4KICAgIDxQcmVmZXJlbmNlQ2F0ZWdvcnk+CiAgICAgICAgPFN3aXRjaFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpkZWZhdWx0VmFsdWU9ImZhbHNlIgogICAgICAgICAgICBhbmRyb2lkOmtleT0icHJlZnNfa2V5X3N5c3RlbV91aV9zdGF0dXNiYXJfbmV0d29ya19zcGVlZF9hbGxfc3RhdHVzX2VuYWJsZSIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iQHN0cmluZy9zeXN0ZW1fdWlfc3RhdHVzYmFyX25ldHdvcmtfc3BlZWRfYWxsX3N0YXR1cyIgLz4KICAgIDwvUHJlZmVyZW5jZUNhdGVnb3J5PgoKICAgIDxQcmVmZXJlbmNlQ2F0ZWdvcnkKICAgICAgICBhbmRyb2lkOmRlcGVuZGVuY3k9InByZWZzX2tleV9zeXN0ZW1fdWlfc3RhdHVzYmFyX25ldHdvcmtfc3BlZWRfYWxsX3N0YXR1c19lbmFibGUiCiAgICAgICAgYW5kcm9pZDp0aXRsZT0iQHN0cmluZy9zeXN0ZW1fdWlfc3RhdHVzYmFyX2luZGljYXRvcl9kZWZhdWx0X3RpdGxlIj4KICAgICAgICA8U3dpdGNoUHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOmRlZmF1bHRWYWx1ZT0iZmFsc2UiCiAgICAgICAgICAgIGFuZHJvaWQ6a2V5PSJwcmVmc19rZXlfc3lzdGVtX3VpX3N0YXR1c2Jhcl9uZXR3b3JrX3NwZWVkX2ZvbnRfc2l6ZV9lbmFibGUiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvc3lzdGVtX3VpX3N0YXR1c2Jhcl9uZXR3b3JrX3NwZWVkX2ZvbnRfc2l6ZSIgLz4KCiAgICAgICAgPFNlZWtCYXJQcmVmZXJlbmNlQ29tcGF0CiAgICAgICAgICAgIGFuZHJvaWQ6ZGVwZW5kZW5jeT0icHJlZnNfa2V5X3N5c3RlbV91aV9zdGF0dXNiYXJfbmV0d29ya19zcGVlZF9mb250X3NpemVfZW5hYmxlIgogICAgICAgICAgICBhbmRyb2lkOmtleT0icHJlZnNfa2V5X3N5c3RlbV91aV9zdGF0dXNiYXJfbmV0d29ya19zcGVlZF9mb250X3NpemUiCiAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0PSJAbGF5b3V0L21pdWl4X3ByZWZlcmVuY2Vfd2lkZ2V0X3NlZWtiYXJfY29tcGF0X25vX3RpdGxlIgogICAgICAgICAgICBhcHA6ZGVmYXVsdFZhbHVlPSIxMyIKICAgICAgICAgICAgYXBwOmRlZmF1bHRWYWx1ZVRpdGxlPSJAc3RyaW5nL2FycmF5X2RlZmF1bHQiCiAgICAgICAgICAgIGFwcDpmb3JtYXQ9IiUuMWYgZHAiCiAgICAgICAgICAgIGFwcDptYXhWYWx1ZT0iNDAiCiAgICAgICAgICAgIGFwcDptaW5WYWx1ZT0iOCIKICAgICAgICAgICAgYXBwOmRpdmlkZXJWYWx1ZT0iMiIKICAgICAgICAgICAgYXBwOnNob3dTZWVrQmFyVmFsdWU9InRydWUiCiAgICAgICAgICAgIGFwcDpzdGVwVmFsdWU9IjEiIC8+CgogICAgICAgIDxmYW4ucHJlZmVyZW5jZS5Ecm9wRG93blByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpkZWZhdWx0VmFsdWU9IjAiCiAgICAgICAgICAgIGFuZHJvaWQ6a2V5PSJwcmVmc19rZXlfc3lzdGVtX3VpX3N0YXR1c2Jhcl9uZXR3b3JrX3NwZWVkX2ZvbnRfc3R5bGUiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvc3lzdGVtX3VpX3N0YXR1c2Jhcl9uZXR3b3JrX3NwZWVkX2ZvbnRfc3R5bGUiCiAgICAgICAgICAgIGFwcDplbnRyaWVzPSJAYXJyYXkvbmV0d29ya19zcGVlZF9mb250X3N0eWxlIgogICAgICAgICAgICBhcHA6ZW50cnlWYWx1ZXM9IkBhcnJheS9uZXR3b3JrX3NwZWVkX2ZvbnRfc3R5bGVfdmFsdWUiIC8+CgogICAgICAgIDxTd2l0Y2hQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6ZGVmYXVsdFZhbHVlPSJmYWxzZSIKICAgICAgICAgICAgYW5kcm9pZDprZXk9InByZWZzX2tleV9zeXN0ZW1fdWlfc3RhdHVzYmFyX25ldHdvcmtfc3BlZWRfc2VjX3VuaXQiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvc3lzdGVtX3VpX3N0YXR1c2Jhcl9uZXR3b3JrX3NwZWVkX3NlY191bml0IiAvPgoKICAgICAgICA8U3dpdGNoUHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOmRlZmF1bHRWYWx1ZT0iZmFsc2UiCiAgICAgICAgICAgIGFuZHJvaWQ6a2V5PSJwcmVmc19rZXlfc3lzdGVtX3VpX3N0YXR1c2Jhcl9uZXR3b3JrX3NwZWVkX2hpZGUiCiAgICAgICAgICAgIGFuZHJvaWQ6c3VtbWFyeT0iQHN0cmluZy9zeXN0ZW1fdWlfc3RhdHVzYmFyX25ldHdvcmtfc3BlZWRfaGlkZV9kZXNjIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJAc3RyaW5nL3N5c3RlbV91aV9zdGF0dXNiYXJfbmV0d29ya19zcGVlZF9oaWRlIiAvPgoKICAgICAgICA8U3dpdGNoUHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOmRlZmF1bHRWYWx1ZT0iZmFsc2UiCiAgICAgICAgICAgIGFuZHJvaWQ6ZGVwZW5kZW5jeT0icHJlZnNfa2V5X3N5c3RlbV91aV9zdGF0dXNiYXJfbmV0d29ya19zcGVlZF9oaWRlIgogICAgICAgICAgICBhbmRyb2lkOmtleT0icHJlZnNfa2V5X3N5c3RlbV91aV9zdGF0dXNiYXJfbmV0d29ya19zcGVlZF9oaWRlX2FsbCIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iQHN0cmluZy9zeXN0ZW1fdWlfc3RhdHVzYmFyX25ldHdvcmtfc3BlZWRfaGlkZV9hbGwiIC8+CgogICAgICAgIDxTZWVrQmFyUHJlZmVyZW5jZUNvbXBhdAogICAgICAgICAgICBhbmRyb2lkOmtleT0icHJlZnNfa2V5X3N5c3RlbV91aV9zdGF0dXNiYXJfbmV0d29ya19zcGVlZF9oaWRlX3Nsb3ciCiAgICAgICAgICAgIGFuZHJvaWQ6c3VtbWFyeT0iQHN0cmluZy9zeXN0ZW1fdWlfc3RhdHVzYmFyX25ldHdvcmtfc3BlZWRfaGlkZV9zbG93X2Rlc2MiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvc3lzdGVtX3VpX3N0YXR1c2Jhcl9uZXR3b3JrX3NwZWVkX2hpZGVfc2xvdyIKICAgICAgICAgICAgYXBwOmRlZmF1bHRWYWx1ZT0iNjQiCiAgICAgICAgICAgIGFwcDpkZWZhdWx0VmFsdWVUaXRsZT0iQHN0cmluZy9hcnJheV9kZWZhdWx0IgogICAgICAgICAgICBhcHA6Zm9ybWF0PSIlcyBLQi9zIgogICAgICAgICAgICBhcHA6bWF4VmFsdWU9IjIwNDgiCiAgICAgICAgICAgIGFwcDptaW5WYWx1ZT0iMSIKICAgICAgICAgICAgYXBwOnNob3dTZWVrQmFyVmFsdWU9InRydWUiCiAgICAgICAgICAgIGFwcDpzdGVwVmFsdWU9IjEiIC8+CgogICAgICAgIDxTZWVrQmFyUHJlZmVyZW5jZUNvbXBhdAogICAgICAgICAgICBhbmRyb2lkOmtleT0icHJlZnNfa2V5X3N5c3RlbV91aV9zdGF0dXNiYXJfbmV0d29ya19zcGVlZF91cGRhdGVfc3BhY2luZ3MiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvc3lzdGVtX3VpX3N0YXR1c2Jhcl9uZXR3b3JrX3NwZWVkX3VwZGF0ZV9zcGFjaW5nIgogICAgICAgICAgICBhcHA6ZGVmYXVsdFZhbHVlPSI0MCIKICAgICAgICAgICAgYXBwOmRlZmF1bHRWYWx1ZVRpdGxlPSJAc3RyaW5nL2FycmF5X2RlZmF1bHQiCiAgICAgICAgICAgIGFwcDpmb3JtYXQ9IiUuMWYgcyIKICAgICAgICAgICAgYXBwOm1heFZhbHVlPSIxMDAiCiAgICAgICAgICAgIGFwcDptaW5WYWx1ZT0iMTAiCiAgICAgICAgICAgIGFwcDpkaXZpZGVyVmFsdWU9IjEwIgogICAgICAgICAgICBhcHA6c2hvd1NlZWtCYXJWYWx1ZT0idHJ1ZSIKICAgICAgICAgICAgYXBwOnN0ZXBWYWx1ZT0iMSIgLz4KCiAgICA8L1ByZWZlcmVuY2VDYXRlZ29yeT4KCiAgICA8UHJlZmVyZW5jZUNhdGVnb3J5CiAgICAgICAgYW5kcm9pZDpkZXBlbmRlbmN5PSJwcmVmc19rZXlfc3lzdGVtX3VpX3N0YXR1c2Jhcl9uZXR3b3JrX3NwZWVkX2FsbF9zdGF0dXNfZW5hYmxlIgogICAgICAgIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvc3lzdGVtX3VpX3N0YXR1c2Jhcl9pbmRpY2F0b3JfZXhwYW5kX3RpdGxlIj4KICAgICAgICA8ZmFuLnByZWZlcmVuY2UuRHJvcERvd25QcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6ZGVmYXVsdFZhbHVlPSIwIgogICAgICAgICAgICBhbmRyb2lkOmtleT0icHJlZnNfa2V5X3N5c3RlbV91aV9zdGF0dXNiYXJfbmV0d29ya19zcGVlZF9zdHlsZSIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iQHN0cmluZy9zeXN0ZW1fdWlfc3RhdHVzYmFyX25ldHdvcmtfc3BlZWRfc3R5bGUiCiAgICAgICAgICAgIGFwcDplbnRyaWVzPSJAYXJyYXkvbmV0d29ya19zcGVlZF9zdHlsZSIKICAgICAgICAgICAgYXBwOmVudHJ5VmFsdWVzPSJAYXJyYXkvbmV0d29ya19zcGVlZF9zdHlsZV92YWx1ZSIgLz4KCiAgICAgICAgPFN3aXRjaFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpkZWZhdWx0VmFsdWU9ImZhbHNlIgogICAgICAgICAgICBhbmRyb2lkOmtleT0icHJlZnNfa2V5X3N5c3RlbV91aV9zdGF0dXNiYXJfbmV0d29ya19zcGVlZF9zd2FwX3BsYWNlcyIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iQHN0cmluZy9zeXN0ZW1fdWlfc3RhdHVzYmFyX25ldHdvcmtfc3BlZWRfc3dhcF9wbGFjZXMiIC8+CgogICAgICAgIDxmYW4ucHJlZmVyZW5jZS5Ecm9wRG93blByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpkZWZhdWx0VmFsdWU9IjIiCiAgICAgICAgICAgIGFuZHJvaWQ6a2V5PSJwcmVmc19rZXlfc3lzdGVtX3VpX3N0YXR1c2Jhcl9uZXR3b3JrX3NwZWVkX2ljb24iCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvc3lzdGVtX3VpX3N0YXR1c2Jhcl9uZXR3b3JrX3NwZWVkX2ljb24iCiAgICAgICAgICAgIGFwcDplbnRyaWVzPSJAYXJyYXkvc3lzdGVtX3VpX3N0YXR1c19iYXJfbmV0d29ya19pY29uIgogICAgICAgICAgICBhcHA6ZW50cnlWYWx1ZXM9IkBhcnJheS9zeXN0ZW1fdWlfc3RhdHVzX2Jhcl9uZXR3b3JrX2ljb25fdmFsdWUiIC8+CgogICAgICAgIDxmYW4ucHJlZmVyZW5jZS5Ecm9wRG93blByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpkZWZhdWx0VmFsdWU9IjEiCiAgICAgICAgICAgIGFuZHJvaWQ6a2V5PSJwcmVmc19rZXlfc3lzdGVtX3VpX3N0YXR1c2Jhcl9uZXR3b3JrX3NwZWVkX2FsaWduIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJAc3RyaW5nL2hvcml6b250YWxfYWxpZ25tZW50IgogICAgICAgICAgICBhcHA6ZW50cmllcz0iQGFycmF5L3N5c3RlbV91aV9zdGF0dXNfYmFyX2hvcml6b250YWxfYWxpZ24iCiAgICAgICAgICAgIGFwcDplbnRyeVZhbHVlcz0iQGFycmF5L3N5c3RlbV91aV9zdGF0dXNfYmFyX2hvcml6b250YWxfYWxpZ25fdmFsdWUiIC8+CgogICAgICAgIDxTZWVrQmFyUHJlZmVyZW5jZUNvbXBhdAogICAgICAgICAgICBhbmRyb2lkOmtleT0icHJlZnNfa2V5X3N5c3RlbV91aV9zdGF0dXNiYXJfbmV0d29ya19zcGVlZF9maXhlZGNvbnRlbnRfd2lkdGgiCiAgICAgICAgICAgIGFuZHJvaWQ6c3VtbWFyeT0iQHN0cmluZy9zeXN0ZW1fdWlfc3RhdHVzYmFyX2luZGljYXRvcl9maXhlZGNvbnRlbnRfd2lkdGhfZGVzYyIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iQHN0cmluZy9zeXN0ZW1fdWlfc3RhdHVzYmFyX2luZGljYXRvcl9maXhlZGNvbnRlbnRfd2lkdGgiCiAgICAgICAgICAgIGFwcDpkZWZhdWx0VmFsdWU9IjEwIgogICAgICAgICAgICBhcHA6ZGVmYXVsdFZhbHVlVGl0bGU9IkBzdHJpbmcvYXJyYXlfZGVmYXVsdCIKICAgICAgICAgICAgYXBwOmZvcm1hdD0iJXMgZHAiCiAgICAgICAgICAgIGFwcDptYXhWYWx1ZT0iMTUwIgogICAgICAgICAgICBhcHA6bWluVmFsdWU9IjEwIgogICAgICAgICAgICBhcHA6c2hvd1NlZWtCYXJWYWx1ZT0idHJ1ZSIKICAgICAgICAgICAgYXBwOnN0ZXBWYWx1ZT0iMSIgLz4KCiAgICAgICAgPFNlZWtCYXJQcmVmZXJlbmNlQ29tcGF0CiAgICAgICAgICAgIGFuZHJvaWQ6a2V5PSJwcmVmc19rZXlfc3lzdGVtX3VpX3N0YXR1c2Jhcl9uZXR3b3JrX3NwZWVkX3NwYWNpbmdfbWFyZ2luIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJAc3RyaW5nL3NwYWNpbmdfbWFyZ2luIgogICAgICAgICAgICBhcHA6ZGVmYXVsdFZhbHVlPSIxNiIKICAgICAgICAgICAgYXBwOmRlZmF1bHRWYWx1ZVRpdGxlPSJAc3RyaW5nL2FycmF5X2RlZmF1bHQiCiAgICAgICAgICAgIGFwcDpmb3JtYXQ9IiUuMmYgZHAiCiAgICAgICAgICAgIGFwcDptYXhWYWx1ZT0iMjIiCiAgICAgICAgICAgIGFwcDptaW5WYWx1ZT0iMTQiCiAgICAgICAgICAgIGFwcDpkaXZpZGVyVmFsdWU9IjIwIgogICAgICAgICAgICBhcHA6c3RlcFZhbHVlPSIxIiAvPgoKICAgICAgICA8U2Vla0JhclByZWZlcmVuY2VDb21wYXQKICAgICAgICAgICAgYW5kcm9pZDprZXk9InByZWZzX2tleV9zeXN0ZW1fdWlfc3RhdHVzYmFyX25ldHdvcmtfc3BlZWRfbGVmdF9tYXJnaW4iCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvbGVmdF9tYXJnaW4iCiAgICAgICAgICAgIGFwcDpkZWZhdWx0VmFsdWU9IjAiCiAgICAgICAgICAgIGFwcDpkZWZhdWx0VmFsdWVUaXRsZT0iQHN0cmluZy9hcnJheV9kZWZhdWx0IgogICAgICAgICAgICBhcHA6Zm9ybWF0PSIlLjFmIGRwIgogICAgICAgICAgICBhcHA6bWF4VmFsdWU9IjE2IgogICAgICAgICAgICBhcHA6ZGl2aWRlclZhbHVlPSIyIgogICAgICAgICAgICBhcHA6c3RlcFZhbHVlPSIxIiAvPgoKICAgICAgICA8U2Vla0JhclByZWZlcmVuY2VDb21wYXQKICAgICAgICAgICAgYW5kcm9pZDprZXk9InByZWZzX2tleV9zeXN0ZW1fdWlfc3RhdHVzYmFyX25ldHdvcmtfc3BlZWRfcmlnaHRfbWFyZ2luIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJAc3RyaW5nL3JpZ2h0X21hcmdpbiIKICAgICAgICAgICAgYXBwOmRlZmF1bHRWYWx1ZT0iMCIKICAgICAgICAgICAgYXBwOmRlZmF1bHRWYWx1ZVRpdGxlPSJAc3RyaW5nL2FycmF5X2RlZmF1bHQiCiAgICAgICAgICAgIGFwcDpmb3JtYXQ9IiUuMWYgZHAiCiAgICAgICAgICAgIGFwcDptYXhWYWx1ZT0iMTYiCiAgICAgICAgICAgIGFwcDpkaXZpZGVyVmFsdWU9IjIiCiAgICAgICAgICAgIGFwcDpzdGVwVmFsdWU9IjEiIC8+CgogICAgICAgIDxTZWVrQmFyUHJlZmVyZW5jZUNvbXBhdAogICAgICAgICAgICBhbmRyb2lkOmtleT0icHJlZnNfa2V5X3N5c3RlbV91aV9zdGF0dXNiYXJfbmV0d29ya19zcGVlZF92ZXJ0aWNhbF9vZmZzZXQiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvdmVydGljYWxfb2Zmc2V0IgogICAgICAgICAgICBhcHA6ZGVmYXVsdFZhbHVlPSI0MCIKICAgICAgICAgICAgYXBwOmRlZmF1bHRWYWx1ZVRpdGxlPSJAc3RyaW5nL2FycmF5X2RlZmF1bHQiCiAgICAgICAgICAgIGFwcDpmb3JtYXQ9IiUuMWYgZHAiCiAgICAgICAgICAgIGFwcDptYXhWYWx1ZT0iODAiCiAgICAgICAgICAgIGFwcDptaW5WYWx1ZT0iMCIKICAgICAgICAgICAgYXBwOm5lZ2F0aXZlU2hpZnQ9IjQwIgogICAgICAgICAgICBhcHA6ZGl2aWRlclZhbHVlPSIxMCIKICAgICAgICAgICAgYXBwOnN0ZXBWYWx1ZT0iMSIgLz4KCiAgICA8L1ByZWZlcmVuY2VDYXRlZ29yeT4KCjwvUHJlZmVyZW5jZVNjcmVlbj4K
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ This file is part of HyperCeiler.
+  ~
+  ~ HyperCeiler is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU Affero General Public License as
+  ~ published by the Free Software Foundation, either version 3 of the
+  ~ License.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU Affero General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU Affero General Public License
+  ~ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+  ~
+  ~ Copyright (C) 2023-2026 HyperCeiler Contributions
+  -->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:myLocation="@string/system_ui_statusbar_network_speed_indicator_title"
+    app:quick_restart="com.android.systemui">
+    <PreferenceCategory>
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefs_key_system_ui_statusbar_network_speed_all_status_enable"
+            android:title="@string/system_ui_statusbar_network_speed_all_status" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:dependency="prefs_key_system_ui_statusbar_network_speed_all_status_enable"
+        android:title="@string/system_ui_statusbar_indicator_default_title">
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefs_key_system_ui_statusbar_network_speed_font_size_enable"
+            android:title="@string/system_ui_statusbar_network_speed_font_size" />
+
+        <SeekBarPreferenceCompat
+            android:dependency="prefs_key_system_ui_statusbar_network_speed_font_size_enable"
+            android:key="prefs_key_system_ui_statusbar_network_speed_font_size"
+            android:layout="@layout/miuix_preference_widget_seekbar_compat_no_title"
+            app:defaultValue="13"
+            app:defaultValueTitle="@string/array_default"
+            app:format="%.1f dp"
+            app:maxValue="40"
+            app:minValue="8"
+            app:dividerValue="2"
+            app:showSeekBarValue="true"
+            app:stepValue="1" />
+
+        <fan.preference.DropDownPreference
+            android:defaultValue="0"
+            android:key="prefs_key_system_ui_statusbar_network_speed_font_style"
+            android:title="@string/system_ui_statusbar_network_speed_font_style"
+            app:entries="@array/network_speed_font_style"
+            app:entryValues="@array/network_speed_font_style_value" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefs_key_system_ui_statusbar_network_speed_sec_unit"
+            android:title="@string/system_ui_statusbar_network_speed_sec_unit" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefs_key_system_ui_statusbar_network_speed_hide"
+            android:summary="@string/system_ui_statusbar_network_speed_hide_desc"
+            android:title="@string/system_ui_statusbar_network_speed_hide" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:dependency="prefs_key_system_ui_statusbar_network_speed_hide"
+            android:key="prefs_key_system_ui_statusbar_network_speed_hide_all"
+            android:title="@string/system_ui_statusbar_network_speed_hide_all" />
+
+        <SeekBarPreferenceCompat
+            android:key="prefs_key_system_ui_statusbar_network_speed_hide_slow"
+            android:summary="@string/system_ui_statusbar_network_speed_hide_slow_desc"
+            android:title="@string/system_ui_statusbar_network_speed_hide_slow"
+            app:defaultValue="64"
+            app:defaultValueTitle="@string/array_default"
+            app:format="%s KB/s"
+            app:maxValue="2048"
+            app:minValue="1"
+            app:showSeekBarValue="true"
+            app:stepValue="1" />
+
+        <SeekBarPreferenceCompat
+            android:key="prefs_key_system_ui_statusbar_network_speed_update_spacings"
+            android:title="@string/system_ui_statusbar_network_speed_update_spacing"
+            app:defaultValue="40"
+            app:defaultValueTitle="@string/array_default"
+            app:format="%.1f s"
+            app:maxValue="100"
+            app:minValue="10"
+            app:dividerValue="10"
+            app:showSeekBarValue="true"
+            app:stepValue="1" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:dependency="prefs_key_system_ui_statusbar_network_speed_all_status_enable"
+        android:title="@string/system_ui_statusbar_indicator_expand_title">
+        <fan.preference.DropDownPreference
+            android:defaultValue="0"
+            android:key="prefs_key_system_ui_statusbar_network_speed_style"
+            android:title="@string/system_ui_statusbar_network_speed_style"
+            app:entries="@array/network_speed_style"
+            app:entryValues="@array/network_speed_style_value" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefs_key_system_ui_statusbar_network_speed_swap_places"
+            android:title="@string/system_ui_statusbar_network_speed_swap_places" />
+
+        <fan.preference.DropDownPreference
+            android:defaultValue="2"
+            android:key="prefs_key_system_ui_statusbar_network_speed_icon"
+            android:title="@string/system_ui_statusbar_network_speed_icon"
+            app:entries="@array/system_ui_status_bar_network_icon"
+            app:entryValues="@array/system_ui_status_bar_network_icon_value" />
+
+        <fan.preference.DropDownPreference
+            android:defaultValue="1"
+            android:key="prefs_key_system_ui_statusbar_network_speed_align"
+            android:title="@string/horizontal_alignment"
+            app:entries="@array/system_ui_status_bar_horizontal_align"
+            app:entryValues="@array/system_ui_status_bar_horizontal_align_value" />
+
+        <SeekBarPreferenceCompat
+            android:key="prefs_key_system_ui_statusbar_network_speed_fixedcontent_width"
+            android:summary="@string/system_ui_statusbar_indicator_fixedcontent_width_desc"
+            android:title="@string/system_ui_statusbar_indicator_fixedcontent_width"
+            app:defaultValue="10"
+            app:defaultValueTitle="@string/array_default"
+            app:format="%s dp"
+            app:maxValue="150"
+            app:minValue="10"
+            app:showSeekBarValue="true"
+            app:stepValue="1" />
+
+        <SeekBarPreferenceCompat
+            android:key="prefs_key_system_ui_statusbar_network_speed_spacing_margin"
+            android:title="@string/spacing_margin"
+            app:defaultValue="16"
+            app:defaultValueTitle="@string/array_default"
+            app:format="%.2f dp"
+            app:maxValue="22"
+            app:minValue="14"
+            app:dividerValue="20"
+            app:stepValue="1" />
+
+        <SeekBarPreferenceCompat
+            android:key="prefs_key_system_ui_statusbar_network_speed_left_margin"
+            android:title="@string/left_margin"
+            app:defaultValue="0"
+            app:defaultValueTitle="@string/array_default"
+            app:format="%.1f dp"
+            app:maxValue="16"
+            app:dividerValue="2"
+            app:stepValue="1" />
+
+        <SeekBarPreferenceCompat
+            android:key="prefs_key_system_ui_statusbar_network_speed_right_margin"
+            android:title="@string/right_margin"
+            app:defaultValue="0"
+            app:defaultValueTitle="@string/array_default"
+            app:format="%.1f dp"
+            app:maxValue="16"
+            app:dividerValue="2"
+            app:stepValue="1" />
+
+        <SeekBarPreferenceCompat
+            android:key="prefs_key_system_ui_statusbar_network_speed_vertical_offset"
+            android:title="@string/vertical_offset"
+            app:defaultValue="40"
+            app:defaultValueTitle="@string/array_default"
+            app:format="%.1f dp"
+            app:maxValue="80"
+            app:minValue="0"
+            app:negativeShift="40"
+            app:dividerValue="10"
+            app:stepValue="1" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,1 +1,456 @@
-cGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLmRhdGEuYnJhbmQNCg0KaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5EaXNwYXRjaGVycw0KaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy53aXRoQ29udGV4dA0KaW1wb3J0IG9raHR0cDMuT2tIdHRwQ2xpZW50DQppbXBvcnQgamF2YS5pby5GaWxlDQoNCi8qKg0KICog5aSa5ZOB54mMIFJPTSDmlbDmja7mupDnmoTnu5/kuIDlhaXlj6PjgIINCiAqDQogKiDkuInnp43mlbDmja7mnaXmupDvvIzlkITmnInlkITnmoTlnZHvvIzov5nph4zotJ/otKPnvJbmjpLvvJoNCiAqDQogKiB8IOadpea6kCB8IOeUqOmAlCB8IOeKtuaAgSB8DQogKiB8LS0tfC0tLXwtLS18DQogKiB8IFtPcHVzSW5kZXhdIHwg5py65Z6LKyDniYjmnKwqKua4heWNlSoq77yIMTE1OSDmnLrlnosgLyAzNTk2OCDniYjmnKzvvIkgfCDlhY3nmbvlvZXlhY3nrb7lkI3vvIzkvYbopoHluKYgUmVmZXJlciB8DQogKiB8IFtPcHVzUmVzb2x2ZXJdIHwg5riF5Y2V6YeMKirku7vmhI/ljoblj7LniYjmnKwqKueahOebtOmTviB8IOmcgOetvuWQje+8jOS4gOasoeeul+Wvue+8jOmHjeivleS8muWwgSBJUCB8DQogKiB8IFtDb2xvck90YUFwaV0gLyBbVml2b090YUFwaV0gfCDlrpjmlrkgT1RBICoq5pyA5paw54mIKirnm7Tpk74gfCDmnIDnqLPvvIzlrp7mtYvot5HpgJrvvIznm7Tpk77kuI3ov4fmnJ8gfA0KICoNCiAqICMjIyDkuIvovb3kuIDkuKrniYjmnKzml7bnmoTlhrPnrZbpobrluo8NCiAqDQogKiAxLiDniYjmnKzoh6rluKYgYHJlY292ZXJ5VXJsYCAvIGBmYXN0Ym9vdFVybGAg4oaSIOebtOaOpeeUqO+8iENvbG9yT1Mg57O76YOo5YiG5Y6G5Y+y5YyF77yJDQogKiAyLiDor6XmnaHnm64gYG5lZWRzUmVzb2x2ZWAg4oaSIOiwgyBbT3B1c1Jlc29sdmVyXSDnjrDlj5YNCiAqIDMuIE9wdXMg5ou/5LiN5YiwIOKGkiDpgIDlm57lrpjmlrnmjqXlj6Pmn6XmnIDmlrDniYjvvIjlubbmmI7noa7lkYror4nnlKjmiLfmi7/liLDnmoTmmK/mnIDmlrDniYjvvIzkuI3mmK/ku5bpgInnmoTpgqPniYjvvIkNCiAqDQogKiDkuInmnaHot6/pg73lpLHotKXml7YqKuWmguWunuaKpemUmSoq77yM5LiN5YGH6KOF5oiQ5Yqf44CB5LiN57uZ5Y2g5L2N6ZO+5o6l44CCDQogKi8NCmNsYXNzIFJvbVNvdXJjZSgNCiAgICBjYWNoZURpcjogRmlsZT8gPSBudWxsLA0KICAgIHByaXZhdGUgdmFsIGNsaWVudDogT2tIdHRwQ2xpZW50ID0gZGVmYXVsdFNoYXJlZENsaWVudCgpLA0KKSB7DQogICAgcHJpdmF0ZSB2YWwgaW5kZXggPSBPcHVzSW5kZXgoY2FjaGVEaXIsIGNsaWVudCkNCiAgICBwcml2YXRlIHZhbCByZXNvbHZlciA9IE9wdXNSZXNvbHZlcihjbGllbnQpDQogICAgcHJpdmF0ZSB2YWwgY29sb3JPdGEgPSBDb2xvck90YUFwaShjbGllbnQpDQogICAgcHJpdmF0ZSB2YWwgdml2b090YSA9IFZpdm9PdGFBcGkoY2xpZW50KQ0KDQogICAgLyoqDQogICAgICog5pyA6L+R5LiA5qyh5a6Y5pa55o6l5Y+j5aSx6LSl55qE5Y6f5Zug44CCDQogICAgICoNCiAgICAgKiDlrpjmlrnmjqXlj6Pov5Tlm54gbnVsbCDml7bmnInkuKTnp43lrozlhajkuI3lkIznmoTlkKvkuYnvvIjmsqHov5nkuKrmnLrlnosgLyDmjqXlj6PkuI3mlL7ooYzvvInvvIwNCiAgICAgKiDkuI3orrDkuIvmnaXnmoTor53kuIrlsYLlj6rog73nrLznu5/miqXjgIzmsqHmn6XliLDjgI3vvIznlKjmiLfmsqHms5XliKTmlq3or6XkuI3or6Xph43or5XjgIINCiAgICAgKiDlj6rlnKjljZXmrKEgW3Jlc29sdmVMaW5rXSDlhoXkvb/nlKjvvIzkuI3mmK/lubblj5HlronlhajnmoQg4oCU4oCUIHJlc29sdmVMaW5rIOaVtOS9kw0KICAgICAqIOaMguWcqCBgRGlzcGF0Y2hlcnMuSU9gIOS4iu+8jOS9hueUqOaIt+S4jeS8muWQjOaXtueCueS4pOS4quS4i+i9ve+8jOaJgOS7peWkn+eUqOOAgg0KICAgICAqLw0KICAgIHByaXZhdGUgdmFyIG9mZmljaWFsRXJyb3I6IFN0cmluZyA9ICIiDQoNCiAgICAvLyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tIOa4heWNlQ0KDQogICAgLyoqDQogICAgICog5ZOB54mMIOKGkiDmnLrlnovliJfooajjgIINCiAgICAgKg0KICAgICAqIOKaoO+4jyAqKuW/hemhu+WQiOW5tu+8jOS4jeiDveS6jOmAieS4gCoq77yIMjAyNi0xMC0wNCDnlKjmiLflrp7mtYvlj5HnjrDvvInvvJoNCiAgICAgKiDljp/mnaXlhpnmiJDjgIxvcHVzcm9tIOacieaVsOaNruWwseWPqueUqOWug+eahO+8jOayoeacieaJjeeUqOWFnOW6leihqOOAje+8jA0KICAgICAqIOe7k+aenOWGhee9ruihqOmHjOaWsOihpeeahCBpUU9PIDE1IC8gMTYgLyBaMTEg57O75YiXKirmsLjov5zmmL7npLrkuI3lh7rmnaUqKiDigJTigJQNCiAgICAgKiDlm6DkuLogb3B1c3JvbSDmraPluLjlnKjnur/vvIzlroPlsLHmsLjov5zotaLvvIzlhZzlupXooajpgqPmrrXku6PnoIHmoLnmnKzkuI3kvJrmiafooYzjgIINCiAgICAgKiDmupDnq5nmnKzouqvmm7TmlrDmnInmu57lkI7vvIjmlrDmnLrluLjluLjmmZrkuIDkuKTkuKrmnIjmiY3mlLblvZXvvInvvIzlhYnpnaDlroPmsLjov5znvLrmlrDmnLrjgIINCiAgICAgKg0KICAgICAqIOaJgOS7peeOsOWcqOeahOinhOWImeaYr++8mioq5Zyo57q/5riF5Y2VIOKIqiDlhoXnva7ooagqKu+8jOaMieacuuWei+WQjeWOu+mHje+8jOWcqOe6v+eahOS8mOWFiOOAgg0KICAgICAqIOi/meagt+a6kOermeabtOaWsOS6huS8muiHquWKqOimhuebluWGhee9rueahOaXp+iusOW9le+8jOa6kOermeayoeabtOaWsOeahOaWsOacuuS5n+S4jeS8muS4ouOAgg0KICAgICAqLw0KICAgIHN1c3BlbmQgZnVuIGRldmljZXNPZihicmFuZDogQnJhbmQpOiBMaXN0PERldmljZUVudHJ5PiA9IHdpdGhDb250ZXh0KERpc3BhdGNoZXJzLklPKSB7DQogICAgICAgIHZhbCBvbmxpbmUgPSBydW5DYXRjaGluZyB7IGluZGV4LmJyYW5kRGV2aWNlcyhicmFuZC5rZXkpIH0uZ2V0T3JOdWxsKCkNCiAgICAgICAgbWVyZ2VEZXZpY2VzKA0KICAgICAgICAgICAgb25saW5lID0gb25saW5lLm9yRW1wdHkoKSwNCiAgICAgICAgICAgIGJyYW5kID0gYnJhbmQsDQogICAgICAgICkNCiAgICB9DQoNCiAgICAvKioNCiAgICAgKiDlvLrliLbliLfmlrDmn5Dlk4HniYznmoTmnLrlnovliJfooajvvIjot7Pov4cgNiDlsI/ml7bno4Hnm5jnvJPlrZjvvIzph43mlrDmi4nmupDnq5nvvInjgIINCiAgICAgKg0KICAgICAqIOa6kOermeaWsOWinuacuuWei++8iOavlOWmgiBDb2xvck9TIDE3IOWPkeW4g+WQju+8ieWPquiDvemdoOi/meS4qui/m+adpSDigJTigJQNCiAgICAgKiDlkKbliJnnlKjmiLfnnIvliLDnmoTmsLjov5zmmK8gNiDlsI/ml7bliY3pgqPku73liJfooajjgIINCiAgICAgKg0KICAgICAqIOaLieS4jeWIsO+8iOemu+e6vyAvIOa6kOermeaKvemjju+8ieaXtioq5LiN5oqb5byC5bi4KirvvIzlm57okL3liLDnvJPlrZjliJfooajvvJoNCiAgICAgKiDliLfmlrDlpLHotKXkuI3or6XorqnnlKjmiLfku47liJfooajpobXpgIDlh7rljrvjgIINCiAgICAgKi8NCiAgICBzdXNwZW5kIGZ1biByZWZyZXNoRGV2aWNlcyhicmFuZDogQnJhbmQpOiBMaXN0PERldmljZUVudHJ5PiA9IHdpdGhDb250ZXh0KERpc3BhdGNoZXJzLklPKSB7DQogICAgICAgIHZhbCBmcmVzaCA9IHJ1bkNhdGNoaW5nIHsgaW5kZXguYnJhbmREZXZpY2VzKGJyYW5kLmtleSwgZm9yY2VSZWZyZXNoID0gdHJ1ZSkgfS5nZXRPck51bGwoKQ0KICAgICAgICB2YWwgb25saW5lID0gZnJlc2g/LnRha2VJZiB7IGl0LmlzTm90RW1wdHkoKSB9DQogICAgICAgIG1lcmdlRGV2aWNlcygNCiAgICAgICAgICAgIG9ubGluZSA9IG9ubGluZS5vckVtcHR5KCksDQogICAgICAgICAgICBicmFuZCA9IGJyYW5kLA0KICAgICAgICApDQogICAgfQ0KDQogICAgLyoqDQogICAgICog5Zyo57q/5riF5Y2V5LiO5YaF572u5YWc5bqV6KGo5ZCI5bm244CCDQogICAgICoNCiAgICAgKiDljrvph43plK7nlKjjgIzmnLrlnovlkI0gKyDns7vliJfjgI3ogIzkuI3mmK/lj6rmjInlkI3lrZfvvJrlkIzkuIDlj7DmnLrlmajlnKjmupDnq5nlkozlhoXnva7ooajph4wNCiAgICAgKiDns7vliJflkI3lj6/og73kuI3lkIzvvIjlpoIgYGlRT08gMTVgIHZzIGBpUU9PIOaVsOWtl2DvvInvvIzlj6rmjInlkI3lrZfljrvph43kvJrmvI/jgIINCiAgICAgKg0KICAgICAqIOWGhee9ruihqOmHjOeahOadoeebriBgc291cmNlYCDmoIcgW1NvdXJjZS5GQUxMQkFDS13vvIznlYzpnaLkuIropoHog73nnIvlh7rmlbDmja7mnaXmupDvvIwNCiAgICAgKiDlhY3lvpfnlKjmiLfku6XkuLrpgqPmmK/mupDnq5nnu5nnmoTlrozmlbTniYjmnKzljoblj7LvvIjlhbblrp7lj6rmnInljaDkvY3niYjmnKwgKyDlrp7ml7bop6PmnpDvvInjgIINCiAgICAgKi8NCiAgICBwcml2YXRlIGZ1biBtZXJnZURldmljZXMoDQogICAgICAgIG9ubGluZTogTGlzdDxPcHVzRGV2aWNlRnVsbD4sDQogICAgICAgIGJyYW5kOiBCcmFuZCwNCiAgICApOiBMaXN0PERldmljZUVudHJ5PiB7DQogICAgICAgIGlmIChvbmxpbmUuaXNFbXB0eSgpKSB7DQogICAgICAgICAgICByZXR1cm4gRmFsbGJhY2tDYXRhbG9nLmFzT3B1c0RldmljZXMoYnJhbmQua2V5LCBicmFuZC5uYW1lWmgpLm1hcCB7DQogICAgICAgICAgICAgICAgaXQudG9FbnRyeShzb3VyY2UgPSBTb3VyY2UuRkFMTEJBQ0spDQogICAgICAgICAgICB9DQogICAgICAgIH0NCg0KICAgICAgICB2YWwgbWVyZ2VkID0gTGlua2VkSGFzaE1hcDxTdHJpbmcsIERldmljZUVudHJ5PihvbmxpbmUuc2l6ZSArIDMyKQ0KICAgICAgICBvbmxpbmUuZm9yRWFjaCB7IG1lcmdlZFtpdC5uYW1lICsgInwiICsgaXQuc2VyaWVzXSA9IGl0LnRvRW50cnkoU291cmNlLk9OTElORSkgfQ0KDQogICAgICAgIC8vIOWGhee9ruihqOWPquihpeWcqOe6v+a4heWNlemHjOayoeacieeahO+8iFBEIOWPtyArIOacuuWei+WQjeWPjOmHjeWIpOmHje+8mg0KICAgICAgICAvLyDlkI3lrZfnm7jlkIzkvYYgUEQg5Y+35LiN5ZCM6K+05piO5piv5LiN5ZCM5py65Zmo77yM6YO96K+l55WZ552A77yJDQogICAgICAgIHZhbCBvbmxpbmVOYW1lcyA9IG9ubGluZS5tYXBUbyhIYXNoU2V0KCkpIHsgaXQubmFtZS50cmltKCkgfQ0KICAgICAgICB2YWwgb25saW5lUGQgPSBvbmxpbmUuYXNTZXF1ZW5jZSgpDQogICAgICAgICAgICAuZmxhdE1hcCB7IGl0LnZlcnNpb25zLmFzU2VxdWVuY2UoKSB9DQogICAgICAgICAgICAubWFwTm90TnVsbCB7IFJlZ2V4KCIoPzpEKT9QRFxcZCtbQS1aXT8iKS5maW5kKGl0LnJvbU5hbWUpPy52YWx1ZSB9DQogICAgICAgICAgICAudG9IYXNoU2V0KCkNCg0KICAgICAgICBGYWxsYmFja0NhdGFsb2cuYXNPcHVzRGV2aWNlcyhicmFuZC5rZXksIGJyYW5kLm5hbWVaaCkuZm9yRWFjaCB7IGZiIC0+DQogICAgICAgICAgICB2YWwgZmJQZCA9IFJlZ2V4KCIoPzpEKT9QRFxcZCtbQS1aXT8iKS5maW5kKGZiLnZlcnNpb25zLmZpcnN0T3JOdWxsKCk/LnJvbU5hbWUub3JFbXB0eSgpKT8udmFsdWUNCiAgICAgICAgICAgIHZhbCBkdXBCeU5hbWUgPSBmYi52ZXJzaW9ucy5hbnkgeyB2IC0+IHYuYXBpRGV2aWNlIGluIG9ubGluZU5hbWVzIH0NCiAgICAgICAgICAgIHZhbCBkdXBCeVBkID0gZmJQZCAhPSBudWxsICYmIGZiUGQgaW4gb25saW5lUGQNCiAgICAgICAgICAgIGlmIChkdXBCeU5hbWUgfHwgZHVwQnlQZCkgcmV0dXJuQGZvckVhY2gNCiAgICAgICAgICAgIC8vIOS4gOS4qiBGYWxsYmFja01vZGVsIOWPr+iDveacieWkmuS4quacuuWei+WQje+8jOmAkOS4quW7uuadoeebru+8jOmUrueUqOesrOS4gOS4quWQjeWtlw0KICAgICAgICAgICAgdmFsIGVudHJ5ID0gZmIudG9FbnRyeShTb3VyY2UuRkFMTEJBQ0spDQogICAgICAgICAgICBtZXJnZWRbZW50cnkubmFtZSArICJ8IiArIGVudHJ5LnNlcmllc10gPSBlbnRyeQ0KICAgICAgICB9DQoNCiAgICAgICAgcmV0dXJuIG1lcmdlZC52YWx1ZXMudG9MaXN0KCkNCiAgICB9DQoNCiAgICAvKiog5p+Q5Liq5py65Z6L55qE5YWo6YOo54mI5pys44CCICovDQogICAgc3VzcGVuZCBmdW4gdmVyc2lvbnNPZihicmFuZDogQnJhbmQsIGRldmljZTogRGV2aWNlRW50cnkpOiBMaXN0PFZlcnNpb25FbnRyeT4gPQ0KICAgICAgICB3aXRoQ29udGV4dChEaXNwYXRjaGVycy5JTykgew0KICAgICAgICAgICAgaWYgKGRldmljZS5zb3VyY2UgPT0gU291cmNlLk9OTElORSkgew0KICAgICAgICAgICAgICAgIHZhbCBmdWxsID0gcnVuQ2F0Y2hpbmcgeyBpbmRleC5icmFuZERldmljZXMoYnJhbmQua2V5KSB9LmdldE9yTnVsbCgpDQogICAgICAgICAgICAgICAgdmFsIGhpdCA9IGZ1bGw/LmZpcnN0T3JOdWxsIHsNCiAgICAgICAgICAgICAgICAgICAgaXQubmFtZSA9PSBkZXZpY2UubmFtZSAmJiBpdC5zZXJpZXMgPT0gZGV2aWNlLnNlcmllcw0KICAgICAgICAgICAgICAgIH0NCiAgICAgICAgICAgICAgICBpZiAoaGl0ICE9IG51bGwpIHJldHVybkB3aXRoQ29udGV4dCBoaXQudmVyc2lvbnMubWFwIHsgaXQudG9FbnRyeSgpIH0NCiAgICAgICAgICAgIH0NCiAgICAgICAgICAgIC8vIOWFnOW6leadpea6kOeahOacuuWei++8jHZlcnNpb25zIOW3sue7j+aYryBWZXJzaW9uRW50cnkg5LqGDQogICAgICAgICAgICBkZXZpY2UudmVyc2lvbnMNCiAgICAgICAgfQ0KDQogICAgLy8gLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSDlj5bnm7Tpk74NCg0KICAgIC8qKg0KICAgICAqIOino+aekOS4gOS4queJiOacrOeahOS4i+i9veebtOmTvuOAgg0KICAgICAqDQogICAgICogQHBhcmFtIGZhbGxiYWNrVG9PZmZpY2lhbCBPcHVzIOino+aekOWksei0peaXtu+8jOaYr+WQpumAgOWbnuWumOaWueaOpeWPo+afpeacgOaWsOeJiOOAgg0KICAgICAqICAg6buY6K6kIHRydWUg4oCU4oCUIOWvueeUqOaIt+adpeivtOaLv+WIsOiDveS4i+eahOWMheavlOS4peagvOeJiOacrOWMuemFjeabtOacieeUqO+8jA0KICAgICAqICAg5L2G6L+U5Zue57uT5p6c6YeM55qEIFtSZXNvbHZlZExpbmsuaXNWZXJzaW9uRXhhY3RdIOS8muWmguWunuagh2ZhbHNl77yM55WM6Z2i6KaB5o+Q56S644CCDQogICAgICovDQogICAgc3VzcGVuZCBmdW4gcmVzb2x2ZUxpbmsoDQogICAgICAgIGJyYW5kOiBCcmFuZCwNCiAgICAgICAgdmVyc2lvbjogVmVyc2lvbkVudHJ5LA0KICAgICAgICBmYWxsYmFja1RvT2ZmaWNpYWw6IEJvb2xlYW4gPSB0cnVlLA0KICAgICk6IFJlc29sdmVkTGluayA9IHdpdGhDb250ZXh0KERpc3BhdGNoZXJzLklPKSB7DQogICAgICAgIC8vMSkg6Z2Z5oCB5pWw5o2u6YeM5pys5p2l5bCx5bim55u06ZO+DQogICAgICAgIHZlcnNpb24uZGlyZWN0VXJsPy5sZXQgew0KICAgICAgICAgICAgcmV0dXJuQHdpdGhDb250ZXh0IFJlc29sdmVkTGluaygNCiAgICAgICAgICAgICAgICB1cmwgPSBpdCwNCiAgICAgICAgICAgICAgICB2aWEgPSBWaWEuU1RBVElDLA0KICAgICAgICAgICAgICAgIGlzVmVyc2lvbkV4YWN0ID0gdHJ1ZSwNCiAgICAgICAgICAgICAgICBub3RlID0gIuadpeiHqumdmeaAgeaVsOaNriIsDQogICAgICAgICAgICApDQogICAgICAgIH0NCg0KICAgICAgICAvLyAyKSBvcHVzcm9tIOetvuWQjeino+aekO+8iOiDveaLv+WIsOS7u+aEj+WOhuWPsueJiOacrO+8iQ0KICAgICAgICAvLw0KICAgICAgICAvLyDimqDvuI8g5YaF572u5py65Z6LKirlv4Xpobvot7Pov4fov5nkuIDmraUqKu+8iDIwMjYtMTAtMDQg5a6e5rWL56Gu6K6k77yJ77yaDQogICAgICAgIC8vIG9wdXNyb20g55qEIC9hcGkvcmVzb2x2ZSDlj6rorqTlroPoh6rlt7HpnZnmgIHlupPph4znmoTmnaHnm67jgILlhoXnva7ooajph4znmoTmlrDmnLoNCiAgICAgICAgLy8g77yIaVFPTyAxNSAvIDE2IOetie+8iea6kOermei/mOayoeaUtuW9le+8jOaLv+W/hSA1MDIgYHsiZXJyb3IiOiLop6PmnpDlpLHotKUifWDjgIINCiAgICAgICAgLy8g56Gs6K+V5LiN5LuF5b+F54S25aSx6LSl77yM6L+Y5Lya55m9562J5LiA5qyh562+5ZCNIGNoYWxsZW5nZeOAgg0KICAgICAgICB2YWwgaXNGYWxsYmFjayA9IHZlcnNpb24uaXNGYWxsYmFjaw0KICAgICAgICB2YWwgb3B1c1Jlc3VsdCA9IGlmIChpc0ZhbGxiYWNrKSB7DQogICAgICAgICAgICBSZXN1bHQuZmFpbHVyZShPcHVzRXhjZXB0aW9uKCLor6XmnLrlnovlsJrmnKrooqvlnKjnur/mlbDmja7mupDmlLblvZUiKSkNCiAgICAgICAgfSBlbHNlIHsNCiAgICAgICAgICAgIHJ1bkNhdGNoaW5nIHsgcmVzb2x2ZXIucmVzb2x2ZSh2ZXJzaW9uLm9wdXMpIH0NCiAgICAgICAgfQ0KICAgICAgICBvcHVzUmVzdWx0LmdldE9yTnVsbCgpPy5sZXQgew0KICAgICAgICAgICAgcmV0dXJuQHdpdGhDb250ZXh0IFJlc29sdmVkTGluaygNCiAgICAgICAgICAgICAgICB1cmwgPSBpdCwNCiAgICAgICAgICAgICAgICB2aWEgPSBWaWEuT1BVUywNCiAgICAgICAgICAgICAgICBpc1ZlcnNpb25FeGFjdCA9IHRydWUsDQogICAgICAgICAgICAgICAgbm90ZSA9ICLnu48gb3B1c3JvbSDop6PmnpAiLA0KICAgICAgICAgICAgKQ0KICAgICAgICB9DQoNCiAgICAgICAgLy8gMykg5a6Y5pa55o6l5Y+j5YWc5bqV77yI5Y+q6IO957uZ5pyA5paw54mI77yJDQogICAgICAgIGlmICghZmFsbGJhY2tUb09mZmljaWFsKSB7DQogICAgICAgICAgICB0aHJvdyBPcHVzRXhjZXB0aW9uKA0KICAgICAgICAgICAgICAgIG9wdXNSZXN1bHQuZXhjZXB0aW9uT3JOdWxsKCk/Lm1lc3NhZ2UNCiAgICAgICAgICAgICAgICAgICAgPzogIumdmeaAgeaVsOaNrumHjOayoeacieebtOmTvu+8jOino+aekOaOpeWPo+S5n+S4jeWPr+eUqCIsDQogICAgICAgICAgICApDQogICAgICAgIH0NCg0KICAgICAgICAvLyDov5nkuKrlk4HniYzljovmoLnmsqHmnInlrpjmlrnmjqXlj6PlsLHliKvlhpnjgIzlj5bnm7Tpk77lpLHotKXjgI3kuobvvIwNCiAgICAgICAgLy8g55u06K+05piv5o6l5Y+j5LiN5pSv5oyB77yM6YG/5YWN55So5oi35Lul5Li65piv6Ieq5bex5omL5py655qE6Zeu6aKY44CCDQogICAgICAgIGlmIChicmFuZC5mYW1pbHkgIT0gQnJhbmRGYW1pbHkuT1JJR0lOX09TICYmIGJyYW5kLmZhbWlseSAhPSBCcmFuZEZhbWlseS5DT0xPUl9PUykgew0KICAgICAgICAgICAgdGhyb3cgT3B1c0V4Y2VwdGlvbigNCiAgICAgICAgICAgICAgICBvcHVzUmVzdWx0LmV4Y2VwdGlvbk9yTnVsbCgpPy5tZXNzYWdlPy5sZXQgeyAiJGl077ybIiB9Lm9yRW1wdHkoKSArDQogICAgICAgICAgICAgICAgICAgICLjgIwke2JyYW5kLm5hbWVaaH3jgI3mmoLml7bmsqHmnInlj6/nlKjnmoTlrpjmlrkgT1RBIOaOpeWPo++8jCIgKw0KICAgICAgICAgICAgICAgICAgICAiQXBwIOaXoOazleebtOaOpeaLv+WIsOWumOaWueebtOmTviIsDQogICAgICAgICAgICApDQogICAgICAgIH0NCg0KICAgICAgICAvLyDkuIrpnaLnmoTlk4HniYzmoKHpqozlt7Lnu4/mjKHmjonkuobpnZ4gT3JpZ2luT1MgLyBDb2xvck9TIOeahOaDheWGte+8jA0KICAgICAgICAvLyDmiYDku6Xov5nph4wgd2hlbiDmmK/nqbflsL3nmoTvvIzkuI3pnIDopoEgZWxzZeOAgg0KICAgICAgICB2YWwgb2ZmaWNpYWwgPSB3aGVuIChicmFuZC5mYW1pbHkpIHsNCiAgICAgICAgICAgIEJyYW5kRmFtaWx5Lk9SSUdJTl9PUyAtPiBvZmZpY2lhbEZvck9yaWdpbk9zKHZlcnNpb24pDQogICAgICAgICAgICBCcmFuZEZhbWlseS5DT0xPUl9PUyAtPiBvZmZpY2lhbEZvckNvbG9yT3ModmVyc2lvbikNCiAgICAgICAgfQ0KDQogICAgICAgIGlmIChvZmZpY2lhbCA9PSBudWxsKSB7DQogICAgICAgICAgICAvLyDlrpjmlrnmjqXlj6PlrZjlnKjkvYbmsqHnu5nlh7rljIUg4oCU4oCUIOi/meaYr+acgOW4uOingeeahOaDheWGte+8jOW/hemhu+WSjA0KICAgICAgICAgICAgLy8g44CM5rKh5pyJ5o6l5Y+j44CN5Yy65YiG5byA77yM5bm25oqK5o6l5Y+j57uZ55qE55yf5a6e5Y6f5Zug5bim5Ye65p2l77yMDQogICAgICAgICAgICAvLyDlkKbliJnmiqXplJnor63kvJror6/lr7znlKjmiLflj43lpI3ph43or5XjgIINCiAgICAgICAgICAgIHRocm93IE9wdXNFeGNlcHRpb24oDQogICAgICAgICAgICAgICAgYnVpbGRTdHJpbmcgew0KICAgICAgICAgICAgICAgICAgICBpZiAoaXNGYWxsYmFjaykgew0KICAgICAgICAgICAgICAgICAgICAgICAgYXBwZW5kKCLjgIwke3ZlcnNpb24ub3B1cy5hcGlEZXZpY2V944CN5piv5YaF572u5py65Z6L77yMIikNCiAgICAgICAgICAgICAgICAgICAgICAgIGFwcGVuZCgi5Zyo57q/5pWw5o2u5rqQ5bCa5pyq5pS25b2V77yM5a6Y5pa5IE9UQSDmjqXlj6PkuZ/mmoLmnKrmj5Dkvpvor6XmnLrlnovnmoTmjqjpgIHljIXjgIIiKQ0KICAgICAgICAgICAgICAgICAgICB9IGVsc2Ugew0KICAgICAgICAgICAgICAgICAgICAgICAgYXBwZW5kKG9wdXNSZXN1bHQuZXhjZXB0aW9uT3JOdWxsKCk/Lm1lc3NhZ2UgPzogIuWcqOe6v+ino+aekOaOpeWPo+S4jeWPr+eUqCIpDQogICAgICAgICAgICAgICAgICAgICAgICBhcHBlbmQoIu+8myIpDQogICAgICAgICAgICAgICAgICAgIH0NCiAgICAgICAgICAgICAgICAgICAgYXBwZW5kKG9mZmljaWFsRXJyb3IuaWZCbGFuayB7ICLlrpjmlrkgT1RBIOaOpeWPo+acquafpeWIsOivpeacuuWei+eahOWPr+aOqOmAgeeJiOacrCIgfSkNCiAgICAgICAgICAgICAgICB9LA0KICAgICAgICAgICAgKQ0KICAgICAgICB9DQoNCiAgICAgICAgUmVzb2x2ZWRMaW5rKA0KICAgICAgICAgICAgdXJsID0gb2ZmaWNpYWwudXJsLA0KICAgICAgICAgICAgdmlhID0gVmlhLk9GRklDSUFMLA0KICAgICAgICAgICAgaXNWZXJzaW9uRXhhY3QgPSBvZmZpY2lhbC5pc0V4YWN0LA0KICAgICAgICAgICAgbm90ZSA9IG9mZmljaWFsLm5vdGUsDQogICAgICAgICAgICBzaXplVGV4dCA9IG9mZmljaWFsLnNpemVUZXh0LA0KICAgICAgICApDQogICAgfQ0KDQogICAgLyoqDQogICAgICog5a6Y5pa5IE9yaWdpbk9TIOaOpeWPo+OAgg0KICAgICAqDQogICAgICogYHN3VmVyYCDkvKAqKuW9k+WJjeijheedgOeahOeJiOacrCoq77yM5o6l5Y+j6L+U5Zue44CM6IO95Y2H5Yiw5ZOq44CN44CCDQogICAgICog5oiR5Lus5oqK55So5oi36YCJ55qE6YKj5Liq5Y6G5Y+y54mI5pys5Lyg6L+b5Y6777yM5ZG95Lit5bCx6K+05piO5pyN5Yqh5pa56L+Y55WZ552A6L+Z5p2h5Y2H57qn6Lev57q/44CCDQogICAgICoNCiAgICAgKiDlpLHotKXml7bpgJrov4cgW29mZmljaWFsRXJyb3JdIOaKiuecn+WunuWOn+WboOW4puWHuuWOuyDigJTigJQg5LmL5YmN5LiA5b6LIGByZXR1cm4gbnVsbGDvvIwNCiAgICAgKiDkuIrlsYLlj6rog73miqXjgIzmsqHmn6XliLDjgI3vvIznlKjmiLflrozlhajnnIvkuI3liLDliLDlupXmmK/jgIzmjqXlj6PkuI3mlL7ooYzjgI3ov5jmmK/jgIznnJ/msqHov5nmnLrlnovjgI3jgIINCiAgICAgKi8NCiAgICBwcml2YXRlIHN1c3BlbmQgZnVuIG9mZmljaWFsRm9yT3JpZ2luT3MoDQogICAgICAgIHZlcnNpb246IFZlcnNpb25FbnRyeSwNCiAgICApOiBPZmZpY2lhbEhpdD8gew0KICAgICAgICB2YWwgbW9kZWwgPSBvcmlnaW5Pc01vZGVsT2YodmVyc2lvbikNCiAgICAgICAgaWYgKG1vZGVsLmlzQmxhbmsoKSkgew0KICAgICAgICAgICAgb2ZmaWNpYWxFcnJvciA9ICLov5nkuKrniYjmnKzph4zor4bliKvkuI3lh7ogdml2byDova/ku7blnovlj7fvvIhQRCDlj7fvvIkiDQogICAgICAgICAgICByZXR1cm4gbnVsbA0KICAgICAgICB9DQogICAgICAgIHZhbCByID0gcnVuQ2F0Y2hpbmcgew0KICAgICAgICAgICAgdml2b090YS5xdWVyeShtb2RlbCA9IG1vZGVsLCBkZXZpY2VNb2RlbCA9IHB1YmxpY01vZGVsT2YobW9kZWwpLCBjdXJyZW50VmVyID0gYmFyZVZlcnNpb25PZih2ZXJzaW9uKSkNCiAgICAgICAgfS5nZXRPckVsc2Ugew0KICAgICAgICAgICAgb2ZmaWNpYWxFcnJvciA9ICLlrpjmlrnmjqXlj6Por7fmsYLlpLHotKXvvJoke2l0Lm1lc3NhZ2UgPzogaXQuamF2YUNsYXNzLnNpbXBsZU5hbWV9Ig0KICAgICAgICAgICAgcmV0dXJuIG51bGwNCiAgICAgICAgfQ0KICAgICAgICBpZiAoIXIuc3VjY2VzcyB8fCByLmRvd25sb2FkVXJsLmlzQmxhbmsoKSkgew0KICAgICAgICAgICAgb2ZmaWNpYWxFcnJvciA9IHIuZXJyb3IuaWZCbGFuayB7ICLlrpjmlrnmjqXlj6PmsqHov5Tlm57lj6/kuIvovb3nmoTljIUiIH0NCiAgICAgICAgICAgIHJldHVybiBudWxsDQogICAgICAgIH0NCiAgICAgICAgb2ZmaWNpYWxFcnJvciA9ICIiDQogICAgICAgIHJldHVybiBPZmZpY2lhbEhpdCgNCiAgICAgICAgICAgIHVybCA9IHIuZG93bmxvYWRVcmwsDQogICAgICAgICAgICBzaXplVGV4dCA9IHIuc2l6ZVRleHQsDQogICAgICAgICAgICBpc0V4YWN0ID0gci52ZXJzaW9uID09IGJhcmVWZXJzaW9uT2YodmVyc2lvbiksDQogICAgICAgICAgICBub3RlID0gaWYgKHIudmVyc2lvbiA9PSBiYXJlVmVyc2lvbk9mKHZlcnNpb24pKSAi5a6Y5pa55o6l5Y+j77yI54mI5pys5LiA6Ie077yJIg0KICAgICAgICAgICAgZWxzZSAi5a6Y5pa55o6l5Y+j77yI6L+U5Zue55qE5pivICR7ci52ZXJzaW9ufe+8iSIsDQogICAgICAgICkNCiAgICB9DQoNCiAgICAvKioNCiAgICAgKiDlj5YgT3JpZ2luT1Mg55qE6L2v5Lu25Z6L5Y+377yIYFBEMjQxNWAg6L+Z56eN77yJ44CCDQogICAgICoNCiAgICAgKiDmupDnq5nnmoTniYjmnKzkuLLmmK8gYFBEMjIxN19NQV8xMi4xLjE0LjUuVzEwLlYwMDBMMWAg5pW05Liy77yMUEQg5Y+35bCx5Zyo6YeM6Z2i77yMDQogICAgICog6ICMIGBvcGx1c01vZGVsYCDlrZfmrrXmupDnq5nmmK/nlZnnqbrnmoTvvIjlrp7mtYsgNDcvNDcg5p2h5YWo56m677yJ44CCDQogICAgICog5omA5Lul6L+Z6YeM5Lul44CM5LuO54mI5pys5Liy5Y+N6Kej44CN5Li65Li744CBYG9wbHVzTW9kZWxgIOS4uui+he+8jOS4pOadoei3r+mDveiDveaLv+WIsOOAgg0KICAgICAqLw0KICAgIHByaXZhdGUgZnVuIG9yaWdpbk9zTW9kZWxPZih2ZXJzaW9uOiBWZXJzaW9uRW50cnkpOiBTdHJpbmcgew0KICAgICAgICBSZWdleCgiKD86RCk/UERcXGQrW0EtWl0/IikuZmluZCh2ZXJzaW9uLm9wdXMudmVyc2lvbik/LmxldCB7IHJldHVybiBpdC52YWx1ZSB9DQogICAgICAgIFJlZ2V4KCIoPzpEKT9QRFxcZCtbQS1aXT8iKS5maW5kKHZlcnNpb24ub3B1cy5yb21OYW1lKT8ubGV0IHsgcmV0dXJuIGl0LnZhbHVlIH0NCiAgICAgICAgcmV0dXJuIHZlcnNpb24ub3B1cy5vcGx1c01vZGVsDQogICAgfQ0KDQogICAgLyoqDQogICAgICog5a6Y5pa55o6l5Y+j6KaB55qEIGBzd1ZlcmAg5pivKiroo7jniYjmnKzlj7cqKu+8iGAxNi4xLjE2LjUuVzEwYO+8ie+8jA0KICAgICAqIOS4jeW4piBgUEQyMjE3X01BX2Ag5YmN57yA44CC5rqQ56uZ5pW05Liy55u05o6l5aGe6L+b5Y675pyN5Yqh56uv6K6k5LiN5Ye65p2l44CCDQogICAgICovDQogICAgcHJpdmF0ZSBmdW4gYmFyZVZlcnNpb25PZih2ZXJzaW9uOiBWZXJzaW9uRW50cnkpOiBTdHJpbmcgPQ0KICAgICAgICB2ZXJzaW9uLm9wdXMudmVyc2lvbi5zdWJzdHJpbmdBZnRlcigiX01BXyIsIHZlcnNpb24ub3B1cy52ZXJzaW9uKQ0KDQogICAgLyoqIOWumOaWuSBDb2xvck9TIOaOpeWPo+OAgiAqLw0KICAgIHByaXZhdGUgc3VzcGVuZCBmdW4gb2ZmaWNpYWxGb3JDb2xvck9zKA0KICAgICAgICB2ZXJzaW9uOiBWZXJzaW9uRW50cnksDQogICAgKTogT2ZmaWNpYWxIaXQ/IHsNCiAgICAgICAgdmFsIG1vZGVsID0gdmVyc2lvbi5vcHVzLm9wbHVzTW9kZWwuaWZCbGFuayB7IGNvbG9yT3NNb2RlbE9mKHZlcnNpb24pIH0NCiAgICAgICAgaWYgKG1vZGVsLmlzQmxhbmsoKSkgew0KICAgICAgICAgICAgb2ZmaWNpYWxFcnJvciA9ICLov5nkuKrniYjmnKzph4zor4bliKvkuI3lh7ogQ29sb3JPUyDova/ku7blnovlj7ciDQogICAgICAgICAgICByZXR1cm4gbnVsbA0KICAgICAgICB9DQogICAgICAgIHZhbCByID0gcnVuQ2F0Y2hpbmcgeyBjb2xvck90YS5xdWVyeShtb2RlbCwgdmVyc2lvbi5vcHVzLnZlcnNpb24pIH0uZ2V0T3JFbHNlIHsNCiAgICAgICAgICAgIG9mZmljaWFsRXJyb3IgPSAi5a6Y5pa55o6l5Y+j6K+35rGC5aSx6LSl77yaJHtpdC5tZXNzYWdlID86IGl0LmphdmFDbGFzcy5zaW1wbGVOYW1lfSINCiAgICAgICAgICAgIHJldHVybiBudWxsDQogICAgICAgIH0NCiAgICAgICAgaWYgKCFyLnN1Y2Nlc3MpIHsNCiAgICAgICAgICAgIG9mZmljaWFsRXJyb3IgPSByLmVycm9yLmlmQmxhbmsgeyAi5a6Y5pa55o6l5Y+j5rKh6L+U5Zue5Y+v5o6o6YCB55qE54mI5pysIiB9DQogICAgICAgICAgICByZXR1cm4gbnVsbA0KICAgICAgICB9DQogICAgICAgIHZhbCBmdWxsID0gci5mdWxsUGFja2FnZQ0KICAgICAgICBpZiAoZnVsbCA9PSBudWxsIHx8IGZ1bGwubGluay5pc0JsYW5rKCkpIHsNCiAgICAgICAgICAgIG9mZmljaWFsRXJyb3IgPSAi5a6Y5pa55o6l5Y+j5Y+q6L+U5Zue5LqG5Y2H57qn6K+05piO77yM5rKh5pyJ5YWo6YeP5YyF55u06ZO+Ig0KICAgICAgICAgICAgcmV0dXJuIG51bGwNCiAgICAgICAgfQ0KICAgICAgICBvZmZpY2lhbEVycm9yID0gIiINCiAgICAgICAgcmV0dXJuIE9mZmljaWFsSGl0KA0KICAgICAgICAgICAgdXJsID0gZnVsbC5saW5rLA0KICAgICAgICAgICAgc2l6ZVRleHQgPSBmdWxsLnNpemVUZXh0LA0KICAgICAgICAgICAgaXNFeGFjdCA9IGZ1bGwudmVyc2lvbi5jb250YWlucyh2ZXJzaW9uLm9wdXMudmVyc2lvbiksDQogICAgICAgICAgICBub3RlID0gaWYgKGZ1bGwuaXNFeHBpcmVkKSAi5a6Y5pa55o6l5Y+j77yI6ZO+5o6l5bey6L+H5pyf77yM5bu66K6u5pS555So5pyA5paw54mI5pys77yJIg0KICAgICAgICAgICAgZWxzZSAi5a6Y5pa55o6l5Y+j77yIQ29sb3JPUyDlrpjmlrkgT1RB77yJIiwNCiAgICAgICAgKQ0KICAgIH0NCg0KICAgIC8qKg0KICAgICAqIENvbG9yT1Mg55qE6L2v5Lu25Z6L5Y+377yIYFBKWjExMGAg6L+Z56eN77yJ5LuO54mI5pys5Liy6YeM5Y+N6Kej44CCDQogICAgICoNCiAgICAgKiDmupDnq5nnmoQgQ29sb3JPUyDniYjmnKzkuLLlvaLlpoIgYFBKWjExMF8xMS4wLjYuMjAyLi4uKDApXy4uLmDvvIwNCiAgICAgKiDnrKzkuIDmrrXlsLHmmK/lnovlj7fjgILlj5bkuI3liLDlsLHov5Tlm57nqbrvvIzkuqTnu5nkuIrlsYLlpoLlrp7miqXjgIzmi7/kuI3liLDjgI3jgIINCiAgICAgKi8NCiAgICBwcml2YXRlIGZ1biBjb2xvck9zTW9kZWxPZih2ZXJzaW9uOiBWZXJzaW9uRW50cnkpOiBTdHJpbmcgew0KICAgICAgICB2YWwgaGVhZCA9IHZlcnNpb24ub3B1cy52ZXJzaW9uLnN1YnN0cmluZ0JlZm9yZSgiXyIpDQogICAgICAgIHJldHVybiBpZiAoUmVnZXgoIl5bQS1aXXsyLDR9XFxkezMsNX0kIikubWF0Y2hlcyhoZWFkKSkgaGVhZCBlbHNlICIiDQogICAgfQ0KDQogICAgLyoqDQogICAgICogT3JpZ2luT1Mg5o6l5Y+j55qEIGBwdWJsaWNfbW9kZWxg77yI6K6+5aSH5Z6L5Y+377yM5b2i5aaCIGBWMjQxOEFg77yJ44CCDQogICAgICoNCiAgICAgKiDop4TliJnmmK/ku44gYG1vZGVsYO+8iOi9r+S7tuWei+WPtyBgUEQyNDE1YO+8ieaOqOeahO+8mnZpdm8g5a6Y5pa55LiA55u055SoDQogICAgICogYFZgICsg5Y675o6J6aaW5L2NIGBQYCDlkI7nmoTmlbDlrZcgKyBgQWDjgILlrp7mtYsgYFBEMjQwOGAg5a+55bqUIGBWMjQwOEFg77yMDQogICAgICog6ICMIGBQRDI0MDhgIOWPiOaYr+WumOaWueaOpeWPo+ebtOaOpeiupOeahCBtb2RlbO+8jOaJgOS7pei/meWxgui9rOaNouWPqumcgOWcqA0KICAgICAqIOaOpeWPo+i/lOWbnueJiOacrOS4juivt+axguS4jeS4gOiHtOaXtueUqOS9nOmAgOi3r++8jOS4u+i3r+W+hOS7jeS7pSBtb2RlbCDkuLrlh4bjgIINCiAgICAgKi8NCiAgICBwcml2YXRlIGZ1biBwdWJsaWNNb2RlbE9mKG1vZGVsOiBTdHJpbmcpOiBTdHJpbmcgew0KICAgICAgICB2YWwgZGlnaXRzID0gbW9kZWwucmVtb3ZlUHJlZml4KCJQRCIpLnJlbW92ZVByZWZpeCgiRFBEIikuZmlsdGVyIHsgaXQuaXNEaWdpdCgpIH0NCiAgICAgICAgcmV0dXJuIGlmIChkaWdpdHMuaXNCbGFuaygpKSBtb2RlbCBlbHNlICJWJHtkaWdpdHN9QSINCiAgICB9DQoNCiAgICBjb21wYW5pb24gb2JqZWN0IHsNCiAgICAgICAgLyoqIOWFseeUqOS4gOS4qui/nuaOpeaxoO+8jOecgeW+l+avj+asoeaWsOW7uuOAgiAqLw0KICAgICAgICBmdW4gZGVmYXVsdFNoYXJlZENsaWVudCgpOiBPa0h0dHBDbGllbnQgPSBPa0h0dHBDbGllbnQuQnVpbGRlcigpDQogICAgICAgICAgICAuY29ubmVjdFRpbWVvdXQoMTUsIGphdmEudXRpbC5jb25jdXJyZW50LlRpbWVVbml0LlNFQ09ORFMpDQogICAgICAgICAgICAucmVhZFRpbWVvdXQoMTIwLCBqYXZhLnV0aWwuY29uY3VycmVudC5UaW1lVW5pdC5TRUNPTkRTKQ0KICAgICAgICAgICAgLmJ1aWxkKCkNCiAgICB9DQp9DQoNCi8vIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSDpl6jpnaLmqKHlnosNCg0KLyoqIOaVsOaNruadpea6kO+8jOeVjOmdouS4iuimgeagh+WHuuadpe+8jOWIq+iuqeeUqOaIt+S7peS4uuWcqOe6v+aVsOaNruOAgiAqLw0KZW51bSBjbGFzcyBTb3VyY2UgeyBPTkxJTkUsIEZBTExCQUNLIH0NCg0KLyoqIOebtOmTvuaYr+aAjuS5iOadpeeahOOAgiAqLw0KZW51bSBjbGFzcyBWaWEgeyBTVEFUSUMsIE9QVVMsIE9GRklDSUFMIH0NCg0KZGF0YSBjbGFzcyBSZXNvbHZlZExpbmsoDQogICAgdmFsIHVybDogU3RyaW5nLA0KICAgIHZhbCB2aWE6IFZpYSwNCiAgICAvKiogZmFsc2UgPSDmi7/liLDnmoTmmK/mnIDmlrDniYjvvIzkuI3mmK/nlKjmiLfpgInnmoTpgqPkuIDniYjvvIznlYzpnaLlv4Xpobvmj5DnpLrjgIIgKi8NCiAgICB2YWwgaXNWZXJzaW9uRXhhY3Q6IEJvb2xlYW4sDQogICAgdmFsIG5vdGU6IFN0cmluZyA9ICIiLA0KICAgIHZhbCBzaXplVGV4dDogU3RyaW5nID0gIiIsDQopDQoNCnByaXZhdGUgZGF0YSBjbGFzcyBPZmZpY2lhbEhpdCgNCiAgICB2YWwgdXJsOiBTdHJpbmcsDQogICAgdmFsIHNpemVUZXh0OiBTdHJpbmcsDQogICAgdmFsIGlzRXhhY3Q6IEJvb2xlYW4sDQogICAgdmFsIG5vdGU6IFN0cmluZywNCikNCg0KLyoqIOacuuWei+adoeebruOAguWtl+auteWSjCBbT3B1c0RldmljZUZ1bGxdIOWvuem9kO+8jOS9humineWkluW4puadpea6kOagh+iusOOAgiAqLw0KZGF0YSBjbGFzcyBEZXZpY2VFbnRyeSgNCiAgICB2YWwgbmFtZTogU3RyaW5nLA0KICAgIHZhbCBzZXJpZXM6IFN0cmluZywNCiAgICB2YWwgY29kZW5hbWU6IFN0cmluZywNCiAgICB2YWwgYnJhbmRLZXk6IFN0cmluZywNCiAgICB2YWwgdmVyc2lvbkNvdW50OiBJbnQsDQogICAgdmFsIHJlZ2lvbjogU3RyaW5nLA0KICAgIHZhbCBmaWxlVHlwZTogU3RyaW5nLA0KICAgIHZhbCBkZXNjcmlwdGlvbjogU3RyaW5nLA0KICAgIHZhbCBzb3VyY2U6IFNvdXJjZSwNCiAgICB2YWwgdmVyc2lvbnM6IExpc3Q8VmVyc2lvbkVudHJ5PiwNCikgew0KICAgIHZhbCBkaXNwbGF5TmFtZTogU3RyaW5nIGdldCgpID0gbmFtZS5pZkJsYW5rIHsgY29kZW5hbWUgfQ0KfQ0KDQovKiog54mI5pys5p2h55uu44CCW2RpcmVjdFVybF0g6Z2e56m66KGo56S66Z2Z5oCB5pWw5o2u6YeM5bey5bim55u06ZO+77yM5Y+v55u05o6l5LiL44CCICovDQpkYXRhIGNsYXNzIFZlcnNpb25FbnRyeSgNCiAgICB2YWwgdmVyc2lvbjogU3RyaW5nLA0KICAgIHZhbCByb21OYW1lOiBTdHJpbmcsDQogICAgdmFsIG9zRmFtaWx5OiBTdHJpbmcsDQogICAgdmFsIGZsYXNoVHlwZTogU3RyaW5nLA0KICAgIHZhbCBzaXplOiBTdHJpbmcsDQogICAgdmFsIHJlbGVhc2VEYXRlOiBTdHJpbmcsDQogICAgdmFsIHJlZ2lvbjogU3RyaW5nLA0KICAgIHZhbCBtZDU6IFN0cmluZywNCiAgICB2YWwgbmVlZHNSZXNvbHZlOiBCb29sZWFuLA0KICAgIHZhbCBkaXJlY3RVcmw6IFN0cmluZz8sDQogICAgdmFsIG9wdXM6IE9wdXNWZXJzaW9uLA0KICAgIC8qKg0KICAgICAqIHRydWUgPSDmnaXoh6rlhoXnva7lhZzlupXooajvvIjlnKjnur/mlbDmja7mupDov5jmsqHmlLblvZXvvInjgIINCiAgICAgKg0KICAgICAqIOi/meexu+adoeebrioq5LiN6IO9KirotbAgb3B1c3JvbSDop6PmnpDmjqXlj6Mg4oCU4oCUIOmCo+S4quaOpeWPo+WPquiupOiHquW3semdmeaAgeW6k+mHjOeahOadoeebru+8jA0KICAgICAqIOafpeWGhee9ruacuuWei+W/heeEtiA1MDLjgILmiYDku6Xlj5bnm7Tpk77ml7bopoHot7Pov4flroPvvIznm7TotbDlrpjmlrnmjqXlj6PvvIwNCiAgICAgKiDlpLHotKXkuZ/opoHnu5nnlKjmiLfor7Tkurror53vvIzogIzkuI3mmK/kuKLkuIDkuKogNTAyIOWHuuadpeOAgg0KICAgICAqLw0KICAgIHZhbCBpc0ZhbGxiYWNrOiBCb29sZWFuID0gZmFsc2UsDQopIHsNCiAgICB2YWwgZGlzcGxheU5hbWU6IFN0cmluZyBnZXQoKSA9IHZlcnNpb24uaWZCbGFuayB7IHJvbU5hbWUgfQ0KICAgIHZhbCBzaXplVGV4dDogU3RyaW5nIGdldCgpID0gcHJldHR5U2l6ZShzaXplKQ0KICAgIHZhbCBjYW5Eb3dubG9hZERpcmVjdGx5OiBCb29sZWFuIGdldCgpID0gIWRpcmVjdFVybC5pc051bGxPckJsYW5rKCkNCn0NCg0KcHJpdmF0ZSBmdW4gT3B1c0RldmljZUZ1bGwudG9FbnRyeShzb3VyY2U6IFNvdXJjZSkgPSBEZXZpY2VFbnRyeSgNCiAgICBuYW1lID0gbmFtZSwNCiAgICBzZXJpZXMgPSBzZXJpZXMsDQogICAgY29kZW5hbWUgPSBjb2RlbmFtZSwNCiAgICBicmFuZEtleSA9IGJyYW5kS2V5LA0KICAgIHZlcnNpb25Db3VudCA9IHZlcnNpb25Db3VudCwNCiAgICByZWdpb24gPSByZWdpb24sDQogICAgZmlsZVR5cGUgPSBmaWxlVHlwZSwNCiAgICBkZXNjcmlwdGlvbiA9IGRlc2NyaXB0aW9uLA0KICAgIHNvdXJjZSA9IHNvdXJjZSwNCiAgICB2ZXJzaW9ucyA9IHZlcnNpb25zLm1hcCB7IGl0LnRvRW50cnkoaXNGYWxsYmFjayA9IHNvdXJjZSA9PSBTb3VyY2UuRkFMTEJBQ0spIH0sDQopDQoNCnByaXZhdGUgZnVuIE9wdXNWZXJzaW9uLnRvRW50cnkoaXNGYWxsYmFjazogQm9vbGVhbiA9IGZhbHNlKSA9IFZlcnNpb25FbnRyeSgNCiAgICB2ZXJzaW9uID0gdmVyc2lvbiwNCiAgICByb21OYW1lID0gcm9tTmFtZSwNCiAgICBvc0ZhbWlseSA9IG9zRmFtaWx5LA0KICAgIGZsYXNoVHlwZSA9IGZsYXNoVHlwZSwNCiAgICBzaXplID0gc2l6ZSwNCiAgICByZWxlYXNlRGF0ZSA9IHJlbGVhc2VEYXRlLA0KICAgIHJlZ2lvbiA9IHJlZ2lvbiwNCiAgICBtZDUgPSBtZDUsDQogICAgbmVlZHNSZXNvbHZlID0gbmVlZHNSZXNvbHZlLA0KICAgIC8vIOmdmeaAgeaVsOaNrumHjOebtOmTvuWtl+auteWPr+iDveWPqyByZWNvdmVyeVVybCAvIGZhc3Rib290VXJs77yM5Y+W56ys5LiA5Liq6Z2e56m655qEDQogICAgZGlyZWN0VXJsID0gdGhpc0B0b0VudHJ5LmRpcmVjdFVybC5pZkJsYW5rIHsgbnVsbCB9LA0KICAgIG9wdXMgPSB0aGlzLA0KICAgIGlzRmFsbGJhY2sgPSBpc0ZhbGxiYWNrLA0KKQ0K
+package org.linbaogu.romhub.data.brand
+
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
+import okhttp3.OkHttpClient
+import java.io.File
+
+/**
+ * 多品牌 ROM 数据源的统一入口。
+ *
+ * 三种数据来源，各有各的坑，这里负责编排：
+ *
+ * | 来源 | 用途 | 状态 |
+ * |---|---|---|
+ * | [OpusIndex] | 机型+ 版本**清单**（1159 机型 / 35968 版本） | 免登录免签名，但要带 Referer |
+ * | [OpusResolver] | 清单里**任意历史版本**的直链 | 需签名，一次算对，重试会封 IP |
+ * | [ColorOtaApi] / [VivoOtaApi] | 官方 OTA **最新版**直链 | 最稳，实测跑通，直链不过期 |
+ *
+ * ### 下载一个版本时的决策顺序
+ *
+ * 1. 版本自带 `recoveryUrl` / `fastbootUrl` → 直接用（ColorOS 系部分历史包）
+ * 2. 该条目 `needsResolve` → 调 [OpusResolver] 现取
+ * 3. Opus 拿不到 → 退回官方接口查最新版（并明确告诉用户拿到的是最新版，不是他选的那版）
+ *
+ * 三条路都失败时**如实报错**，不假装成功、不给占位链接。
+ */
+class RomSource(
+    cacheDir: File? = null,
+    private val client: OkHttpClient = defaultSharedClient(),
+) {
+    private val index = OpusIndex(cacheDir, client)
+    private val resolver = OpusResolver(client)
+    private val colorOta = ColorOtaApi(client)
+    private val vivoOta = VivoOtaApi(client)
+
+    /**
+     * 最近一次官方接口失败的原因。
+     *
+     * 官方接口返回 null 时有两种完全不同的含义（没这个机型 / 接口不放行），
+     * 不记下来的话上层只能笼统报「没查到」，用户没法判断该不该重试。
+     * 只在单次 [resolveLink] 内使用，不是并发安全的 —— resolveLink 整体
+     * 挂在 `Dispatchers.IO` 上，但用户不会同时点两个下载，所以够用。
+     */
+    private var officialError: String = ""
+
+    // ------------------------------------------------------------- 清单
+
+    /**
+     * 品牌 → 机型列表。
+     *
+     * ⚠️ **必须合并，不能二选一**（2026-10-04 用户实测发现）：
+     * 原来写成「opusrom 有数据就只用它的，没有才用兜底表」，
+     * 结果内置表里新补的 iQOO 15 / 16 / Z11 系列**永远显示不出来** ——
+     * 因为 opusrom 正常在线，它就永远赢，兜底表那段代码根本不会执行。
+     * 源站本身更新有滞后（新机常常晚一两个月才收录），光靠它永远缺新机。
+     *
+     * 所以现在的规则是：**在线清单 ∪ 内置表**，按机型名去重，在线的优先。
+     * 这样源站更新了会自动覆盖内置的旧记录，源站没更新的新机也不会丢。
+     */
+    suspend fun devicesOf(brand: Brand): List<DeviceEntry> = withContext(Dispatchers.IO) {
+        val online = runCatching { index.brandDevices(brand.key) }.getOrNull()
+        mergeDevices(
+            online = online.orEmpty(),
+            brand = brand,
+        )
+    }
+
+    /**
+     * 强制刷新某品牌的机型列表（跳过 6 小时磁盘缓存，重新拉源站）。
+     *
+     * 源站新增机型（比如 ColorOS 17 发布后）只能靠这个进来 ——
+     * 否则用户看到的永远是 6 小时前那份列表。
+     *
+     * 拉不到（离线 / 源站抽风）时**不抛异常**，回落到缓存列表：
+     * 刷新失败不该让用户从列表页退出去。
+     */
+    suspend fun refreshDevices(brand: Brand): List<DeviceEntry> = withContext(Dispatchers.IO) {
+        val fresh = runCatching { index.brandDevices(brand.key, forceRefresh = true) }.getOrNull()
+        val online = fresh?.takeIf { it.isNotEmpty() }
+        mergeDevices(
+            online = online.orEmpty(),
+            brand = brand,
+        )
+    }
+
+    /**
+     * 在线清单与内置兜底表合并。
+     *
+     * 去重键用「机型名 + 系列」而不是只按名字：同一台机器在源站和内置表里
+     * 系列名可能不同（如 `iQOO 15` vs `iQOO 数字`），只按名字去重会漏。
+     *
+     * 内置表里的条目 `source` 标 [Source.FALLBACK]，界面上要能看出数据来源，
+     * 免得用户以为那是源站给的完整版本历史（其实只有占位版本 + 实时解析）。
+     */
+    private fun mergeDevices(
+        online: List<OpusDeviceFull>,
+        brand: Brand,
+    ): List<DeviceEntry> {
+        if (online.isEmpty()) {
+            return FallbackCatalog.asOpusDevices(brand.key, brand.nameZh).map {
+                it.toEntry(source = Source.FALLBACK)
+            }
+        }
+
+        val merged = LinkedHashMap<String, DeviceEntry>(online.size + 32)
+        online.forEach { merged[it.name + "|" + it.series] = it.toEntry(Source.ONLINE) }
+
+        // 内置表只补在线清单里没有的（PD 号 + 机型名双重判重：
+        // 名字相同但 PD 号不同说明是不同机器，都该留着）
+        val onlineNames = online.mapTo(HashSet()) { it.name.trim() }
+        val onlinePd = online.asSequence()
+            .flatMap { it.versions.asSequence() }
+            .mapNotNull { Regex("(?:D)?PD\\d+[A-Z]?").find(it.romName)?.value }
+            .toHashSet()
+
+        FallbackCatalog.asOpusDevices(brand.key, brand.nameZh).forEach { fb ->
+            val fbPd = Regex("(?:D)?PD\\d+[A-Z]?").find(fb.versions.firstOrNull()?.romName.orEmpty())?.value
+            val dupByName = fb.versions.any { v -> v.apiDevice in onlineNames }
+            val dupByPd = fbPd != null && fbPd in onlinePd
+            if (dupByName || dupByPd) return@forEach
+            // 一个 FallbackModel 可能有多个机型名，逐个建条目，键用第一个名字
+            val entry = fb.toEntry(Source.FALLBACK)
+            merged[entry.name + "|" + entry.series] = entry
+        }
+
+        return merged.values.toList()
+    }
+
+    /** 某个机型的全部版本。 */
+    suspend fun versionsOf(brand: Brand, device: DeviceEntry): List<VersionEntry> =
+        withContext(Dispatchers.IO) {
+            if (device.source == Source.ONLINE) {
+                val full = runCatching { index.brandDevices(brand.key) }.getOrNull()
+                val hit = full?.firstOrNull {
+                    it.name == device.name && it.series == device.series
+                }
+                if (hit != null) return@withContext hit.versions.map { it.toEntry() }
+            }
+            // 兜底来源的机型，versions 已经是 VersionEntry 了
+            device.versions
+        }
+
+    // ------------------------------------------------------------- 取直链
+
+    /**
+     * 解析一个版本的下载直链。
+     *
+     * @param fallbackToOfficial Opus 解析失败时，是否退回官方接口查最新版。
+     *   默认 true —— 对用户来说拿到能下的包比严格版本匹配更有用，
+     *   但返回结果里的 [ResolvedLink.isVersionExact] 会如实标false，界面要提示。
+     */
+    suspend fun resolveLink(
+        brand: Brand,
+        version: VersionEntry,
+        fallbackToOfficial: Boolean = true,
+    ): ResolvedLink = withContext(Dispatchers.IO) {
+        //1) 静态数据里本来就带直链
+        version.directUrl?.let {
+            return@withContext ResolvedLink(
+                url = it,
+                via = Via.STATIC,
+                isVersionExact = true,
+                note = "来自静态数据",
+            )
+        }
+
+        // 2) opusrom 签名解析（能拿到任意历史版本）
+        //
+        // ⚠️ 内置机型**必须跳过这一步**（2026-10-04 实测确认）：
+        // opusrom 的 /api/resolve 只认它自己静态库里的条目。内置表里的新机
+        // （iQOO 15 / 16 等）源站还没收录，拿必 502 `{"error":"解析失败"}`。
+        // 硬试不仅必然失败，还会白等一次签名 challenge。
+        val isFallback = version.isFallback
+        val opusResult = if (isFallback) {
+            Result.failure(OpusException("该机型尚未被在线数据源收录"))
+        } else {
+            runCatching { resolver.resolve(version.opus) }
+        }
+        opusResult.getOrNull()?.let {
+            return@withContext ResolvedLink(
+                url = it,
+                via = Via.OPUS,
+                isVersionExact = true,
+                note = "经 opusrom 解析",
+            )
+        }
+
+        // 3) 官方接口兜底（只能给最新版）
+        if (!fallbackToOfficial) {
+            throw OpusException(
+                opusResult.exceptionOrNull()?.message
+                    ?: "静态数据里没有直链，解析接口也不可用",
+            )
+        }
+
+        // 这个品牌压根没有官方接口就别写「取直链失败」了，
+        // 直说是接口不支持，避免用户以为是自己手机的问题。
+        if (brand.family != BrandFamily.ORIGIN_OS && brand.family != BrandFamily.COLOR_OS) {
+            throw OpusException(
+                opusResult.exceptionOrNull()?.message?.let { "$it；" }.orEmpty() +
+                    "「${brand.nameZh}」暂时没有可用的官方 OTA 接口，" +
+                    "App 无法直接拿到官方直链",
+            )
+        }
+
+        // 上面的品牌校验已经挡掉了非 OriginOS / ColorOS 的情况，
+        // 所以这里 when 是穷尽的，不需要 else。
+        val official = when (brand.family) {
+            BrandFamily.ORIGIN_OS -> officialForOriginOs(version)
+            BrandFamily.COLOR_OS -> officialForColorOs(version)
+        }
+
+        if (official == null) {
+            // 官方接口存在但没给出包 —— 这是最常见的情况，必须和
+            // 「没有接口」区分开，并把接口给的真实原因带出来，
+            // 否则报错语会误导用户反复重试。
+            throw OpusException(
+                buildString {
+                    if (isFallback) {
+                        append("「${version.opus.apiDevice}」是内置机型，")
+                        append("在线数据源尚未收录，官方 OTA 接口也暂未提供该机型的推送包。")
+                    } else {
+                        append(opusResult.exceptionOrNull()?.message ?: "在线解析接口不可用")
+                        append("；")
+                    }
+                    append(officialError.ifBlank { "官方 OTA 接口未查到该机型的可推送版本" })
+                },
+            )
+        }
+
+        ResolvedLink(
+            url = official.url,
+            via = Via.OFFICIAL,
+            isVersionExact = official.isExact,
+            note = official.note,
+            sizeText = official.sizeText,
+        )
+    }
+
+    /**
+     * 官方 OriginOS 接口。
+     *
+     * `swVer` 传**当前装着的版本**，接口返回「能升到哪」。
+     * 我们把用户选的那个历史版本传进去，命中就说明服务方还留着这条升级路线。
+     *
+     * 失败时通过 [officialError] 把真实原因带出去 —— 之前一律 `return null`，
+     * 上层只能报「没查到」，用户完全看不到到底是「接口不放行」还是「真没这机型」。
+     */
+    private suspend fun officialForOriginOs(
+        version: VersionEntry,
+    ): OfficialHit? {
+        val model = originOsModelOf(version)
+        if (model.isBlank()) {
+            officialError = "这个版本里识别不出 vivo 软件型号（PD 号）"
+            return null
+        }
+        val r = runCatching {
+            vivoOta.query(model = model, deviceModel = publicModelOf(model), currentVer = bareVersionOf(version))
+        }.getOrElse {
+            officialError = "官方接口请求失败：${it.message ?: it.javaClass.simpleName}"
+            return null
+        }
+        if (!r.success || r.downloadUrl.isBlank()) {
+            officialError = r.error.ifBlank { "官方接口没返回可下载的包" }
+            return null
+        }
+        officialError = ""
+        return OfficialHit(
+            url = r.downloadUrl,
+            sizeText = r.sizeText,
+            isExact = r.version == bareVersionOf(version),
+            note = if (r.version == bareVersionOf(version)) "官方接口（版本一致）"
+            else "官方接口（返回的是 ${r.version}）",
+        )
+    }
+
+    /**
+     * 取 OriginOS 的软件型号（`PD2415` 这种）。
+     *
+     * 源站的版本串是 `PD2217_MA_12.1.14.5.W10.V000L1` 整串，PD 号就在里面，
+     * 而 `oplusModel` 字段源站是留空的（实测 47/47 条全空）。
+     * 所以这里以「从版本串反解」为主、`oplusModel` 为辅，两条路都能拿到。
+     */
+    private fun originOsModelOf(version: VersionEntry): String {
+        Regex("(?:D)?PD\\d+[A-Z]?").find(version.opus.version)?.let { return it.value }
+        Regex("(?:D)?PD\\d+[A-Z]?").find(version.opus.romName)?.let { return it.value }
+        return version.opus.oplusModel
+    }
+
+    /**
+     * 官方接口要的 `swVer` 是**裸版本号**（`16.1.16.5.W10`），
+     * 不带 `PD2217_MA_` 前缀。源站整串直接塞进去服务端认不出来。
+     */
+    private fun bareVersionOf(version: VersionEntry): String =
+        version.opus.version.substringAfter("_MA_", version.opus.version)
+
+    /** 官方 ColorOS 接口。 */
+    private suspend fun officialForColorOs(
+        version: VersionEntry,
+    ): OfficialHit? {
+        val model = version.opus.oplusModel.ifBlank { colorOsModelOf(version) }
+        if (model.isBlank()) {
+            officialError = "这个版本里识别不出 ColorOS 软件型号"
+            return null
+        }
+        val r = runCatching { colorOta.query(model, version.opus.version) }.getOrElse {
+            officialError = "官方接口请求失败：${it.message ?: it.javaClass.simpleName}"
+            return null
+        }
+        if (!r.success) {
+            officialError = r.error.ifBlank { "官方接口没返回可推送的版本" }
+            return null
+        }
+        val full = r.fullPackage
+        if (full == null || full.link.isBlank()) {
+            officialError = "官方接口只返回了升级说明，没有全量包直链"
+            return null
+        }
+        officialError = ""
+        return OfficialHit(
+            url = full.link,
+            sizeText = full.sizeText,
+            isExact = full.version.contains(version.opus.version),
+            note = if (full.isExpired) "官方接口（链接已过期，建议改用最新版本）"
+            else "官方接口（ColorOS 官方 OTA）",
+        )
+    }
+
+    /**
+     * ColorOS 的软件型号（`PJZ110` 这种）从版本串里反解。
+     *
+     * 源站的 ColorOS 版本串形如 `PJZ110_11.0.6.202...(0)_...`，
+     * 第一段就是型号。取不到就返回空，交给上层如实报「拿不到」。
+     */
+    private fun colorOsModelOf(version: VersionEntry): String {
+        val head = version.opus.version.substringBefore("_")
+        return if (Regex("^[A-Z]{2,4}\\d{3,5}$").matches(head)) head else ""
+    }
+
+    /**
+     * OriginOS 接口的 `public_model`（设备型号，形如 `V2418A`）。
+     *
+     * 规则是从 `model`（软件型号 `PD2415`）推的：vivo 官方一直用
+     * `V` + 去掉首位 `P` 后的数字 + `A`。实测 `PD2408` 对应 `V2408A`，
+     * 而 `PD2408` 又是官方接口直接认的 model，所以这层转换只需在
+     * 接口返回版本与请求不一致时用作退路，主路径仍以 model 为准。
+     */
+    private fun publicModelOf(model: String): String {
+        val digits = model.removePrefix("PD").removePrefix("DPD").filter { it.isDigit() }
+        return if (digits.isBlank()) model else "V${digits}A"
+    }
+
+    companion object {
+        /** 共用一个连接池，省得每次新建。 */
+        fun defaultSharedClient(): OkHttpClient = OkHttpClient.Builder()
+            .connectTimeout(15, java.util.concurrent.TimeUnit.SECONDS)
+            .readTimeout(120, java.util.concurrent.TimeUnit.SECONDS)
+            .build()
+    }
+}
+
+// ------------------------------------------------------------------ 门面模型
+
+/** 数据来源，界面上要标出来，别让用户以为在线数据。 */
+enum class Source { ONLINE, FALLBACK }
+
+/** 直链是怎么来的。 */
+enum class Via { STATIC, OPUS, OFFICIAL }
+
+data class ResolvedLink(
+    val url: String,
+    val via: Via,
+    /** false = 拿到的是最新版，不是用户选的那一版，界面必须提示。 */
+    val isVersionExact: Boolean,
+    val note: String = "",
+    val sizeText: String = "",
+)
+
+private data class OfficialHit(
+    val url: String,
+    val sizeText: String,
+    val isExact: Boolean,
+    val note: String,
+)
+
+/** 机型条目。字段和 [OpusDeviceFull] 对齐，但额外带来源标记。 */
+data class DeviceEntry(
+    val name: String,
+    val series: String,
+    val codename: String,
+    val brandKey: String,
+    val versionCount: Int,
+    val region: String,
+    val fileType: String,
+    val description: String,
+    val source: Source,
+    val versions: List<VersionEntry>,
+) {
+    val displayName: String get() = name.ifBlank { codename }
+}
+
+/** 版本条目。[directUrl] 非空表示静态数据里已带直链，可直接下。 */
+data class VersionEntry(
+    val version: String,
+    val romName: String,
+    val osFamily: String,
+    val flashType: String,
+    val size: String,
+    val releaseDate: String,
+    val region: String,
+    val md5: String,
+    val needsResolve: Boolean,
+    val directUrl: String?,
+    val opus: OpusVersion,
+    /**
+     * true = 来自内置兜底表（在线数据源还没收录）。
+     *
+     * 这类条目**不能**走 opusrom 解析接口 —— 那个接口只认自己静态库里的条目，
+     * 查内置机型必然 502。所以取直链时要跳过它，直走官方接口，
+     * 失败也要给用户说人话，而不是丢一个 502 出来。
+     */
+    val isFallback: Boolean = false,
+) {
+    val displayName: String get() = version.ifBlank { romName }
+    val sizeText: String get() = prettySize(size)
+    val canDownloadDirectly: Boolean get() = !directUrl.isNullOrBlank()
+}
+
+private fun OpusDeviceFull.toEntry(source: Source) = DeviceEntry(
+    name = name,
+    series = series,
+    codename = codename,
+    brandKey = brandKey,
+    versionCount = versionCount,
+    region = region,
+    fileType = fileType,
+    description = description,
+    source = source,
+    versions = versions.map { it.toEntry(isFallback = source == Source.FALLBACK) },
+)
+
+private fun OpusVersion.toEntry(isFallback: Boolean = false) = VersionEntry(
+    version = version,
+    romName = romName,
+    osFamily = osFamily,
+    flashType = flashType,
+    size = size,
+    releaseDate = releaseDate,
+    region = region,
+    md5 = md5,
+    needsResolve = needsResolve,
+    // 静态数据里直链字段可能叫 recoveryUrl / fastbootUrl，取第一个非空的
+    directUrl = this@toEntry.directUrl.ifBlank { null },
+    opus = this,
+    isFallback = isFallback,
+)

@@ -1,1 +1,60 @@
-LyoKICogVGhpcyBmaWxlIGlzIHBhcnQgb2YgSHlwZXJDZWlsZXIuCgogKiBIeXBlckNlaWxlciBpcyBmcmVlIHNvZnR3YXJlOiB5b3UgY2FuIHJlZGlzdHJpYnV0ZSBpdCBhbmQvb3IgbW9kaWZ5CiAqIGl0IHVuZGVyIHRoZSB0ZXJtcyBvZiB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGFzCiAqIHB1Ymxpc2hlZCBieSB0aGUgRnJlZSBTb2Z0d2FyZSBGb3VuZGF0aW9uLCBlaXRoZXIgdmVyc2lvbiAzIG9mIHRoZQogKiBMaWNlbnNlLgoKICogVGhpcyBwcm9ncmFtIGlzIGRpc3RyaWJ1dGVkIGluIHRoZSBob3BlIHRoYXQgaXQgd2lsbCBiZSB1c2VmdWwsCiAqIGJ1dCBXSVRIT1VUIEFOWSBXQVJSQU5UWTsgd2l0aG91dCBldmVuIHRoZSBpbXBsaWVkIHdhcnJhbnR5IG9mCiAqIE1FUkNIQU5UQUJJTElUWSBvciBGSVRORVNTIEZPUiBBIFBBUlRJQ1VMQVIgUFVSUE9TRS4gIFNlZSB0aGUKICogR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGZvciBtb3JlIGRldGFpbHMuCgogKiBZb3Ugc2hvdWxkIGhhdmUgcmVjZWl2ZWQgYSBjb3B5IG9mIHRoZSBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UKICogYWxvbmcgd2l0aCB0aGlzIHByb2dyYW0uICBJZiBub3QsIHNlZSA8aHR0cHM6Ly93d3cuZ251Lm9yZy9saWNlbnNlcy8+LgoKICogQ29weXJpZ2h0IChDKSAyMDIzLTIwMjYgSHlwZXJDZWlsZXIgQ29udHJpYnV0aW9ucwogKi8KcGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLmhjLnByb3Zpc2lvbi50ZXh0LnN0eWxlOwoKaW1wb3J0IGFuZHJvaWQudGV4dC5UZXh0UGFpbnQ7CmltcG9ydCBhbmRyb2lkLnRleHQuc3R5bGUuQ2xpY2thYmxlU3BhbjsKaW1wb3J0IGFuZHJvaWQudXRpbC5Mb2c7CmltcG9ydCBhbmRyb2lkLnZpZXcuVmlldzsKCmltcG9ydCBhbmRyb2lkeC5hbm5vdGF0aW9uLk5vbk51bGw7CmltcG9ydCBhbmRyb2lkeC5mcmFnbWVudC5hcHAuRnJhZ21lbnRBY3Rpdml0eTsKCmltcG9ydCBvcmcubGluYmFvZ3Uucm9taHViLmhjLnByb3Zpc2lvbi53aWRnZXQuVGVybXNBbmRTdGF0ZW1lbnRCb3R0b21TaGVldDsKCnB1YmxpYyBjbGFzcyBUZXJtc1RpdGxlU3BhbiBleHRlbmRzIENsaWNrYWJsZVNwYW4gewoKICAgIHByaXZhdGUgZmluYWwgRnJhZ21lbnRBY3Rpdml0eSBtQ29udGV4dDsKICAgIHByaXZhdGUgZmluYWwgaW50IG1IaXBlcmxpbmtUeXBlOwoKICAgIHB1YmxpYyBUZXJtc1RpdGxlU3BhbihGcmFnbWVudEFjdGl2aXR5IGNvbnRleHQsIGludCB0eXBlKSB7CiAgICAgICAgbUNvbnRleHQgPSBjb250ZXh0OwogICAgICAgIG1IaXBlcmxpbmtUeXBlID0gdHlwZTsKICAgIH0KCiAgICBAT3ZlcnJpZGUKICAgIHB1YmxpYyB2b2lkIHVwZGF0ZURyYXdTdGF0ZShATm9uTnVsbCBUZXh0UGFpbnQgZHMpIHsKICAgICAgICBkcy5zZXRVbmRlcmxpbmVUZXh0KGZhbHNlKTsKICAgIH0KCiAgICBAT3ZlcnJpZGUKICAgIHB1YmxpYyB2b2lkIG9uQ2xpY2soQE5vbk51bGwgVmlldyB3aWRnZXQpIHsKICAgICAgICBUZXJtc0FuZFN0YXRlbWVudEJvdHRvbVNoZWV0IHNoZWV0ID0gbmV3IFRlcm1zQW5kU3RhdGVtZW50Qm90dG9tU2hlZXQobUNvbnRleHQpOwogICAgICAgIExvZy5pKCJUZXJtc0FuZFN0YXRlbWVudEZyYWdtZW50IiwgIiBoZXJlIGlzIFRlcm1zVGl0bGVTcGFuIG9uQ2xpY2sgIik7CiAgICAgICAgaWYgKG1IaXBlcmxpbmtUeXBlID09IDIpIHsKICAgICAgICAgICAgTG9nLmkoIlRlcm1zQW5kU3RhdGVtZW50RnJhZ21lbnQiLCAiIGhlcmUgaXMgVXNlciBBZ3JlZW1lbnQgY2xpY2sgIik7CiAgICAgICAgICAgIC8vIGxlZ2FsOi8vIOeUsSBNYXJrZG93blZpZXcg5aSE55CG77ya5LyY5YWI5LqR56uv5YaF5a6577yM6YCA5Zue5pys5Zyw57yT5a2YIC8gQVBLIOWGhee9rgogICAgICAgICAgICBUZXJtc0FuZFN0YXRlbWVudEJvdHRvbVNoZWV0LmxvYWRNYXJrZG93bigibGVnYWw6Ly90ZXJtcyIpOwogICAgICAgIH0gZWxzZSBpZiAobUhpcGVybGlua1R5cGUgPT0gMSkgewogICAgICAgICAgICBMb2cuaSgiVGVybXNBbmRTdGF0ZW1lbnRGcmFnbWVudCIsICIgaGVyZSBpcyBQcml2YWN5IFBvbGljeSBjbGljayAiKTsKICAgICAgICAgICAgVGVybXNBbmRTdGF0ZW1lbnRCb3R0b21TaGVldC5sb2FkTWFya2Rvd24oImxlZ2FsOi8vcHJpdmFjeSIpOwogICAgICAgIH0KICAgICAgICBzaGVldC5zaG93KCk7CiAgICB9Cn0K
+/*
+ * This file is part of HyperCeiler.
+
+ * HyperCeiler is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as
+ * published by the Free Software Foundation, either version 3 of the
+ * License.
+
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Affero General Public License for more details.
+
+ * You should have received a copy of the GNU Affero General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+ * Copyright (C) 2023-2026 HyperCeiler Contributions
+ */
+package org.linbaogu.romhub.hc.provision.text.style;
+
+import android.text.TextPaint;
+import android.text.style.ClickableSpan;
+import android.util.Log;
+import android.view.View;
+
+import androidx.annotation.NonNull;
+import androidx.fragment.app.FragmentActivity;
+
+import org.linbaogu.romhub.hc.provision.widget.TermsAndStatementBottomSheet;
+
+public class TermsTitleSpan extends ClickableSpan {
+
+    private final FragmentActivity mContext;
+    private final int mHiperlinkType;
+
+    public TermsTitleSpan(FragmentActivity context, int type) {
+        mContext = context;
+        mHiperlinkType = type;
+    }
+
+    @Override
+    public void updateDrawState(@NonNull TextPaint ds) {
+        ds.setUnderlineText(false);
+    }
+
+    @Override
+    public void onClick(@NonNull View widget) {
+        TermsAndStatementBottomSheet sheet = new TermsAndStatementBottomSheet(mContext);
+        Log.i("TermsAndStatementFragment", " here is TermsTitleSpan onClick ");
+        if (mHiperlinkType == 2) {
+            Log.i("TermsAndStatementFragment", " here is User Agreement click ");
+            // legal:// 由 MarkdownView 处理：优先云端内容，退回本地缓存 / APK 内置
+            TermsAndStatementBottomSheet.loadMarkdown("legal://terms");
+        } else if (mHiperlinkType == 1) {
+            Log.i("TermsAndStatementFragment", " here is Privacy Policy click ");
+            TermsAndStatementBottomSheet.loadMarkdown("legal://privacy");
+        }
+        sheet.show();
+    }
+}

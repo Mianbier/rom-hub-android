@@ -1,1 +1,140 @@
-IyBST00gSHVi77yIQW5kcm9pZCDlrqLmiLfnq6/vvIkKCuesrOS4ieaWuSoq6Z2e5a6Y5pa5KirnmoTlsI/nsbMgUk9NIOe0ouW8leS4juekvuWMuuenu+akjeWMhea1j+iniOW3peWFt+OAggoKLSDntKLlvJUgMzU0IOasvuacuuWei+OAgTcuOCDkuIfkuKrniYjmnKzvvIzlkKvlrpjmlrnljIXvvIjnqLPlrprniYggLyDlvIDlj5HniYggLyDlhoXmtYsgLyBCZXRh77yJ5LiO56S+5Yy656e75qSN5YyFCi0g6K6i6ZiF5py65Z6L5ZCO77yM5a6Y5pa55YyF5oiW56e75qSN5YyF5pyJ5pu05paw5pe25Y+R57O757uf6YCa55+l77yM54K56YCa55+l55u06L6+6K+l54mI5pysCi0g5Yqo5oCB6aG15pys5Zyw57yT5a2YICsg5pyq6K+75bCP57qi54K5Ci0g5YaF572uKirnvZHnm5jkuIvovb3lmagqKu+8muWkuOWFiyAvIFVDIC8g55m+5bqmIC8gMTE1IC8gMTIzIC8g56e75Yqo5LqR55uYIC8g6L+F6Zu377yM5pSv5oyB55m75b2V44CB5rWP6KeI44CB5pCc57Si44CB6L2s5a2Y44CB5Y+W55u06ZO+Ci0g5aSa57q/56iL5YiG54mH5LiL6L29ICsg5pat54K557ut5Lyg77yM6YCa55+l5qCP5a6e5pe26L+b5bqmCi0g5ri45a6i5Y+v5rWP6KeI5LiO5LiL6L2977ybKirlvIDlj5HogIXotKblj7fnlLPor7cqKue7j+ermemVv+WuoeaguOWQjuWPr+S4iuS8oOenu+akjeWMhQoK5b2T5YmN54mI5pysICoqdjIuMC4yKirvvIh2ZXJzaW9uQ29kZSAyMDAwMu+8ieOAguWuieijheWMheingQpbUmVsZWFzZXNdKGh0dHBzOi8vZ2l0aHViLmNvbS9NaWFuYmllci9yb20taHViLWFuZHJvaWQvcmVsZWFzZXMp44CCCgrnlYzpnaLkuI7liqjmlYjku6UgW0tlcm5lbFNVXShodHRwczovL2dpdGh1Yi5jb20vdGlhbm4vS2VybmVsU1UpIOS4jgpbSHlwZXJDZWlsZXJdKGh0dHBzOi8vZ2l0aHViLmNvbS9SZUNocm9ub1JhaW4vSHlwZXJDZWlsZXIpIOS4uuiTneacrO+8jArlubbkvb/nlKjkuozogIXlkIzmupDnmoQgVUkg5bqTIFtNaXVpeF0oaHR0cHM6Ly9naXRodWIuY29tL2NvbXBvc2UtbWl1aXgtdWkvbWl1aXgp44CCCgotLS0KCiMjIOiuuOWPrwoKKipHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UgdjMuMCoq77yM5a6M5pW05q2j5paH6KeBIFtgTElDRU5TRWBdKExJQ0VOU0Up44CCCgrpgInmi6kgQUdQTC0zLjAg55qE5Y6f5Zug77ya5pys6aG555uu55qE55WM6Z2i5a6e546w56e75qSN6IeqIEtlcm5lbFNV77yIR1BMLTMuMO+8ieS4jiBIeXBlckNlaWxlcu+8iEFHUEwtMy4w77yJ77yMCumHh+eUqCBBR1BMLTMuMCDlj6/lkIzml7bmu6HotrPkuKTogIXnmoTorrjlj6/kuYnliqHvvIhBR1BMIOeahOS5ieWKoeaYryBHUEwg55qE6LaF6ZuG77yJ44CCCgoqKuWujOaVtOeahOS9v+eUqOOAgeenu+akjeS4jum4o+iwoua4heWNleingSBbYE5PVElDRS5tZGBdKE5PVElDRS5tZCkqKiDigJTigJQg6Iul5L2g5YiG5Y+R5pys6L2v5Lu277yMCuivt+S4gOW5tuS/neeVmSBgTElDRU5TRWAg5LiOIGBOT1RJQ0UubWRg44CCCgojIyMg5YWz5LqO5pyN5Yqh56uvCgrmnKzku5PlupMqKuWPquWQqyBBbmRyb2lkIOWuouaIt+erryoq44CC5a6D6buY6K6k6L+e5o6lIGBodHRwczovL3JvbS5saW5iYW9ndS5kcGRucy5vcmdgCu+8iFJPTSBIdWIg5ZCO56uv77yJ77yM5Lik6ICF5LuF6YCa6L+HIEhUVFBTIOaOpeWPo+mAmuS/oe+8jOWxnuS6juS6kuebuOeLrOeri+eahOeoi+W6j++8jArlkI7nq6/kuI3lnKjmnKzku5PlupPojIPlm7TlhoXvvIzkuZ/kuI3lj5fmnKzorrjlj6/nuqbmnZ/jgIIKCi0tLQoKIyMg5oqA5pyv5qCICgp8IOexu+WIqyB8IOmAieWeiyB8CnwtLS18LS0tfAp8IOivreiogCB8IEtvdGxpbiAyLjQuMjAgfAp8IFVJ77yI5Li755WM6Z2i77yJIHwgSmV0cGFjayBDb21wb3Nl77yIQk9NIDIwMjYuMDkuMDDvvIkrICoqTWl1aXggMC45LjQqKu+8iGB0b3AueXVrb25nYS5taXVpeC5rbXBg77yJIHwKfCBVSe+8iEh5cGVyQ2VpbGVyIOenu+akjeWxgu+8iSB8ICoqZmFuLm1pdWl4IDEuMC4xMy4wKiog4oCU4oCUIE1pdWl4IOeahCAqKlZpZXcqKiDniYjvvIzpmo8gSHlwZXJDZWlsZXIg57uPIEdpdEh1YiBQYWNrYWdlcyDliIblj5EgfAp8IOaooeeziiAvIOa2suaAgeeOu+eSgyB8IGBtaXVpeC1ibHVyYCArIGBtaXVpeC1zaGFkZXJg77yIQUdTTCBgUnVudGltZVNoYWRlcmDvvIkgfAp8IOe9kee7nCB8IE9rSHR0cCA1LjUuMCArIGtvdGxpbnguc2VyaWFsaXphdGlvbiAxLjkuMCB8Cnwg5Zu+54mHIHwgQ29pbCAzLjQuMCB8Cnwg5ZCO5Y+wIHwgV29ya01hbmFnZXLvvIgxNSDliIbpkp/ova7or6LvvIzku4XmjInmnLrlnovorqLpmIXlj5HpgJrnn6XvvIkgfAp8IOWHreaNriB8IEFuZHJvaWQgS2V5c3RvcmUgQUVTLTI1Ni1HQ00gfAp8IOaehOW7uiB8IEFHUCA5LjQuMSArIEdyYWRsZSA5LjggKyBKREsgMjEgfAoKLS0tCgojIyDmnoTlu7oKCuimgeaxgiAqKkpESyAyMSoqICsgKipBbmRyb2lkIFNES++8iHBsYXRmb3JtIDM3LjLjgIFidWlsZC10b29scyAzN++8iSoqICsgKipHcmFkbGUgOS44KirjgIIKYEFHUCA5YCDlv4XpobvnlKggSkRLIDIx77yM55SoIDE3IOS8muWksei0peOAggoKYGBgYmFzaAojIDEpIOWRiuiviSBHcmFkbGUgU0RLIOWcqOWTqu+8iOacrOacuueahOi3r+W+hOS4jeimgeaPkOS6pO+8iQplY2hvICdzZGsuZGlyPTzkvaDnmoQgQW5kcm9pZCBTREsg6Lev5b6EPicgPiBsb2NhbC5wcm9wZXJ0aWVzCgojIDIpIOWHuuWMhe+8iOacrOS7k+W6k+acqumZhOW4piBncmFkbGUgd3JhcHBlcu+8jOivt+eUqOacrOacuuWuieijheeahCBHcmFkbGUgOS44LjDvvIkKZXhwb3J0IEpBVkFfSE9NRT08SkRLIDIxIOi3r+W+hD4KZXhwb3J0IEFORFJPSURfSE9NRT08QW5kcm9pZCBTREsg6Lev5b6EPgpncmFkbGUgYXNzZW1ibGVSZWxlYXNlICAgICAgICAgICAjIOaIliBhc3NlbWJsZURlYnVnCiMg5Lqn54mp77yaYXBwL2J1aWxkL291dHB1dHMvYXBrL3JlbGVhc2UvYXBwLXJlbGVhc2UuYXBrCmBgYAoKPiDku5PlupPph4zmsqHmnIkgYGdyYWRsZXdg77ya55Sf5oiQIHdyYXBwZXIg6ZyA6KaB6IGU572R5LiL6L29IEdyYWRsZSDliIblj5HljIXvvIzlvIDlj5HmnLrlvZPml7bkuIvovb3kuI3pgJrjgIIKPiDlpoLmnpzkvaDmnKzlnLDnvZHnu5zmraPluLjvvIzot5HkuIDmrKEgYGdyYWRsZSB3cmFwcGVyIC0tZ3JhZGxlLXZlcnNpb24gOS44LjBgIOihpeS4iuWNs+WPr+OAggoKIyMjIOKaoO+4jyDpnIDopoHoh6rlpIcgR2l0SHViIOWHreaNrgoKYGZhbi5taXVpeDoqYCDlj5HluIPlnKggKipHaXRIdWIgUGFja2FnZXMqKu+8iGBtYXZlbi5wa2cuZ2l0aHViLmNvbS9SZUNocm9ub1JhaW4vSHlwZXJDZWlsZXJg77yJ77yMCuaLieWPlumcgOimgSBHaXRIdWIg6LSm5Y+35Yet5o2u44CC5ZyoICoqYEdSQURMRV9VU0VSX0hPTUUvZ3JhZGxlLnByb3BlcnRpZXNgKirvvIjkuI3mmK/pobnnm67ph4znmoTpgqPku73vvInlhpnlhaXvvJoKCmBgYHByb3BlcnRpZXMKZ3ByLnVzZXI9POS9oOeahCBHaXRIdWIg55So5oi35ZCNPgpncHIua2V5PTzkuIDkuKrluKYgcmVhZDpwYWNrYWdlcyDmnYPpmZDnmoQgUEFUPgpgYGAKCuayoeacieWHreaNruaXtui/meS4quS7k+W6k+S8muiiq+i3s+i/h++8jOWFtuS9meS+nei1luS7jeiDveato+W4uOino+aekO+8jOS9hioq57yW6K+R5Lya57y6IGBmYW4ubWl1aXhgIOebuOWFs+exuyoq44CCCgrniYjmnKznn6npmLXlt7LlnKggYGdyYWRsZS9saWJzLnZlcnNpb25zLnRvbWxgIOWGmeatu++8jCoq5LiN6KaB6Ieq6KGM5Y2H57qnKiog4oCU4oCUCk1pdWl4IOeahOeJiOacrOS4jiBLb3RsaW4gLyBDb21wb3NlIOeJiOacrOaYr+e7keWumueahO+8jOS5seWNh+S8muaOiei/m+S+nei1luWcsOeLseOAggoKPiDms6jmhI8gYG1pblNkayAzM2DvvJrlupXmoI/nmoTmtrLmgIHnjrvnkoPkuI7mnoHlhYnog4zmma/kvp3otZYgYFJ1bnRpbWVTaGFkZXJg77yIQW5kcm9pZCAxMyvvvInvvIwKPiDkvY7niYjmnKzmsqHmnInlr7nlupTnmoTlm77lvaLog73lipvjgIIKCi0tLQoKIyMg55uu5b2V57uT5p6ECgpgYGAKYXBwL3NyYy9tYWluL2phdmEvCiAgZmFuL3Byb3Zpc2lvbi8gICAgICAgICAgICAgICAgICAgICDlvJXlr7zmtYHnqIvln7rnoYDorr7mlr3vvIjnp7vmpI3oh6ogSHlwZXJDZWlsZXLvvIkKICBvcmcvbGluYmFvZ3Uvcm9taHViLwogICAgdWkvCiAgICAgIEFwcFJvb3Qua3QgICAgICAgICAgICAgICAgICAgICDmoLnnlYzpnaLvvJrlupXmoI/kuIkgdGFi77yI5Li76aG1IC8g6K6+572uIC8g5YWz5LqO77yJKyDlr7zoiKrlo7MKICAgICAgQXBwVmlld01vZGVsLmt0CiAgICAgIHNjcmVlbnMvICAgICAgICAgICAgICAgICAgICAgICDlkITlip/og73pobXkuI7or6bmg4XpobUKICAgICAgY29tcG9uZW50LyBlZmZlY3QvIGxpcXVpZC8gICAgIOW6leagj+iDtuWbiuOAgea2suaAgeeOu+eSg+aKmOWwhOOAgeaegeWFieiDjOaZr++8iOenu+akjeiHqiBLZXJuZWxTVe+8iQogICAgICBtaXVpeC8gbmF2LyB0aGVtZS8gd2VsY29tZS8KICAgIGhjLyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIOKYhSBIeXBlckNlaWxlciDnlYzpnaLnp7vmpI3lsYIKICAgICAgSGNCb3R0b21CYXIua3QgICAgICAgICAgICAgICAgIOW6leagj++8iOeFpyBIeXBlckNlaWxlciDph43lgZrvvIkKICAgICAgSGNBYm91dEJnLmt0IC8gSGNBYm91dENhcmRzLmt0IOOAjOWFs+S6juOAjemhteWkluWjswogICAgICBIY0hvbWVUaXAua3QgICAgICAgICAgICAgICAgICAg5Li76aG15o+Q56S65paH5qGI77yIMzAwIOadoeiHquWGme+8iQogICAgICBhYm91dC8gICAgICAgICAgICAgICAgICAgICAgICAg5YWz5LqO6aG177yaVmVyc2lvbkNhcmQgLyBEZXZpY2VJbmZvQ2FyZCAvIOa1geWKqOWFieaViAogICAgICBwcm92aXNpb24vICAgICAgICAgICAgICAgICAgICAg5byV5a+85rWB56iL77yaYWN0aXZpdHkgLyBmcmFnbWVudCAvIHN0YXRlIC8gd2lkZ2V0IC8gdXRpbHMKICAgICAgY29tbW9uLyAgICAgICAgICAgICAgICAgICAgICAgIOabv+i6q++8muaXpeW/lyAvIFByZWZzIC8g5p2D6ZmQIC8g6K+t6KiACiAgICAgIHV0aWwvIHdpZGdldC8gICAgICAgICAgICAgICAgICDlt6XlhbfkuI7oh6rlrprkuYkgVmlldwogICAgZGF0YS8gICAgICAgICAgICAgICAgICAgICAgICAgICAgQVBJIOWuouaIt+err+OAgeaVsOaNruaooeWei+OAgeacrOWcsOe8k+WtmAogICAgY2xvdWQvICAgICAgICAgICAgICAgICAgICAgICAgICAg5LqR56uv5ZCM5q2l77yI55So5oi35Y2P6K6uIC8g6ZqQ56eB5pS/562W77yJCiAgICBwYW4vICAgICAgICAgICAgICAgICAgICAgICAgICAgICDnvZHnm5jkuIvovb3lmajvvIjnp7vmpI3oh6rkupHmnpDvvIw3IOWutuW5s+WPsO+8iQogICAgZG93bmxvYWQvICAgICAgICAgICAgICAgICAgICAgICAg5aSa57q/56iL5YiG54mH5LiL6L2944CBSExT44CB5pat54K557ut5LygCiAgICBub3RpZnkvICAgICAgICAgICAgICAgICAgICAgICAgICDpgJrnn6XmuKDpgZPjgIHova7or6LjgIHlvIDmnLrmgaLlpI0KICAgIG5ldHdvcmsvICAgICAgICAgICAgICAgICAgICAgICAgIOmTvuaOpeW4uOmHjwogICAgY29yZS8gICAgICAgICAgICAgICAgICAgICAgICAgICAgUHJlZnPjgIFLZXlzdG9yZSDliqDlr4blrZjlgqjjgIHlrZjlgqjmnYPpmZAKYGBgCgotLS0KCiMjIOeVjOmdoue7k+aehO+8iHYyLjAuMCDotbfvvIkKCi0gKirlupXmoI/kuIkgdGFiKirvvJrkuLvpobUgLyDorr7nva4gLyDlhbPkuo4KLSAqKuS4u+mhtSoqID0g5LiA5p2h5o+Q56S677yI54WnIEh5cGVyQ2VpbGVyIOeahCB0aXBzIOagt+W8j++8jOaWh+ahiOiHquWGme+8iSsg5Yqf6IO95Y2h54mH77yM54K56L+b5Y675Zyo5b2T5YmNIHRhYiDlhoXogZTlsZXlvIAKLSAqKuiuvue9rioqID0g6YCa55+lIC8g5aSW6KeCIC8g5a2Y5YKoIC8g5pWw5o2u77yI5aSH5Lu9wrfmgaLlpI3Ct+mHjee9ru+8iS8g5YW25LuWCi0gKirlhbPkuo4qKiA9IOeJiOacrOWNoeeJhyArIOiuvuWkh+S/oeaBr+WNoSArIOa1geWKqOWFieaViOiDjOaZr++8iEFHU0wg552A6Imy5Zmo77yJCi0gKirlvJXlr7zmtYHnqIsqKu+8iOmmluasoeWQr+WKqO+8ie+8muasoui/jiDihpIg5p2D6ZmQIOKGkiDljY/orq7kuI7lo7DmmI4g4oaSIOWfuuehgOiuvue9riDihpIg55m75b2VIOKGkiDlvIDlp4vkvb/nlKgKICAtIOOAjOeZu+W9leOAjeWPr+mAie+8muW8gOWPkeiAheeZu+W9le+8iOaPkOS6pOi0puWPt+Wvhuegge+8ieaIlua4uOWuoui/m+WFpQogIC0g55m75b2V6aG15ZCr44CMKirnlLPor7flvIDlj5HogIXotKblj7cqKuOAjeWFpeWPo++8jOmcgOWhqyDotKblj7fvvIjpgq7nrrHvvIkvIOWQjeensCAvIOmFt+WuieWQjSAvIOWvhueggQoKLS0tCgojIyDlo7DmmI4KCi0g5pys6L2v5Lu25LiO5bCP57Gz5YWs5Y+45peg5Lu75L2V5YWz6IGU77yMUk9NIOS4juenu+akjeWMheWdh+S4uuesrOS4ieaWuei1hOa6kOOAggotIOWIt+acuuaciemjjumZqe+8jOivt+iHquihjOWIpOaWreW5tuWkh+S7veaVsOaNruOAggo=
+# ROM Hub（Android 客户端）
+
+第三方**非官方**的小米 ROM 索引与社区移植包浏览工具。
+
+- 索引 354 款机型、7.8 万个版本，含官方包（稳定版 / 开发版 / 内测 / Beta）与社区移植包
+- 订阅机型后，官方包或移植包有更新时发系统通知，点通知直达该版本
+- 动态页本地缓存 + 未读小红点
+- 内置**网盘下载器**：夸克 / UC / 百度 / 115 / 123 / 移动云盘 / 迅雷，支持登录、浏览、搜索、转存、取直链
+- 多线程分片下载 + 断点续传，通知栏实时进度
+- 游客可浏览与下载；**开发者账号申请**经站长审核后可上传移植包
+
+当前版本 **v2.0.2**（versionCode 20002）。安装包见
+[Releases](https://github.com/Mianbier/rom-hub-android/releases)。
+
+界面与动效以 [KernelSU](https://github.com/tiann/KernelSU) 与
+[HyperCeiler](https://github.com/ReChronoRain/HyperCeiler) 为蓝本，
+并使用二者同源的 UI 库 [Miuix](https://github.com/compose-miuix-ui/miuix)。
+
+---
+
+## 许可
+
+**GNU Affero General Public License v3.0**，完整正文见 [`LICENSE`](LICENSE)。
+
+选择 AGPL-3.0 的原因：本项目的界面实现移植自 KernelSU（GPL-3.0）与 HyperCeiler（AGPL-3.0），
+采用 AGPL-3.0 可同时满足两者的许可义务（AGPL 的义务是 GPL 的超集）。
+
+**完整的使用、移植与鸣谢清单见 [`NOTICE.md`](NOTICE.md)** —— 若你分发本软件，
+请一并保留 `LICENSE` 与 `NOTICE.md`。
+
+### 关于服务端
+
+本仓库**只含 Android 客户端**。它默认连接 `https://rom.linbaogu.dpdns.org`
+（ROM Hub 后端），两者仅通过 HTTPS 接口通信，属于互相独立的程序，
+后端不在本仓库范围内，也不受本许可约束。
+
+---
+
+## 技术栈
+
+| 类别 | 选型 |
+|---|---|
+| 语言 | Kotlin 2.4.20 |
+| UI（主界面） | Jetpack Compose（BOM 2026.09.00）+ **Miuix 0.9.4**（`top.yukonga.miuix.kmp`） |
+| UI（HyperCeiler 移植层） | **fan.miuix 1.0.13.0** —— Miuix 的 **View** 版，随 HyperCeiler 经 GitHub Packages 分发 |
+| 模糊 / 液态玻璃 | `miuix-blur` + `miuix-shader`（AGSL `RuntimeShader`） |
+| 网络 | OkHttp 5.5.0 + kotlinx.serialization 1.9.0 |
+| 图片 | Coil 3.4.0 |
+| 后台 | WorkManager（15 分钟轮询，仅按机型订阅发通知） |
+| 凭据 | Android Keystore AES-256-GCM |
+| 构建 | AGP 9.4.1 + Gradle 9.8 + JDK 21 |
+
+---
+
+## 构建
+
+要求 **JDK 21** + **Android SDK（platform 37.2、build-tools 37）** + **Gradle 9.8**。
+`AGP 9` 必须用 JDK 21，用 17 会失败。
+
+```bash
+# 1) 告诉 Gradle SDK 在哪（本机的路径不要提交）
+echo 'sdk.dir=<你的 Android SDK 路径>' > local.properties
+
+# 2) 出包（本仓库未附带 gradle wrapper，请用本机安装的 Gradle 9.8.0）
+export JAVA_HOME=<JDK 21 路径>
+export ANDROID_HOME=<Android SDK 路径>
+gradle assembleRelease           # 或 assembleDebug
+# 产物：app/build/outputs/apk/release/app-release.apk
+```
+
+> 仓库里没有 `gradlew`：生成 wrapper 需要联网下载 Gradle 分发包，开发机当时下载不通。
+> 如果你本地网络正常，跑一次 `gradle wrapper --gradle-version 9.8.0` 补上即可。
+
+### ⚠️ 需要自备 GitHub 凭据
+
+`fan.miuix:*` 发布在 **GitHub Packages**（`maven.pkg.github.com/ReChronoRain/HyperCeiler`），
+拉取需要 GitHub 账号凭据。在 **`GRADLE_USER_HOME/gradle.properties`**（不是项目里的那份）写入：
+
+```properties
+gpr.user=<你的 GitHub 用户名>
+gpr.key=<一个带 read:packages 权限的 PAT>
+```
+
+没有凭据时这个仓库会被跳过，其余依赖仍能正常解析，但**编译会缺 `fan.miuix` 相关类**。
+
+版本矩阵已在 `gradle/libs.versions.toml` 写死，**不要自行升级** ——
+Miuix 的版本与 Kotlin / Compose 版本是绑定的，乱升会掉进依赖地狱。
+
+> 注意 `minSdk 33`：底栏的液态玻璃与极光背景依赖 `RuntimeShader`（Android 13+），
+> 低版本没有对应的图形能力。
+
+---
+
+## 目录结构
+
+```
+app/src/main/java/
+  fan/provision/                     引导流程基础设施（移植自 HyperCeiler）
+  org/linbaogu/romhub/
+    ui/
+      AppRoot.kt                     根界面：底栏三 tab（主页 / 设置 / 关于）+ 导航壳
+      AppViewModel.kt
+      screens/                       各功能页与详情页
+      component/ effect/ liquid/     底栏胶囊、液态玻璃折射、极光背景（移植自 KernelSU）
+      miuix/ nav/ theme/ welcome/
+    hc/                              ★ HyperCeiler 界面移植层
+      HcBottomBar.kt                 底栏（照 HyperCeiler 重做）
+      HcAboutBg.kt / HcAboutCards.kt 「关于」页外壳
+      HcHomeTip.kt                   主页提示文案（300 条自写）
+      about/                         关于页：VersionCard / DeviceInfoCard / 流动光效
+      provision/                     引导流程：activity / fragment / state / widget / utils
+      common/                        替身：日志 / Prefs / 权限 / 语言
+      util/ widget/                  工具与自定义 View
+    data/                            API 客户端、数据模型、本地缓存
+    cloud/                           云端同步（用户协议 / 隐私政策）
+    pan/                             网盘下载器（移植自云析，7 家平台）
+    download/                        多线程分片下载、HLS、断点续传
+    notify/                          通知渠道、轮询、开机恢复
+    network/                         链接常量
+    core/                            Prefs、Keystore 加密存储、存储权限
+```
+
+---
+
+## 界面结构（v2.0.0 起）
+
+- **底栏三 tab**：主页 / 设置 / 关于
+- **主页** = 一条提示（照 HyperCeiler 的 tips 样式，文案自写）+ 功能卡片，点进去在当前 tab 内联展开
+- **设置** = 通知 / 外观 / 存储 / 数据（备份·恢复·重置）/ 其他
+- **关于** = 版本卡片 + 设备信息卡 + 流动光效背景（AGSL 着色器）
+- **引导流程**（首次启动）：欢迎 → 权限 → 协议与声明 → 基础设置 → 登录 → 开始使用
+  - 「登录」可选：开发者登录（提交账号密码）或游客进入
+  - 登录页含「**申请开发者账号**」入口，需填 账号（邮箱）/ 名称 / 酷安名 / 密码
+
+---
+
+## 声明
+
+- 本软件与小米公司无任何关联，ROM 与移植包均为第三方资源。
+- 刷机有风险，请自行判断并备份数据。

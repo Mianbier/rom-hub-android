@@ -1,1 +1,36 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHJlc291cmNlcz4KICAgIDxkZWNsYXJlLXN0eWxlYWJsZSBuYW1lPSJQcmVmZXJlbmNlSGVhZGVyIj4KICAgICAgICA8YXR0ciBuYW1lPSJhbmRyb2lkOmlkIiAvPgogICAgICAgIDxhdHRyIG5hbWU9ImFuZHJvaWQ6c3VtbWFyeSIgLz4KICAgICAgICA8YXR0ciBuYW1lPSJhbmRyb2lkOmJyZWFkQ3J1bWJUaXRsZSIgLz4KICAgICAgICA8YXR0ciBuYW1lPSJhbmRyb2lkOmJyZWFkQ3J1bWJTaG9ydFRpdGxlIiAvPgoKICAgICAgICA8YXR0ciBuYW1lPSJhbmRyb2lkOmljb24iIC8+CiAgICAgICAgPGF0dHIgbmFtZT0iYW5kcm9pZDpmcmFnbWVudCIgLz4KICAgIDwvZGVjbGFyZS1zdHlsZWFibGU+CgogICAgPGRlY2xhcmUtc3R5bGVhYmxlIG5hbWU9IkZsb3dMYXlvdXQiPgogICAgICAgIDxhdHRyIG5hbWU9InRhZ19ncmF2aXR5IiBmb3JtYXQ9ImVudW0iPgogICAgICAgICAgICA8ZW51bSBuYW1lPSJjZW50ZXIiIHZhbHVlPSIwIiAvPgogICAgICAgICAgICA8ZW51bSBuYW1lPSJsZWZ0IiB2YWx1ZT0iLTEiIC8+CiAgICAgICAgICAgIDxlbnVtIG5hbWU9InJpZ2h0IiB2YWx1ZT0iMSIgLz4KICAgICAgICA8L2F0dHI+CiAgICA8L2RlY2xhcmUtc3R5bGVhYmxlPgoKICAgIDxzdHJpbmctYXJyYXkgbmFtZT0ibG9nb19jbGlja19lZ2dfbWVzc2FnZXMiPgogICAgICAgIDxpdGVtPkBzdHJpbmcvbG9nb19lZ2cxPC9pdGVtPgogICAgICAgIDxpdGVtPkBzdHJpbmcvbG9nb19lZ2cyPC9pdGVtPgogICAgICAgIDxpdGVtPkBzdHJpbmcvbG9nb19lZ2czPC9pdGVtPgogICAgPC9zdHJpbmctYXJyYXk+CgogICAgPGRlY2xhcmUtc3R5bGVhYmxlIG5hbWU9IlN3aXRjaFZpZXciPgogICAgICAgIDxhdHRyIG5hbWU9Im1lbnUiIGZvcm1hdD0icmVmZXJlbmNlIiAvPgogICAgICAgIDxhdHRyIG5hbWU9ImJhY2tncm91bmQiIGZvcm1hdD0icmVmZXJlbmNlIiAvPgogICAgICAgIDxhdHRyIG5hbWU9ImxpdGVCYWNrZ3JvdW5kIiBmb3JtYXQ9InJlZmVyZW5jZSIgLz4KICAgICAgICA8YXR0ciBuYW1lPSJuYXZpZ2F0aW9uU3R5bGUiIGZvcm1hdD0iZW51bSI+CiAgICAgICAgICAgIDxlbnVtIG5hbWU9ImNhcHN1bGUiIHZhbHVlPSIwIiAvPgogICAgICAgICAgICA8ZW51bSBuYW1lPSJib3R0b21fbmF2IiB2YWx1ZT0iMSIgLz4KICAgICAgICA8L2F0dHI+CiAgICA8L2RlY2xhcmUtc3R5bGVhYmxlPgo8L3Jlc291cmNlcz4=
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PreferenceHeader">
+        <attr name="android:id" />
+        <attr name="android:summary" />
+        <attr name="android:breadCrumbTitle" />
+        <attr name="android:breadCrumbShortTitle" />
+
+        <attr name="android:icon" />
+        <attr name="android:fragment" />
+    </declare-styleable>
+
+    <declare-styleable name="FlowLayout">
+        <attr name="tag_gravity" format="enum">
+            <enum name="center" value="0" />
+            <enum name="left" value="-1" />
+            <enum name="right" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <string-array name="logo_click_egg_messages">
+        <item>@string/logo_egg1</item>
+        <item>@string/logo_egg2</item>
+        <item>@string/logo_egg3</item>
+    </string-array>
+
+    <declare-styleable name="SwitchView">
+        <attr name="menu" format="reference" />
+        <attr name="background" format="reference" />
+        <attr name="liteBackground" format="reference" />
+        <attr name="navigationStyle" format="enum">
+            <enum name="capsule" value="0" />
+            <enum name="bottom_nav" value="1" />
+        </attr>
+    </declare-styleable>
+</resources>

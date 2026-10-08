@@ -1,1 +1,90 @@
-IyBIeXBlclJvbWh1YiDpmpDnp4Hlo7DmmI4NCg0KKirniYjmnKzvvJoyLjAuMOOAgOeUn+aViOaXpeacn++8mjIwMjYg5bm0IDEwIOaciCA2IOaXpeOAgOS9nOiAhe+8mlRpYW4tU2VsZioqDQoNCuaIkeS7rOmdnuW4uOmHjeinhuS9oOeahOmakOengeOAgui/meS7veWjsOaYjuS8mioq55So5bC96YeP55u055m955qE6K+dKiror7TmuIXmpZrvvJpIeXBlclJvbWh1YiDkvJrnorDlk6rkupvmlbDmja7jgIHnorDmnaXlubLku4DkuYjjgIHlrZjlnKjlk6rph4zjgIHku6Xlj4oqKuS4jeS8mioq5YGa5LuA5LmI44CCDQoNCioq5LiA5Y+l6K+d5oC757uT77yaSHlwZXJSb21odWIg5LiN6ZyA6KaB6LSm5Y+344CB5LiN5pS26ZuG5L2g55qE5Liq5Lq65L+h5oGv44CB5LiN5YGa55So5oi355S75YOP44CB5LiN5oqV5pS+5bm/5ZGK77yb5L2g55qE6K6i6ZiF5LiO6K6+572u6buY6K6k5Y+q5a2Y5Zyo5L2g6Ieq5bex55qE5omL5py66YeM44CCKioNCg0KLS0tDQoNCiMjIOS4gOOAgeaIkeS7rOS4jeaUtumbhuS7gOS5iA0KDQrmmI7noa7lnLDor7TvvIzmnKzlupTnlKgqKuS4jeS8mioq5pS26ZuG44CB5LiK5Lyg5oiW5a2Y5YKo5Lul5LiL5L+h5oGv77yaDQoNCjEuICoq5LiN5LyaKiropoHmsYLkvaDms6jlhozmiJbnmbvlvZXku7vkvZXotKblj7fvvJsNCjIuICoq5LiN5LyaKirph4fpm4bkvaDnmoTlp5PlkI3jgIHmiYvmnLrlj7fjgIHpgq7nrrHjgIHouqvku73or4Hku7bjgIHpgJrorq/lvZXjgIHnn63kv6HjgIHpgJror53orrDlvZXvvJsNCjMuICoq5LiN5LyaKirph4fpm4bkvaDnmoTnsr7noa7lnLDnkIbkvY3nva7vvJsNCjQuICoq5LiN5LyaKirph4fpm4bkvaDnmoTlupTnlKjlronoo4XliJfooajjgIHliarotLTmnb/lhoXlrrnjgIHnm7jlhozlhoXlrrnvvJsNCjUuICoq5LiN5LyaKirph4fpm4bkvaDnmoTorr7lpIfllK/kuIDmoIfor4bvvIhJTUVJ44CB5bqP5YiX5Y+344CBQW5kcm9pZCBJRCDnrYnvvInnlKjkuo7ov73ouKrvvJsNCjYuICoq5LiN5LyaKirmiorkvaDnmoTmlbDmja7ljZbnu5njgIHnp5/nu5nmiJbkuqTmjaLnu5nku7vkvZXnrKzkuInmlrnjgIINCg0KIyMg5LqM44CB5oiR5Lus5Lya5Zyo5pys5py65L+d5a2Y5LuA5LmIDQoNCuS7peS4i+aVsOaNrioq5LuF5L+d5a2Y5Zyo5L2g55qE6K6+5aSH5pys5ZywKirvvIjlupTnlKjnp4HmnInlrZjlgqggLyDmnKzlnLDmlbDmja7lupPvvInvvIwqKuS4jeS8muiHquWKqOS4iuS8oCoq77yaDQoNCnwg5pWw5o2uIHwg55So6YCUIHwg5L2g55qE5o6n5Yi2IHwNCnwtLS18LS0tfC0tLXwNCnwg5L2g6K6i6ZiF55qE5py65Z6L5YiX6KGoIHwg6aaW6aG15oyJ5L2g55qE5YWz5rOo5o6S5bqP44CB5Y+R5paw5YyF5o+Q6YaSIHwg6ZqP5pe25Zyo44CM5oiR55qE6K6i6ZiF44CN6YeM5aKe5YigIHwNCnwg5bey6K+7L+acquivu+eahOaWsOWMheiusOW9lSB8IOW6leagj+Wwj+e6oueCueOAgeWKqOaAgeWIl+ihqCB8IOa4hemZpOW6lOeUqOaVsOaNruWNs+WPr+WFqOmDqOWIoOmZpCB8DQp8IOmAmuefpeW8gOWFs+OAgeW6leagj+agt+W8j+etieiuvue9riB8IOiusOS9j+S9oOeahOWBj+WlvSB8IOmaj+aXtuWcqOiuvue9rumHjOS/ruaUuSB8DQp8IFJPTSDkv6Hmga/nmoTmnKzlnLDnvJPlrZggfCDliqDlv6vmtY/op4jpgJ/luqbjgIHnprvnur/lj6/nnIsgfCDorr7nva7ph4zlj6/muIXpmaQgfA0KfCDkuIvovb3ku7vliqHnmoTorrDlvZXkuI7ov5vluqYgfCDmlq3ngrnnu63kvKDjgIHkuIvovb3nrqHnkIYgfCDliKDpmaTku7vliqHljbPmuIXpmaQgfA0KDQrljbjovb3mnKzlupTnlKjvvIzmiJbmuIXpmaTlupTnlKjmlbDmja7vvIwqKuS4iui/sOWGheWuueS8muS4gOW5tuWIoOmZpCoq44CCDQoNCiMjIOS4ieOAgeS7gOS5iOaXtuWAmeS8muiBlOe9keOAgeS8oOS7gOS5iA0KDQrmnKzlupTnlKjpnIDopoHogZTnvZHmiY3og73mn6Xor6LkuI7kuIvovb0gUk9N44CC6IGU572R5pe25Lya5Y+R55Sf77yaDQoNCjEuICoq5ZCR5YWs5byA5pWw5o2u5rqQ6K+35rGCIFJPTSDkv6Hmga8qKu+8muivt+axguS4reWPquWMheWQqyoq5L2g5q2j5Zyo5p+l6K+i55qE5py65Z6L5Luj5Y+3KirvvIjkvovlpoIgYHlpbmd0aWFuYO+8ieetieW/heimgeWPguaVsO+8jCoq5LiN5YyF5ZCrKirku7vkvZXog73or4bliKvkvaDkuKrkurrouqvku73nmoTkv6Hmga/vvJsNCjIuICoq5LiL6L29IFJPTSDmlofku7YqKu+8muebtOaOpeS7jiBST00g5omA5Zyo55qE5YWs5byA5pyN5Yqh5Zmo5LiL6L2977yM5pys5bqU55SoKirkuI3nu4/miYvjgIHkuI3kuK3ovazjgIHkuI3orrDlvZUqKuS9oOeahOS4i+i9veWGheWuue+8mw0KMy4gKirkuI7kvaDoh6rlt7HloavlhpnnmoTmnI3liqHlmajlnLDlnYDpgJrkv6EqKu+8iOWmguaenOS9oOS9v+eUqOS6huiHquW7uuacjeWKoe+8ie+8mumAmuS/oeWGheWuueS7heS4uuafpeivouS4jueKtuaAgeWQjOatpe+8jOeUseS9oOiHquW3seaOjOaOp+OAgg0KDQo+IOi/meS6m+ivt+axguS8muWDj+S7u+S9leaZrumAmue9kemhteivt+axguS4gOagt++8jOiiq+WvueaWueacjeWKoeWZqOeci+WIsOS9oOeahCAqKklQIOWcsOWdgCoq4oCU4oCU6L+Z5piv5LqS6IGU572R6YCa5L+h55qE5Zu65pyJ5bGe5oCn77yMKirkuI7mnKzlupTnlKjml6DlhbMqKu+8jOaIkeS7rOS5n+aXoOazleabv+S9oOmakOiXj+OAguiLpeS9oOWvueatpOaciemhvuiZke+8jOivt+iHquihjOS9v+eUqOS7o+eQhuOAgg0KDQojIyDlm5vjgIHmnYPpmZDor7TmmI4NCg0K5pys5bqU55So55Sz6K+355qE5p2D6ZmQKirpg73mmK/kuLrkuoblrp7njrDlip/og70qKu+8jOS4lOmDveWPr+S7peWcqOezu+e7n+iuvue9rumHjOmaj+aXtuWFs+mXre+8mg0KDQp8IOadg+mZkCB8IOeUqOadpeWBmuS7gOS5iCB8IOS4jeaOiOadg+S8muaAjuagtyB8DQp8LS0tfC0tLXwtLS18DQp8ICoq572R57uc6K6/6ZeuKiogfCDmn6Xor6IgUk9NIOS/oeaBr+OAgeS4i+i9veWbuuS7tiB8IOW6lOeUqOWfuuacrOS4jeWPr+eUqCB8DQp8ICoq6YCa55+lKiogfCDkvaDorqLpmIXnmoTmnLrlnovmnInmlrAgUk9NIOaXtuaPkOmGkuS9oCB8IOaUtuS4jeWIsOaPkOmGku+8jOWFtuWug+WKn+iDveato+W4uCB8DQp8ICoq5a2Y5YKoIC8g5omA5pyJ5paH5Lu26K6/6ZeuKiogfCDmiorkuIvovb3lpb3nmoQgUk9NIOWtmOWIsCBgRG93bmxvYWQvcm9tLWh1Yi9gIOS+m+S9oOWIt+acuuS9v+eUqCB8IOaXoOazleaKiuaWh+S7tuS/neWtmOWIsOWFrOWFseebruW9lSB8DQp8ICoq5YmN5Y+w5pyN5YqhIC8g5ZSk6YaS6ZSBKiogfCDkuIvovb3lpKfmlofku7bml7bkuI3ooqvns7vnu5/kuK3mlq0gfCDkuIvovb3lj6/og73ooqvlkI7lj7DpmZDliLbmiZPmlq0gfA0KfCAqKuW8gOacuuiHquWQryoqIHwg6YeN5ZCv5ZCO5oGi5aSN5o+Q6YaS6LCD5bqmIHwg6YeN5ZCv5ZCO6ZyA5omL5Yqo5omT5byA5LiA5qyh5bqU55SoIHwNCnwgKirpnIfliqgqKiB8IOS4i+i9veWujOaIkOaXtueahOi9u+W+ruaPkOekuu+8iOWPr+WFs++8iSB8IOaXoOmch+WKqOaPkOekuiB8DQoNCioq5pys5bqU55So5LiN55Sz6K+3KirvvJrlrprkvY3jgIHpgJrorq/lvZXjgIHnn63kv6HjgIHpgJror53orrDlvZXjgIHnm7jmnLrjgIHpuqblhYvpo47jgIHor7vlj5blupTnlKjliJfooajnrYnkuI7lip/og73ml6DlhbPnmoTmnYPpmZDjgIINCg0KIyMg5LqU44CB56ys5LiJ5pa55YaF5a65DQoNCuacrOW6lOeUqOWxleekuueahCBST00g5L+h5oGv44CB5LiL6L296ZO+5o6l44CB56ys5LiJ5pa556uZ54K55ZCN56ew5LiO5Zu+5qCH77yMKirlnYfmnaXoh6rlhazlvIDmuKDpgZMqKu+8jOWFtueJiOadg+W9kuWQhOiHquadg+WIqeS6uuaJgOacieOAgg0KDQrlvZPkvaDngrnlh7vpk77mjqXot7PovazliLDnrKzkuInmlrnnq5nngrnvvIjkvovlpoLnvZHnm5jjgIHlm7rku7bnq5nvvInml7bvvIwqKuS9oOWwhuWPl+ivpeermeeCueeahOmakOengeaUv+etlue6puadnyoq77yM5pys5aOw5piO5LiN6YCC55So5LqO56ys5LiJ5pa556uZ54K544CC6K+35L2g6Ieq6KGM5LqG6Kej5bm25Yik5pat44CCDQoNCiMjIOWFreOAgeacquaIkOW5tOS6ug0KDQrmnKzlupTnlKjmmK8qKumdouWQkeaIkOW5tOWIt+acuueUqOaItyoq55qE5oqA5pyv5bel5YW344CC6Iul5L2g5piv5pyq5oiQ5bm05Lq677yM6K+35ZyoKirnm5HmiqTkurrnn6Xmg4XlubblkIzmhI8qKueahOWJjeaPkOS4i+S9v+eUqO+8m+a2ieWPiuWIt+acuuetieaciemjjumZqeeahOaTjeS9nO+8jCoq5Yqh5b+F55Sx55uR5oqk5Lq66Zmq5ZCM5oiW5oyH5a+8KirjgIINCg0KIyMg5LiD44CB5pWw5o2u5a6J5YWoDQoNCjEuIOacrOW6lOeUqOS4jeW7uueri+eUqOaIt+aVsOaNruW6k++8jCoq5pyN5Yqh56uv5LiN5L+d5a2Y5Lu75L2V5Y+v6K+G5Yir5Yiw5Liq5Lq655qE5L+h5oGvKirvvJsNCjIuIOacrOWcsOaVsOaNruWtmOaUvuWcqOW6lOeUqOengeacieebruW9le+8jOWFtuWug+W6lOeUqCoq5peg5rOV55u05o6l6K+75Y+WKirvvJsNCjMuIOaIkeS7rCoq5rKh5pyJKirku7vkvZUi5om+5Zue5L2g55qE5pWw5o2uIueahOiDveWKmyDigJTigJQg5Zug5Li65pWw5o2u5pys5p2l5bCx5Zyo5L2g5omL6YeM44CCKiror7foh6rooYzlgZrlpb3lpIfku73jgIIqKg0KDQojIyDlhavjgIHmnKzlo7DmmI7nmoTlj5jmm7QNCg0K5pys5aOw5piO5Y+v6IO96ZqP54mI5pys5pu05paw6ICM6LCD5pW077yM5pu05paw5ZCO55qE5YaF5a655Lya5ZyoKirmlrDniYjmnKzlj5HluIPml7bkuIDlubbmj5DkvpsqKuOAgue7p+e7reS9v+eUqOacrOW6lOeUqOWNs+inhuS4uuS9oOaOpeWPl+abtOaWsOWQjueahOWjsOaYjuOAgg0KDQojIyDkuZ3jgIHogZTns7vmiJHku6wNCg0KLSAqKuS9nOiAhSoq77yaVGlhbi1TZWxmDQotICoq5Y+N6aaI5YWl5Y+jKirvvJrmnKzlupTnlKjjgIzlhbPkuo7jgI3pobXpnaINCg0K5aaC5p6c5L2g5a+55pys5aOw5piO5pyJ5Lu75L2V55aR6Zeu77yM5oiW6ICF6K6k5Li65pys5bqU55So5L6154qv5LqG5L2g55qE5p2D55uK77yMKirmrKLov47nm7TmjqXogZTns7vmiJHku6wqKu+8jOaIkeS7rOS8muiupOecn+WvueW+heW5tuWPiuaXtuWkhOeQhuOAgg0KDQotLS0NCg0KKkNvcHlyaWdodCDCqSAyMDI2IFRpYW4tU2VsZi4g5pys5bqU55So5Lul5byA5rqQ5Y2P6K6u5Y+R5biD77yM6K+m6KeB5LuT5bqTIExJQ0VOU0XjgIIqDQo=
+# HyperRomhub 隐私声明
+
+**版本：2.0.0　生效日期：2026 年 10 月 6 日　作者：Tian-Self**
+
+我们非常重视你的隐私。这份声明会**用尽量直白的话**说清楚：HyperRomhub 会碰哪些数据、碰来干什么、存在哪里、以及**不会**做什么。
+
+**一句话总结：HyperRomhub 不需要账号、不收集你的个人信息、不做用户画像、不投放广告；你的订阅与设置默认只存在你自己的手机里。**
+
+---
+
+## 一、我们不收集什么
+
+明确地说，本应用**不会**收集、上传或存储以下信息：
+
+1. **不会**要求你注册或登录任何账号；
+2. **不会**采集你的姓名、手机号、邮箱、身份证件、通讯录、短信、通话记录；
+3. **不会**采集你的精确地理位置；
+4. **不会**采集你的应用安装列表、剪贴板内容、相册内容；
+5. **不会**采集你的设备唯一标识（IMEI、序列号、Android ID 等）用于追踪；
+6. **不会**把你的数据卖给、租给或交换给任何第三方。
+
+## 二、我们会在本机保存什么
+
+以下数据**仅保存在你的设备本地**（应用私有存储 / 本地数据库），**不会自动上传**：
+
+| 数据 | 用途 | 你的控制 |
+|---|---|---|
+| 你订阅的机型列表 | 首页按你的关注排序、发新包提醒 | 随时在「我的订阅」里增删 |
+| 已读/未读的新包记录 | 底栏小红点、动态列表 | 清除应用数据即可全部删除 |
+| 通知开关、底栏样式等设置 | 记住你的偏好 | 随时在设置里修改 |
+| ROM 信息的本地缓存 | 加快浏览速度、离线可看 | 设置里可清除 |
+| 下载任务的记录与进度 | 断点续传、下载管理 | 删除任务即清除 |
+
+卸载本应用，或清除应用数据，**上述内容会一并删除**。
+
+## 三、什么时候会联网、传什么
+
+本应用需要联网才能查询与下载 ROM。联网时会发生：
+
+1. **向公开数据源请求 ROM 信息**：请求中只包含**你正在查询的机型代号**（例如 `yingtian`）等必要参数，**不包含**任何能识别你个人身份的信息；
+2. **下载 ROM 文件**：直接从 ROM 所在的公开服务器下载，本应用**不经手、不中转、不记录**你的下载内容；
+3. **与你自己填写的服务器地址通信**（如果你使用了自建服务）：通信内容仅为查询与状态同步，由你自己掌控。
+
+> 这些请求会像任何普通网页请求一样，被对方服务器看到你的 **IP 地址**——这是互联网通信的固有属性，**与本应用无关**，我们也无法替你隐藏。若你对此有顾虑，请自行使用代理。
+
+## 四、权限说明
+
+本应用申请的权限**都是为了实现功能**，且都可以在系统设置里随时关闭：
+
+| 权限 | 用来做什么 | 不授权会怎样 |
+|---|---|---|
+| **网络访问** | 查询 ROM 信息、下载固件 | 应用基本不可用 |
+| **通知** | 你订阅的机型有新 ROM 时提醒你 | 收不到提醒，其它功能正常 |
+| **存储 / 所有文件访问** | 把下载好的 ROM 存到 `Download/rom-hub/` 供你刷机使用 | 无法把文件保存到公共目录 |
+| **前台服务 / 唤醒锁** | 下载大文件时不被系统中断 | 下载可能被后台限制打断 |
+| **开机自启** | 重启后恢复提醒调度 | 重启后需手动打开一次应用 |
+| **震动** | 下载完成时的轻微提示（可关） | 无震动提示 |
+
+**本应用不申请**：定位、通讯录、短信、通话记录、相机、麦克风、读取应用列表等与功能无关的权限。
+
+## 五、第三方内容
+
+本应用展示的 ROM 信息、下载链接、第三方站点名称与图标，**均来自公开渠道**，其版权归各自权利人所有。
+
+当你点击链接跳转到第三方站点（例如网盘、固件站）时，**你将受该站点的隐私政策约束**，本声明不适用于第三方站点。请你自行了解并判断。
+
+## 六、未成年人
+
+本应用是**面向成年刷机用户**的技术工具。若你是未成年人，请在**监护人知情并同意**的前提下使用；涉及刷机等有风险的操作，**务必由监护人陪同或指导**。
+
+## 七、数据安全
+
+1. 本应用不建立用户数据库，**服务端不保存任何可识别到个人的信息**；
+2. 本地数据存放在应用私有目录，其它应用**无法直接读取**；
+3. 我们**没有**任何"找回你的数据"的能力 —— 因为数据本来就在你手里。**请自行做好备份。**
+
+## 八、本声明的变更
+
+本声明可能随版本更新而调整，更新后的内容会在**新版本发布时一并提供**。继续使用本应用即视为你接受更新后的声明。
+
+## 九、联系我们
+
+- **作者**：Tian-Self
+- **反馈入口**：本应用「关于」页面
+
+如果你对本声明有任何疑问，或者认为本应用侵犯了你的权益，**欢迎直接联系我们**，我们会认真对待并及时处理。
+
+---
+
+*Copyright © 2026 Tian-Self. 本应用以开源协议发布，详见仓库 LICENSE。*

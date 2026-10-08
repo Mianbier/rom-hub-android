@@ -1,1 +1,176 @@
-cGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLmRhdGEuYnJhbmQKCmltcG9ydCBqYXZhLnNlY3VyaXR5LktleUZhY3RvcnkKaW1wb3J0IGphdmEuc2VjdXJpdHkuTWVzc2FnZURpZ2VzdAppbXBvcnQgamF2YS5zZWN1cml0eS5TZWN1cmVSYW5kb20KaW1wb3J0IGphdmEuc2VjdXJpdHkuc3BlYy5NR0YxUGFyYW1ldGVyU3BlYwppbXBvcnQgamF2YS5zZWN1cml0eS5zcGVjLlg1MDlFbmNvZGVkS2V5U3BlYwppbXBvcnQgamF2YS51dGlsLkJhc2U2NAppbXBvcnQgamF2YS51dGlsLnppcC5DUkMzMgppbXBvcnQgamF2YXguY3J5cHRvLkNpcGhlcgppbXBvcnQgamF2YXguY3J5cHRvLnNwZWMuSXZQYXJhbWV0ZXJTcGVjCmltcG9ydCBqYXZheC5jcnlwdG8uc3BlYy5PQUVQUGFyYW1ldGVyU3BlYwppbXBvcnQgamF2YXguY3J5cHRvLnNwZWMuUFNvdXJjZQppbXBvcnQgamF2YXguY3J5cHRvLnNwZWMuU2VjcmV0S2V5U3BlYwoKLyoqCiAqIOWOguWVhiBPVEEg5o6l5Y+j55So5Yiw55qE5Yqg6Kej5a+G5Y6f6K+t44CCCiAqCiAqIOi/memHjOWFqOmDqOaYryBKYXZhIOagh+WHhuW6k+iDveWBmueahO+8jOayoeaciSBuYXRpdmUg5L6d6LWW77yaCiAqICBBRVMvQ1RS44CBQUVTL0NCQy9QS0NTNVBhZGRpbmfjgIFSU0EvRUNCL09BRVBXaXRoU0hBMUFuZE1HRjFQYWRkaW5n44CBQ1JDMzLjgIIKICoKICog5a+55bqU55qEIFB5dGhvbiDlj4LogIPlrp7njrDvvIjlrp7mtYvot5HpgJrvvInvvJoKICogIMK3IENvbG9yT1MgICDihpIgZ2l0aHViLmNvbS8wMDZscC9PUGx1cy1UcmFja2VyIGB0b21ib3lfcHJvLnB5YAogKiAgwrcgT3JpZ2luT1MgIOKGkiBnaXRodWIuY29tL0plcnJ5VHNlLU9TUy9WSVZPLU9UQS1UcmFja2VyIGBWaXZvT3RhVHJhY2tlci5weWAKICovCmludGVybmFsIG9iamVjdCBPdGFDcnlwdG8gewoKICAgIHByaXZhdGUgdmFsIHNlY3VyZVJhbmRvbSA9IFNlY3VyZVJhbmRvbSgpCgogICAgLy8gLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSDpmo/mnLogJiDnvJbnoIEKCiAgICBmdW4gcmFuZG9tQnl0ZXMobjogSW50KTogQnl0ZUFycmF5ID0gQnl0ZUFycmF5KG4pLmFsc28geyBzZWN1cmVSYW5kb20ubmV4dEJ5dGVzKGl0KSB9CgogICAgZnVuIGhleChieXRlczogQnl0ZUFycmF5KTogU3RyaW5nIHsKICAgICAgICB2YWwgb3V0ID0gU3RyaW5nQnVpbGRlcihieXRlcy5zaXplICogMikKICAgICAgICBmb3IgKGIgaW4gYnl0ZXMpIHsKICAgICAgICAgICAgdmFsIHYgPSBiLnRvSW50KCkgYW5kIDB4RkYKICAgICAgICAgICAgb3V0LmFwcGVuZChIRVhbdiB1c2hyIDRdKS5hcHBlbmQoSEVYW3YgYW5kIDB4Rl0pCiAgICAgICAgfQogICAgICAgIHJldHVybiBvdXQudG9TdHJpbmcoKQogICAgfQoKICAgIGZ1biB1bkhleChzOiBTdHJpbmcpOiBCeXRlQXJyYXkgewogICAgICAgIHZhbCBjbGVhbiA9IHMudHJpbSgpCiAgICAgICAgcmVxdWlyZShjbGVhbi5sZW5ndGggJSAyID09IDApIHsgImhleCDkuLLplb/luqblv4XpobvmmK/lgbbmlbDvvJokY2xlYW4iIH0KICAgICAgICByZXR1cm4gQnl0ZUFycmF5KGNsZWFuLmxlbmd0aCAvIDIpIHsgaSAtPgogICAgICAgICAgICAoKENoYXJhY3Rlci5kaWdpdChjbGVhbltpICogMl0sIDE2KSBzaGwgNCkgb3IgQ2hhcmFjdGVyLmRpZ2l0KGNsZWFuW2kgKiAyICsgMV0sIDE2KSkudG9CeXRlKCkKICAgICAgICB9CiAgICB9CgogICAgZnVuIGI2NChieXRlczogQnl0ZUFycmF5KTogU3RyaW5nID0gQmFzZTY0LmdldEVuY29kZXIoKS5lbmNvZGVUb1N0cmluZyhieXRlcykKCiAgICBmdW4gYjY0VXJsKGJ5dGVzOiBCeXRlQXJyYXkpOiBTdHJpbmcgPSBCYXNlNjQuZ2V0VXJsRW5jb2RlcigpLndpdGhvdXRQYWRkaW5nKCkuZW5jb2RlVG9TdHJpbmcoYnl0ZXMpCgogICAgLyoqCiAgICAgKiDpgIYgW2I2NFVybF3jgIIKICAgICAqCiAgICAgKiB2aXZvIOeahOWTjeW6lOS9k+WcqCBKUy9KYXZhIOS+p+aYr+WFiCBVUkxEZWNvZGXjgIHlho3mioogYC1g4oaSYCtg44CBYF9g4oaSYC9g77yMCiAgICAgKiDmiYDku6Xov5nph4zlrrnlv40gcGVyY2VudC1lbmNvZGluZ++8jOW5tuihpem9kCBwYWRkaW5n44CCCiAgICAgKi8KICAgIGZ1biBiNjRVcmxEZWNvZGUoczogU3RyaW5nKTogQnl0ZUFycmF5IHsKICAgICAgICB2YXIgdCA9IGphdmEubmV0LlVSTERlY29kZXIuZGVjb2RlKHMudHJpbSgpLCAiVVRGLTgiKQogICAgICAgIHQgPSB0LnJlcGxhY2UoJy0nLCAnKycpLnJlcGxhY2UoJ18nLCAnLycpCiAgICAgICAgdmFsIHBhZCA9ICg0IC0gdC5sZW5ndGggJSA0KSAlIDQKICAgICAgICBpZiAocGFkID4gMCkgdCA9IHQucGFkRW5kKHQubGVuZ3RoICsgcGFkLCAnPScpCiAgICAgICAgcmV0dXJuIEJhc2U2NC5nZXREZWNvZGVyKCkuZGVjb2RlKHQpCiAgICB9CgogICAgLyoqIOWkp+erryB1MTbvvIzpgb/lhY3nlKjlt7Llup/lvIPnmoTml6Dlj4IgYHRvQmlnRW5kaWFuKClg44CCICovCiAgICBmdW4gdTE2YmUodjogSW50KTogQnl0ZUFycmF5ID0gYnl0ZUFycmF5T2YoKCh2IHVzaHIgOCkgYW5kIDB4RkYpLnRvQnl0ZSgpLCAodiBhbmQgMHhGRikudG9CeXRlKCkpCgogICAgcHJpdmF0ZSBjb25zdCB2YWwgSEVYID0gIjAxMjM0NTY3ODlhYmNkZWYiCgogICAgLy8gLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSBBRVMKCiAgICAvKiogQUVTLUNUUi9Ob1BhZGRpbmfjgIJDb2xvck9TIOivt+axguS4juWTjeW6lOmDveeUqOWug+OAgiAqLwogICAgZnVuIGFlc0N0cihrZXk6IEJ5dGVBcnJheSwgaXY6IEJ5dGVBcnJheSwgZGF0YTogQnl0ZUFycmF5KTogQnl0ZUFycmF5IHsKICAgICAgICB2YWwgYyA9IENpcGhlci5nZXRJbnN0YW5jZSgiQUVTL0NUUi9Ob1BhZGRpbmciKQogICAgICAgIGMuaW5pdChDaXBoZXIuRU5DUllQVF9NT0RFLCBTZWNyZXRLZXlTcGVjKGtleSwgIkFFUyIpLCBJdlBhcmFtZXRlclNwZWMoaXYpKQogICAgICAgIHJldHVybiBjLmRvRmluYWwoZGF0YSkKICAgIH0KCiAgICBmdW4gYWVzQ3RyRGVjcnlwdChrZXk6IEJ5dGVBcnJheSwgaXY6IEJ5dGVBcnJheSwgZGF0YTogQnl0ZUFycmF5KTogQnl0ZUFycmF5IHsKICAgICAgICB2YWwgYyA9IENpcGhlci5nZXRJbnN0YW5jZSgiQUVTL0NUUi9Ob1BhZGRpbmciKQogICAgICAgIGMuaW5pdChDaXBoZXIuREVDUllQVF9NT0RFLCBTZWNyZXRLZXlTcGVjKGtleSwgIkFFUyIpLCBJdlBhcmFtZXRlclNwZWMoaXYpKQogICAgICAgIHJldHVybiBjLmRvRmluYWwoZGF0YSkKICAgIH0KCiAgICAvKiogQUVTLUNCQy9QS0NTNVBhZGRpbmfjgIJPcmlnaW5PUyDor7fmsYLkuI7lk43lupTpg73nlKjlroPjgIIgKi8KICAgIGZ1biBhZXNDYmNFbmNyeXB0KGtleTogQnl0ZUFycmF5LCBpdjogQnl0ZUFycmF5LCBkYXRhOiBCeXRlQXJyYXkpOiBCeXRlQXJyYXkgewogICAgICAgIHZhbCBjID0gQ2lwaGVyLmdldEluc3RhbmNlKCJBRVMvQ0JDL1BLQ1M1UGFkZGluZyIpCiAgICAgICAgYy5pbml0KENpcGhlci5FTkNSWVBUX01PREUsIFNlY3JldEtleVNwZWMoa2V5LCAiQUVTIiksIEl2UGFyYW1ldGVyU3BlYyhpdikpCiAgICAgICAgcmV0dXJuIGMuZG9GaW5hbChkYXRhKQogICAgfQoKICAgIGZ1biBhZXNDYmNEZWNyeXB0KGtleTogQnl0ZUFycmF5LCBpdjogQnl0ZUFycmF5LCBkYXRhOiBCeXRlQXJyYXkpOiBCeXRlQXJyYXkgewogICAgICAgIHZhbCBjID0gQ2lwaGVyLmdldEluc3RhbmNlKCJBRVMvQ0JDL1BLQ1M1UGFkZGluZyIpCiAgICAgICAgYy5pbml0KENpcGhlci5ERUNSWVBUX01PREUsIFNlY3JldEtleVNwZWMoa2V5LCAiQUVTIiksIEl2UGFyYW1ldGVyU3BlYyhpdikpCiAgICAgICAgcmV0dXJuIGMuZG9GaW5hbChkYXRhKQogICAgfQoKICAgIC8vIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0gUlNBCgogICAgLyoqCiAgICAgKiBSU0EtT0FFUChTSEEtMSwgTUdGMS1TSEExKeOAggogICAgICoKICAgICAqIOKaoO+4jyBKYXZhIOm7mOiupOeahCBPQUVQIOeUqCAqKk1HRjEtU0hBLTI1Nioq77yM5ZKM5Y6C5ZWG5LiN5LiA6Ie077yM5b+F6aG75pi+5byP5oyH5a6aIE1HRjEtU0hBMe+8jAogICAgICog5ZCm5YiZ5a+G5paH6ZW/5bqm5a+55LiN5LiK44CB6Kej5Ye65p2l5piv5Z6D5Zy+44CCCiAgICAgKi8KICAgIGZ1biByc2FPYWVwU2hhMUVuY3J5cHQocHVibGljS2V5UGVtOiBTdHJpbmcsIHBsYWluOiBCeXRlQXJyYXkpOiBCeXRlQXJyYXkgewogICAgICAgIHZhbCBrZXkgPSBwYXJzZVJzYVB1YmxpY0tleShwdWJsaWNLZXlQZW0pCiAgICAgICAgdmFsIGMgPSBDaXBoZXIuZ2V0SW5zdGFuY2UoIlJTQS9FQ0IvT0FFUFBhZGRpbmciKQogICAgICAgIGMuaW5pdCgKICAgICAgICAgICAgQ2lwaGVyLkVOQ1JZUFRfTU9ERSwKICAgICAgICAgICAga2V5LAogICAgICAgICAgICBPQUVQUGFyYW1ldGVyU3BlYygKICAgICAgICAgICAgICAgICJTSEEtMSIsCiAgICAgICAgICAgICAgICAiTUdGMSIsCiAgICAgICAgICAgICAgICBNR0YxUGFyYW1ldGVyU3BlYy5TSEExLAogICAgICAgICAgICAgICAgUFNvdXJjZS5QU3BlY2lmaWVkLkRFRkFVTFQsCiAgICAgICAgICAgICksCiAgICAgICAgKQogICAgICAgIHJldHVybiBjLmRvRmluYWwocGxhaW4pCiAgICB9CgogICAgZnVuIHBhcnNlUnNhUHVibGljS2V5KHBlbTogU3RyaW5nKTogamF2YS5zZWN1cml0eS5pbnRlcmZhY2VzLlJTQVB1YmxpY0tleSB7CiAgICAgICAgdmFsIGJvZHkgPSBwZW0KICAgICAgICAgICAgLnJlcGxhY2UoIi0tLS0tQkVHSU4gUlNBIFBVQkxJQyBLRVktLS0tLSIsICIiKQogICAgICAgICAgICAucmVwbGFjZSgiLS0tLS1FTkQgUlNBIFBVQkxJQyBLRVktLS0tLSIsICIiKQogICAgICAgICAgICAucmVwbGFjZSgiLS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS0iLCAiIikKICAgICAgICAgICAgLnJlcGxhY2UoIi0tLS0tRU5EIFBVQkxJQyBLRVktLS0tLSIsICIiKQogICAgICAgICAgICAuZmlsdGVyTm90IHsgaXQuaXNXaGl0ZXNwYWNlKCkgfQogICAgICAgIHZhbCBkZXIgPSBCYXNlNjQuZ2V0RGVjb2RlcigpLmRlY29kZShib2R5KQogICAgICAgIHJldHVybiBLZXlGYWN0b3J5LmdldEluc3RhbmNlKCJSU0EiKQogICAgICAgICAgICAuZ2VuZXJhdGVQdWJsaWMoWDUwOUVuY29kZWRLZXlTcGVjKGRlcikpIGFzIGphdmEuc2VjdXJpdHkuaW50ZXJmYWNlcy5SU0FQdWJsaWNLZXkKICAgIH0KCiAgICAvLyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tIOadgumhuQoKICAgIGZ1biBzaGEyNTYoZGF0YTogQnl0ZUFycmF5KTogQnl0ZUFycmF5ID0gTWVzc2FnZURpZ2VzdC5nZXRJbnN0YW5jZSgiU0hBLTI1NiIpLmRpZ2VzdChkYXRhKQoKICAgIGZ1biBjcmMzMihkYXRhOiBCeXRlQXJyYXkpOiBMb25nID0gQ1JDMzIoKS5hcHBseSB7IHVwZGF0ZShkYXRhKSB9LnZhbHVlCgogICAgLyoqCiAgICAgKiBDUkMzMiDnmoQgOCDlrZfoioLlpKfnq6/ooajnpLog4oCU4oCUIE9yaWdpbk9TIOWNj+iuruWMheWktOmHjOWNoCA4IOWtl+iKguOAggogICAgICog5rOo5oSP5pivICoq5peg56ym5Y+3Kiog5YC85bem56e7L+WPs+enu++8jFB5dGhvbiDpgqPovrnlhpnnmoTmmK8gYCYgMHhGRkZGRkZGRmDjgIIKICAgICAqLwogICAgZnVuIGNyYzMyQnl0ZXModmFsdWU6IExvbmcpOiBCeXRlQXJyYXkgewogICAgICAgIHZhbCB2ID0gdmFsdWUgYW5kIDB4RkZGRkZGRkZMCiAgICAgICAgcmV0dXJuIEJ5dGVBcnJheSg4KSB7IGkgLT4gKCh2IHVzaHIgKDggKiAoNyAtIGkpKSkgYW5kIDB4RkYpLnRvQnl0ZSgpIH0KICAgIH0KCiAgICAvKiogV0hBVFdHIGBVUkxTZWFyY2hQYXJhbXMudG9TdHJpbmcoKWAg55qE57yW56CB6KeE5YiZ77ya5L+d55WZIGAqLS5fYO+8jOepuuagvOi9rCBgK2DjgIIgKi8KICAgIGZ1biBmb3JtRW5jb2RlKHM6IFN0cmluZyk6IFN0cmluZyB7CiAgICAgICAgdmFsIHNiID0gU3RyaW5nQnVpbGRlcigpCiAgICAgICAgdmFsIGJ5dGVzID0gcy50b0J5dGVBcnJheShDaGFyc2V0cy5VVEZfOCkKICAgICAgICBmb3IgKGIgaW4gYnl0ZXMpIHsKICAgICAgICAgICAgdmFsIGMgPSBiLnRvSW50KCkgYW5kIDB4RkYKICAgICAgICAgICAgd2hlbiB7CiAgICAgICAgICAgICAgICBjIGluICdhJy5jb2RlLi4neicuY29kZSAtPiBzYi5hcHBlbmQoYy50b0NoYXIoKSkKICAgICAgICAgICAgICAgIGMgaW4gJ0EnLmNvZGUuLidaJy5jb2RlIC0+IHNiLmFwcGVuZChjLnRvQ2hhcigpKQogICAgICAgICAgICAgICAgYyBpbiAnMCcuY29kZS4uJzknLmNvZGUgLT4gc2IuYXBwZW5kKGMudG9DaGFyKCkpCiAgICAgICAgICAgICAgICBjID09ICcqJy5jb2RlIHx8IGMgPT0gJy0nLmNvZGUgfHwgYyA9PSAnLicuY29kZSB8fCBjID09ICdfJy5jb2RlIC0+IHNiLmFwcGVuZChjLnRvQ2hhcigpKQogICAgICAgICAgICAgICAgYyA9PSAnICcuY29kZSAtPiBzYi5hcHBlbmQoJysnKQogICAgICAgICAgICAgICAgZWxzZSAtPiB7CiAgICAgICAgICAgICAgICAgICAgc2IuYXBwZW5kKCclJykKICAgICAgICAgICAgICAgICAgICBzYi5hcHBlbmQoSEVYW2MgdXNociA0XSkKICAgICAgICAgICAgICAgICAgICBzYi5hcHBlbmQoSEVYW2MgYW5kIDB4Rl0pCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgcmV0dXJuIHNiLnRvU3RyaW5nKCkKICAgIH0KCiAgICBmdW4gZm9ybUVuY29kZUNvbXBvbmVudChzOiBTdHJpbmcpOiBTdHJpbmcgPSBmb3JtRW5jb2RlKHMpCn0K
+package org.linbaogu.romhub.data.brand
+
+import java.security.KeyFactory
+import java.security.MessageDigest
+import java.security.SecureRandom
+import java.security.spec.MGF1ParameterSpec
+import java.security.spec.X509EncodedKeySpec
+import java.util.Base64
+import java.util.zip.CRC32
+import javax.crypto.Cipher
+import javax.crypto.spec.IvParameterSpec
+import javax.crypto.spec.OAEPParameterSpec
+import javax.crypto.spec.PSource
+import javax.crypto.spec.SecretKeySpec
+
+/**
+ * 厂商 OTA 接口用到的加解密原语。
+ *
+ * 这里全部是 Java 标准库能做的，没有 native 依赖：
+ *  AES/CTR、AES/CBC/PKCS5Padding、RSA/ECB/OAEPWithSHA1AndMGF1Padding、CRC32。
+ *
+ * 对应的 Python 参考实现（实测跑通）：
+ *  · ColorOS   → github.com/006lp/OPlus-Tracker `tomboy_pro.py`
+ *  · OriginOS  → github.com/JerryTse-OSS/VIVO-OTA-Tracker `VivoOtaTracker.py`
+ */
+internal object OtaCrypto {
+
+    private val secureRandom = SecureRandom()
+
+    // ------------------------------------------------------------- 随机 & 编码
+
+    fun randomBytes(n: Int): ByteArray = ByteArray(n).also { secureRandom.nextBytes(it) }
+
+    fun hex(bytes: ByteArray): String {
+        val out = StringBuilder(bytes.size * 2)
+        for (b in bytes) {
+            val v = b.toInt() and 0xFF
+            out.append(HEX[v ushr 4]).append(HEX[v and 0xF])
+        }
+        return out.toString()
+    }
+
+    fun unHex(s: String): ByteArray {
+        val clean = s.trim()
+        require(clean.length % 2 == 0) { "hex 串长度必须是偶数：$clean" }
+        return ByteArray(clean.length / 2) { i ->
+            ((Character.digit(clean[i * 2], 16) shl 4) or Character.digit(clean[i * 2 + 1], 16)).toByte()
+        }
+    }
+
+    fun b64(bytes: ByteArray): String = Base64.getEncoder().encodeToString(bytes)
+
+    fun b64Url(bytes: ByteArray): String = Base64.getUrlEncoder().withoutPadding().encodeToString(bytes)
+
+    /**
+     * 逆 [b64Url]。
+     *
+     * vivo 的响应体在 JS/Java 侧是先 URLDecode、再把 `-`→`+`、`_`→`/`，
+     * 所以这里容忍 percent-encoding，并补齐 padding。
+     */
+    fun b64UrlDecode(s: String): ByteArray {
+        var t = java.net.URLDecoder.decode(s.trim(), "UTF-8")
+        t = t.replace('-', '+').replace('_', '/')
+        val pad = (4 - t.length % 4) % 4
+        if (pad > 0) t = t.padEnd(t.length + pad, '=')
+        return Base64.getDecoder().decode(t)
+    }
+
+    /** 大端 u16，避免用已废弃的无参 `toBigEndian()`。 */
+    fun u16be(v: Int): ByteArray = byteArrayOf(((v ushr 8) and 0xFF).toByte(), (v and 0xFF).toByte())
+
+    private const val HEX = "0123456789abcdef"
+
+    // ------------------------------------------------------------- AES
+
+    /** AES-CTR/NoPadding。ColorOS 请求与响应都用它。 */
+    fun aesCtr(key: ByteArray, iv: ByteArray, data: ByteArray): ByteArray {
+        val c = Cipher.getInstance("AES/CTR/NoPadding")
+        c.init(Cipher.ENCRYPT_MODE, SecretKeySpec(key, "AES"), IvParameterSpec(iv))
+        return c.doFinal(data)
+    }
+
+    fun aesCtrDecrypt(key: ByteArray, iv: ByteArray, data: ByteArray): ByteArray {
+        val c = Cipher.getInstance("AES/CTR/NoPadding")
+        c.init(Cipher.DECRYPT_MODE, SecretKeySpec(key, "AES"), IvParameterSpec(iv))
+        return c.doFinal(data)
+    }
+
+    /** AES-CBC/PKCS5Padding。OriginOS 请求与响应都用它。 */
+    fun aesCbcEncrypt(key: ByteArray, iv: ByteArray, data: ByteArray): ByteArray {
+        val c = Cipher.getInstance("AES/CBC/PKCS5Padding")
+        c.init(Cipher.ENCRYPT_MODE, SecretKeySpec(key, "AES"), IvParameterSpec(iv))
+        return c.doFinal(data)
+    }
+
+    fun aesCbcDecrypt(key: ByteArray, iv: ByteArray, data: ByteArray): ByteArray {
+        val c = Cipher.getInstance("AES/CBC/PKCS5Padding")
+        c.init(Cipher.DECRYPT_MODE, SecretKeySpec(key, "AES"), IvParameterSpec(iv))
+        return c.doFinal(data)
+    }
+
+    // ------------------------------------------------------------- RSA
+
+    /**
+     * RSA-OAEP(SHA-1, MGF1-SHA1)。
+     *
+     * ⚠️ Java 默认的 OAEP 用 **MGF1-SHA-256**，和厂商不一致，必须显式指定 MGF1-SHA1，
+     * 否则密文长度对不上、解出来是垃圾。
+     */
+    fun rsaOaepSha1Encrypt(publicKeyPem: String, plain: ByteArray): ByteArray {
+        val key = parseRsaPublicKey(publicKeyPem)
+        val c = Cipher.getInstance("RSA/ECB/OAEPPadding")
+        c.init(
+            Cipher.ENCRYPT_MODE,
+            key,
+            OAEPParameterSpec(
+                "SHA-1",
+                "MGF1",
+                MGF1ParameterSpec.SHA1,
+                PSource.PSpecified.DEFAULT,
+            ),
+        )
+        return c.doFinal(plain)
+    }
+
+    fun parseRsaPublicKey(pem: String): java.security.interfaces.RSAPublicKey {
+        val body = pem
+            .replace("-----BEGIN RSA PUBLIC KEY-----", "")
+            .replace("-----END RSA PUBLIC KEY-----", "")
+            .replace("-----BEGIN PUBLIC KEY-----", "")
+            .replace("-----END PUBLIC KEY-----", "")
+            .filterNot { it.isWhitespace() }
+        val der = Base64.getDecoder().decode(body)
+        return KeyFactory.getInstance("RSA")
+            .generatePublic(X509EncodedKeySpec(der)) as java.security.interfaces.RSAPublicKey
+    }
+
+    // ------------------------------------------------------------- 杂项
+
+    fun sha256(data: ByteArray): ByteArray = MessageDigest.getInstance("SHA-256").digest(data)
+
+    fun crc32(data: ByteArray): Long = CRC32().apply { update(data) }.value
+
+    /**
+     * CRC32 的 8 字节大端表示 —— OriginOS 协议包头里占 8 字节。
+     * 注意是 **无符号** 值左移/右移，Python 那边写的是 `& 0xFFFFFFFF`。
+     */
+    fun crc32Bytes(value: Long): ByteArray {
+        val v = value and 0xFFFFFFFFL
+        return ByteArray(8) { i -> ((v ushr (8 * (7 - i))) and 0xFF).toByte() }
+    }
+
+    /** WHATWG `URLSearchParams.toString()` 的编码规则：保留 `*-._`，空格转 `+`。 */
+    fun formEncode(s: String): String {
+        val sb = StringBuilder()
+        val bytes = s.toByteArray(Charsets.UTF_8)
+        for (b in bytes) {
+            val c = b.toInt() and 0xFF
+            when {
+                c in 'a'.code..'z'.code -> sb.append(c.toChar())
+                c in 'A'.code..'Z'.code -> sb.append(c.toChar())
+                c in '0'.code..'9'.code -> sb.append(c.toChar())
+                c == '*'.code || c == '-'.code || c == '.'.code || c == '_'.code -> sb.append(c.toChar())
+                c == ' '.code -> sb.append('+')
+                else -> {
+                    sb.append('%')
+                    sb.append(HEX[c ushr 4])
+                    sb.append(HEX[c and 0xF])
+                }
+            }
+        }
+        return sb.toString()
+    }
+
+    fun formEncodeComponent(s: String): String = formEncode(s)
+}

@@ -1,1 +1,11 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSDlkK/liqjpobXlpKflm77moIfvvJrkuI7moYzpnaLlm77moIfkv53mjIHkuIDoh7TvvIjlkIzog4zmma/oibIgKyDlkIzliY3mma/nn6Lph4/vvIzlnIbop5IgMjRkcO+8iSAtLT4KPGxheWVyLWxpc3QgeG1sbnM6YW5kcm9pZD0iaHR0cDovL3NjaGVtYXMuYW5kcm9pZC5jb20vYXBrL3Jlcy9hbmRyb2lkIj4KICAgIDxpdGVtPgogICAgICAgIDxzaGFwZSBhbmRyb2lkOnNoYXBlPSJyZWN0YW5nbGUiPgogICAgICAgICAgICA8Y29ybmVycyBhbmRyb2lkOnJhZGl1cz0iMjRkcCIgLz4KICAgICAgICAgICAgPHNvbGlkIGFuZHJvaWQ6Y29sb3I9IkBjb2xvci9pY19sYXVuY2hlcl9iYWNrZ3JvdW5kIiAvPgogICAgICAgIDwvc2hhcGU+CiAgICA8L2l0ZW0+CiAgICA8aXRlbSBhbmRyb2lkOmRyYXdhYmxlPSJAZHJhd2FibGUvaWNfbGF1bmNoZXJfZm9yZWdyb3VuZCIgLz4KPC9sYXllci1saXN0Pgo=
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 启动页大图标：与桌面图标保持一致（同背景色 + 同前景矢量，圆角 24dp） -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="24dp" />
+            <solid android:color="@color/ic_launcher_background" />
+        </shape>
+    </item>
+    <item android:drawable="@drawable/ic_launcher_foreground" />
+</layer-list>

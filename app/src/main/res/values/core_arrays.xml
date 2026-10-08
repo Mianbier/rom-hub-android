@@ -1,1 +1,113 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0NCiAgfiBUaGlzIGZpbGUgaXMgcGFydCBvZiBIeXBlckNlaWxlci4NCiAgfg0KICB+IEh5cGVyQ2VpbGVyIGlzIGZyZWUgc29mdHdhcmU6IHlvdSBjYW4gcmVkaXN0cmlidXRlIGl0IGFuZC9vciBtb2RpZnkNCiAgfiBpdCB1bmRlciB0aGUgdGVybXMgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBhcw0KICB+IHB1Ymxpc2hlZCBieSB0aGUgRnJlZSBTb2Z0d2FyZSBGb3VuZGF0aW9uLCBlaXRoZXIgdmVyc2lvbiAzIG9mIHRoZQ0KICB+IExpY2Vuc2UuDQogIH4NCiAgfiBUaGlzIHByb2dyYW0gaXMgZGlzdHJpYnV0ZWQgaW4gdGhlIGhvcGUgdGhhdCBpdCB3aWxsIGJlIHVzZWZ1bCwNCiAgfiBidXQgV0lUSE9VVCBBTlkgV0FSUkFOVFk7IHdpdGhvdXQgZXZlbiB0aGUgaW1wbGllZCB3YXJyYW50eSBvZg0KICB+IE1FUkNIQU5UQUJJTElUWSBvciBGSVRORVNTIEZPUiBBIFBBUlRJQ1VMQVIgUFVSUE9TRS4gIFNlZSB0aGUNCiAgfiBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UgZm9yIG1vcmUgZGV0YWlscy4NCiAgfg0KICB+IFlvdSBzaG91bGQgaGF2ZSByZWNlaXZlZCBhIGNvcHkgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZQ0KICB+IGFsb25nIHdpdGggdGhpcyBwcm9ncmFtLiAgSWYgbm90LCBzZWUgPGh0dHBzOi8vd3d3LmdudS5vcmcvbGljZW5zZXMvPi4NCiAgfg0KICB+IENvcHlyaWdodCAoQykgMjAyMy0yMDI2IEh5cGVyUm9taHViIENvbnRyaWJ1dGlvbnMNCiAgLS0+DQo8cmVzb3VyY2VzPg0KICAgIDxzdHJpbmctYXJyYXkgbmFtZT0icmVzdGFydF9hcHBzX25hbWVfaHlwZXJvcyI+DQogICAgICAgIDxpdGVtPkBzdHJpbmcvc3lzdGVtX3VpPC9pdGVtPg0KICAgICAgICA8aXRlbT5Ac3RyaW5nL21paG9tZTwvaXRlbT4NCiAgICAgICAgPGl0ZW0+QHN0cmluZy9zeXN0ZW1fc2V0dGluZ3M8L2l0ZW0+DQogICAgICAgIDxpdGVtPkBzdHJpbmcvc2VjdXJpdHlfY2VudGVyX2h5cGVyb3M8L2l0ZW0+DQogICAgICAgIDwhLS08aXRlbT5Ac3RyaW5nL3BlcnNvbmFsX2Fzc2lzdGFudDwvaXRlbT4NCiAgICAgICAgPGl0ZW0+QHN0cmluZy9ub3RlczwvaXRlbT4NCiAgICAgICAgPGl0ZW0+QHN0cmluZy9wb3dlcmtlZXBlcjwvaXRlbT4NCiAgICAgICAgPGl0ZW0+QHN0cmluZy9qb3lvc2U8L2l0ZW0+DQogICAgICAgIDxpdGVtPkBzdHJpbmcvbmV0d29ya2Jvb3N0PC9pdGVtPi0tPg0KICAgIDwvc3RyaW5nLWFycmF5Pg0KDQogICAgPHN0cmluZy1hcnJheSBuYW1lPSJyZXN0YXJ0X2FwcHNfcGFja2FnZW5hbWUiPg0KICAgICAgICA8aXRlbT5jb20uYW5kcm9pZC5zeXN0ZW11aTwvaXRlbT4NCiAgICAgICAgPGl0ZW0+Y29tLm1pdWkuaG9tZTwvaXRlbT4NCiAgICAgICAgPGl0ZW0+Y29tLmFuZHJvaWQuc2V0dGluZ3M8L2l0ZW0+DQogICAgICAgIDxpdGVtPmNvbS5taXVpLnNlY3VyaXR5Y2VudGVyPC9pdGVtPg0KICAgICAgICA8IS0tPGl0ZW0+Y29tLm1pdWkucGVyc29uYWxhc3Npc3RhbnQ8L2l0ZW0+DQogICAgICAgIDxpdGVtPmNvbS5taXVpLm5vdGVzPC9pdGVtPg0KICAgICAgICA8aXRlbT5jb20ubWl1aS5wb3dlcmtlZXBlcjwvaXRlbT4NCiAgICAgICAgPGl0ZW0+Y29tLnhpYW9taS5qb3lvc2U8L2l0ZW0+DQogICAgICAgIDxpdGVtPmNvbS54aWFvbWkuTmV0d29ya0Jvb3N0PC9pdGVtPi0tPg0KICAgIDwvc3RyaW5nLWFycmF5Pg0KDQogICAgPHN0cmluZy1hcnJheSBuYW1lPSJtdWx0aV9hY3Rpb25fdGl0bGUiPg0KICAgICAgICA8aXRlbT5Ac3RyaW5nL2FycmF5X2dsb2JhbF9hY3Rpb25zX25vbmU8L2l0ZW0+DQogICAgICAgIDxpdGVtPkBzdHJpbmcvYXJyYXlfZ2xvYmFsX2FjdGlvbnNfbm90aWY8L2l0ZW0+DQogICAgICAgIDxpdGVtPkBzdHJpbmcvYXJyYXlfZ2xvYmFsX2FjdGlvbnNfY29udHJvbF9jZW50ZXI8L2l0ZW0+DQogICAgICAgIDxpdGVtPkBzdHJpbmcvYXJyYXlfZ2xvYmFsX2FjdGlvbnNfY2xlYXJfbWVtb3J5PC9pdGVtPg0KICAgICAgICA8aXRlbT5Ac3RyaW5nL2FycmF5X2dsb2JhbF9hY3Rpb25zX2ludmVydF9jb2xvcnM8L2l0ZW0+DQogICAgICAgIDxpdGVtPkBzdHJpbmcvYXJyYXlfZ2xvYmFsX2FjdGlvbnNfcG93ZXJtZW51PC9pdGVtPg0KICAgICAgICA8aXRlbT5Ac3RyaW5nL2FycmF5X2dsb2JhbF9hY3Rpb25zX2xvY2s8L2l0ZW0+DQogICAgICAgIDxpdGVtPkBzdHJpbmcvYXJyYXlfZ2xvYmFsX2FjdGlvbnNfcmVjZW50czwvaXRlbT4NCiAgICAgICAgPGl0ZW0+QHN0cmluZy9hcnJheV9nbG9iYWxfYWN0aW9uc19ob21lPC9pdGVtPg0KICAgICAgICA8aXRlbT5Ac3RyaW5nL2FycmF5X2dsb2JhbF9hY3Rpb25zX3NjcmVlbnNob3Q8L2l0ZW0+DQogICAgICAgIDxpdGVtPkBzdHJpbmcvYXJyYXlfZ2xvYmFsX2FjdGlvbnNfdm9sdW1lPC9pdGVtPg0KICAgICAgICA8aXRlbT5Ac3RyaW5nL2FycmF5X2dsb2JhbF9hY3Rpb25zX3N1cGVyX3hpYW9haTwvaXRlbT4NCiAgICAgICAgPGl0ZW0+QHN0cmluZy9hcnJheV9nbG9iYWxfYWN0aW9uc19zdXBlcl94aWFvYWlfY2lyY2xlX3NlYXJjaDwvaXRlbT4NCiAgICAgICAgPGl0ZW0+QHN0cmluZy9hcnJheV9nbG9iYWxfYWN0aW9uc19nb29nbGVfY2lyY2xlX3RvX3NlYXJjaDwvaXRlbT4NCiAgICAgICAgPGl0ZW0+QHN0cmluZy9hcnJheV9nbG9iYWxfYWN0aW9uc19nb29nbGVfdm9pY2VfYXNzaXN0YW50PC9pdGVtPg0KICAgICAgICA8aXRlbT5Ac3RyaW5nL2FycmF5X2dsb2JhbF9hY3Rpb25zX2ZvcmNlX3N0b3BfY3VycmVudF9hcHA8L2l0ZW0+DQogICAgICAgIDxpdGVtPkBzdHJpbmcvYXJyYXlfZ2xvYmFsX2FjdGlvbnNfbGF1bmNoPC9pdGVtPg0KICAgIDwvc3RyaW5nLWFycmF5Pg0KDQogICAgPHN0cmluZy1hcnJheSBuYW1lPSJtdWx0aV9hY3Rpb25fa2V5Ij4NCiAgICAgICAgPGl0ZW0+cHJlZnNfa2V5X25vX2FjdGlvbjwvaXRlbT4NCiAgICAgICAgPGl0ZW0+cHJlZnNfa2V5X29wZW5fbm90aWZpY2F0aW9uX2NlbnRlcjwvaXRlbT4NCiAgICAgICAgPGl0ZW0+cHJlZnNfa2V5X29wZW5fY29udHJvbF9jZW50ZXI8L2l0ZW0+DQogICAgICAgIDxpdGVtPnByZWZzX2tleV9jbGVhcl9tZW1vcnk8L2l0ZW0+DQogICAgICAgIDxpdGVtPnByZWZzX2tleV9pbnZlcnRfY29sb3JzPC9pdGVtPg0KICAgICAgICA8aXRlbT5wcmVmc19rZXlfb3Blbl9wb3dlcm1lbnU8L2l0ZW0+DQogICAgICAgIDxpdGVtPnByZWZzX2tleV9zY3JlZW5fbG9jazwvaXRlbT4NCiAgICAgICAgPGl0ZW0+cHJlZnNfa2V5X3NjcmVlbl9yZWNlbnRzPC9pdGVtPg0KICAgICAgICA8aXRlbT5wcmVmc19rZXlfZ29faG9tZTwvaXRlbT4NCiAgICAgICAgPGl0ZW0+cHJlZnNfa2V5X3NjcmVlbl9jYXB0dXJlPC9pdGVtPg0KICAgICAgICA8aXRlbT5wcmVmc19rZXlfdm9sdW1lX2RpYWxvZzwvaXRlbT4NCiAgICAgICAgPGl0ZW0+cHJlZnNfa2V5X3N1cGVyX3hpYW9haTwvaXRlbT4NCiAgICAgICAgPGl0ZW0+cHJlZnNfa2V5X3N1cGVyX3hpYW9haV9jaXJjbGVfc2VhcmNoPC9pdGVtPg0KICAgICAgICA8aXRlbT5wcmVmc19rZXlfZ29vZ2xlX2NpcmNsZV90b19zZWFyY2g8L2l0ZW0+DQogICAgICAgIDxpdGVtPnByZWZzX2tleV9nb29nbGVfdm9pY2VfYXNzaXN0YW50PC9pdGVtPg0KICAgICAgICA8aXRlbT5wcmVmc19rZXlfZm9yY2Vfc3RvcF9jdXJyZW50X2FwcDwvaXRlbT4NCiAgICAgICAgPGl0ZW0+cHJlZnNfa2V5X29wZW5fYXBwPC9pdGVtPg0KICAgIDwvc3RyaW5nLWFycmF5Pg0KDQogICAgPGludGVnZXItYXJyYXkgbmFtZT0ibXVsdGlfYWN0aW9uX3ZhbHVlIj4NCiAgICAgICAgPGl0ZW0+MDwvaXRlbT4NCiAgICAgICAgPGl0ZW0+MTwvaXRlbT4NCiAgICAgICAgPGl0ZW0+MTU8L2l0ZW0+DQogICAgICAgIDxpdGVtPjI8L2l0ZW0+DQogICAgICAgIDxpdGVtPjM8L2l0ZW0+DQogICAgICAgIDxpdGVtPjEyPC9pdGVtPg0KICAgICAgICA8aXRlbT40PC9pdGVtPg0KICAgICAgICA8aXRlbT43PC9pdGVtPg0KICAgICAgICA8aXRlbT4xNDwvaXRlbT4NCiAgICAgICAgPGl0ZW0+NjwvaXRlbT4NCiAgICAgICAgPGl0ZW0+ODwvaXRlbT4NCiAgICAgICAgPGl0ZW0+MTY8L2l0ZW0+DQogICAgICAgIDxpdGVtPjE3PC9pdGVtPg0KICAgICAgICA8aXRlbT4xODwvaXRlbT4NCiAgICAgICAgPGl0ZW0+MjA8L2l0ZW0+DQogICAgICAgIDxpdGVtPjE5PC9pdGVtPg0KICAgICAgICA8aXRlbT4xMzwvaXRlbT4NCiAgICA8L2ludGVnZXItYXJyYXk+DQoNCiAgICA8IS0tIEFJQ1Ig5aSN5Yi255u06L6+5rWP6KeI5Zmo5YCZ6YCJ77yb6L+Q6KGM5pe255SxIEFpY3JGcmFnbWVudCDph43mlrDloavlhYXjgIIgLS0+DQogICAgPHN0cmluZy1hcnJheSBuYW1lPSJhaWNyX2Jyb3dzZXJfZW50cmllcyI+DQogICAgICAgIDxpdGVtPkBzdHJpbmcvYWljcl9kZWZhdWx0X2Jyb3dzZXI8L2l0ZW0+DQogICAgPC9zdHJpbmctYXJyYXk+DQoNCiAgICA8c3RyaW5nLWFycmF5IG5hbWU9ImFpY3JfYnJvd3Nlcl92YWx1ZXMiPg0KICAgICAgICA8aXRlbT48L2l0ZW0+DQogICAgPC9zdHJpbmctYXJyYXk+DQo8L3Jlc291cmNlcz4NCg==
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ This file is part of HyperCeiler.
+  ~
+  ~ HyperCeiler is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU Affero General Public License as
+  ~ published by the Free Software Foundation, either version 3 of the
+  ~ License.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU Affero General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU Affero General Public License
+  ~ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+  ~
+  ~ Copyright (C) 2023-2026 HyperRomhub Contributions
+  -->
+<resources>
+    <string-array name="restart_apps_name_hyperos">
+        <item>@string/system_ui</item>
+        <item>@string/mihome</item>
+        <item>@string/system_settings</item>
+        <item>@string/security_center_hyperos</item>
+        <!--<item>@string/personal_assistant</item>
+        <item>@string/notes</item>
+        <item>@string/powerkeeper</item>
+        <item>@string/joyose</item>
+        <item>@string/networkboost</item>-->
+    </string-array>
+
+    <string-array name="restart_apps_packagename">
+        <item>com.android.systemui</item>
+        <item>com.miui.home</item>
+        <item>com.android.settings</item>
+        <item>com.miui.securitycenter</item>
+        <!--<item>com.miui.personalassistant</item>
+        <item>com.miui.notes</item>
+        <item>com.miui.powerkeeper</item>
+        <item>com.xiaomi.joyose</item>
+        <item>com.xiaomi.NetworkBoost</item>-->
+    </string-array>
+
+    <string-array name="multi_action_title">
+        <item>@string/array_global_actions_none</item>
+        <item>@string/array_global_actions_notif</item>
+        <item>@string/array_global_actions_control_center</item>
+        <item>@string/array_global_actions_clear_memory</item>
+        <item>@string/array_global_actions_invert_colors</item>
+        <item>@string/array_global_actions_powermenu</item>
+        <item>@string/array_global_actions_lock</item>
+        <item>@string/array_global_actions_recents</item>
+        <item>@string/array_global_actions_home</item>
+        <item>@string/array_global_actions_screenshot</item>
+        <item>@string/array_global_actions_volume</item>
+        <item>@string/array_global_actions_super_xiaoai</item>
+        <item>@string/array_global_actions_super_xiaoai_circle_search</item>
+        <item>@string/array_global_actions_google_circle_to_search</item>
+        <item>@string/array_global_actions_google_voice_assistant</item>
+        <item>@string/array_global_actions_force_stop_current_app</item>
+        <item>@string/array_global_actions_launch</item>
+    </string-array>
+
+    <string-array name="multi_action_key">
+        <item>prefs_key_no_action</item>
+        <item>prefs_key_open_notification_center</item>
+        <item>prefs_key_open_control_center</item>
+        <item>prefs_key_clear_memory</item>
+        <item>prefs_key_invert_colors</item>
+        <item>prefs_key_open_powermenu</item>
+        <item>prefs_key_screen_lock</item>
+        <item>prefs_key_screen_recents</item>
+        <item>prefs_key_go_home</item>
+        <item>prefs_key_screen_capture</item>
+        <item>prefs_key_volume_dialog</item>
+        <item>prefs_key_super_xiaoai</item>
+        <item>prefs_key_super_xiaoai_circle_search</item>
+        <item>prefs_key_google_circle_to_search</item>
+        <item>prefs_key_google_voice_assistant</item>
+        <item>prefs_key_force_stop_current_app</item>
+        <item>prefs_key_open_app</item>
+    </string-array>
+
+    <integer-array name="multi_action_value">
+        <item>0</item>
+        <item>1</item>
+        <item>15</item>
+        <item>2</item>
+        <item>3</item>
+        <item>12</item>
+        <item>4</item>
+        <item>7</item>
+        <item>14</item>
+        <item>6</item>
+        <item>8</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>20</item>
+        <item>19</item>
+        <item>13</item>
+    </integer-array>
+
+    <!-- AICR 复制直达浏览器候选；运行时由 AicrFragment 重新填充。 -->
+    <string-array name="aicr_browser_entries">
+        <item>@string/aicr_default_browser</item>
+    </string-array>
+
+    <string-array name="aicr_browser_values">
+        <item></item>
+    </string-array>
+</resources>

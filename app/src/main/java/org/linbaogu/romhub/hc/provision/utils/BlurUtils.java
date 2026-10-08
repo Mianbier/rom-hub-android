@@ -1,1 +1,48 @@
-LyoKICogVGhpcyBmaWxlIGlzIHBhcnQgb2YgSHlwZXJDZWlsZXIuCgogKiBIeXBlckNlaWxlciBpcyBmcmVlIHNvZnR3YXJlOiB5b3UgY2FuIHJlZGlzdHJpYnV0ZSBpdCBhbmQvb3IgbW9kaWZ5CiAqIGl0IHVuZGVyIHRoZSB0ZXJtcyBvZiB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGFzCiAqIHB1Ymxpc2hlZCBieSB0aGUgRnJlZSBTb2Z0d2FyZSBGb3VuZGF0aW9uLCBlaXRoZXIgdmVyc2lvbiAzIG9mIHRoZQogKiBMaWNlbnNlLgoKICogVGhpcyBwcm9ncmFtIGlzIGRpc3RyaWJ1dGVkIGluIHRoZSBob3BlIHRoYXQgaXQgd2lsbCBiZSB1c2VmdWwsCiAqIGJ1dCBXSVRIT1VUIEFOWSBXQVJSQU5UWTsgd2l0aG91dCBldmVuIHRoZSBpbXBsaWVkIHdhcnJhbnR5IG9mCiAqIE1FUkNIQU5UQUJJTElUWSBvciBGSVRORVNTIEZPUiBBIFBBUlRJQ1VMQVIgUFVSUE9TRS4gIFNlZSB0aGUKICogR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGZvciBtb3JlIGRldGFpbHMuCgogKiBZb3Ugc2hvdWxkIGhhdmUgcmVjZWl2ZWQgYSBjb3B5IG9mIHRoZSBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UKICogYWxvbmcgd2l0aCB0aGlzIHByb2dyYW0uICBJZiBub3QsIHNlZSA8aHR0cHM6Ly93d3cuZ251Lm9yZy9saWNlbnNlcy8+LgoKICogQ29weXJpZ2h0IChDKSAyMDIzLTIwMjYgSHlwZXJDZWlsZXIgQ29udHJpYnV0aW9ucwogKi8KcGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLmhjLnByb3Zpc2lvbi51dGlsczsKCmltcG9ydCBhbmRyb2lkLnZpZXcuVmlldzsKCmltcG9ydCBmYW4uY29yZS51dGlscy5NaXVpQmx1clV0aWxzOwoKcHVibGljIGNsYXNzIEJsdXJVdGlscyB7CgogICAgcHVibGljIHN0YXRpYyB2b2lkIHNldHVwTG9nb0JsdXIoVmlldyB2aWV3KSB7CiAgICAgICAgc2V0dXBWaWV3Qmx1cih2aWV3LCBuZXcgaW50W117LTg2NzU0NjU1MCwgLTExNTc5NTY5LCAtMTUwMTEzMjh9LCBuZXcgaW50W117MTksIDEwMCwgMTA2fSk7CiAgICB9CgogICAgcHVibGljIHN0YXRpYyB2b2lkIHNldHVwVmlld0JsdXIoVmlldyB2aWV3LCBpbnRbXSBibGVuZENvbG9ycywgaW50W10gaUFycjIpIHsKICAgICAgICBzZXR1cFZpZXdCbHVyKHZpZXcsIHRydWUsIGJsZW5kQ29sb3JzLCBpQXJyMik7CiAgICB9CgogICAgcHVibGljIHN0YXRpYyB2b2lkIHNldHVwVmlld0JsdXIoVmlldyB2aWV3LCBib29sZWFuIGlzRW5hYmxlZCwgaW50W10gYmxlbmRDb2xvcnMsIGludFtdIGlBcnIyKSB7CiAgICAgICAgaWYgKHZpZXcgIT0gbnVsbCkgewogICAgICAgICAgICBpZiAoaXNFbmFibGVkKSB7CiAgICAgICAgICAgICAgICBNaXVpQmx1clV0aWxzLnNldFZpZXdCbHVyTW9kZSh2aWV3LCAzKTsKICAgICAgICAgICAgICAgIGZvciAoaW50IGkgPSAwOyBpIDwgYmxlbmRDb2xvcnMubGVuZ3RoOyBpKyspIHsKICAgICAgICAgICAgICAgICAgICBNaXVpQmx1clV0aWxzLmFkZEJhY2tncm91bmRCbGVuZGVyQ29sb3IodmlldywgYmxlbmRDb2xvcnNbaV0sIGlBcnIyW2ldKTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIE1pdWlCbHVyVXRpbHMuc2V0Vmlld0JsdXJNb2RlKHZpZXcsIDApOwogICAgICAgICAgICAgICAgTWl1aUJsdXJVdGlscy5jbGVhckJhY2tncm91bmRCbHVyQ29udGFpbmVyKHZpZXcpOwogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQp9Cg==
+/*
+ * This file is part of HyperCeiler.
+
+ * HyperCeiler is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as
+ * published by the Free Software Foundation, either version 3 of the
+ * License.
+
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Affero General Public License for more details.
+
+ * You should have received a copy of the GNU Affero General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+ * Copyright (C) 2023-2026 HyperCeiler Contributions
+ */
+package org.linbaogu.romhub.hc.provision.utils;
+
+import android.view.View;
+
+import fan.core.utils.MiuiBlurUtils;
+
+public class BlurUtils {
+
+    public static void setupLogoBlur(View view) {
+        setupViewBlur(view, new int[]{-867546550, -11579569, -15011328}, new int[]{19, 100, 106});
+    }
+
+    public static void setupViewBlur(View view, int[] blendColors, int[] iArr2) {
+        setupViewBlur(view, true, blendColors, iArr2);
+    }
+
+    public static void setupViewBlur(View view, boolean isEnabled, int[] blendColors, int[] iArr2) {
+        if (view != null) {
+            if (isEnabled) {
+                MiuiBlurUtils.setViewBlurMode(view, 3);
+                for (int i = 0; i < blendColors.length; i++) {
+                    MiuiBlurUtils.addBackgroundBlenderColor(view, blendColors[i], iArr2[i]);
+                }
+            } else {
+                MiuiBlurUtils.setViewBlurMode(view, 0);
+                MiuiBlurUtils.clearBackgroundBlurContainer(view);
+            }
+        }
+    }
+}

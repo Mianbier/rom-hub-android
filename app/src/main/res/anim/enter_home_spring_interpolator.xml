@@ -1,1 +1,4 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHNwcmluZ0ludGVycG9sYXRvciB4bWxuczphcHA9Imh0dHA6Ly9zY2hlbWFzLmFuZHJvaWQuY29tL2Fway9yZXMtYXV0byIKICAgIGFwcDpzcHJpbmdEYW1waW5nPSIwLjY1IgogICAgYXBwOnNwcmluZ1Jlc3BvbnNlPSIwLjU1IiAvPgo=
+<?xml version="1.0" encoding="utf-8"?>
+<springInterpolator xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:springDamping="0.65"
+    app:springResponse="0.55" />

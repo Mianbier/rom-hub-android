@@ -1,1 +1,6 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHNlbGVjdG9yIHhtbG5zOmFuZHJvaWQ9Imh0dHA6Ly9zY2hlbWFzLmFuZHJvaWQuY29tL2Fway9yZXMvYW5kcm9pZCI+CiAgICA8aXRlbSBhbmRyb2lkOmNvbG9yPSJAY29sb3IvaXRlbV92aWV3X2Fycm93X3JpZ2h0X2Rpc2FibGVfZmlsbF9jb2xvcl9saWdodCIgYW5kcm9pZDpzdGF0ZV9lbmFibGVkPSJmYWxzZSIgLz4KICAgIDxpdGVtIGFuZHJvaWQ6Y29sb3I9IkBjb2xvci9pdGVtX3ZpZXdfYXJyb3dfcmlnaHRfcHJlc3NlZF9maWxsX2NvbG9yX2xpZ2h0IiBhbmRyb2lkOnN0YXRlX3ByZXNzZWQ9InRydWUiIC8+CiAgICA8aXRlbSBhbmRyb2lkOmNvbG9yPSJAY29sb3IvaXRlbV92aWV3X2Fycm93X3JpZ2h0X25vcm1hbF9maWxsX2NvbG9yX2xpZ2h0IiAvPgo8L3NlbGVjdG9yPgo=
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:color="@color/item_view_arrow_right_disable_fill_color_light" android:state_enabled="false" />
+    <item android:color="@color/item_view_arrow_right_pressed_fill_color_light" android:state_pressed="true" />
+    <item android:color="@color/item_view_arrow_right_normal_fill_color_light" />
+</selector>

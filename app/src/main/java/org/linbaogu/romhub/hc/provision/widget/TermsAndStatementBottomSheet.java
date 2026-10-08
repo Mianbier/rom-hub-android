@@ -1,1 +1,112 @@
-LyoKICogVGhpcyBmaWxlIGlzIHBhcnQgb2YgSHlwZXJDZWlsZXIuCgogKiBIeXBlckNlaWxlciBpcyBmcmVlIHNvZnR3YXJlOiB5b3UgY2FuIHJlZGlzdHJpYnV0ZSBpdCBhbmQvb3IgbW9kaWZ5CiAqIGl0IHVuZGVyIHRoZSB0ZXJtcyBvZiB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGFzCiAqIHB1Ymxpc2hlZCBieSB0aGUgRnJlZSBTb2Z0d2FyZSBGb3VuZGF0aW9uLCBlaXRoZXIgdmVyc2lvbiAzIG9mIHRoZQogKiBMaWNlbnNlLgoKICogVGhpcyBwcm9ncmFtIGlzIGRpc3RyaWJ1dGVkIGluIHRoZSBob3BlIHRoYXQgaXQgd2lsbCBiZSB1c2VmdWwsCiAqIGJ1dCBXSVRIT1VUIEFOWSBXQVJSQU5UWTsgd2l0aG91dCBldmVuIHRoZSBpbXBsaWVkIHdhcnJhbnR5IG9mCiAqIE1FUkNIQU5UQUJJTElUWSBvciBGSVRORVNTIEZPUiBBIFBBUlRJQ1VMQVIgUFVSUE9TRS4gIFNlZSB0aGUKICogR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGZvciBtb3JlIGRldGFpbHMuCgogKiBZb3Ugc2hvdWxkIGhhdmUgcmVjZWl2ZWQgYSBjb3B5IG9mIHRoZSBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UKICogYWxvbmcgd2l0aCB0aGlzIHByb2dyYW0uICBJZiBub3QsIHNlZSA8aHR0cHM6Ly93d3cuZ251Lm9yZy9saWNlbnNlcy8+LgoKICogQ29weXJpZ2h0IChDKSAyMDIzLTIwMjYgSHlwZXJDZWlsZXIgQ29udHJpYnV0aW9ucwogKi8KcGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLmhjLnByb3Zpc2lvbi53aWRnZXQ7CgppbXBvcnQgYW5kcm9pZC5hbm5vdGF0aW9uLlN1cHByZXNzTGludDsKaW1wb3J0IGFuZHJvaWQudmlldy5WaWV3OwppbXBvcnQgYW5kcm9pZC53aWRnZXQuRnJhbWVMYXlvdXQ7CmltcG9ydCBhbmRyb2lkLndpZGdldC5Qcm9ncmVzc0JhcjsKaW1wb3J0IGFuZHJvaWQud2lkZ2V0LlRleHRWaWV3OwoKaW1wb3J0IGFuZHJvaWR4LmZyYWdtZW50LmFwcC5GcmFnbWVudEFjdGl2aXR5OwoKaW1wb3J0IG9yZy5saW5iYW9ndS5yb21odWIuUjsKCmltcG9ydCBmYW4ucHJvdmlzaW9uLk9vYmVVdGlsczsKCmltcG9ydCBmYW4uYm90dG9tc2hlZXQuQm90dG9tU2hlZXRCZWhhdmlvcjsKaW1wb3J0IGZhbi5ib3R0b21zaGVldC5Cb3R0b21TaGVldE1vZGFsOwoKcHVibGljIGNsYXNzIFRlcm1zQW5kU3RhdGVtZW50Qm90dG9tU2hlZXQgewoKICAgIHN0YXRpYyBGcmFnbWVudEFjdGl2aXR5IG1BY3Rpdml0eTsKICAgIEJvdHRvbVNoZWV0TW9kYWwgbUJvdHRvbVNoZWV0OwoKICAgIEBTdXBwcmVzc0xpbnQoIlN0YXRpY0ZpZWxkTGVhayIpCiAgICBzdGF0aWMgUHJvZ3Jlc3NCYXIgbVByb2dyZXNzQmFyOwogICAgQFN1cHByZXNzTGludCgiU3RhdGljRmllbGRMZWFrIikKICAgIHN0YXRpYyBUZXh0VmlldyB2ZXJpZmljYXRpb25Db2RlVGlwOwogICAgc3RhdGljIE1hcmtkb3duVmlldyBtTWFya2Rvd25WaWV3OwoKICAgIHB1YmxpYyBUZXJtc0FuZFN0YXRlbWVudEJvdHRvbVNoZWV0KEZyYWdtZW50QWN0aXZpdHkgYWN0aXZpdHkpIHsKICAgICAgICBtQWN0aXZpdHkgPSBhY3Rpdml0eTsKICAgICAgICBtQm90dG9tU2hlZXQgPSBuZXcgQm90dG9tU2hlZXRNb2RhbChhY3Rpdml0eSk7CiAgICAgICAgbUJvdHRvbVNoZWV0LnNldERyYWdIYW5kbGVWaWV3RW5hYmxlZCh0cnVlKTsKICAgICAgICBCb3R0b21TaGVldEJlaGF2aW9yPEZyYW1lTGF5b3V0PiBiZWhhdmlvciA9IG1Cb3R0b21TaGVldC5nZXRCZWhhdmlvcigpOwogICAgICAgIGJlaGF2aW9yLnNldFN0YXRlKEJvdHRvbVNoZWV0QmVoYXZpb3IuU1RBVEVfRVhQQU5ERUQpOwogICAgICAgIGJlaGF2aW9yLnNldEZvcmNlRnVsbEhlaWdodCh0cnVlKTsKICAgICAgICBiZWhhdmlvci5zZXRNb2RlQ29uZmlnKDApOwogICAgICAgIGJlaGF2aW9yLnNldERyYWdnYWJsZSh0cnVlKTsKICAgICAgICBiZWhhdmlvci5zZXRTa2lwSGFsZkV4cGFuZGVkKHRydWUpOwogICAgICAgIGJlaGF2aW9yLnNldFNraXBDb2xsYXBzZWQodHJ1ZSk7CiAgICAgICAgYmVoYXZpb3Iuc2V0Rml4ZWRIZWlnaHRSYXRpb0VuYWJsZWQoZmFsc2UpOwoKICAgICAgICBtQm90dG9tU2hlZXQuc2V0Q29udGVudFZpZXcoUi5sYXlvdXQuZnJhZ21lbnRfYm90dG9tX3NoZWV0X3dlYik7CiAgICAgICAgVmlldyByb290VmlldyA9IG1Cb3R0b21TaGVldC5nZXRSb290VmlldygpOwogICAgICAgIG1Qcm9ncmVzc0JhciA9IHJvb3RWaWV3LmZpbmRWaWV3QnlJZChSLmlkLnByb2dyZXNzX2Jhcik7CiAgICAgICAgbU1hcmtkb3duVmlldyA9IHJvb3RWaWV3LmZpbmRWaWV3QnlJZChSLmlkLm1hcmtkb3duKTsKICAgICAgICB2ZXJpZmljYXRpb25Db2RlVGlwID0gcm9vdFZpZXcuZmluZFZpZXdCeUlkKFIuaWQudmVyaWZpY2F0aW9uX2NvZGVfdGlwKTsKICAgICAgICBpbml0VmlldygpOwogICAgfQoKICAgIHB1YmxpYyBzdGF0aWMgdm9pZCBpbml0VmlldygpIHsKICAgICAgICBPb2JlVXRpbHMucmVmcmVzaFNlY3VyZVNpeERpZ2l0KCk7CgogICAgICAgIG1Qcm9ncmVzc0Jhci5zZXRWaXNpYmlsaXR5KFZpZXcuVklTSUJMRSk7CiAgICAgICAgbU1hcmtkb3duVmlldy5zZXRWaXNpYmlsaXR5KFZpZXcuSU5WSVNJQkxFKTsKICAgICAgICB2ZXJpZmljYXRpb25Db2RlVGlwLnNldFZpc2liaWxpdHkoVmlldy5HT05FKTsKCiAgICAgICAgU3RyaW5nIHZlcmlmaWNhdGlvbkNvZGUgPSBPb2JlVXRpbHMuZ2V0U2VjdXJlU2l4RGlnaXQoKTsKCiAgICAgICAgbU1hcmtkb3duVmlldy5zZXRPbk1hcmtkb3duTG9hZExpc3RlbmVyKHN1Y2Nlc3MgLT4gewogICAgICAgICAgICBpZiAoc3VjY2VzcykgewogICAgICAgICAgICAgICAgbVByb2dyZXNzQmFyLnNldFZpc2liaWxpdHkoVmlldy5JTlZJU0lCTEUpOwogICAgICAgICAgICAgICAgbU1hcmtkb3duVmlldy5zZXRWaXNpYmlsaXR5KFZpZXcuVklTSUJMRSk7CiAgICAgICAgICAgICAgICB2ZXJpZmljYXRpb25Db2RlVGlwLnNldFRleHQoCiAgICAgICAgICAgICAgICAgICAgbUFjdGl2aXR5LmdldFN0cmluZygKICAgICAgICAgICAgICAgICAgICAgICAgUi5zdHJpbmcucHJvdmlzaW9uX3Rlcm1zX29mX3VzZV92ZXJpZmljYXRpb25fY29kZV90aXAsCiAgICAgICAgICAgICAgICAgICAgICAgIHZlcmlmaWNhdGlvbkNvZGUKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICApOwogICAgICAgICAgICAgICAgdmVyaWZpY2F0aW9uQ29kZVRpcC5zZXRWaXNpYmlsaXR5KFZpZXcuVklTSUJMRSk7CiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICB2ZXJpZmljYXRpb25Db2RlVGlwLnNldFZpc2liaWxpdHkoVmlldy5HT05FKTsKICAgICAgICAgICAgfQogICAgICAgIH0pOwogICAgfQoKCiAgICBwdWJsaWMgc3RhdGljIHZvaWQgbG9hZE1hcmtkb3duKFN0cmluZyB1cmkpIHsKICAgICAgICBpZiAobU1hcmtkb3duVmlldyAhPSBudWxsKSB7CiAgICAgICAgICAgIG1NYXJrZG93blZpZXcubG9hZE1hcmtkb3duRnJvbVVybCh1cmkpOwogICAgICAgIH0KICAgIH0KCiAgICBwdWJsaWMgdm9pZCBzaG93KCkgewogICAgICAgIGlmIChtQm90dG9tU2hlZXQgIT0gbnVsbCkgewogICAgICAgICAgICBtQm90dG9tU2hlZXQuc2hvdygpOwogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIHZvaWQgZGlzbWlzcygpIHsKICAgICAgICBpZiAobUJvdHRvbVNoZWV0ICE9IG51bGwpIHsKICAgICAgICAgICAgbUJvdHRvbVNoZWV0LmRpc21pc3MoKTsKICAgICAgICB9CiAgICB9Cn0K
+/*
+ * This file is part of HyperCeiler.
+
+ * HyperCeiler is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as
+ * published by the Free Software Foundation, either version 3 of the
+ * License.
+
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Affero General Public License for more details.
+
+ * You should have received a copy of the GNU Affero General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+ * Copyright (C) 2023-2026 HyperCeiler Contributions
+ */
+package org.linbaogu.romhub.hc.provision.widget;
+
+import android.annotation.SuppressLint;
+import android.view.View;
+import android.widget.FrameLayout;
+import android.widget.ProgressBar;
+import android.widget.TextView;
+
+import androidx.fragment.app.FragmentActivity;
+
+import org.linbaogu.romhub.R;
+
+import fan.provision.OobeUtils;
+
+import fan.bottomsheet.BottomSheetBehavior;
+import fan.bottomsheet.BottomSheetModal;
+
+public class TermsAndStatementBottomSheet {
+
+    static FragmentActivity mActivity;
+    BottomSheetModal mBottomSheet;
+
+    @SuppressLint("StaticFieldLeak")
+    static ProgressBar mProgressBar;
+    @SuppressLint("StaticFieldLeak")
+    static TextView verificationCodeTip;
+    static MarkdownView mMarkdownView;
+
+    public TermsAndStatementBottomSheet(FragmentActivity activity) {
+        mActivity = activity;
+        mBottomSheet = new BottomSheetModal(activity);
+        mBottomSheet.setDragHandleViewEnabled(true);
+        BottomSheetBehavior<FrameLayout> behavior = mBottomSheet.getBehavior();
+        behavior.setState(BottomSheetBehavior.STATE_EXPANDED);
+        behavior.setForceFullHeight(true);
+        behavior.setModeConfig(0);
+        behavior.setDraggable(true);
+        behavior.setSkipHalfExpanded(true);
+        behavior.setSkipCollapsed(true);
+        behavior.setFixedHeightRatioEnabled(false);
+
+        mBottomSheet.setContentView(R.layout.fragment_bottom_sheet_web);
+        View rootView = mBottomSheet.getRootView();
+        mProgressBar = rootView.findViewById(R.id.progress_bar);
+        mMarkdownView = rootView.findViewById(R.id.markdown);
+        verificationCodeTip = rootView.findViewById(R.id.verification_code_tip);
+        initView();
+    }
+
+    public static void initView() {
+        OobeUtils.refreshSecureSixDigit();
+
+        mProgressBar.setVisibility(View.VISIBLE);
+        mMarkdownView.setVisibility(View.INVISIBLE);
+        verificationCodeTip.setVisibility(View.GONE);
+
+        String verificationCode = OobeUtils.getSecureSixDigit();
+
+        mMarkdownView.setOnMarkdownLoadListener(success -> {
+            if (success) {
+                mProgressBar.setVisibility(View.INVISIBLE);
+                mMarkdownView.setVisibility(View.VISIBLE);
+                verificationCodeTip.setText(
+                    mActivity.getString(
+                        R.string.provision_terms_of_use_verification_code_tip,
+                        verificationCode
+                    )
+                );
+                verificationCodeTip.setVisibility(View.VISIBLE);
+            } else {
+                verificationCodeTip.setVisibility(View.GONE);
+            }
+        });
+    }
+
+
+    public static void loadMarkdown(String uri) {
+        if (mMarkdownView != null) {
+            mMarkdownView.loadMarkdownFromUrl(uri);
+        }
+    }
+
+    public void show() {
+        if (mBottomSheet != null) {
+            mBottomSheet.show();
+        }
+    }
+
+    private void dismiss() {
+        if (mBottomSheet != null) {
+            mBottomSheet.dismiss();
+        }
+    }
+}

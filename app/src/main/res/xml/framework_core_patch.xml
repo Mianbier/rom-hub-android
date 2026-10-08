@@ -1,1 +1,121 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IS0tCiAgfiBUaGlzIGZpbGUgaXMgcGFydCBvZiBIeXBlckNlaWxlci4KICB+CiAgfiBIeXBlckNlaWxlciBpcyBmcmVlIHNvZnR3YXJlOiB5b3UgY2FuIHJlZGlzdHJpYnV0ZSBpdCBhbmQvb3IgbW9kaWZ5CiAgfiBpdCB1bmRlciB0aGUgdGVybXMgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBhcwogIH4gcHVibGlzaGVkIGJ5IHRoZSBGcmVlIFNvZnR3YXJlIEZvdW5kYXRpb24sIGVpdGhlciB2ZXJzaW9uIDMgb2YgdGhlCiAgfiBMaWNlbnNlLgogIH4KICB+IFRoaXMgcHJvZ3JhbSBpcyBkaXN0cmlidXRlZCBpbiB0aGUgaG9wZSB0aGF0IGl0IHdpbGwgYmUgdXNlZnVsLAogIH4gYnV0IFdJVEhPVVQgQU5ZIFdBUlJBTlRZOyB3aXRob3V0IGV2ZW4gdGhlIGltcGxpZWQgd2FycmFudHkgb2YKICB+IE1FUkNIQU5UQUJJTElUWSBvciBGSVRORVNTIEZPUiBBIFBBUlRJQ1VMQVIgUFVSUE9TRS4gIFNlZSB0aGUKICB+IEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBmb3IgbW9yZSBkZXRhaWxzLgogIH4KICB+IFlvdSBzaG91bGQgaGF2ZSByZWNlaXZlZCBhIGNvcHkgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZQogIH4gYWxvbmcgd2l0aCB0aGlzIHByb2dyYW0uICBJZiBub3QsIHNlZSA8aHR0cHM6Ly93d3cuZ251Lm9yZy9saWNlbnNlcy8+LgogIH4KICB+IENvcHlyaWdodCAoQykgMjAyMy0yMDI2IEh5cGVyQ2VpbGVyIENvbnRyaWJ1dGlvbnMKICAtLT4KPFByZWZlcmVuY2VTY3JlZW4geG1sbnM6YW5kcm9pZD0iaHR0cDovL3NjaGVtYXMuYW5kcm9pZC5jb20vYXBrL3Jlcy9hbmRyb2lkIgogICAgeG1sbnM6YXBwPSJodHRwOi8vc2NoZW1hcy5hbmRyb2lkLmNvbS9hcGsvcmVzLWF1dG8iCiAgICBhcHA6bXlMb2NhdGlvbj0iQHN0cmluZy9zeXN0ZW1fZnJhbWV3b3JrX2NvcmVwYXRjaF90aXRsZSIKICAgIGFwcDpxdWlja19yZXN0YXJ0PSJzeXN0ZW0iPgogICAgPGNvbS5zZXZ0aW5nZS5oeXBlcmNlaWxlci5wcmVmcy5MYXlvdXRQcmVmZXJlbmNlCiAgICAgICAgYW5kcm9pZDplbmFibGVkPSJmYWxzZSIKICAgICAgICBhbmRyb2lkOmxheW91dD0iQGxheW91dC9oZWFkdGlwX3RpcCIKICAgICAgICBhbmRyb2lkOnRpdGxlPSJAc3RyaW5nL3N5c3RlbV9mcmFtZXdvcmtfY29yZXBhdGNoX3RpcCIgLz4KCiAgICA8UHJlZmVyZW5jZUNhdGVnb3J5IGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvc3lzdGVtX3VpX3N0YXR1c2Jhcl9pbmRpY2F0b3JfZGVmYXVsdF90aXRsZSI+CiAgICAgICAgPFN3aXRjaFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpkZWZhdWx0VmFsdWU9ImZhbHNlIgogICAgICAgICAgICBhbmRyb2lkOmtleT0icHJlZnNfa2V5X3N5c3RlbV9mcmFtZXdvcmtfY29yZV9wYXRjaF9lbmFibGUiCiAgICAgICAgICAgIGFuZHJvaWQ6c3VtbWFyeT0iQHN0cmluZy9kaXNhYmxlX2RldGFpbGVkX2xvZ19kZXNjIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJAc3RyaW5nL2VuYWJsZSIgLz4KCiAgICAgICAgPFN3aXRjaFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpkZWZhdWx0VmFsdWU9ImZhbHNlIgogICAgICAgICAgICBhbmRyb2lkOmtleT0icHJlZnNfa2V5X3N5c3RlbV9mcmFtZXdvcmtfY29yZV9wYXRjaF9kb3duZ3IiCiAgICAgICAgICAgIGFuZHJvaWQ6c3VtbWFyeT0iQHN0cmluZy9zeXN0ZW1fZnJhbWV3b3JrX2NvcmVfcGF0Y2hfZG93bmdyX2Rlc2MiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvc3lzdGVtX2ZyYW1ld29ya19jb3JlX3BhdGNoX2Rvd25nciIgLz4KCiAgICAgICAgPFN3aXRjaFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpkZWZhdWx0VmFsdWU9ImZhbHNlIgogICAgICAgICAgICBhbmRyb2lkOmtleT0icHJlZnNfa2V5X3N5c3RlbV9mcmFtZXdvcmtfY29yZV9wYXRjaF9hdXRoX2NyZWFrIgogICAgICAgICAgICBhbmRyb2lkOnN1bW1hcnk9IkBzdHJpbmcvc3lzdGVtX2ZyYW1ld29ya19jb3JlX3BhdGNoX2F1dGhfY3JlYWtfZGVzYyIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iQHN0cmluZy9zeXN0ZW1fZnJhbWV3b3JrX2NvcmVfcGF0Y2hfYXV0aF9jcmVhayIgLz4KCiAgICAgICAgPFN3aXRjaFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpkZWZhdWx0VmFsdWU9ImZhbHNlIgogICAgICAgICAgICBhbmRyb2lkOmtleT0icHJlZnNfa2V5X3N5c3RlbV9mcmFtZXdvcmtfY29yZV9wYXRjaF9kaXNhYmxlX2ludGVncml0eSIKICAgICAgICAgICAgYW5kcm9pZDpzdW1tYXJ5PSJAc3RyaW5nL3N5c3RlbV9mcmFtZXdvcmtfZGlzYWJsZV9pbnRlZ3JpdHlfZGVzYyIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iQHN0cmluZy9zeXN0ZW1fZnJhbWV3b3JrX2Rpc2FibGVfaW50ZWdyaXR5IiAvPgoKICAgICAgICA8U3dpdGNoUHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOmRlZmF1bHRWYWx1ZT0iZmFsc2UiCiAgICAgICAgICAgIGFuZHJvaWQ6a2V5PSJwcmVmc19rZXlfc3lzdGVtX2ZyYW1ld29ya19jb3JlX3BhdGNoX3NoYXJlZF91c2VyIgogICAgICAgICAgICBhbmRyb2lkOnN1bW1hcnk9IkBzdHJpbmcvc3lzdGVtX2ZyYW1ld29ya19jb3JlX3BhdGNoX3NoYXJlZF91c2VyX2Rlc2MiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvc3lzdGVtX2ZyYW1ld29ya19jb3JlX3BhdGNoX3NoYXJlZF91c2VyIgogICAgICAgICAgICBhbmRyb2lkOmRlcGVuZGVuY3k9InByZWZzX2tleV9zeXN0ZW1fZnJhbWV3b3JrX2NvcmVfcGF0Y2hfYXV0aF9jcmVhayIvPgoKICAgICAgICA8U3dpdGNoUHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOmRlZmF1bHRWYWx1ZT0iZmFsc2UiCiAgICAgICAgICAgIGFuZHJvaWQ6a2V5PSJwcmVmc19rZXlfc3lzdGVtX2ZyYW1ld29ya19jb3JlX3BhdGNoX2RpZ2VzdF9jcmVhayIKICAgICAgICAgICAgYW5kcm9pZDpzdW1tYXJ5PSJAc3RyaW5nL3N5c3RlbV9mcmFtZXdvcmtfY29yZV9wYXRjaF9kaWdlc3RfY3JlYWtfZGVzYyIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iQHN0cmluZy9zeXN0ZW1fZnJhbWV3b3JrX2NvcmVfcGF0Y2hfZGlnZXN0X2NyZWFrIiAvPgoKICAgICAgICA8U3dpdGNoUHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOmRlZmF1bHRWYWx1ZT0iZmFsc2UiCiAgICAgICAgICAgIGFuZHJvaWQ6a2V5PSJwcmVmc19rZXlfc3lzdGVtX2ZyYW1ld29ya19jb3JlX3BhdGNoX2V4YWN0X3NpZ25hdHVyZV9jaGVjayIKICAgICAgICAgICAgYW5kcm9pZDpzdW1tYXJ5PSJAc3RyaW5nL3N5c3RlbV9mcmFtZXdvcmtfY29yZV9wYXRjaF9leGFjdF9zaWduYXR1cmVfY2hlY2tfZGVzYyIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iQHN0cmluZy9zeXN0ZW1fZnJhbWV3b3JrX2NvcmVfcGF0Y2hfZXhhY3Rfc2lnbmF0dXJlX2NoZWNrIiAvPgoKICAgICAgICA8U3dpdGNoUHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOmRlZmF1bHRWYWx1ZT0iZmFsc2UiCiAgICAgICAgICAgIGFuZHJvaWQ6a2V5PSJwcmVmc19rZXlfc3lzdGVtX2ZyYW1ld29ya19jb3JlX3BhdGNoX3VzZV9wcmVfc2lnbmF0dXJlIgogICAgICAgICAgICBhbmRyb2lkOnN1bW1hcnk9IkBzdHJpbmcvc3lzdGVtX2ZyYW1ld29ya19jb3JlX3BhdGNoX3VzZV9wcmVfc2lnbmF0dXJlX2Rlc2MiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvc3lzdGVtX2ZyYW1ld29ya19jb3JlX3BhdGNoX3VzZV9wcmVfc2lnbmF0dXJlIiAvPgoKICAgIDwvUHJlZmVyZW5jZUNhdGVnb3J5PgoKICAgIDxQcmVmZXJlbmNlQ2F0ZWdvcnkgYW5kcm9pZDp0aXRsZT0iQHN0cmluZy9zeXN0ZW1fdWlfc3RhdHVzYmFyX2luZGljYXRvcl9leHBhbmRfdGl0bGUiPgogICAgICAgIDxTd2l0Y2hQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6ZGVmYXVsdFZhbHVlPSJmYWxzZSIKICAgICAgICAgICAgYW5kcm9pZDprZXk9InByZWZzX2tleV9zeXN0ZW1fZnJhbWV3b3JrX2Rpc2FibGVfbG93X2FwaV9jaGVjayIKICAgICAgICAgICAgYW5kcm9pZDpzdW1tYXJ5PSJAc3RyaW5nL3N5c3RlbV9mcmFtZXdvcmtfZGlzYWJsZV9sb3dfYXBpX2NoZWNrX2Rlc2MiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvc3lzdGVtX2ZyYW1ld29ya19kaXNhYmxlX2xvd19hcGlfY2hlY2siIC8+CgogICAgICAgIDxTd2l0Y2hQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6ZGVmYXVsdFZhbHVlPSJmYWxzZSIKICAgICAgICAgICAgYW5kcm9pZDprZXk9InByZWZzX2tleV9zeXN0ZW1fZnJhbWV3b3JrX2Rpc2FibGVfcGVyc2lzdGVudCIKICAgICAgICAgICAgYW5kcm9pZDpzdW1tYXJ5PSJAc3RyaW5nL3N5c3RlbV9mcmFtZXdvcmtfZGlzYWJsZV9wZXJzaXN0ZW50X21vcmUiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvc3lzdGVtX2ZyYW1ld29ya19kaXNhYmxlX3BlcnNpc3RlbnQiIC8+CgogICAgICAgIDxTd2l0Y2hQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6ZGVmYXVsdFZhbHVlPSJmYWxzZSIKICAgICAgICAgICAgYW5kcm9pZDprZXk9InByZWZzX2tleV9zeXN0ZW1fZnJhbWV3b3JrX2Rpc2FibGVfdmVyaWZpY2F0aW9uX2FnZW50IgogICAgICAgICAgICBhbmRyb2lkOnN1bW1hcnk9IkBzdHJpbmcvc3lzdGVtX2ZyYW1ld29ya19kaXNhYmxlX3ZlcmlmaWNhdGlvbl9hZ2VudF9kZXNjIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJAc3RyaW5nL3N5c3RlbV9mcmFtZXdvcmtfZGlzYWJsZV92ZXJpZmljYXRpb25fYWdlbnQiIC8+CgogICAgICAgIDxTd2l0Y2hQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6ZGVmYXVsdFZhbHVlPSJmYWxzZSIKICAgICAgICAgICAgYW5kcm9pZDprZXk9InByZWZzX2tleV9zeXN0ZW1fZnJhbWV3b3JrX2NvcmVfcGF0Y2hfYnlwYXNzX2lzb2xhdGlvbl92aW9sYXRpb24iCiAgICAgICAgICAgIGFuZHJvaWQ6c3VtbWFyeT0iQHN0cmluZy9zeXN0ZW1fZnJhbWV3b3JrX2NvcmVfcGF0Y2hfYnlwYXNzX2lzb2xhdGlvbl92aW9sYXRpb25fZGVzYyIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iQHN0cmluZy9zeXN0ZW1fZnJhbWV3b3JrX2NvcmVfcGF0Y2hfYnlwYXNzX2lzb2xhdGlvbl92aW9sYXRpb24iIC8+CgogICAgICAgIDxTd2l0Y2hQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6ZGVmYXVsdFZhbHVlPSJmYWxzZSIKICAgICAgICAgICAgYW5kcm9pZDprZXk9InByZWZzX2tleV9zeXN0ZW1fZnJhbWV3b3JrX2NvcmVfcGF0Y2hfYWxsb3dfdXBkYXRlX3N5c3RlbV9hcHAiCiAgICAgICAgICAgIGFuZHJvaWQ6c3VtbWFyeT0iQHN0cmluZy9zeXN0ZW1fZnJhbWV3b3JrX2NvcmVfcGF0Y2hfYWxsb3dfdXBkYXRlX3N5c3RlbV9hcHBfZGVzYyIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iQHN0cmluZy9zeXN0ZW1fZnJhbWV3b3JrX2NvcmVfcGF0Y2hfYWxsb3dfdXBkYXRlX3N5c3RlbV9hcHAiIC8+CgogICAgPC9QcmVmZXJlbmNlQ2F0ZWdvcnk+CgogICAgPFByZWZlcmVuY2VDYXRlZ29yeT4KICAgICAgICA8U3dpdGNoUHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOmRlZmF1bHRWYWx1ZT0iZmFsc2UiCiAgICAgICAgICAgIGFuZHJvaWQ6a2V5PSJwcmVmc19rZXlfc3lzdGVtX2ZyYW1ld29ya19jb3JlX3BhdGNoX3VubG9zc19maW5nZXJwcmludCIKICAgICAgICAgICAgYW5kcm9pZDpzdW1tYXJ5PSJAc3RyaW5nL3N5c3RlbV9mcmFtZXdvcmtfY29yZV9wYXRjaF91bmxvc3NfZmluZ2VycHJpbnRfZGVzYyIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iQHN0cmluZy9zeXN0ZW1fZnJhbWV3b3JrX2NvcmVfcGF0Y2hfdW5sb3NzX2ZpbmdlcnByaW50IiAvPgogICAgPC9QcmVmZXJlbmNlQ2F0ZWdvcnk+Cgo8L1ByZWZlcmVuY2VTY3JlZW4+
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ This file is part of HyperCeiler.
+  ~
+  ~ HyperCeiler is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU Affero General Public License as
+  ~ published by the Free Software Foundation, either version 3 of the
+  ~ License.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU Affero General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU Affero General Public License
+  ~ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+  ~
+  ~ Copyright (C) 2023-2026 HyperCeiler Contributions
+  -->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:myLocation="@string/system_framework_corepatch_title"
+    app:quick_restart="system">
+    <com.sevtinge.hyperceiler.prefs.LayoutPreference
+        android:enabled="false"
+        android:layout="@layout/headtip_tip"
+        android:title="@string/system_framework_corepatch_tip" />
+
+    <PreferenceCategory android:title="@string/system_ui_statusbar_indicator_default_title">
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefs_key_system_framework_core_patch_enable"
+            android:summary="@string/disable_detailed_log_desc"
+            android:title="@string/enable" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefs_key_system_framework_core_patch_downgr"
+            android:summary="@string/system_framework_core_patch_downgr_desc"
+            android:title="@string/system_framework_core_patch_downgr" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefs_key_system_framework_core_patch_auth_creak"
+            android:summary="@string/system_framework_core_patch_auth_creak_desc"
+            android:title="@string/system_framework_core_patch_auth_creak" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefs_key_system_framework_core_patch_disable_integrity"
+            android:summary="@string/system_framework_disable_integrity_desc"
+            android:title="@string/system_framework_disable_integrity" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefs_key_system_framework_core_patch_shared_user"
+            android:summary="@string/system_framework_core_patch_shared_user_desc"
+            android:title="@string/system_framework_core_patch_shared_user"
+            android:dependency="prefs_key_system_framework_core_patch_auth_creak"/>
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefs_key_system_framework_core_patch_digest_creak"
+            android:summary="@string/system_framework_core_patch_digest_creak_desc"
+            android:title="@string/system_framework_core_patch_digest_creak" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefs_key_system_framework_core_patch_exact_signature_check"
+            android:summary="@string/system_framework_core_patch_exact_signature_check_desc"
+            android:title="@string/system_framework_core_patch_exact_signature_check" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefs_key_system_framework_core_patch_use_pre_signature"
+            android:summary="@string/system_framework_core_patch_use_pre_signature_desc"
+            android:title="@string/system_framework_core_patch_use_pre_signature" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/system_ui_statusbar_indicator_expand_title">
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefs_key_system_framework_disable_low_api_check"
+            android:summary="@string/system_framework_disable_low_api_check_desc"
+            android:title="@string/system_framework_disable_low_api_check" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefs_key_system_framework_disable_persistent"
+            android:summary="@string/system_framework_disable_persistent_more"
+            android:title="@string/system_framework_disable_persistent" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefs_key_system_framework_disable_verification_agent"
+            android:summary="@string/system_framework_disable_verification_agent_desc"
+            android:title="@string/system_framework_disable_verification_agent" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefs_key_system_framework_core_patch_bypass_isolation_violation"
+            android:summary="@string/system_framework_core_patch_bypass_isolation_violation_desc"
+            android:title="@string/system_framework_core_patch_bypass_isolation_violation" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefs_key_system_framework_core_patch_allow_update_system_app"
+            android:summary="@string/system_framework_core_patch_allow_update_system_app_desc"
+            android:title="@string/system_framework_core_patch_allow_update_system_app" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory>
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefs_key_system_framework_core_patch_unloss_fingerprint"
+            android:summary="@string/system_framework_core_patch_unloss_fingerprint_desc"
+            android:title="@string/system_framework_core_patch_unloss_fingerprint" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

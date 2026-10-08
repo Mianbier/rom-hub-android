@@ -1,1 +1,166 @@
-LyoKICogVGhpcyBmaWxlIGlzIHBhcnQgb2YgUk9NIEh1YiwgcmVsZWFzZWQgdW5kZXIgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSB2My4wLgogKgogKiDmnKzmlofku7bnp7vmpI0gLyDmlLnlhpnoh6ogSHlwZXJDZWlsZXLvvIhBR1BMLTMuMO+8jENvcHlyaWdodCAoQykgMjAyMy0yMDI2IEh5cGVyQ2VpbGVyCiAqIENvbnRyaWJ1dGlvbnPvvInvvIzmiJbkuLrlhbbnrYnku7fmm7/ouqvlrp7njrAg4oCU4oCUIOWujOaVtOadpea6kOS4jum4o+iwouingemhueebruagueebruW9lSBOT1RJQ0UubWTjgIIKICoKICogVGhpcyBwcm9ncmFtIGlzIGZyZWUgc29mdHdhcmU6IHlvdSBjYW4gcmVkaXN0cmlidXRlIGl0IGFuZC9vciBtb2RpZnkgaXQgdW5kZXIgdGhlIHRlcm1zCiAqIG9mIHRoZSBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UgYXMgcHVibGlzaGVkIGJ5IHRoZSBGcmVlIFNvZnR3YXJlIEZvdW5kYXRpb24sCiAqIGVpdGhlciB2ZXJzaW9uIDMgb2YgdGhlIExpY2Vuc2UuCiAqCiAqIFRoaXMgcHJvZ3JhbSBpcyBkaXN0cmlidXRlZCBpbiB0aGUgaG9wZSB0aGF0IGl0IHdpbGwgYmUgdXNlZnVsLCBidXQgV0lUSE9VVCBBTlkgV0FSUkFOVFk7CiAqIHdpdGhvdXQgZXZlbiB0aGUgaW1wbGllZCB3YXJyYW50eSBvZiBNRVJDSEFOVEFCSUxJVFkgb3IgRklUTkVTUyBGT1IgQSBQQVJUSUNVTEFSIFBVUlBPU0UuCiAqIFNlZSB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGZvciBtb3JlIGRldGFpbHMuCiAqCiAqIFlvdSBzaG91bGQgaGF2ZSByZWNlaXZlZCBhIGNvcHkgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBhbG9uZyB3aXRoIHRoaXMKICogcHJvZ3JhbS4gIElmIG5vdCwgc2VlIDxodHRwczovL3d3dy5nbnUub3JnL2xpY2Vuc2VzLz4uCiAqLwoKcGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLmhjLmFib3V0LmNvbnRyb2xsZXI7CgppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQ7CmltcG9ydCBhbmRyb2lkLnZpZXcuVmlldzsKCmltcG9ydCBvcmcubGluYmFvZ3Uucm9taHViLlI7CmltcG9ydCBvcmcubGluYmFvZ3Uucm9taHViLmhjLnV0aWwuU2V0dGluZ3NGZWF0dXJlczsKCmltcG9ydCBmYW4uY2FyZHZpZXcuSHlwZXJDYXJkVmlldzsKaW1wb3J0IGZhbi5jb3JlLnV0aWxzLkRpc3BsYXlVdGlsczsKCnB1YmxpYyBjbGFzcyBBYm91dEFuaW1hdGlvbkNvbnRyb2xsZXIgewogICAgcHJpdmF0ZSBpbnQgc3RhcnRZID0gMDsKICAgIHByaXZhdGUgaW50IGxvZ29QYWRkaW5nID0gMDsKICAgIHByaXZhdGUgaW50IGJ0blBhZGRpbmcgPSAwOwogICAgcHJpdmF0ZSBpbnQgYWN0aW9uQmFyUGFkZGluZyA9IDA7CiAgICBwcml2YXRlIGludCBsb2dvSGVpZ2h0ID0gMDsKICAgIHByaXZhdGUgYm9vbGVhbiBpc05lZWRVcGRhdGUgPSBmYWxzZTsKICAgIHByaXZhdGUgQ29udGV4dCBjb250ZXh0ID0gbnVsbDsKCiAgICBwdWJsaWMgc3RhdGljIGZsb2F0IGdldFVwZGF0ZUJ1dHRvbk1heEFscGhhKCkgewogICAgICAgIHJldHVybiAwLjk5ZjsKICAgIH0KCiAgICBwdWJsaWMgQWJvdXRBbmltYXRpb25Db250cm9sbGVyKENvbnRleHQgY29udGV4dCwgYm9vbGVhbiB6KSB7CiAgICAgICAgaW5pRGF0YShjb250ZXh0LCB6KTsKICAgIH0KCiAgICBwdWJsaWMgdm9pZCBpbmlEYXRhKENvbnRleHQgY29udGV4dCwgYm9vbGVhbiB6KSB7CiAgICAgICAgdGhpcy5jb250ZXh0ID0gY29udGV4dDsKICAgICAgICB0aGlzLmFjdGlvbkJhclBhZGRpbmcgPSBjb250ZXh0LmdldFJlc291cmNlcygpLmdldERpbWVuc2lvblBpeGVsU2l6ZShSLmRpbWVuLmFwcF9sb2dvX2FyZWFfaGVpZ2h0KTsKICAgICAgICB0aGlzLmJ0blBhZGRpbmcgPSBjb250ZXh0LmdldFJlc291cmNlcygpLmdldERpbWVuc2lvblBpeGVsU2l6ZShSLmRpbWVuLmFwcF91cGRhdGVfYnRuX21hcmdpbl9ib3R0b20pOwogICAgICAgIHRoaXMuc3RhcnRZID0gY29udGV4dC5nZXRSZXNvdXJjZXMoKS5nZXREaW1lbnNpb25QaXhlbFNpemUoUi5kaW1lbi5zY3JlZW5fZWZmZWN0X2FjdGlvbmJhcl9oZWlnaHQpOwogICAgICAgIHRoaXMubG9nb0hlaWdodCA9IGNvbnRleHQuZ2V0UmVzb3VyY2VzKCkuZ2V0RGltZW5zaW9uUGl4ZWxTaXplKFIuZGltZW4uYXBwX2xvZ29faGVpZ2h0KTsKICAgICAgICB0aGlzLmlzTmVlZFVwZGF0ZSA9IHo7CiAgICAgICAgaWYgKHopIHsKICAgICAgICAgICAgbG9nb1BhZGRpbmcgPSBjb250ZXh0LmdldFJlc291cmNlcygpLmdldERpbWVuc2lvblBpeGVsU2l6ZShSLmRpbWVuLmFwcF9sb2dvX2JvdHRvbSkgLSBidG5QYWRkaW5nOwogICAgICAgIH0gZWxzZSBpZiAoU2V0dGluZ3NGZWF0dXJlcy5pc1NwbGl0VGFibGV0RGV2aWNlKCkpIHsKICAgICAgICAgICAgbG9nb1BhZGRpbmcgPSAoY29udGV4dC5nZXRSZXNvdXJjZXMoKS5nZXREaW1lbnNpb25QaXhlbFNpemUoUi5kaW1lbi5hcHBfbG9nb19ib3R0b20pIC0gYnRuUGFkZGluZykgLSBEaXNwbGF5VXRpbHMuZGlwMnB4KGNvbnRleHQsIDI3LjBmKTsKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICBsb2dvUGFkZGluZyA9IChjb250ZXh0LmdldFJlc291cmNlcygpLmdldERpbWVuc2lvblBpeGVsU2l6ZShSLmRpbWVuLmFwcF9sb2dvX2JvdHRvbSkgLSBidG5QYWRkaW5nKSAtIERpc3BsYXlVdGlscy5kaXAycHgoY29udGV4dCwgMzAuMGYpOwogICAgICAgIH0KICAgIH0KCiAgICBwdWJsaWMgdm9pZCBzZXRBY3Rpb25CYXJBbHBoYShWaWV3IHZpZXcpIHsKICAgICAgICB2aWV3LnNldEFscGhhKDAuMGYpOwogICAgfQoKICAgIHB1YmxpYyB2b2lkIHN0YXJ0QW5pbWF0aW9uKGludCBpLCBWaWV3IHZpZXcsIEh5cGVyQ2FyZFZpZXcgaHlwZXJDYXJkVmlldywgVmlldyB2aWV3MiwgVmlldyB2aWV3MywgVmlldyB2aWV3NCkgewogICAgICAgIGZsb2F0IG1pbiA9IE1hdGgubWluKDEuMGYsIE1hdGgubWF4KDAuMGYsIChNYXRoLmFicyhpKSAqIDEuMGYpIC8gdGhpcy5hY3Rpb25CYXJQYWRkaW5nKSk7CiAgICAgICAgZmxvYXQgZiA9IDEuMGYgLSAobWluICogMC4xZik7CiAgICAgICAgaWYgKGkgPT0gMCkgewogICAgICAgICAgICB2aWV3LnNldEFscGhhKDEuMGYpOwogICAgICAgICAgICB2aWV3LnNldFNjYWxlWCgxLjBmKTsKICAgICAgICAgICAgdmlldy5zZXRTY2FsZVkoMS4wZik7CiAgICAgICAgICAgIHZpZXcyLnNldEFscGhhKDEuMGYpOwogICAgICAgICAgICB2aWV3Mi5zZXRTY2FsZVgoMS4wZik7CiAgICAgICAgICAgIHZpZXcyLnNldFNjYWxlWSgxLjBmKTsKICAgICAgICAgICAgdmlldzQuc2V0QWxwaGEoMS4wZik7CiAgICAgICAgICAgIGlmICh0aGlzLmlzTmVlZFVwZGF0ZSkgewogICAgICAgICAgICAgICAgaHlwZXJDYXJkVmlldy5zZXRBbHBoYShnZXRVcGRhdGVCdXR0b25NYXhBbHBoYSgpKTsKICAgICAgICAgICAgICAgIGh5cGVyQ2FyZFZpZXcuc2V0U2NhbGVYKDEuMGYpOwogICAgICAgICAgICAgICAgaHlwZXJDYXJkVmlldy5zZXRTY2FsZVkoMS4wZik7CiAgICAgICAgICAgICAgICBoeXBlckNhcmRWaWV3LnNldENsaWNrYWJsZSh0cnVlKTsKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIGh5cGVyQ2FyZFZpZXcuc2V0Q2xpY2thYmxlKGZhbHNlKTsKICAgICAgICAgICAgfQogICAgICAgICAgICB2aWV3My5zZXRBbHBoYSgwLjBmKTsKICAgICAgICAgICAgcmV0dXJuOwogICAgICAgIH0KICAgICAgICBpZiAoaSA+PSB0aGlzLmxvZ29QYWRkaW5nKSB7CiAgICAgICAgICAgIGZsb2F0IG1pbjIgPSBNYXRoLm1pbigxLjBmLCBNYXRoLm1heCgwLjBmLCAoTWF0aC5hYnMoaSAtIGxvZ29QYWRkaW5nKSAqIDEuMGYpIC8gdGhpcy5sb2dvSGVpZ2h0KSk7CiAgICAgICAgICAgIGZsb2F0IGYyID0gMS4wZiAtICgwLjFmICogbWluMik7CiAgICAgICAgICAgIHZpZXcuc2V0QWxwaGEoMS4wZiAtIG1pbjIpOwogICAgICAgICAgICB2aWV3LnNldFNjYWxlWChmMik7CiAgICAgICAgICAgIHZpZXcuc2V0U2NhbGVZKGYyKTsKICAgICAgICAgICAgdmlldy5zZXRQaXZvdFgodmlldy5nZXRNZWFzdXJlZFdpZHRoKCkgLyAyKTsKICAgICAgICAgICAgdmlldy5zZXRQaXZvdFkodmlldy5nZXRNZWFzdXJlZEhlaWdodCgpIC8gMik7CiAgICAgICAgICAgIGlmIChtaW4yID09IDEuMGYpIHsKICAgICAgICAgICAgICAgIHZpZXczLnNldEFscGhhKG1pbjIpOwogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgdmlldzMuc2V0QWxwaGEoMC4wZik7CiAgICAgICAgICAgIH0KICAgICAgICB9IGVsc2UgewogICAgICAgICAgICB2aWV3LnNldEFscGhhKDEuMGYpOwogICAgICAgICAgICB2aWV3LnNldFNjYWxlWCgxLjBmKTsKICAgICAgICAgICAgdmlldy5zZXRTY2FsZVkoMS4wZik7CiAgICAgICAgICAgIHZpZXczLnNldEFscGhhKDAuMGYpOwogICAgICAgIH0KICAgICAgICB2aWV3Mi5zZXRBbHBoYSgxLjBmIC0gKCgodGhpcy5hY3Rpb25CYXJQYWRkaW5nICogMS4wZikgLyB0aGlzLmxvZ29QYWRkaW5nKSAqIG1pbikpOwogICAgICAgIHZpZXcyLnNldFNjYWxlWChmKTsKICAgICAgICB2aWV3Mi5zZXRTY2FsZVkoZik7CiAgICAgICAgdmlldzIuc2V0UGl2b3RYKHZpZXcyLmdldE1lYXN1cmVkV2lkdGgoKSAvIDIpOwogICAgICAgIHZpZXcyLnNldFBpdm90WSh2aWV3Mi5nZXRNZWFzdXJlZEhlaWdodCgpIC8gMik7CiAgICAgICAgdmlldzQuc2V0QWxwaGEoMS4wZiAtIG1pbik7CiAgICAgICAgaWYgKHRoaXMuaXNOZWVkVXBkYXRlKSB7CiAgICAgICAgICAgIGZsb2F0IGYzID0gMS4wZiAtIChtaW4gKiAoKHRoaXMuYWN0aW9uQmFyUGFkZGluZyAqIDEuMGYpIC8gdGhpcy5idG5QYWRkaW5nKSk7CiAgICAgICAgICAgIGlmIChmMyA+IDAuOTlmKSB7CiAgICAgICAgICAgICAgICBmMyA9IGdldFVwZGF0ZUJ1dHRvbk1heEFscGhhKCk7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgaHlwZXJDYXJkVmlldy5zZXRBbHBoYShmMyk7CiAgICAgICAgICAgIGh5cGVyQ2FyZFZpZXcuc2V0U2NhbGVYKGYpOwogICAgICAgICAgICBoeXBlckNhcmRWaWV3LnNldFNjYWxlWShmKTsKICAgICAgICAgICAgaWYgKGh5cGVyQ2FyZFZpZXcuZ2V0QWxwaGEoKSA+IDAuMGYpIHsKICAgICAgICAgICAgICAgIGh5cGVyQ2FyZFZpZXcuc2V0Q2xpY2thYmxlKHRydWUpOwogICAgICAgICAgICAgICAgcmV0dXJuOwogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgaHlwZXJDYXJkVmlldy5zZXRDbGlja2FibGUoZmFsc2UpOwogICAgICAgICAgICAgICAgcmV0dXJuOwogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIGh5cGVyQ2FyZFZpZXcuc2V0Q2xpY2thYmxlKGZhbHNlKTsKICAgIH0KCiAgICBwdWJsaWMgdm9pZCBzdGFydEJ1dHRvbkFuaW1hdGlvbihpbnQgaSwgSHlwZXJDYXJkVmlldyBoeXBlckNhcmRWaWV3KSB7CiAgICAgICAgZmxvYXQgbWluID0gTWF0aC5taW4oMS4wZiwgTWF0aC5tYXgoMC4wZiwgKE1hdGguYWJzKGkpICogMS4wZikgLyB0aGlzLmFjdGlvbkJhclBhZGRpbmcpKTsKICAgICAgICBmbG9hdCBmID0gMS4wZiAtICgwLjFmICogbWluKTsKICAgICAgICBpZiAoaSA9PSAwKSB7CiAgICAgICAgICAgIGlmICh0aGlzLmlzTmVlZFVwZGF0ZSkgewogICAgICAgICAgICAgICAgaHlwZXJDYXJkVmlldy5zZXRBbHBoYShnZXRVcGRhdGVCdXR0b25NYXhBbHBoYSgpKTsKICAgICAgICAgICAgICAgIGh5cGVyQ2FyZFZpZXcuc2V0U2NhbGVYKDEuMGYpOwogICAgICAgICAgICAgICAgaHlwZXJDYXJkVmlldy5zZXRTY2FsZVkoMS4wZik7CiAgICAgICAgICAgICAgICBoeXBlckNhcmRWaWV3LnNldENsaWNrYWJsZSh0cnVlKTsKICAgICAgICAgICAgICAgIHJldHVybjsKICAgICAgICAgICAgfQogICAgICAgICAgICBoeXBlckNhcmRWaWV3LnNldENsaWNrYWJsZShmYWxzZSk7CiAgICAgICAgICAgIHJldHVybjsKICAgICAgICB9CiAgICAgICAgaWYgKHRoaXMuaXNOZWVkVXBkYXRlKSB7CiAgICAgICAgICAgIGZsb2F0IGYyID0gMS4wZiAtIChtaW4gKiAoKHRoaXMuYWN0aW9uQmFyUGFkZGluZyAqIDEuMGYpIC8gdGhpcy5idG5QYWRkaW5nKSk7CiAgICAgICAgICAgIGlmIChmMiA+IDAuOTlmKSB7CiAgICAgICAgICAgICAgICBmMiA9IGdldFVwZGF0ZUJ1dHRvbk1heEFscGhhKCk7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgaHlwZXJDYXJkVmlldy5zZXRBbHBoYShmMik7CiAgICAgICAgICAgIGh5cGVyQ2FyZFZpZXcuc2V0U2NhbGVYKGYpOwogICAgICAgICAgICBoeXBlckNhcmRWaWV3LnNldFNjYWxlWShmKTsKICAgICAgICAgICAgaWYgKGh5cGVyQ2FyZFZpZXcuZ2V0QWxwaGEoKSA+IDAuMGYpIHsKICAgICAgICAgICAgICAgIGh5cGVyQ2FyZFZpZXcuc2V0Q2xpY2thYmxlKHRydWUpOwogICAgICAgICAgICAgICAgcmV0dXJuOwogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgaHlwZXJDYXJkVmlldy5zZXRDbGlja2FibGUoZmFsc2UpOwogICAgICAgICAgICAgICAgcmV0dXJuOwogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIGh5cGVyQ2FyZFZpZXcuc2V0Q2xpY2thYmxlKGZhbHNlKTsKICAgIH0KfQoK
+/*
+ * This file is part of ROM Hub, released under the GNU Affero General Public License v3.0.
+ *
+ * 本文件移植 / 改写自 HyperCeiler（AGPL-3.0，Copyright (C) 2023-2026 HyperCeiler
+ * Contributions），或为其等价替身实现 —— 完整来源与鸣谢见项目根目录 NOTICE.md。
+ *
+ * This program is free software: you can redistribute it and/or modify it under the terms
+ * of the GNU Affero General Public License as published by the Free Software Foundation,
+ * either version 3 of the License.
+ *
+ * This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+ * without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * See the GNU Affero General Public License for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License along with this
+ * program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
+package org.linbaogu.romhub.hc.about.controller;
+
+import android.content.Context;
+import android.view.View;
+
+import org.linbaogu.romhub.R;
+import org.linbaogu.romhub.hc.util.SettingsFeatures;
+
+import fan.cardview.HyperCardView;
+import fan.core.utils.DisplayUtils;
+
+public class AboutAnimationController {
+    private int startY = 0;
+    private int logoPadding = 0;
+    private int btnPadding = 0;
+    private int actionBarPadding = 0;
+    private int logoHeight = 0;
+    private boolean isNeedUpdate = false;
+    private Context context = null;
+
+    public static float getUpdateButtonMaxAlpha() {
+        return 0.99f;
+    }
+
+    public AboutAnimationController(Context context, boolean z) {
+        iniData(context, z);
+    }
+
+    public void iniData(Context context, boolean z) {
+        this.context = context;
+        this.actionBarPadding = context.getResources().getDimensionPixelSize(R.dimen.app_logo_area_height);
+        this.btnPadding = context.getResources().getDimensionPixelSize(R.dimen.app_update_btn_margin_bottom);
+        this.startY = context.getResources().getDimensionPixelSize(R.dimen.screen_effect_actionbar_height);
+        this.logoHeight = context.getResources().getDimensionPixelSize(R.dimen.app_logo_height);
+        this.isNeedUpdate = z;
+        if (z) {
+            logoPadding = context.getResources().getDimensionPixelSize(R.dimen.app_logo_bottom) - btnPadding;
+        } else if (SettingsFeatures.isSplitTabletDevice()) {
+            logoPadding = (context.getResources().getDimensionPixelSize(R.dimen.app_logo_bottom) - btnPadding) - DisplayUtils.dip2px(context, 27.0f);
+        } else {
+            logoPadding = (context.getResources().getDimensionPixelSize(R.dimen.app_logo_bottom) - btnPadding) - DisplayUtils.dip2px(context, 30.0f);
+        }
+    }
+
+    public void setActionBarAlpha(View view) {
+        view.setAlpha(0.0f);
+    }
+
+    public void startAnimation(int i, View view, HyperCardView hyperCardView, View view2, View view3, View view4) {
+        float min = Math.min(1.0f, Math.max(0.0f, (Math.abs(i) * 1.0f) / this.actionBarPadding));
+        float f = 1.0f - (min * 0.1f);
+        if (i == 0) {
+            view.setAlpha(1.0f);
+            view.setScaleX(1.0f);
+            view.setScaleY(1.0f);
+            view2.setAlpha(1.0f);
+            view2.setScaleX(1.0f);
+            view2.setScaleY(1.0f);
+            view4.setAlpha(1.0f);
+            if (this.isNeedUpdate) {
+                hyperCardView.setAlpha(getUpdateButtonMaxAlpha());
+                hyperCardView.setScaleX(1.0f);
+                hyperCardView.setScaleY(1.0f);
+                hyperCardView.setClickable(true);
+            } else {
+                hyperCardView.setClickable(false);
+            }
+            view3.setAlpha(0.0f);
+            return;
+        }
+        if (i >= this.logoPadding) {
+            float min2 = Math.min(1.0f, Math.max(0.0f, (Math.abs(i - logoPadding) * 1.0f) / this.logoHeight));
+            float f2 = 1.0f - (0.1f * min2);
+            view.setAlpha(1.0f - min2);
+            view.setScaleX(f2);
+            view.setScaleY(f2);
+            view.setPivotX(view.getMeasuredWidth() / 2);
+            view.setPivotY(view.getMeasuredHeight() / 2);
+            if (min2 == 1.0f) {
+                view3.setAlpha(min2);
+            } else {
+                view3.setAlpha(0.0f);
+            }
+        } else {
+            view.setAlpha(1.0f);
+            view.setScaleX(1.0f);
+            view.setScaleY(1.0f);
+            view3.setAlpha(0.0f);
+        }
+        view2.setAlpha(1.0f - (((this.actionBarPadding * 1.0f) / this.logoPadding) * min));
+        view2.setScaleX(f);
+        view2.setScaleY(f);
+        view2.setPivotX(view2.getMeasuredWidth() / 2);
+        view2.setPivotY(view2.getMeasuredHeight() / 2);
+        view4.setAlpha(1.0f - min);
+        if (this.isNeedUpdate) {
+            float f3 = 1.0f - (min * ((this.actionBarPadding * 1.0f) / this.btnPadding));
+            if (f3 > 0.99f) {
+                f3 = getUpdateButtonMaxAlpha();
+            }
+            hyperCardView.setAlpha(f3);
+            hyperCardView.setScaleX(f);
+            hyperCardView.setScaleY(f);
+            if (hyperCardView.getAlpha() > 0.0f) {
+                hyperCardView.setClickable(true);
+                return;
+            } else {
+                hyperCardView.setClickable(false);
+                return;
+            }
+        }
+        hyperCardView.setClickable(false);
+    }
+
+    public void startButtonAnimation(int i, HyperCardView hyperCardView) {
+        float min = Math.min(1.0f, Math.max(0.0f, (Math.abs(i) * 1.0f) / this.actionBarPadding));
+        float f = 1.0f - (0.1f * min);
+        if (i == 0) {
+            if (this.isNeedUpdate) {
+                hyperCardView.setAlpha(getUpdateButtonMaxAlpha());
+                hyperCardView.setScaleX(1.0f);
+                hyperCardView.setScaleY(1.0f);
+                hyperCardView.setClickable(true);
+                return;
+            }
+            hyperCardView.setClickable(false);
+            return;
+        }
+        if (this.isNeedUpdate) {
+            float f2 = 1.0f - (min * ((this.actionBarPadding * 1.0f) / this.btnPadding));
+            if (f2 > 0.99f) {
+                f2 = getUpdateButtonMaxAlpha();
+            }
+            hyperCardView.setAlpha(f2);
+            hyperCardView.setScaleX(f);
+            hyperCardView.setScaleY(f);
+            if (hyperCardView.getAlpha() > 0.0f) {
+                hyperCardView.setClickable(true);
+                return;
+            } else {
+                hyperCardView.setClickable(false);
+                return;
+            }
+        }
+        hyperCardView.setClickable(false);
+    }
+}
+

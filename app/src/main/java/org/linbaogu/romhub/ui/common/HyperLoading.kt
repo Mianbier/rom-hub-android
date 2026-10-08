@@ -1,1 +1,120 @@
-cGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLnVpLmNvbW1vbgoKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuYW5pbWF0aW9uLmNvcmUuQW5pbWF0YWJsZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5hbmltYXRpb24uY29yZS5MaW5lYXJFYXNpbmcKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuYW5pbWF0aW9uLmNvcmUudHdlZW4KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5DYW52YXMKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuQm94CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LmZpbGxNYXhTaXplCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LnNpemUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5Db21wb3NhYmxlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuTGF1bmNoZWRFZmZlY3QKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5yZW1lbWJlcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5BbGlnbm1lbnQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuTW9kaWZpZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuZ2VvbWV0cnkuT2Zmc2V0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmdyYXBoaWNzLkNvbG9yCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmdyYXBoaWNzLlN0cm9rZUNhcAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5ncmFwaGljcy5kcmF3c2NvcGUuU3Ryb2tlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnVuaXQuRHAKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudW5pdC5kcAppbXBvcnQga290bGluLm1hdGguY29zCmltcG9ydCBrb3RsaW4ubWF0aC5zaW4KaW1wb3J0IHRvcC55dWtvbmdhLm1pdWl4LmttcC50aGVtZS5NaXVpeFRoZW1lCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LmZpbGxNYXhXaWR0aAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5wYWRkaW5nCgovKioKICog5Yqg6L295oyH56S65ZmoIOKAlOKAlCDnhacgSHlwZXJDZWlsZXIg6YKj5Liq5qC35a2Q55S755qE77yaCiAqICoq5LiA5ZyI57uG5ZyG546v77yI55WZ5Liq5bCP57y65Y+j77yJKyDkuIDkuKrlsI/lnIbngrnnu5XnnYDnjq/ot5EqKuOAggogKgogKiDkuLrku4DkuYjkuI3nlKggYENpcmN1bGFyUHJvZ3Jlc3NJbmRpY2F0b3Jg77ya5a6D55qE6KeC5oSf5piv44CM5LiA5q615byn5Zyo6L2s44CN77yMCiAqIOWSjCBIeXBlckNlaWxlciDpgqPkuKrjgIznjq8gKyDngrnjgI3kuI3mmK/kuIDlm57kuovvvIzmlL7kuIDotbfkvJrmmL7lvpfkuKTlpZforr7orqHmt7fnnYDmnaXjgIIKICog6L+Z6YeM55u05o6l55SoIENhbnZhcyDnlLvvvIzlsLrlr7gv57KX57uGL+i9rOmAn+mDveWPr+aOp++8jOS5n+S4jeS+nei1luS7u+S9lemineWklui1hOa6kOOAggogKgogKiBAcGFyYW0gc2l6ZSAg5pW05L2T55u05b6ECiAqIEBwYXJhbSBjb2xvciDnjq/kuI7ngrnnmoTpopzoibLvvIjpu5jorqTot5/pmo/kuLvpopjvvIkKICovCkBDb21wb3NhYmxlCmZ1biBIeXBlckxvYWRpbmcoCiAgICBzaXplOiBEcCA9IDMwLmRwLAogICAgY29sb3I6IENvbG9yPyA9IG51bGwsCiAgICBtb2RpZmllcjogTW9kaWZpZXIgPSBNb2RpZmllciwKKSB7CiAgICB2YWwgdGludCA9IGNvbG9yID86IE1pdWl4VGhlbWUuY29sb3JTY2hlbWUub25TdXJmYWNlCgogICAgLy8gMCDihpIgMzYwIOS4gOebtOi9rOOAgueUqCBBbmltYXRhYmxlICsg5peg6ZmQ5b6q546v77yM5bin546H6Lef6ZqP57O757uf5Yi35paw546H44CCCiAgICB2YWwgYW5nbGUgPSByZW1lbWJlciB7IEFuaW1hdGFibGUoMGYpIH0KICAgIExhdW5jaGVkRWZmZWN0KFVuaXQpIHsKICAgICAgICB3aGlsZSAodHJ1ZSkgewogICAgICAgICAgICBhbmdsZS5zbmFwVG8oMGYpCiAgICAgICAgICAgIGFuZ2xlLmFuaW1hdGVUbygKICAgICAgICAgICAgICAgIDM2MGYsCiAgICAgICAgICAgICAgICBhbmltYXRpb25TcGVjID0gdHdlZW4oZHVyYXRpb25NaWxsaXMgPSAxMTAwLCBlYXNpbmcgPSBMaW5lYXJFYXNpbmcpLAogICAgICAgICAgICApCiAgICAgICAgfQogICAgfQoKICAgIENhbnZhcyhtb2RpZmllciA9IG1vZGlmaWVyLnNpemUoc2l6ZSkpIHsKICAgICAgICB2YWwgc3Ryb2tlID0gdGhpcy5zaXplLm1pbkRpbWVuc2lvbiAqIDAuMDc1ZiAgICAgIC8vIOeOr+eahOeyl+e7hgogICAgICAgIHZhbCByYWRpdXMgPSB0aGlzLnNpemUubWluRGltZW5zaW9uIC8gMmYgLSBzdHJva2UgLyAyZgogICAgICAgIHZhbCBkb3RSID0gc3Ryb2tlICogMC44NWYgICAgICAgICAgICAgICAgICAgICAgICAgIC8vIOWwj+WchueCueWNiuW+hAogICAgICAgIHZhbCBnYXAgPSA0OGYgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8vIOeOr+S4iueahOe8uuWPo+inkuW6pgoKICAgICAgICAvLyDnjq/vvJrku47nvLrlj6PlkI7pnaLlvIDlp4vnlLvvvIznlZnlh7rnvLrlj6MKICAgICAgICBkcmF3QXJjKAogICAgICAgICAgICBjb2xvciA9IHRpbnQsCiAgICAgICAgICAgIHN0YXJ0QW5nbGUgPSBhbmdsZS52YWx1ZSArIGdhcCwKICAgICAgICAgICAgc3dlZXBBbmdsZSA9IDM2MGYgLSBnYXAsCiAgICAgICAgICAgIHVzZUNlbnRlciA9IGZhbHNlLAogICAgICAgICAgICB0b3BMZWZ0ID0gT2Zmc2V0KGNlbnRlci54IC0gcmFkaXVzLCBjZW50ZXIueSAtIHJhZGl1cyksCiAgICAgICAgICAgIHNpemUgPSBhbmRyb2lkeC5jb21wb3NlLnVpLmdlb21ldHJ5LlNpemUocmFkaXVzICogMiwgcmFkaXVzICogMiksCiAgICAgICAgICAgIHN0eWxlID0gU3Ryb2tlKHdpZHRoID0gc3Ryb2tlLCBjYXAgPSBTdHJva2VDYXAuUm91bmQpLAogICAgICAgICkKCiAgICAgICAgLy8g5bCP5ZyG54K577ya6Lef5Zyo57y65Y+j55qE5YmN5rK/CiAgICAgICAgdmFsIHJhZCA9IE1hdGgudG9SYWRpYW5zKGFuZ2xlLnZhbHVlLnRvRG91YmxlKCkpCiAgICAgICAgZHJhd0NpcmNsZSgKICAgICAgICAgICAgY29sb3IgPSB0aW50LAogICAgICAgICAgICByYWRpdXMgPSBkb3RSLAogICAgICAgICAgICBjZW50ZXIgPSBPZmZzZXQoCiAgICAgICAgICAgICAgICBjZW50ZXIueCArIChyYWRpdXMgKiBjb3MocmFkKSkudG9GbG9hdCgpLAogICAgICAgICAgICAgICAgY2VudGVyLnkgKyAocmFkaXVzICogc2luKHJhZCkpLnRvRmxvYXQoKSwKICAgICAgICAgICAgKSwKICAgICAgICApCiAgICB9Cn0KCi8qKgogKiDmlbTpobXliqDovb3mgIHvvJrnmb3lupXvvIjot5/pmo/kuLvpopjnmoQgc3VyZmFjZe+8iSsg5bGF5Lit6YKj5Liq5Yqg6L295Zu+5qCH44CCCiAqCiAqIOeUqOWcqCBBcHAg5Ya35ZCv5Yqo44CB56ys5LiA5om55pWw5o2u6L+Y5rKh5Yiw55qE5pe25YCZIOKAlOKAlCDku6XliY3ov5nmrrXml7bpl7TmmK8qKuepuuWxjyoq77yMCiAqIOeci+i1t+adpeWDj+WNoeS9j+S6huOAggogKi8KQENvbXBvc2FibGUKZnVuIEh5cGVyTG9hZGluZ1BhZ2UobW9kaWZpZXI6IE1vZGlmaWVyID0gTW9kaWZpZXIpIHsKICAgIEJveCgKICAgICAgICBtb2RpZmllciA9IG1vZGlmaWVyLmZpbGxNYXhTaXplKCksCiAgICAgICAgY29udGVudEFsaWdubWVudCA9IEFsaWdubWVudC5DZW50ZXIsCiAgICApIHsKICAgICAgICBIeXBlckxvYWRpbmcoc2l6ZSA9IDMyLmRwKQogICAgfQp9CgovKioKICog5YiX6KGo5YaF55qE5Yqg6L295Y2g5L2N77ya5bGF5Lit5LiA5Liq5Yqg6L295Zu+5qCH44CCCiAqCiAqIOS4k+mXqOeUqOadpeabv+aOieS7peWJjemCo+S6m+OAjOato+WcqOWKoOi9veKApuOAjeOAjOi9veWFpeS4reKApuOAjeaWh+WtlyDigJTigJQg5YWoIEFwcCDlj6rnlZnov5nkuIDnp43liqDovb3op4LmhJ/jgIIKICovCkBDb21wb3NhYmxlCmZ1biBIeXBlckxvYWRpbmdJbmxpbmUoCiAgICBtb2RpZmllcjogTW9kaWZpZXIgPSBNb2RpZmllciwKICAgIHBhZGRpbmc6IERwID0gMzYuZHAsCikgewogICAgQm94KAogICAgICAgIG1vZGlmaWVyID0gbW9kaWZpZXIuZmlsbE1heFdpZHRoKCkucGFkZGluZyhwYWRkaW5nKSwKICAgICAgICBjb250ZW50QWxpZ25tZW50ID0gQWxpZ25tZW50LkNlbnRlciwKICAgICkgewogICAgICAgIEh5cGVyTG9hZGluZyhzaXplID0gMjYuZHApCiAgICB9Cn0K
+package org.linbaogu.romhub.ui.common
+
+import androidx.compose.animation.core.Animatable
+import androidx.compose.animation.core.LinearEasing
+import androidx.compose.animation.core.tween
+import androidx.compose.foundation.Canvas
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.size
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.remember
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.geometry.Offset
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.StrokeCap
+import androidx.compose.ui.graphics.drawscope.Stroke
+import androidx.compose.ui.unit.Dp
+import androidx.compose.ui.unit.dp
+import kotlin.math.cos
+import kotlin.math.sin
+import top.yukonga.miuix.kmp.theme.MiuixTheme
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.padding
+
+/**
+ * 加载指示器 —— 照 HyperCeiler 那个样子画的：
+ * **一圈细圆环（留个小缺口）+ 一个小圆点绕着环跑**。
+ *
+ * 为什么不用 `CircularProgressIndicator`：它的观感是「一段弧在转」，
+ * 和 HyperCeiler 那个「环 + 点」不是一回事，放一起会显得两套设计混着来。
+ * 这里直接用 Canvas 画，尺寸/粗细/转速都可控，也不依赖任何额外资源。
+ *
+ * @param size  整体直径
+ * @param color 环与点的颜色（默认跟随主题）
+ */
+@Composable
+fun HyperLoading(
+    size: Dp = 30.dp,
+    color: Color? = null,
+    modifier: Modifier = Modifier,
+) {
+    val tint = color ?: MiuixTheme.colorScheme.onSurface
+
+    // 0 → 360 一直转。用 Animatable + 无限循环，帧率跟随系统刷新率。
+    val angle = remember { Animatable(0f) }
+    LaunchedEffect(Unit) {
+        while (true) {
+            angle.snapTo(0f)
+            angle.animateTo(
+                360f,
+                animationSpec = tween(durationMillis = 1100, easing = LinearEasing),
+            )
+        }
+    }
+
+    Canvas(modifier = modifier.size(size)) {
+        val stroke = this.size.minDimension * 0.075f      // 环的粗细
+        val radius = this.size.minDimension / 2f - stroke / 2f
+        val dotR = stroke * 0.85f                          // 小圆点半径
+        val gap = 48f                                      // 环上的缺口角度
+
+        // 环：从缺口后面开始画，留出缺口
+        drawArc(
+            color = tint,
+            startAngle = angle.value + gap,
+            sweepAngle = 360f - gap,
+            useCenter = false,
+            topLeft = Offset(center.x - radius, center.y - radius),
+            size = androidx.compose.ui.geometry.Size(radius * 2, radius * 2),
+            style = Stroke(width = stroke, cap = StrokeCap.Round),
+        )
+
+        // 小圆点：跟在缺口的前沿
+        val rad = Math.toRadians(angle.value.toDouble())
+        drawCircle(
+            color = tint,
+            radius = dotR,
+            center = Offset(
+                center.x + (radius * cos(rad)).toFloat(),
+                center.y + (radius * sin(rad)).toFloat(),
+            ),
+        )
+    }
+}
+
+/**
+ * 整页加载态：白底（跟随主题的 surface）+ 居中那个加载图标。
+ *
+ * 用在 App 冷启动、第一批数据还没到的时候 —— 以前这段时间是**空屏**，
+ * 看起来像卡住了。
+ */
+@Composable
+fun HyperLoadingPage(modifier: Modifier = Modifier) {
+    Box(
+        modifier = modifier.fillMaxSize(),
+        contentAlignment = Alignment.Center,
+    ) {
+        HyperLoading(size = 32.dp)
+    }
+}
+
+/**
+ * 列表内的加载占位：居中一个加载图标。
+ *
+ * 专门用来替掉以前那些「正在加载…」「载入中…」文字 —— 全 App 只留这一种加载观感。
+ */
+@Composable
+fun HyperLoadingInline(
+    modifier: Modifier = Modifier,
+    padding: Dp = 36.dp,
+) {
+    Box(
+        modifier = modifier.fillMaxWidth().padding(padding),
+        contentAlignment = Alignment.Center,
+    ) {
+        HyperLoading(size = 26.dp)
+    }
+}

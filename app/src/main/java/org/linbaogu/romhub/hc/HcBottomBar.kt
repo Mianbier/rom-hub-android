@@ -1,1 +1,107 @@
-LyoKICogVGhpcyBmaWxlIGlzIHBhcnQgb2YgUk9NIEh1YiwgcmVsZWFzZWQgdW5kZXIgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSB2My4wLgogKgogKiDmnKzmlofku7bnp7vmpI0gLyDmlLnlhpnoh6ogSHlwZXJDZWlsZXLvvIhBR1BMLTMuMO+8jENvcHlyaWdodCAoQykgMjAyMy0yMDI2IEh5cGVyQ2VpbGVyCiAqIENvbnRyaWJ1dGlvbnPvvInvvIzmiJbkuLrlhbbnrYnku7fmm7/ouqvlrp7njrAg4oCU4oCUIOWujOaVtOadpea6kOS4jum4o+iwouingemhueebruagueebruW9lSBOT1RJQ0UubWTjgIIKICoKICogVGhpcyBwcm9ncmFtIGlzIGZyZWUgc29mdHdhcmU6IHlvdSBjYW4gcmVkaXN0cmlidXRlIGl0IGFuZC9vciBtb2RpZnkgaXQgdW5kZXIgdGhlIHRlcm1zCiAqIG9mIHRoZSBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UgYXMgcHVibGlzaGVkIGJ5IHRoZSBGcmVlIFNvZnR3YXJlIEZvdW5kYXRpb24sCiAqIGVpdGhlciB2ZXJzaW9uIDMgb2YgdGhlIExpY2Vuc2UuCiAqCiAqIFRoaXMgcHJvZ3JhbSBpcyBkaXN0cmlidXRlZCBpbiB0aGUgaG9wZSB0aGF0IGl0IHdpbGwgYmUgdXNlZnVsLCBidXQgV0lUSE9VVCBBTlkgV0FSUkFOVFk7CiAqIHdpdGhvdXQgZXZlbiB0aGUgaW1wbGllZCB3YXJyYW50eSBvZiBNRVJDSEFOVEFCSUxJVFkgb3IgRklUTkVTUyBGT1IgQSBQQVJUSUNVTEFSIFBVUlBPU0UuCiAqIFNlZSB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGZvciBtb3JlIGRldGFpbHMuCiAqCiAqIFlvdSBzaG91bGQgaGF2ZSByZWNlaXZlZCBhIGNvcHkgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBhbG9uZyB3aXRoIHRoaXMKICogcHJvZ3JhbS4gIElmIG5vdCwgc2VlIDxodHRwczovL3d3dy5nbnUub3JnL2xpY2Vuc2VzLz4uCiAqLwoKcGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLmhjCgppbXBvcnQgYW5kcm9pZC52aWV3LkxheW91dEluZmxhdGVyCmltcG9ydCBhbmRyb2lkLnZpZXcuVmlld0dyb3VwCmltcG9ydCBhbmRyb2lkLndpZGdldC5GcmFtZUxheW91dAppbXBvcnQgYW5kcm9pZC53aWRnZXQuVGV4dFZpZXcKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5Db21wb3NhYmxlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLk1vZGlmaWVyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnZpZXdpbnRlcm9wLkFuZHJvaWRWaWV3CmltcG9ydCBvcmcubGluYmFvZ3Uucm9taHViLlIKaW1wb3J0IG9yZy5saW5iYW9ndS5yb21odWIuaGMud2lkZ2V0Lk5hdmlnYXRpb25TdHlsZQppbXBvcnQgb3JnLmxpbmJhb2d1LnJvbWh1Yi5oYy53aWRnZXQuU3dpdGNoVmlldwoKLyoqCiAqIEh5cGVyQ2VpbGVyIOeahOaCrOa1ruW6leagj++8iFZpZXcg54mI77yJ77yM55SoIFtBbmRyb2lkVmlld10g5bWM6L+bIENvbXBvc2XjgIIKICoKICog6YeM6Z2i55qEIFtTd2l0Y2hWaWV3XSDmmK/ku44gSHlwZXJDZWlsZXIgKirljp/moLfmi7fov4fmnaUqKueahO+8iOWPquaUueS6huWMheWQjeWSjCBSIOW8leeUqO+8ie+8jAogKiDlh6DkvZXjgIHmnZDotKjjgIHlvaLlj5jliqjnlLvjgIFFZGdlLXRvLUVkZ2Ug5YWo5piv5Y6f54mI6KGM5Li644CC5qC35byP5Lik5qGj6KeBIFtOYXZpZ2F0aW9uU3R5bGVd77yaCiAqICDCtyBbTmF2aWdhdGlvblN0eWxlLkNBUFNVTEVfSUNPTl0g4oCU4oCUIOaCrOa1ruiDtuWbiu+8iOm7mOiupO+8iQogKiAgwrcgW05hdmlnYXRpb25TdHlsZS5CT1RUT01fTEFCRUxdIOKAlOKAlCDkvKDnu5/otLTlnLDlupXpg6jmoIfnrb4KICoKICog4pqg77iPIFtTd2l0Y2hWaWV3XSDlhoXpg6jmioogYGxheW91dFBhcmFtc2Ag5by66L2s5oiQIGBGcmFtZUxheW91dC5MYXlvdXRQYXJhbXNg77yMCiAqIOaJgOS7pSoq5b+F6aG7KirmiorlroPmlL7ov5vkuIDkuKogRnJhbWVMYXlvdXQg6YeM44CCCiAqLwpAQ29tcG9zYWJsZQpmdW4gSGNCb3R0b21CYXIoCiAgICBzZWxlY3RlZEluZGV4OiBJbnQsCiAgICBzdHlsZTogTmF2aWdhdGlvblN0eWxlLAogICAgb25TZWxlY3RlZDogKEludCkgLT4gVW5pdCwKICAgIG1vZGlmaWVyOiBNb2RpZmllciA9IE1vZGlmaWVyLAopIHsKICAgIEFuZHJvaWRWaWV3KAogICAgICAgIG1vZGlmaWVyID0gbW9kaWZpZXIsCiAgICAgICAgZmFjdG9yeSA9IHsgY3R4IC0+CiAgICAgICAgICAgIEZyYW1lTGF5b3V0KGN0eCkuYXBwbHkgewogICAgICAgICAgICAgICAgbGF5b3V0UGFyYW1zID0gVmlld0dyb3VwLkxheW91dFBhcmFtcygKICAgICAgICAgICAgICAgICAgICBWaWV3R3JvdXAuTGF5b3V0UGFyYW1zLk1BVENIX1BBUkVOVCwKICAgICAgICAgICAgICAgICAgICBWaWV3R3JvdXAuTGF5b3V0UGFyYW1zLk1BVENIX1BBUkVOVCwKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIHZhbCBzdiA9IFN3aXRjaFZpZXcoY3R4KQogICAgICAgICAgICAgICAgLy8g5YWI5oyC6L+bIEZyYW1lTGF5b3V077yM5YaNIHVwZGF0ZVN0eWxlIOKAlOKAlCBTd2l0Y2hWaWV3IOWGhemDqOimgeeUqCBsYXlvdXRQYXJhbXMKICAgICAgICAgICAgICAgIGFkZFZpZXcoCiAgICAgICAgICAgICAgICAgICAgc3YsCiAgICAgICAgICAgICAgICAgICAgRnJhbWVMYXlvdXQuTGF5b3V0UGFyYW1zKAogICAgICAgICAgICAgICAgICAgICAgICBWaWV3R3JvdXAuTGF5b3V0UGFyYW1zLk1BVENIX1BBUkVOVCwKICAgICAgICAgICAgICAgICAgICAgICAgVmlld0dyb3VwLkxheW91dFBhcmFtcy5XUkFQX0NPTlRFTlQsCiAgICAgICAgICAgICAgICAgICAgKSwKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIHN2LmluZmxhdGVNZW51KFIubWVudS5oY19ib3R0b21fbmF2KQogICAgICAgICAgICAgICAgc3YudXBkYXRlU3R5bGUoc3R5bGUpCiAgICAgICAgICAgICAgICBzdi5zZXRPblN3aXRjaENoYW5nZUxpc3RlbmVyIHsgcG9zaXRpb24sIF8gLT4gb25TZWxlY3RlZChwb3NpdGlvbikgfQogICAgICAgICAgICAgICAgdGFnID0gc3YKICAgICAgICAgICAgfQogICAgICAgIH0sCiAgICAgICAgdXBkYXRlID0geyByb290IC0+CiAgICAgICAgICAgIHZhbCBzdiA9IHJvb3QudGFnIGFzPyBTd2l0Y2hWaWV3ID86IHJldHVybkBBbmRyb2lkVmlldwogICAgICAgICAgICBzdi51cGRhdGVTdHlsZShzdHlsZSkKICAgICAgICAgICAgaWYgKHN2LnNlbGVjdGVkUG9zaXRpb24gIT0gc2VsZWN0ZWRJbmRleCkgewogICAgICAgICAgICAgICAgc3Yuc2V0U2VsZWN0ZWRUYWIoc2VsZWN0ZWRJbmRleCwgZmFsc2UpCiAgICAgICAgICAgIH0KICAgICAgICB9LAogICAgKQp9CgovKioKICog5YWz5LqO6aG15aS06YOoIOKAlOKAlCDnhafmioQgSHlwZXJDZWlsZXIg55qEIGBhY3Rpdml0eV9hYm91dC54bWxg77yI5biD5bGA5Y6f5qC377yM6KeBCiAqIGByZXMvbGF5b3V0L2hjX2Fib3V0X2hlYWRlci54bWxg77yJ77yM5Y+q5oqK5paH5a2X5YaF5a655o2i5oiQ6L+Z5LiqIEFwcCDnmoTjgIIKICovCkBDb21wb3NhYmxlCmZ1biBIY0Fib3V0SGVhZGVyKAogICAgYXBwTmFtZTogU3RyaW5nLAogICAgdmVyc2lvbjogU3RyaW5nLAogICAgc3VtbWFyeTogU3RyaW5nLAogICAgbW9kaWZpZXI6IE1vZGlmaWVyID0gTW9kaWZpZXIsCikgewogICAgQW5kcm9pZFZpZXcoCiAgICAgICAgbW9kaWZpZXIgPSBtb2RpZmllciwKICAgICAgICBmYWN0b3J5ID0geyBjdHggLT4KICAgICAgICAgICAgTGF5b3V0SW5mbGF0ZXIuZnJvbShjdHgpLmluZmxhdGUoUi5sYXlvdXQuaGNfYWJvdXRfaGVhZGVyLCBudWxsKS5hbHNvIHsgYmluZChpdCwgYXBwTmFtZSwgdmVyc2lvbiwgc3VtbWFyeSkgfQogICAgICAgIH0sCiAgICAgICAgdXBkYXRlID0geyBiaW5kKGl0LCBhcHBOYW1lLCB2ZXJzaW9uLCBzdW1tYXJ5KSB9LAogICAgKQp9Cgpwcml2YXRlIGZ1biBiaW5kKHY6IGFuZHJvaWQudmlldy5WaWV3LCBhcHBOYW1lOiBTdHJpbmcsIHZlcnNpb246IFN0cmluZywgc3VtbWFyeTogU3RyaW5nKSB7CiAgICB2LmZpbmRWaWV3QnlJZDxUZXh0Vmlldz4oUi5pZC5oY19hYm91dF9uYW1lKT8udGV4dCA9IGFwcE5hbWUKICAgIHYuZmluZFZpZXdCeUlkPFRleHRWaWV3PihhbmRyb2lkLlIuaWQuc3VtbWFyeSk/LnRleHQgPSBzdW1tYXJ5CiAgICB2LmZpbmRWaWV3QnlJZDxUZXh0Vmlldz4oYW5kcm9pZC5SLmlkLnRpdGxlKT8udGV4dCA9IHZlcnNpb24KfQo=
+/*
+ * This file is part of ROM Hub, released under the GNU Affero General Public License v3.0.
+ *
+ * 本文件移植 / 改写自 HyperCeiler（AGPL-3.0，Copyright (C) 2023-2026 HyperCeiler
+ * Contributions），或为其等价替身实现 —— 完整来源与鸣谢见项目根目录 NOTICE.md。
+ *
+ * This program is free software: you can redistribute it and/or modify it under the terms
+ * of the GNU Affero General Public License as published by the Free Software Foundation,
+ * either version 3 of the License.
+ *
+ * This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+ * without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * See the GNU Affero General Public License for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License along with this
+ * program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
+package org.linbaogu.romhub.hc
+
+import android.view.LayoutInflater
+import android.view.ViewGroup
+import android.widget.FrameLayout
+import android.widget.TextView
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.viewinterop.AndroidView
+import org.linbaogu.romhub.R
+import org.linbaogu.romhub.hc.widget.NavigationStyle
+import org.linbaogu.romhub.hc.widget.SwitchView
+
+/**
+ * HyperCeiler 的悬浮底栏（View 版），用 [AndroidView] 嵌进 Compose。
+ *
+ * 里面的 [SwitchView] 是从 HyperCeiler **原样拷过来**的（只改了包名和 R 引用），
+ * 几何、材质、形变动画、Edge-to-Edge 全是原版行为。样式两档见 [NavigationStyle]：
+ *  · [NavigationStyle.CAPSULE_ICON] —— 悬浮胶囊（默认）
+ *  · [NavigationStyle.BOTTOM_LABEL] —— 传统贴地底部标签
+ *
+ * ⚠️ [SwitchView] 内部把 `layoutParams` 强转成 `FrameLayout.LayoutParams`，
+ * 所以**必须**把它放进一个 FrameLayout 里。
+ */
+@Composable
+fun HcBottomBar(
+    selectedIndex: Int,
+    style: NavigationStyle,
+    onSelected: (Int) -> Unit,
+    modifier: Modifier = Modifier,
+) {
+    AndroidView(
+        modifier = modifier,
+        factory = { ctx ->
+            FrameLayout(ctx).apply {
+                layoutParams = ViewGroup.LayoutParams(
+                    ViewGroup.LayoutParams.MATCH_PARENT,
+                    ViewGroup.LayoutParams.MATCH_PARENT,
+                )
+                val sv = SwitchView(ctx)
+                // 先挂进 FrameLayout，再 updateStyle —— SwitchView 内部要用 layoutParams
+                addView(
+                    sv,
+                    FrameLayout.LayoutParams(
+                        ViewGroup.LayoutParams.MATCH_PARENT,
+                        ViewGroup.LayoutParams.WRAP_CONTENT,
+                    ),
+                )
+                sv.inflateMenu(R.menu.hc_bottom_nav)
+                sv.updateStyle(style)
+                sv.setOnSwitchChangeListener { position, _ -> onSelected(position) }
+                tag = sv
+            }
+        },
+        update = { root ->
+            val sv = root.tag as? SwitchView ?: return@AndroidView
+            sv.updateStyle(style)
+            if (sv.selectedPosition != selectedIndex) {
+                sv.setSelectedTab(selectedIndex, false)
+            }
+        },
+    )
+}
+
+/**
+ * 关于页头部 —— 照抄 HyperCeiler 的 `activity_about.xml`（布局原样，见
+ * `res/layout/hc_about_header.xml`），只把文字内容换成这个 App 的。
+ */
+@Composable
+fun HcAboutHeader(
+    appName: String,
+    version: String,
+    summary: String,
+    modifier: Modifier = Modifier,
+) {
+    AndroidView(
+        modifier = modifier,
+        factory = { ctx ->
+            LayoutInflater.from(ctx).inflate(R.layout.hc_about_header, null).also { bind(it, appName, version, summary) }
+        },
+        update = { bind(it, appName, version, summary) },
+    )
+}
+
+private fun bind(v: android.view.View, appName: String, version: String, summary: String) {
+    v.findViewById<TextView>(R.id.hc_about_name)?.text = appName
+    v.findViewById<TextView>(android.R.id.summary)?.text = summary
+    v.findViewById<TextView>(android.R.id.title)?.text = version
+}

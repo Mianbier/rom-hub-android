@@ -1,1 +1,55 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0NCiAgfiBUaGlzIGZpbGUgaXMgcGFydCBvZiBIeXBlckNlaWxlci4NCiAgfg0KICB+IEh5cGVyQ2VpbGVyIGlzIGZyZWUgc29mdHdhcmU6IHlvdSBjYW4gcmVkaXN0cmlidXRlIGl0IGFuZC9vciBtb2RpZnkNCiAgfiBpdCB1bmRlciB0aGUgdGVybXMgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBhcw0KICB+IHB1Ymxpc2hlZCBieSB0aGUgRnJlZSBTb2Z0d2FyZSBGb3VuZGF0aW9uLCBlaXRoZXIgdmVyc2lvbiAzIG9mIHRoZQ0KICB+IExpY2Vuc2UuDQogIH4NCiAgfiBUaGlzIHByb2dyYW0gaXMgZGlzdHJpYnV0ZWQgaW4gdGhlIGhvcGUgdGhhdCBpdCB3aWxsIGJlIHVzZWZ1bCwNCiAgfiBidXQgV0lUSE9VVCBBTlkgV0FSUkFOVFk7IHdpdGhvdXQgZXZlbiB0aGUgaW1wbGllZCB3YXJyYW50eSBvZg0KICB+IE1FUkNIQU5UQUJJTElUWSBvciBGSVRORVNTIEZPUiBBIFBBUlRJQ1VMQVIgUFVSUE9TRS4gIFNlZSB0aGUNCiAgfiBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UgZm9yIG1vcmUgZGV0YWlscy4NCiAgfg0KICB+IFlvdSBzaG91bGQgaGF2ZSByZWNlaXZlZCBhIGNvcHkgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZQ0KICB+IGFsb25nIHdpdGggdGhpcyBwcm9ncmFtLiAgSWYgbm90LCBzZWUgPGh0dHBzOi8vd3d3LmdudS5vcmcvbGljZW5zZXMvPi4NCiAgfg0KICB+IENvcHlyaWdodCAoQykgMjAyMy0yMDI2IEh5cGVyUm9taHViIENvbnRyaWJ1dGlvbnMNCiAgLS0+DQo8cmVzb3VyY2VzPg0KDQogICAgPHN0eWxlIG5hbWU9IlByb3Zpc2lvblRoZW1lIiBwYXJlbnQ9IkBzdHlsZS9UaGVtZS5BcHBDb21wYXQuRGFyayI+DQogICAgICAgIDxpdGVtIG5hbWU9IndpbmRvd0FjdGlvbkJhciI+ZmFsc2U8L2l0ZW0+DQogICAgICAgIDxpdGVtIG5hbWU9IndpbmRvd0FjdGlvbkJhck92ZXJsYXkiPmZhbHNlPC9pdGVtPg0KICAgICAgICA8aXRlbSBuYW1lPSJhbmRyb2lkOmFjdGlvbkJhckl0ZW1CYWNrZ3JvdW5kIj5AYW5kcm9pZDpjb2xvci90cmFuc3BhcmVudDwvaXRlbT4NCg0KICAgICAgICA8aXRlbSBuYW1lPSJhbmRyb2lkOndpbmRvd0Rpc2FibGVQcmV2aWV3Ij50cnVlPC9pdGVtPg0KICAgICAgICA8aXRlbSBuYW1lPSJhbmRyb2lkOndpbmRvd0RyYXdzU3lzdGVtQmFyQmFja2dyb3VuZHMiPnRydWU8L2l0ZW0+DQogICAgICAgIDxpdGVtIG5hbWU9ImFuZHJvaWQ6d2luZG93TGF5b3V0SW5EaXNwbGF5Q3V0b3V0TW9kZSI+YWx3YXlzPC9pdGVtPg0KICAgICAgICA8aXRlbSBuYW1lPSJhbmRyb2lkOndpbmRvd0JhY2tncm91bmQiPkBjb2xvci9taXVpeF9hcHBjb21wYXRfYmxhY2s8L2l0ZW0+DQoNCiAgICAgICAgPGl0ZW0gbmFtZT0icHJlZmVyZW5jZUl0ZW1QYWRkaW5nRW5kIj5AZGltZW4vbWl1aXhfcHJlZmVyZW5jZV9pdGVtX3BhZGRpbmdfZW5kPC9pdGVtPg0KICAgICAgICA8aXRlbSBuYW1lPSJwcmVmZXJlbmNlSXRlbVBhZGRpbmdTdGFydCI+QGRpbWVuL21pdWl4X3ByZWZlcmVuY2VfaXRlbV9wYWRkaW5nX3N0YXJ0PC9pdGVtPg0KICAgICAgICA8aXRlbSBuYW1lPSJwcmVmZXJlbmNlUHJpbWFyeVRleHRDb2xvciI+QGNvbG9yL21pdWl4X3ByZWZlcmVuY2VfcHJpbWFyeV90ZXh0X2Rhcms8L2l0ZW0+DQoNCiAgICAgICAgPGl0ZW0gbmFtZT0icHJlZmVyZW5jZVRoZW1lIj5Ac3R5bGUvVGhlbWVPdmVybGF5LlByZWZlcmVuY2UuRGFyay5PUzI8L2l0ZW0+DQoNCiAgICAgICAgPGl0ZW0gbmFtZT0iYW5kcm9pZDpsaXN0RGl2aWRlciI+QG51bGw8L2l0ZW0+DQogICAgICAgIDxpdGVtIG5hbWU9ImFuZHJvaWQ6d2luZG93VHJhbnNsdWNlbnRTdGF0dXMiPnRydWU8L2l0ZW0+DQogICAgICAgIDxpdGVtIG5hbWU9ImFuZHJvaWQ6d2luZG93VHJhbnNsdWNlbnROYXZpZ2F0aW9uIj50cnVlPC9pdGVtPg0KDQogICAgICAgIDxpdGVtIG5hbWU9ImJvdHRvbVNoZWV0U3R5bGUiPkBzdHlsZS9Cb3R0b21TaGVldE1vZGFsU3R5bGU8L2l0ZW0+DQoNCiAgICAgICAgPGl0ZW0gbmFtZT0iZ3JvdXBCdXR0b25zUGFuZWxCYWNrZ3JvdW5kIj5AYW5kcm9pZDpjb2xvci90cmFuc3BhcmVudDwvaXRlbT4NCiAgICAgICAgPGl0ZW0gbmFtZT0iZ3JvdXBCdXR0b25zUHJpbWFyeUJ1dHRvblN0eWxlIj5Ac3R5bGUvV2lkZ2V0LkJ1dHRvbi5QcmltYXJ5PC9pdGVtPg0KICAgICAgICA8aXRlbSBuYW1lPSJncm91cEJ1dHRvbnNTZWNvbmRhcnlCdXR0b25TdHlsZSI+QHN0eWxlL1dpZGdldC5CdXR0b248L2l0ZW0+DQogICAgICAgIDxpdGVtIG5hbWU9Imdyb3VwQnV0dG9uc1RlcnRpYXJ5QnV0dG9uU3R5bGUiPkBzdHlsZS9XaWRnZXQuQnV0dG9uPC9pdGVtPg0KICAgIDwvc3R5bGU+DQoNCiAgICA8c3R5bGUgbmFtZT0iQm90dG9tU2hlZXRNb2RhbFN0eWxlIj4NCiAgICAgICAgPGl0ZW0gbmFtZT0iYW5kcm9pZDpiYWNrZ3JvdW5kIj5AY29sb3IvbWl1aXhfY29sb3Jfd2hpdGVfc29saWRfMTA8L2l0ZW0+DQogICAgICAgIDxpdGVtIG5hbWU9ImNvbnRlbnRIZWlnaHRNYXRjaFBhcmVudCI+dHJ1ZTwvaXRlbT4NCiAgICAgICAgPGl0ZW0gbmFtZT0ibWl1aXhQYWRkaW5nQm90dG9tU3lzdGVtV2luZG93SW5zZXRzIj5mYWxzZTwvaXRlbT4NCiAgICA8L3N0eWxlPg0KPC9yZXNvdXJjZXM+DQo=
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ This file is part of HyperCeiler.
+  ~
+  ~ HyperCeiler is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU Affero General Public License as
+  ~ published by the Free Software Foundation, either version 3 of the
+  ~ License.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU Affero General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU Affero General Public License
+  ~ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+  ~
+  ~ Copyright (C) 2023-2026 HyperRomhub Contributions
+  -->
+<resources>
+
+    <style name="ProvisionTheme" parent="@style/Theme.AppCompat.Dark">
+        <item name="windowActionBar">false</item>
+        <item name="windowActionBarOverlay">false</item>
+        <item name="android:actionBarItemBackground">@android:color/transparent</item>
+
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">always</item>
+        <item name="android:windowBackground">@color/miuix_appcompat_black</item>
+
+        <item name="preferenceItemPaddingEnd">@dimen/miuix_preference_item_padding_end</item>
+        <item name="preferenceItemPaddingStart">@dimen/miuix_preference_item_padding_start</item>
+        <item name="preferencePrimaryTextColor">@color/miuix_preference_primary_text_dark</item>
+
+        <item name="preferenceTheme">@style/ThemeOverlay.Preference.Dark.OS2</item>
+
+        <item name="android:listDivider">@null</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+
+        <item name="bottomSheetStyle">@style/BottomSheetModalStyle</item>
+
+        <item name="groupButtonsPanelBackground">@android:color/transparent</item>
+        <item name="groupButtonsPrimaryButtonStyle">@style/Widget.Button.Primary</item>
+        <item name="groupButtonsSecondaryButtonStyle">@style/Widget.Button</item>
+        <item name="groupButtonsTertiaryButtonStyle">@style/Widget.Button</item>
+    </style>
+
+    <style name="BottomSheetModalStyle">
+        <item name="android:background">@color/miuix_color_white_solid_10</item>
+        <item name="contentHeightMatchParent">true</item>
+        <item name="miuixPaddingBottomSystemWindowInsets">false</item>
+    </style>
+</resources>

@@ -1,1 +1,77 @@
-LyoKICogVGhpcyBmaWxlIGlzIHBhcnQgb2YgUk9NIEh1YiwgcmVsZWFzZWQgdW5kZXIgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSB2My4wLgogKgogKiDmnKzmlofku7bnp7vmpI0gLyDmlLnlhpnoh6ogSHlwZXJDZWlsZXLvvIhBR1BMLTMuMO+8jENvcHlyaWdodCAoQykgMjAyMy0yMDI2IEh5cGVyQ2VpbGVyCiAqIENvbnRyaWJ1dGlvbnPvvInvvIzmiJbkuLrlhbbnrYnku7fmm7/ouqvlrp7njrAg4oCU4oCUIOWujOaVtOadpea6kOS4jum4o+iwouingemhueebruagueebruW9lSBOT1RJQ0UubWTjgIIKICoKICogVGhpcyBwcm9ncmFtIGlzIGZyZWUgc29mdHdhcmU6IHlvdSBjYW4gcmVkaXN0cmlidXRlIGl0IGFuZC9vciBtb2RpZnkgaXQgdW5kZXIgdGhlIHRlcm1zCiAqIG9mIHRoZSBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UgYXMgcHVibGlzaGVkIGJ5IHRoZSBGcmVlIFNvZnR3YXJlIEZvdW5kYXRpb24sCiAqIGVpdGhlciB2ZXJzaW9uIDMgb2YgdGhlIExpY2Vuc2UuCiAqCiAqIFRoaXMgcHJvZ3JhbSBpcyBkaXN0cmlidXRlZCBpbiB0aGUgaG9wZSB0aGF0IGl0IHdpbGwgYmUgdXNlZnVsLCBidXQgV0lUSE9VVCBBTlkgV0FSUkFOVFk7CiAqIHdpdGhvdXQgZXZlbiB0aGUgaW1wbGllZCB3YXJyYW50eSBvZiBNRVJDSEFOVEFCSUxJVFkgb3IgRklUTkVTUyBGT1IgQSBQQVJUSUNVTEFSIFBVUlBPU0UuCiAqIFNlZSB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGZvciBtb3JlIGRldGFpbHMuCiAqCiAqIFlvdSBzaG91bGQgaGF2ZSByZWNlaXZlZCBhIGNvcHkgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBhbG9uZyB3aXRoIHRoaXMKICogcHJvZ3JhbS4gIElmIG5vdCwgc2VlIDxodHRwczovL3d3dy5nbnUub3JnL2xpY2Vuc2VzLz4uCiAqLwoKcGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLmhjCgppbXBvcnQgYW5kcm9pZC52aWV3LkNvbnRleHRUaGVtZVdyYXBwZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuQ29sdW1uCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LmZpbGxNYXhXaWR0aAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC53cmFwQ29udGVudEhlaWdodAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLkNvbXBvc2FibGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuTW9kaWZpZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudmlld2ludGVyb3AuQW5kcm9pZFZpZXcKaW1wb3J0IG9yZy5saW5iYW9ndS5yb21odWIuUgppbXBvcnQgb3JnLmxpbmJhb2d1LnJvbWh1Yi5oYy5hYm91dC53aWRnZXQuRGV2aWNlSW5mb0NhcmQKaW1wb3J0IG9yZy5saW5iYW9ndS5yb21odWIuaGMuYWJvdXQud2lkZ2V0LlZlcnNpb25DYXJkCgovKioKICog5YWz5LqO6aG16aG26YOo55qE5Lik5byg5Y2h54mH77yM55SoIFtBbmRyb2lkVmlld10g5bWM6L+bIENvbXBvc2XjgIIKICoKICogIMK3IFtWZXJzaW9uQ2FyZF0gICAg4oCU4oCUIOS8muWRvOWQuOeahOeJiOacrOWNoeeJh++8iEFwcCDlm77moIcgKyDlkI3np7AgKyDniYjmnKzlj7cgKyDmm7TmlrDmj5DnpLrvvIkKICogIMK3IFtEZXZpY2VJbmZvQ2FyZF0g4oCU4oCUIOiuvuWkh+S/oeaBr+WNoe+8iOiuvuWkh+WQjSAvIEFuZHJvaWQg54mI5pysIC8gT1Mg54mI5pys77yJCiAqCiAqIOS4pOW8oOmDveaYr+S7jiBIeXBlckNlaWxlciDljp/moLfmkKzov4fmnaXnmoTvvIjlj6rmlLnkuobljIXlkI0gLyBSIOW8leeUqCAvIOWbvuagh+S4juWtl+agh+i1hOa6kO+8ie+8jAogKiDmiYDku6Xlh6DkvZXjgIHliqjmlYjjgIHphY3oibLkuI7lroPlrozlhajkuIDoh7TjgIIKICoKICog4pqg77iPIOazqOaEj+WMuuWIhu+8mui/meS4pOW8oCoq6YO95pivIEh5cGVyQ2VpbGVyIOWOn+eJiCoq77yM6KaB5L+d55WZ44CCCiAqIOS5i+WJjeaIkeiHquW3seWPpuWGmei/h+S4gOS4qiBDb21wb3NlIOeJiOOAjOiuvuWkh+S/oeaBr+OAjeWkp+WNoeeJh++8iOaYvuekuiDorr7lpIflnovlj7cgLyBBbmRyb2lkIOeJiOacrCAvCiAqIE9TIOeJiOacrCAvIOWkhOeQhuWZqCAvIOWxj+W5leWIhui+qOeOh++8ie+8jOmCo+S4quW3sue7j+aMieeUqOaIt+imgeaxgioq5pW05Liq5Yig5o6JKirkuoYKICog77yI5Yig55qE5pivIEFib3V0U2NyZWVuIOmHjOmCo+S4quiHquWItueahO+8jOS4jeaYr+i/memHjOi/meW8oO+8ieOAggogKgogKiDimqDvuI8g5biD5bGA6YeM55So5LqGIE1pdWl4IOeahOS4u+mimOWxnuaAp++8iGA/YXR0ci9wcmVmZXJlbmNlU2Vjb25kYXJ5VGV4dENvbG9yYCDnrYnvvIwKICog57uPIGBAc3R5bGUvVGV4dEFwcGVhcmFuY2UuUHJlZmVyZW5jZUxpc3QuU2Vjb25kYXJ5YCDlvJXnlKjvvInjgILov5nkupvlsZ7mgKcqKuWPquWcqAogKiBNaXVpeCDnmoQgYFRoZW1lT3ZlcmxheS5QcmVmZXJlbmNlLipgIOmHjOWumuS5iSoq77yIQ29tcG9zZSDpgqPlpZcgYFRoZW1lLlJvbUh1YmAKICog57un5om/6IeqIGBhbmRyb2lkOlRoZW1lLk1hdGVyaWFsYO+8jOWujOWFqOayoeacie+8ieKGkiBpbmZsYXRlIOaXtuS8muaKmwogKiBgVW5zdXBwb3J0ZWRPcGVyYXRpb25FeGNlcHRpb246IEZhaWxlZCB0byByZXNvbHZlIGF0dHJpYnV0ZSBhdCBpbmRleCAzYCDihpIg54K544CM5YWz5LqO44CN55u05o6l6Zeq6YCA44CCCiAqCiAqIOaJgOS7pei/memHjOWllyoq5Lik5bGCKiogW0NvbnRleHRUaGVtZVdyYXBwZXJd77yaCiAqICAg4pGgIGBQcm92aXNpb25UaGVtZWAg4oCU4oCUIE1pdWl4IOeahCBgVGhlbWUuQXBwQ29tcGF0LkRheU5pZ2h0YO+8jOaPkOS+m+WfuuehgCBNaXVpeCDlsZ7mgKfvvJsKICogICDikaEgYEhjQWJvdXRPdmVybGF5YO+8iD0gYFRoZW1lT3ZlcmxheS5QcmVmZXJlbmNlLkRheU5pZ2h0YO+8ieKAlOKAlCDooaXkuIogcHJlZmVyZW5jZSDns7vliJflsZ7mgKfjgIIKICovCkBDb21wb3NhYmxlCmZ1biBIY0Fib3V0Q2FyZHMobW9kaWZpZXI6IE1vZGlmaWVyID0gTW9kaWZpZXIpIHsKICAgIENvbHVtbihtb2RpZmllci5maWxsTWF4V2lkdGgoKSkgewogICAgICAgIEFuZHJvaWRWaWV3KAogICAgICAgICAgICBmYWN0b3J5ID0geyBjdHggLT4gVmVyc2lvbkNhcmQodGhlbWVkQ29udGV4dChjdHgpKSB9LAogICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyCiAgICAgICAgICAgICAgICAuZmlsbE1heFdpZHRoKCkKICAgICAgICAgICAgICAgIC53cmFwQ29udGVudEhlaWdodCgpLAogICAgICAgICkKICAgICAgICBBbmRyb2lkVmlldygKICAgICAgICAgICAgZmFjdG9yeSA9IHsgY3R4IC0+IERldmljZUluZm9DYXJkKHRoZW1lZENvbnRleHQoY3R4KSkgfSwKICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllcgogICAgICAgICAgICAgICAgLmZpbGxNYXhXaWR0aCgpCiAgICAgICAgICAgICAgICAud3JhcENvbnRlbnRIZWlnaHQoKSwKICAgICAgICApCiAgICB9Cn0KCnByaXZhdGUgZnVuIHRoZW1lZENvbnRleHQoY3R4OiBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dCk6IGFuZHJvaWQuY29udGVudC5Db250ZXh0IHsKICAgIHZhbCBiYXNlID0gQ29udGV4dFRoZW1lV3JhcHBlcihjdHgsIFIuc3R5bGUuUHJvdmlzaW9uVGhlbWUpCiAgICByZXR1cm4gQ29udGV4dFRoZW1lV3JhcHBlcihiYXNlLCBSLnN0eWxlLkhjQWJvdXRPdmVybGF5KQp9Cg==
+/*
+ * This file is part of ROM Hub, released under the GNU Affero General Public License v3.0.
+ *
+ * 本文件移植 / 改写自 HyperCeiler（AGPL-3.0，Copyright (C) 2023-2026 HyperCeiler
+ * Contributions），或为其等价替身实现 —— 完整来源与鸣谢见项目根目录 NOTICE.md。
+ *
+ * This program is free software: you can redistribute it and/or modify it under the terms
+ * of the GNU Affero General Public License as published by the Free Software Foundation,
+ * either version 3 of the License.
+ *
+ * This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+ * without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * See the GNU Affero General Public License for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License along with this
+ * program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
+package org.linbaogu.romhub.hc
+
+import android.view.ContextThemeWrapper
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.wrapContentHeight
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.viewinterop.AndroidView
+import org.linbaogu.romhub.R
+import org.linbaogu.romhub.hc.about.widget.DeviceInfoCard
+import org.linbaogu.romhub.hc.about.widget.VersionCard
+
+/**
+ * 关于页顶部的两张卡片，用 [AndroidView] 嵌进 Compose。
+ *
+ *  · [VersionCard]    —— 会呼吸的版本卡片（App 图标 + 名称 + 版本号 + 更新提示）
+ *  · [DeviceInfoCard] —— 设备信息卡（设备名 / Android 版本 / OS 版本）
+ *
+ * 两张都是从 HyperCeiler 原样搬过来的（只改了包名 / R 引用 / 图标与字标资源），
+ * 所以几何、动效、配色与它完全一致。
+ *
+ * ⚠️ 注意区分：这两张**都是 HyperCeiler 原版**，要保留。
+ * 之前我自己另写过一个 Compose 版「设备信息」大卡片（显示 设备型号 / Android 版本 /
+ * OS 版本 / 处理器 / 屏幕分辨率），那个已经按用户要求**整个删掉**了
+ * （删的是 AboutScreen 里那个自制的，不是这里这张）。
+ *
+ * ⚠️ 布局里用了 Miuix 的主题属性（`?attr/preferenceSecondaryTextColor` 等，
+ * 经 `@style/TextAppearance.PreferenceList.Secondary` 引用）。这些属性**只在
+ * Miuix 的 `ThemeOverlay.Preference.*` 里定义**（Compose 那套 `Theme.RomHub`
+ * 继承自 `android:Theme.Material`，完全没有）→ inflate 时会抛
+ * `UnsupportedOperationException: Failed to resolve attribute at index 3` → 点「关于」直接闪退。
+ *
+ * 所以这里套**两层** [ContextThemeWrapper]：
+ *   ① `ProvisionTheme` —— Miuix 的 `Theme.AppCompat.DayNight`，提供基础 Miuix 属性；
+ *   ② `HcAboutOverlay`（= `ThemeOverlay.Preference.DayNight`）—— 补上 preference 系列属性。
+ */
+@Composable
+fun HcAboutCards(modifier: Modifier = Modifier) {
+    Column(modifier.fillMaxWidth()) {
+        AndroidView(
+            factory = { ctx -> VersionCard(themedContext(ctx)) },
+            modifier = Modifier
+                .fillMaxWidth()
+                .wrapContentHeight(),
+        )
+        AndroidView(
+            factory = { ctx -> DeviceInfoCard(themedContext(ctx)) },
+            modifier = Modifier
+                .fillMaxWidth()
+                .wrapContentHeight(),
+        )
+    }
+}
+
+private fun themedContext(ctx: android.content.Context): android.content.Context {
+    val base = ContextThemeWrapper(ctx, R.style.ProvisionTheme)
+    return ContextThemeWrapper(base, R.style.HcAboutOverlay)
+}

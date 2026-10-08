@@ -1,1 +1,120 @@
-PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0ndXRmLTgnPz4KPHJlc291cmNlcz4KICAgIAogICAgPHN0cmluZyBuYW1lPSJ4cG9zZWRfZGVzY3JpcHRpb24iPk1ha2UgSHlwZXJPUyBHcmVhdCBBZ2FpbiE8L3N0cmluZz4KICAgIAogICAgPHN0cmluZyBuYW1lPSJmbG9hdGluZ193aW5kb3ciPuWwj+eqlzwvc3RyaW5nPgogICAgCiAgICA8c3RyaW5nIG5hbWU9InRpbGVzX2dtcyI+R29vZ2xlIFBsYXkg5pyN5YqhPC9zdHJpbmc+CiAgICA8c3RyaW5nIG5hbWU9InRpbGVzX3Nub3dfbGVvcGFyZF9tb2RlIj7pm6rosbnmqKHlvI88L3N0cmluZz4KICAgIDxzdHJpbmcgbmFtZT0idGlsZXNfdGFwbHVzIj7kvKDpgIHpl6g8L3N0cmluZz4KICAgIDxzdHJpbmcgbmFtZT0idGlsZXNfNWciPjVHIOe9kee7nDwvc3RyaW5nPgogICAgPHN0cmluZyBuYW1lPSJzeXN0ZW1fdWlfc3RhdHVzYmFyX211c2ljX3NoYXJlIj7liIbkuqvmrYzor408L3N0cmluZz4KICAgIDxzdHJpbmcgbmFtZT0ic3lzdGVtX3VpX3N0YXR1c2Jhcl9tdXNpY19zZW5kIj7mnb7lvIDljbPlj5HpgIE8L3N0cmluZz4KICAgIDxzdHJpbmcgbmFtZT0ic3lzdGVtX3VpX3N0YXR1c2Jhcl9tdXNpY19zZW5kX3NoYXJlX3RleHQiPuaIkeS7jiUxJHPliIbkuqvkuoblpoLkuIvmrYzor43vvJpcbiUyJHM8L3N0cmluZz4KICAgIDxzdHJpbmcgbmFtZT0ic3lzdGVtX3VpX3N0YXR1c2Jhcl9tdXNpY19ub3RpZmljYXRpb24iPueEpueCuemAmuefpeatjOivjTwvc3RyaW5nPgogICAgPHN0cmluZyBuYW1lPSJvcGVuX2J5X2RlZmF1bHQiPum7mOiupOaJk+W8gDwvc3RyaW5nPgogICAgPHN0cmluZyBuYW1lPSJzZWN1cml0eV9jZW50ZXJfYW9zcF9hcHBfaW5mb19sYWJlbCI+5Y6f55Sf5bqU55So5L+h5oGvPC9zdHJpbmc+CiAgICA8c3RyaW5nIG5hbWU9InNlY3VyaXR5X2NlbnRlcl9hb3NwX2FwcF9pbmZvIj7mt7vliqAgXCLljp/nlJ/lupTnlKjkv6Hmga9cIiDlhaXlj6M8L3N0cmluZz4KICAgIDxzdHJpbmcgbmFtZT0ic2VjdXJpdHlfY2VudGVyX2Fvc3BfYXBwX21hbmFnZXJfbGFiZWwiPuWOn+eUn+W6lOeUqOeuoeeQhjwvc3RyaW5nPgogICAgPHN0cmluZyBuYW1lPSJzZWN1cml0eV9jZW50ZXJfYW9zcF9hcHBfbWFuYWdlciI+5re75YqgIFwi5Y6f55Sf5bqU55So566h55CGXCIg5YWl5Y+jPC9zdHJpbmc+CiAgICA8c3RyaW5nIG5hbWU9InNlY3VyaXR5X2NlbnRlcl9iYXR0ZXJ5X2Rlc2lnbl9jYXBhY2l0eSI+55S15rGg6K6+6K6h5a656YePPC9zdHJpbmc+CiAgICA8c3RyaW5nIG5hbWU9InNlY3VyaXR5X2NlbnRlcl9iYXR0ZXJ5X2Z1bGxfY2FwYWNpdHkiPueUteaxoOWFhea7oeWuuemHjzwvc3RyaW5nPgogICAgPHN0cmluZyBuYW1lPSJzZWN1cml0eV9jZW50ZXJfYmF0dGVyeV9jYXBhY2l0eV9mb3JtYXQiPiUxJGQgbUFoPC9zdHJpbmc+CiAgICA8c3RyaW5nIG5hbWU9ImFwcF9saW5rX29wZW5fYWx3YXlzIj7lhYHorrjlupTnlKjmiZPlvIDmlK/mjIHnmoTpk77mjqU8L3N0cmluZz4KICAgIDxzdHJpbmcgbmFtZT0iYXBwX2xpbmtfb3Blbl9uZXZlciI+5LiN5YWB6K645bqU55So5omT5byA6ZO+5o6lPC9zdHJpbmc+CiAgICA8c3RyaW5nIG5hbWU9ImRhc2hib2FyZF81ZyI+5L2/55SoIDVHIOe9kee7nDwvc3RyaW5nPgogICAgPHN0cmluZyBuYW1lPSJ0aWxlc19zdW5zaGluZV9tb2RlIj7pmLPlhYnmqKHlvI88L3N0cmluZz4KICAgIDxzdHJpbmcgbmFtZT0ic3lzdGVtX2NjX3Nob3dwY3Rfc3R5bGVfMSI+5YaF6IGUPC9zdHJpbmc+CiAgICA8c3RyaW5nIG5hbWU9InN5c3RlbV9jY19zaG93cGN0X3N0eWxlXzIiPuWkluaYvjwvc3RyaW5nPgogICAgPHN0cmluZyBuYW1lPSJtZWRpYV9jb250cm9sX2dyb3VuZF9tb2RlXzEiPuWwgemdouiJuuacrzwvc3RyaW5nPgogICAgPHN0cmluZyBuYW1lPSJtZWRpYV9jb250cm9sX2dyb3VuZF9tb2RlXzIiPuaooeeziuWwgemdojwvc3RyaW5nPgogICAgPHN0cmluZyBuYW1lPSJtZWRpYV9jb250cm9sX2dyb3VuZF9tb2RlXzMiPuW+hOWQkea4kOWPmDwvc3RyaW5nPgogICAgPHN0cmluZyBuYW1lPSJtZWRpYV9jb250cm9sX2dyb3VuZF9tb2RlXzQiPue6v+aAp+a4kOWPmDwvc3RyaW5nPgogICAgPHN0cmluZyBuYW1lPSJtZWRpYV9jb250cm9sX2dyb3VuZF9tb2RlXzUiPuadkOi0qOaooeezijwvc3RyaW5nPgogICAgPHN0cmluZyBuYW1lPSJtZWRpYV9jb250cm9sX2FsYnVtX21vZGVfMSI+6ZqQ6JeP5p2l5rqQ5qCH6K+GPC9zdHJpbmc+CiAgICA8c3RyaW5nIG5hbWU9Im1lZGlhX2NvbnRyb2xfYWxidW1fbW9kZV8yIj7kuI3lj6/op4E8L3N0cmluZz4KICAgIDxzdHJpbmcgbmFtZT0ibWVkaWFfY29udHJvbF9idXR0b25fbW9kZV8xIj7oh6rlrprkuYnmjInpkq7lnKjmnIDlj7Pkvqc8L3N0cmluZz4KICAgIDxzdHJpbmcgbmFtZT0ibWVkaWFfY29udHJvbF9idXR0b25fbW9kZV8yIj7mkq3mlL7mjInpkq7lnKjmnIDlt6bkvqc8L3N0cmluZz4KICAgIDxzdHJpbmcgbmFtZT0ibm90ZXNfdW5sb2NrX2FpX21vZGVfMSI+5pen54mIPC9zdHJpbmc+CiAgICA8c3RyaW5nIG5hbWU9Im5vdGVzX3VubG9ja19haV9tb2RlXzIiPuaWsOeJiDwvc3RyaW5nPgogICAgPHN0cmluZyBuYW1lPSJtb2RlX3Bob25lIj7miYvmnLo8L3N0cmluZz4KICAgIDxzdHJpbmcgbmFtZT0ibW9kZV9wYWQiPuW5s+advzwvc3RyaW5nPgogICAgPHN0cmluZyBuYW1lPSJtaXNvdW5kX2JsdWV0b290aF90eXBlX25vbmUiPuWOn+WjsDwvc3RyaW5nPgogICAgPHN0cmluZyBuYW1lPSJtaXNvdW5kX2JsdWV0b290aF90eXBlX2RvbGJ5Ij7mnZzmr5Tlhajmma/lo7A8L3N0cmluZz4KICAgIDxzdHJpbmcgbmFtZT0ibWlzb3VuZF9ibHVldG9vdGhfdHlwZV9taXNvdW5kIj7lsI/nsbPpn7PmlYgv57Gz6Z+zPC9zdHJpbmc+CiAgICA8c3RyaW5nIG5hbWU9Im1pc291bmRfYmx1ZXRvb3RoX3R5cGVfa2VlcCI+5L+d5oyB5b2T5YmNPC9zdHJpbmc+CiAgICAKICAgIDxzdHJpbmcgbmFtZT0ic3lzdGVtX2ZyYW1ld29ya19waG9uZV9uZXR3b3JrX3RpdGxlIj7nvZHnu5zorr7nva48L3N0cmluZz4KICAgIDxzdHJpbmcgbmFtZT0ic3lzdGVtX3VpX2hpZGVfbmF2aWdhdGlvbl9iYXIiPumakOiXj+aJi+WKv+aPkOekuue6vzwvc3RyaW5nPgogICAgPHN0cmluZyBuYW1lPSJzeXN0ZW1fdWlfaGlkZV9uYXZpZ2F0aW9uX2Jhcl90b2FzdCI+6K+35Yu/5YiH5o2i57uP5YW45a+86Iiq6ZSuPC9zdHJpbmc+CiAgICA8c3RyaW5nIG5hbWU9InN5c3RlbV91aV9oaWRlX25hdmlnYXRpb25fYmFyX3RvYXN0XzIiPuivt+WLv+makOiXj+aJi+WKv+aPkOekuue6vzwvc3RyaW5nPgogICAgPHN0cmluZyBuYW1lPSJzeXN0ZW1fdWlfaGlkZV9uYXZpZ2F0aW9uX2Jhcl9tb3JlIj7or7fph43lkK8gXCLns7vnu5/moYzpnaJcIiDlkowgXCLns7vnu5/nlYzpnaJcIiDkuKTkuKrkvZznlKjln588L3N0cmluZz4KICAgIDxzdHJpbmcgbmFtZT0ic3lzdGVtX2ZyYW1ld29ya19ndWlkZWRfYWNjZXNzX3N0YXR1cyI+5aKe5by65bGP6JS9PC9zdHJpbmc+CiAgICA8c3RyaW5nIG5hbWU9InN5c3RlbV9mcmFtZXdvcmtfZ3VpZGVkX2FjY2Vzc19zdGF0dXNfbW9yZSI+5Zu65a6a5pyf6Ze06ZqQ6JeP54q25oCB5qCP5LiO5omL5Yq/5o+Q56S657q/77yM6YCA5Ye65Zu65a6a5ZCO6Ieq5Yqo5oGi5aSNPC9zdHJpbmc+CiAgICA8c3RyaW5nIG5hbWU9InN5c3RlbV9mcmFtZXdvcmtfZ3VpZGVkX2FjY2Vzc190aWxlIj7mt7vliqDno4HotLQ8L3N0cmluZz4KICAgIDxzdHJpbmcgbmFtZT0ic3lzdGVtX2ZyYW1ld29ya19ndWlkZWRfYWNjZXNzX3RpbGVfbW9yZSI+5re75YqgIOKAnOW8leWvvOW8j+iuv+mXruKAnSDnmoTno4HotLTlhaXlj6M8L3N0cmluZz4KICAgIDxzdHJpbmcgbmFtZT0ic3lzdGVtX2ZyYW1ld29ya19ndWlkZWRfYWNjZXNzX2Jsb2NrX2RpYWxvZyI+5oum5oiq5Zu65a6a5bqU55So5by556qXPC9zdHJpbmc+CiAgICA8c3RyaW5nIG5hbWU9InN5c3RlbV9mcmFtZXdvcmtfZ3VpZGVkX2FjY2Vzc19ibG9ja19kaWFsb2dfbW9yZSI+5oum5oiq5by556qX5Y+v6IO95pyJ5oSP5paZ5LmL5aSW55qE6Zeu6aKYPC9zdHJpbmc+CiAgICA8c3RyaW5nIG5hbWU9InN5c3RlbV9mcmFtZXdvcmtfZ3VpZGVkX2FjY2Vzc19leGl0X2xvY2tzY3JlZW4iPumAgOWHuuWbuuWumuWQjui/m+WFpemUgeWxjzwvc3RyaW5nPgogICAgPHN0cmluZyBuYW1lPSJzeXN0ZW1fZnJhbWV3b3JrX2d1aWRlZF9hY2Nlc3NfZXhpdF9sb2Nrc2NyZWVuX21vcmUiPumAgOWHuuWbuuWumuWQjueri+WNs+i3s+i9rOmUgeWxj+eVjOmdojwvc3RyaW5nPgogICAgPHN0cmluZyBuYW1lPSJzeXN0ZW1fZnJhbWV3b3JrX2d1aWRlZF9hY2Nlc3MiPuW8leWvvOW8j+iuv+mXrjwvc3RyaW5nPgogICAgPHN0cmluZyBuYW1lPSJzeXN0ZW1fZnJhbWV3b3JrX2d1aWRlZF9hY2Nlc3NfbW9yZSI+5L2/55So5pe26ZyA6KaB5ZCM5pe25byA5ZCvIOKAnOezu+e7n+eVjOmdouKAneOAgeKAnOezu+e7n+ahjOmdouKAnSDkvZznlKjln588L3N0cmluZz4KICAgIAogICAgPHN0cmluZyBuYW1lPSJxdWlja19zZXR0aW5nc19zdGF0ZV9jaGFuZ2VfbWVzc2FnZV9vbl9teSI+JTEkc+W3suW8gOWQrzwvc3RyaW5nPgogICAgPHN0cmluZyBuYW1lPSJxdWlja19zZXR0aW5nc19zdGF0ZV9jaGFuZ2VfbWVzc2FnZV9vZmZfbXkiPiUxJHPlt7LlhbPpl608L3N0cmluZz4KICAgIDxzdHJpbmcgbmFtZT0ic3lzdGVtX2NvbnRyb2xfY2VudGVyX3JlZHVjZV9icmlnaHRfY29sb3JzX3RpbGUiPuaegeaalzwvc3RyaW5nPgogICAgPHN0cmluZyBuYW1lPSJzeXN0ZW1fY29udHJvbF9jZW50ZXJfc3Vuc2hpbmVfbW9kZSI+6Ziz5YWJ5qih5byPPC9zdHJpbmc+CiAgICA8c3RyaW5nIG5hbWU9InN5c3RlbV9jb250cm9sX2NlbnRlcl9zdW5zaGluZV9tb2RlX2JyaWdodG5lc3MiPumYs+WFieaooeW8j+S6ruW6pjwvc3RyaW5nPgogICAgPHN0cmluZyBuYW1lPSJzeXN0ZW1fY29udHJvbF9jZW50ZXJfc3Vuc2hpbmVfbW9kZV9icmlnaHRuZXNzX2Rlc2MiPui/h+mrmOeahOS6ruW6puWPr+iDveWvvOiHtOWxj+W5leiAgeWMlu+8jOeDp+Wxj+etieS4jeWPr+mAhuWQjuaenO+8jOW7uuiurumFjOaDhemAieaLqeS6ruW6puWSjOS9v+eUqDwvc3RyaW5nPgogICAgCiAgICA8c3RyaW5nIG5hbWU9InN5c3RlbV9zZXR0aW5nc193aWZpcGFzc3dvcmRfYnRuX3RpdGxlIj7mn6XnnIs8L3N0cmluZz4KICAgIDxzdHJpbmcgbmFtZT0ic3lzdGVtX3NldHRpbmdzX3dpZmlfcGFzc3dvcmRfbGFiZWwiPuWvhueggTwvc3RyaW5nPgogICAgPHN0cmluZyBuYW1lPSJzeXN0ZW1fc2V0dGluZ3Nfd2lmaV9wYXNzd29yZF9kbGd0aXRsZSI+V2lGaSDor6bmg4U8L3N0cmluZz4KICAgIAogICAgPHN0cmluZyBuYW1lPSJtaXNoYXJlIj7lsI/nsbPkupLkvKA8L3N0cmluZz4KICAgIDxzdHJpbmcgbmFtZT0ibWlzaGFyZV9kaXNhYmxlX21pc2hhcmVfYXV0b19vZmYiPuemgeeUqOiHquWKqOWFs+mXreWwj+exs+S6kuS8oDwvc3RyaW5nPgogICAgPHN0cmluZyBuYW1lPSJtaXNoYXJlX2hvb2tfc3dpdGNoX21vZGVfYWxsIj7miYDmnInkuro8L3N0cmluZz4KICAgIAogICAgPHN0cmluZyBuYW1lPSJ0c21jbGllbnQiPuWwj+exs+aZuuiDveWNoTwvc3RyaW5nPgogICAgPHN0cmluZyBuYW1lPSJ0c21jbGllbnRfYXV0b19uZmMiPuiHquWKqOeuoeeQhiBORkM8L3N0cmluZz4KICAgIDxzdHJpbmcgbmFtZT0idHNtY2xpZW50X2F1dG9fbmZjX2Rlc2MiPui/m+WFpeWIt+WNoemhtemdouaXtuiHquWKqOW8gOWQryBORkPvvIzpgIDlh7rml7blsIboh6rliqjlhbPpl608L3N0cmluZz4KICAgIDxzdHJpbmcgbmFtZT0idHNtY2xpZW50X25mY190dXJuaW5nX29uIj7mraPlnKjoh6rliqjlvIDlkK8gTkZDIOKApjwvc3RyaW5nPgogICAgPHN0cmluZyBuYW1lPSJ0c21jbGllbnRfbmZjX3R1cm5fb25fbWFudWFsbHkiPuaJi+WKqOW8gOWQryBORkM8L3N0cmluZz4KICAgIDxzdHJpbmcgbmFtZT0idHNtY2xpZW50X25mY190dXJuX29uX2ZhaWxlZCI+6Ieq5Yqo5byA5ZCvIE5GQyDlpLHotKU8L3N0cmluZz4KCiAgICAKICAgIDxzdHJpbmcgbmFtZT0id2FsbGV0Ij7pkrHljIU8L3N0cmluZz4KICAgIDxzdHJpbmcgbmFtZT0id2FsbGV0X2Rpc2FibGVfc3BsYXNoX2FkIj7np7vpmaTlvIDlsY/lub/lkYo8L3N0cmluZz4KICAgIDxzdHJpbmcgbmFtZT0id2FsbGV0X2Rpc2FibGVfc3BsYXNoX2FkX2Rlc2MiPui3s+i/h+WQr+WKqOmhte+8jOaLpuaIquW5v+WRiuivt+axgjwvc3RyaW5nPgogICAgCiAgICA8c3RyaW5nIG5hbWU9ImFpY3IiPuWwj+exs+a+jua5gyBBSSDlvJXmk448L3N0cmluZz4KICAgIAogICAgPHN0cmluZyBuYW1lPSJ4bXNmIj7lsI/nsbPmnI3liqHmoYbmnrY8L3N0cmluZz4KICAgIDxzdHJpbmcgbmFtZT0ieG1zZl91bmxvY2tfZm91Y3NfYXBwX3NpZ25fd2hpdGVfbGlzdCI+6Kej6ZSB54Sm54K56YCa55+l55m95ZCN5Y2V562+5ZCN6aqM6K+BPC9zdHJpbmc+CiAgICAKICAgIDxzdHJpbmcgbmFtZT0ic2hhcmVfY2VudGVyIj7lsI/nsbPlppnkuqvkuK3lv4M8L3N0cmluZz4KICAgIDxzdHJpbmcgbmFtZT0ibmV3X3Rhc2siPuWkmuW8gDwvc3RyaW5nPgogICAgPHN0cmluZyBuYW1lPSJjdXN0b21faG9vayI+6Ieq5a6a5LmJPC9zdHJpbmc+CiAgICA8c3RyaW5nIG5hbWU9InZhcmlvdXNfaW5zdGFsbF9hcHBfaW5mb192ZXJzaW9uX25hbWUiPueJiOacrOWQjeensDwvc3RyaW5nPgogICAgPHN0cmluZyBuYW1lPSJ2YXJpb3VzX2luc3RhbGxfYXBwX2luZm9fdmVyc2lvbl9jb2RlIj7niYjmnKzku6PnoIE8L3N0cmluZz4KICAgIDxzdHJpbmcgbmFtZT0idmFyaW91c19pbnN0YWxsX2FwcF9pbmZvX3NkayI+5pSv5oyBIFNESzwvc3RyaW5nPgogICAgPHN0cmluZyBuYW1lPSJ2YXJpb3VzX2luc3RhbGxfYXBwX3NpemUiPuW6lOeUqOWkp+Wwjzwvc3RyaW5nPgogICAgPHN0cmluZyBuYW1lPSJhcHBfZGV0YWlsc19wbGF5c3RvcmUiPuS9v+eUqOW6lOeUqOWVhuW6l+aJk+W8gDwvc3RyaW5nPgogICAgPHN0cmluZyBuYW1lPSJhcHBfZGV0YWlsc19sYXVuY2giPuWQr+WKqDwvc3RyaW5nPgogICAgPHN0cmluZyBuYW1lPSJhcHBfZGV0YWlsc19ub2xhdW5jaCI+5bqU55So5rKh5pyJ6buY6K6k5Y+v5ZCv5Yqo55qE5rS75YqoPC9zdHJpbmc+CiAgICA8c3RyaW5nIG5hbWU9ImFwcF9kZXRhaWxzX2Fwa19maWxlIj5BUEsg55uu5b2VPC9zdHJpbmc+CiAgICA8c3RyaW5nIG5hbWU9ImFwcF9kZXRhaWxzX2Fwa192ZXJzaW9uX2NvZGUiPuW6lOeUqOeJiOacrOWPtzwvc3RyaW5nPgogICAgPHN0cmluZyBuYW1lPSJhcHBfZGV0YWlsc19kYXRhX3BhdGgiPuaVsOaNruebruW9lTwvc3RyaW5nPgogICAgPHN0cmluZyBuYW1lPSJhcHBfZGV0YWlsc19hcHBfdWlkIj7nlKjmiLfmoIfor4bnrKY8L3N0cmluZz4KICAgIDxzdHJpbmcgbmFtZT0iYXBwX2RldGFpbHNfc2RrIj7nm67moIcgU0RLIOeJiOacrDwvc3RyaW5nPgogICAgPHN0cmluZyBuYW1lPSJhcHBfZGV0YWlsc19taW5fc2RrIj7mnIDkvY4gU0RLIOeJiOacrDwvc3RyaW5nPgogICAgPHN0cmluZyBuYW1lPSJkaXNhYmxlX2FwcF9zZXR0aW5ncyI+6L+Z5piv5LiA5Liq5Z2P5Li75oSP77yBPC9zdHJpbmc+CiAgICA8c3RyaW5nIG5hbWU9ImRpc2FibGVfYXBwX3RpdGxlIj7noa7lrpropoHnpoHnlKjor6XlupTnlKjlkJfvvJ88L3N0cmluZz4KICAgIDxzdHJpbmcgbmFtZT0iZGlzYWJsZV9hcHBfdGV4dCI+5aaC5p6c6L+Z5piv5LiA5Liq5b+F6KaB55qE57O757uf5bqU55So77yM5bCG5YW256aB55So5Y+v6IO95Lya6YCg5oiQ5o2f5Z2PPC9zdHJpbmc+CiAgICA8c3RyaW5nIG5hbWU9ImRpc2FibGVfYXBwX2ZhaWwiPuabtOaUueW6lOeUqOeKtuaAgeWksei0pTwvc3RyaW5nPgogICAgPHN0cmluZyBuYW1lPSJob21lX3NoYXJlX2Fwa19wcmVwYXJpbmciPuato+WcqOWHhuWkh+aWh+S7tuKApjwvc3RyaW5nPgogICAgPHN0cmluZyBuYW1lPSJob21lX3NoYXJlX2Fwa19wcmVwYXJpbmdfc3BsaXQiPuato+WcqOaJk+WMheWIhuWMhSBBUEvvvIjlhbEgJTEkZCDkuKrmlofku7bvvInigKY8L3N0cmluZz4KICAgIDxzdHJpbmcgbmFtZT0iaG9tZV9zaGFyZV9hcGtfZmFpbGVkIj7liIbkuqvlpLHotKU8L3N0cmluZz4KICAgIDxzdHJpbmcgbmFtZT0iaG9tZV9zaGFyZV9hcGtfcHJlcGFyZV9mYWlsZWQiPuaWh+S7tuWHhuWkh+Wksei0pTwvc3RyaW5nPgo8L3Jlc291cmNlcz4=
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    
+    <string name="xposed_description">Make HyperOS Great Again!</string>
+    
+    <string name="floating_window">小窗</string>
+    
+    <string name="tiles_gms">Google Play 服务</string>
+    <string name="tiles_snow_leopard_mode">雪豹模式</string>
+    <string name="tiles_taplus">传送门</string>
+    <string name="tiles_5g">5G 网络</string>
+    <string name="system_ui_statusbar_music_share">分享歌词</string>
+    <string name="system_ui_statusbar_music_send">松开即发送</string>
+    <string name="system_ui_statusbar_music_send_share_text">我从%1$s分享了如下歌词：\n%2$s</string>
+    <string name="system_ui_statusbar_music_notification">焦点通知歌词</string>
+    <string name="open_by_default">默认打开</string>
+    <string name="security_center_aosp_app_info_label">原生应用信息</string>
+    <string name="security_center_aosp_app_info">添加 \"原生应用信息\" 入口</string>
+    <string name="security_center_aosp_app_manager_label">原生应用管理</string>
+    <string name="security_center_aosp_app_manager">添加 \"原生应用管理\" 入口</string>
+    <string name="security_center_battery_design_capacity">电池设计容量</string>
+    <string name="security_center_battery_full_capacity">电池充满容量</string>
+    <string name="security_center_battery_capacity_format">%1$d mAh</string>
+    <string name="app_link_open_always">允许应用打开支持的链接</string>
+    <string name="app_link_open_never">不允许应用打开链接</string>
+    <string name="dashboard_5g">使用 5G 网络</string>
+    <string name="tiles_sunshine_mode">阳光模式</string>
+    <string name="system_cc_showpct_style_1">内联</string>
+    <string name="system_cc_showpct_style_2">外显</string>
+    <string name="media_control_ground_mode_1">封面艺术</string>
+    <string name="media_control_ground_mode_2">模糊封面</string>
+    <string name="media_control_ground_mode_3">径向渐变</string>
+    <string name="media_control_ground_mode_4">线性渐变</string>
+    <string name="media_control_ground_mode_5">材质模糊</string>
+    <string name="media_control_album_mode_1">隐藏来源标识</string>
+    <string name="media_control_album_mode_2">不可见</string>
+    <string name="media_control_button_mode_1">自定义按钮在最右侧</string>
+    <string name="media_control_button_mode_2">播放按钮在最左侧</string>
+    <string name="notes_unlock_ai_mode_1">旧版</string>
+    <string name="notes_unlock_ai_mode_2">新版</string>
+    <string name="mode_phone">手机</string>
+    <string name="mode_pad">平板</string>
+    <string name="misound_bluetooth_type_none">原声</string>
+    <string name="misound_bluetooth_type_dolby">杜比全景声</string>
+    <string name="misound_bluetooth_type_misound">小米音效/米音</string>
+    <string name="misound_bluetooth_type_keep">保持当前</string>
+    
+    <string name="system_framework_phone_network_title">网络设置</string>
+    <string name="system_ui_hide_navigation_bar">隐藏手势提示线</string>
+    <string name="system_ui_hide_navigation_bar_toast">请勿切换经典导航键</string>
+    <string name="system_ui_hide_navigation_bar_toast_2">请勿隐藏手势提示线</string>
+    <string name="system_ui_hide_navigation_bar_more">请重启 \"系统桌面\" 和 \"系统界面\" 两个作用域</string>
+    <string name="system_framework_guided_access_status">增强屏蔽</string>
+    <string name="system_framework_guided_access_status_more">固定期间隐藏状态栏与手势提示线，退出固定后自动恢复</string>
+    <string name="system_framework_guided_access_tile">添加磁贴</string>
+    <string name="system_framework_guided_access_tile_more">添加 “引导式访问” 的磁贴入口</string>
+    <string name="system_framework_guided_access_block_dialog">拦截固定应用弹窗</string>
+    <string name="system_framework_guided_access_block_dialog_more">拦截弹窗可能有意料之外的问题</string>
+    <string name="system_framework_guided_access_exit_lockscreen">退出固定后进入锁屏</string>
+    <string name="system_framework_guided_access_exit_lockscreen_more">退出固定后立即跳转锁屏界面</string>
+    <string name="system_framework_guided_access">引导式访问</string>
+    <string name="system_framework_guided_access_more">使用时需要同时开启 “系统界面”、“系统桌面” 作用域</string>
+    
+    <string name="quick_settings_state_change_message_on_my">%1$s已开启</string>
+    <string name="quick_settings_state_change_message_off_my">%1$s已关闭</string>
+    <string name="system_control_center_reduce_bright_colors_tile">极暗</string>
+    <string name="system_control_center_sunshine_mode">阳光模式</string>
+    <string name="system_control_center_sunshine_mode_brightness">阳光模式亮度</string>
+    <string name="system_control_center_sunshine_mode_brightness_desc">过高的亮度可能导致屏幕老化，烧屏等不可逆后果，建议酌情选择亮度和使用</string>
+    
+    <string name="system_settings_wifipassword_btn_title">查看</string>
+    <string name="system_settings_wifi_password_label">密码</string>
+    <string name="system_settings_wifi_password_dlgtitle">WiFi 详情</string>
+    
+    <string name="mishare">小米互传</string>
+    <string name="mishare_disable_mishare_auto_off">禁用自动关闭小米互传</string>
+    <string name="mishare_hook_switch_mode_all">所有人</string>
+    
+    <string name="tsmclient">小米智能卡</string>
+    <string name="tsmclient_auto_nfc">自动管理 NFC</string>
+    <string name="tsmclient_auto_nfc_desc">进入刷卡页面时自动开启 NFC，退出时将自动关闭</string>
+    <string name="tsmclient_nfc_turning_on">正在自动开启 NFC …</string>
+    <string name="tsmclient_nfc_turn_on_manually">手动开启 NFC</string>
+    <string name="tsmclient_nfc_turn_on_failed">自动开启 NFC 失败</string>
+
+    
+    <string name="wallet">钱包</string>
+    <string name="wallet_disable_splash_ad">移除开屏广告</string>
+    <string name="wallet_disable_splash_ad_desc">跳过启动页，拦截广告请求</string>
+    
+    <string name="aicr">小米澎湃 AI 引擎</string>
+    
+    <string name="xmsf">小米服务框架</string>
+    <string name="xmsf_unlock_foucs_app_sign_white_list">解锁焦点通知白名单签名验证</string>
+    
+    <string name="share_center">小米妙享中心</string>
+    <string name="new_task">多开</string>
+    <string name="custom_hook">自定义</string>
+    <string name="various_install_app_info_version_name">版本名称</string>
+    <string name="various_install_app_info_version_code">版本代码</string>
+    <string name="various_install_app_info_sdk">支持 SDK</string>
+    <string name="various_install_app_size">应用大小</string>
+    <string name="app_details_playstore">使用应用商店打开</string>
+    <string name="app_details_launch">启动</string>
+    <string name="app_details_nolaunch">应用没有默认可启动的活动</string>
+    <string name="app_details_apk_file">APK 目录</string>
+    <string name="app_details_apk_version_code">应用版本号</string>
+    <string name="app_details_data_path">数据目录</string>
+    <string name="app_details_app_uid">用户标识符</string>
+    <string name="app_details_sdk">目标 SDK 版本</string>
+    <string name="app_details_min_sdk">最低 SDK 版本</string>
+    <string name="disable_app_settings">这是一个坏主意！</string>
+    <string name="disable_app_title">确定要禁用该应用吗？</string>
+    <string name="disable_app_text">如果这是一个必要的系统应用，将其禁用可能会造成损坏</string>
+    <string name="disable_app_fail">更改应用状态失败</string>
+    <string name="home_share_apk_preparing">正在准备文件…</string>
+    <string name="home_share_apk_preparing_split">正在打包分包 APK（共 %1$d 个文件）…</string>
+    <string name="home_share_apk_failed">分享失败</string>
+    <string name="home_share_apk_prepare_failed">文件准备失败</string>
+</resources>

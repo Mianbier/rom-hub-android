@@ -1,1 +1,4 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHJlc291cmNlcz4KICAgIDxzdHlsZSBuYW1lPSJJdGVtVmlld1N0eWxlLkRheU5pZ2h0IiBwYXJlbnQ9Ikl0ZW1WaWV3U3R5bGUuRGFyayIgLz4KPC9yZXNvdXJjZXM+
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ItemViewStyle.DayNight" parent="ItemViewStyle.Dark" />
+</resources>

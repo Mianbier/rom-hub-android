@@ -1,1 +1,72 @@
-cGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLmRhdGEuYnJhbmQNCg0KLyoqDQogKiDlk4HniYzlvZLlsZ7vvJrlhrPlrprjgIzniYjmnKzliJfooajku47lk6rmnaXjgI3lkozjgIzkuIvovb3nm7Tpk77mgI7kuYjmi7/jgI3jgIINCiAqDQogKiDlhbPplK7orqTor4bvvIgyMDI2LTEwIOiwg+eglOe7k+iuuu+8ie+8mg0KICogIC0g5YiX6KGo55SoIFtPcHVzSW5kZXhd77yIb3B1c3JvbS50b3Ag55qE6Z2Z5oCBIGpz77yM5YWN562+5ZCN44CB5YWN55m75b2V44CBOSDlk4HniYwgMzU5Njgg5p2h77yJDQogKiAgLSDnm7Tpk77kvJjlhYjotbAqKuWOguWVhuWumOaWuSBPVEEg5o6l5Y+jKirvvIhbQ29sb3JPdGFBcGldIC8gW1Zpdm9PdGFBcGld77yJ77yMDQogKiAgICDml6Dku7vkvZXkurrmnLrpqozor4HjgIHkuI3kvJrooqvlsIEgSVDvvJvmi7/kuI3liLDml7blho3lm57okL3liLAgT3B1cyDnm7Tpk77op6PmnpDjgIINCiAqLw0KZW51bSBjbGFzcyBCcmFuZEZhbWlseSB7DQogICAgLyoqIOWwj+exsyAvIFJlZG1pIOKAlOKAlCBST00gSHViIOiHquacieaVsOaNrua6kO+8jOi1sOWOn+adpeeahOiuvuWkh+mhtSAqLw0KICAgIFhJQU9NSSwNCg0KICAgIC8qKiBPUFBPIC8g5LiA5YqgIC8g55yf5oiRIOKAlOKAlCBDb2xvck9TIOWumOaWuSBgY29tcG9uZW50LW90YS0qYCDmjqXlj6MgKi8NCiAgICBDT0xPUl9PUywNCg0KICAgIC8qKiB2aXZvIC8gaVFPTyDigJTigJQgT3JpZ2luT1Mg5a6Y5pa5IGBzeXN1cGdyYWRlLnZpdm8uY29tLmNuYCDmjqXlj6MgKi8NCiAgICBPUklHSU5fT1MsDQoNCiAgICAvKiog6a2F5pePIC8g57qi6a2UIC8g6IGU5oOzIOKAlOKAlCDliJfooajotbAgT3B1c++8jOebtOmTvuWbnuiQveWIsOa6kOermSAqLw0KICAgIE9USEVSLA0KfQ0KDQovKioNCiAqIOS4gOS4quWTgeeJjOOAgg0KICoNCiAqIEBwYXJhbSBrZXkgICAgICBPcHVzIOS+p+eahOWTgeeJjOmUru+8iGBkYXRhL3JvbXNfe2tleX0uanNg77yJDQogKiBAcGFyYW0gbmFtZVpoICAg5bGV56S65ZCNDQogKiBAcGFyYW0gZmFtaWx5ICAg5pWw5o2u5rqQ5b2S5bGeDQogKiBAcGFyYW0gY29sb3IgICAg5ZOB54mM5Li76Imy77yI5ZOB54mM5qCH5Z2X55qE5bqV6Imy77yM5bC96YeP6LS06L+R6K+l5ZOB54mM6Ieq5bex55qE5Li76Imy77yJDQogKiBAcGFyYW0gd29yZG1hcmsg5ZOB54mM5qCH5Z2X6YeM55qE5a2X5qCH44CC5ZOB54mM6aG15LiK5bCx6Z2g44CM5Li76ImyICsg5a2X5qCH44CN5ou85Ye65ZOB54mM5Zu+IOKAlOKAlA0KICogICAgICAgICAgICAgICAgIOemu+e6v+WPr+eUqOOAgeS4jeS+nei1luS7u+S9leWklumTvuWbvuW6iu+8jOS5n+S4jeeUqOWOu+aQrOWIq+S6uueahOWVhuagh+e0oOadkOOAgg0KICogICAgICAgICAgICAgICAgIDF+MiDkuKrlrZfnrKbkvJrmlL7lpKfmmL7npLrvvIjlpoIgTUkgLyAxK++8ie+8jOmVv+Wtl+agh+iHquWKqOe8qeWPt++8iOWmgiBSRURNQUdJQ++8ieOAgg0KICovDQpkYXRhIGNsYXNzIEJyYW5kKA0KICAgIHZhbCBrZXk6IFN0cmluZywNCiAgICB2YWwgbmFtZVpoOiBTdHJpbmcsDQogICAgdmFsIGZhbWlseTogQnJhbmRGYW1pbHksDQogICAgdmFsIGNvbG9yOiBMb25nLA0KICAgIHZhbCB3b3JkbWFyazogU3RyaW5nLA0KKSB7DQogICAgLyoqIOmmlumhteaYr+WQpui/myBST00gSHViIOWOn+acieeahOiuvuWkh+mhte+8iOWPquacieWwj+exs+aYr++8iSAqLw0KICAgIHZhbCB1c2VOYXRpdmVTb3VyY2U6IEJvb2xlYW4gZ2V0KCkgPSBmYW1pbHkgPT0gQnJhbmRGYW1pbHkuWElBT01JDQp9DQoNCi8qKg0KICog5ZOB54mM5riF5Y2V44CCDQogKg0KICog6aG65bqP5Y2z6aaW6aG15bGV56S66aG65bqP77ya5bCP57Gz5omT5aS077yI55So5oi35pyA5bi455So77yJ77yM5YW25L2Z5oyJIENvbG9yT1Mg4oaSIE9yaWdpbk9TIOKGkiDlhbbku5bmjpLjgIINCiAqIOaVsOaNrumHj+WPguiAgyBPcHVzIOeahCBgUk9NU19TVU1NQVJZLnRvdGFsc2DvvJo5IOWTgeeJjCAvIDExNTkg5py65Z6LIC8gMzU5Njgg5LiqIFJPTeOAgg0KICovDQpvYmplY3QgQnJhbmRDYXRhbG9nIHsNCg0KICAgIHZhbCBhbGw6IExpc3Q8QnJhbmQ+ID0gbGlzdE9mKA0KICAgICAgICBCcmFuZCgieGlhb21pIiwgIuWwj+exsyIsIEJyYW5kRmFtaWx5LlhJQU9NSSwgMHhGRkZGNjkwMCwgIk1JIiksDQogICAgICAgIEJyYW5kKCJyZWRtaSIsICJSZWRtaSIsIEJyYW5kRmFtaWx5LlhJQU9NSSwgMHhGRkZGM0IzMCwgIlJlZG1pIiksDQogICAgICAgIEJyYW5kKCJvcHBvIiwgIk9QUE8iLCBCcmFuZEZhbWlseS5DT0xPUl9PUywgMHhGRjFCQTc4NCwgIk9QUE8iKSwNCiAgICAgICAgQnJhbmQoIm9uZXBsdXMiLCAi5LiA5YqgIiwgQnJhbmRGYW1pbHkuQ09MT1JfT1MsIDB4RkZFQjAwMjgsICIxKyIpLA0KICAgICAgICBCcmFuZCgicmVhbG1lIiwgIuecn+aIkSIsIEJyYW5kRmFtaWx5LkNPTE9SX09TLCAweEZGRkZDOTE1LCAicmVhbG1lIiksDQogICAgICAgIEJyYW5kKCJ2aXZvIiwgInZpdm8iLCBCcmFuZEZhbWlseS5PUklHSU5fT1MsIDB4RkY0MTVGRkYsICJ2aXZvIiksDQogICAgICAgIEJyYW5kKCJpcW9vIiwgImlRT08iLCBCcmFuZEZhbWlseS5PUklHSU5fT1MsIDB4RkYwRDlCRkYsICJpUU9PIiksDQogICAgICAgIEJyYW5kKCJtZWl6dSIsICLprYXml48iLCBCcmFuZEZhbWlseS5PVEhFUiwgMHhGRjAwQTBFOSwgIk1FSVpVIiksDQogICAgICAgIEJyYW5kKCJyZWRtYWdpYyIsICLnuqLprZQiLCBCcmFuZEZhbWlseS5PVEhFUiwgMHhGRkQwMDIxQiwgIlJFRE1BR0lDIiksDQogICAgICAgIEJyYW5kKCJsZW5vdm8iLCAi6IGU5oOzIiwgQnJhbmRGYW1pbHkuT1RIRVIsIDB4RkZBNTFDMzAsICJMZW5vdm8iKSwNCiAgICApDQoNCiAgICAvKiog6aaW6aG155yf5q2j6KaB5bGV56S655qE77yI5bCP57Gz5ZKMIFJlZG1pIOWFseeUqOS4gOS4quWFpeWPo++8jOi/memHjOWPqueVmeS4gOS4quOAjOWwj+exs+OAje+8ieOAgiAqLw0KICAgIHZhbCBob21lQnJhbmRzOiBMaXN0PEJyYW5kPiBnZXQoKSA9IGFsbC5maWx0ZXIgeyBpdC5rZXkgIT0gInJlZG1pIiB9DQoNCiAgICBmdW4gYnlLZXkoa2V5OiBTdHJpbmcpOiBCcmFuZD8gPSBhbGwuZmlyc3RPck51bGwgeyBpdC5rZXkuZXF1YWxzKGtleSwgaWdub3JlQ2FzZSA9IHRydWUpIH0NCn0NCg==
+package org.linbaogu.romhub.data.brand
+
+/**
+ * 品牌归属：决定「版本列表从哪来」和「下载直链怎么拿」。
+ *
+ * 关键认识（2026-10 调研结论）：
+ *  - 列表用 [OpusIndex]（opusrom.top 的静态 js，免签名、免登录、9 品牌 35968 条）
+ *  - 直链优先走**厂商官方 OTA 接口**（[ColorOtaApi] / [VivoOtaApi]），
+ *    无任何人机验证、不会被封 IP；拿不到时再回落到 Opus 直链解析。
+ */
+enum class BrandFamily {
+    /** 小米 / Redmi —— ROM Hub 自有数据源，走原来的设备页 */
+    XIAOMI,
+
+    /** OPPO / 一加 / 真我 —— ColorOS 官方 `component-ota-*` 接口 */
+    COLOR_OS,
+
+    /** vivo / iQOO —— OriginOS 官方 `sysupgrade.vivo.com.cn` 接口 */
+    ORIGIN_OS,
+
+    /** 魅族 / 红魔 / 联想 —— 列表走 Opus，直链回落到源站 */
+    OTHER,
+}
+
+/**
+ * 一个品牌。
+ *
+ * @param key      Opus 侧的品牌键（`data/roms_{key}.js`）
+ * @param nameZh   展示名
+ * @param family   数据源归属
+ * @param color    品牌主色（品牌标块的底色，尽量贴近该品牌自己的主色）
+ * @param wordmark 品牌标块里的字标。品牌页上就靠「主色 + 字标」拼出品牌图 ——
+ *                 离线可用、不依赖任何外链图床，也不用去搬别人的商标素材。
+ *                 1~2 个字符会放大显示（如 MI / 1+），长字标自动缩号（如 REDMAGIC）。
+ */
+data class Brand(
+    val key: String,
+    val nameZh: String,
+    val family: BrandFamily,
+    val color: Long,
+    val wordmark: String,
+) {
+    /** 首页是否进 ROM Hub 原有的设备页（只有小米是） */
+    val useNativeSource: Boolean get() = family == BrandFamily.XIAOMI
+}
+
+/**
+ * 品牌清单。
+ *
+ * 顺序即首页展示顺序：小米打头（用户最常用），其余按 ColorOS → OriginOS → 其他排。
+ * 数据量参考 Opus 的 `ROMS_SUMMARY.totals`：9 品牌 / 1159 机型 / 35968 个 ROM。
+ */
+object BrandCatalog {
+
+    val all: List<Brand> = listOf(
+        Brand("xiaomi", "小米", BrandFamily.XIAOMI, 0xFFFF6900, "MI"),
+        Brand("redmi", "Redmi", BrandFamily.XIAOMI, 0xFFFF3B30, "Redmi"),
+        Brand("oppo", "OPPO", BrandFamily.COLOR_OS, 0xFF1BA784, "OPPO"),
+        Brand("oneplus", "一加", BrandFamily.COLOR_OS, 0xFFEB0028, "1+"),
+        Brand("realme", "真我", BrandFamily.COLOR_OS, 0xFFFFC915, "realme"),
+        Brand("vivo", "vivo", BrandFamily.ORIGIN_OS, 0xFF415FFF, "vivo"),
+        Brand("iqoo", "iQOO", BrandFamily.ORIGIN_OS, 0xFF0D9BFF, "iQOO"),
+        Brand("meizu", "魅族", BrandFamily.OTHER, 0xFF00A0E9, "MEIZU"),
+        Brand("redmagic", "红魔", BrandFamily.OTHER, 0xFFD0021B, "REDMAGIC"),
+        Brand("lenovo", "联想", BrandFamily.OTHER, 0xFFA51C30, "Lenovo"),
+    )
+
+    /** 首页真正要展示的（小米和 Redmi 共用一个入口，这里只留一个「小米」）。 */
+    val homeBrands: List<Brand> get() = all.filter { it.key != "redmi" }
+
+    fun byKey(key: String): Brand? = all.firstOrNull { it.key.equals(key, ignoreCase = true) }
+}

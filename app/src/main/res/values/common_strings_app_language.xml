@@ -1,1 +1,20 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHJlc291cmNlcz4KICAgIDxzdHJpbmcgbmFtZT0ic2V0dGluZ3NfYXBwX2VuIiB0cmFuc2xhdGFibGU9ImZhbHNlIj5FbmdsaXNoPC9zdHJpbmc+CiAgICA8c3RyaW5nIG5hbWU9InNldHRpbmdzX2FwcF96aF9jbiIgdHJhbnNsYXRhYmxlPSJmYWxzZSI+566A5L2T5Lit5paHPC9zdHJpbmc+CiAgICA8c3RyaW5nIG5hbWU9InNldHRpbmdzX2FwcF96aF90dyIgdHJhbnNsYXRhYmxlPSJmYWxzZSI+57mB6auU5Lit5paHICjlj7DngaMpPC9zdHJpbmc+CiAgICA8c3RyaW5nIG5hbWU9InNldHRpbmdzX2FwcF96aF9oayIgdHJhbnNsYXRhYmxlPSJmYWxzZSI+57mB6auU5Lit5paHICjpppnmuK8pPC9zdHJpbmc+CiAgICA8c3RyaW5nIG5hbWU9InNldHRpbmdzX2FwcF9qYV9qcCIgdHJhbnNsYXRhYmxlPSJmYWxzZSI+5pel5pys6KqePC9zdHJpbmc+CiAgICA8c3RyaW5nIG5hbWU9InNldHRpbmdzX2FwcF9wbF9wbCIgdHJhbnNsYXRhYmxlPSJmYWxzZSI+UG9sc2tpPC9zdHJpbmc+CiAgICA8c3RyaW5nIG5hbWU9InNldHRpbmdzX2FwcF9ydV9ydSIgdHJhbnNsYXRhYmxlPSJmYWxzZSI+0KDRg9GB0YHQutC40Lk8L3N0cmluZz4KICAgIDxzdHJpbmcgbmFtZT0ic2V0dGluZ3NfYXBwX2FyX3NhIiB0cmFuc2xhdGFibGU9ImZhbHNlIj7Yp9mE2LnYsdio2YrYqTwvc3RyaW5nPgogICAgPHN0cmluZyBuYW1lPSJzZXR0aW5nc19hcHBfZXNfZXMiIHRyYW5zbGF0YWJsZT0iZmFsc2UiPkVzcGHDsW9sPC9zdHJpbmc+CiAgICA8c3RyaW5nIG5hbWU9InNldHRpbmdzX2FwcF9wdF9iciIgdHJhbnNsYXRhYmxlPSJmYWxzZSI+UG9ydHVndcOqcyAoQnJhc2lsKTwvc3RyaW5nPgogICAgPHN0cmluZyBuYW1lPSJzZXR0aW5nc19hcHBfaW5faWQiIHRyYW5zbGF0YWJsZT0iZmFsc2UiPkJhaGFzYSBJbmRvbmVzaWE8L3N0cmluZz4KICAgIDxzdHJpbmcgbmFtZT0ic2V0dGluZ3NfYXBwX3RyX3RyIiB0cmFuc2xhdGFibGU9ImZhbHNlIj5Uw7xya8OnZTwvc3RyaW5nPgogICAgPHN0cmluZyBuYW1lPSJzZXR0aW5nc19hcHBfdmlfdm4iIHRyYW5zbGF0YWJsZT0iZmFsc2UiPlRp4bq/bmcgVmnhu4d0PC9zdHJpbmc+CiAgICA8c3RyaW5nIG5hbWU9InNldHRpbmdzX2FwcF9pdF9pdCIgdHJhbnNsYXRhYmxlPSJmYWxzZSI+SXRhbGlhbm88L3N0cmluZz4KICAgIDxzdHJpbmcgbmFtZT0ic2V0dGluZ3NfYXBwX2RlX2RlIiB0cmFuc2xhdGFibGU9ImZhbHNlIj5EZXV0c2NoPC9zdHJpbmc+CiAgICA8c3RyaW5nIG5hbWU9InNldHRpbmdzX2FwcF91a191YSIgdHJhbnNsYXRhYmxlPSJmYWxzZSI+0YPQutGA0LDRl9C90YHRjNC60LAg0LzQvtCy0LA8L3N0cmluZz4KICAgIDxzdHJpbmcgbmFtZT0ic2V0dGluZ3NfYXBwX3poX21lIiB0cmFuc2xhdGFibGU9ImZhbHNlIj7mopfkvZPkuK3mloc8L3N0cmluZz4KPC9yZXNvdXJjZXM+Cg==
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_app_en" translatable="false">English</string>
+    <string name="settings_app_zh_cn" translatable="false">简体中文</string>
+    <string name="settings_app_zh_tw" translatable="false">繁體中文 (台灣)</string>
+    <string name="settings_app_zh_hk" translatable="false">繁體中文 (香港)</string>
+    <string name="settings_app_ja_jp" translatable="false">日本語</string>
+    <string name="settings_app_pl_pl" translatable="false">Polski</string>
+    <string name="settings_app_ru_ru" translatable="false">Русский</string>
+    <string name="settings_app_ar_sa" translatable="false">العربية</string>
+    <string name="settings_app_es_es" translatable="false">Español</string>
+    <string name="settings_app_pt_br" translatable="false">Português (Brasil)</string>
+    <string name="settings_app_in_id" translatable="false">Bahasa Indonesia</string>
+    <string name="settings_app_tr_tr" translatable="false">Türkçe</string>
+    <string name="settings_app_vi_vn" translatable="false">Tiếng Việt</string>
+    <string name="settings_app_it_it" translatable="false">Italiano</string>
+    <string name="settings_app_de_de" translatable="false">Deutsch</string>
+    <string name="settings_app_uk_ua" translatable="false">українська мова</string>
+    <string name="settings_app_zh_me" translatable="false">梗体中文</string>
+</resources>

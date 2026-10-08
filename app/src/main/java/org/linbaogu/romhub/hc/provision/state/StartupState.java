@@ -1,1 +1,93 @@
-LyoKICogVGhpcyBmaWxlIGlzIHBhcnQgb2YgUk9NIEh1YiwgcmVsZWFzZWQgdW5kZXIgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSB2My4wLgogKgogKiDmnKzmlofku7bnp7vmpI0gLyDmlLnlhpnoh6ogSHlwZXJDZWlsZXLvvIhBR1BMLTMuMO+8jENvcHlyaWdodCAoQykgMjAyMy0yMDI2IEh5cGVyQ2VpbGVyCiAqIENvbnRyaWJ1dGlvbnPvvInvvIzmiJbkuLrlhbbnrYnku7fmm7/ouqvlrp7njrAg4oCU4oCUIOWujOaVtOadpea6kOS4jum4o+iwouingemhueebruagueebruW9lSBOT1RJQ0UubWTjgIIKICoKICogVGhpcyBwcm9ncmFtIGlzIGZyZWUgc29mdHdhcmU6IHlvdSBjYW4gcmVkaXN0cmlidXRlIGl0IGFuZC9vciBtb2RpZnkgaXQgdW5kZXIgdGhlIHRlcm1zCiAqIG9mIHRoZSBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UgYXMgcHVibGlzaGVkIGJ5IHRoZSBGcmVlIFNvZnR3YXJlIEZvdW5kYXRpb24sCiAqIGVpdGhlciB2ZXJzaW9uIDMgb2YgdGhlIExpY2Vuc2UuCiAqCiAqIFRoaXMgcHJvZ3JhbSBpcyBkaXN0cmlidXRlZCBpbiB0aGUgaG9wZSB0aGF0IGl0IHdpbGwgYmUgdXNlZnVsLCBidXQgV0lUSE9VVCBBTlkgV0FSUkFOVFk7CiAqIHdpdGhvdXQgZXZlbiB0aGUgaW1wbGllZCB3YXJyYW50eSBvZiBNRVJDSEFOVEFCSUxJVFkgb3IgRklUTkVTUyBGT1IgQSBQQVJUSUNVTEFSIFBVUlBPU0UuCiAqIFNlZSB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGZvciBtb3JlIGRldGFpbHMuCiAqCiAqIFlvdSBzaG91bGQgaGF2ZSByZWNlaXZlZCBhIGNvcHkgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBhbG9uZyB3aXRoIHRoaXMKICogcHJvZ3JhbS4gIElmIG5vdCwgc2VlIDxodHRwczovL3d3dy5nbnUub3JnL2xpY2Vuc2VzLz4uCiAqLwoKcGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLmhjLnByb3Zpc2lvbi5zdGF0ZTsKCmltcG9ydCBhbmRyb2lkLnZpZXcuS2V5RXZlbnQ7CgppbXBvcnQgYW5kcm9pZHguZnJhZ21lbnQuYXBwLkZyYWdtZW50OwppbXBvcnQgYW5kcm9pZHguZnJhZ21lbnQuYXBwLkZyYWdtZW50TWFuYWdlcjsKaW1wb3J0IGFuZHJvaWR4LmZyYWdtZW50LmFwcC5GcmFnbWVudFRyYW5zYWN0aW9uOwoKaW1wb3J0IG9yZy5saW5iYW9ndS5yb21odWIuUjsKaW1wb3J0IG9yZy5saW5iYW9ndS5yb21odWIuaGMucHJvdmlzaW9uLmFjdGl2aXR5LkRlZmF1bHRBY3Rpdml0eTsKaW1wb3J0IG9yZy5saW5iYW9ndS5yb21odWIuaGMucHJvdmlzaW9uLmZyYWdtZW50LlN0YXJ0dXBGcmFnbWVudDsKaW1wb3J0IG9yZy5saW5iYW9ndS5yb21odWIuaGMucHJvdmlzaW9uLnV0aWxzLklLZXlFdmVudDsKaW1wb3J0IG9yZy5saW5iYW9ndS5yb21odWIuaGMucHJvdmlzaW9uLnV0aWxzLklPbkZvY3VzTGlzdGVuZXI7CgpwdWJsaWMgY2xhc3MgU3RhcnR1cFN0YXRlIGV4dGVuZHMgU3RhdGUgaW1wbGVtZW50cyBJS2V5RXZlbnQsIElPbkZvY3VzTGlzdGVuZXIgewoKICAgIHByaXZhdGUgYm9vbGVhbiBtSGFzQm9vdGVkOwogICAgcHJpdmF0ZSBGcmFnbWVudC5TYXZlZFN0YXRlIG1TYXZlZFN0YXRlOwogICAgcHJpdmF0ZSBTdGFydHVwRnJhZ21lbnQgbVN0YXJ0dXBGcmFnbWVudDsKCiAgICBwdWJsaWMgdm9pZCBzZXRCb290ZWQoYm9vbGVhbiBib290ZWQpIHsKICAgICAgICBtSGFzQm9vdGVkID0gYm9vdGVkOwogICAgfQoKICAgIEBPdmVycmlkZQogICAgcHVibGljIGJvb2xlYW4gaXNBdmFpbGFibGUoYm9vbGVhbiBhdmFpbGFibGUpIHsKICAgICAgICByZXR1cm4gdHJ1ZTsKICAgIH0KCiAgICBAT3ZlcnJpZGUKICAgIHB1YmxpYyB2b2lkIG9uRW50ZXIoYm9vbGVhbiB6LCBib29sZWFuIHoyKSB7CiAgICAgICAgRnJhZ21lbnRNYW5hZ2VyIGZyYWdtZW50TWFuYWdlciA9ICgoRGVmYXVsdEFjdGl2aXR5KSBtQ29udGV4dCkuZ2V0U3VwcG9ydEZyYWdtZW50TWFuYWdlcigpOwogICAgICAgIEZyYWdtZW50IGZyYWdtZW50ID0gZnJhZ21lbnRNYW5hZ2VyLmZpbmRGcmFnbWVudEJ5VGFnKFN0YXJ0dXBGcmFnbWVudC5jbGFzcy5nZXRTaW1wbGVOYW1lKCkpOwogICAgICAgIGlmIChmcmFnbWVudCBpbnN0YW5jZW9mIFN0YXJ0dXBGcmFnbWVudCBzdGFydHVwRnJhZ21lbnQpIHsKICAgICAgICAgICAgbVN0YXJ0dXBGcmFnbWVudCA9IHN0YXJ0dXBGcmFnbWVudDsKICAgICAgICAgICAgcmV0dXJuOwogICAgICAgIH0KICAgICAgICBtU3RhcnR1cEZyYWdtZW50ID0gbmV3IFN0YXJ0dXBGcmFnbWVudCgpOwogICAgICAgIGlmIChtU2F2ZWRTdGF0ZSAhPSBudWxsKSB7CiAgICAgICAgICAgIG1TdGFydHVwRnJhZ21lbnQuc2V0SW5pdGlhbFNhdmVkU3RhdGUobVNhdmVkU3RhdGUpOwogICAgICAgIH0KICAgICAgICBidWlsZFN0YXJ0dXBGcmFnbWVudChtU3RhcnR1cEZyYWdtZW50LCBmcmFnbWVudE1hbmFnZXIpOwogICAgfQoKICAgIEBPdmVycmlkZQogICAgcHVibGljIHZvaWQgb25MZWF2ZSgpIHsKICAgICAgICBGcmFnbWVudE1hbmFnZXIgc3VwcG9ydEZyYWdtZW50TWFuYWdlciA9ICgoRGVmYXVsdEFjdGl2aXR5KSBtQ29udGV4dCkuZ2V0U3VwcG9ydEZyYWdtZW50TWFuYWdlcigpOwogICAgICAgIEZyYWdtZW50IGZyYWdtZW50QnlUYWcgPSBzdXBwb3J0RnJhZ21lbnRNYW5hZ2VyLmZpbmRGcmFnbWVudEJ5VGFnKFN0YXJ0dXBGcmFnbWVudC5jbGFzcy5nZXRTaW1wbGVOYW1lKCkpOwogICAgICAgIGlmIChmcmFnbWVudEJ5VGFnICE9IG51bGwpIHsKICAgICAgICAgICAgbVNhdmVkU3RhdGUgPSBzdXBwb3J0RnJhZ21lbnRNYW5hZ2VyLnNhdmVGcmFnbWVudEluc3RhbmNlU3RhdGUoc3VwcG9ydEZyYWdtZW50TWFuYWdlci5maW5kRnJhZ21lbnRCeVRhZyhTdGFydHVwRnJhZ21lbnQuY2xhc3MuZ2V0U2ltcGxlTmFtZSgpKSk7CiAgICAgICAgICAgIEZyYWdtZW50VHJhbnNhY3Rpb24gYmVnaW5UcmFuc2FjdGlvbiA9IHN1cHBvcnRGcmFnbWVudE1hbmFnZXIuYmVnaW5UcmFuc2FjdGlvbigpOwogICAgICAgICAgICBiZWdpblRyYW5zYWN0aW9uLnNldEN1c3RvbUFuaW1hdGlvbnMoMCwgUi5hbmltLnByb3Zpc2lvbl9zbGlkZV9vdXRfbGVmdF9hbmltYXRvcik7CiAgICAgICAgICAgIGJlZ2luVHJhbnNhY3Rpb24ucmVtb3ZlKGZyYWdtZW50QnlUYWcpOwogICAgICAgICAgICBiZWdpblRyYW5zYWN0aW9uLmNvbW1pdEFsbG93aW5nU3RhdGVMb3NzKCk7CiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgdm9pZCBidWlsZFN0YXJ0dXBGcmFnbWVudChGcmFnbWVudCBmcmFnbWVudCwgRnJhZ21lbnRNYW5hZ2VyIGZyYWdtZW50TWFuYWdlcikgewogICAgICAgIEZyYWdtZW50VHJhbnNhY3Rpb24gYmVnaW5UcmFuc2FjdGlvbiA9IGZyYWdtZW50TWFuYWdlci5iZWdpblRyYW5zYWN0aW9uKCk7CiAgICAgICAgYmVnaW5UcmFuc2FjdGlvbi5yZXBsYWNlKGFuZHJvaWQuUi5pZC5jb250ZW50LCBmcmFnbWVudCwgU3RhcnR1cEZyYWdtZW50LmNsYXNzLmdldFNpbXBsZU5hbWUoKSk7CiAgICAgICAgYmVnaW5UcmFuc2FjdGlvbi5jb21taXRBbGxvd2luZ1N0YXRlTG9zcygpOwogICAgfQoKICAgIEBPdmVycmlkZQogICAgcHVibGljIHZvaWQga2V5RG93bkRpc3BhdGNoZXIoaW50IGtleUNvZGUsIEtleUV2ZW50IGV2ZW50KSB7CgogICAgfQoKICAgIEBPdmVycmlkZQogICAgcHVibGljIHZvaWQgb25XaW5kb3dGb2N1c0NoYW5nZWQoYm9vbGVhbiBoYXNGb2N1cykgewogICAgICAgIGlmIChtU3RhcnR1cEZyYWdtZW50ICE9IG51bGwpIHsKICAgICAgICAgICAgbVN0YXJ0dXBGcmFnbWVudC5vbldpbmRvd0ZvY3VzQ2hhbmdlZChoYXNGb2N1cyk7CiAgICAgICAgfQogICAgfQp9Cg==
+/*
+ * This file is part of ROM Hub, released under the GNU Affero General Public License v3.0.
+ *
+ * 本文件移植 / 改写自 HyperCeiler（AGPL-3.0，Copyright (C) 2023-2026 HyperCeiler
+ * Contributions），或为其等价替身实现 —— 完整来源与鸣谢见项目根目录 NOTICE.md。
+ *
+ * This program is free software: you can redistribute it and/or modify it under the terms
+ * of the GNU Affero General Public License as published by the Free Software Foundation,
+ * either version 3 of the License.
+ *
+ * This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+ * without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * See the GNU Affero General Public License for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License along with this
+ * program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
+package org.linbaogu.romhub.hc.provision.state;
+
+import android.view.KeyEvent;
+
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
+
+import org.linbaogu.romhub.R;
+import org.linbaogu.romhub.hc.provision.activity.DefaultActivity;
+import org.linbaogu.romhub.hc.provision.fragment.StartupFragment;
+import org.linbaogu.romhub.hc.provision.utils.IKeyEvent;
+import org.linbaogu.romhub.hc.provision.utils.IOnFocusListener;
+
+public class StartupState extends State implements IKeyEvent, IOnFocusListener {
+
+    private boolean mHasBooted;
+    private Fragment.SavedState mSavedState;
+    private StartupFragment mStartupFragment;
+
+    public void setBooted(boolean booted) {
+        mHasBooted = booted;
+    }
+
+    @Override
+    public boolean isAvailable(boolean available) {
+        return true;
+    }
+
+    @Override
+    public void onEnter(boolean z, boolean z2) {
+        FragmentManager fragmentManager = ((DefaultActivity) mContext).getSupportFragmentManager();
+        Fragment fragment = fragmentManager.findFragmentByTag(StartupFragment.class.getSimpleName());
+        if (fragment instanceof StartupFragment startupFragment) {
+            mStartupFragment = startupFragment;
+            return;
+        }
+        mStartupFragment = new StartupFragment();
+        if (mSavedState != null) {
+            mStartupFragment.setInitialSavedState(mSavedState);
+        }
+        buildStartupFragment(mStartupFragment, fragmentManager);
+    }
+
+    @Override
+    public void onLeave() {
+        FragmentManager supportFragmentManager = ((DefaultActivity) mContext).getSupportFragmentManager();
+        Fragment fragmentByTag = supportFragmentManager.findFragmentByTag(StartupFragment.class.getSimpleName());
+        if (fragmentByTag != null) {
+            mSavedState = supportFragmentManager.saveFragmentInstanceState(supportFragmentManager.findFragmentByTag(StartupFragment.class.getSimpleName()));
+            FragmentTransaction beginTransaction = supportFragmentManager.beginTransaction();
+            beginTransaction.setCustomAnimations(0, R.anim.provision_slide_out_left_animator);
+            beginTransaction.remove(fragmentByTag);
+            beginTransaction.commitAllowingStateLoss();
+        }
+    }
+
+    private void buildStartupFragment(Fragment fragment, FragmentManager fragmentManager) {
+        FragmentTransaction beginTransaction = fragmentManager.beginTransaction();
+        beginTransaction.replace(android.R.id.content, fragment, StartupFragment.class.getSimpleName());
+        beginTransaction.commitAllowingStateLoss();
+    }
+
+    @Override
+    public void keyDownDispatcher(int keyCode, KeyEvent event) {
+
+    }
+
+    @Override
+    public void onWindowFocusChanged(boolean hasFocus) {
+        if (mStartupFragment != null) {
+            mStartupFragment.onWindowFocusChanged(hasFocus);
+        }
+    }
+}

@@ -1,1 +1,51 @@
-LyoKICogVGhpcyBmaWxlIGlzIHBhcnQgb2YgUk9NIEh1YiwgcmVsZWFzZWQgdW5kZXIgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSB2My4wLgogKgogKiDmnKzmlofku7bnp7vmpI0gLyDmlLnlhpnoh6ogSHlwZXJDZWlsZXLvvIhBR1BMLTMuMO+8jENvcHlyaWdodCAoQykgMjAyMy0yMDI2IEh5cGVyQ2VpbGVyCiAqIENvbnRyaWJ1dGlvbnPvvInvvIzmiJbkuLrlhbbnrYnku7fmm7/ouqvlrp7njrAg4oCU4oCUIOWujOaVtOadpea6kOS4jum4o+iwouingemhueebruagueebruW9lSBOT1RJQ0UubWTjgIIKICoKICogVGhpcyBwcm9ncmFtIGlzIGZyZWUgc29mdHdhcmU6IHlvdSBjYW4gcmVkaXN0cmlidXRlIGl0IGFuZC9vciBtb2RpZnkgaXQgdW5kZXIgdGhlIHRlcm1zCiAqIG9mIHRoZSBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UgYXMgcHVibGlzaGVkIGJ5IHRoZSBGcmVlIFNvZnR3YXJlIEZvdW5kYXRpb24sCiAqIGVpdGhlciB2ZXJzaW9uIDMgb2YgdGhlIExpY2Vuc2UuCiAqCiAqIFRoaXMgcHJvZ3JhbSBpcyBkaXN0cmlidXRlZCBpbiB0aGUgaG9wZSB0aGF0IGl0IHdpbGwgYmUgdXNlZnVsLCBidXQgV0lUSE9VVCBBTlkgV0FSUkFOVFk7CiAqIHdpdGhvdXQgZXZlbiB0aGUgaW1wbGllZCB3YXJyYW50eSBvZiBNRVJDSEFOVEFCSUxJVFkgb3IgRklUTkVTUyBGT1IgQSBQQVJUSUNVTEFSIFBVUlBPU0UuCiAqIFNlZSB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGZvciBtb3JlIGRldGFpbHMuCiAqCiAqIFlvdSBzaG91bGQgaGF2ZSByZWNlaXZlZCBhIGNvcHkgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBhbG9uZyB3aXRoIHRoaXMKICogcHJvZ3JhbS4gIElmIG5vdCwgc2VlIDxodHRwczovL3d3dy5nbnUub3JnL2xpY2Vuc2VzLz4uCiAqLwoKcGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLmhjLmNvbW1vbjsKCmltcG9ydCBhbmRyb2lkeC5wcmVmZXJlbmNlLlByZWZlcmVuY2VGcmFnbWVudENvbXBhdDsKCi8qKgogKiBIeXBlckNlaWxlciBgUHJlZnNDb25maWd1cmF0b3JgIOeahOetieS7t+abv+i6q+OAggogKgogKiDljp/niYjlubLnmoTkuovvvJrnu5kgUHJlZmVyZW5jZUZyYWdtZW50Q29tcGF0IOe7n+S4gOWll+S4iiBNaXVpeCDnmoTmoLflvI8v5YiG57uEL+mHjee9rumAu+i+keOAggogKiDmiJHku6znlKggZmFuLm1pdWl4OnByZWZlcmVuY2Ug5pe25aSn5aSa5bey57uP6Ieq5bim5qC35byP77yM5omA5Lul6L+Z6YeM6YCA5YyW5oiQ5pyA5bCP5a6e546w77yaCiAqIOWPquS/neeVmeaOpeWPo++8jOS/neivgSBwcm92aXNpb24g6YeM55qE6LCD55So5LiN54K444CCCiAqLwpwdWJsaWMgZmluYWwgY2xhc3MgUHJlZnNDb25maWd1cmF0b3IgewoKICAgIHByaXZhdGUgUHJlZnNDb25maWd1cmF0b3IoKSB7CiAgICB9CgogICAgcHVibGljIHN0YXRpYyB2b2lkIHNldHVwKFByZWZlcmVuY2VGcmFnbWVudENvbXBhdCBmcmFnbWVudCkgewogICAgICAgIC8vIOagt+W8j+eUsSBmYW4ubWl1aXg6cHJlZmVyZW5jZSDoh6rluKbvvIzml6DpnIDpop3lpJbphY3nva4KICAgIH0KCiAgICBwdWJsaWMgc3RhdGljIHZvaWQgcmVzZXQoUHJlZmVyZW5jZUZyYWdtZW50Q29tcGF0IGZyYWdtZW50LCBpbnQgeG1sUmVzSWQpIHsKICAgICAgICBpZiAoZnJhZ21lbnQgPT0gbnVsbCkgcmV0dXJuOwogICAgICAgIHRyeSB7CiAgICAgICAgICAgIGZyYWdtZW50LnNldFByZWZlcmVuY2VzRnJvbVJlc291cmNlKHhtbFJlc0lkLCBudWxsKTsKICAgICAgICB9IGNhdGNoIChUaHJvd2FibGUgaWdub3JlZCkgewogICAgICAgICAgICAvLyDotYTmupDkuI3lrZjlnKjnrYnmg4XlhrXkuIvpnZnpu5jvvIzkuI3lvbHlk43mtYHnqIsKICAgICAgICB9CiAgICB9CgogICAgcHVibGljIHN0YXRpYyB2b2lkIHBlcmZvcm1SZXNldChQcmVmZXJlbmNlRnJhZ21lbnRDb21wYXQgZnJhZ21lbnQsIGludCBjdXJyZW50WG1sSWQpIHsKICAgICAgICByZXNldChmcmFnbWVudCwgY3VycmVudFhtbElkKTsKICAgIH0KfQo=
+/*
+ * This file is part of ROM Hub, released under the GNU Affero General Public License v3.0.
+ *
+ * 本文件移植 / 改写自 HyperCeiler（AGPL-3.0，Copyright (C) 2023-2026 HyperCeiler
+ * Contributions），或为其等价替身实现 —— 完整来源与鸣谢见项目根目录 NOTICE.md。
+ *
+ * This program is free software: you can redistribute it and/or modify it under the terms
+ * of the GNU Affero General Public License as published by the Free Software Foundation,
+ * either version 3 of the License.
+ *
+ * This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+ * without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * See the GNU Affero General Public License for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License along with this
+ * program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
+package org.linbaogu.romhub.hc.common;
+
+import androidx.preference.PreferenceFragmentCompat;
+
+/**
+ * HyperCeiler `PrefsConfigurator` 的等价替身。
+ *
+ * 原版干的事：给 PreferenceFragmentCompat 统一套上 Miuix 的样式/分组/重置逻辑。
+ * 我们用 fan.miuix:preference 时大多已经自带样式，所以这里退化成最小实现：
+ * 只保留接口，保证 provision 里的调用不炸。
+ */
+public final class PrefsConfigurator {
+
+    private PrefsConfigurator() {
+    }
+
+    public static void setup(PreferenceFragmentCompat fragment) {
+        // 样式由 fan.miuix:preference 自带，无需额外配置
+    }
+
+    public static void reset(PreferenceFragmentCompat fragment, int xmlResId) {
+        if (fragment == null) return;
+        try {
+            fragment.setPreferencesFromResource(xmlResId, null);
+        } catch (Throwable ignored) {
+            // 资源不存在等情况下静默，不影响流程
+        }
+    }
+
+    public static void performReset(PreferenceFragmentCompat fragment, int currentXmlId) {
+        reset(fragment, currentXmlId);
+    }
+}

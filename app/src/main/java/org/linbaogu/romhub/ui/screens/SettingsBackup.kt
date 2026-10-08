@@ -1,1 +1,58 @@
-cGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLnVpLnNjcmVlbnMKCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dAppbXBvcnQgYW5kcm9pZC5vcy5FbnZpcm9ubWVudAppbXBvcnQgb3JnLmpzb24uSlNPTk9iamVjdAppbXBvcnQgamF2YS5pby5GaWxlCgovKioKICog6K6+572u5aSH5Lu9IC8g5oGi5aSNIC8g6YeN572uIOKAlOKAlCDku78gSHlwZXJDZWlsZXIg6K6+572u6aG16YeM55qE44CM5aSH5Lu9IC8g5oGi5aSNIC8g6YeN572u44CN5LiJ6aG557uT5p6E5oCn5Yqf6IO944CCCiAqCiAqIOWkh+S7veWGheWuue+8muacrCBBcHAg6Ieq5bex55qEIFNoYXJlZFByZWZlcmVuY2Vz77yIYHJvbWh1Yl9wcmVmc2DvvIzorqLpmIXjgIHpgJrnn6XlvIDlhbPjgIHlupXmoI/moLflvI/jgIHnvJPlrZjnrYnvvInjgIIKICog5LiN5YyF5ZCr5Lu75L2V5pWP5oSf5Yet5o2u77yI6YKj5Lqb6LWwIFNlY3VyZVN0b3Jl77yM5LiU5pys5p2l5bCx6K+l6YeN5paw55m75b2V77yJ44CCCiAqLwpvYmplY3QgU2V0dGluZ3NCYWNrdXAgewoKICAgIHByaXZhdGUgY29uc3QgdmFsIFBSRUYgPSAicm9taHViX3ByZWZzIgoKICAgIHByaXZhdGUgZnVuIGRpcigpOiBGaWxlID0KICAgICAgICBGaWxlKEVudmlyb25tZW50LmdldEV4dGVybmFsU3RvcmFnZVB1YmxpY0RpcmVjdG9yeShFbnZpcm9ubWVudC5ESVJFQ1RPUllfRE9XTkxPQURTKSwgInJvbS1odWIiKQoKICAgIHByaXZhdGUgZnVuIGZpbGUoKTogRmlsZSA9IEZpbGUoZGlyKCksICJzZXR0aW5ncy5qc29uIikKCiAgICAvKiog5aSH5Lu95YiwIERvd25sb2FkL3JvbS1odWIvc2V0dGluZ3MuanNvbuOAgui/lOWbnue7meeUqOaIt+eci+eahOaPkOekuuOAgiAqLwogICAgZnVuIGJhY2t1cChjdHg6IENvbnRleHQpOiBTdHJpbmcgPSBydW5DYXRjaGluZyB7CiAgICAgICAgdmFsIHNwID0gY3R4LmdldFNoYXJlZFByZWZlcmVuY2VzKFBSRUYsIENvbnRleHQuTU9ERV9QUklWQVRFKQogICAgICAgIHZhbCBqc29uID0gSlNPTk9iamVjdCgpCiAgICAgICAgZm9yICgoaywgdikgaW4gc3AuYWxsKSBqc29uLnB1dChrLCB2KQogICAgICAgIGRpcigpLm1rZGlycygpCiAgICAgICAgZmlsZSgpLndyaXRlVGV4dChqc29uLnRvU3RyaW5nKDIpLCBDaGFyc2V0cy5VVEZfOCkKICAgICAgICAi5bey5aSH5Lu95YiwIERvd25sb2FkL3JvbS1odWIvc2V0dGluZ3MuanNvbu+8iCR7c3AuYWxsLnNpemV9IOmhue+8iSIKICAgIH0uZ2V0T3JFbHNlIHsgIuWkh+S7veWksei0pe+8miR7aXQubWVzc2FnZX0iIH0KCiAgICAvKiog5LuO5aSH5Lu95paH5Lu26K+75Zue6K6+572u44CC6L+U5Zue57uZ55So5oi355yL55qE5o+Q56S644CCICovCiAgICBmdW4gcmVzdG9yZShjdHg6IENvbnRleHQpOiBTdHJpbmcgPSBydW5DYXRjaGluZyB7CiAgICAgICAgdmFsIGYgPSBmaWxlKCkKICAgICAgICBpZiAoIWYuZXhpc3RzKCkpIHJldHVybiAi5rKh5om+5Yiw5aSH5Lu95paH5Lu277yaRG93bmxvYWQvcm9tLWh1Yi9zZXR0aW5ncy5qc29uIgogICAgICAgIHZhbCBqc29uID0gSlNPTk9iamVjdChmLnJlYWRUZXh0KENoYXJzZXRzLlVURl84KSkKICAgICAgICB2YWwgZSA9IGN0eC5nZXRTaGFyZWRQcmVmZXJlbmNlcyhQUkVGLCBDb250ZXh0Lk1PREVfUFJJVkFURSkuZWRpdCgpCiAgICAgICAgZm9yIChrIGluIGpzb24ua2V5cygpKSB7CiAgICAgICAgICAgIHdoZW4gKHZhbCB2ID0ganNvbi5nZXQoaykpIHsKICAgICAgICAgICAgICAgIGlzIEJvb2xlYW4gLT4gZS5wdXRCb29sZWFuKGssIHYpCiAgICAgICAgICAgICAgICBpcyBJbnQgLT4gZS5wdXRJbnQoaywgdikKICAgICAgICAgICAgICAgIGlzIExvbmcgLT4gZS5wdXRMb25nKGssIHYpCiAgICAgICAgICAgICAgICBpcyBEb3VibGUgLT4gZS5wdXRGbG9hdChrLCB2LnRvRmxvYXQoKSkKICAgICAgICAgICAgICAgIGVsc2UgLT4gZS5wdXRTdHJpbmcoaywgdi50b1N0cmluZygpKQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIGUuYXBwbHkoKQogICAgICAgICLlt7LmgaLlpI0gJHtqc29uLmxlbmd0aCgpfSDpobnorr7nva4iCiAgICB9LmdldE9yRWxzZSB7ICLmgaLlpI3lpLHotKXvvJoke2l0Lm1lc3NhZ2V9IiB9CgogICAgLyoqIOmHjee9ru+8mua4heepuuiuvue9ruS4juiuoumYhe+8iOS4jeWPr+aBouWkje+8ieOAgiAqLwogICAgZnVuIHJlc2V0KGN0eDogQ29udGV4dCkgewogICAgICAgIGN0eC5nZXRTaGFyZWRQcmVmZXJlbmNlcyhQUkVGLCBDb250ZXh0Lk1PREVfUFJJVkFURSkuZWRpdCgpLmNsZWFyKCkuYXBwbHkoKQogICAgICAgIC8vIOW6leagj+W8gOWFs+eKtuaAgeS5n+WbnuWIsOm7mOiupAogICAgICAgIG9yZy5saW5iYW9ndS5yb21odWIuaGMuSGNOYXZTdGF0ZS5sb2FkKGN0eCkKICAgIH0KfQo=
+package org.linbaogu.romhub.ui.screens
+
+import android.content.Context
+import android.os.Environment
+import org.json.JSONObject
+import java.io.File
+
+/**
+ * 设置备份 / 恢复 / 重置 —— 仿 HyperCeiler 设置页里的「备份 / 恢复 / 重置」三项结构性功能。
+ *
+ * 备份内容：本 App 自己的 SharedPreferences（`romhub_prefs`，订阅、通知开关、底栏样式、缓存等）。
+ * 不包含任何敏感凭据（那些走 SecureStore，且本来就该重新登录）。
+ */
+object SettingsBackup {
+
+    private const val PREF = "romhub_prefs"
+
+    private fun dir(): File =
+        File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS), "rom-hub")
+
+    private fun file(): File = File(dir(), "settings.json")
+
+    /** 备份到 Download/rom-hub/settings.json。返回给用户看的提示。 */
+    fun backup(ctx: Context): String = runCatching {
+        val sp = ctx.getSharedPreferences(PREF, Context.MODE_PRIVATE)
+        val json = JSONObject()
+        for ((k, v) in sp.all) json.put(k, v)
+        dir().mkdirs()
+        file().writeText(json.toString(2), Charsets.UTF_8)
+        "已备份到 Download/rom-hub/settings.json（${sp.all.size} 项）"
+    }.getOrElse { "备份失败：${it.message}" }
+
+    /** 从备份文件读回设置。返回给用户看的提示。 */
+    fun restore(ctx: Context): String = runCatching {
+        val f = file()
+        if (!f.exists()) return "没找到备份文件：Download/rom-hub/settings.json"
+        val json = JSONObject(f.readText(Charsets.UTF_8))
+        val e = ctx.getSharedPreferences(PREF, Context.MODE_PRIVATE).edit()
+        for (k in json.keys()) {
+            when (val v = json.get(k)) {
+                is Boolean -> e.putBoolean(k, v)
+                is Int -> e.putInt(k, v)
+                is Long -> e.putLong(k, v)
+                is Double -> e.putFloat(k, v.toFloat())
+                else -> e.putString(k, v.toString())
+            }
+        }
+        e.apply()
+        "已恢复 ${json.length()} 项设置"
+    }.getOrElse { "恢复失败：${it.message}" }
+
+    /** 重置：清空设置与订阅（不可恢复）。 */
+    fun reset(ctx: Context) {
+        ctx.getSharedPreferences(PREF, Context.MODE_PRIVATE).edit().clear().apply()
+        // 底栏开关状态也回到默认
+        org.linbaogu.romhub.hc.HcNavState.load(ctx)
+    }
+}

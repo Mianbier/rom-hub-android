@@ -1,1 +1,170 @@
-Ly8gTWlycm9yZWQgZnJvbSBjb21wb3NlLW1pdWl4LXVpIGV4YW1wbGUgLyBLZXJuZWxTVSB1aS9jb21wb25lbnQvbWl1aXgvZWZmZWN0L0JnRWZmZWN0UGFpbnRlci5rdAoKcGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLnVpLmVmZmVjdAoKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuZ3JhcGhpY3MuQnJ1c2gKaW1wb3J0IHRvcC55dWtvbmdhLm1pdWl4LmttcC5ibHVyLlJ1bnRpbWVTaGFkZXIKaW1wb3J0IHRvcC55dWtvbmdhLm1pdWl4LmttcC5ibHVyLmFzQnJ1c2gKaW1wb3J0IGtvdGxpbi5tYXRoLmNvcwppbXBvcnQga290bGluLm1hdGguc2luCgppbnRlcm5hbCBjbGFzcyBCZ0VmZmVjdFBhaW50ZXIgewoKICAgIHZhbCBydW50aW1lU2hhZGVyIGJ5IGxhenkgewogICAgICAgIFJ1bnRpbWVTaGFkZXIoT1MzX0JHX0ZSQUcpLmFsc28gewogICAgICAgICAgICBpbml0U3RhdGljVW5pZm9ybXMoaXQpCiAgICAgICAgfQogICAgfQoKICAgIHZhbCBicnVzaDogQnJ1c2ggZ2V0KCkgPSBydW50aW1lU2hhZGVyLmFzQnJ1c2goKQoKICAgIHByaXZhdGUgdmFsIHJlc29sdXRpb24gPSBGbG9hdEFycmF5KDIpCiAgICBwcml2YXRlIHZhbCBib3VuZCA9IEZsb2F0QXJyYXkoNCkKICAgIHByaXZhdGUgdmFsIGNvbG9yc0J1ZmZlciA9IEZsb2F0QXJyYXkoMTYpCiAgICBwcml2YXRlIHZhbCBwb2ludHNBbmltQnVmZmVyID0gRmxvYXRBcnJheSg4KQoKICAgIHByaXZhdGUgdmFyIGFuaW1UaW1lID0gRmxvYXQuTmFOCiAgICBwcml2YXRlIHZhciBpc0RhcmtDYWNoZWQ6IEJvb2xlYW4/ID0gbnVsbAogICAgcHJpdmF0ZSB2YXIgZGV2aWNlVHlwZUNhY2hlZDogRGV2aWNlVHlwZT8gPSBudWxsCgogICAgcHJpdmF0ZSB2YXIgcHJlc2V0QXBwbGllZCA9IGZhbHNlCgogICAgcHJpdmF0ZSB2YXIgY2FjaGVkTG9nb0hlaWdodCA9IEZsb2F0Lk5hTgogICAgcHJpdmF0ZSB2YXIgY2FjaGVkVG90YWxIZWlnaHQgPSBGbG9hdC5OYU4KICAgIHByaXZhdGUgdmFyIGNhY2hlZFRvdGFsV2lkdGggPSBGbG9hdC5OYU4KCiAgICBwcml2YXRlIHZhciBjYWNoZWRDb2xvclN0YWdlID0gRmxvYXQuTmFOCiAgICBwcml2YXRlIHZhciBjYWNoZWRDb2xvcnNQcmVzZXQ6IEJnRWZmZWN0Q29uZmlnLkNvbmZpZz8gPSBudWxsCgogICAgcHJpdmF0ZSB2YXIgY2FjaGVkUG9pbnRzQW5pbVRpbWUgPSBGbG9hdC5OYU4KICAgIHByaXZhdGUgdmFyIGNhY2hlZFBvaW50c0FuaW1QcmVzZXQ6IEJnRWZmZWN0Q29uZmlnLkNvbmZpZz8gPSBudWxsCgogICAgY29tcGFuaW9uIG9iamVjdCB7CiAgICAgICAgcHJpdmF0ZSBjb25zdCB2YWwgVV9UUkFOU0xBVEVfWSA9IDBmCiAgICAgICAgcHJpdmF0ZSBjb25zdCB2YWwgVV9BTFBIQV9NVUxUSSA9IDFmCiAgICAgICAgcHJpdmF0ZSBjb25zdCB2YWwgVV9OT0lTRV9TQ0FMRSA9IDEuNWYKICAgICAgICBwcml2YXRlIGNvbnN0IHZhbCBVX1BPSU5UX1JBRElVU19NVUxUSSA9IDFmCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gaW5pdFN0YXRpY1VuaWZvcm1zKHNoYWRlcjogUnVudGltZVNoYWRlcikgewogICAgICAgIHNoYWRlci5zZXRGbG9hdFVuaWZvcm0oInVUcmFuc2xhdGVZIiwgVV9UUkFOU0xBVEVfWSkKICAgICAgICBzaGFkZXIuc2V0RmxvYXRVbmlmb3JtKCJ1Tm9pc2VTY2FsZSIsIFVfTk9JU0VfU0NBTEUpCiAgICAgICAgc2hhZGVyLnNldEZsb2F0VW5pZm9ybSgidVBvaW50UmFkaXVzTXVsdGkiLCBVX1BPSU5UX1JBRElVU19NVUxUSSkKICAgICAgICBzaGFkZXIuc2V0RmxvYXRVbmlmb3JtKCJ1QWxwaGFNdWx0aSIsIFVfQUxQSEFfTVVMVEkpCiAgICB9CgogICAgZnVuIHVwZGF0ZVJlc29sdXRpb24od2lkdGg6IEZsb2F0LCBoZWlnaHQ6IEZsb2F0KSB7CiAgICAgICAgaWYgKHJlc29sdXRpb25bMF0gPT0gd2lkdGggJiYgcmVzb2x1dGlvblsxXSA9PSBoZWlnaHQpIHJldHVybgogICAgICAgIHJlc29sdXRpb25bMF0gPSB3aWR0aAogICAgICAgIHJlc29sdXRpb25bMV0gPSBoZWlnaHQKICAgICAgICBydW50aW1lU2hhZGVyLnNldEZsb2F0VW5pZm9ybSgidVJlc29sdXRpb24iLCByZXNvbHV0aW9uKQogICAgfQoKICAgIGZ1biB1cGRhdGVBbmltVGltZSh0aW1lOiBGbG9hdCkgewogICAgICAgIGlmIChhbmltVGltZSA9PSB0aW1lKSByZXR1cm4KICAgICAgICBhbmltVGltZSA9IHRpbWUKICAgICAgICBydW50aW1lU2hhZGVyLnNldEZsb2F0VW5pZm9ybSgidUFuaW1UaW1lIiwgYW5pbVRpbWUpCiAgICB9CgogICAgZnVuIHVwZGF0ZVBvaW50c0FuaW0odGltZTogRmxvYXQsIHByZXNldDogQmdFZmZlY3RDb25maWcuQ29uZmlnKSB7CiAgICAgICAgaWYgKGNhY2hlZFBvaW50c0FuaW1UaW1lID09IHRpbWUgJiYgY2FjaGVkUG9pbnRzQW5pbVByZXNldCA9PT0gcHJlc2V0KSByZXR1cm4KCiAgICAgICAgdmFsIG9mZnNldCA9IHByZXNldC5wb2ludE9mZnNldAogICAgICAgIHZhciBpID0gMAogICAgICAgIHdoaWxlIChpIDwgNCkgewogICAgICAgICAgICB2YWwgc3JjWCA9IHByZXNldC5wb2ludHNbaSAqIDNdCiAgICAgICAgICAgIHZhbCBzcmNZID0gcHJlc2V0LnBvaW50c1tpICogMyArIDFdCiAgICAgICAgICAgIHZhbCBhbmltWCA9IHNyY1ggKyBzaW4odGltZSArIHNyY1kpICogb2Zmc2V0CiAgICAgICAgICAgIHZhbCBhbmltWSA9IHNyY1kgKyBjb3ModGltZSArIHNyY1gpICogb2Zmc2V0CiAgICAgICAgICAgIHBvaW50c0FuaW1CdWZmZXJbaSAqIDJdID0gYW5pbVgKICAgICAgICAgICAgcG9pbnRzQW5pbUJ1ZmZlcltpICogMiArIDFdID0gYW5pbVkKICAgICAgICAgICAgaSsrCiAgICAgICAgfQogICAgICAgIHJ1bnRpbWVTaGFkZXIuc2V0RmxvYXRVbmlmb3JtKCJ1UG9pbnRzQW5pbSIsIHBvaW50c0FuaW1CdWZmZXIpCgogICAgICAgIGNhY2hlZFBvaW50c0FuaW1UaW1lID0gdGltZQogICAgICAgIGNhY2hlZFBvaW50c0FuaW1QcmVzZXQgPSBwcmVzZXQKICAgIH0KCiAgICBmdW4gdXBkYXRlQ29sb3JzKHByZXNldDogQmdFZmZlY3RDb25maWcuQ29uZmlnLCBzdGFnZTogRmxvYXQpIHsKICAgICAgICBpZiAoY2FjaGVkQ29sb3JzUHJlc2V0ID09PSBwcmVzZXQgJiYgY2FjaGVkQ29sb3JTdGFnZSA9PSBzdGFnZSkgcmV0dXJuCgogICAgICAgIHZhbCBiYXNlID0gc3RhZ2UudG9JbnQoKQogICAgICAgIHZhbCBmcmFjdGlvbiA9IHN0YWdlIC0gYmFzZQogICAgICAgIHZhbCBzdGFydCA9IGNvbG9yc0ZvckN5Y2xlSW5kZXgocHJlc2V0LCBiYXNlKQogICAgICAgIHZhbCBlbmQgPSBjb2xvcnNGb3JDeWNsZUluZGV4KHByZXNldCwgYmFzZSArIDEpCiAgICAgICAgZm9yIChpIGluIDAgdW50aWwgMTYpIHsKICAgICAgICAgICAgY29sb3JzQnVmZmVyW2ldID0gc3RhcnRbaV0gKyAoZW5kW2ldIC0gc3RhcnRbaV0pICogZnJhY3Rpb24KICAgICAgICB9CiAgICAgICAgcnVudGltZVNoYWRlci5zZXRGbG9hdFVuaWZvcm0oInVDb2xvcnMiLCBjb2xvcnNCdWZmZXIpCgogICAgICAgIGNhY2hlZENvbG9yc1ByZXNldCA9IHByZXNldAogICAgICAgIGNhY2hlZENvbG9yU3RhZ2UgPSBzdGFnZQogICAgfQoKICAgIHByaXZhdGUgZnVuIGNvbG9yc0ZvckN5Y2xlSW5kZXgocHJlc2V0OiBCZ0VmZmVjdENvbmZpZy5Db25maWcsIGluZGV4OiBJbnQpOiBGbG9hdEFycmF5ID0KICAgICAgICB3aGVuIChpbmRleC5tb2QoNCkpIHsKICAgICAgICAgICAgMSAtPiBwcmVzZXQuY29sb3JzMQogICAgICAgICAgICAzIC0+IHByZXNldC5jb2xvcnMzCiAgICAgICAgICAgIGVsc2UgLT4gcHJlc2V0LmNvbG9yczIKICAgICAgICB9CgogICAgZnVuIHVwZGF0ZUJvdW5kSWZOZWVkZWQoCiAgICAgICAgbG9nb0hlaWdodDogRmxvYXQsCiAgICAgICAgdG90YWxIZWlnaHQ6IEZsb2F0LAogICAgICAgIHRvdGFsV2lkdGg6IEZsb2F0LAogICAgKSB7CiAgICAgICAgaWYgKGNhY2hlZExvZ29IZWlnaHQgPT0gbG9nb0hlaWdodCAmJgogICAgICAgICAgICBjYWNoZWRUb3RhbEhlaWdodCA9PSB0b3RhbEhlaWdodCAmJgogICAgICAgICAgICBjYWNoZWRUb3RhbFdpZHRoID09IHRvdGFsV2lkdGgKICAgICAgICApIHsKICAgICAgICAgICAgcmV0dXJuCiAgICAgICAgfQoKICAgICAgICB1cGRhdGVCb3VuZChsb2dvSGVpZ2h0LCB0b3RhbEhlaWdodCwgdG90YWxXaWR0aCkKICAgICAgICBydW50aW1lU2hhZGVyLnNldEZsb2F0VW5pZm9ybSgidUJvdW5kIiwgYm91bmQpCgogICAgICAgIGNhY2hlZExvZ29IZWlnaHQgPSBsb2dvSGVpZ2h0CiAgICAgICAgY2FjaGVkVG90YWxIZWlnaHQgPSB0b3RhbEhlaWdodAogICAgICAgIGNhY2hlZFRvdGFsV2lkdGggPSB0b3RhbFdpZHRoCiAgICB9CgogICAgZnVuIHVwZGF0ZVByZXNldElmTmVlZGVkKGRldmljZVR5cGU6IERldmljZVR5cGUsIGlzRGFyazogQm9vbGVhbikgewogICAgICAgIGlmIChwcmVzZXRBcHBsaWVkICYmIGlzRGFya0NhY2hlZCA9PSBpc0RhcmsgJiYgZGV2aWNlVHlwZUNhY2hlZCA9PSBkZXZpY2VUeXBlKSByZXR1cm4KCiAgICAgICAgYXBwbHlQcmVzZXQoZGV2aWNlVHlwZSwgaXNEYXJrKQoKICAgICAgICBpc0RhcmtDYWNoZWQgPSBpc0RhcmsKICAgICAgICBkZXZpY2VUeXBlQ2FjaGVkID0gZGV2aWNlVHlwZQogICAgICAgIHByZXNldEFwcGxpZWQgPSB0cnVlCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gYXBwbHlQcmVzZXQoZGV2aWNlVHlwZTogRGV2aWNlVHlwZSwgaXNEYXJrOiBCb29sZWFuKSB7CiAgICAgICAgdmFsIHByZXNldCA9IEJnRWZmZWN0Q29uZmlnLmdldChkZXZpY2VUeXBlLCBpc0RhcmspCgogICAgICAgIHJ1bnRpbWVTaGFkZXIuc2V0RmxvYXRVbmlmb3JtKCJ1UG9pbnRzIiwgcHJlc2V0LnBvaW50cykKICAgICAgICBydW50aW1lU2hhZGVyLnNldEZsb2F0VW5pZm9ybSgidUxpZ2h0T2Zmc2V0IiwgcHJlc2V0LmxpZ2h0T2Zmc2V0KQogICAgICAgIHJ1bnRpbWVTaGFkZXIuc2V0RmxvYXRVbmlmb3JtKCJ1U2F0dXJhdGVPZmZzZXQiLCBwcmVzZXQuc2F0dXJhdGVPZmZzZXQpCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gdXBkYXRlQm91bmQoCiAgICAgICAgbG9nb0hlaWdodDogRmxvYXQsCiAgICAgICAgdG90YWxIZWlnaHQ6IEZsb2F0LAogICAgICAgIHRvdGFsV2lkdGg6IEZsb2F0LAogICAgKSB7CiAgICAgICAgdmFsIGhlaWdodFJhdGlvID0gbG9nb0hlaWdodCAvIHRvdGFsSGVpZ2h0CiAgICAgICAgaWYgKHRvdGFsV2lkdGggPD0gdG90YWxIZWlnaHQpIHsKICAgICAgICAgICAgYm91bmRbMF0gPSAwZgogICAgICAgICAgICBib3VuZFsxXSA9IDFmIC0gaGVpZ2h0UmF0aW8KICAgICAgICAgICAgYm91bmRbMl0gPSAxZgogICAgICAgICAgICBib3VuZFszXSA9IGhlaWdodFJhdGlvCiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgdmFsIGFzcGVjdFJhdGlvID0gdG90YWxXaWR0aCAvIHRvdGFsSGVpZ2h0CiAgICAgICAgICAgIHZhbCBjb250ZW50Q2VudGVyWSA9IDFmIC0gaGVpZ2h0UmF0aW8gLyAyZgogICAgICAgICAgICBib3VuZFswXSA9IDBmCiAgICAgICAgICAgIGJvdW5kWzFdID0gY29udGVudENlbnRlclkgLSBhc3BlY3RSYXRpbyAvIDJmCiAgICAgICAgICAgIGJvdW5kWzJdID0gMWYKICAgICAgICAgICAgYm91bmRbM10gPSBhc3BlY3RSYXRpbwogICAgICAgIH0KICAgIH0KfQo=
+// Mirrored from compose-miuix-ui example / KernelSU ui/component/miuix/effect/BgEffectPainter.kt
+
+package org.linbaogu.romhub.ui.effect
+
+import androidx.compose.ui.graphics.Brush
+import top.yukonga.miuix.kmp.blur.RuntimeShader
+import top.yukonga.miuix.kmp.blur.asBrush
+import kotlin.math.cos
+import kotlin.math.sin
+
+internal class BgEffectPainter {
+
+    val runtimeShader by lazy {
+        RuntimeShader(OS3_BG_FRAG).also {
+            initStaticUniforms(it)
+        }
+    }
+
+    val brush: Brush get() = runtimeShader.asBrush()
+
+    private val resolution = FloatArray(2)
+    private val bound = FloatArray(4)
+    private val colorsBuffer = FloatArray(16)
+    private val pointsAnimBuffer = FloatArray(8)
+
+    private var animTime = Float.NaN
+    private var isDarkCached: Boolean? = null
+    private var deviceTypeCached: DeviceType? = null
+
+    private var presetApplied = false
+
+    private var cachedLogoHeight = Float.NaN
+    private var cachedTotalHeight = Float.NaN
+    private var cachedTotalWidth = Float.NaN
+
+    private var cachedColorStage = Float.NaN
+    private var cachedColorsPreset: BgEffectConfig.Config? = null
+
+    private var cachedPointsAnimTime = Float.NaN
+    private var cachedPointsAnimPreset: BgEffectConfig.Config? = null
+
+    companion object {
+        private const val U_TRANSLATE_Y = 0f
+        private const val U_ALPHA_MULTI = 1f
+        private const val U_NOISE_SCALE = 1.5f
+        private const val U_POINT_RADIUS_MULTI = 1f
+    }
+
+    private fun initStaticUniforms(shader: RuntimeShader) {
+        shader.setFloatUniform("uTranslateY", U_TRANSLATE_Y)
+        shader.setFloatUniform("uNoiseScale", U_NOISE_SCALE)
+        shader.setFloatUniform("uPointRadiusMulti", U_POINT_RADIUS_MULTI)
+        shader.setFloatUniform("uAlphaMulti", U_ALPHA_MULTI)
+    }
+
+    fun updateResolution(width: Float, height: Float) {
+        if (resolution[0] == width && resolution[1] == height) return
+        resolution[0] = width
+        resolution[1] = height
+        runtimeShader.setFloatUniform("uResolution", resolution)
+    }
+
+    fun updateAnimTime(time: Float) {
+        if (animTime == time) return
+        animTime = time
+        runtimeShader.setFloatUniform("uAnimTime", animTime)
+    }
+
+    fun updatePointsAnim(time: Float, preset: BgEffectConfig.Config) {
+        if (cachedPointsAnimTime == time && cachedPointsAnimPreset === preset) return
+
+        val offset = preset.pointOffset
+        var i = 0
+        while (i < 4) {
+            val srcX = preset.points[i * 3]
+            val srcY = preset.points[i * 3 + 1]
+            val animX = srcX + sin(time + srcY) * offset
+            val animY = srcY + cos(time + srcX) * offset
+            pointsAnimBuffer[i * 2] = animX
+            pointsAnimBuffer[i * 2 + 1] = animY
+            i++
+        }
+        runtimeShader.setFloatUniform("uPointsAnim", pointsAnimBuffer)
+
+        cachedPointsAnimTime = time
+        cachedPointsAnimPreset = preset
+    }
+
+    fun updateColors(preset: BgEffectConfig.Config, stage: Float) {
+        if (cachedColorsPreset === preset && cachedColorStage == stage) return
+
+        val base = stage.toInt()
+        val fraction = stage - base
+        val start = colorsForCycleIndex(preset, base)
+        val end = colorsForCycleIndex(preset, base + 1)
+        for (i in 0 until 16) {
+            colorsBuffer[i] = start[i] + (end[i] - start[i]) * fraction
+        }
+        runtimeShader.setFloatUniform("uColors", colorsBuffer)
+
+        cachedColorsPreset = preset
+        cachedColorStage = stage
+    }
+
+    private fun colorsForCycleIndex(preset: BgEffectConfig.Config, index: Int): FloatArray =
+        when (index.mod(4)) {
+            1 -> preset.colors1
+            3 -> preset.colors3
+            else -> preset.colors2
+        }
+
+    fun updateBoundIfNeeded(
+        logoHeight: Float,
+        totalHeight: Float,
+        totalWidth: Float,
+    ) {
+        if (cachedLogoHeight == logoHeight &&
+            cachedTotalHeight == totalHeight &&
+            cachedTotalWidth == totalWidth
+        ) {
+            return
+        }
+
+        updateBound(logoHeight, totalHeight, totalWidth)
+        runtimeShader.setFloatUniform("uBound", bound)
+
+        cachedLogoHeight = logoHeight
+        cachedTotalHeight = totalHeight
+        cachedTotalWidth = totalWidth
+    }
+
+    fun updatePresetIfNeeded(deviceType: DeviceType, isDark: Boolean) {
+        if (presetApplied && isDarkCached == isDark && deviceTypeCached == deviceType) return
+
+        applyPreset(deviceType, isDark)
+
+        isDarkCached = isDark
+        deviceTypeCached = deviceType
+        presetApplied = true
+    }
+
+    private fun applyPreset(deviceType: DeviceType, isDark: Boolean) {
+        val preset = BgEffectConfig.get(deviceType, isDark)
+
+        runtimeShader.setFloatUniform("uPoints", preset.points)
+        runtimeShader.setFloatUniform("uLightOffset", preset.lightOffset)
+        runtimeShader.setFloatUniform("uSaturateOffset", preset.saturateOffset)
+    }
+
+    private fun updateBound(
+        logoHeight: Float,
+        totalHeight: Float,
+        totalWidth: Float,
+    ) {
+        val heightRatio = logoHeight / totalHeight
+        if (totalWidth <= totalHeight) {
+            bound[0] = 0f
+            bound[1] = 1f - heightRatio
+            bound[2] = 1f
+            bound[3] = heightRatio
+        } else {
+            val aspectRatio = totalWidth / totalHeight
+            val contentCenterY = 1f - heightRatio / 2f
+            bound[0] = 0f
+            bound[1] = contentCenterY - aspectRatio / 2f
+            bound[2] = 1f
+            bound[3] = aspectRatio
+        }
+    }
+}

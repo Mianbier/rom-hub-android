@@ -1,1 +1,13 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHJlc291cmNlcz4KICAgIDxjb2xvciBuYW1lPSJ0aXRsZUNvbG9yIj4jMDAwMDAwPC9jb2xvcj4KICAgIDxjb2xvciBuYW1lPSJJc2xhbmRUaXRsZUNvbG9yIj4jZmZmZmZmPC9jb2xvcj4KCgogICAgPGNvbG9yIG5hbWU9InRleHR2aWV3X2JsYWNrIj4jRkYwMDAwMDA8L2NvbG9yPgogICAgPGNvbG9yIG5hbWU9InRleHR2aWV3X3doaXRlIj4jRjFGRkZGRkY8L2NvbG9yPgogICAgPGNvbG9yIG5hbWU9InRleHR2aWV3X2JsdWUiPiMwRDg0RkY8L2NvbG9yPgogICAgPGNvbG9yIG5hbWU9InRleHR2aWV3X2JsYWNrX3RpdGxlIj4jMDAwMDAwPC9jb2xvcj4KICAgIDxjb2xvciBuYW1lPSJ0ZXh0dmlld19ibGFja19zdW1tYXJ5Ij4jODAwMDAwMDA8L2NvbG9yPgogICAgPGNvbG9yIG5hbWU9InRleHR2aWV3X2JsYWNrX3dhdGVybWFyayI+IzAzMDAwMDAwPC9jb2xvcj4KPC9yZXNvdXJjZXM+
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="titleColor">#000000</color>
+    <color name="IslandTitleColor">#ffffff</color>
+
+
+    <color name="textview_black">#FF000000</color>
+    <color name="textview_white">#F1FFFFFF</color>
+    <color name="textview_blue">#0D84FF</color>
+    <color name="textview_black_title">#000000</color>
+    <color name="textview_black_summary">#80000000</color>
+    <color name="textview_black_watermark">#03000000</color>
+</resources>

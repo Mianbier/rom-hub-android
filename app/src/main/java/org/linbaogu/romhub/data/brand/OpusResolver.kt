@@ -1,1 +1,330 @@
-cGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLmRhdGEuYnJhbmQKCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuRGlzcGF0Y2hlcnMKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy53aXRoQ29udGV4dAppbXBvcnQga290bGlueC5zZXJpYWxpemF0aW9uLmpzb24uSnNvbgppbXBvcnQga290bGlueC5zZXJpYWxpemF0aW9uLmpzb24uSnNvbk9iamVjdAppbXBvcnQga290bGlueC5zZXJpYWxpemF0aW9uLmpzb24uSnNvblByaW1pdGl2ZQppbXBvcnQga290bGlueC5zZXJpYWxpemF0aW9uLmpzb24uYnVpbGRKc29uT2JqZWN0CmltcG9ydCBrb3RsaW54LnNlcmlhbGl6YXRpb24uanNvbi5jb250ZW50T3JOdWxsCmltcG9ydCBrb3RsaW54LnNlcmlhbGl6YXRpb24uanNvbi5wdXQKaW1wb3J0IG9raHR0cDMuTWVkaWFUeXBlLkNvbXBhbmlvbi50b01lZGlhVHlwZQppbXBvcnQgb2todHRwMy5Pa0h0dHBDbGllbnQKaW1wb3J0IG9raHR0cDMuUmVxdWVzdAppbXBvcnQgb2todHRwMy5SZXF1ZXN0Qm9keS5Db21wYW5pb24udG9SZXF1ZXN0Qm9keQppbXBvcnQgamF2YS5zZWN1cml0eS5NZXNzYWdlRGlnZXN0CmltcG9ydCBqYXZhLnV0aWwuY29uY3VycmVudC5UaW1lVW5pdAppbXBvcnQgamF2YXguY3J5cHRvLk1hYwppbXBvcnQgamF2YXguY3J5cHRvLnNwZWMuU2VjcmV0S2V5U3BlYwoKLyoqCiAqIOOAjOWFqOmHj+WMheaPkOWPluOAjeerme+8iGBvcHVzcm9tLnRvcGDvvInnmoQqKuebtOmTvuino+aekCoq44CCCiAqCiAqIOmdmeaAgeaVsOaNru+8iFtPcHVzSW5kZXhd77yJ6YeM5Y+q5pyJ54mI5pys5YWD5L+h5oGv77yM5LiA5Liq5LiL6L2955u06ZO+6YO95rKh5pyJIOKAlOKAlAogKiDlrp7mtYsgdml2by9pUU9PIOWFqOmDqCAxNzI0IOS4queJiOacrOmDveaYryBgbmVlZHNSZXNvbHZlPXRydWVgIOS4lOmbtuebtOmTvuWtl+auteOAggogKiDmiYDku6XopoHnnJ/kuIvovb3vvIzlv4XpobvotbDov5nkuKrnsbvnjrDlj5bnm7Tpk77jgIIKICoKICogIyMjIOWujOaVtOmTvui3r++8iOmAhuWQkeiHqiBhcHAuanPvvIwyMDI2LTA5IOWunua1i++8iQogKgogKiAxLiBgUE9TVCAvYXBpL2NoYWxsZW5nZS9zdGFydGAgIGB7YWN0aW9uLGtleSxmcCxiZWhhdmlvcn1gIOKGkiBge2lkLCBwb3c6e3ByZWZpeCxkaWZmaWN1bHR5fX1gCiAqIDIuIOeulyBQb1fvvJrmib4gbm9uY2Ug5L2/IGBzaGEyNTYocHJlZml4ICsgbm9uY2UpYCDnmoQqKuWJjSBkaWZmaWN1bHR5IOS9jeS4uiAwKirvvIhkaWZmaWN1bHR5PTE277yM57qmIDEwbXPvvIkKICogMy4gYFBPU1QgL2FwaS9jaGFsbGVuZ2UvdmVyaWZ5YCBge2lkLGFjdGlvbixrZXksZWxhcHNlZCxtb3ZlcyxmcCxiZWhhdmlvcixwb3dfbm9uY2V9YAogKiAgICDihpIgKipge3RpY2tldCwgc2lkLCBzZWNyZXR9YCoqCiAqIDQuIGBHRVQgL2FwaS9yZXNvbHZlP2JyYW5kJmRldmljZSZtYWpvciZ2ZXJzaW9uJmZsYXNoJm1vZGVsYAogKiAgICDlpLQgYFgtUk9NLVNpZCAvIFRzIC8gTm9uY2UgLyBTaWdgICsgYFgtUk9NLVRpY2tldGAg4oaSIGB7dXJsfWAKICoKICogIyMjIOS4ieS4quaKiuS6uuWdkei/m+WOu+eahOe7huiKggogKgogKiAtICoqc2VjcmV0IOaYryBoZXgg5Liy77yMSE1BQyDliY3lv4XpobvlhYggYGhleFRvQnl0ZXMoKWAg6Kej56CB5oiQ5a2X6IqCKirjgIIKICogICBhcHAuanMg6YeM5pivIGBjcnlwdG8uc3VidGxlLmltcG9ydEtleSgncmF3JywgaGV4VG9CeXRlcyhzZWNyZXRIZXgpLCAuLi4pYOOAggogKiAgIOaLvyBoZXgg5a2X56ym5Liy55qEIFVURi04IOWtl+iKguW9k+WvhumSpe+8jOetvuWQjeawuOi/nOWvueS4jeS4iu+8iOS8muS4gOebtCA0MDHvvInjgIIKICogLSAqKm5vbmNlIOW/hemhu+avj+asoemHjeaWsOmaj+acuueUn+aIkCoq44CC5YaZ5q275Lya6Kem5Y+R5pyN5Yqh56uv55qE44CMbm9uY2Ug5bey5L2/55So44CN5ouS57ud77yMCiAqICAg6ICM6YKjKirkuI3nrpfnrb7lkI3lpLHotKUqKuKAlOKAlOi/nue7rei4qea7oSAxMiDmrKHlsLHkvJrooqvliKTlrprkuLrniIbnoLTvvIwqKui9r+WwgSBJUCA2IOWwj+aXtioq44CCCiAqICAg5omA5Lul6L+Z6YeM57ud5LiN6IO95YGa44CM5aSa57uE5ZCI6K+V5o6i44CN77yM5b+F6aG75LiA5qyh566X5a+544CCCiAqIC0gKipjYW5vbmljYWwg6YeM55qEIHF1ZXJ5IOS4suimgeWSjOecn+WuniBVUkwg5a6M5YWo5LiA6Ie0KirvvIzljIXmi6zlj4LmlbDpobrluo/lkoznvJbnoIHmlrnlvI/jgIIKICogICDnvJbnoIHpgbXlvqogV0hBVFdHIGBVUkxTZWFyY2hQYXJhbXNgIOinhOWIme+8muS/neeVmSBgQS1aYS16MC05YCDkuI4gYCogLSAuIF9g77yM56m65qC86L2sIGArYOOAggogKgogKiBjYW5vbmljYWwg57uT5p6E77yIYFxuYCDov57mjqXvvInvvJoKICogYGBgCiAqIE1FVEhPRCBcbiBwYXRoIFxuIHJhd1F1ZXJ5IFxuIHRzIFxuIG5vbmNlIFxuIHNoYTI1NmhleChib2R5KQogKiBgYGAKICog562+5ZCNIGBYLVJPTS1TaWcgPSBITUFDLVNIQTI1NihoZXhUb0J5dGVzKHNlY3JldCksIGNhbm9uaWNhbClg77yM6L6T5Ye65bCP5YaZIGhleOOAggogKi8KY2xhc3MgT3B1c1Jlc29sdmVyKAogICAgcHJpdmF0ZSB2YWwgY2xpZW50OiBPa0h0dHBDbGllbnQgPSBkZWZhdWx0Q2xpZW50KCksCikgewoKICAgIC8qKgogICAgICog6Kej5p6Q5LiA5Liq54mI5pys55qE55yf5a6e5LiL6L2955u06ZO+44CCCiAgICAgKgogICAgICogQHBhcmFtIHZlcnNpb24gb3B1c3JvbSDpnZnmgIHmlbDmja7ph4znmoTmnaHnm67vvIzoh6rluKYgYGFwaUJyYW5kL2FwaURldmljZS/igKZgIOino+aekOWPguaVsAogICAgICogQHJldHVybiDnm7Tpk77vvJvlpLHotKXml7bmipsgW09wdXNFeGNlcHRpb25dCiAgICAgKi8KICAgIHN1c3BlbmQgZnVuIHJlc29sdmUodmVyc2lvbjogT3B1c1ZlcnNpb24pOiBTdHJpbmcgPSB3aXRoQ29udGV4dChEaXNwYXRjaGVycy5JTykgewogICAgICAgIHZhbCBicmFuZCA9IHZlcnNpb24uYXBpQnJhbmQKICAgICAgICB2YWwgZGV2aWNlID0gdmVyc2lvbi5hcGlEZXZpY2UKICAgICAgICB2YWwgbWFqb3IgPSB2ZXJzaW9uLmFwaU1ham9yCiAgICAgICAgdmFsIHZlciA9IHZlcnNpb24udmVyc2lvbgogICAgICAgIHZhbCBmbGFzaCA9IHZlcnNpb24uYXBpRmxhc2gKICAgICAgICB2YWwgbW9kZWwgPSB2ZXJzaW9uLm9wbHVzTW9kZWwKCiAgICAgICAgaWYgKGJyYW5kLmlzQmxhbmsoKSB8fCBkZXZpY2UuaXNCbGFuaygpIHx8IHZlci5pc0JsYW5rKCkpIHsKICAgICAgICAgICAgdGhyb3cgT3B1c0V4Y2VwdGlvbigi6L+Z5Liq54mI5pys57y65bCR6Kej5p6Q5Y+C5pWw77yM5peg5rOV5Y+W55u06ZO+IikKICAgICAgICB9CgogICAgICAgIHZhbCBrZXkgPSBsaXN0T2YoYnJhbmQsIGRldmljZSwgbWFqb3IsIHZlciwgZmxhc2gsIG1vZGVsKS5qb2luVG9TdHJpbmcoInwiKQoKICAgICAgICAvLyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tIDEuIOeUs+ivtyBjaGFsbGVuZ2UKICAgICAgICB2YWwgc3RhcnQgPSBwb3N0SnNvbigKICAgICAgICAgICAgIi9jaGFsbGVuZ2Uvc3RhcnQiLAogICAgICAgICAgICBidWlsZEpzb25PYmplY3QgewogICAgICAgICAgICAgICAgcHV0KCJhY3Rpb24iLCAicmVzb2x2ZSIpCiAgICAgICAgICAgICAgICBwdXQoImtleSIsIGtleSkKICAgICAgICAgICAgICAgIHB1dCgiZnAiLCBGSU5HRVJQUklOVCkKICAgICAgICAgICAgICAgIHB1dCgiYmVoYXZpb3IiLCBCRUhBVklPUikKICAgICAgICAgICAgfSwKICAgICAgICApCiAgICAgICAgdmFsIGNpZCA9IHN0YXJ0LnN0cigiaWQiKQogICAgICAgIGlmIChjaWQuaXNCbGFuaygpKSB0aHJvdyBPcHVzRXhjZXB0aW9uKCLlj5bnm7Tpk77vvJpjaGFsbGVuZ2Ug55Sz6K+35aSx6LSl77yIJHtzdGFydC5lcnJvckhpbnQoKX3vvIkiKQoKICAgICAgICAvLyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tIDIuIOeulyBQb1cKICAgICAgICB2YWwgcG93ID0gc3RhcnRbInBvdyJdIGFzPyBKc29uT2JqZWN0CiAgICAgICAgdmFsIHByZWZpeCA9IHBvdz8uc3RyKCJwcmVmaXgiKS5vckVtcHR5KCkKICAgICAgICB2YWwgZGlmZmljdWx0eSA9IHBvdz8uc3RyKCJkaWZmaWN1bHR5Iik/LnRvSW50T3JOdWxsKCkgPzogREVGQVVMVF9ESUZGSUNVTFRZCiAgICAgICAgdmFsIHBvd05vbmNlID0gaWYgKHByZWZpeC5pc0JsYW5rKCkpIG51bGwgZWxzZSBzb2x2ZVBvdyhwcmVmaXgsIGRpZmZpY3VsdHkpCgogICAgICAgIC8vIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0gMy4g5o2i562+5ZCN56Wo5o2uCiAgICAgICAgdmFsIHZlcmlmaWVkID0gcG9zdEpzb24oCiAgICAgICAgICAgICIvY2hhbGxlbmdlL3ZlcmlmeSIsCiAgICAgICAgICAgIGJ1aWxkSnNvbk9iamVjdCB7CiAgICAgICAgICAgICAgICBwdXQoImlkIiwgY2lkKQogICAgICAgICAgICAgICAgcHV0KCJhY3Rpb24iLCAicmVzb2x2ZSIpCiAgICAgICAgICAgICAgICBwdXQoImtleSIsIGtleSkKICAgICAgICAgICAgICAgIHB1dCgiZWxhcHNlZCIsIDkwMCkKICAgICAgICAgICAgICAgIHB1dCgibW92ZXMiLCBCRUhBVklPUl9NT1ZFUykKICAgICAgICAgICAgICAgIHB1dCgiZnAiLCBGSU5HRVJQUklOVCkKICAgICAgICAgICAgICAgIHB1dCgiYmVoYXZpb3IiLCBCRUhBVklPUikKICAgICAgICAgICAgICAgIGlmIChwb3dOb25jZSAhPSBudWxsKSBwdXQoInBvd19ub25jZSIsIHBvd05vbmNlKQogICAgICAgICAgICB9LAogICAgICAgICkKICAgICAgICB2YWwgc2lkID0gdmVyaWZpZWQuc3RyKCJzaWQiKQogICAgICAgIHZhbCBzZWNyZXQgPSB2ZXJpZmllZC5zdHIoInNlY3JldCIpCiAgICAgICAgdmFsIHRpY2tldCA9IHZlcmlmaWVkLnN0cigidGlja2V0IikKICAgICAgICBpZiAoc2lkLmlzQmxhbmsoKSB8fCBzZWNyZXQuaXNCbGFuaygpKSB7CiAgICAgICAgICAgIHRocm93IE9wdXNFeGNlcHRpb24oIuWPluebtOmTvu+8muetvuWQjeagoemqjOacqumAmui/h++8iCR7dmVyaWZpZWQuZXJyb3JIaW50KCl977yJIikKICAgICAgICB9CgogICAgICAgIC8vIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0gNC4g5o2i55u06ZO+CiAgICAgICAgLy8g5Y+C5pWw6aG65bqP5Y2z562+5ZCN6aG65bqP77yM5LiN6IO95pS5CiAgICAgICAgdmFsIHJhd1F1ZXJ5ID0gbGlzdE9mKAogICAgICAgICAgICAiYnJhbmQiIHRvIGJyYW5kLAogICAgICAgICAgICAiZGV2aWNlIiB0byBkZXZpY2UsCiAgICAgICAgICAgICJtYWpvciIgdG8gbWFqb3IsCiAgICAgICAgICAgICJ2ZXJzaW9uIiB0byB2ZXIsCiAgICAgICAgICAgICJmbGFzaCIgdG8gZmxhc2gsCiAgICAgICAgICAgICJtb2RlbCIgdG8gbW9kZWwsCiAgICAgICAgKS5qb2luVG9TdHJpbmcoIiYiKSB7IChrLCB2KSAtPiAiJGs9JHtPdGFDcnlwdG8uZm9ybUVuY29kZSh2KX0iIH0KCiAgICAgICAgdmFsIHRzID0gU3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCkudG9TdHJpbmcoKQogICAgICAgIC8vIOavj+asoemDveimgeaWsOeahCBub25jZSDigJTigJQg6YeN5pS+5Lya6KKr5Yik44CMbm9uY2Ug5bey5L2/55So44CNCiAgICAgICAgdmFsIG5vbmNlID0gT3RhQ3J5cHRvLmhleChPdGFDcnlwdG8ucmFuZG9tQnl0ZXMoMTIpKQogICAgICAgIHZhbCBjYW5vbmljYWwgPSBsaXN0T2YoCiAgICAgICAgICAgICJHRVQiLAogICAgICAgICAgICBSRVNPTFZFX1BBVEgsCiAgICAgICAgICAgIHJhd1F1ZXJ5LAogICAgICAgICAgICB0cywKICAgICAgICAgICAgbm9uY2UsCiAgICAgICAgICAgIE90YUNyeXB0by5oZXgoT3RhQ3J5cHRvLnNoYTI1NihCeXRlQXJyYXkoMCkpKSwgICAvLyBHRVQg5pegIGJvZHnvvIzljbPnqbrkuLLnmoTlk4jluIwKICAgICAgICApLmpvaW5Ub1N0cmluZygiXG4iKQogICAgICAgIHZhbCBzaWcgPSBobWFjU2hhMjU2SGV4KE90YUNyeXB0by51bkhleChzZWNyZXQpLCBjYW5vbmljYWwpCgogICAgICAgIHZhbCB1cmwgPSAiJEFQSSRSRVNPTFZFX1BBVEg/JHJhd1F1ZXJ5IgogICAgICAgIHZhbCByZXF1ZXN0ID0gUmVxdWVzdC5CdWlsZGVyKCkKICAgICAgICAgICAgLnVybCh1cmwpCiAgICAgICAgICAgIC5nZXQoKQogICAgICAgICAgICAuaGVhZGVyKCJVc2VyLUFnZW50IiwgREVTS1RPUF9VQSkKICAgICAgICAgICAgLmhlYWRlcigiUmVmZXJlciIsICJodHRwczovLyRIT1NULyIpCiAgICAgICAgICAgIC5oZWFkZXIoIlgtUk9NLVNpZCIsIHNpZCkKICAgICAgICAgICAgLmhlYWRlcigiWC1ST00tVHMiLCB0cykKICAgICAgICAgICAgLmhlYWRlcigiWC1ST00tTm9uY2UiLCBub25jZSkKICAgICAgICAgICAgLmhlYWRlcigiWC1ST00tU2lnIiwgc2lnKQogICAgICAgICAgICAuaGVhZGVyKCJYLVJPTS1UaWNrZXQiLCB0aWNrZXQpCiAgICAgICAgICAgIC5idWlsZCgpCgogICAgICAgIGNsaWVudC5uZXdDYWxsKHJlcXVlc3QpLmV4ZWN1dGUoKS51c2UgeyByZXNwIC0+CiAgICAgICAgICAgIHZhbCB0ZXh0ID0gcmVzcC5ib2R5Py5zdHJpbmcoKS5vckVtcHR5KCkKICAgICAgICAgICAgaWYgKCFyZXNwLmlzU3VjY2Vzc2Z1bCkgewogICAgICAgICAgICAgICAgLy8g5LiN5Yqg44CM5Y+W55u06ZO+5aSx6LSl44CN5YmN57yAIOKAlOKAlCDkuIrlsYLkvJrnu5/kuIDliqDvvIzlpJrlsYLlj6DliqDkvJrorqnnlKjmiLfnnIvliLAKICAgICAgICAgICAgICAgIC8vIOOAjOWPluebtOmTvuWksei0pe+8muWPluebtOmTvuWksei0pe+8muWPluebtOmTvuWksei0peOAjei/meenjeWPoOWKoOaWh+ahiOOAggogICAgICAgICAgICAgICAgdGhyb3cgT3B1c0V4Y2VwdGlvbigi6Kej5p6Q5o6l5Y+j6L+U5ZueIEhUVFAgJHtyZXNwLmNvZGV9ICR7dGV4dC50YWtlKDIwMCl9IikKICAgICAgICAgICAgfQogICAgICAgICAgICB2YWwgb2JqID0gcnVuQ2F0Y2hpbmcgeyBKU09OLnBhcnNlVG9Kc29uRWxlbWVudCh0ZXh0KSBhcz8gSnNvbk9iamVjdCB9LmdldE9yTnVsbCgpCiAgICAgICAgICAgICAgICA/OiB0aHJvdyBPcHVzRXhjZXB0aW9uKCLlj5bnm7Tpk77vvJrlk43lupTorqTkuI3lh7rvvIgke3RleHQudGFrZSgyMDApfe+8iSIpCiAgICAgICAgICAgIHZhbCBsaW5rID0gb2JqLnN0cigidXJsIikuaWZCbGFuayB7IG9iai5zdHIoImRvd25sb2FkVXJsIikgfQogICAgICAgICAgICBpZiAobGluay5pc0JsYW5rKCkpIHRocm93IE9wdXNFeGNlcHRpb24oIuWPluebtOmTvu+8muaOpeWPo+ayoei/lOWbnumTvuaOpe+8iCR7b2JqLmVycm9ySGludCgpfe+8iSIpCiAgICAgICAgICAgIGxpbmsKICAgICAgICB9CiAgICB9CgogICAgLy8gLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSDlhoXpg6gKCiAgICBwcml2YXRlIGZ1biBwb3N0SnNvbihwYXRoOiBTdHJpbmcsIHBheWxvYWQ6IEpzb25PYmplY3QpOiBKc29uT2JqZWN0IHsKICAgICAgICB2YWwgYm9keSA9IEpTT04uZW5jb2RlVG9TdHJpbmcoSnNvbk9iamVjdC5zZXJpYWxpemVyKCksIHBheWxvYWQpCiAgICAgICAgICAgIC50b1JlcXVlc3RCb2R5KEpTT05fTUVESUEpCiAgICAgICAgdmFsIHJlcXVlc3QgPSBSZXF1ZXN0LkJ1aWxkZXIoKQogICAgICAgICAgICAudXJsKCIkQVBJJHBhdGgiKQogICAgICAgICAgICAucG9zdChib2R5KQogICAgICAgICAgICAuaGVhZGVyKCJVc2VyLUFnZW50IiwgREVTS1RPUF9VQSkKICAgICAgICAgICAgLmhlYWRlcigiUmVmZXJlciIsICJodHRwczovLyRIT1NULyIpCiAgICAgICAgICAgIC5oZWFkZXIoIk9yaWdpbiIsICJodHRwczovLyRIT1NUIikKICAgICAgICAgICAgLmJ1aWxkKCkKCiAgICAgICAgY2xpZW50Lm5ld0NhbGwocmVxdWVzdCkuZXhlY3V0ZSgpLnVzZSB7IHJlc3AgLT4KICAgICAgICAgICAgdmFsIHRleHQgPSByZXNwLmJvZHk/LnN0cmluZygpLm9yRW1wdHkoKQogICAgICAgICAgICAvLyDpnZ4gMnh4IOaXtuacjeWKoeerr+aKiuWOn+WboOWGmeWcqCBKU09OIOmHjO+8jOS6pOe7meS4iuWxguino+aekOaIkOS6uuivnQogICAgICAgICAgICB2YWwgb2JqID0gcnVuQ2F0Y2hpbmcgeyBKU09OLnBhcnNlVG9Kc29uRWxlbWVudCh0ZXh0KSBhcz8gSnNvbk9iamVjdCB9LmdldE9yTnVsbCgpCiAgICAgICAgICAgIGlmIChvYmogPT0gbnVsbCkgewogICAgICAgICAgICAgICAgdGhyb3cgT3B1c0V4Y2VwdGlvbigi6K+35rGCICRwYXRoIOWksei0pe+8mkhUVFAgJHtyZXNwLmNvZGV9ICR7dGV4dC50YWtlKDIwMCl9IikKICAgICAgICAgICAgfQogICAgICAgICAgICByZXR1cm4gb2JqCiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICogUG9X77ya5om+IG5vbmNlIOiuqSBgc2hhMjU2KHByZWZpeCArIG5vbmNlKWAg55qE5YmNIFtkaWZmaWN1bHR5XSDkuKrkuozov5vliLbkvY3kuLogMOOAggogICAgICoKICAgICAqIOS7jiBhcHAuanMg5oqE55qEIHNhbHQg5pivIGAiYTFiMiJg44CCZGlmZmljdWx0eSDpgJrluLggMTbvvIznuqYgMl4xNiDmrKHlk4jluIzjgIExMG1zIOWGheWujOaIkOOAggogICAgICovCiAgICBwcml2YXRlIGZ1biBzb2x2ZVBvdyhwcmVmaXg6IFN0cmluZywgZGlmZmljdWx0eTogSW50LCBtYXhJdGVyOiBJbnQgPSAxIHNobCAyMyk6IFN0cmluZz8gewogICAgICAgIHZhbCBuZWVkID0gZGlmZmljdWx0eS5jb2VyY2VJbigxLCAyNCkKICAgICAgICB2YWwgbWQgPSBNZXNzYWdlRGlnZXN0LmdldEluc3RhbmNlKCJTSEEtMjU2IikKICAgICAgICBmb3IgKGkgaW4gMCB1bnRpbCBtYXhJdGVyKSB7CiAgICAgICAgICAgIHZhbCBub25jZSA9IFNBTFQgKyBpLnRvU3RyaW5nKDE2KQogICAgICAgICAgICB2YWwgZCA9IG1kLmRpZ2VzdCgocHJlZml4ICsgbm9uY2UpLnRvQnl0ZUFycmF5KCkpCiAgICAgICAgICAgIGlmIChsZWFkaW5nWmVyb0JpdHMoZCkgPj0gbmVlZCkgcmV0dXJuIG5vbmNlCiAgICAgICAgfQogICAgICAgIHJldHVybiBudWxsCiAgICB9CgogICAgLyoqIOe7n+iuoeWtl+iKguaVsOe7hOW8gOWktOacieWkmuWwkeS4qiAwIOS9jeOAgiAqLwogICAgcHJpdmF0ZSBmdW4gbGVhZGluZ1plcm9CaXRzKGJ5dGVzOiBCeXRlQXJyYXkpOiBJbnQgewogICAgICAgIHZhciBiaXRzID0gMAogICAgICAgIGZvciAoYiBpbiBieXRlcykgewogICAgICAgICAgICBpZiAoYml0cyA+PSAyNCkgYnJlYWsKICAgICAgICAgICAgdmFsIHYgPSBiLnRvSW50KCkgYW5kIDB4RkYKICAgICAgICAgICAgaWYgKHYgPT0gMCkgeyBiaXRzICs9IDg7IGNvbnRpbnVlIH0KICAgICAgICAgICAgYml0cyArPSBJbnRlZ2VyLm51bWJlck9mTGVhZGluZ1plcm9zKHYpIC0gMjQKICAgICAgICAgICAgYnJlYWsKICAgICAgICB9CiAgICAgICAgcmV0dXJuIGJpdHMKICAgIH0KCiAgICAvKioKICAgICAqIEhNQUMtU0hBMjU2IOKGkiDlsI/lhpkgaGV444CCCiAgICAgKgogICAgICog4pqg77iPIOWvhumSpeS8oOeahOaYryoq5a2X6IqCKirvvIzosIPnlKjmlrnlv4Xpobvlt7LmioogaGV4IOS4suino+eggei/h++8iOingeexu+azqOmHiu+8ieOAggogICAgICovCiAgICBwcml2YXRlIGZ1biBobWFjU2hhMjU2SGV4KGtleTogQnl0ZUFycmF5LCBtc2c6IFN0cmluZyk6IFN0cmluZyB7CiAgICAgICAgdmFsIG1hYyA9IE1hYy5nZXRJbnN0YW5jZSgiSG1hY1NIQTI1NiIpCiAgICAgICAgbWFjLmluaXQoU2VjcmV0S2V5U3BlYyhrZXksICJIbWFjU0hBMjU2IikpCiAgICAgICAgcmV0dXJuIE90YUNyeXB0by5oZXgobWFjLmRvRmluYWwobXNnLnRvQnl0ZUFycmF5KCkpKQogICAgfQoKICAgIGNvbXBhbmlvbiBvYmplY3QgewogICAgICAgIGNvbnN0IHZhbCBIT1NUID0gIm9wdXNyb20udG9wIgogICAgICAgIHByaXZhdGUgY29uc3QgdmFsIEFQSSA9ICJodHRwczovLyRIT1NUL2FwaSIKICAgICAgICBwcml2YXRlIGNvbnN0IHZhbCBSRVNPTFZFX1BBVEggPSAiL3Jlc29sdmUiCiAgICAgICAgcHJpdmF0ZSBjb25zdCB2YWwgREVGQVVMVF9ESUZGSUNVTFRZID0gMTYKICAgICAgICBwcml2YXRlIGNvbnN0IHZhbCBTQUxUID0gImExYjIiCiAgICAgICAgcHJpdmF0ZSBjb25zdCB2YWwgQkVIQVZJT1JfTU9WRVMgPSA0MgoKICAgICAgICBwcml2YXRlIHZhbCBKU09OX01FRElBID0gImFwcGxpY2F0aW9uL2pzb247IGNoYXJzZXQ9dXRmLTgiLnRvTWVkaWFUeXBlKCkKCiAgICAgICAgcHJpdmF0ZSBjb25zdCB2YWwgREVTS1RPUF9VQSA9CiAgICAgICAgICAgICJNb3ppbGxhLzUuMCAoV2luZG93cyBOVCAxMC4wOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgIiArCiAgICAgICAgICAgICAgICAiKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTIwLjAuMC4wIFNhZmFyaS81MzcuMzYiCgogICAgICAgIC8qKiDmtY/op4jlmajmjIfnurnjgILmnI3liqHnq6/lj6rnnIvmnInmsqHmnInmmI7mmL7lvILluLjvvIzkuI3kvJrpgJDpobnmoLjlr7njgIIgKi8KICAgICAgICBwcml2YXRlIHZhbCBGSU5HRVJQUklOVDogSnNvbk9iamVjdCA9IGJ1aWxkSnNvbk9iamVjdCB7CiAgICAgICAgICAgIHB1dCgidWEiLCBERVNLVE9QX1VBKQogICAgICAgICAgICBwdXQoImxhbmciLCAiemgtQ04iKQogICAgICAgICAgICBwdXQoInBsYXRmb3JtIiwgIldpbjMyIikKICAgICAgICAgICAgcHV0KCJ0aW1lem9uZSIsICJBc2lhL1NoYW5naGFpIikKICAgICAgICAgICAgcHV0KCJzY3JlZW4iLCAiMTkyMHgxMDgweDI0IikKICAgICAgICAgICAgcHV0KCJ2aWV3cG9ydCIsICIxOTIweDk0NXgxIikKICAgICAgICAgICAgcHV0KCJjb3JlcyIsIDgpCiAgICAgICAgICAgIHB1dCgibWVtb3J5IiwgOCkKICAgICAgICAgICAgcHV0KCJ0b3VjaCIsIDApCiAgICAgICAgICAgIHB1dCgicGx1Z2lucyIsIDApCiAgICAgICAgICAgIHB1dCgid2ViZHJpdmVyIiwgZmFsc2UpCiAgICAgICAgICAgIHB1dCgiY2FudmFzIiwgIjAiKQogICAgICAgICAgICBwdXQoImNvb2tpZSIsIHRydWUpCiAgICAgICAgfQoKICAgICAgICAvKiog6KGM5Li66L2o6L+544CC5ZCM5qC35Y+q55yL5b2i54q25piv5ZCm5ZCI55CG44CCICovCiAgICAgICAgcHJpdmF0ZSB2YWwgQkVIQVZJT1I6IEpzb25PYmplY3QgPSBidWlsZEpzb25PYmplY3QgewogICAgICAgICAgICBwdXQoImFnZSIsIDEyMDAwKQogICAgICAgICAgICBwdXQoIm1vdmVzIiwgQkVIQVZJT1JfTU9WRVMpCiAgICAgICAgICAgIHB1dCgidG91Y2hlcyIsIDApCiAgICAgICAgICAgIHB1dCgiY2xpY2tzIiwgMykKICAgICAgICAgICAgcHV0KCJrZXlzIiwgMCkKICAgICAgICAgICAgcHV0KCJzY3JvbGxzIiwgMikKICAgICAgICAgICAgcHV0KCJmb2N1c0NoYW5nZXMiLCAxKQogICAgICAgICAgICBwdXQoImRlYnVnSGl0cyIsIDApCiAgICAgICAgfQoKICAgICAgICBwcml2YXRlIHZhbCBKU09OID0gSnNvbiB7IGlnbm9yZVVua25vd25LZXlzID0gdHJ1ZTsgaXNMZW5pZW50ID0gdHJ1ZSB9CgogICAgICAgIGZ1biBkZWZhdWx0Q2xpZW50KCk6IE9rSHR0cENsaWVudCA9IE9rSHR0cENsaWVudC5CdWlsZGVyKCkKICAgICAgICAgICAgLmNvbm5lY3RUaW1lb3V0KDE1LCBUaW1lVW5pdC5TRUNPTkRTKQogICAgICAgICAgICAucmVhZFRpbWVvdXQoNjAsIFRpbWVVbml0LlNFQ09ORFMpCiAgICAgICAgICAgIC5idWlsZCgpCgogICAgICAgIHByaXZhdGUgZnVuIEpzb25PYmplY3Quc3RyKGtleTogU3RyaW5nKTogU3RyaW5nID0KICAgICAgICAgICAgKHRoaXNba2V5XSBhcz8gSnNvblByaW1pdGl2ZSk/LmNvbnRlbnRPck51bGwub3JFbXB0eSgpCgogICAgICAgIHByaXZhdGUgZnVuIEpzb25PYmplY3QuaW50T3JOdWxsKGtleTogU3RyaW5nKTogSW50PyA9CiAgICAgICAgICAgICh0aGlzW2tleV0gYXM/IEpzb25QcmltaXRpdmUpPy5jb250ZW50T3JOdWxsPy50cmltKCk/LnRvSW50T3JOdWxsKCkKCiAgICAgICAgLyoqCiAgICAgICAgICog5Ye66ZSZ5pe257uZ55So5oi355yL55qE6K+d44CCCiAgICAgICAgICoKICAgICAgICAgKiDkuKTku7bkuovlv4XpobvlgZrvvJoKICAgICAgICAgKiAgMS4gKirnu53kuI3miormupDnq5nov5Tlm57nmoQgYGVycm9yYCDljp/mlofpgI/lh7rljrsqKiDigJTigJQg5rqQ56uZ5a+5IElQIOWwgeemgeaXtuS8muWbnuS4gOWPpQogICAgICAgICAqICAgICDluKbohI/or53nmoTmj5DnpLrvvIhgaXBfYmFubmVkOiB0cnVlYCArIOiuveWIuuaWh+ahiO+8ieOAguWOn+agt+aYvuekuuetieS6juaKiuWIq+S6uueahAogICAgICAgICAqICAgICDmg4Xnu6rnlKnnu5nnlKjmiLfnnIvvvIzmiYDku6XlsIHnpoHml7botbDkuIvpnaLnmoTlj4vlpb3liIbmlK/vvIzlj6rorrLkuovlrp7jgIIKICAgICAgICAgKiAgMi4g5bCB56aB6KaB5oqlKirov5jlianlpJrkuYUqKu+8iGByZW1haW5gIOenku+8ie+8jOWQpuWImeeUqOaIt+S4jeefpemBk+ivpeetiei/mOaYr+imgeaNoue9keOAggogICAgICAgICAqICAgICBzb2Z0IOWwgeemge+8iHJlbWFpbiA+IDAg5LiUIGlwX2Jhbm5lZO+8iemAmuW4uOaYr+i/nue7reetvuWQjeWksei0pee0r+iuoeWHuuadpeeahO+8jAogICAgICAgICAqICAgICDnrYnlroPoh6rnhLbov4fmnJ/ljbPlj6/vvJvpnZ4gc29mdCDnmoQgcGVybWFuZW50IOWwgeemgeWImeimgeaPkOekuuaNoue9kee7nOOAggogICAgICAgICAqLwogICAgICAgIHByaXZhdGUgZnVuIEpzb25PYmplY3QuZXJyb3JIaW50KCk6IFN0cmluZyB7CiAgICAgICAgICAgIHZhbCBiYW5uZWQgPSBzdHIoImlwX2Jhbm5lZCIpLnRyaW0oKS5sb3dlcmNhc2UoKSA9PSAidHJ1ZSIKICAgICAgICAgICAgdmFsIHJlbWFpbiA9IHN0cigicmVtYWluIikudHJpbSgpLnRvSW50T3JOdWxsKCkgPzogMAogICAgICAgICAgICB2YWwgc29mdCA9IHN0cigic29mdCIpLnRyaW0oKS5sb3dlcmNhc2UoKSAhPSAiZmFsc2UiCgogICAgICAgICAgICBpZiAoYmFubmVkIHx8IHJlbWFpbiA+IDApIHsKICAgICAgICAgICAgICAgIHZhbCB0YWlsID0gaWYgKHJlbWFpbiA+IDApIHsKICAgICAgICAgICAgICAgICAgICB2YWwgaCA9IHJlbWFpbiAvIDM2MDAKICAgICAgICAgICAgICAgICAgICB2YWwgbSA9IChyZW1haW4gJSAzNjAwKSAvIDYwCiAgICAgICAgICAgICAgICAgICAgdmFsIHNlY3MgPSByZW1haW4gJSA2MAogICAgICAgICAgICAgICAgICAgIHZhbCBzcGFuID0gYnVpbGRTdHJpbmcgewogICAgICAgICAgICAgICAgICAgICAgICBpZiAoaCA+IDApIGFwcGVuZCgiJHtofeWwj+aXtiIpCiAgICAgICAgICAgICAgICAgICAgICAgIGlmIChtID4gMCkgYXBwZW5kKCIke2195YiG6ZKfIikKICAgICAgICAgICAgICAgICAgICAgICAgaWYgKGggPT0gMCAmJiBzZWNzID4gMCkgYXBwZW5kKCIke3NlY3N956eSIikKICAgICAgICAgICAgICAgICAgICB9LmlmQmxhbmsgeyAi54mH5Yi7IiB9CiAgICAgICAgICAgICAgICAgICAgIue6piAkc3BhbiIKICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgIuawuOS5hSIKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIHJldHVybiBpZiAoc29mdCkgewogICAgICAgICAgICAgICAgICAgICLlvZPliY3nvZHnu5zlt7LooqvmlbDmja7mupDkuLTml7bpmZDliLbvvIwkdGFpbCDlkI7oh6rliqjmgaLlpI3jgILlj6/liIfmjaLnvZHnu5zvvIhXaS1GaSAvIOenu+WKqOaVsOaNru+8ieWQjumHjeivleOAgiIKICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgIuW9k+WJjee9kee7nOW3suiiq+aVsOaNrua6kOmZkOWItu+8iCR0YWls77yJ44CC6K+35YiH5o2i572R57uc77yIV2ktRmkgLyDnp7vliqjmlbDmja7vvInlkI7ph43or5XjgIIiCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIC8vIOmdnuWwgeemgeeahOaZrumAmumUmeivr++8mua6kOermeaWh+ahiOS4gOiIrOi/mOeul+ato+W4uO+8jOS9huS7jeeEtuWBmumVv+W6puaUtuaVmwogICAgICAgICAgICByZXR1cm4gc3RyKCJlcnJvciIpLmlmQmxhbmsgeyBzdHIoIm1lc3NhZ2UiKSB9LmlmQmxhbmsgeyBzdHIoInJlYXNvbiIpIH0udGFrZSgxNjApCiAgICAgICAgfQogICAgfQp9Cg==
+package org.linbaogu.romhub.data.brand
+
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
+import kotlinx.serialization.json.Json
+import kotlinx.serialization.json.JsonObject
+import kotlinx.serialization.json.JsonPrimitive
+import kotlinx.serialization.json.buildJsonObject
+import kotlinx.serialization.json.contentOrNull
+import kotlinx.serialization.json.put
+import okhttp3.MediaType.Companion.toMediaType
+import okhttp3.OkHttpClient
+import okhttp3.Request
+import okhttp3.RequestBody.Companion.toRequestBody
+import java.security.MessageDigest
+import java.util.concurrent.TimeUnit
+import javax.crypto.Mac
+import javax.crypto.spec.SecretKeySpec
+
+/**
+ * 「全量包提取」站（`opusrom.top`）的**直链解析**。
+ *
+ * 静态数据（[OpusIndex]）里只有版本元信息，一个下载直链都没有 ——
+ * 实测 vivo/iQOO 全部 1724 个版本都是 `needsResolve=true` 且零直链字段。
+ * 所以要真下载，必须走这个类现取直链。
+ *
+ * ### 完整链路（逆向自 app.js，2026-09 实测）
+ *
+ * 1. `POST /api/challenge/start`  `{action,key,fp,behavior}` → `{id, pow:{prefix,difficulty}}`
+ * 2. 算 PoW：找 nonce 使 `sha256(prefix + nonce)` 的**前 difficulty 位为 0**（difficulty=16，约 10ms）
+ * 3. `POST /api/challenge/verify` `{id,action,key,elapsed,moves,fp,behavior,pow_nonce}`
+ *    → **`{ticket, sid, secret}`**
+ * 4. `GET /api/resolve?brand&device&major&version&flash&model`
+ *    头 `X-ROM-Sid / Ts / Nonce / Sig` + `X-ROM-Ticket` → `{url}`
+ *
+ * ### 三个把人坑进去的细节
+ *
+ * - **secret 是 hex 串，HMAC 前必须先 `hexToBytes()` 解码成字节**。
+ *   app.js 里是 `crypto.subtle.importKey('raw', hexToBytes(secretHex), ...)`。
+ *   拿 hex 字符串的 UTF-8 字节当密钥，签名永远对不上（会一直 401）。
+ * - **nonce 必须每次重新随机生成**。写死会触发服务端的「nonce 已使用」拒绝，
+ *   而那**不算签名失败**——连续踩满 12 次就会被判定为爆破，**软封 IP 6 小时**。
+ *   所以这里绝不能做「多组合试探」，必须一次算对。
+ * - **canonical 里的 query 串要和真实 URL 完全一致**，包括参数顺序和编码方式。
+ *   编码遵循 WHATWG `URLSearchParams` 规则：保留 `A-Za-z0-9` 与 `* - . _`，空格转 `+`。
+ *
+ * canonical 结构（`\n` 连接）：
+ * ```
+ * METHOD \n path \n rawQuery \n ts \n nonce \n sha256hex(body)
+ * ```
+ * 签名 `X-ROM-Sig = HMAC-SHA256(hexToBytes(secret), canonical)`，输出小写 hex。
+ */
+class OpusResolver(
+    private val client: OkHttpClient = defaultClient(),
+) {
+
+    /**
+     * 解析一个版本的真实下载直链。
+     *
+     * @param version opusrom 静态数据里的条目，自带 `apiBrand/apiDevice/…` 解析参数
+     * @return 直链；失败时抛 [OpusException]
+     */
+    suspend fun resolve(version: OpusVersion): String = withContext(Dispatchers.IO) {
+        val brand = version.apiBrand
+        val device = version.apiDevice
+        val major = version.apiMajor
+        val ver = version.version
+        val flash = version.apiFlash
+        val model = version.oplusModel
+
+        if (brand.isBlank() || device.isBlank() || ver.isBlank()) {
+            throw OpusException("这个版本缺少解析参数，无法取直链")
+        }
+
+        val key = listOf(brand, device, major, ver, flash, model).joinToString("|")
+
+        // ---------------------------------------------------- 1. 申请 challenge
+        val start = postJson(
+            "/challenge/start",
+            buildJsonObject {
+                put("action", "resolve")
+                put("key", key)
+                put("fp", FINGERPRINT)
+                put("behavior", BEHAVIOR)
+            },
+        )
+        val cid = start.str("id")
+        if (cid.isBlank()) throw OpusException("取直链：challenge 申请失败（${start.errorHint()}）")
+
+        // ---------------------------------------------------- 2. 算 PoW
+        val pow = start["pow"] as? JsonObject
+        val prefix = pow?.str("prefix").orEmpty()
+        val difficulty = pow?.str("difficulty")?.toIntOrNull() ?: DEFAULT_DIFFICULTY
+        val powNonce = if (prefix.isBlank()) null else solvePow(prefix, difficulty)
+
+        // ---------------------------------------------------- 3. 换签名票据
+        val verified = postJson(
+            "/challenge/verify",
+            buildJsonObject {
+                put("id", cid)
+                put("action", "resolve")
+                put("key", key)
+                put("elapsed", 900)
+                put("moves", BEHAVIOR_MOVES)
+                put("fp", FINGERPRINT)
+                put("behavior", BEHAVIOR)
+                if (powNonce != null) put("pow_nonce", powNonce)
+            },
+        )
+        val sid = verified.str("sid")
+        val secret = verified.str("secret")
+        val ticket = verified.str("ticket")
+        if (sid.isBlank() || secret.isBlank()) {
+            throw OpusException("取直链：签名校验未通过（${verified.errorHint()}）")
+        }
+
+        // ---------------------------------------------------- 4. 换直链
+        // 参数顺序即签名顺序，不能改
+        val rawQuery = listOf(
+            "brand" to brand,
+            "device" to device,
+            "major" to major,
+            "version" to ver,
+            "flash" to flash,
+            "model" to model,
+        ).joinToString("&") { (k, v) -> "$k=${OtaCrypto.formEncode(v)}" }
+
+        val ts = System.currentTimeMillis().toString()
+        // 每次都要新的 nonce —— 重放会被判「nonce 已使用」
+        val nonce = OtaCrypto.hex(OtaCrypto.randomBytes(12))
+        val canonical = listOf(
+            "GET",
+            RESOLVE_PATH,
+            rawQuery,
+            ts,
+            nonce,
+            OtaCrypto.hex(OtaCrypto.sha256(ByteArray(0))),   // GET 无 body，即空串的哈希
+        ).joinToString("\n")
+        val sig = hmacSha256Hex(OtaCrypto.unHex(secret), canonical)
+
+        val url = "$API$RESOLVE_PATH?$rawQuery"
+        val request = Request.Builder()
+            .url(url)
+            .get()
+            .header("User-Agent", DESKTOP_UA)
+            .header("Referer", "https://$HOST/")
+            .header("X-ROM-Sid", sid)
+            .header("X-ROM-Ts", ts)
+            .header("X-ROM-Nonce", nonce)
+            .header("X-ROM-Sig", sig)
+            .header("X-ROM-Ticket", ticket)
+            .build()
+
+        client.newCall(request).execute().use { resp ->
+            val text = resp.body?.string().orEmpty()
+            if (!resp.isSuccessful) {
+                // 不加「取直链失败」前缀 —— 上层会统一加，多层叠加会让用户看到
+                // 「取直链失败：取直链失败：取直链失败」这种叠加文案。
+                throw OpusException("解析接口返回 HTTP ${resp.code} ${text.take(200)}")
+            }
+            val obj = runCatching { JSON.parseToJsonElement(text) as? JsonObject }.getOrNull()
+                ?: throw OpusException("取直链：响应认不出（${text.take(200)}）")
+            val link = obj.str("url").ifBlank { obj.str("downloadUrl") }
+            if (link.isBlank()) throw OpusException("取直链：接口没返回链接（${obj.errorHint()}）")
+            link
+        }
+    }
+
+    // ------------------------------------------------------------- 内部
+
+    private fun postJson(path: String, payload: JsonObject): JsonObject {
+        val body = JSON.encodeToString(JsonObject.serializer(), payload)
+            .toRequestBody(JSON_MEDIA)
+        val request = Request.Builder()
+            .url("$API$path")
+            .post(body)
+            .header("User-Agent", DESKTOP_UA)
+            .header("Referer", "https://$HOST/")
+            .header("Origin", "https://$HOST")
+            .build()
+
+        client.newCall(request).execute().use { resp ->
+            val text = resp.body?.string().orEmpty()
+            // 非 2xx 时服务端把原因写在 JSON 里，交给上层解析成人话
+            val obj = runCatching { JSON.parseToJsonElement(text) as? JsonObject }.getOrNull()
+            if (obj == null) {
+                throw OpusException("请求 $path 失败：HTTP ${resp.code} ${text.take(200)}")
+            }
+            return obj
+        }
+    }
+
+    /**
+     * PoW：找 nonce 让 `sha256(prefix + nonce)` 的前 [difficulty] 个二进制位为 0。
+     *
+     * 从 app.js 抄的 salt 是 `"a1b2"`。difficulty 通常 16，约 2^16 次哈希、10ms 内完成。
+     */
+    private fun solvePow(prefix: String, difficulty: Int, maxIter: Int = 1 shl 23): String? {
+        val need = difficulty.coerceIn(1, 24)
+        val md = MessageDigest.getInstance("SHA-256")
+        for (i in 0 until maxIter) {
+            val nonce = SALT + i.toString(16)
+            val d = md.digest((prefix + nonce).toByteArray())
+            if (leadingZeroBits(d) >= need) return nonce
+        }
+        return null
+    }
+
+    /** 统计字节数组开头有多少个 0 位。 */
+    private fun leadingZeroBits(bytes: ByteArray): Int {
+        var bits = 0
+        for (b in bytes) {
+            if (bits >= 24) break
+            val v = b.toInt() and 0xFF
+            if (v == 0) { bits += 8; continue }
+            bits += Integer.numberOfLeadingZeros(v) - 24
+            break
+        }
+        return bits
+    }
+
+    /**
+     * HMAC-SHA256 → 小写 hex。
+     *
+     * ⚠️ 密钥传的是**字节**，调用方必须已把 hex 串解码过（见类注释）。
+     */
+    private fun hmacSha256Hex(key: ByteArray, msg: String): String {
+        val mac = Mac.getInstance("HmacSHA256")
+        mac.init(SecretKeySpec(key, "HmacSHA256"))
+        return OtaCrypto.hex(mac.doFinal(msg.toByteArray()))
+    }
+
+    companion object {
+        const val HOST = "opusrom.top"
+        private const val API = "https://$HOST/api"
+        private const val RESOLVE_PATH = "/resolve"
+        private const val DEFAULT_DIFFICULTY = 16
+        private const val SALT = "a1b2"
+        private const val BEHAVIOR_MOVES = 42
+
+        private val JSON_MEDIA = "application/json; charset=utf-8".toMediaType()
+
+        private const val DESKTOP_UA =
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 " +
+                "(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+        /** 浏览器指纹。服务端只看有没有明显异常，不会逐项核对。 */
+        private val FINGERPRINT: JsonObject = buildJsonObject {
+            put("ua", DESKTOP_UA)
+            put("lang", "zh-CN")
+            put("platform", "Win32")
+            put("timezone", "Asia/Shanghai")
+            put("screen", "1920x1080x24")
+            put("viewport", "1920x945x1")
+            put("cores", 8)
+            put("memory", 8)
+            put("touch", 0)
+            put("plugins", 0)
+            put("webdriver", false)
+            put("canvas", "0")
+            put("cookie", true)
+        }
+
+        /** 行为轨迹。同样只看形状是否合理。 */
+        private val BEHAVIOR: JsonObject = buildJsonObject {
+            put("age", 12000)
+            put("moves", BEHAVIOR_MOVES)
+            put("touches", 0)
+            put("clicks", 3)
+            put("keys", 0)
+            put("scrolls", 2)
+            put("focusChanges", 1)
+            put("debugHits", 0)
+        }
+
+        private val JSON = Json { ignoreUnknownKeys = true; isLenient = true }
+
+        fun defaultClient(): OkHttpClient = OkHttpClient.Builder()
+            .connectTimeout(15, TimeUnit.SECONDS)
+            .readTimeout(60, TimeUnit.SECONDS)
+            .build()
+
+        private fun JsonObject.str(key: String): String =
+            (this[key] as? JsonPrimitive)?.contentOrNull.orEmpty()
+
+        private fun JsonObject.intOrNull(key: String): Int? =
+            (this[key] as? JsonPrimitive)?.contentOrNull?.trim()?.toIntOrNull()
+
+        /**
+         * 出错时给用户看的话。
+         *
+         * 两件事必须做：
+         *  1. **绝不把源站返回的 `error` 原文透出去** —— 源站对 IP 封禁时会回一句
+         *     带脏话的提示（`ip_banned: true` + 讽刺文案）。原样显示等于把别人的
+         *     情绪甩给用户看，所以封禁时走下面的友好分支，只讲事实。
+         *  2. 封禁要报**还剩多久**（`remain` 秒），否则用户不知道该等还是要换网。
+         *     soft 封禁（remain > 0 且 ip_banned）通常是连续签名失败累计出来的，
+         *     等它自然过期即可；非 soft 的 permanent 封禁则要提示换网络。
+         */
+        private fun JsonObject.errorHint(): String {
+            val banned = str("ip_banned").trim().lowercase() == "true"
+            val remain = str("remain").trim().toIntOrNull() ?: 0
+            val soft = str("soft").trim().lowercase() != "false"
+
+            if (banned || remain > 0) {
+                val tail = if (remain > 0) {
+                    val h = remain / 3600
+                    val m = (remain % 3600) / 60
+                    val secs = remain % 60
+                    val span = buildString {
+                        if (h > 0) append("${h}小时")
+                        if (m > 0) append("${m}分钟")
+                        if (h == 0 && secs > 0) append("${secs}秒")
+                    }.ifBlank { "片刻" }
+                    "约 $span"
+                } else {
+                    "永久"
+                }
+                return if (soft) {
+                    "当前网络已被数据源临时限制，$tail 后自动恢复。可切换网络（Wi-Fi / 移动数据）后重试。"
+                } else {
+                    "当前网络已被数据源限制（$tail）。请切换网络（Wi-Fi / 移动数据）后重试。"
+                }
+            }
+
+            // 非封禁的普通错误：源站文案一般还算正常，但仍然做长度收敛
+            return str("error").ifBlank { str("message") }.ifBlank { str("reason") }.take(160)
+        }
+    }
+}

@@ -1,1 +1,175 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IS0tCiAgfiBUaGlzIGZpbGUgaXMgcGFydCBvZiBIeXBlckNlaWxlci4KICB+CiAgfiBIeXBlckNlaWxlciBpcyBmcmVlIHNvZnR3YXJlOiB5b3UgY2FuIHJlZGlzdHJpYnV0ZSBpdCBhbmQvb3IgbW9kaWZ5CiAgfiBpdCB1bmRlciB0aGUgdGVybXMgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBhcwogIH4gcHVibGlzaGVkIGJ5IHRoZSBGcmVlIFNvZnR3YXJlIEZvdW5kYXRpb24sIGVpdGhlciB2ZXJzaW9uIDMgb2YgdGhlCiAgfiBMaWNlbnNlLgogIH4KICB+IFRoaXMgcHJvZ3JhbSBpcyBkaXN0cmlidXRlZCBpbiB0aGUgaG9wZSB0aGF0IGl0IHdpbGwgYmUgdXNlZnVsLAogIH4gYnV0IFdJVEhPVVQgQU5ZIFdBUlJBTlRZOyB3aXRob3V0IGV2ZW4gdGhlIGltcGxpZWQgd2FycmFudHkgb2YKICB+IE1FUkNIQU5UQUJJTElUWSBvciBGSVRORVNTIEZPUiBBIFBBUlRJQ1VMQVIgUFVSUE9TRS4gIFNlZSB0aGUKICB+IEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBmb3IgbW9yZSBkZXRhaWxzLgogIH4KICB+IFlvdSBzaG91bGQgaGF2ZSByZWNlaXZlZCBhIGNvcHkgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZQogIH4gYWxvbmcgd2l0aCB0aGlzIHByb2dyYW0uICBJZiBub3QsIHNlZSA8aHR0cHM6Ly93d3cuZ251Lm9yZy9saWNlbnNlcy8+LgogIH4KICB+IENvcHlyaWdodCAoQykgMjAyMy0yMDI2IEh5cGVyQ2VpbGVyIENvbnRyaWJ1dGlvbnMKICAtLT4KPFByZWZlcmVuY2VTY3JlZW4geG1sbnM6YW5kcm9pZD0iaHR0cDovL3NjaGVtYXMuYW5kcm9pZC5jb20vYXBrL3Jlcy9hbmRyb2lkIgogICAgeG1sbnM6YXBwPSJodHRwOi8vc2NoZW1hcy5hbmRyb2lkLmNvbS9hcGsvcmVzLWF1dG8iPgoKICAgIDxTd2l0Y2hQcmVmZXJlbmNlCiAgICAgICAgYW5kcm9pZDprZXk9InByZWZzX2tleV92YXJpb3VzX2VuYWJsZV9zdXBlcl9mdW5jdGlvbiIKICAgICAgICBhbmRyb2lkOmxheW91dD0iQGxheW91dC9hY3Rpdml0eV9hYm91dCIKICAgICAgICBhbmRyb2lkOnN1bW1hcnk9IkBzdHJpbmcveHBvc2VkX2Rlc2NyaXB0aW9uIgogICAgICAgIGFwcDppc1ByZWZlcmVuY2VWaXNpYmxlPSJmYWxzZSIgLz4KCiAgICA8IS0tPFByZWZlcmVuY2VDYXRlZ29yeT4KCiAgICAgICAgPFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDplbmFibGVkPSJmYWxzZSIKICAgICAgICAgICAgYW5kcm9pZDprZXk9InByZWZzX2tleV9hYm91dF9kZXZpY2VfbmFtZSIKICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXQ9IkBsYXlvdXQvcHJlZmVyZW5jZV9iaWdfdGl0bGUiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9Ikh5cGVyQ2VpbGVyIFVzZXIncyBEZXZpY2UiIC8+CgogICAgICAgIDxQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6ZW5hYmxlZD0iZmFsc2UiCiAgICAgICAgICAgIGFuZHJvaWQ6a2V5PSJwcmVmc19rZXlfYWJvdXRfZGV2aWNlX2luZm9fZGV2aWNlIgogICAgICAgICAgICBhbmRyb2lkOmxheW91dD0iQGxheW91dC9wcmVmZXJlbmNlX3NlY29uZF90aXRsZSIKICAgICAgICAgICAgYW5kcm9pZDpzdW1tYXJ5PSJAc3RyaW5nL2Fib3V0X2RldmljZV9pbmZvX2RldmljZSIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iSHlwZXJDZWlsZXIgRGV2aWNlIiAvPgoKICAgICAgICA8UHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOmVuYWJsZWQ9ImZhbHNlIgogICAgICAgICAgICBhbmRyb2lkOmtleT0icHJlZnNfa2V5X2Fib3V0X2RldmljZV9pbmZvX2FuZHJvaWQiCiAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0PSJAbGF5b3V0L3ByZWZlcmVuY2Vfc2Vjb25kX3RpdGxlIgogICAgICAgICAgICBhbmRyb2lkOnN1bW1hcnk9IkBzdHJpbmcvYWJvdXRfZGV2aWNlX2luZm9fYW5kcm9pZCIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iMTUiIC8+CgogICAgICAgIDxQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6ZW5hYmxlZD0iZmFsc2UiCiAgICAgICAgICAgIGFuZHJvaWQ6a2V5PSJwcmVmc19rZXlfYWJvdXRfZGV2aWNlX2luZm9fb3MiCiAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0PSJAbGF5b3V0L3ByZWZlcmVuY2Vfc2Vjb25kX3RpdGxlIgogICAgICAgICAgICBhbmRyb2lkOnN1bW1hcnk9IkBzdHJpbmcvYWJvdXRfZGV2aWNlX2luZm9fb3MiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9Ik9TMi4wLjEuMC5VTkJDTlhNIiAvPgoKICAgICAgICA8UHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOmVuYWJsZWQ9ImZhbHNlIgogICAgICAgICAgICBhbmRyb2lkOmtleT0icHJlZnNfa2V5X2Fib3V0X2RldmljZV9pbmZvX3BhZGRpbmciCiAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0PSJAbGF5b3V0L3ByZWZlcmVuY2VfcGFkZGluZyIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iNjhEOENBQTc5MjE2MzAwRjlERUUxOUEyNENCNjMwMUFCRjE2ODdERiIgLz4KCiAgICA8L1ByZWZlcmVuY2VDYXRlZ29yeT4tLT4KCiAgICA8UHJlZmVyZW5jZUNhdGVnb3J5PgoKICAgICAgICA8UHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOmtleT0icHJlZnNfa2V5X2Fib3V0X2F1dGhvciIKICAgICAgICAgICAgYW5kcm9pZDppY29uPSJAZHJhd2FibGUvaWNfc2V2dGluZ2UiCiAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0PSJAbGF5b3V0L3ByZWZlcmVuY2Vfcm91bmRfbGF5b3V0IgogICAgICAgICAgICBhbmRyb2lkOnN1bW1hcnk9IlxAU2V2dGluZ2UiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IlNldnRpbmdlIj4KICAgICAgICAgICAgPGludGVudAogICAgICAgICAgICAgICAgYW5kcm9pZDphY3Rpb249ImFuZHJvaWQuaW50ZW50LmFjdGlvbi5WSUVXIgogICAgICAgICAgICAgICAgYW5kcm9pZDpkYXRhPSJodHRwczovL2dpdGh1Yi5jb20vc2V2dGluZ2UiIC8+CiAgICAgICAgPC9QcmVmZXJlbmNlPgoKICAgIDwvUHJlZmVyZW5jZUNhdGVnb3J5PgoKICAgIDxQcmVmZXJlbmNlQ2F0ZWdvcnk+CgogICAgICAgIDxQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6a2V5PSJwcmVmc19rZXlfYWJvdXRfY29udHJpYnV0ZXIiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvYWJvdXRfY29udHJpYnV0ZXIiCiAgICAgICAgICAgIGFuZHJvaWQ6ZnJhZ21lbnQ9Im9yZy5saW5iYW9ndS5yb21odWIuaGMuYWJvdXQuQWJvdXRDb250cmlidXRvcnNGcmFnbWVudCIgLz4KCiAgICAgICAgPFByZWZlcmVuY2UgYW5kcm9pZDp0aXRsZT0iQHN0cmluZy9hYm91dF9vZmZpY2FsIj4KICAgICAgICAgICAgPGludGVudAogICAgICAgICAgICAgICAgYW5kcm9pZDphY3Rpb249ImFuZHJvaWQuaW50ZW50LmFjdGlvbi5WSUVXIgogICAgICAgICAgICAgICAgYW5kcm9pZDpkYXRhPSJodHRwczovL2h5cGVyY2VpbGVyLnNldnRpbmdlLmNvbSIgLz4KICAgICAgICA8L1ByZWZlcmVuY2U+CgogICAgICAgIDxQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6c3VtbWFyeT0iQHN0cmluZy9hYm91dF9jcndkX2Rlc2MiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvYWJvdXRfY3J3ZCI+CiAgICAgICAgICAgIDxpbnRlbnQKICAgICAgICAgICAgICAgIGFuZHJvaWQ6YWN0aW9uPSJhbmRyb2lkLmludGVudC5hY3Rpb24uVklFVyIKICAgICAgICAgICAgICAgIGFuZHJvaWQ6ZGF0YT0iaHR0cHM6Ly9ob3N0ZWQud2VibGF0ZS5vcmcvZW5nYWdlL2h5cGVyY2VpbGVyLyIgLz4KICAgICAgICA8L1ByZWZlcmVuY2U+CgogICAgICAgIDxQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6c3VtbWFyeT0iQHN0cmluZy9hYm91dF9kb25hdGlvbl9kZXNjIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJAc3RyaW5nL2Fib3V0X2RvbmF0aW9uIj4KICAgICAgICAgICAgPGludGVudAogICAgICAgICAgICAgICAgYW5kcm9pZDphY3Rpb249ImFuZHJvaWQuaW50ZW50LmFjdGlvbi5WSUVXIgogICAgICAgICAgICAgICAgYW5kcm9pZDpkYXRhPSJodHRwczovL3d3dy5zZXZ0aW5nZS5jb20vZG9uYXRpb24iIC8+CiAgICAgICAgPC9QcmVmZXJlbmNlPgoKICAgIDwvUHJlZmVyZW5jZUNhdGVnb3J5PgoKICAgIDxQcmVmZXJlbmNlQ2F0ZWdvcnk+CiAgICAgICAgPFByZWZlcmVuY2UgYW5kcm9pZDp0aXRsZT0iQHN0cmluZy9hYm91dF9wcm90b2NvbCI+CiAgICAgICAgICAgIDxpbnRlbnQKICAgICAgICAgICAgICAgIGFuZHJvaWQ6YWN0aW9uPSJhbmRyb2lkLmludGVudC5hY3Rpb24uVklFVyIKICAgICAgICAgICAgICAgIGFuZHJvaWQ6ZGF0YT0iaHR0cHM6Ly9oeXBlcmNlaWxlci5zZXZ0aW5nZS5jb20vUHJvdG9jb2wiIC8+CiAgICAgICAgPC9QcmVmZXJlbmNlPgoKICAgICAgICA8UHJlZmVyZW5jZSBhbmRyb2lkOnRpdGxlPSJAc3RyaW5nL2Fib3V0X3ByaXZhY3kiPgogICAgICAgICAgICA8aW50ZW50CiAgICAgICAgICAgICAgICBhbmRyb2lkOmFjdGlvbj0iYW5kcm9pZC5pbnRlbnQuYWN0aW9uLlZJRVciCiAgICAgICAgICAgICAgICBhbmRyb2lkOmRhdGE9Imh0dHBzOi8vaHlwZXJjZWlsZXIuc2V2dGluZ2UuY29tL1ByaXZhY3kiIC8+CiAgICAgICAgPC9QcmVmZXJlbmNlPgogICAgPC9QcmVmZXJlbmNlQ2F0ZWdvcnk+CgogICAgPFByZWZlcmVuY2VDYXRlZ29yeSBhbmRyb2lkOnRpdGxlPSJAc3RyaW5nL2Fib3V0X3RyYW5zbGF0b3JfdGl0bGUiPgoKICAgICAgICA8ZmFuLnByZWZlcmVuY2UuVGV4dFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iQHN0cmluZy90cmFuc2xhdG9yIgogICAgICAgICAgICBhbmRyb2lkOnRleHQ9IkBzdHJpbmcvbGFuZ3VhZ2UiPgogICAgICAgICAgICA8aW50ZW50CiAgICAgICAgICAgICAgICBhbmRyb2lkOmFjdGlvbj0iYW5kcm9pZC5pbnRlbnQuYWN0aW9uLlZJRVciCiAgICAgICAgICAgICAgICBhbmRyb2lkOmRhdGE9IkBzdHJpbmcvdHJhbnNsYXRvcl91cmwiIC8+CiAgICAgICAgPC9mYW4ucHJlZmVyZW5jZS5UZXh0UHJlZmVyZW5jZT4KCiAgICA8L1ByZWZlcmVuY2VDYXRlZ29yeT4KCiAgICA8UHJlZmVyZW5jZUNhdGVnb3J5IGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvYWJvdXRfY2hhdF90aXRsZSI+CgogICAgICAgIDxQcmVmZXJlbmNlIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvYWJvdXRfdGdfZ3JvdXAiPgogICAgICAgICAgICA8aW50ZW50CiAgICAgICAgICAgICAgICBhbmRyb2lkOmFjdGlvbj0iYW5kcm9pZC5pbnRlbnQuYWN0aW9uLlZJRVciCiAgICAgICAgICAgICAgICBhbmRyb2lkOmRhdGE9Imh0dHBzOi8vdC5tZS9jZW1pdWlsZXIiIC8+CiAgICAgICAgPC9QcmVmZXJlbmNlPgoKICAgICAgICA8UHJlZmVyZW5jZSBhbmRyb2lkOnRpdGxlPSJAc3RyaW5nL2Fib3V0X3RnX2NoYW5uZWwiPgogICAgICAgICAgICA8aW50ZW50CiAgICAgICAgICAgICAgICBhbmRyb2lkOmFjdGlvbj0iYW5kcm9pZC5pbnRlbnQuYWN0aW9uLlZJRVciCiAgICAgICAgICAgICAgICBhbmRyb2lkOmRhdGE9Imh0dHBzOi8vdC5tZS9jZW1pdWlsZXJfcmVsZWFzZSIgLz4KICAgICAgICA8L1ByZWZlcmVuY2U+CgogICAgPC9QcmVmZXJlbmNlQ2F0ZWdvcnk+CgogICAgPFByZWZlcmVuY2VDYXRlZ29yeSBhbmRyb2lkOnRpdGxlPSJAc3RyaW5nL2Fib3V0X290aGVyX3RpdGxlIj4KICAgICAgICA8UHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOnN1bW1hcnk9IkBzdHJpbmcvYWJvdXRfZ2l0aHViX2Rlc2MiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvYWJvdXRfZ2l0aHViIj4KICAgICAgICAgICAgPGludGVudAogICAgICAgICAgICAgICAgYW5kcm9pZDphY3Rpb249ImFuZHJvaWQuaW50ZW50LmFjdGlvbi5WSUVXIgogICAgICAgICAgICAgICAgYW5kcm9pZDpkYXRhPSJodHRwczovL2dpdGh1Yi5jb20vUmVDaHJvbm9SYWluL0h5cGVyQ2VpbGVyIiAvPgogICAgICAgIDwvUHJlZmVyZW5jZT4KCiAgICAgICAgPGNvbS5zZXZ0aW5nZS5oeXBlcmNlaWxlci5wcmVmcy5YbWxQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6a2V5PSJwcmVmc19rZXlfYWJvdXRfdXNlIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJAc3RyaW5nL2Fib3V0X3VzZSIKICAgICAgICAgICAgYXBwOmluZmxhdGVkWG1sPSJAeG1sL3ByZWZzX2Fib3V0X3VzZSIgLz4KCiAgICAgICAgPFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpmcmFnbWVudD0ib3JnLmxpbmJhb2d1LnJvbWh1Yi5oYy5ob21lLmhlbHBlci5IZWxwRnJhZ21lbnQiCiAgICAgICAgICAgIGFuZHJvaWQ6a2V5PSJwcmVmc19rZXlfaGVscCIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iQHN0cmluZy9oZWxwIiAvPgogICAgPC9QcmVmZXJlbmNlQ2F0ZWdvcnk+CgogICAgPFByZWZlcmVuY2VDYXRlZ29yeSBhbmRyb2lkOmxheW91dD0iQGxheW91dC9wcmVmZXJlbmNlX2NvcHlyaWdodCIgLz4KCjwvUHJlZmVyZW5jZVNjcmVlbj4K
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ This file is part of HyperCeiler.
+  ~
+  ~ HyperCeiler is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU Affero General Public License as
+  ~ published by the Free Software Foundation, either version 3 of the
+  ~ License.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU Affero General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU Affero General Public License
+  ~ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+  ~
+  ~ Copyright (C) 2023-2026 HyperCeiler Contributions
+  -->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <SwitchPreference
+        android:key="prefs_key_various_enable_super_function"
+        android:layout="@layout/activity_about"
+        android:summary="@string/xposed_description"
+        app:isPreferenceVisible="false" />
+
+    <!--<PreferenceCategory>
+
+        <Preference
+            android:enabled="false"
+            android:key="prefs_key_about_device_name"
+            android:layout="@layout/preference_big_title"
+            android:title="HyperCeiler User's Device" />
+
+        <Preference
+            android:enabled="false"
+            android:key="prefs_key_about_device_info_device"
+            android:layout="@layout/preference_second_title"
+            android:summary="@string/about_device_info_device"
+            android:title="HyperCeiler Device" />
+
+        <Preference
+            android:enabled="false"
+            android:key="prefs_key_about_device_info_android"
+            android:layout="@layout/preference_second_title"
+            android:summary="@string/about_device_info_android"
+            android:title="15" />
+
+        <Preference
+            android:enabled="false"
+            android:key="prefs_key_about_device_info_os"
+            android:layout="@layout/preference_second_title"
+            android:summary="@string/about_device_info_os"
+            android:title="OS2.0.1.0.UNBCNXM" />
+
+        <Preference
+            android:enabled="false"
+            android:key="prefs_key_about_device_info_padding"
+            android:layout="@layout/preference_padding"
+            android:title="68D8CAA79216300F9DEE19A24CB6301ABF1687DF" />
+
+    </PreferenceCategory>-->
+
+    <PreferenceCategory>
+
+        <Preference
+            android:key="prefs_key_about_author"
+            android:icon="@drawable/ic_sevtinge"
+            android:layout="@layout/preference_round_layout"
+            android:summary="\@Sevtinge"
+            android:title="Sevtinge">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/sevtinge" />
+        </Preference>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory>
+
+        <Preference
+            android:key="prefs_key_about_contributer"
+            android:title="@string/about_contributer"
+            android:fragment="org.linbaogu.romhub.hc.about.AboutContributorsFragment" />
+
+        <Preference android:title="@string/about_offical">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://hyperceiler.sevtinge.com" />
+        </Preference>
+
+        <Preference
+            android:summary="@string/about_crwd_desc"
+            android:title="@string/about_crwd">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://hosted.weblate.org/engage/hyperceiler/" />
+        </Preference>
+
+        <Preference
+            android:summary="@string/about_donation_desc"
+            android:title="@string/about_donation">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://www.sevtinge.com/donation" />
+        </Preference>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory>
+        <Preference android:title="@string/about_protocol">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://hyperceiler.sevtinge.com/Protocol" />
+        </Preference>
+
+        <Preference android:title="@string/about_privacy">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://hyperceiler.sevtinge.com/Privacy" />
+        </Preference>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/about_translator_title">
+
+        <fan.preference.TextPreference
+            android:title="@string/translator"
+            android:text="@string/language">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/translator_url" />
+        </fan.preference.TextPreference>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/about_chat_title">
+
+        <Preference android:title="@string/about_tg_group">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/cemiuiler" />
+        </Preference>
+
+        <Preference android:title="@string/about_tg_channel">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/cemiuiler_release" />
+        </Preference>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/about_other_title">
+        <Preference
+            android:summary="@string/about_github_desc"
+            android:title="@string/about_github">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/ReChronoRain/HyperCeiler" />
+        </Preference>
+
+        <com.sevtinge.hyperceiler.prefs.XmlPreference
+            android:key="prefs_key_about_use"
+            android:title="@string/about_use"
+            app:inflatedXml="@xml/prefs_about_use" />
+
+        <Preference
+            android:fragment="org.linbaogu.romhub.hc.home.helper.HelpFragment"
+            android:key="prefs_key_help"
+            android:title="@string/help" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:layout="@layout/preference_copyright" />
+
+</PreferenceScreen>

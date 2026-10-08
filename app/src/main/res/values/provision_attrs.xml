@@ -1,1 +1,7 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHJlc291cmNlcz4KICAgIDxkZWNsYXJlLXN0eWxlYWJsZSBuYW1lPSJTcHJpbmdJbnRlcnBvbGF0b3IiPgogICAgICAgIDxhdHRyIG5hbWU9InNwcmluZ0RhbXBpbmciIGZvcm1hdD0iZmxvYXQiIC8+CiAgICAgICAgPGF0dHIgbmFtZT0ic3ByaW5nUmVzcG9uc2UiIGZvcm1hdD0iZmxvYXQiIC8+CiAgICA8L2RlY2xhcmUtc3R5bGVhYmxlPgo8L3Jlc291cmNlcz4=
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SpringInterpolator">
+        <attr name="springDamping" format="float" />
+        <attr name="springResponse" format="float" />
+    </declare-styleable>
+</resources>

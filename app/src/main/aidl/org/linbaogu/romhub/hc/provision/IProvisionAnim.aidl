@@ -1,1 +1,14 @@
-cGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLmhjLnByb3Zpc2lvbjsKCmltcG9ydCBvcmcubGluYmFvZ3Uucm9taHViLmhjLnByb3Zpc2lvbi5JQW5pbUNhbGxiYWNrOwoKaW50ZXJmYWNlIElQcm92aXNpb25BbmltIHsKCiAgICBib29sZWFuIGlzQW5pbUVuZCgpOwoKICAgIHZvaWQgcGxheUJhY2tBbmltKGludCBhbmltWSk7CiAgICB2b2lkIHBsYXlOZXh0QW5pbShpbnQgaSk7CgogICAgdm9pZCByZWdpc3RlclJlbW90ZUNhbGxiYWNrKElBbmltQ2FsbGJhY2sgY2FsbGJhY2spOwogICAgdm9pZCB1bnJlZ2lzdGVyUmVtb3RlQ2FsbGJhY2soSUFuaW1DYWxsYmFjayBjYWxsYmFjayk7Cn0K
+package org.linbaogu.romhub.hc.provision;
+
+import org.linbaogu.romhub.hc.provision.IAnimCallback;
+
+interface IProvisionAnim {
+
+    boolean isAnimEnd();
+
+    void playBackAnim(int animY);
+    void playNextAnim(int i);
+
+    void registerRemoteCallback(IAnimCallback callback);
+    void unregisterRemoteCallback(IAnimCallback callback);
+}

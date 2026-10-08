@@ -1,1 +1,77 @@
-cGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLnVpLmNvbW1vbgoKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuQm94CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuQ29tcG9zYWJsZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5Nb2RpZmllcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5ncmFwaGljcy5SZWN0YW5nbGVTaGFwZQppbXBvcnQgdG9wLnl1a29uZ2EubWl1aXgua21wLmJsdXIuQmxlbmRDb2xvckVudHJ5CmltcG9ydCB0b3AueXVrb25nYS5taXVpeC5rbXAuYmx1ci5CbHVyQ29sb3JzCmltcG9ydCB0b3AueXVrb25nYS5taXVpeC5rbXAuYmx1ci5MYXllckJhY2tkcm9wCmltcG9ydCB0b3AueXVrb25nYS5taXVpeC5rbXAuYmx1ci5pc1J1bnRpbWVTaGFkZXJTdXBwb3J0ZWQKaW1wb3J0IHRvcC55dWtvbmdhLm1pdWl4LmttcC5ibHVyLnJlbWVtYmVyTGF5ZXJCYWNrZHJvcAppbXBvcnQgdG9wLnl1a29uZ2EubWl1aXgua21wLmJsdXIudGV4dHVyZUJsdXIKaW1wb3J0IHRvcC55dWtvbmdhLm1pdWl4LmttcC50aGVtZS5NaXVpeFRoZW1lCgovKioKICog6aG25qCP546755KD44CC54Wn5pCsIEtlcm5lbFNVIOeahCBgdWkvdXRpbC9CbHVyRXh0Lmt0YO+8mgogKgogKiBgYGBrb3RsaW4KICogZnVuIHJlbWVtYmVyQmx1ckJhY2tkcm9wKGVuYWJsZUJsdXI6IEJvb2xlYW4pOiBMYXllckJhY2tkcm9wPyB7CiAqICAgICBpZiAoIWVuYWJsZUJsdXIgfHwgIWlzUmVuZGVyRWZmZWN0U3VwcG9ydGVkKCkpIHJldHVybiBudWxsCiAqICAgICB2YWwgc3VyZmFjZUNvbG9yID0gTWl1aXhUaGVtZS5jb2xvclNjaGVtZS5zdXJmYWNlCiAqICAgICByZXR1cm4gcmVtZW1iZXJMYXllckJhY2tkcm9wIHsgZHJhd1JlY3Qoc3VyZmFjZUNvbG9yKTsgZHJhd0NvbnRlbnQoKSB9CiAqIH0KICogZnVuIEJsdXJyZWRCYXIoYmFja2Ryb3AsIGJsdXJBY3RpdmUgPSB0cnVlLCBjb250ZW50KSB7CiAqICAgICBCb3goaWYgKGJsdXJBY3RpdmUgJiYgYmFja2Ryb3AgIT0gbnVsbCkgTW9kaWZpZXIudGV4dHVyZUJsdXIoCiAqICAgICAgICAgYmFja2Ryb3AsIFJlY3RhbmdsZVNoYXBlLCBibHVyUmFkaXVzID0gMjVmLAogKiAgICAgICAgIGNvbG9ycyA9IEJsdXJDb2xvcnMobGlzdE9mKEJsZW5kQ29sb3JFbnRyeShzdXJmYWNlLmNvcHkoMC44N2YpKSkpKSBlbHNlIE1vZGlmaWVyKSB7IGNvbnRlbnQoKSB9CiAqIH0KICogYGBgCiAqCiAqIOmhtuagj+eahOmHh+agt+WxguW/hemhuyoq5Y+q5YyF5ZCr6aG16Z2i5YaF5a6544CB5LiN5YyF5ZCr6aG25qCP6Ieq5bexKiog4oCU4oCUIOWQpuWImemhtuagj+S8mumHh+WIsOS4iuS4gOW4p+eahOiHquW3se+8jAogKiDotorns4rotorlrp7jgIJLU1Ug55qE5YGa5rOV5piv77ya6aG25qCP5pS+5ZyoIFNjYWZmb2xkIOeahCB0b3BCYXIg5qe977yI5Zyo5aSW6Z2i77yJ77yMCiAqIOWGheWuueeUqCBgTW9kaWZpZXIubGF5ZXJCYWNrZHJvcChiYWNrZHJvcClgIOW9lei/m+mHh+agt+WxguOAgui/memHjOWujOWFqOS4gOiHtOOAggogKi8KCi8qKgogKiDnjrvnkoPmt7foibLlvLrluqbjgIJLU1Ug55SoIDAuODfvvIjlgY/lrp7lv4PvvInjgILov5nph4zosIPkvY7kuIDngrnvvIzorqnmnoHlhYnnmoTpopzoibLog73pgI/liLDpobbmoI/kuIrvvJsKICog5oOz5pu05a6e5b+D5bCx5b6AIDAuODcg6LCD77yM5oOz5pu06YCP5bCx5b6AIDAuNSDosIPjgIIKICovCnByaXZhdGUgY29uc3QgdmFsIEJBUl9CTEVORF9BTFBIQSA9IDAuNjZmCgovKiog6aG25qCP5qih57OK5Y2K5b6E77yM54WnIEtlcm5lbFNVIOeahCAyNWbjgIIgKi8KcHJpdmF0ZSBjb25zdCB2YWwgQkFSX0JMVVJfUkFESVVTID0gMjVmCgovKiog5bu65LiA5Liq57uZ6aG25qCP6YeH5qC355qE6IOM5pmv5bGC44CC6K6+5aSH5LiN5pSv5oyB5bCx6L+U5ZueIG51bGzvvIzpobbmoI/pgIDljJbmiJDkuI3pgI/mmI7jgIIgKi8KQENvbXBvc2FibGUKZnVuIHJlbWVtYmVyQmFyQmFja2Ryb3AoKTogTGF5ZXJCYWNrZHJvcD8gewogICAgaWYgKCFpc1J1bnRpbWVTaGFkZXJTdXBwb3J0ZWQoKSkgcmV0dXJuIG51bGwKICAgIC8vIOKaoCBkcmF3UmVjdCDlv4XpobvlnKjov5nph4zlj5blpb3popzoibLvvJpyZW1lbWJlckxheWVyQmFja2Ryb3Ag55qEIGxhbWJkYSDkuI3mmK8gY29tcG9zYWJsZSDkuIrkuIvmlocKICAgIHZhbCBzdXJmYWNlID0gTWl1aXhUaGVtZS5jb2xvclNjaGVtZS5zdXJmYWNlCiAgICByZXR1cm4gcmVtZW1iZXJMYXllckJhY2tkcm9wIHsKICAgICAgICBkcmF3UmVjdChzdXJmYWNlKQogICAgICAgIGRyYXdDb250ZW50KCkKICAgIH0KfQoKQENvbXBvc2FibGUKZnVuIEJsdXJyZWRCYXIoYmFja2Ryb3A6IExheWVyQmFja2Ryb3A/LCBjb250ZW50OiBAQ29tcG9zYWJsZSAoKSAtPiBVbml0KSB7CiAgICBCb3goCiAgICAgICAgbW9kaWZpZXIgPSBpZiAoYmFja2Ryb3AgIT0gbnVsbCkgewogICAgICAgICAgICBNb2RpZmllci50ZXh0dXJlQmx1cigKICAgICAgICAgICAgICAgIGJhY2tkcm9wID0gYmFja2Ryb3AsCiAgICAgICAgICAgICAgICBzaGFwZSA9IFJlY3RhbmdsZVNoYXBlLAogICAgICAgICAgICAgICAgYmx1clJhZGl1cyA9IEJBUl9CTFVSX1JBRElVUywKICAgICAgICAgICAgICAgIGNvbG9ycyA9IEJsdXJDb2xvcnMoCiAgICAgICAgICAgICAgICAgICAgYmxlbmRDb2xvcnMgPSBsaXN0T2YoCiAgICAgICAgICAgICAgICAgICAgICAgIEJsZW5kQ29sb3JFbnRyeShNaXVpeFRoZW1lLmNvbG9yU2NoZW1lLnN1cmZhY2UuY29weShhbHBoYSA9IEJBUl9CTEVORF9BTFBIQSkpLAogICAgICAgICAgICAgICAgICAgICksCiAgICAgICAgICAgICAgICApLAogICAgICAgICAgICApCiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgTW9kaWZpZXIKICAgICAgICB9LAogICAgKSB7CiAgICAgICAgY29udGVudCgpCiAgICB9Cn0K
+package org.linbaogu.romhub.ui.common
+
+import androidx.compose.foundation.layout.Box
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.RectangleShape
+import top.yukonga.miuix.kmp.blur.BlendColorEntry
+import top.yukonga.miuix.kmp.blur.BlurColors
+import top.yukonga.miuix.kmp.blur.LayerBackdrop
+import top.yukonga.miuix.kmp.blur.isRuntimeShaderSupported
+import top.yukonga.miuix.kmp.blur.rememberLayerBackdrop
+import top.yukonga.miuix.kmp.blur.textureBlur
+import top.yukonga.miuix.kmp.theme.MiuixTheme
+
+/**
+ * 顶栏玻璃。照搬 KernelSU 的 `ui/util/BlurExt.kt`：
+ *
+ * ```kotlin
+ * fun rememberBlurBackdrop(enableBlur: Boolean): LayerBackdrop? {
+ *     if (!enableBlur || !isRenderEffectSupported()) return null
+ *     val surfaceColor = MiuixTheme.colorScheme.surface
+ *     return rememberLayerBackdrop { drawRect(surfaceColor); drawContent() }
+ * }
+ * fun BlurredBar(backdrop, blurActive = true, content) {
+ *     Box(if (blurActive && backdrop != null) Modifier.textureBlur(
+ *         backdrop, RectangleShape, blurRadius = 25f,
+ *         colors = BlurColors(listOf(BlendColorEntry(surface.copy(0.87f))))) else Modifier) { content() }
+ * }
+ * ```
+ *
+ * 顶栏的采样层必须**只包含页面内容、不包含顶栏自己** —— 否则顶栏会采到上一帧的自己，
+ * 越糊越实。KSU 的做法是：顶栏放在 Scaffold 的 topBar 槽（在外面），
+ * 内容用 `Modifier.layerBackdrop(backdrop)` 录进采样层。这里完全一致。
+ */
+
+/**
+ * 玻璃混色强度。KSU 用 0.87（偏实心）。这里调低一点，让极光的颜色能透到顶栏上；
+ * 想更实心就往 0.87 调，想更透就往 0.5 调。
+ */
+private const val BAR_BLEND_ALPHA = 0.66f
+
+/** 顶栏模糊半径，照 KernelSU 的 25f。 */
+private const val BAR_BLUR_RADIUS = 25f
+
+/** 建一个给顶栏采样的背景层。设备不支持就返回 null，顶栏退化成不透明。 */
+@Composable
+fun rememberBarBackdrop(): LayerBackdrop? {
+    if (!isRuntimeShaderSupported()) return null
+    // ⚠ drawRect 必须在这里取好颜色：rememberLayerBackdrop 的 lambda 不是 composable 上下文
+    val surface = MiuixTheme.colorScheme.surface
+    return rememberLayerBackdrop {
+        drawRect(surface)
+        drawContent()
+    }
+}
+
+@Composable
+fun BlurredBar(backdrop: LayerBackdrop?, content: @Composable () -> Unit) {
+    Box(
+        modifier = if (backdrop != null) {
+            Modifier.textureBlur(
+                backdrop = backdrop,
+                shape = RectangleShape,
+                blurRadius = BAR_BLUR_RADIUS,
+                colors = BlurColors(
+                    blendColors = listOf(
+                        BlendColorEntry(MiuixTheme.colorScheme.surface.copy(alpha = BAR_BLEND_ALPHA)),
+                    ),
+                ),
+            )
+        } else {
+            Modifier
+        },
+    ) {
+        content()
+    }
+}

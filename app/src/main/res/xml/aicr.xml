@@ -1,1 +1,38 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IS0tCiAgfiBUaGlzIGZpbGUgaXMgcGFydCBvZiBIeXBlckNlaWxlci4KICB+CiAgfiBIeXBlckNlaWxlciBpcyBmcmVlIHNvZnR3YXJlOiB5b3UgY2FuIHJlZGlzdHJpYnV0ZSBpdCBhbmQvb3IgbW9kaWZ5CiAgfiBpdCB1bmRlciB0aGUgdGVybXMgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBhcwogIH4gcHVibGlzaGVkIGJ5IHRoZSBGcmVlIFNvZnR3YXJlIEZvdW5kYXRpb24sIGVpdGhlciB2ZXJzaW9uIDMgb2YgdGhlCiAgfiBMaWNlbnNlLgogIH4KICB+IFRoaXMgcHJvZ3JhbSBpcyBkaXN0cmlidXRlZCBpbiB0aGUgaG9wZSB0aGF0IGl0IHdpbGwgYmUgdXNlZnVsLAogIH4gYnV0IFdJVEhPVVQgQU5ZIFdBUlJBTlRZOyB3aXRob3V0IGV2ZW4gdGhlIGltcGxpZWQgd2FycmFudHkgb2YKICB+IE1FUkNIQU5UQUJJTElUWSBvciBGSVRORVNTIEZPUiBBIFBBUlRJQ1VMQVIgUFVSUE9TRS4gIFNlZSB0aGUKICB+IEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBmb3IgbW9yZSBkZXRhaWxzLgogIH4KICB+IFlvdSBzaG91bGQgaGF2ZSByZWNlaXZlZCBhIGNvcHkgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZQogIH4gYWxvbmcgd2l0aCB0aGlzIHByb2dyYW0uICBJZiBub3QsIHNlZSA8aHR0cHM6Ly93d3cuZ251Lm9yZy9saWNlbnNlcy8+LgogIH4KICB+IENvcHlyaWdodCAoQykgMjAyMy0yMDI2IEh5cGVyQ2VpbGVyIENvbnRyaWJ1dGlvbnMKICAtLT4KPFByZWZlcmVuY2VTY3JlZW4geG1sbnM6YW5kcm9pZD0iaHR0cDovL3NjaGVtYXMuYW5kcm9pZC5jb20vYXBrL3Jlcy9hbmRyb2lkIgogICAgeG1sbnM6YXBwPSJodHRwOi8vc2NoZW1hcy5hbmRyb2lkLmNvbS9hcGsvcmVzLWF1dG8iCiAgICBhcHA6bXlMb2NhdGlvbj0iQHN0cmluZy9haWNyIgogICAgYXBwOnF1aWNrX3Jlc3RhcnQ9ImNvbS54aWFvbWkuYWljciI+CiAgICA8UHJlZmVyZW5jZUNhdGVnb3J5PgogICAgICAgIDxTd2l0Y2hQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvYWljcl9tb2RpZnlfYnJvd3Nlcl9jb3B5IgogICAgICAgICAgICBhbmRyb2lkOmtleT0icHJlZnNfa2V5X2FpY3JfbW9kaWZ5X2Jyb3dzZXJfY29weSIKICAgICAgICAgICAgYW5kcm9pZDpkZWZhdWx0VmFsdWU9ImZhbHNlIiAvPgoKICAgICAgICA8ZmFuLnByZWZlcmVuY2UuRHJvcERvd25QcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6ZGVmYXVsdFZhbHVlPSIiCiAgICAgICAgICAgIGFuZHJvaWQ6ZGVwZW5kZW5jeT0icHJlZnNfa2V5X2FpY3JfbW9kaWZ5X2Jyb3dzZXJfY29weSIKICAgICAgICAgICAgYW5kcm9pZDprZXk9InByZWZzX2tleV9haWNyX2Jyb3dzZXIiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvYWljcl9wcmVmZXJyZWRfYnJvd3NlciIKICAgICAgICAgICAgYXBwOmVudHJpZXM9IkBhcnJheS9haWNyX2Jyb3dzZXJfZW50cmllcyIKICAgICAgICAgICAgYXBwOmVudHJ5VmFsdWVzPSJAYXJyYXkvYWljcl9icm93c2VyX3ZhbHVlcyIgLz4KICAgIDwvUHJlZmVyZW5jZUNhdGVnb3J5PgoKPC9QcmVmZXJlbmNlU2NyZWVuPgo=
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ This file is part of HyperCeiler.
+  ~
+  ~ HyperCeiler is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU Affero General Public License as
+  ~ published by the Free Software Foundation, either version 3 of the
+  ~ License.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU Affero General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU Affero General Public License
+  ~ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+  ~
+  ~ Copyright (C) 2023-2026 HyperCeiler Contributions
+  -->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:myLocation="@string/aicr"
+    app:quick_restart="com.xiaomi.aicr">
+    <PreferenceCategory>
+        <SwitchPreference
+            android:title="@string/aicr_modify_browser_copy"
+            android:key="prefs_key_aicr_modify_browser_copy"
+            android:defaultValue="false" />
+
+        <fan.preference.DropDownPreference
+            android:defaultValue=""
+            android:dependency="prefs_key_aicr_modify_browser_copy"
+            android:key="prefs_key_aicr_browser"
+            android:title="@string/aicr_preferred_browser"
+            app:entries="@array/aicr_browser_entries"
+            app:entryValues="@array/aicr_browser_values" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

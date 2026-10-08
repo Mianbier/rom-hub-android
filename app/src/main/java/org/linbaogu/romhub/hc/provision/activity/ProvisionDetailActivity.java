@@ -1,1 +1,68 @@
-LyoKICogVGhpcyBmaWxlIGlzIHBhcnQgb2YgSHlwZXJDZWlsZXIuCgogKiBIeXBlckNlaWxlciBpcyBmcmVlIHNvZnR3YXJlOiB5b3UgY2FuIHJlZGlzdHJpYnV0ZSBpdCBhbmQvb3IgbW9kaWZ5CiAqIGl0IHVuZGVyIHRoZSB0ZXJtcyBvZiB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGFzCiAqIHB1Ymxpc2hlZCBieSB0aGUgRnJlZSBTb2Z0d2FyZSBGb3VuZGF0aW9uLCBlaXRoZXIgdmVyc2lvbiAzIG9mIHRoZQogKiBMaWNlbnNlLgoKICogVGhpcyBwcm9ncmFtIGlzIGRpc3RyaWJ1dGVkIGluIHRoZSBob3BlIHRoYXQgaXQgd2lsbCBiZSB1c2VmdWwsCiAqIGJ1dCBXSVRIT1VUIEFOWSBXQVJSQU5UWTsgd2l0aG91dCBldmVuIHRoZSBpbXBsaWVkIHdhcnJhbnR5IG9mCiAqIE1FUkNIQU5UQUJJTElUWSBvciBGSVRORVNTIEZPUiBBIFBBUlRJQ1VMQVIgUFVSUE9TRS4gIFNlZSB0aGUKICogR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGZvciBtb3JlIGRldGFpbHMuCgogKiBZb3Ugc2hvdWxkIGhhdmUgcmVjZWl2ZWQgYSBjb3B5IG9mIHRoZSBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UKICogYWxvbmcgd2l0aCB0aGlzIHByb2dyYW0uICBJZiBub3QsIHNlZSA8aHR0cHM6Ly93d3cuZ251Lm9yZy9saWNlbnNlcy8+LgoKICogQ29weXJpZ2h0IChDKSAyMDIzLTIwMjYgSHlwZXJDZWlsZXIgQ29udHJpYnV0aW9ucwogKi8KcGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLmhjLnByb3Zpc2lvbi5hY3Rpdml0eTsKCmltcG9ydCBhbmRyb2lkLm9zLkJ1bmRsZTsKCmltcG9ydCBhbmRyb2lkeC5hbm5vdGF0aW9uLklkUmVzOwppbXBvcnQgYW5kcm9pZHguYW5ub3RhdGlvbi5Ob25OdWxsOwppbXBvcnQgYW5kcm9pZHguZnJhZ21lbnQuYXBwLkZyYWdtZW50OwppbXBvcnQgYW5kcm9pZHguZnJhZ21lbnQuYXBwLkZyYWdtZW50TWFuYWdlcjsKCmltcG9ydCBvcmcubGluYmFvZ3Uucm9taHViLmhjLnByb3Zpc2lvbi51dGlscy5JT25Gb2N1c0xpc3RlbmVyOwoKaW1wb3J0IGZhbi5hcHBjb21wYXQuYXBwLkFwcENvbXBhdEFjdGl2aXR5OwoKcHVibGljIGFic3RyYWN0IGNsYXNzIFByb3Zpc2lvbkRldGFpbEFjdGl2aXR5IGV4dGVuZHMgQXBwQ29tcGF0QWN0aXZpdHkgewoKICAgIHByb3RlY3RlZCBGcmFnbWVudCBtRnJhZ21lbnQ7CiAgICBwcm90ZWN0ZWQgRnJhZ21lbnRNYW5hZ2VyIG1GcmFnbWVudE1hbmFnZXI7CgogICAgcHJvdGVjdGVkIGFic3RyYWN0IEZyYWdtZW50IGdldEZyYWdtZW50KCk7CiAgICBwcm90ZWN0ZWQgYWJzdHJhY3QgU3RyaW5nIGdldEZyYWdtZW50VGFnKCk7CgogICAgQE92ZXJyaWRlCiAgICBwdWJsaWMgdm9pZCBvbkNyZWF0ZShCdW5kbGUgc2F2ZWRJbnN0YW5jZVN0YXRlKSB7CiAgICAgICAgc3VwZXIub25DcmVhdGUoc2F2ZWRJbnN0YW5jZVN0YXRlKTsKICAgICAgICBtRnJhZ21lbnRNYW5hZ2VyID0gZ2V0U3VwcG9ydEZyYWdtZW50TWFuYWdlcigpOwogICAgICAgIG1GcmFnbWVudCA9IG1GcmFnbWVudE1hbmFnZXIuZmluZEZyYWdtZW50QnlUYWcoZ2V0RnJhZ21lbnRUYWcoKSk7CiAgICAgICAgaWYgKG1GcmFnbWVudCA9PSBudWxsKSB7CiAgICAgICAgICAgIG1GcmFnbWVudCA9IGdldEZyYWdtZW50KCk7CiAgICAgICAgICAgIHNldEZyYWdtZW50KGFuZHJvaWQuUi5pZC5jb250ZW50LCBtRnJhZ21lbnQsIGdldEZyYWdtZW50VGFnKCkpOwogICAgICAgIH0KICAgICAgICBzZXR1cFZpZXcoKTsKICAgIH0KCiAgICBwcm90ZWN0ZWQgdm9pZCBzZXR1cFZpZXcoKSB7fQoKICAgIHByb3RlY3RlZCB2b2lkIHNldEZyYWdtZW50KEBJZFJlcyBpbnQgY29udGFpbmVyVmlld0lkLCBATm9uTnVsbCBGcmFnbWVudCBmcmFnbWVudCwgU3RyaW5nIHRhZykgewogICAgICAgIGdldFN1cHBvcnRGcmFnbWVudE1hbmFnZXIoKQogICAgICAgICAgICAgICAgLmJlZ2luVHJhbnNhY3Rpb24oKQogICAgICAgICAgICAgICAgLnJlcGxhY2UoY29udGFpbmVyVmlld0lkLCBmcmFnbWVudCwgdGFnKQogICAgICAgICAgICAgICAgLmNvbW1pdCgpOwogICAgfQoKICAgIEBPdmVycmlkZQogICAgcHVibGljIHZvaWQgb25XaW5kb3dGb2N1c0NoYW5nZWQoYm9vbGVhbiBoYXNGb2N1cykgewogICAgICAgIHN1cGVyLm9uV2luZG93Rm9jdXNDaGFuZ2VkKGhhc0ZvY3VzKTsKICAgICAgICBpZiAobUZyYWdtZW50IGluc3RhbmNlb2YgSU9uRm9jdXNMaXN0ZW5lcikgewogICAgICAgICAgICAoKElPbkZvY3VzTGlzdGVuZXIpIG1GcmFnbWVudCkub25XaW5kb3dGb2N1c0NoYW5nZWQoaGFzRm9jdXMpOwogICAgICAgIH0KICAgIH0KfQo=
+/*
+ * This file is part of HyperCeiler.
+
+ * HyperCeiler is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as
+ * published by the Free Software Foundation, either version 3 of the
+ * License.
+
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Affero General Public License for more details.
+
+ * You should have received a copy of the GNU Affero General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+ * Copyright (C) 2023-2026 HyperCeiler Contributions
+ */
+package org.linbaogu.romhub.hc.provision.activity;
+
+import android.os.Bundle;
+
+import androidx.annotation.IdRes;
+import androidx.annotation.NonNull;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+
+import org.linbaogu.romhub.hc.provision.utils.IOnFocusListener;
+
+import fan.appcompat.app.AppCompatActivity;
+
+public abstract class ProvisionDetailActivity extends AppCompatActivity {
+
+    protected Fragment mFragment;
+    protected FragmentManager mFragmentManager;
+
+    protected abstract Fragment getFragment();
+    protected abstract String getFragmentTag();
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        mFragmentManager = getSupportFragmentManager();
+        mFragment = mFragmentManager.findFragmentByTag(getFragmentTag());
+        if (mFragment == null) {
+            mFragment = getFragment();
+            setFragment(android.R.id.content, mFragment, getFragmentTag());
+        }
+        setupView();
+    }
+
+    protected void setupView() {}
+
+    protected void setFragment(@IdRes int containerViewId, @NonNull Fragment fragment, String tag) {
+        getSupportFragmentManager()
+                .beginTransaction()
+                .replace(containerViewId, fragment, tag)
+                .commit();
+    }
+
+    @Override
+    public void onWindowFocusChanged(boolean hasFocus) {
+        super.onWindowFocusChanged(hasFocus);
+        if (mFragment instanceof IOnFocusListener) {
+            ((IOnFocusListener) mFragment).onWindowFocusChanged(hasFocus);
+        }
+    }
+}

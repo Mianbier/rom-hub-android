@@ -1,1 +1,113 @@
-LyoKICogVGhpcyBmaWxlIGlzIHBhcnQgb2YgUk9NIEh1YiwgcmVsZWFzZWQgdW5kZXIgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSB2My4wLgogKgogKiDmnKzmlofku7bnp7vmpI0gLyDmlLnlhpnoh6ogSHlwZXJDZWlsZXLvvIhBR1BMLTMuMO+8jENvcHlyaWdodCAoQykgMjAyMy0yMDI2IEh5cGVyQ2VpbGVyCiAqIENvbnRyaWJ1dGlvbnPvvInvvIzmiJbkuLrlhbbnrYnku7fmm7/ouqvlrp7njrAg4oCU4oCUIOWujOaVtOadpea6kOS4jum4o+iwouingemhueebruagueebruW9lSBOT1RJQ0UubWTjgIIKICoKICogVGhpcyBwcm9ncmFtIGlzIGZyZWUgc29mdHdhcmU6IHlvdSBjYW4gcmVkaXN0cmlidXRlIGl0IGFuZC9vciBtb2RpZnkgaXQgdW5kZXIgdGhlIHRlcm1zCiAqIG9mIHRoZSBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UgYXMgcHVibGlzaGVkIGJ5IHRoZSBGcmVlIFNvZnR3YXJlIEZvdW5kYXRpb24sCiAqIGVpdGhlciB2ZXJzaW9uIDMgb2YgdGhlIExpY2Vuc2UuCiAqCiAqIFRoaXMgcHJvZ3JhbSBpcyBkaXN0cmlidXRlZCBpbiB0aGUgaG9wZSB0aGF0IGl0IHdpbGwgYmUgdXNlZnVsLCBidXQgV0lUSE9VVCBBTlkgV0FSUkFOVFk7CiAqIHdpdGhvdXQgZXZlbiB0aGUgaW1wbGllZCB3YXJyYW50eSBvZiBNRVJDSEFOVEFCSUxJVFkgb3IgRklUTkVTUyBGT1IgQSBQQVJUSUNVTEFSIFBVUlBPU0UuCiAqIFNlZSB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGZvciBtb3JlIGRldGFpbHMuCiAqCiAqIFlvdSBzaG91bGQgaGF2ZSByZWNlaXZlZCBhIGNvcHkgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBhbG9uZyB3aXRoIHRoaXMKICogcHJvZ3JhbS4gIElmIG5vdCwgc2VlIDxodHRwczovL3d3dy5nbnUub3JnL2xpY2Vuc2VzLz4uCiAqLwoKcGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLmhjLnByb3Zpc2lvbi51dGlsczsKCmltcG9ydCBhbmRyb2lkLmFwcC5BY3Rpdml0eTsKaW1wb3J0IGFuZHJvaWQuZ3JhcGhpY3MuQml0bWFwOwppbXBvcnQgYW5kcm9pZC5ncmFwaGljcy5DYW52YXM7CmltcG9ydCBhbmRyb2lkLmdyYXBoaWNzLk1hdHJpeDsKaW1wb3J0IGFuZHJvaWQuZ3JhcGhpY3MuUGFpbnQ7CmltcG9ydCBhbmRyb2lkLmdyYXBoaWNzLlBvcnRlckR1ZmY7CmltcG9ydCBhbmRyb2lkLmdyYXBoaWNzLlBvcnRlckR1ZmZYZmVybW9kZTsKaW1wb3J0IGFuZHJvaWQuZ3JhcGhpY3MuUmVjdDsKaW1wb3J0IGFuZHJvaWQub3MuSGFuZGxlcjsKaW1wb3J0IGFuZHJvaWQudmlldy5QaXhlbENvcHk7CmltcG9ydCBhbmRyb2lkLnZpZXcuVmlldzsKaW1wb3J0IGFuZHJvaWQudmlldy5XaW5kb3c7CgppbXBvcnQgb3JnLmxpbmJhb2d1LnJvbWh1Yi5oYy5jb21tb24uQW5kcm9pZExvZzsKCgpwdWJsaWMgY2xhc3MgVmlld1V0aWxzIHsKICAgIHByaXZhdGUgc3RhdGljIGZpbmFsIFN0cmluZyBUQUcgPSAiVmlld1V0aWxzIjsKCiAgICBwdWJsaWMgaW50ZXJmYWNlIFJvdW5kZWRCaXRtYXBDYWxsYmFjayB7CiAgICAgICAgdm9pZCBvbkJpdG1hcFJlYWR5KEJpdG1hcCBiaXRtYXApOwogICAgfQoKICAgIHB1YmxpYyBzdGF0aWMgdm9pZCBjYXB0dXJlUm91bmRlZEJpdG1hcChBY3Rpdml0eSBhY3Rpdml0eSwgVmlldyB2aWV3LCBIYW5kbGVyIGhhbmRsZXIsIGZpbmFsIFJvdW5kZWRCaXRtYXBDYWxsYmFjayByb3VuZGVkQml0bWFwQ2FsbGJhY2spIHsKICAgICAgICBpZiAoYWN0aXZpdHkgPT0gbnVsbCB8fCB2aWV3ID09IG51bGwgfHwgaGFuZGxlciA9PSBudWxsIHx8IHJvdW5kZWRCaXRtYXBDYWxsYmFjayA9PSBudWxsKSB7CiAgICAgICAgICAgIGlmIChyb3VuZGVkQml0bWFwQ2FsbGJhY2sgIT0gbnVsbCkgewogICAgICAgICAgICAgICAgcm91bmRlZEJpdG1hcENhbGxiYWNrLm9uQml0bWFwUmVhZHkobnVsbCk7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgcmV0dXJuOwogICAgICAgIH0KICAgICAgICBpZiAoYWN0aXZpdHkuaXNGaW5pc2hpbmcoKSB8fCBhY3Rpdml0eS5pc0Rlc3Ryb3llZCgpKSB7CiAgICAgICAgICAgIHJvdW5kZWRCaXRtYXBDYWxsYmFjay5vbkJpdG1hcFJlYWR5KG51bGwpOwogICAgICAgICAgICByZXR1cm47CiAgICAgICAgfQogICAgICAgIHRyeSB7CiAgICAgICAgICAgIGludFtdIGlBcnIgPSBuZXcgaW50WzJdOwogICAgICAgICAgICB2aWV3LmdldExvY2F0aW9uSW5XaW5kb3coaUFycik7CiAgICAgICAgICAgIGludCB3aWR0aCA9IHZpZXcuZ2V0V2lkdGgoKTsKICAgICAgICAgICAgaW50IGhlaWdodCA9IHZpZXcuZ2V0SGVpZ2h0KCk7CiAgICAgICAgICAgIGlmICh3aWR0aCAhPSAwICYmIGhlaWdodCAhPSAwKSB7CiAgICAgICAgICAgICAgICBmaW5hbCBCaXRtYXAgYml0bWFwQ3JlYXRlQml0bWFwID0gQml0bWFwLmNyZWF0ZUJpdG1hcCh3aWR0aCwgaGVpZ2h0LCBCaXRtYXAuQ29uZmlnLkFSR0JfODg4OCk7CiAgICAgICAgICAgICAgICBXaW5kb3cgd2luZG93ID0gYWN0aXZpdHkuZ2V0V2luZG93KCk7CiAgICAgICAgICAgICAgICBpZiAod2luZG93ID09IG51bGwpIHsKICAgICAgICAgICAgICAgICAgICByb3VuZGVkQml0bWFwQ2FsbGJhY2sub25CaXRtYXBSZWFkeShudWxsKTsKICAgICAgICAgICAgICAgICAgICByZXR1cm47CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBpbnQgaSA9IGlBcnJbMF07CiAgICAgICAgICAgICAgICBpbnQgaTIgPSBpQXJyWzFdOwogICAgICAgICAgICAgICAgUGl4ZWxDb3B5LnJlcXVlc3Qod2luZG93LCBuZXcgUmVjdChpLCBpMiwgd2lkdGggKyBpLCBoZWlnaHQgKyBpMiksIGJpdG1hcENyZWF0ZUJpdG1hcCwgbmV3IFBpeGVsQ29weS5PblBpeGVsQ29weUZpbmlzaGVkTGlzdGVuZXIoKSB7CiAgICAgICAgICAgICAgICAgICAgQE92ZXJyaWRlCiAgICAgICAgICAgICAgICAgICAgcHVibGljIHZvaWQgb25QaXhlbENvcHlGaW5pc2hlZChpbnQgaTMpIHsKICAgICAgICAgICAgICAgICAgICAgICAgVmlld1V0aWxzLiRyOCRsYW1iZGEkTm5Zdl9KZlBxclg0Zlc2XzZFRkJmWEl0Y1BVKGJpdG1hcENyZWF0ZUJpdG1hcCwgcm91bmRlZEJpdG1hcENhbGxiYWNrLCBpMyk7CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfSwgaGFuZGxlcik7CiAgICAgICAgICAgICAgICByZXR1cm47CiAgICAgICAgICAgIH0KICAgICAgICAgICAgQW5kcm9pZExvZy5kKFRBRywgIndpZHRoICAiICsgd2lkdGggKyAiIGhlaWdodCAiICsgaGVpZ2h0KTsKICAgICAgICAgICAgcm91bmRlZEJpdG1hcENhbGxiYWNrLm9uQml0bWFwUmVhZHkobnVsbCk7CiAgICAgICAgfSBjYXRjaCAoSWxsZWdhbEFyZ3VtZW50RXhjZXB0aW9uIHwgSWxsZWdhbFN0YXRlRXhjZXB0aW9uIHVudXNlZCkgewogICAgICAgICAgICByb3VuZGVkQml0bWFwQ2FsbGJhY2sub25CaXRtYXBSZWFkeShudWxsKTsKICAgICAgICB9CiAgICB9CgogICAgcHVibGljIHN0YXRpYyB2b2lkICRyOCRsYW1iZGEkTm5Zdl9KZlBxclg0Zlc2XzZFRkJmWEl0Y1BVKEJpdG1hcCBiaXRtYXAsIFJvdW5kZWRCaXRtYXBDYWxsYmFjayByb3VuZGVkQml0bWFwQ2FsbGJhY2ssIGludCBpKSB7CiAgICAgICAgQW5kcm9pZExvZy5kKFRBRywgIlBpeGVsQ29weSByZXF1ZXN0ICIgKyBpKTsKICAgICAgICBpZiAoaSA9PSAwKSB7CiAgICAgICAgICAgIHJvdW5kZWRCaXRtYXBDYWxsYmFjay5vbkJpdG1hcFJlYWR5KGNyb3BCaXRtYXBUb0NpcmNsZShiaXRtYXApKTsKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICByb3VuZGVkQml0bWFwQ2FsbGJhY2sub25CaXRtYXBSZWFkeShudWxsKTsKICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBzdGF0aWMgQml0bWFwIGNyb3BCaXRtYXBUb0NpcmNsZShCaXRtYXAgYml0bWFwKSB7CiAgICAgICAgaW50IGlNaW4gPSBNYXRoLm1pbihiaXRtYXAuZ2V0V2lkdGgoKSwgYml0bWFwLmdldEhlaWdodCgpKTsKICAgICAgICBCaXRtYXAgYml0bWFwQ3JlYXRlQml0bWFwID0gQml0bWFwLmNyZWF0ZUJpdG1hcChpTWluLCBpTWluLCBCaXRtYXAuQ29uZmlnLkFSR0JfODg4OCk7CiAgICAgICAgQ2FudmFzIGNhbnZhcyA9IG5ldyBDYW52YXMoYml0bWFwQ3JlYXRlQml0bWFwKTsKICAgICAgICBQYWludCBwYWludCA9IG5ldyBQYWludCgxKTsKICAgICAgICBSZWN0IHJlY3QgPSBuZXcgUmVjdCgwLCAwLCBpTWluLCBpTWluKTsKICAgICAgICBjYW52YXMuZHJhd0FSR0IoMCwgMCwgMCwgMCk7CiAgICAgICAgZmxvYXQgZiA9IGlNaW4gLyAyLjBmOwogICAgICAgIGNhbnZhcy5kcmF3Q2lyY2xlKGYsIGYsIGYsIHBhaW50KTsKICAgICAgICBwYWludC5zZXRYZmVybW9kZShuZXcgUG9ydGVyRHVmZlhmZXJtb2RlKFBvcnRlckR1ZmYuTW9kZS5TUkNfSU4pKTsKICAgICAgICBjYW52YXMuZHJhd0JpdG1hcChiaXRtYXAsIG51bGwsIHJlY3QsIHBhaW50KTsKICAgICAgICByZXR1cm4gYml0bWFwQ3JlYXRlQml0bWFwOwogICAgfQoKICAgIHB1YmxpYyBzdGF0aWMgQml0bWFwIHJvdGF0ZUJpdG1hcDE4MChCaXRtYXAgYml0bWFwKSB7CiAgICAgICAgTWF0cml4IG1hdHJpeCA9IG5ldyBNYXRyaXgoKTsKICAgICAgICBtYXRyaXguc2V0U2NhbGUoLTEuMGYsIDEuMGYpOwogICAgICAgIG1hdHJpeC5wb3N0VHJhbnNsYXRlKGJpdG1hcC5nZXRXaWR0aCgpLCAwLjBmKTsKICAgICAgICByZXR1cm4gQml0bWFwLmNyZWF0ZUJpdG1hcChiaXRtYXAsIDAsIDAsIGJpdG1hcC5nZXRXaWR0aCgpLCBiaXRtYXAuZ2V0SGVpZ2h0KCksIG1hdHJpeCwgdHJ1ZSk7CiAgICB9Cn0K
+/*
+ * This file is part of ROM Hub, released under the GNU Affero General Public License v3.0.
+ *
+ * 本文件移植 / 改写自 HyperCeiler（AGPL-3.0，Copyright (C) 2023-2026 HyperCeiler
+ * Contributions），或为其等价替身实现 —— 完整来源与鸣谢见项目根目录 NOTICE.md。
+ *
+ * This program is free software: you can redistribute it and/or modify it under the terms
+ * of the GNU Affero General Public License as published by the Free Software Foundation,
+ * either version 3 of the License.
+ *
+ * This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+ * without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * See the GNU Affero General Public License for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License along with this
+ * program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
+package org.linbaogu.romhub.hc.provision.utils;
+
+import android.app.Activity;
+import android.graphics.Bitmap;
+import android.graphics.Canvas;
+import android.graphics.Matrix;
+import android.graphics.Paint;
+import android.graphics.PorterDuff;
+import android.graphics.PorterDuffXfermode;
+import android.graphics.Rect;
+import android.os.Handler;
+import android.view.PixelCopy;
+import android.view.View;
+import android.view.Window;
+
+import org.linbaogu.romhub.hc.common.AndroidLog;
+
+
+public class ViewUtils {
+    private static final String TAG = "ViewUtils";
+
+    public interface RoundedBitmapCallback {
+        void onBitmapReady(Bitmap bitmap);
+    }
+
+    public static void captureRoundedBitmap(Activity activity, View view, Handler handler, final RoundedBitmapCallback roundedBitmapCallback) {
+        if (activity == null || view == null || handler == null || roundedBitmapCallback == null) {
+            if (roundedBitmapCallback != null) {
+                roundedBitmapCallback.onBitmapReady(null);
+            }
+            return;
+        }
+        if (activity.isFinishing() || activity.isDestroyed()) {
+            roundedBitmapCallback.onBitmapReady(null);
+            return;
+        }
+        try {
+            int[] iArr = new int[2];
+            view.getLocationInWindow(iArr);
+            int width = view.getWidth();
+            int height = view.getHeight();
+            if (width != 0 && height != 0) {
+                final Bitmap bitmapCreateBitmap = Bitmap.createBitmap(width, height, Bitmap.Config.ARGB_8888);
+                Window window = activity.getWindow();
+                if (window == null) {
+                    roundedBitmapCallback.onBitmapReady(null);
+                    return;
+                }
+                int i = iArr[0];
+                int i2 = iArr[1];
+                PixelCopy.request(window, new Rect(i, i2, width + i, height + i2), bitmapCreateBitmap, new PixelCopy.OnPixelCopyFinishedListener() {
+                    @Override
+                    public void onPixelCopyFinished(int i3) {
+                        ViewUtils.$r8$lambda$NnYv_JfPqrX4fW6_6EFBfXItcPU(bitmapCreateBitmap, roundedBitmapCallback, i3);
+                    }
+                }, handler);
+                return;
+            }
+            AndroidLog.d(TAG, "width  " + width + " height " + height);
+            roundedBitmapCallback.onBitmapReady(null);
+        } catch (IllegalArgumentException | IllegalStateException unused) {
+            roundedBitmapCallback.onBitmapReady(null);
+        }
+    }
+
+    public static void $r8$lambda$NnYv_JfPqrX4fW6_6EFBfXItcPU(Bitmap bitmap, RoundedBitmapCallback roundedBitmapCallback, int i) {
+        AndroidLog.d(TAG, "PixelCopy request " + i);
+        if (i == 0) {
+            roundedBitmapCallback.onBitmapReady(cropBitmapToCircle(bitmap));
+        } else {
+            roundedBitmapCallback.onBitmapReady(null);
+        }
+    }
+
+    private static Bitmap cropBitmapToCircle(Bitmap bitmap) {
+        int iMin = Math.min(bitmap.getWidth(), bitmap.getHeight());
+        Bitmap bitmapCreateBitmap = Bitmap.createBitmap(iMin, iMin, Bitmap.Config.ARGB_8888);
+        Canvas canvas = new Canvas(bitmapCreateBitmap);
+        Paint paint = new Paint(1);
+        Rect rect = new Rect(0, 0, iMin, iMin);
+        canvas.drawARGB(0, 0, 0, 0);
+        float f = iMin / 2.0f;
+        canvas.drawCircle(f, f, f, paint);
+        paint.setXfermode(new PorterDuffXfermode(PorterDuff.Mode.SRC_IN));
+        canvas.drawBitmap(bitmap, null, rect, paint);
+        return bitmapCreateBitmap;
+    }
+
+    public static Bitmap rotateBitmap180(Bitmap bitmap) {
+        Matrix matrix = new Matrix();
+        matrix.setScale(-1.0f, 1.0f);
+        matrix.postTranslate(bitmap.getWidth(), 0.0f);
+        return Bitmap.createBitmap(bitmap, 0, 0, bitmap.getWidth(), bitmap.getHeight(), matrix, true);
+    }
+}

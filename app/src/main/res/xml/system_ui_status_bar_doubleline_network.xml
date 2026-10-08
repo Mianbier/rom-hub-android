@@ -1,1 +1,84 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IS0tCiAgfiBUaGlzIGZpbGUgaXMgcGFydCBvZiBIeXBlckNlaWxlci4KICB+CiAgfiBIeXBlckNlaWxlciBpcyBmcmVlIHNvZnR3YXJlOiB5b3UgY2FuIHJlZGlzdHJpYnV0ZSBpdCBhbmQvb3IgbW9kaWZ5CiAgfiBpdCB1bmRlciB0aGUgdGVybXMgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBhcwogIH4gcHVibGlzaGVkIGJ5IHRoZSBGcmVlIFNvZnR3YXJlIEZvdW5kYXRpb24sIGVpdGhlciB2ZXJzaW9uIDMgb2YgdGhlCiAgfiBMaWNlbnNlLgogIH4KICB+IFRoaXMgcHJvZ3JhbSBpcyBkaXN0cmlidXRlZCBpbiB0aGUgaG9wZSB0aGF0IGl0IHdpbGwgYmUgdXNlZnVsLAogIH4gYnV0IFdJVEhPVVQgQU5ZIFdBUlJBTlRZOyB3aXRob3V0IGV2ZW4gdGhlIGltcGxpZWQgd2FycmFudHkgb2YKICB+IE1FUkNIQU5UQUJJTElUWSBvciBGSVRORVNTIEZPUiBBIFBBUlRJQ1VMQVIgUFVSUE9TRS4gIFNlZSB0aGUKICB+IEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBmb3IgbW9yZSBkZXRhaWxzLgogIH4KICB+IFlvdSBzaG91bGQgaGF2ZSByZWNlaXZlZCBhIGNvcHkgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZQogIH4gYWxvbmcgd2l0aCB0aGlzIHByb2dyYW0uICBJZiBub3QsIHNlZSA8aHR0cHM6Ly93d3cuZ251Lm9yZy9saWNlbnNlcy8+LgogIH4KICB+IENvcHlyaWdodCAoQykgMjAyMy0yMDI2IEh5cGVyQ2VpbGVyIENvbnRyaWJ1dGlvbnMKICAtLT4KPFByZWZlcmVuY2VTY3JlZW4geG1sbnM6YW5kcm9pZD0iaHR0cDovL3NjaGVtYXMuYW5kcm9pZC5jb20vYXBrL3Jlcy9hbmRyb2lkIgogICAgeG1sbnM6YXBwPSJodHRwOi8vc2NoZW1hcy5hbmRyb2lkLmNvbS9hcGsvcmVzLWF1dG8iCiAgICBhcHA6bXlMb2NhdGlvbj0iQHN0cmluZy9zeXN0ZW1fdWlfc3RhdHVzYmFyX2ljb25tYW5hZ2VfbW9iaWxlX25ldHdvcmtfdGl0bGUiCiAgICBhcHA6cXVpY2tfcmVzdGFydD0iY29tLmFuZHJvaWQuc3lzdGVtdWkiPgogICAgPFN3aXRjaFByZWZlcmVuY2UKICAgICAgICBhbmRyb2lkOmRlZmF1bHRWYWx1ZT0iZmFsc2UiCiAgICAgICAgYW5kcm9pZDprZXk9InByZWZzX2tleV9zeXN0ZW1fdWlfc3RhdHVzYmFyX25ldHdvcmtfaWNvbl9lbmFibGUiCiAgICAgICAgYW5kcm9pZDp0aXRsZT0iQHN0cmluZy9lbmFibGUiIC8+CgogICAgPFByZWZlcmVuY2VDYXRlZ29yeSBhbmRyb2lkOmRlcGVuZGVuY3k9InByZWZzX2tleV9zeXN0ZW1fdWlfc3RhdHVzYmFyX25ldHdvcmtfaWNvbl9lbmFibGUiPgogICAgICAgIDxmYW4ucHJlZmVyZW5jZS5Ecm9wRG93blByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpkZWZhdWx0VmFsdWU9IjAiCiAgICAgICAgICAgIGFuZHJvaWQ6a2V5PSJwcmVmc19rZXlfc3lzdGVtX3VpX3N0YXR1c19tb2JpbGVfbmV0d29ya19pY29uX3N0eWxlIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJAc3RyaW5nL3N5c3RlbV91aV9zdGF0dXNiYXJfaWNvbm1hbmFnZV9tb2JpbGVfbmV0d29ya19pY29uX3N0eWxlIgogICAgICAgICAgICBhcHA6ZW50cmllcz0iQGFycmF5L3N5c3RlbV91aV9zdGF0dXNfYmFyX25ldHdvcmtfaWNvbl9zdHlsZSIKICAgICAgICAgICAgYXBwOmVudHJ5VmFsdWVzPSJAYXJyYXkvc3lzdGVtX3VpX3N0YXR1c19iYXJfbmV0d29ya19pY29uX3N0eWxlX3ZhbHVlIiAvPgoKICAgICAgICA8U2Vla0JhclByZWZlcmVuY2VDb21wYXQKICAgICAgICAgICAgYW5kcm9pZDprZXk9InByZWZzX2tleV9zeXN0ZW1fdWlfc3RhdHVzYmFyX21vYmlsZV9uZXR3b3JrX2ljb25fc2l6ZSIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iQHN0cmluZy9zeXN0ZW1fdWlfc3RhdHVzYmFyX2ljb25tYW5hZ2VfbW9iaWxlX25ldHdvcmtfaWNvbl9zaXplIgogICAgICAgICAgICBhcHA6ZGVmYXVsdFZhbHVlPSIxMDAiCiAgICAgICAgICAgIGFwcDpkZWZhdWx0VmFsdWVUaXRsZT0iQHN0cmluZy9hcnJheV9kZWZhdWx0IgogICAgICAgICAgICBhcHA6ZGl2aWRlclZhbHVlPSIxMDAiCiAgICAgICAgICAgIGFwcDpmb3JtYXQ9IiUuMmYgWCIKICAgICAgICAgICAgYXBwOm1heFZhbHVlPSIxNDAiCiAgICAgICAgICAgIGFwcDptaW5WYWx1ZT0iNzAiCiAgICAgICAgICAgIGFwcDpzdGVwVmFsdWU9IjEiIC8+CgogICAgICAgIDxTZWVrQmFyUHJlZmVyZW5jZUNvbXBhdAogICAgICAgICAgICBhbmRyb2lkOmtleT0icHJlZnNfa2V5X3N5c3RlbV91aV9zdGF0dXNiYXJfbW9iaWxlX25ldHdvcmtfaWNvbl9sZWZ0X21hcmdpbiIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iQHN0cmluZy9sZWZ0X21hcmdpbiIKICAgICAgICAgICAgYXBwOmRlZmF1bHRWYWx1ZT0iOCIKICAgICAgICAgICAgYXBwOmRlZmF1bHRWYWx1ZVRpdGxlPSJAc3RyaW5nL2FycmF5X2RlZmF1bHQiCiAgICAgICAgICAgIGFwcDpkaXZpZGVyVmFsdWU9IjIiCiAgICAgICAgICAgIGFwcDpmb3JtYXQ9IiUuMWYgZHAiCiAgICAgICAgICAgIGFwcDptYXhWYWx1ZT0iMTYiCiAgICAgICAgICAgIGFwcDptaW5WYWx1ZT0iMCIKICAgICAgICAgICAgYXBwOm5lZ2F0aXZlU2hpZnQ9IjgiCiAgICAgICAgICAgIGFwcDpzdGVwVmFsdWU9IjEiIC8+CgogICAgICAgIDxTZWVrQmFyUHJlZmVyZW5jZUNvbXBhdAogICAgICAgICAgICBhbmRyb2lkOmtleT0icHJlZnNfa2V5X3N5c3RlbV91aV9zdGF0dXNiYXJfbW9iaWxlX25ldHdvcmtfaWNvbl9yaWdodF9tYXJnaW4iCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvcmlnaHRfbWFyZ2luIgogICAgICAgICAgICBhcHA6ZGVmYXVsdFZhbHVlPSI4IgogICAgICAgICAgICBhcHA6ZGVmYXVsdFZhbHVlVGl0bGU9IkBzdHJpbmcvYXJyYXlfZGVmYXVsdCIKICAgICAgICAgICAgYXBwOmRpdmlkZXJWYWx1ZT0iMiIKICAgICAgICAgICAgYXBwOmZvcm1hdD0iJS4xZiBkcCIKICAgICAgICAgICAgYXBwOm1heFZhbHVlPSIxNiIKICAgICAgICAgICAgYXBwOm1pblZhbHVlPSIwIgogICAgICAgICAgICBhcHA6bmVnYXRpdmVTaGlmdD0iOCIKICAgICAgICAgICAgYXBwOnN0ZXBWYWx1ZT0iMSIgLz4KCiAgICAgICAgPFNlZWtCYXJQcmVmZXJlbmNlQ29tcGF0CiAgICAgICAgICAgIGFuZHJvaWQ6a2V5PSJwcmVmc19rZXlfc3lzdGVtX3VpX3N0YXR1c2Jhcl9tb2JpbGVfbmV0d29ya19pY29uX3ZlcnRpY2FsX29mZnNldCIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iQHN0cmluZy92ZXJ0aWNhbF9vZmZzZXQiCiAgICAgICAgICAgIGFwcDpkZWZhdWx0VmFsdWU9IjQwIgogICAgICAgICAgICBhcHA6ZGVmYXVsdFZhbHVlVGl0bGU9IkBzdHJpbmcvYXJyYXlfZGVmYXVsdCIKICAgICAgICAgICAgYXBwOmRpdmlkZXJWYWx1ZT0iMTAiCiAgICAgICAgICAgIGFwcDpmb3JtYXQ9IiUuMWYgZHAiCiAgICAgICAgICAgIGFwcDptYXhWYWx1ZT0iODAiCiAgICAgICAgICAgIGFwcDptaW5WYWx1ZT0iMCIKICAgICAgICAgICAgYXBwOm5lZ2F0aXZlU2hpZnQ9IjQwIgogICAgICAgICAgICBhcHA6c3RlcFZhbHVlPSIxIiAvPgoKICAgIDwvUHJlZmVyZW5jZUNhdGVnb3J5Pgo8L1ByZWZlcmVuY2VTY3JlZW4+
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ This file is part of HyperCeiler.
+  ~
+  ~ HyperCeiler is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU Affero General Public License as
+  ~ published by the Free Software Foundation, either version 3 of the
+  ~ License.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU Affero General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU Affero General Public License
+  ~ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+  ~
+  ~ Copyright (C) 2023-2026 HyperCeiler Contributions
+  -->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:myLocation="@string/system_ui_statusbar_iconmanage_mobile_network_title"
+    app:quick_restart="com.android.systemui">
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="prefs_key_system_ui_statusbar_network_icon_enable"
+        android:title="@string/enable" />
+
+    <PreferenceCategory android:dependency="prefs_key_system_ui_statusbar_network_icon_enable">
+        <fan.preference.DropDownPreference
+            android:defaultValue="0"
+            android:key="prefs_key_system_ui_status_mobile_network_icon_style"
+            android:title="@string/system_ui_statusbar_iconmanage_mobile_network_icon_style"
+            app:entries="@array/system_ui_status_bar_network_icon_style"
+            app:entryValues="@array/system_ui_status_bar_network_icon_style_value" />
+
+        <SeekBarPreferenceCompat
+            android:key="prefs_key_system_ui_statusbar_mobile_network_icon_size"
+            android:title="@string/system_ui_statusbar_iconmanage_mobile_network_icon_size"
+            app:defaultValue="100"
+            app:defaultValueTitle="@string/array_default"
+            app:dividerValue="100"
+            app:format="%.2f X"
+            app:maxValue="140"
+            app:minValue="70"
+            app:stepValue="1" />
+
+        <SeekBarPreferenceCompat
+            android:key="prefs_key_system_ui_statusbar_mobile_network_icon_left_margin"
+            android:title="@string/left_margin"
+            app:defaultValue="8"
+            app:defaultValueTitle="@string/array_default"
+            app:dividerValue="2"
+            app:format="%.1f dp"
+            app:maxValue="16"
+            app:minValue="0"
+            app:negativeShift="8"
+            app:stepValue="1" />
+
+        <SeekBarPreferenceCompat
+            android:key="prefs_key_system_ui_statusbar_mobile_network_icon_right_margin"
+            android:title="@string/right_margin"
+            app:defaultValue="8"
+            app:defaultValueTitle="@string/array_default"
+            app:dividerValue="2"
+            app:format="%.1f dp"
+            app:maxValue="16"
+            app:minValue="0"
+            app:negativeShift="8"
+            app:stepValue="1" />
+
+        <SeekBarPreferenceCompat
+            android:key="prefs_key_system_ui_statusbar_mobile_network_icon_vertical_offset"
+            android:title="@string/vertical_offset"
+            app:defaultValue="40"
+            app:defaultValueTitle="@string/array_default"
+            app:dividerValue="10"
+            app:format="%.1f dp"
+            app:maxValue="80"
+            app:minValue="0"
+            app:negativeShift="40"
+            app:stepValue="1" />
+
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,1 +1,95 @@
-LyoKICogVGhpcyBmaWxlIGlzIHBhcnQgb2YgUk9NIEh1YiwgcmVsZWFzZWQgdW5kZXIgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSB2My4wLgogKgogKiDmnKzmlofku7bnp7vmpI0gLyDmlLnlhpnoh6ogSHlwZXJDZWlsZXLvvIhBR1BMLTMuMO+8jENvcHlyaWdodCAoQykgMjAyMy0yMDI2IEh5cGVyQ2VpbGVyCiAqIENvbnRyaWJ1dGlvbnPvvInvvIzmiJbkuLrlhbbnrYnku7fmm7/ouqvlrp7njrAg4oCU4oCUIOWujOaVtOadpea6kOS4jum4o+iwouingemhueebruagueebruW9lSBOT1RJQ0UubWTjgIIKICoKICogVGhpcyBwcm9ncmFtIGlzIGZyZWUgc29mdHdhcmU6IHlvdSBjYW4gcmVkaXN0cmlidXRlIGl0IGFuZC9vciBtb2RpZnkgaXQgdW5kZXIgdGhlIHRlcm1zCiAqIG9mIHRoZSBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UgYXMgcHVibGlzaGVkIGJ5IHRoZSBGcmVlIFNvZnR3YXJlIEZvdW5kYXRpb24sCiAqIGVpdGhlciB2ZXJzaW9uIDMgb2YgdGhlIExpY2Vuc2UuCiAqCiAqIFRoaXMgcHJvZ3JhbSBpcyBkaXN0cmlidXRlZCBpbiB0aGUgaG9wZSB0aGF0IGl0IHdpbGwgYmUgdXNlZnVsLCBidXQgV0lUSE9VVCBBTlkgV0FSUkFOVFk7CiAqIHdpdGhvdXQgZXZlbiB0aGUgaW1wbGllZCB3YXJyYW50eSBvZiBNRVJDSEFOVEFCSUxJVFkgb3IgRklUTkVTUyBGT1IgQSBQQVJUSUNVTEFSIFBVUlBPU0UuCiAqIFNlZSB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGZvciBtb3JlIGRldGFpbHMuCiAqCiAqIFlvdSBzaG91bGQgaGF2ZSByZWNlaXZlZCBhIGNvcHkgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBhbG9uZyB3aXRoIHRoaXMKICogcHJvZ3JhbS4gIElmIG5vdCwgc2VlIDxodHRwczovL3d3dy5nbnUub3JnL2xpY2Vuc2VzLz4uCiAqLwoKcGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLmhjCgppbXBvcnQgYW5kcm9pZC5vcy5CdWlsZAppbXBvcnQgYW5kcm9pZC52aWV3LkxheW91dEluZmxhdGVyCmltcG9ydCBhbmRyb2lkLndpZGdldC5GcmFtZUxheW91dAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLkNvbXBvc2FibGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuTW9kaWZpZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudmlld2ludGVyb3AuQW5kcm9pZFZpZXcKaW1wb3J0IG9yZy5saW5iYW9ndS5yb21odWIuUgppbXBvcnQgb3JnLmxpbmJhb2d1LnJvbWh1Yi5oYy5hYm91dC5jb250cm9sbGVyLkJnRWZmZWN0Q29udHJvbGxlcgoKLyoqCiAqIOOAjOWFs+S6juOAjemhteeahCoq5rWB5Yqo5YWJ5pWI6IOM5pmvKiog4oCU4oCUIOWwseaYryBIeXBlckNlaWxlciDlhbPkuo7pobXpgqPkuIDlsYLkvJrnvJPmhaLmtYHliqjnmoTlvanoibLlhYnjgIIKICoKICog5a6e546w5a6M5YWo54Wn5pCsIEh5cGVyQ2VpbGVy77yaYHJlcy9sYXlvdXQvYXBwX2Fib3V0X2JnLnhtbGAgKyBgQmdFZmZlY3RDb250cm9sbGVyYAogKiArIGBCZ0VmZmVjdFBhaW50ZXJg77yIQUdTTCDnnYDoibLlmaggYHJlcy9yYXcvYmdfZnJhZy5nbHNsYO+8jOeUqCBgVmlldy5zZXRSZW5kZXJFZmZlY3RgCiAqIOaKiiBzaGFkZXIg55u05o6l5riy5p+T5Zyo6YKj5LiA5bGCIFZpZXcg5LiK77yJ44CCCiAqCiAqIOWSjCBBcHAg5YW25a6D5Zyw5pa555qE6IOM5pmv5peg5YWzIOKAlOKAlCDnlKjmiLfmmI7noa7opoHmsYLvvJrliKvnmoTlnLDmlrnopoHlubLlh4DnmoTnuq/oibLlupXvvIzlj6rmnInlhbPkuo7pobXkv53nlZnov5nkuKrlhYnmlYjjgIIKICoKICog4pqg77iPIGBSdW50aW1lU2hhZGVyYCDopoEgQW5kcm9pZCAxMyhBUEkgMzMpIOS7peS4iu+8jOS9jueJiOacrOebtOaOpeS4jeaMgu+8iOmAgOWMluaIkOmAj+aYju+8jOS4jeS8muW0qe+8ieOAggogKi8KQENvbXBvc2FibGUKZnVuIEhjQWJvdXRCZyhtb2RpZmllcjogTW9kaWZpZXIgPSBNb2RpZmllcikgewogICAgaWYgKEJ1aWxkLlZFUlNJT04uU0RLX0lOVCA8IEJ1aWxkLlZFUlNJT05fQ09ERVMuVElSQU1JU1UpIHJldHVybgoKICAgIEFuZHJvaWRWaWV3KAogICAgICAgIG1vZGlmaWVyID0gbW9kaWZpZXIsCiAgICAgICAgZmFjdG9yeSA9IHsgY3R4IC0+CiAgICAgICAgICAgIHZhbCBiZyA9IExheW91dEluZmxhdGVyLmZyb20oY3R4KS5pbmZsYXRlKFIubGF5b3V0LmFwcF9hYm91dF9iZywgbnVsbCkKCiAgICAgICAgICAgIHZhbCBob3N0ID0gb2JqZWN0IDogRnJhbWVMYXlvdXQoY3R4KSB7CiAgICAgICAgICAgICAgICBwcml2YXRlIHZhciBjb250cm9sbGVyOiBCZ0VmZmVjdENvbnRyb2xsZXI/ID0gbnVsbAoKICAgICAgICAgICAgICAgIG92ZXJyaWRlIGZ1biBvblNpemVDaGFuZ2VkKHc6IEludCwgaDogSW50LCBvbGR3OiBJbnQsIG9sZGg6IEludCkgewogICAgICAgICAgICAgICAgICAgIHN1cGVyLm9uU2l6ZUNoYW5nZWQodywgaCwgb2xkdywgb2xkaCkKICAgICAgICAgICAgICAgICAgICBpZiAoY29udHJvbGxlciA9PSBudWxsICYmIHcgPiAwICYmIGggPiAwKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWwgYyA9IEJnRWZmZWN0Q29udHJvbGxlcihiZykKICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8vIOKaoCDpobrluo/kuI3og73lj43vvIFgc3RhcnQoKWAg6YeM5omN5LyaIG5ldyDlh7ogQmdFZmZlY3RQYWludGVy77yMCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAvLyDogIwgYHNldFR5cGUoKWAg56ys5LiA5Lu25LqL5bCx5pivIG1CZ0VmZmVjdFBhaW50ZXIuc2V0VHlwZSguLi4pIOKAlOKAlAogICAgICAgICAgICAgICAgICAgICAgICAgICAgLy8g5YWIIHNldFR5cGUg5LyaIE5QRe+8iOS5i+WJjeWwseaYr+i/meagt+iiq+mdmem7mOWQnuaOie+8jOihqOeOsOaYr+OAjOWFieaViOS7gOS5iOmDveayoeacieOAje+8ieOAggogICAgICAgICAgICAgICAgICAgICAgICAgICAgLy8gSHlwZXJDZWlsZXIg5Y6f54mI5Lmf5pivIHN0YXJ0KCkg5Zyo5YmN44CBc2V0VHlwZSgpIOWcqOWQjuOAggogICAgICAgICAgICAgICAgICAgICAgICAgICAgYy5zdGFydCgpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAvLyBhY3Rpb25CYXIg5LygIG51bGzvvJpDb21wb3NlIOmHjOayoeaciSBBY3Rpb25CYXLvvIwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8vIOWOn+eJiOatpOaXtuaKiuagh+mimOagj+mrmOW6puaMiSAwIOeul++8jOato+aYr+aIkeS7rOimgeeahOaViOaenOOAggogICAgICAgICAgICAgICAgICAgICAgICAgICAgYy5zZXRUeXBlKGN0eCwgYmcsIG51bGwpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb250cm9sbGVyID0gYwogICAgICAgICAgICAgICAgICAgICAgICAgICAgYW5kcm9pZC51dGlsLkxvZy5pKCJIY0Fib3V0QmciLCAiZmxvdyBlZmZlY3Qgc3RhcnRlZCwgc2l6ZT0ke3d9eCRoIikKICAgICAgICAgICAgICAgICAgICAgICAgfSBjYXRjaCAodDogVGhyb3dhYmxlKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAvLyDkuI3lkJ7lvILluLjvvJrlhYnmlYjmjILkuobopoHog73lnKggbG9nY2F0IOmHjOeci+WIsOWOn+WboAogICAgICAgICAgICAgICAgICAgICAgICAgICAgYW5kcm9pZC51dGlsLkxvZy5lKCJIY0Fib3V0QmciLCAiZmxvdyBlZmZlY3QgZmFpbGVkIiwgdCkKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICBvdmVycmlkZSBmdW4gb25EZXRhY2hlZEZyb21XaW5kb3coKSB7CiAgICAgICAgICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgICAgICAgICAgY29udHJvbGxlcj8uc3RvcCgpCiAgICAgICAgICAgICAgICAgICAgfSBjYXRjaCAodDogVGhyb3dhYmxlKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGFuZHJvaWQudXRpbC5Mb2cuZSgiSGNBYm91dEJnIiwgInN0b3AgZmFpbGVkIiwgdCkKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgY29udHJvbGxlciA9IG51bGwKICAgICAgICAgICAgICAgICAgICBzdXBlci5vbkRldGFjaGVkRnJvbVdpbmRvdygpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgaG9zdC5hZGRWaWV3KAogICAgICAgICAgICAgICAgYmcsCiAgICAgICAgICAgICAgICBGcmFtZUxheW91dC5MYXlvdXRQYXJhbXMoCiAgICAgICAgICAgICAgICAgICAgRnJhbWVMYXlvdXQuTGF5b3V0UGFyYW1zLk1BVENIX1BBUkVOVCwKICAgICAgICAgICAgICAgICAgICBGcmFtZUxheW91dC5MYXlvdXRQYXJhbXMuTUFUQ0hfUEFSRU5ULAogICAgICAgICAgICAgICAgKSwKICAgICAgICAgICAgKQogICAgICAgICAgICBob3N0CiAgICAgICAgfSwKICAgICkKfQo=
+/*
+ * This file is part of ROM Hub, released under the GNU Affero General Public License v3.0.
+ *
+ * 本文件移植 / 改写自 HyperCeiler（AGPL-3.0，Copyright (C) 2023-2026 HyperCeiler
+ * Contributions），或为其等价替身实现 —— 完整来源与鸣谢见项目根目录 NOTICE.md。
+ *
+ * This program is free software: you can redistribute it and/or modify it under the terms
+ * of the GNU Affero General Public License as published by the Free Software Foundation,
+ * either version 3 of the License.
+ *
+ * This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+ * without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * See the GNU Affero General Public License for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License along with this
+ * program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
+package org.linbaogu.romhub.hc
+
+import android.os.Build
+import android.view.LayoutInflater
+import android.widget.FrameLayout
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.viewinterop.AndroidView
+import org.linbaogu.romhub.R
+import org.linbaogu.romhub.hc.about.controller.BgEffectController
+
+/**
+ * 「关于」页的**流动光效背景** —— 就是 HyperCeiler 关于页那一层会缓慢流动的彩色光。
+ *
+ * 实现完全照搬 HyperCeiler：`res/layout/app_about_bg.xml` + `BgEffectController`
+ * + `BgEffectPainter`（AGSL 着色器 `res/raw/bg_frag.glsl`，用 `View.setRenderEffect`
+ * 把 shader 直接渲染在那一层 View 上）。
+ *
+ * 和 App 其它地方的背景无关 —— 用户明确要求：别的地方要干净的纯色底，只有关于页保留这个光效。
+ *
+ * ⚠️ `RuntimeShader` 要 Android 13(API 33) 以上，低版本直接不挂（退化成透明，不会崩）。
+ */
+@Composable
+fun HcAboutBg(modifier: Modifier = Modifier) {
+    if (Build.VERSION.SDK_INT < Build.VERSION_CODES.TIRAMISU) return
+
+    AndroidView(
+        modifier = modifier,
+        factory = { ctx ->
+            val bg = LayoutInflater.from(ctx).inflate(R.layout.app_about_bg, null)
+
+            val host = object : FrameLayout(ctx) {
+                private var controller: BgEffectController? = null
+
+                override fun onSizeChanged(w: Int, h: Int, oldw: Int, oldh: Int) {
+                    super.onSizeChanged(w, h, oldw, oldh)
+                    if (controller == null && w > 0 && h > 0) {
+                        try {
+                            val c = BgEffectController(bg)
+                            // ⚠ 顺序不能反！`start()` 里才会 new 出 BgEffectPainter，
+                            // 而 `setType()` 第一件事就是 mBgEffectPainter.setType(...) ——
+                            // 先 setType 会 NPE（之前就是这样被静默吞掉，表现是「光效什么都没有」）。
+                            // HyperCeiler 原版也是 start() 在前、setType() 在后。
+                            c.start()
+                            // actionBar 传 null：Compose 里没有 ActionBar，
+                            // 原版此时把标题栏高度按 0 算，正是我们要的效果。
+                            c.setType(ctx, bg, null)
+                            controller = c
+                            android.util.Log.i("HcAboutBg", "flow effect started, size=${w}x$h")
+                        } catch (t: Throwable) {
+                            // 不吞异常：光效挂了要能在 logcat 里看到原因
+                            android.util.Log.e("HcAboutBg", "flow effect failed", t)
+                        }
+                    }
+                }
+
+                override fun onDetachedFromWindow() {
+                    try {
+                        controller?.stop()
+                    } catch (t: Throwable) {
+                        android.util.Log.e("HcAboutBg", "stop failed", t)
+                    }
+                    controller = null
+                    super.onDetachedFromWindow()
+                }
+            }
+            host.addView(
+                bg,
+                FrameLayout.LayoutParams(
+                    FrameLayout.LayoutParams.MATCH_PARENT,
+                    FrameLayout.LayoutParams.MATCH_PARENT,
+                ),
+            )
+            host
+        },
+    )
+}

@@ -1,1 +1,95 @@
-LyoKICogVGhpcyBmaWxlIGlzIHBhcnQgb2YgUk9NIEh1YiwgcmVsZWFzZWQgdW5kZXIgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSB2My4wLgogKgogKiDmnKzmlofku7bnp7vmpI0gLyDmlLnlhpnoh6ogSHlwZXJDZWlsZXLvvIhBR1BMLTMuMO+8jENvcHlyaWdodCAoQykgMjAyMy0yMDI2IEh5cGVyQ2VpbGVyCiAqIENvbnRyaWJ1dGlvbnPvvInvvIzmiJbkuLrlhbbnrYnku7fmm7/ouqvlrp7njrAg4oCU4oCUIOWujOaVtOadpea6kOS4jum4o+iwouingemhueebruagueebruW9lSBOT1RJQ0UubWTjgIIKICoKICogVGhpcyBwcm9ncmFtIGlzIGZyZWUgc29mdHdhcmU6IHlvdSBjYW4gcmVkaXN0cmlidXRlIGl0IGFuZC9vciBtb2RpZnkgaXQgdW5kZXIgdGhlIHRlcm1zCiAqIG9mIHRoZSBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UgYXMgcHVibGlzaGVkIGJ5IHRoZSBGcmVlIFNvZnR3YXJlIEZvdW5kYXRpb24sCiAqIGVpdGhlciB2ZXJzaW9uIDMgb2YgdGhlIExpY2Vuc2UuCiAqCiAqIFRoaXMgcHJvZ3JhbSBpcyBkaXN0cmlidXRlZCBpbiB0aGUgaG9wZSB0aGF0IGl0IHdpbGwgYmUgdXNlZnVsLCBidXQgV0lUSE9VVCBBTlkgV0FSUkFOVFk7CiAqIHdpdGhvdXQgZXZlbiB0aGUgaW1wbGllZCB3YXJyYW50eSBvZiBNRVJDSEFOVEFCSUxJVFkgb3IgRklUTkVTUyBGT1IgQSBQQVJUSUNVTEFSIFBVUlBPU0UuCiAqIFNlZSB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGZvciBtb3JlIGRldGFpbHMuCiAqCiAqIFlvdSBzaG91bGQgaGF2ZSByZWNlaXZlZCBhIGNvcHkgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBhbG9uZyB3aXRoIHRoaXMKICogcHJvZ3JhbS4gIElmIG5vdCwgc2VlIDxodHRwczovL3d3dy5nbnUub3JnL2xpY2Vuc2VzLz4uCiAqLwoKcGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLmhjLnByb3Zpc2lvbi5yZW5kZXJlbmdpbmU7CgppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQ7CmltcG9ydCBhbmRyb2lkLnV0aWwuQXR0cmlidXRlU2V0OwppbXBvcnQgYW5kcm9pZC52aWV3LlRleHR1cmVWaWV3OwppbXBvcnQgYW5kcm9pZC52aWV3LlZpZXc7CmltcG9ydCBhbmRyb2lkLnZpZXcuVmlld0dyb3VwOwoKcHVibGljIGNsYXNzIFJlbmRlclZpZXdMYXlvdXQgZXh0ZW5kcyBWaWV3R3JvdXAgewoKICAgIGZsb2F0IG1DaGlsZFNjYWxlID0gMC41ZjsKCgogICAgcHVibGljIFJlbmRlclZpZXdMYXlvdXQoQ29udGV4dCBjb250ZXh0KSB7CiAgICAgICAgc3VwZXIoY29udGV4dCk7CiAgICB9CgogICAgcHVibGljIFJlbmRlclZpZXdMYXlvdXQoQ29udGV4dCBjb250ZXh0LCBBdHRyaWJ1dGVTZXQgYXR0cnMpIHsKICAgICAgICBzdXBlcihjb250ZXh0LCBhdHRycyk7CiAgICB9CgogICAgcHVibGljIFJlbmRlclZpZXdMYXlvdXQoQ29udGV4dCBjb250ZXh0LCBBdHRyaWJ1dGVTZXQgYXR0cnMsIGludCBkZWZTdHlsZUF0dHIpIHsKICAgICAgICBzdXBlcihjb250ZXh0LCBhdHRycywgZGVmU3R5bGVBdHRyKTsKICAgIH0KCiAgICBwdWJsaWMgUmVuZGVyVmlld0xheW91dChDb250ZXh0IGNvbnRleHQsIEF0dHJpYnV0ZVNldCBhdHRycywgaW50IGRlZlN0eWxlQXR0ciwgaW50IGRlZlN0eWxlUmVzKSB7CiAgICAgICAgc3VwZXIoY29udGV4dCwgYXR0cnMsIGRlZlN0eWxlQXR0ciwgZGVmU3R5bGVSZXMpOwogICAgfQoKICAgIEBPdmVycmlkZQogICAgcHJvdGVjdGVkIHZvaWQgb25MYXlvdXQoYm9vbGVhbiBjaGFuZ2VkLCBpbnQgbCwgaW50IHQsIGludCByLCBpbnQgYikgewogICAgICAgIGludCBjaGlsZENvdW50ID0gZ2V0Q2hpbGRDb3VudCgpOwogICAgICAgIGlmIChjaGlsZENvdW50ID09IDApIHsKICAgICAgICAgICAgcmV0dXJuOwogICAgICAgIH0KICAgICAgICBpbnQgaUNlaWwgPSAoaW50KSBNYXRoLmNlaWwoZ2V0V2lkdGgoKSAqIG1DaGlsZFNjYWxlKTsKICAgICAgICBpbnQgaUNlaWwyID0gKGludCkgTWF0aC5jZWlsKGdldEhlaWdodCgpICogbUNoaWxkU2NhbGUpOwogICAgICAgIGZvciAoaW50IGk1ID0gMDsgaTUgPCBjaGlsZENvdW50OyBpNSsrKSB7CiAgICAgICAgICAgIFZpZXcgY2hpbGRBdCA9IGdldENoaWxkQXQoaTUpOwogICAgICAgICAgICBpZiAoY2hpbGRBdC5nZXRWaXNpYmlsaXR5KCkgIT0gVmlldy5HT05FKSB7CiAgICAgICAgICAgICAgICBjaGlsZEF0LnNldFNjYWxlWCgxLjBmIC8gbUNoaWxkU2NhbGUpOwogICAgICAgICAgICAgICAgY2hpbGRBdC5zZXRTY2FsZVkoMS4wZiAvIG1DaGlsZFNjYWxlKTsKICAgICAgICAgICAgICAgIGludCB3aWR0aCA9IChpbnQpICgoZ2V0V2lkdGgoKSAtIGlDZWlsKSAqIDAuNWYpOwogICAgICAgICAgICAgICAgaW50IGhlaWdodCA9IChpbnQpICgoZ2V0SGVpZ2h0KCkgLSBpQ2VpbDIpICogMC41Zik7CiAgICAgICAgICAgICAgICBjaGlsZEF0LmxheW91dCh3aWR0aCwgaGVpZ2h0LCB3aWR0aCArIGlDZWlsLCBoZWlnaHQgKyBpQ2VpbDIpOwogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgIH0KCiAgICBwdWJsaWMgdm9pZCBhdHRhY2hWaWV3KFZpZXcgdmlldywgZmxvYXQgZikgewogICAgICAgIHRoaXMubUNoaWxkU2NhbGUgPSBmOwogICAgICAgIGFkZFZpZXcodmlldyk7CiAgICAgICAgaWYgKHZpZXcgaW5zdGFuY2VvZiBUZXh0dXJlVmlldykgewogICAgICAgICAgICByZXR1cm47CiAgICAgICAgfQogICAgICAgIHZpZXcuc2V0QmFja2dyb3VuZENvbG9yKC0xNjc3NzIxNik7CiAgICB9CgogICAgcHVibGljIHZvaWQgYXR0YWNoVmlldyhWaWV3IHZpZXcsIGZsb2F0IGYsIGludCBpKSB7CiAgICAgICAgdGhpcy5tQ2hpbGRTY2FsZSA9IGY7CiAgICAgICAgYWRkVmlldyh2aWV3KTsKICAgICAgICBpZiAodmlldyBpbnN0YW5jZW9mIFRleHR1cmVWaWV3KSB7CiAgICAgICAgICAgIHJldHVybjsKICAgICAgICB9CiAgICAgICAgdmlldy5zZXRCYWNrZ3JvdW5kQ29sb3IoaSk7CiAgICB9CgogICAgcHVibGljIGludCBnZXRJbnRlcm5hbFdpZHRoKCkgewogICAgICAgIHJldHVybiAoaW50KSAoZ2V0V2lkdGgoKSAqIHRoaXMubUNoaWxkU2NhbGUpOwogICAgfQoKICAgIHB1YmxpYyBpbnQgZ2V0SW50ZXJuYWxIZWlnaHQoKSB7CiAgICAgICAgcmV0dXJuIChpbnQpIChnZXRIZWlnaHQoKSAqIHRoaXMubUNoaWxkU2NhbGUpOwogICAgfQoKfQo=
+/*
+ * This file is part of ROM Hub, released under the GNU Affero General Public License v3.0.
+ *
+ * 本文件移植 / 改写自 HyperCeiler（AGPL-3.0，Copyright (C) 2023-2026 HyperCeiler
+ * Contributions），或为其等价替身实现 —— 完整来源与鸣谢见项目根目录 NOTICE.md。
+ *
+ * This program is free software: you can redistribute it and/or modify it under the terms
+ * of the GNU Affero General Public License as published by the Free Software Foundation,
+ * either version 3 of the License.
+ *
+ * This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+ * without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * See the GNU Affero General Public License for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License along with this
+ * program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
+package org.linbaogu.romhub.hc.provision.renderengine;
+
+import android.content.Context;
+import android.util.AttributeSet;
+import android.view.TextureView;
+import android.view.View;
+import android.view.ViewGroup;
+
+public class RenderViewLayout extends ViewGroup {
+
+    float mChildScale = 0.5f;
+
+
+    public RenderViewLayout(Context context) {
+        super(context);
+    }
+
+    public RenderViewLayout(Context context, AttributeSet attrs) {
+        super(context, attrs);
+    }
+
+    public RenderViewLayout(Context context, AttributeSet attrs, int defStyleAttr) {
+        super(context, attrs, defStyleAttr);
+    }
+
+    public RenderViewLayout(Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes) {
+        super(context, attrs, defStyleAttr, defStyleRes);
+    }
+
+    @Override
+    protected void onLayout(boolean changed, int l, int t, int r, int b) {
+        int childCount = getChildCount();
+        if (childCount == 0) {
+            return;
+        }
+        int iCeil = (int) Math.ceil(getWidth() * mChildScale);
+        int iCeil2 = (int) Math.ceil(getHeight() * mChildScale);
+        for (int i5 = 0; i5 < childCount; i5++) {
+            View childAt = getChildAt(i5);
+            if (childAt.getVisibility() != View.GONE) {
+                childAt.setScaleX(1.0f / mChildScale);
+                childAt.setScaleY(1.0f / mChildScale);
+                int width = (int) ((getWidth() - iCeil) * 0.5f);
+                int height = (int) ((getHeight() - iCeil2) * 0.5f);
+                childAt.layout(width, height, width + iCeil, height + iCeil2);
+            }
+        }
+
+    }
+
+    public void attachView(View view, float f) {
+        this.mChildScale = f;
+        addView(view);
+        if (view instanceof TextureView) {
+            return;
+        }
+        view.setBackgroundColor(-16777216);
+    }
+
+    public void attachView(View view, float f, int i) {
+        this.mChildScale = f;
+        addView(view);
+        if (view instanceof TextureView) {
+            return;
+        }
+        view.setBackgroundColor(i);
+    }
+
+    public int getInternalWidth() {
+        return (int) (getWidth() * this.mChildScale);
+    }
+
+    public int getInternalHeight() {
+        return (int) (getHeight() * this.mChildScale);
+    }
+
+}

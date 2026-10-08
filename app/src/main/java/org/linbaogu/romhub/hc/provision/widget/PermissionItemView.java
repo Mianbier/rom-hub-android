@@ -1,1 +1,92 @@
-LyoKICogVGhpcyBmaWxlIGlzIHBhcnQgb2YgSHlwZXJDZWlsZXIuCgogKiBIeXBlckNlaWxlciBpcyBmcmVlIHNvZnR3YXJlOiB5b3UgY2FuIHJlZGlzdHJpYnV0ZSBpdCBhbmQvb3IgbW9kaWZ5CiAqIGl0IHVuZGVyIHRoZSB0ZXJtcyBvZiB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGFzCiAqIHB1Ymxpc2hlZCBieSB0aGUgRnJlZSBTb2Z0d2FyZSBGb3VuZGF0aW9uLCBlaXRoZXIgdmVyc2lvbiAzIG9mIHRoZQogKiBMaWNlbnNlLgoKICogVGhpcyBwcm9ncmFtIGlzIGRpc3RyaWJ1dGVkIGluIHRoZSBob3BlIHRoYXQgaXQgd2lsbCBiZSB1c2VmdWwsCiAqIGJ1dCBXSVRIT1VUIEFOWSBXQVJSQU5UWTsgd2l0aG91dCBldmVuIHRoZSBpbXBsaWVkIHdhcnJhbnR5IG9mCiAqIE1FUkNIQU5UQUJJTElUWSBvciBGSVRORVNTIEZPUiBBIFBBUlRJQ1VMQVIgUFVSUE9TRS4gIFNlZSB0aGUKICogR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGZvciBtb3JlIGRldGFpbHMuCgogKiBZb3Ugc2hvdWxkIGhhdmUgcmVjZWl2ZWQgYSBjb3B5IG9mIHRoZSBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UKICogYWxvbmcgd2l0aCB0aGlzIHByb2dyYW0uICBJZiBub3QsIHNlZSA8aHR0cHM6Ly93d3cuZ251Lm9yZy9saWNlbnNlcy8+LgoKICogQ29weXJpZ2h0IChDKSAyMDIzLTIwMjYgSHlwZXJDZWlsZXIgQ29udHJpYnV0aW9ucwogKi8KcGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLmhjLnByb3Zpc2lvbi53aWRnZXQ7CgppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQ7CmltcG9ydCBhbmRyb2lkLnV0aWwuQXR0cmlidXRlU2V0OwppbXBvcnQgYW5kcm9pZC52aWV3LkxheW91dEluZmxhdGVyOwppbXBvcnQgYW5kcm9pZC53aWRnZXQuQ2hlY2thYmxlOwppbXBvcnQgYW5kcm9pZC53aWRnZXQuRnJhbWVMYXlvdXQ7CmltcG9ydCBhbmRyb2lkLndpZGdldC5JbWFnZVZpZXc7CmltcG9ydCBhbmRyb2lkLndpZGdldC5UZXh0VmlldzsKCmltcG9ydCBhbmRyb2lkeC5hbm5vdGF0aW9uLk5vbk51bGw7CmltcG9ydCBhbmRyb2lkeC5hbm5vdGF0aW9uLk51bGxhYmxlOwoKaW1wb3J0IG9yZy5saW5iYW9ndS5yb21odWIuUjsKCnB1YmxpYyBjbGFzcyBQZXJtaXNzaW9uSXRlbVZpZXcgZXh0ZW5kcyBGcmFtZUxheW91dCBpbXBsZW1lbnRzIENoZWNrYWJsZSB7CgogICAgYm9vbGVhbiBtSXNDaGVja2VkID0gZmFsc2U7CgogICAgVGV4dFZpZXcgbUl0ZW1UaXRsZTsKICAgIEltYWdlVmlldyBtSXRlbUljb247CgogICAgcHVibGljIFBlcm1pc3Npb25JdGVtVmlldyhATm9uTnVsbCBDb250ZXh0IGNvbnRleHQpIHsKICAgICAgICB0aGlzKGNvbnRleHQsIG51bGwpOwogICAgfQoKICAgIHB1YmxpYyBQZXJtaXNzaW9uSXRlbVZpZXcoQE5vbk51bGwgQ29udGV4dCBjb250ZXh0LCBATnVsbGFibGUgQXR0cmlidXRlU2V0IGF0dHJzKSB7CiAgICAgICAgc3VwZXIoY29udGV4dCwgYXR0cnMpOwogICAgICAgIExheW91dEluZmxhdGVyLmZyb20oY29udGV4dCkuaW5mbGF0ZShSLmxheW91dC5wcm92aXNpb25fcGVybWlzc2lvbl9saXN0X2l0ZW1fdmlldywgdGhpcywgdHJ1ZSk7CiAgICAgICAgbUl0ZW1UaXRsZSA9IGZpbmRWaWV3QnlJZChSLmlkLml0ZW1fdGl0bGUpOwogICAgICAgIG1JdGVtSWNvbiA9IGZpbmRWaWV3QnlJZChSLmlkLml0ZW1faWNvbik7CgogICAgICAgIG1JdGVtVGl0bGUuc2V0VGV4dENvbG9yKGdldFJlc291cmNlcygpLmdldENvbG9yKFIuY29sb3IucHJvdmlzaW9uX2xpc3RfaXRlbV90ZXh0X3Vuc2VsZWN0ZWQsIGNvbnRleHQuZ2V0VGhlbWUoKSkpOwogICAgICAgIG1JdGVtSWNvbi5zZXRWaXNpYmlsaXR5KG1Jc0NoZWNrZWQgPyBWSVNJQkxFIDogSU5WSVNJQkxFKTsKICAgIH0KCiAgICBwdWJsaWMgdm9pZCBzZXRJdGVtVGl0bGUoaW50IHJlc0lkKSB7CiAgICAgICAgc2V0SXRlbVRpdGxlKGdldENvbnRleHQoKS5nZXRTdHJpbmcocmVzSWQpKTsKICAgIH0KCiAgICBwdWJsaWMgdm9pZCBzZXRJdGVtVGl0bGUoU3RyaW5nIHRpdGxlKSB7CiAgICAgICAgbUl0ZW1UaXRsZS5zZXRUZXh0KHRpdGxlKTsKICAgIH0KCiAgICBwdWJsaWMgdm9pZCB1cGRhdGVJdGVtU3RhdGUoYm9vbGVhbiBjaGVja2VkKSB7CiAgICAgICAgbUl0ZW1JY29uLnNldEltYWdlRHJhd2FibGUoZ2V0UmVzb3VyY2VzKCkuZ2V0RHJhd2FibGUoUi5kcmF3YWJsZS5wcm92aXNpb25fcGlja2VyX2J0bl9yYWRpbykpOwogICAgICAgIG1JdGVtSWNvbi5zZXRWaXNpYmlsaXR5KGNoZWNrZWQgPyBWSVNJQkxFIDogSU5WSVNJQkxFKTsKICAgIH0KCiAgICBAT3ZlcnJpZGUKICAgIHB1YmxpYyBib29sZWFuIGlzQ2hlY2tlZCgpIHsKICAgICAgICByZXR1cm4gbUlzQ2hlY2tlZDsKICAgIH0KCiAgICBAT3ZlcnJpZGUKICAgIHB1YmxpYyB2b2lkIHNldENoZWNrZWQoYm9vbGVhbiBjaGVja2VkKSB7CiAgICAgICAgbUlzQ2hlY2tlZCA9IGNoZWNrZWQ7CiAgICAgICAgdXBkYXRlSXRlbVN0YXRlKGNoZWNrZWQpOwogICAgfQoKICAgIEBPdmVycmlkZQogICAgcHVibGljIHZvaWQgdG9nZ2xlKCkgewoKICAgIH0KCiAgICBwdWJsaWMgaW50ZXJmYWNlIE9uU2VsZWN0ZWRMaXN0ZW5lciB7CiAgICAgICAgLyoqCiAgICAgICAgICogQ2FsbGVkIHdoZW4gYSB2aWV3IGhhcyBiZWVuIHNlbGVjdGVkLgogICAgICAgICAqCiAgICAgICAgICogQHBhcmFtIHNlbGVjdGVkIFRoZSB2aWV3IHRoYXQgd2FzIHNlbGVjdGVkLgogICAgICAgICAqLwogICAgICAgIHZvaWQgb25TZWxlY3RlZChib29sZWFuIHNlbGVjdGVkKTsKICAgIH0KfQo=
+/*
+ * This file is part of HyperCeiler.
+
+ * HyperCeiler is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as
+ * published by the Free Software Foundation, either version 3 of the
+ * License.
+
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Affero General Public License for more details.
+
+ * You should have received a copy of the GNU Affero General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+ * Copyright (C) 2023-2026 HyperCeiler Contributions
+ */
+package org.linbaogu.romhub.hc.provision.widget;
+
+import android.content.Context;
+import android.util.AttributeSet;
+import android.view.LayoutInflater;
+import android.widget.Checkable;
+import android.widget.FrameLayout;
+import android.widget.ImageView;
+import android.widget.TextView;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+
+import org.linbaogu.romhub.R;
+
+public class PermissionItemView extends FrameLayout implements Checkable {
+
+    boolean mIsChecked = false;
+
+    TextView mItemTitle;
+    ImageView mItemIcon;
+
+    public PermissionItemView(@NonNull Context context) {
+        this(context, null);
+    }
+
+    public PermissionItemView(@NonNull Context context, @Nullable AttributeSet attrs) {
+        super(context, attrs);
+        LayoutInflater.from(context).inflate(R.layout.provision_permission_list_item_view, this, true);
+        mItemTitle = findViewById(R.id.item_title);
+        mItemIcon = findViewById(R.id.item_icon);
+
+        mItemTitle.setTextColor(getResources().getColor(R.color.provision_list_item_text_unselected, context.getTheme()));
+        mItemIcon.setVisibility(mIsChecked ? VISIBLE : INVISIBLE);
+    }
+
+    public void setItemTitle(int resId) {
+        setItemTitle(getContext().getString(resId));
+    }
+
+    public void setItemTitle(String title) {
+        mItemTitle.setText(title);
+    }
+
+    public void updateItemState(boolean checked) {
+        mItemIcon.setImageDrawable(getResources().getDrawable(R.drawable.provision_picker_btn_radio));
+        mItemIcon.setVisibility(checked ? VISIBLE : INVISIBLE);
+    }
+
+    @Override
+    public boolean isChecked() {
+        return mIsChecked;
+    }
+
+    @Override
+    public void setChecked(boolean checked) {
+        mIsChecked = checked;
+        updateItemState(checked);
+    }
+
+    @Override
+    public void toggle() {
+
+    }
+
+    public interface OnSelectedListener {
+        /**
+         * Called when a view has been selected.
+         *
+         * @param selected The view that was selected.
+         */
+        void onSelected(boolean selected);
+    }
+}

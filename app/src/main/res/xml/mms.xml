@@ -1,1 +1,54 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IS0tCiAgfiBUaGlzIGZpbGUgaXMgcGFydCBvZiBIeXBlckNlaWxlci4KICB+CiAgfiBIeXBlckNlaWxlciBpcyBmcmVlIHNvZnR3YXJlOiB5b3UgY2FuIHJlZGlzdHJpYnV0ZSBpdCBhbmQvb3IgbW9kaWZ5CiAgfiBpdCB1bmRlciB0aGUgdGVybXMgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBhcwogIH4gcHVibGlzaGVkIGJ5IHRoZSBGcmVlIFNvZnR3YXJlIEZvdW5kYXRpb24sIGVpdGhlciB2ZXJzaW9uIDMgb2YgdGhlCiAgfiBMaWNlbnNlLgogIH4KICB+IFRoaXMgcHJvZ3JhbSBpcyBkaXN0cmlidXRlZCBpbiB0aGUgaG9wZSB0aGF0IGl0IHdpbGwgYmUgdXNlZnVsLAogIH4gYnV0IFdJVEhPVVQgQU5ZIFdBUlJBTlRZOyB3aXRob3V0IGV2ZW4gdGhlIGltcGxpZWQgd2FycmFudHkgb2YKICB+IE1FUkNIQU5UQUJJTElUWSBvciBGSVRORVNTIEZPUiBBIFBBUlRJQ1VMQVIgUFVSUE9TRS4gIFNlZSB0aGUKICB+IEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBmb3IgbW9yZSBkZXRhaWxzLgogIH4KICB+IFlvdSBzaG91bGQgaGF2ZSByZWNlaXZlZCBhIGNvcHkgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZQogIH4gYWxvbmcgd2l0aCB0aGlzIHByb2dyYW0uICBJZiBub3QsIHNlZSA8aHR0cHM6Ly93d3cuZ251Lm9yZy9saWNlbnNlcy8+LgogIH4KICB+IENvcHlyaWdodCAoQykgMjAyMy0yMDI2IEh5cGVyQ2VpbGVyIENvbnRyaWJ1dGlvbnMKICAtLT4KPFByZWZlcmVuY2VTY3JlZW4geG1sbnM6YW5kcm9pZD0iaHR0cDovL3NjaGVtYXMuYW5kcm9pZC5jb20vYXBrL3Jlcy9hbmRyb2lkIgogICAgeG1sbnM6YXBwPSJodHRwOi8vc2NoZW1hcy5hbmRyb2lkLmNvbS9hcGsvcmVzLWF1dG8iCiAgICBhcHA6bXlMb2NhdGlvbj0iQHN0cmluZy9tbXMiCiAgICBhcHA6cXVpY2tfcmVzdGFydD0iY29tLmFuZHJvaWQubW1zIj4KICAgIDxQcmVmZXJlbmNlQ2F0ZWdvcnk+CiAgICAgICAgPFN3aXRjaFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpkZWZhdWx0VmFsdWU9ImZhbHNlIgogICAgICAgICAgICBhbmRyb2lkOmtleT0icHJlZnNfa2V5X21tc19kaXNhYmxlX2FkIgogICAgICAgICAgICBhbmRyb2lkOnN1bW1hcnk9IkBzdHJpbmcvbW1zX2Rpc2FibGVfYWRfZGVzYyIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iQHN0cmluZy9tbXNfZGlzYWJsZV9hZCIgLz4KCiAgICAgICAgPFN3aXRjaFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpkZWZhdWx0VmFsdWU9ImZhbHNlIgogICAgICAgICAgICBhbmRyb2lkOmtleT0icHJlZnNfa2V5X21tc19kaXNhYmxlX2ZyYXVkX3Jpc2tfdGlwIgogICAgICAgICAgICBhbmRyb2lkOnN1bW1hcnk9IkBzdHJpbmcvbW1zX2Rpc2FibGVfZnJhdWRfcmlza190aXBfZGVzYyIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iQHN0cmluZy9tbXNfZGlzYWJsZV9mcmF1ZF9yaXNrX3RpcCIgLz4KCiAgICAgICAgPFN3aXRjaFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpkZWZhdWx0VmFsdWU9ImZhbHNlIgogICAgICAgICAgICBhbmRyb2lkOmtleT0icHJlZnNfa2V5X21tc19kaXNhYmxlX292ZXJzZWFzX3Jpc2tfdGlwIgogICAgICAgICAgICBhbmRyb2lkOnN1bW1hcnk9IkBzdHJpbmcvbW1zX2Rpc2FibGVfb3ZlcnNlYXNfcmlza190aXBfZGVzYyIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iQHN0cmluZy9tbXNfZGlzYWJsZV9vdmVyc2Vhc19yaXNrX3RpcCIgLz4KCiAgICAgICAgPFN3aXRjaFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpkZWZhdWx0VmFsdWU9ImZhbHNlIgogICAgICAgICAgICBhbmRyb2lkOmtleT0icHJlZnNfa2V5X21tc19pbV9vbGRfZGV2aWNlIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJAc3RyaW5nL21tc19pbV9vbGRfZGV2aWNlIiAvPgoKICAgICAgICA8U3dpdGNoUHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOmRlZmF1bHRWYWx1ZT0iZmFsc2UiCiAgICAgICAgICAgIGFuZHJvaWQ6a2V5PSJwcmVmc19rZXlfbW1zX3ZlcmlmaWNhdGlvbl9jb2RlX2F1dG9fY29weSIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iQHN0cmluZy9tbXNfdmVyaWZpY2F0aW9uX2NvZGVfYXV0b19jb3B5IiAvPgoKICAgIDwvUHJlZmVyZW5jZUNhdGVnb3J5PgoKPC9QcmVmZXJlbmNlU2NyZWVuPg==
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ This file is part of HyperCeiler.
+  ~
+  ~ HyperCeiler is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU Affero General Public License as
+  ~ published by the Free Software Foundation, either version 3 of the
+  ~ License.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU Affero General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU Affero General Public License
+  ~ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+  ~
+  ~ Copyright (C) 2023-2026 HyperCeiler Contributions
+  -->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:myLocation="@string/mms"
+    app:quick_restart="com.android.mms">
+    <PreferenceCategory>
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefs_key_mms_disable_ad"
+            android:summary="@string/mms_disable_ad_desc"
+            android:title="@string/mms_disable_ad" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefs_key_mms_disable_fraud_risk_tip"
+            android:summary="@string/mms_disable_fraud_risk_tip_desc"
+            android:title="@string/mms_disable_fraud_risk_tip" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefs_key_mms_disable_overseas_risk_tip"
+            android:summary="@string/mms_disable_overseas_risk_tip_desc"
+            android:title="@string/mms_disable_overseas_risk_tip" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefs_key_mms_im_old_device"
+            android:title="@string/mms_im_old_device" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefs_key_mms_verification_code_auto_copy"
+            android:title="@string/mms_verification_code_auto_copy" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

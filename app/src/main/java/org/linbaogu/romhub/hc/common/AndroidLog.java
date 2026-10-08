@@ -1,1 +1,76 @@
-LyoKICogVGhpcyBmaWxlIGlzIHBhcnQgb2YgUk9NIEh1YiwgcmVsZWFzZWQgdW5kZXIgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSB2My4wLgogKgogKiDmnKzmlofku7bnp7vmpI0gLyDmlLnlhpnoh6ogSHlwZXJDZWlsZXLvvIhBR1BMLTMuMO+8jENvcHlyaWdodCAoQykgMjAyMy0yMDI2IEh5cGVyQ2VpbGVyCiAqIENvbnRyaWJ1dGlvbnPvvInvvIzmiJbkuLrlhbbnrYnku7fmm7/ouqvlrp7njrAg4oCU4oCUIOWujOaVtOadpea6kOS4jum4o+iwouingemhueebruagueebruW9lSBOT1RJQ0UubWTjgIIKICoKICogVGhpcyBwcm9ncmFtIGlzIGZyZWUgc29mdHdhcmU6IHlvdSBjYW4gcmVkaXN0cmlidXRlIGl0IGFuZC9vciBtb2RpZnkgaXQgdW5kZXIgdGhlIHRlcm1zCiAqIG9mIHRoZSBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UgYXMgcHVibGlzaGVkIGJ5IHRoZSBGcmVlIFNvZnR3YXJlIEZvdW5kYXRpb24sCiAqIGVpdGhlciB2ZXJzaW9uIDMgb2YgdGhlIExpY2Vuc2UuCiAqCiAqIFRoaXMgcHJvZ3JhbSBpcyBkaXN0cmlidXRlZCBpbiB0aGUgaG9wZSB0aGF0IGl0IHdpbGwgYmUgdXNlZnVsLCBidXQgV0lUSE9VVCBBTlkgV0FSUkFOVFk7CiAqIHdpdGhvdXQgZXZlbiB0aGUgaW1wbGllZCB3YXJyYW50eSBvZiBNRVJDSEFOVEFCSUxJVFkgb3IgRklUTkVTUyBGT1IgQSBQQVJUSUNVTEFSIFBVUlBPU0UuCiAqIFNlZSB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGZvciBtb3JlIGRldGFpbHMuCiAqCiAqIFlvdSBzaG91bGQgaGF2ZSByZWNlaXZlZCBhIGNvcHkgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBhbG9uZyB3aXRoIHRoaXMKICogcHJvZ3JhbS4gIElmIG5vdCwgc2VlIDxodHRwczovL3d3dy5nbnUub3JnL2xpY2Vuc2VzLz4uCiAqLwoKcGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLmhjLmNvbW1vbjsKCmltcG9ydCBhbmRyb2lkLnV0aWwuTG9nOwoKLyoqCiAqIEh5cGVyQ2VpbGVyIGBjb20uc2V2dGluZ2UuaHlwZXJjZWlsZXIuY29tbW9uLmxvZy5BbmRyb2lkTG9nYCDnmoTnrYnku7fmm7/ouqvjgIIKICoKICog54Wn5oqEIEh5cGVyQ2VpbGVyIOeahCBwcm92aXNpb24g5rWB56iL5pe277yM5a6D5Yiw5aSE6LCDIGBBbmRyb2lkTG9nLmQvaS93YO+8mwogKiDmiJHku6zkuI3mg7PmioogSHlwZXJDZWlsZXIg5pW05LiqIGNvbW1vbiDmqKHlnZfmkKzov4fmnaXvvIzlsLHnlKjov5nkuKroloTlo7Povazlj5HliLDns7vnu58gTG9n44CCCiAqIOiwg+eUqOmdouWunua1i+WPquaciSBkIC8gaSAvIHcg5LiJ5Liq44CCCiAqLwpwdWJsaWMgZmluYWwgY2xhc3MgQW5kcm9pZExvZyB7CgogICAgcHJpdmF0ZSBzdGF0aWMgZmluYWwgU3RyaW5nIERFRkFVTFRfVEFHID0gIkhjUHJvdmlzaW9uIjsKCiAgICBwcml2YXRlIEFuZHJvaWRMb2coKSB7CiAgICB9CgogICAgcHJpdmF0ZSBzdGF0aWMgU3RyaW5nIHRhZyhTdHJpbmcgdCkgewogICAgICAgIHJldHVybiAodCA9PSBudWxsIHx8IHQuaXNFbXB0eSgpKSA/IERFRkFVTFRfVEFHIDogdDsKICAgIH0KCiAgICBwdWJsaWMgc3RhdGljIHZvaWQgZChTdHJpbmcgdCwgU3RyaW5nIG1zZykgewogICAgICAgIExvZy5kKHRhZyh0KSwgU3RyaW5nLnZhbHVlT2YobXNnKSk7CiAgICB9CgogICAgcHVibGljIHN0YXRpYyB2b2lkIGQoU3RyaW5nIHQsIFN0cmluZyBtc2csIFRocm93YWJsZSBlKSB7CiAgICAgICAgTG9nLmQodGFnKHQpLCBTdHJpbmcudmFsdWVPZihtc2cpLCBlKTsKICAgIH0KCiAgICBwdWJsaWMgc3RhdGljIHZvaWQgaShTdHJpbmcgdCwgU3RyaW5nIG1zZykgewogICAgICAgIExvZy5pKHRhZyh0KSwgU3RyaW5nLnZhbHVlT2YobXNnKSk7CiAgICB9CgogICAgcHVibGljIHN0YXRpYyB2b2lkIGkoU3RyaW5nIHQsIFN0cmluZyBtc2csIFRocm93YWJsZSBlKSB7CiAgICAgICAgTG9nLmkodGFnKHQpLCBTdHJpbmcudmFsdWVPZihtc2cpLCBlKTsKICAgIH0KCiAgICBwdWJsaWMgc3RhdGljIHZvaWQgdyhTdHJpbmcgdCwgU3RyaW5nIG1zZykgewogICAgICAgIExvZy53KHRhZyh0KSwgU3RyaW5nLnZhbHVlT2YobXNnKSk7CiAgICB9CgogICAgcHVibGljIHN0YXRpYyB2b2lkIHcoU3RyaW5nIHQsIFN0cmluZyBtc2csIFRocm93YWJsZSBlKSB7CiAgICAgICAgTG9nLncodGFnKHQpLCBTdHJpbmcudmFsdWVPZihtc2cpLCBlKTsKICAgIH0KCiAgICBwdWJsaWMgc3RhdGljIHZvaWQgZShTdHJpbmcgdCwgU3RyaW5nIG1zZykgewogICAgICAgIExvZy5lKHRhZyh0KSwgU3RyaW5nLnZhbHVlT2YobXNnKSk7CiAgICB9CgogICAgcHVibGljIHN0YXRpYyB2b2lkIGUoU3RyaW5nIHQsIFN0cmluZyBtc2csIFRocm93YWJsZSBlKSB7CiAgICAgICAgTG9nLmUodGFnKHQpLCBTdHJpbmcudmFsdWVPZihtc2cpLCBlKTsKICAgIH0KCiAgICBwdWJsaWMgc3RhdGljIHZvaWQgdihTdHJpbmcgdCwgU3RyaW5nIG1zZykgewogICAgICAgIExvZy52KHRhZyh0KSwgU3RyaW5nLnZhbHVlT2YobXNnKSk7CiAgICB9Cn0K
+/*
+ * This file is part of ROM Hub, released under the GNU Affero General Public License v3.0.
+ *
+ * 本文件移植 / 改写自 HyperCeiler（AGPL-3.0，Copyright (C) 2023-2026 HyperCeiler
+ * Contributions），或为其等价替身实现 —— 完整来源与鸣谢见项目根目录 NOTICE.md。
+ *
+ * This program is free software: you can redistribute it and/or modify it under the terms
+ * of the GNU Affero General Public License as published by the Free Software Foundation,
+ * either version 3 of the License.
+ *
+ * This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+ * without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * See the GNU Affero General Public License for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License along with this
+ * program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
+package org.linbaogu.romhub.hc.common;
+
+import android.util.Log;
+
+/**
+ * HyperCeiler `com.sevtinge.hyperceiler.common.log.AndroidLog` 的等价替身。
+ *
+ * 照抄 HyperCeiler 的 provision 流程时，它到处调 `AndroidLog.d/i/w`；
+ * 我们不想把 HyperCeiler 整个 common 模块搬过来，就用这个薄壳转发到系统 Log。
+ * 调用面实测只有 d / i / w 三个。
+ */
+public final class AndroidLog {
+
+    private static final String DEFAULT_TAG = "HcProvision";
+
+    private AndroidLog() {
+    }
+
+    private static String tag(String t) {
+        return (t == null || t.isEmpty()) ? DEFAULT_TAG : t;
+    }
+
+    public static void d(String t, String msg) {
+        Log.d(tag(t), String.valueOf(msg));
+    }
+
+    public static void d(String t, String msg, Throwable e) {
+        Log.d(tag(t), String.valueOf(msg), e);
+    }
+
+    public static void i(String t, String msg) {
+        Log.i(tag(t), String.valueOf(msg));
+    }
+
+    public static void i(String t, String msg, Throwable e) {
+        Log.i(tag(t), String.valueOf(msg), e);
+    }
+
+    public static void w(String t, String msg) {
+        Log.w(tag(t), String.valueOf(msg));
+    }
+
+    public static void w(String t, String msg, Throwable e) {
+        Log.w(tag(t), String.valueOf(msg), e);
+    }
+
+    public static void e(String t, String msg) {
+        Log.e(tag(t), String.valueOf(msg));
+    }
+
+    public static void e(String t, String msg, Throwable e) {
+        Log.e(tag(t), String.valueOf(msg), e);
+    }
+
+    public static void v(String t, String msg) {
+        Log.v(tag(t), String.valueOf(msg));
+    }
+}

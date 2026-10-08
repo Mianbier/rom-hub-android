@@ -1,1 +1,113 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IS0tCiAgfiBUaGlzIGZpbGUgaXMgcGFydCBvZiBIeXBlckNlaWxlci4KICB+CiAgfiBIeXBlckNlaWxlciBpcyBmcmVlIHNvZnR3YXJlOiB5b3UgY2FuIHJlZGlzdHJpYnV0ZSBpdCBhbmQvb3IgbW9kaWZ5CiAgfiBpdCB1bmRlciB0aGUgdGVybXMgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBhcwogIH4gcHVibGlzaGVkIGJ5IHRoZSBGcmVlIFNvZnR3YXJlIEZvdW5kYXRpb24sIGVpdGhlciB2ZXJzaW9uIDMgb2YgdGhlCiAgfiBMaWNlbnNlLgogIH4KICB+IFRoaXMgcHJvZ3JhbSBpcyBkaXN0cmlidXRlZCBpbiB0aGUgaG9wZSB0aGF0IGl0IHdpbGwgYmUgdXNlZnVsLAogIH4gYnV0IFdJVEhPVVQgQU5ZIFdBUlJBTlRZOyB3aXRob3V0IGV2ZW4gdGhlIGltcGxpZWQgd2FycmFudHkgb2YKICB+IE1FUkNIQU5UQUJJTElUWSBvciBGSVRORVNTIEZPUiBBIFBBUlRJQ1VMQVIgUFVSUE9TRS4gIFNlZSB0aGUKICB+IEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBmb3IgbW9yZSBkZXRhaWxzLgogIH4KICB+IFlvdSBzaG91bGQgaGF2ZSByZWNlaXZlZCBhIGNvcHkgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZQogIH4gYWxvbmcgd2l0aCB0aGlzIHByb2dyYW0uICBJZiBub3QsIHNlZSA8aHR0cHM6Ly93d3cuZ251Lm9yZy9saWNlbnNlcy8+LgogIH4KICB+IENvcHlyaWdodCAoQykgMjAyMy0yMDI2IEh5cGVyQ2VpbGVyIENvbnRyaWJ1dGlvbnMKICAtLT4KPFByZWZlcmVuY2VTY3JlZW4geG1sbnM6YW5kcm9pZD0iaHR0cDovL3NjaGVtYXMuYW5kcm9pZC5jb20vYXBrL3Jlcy9hbmRyb2lkIgogICAgeG1sbnM6YXBwPSJodHRwOi8vc2NoZW1hcy5hbmRyb2lkLmNvbS9hcGsvcmVzLWF1dG8iCiAgICBhcHA6bXlMb2NhdGlvbj0iQHN0cmluZy9tZWRpYWVkaXRvciIKICAgIGFwcDpxdWlja19yZXN0YXJ0PSJjb20ubWl1aS5tZWRpYWVkaXRvciI+CiAgICA8UHJlZmVyZW5jZUNhdGVnb3J5PgogICAgICAgIDxTd2l0Y2hQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6ZGVmYXVsdFZhbHVlPSJmYWxzZSIKICAgICAgICAgICAgYW5kcm9pZDprZXk9InByZWZzX2tleV9tZWRpYWVkaXRvcl91bmxvY2tfYWlnYyIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iQHN0cmluZy9tZWRpYWVkaXRvcl91bmxvY2tfYWlnYyIgLz4KCiAgICA8L1ByZWZlcmVuY2VDYXRlZ29yeT4KCiAgICA8UHJlZmVyZW5jZUNhdGVnb3J5IGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvbWVkaWFlZGl0b3JfZm91bmRhdGlvbiI+CiAgICAgICAgPFN3aXRjaFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpkZWZhdWx0VmFsdWU9ImZhbHNlIgogICAgICAgICAgICBhbmRyb2lkOmtleT0icHJlZnNfa2V5X21lZGlhZWRpdG9yX3VubG9ja19taW5pbXVtX2Nyb3BfbGltaXQiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvbWVkaWFlZGl0b3JfdW5sb2NrX21pbmltdW1fY3JvcF9saW1pdCIgLz4KCiAgICAgICAgPFN3aXRjaFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpkZWZhdWx0VmFsdWU9ImZhbHNlIgogICAgICAgICAgICBhbmRyb2lkOmtleT0icHJlZnNfa2V5X21lZGlhZWRpdG9yX3VubG9ja19sZWljYV9maWx0ZXIiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvbWVkaWFlZGl0b3JfdW5sb2NrX2xlaWNhX2ZpbHRlcl90aXRsZSIgLz4KCiAgICAgICAgPEVkaXRUZXh0UHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOmRlZmF1bHRWYWx1ZT0iIgogICAgICAgICAgICBhbmRyb2lkOmtleT0icHJlZnNfa2V5X21lZGlhZWRpdG9yX2N1c3RvbV93YXRlcm1hcmsiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvY2FtZXJhX2N1c3RvbV93YXRlcm1hcmsiIC8+CgogICAgPC9QcmVmZXJlbmNlQ2F0ZWdvcnk+CgogICAgPFByZWZlcmVuY2VDYXRlZ29yeQogICAgICAgIGFuZHJvaWQ6a2V5PSJwcmVmc19rZXlfbWVkaWFlZGl0b3JfY3VzdG9tX3Bob3RvX2ZyYW1lc192MiIKICAgICAgICBhbmRyb2lkOnRpdGxlPSJAc3RyaW5nL21lZGlhZWRpdG9yX2F1dGhvcmluZyI+CiAgICAgICAgPFN3aXRjaFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpkZWZhdWx0VmFsdWU9ImZhbHNlIgogICAgICAgICAgICBhbmRyb2lkOmtleT0icHJlZnNfa2V5X21lZGlhZWRpdG9yX3VubG9ja19jdXN0b21fcGhvdG9fZnJhbWVzX3YyIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJAc3RyaW5nL21lZGlhZWRpdG9yX3VubG9ja19jdXN0b21fcGhvdG9fZnJhbWVzX3YyX3RpdGxlIiAvPgoKICAgICAgICA8U3dpdGNoUHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOmRlZmF1bHRWYWx1ZT0iZmFsc2UiCiAgICAgICAgICAgIGFuZHJvaWQ6ZGVwZW5kZW5jeT0icHJlZnNfa2V5X21lZGlhZWRpdG9yX3VubG9ja19jdXN0b21fcGhvdG9fZnJhbWVzX3YyIgogICAgICAgICAgICBhbmRyb2lkOmtleT0icHJlZnNfa2V5X21lZGlhZWRpdG9yX3VubG9ja19jbG91ZF9jdXN0b21fcGhvdG8iCiAgICAgICAgICAgIGFuZHJvaWQ6c3VtbWFyeT0iQHN0cmluZy9tZWRpYWVkaXRvcl91bmxvY2tfY2xvdWRfY3VzdG9tX3Bob3RvX2Rlc2MiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvY2FtZXJhX2Nsb3VkX3dhdGVybWFyayIgLz4KCiAgICAgICAgPFN3aXRjaFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpkZWZhdWx0VmFsdWU9ImZhbHNlIgogICAgICAgICAgICBhbmRyb2lkOmtleT0icHJlZnNfa2V5X21lZGlhZWRpdG9yX3VubG9ja19kaXNuZXlfc29tZV9mdW5jX3YyIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJAc3RyaW5nL21lZGlhZWRpdG9yX3VubG9ja19kaXNuZXlfdGl0bGUiIC8+CgogICAgPC9QcmVmZXJlbmNlQ2F0ZWdvcnk+CgogICAgPFByZWZlcmVuY2VDYXRlZ29yeQogICAgICAgIGFuZHJvaWQ6ZGVwZW5kZW5jeT0icHJlZnNfa2V5X21lZGlhZWRpdG9yX3VubG9ja19jdXN0b21fcGhvdG9fZnJhbWVzX3YyIgogICAgICAgIGFuZHJvaWQ6a2V5PSJwcmVmc19rZXlfbWVkaWFlZGl0b3JfY3VzdG9tX3Bob3RvX2ZyYW1lc192Ml9waG90byIKICAgICAgICBhbmRyb2lkOnRpdGxlPSJAc3RyaW5nL21lZGlhZWRpdG9yX2N1c3RvbV9waG90b19mcmFtZXNfdGl0bGUiPgogICAgICAgIDxTd2l0Y2hQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6ZGVmYXVsdFZhbHVlPSJmYWxzZSIKICAgICAgICAgICAgYW5kcm9pZDprZXk9InByZWZzX2tleV9tZWRpYWVkaXRvcl91bmxvY2tfY3VzdG9tX3Bob3RvX2ZyYW1lc19sZWljYSIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iTGVpY2EiIC8+CgogICAgICAgIDxTd2l0Y2hQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6ZGVmYXVsdFZhbHVlPSJmYWxzZSIKICAgICAgICAgICAgYW5kcm9pZDprZXk9InByZWZzX2tleV9tZWRpYWVkaXRvcl91bmxvY2tfY3VzdG9tX3Bob3RvX2ZyYW1lc19yZWRtaSIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iUmVkbWkiIC8+CgogICAgICAgIDxTd2l0Y2hQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6ZGVmYXVsdFZhbHVlPSJmYWxzZSIKICAgICAgICAgICAgYW5kcm9pZDprZXk9InByZWZzX2tleV9tZWRpYWVkaXRvcl91bmxvY2tfY3VzdG9tX3Bob3RvX2ZyYW1lc19wb2NvIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJQT0NPIiAvPgoKICAgIDwvUHJlZmVyZW5jZUNhdGVnb3J5PgoKICAgIDxQcmVmZXJlbmNlQ2F0ZWdvcnkKICAgICAgICBhbmRyb2lkOmRlcGVuZGVuY3k9InByZWZzX2tleV9tZWRpYWVkaXRvcl91bmxvY2tfZGlzbmV5X3NvbWVfZnVuY192MiIKICAgICAgICBhbmRyb2lkOmtleT0icHJlZnNfa2V5X21lZGlhZWRpdG9yX2N1c3RvbV9waG90b19mcmFtZXNfdjJfZGlzbmV5IgogICAgICAgIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvbWVkaWFlZGl0b3JfY3VzdG9tX2Rpc25leV90aXRsZSI+CiAgICAgICAgPFN3aXRjaFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpkZWZhdWx0VmFsdWU9ImZhbHNlIgogICAgICAgICAgICBhbmRyb2lkOmtleT0icHJlZnNfa2V5X21lZGlhZWRpdG9yX3VubG9ja19taWNrZXlfc29tZV9mdW5jIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJAc3RyaW5nL21lZGlhZWRpdG9yX21pY2tleSIgLz4KCiAgICAgICAgPFN3aXRjaFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpkZWZhdWx0VmFsdWU9ImZhbHNlIgogICAgICAgICAgICBhbmRyb2lkOmtleT0icHJlZnNfa2V5X21lZGlhZWRpdG9yX3VubG9ja19iZWFyX3NvbWVfZnVuYyIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iQHN0cmluZy9tZWRpYWVkaXRvcl9zdHJhd2JlcnJ5X2JlYXIiIC8+CgogICAgICAgIDxTd2l0Y2hQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6ZGVmYXVsdFZhbHVlPSJmYWxzZSIKICAgICAgICAgICAgYW5kcm9pZDprZXk9InByZWZzX2tleV9tZWRpYWVkaXRvcl91bmxvY2tfcHJpbmNlc3Nfc29tZV9mdW5jIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJAc3RyaW5nL21lZGlhZWRpdG9yX2Rpc25leV9wcmluY2VzcyIgLz4KCiAgICA8L1ByZWZlcmVuY2VDYXRlZ29yeT4KCjwvUHJlZmVyZW5jZVNjcmVlbj4=
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ This file is part of HyperCeiler.
+  ~
+  ~ HyperCeiler is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU Affero General Public License as
+  ~ published by the Free Software Foundation, either version 3 of the
+  ~ License.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU Affero General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU Affero General Public License
+  ~ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+  ~
+  ~ Copyright (C) 2023-2026 HyperCeiler Contributions
+  -->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:myLocation="@string/mediaeditor"
+    app:quick_restart="com.miui.mediaeditor">
+    <PreferenceCategory>
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefs_key_mediaeditor_unlock_aigc"
+            android:title="@string/mediaeditor_unlock_aigc" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/mediaeditor_foundation">
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefs_key_mediaeditor_unlock_minimum_crop_limit"
+            android:title="@string/mediaeditor_unlock_minimum_crop_limit" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefs_key_mediaeditor_unlock_leica_filter"
+            android:title="@string/mediaeditor_unlock_leica_filter_title" />
+
+        <EditTextPreference
+            android:defaultValue=""
+            android:key="prefs_key_mediaeditor_custom_watermark"
+            android:title="@string/camera_custom_watermark" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="prefs_key_mediaeditor_custom_photo_frames_v2"
+        android:title="@string/mediaeditor_authoring">
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefs_key_mediaeditor_unlock_custom_photo_frames_v2"
+            android:title="@string/mediaeditor_unlock_custom_photo_frames_v2_title" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:dependency="prefs_key_mediaeditor_unlock_custom_photo_frames_v2"
+            android:key="prefs_key_mediaeditor_unlock_cloud_custom_photo"
+            android:summary="@string/mediaeditor_unlock_cloud_custom_photo_desc"
+            android:title="@string/camera_cloud_watermark" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefs_key_mediaeditor_unlock_disney_some_func_v2"
+            android:title="@string/mediaeditor_unlock_disney_title" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:dependency="prefs_key_mediaeditor_unlock_custom_photo_frames_v2"
+        android:key="prefs_key_mediaeditor_custom_photo_frames_v2_photo"
+        android:title="@string/mediaeditor_custom_photo_frames_title">
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefs_key_mediaeditor_unlock_custom_photo_frames_leica"
+            android:title="Leica" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefs_key_mediaeditor_unlock_custom_photo_frames_redmi"
+            android:title="Redmi" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefs_key_mediaeditor_unlock_custom_photo_frames_poco"
+            android:title="POCO" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:dependency="prefs_key_mediaeditor_unlock_disney_some_func_v2"
+        android:key="prefs_key_mediaeditor_custom_photo_frames_v2_disney"
+        android:title="@string/mediaeditor_custom_disney_title">
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefs_key_mediaeditor_unlock_mickey_some_func"
+            android:title="@string/mediaeditor_mickey" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefs_key_mediaeditor_unlock_bear_some_func"
+            android:title="@string/mediaeditor_strawberry_bear" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefs_key_mediaeditor_unlock_princess_some_func"
+            android:title="@string/mediaeditor_disney_princess" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

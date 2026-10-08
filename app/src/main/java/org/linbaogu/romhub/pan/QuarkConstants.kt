@@ -1,1 +1,116 @@
-LyoKICogWXVuWCAo5LqR5p6QKSAtIEEgbmV0d29yayBkcml2ZSBzaGFyZS1saW5rIHBhcnNlciBhbmQgaGlnaC1zcGVlZCBkb3dubG9hZGVyIGZvciBBbmRyb2lkLgogKiBDb3B5cmlnaHQgKEMpIDIwMjYgQ1lRYXdhCiAqCiAqIFRoaXMgcHJvZ3JhbSBpcyBmcmVlIHNvZnR3YXJlOiB5b3UgY2FuIHJlZGlzdHJpYnV0ZSBpdCBhbmQvb3IgbW9kaWZ5CiAqIGl0IHVuZGVyIHRoZSB0ZXJtcyBvZiB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGFzIHB1Ymxpc2hlZCBieQogKiB0aGUgRnJlZSBTb2Z0d2FyZSBGb3VuZGF0aW9uLCBlaXRoZXIgdmVyc2lvbiAzIG9mIHRoZSBMaWNlbnNlLCBvcgogKiAoYXQgeW91ciBvcHRpb24pIGFueSBsYXRlciB2ZXJzaW9uLgogKgogKiBUaGlzIHByb2dyYW0gaXMgZGlzdHJpYnV0ZWQgaW4gdGhlIGhvcGUgdGhhdCBpdCB3aWxsIGJlIHVzZWZ1bCwKICogYnV0IFdJVEhPVVQgQU5ZIFdBUlJBTlRZOyB3aXRob3V0IGV2ZW4gdGhlIGltcGxpZWQgd2FycmFudHkgb2YKICogTUVSQ0hBTlRBQklMSVRZIG9yIEZJVE5FU1MgRk9SIEEgUEFSVElDVUxBUiBQVVJQT1NFLiAgU2VlIHRoZQogKiBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UgZm9yIG1vcmUgZGV0YWlscy4KICoKICogWW91IHNob3VsZCBoYXZlIHJlY2VpdmVkIGEgY29weSBvZiB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlCiAqIGFsb25nIHdpdGggdGhpcyBwcm9ncmFtLiAgSWYgbm90LCBzZWUgPGh0dHBzOi8vd3d3LmdudS5vcmcvbGljZW5zZXMvPi4KICovCgpwYWNrYWdlIG9yZy5saW5iYW9ndS5yb21odWIucGFuCgpvYmplY3QgUXVhcmtDb25zdGFudHMgewoKICAgIC8qKiDlpLjlhYsgUEMg5a6i5oi356uvIFVzZXItQWdlbnTvvIzmiYDmnInor7fmsYLlv4XpobvmkLrluKYgKi8KICAgIGNvbnN0IHZhbCBVU0VSX0FHRU5UID0KICAgICJNb3ppbGxhLzUuMCAoV2luZG93cyBOVCAxMC4wOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSAiICsKICAgICJDaHJvbWUvMTMwLjAuMC4wIFNhZmFyaS81MzcuMzYgUXVhcmtQQy82LjAuOC42NDkiCgoKICAgIC8qKiBXZWJWaWV3IOeZu+W9lemhte+8iFBDIOeOr+Wig++8iSAqLwogICAgY29uc3QgdmFsIExPR0lOX1VSTCA9ICJodHRwczovL3Bhbi5xdWFyay5jbi8/ZnI9cGMmcGxhdGZvcm09cGMiCgogICAgLyoqIOaPkOWPliBDb29raWUg55qE5Z+f5ZCNICovCiAgICBjb25zdCB2YWwgQ09PS0lFX0RPTUFJTiA9ICJodHRwczovL3Bhbi5xdWFyay5jbiIKCiAgICAvKiog6aqM6K+B55m75b2V54q25oCB55qE5o6l5Y+jICovCiAgICBjb25zdCB2YWwgQUNDT1VOVF9JTkZPX1VSTCA9ICJodHRwczovL3Bhbi5xdWFyay5jbi9hY2NvdW50L2luZm8iCgogICAgLyoqIOino+aekC/kuIvovb0gQVBJIOW8uuWItiBVc2VyLUFnZW5077yIa2tkby5tZO+8iSAKICAgIGNvbnN0IHZhbCBBUElfVVNFUl9BR0VOVCA9CiAgICAgICAgIk1vemlsbGEvNS4wIChXaW5kb3dzIE5UIDEwLjA7IFdpbjY0OyB4NjQpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pICIgKwogICAgICAgICAgICAiQ2hyb21lLzEzMC4wLjAuMCBTYWZhcmkvNTM3LjM2IFF1YXJrUEMvNi4wLjguNjQ5IgogICAgICAgICAgICAqLwogICAgICAgICAgICBjb25zdCB2YWwgQVBJX1VTRVJfQUdFTlQgPQogICAgIk1vemlsbGEvNS4wIChXaW5kb3dzIE5UIDEwLjA7IFdpbjY0OyB4NjQpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pICIgKwogICAgInF1YXJrLWNsb3VkLWRyaXZlLzIuNS4yMCBDaHJvbWUvMTAwLjAuNDg5Ni4xNjAgRWxlY3Ryb24vMTguMy41LjEyLWEwMzhmN2I3OTggU2FmYXJpLzUzNy4zNiBDaGFubmVsL3Bja2tfb3RoZXJfY2giCgogICAgLyoqIOS4muWKoSBBUEkg5Z+656GA5Z+f5ZCNICovCiAgICBjb25zdCB2YWwgQVBJX0JBU0UgPSAiaHR0cHM6Ly9kcml2ZS1wYy5xdWFyay5jbiIKCiAgICAvKiog6I635Y+W5YiG5LqrIFRva2VuICovCiAgICBjb25zdCB2YWwgU0hBUkVfVE9LRU5fVVJMID0gIiRBUElfQkFTRS8xL2Nsb3VkZHJpdmUvc2hhcmUvc2hhcmVwYWdlL3Rva2VuP3ByPXVjcHJvJmZyPXBjIgoKICAgIC8qKiDpqozor4HliIbkuqvmj5Dlj5bnoIEgKi8KICAgIGNvbnN0IHZhbCBTSEFSRV9QQVNTV09SRF9VUkwgPSAiJEFQSV9CQVNFLzEvY2xvdWRkcml2ZS9zaGFyZS9wYXNzd29yZD9wcj11Y3BybyZmcj1wYyIKCiAgICAvKiog6I635Y+W5YiG5Lqr5paH5Lu25YiX6KGoICovCiAgICBjb25zdCB2YWwgU0hBUkVfREVUQUlMX1VSTCA9ICIkQVBJX0JBU0UvMS9jbG91ZGRyaXZlL3NoYXJlL3NoYXJlcGFnZS9kZXRhaWw/cHI9dWNwcm8mZnI9cGMiCgogICAgLyoqIOiOt+WPluS4i+i9veebtOmTviAqLwogICAgY29uc3QgdmFsIERPV05MT0FEX1VSTCA9ICIkQVBJX0JBU0UvMS9jbG91ZGRyaXZlL2ZpbGUvZG93bmxvYWQ/cHI9dWNwcm8mZnI9cGMmc3lzPXdpbjMyJnZlPTMuMjMuMiIKCiAgICAvKiog5qC555uu5b2VIGZpZCAqLwogICAgY29uc3QgdmFsIERFRkFVTFRfUERJUl9GSUQgPSAiMCIKCiAgICAvKiog5Liq5Lq6572R55uY5paH5Lu25YiX6KGoIC8g5Yib5bu655uu5b2VICovCiAgICBjb25zdCB2YWwgRklMRV9VUkwgPSAiJEFQSV9CQVNFLzEvY2xvdWRkcml2ZS9maWxlP3ByPXVjcHJvJmZyPXBjIgoKICAgIC8qKiDkuKrkurrnvZHnm5jmlofku7bliJfooajvvIjmjpLluo/vvJvmipPljIXvvJpwZGlyX2ZpZD0wIOagueebruW9le+8jOW4puWujOaVtCBjb29raWXvvIkgKi8KICAgIGNvbnN0IHZhbCBDTE9VRF9GSUxFX1NPUlRfVVJMID0gIiRBUElfQkFTRS8xL2Nsb3VkZHJpdmUvZmlsZS9zb3J0P3ByPXVjcHJvJmZyPXBjIgoKICAgIC8qKgogICAgICog5YWo55uY5pCc57Si77yIR0VU77ybYF9xPTzlhbPplK7or40+YO+8jGBfcGFnZWAgLyBgX3NpemVgIOWIhumhte+8ieOAggogICAgICog5aS45YWLL1VDIOWQjOa6kO+8jFVDIOaKiiBBUElfQkFTRSDmjaLmiJDoh6rlt7HnmoTln5/ljbPlj6/jgIIKICAgICAqLwogICAgY29uc3QgdmFsIENMT1VEX0ZJTEVfU0VBUkNIX1VSTCA9ICIkQVBJX0JBU0UvMS9jbG91ZGRyaXZlL2ZpbGUvc2VhcmNoP3ByPXVjcHJvJmZyPXBjIgoKICAgIC8qKiDovazlrZjliIbkuqvmlofku7YgKi8KICAgIGNvbnN0IHZhbCBTQVZFX1VSTCA9ICIkQVBJX0JBU0UvMS9jbG91ZGRyaXZlL3NoYXJlL3NoYXJlcGFnZS9zYXZlP3ByPXVjcHJvJmZyPXBjIgoKICAgIC8qKiDlvILmraXku7vliqHmn6Xor6IgKi8KICAgIGNvbnN0IHZhbCBUQVNLX1VSTCA9ICIkQVBJX0JBU0UvMS9jbG91ZGRyaXZlL3Rhc2s/cHI9dWNwcm8mZnI9cGMiCgogICAgLyoqIOWIoOmZpOaWh+S7tu+8iOWPlumTvuaIkOWKn+WQjua4heeQhuS4tOaXtui9rOWtmO+8m2JvZHk6IGFjdGlvbl90eXBlPTIgKyBmaWxlbGlzdO+8iSAqLwogICAgY29uc3QgdmFsIERFTEVURV9VUkwgPSAiJEFQSV9CQVNFLzEvY2xvdWRkcml2ZS9maWxlL2RlbGV0ZT9wcj11Y3BybyZmcj1wYyZ1Y19wYXJhbV9zdHI9IgoKICAgIC8qKiDph43lkb3lkI3mlofku7bvvIhib2R5OiBmaWQgKyBmaWxlX25hbWXvvIkgKi8KICAgIGNvbnN0IHZhbCBSRU5BTUVfVVJMID0gIiRBUElfQkFTRS8xL2Nsb3VkZHJpdmUvZmlsZS9yZW5hbWU/cHI9dWNwcm8mZnI9cGMmdWNfcGFyYW1fc3RyPSIKCiAgICAvKiog56e75Yqo5paH5Lu277yIYm9keTogYWN0aW9uX3R5cGU9MSArIHRvX3BkaXJfZmlkICsgZmlsZWxpc3TvvIkgKi8KICAgIGNvbnN0IHZhbCBNT1ZFX1VSTCA9ICIkQVBJX0JBU0UvMS9jbG91ZGRyaXZlL2ZpbGUvbW92ZT9wcj11Y3BybyZmcj1wYyZ1Y19wYXJhbV9zdHI9IgoKICAgIC8qKiDliJvlu7rliIbkuqvvvIhib2R5OiBmaWRfbGlzdCArIHRpdGxlICsgdXJsX3R5cGUgKyBwYXNzY29kZSArIGV4cGlyZWRfdHlwZe+8iSAqLwogICAgY29uc3QgdmFsIFNIQVJFX0NSRUFURV9VUkwgPSAiJEFQSV9CQVNFLzEvY2xvdWRkcml2ZS9zaGFyZT9wcj11Y3BybyZmcj1wYyZ1Y19wYXJhbV9zdHI9IgoKICAgIC8qKiDmn6Xor6LliIbkuqvkv6Hmga/vvIhib2R5OiBzaGFyZV9pZCDihpIgc2hhcmVfdXJsIC8gcGFzc2NvZGUgLyBwd2RfaWTvvIkgKi8KICAgIGNvbnN0IHZhbCBTSEFSRV9JTkZPX1VSTCA9ICIkQVBJX0JBU0UvMS9jbG91ZGRyaXZlL3NoYXJlL3Bhc3N3b3JkP3ByPXVjcHJvJmZyPXBjJnVjX3BhcmFtX3N0cj0iCgogICAgLyoqIOS4tOaXtui9rOWtmOebruW9leWQjSAqLwogICAgY29uc3QgdmFsIFRFTVBfRElSX05BTUUgPSAiWXVuWOS4tOaXtui9rOWtmCIKCiAgICAvKiog5Li05pe26L2s5a2Y5a2Q55uu5b2V5YmN57yA77yI5ZSv5LiA5a2Q55uu5b2VIHRyXzzml7bpl7TmiLM+Xzzpmo/mnLo+77yM5L6b5ZCv5Yqo5LiA5qyh5oCn5riF55CG6K+G5Yir77yJICovCiAgICBjb25zdCB2YWwgVEVNUF9TVUJESVJfUFJFRklYID0gInRyXyIKCiAgICAvKiog5LiL6L2955u06ZO+6Ziy55uX6ZO+5b+F6aG75pC65bim55qEIFJlZmVyZXLvvIjkuI4gQUxpc3QgcXVhcmtfdWMgbWV0YS5nbzozNyDkuIDoh7TvvIkgKi8KICAgIGNvbnN0IHZhbCBET1dOTE9BRF9SRUZFUkVSID0gImh0dHBzOi8vcGFuLnF1YXJrLmNuLyIKCiAgICAvKiog5Lya6K+d5Yi35paw5o6i5rWL5o6l5Y+j77ya5Lu75oSP5o6l5Y+j5Z2H5Y+v77yM55So5LqO6YeN5paw5LiL5Y+RIF9fcHV1c++8iEFMaXN0IHV0aWwuZ286MjI0IOeUqCAvY29uZmln77yJICovCiAgICBjb25zdCB2YWwgQ09ORklHX1VSTCA9ICIkQVBJX0JBU0UvMS9jbG91ZGRyaXZlL2NvbmZpZz9wcj11Y3BybyZmcj1wYyIKCiAgICAvKiogX19wdXVzIOacieaViOacn+e6piAzIOWwj+aXtu+8jOaPkOWJjeWIsCA5MCDliIbpkp/liLfmlrDvvIjlr7npvZAgQUxpc3QgMTAwwrE1IOWIhumSn++8iSAqLwogICAgY29uc3QgdmFsIFBVVVNfUkVGUkVTSF9JTlRFUlZBTF9NUyA9IDkwTCAqIDYwICogMTAwMAoKICAgIC8qKiDlhbPplK4gQ29va2llIOWtl+aute+8jOe8uuWkseWImeinhuS4uuacqueZu+W9lSAqLwogICAgZnVuIGlzVmFsaWRDb29raWUoY29va2llOiBTdHJpbmc/KTogQm9vbGVhbiA9CiAgICAgICAgY29va2llICE9IG51bGwgJiYgY29va2llLmNvbnRhaW5zKCJfX3B1cz0iKSAmJiBjb29raWUuY29udGFpbnMoIl9fcHV1cz0iKQp9
+/*
+ * YunX (云析) - A network drive share-link parser and high-speed downloader for Android.
+ * Copyright (C) 2026 CYQawa
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Affero General Public License for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
+package org.linbaogu.romhub.pan
+
+object QuarkConstants {
+
+    /** 夸克 PC 客户端 User-Agent，所有请求必须携带 */
+    const val USER_AGENT =
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) " +
+    "Chrome/130.0.0.0 Safari/537.36 QuarkPC/6.0.8.649"
+
+
+    /** WebView 登录页（PC 环境） */
+    const val LOGIN_URL = "https://pan.quark.cn/?fr=pc&platform=pc"
+
+    /** 提取 Cookie 的域名 */
+    const val COOKIE_DOMAIN = "https://pan.quark.cn"
+
+    /** 验证登录状态的接口 */
+    const val ACCOUNT_INFO_URL = "https://pan.quark.cn/account/info"
+
+    /** 解析/下载 API 强制 User-Agent（kkdo.md） 
+    const val API_USER_AGENT =
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) " +
+            "Chrome/130.0.0.0 Safari/537.36 QuarkPC/6.0.8.649"
+            */
+            const val API_USER_AGENT =
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) " +
+    "quark-cloud-drive/2.5.20 Chrome/100.0.4896.160 Electron/18.3.5.12-a038f7b798 Safari/537.36 Channel/pckk_other_ch"
+
+    /** 业务 API 基础域名 */
+    const val API_BASE = "https://drive-pc.quark.cn"
+
+    /** 获取分享 Token */
+    const val SHARE_TOKEN_URL = "$API_BASE/1/clouddrive/share/sharepage/token?pr=ucpro&fr=pc"
+
+    /** 验证分享提取码 */
+    const val SHARE_PASSWORD_URL = "$API_BASE/1/clouddrive/share/password?pr=ucpro&fr=pc"
+
+    /** 获取分享文件列表 */
+    const val SHARE_DETAIL_URL = "$API_BASE/1/clouddrive/share/sharepage/detail?pr=ucpro&fr=pc"
+
+    /** 获取下载直链 */
+    const val DOWNLOAD_URL = "$API_BASE/1/clouddrive/file/download?pr=ucpro&fr=pc&sys=win32&ve=3.23.2"
+
+    /** 根目录 fid */
+    const val DEFAULT_PDIR_FID = "0"
+
+    /** 个人网盘文件列表 / 创建目录 */
+    const val FILE_URL = "$API_BASE/1/clouddrive/file?pr=ucpro&fr=pc"
+
+    /** 个人网盘文件列表（排序；抓包：pdir_fid=0 根目录，带完整 cookie） */
+    const val CLOUD_FILE_SORT_URL = "$API_BASE/1/clouddrive/file/sort?pr=ucpro&fr=pc"
+
+    /**
+     * 全盘搜索（GET；`_q=<关键词>`，`_page` / `_size` 分页）。
+     * 夸克/UC 同源，UC 把 API_BASE 换成自己的域即可。
+     */
+    const val CLOUD_FILE_SEARCH_URL = "$API_BASE/1/clouddrive/file/search?pr=ucpro&fr=pc"
+
+    /** 转存分享文件 */
+    const val SAVE_URL = "$API_BASE/1/clouddrive/share/sharepage/save?pr=ucpro&fr=pc"
+
+    /** 异步任务查询 */
+    const val TASK_URL = "$API_BASE/1/clouddrive/task?pr=ucpro&fr=pc"
+
+    /** 删除文件（取链成功后清理临时转存；body: action_type=2 + filelist） */
+    const val DELETE_URL = "$API_BASE/1/clouddrive/file/delete?pr=ucpro&fr=pc&uc_param_str="
+
+    /** 重命名文件（body: fid + file_name） */
+    const val RENAME_URL = "$API_BASE/1/clouddrive/file/rename?pr=ucpro&fr=pc&uc_param_str="
+
+    /** 移动文件（body: action_type=1 + to_pdir_fid + filelist） */
+    const val MOVE_URL = "$API_BASE/1/clouddrive/file/move?pr=ucpro&fr=pc&uc_param_str="
+
+    /** 创建分享（body: fid_list + title + url_type + passcode + expired_type） */
+    const val SHARE_CREATE_URL = "$API_BASE/1/clouddrive/share?pr=ucpro&fr=pc&uc_param_str="
+
+    /** 查询分享信息（body: share_id → share_url / passcode / pwd_id） */
+    const val SHARE_INFO_URL = "$API_BASE/1/clouddrive/share/password?pr=ucpro&fr=pc&uc_param_str="
+
+    /** 临时转存目录名 */
+    const val TEMP_DIR_NAME = "YunX临时转存"
+
+    /** 临时转存子目录前缀（唯一子目录 tr_<时间戳>_<随机>，供启动一次性清理识别） */
+    const val TEMP_SUBDIR_PREFIX = "tr_"
+
+    /** 下载直链防盗链必须携带的 Referer（与 AList quark_uc meta.go:37 一致） */
+    const val DOWNLOAD_REFERER = "https://pan.quark.cn/"
+
+    /** 会话刷新探测接口：任意接口均可，用于重新下发 __puus（AList util.go:224 用 /config） */
+    const val CONFIG_URL = "$API_BASE/1/clouddrive/config?pr=ucpro&fr=pc"
+
+    /** __puus 有效期约 3 小时，提前到 90 分钟刷新（对齐 AList 100±5 分钟） */
+    const val PUUS_REFRESH_INTERVAL_MS = 90L * 60 * 1000
+
+    /** 关键 Cookie 字段，缺失则视为未登录 */
+    fun isValidCookie(cookie: String?): Boolean =
+        cookie != null && cookie.contains("__pus=") && cookie.contains("__puus=")
+}

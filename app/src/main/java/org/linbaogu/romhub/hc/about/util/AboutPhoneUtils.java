@@ -1,1 +1,109 @@
-LyoKICogVGhpcyBmaWxlIGlzIHBhcnQgb2YgUk9NIEh1YiwgcmVsZWFzZWQgdW5kZXIgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSB2My4wLgogKgogKiDmnKzmlofku7bnp7vmpI0gLyDmlLnlhpnoh6ogSHlwZXJDZWlsZXLvvIhBR1BMLTMuMO+8jENvcHlyaWdodCAoQykgMjAyMy0yMDI2IEh5cGVyQ2VpbGVyCiAqIENvbnRyaWJ1dGlvbnPvvInvvIzmiJbkuLrlhbbnrYnku7fmm7/ouqvlrp7njrAg4oCU4oCUIOWujOaVtOadpea6kOS4jum4o+iwouingemhueebruagueebruW9lSBOT1RJQ0UubWTjgIIKICoKICogVGhpcyBwcm9ncmFtIGlzIGZyZWUgc29mdHdhcmU6IHlvdSBjYW4gcmVkaXN0cmlidXRlIGl0IGFuZC9vciBtb2RpZnkgaXQgdW5kZXIgdGhlIHRlcm1zCiAqIG9mIHRoZSBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UgYXMgcHVibGlzaGVkIGJ5IHRoZSBGcmVlIFNvZnR3YXJlIEZvdW5kYXRpb24sCiAqIGVpdGhlciB2ZXJzaW9uIDMgb2YgdGhlIExpY2Vuc2UuCiAqCiAqIFRoaXMgcHJvZ3JhbSBpcyBkaXN0cmlidXRlZCBpbiB0aGUgaG9wZSB0aGF0IGl0IHdpbGwgYmUgdXNlZnVsLCBidXQgV0lUSE9VVCBBTlkgV0FSUkFOVFk7CiAqIHdpdGhvdXQgZXZlbiB0aGUgaW1wbGllZCB3YXJyYW50eSBvZiBNRVJDSEFOVEFCSUxJVFkgb3IgRklUTkVTUyBGT1IgQSBQQVJUSUNVTEFSIFBVUlBPU0UuCiAqIFNlZSB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGZvciBtb3JlIGRldGFpbHMuCiAqCiAqIFlvdSBzaG91bGQgaGF2ZSByZWNlaXZlZCBhIGNvcHkgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBhbG9uZyB3aXRoIHRoaXMKICogcHJvZ3JhbS4gIElmIG5vdCwgc2VlIDxodHRwczovL3d3dy5nbnUub3JnL2xpY2Vuc2VzLz4uCiAqLwoKcGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLmhjLnV0aWw7CgppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQ7CmltcG9ydCBhbmRyb2lkLnRleHQuVGV4dFV0aWxzOwoKaW1wb3J0IG9yZy5saW5iYW9ndS5yb21odWIuUjsKaW1wb3J0IG9yZy5saW5iYW9ndS5yb21odWIuaGMuY29tbW9uLkFuZHJvaWRMb2c7CgppbXBvcnQgamF2YS51dGlsLnJlZ2V4LlBhdHRlcm47CgppbXBvcnQgZmFuLm9zLlN5c3RlbVByb3BlcnRpZXM7CgpwdWJsaWMgY2xhc3MgQWJvdXRQaG9uZVV0aWxzIHsKCiAgICBwcml2YXRlIHN0YXRpYyBmaW5hbCBTdHJpbmcgVEFHID0gIkFib3V0UGhvbmVVdGlscyI7CiAgICBwcml2YXRlIHN0YXRpYyBmaW5hbCBQYXR0ZXJuIFZFUlNJT05fUEFUVEVSTiA9IFBhdHRlcm4uY29tcGlsZSgiXlthLXpBLVpdWzAtOV17MSwzfSQiKTsKCiAgICBwdWJsaWMgc3RhdGljIFN0cmluZyBnZXRYbXNWZXJzaW9uKCkgewogICAgICAgIHJldHVybiBTeXN0ZW1Qcm9wZXJ0aWVzLmdldCgicGVyc2lzdC5zeXMueG1zLnZlcnNpb24iKTsKICAgIH0KCiAgICBwdWJsaWMgc3RhdGljIFN0cmluZyBnZXRSb1htc1ZlcnNpb24oKSB7CiAgICAgICAgcmV0dXJuIFN5c3RlbVByb3BlcnRpZXMuZ2V0KCJyby5taS54bXMudmVyc2lvbi5pbmNyZW1lbnRhbCIpOwogICAgfQoKICAgIHB1YmxpYyBzdGF0aWMgU3RyaW5nIGdldE9zVmVyc2lvbkNvZGUoKSB7CiAgICAgICAgU3RyaW5nIHN0ciA9IFN5c3RlbVByb3BlcnRpZXMuZ2V0KCJyby5taS5vcy52ZXJzaW9uLmluY3JlbWVudGFsIiwgIiIpOwogICAgICAgIHJldHVybiAoVGV4dFV0aWxzLmlzRW1wdHkoc3RyKSB8fCAhc3RyLnN0YXJ0c1dpdGgoIk9TIikgfHwgc3RyLmxlbmd0aCgpIDw9IDIpID8gc3RyIDogc3RyLnN1YnN0cmluZygyKTsKICAgIH0KCiAgICBwdWJsaWMgc3RhdGljIFN0cmluZyBhZGRWZXJzaW9uU3VmZml4KENvbnRleHQgY29udGV4dCkgewogICAgICAgIFN0cmluZyB4bXNWZXJzaW9uID0gZ2V0WG1zVmVyc2lvbigpOwogICAgICAgIFN0cmluZyByb1htc1ZlcnNpb24gPSBnZXRSb1htc1ZlcnNpb24oKTsKICAgICAgICBTdHJpbmcgb3NWZXJzaW9uQ29kZSA9IGdldE9zVmVyc2lvbkNvZGUoKTsKCiAgICAgICAgYm9vbGVhbiBpc1htc1ZlcnNpb25WYWxpZCA9IGlzVmFsaWQoeG1zVmVyc2lvbik7CiAgICAgICAgYm9vbGVhbiBpc1JvWG1zVmVyc2lvblZhbGlkID0gaXNWYWxpZChyb1htc1ZlcnNpb24pOwogICAgICAgIGlmICghaXNYbXNWZXJzaW9uVmFsaWQgJiYgIWlzUm9YbXNWZXJzaW9uVmFsaWQpIHsKICAgICAgICAgICAgcmV0dXJuIG9zVmVyc2lvbkNvZGU7CiAgICAgICAgfQogICAgICAgIGlmICghaXNYbXNWZXJzaW9uVmFsaWQgfHwgaXNSb1htc1ZlcnNpb25WYWxpZCkgewogICAgICAgICAgICB4bXNWZXJzaW9uID0gKGlzWG1zVmVyc2lvblZhbGlkIHx8ICFpc1JvWG1zVmVyc2lvblZhbGlkKSA/IGNvbXBhcmVWYWxpZFZlcnNpb24oeG1zVmVyc2lvbiwgcm9YbXNWZXJzaW9uKSA6IHJvWG1zVmVyc2lvbjsKICAgICAgICB9CiAgICAgICAgcmV0dXJuIGluc2VydFN1ZmZpeEJlZm9yZUJldGEoY29udGV4dCwgb3NWZXJzaW9uQ29kZSwgeG1zVmVyc2lvbik7CiAgICB9CgogICAgcHJpdmF0ZSBzdGF0aWMgYm9vbGVhbiBpc1ZhbGlkKFN0cmluZyBzdHIpIHsKICAgICAgICByZXR1cm4gc3RyICE9IG51bGwgJiYgVkVSU0lPTl9QQVRURVJOLm1hdGNoZXIoc3RyKS5tYXRjaGVzKCk7CiAgICB9CgogICAgcHJpdmF0ZSBzdGF0aWMgU3RyaW5nIGNvbXBhcmVWYWxpZFZlcnNpb24oU3RyaW5nIHMsIFN0cmluZyBzMikgewogICAgICAgIGNoYXIgbG93ZXJDYXNlID0gQ2hhcmFjdGVyLnRvTG93ZXJDYXNlKHMuY2hhckF0KDApKTsKICAgICAgICBjaGFyIGxvd2VyQ2FzZTIgPSBDaGFyYWN0ZXIudG9Mb3dlckNhc2UoczIuY2hhckF0KDApKTsKICAgICAgICBpZiAobG93ZXJDYXNlICE9IGxvd2VyQ2FzZTIpIHsKICAgICAgICAgICAgaWYgKGxvd2VyQ2FzZSA+IGxvd2VyQ2FzZTIpIHsKICAgICAgICAgICAgICAgIHJldHVybiBzOwogICAgICAgICAgICB9CiAgICAgICAgICAgIHJldHVybiBzMjsKICAgICAgICB9CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgaW50IGludDEgPSBJbnRlZ2VyLnBhcnNlSW50KHMuc3Vic3RyaW5nKDEpKTsKICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIGlmIChpbnQxID49IEludGVnZXIucGFyc2VJbnQoczIuc3Vic3RyaW5nKDEpKSkgewogICAgICAgICAgICAgICAgICAgIHJldHVybiBzOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgcmV0dXJuIHMyOwogICAgICAgICAgICB9IGNhdGNoIChFeGNlcHRpb24gZSkgewogICAgICAgICAgICAgICAgQW5kcm9pZExvZy5kKFRBRywgImNvbXBhcmVWYWxpZFZlcnNpb246IHBhcnNlIHNlY29uZGFyeSB2ZXJzaW9uIGZhaWxlZCAiICsgZSk7CiAgICAgICAgICAgICAgICByZXR1cm4gczsKICAgICAgICAgICAgfQogICAgICAgIH0gY2F0Y2ggKGZpbmFsIEV4Y2VwdGlvbiBlKSB7CiAgICAgICAgICAgIEFuZHJvaWRMb2cuZChUQUcsICJjb21wYXJlVmFsaWRWZXJzaW9uOiBwYXJzZSBwcmltYXJ5IHZlcnNpb24gZmFpbGVkICIgKyBlKTsKICAgICAgICAgICAgcmV0dXJuIHMyOwogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIHN0YXRpYyBTdHJpbmcgaW5zZXJ0U3VmZml4QmVmb3JlQmV0YShDb250ZXh0IGNvbnRleHQsIFN0cmluZyBzdHIsIFN0cmluZyBzdHIyKSB7CiAgICAgICAgU3RyaW5nIHN0cjMgPSBudWxsOwogICAgICAgIFN0cmluZyBzdHJpbmcgPSBjb250ZXh0ICE9IG51bGwgPyBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5kZXZlbG9wZXJfYnVpbGQpIDogbnVsbDsKICAgICAgICBpZiAoc3RyaW5nICE9IG51bGwgJiYgc3RyLmVuZHNXaXRoKHN0cmluZykpIHsKICAgICAgICAgICAgc3RyMyA9IHN0cmluZzsKICAgICAgICB9CiAgICAgICAgaWYgKHN0ci5lbmRzV2l0aCgiQmV0YSIpKSB7CiAgICAgICAgICAgIHN0cjMgPSAiQmV0YSI7CiAgICAgICAgfQogICAgICAgIGlmIChzdHIzICE9IG51bGwpIHsKICAgICAgICAgICAgcmV0dXJuIHN0ci5zdWJzdHJpbmcoMCwgc3RyLmxlbmd0aCgpIC0gc3RyMy5sZW5ndGgoKSkudHJpbSgpICsgIi4iICsgc3RyMiArICIgIiArIHN0cjM7CiAgICAgICAgfQogICAgICAgIHJldHVybiBzdHIgKyAiLiIgKyBzdHIyOwogICAgfQp9Cg==
+/*
+ * This file is part of ROM Hub, released under the GNU Affero General Public License v3.0.
+ *
+ * 本文件移植 / 改写自 HyperCeiler（AGPL-3.0，Copyright (C) 2023-2026 HyperCeiler
+ * Contributions），或为其等价替身实现 —— 完整来源与鸣谢见项目根目录 NOTICE.md。
+ *
+ * This program is free software: you can redistribute it and/or modify it under the terms
+ * of the GNU Affero General Public License as published by the Free Software Foundation,
+ * either version 3 of the License.
+ *
+ * This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+ * without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * See the GNU Affero General Public License for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License along with this
+ * program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
+package org.linbaogu.romhub.hc.util;
+
+import android.content.Context;
+import android.text.TextUtils;
+
+import org.linbaogu.romhub.R;
+import org.linbaogu.romhub.hc.common.AndroidLog;
+
+import java.util.regex.Pattern;
+
+import fan.os.SystemProperties;
+
+public class AboutPhoneUtils {
+
+    private static final String TAG = "AboutPhoneUtils";
+    private static final Pattern VERSION_PATTERN = Pattern.compile("^[a-zA-Z][0-9]{1,3}$");
+
+    public static String getXmsVersion() {
+        return SystemProperties.get("persist.sys.xms.version");
+    }
+
+    public static String getRoXmsVersion() {
+        return SystemProperties.get("ro.mi.xms.version.incremental");
+    }
+
+    public static String getOsVersionCode() {
+        String str = SystemProperties.get("ro.mi.os.version.incremental", "");
+        return (TextUtils.isEmpty(str) || !str.startsWith("OS") || str.length() <= 2) ? str : str.substring(2);
+    }
+
+    public static String addVersionSuffix(Context context) {
+        String xmsVersion = getXmsVersion();
+        String roXmsVersion = getRoXmsVersion();
+        String osVersionCode = getOsVersionCode();
+
+        boolean isXmsVersionValid = isValid(xmsVersion);
+        boolean isRoXmsVersionValid = isValid(roXmsVersion);
+        if (!isXmsVersionValid && !isRoXmsVersionValid) {
+            return osVersionCode;
+        }
+        if (!isXmsVersionValid || isRoXmsVersionValid) {
+            xmsVersion = (isXmsVersionValid || !isRoXmsVersionValid) ? compareValidVersion(xmsVersion, roXmsVersion) : roXmsVersion;
+        }
+        return insertSuffixBeforeBeta(context, osVersionCode, xmsVersion);
+    }
+
+    private static boolean isValid(String str) {
+        return str != null && VERSION_PATTERN.matcher(str).matches();
+    }
+
+    private static String compareValidVersion(String s, String s2) {
+        char lowerCase = Character.toLowerCase(s.charAt(0));
+        char lowerCase2 = Character.toLowerCase(s2.charAt(0));
+        if (lowerCase != lowerCase2) {
+            if (lowerCase > lowerCase2) {
+                return s;
+            }
+            return s2;
+        }
+        try {
+            int int1 = Integer.parseInt(s.substring(1));
+            try {
+                if (int1 >= Integer.parseInt(s2.substring(1))) {
+                    return s;
+                }
+                return s2;
+            } catch (Exception e) {
+                AndroidLog.d(TAG, "compareValidVersion: parse secondary version failed " + e);
+                return s;
+            }
+        } catch (final Exception e) {
+            AndroidLog.d(TAG, "compareValidVersion: parse primary version failed " + e);
+            return s2;
+        }
+    }
+
+    private static String insertSuffixBeforeBeta(Context context, String str, String str2) {
+        String str3 = null;
+        String string = context != null ? context.getString(R.string.developer_build) : null;
+        if (string != null && str.endsWith(string)) {
+            str3 = string;
+        }
+        if (str.endsWith("Beta")) {
+            str3 = "Beta";
+        }
+        if (str3 != null) {
+            return str.substring(0, str.length() - str3.length()).trim() + "." + str2 + " " + str3;
+        }
+        return str + "." + str2;
+    }
+}

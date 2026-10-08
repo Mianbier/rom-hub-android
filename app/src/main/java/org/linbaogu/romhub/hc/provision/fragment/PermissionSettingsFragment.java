@@ -1,1 +1,336 @@
-LyoNCiAqIFRoaXMgZmlsZSBpcyBwYXJ0IG9mIEh5cGVyQ2VpbGVyLg0KDQogKiBIeXBlckNlaWxlciBpcyBmcmVlIHNvZnR3YXJlOiB5b3UgY2FuIHJlZGlzdHJpYnV0ZSBpdCBhbmQvb3IgbW9kaWZ5DQogKiBpdCB1bmRlciB0aGUgdGVybXMgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBhcw0KICogcHVibGlzaGVkIGJ5IHRoZSBGcmVlIFNvZnR3YXJlIEZvdW5kYXRpb24sIGVpdGhlciB2ZXJzaW9uIDMgb2YgdGhlDQogKiBMaWNlbnNlLg0KDQogKiBUaGlzIHByb2dyYW0gaXMgZGlzdHJpYnV0ZWQgaW4gdGhlIGhvcGUgdGhhdCBpdCB3aWxsIGJlIHVzZWZ1bCwNCiAqIGJ1dCBXSVRIT1VUIEFOWSBXQVJSQU5UWTsgd2l0aG91dCBldmVuIHRoZSBpbXBsaWVkIHdhcnJhbnR5IG9mDQogKiBNRVJDSEFOVEFCSUxJVFkgb3IgRklUTkVTUyBGT1IgQSBQQVJUSUNVTEFSIFBVUlBPU0UuICBTZWUgdGhlDQogKiBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UgZm9yIG1vcmUgZGV0YWlscy4NCg0KICogWW91IHNob3VsZCBoYXZlIHJlY2VpdmVkIGEgY29weSBvZiB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlDQogKiBhbG9uZyB3aXRoIHRoaXMgcHJvZ3JhbS4gIElmIG5vdCwgc2VlIDxodHRwczovL3d3dy5nbnUub3JnL2xpY2Vuc2VzLz4uDQoNCiAqIENvcHlyaWdodCAoQykgMjAyMy0yMDI2IEh5cGVyQ2VpbGVyIENvbnRyaWJ1dGlvbnMNCiAqLw0KcGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLmhjLnByb3Zpc2lvbi5mcmFnbWVudDsNCg0KaW1wb3J0IHN0YXRpYyBvcmcubGluYmFvZ3Uucm9taHViLmhjLnByb3Zpc2lvbi51dGlscy5OZXR3b3JrTWFuYWdlci5pc0ludGVybmV0QXZhaWxhYmxlOw0KaW1wb3J0IHN0YXRpYyBvcmcubGluYmFvZ3Uucm9taHViLmhjLnByb3Zpc2lvbi51dGlscy5OZXR3b3JrTWFuYWdlci5pc05ldHdvcmtDb25uZWN0ZWQ7DQoNCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dDsNCmltcG9ydCBhbmRyb2lkLm5ldC5Db25uZWN0aXZpdHlNYW5hZ2VyOw0KaW1wb3J0IGFuZHJvaWQubmV0Lk5ldHdvcms7DQppbXBvcnQgYW5kcm9pZC5uZXQuTmV0d29ya0NhcGFiaWxpdGllczsNCmltcG9ydCBhbmRyb2lkLm5ldC5OZXR3b3JrUmVxdWVzdDsNCmltcG9ydCBhbmRyb2lkLm9zLkJ1bmRsZTsNCmltcG9ydCBhbmRyb2lkLnZpZXcuVmlldzsNCg0KaW1wb3J0IGFuZHJvaWR4LmFubm90YXRpb24uTm9uTnVsbDsNCmltcG9ydCBhbmRyb2lkeC5hbm5vdGF0aW9uLk51bGxhYmxlOw0KDQppbXBvcnQgb3JnLmxpbmJhb2d1LnJvbWh1Yi5oYy5jb21tb24uUGVybWlzc2lvblV0aWxzOw0KaW1wb3J0IG9yZy5saW5iYW9ndS5yb21odWIuUjsNCmltcG9ydCBvcmcubGluYmFvZ3Uucm9taHViLmhjLnByb3Zpc2lvbi53aWRnZXQuUGVybWlzc2lvbkl0ZW1WaWV3Ow0KDQppbXBvcnQgamF2YS5pby5GaWxlOw0KaW1wb3J0IGphdmEudXRpbC5jb25jdXJyZW50LkV4ZWN1dG9yU2VydmljZTsNCmltcG9ydCBqYXZhLnV0aWwuY29uY3VycmVudC5FeGVjdXRvcnM7DQoNCmltcG9ydCBmYW4ucHJvdmlzaW9uLk9vYmVVdGlsczsNCg0KcHVibGljIGNsYXNzIFBlcm1pc3Npb25TZXR0aW5nc0ZyYWdtZW50IGV4dGVuZHMgQmFzZUZyYWdtZW50IHsNCiAgICBwcml2YXRlIHN0YXRpYyBmaW5hbCBpbnQgUkVRVUVTVF9HRVRfSU5TVEFMTEVEX0FQUFMgPSAxMTAxOw0KDQogICAgcHJpdmF0ZSBWaWV3IG1OZXh0VmlldzsNCg0KICAgIFBlcm1pc3Npb25JdGVtVmlldyBtUm9vdFBlcm1pc3Npb25JdGVtOw0KICAgIFBlcm1pc3Npb25JdGVtVmlldyBtTmV0d29ya1Blcm1pc3Npb25JdGVtOw0KICAgIFBlcm1pc3Npb25JdGVtVmlldyBtTHNwUGVybWlzc2lvbkl0ZW07DQogICAgUGVybWlzc2lvbkl0ZW1WaWV3IG1JbnN0YWxsZWRBcHBzUGVybWlzc2lvbkl0ZW07DQogICAgUGVybWlzc2lvbkl0ZW1WaWV3IG1TdG9yYWdlUGVybWlzc2lvbkl0ZW07DQoNCiAgICBwcml2YXRlIGZpbmFsIEV4ZWN1dG9yU2VydmljZSBleGVjdXRvciA9IEV4ZWN1dG9ycy5uZXdTaW5nbGVUaHJlYWRFeGVjdXRvcigpOw0KDQogICAgcHJpdmF0ZSBDb25uZWN0aXZpdHlNYW5hZ2VyIGNvbm5lY3Rpdml0eU1hbmFnZXI7DQogICAgcHJpdmF0ZSBDb25uZWN0aXZpdHlNYW5hZ2VyLk5ldHdvcmtDYWxsYmFjayBuZXR3b3JrQ2FsbGJhY2s7DQogICAgcHJpdmF0ZSBsb25nIGxhc3ROZXR3b3JrQ2hlY2sgPSAwOw0KDQogICAgcHVibGljIHN0YXRpYyBib29sZWFuIGlzTW9kdWxlQWN0aXZlID0gZmFsc2U7DQoNCiAgICBAT3ZlcnJpZGUNCiAgICBwcm90ZWN0ZWQgaW50IGdldExheW91dElkKCkgew0KICAgICAgICByZXR1cm4gUi5sYXlvdXQucHJvdmlzaW9uX3Blcm1pc3Npb25fbGF5b3V0Ow0KICAgIH0NCg0KICAgIEBPdmVycmlkZQ0KICAgIHB1YmxpYyB2b2lkIG9uVmlld0NyZWF0ZWQoQE5vbk51bGwgVmlldyB2aWV3LCBATnVsbGFibGUgQnVuZGxlIHNhdmVkSW5zdGFuY2VTdGF0ZSkgew0KICAgICAgICBzdXBlci5vblZpZXdDcmVhdGVkKHZpZXcsIHNhdmVkSW5zdGFuY2VTdGF0ZSk7DQogICAgICAgIG1OZXR3b3JrUGVybWlzc2lvbkl0ZW0gPSB2aWV3LmZpbmRWaWV3QnlJZChSLmlkLm5ldHdvcmspOw0KICAgICAgICBtSW5zdGFsbGVkQXBwc1Blcm1pc3Npb25JdGVtID0gdmlldy5maW5kVmlld0J5SWQoUi5pZC5pbnN0YWxsZWRfYXBwcyk7DQogICAgICAgIG1TdG9yYWdlUGVybWlzc2lvbkl0ZW0gPSB2aWV3LmZpbmRWaWV3QnlJZChSLmlkLnN0b3JhZ2UpOw0KDQogICAgICAgIGlmIChtUm9vdFBlcm1pc3Npb25JdGVtICE9IG51bGwpIG1Sb290UGVybWlzc2lvbkl0ZW0uc2V0SXRlbVRpdGxlKFIuc3RyaW5nLnByb3Zpc2lvbl9wZXJtaXNzaW9uX3Jvb3QpOw0KICAgICAgICBtTmV0d29ya1Blcm1pc3Npb25JdGVtLnNldEl0ZW1UaXRsZShSLnN0cmluZy5wcm92aXNpb25fcGVybWlzc2lvbl9pbnRlcm5ldCk7DQogICAgICAgIGlmIChtTHNwUGVybWlzc2lvbkl0ZW0gIT0gbnVsbCkgbUxzcFBlcm1pc3Npb25JdGVtLnNldEl0ZW1UaXRsZShSLnN0cmluZy5wcm92aXNpb25fcGVybWlzc2lvbl9sc3ApOw0KICAgICAgICBtSW5zdGFsbGVkQXBwc1Blcm1pc3Npb25JdGVtLnNldEl0ZW1UaXRsZShSLnN0cmluZy5wcm92aXNpb25fcGVybWlzc2lvbl9pbnN0YWxsZWRfYXBwcyk7DQogICAgICAgIGlmIChtU3RvcmFnZVBlcm1pc3Npb25JdGVtICE9IG51bGwpIHsNCiAgICAgICAgICAgIG1TdG9yYWdlUGVybWlzc2lvbkl0ZW0uc2V0SXRlbVRpdGxlKFIuc3RyaW5nLnByb3Zpc2lvbl9wZXJtaXNzaW9uX3N0b3JhZ2UpOw0KICAgICAgICAgICAgbVN0b3JhZ2VQZXJtaXNzaW9uSXRlbS5zZXRFbmFibGVkKHRydWUpOyAgIC8vIOimgeiDveeCue+8jOS4jeiDveWDj+e9kee7nOmhuemCo+agt+WPquivuw0KICAgICAgICAgICAgbVN0b3JhZ2VQZXJtaXNzaW9uSXRlbS5zZXRPbkNsaWNrTGlzdGVuZXIodiAtPiByZXF1ZXN0U3RvcmFnZVBlcm1pc3Npb24oKSk7DQogICAgICAgIH0NCg0KICAgICAgICBtTmV0d29ya1Blcm1pc3Npb25JdGVtLnNldEVuYWJsZWQoZmFsc2UpOw0KICAgICAgICBtSW5zdGFsbGVkQXBwc1Blcm1pc3Npb25JdGVtLnNldE9uQ2xpY2tMaXN0ZW5lcih2IC0+IHJlcXVlc3RJbnN0YWxsZWRBcHBzUGVybWlzc2lvbigpKTsNCg0KICAgICAgICBjaGVja05ldHdvcmsoKTsNCiAgICAgICAgY2hlY2tSb290ZWQoKTsNCiAgICAgICAgY2hlY2tMc3AoKTsNCiAgICAgICAgY2hlY2tJbnN0YWxsZWRBcHBzUGVybWlzc2lvbigpOw0KICAgICAgICBjaGVja1N0b3JhZ2VQZXJtaXNzaW9uKCk7DQogICAgICAgIGNoZWNrU3RvcmFnZVBlcm1pc3Npb24oKTsNCiAgICAgICAgcmVnaXN0ZXJOZXR3b3JrQ2FsbGJhY2soKTsNCiAgICB9DQoNCiAgICBwcml2YXRlIHZvaWQgY2hlY2tSb290ZWQoKSB7DQogICAgICAgIGV4ZWN1dG9yLmV4ZWN1dGUoKCkgLT4gew0KICAgICAgICAgICAgaWYgKCFpc0FkZGVkKCkpIHJldHVybjsNCg0KICAgICAgICAgICAgcmVxdWlyZUFjdGl2aXR5KCkucnVuT25VaVRocmVhZCgoKSAtPiB7DQogICAgICAgICAgICAgICAgaWYgKG1Sb290UGVybWlzc2lvbkl0ZW0gIT0gbnVsbCkgew0KICAgICAgICAgICAgICAgICAgICBtUm9vdFBlcm1pc3Npb25JdGVtLnNldENoZWNrZWQoaXNEZXZpY2VSb290ZWQoKSk7DQogICAgICAgICAgICAgICAgfQ0KICAgICAgICAgICAgfSk7DQogICAgICAgIH0pOw0KICAgIH0NCg0KICAgIHByaXZhdGUgdm9pZCBjaGVja0xzcCgpIHsNCiAgICAgICAgZXhlY3V0b3IuZXhlY3V0ZSgoKSAtPiB7DQogICAgICAgICAgICBpZiAoIWlzQWRkZWQoKSkgcmV0dXJuOw0KDQogICAgICAgICAgICByZXF1aXJlQWN0aXZpdHkoKS5ydW5PblVpVGhyZWFkKCgpIC0+IHsNCiAgICAgICAgICAgICAgICBpZiAobUxzcFBlcm1pc3Npb25JdGVtICE9IG51bGwpIHsNCiAgICAgICAgICAgICAgICAgICAgbUxzcFBlcm1pc3Npb25JdGVtLnNldENoZWNrZWQoaXNNb2R1bGVBY3RpdmUpOw0KICAgICAgICAgICAgICAgIH0NCiAgICAgICAgICAgIH0pOw0KICAgICAgICB9KTsNCiAgICB9DQoNCiAgICBwcml2YXRlIHZvaWQgY2hlY2tOZXR3b3JrKCkgew0KICAgICAgICBleGVjdXRvci5leGVjdXRlKCgpIC0+IHsNCiAgICAgICAgICAgIGJvb2xlYW4gY29ubmVjdGVkID0gaXNOZXR3b3JrQ29ubmVjdGVkKHJlcXVpcmVDb250ZXh0KCkpOw0KICAgICAgICAgICAgYm9vbGVhbiBpbnRlcm5ldCA9IGNvbm5lY3RlZCAmJiBpc0ludGVybmV0QXZhaWxhYmxlKCk7DQoNCiAgICAgICAgICAgIGlmICghaXNBZGRlZCgpKSByZXR1cm47DQoNCiAgICAgICAgICAgIHJlcXVpcmVBY3Rpdml0eSgpLnJ1bk9uVWlUaHJlYWQoKCkgLT4gew0KICAgICAgICAgICAgICAgIG1OZXR3b3JrUGVybWlzc2lvbkl0ZW0uc2V0Q2hlY2tlZChpbnRlcm5ldCk7DQogICAgICAgICAgICAgICAgc2V0QWxsb3dOZXh0KGludGVybmV0KTsNCiAgICAgICAgICAgIH0pOw0KICAgICAgICB9KTsNCiAgICB9DQoNCiAgICBwcml2YXRlIHZvaWQgdXBkYXRlTmV0d29ya1N0YXRlKGJvb2xlYW4gc3RhdGUpIHsNCiAgICAgICAgaWYgKCFpc0FkZGVkKCkpIHJldHVybjsNCg0KICAgICAgICByZXF1aXJlQWN0aXZpdHkoKS5ydW5PblVpVGhyZWFkKCgpIC0+IHsNCiAgICAgICAgICAgIG1OZXR3b3JrUGVybWlzc2lvbkl0ZW0uc2V0Q2hlY2tlZChzdGF0ZSk7DQogICAgICAgICAgICBzZXRBbGxvd05leHQoc3RhdGUpOw0KICAgICAgICB9KTsNCiAgICB9DQoNCiAgICBwcml2YXRlIHZvaWQgc2V0QWxsb3dOZXh0KGJvb2xlYW4gYWxsb3dOZXh0KSB7DQogICAgICAgIGlmICghaXNBZGRlZCgpKSByZXR1cm47DQoNCiAgICAgICAgcmVxdWlyZUFjdGl2aXR5KCkucnVuT25VaVRocmVhZCgoKSAtPiB7DQogICAgICAgICAgICBtTmV4dFZpZXcgPSBPb2JlVXRpbHMuZ2V0TmV4dFZpZXcoZ2V0QWN0aXZpdHkoKSk7DQogICAgICAgICAgICBtTmV4dFZpZXcuc2V0RW5hYmxlZChhbGxvd05leHQpOw0KICAgICAgICAgICAgbU5leHRWaWV3LnNldEFscGhhKGFsbG93TmV4dCA/IE9vYmVVdGlscy5OT19BTFBIQSA6IE9vYmVVdGlscy5IQUxGX0FMUEhBKTsNCiAgICAgICAgfSk7DQogICAgfQ0KDQoNCiAgICBAT3ZlcnJpZGUNCiAgICBwdWJsaWMgdm9pZCBvblJlc3VtZSgpIHsNCiAgICAgICAgc3VwZXIub25SZXN1bWUoKTsNCiAgICAgICAgY2hlY2tOZXR3b3JrKCk7DQogICAgICAgIGNoZWNrUm9vdGVkKCk7DQogICAgICAgIGNoZWNrTHNwKCk7DQogICAgICAgIGNoZWNrSW5zdGFsbGVkQXBwc1Blcm1pc3Npb24oKTsNCiAgICAgICAgY2hlY2tTdG9yYWdlUGVybWlzc2lvbigpOw0KICAgIH0NCg0KICAgIEBPdmVycmlkZQ0KICAgIHB1YmxpYyB2b2lkIG9uRGVzdHJveVZpZXcoKSB7DQogICAgICAgIHN1cGVyLm9uRGVzdHJveVZpZXcoKTsNCiAgICAgICAgdW5yZWdpc3Rlck5ldHdvcmtDYWxsYmFjaygpOw0KICAgICAgICBleGVjdXRvci5zaHV0ZG93bk5vdygpOw0KICAgIH0NCg0KICAgIHByaXZhdGUgdm9pZCByZWdpc3Rlck5ldHdvcmtDYWxsYmFjaygpIHsNCiAgICAgICAgY29ubmVjdGl2aXR5TWFuYWdlciA9IChDb25uZWN0aXZpdHlNYW5hZ2VyKQ0KICAgICAgICAgICAgcmVxdWlyZUNvbnRleHQoKS5nZXRTeXN0ZW1TZXJ2aWNlKENvbnRleHQuQ09OTkVDVElWSVRZX1NFUlZJQ0UpOw0KDQogICAgICAgIGlmIChjb25uZWN0aXZpdHlNYW5hZ2VyID09IG51bGwpIHJldHVybjsNCg0KICAgICAgICBuZXR3b3JrQ2FsbGJhY2sgPSBuZXcgQ29ubmVjdGl2aXR5TWFuYWdlci5OZXR3b3JrQ2FsbGJhY2soKSB7DQogICAgICAgICAgICBAT3ZlcnJpZGUNCiAgICAgICAgICAgIHB1YmxpYyB2b2lkIG9uQXZhaWxhYmxlKEBOb25OdWxsIE5ldHdvcmsgbmV0d29yaykgew0KICAgICAgICAgICAgICAgIGNoZWNrTmV0d29ya0RlYm91bmNlZCgpOw0KICAgICAgICAgICAgfQ0KDQogICAgICAgICAgICBAT3ZlcnJpZGUNCiAgICAgICAgICAgIHB1YmxpYyB2b2lkIG9uTG9zdChATm9uTnVsbCBOZXR3b3JrIG5ldHdvcmspIHsNCiAgICAgICAgICAgICAgICB1cGRhdGVOZXR3b3JrU3RhdGUoZmFsc2UpOw0KICAgICAgICAgICAgfQ0KDQogICAgICAgICAgICBAT3ZlcnJpZGUNCiAgICAgICAgICAgIHB1YmxpYyB2b2lkIG9uQ2FwYWJpbGl0aWVzQ2hhbmdlZChATm9uTnVsbCBOZXR3b3JrIG5ldHdvcmssIEBOb25OdWxsIE5ldHdvcmtDYXBhYmlsaXRpZXMgY2Fwcykgew0KICAgICAgICAgICAgICAgIGlmICghY2Fwcy5oYXNDYXBhYmlsaXR5KE5ldHdvcmtDYXBhYmlsaXRpZXMuTkVUX0NBUEFCSUxJVFlfSU5URVJORVQpKSB7DQogICAgICAgICAgICAgICAgICAgIHVwZGF0ZU5ldHdvcmtTdGF0ZShmYWxzZSk7DQogICAgICAgICAgICAgICAgfSBlbHNlIHsNCiAgICAgICAgICAgICAgICAgICAgY2hlY2tOZXR3b3JrRGVib3VuY2VkKCk7DQogICAgICAgICAgICAgICAgfQ0KICAgICAgICAgICAgfQ0KICAgICAgICB9Ow0KDQogICAgICAgIE5ldHdvcmtSZXF1ZXN0IHJlcXVlc3QgPSBuZXcgTmV0d29ya1JlcXVlc3QuQnVpbGRlcigpDQogICAgICAgICAgICAuYWRkQ2FwYWJpbGl0eShOZXR3b3JrQ2FwYWJpbGl0aWVzLk5FVF9DQVBBQklMSVRZX0lOVEVSTkVUKQ0KICAgICAgICAgICAgLmJ1aWxkKCk7DQoNCiAgICAgICAgY29ubmVjdGl2aXR5TWFuYWdlci5yZWdpc3Rlck5ldHdvcmtDYWxsYmFjayhyZXF1ZXN0LCBuZXR3b3JrQ2FsbGJhY2spOw0KICAgIH0NCg0KICAgIHByaXZhdGUgdm9pZCB1bnJlZ2lzdGVyTmV0d29ya0NhbGxiYWNrKCkgew0KICAgICAgICBpZiAoY29ubmVjdGl2aXR5TWFuYWdlciAhPSBudWxsICYmIG5ldHdvcmtDYWxsYmFjayAhPSBudWxsKSB7DQogICAgICAgICAgICB0cnkgew0KICAgICAgICAgICAgICAgIGNvbm5lY3Rpdml0eU1hbmFnZXIudW5yZWdpc3Rlck5ldHdvcmtDYWxsYmFjayhuZXR3b3JrQ2FsbGJhY2spOw0KICAgICAgICAgICAgfSBjYXRjaCAoRXhjZXB0aW9uIGlnbm9yZWQpIHt9DQogICAgICAgIH0NCiAgICB9DQoNCiAgICBwcml2YXRlIHZvaWQgY2hlY2tOZXR3b3JrRGVib3VuY2VkKCkgew0KICAgICAgICBsb25nIG5vdyA9IFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpOw0KICAgICAgICBpZiAobm93IC0gbGFzdE5ldHdvcmtDaGVjayA8IDE1MDApIHJldHVybjsNCiAgICAgICAgbGFzdE5ldHdvcmtDaGVjayA9IG5vdzsNCiAgICAgICAgY2hlY2tOZXR3b3JrKCk7DQogICAgfQ0KDQogICAgcHJpdmF0ZSBib29sZWFuIGlzRGV2aWNlUm9vdGVkKCkgew0KICAgICAgICBTdHJpbmdbXSBwYXRocyA9IHsNCiAgICAgICAgICAgICIvc3lzdGVtL2Jpbi9zdSIsDQogICAgICAgICAgICAiL3N5c3RlbS94YmluL3N1IiwNCiAgICAgICAgICAgICIvc2Jpbi9zdSIsDQogICAgICAgICAgICAiL3N5c3RlbS9zZC94YmluL3N1IiwNCiAgICAgICAgICAgICIvc3lzdGVtL2Jpbi9mYWlsc2FmZS9zdSIsDQogICAgICAgICAgICAiL2RhdGEvbG9jYWwveGJpbi9zdSIsDQogICAgICAgICAgICAiL2RhdGEvbG9jYWwvYmluL3N1IiwNCiAgICAgICAgICAgICIvZGF0YS9sb2NhbC9zdSINCiAgICAgICAgfTsNCg0KICAgICAgICBmb3IgKFN0cmluZyBwYXRoIDogcGF0aHMpIHsNCiAgICAgICAgICAgIGlmIChuZXcgRmlsZShwYXRoKS5leGlzdHMoKSkgew0KICAgICAgICAgICAgICAgIHJldHVybiB0cnVlOw0KICAgICAgICAgICAgfQ0KICAgICAgICB9DQoNCiAgICAgICAgdHJ5IHsNCiAgICAgICAgICAgIFByb2Nlc3MgcHJvY2VzcyA9IFJ1bnRpbWUuZ2V0UnVudGltZSgpLmV4ZWMobmV3IFN0cmluZ1tdeyAic3UiLCAiLWMiLCAiaWQiIH0pOw0KICAgICAgICAgICAgaW50IGV4aXRDb2RlID0gcHJvY2Vzcy53YWl0Rm9yKCk7DQogICAgICAgICAgICByZXR1cm4gZXhpdENvZGUgPT0gMDsNCiAgICAgICAgfSBjYXRjaCAoRXhjZXB0aW9uIGlnbm9yZWQpIHsNCiAgICAgICAgfQ0KDQogICAgICAgIHJldHVybiBmYWxzZTsNCiAgICB9DQoNCiAgICBwcml2YXRlIHZvaWQgY2hlY2tJbnN0YWxsZWRBcHBzUGVybWlzc2lvbigpIHsNCiAgICAgICAgaWYgKCFpc0FkZGVkKCkgfHwgbUluc3RhbGxlZEFwcHNQZXJtaXNzaW9uSXRlbSA9PSBudWxsKSB7DQogICAgICAgICAgICByZXR1cm47DQogICAgICAgIH0NCiAgICAgICAgbUluc3RhbGxlZEFwcHNQZXJtaXNzaW9uSXRlbS5zZXRDaGVja2VkKA0KICAgICAgICAgICAgUGVybWlzc2lvblV0aWxzLmhhc0luc3RhbGxlZEFwcHNQZXJtaXNzaW9uKHJlcXVpcmVDb250ZXh0KCkpDQogICAgICAgICk7DQogICAgfQ0KDQogICAgcHJpdmF0ZSB2b2lkIHJlcXVlc3RJbnN0YWxsZWRBcHBzUGVybWlzc2lvbigpIHsNCiAgICAgICAgaWYgKCFpc0FkZGVkKCkpIHsNCiAgICAgICAgICAgIHJldHVybjsNCiAgICAgICAgfQ0KICAgICAgICBpZiAoUGVybWlzc2lvblV0aWxzLmhhc0luc3RhbGxlZEFwcHNQZXJtaXNzaW9uKHJlcXVpcmVDb250ZXh0KCkpKSB7DQogICAgICAgICAgICBjaGVja0luc3RhbGxlZEFwcHNQZXJtaXNzaW9uKCk7DQogICAgICAgIGNoZWNrU3RvcmFnZVBlcm1pc3Npb24oKTsNCiAgICAgICAgICAgIHJldHVybjsNCiAgICAgICAgfQ0KICAgICAgICByZXF1ZXN0UGVybWlzc2lvbnMoDQogICAgICAgICAgICBuZXcgU3RyaW5nW117UGVybWlzc2lvblV0aWxzLlBFUk1JU1NJT05fR0VUX0lOU1RBTExFRF9BUFBTfSwNCiAgICAgICAgICAgIFJFUVVFU1RfR0VUX0lOU1RBTExFRF9BUFBTDQogICAgICAgICk7DQogICAgfQ0KDQogICAgQE92ZXJyaWRlDQogICAgcHVibGljIHZvaWQgb25SZXF1ZXN0UGVybWlzc2lvbnNSZXN1bHQoaW50IHJlcXVlc3RDb2RlLCBATm9uTnVsbCBTdHJpbmdbXSBwZXJtaXNzaW9ucywgQE5vbk51bGwgaW50W10gZ3JhbnRSZXN1bHRzKSB7DQogICAgICAgIHN1cGVyLm9uUmVxdWVzdFBlcm1pc3Npb25zUmVzdWx0KHJlcXVlc3RDb2RlLCBwZXJtaXNzaW9ucywgZ3JhbnRSZXN1bHRzKTsNCiAgICAgICAgaWYgKHJlcXVlc3RDb2RlICE9IFJFUVVFU1RfR0VUX0lOU1RBTExFRF9BUFBTKSB7DQogICAgICAgICAgICByZXR1cm47DQogICAgICAgIH0NCg0KICAgICAgICBpZiAoUGVybWlzc2lvblV0aWxzLmlzSW5zdGFsbGVkQXBwc1Blcm1pc3Npb25HcmFudGVkKHBlcm1pc3Npb25zLCBncmFudFJlc3VsdHMpDQogICAgICAgICAgICB8fCBQZXJtaXNzaW9uVXRpbHMuaGFzSW5zdGFsbGVkQXBwc1Blcm1pc3Npb24ocmVxdWlyZUNvbnRleHQoKSkpIHsNCiAgICAgICAgICAgIGNoZWNrSW5zdGFsbGVkQXBwc1Blcm1pc3Npb24oKTsNCiAgICAgICAgY2hlY2tTdG9yYWdlUGVybWlzc2lvbigpOw0KICAgICAgICAgICAgcmV0dXJuOw0KICAgICAgICB9DQogICAgICAgIGNoZWNrSW5zdGFsbGVkQXBwc1Blcm1pc3Npb24oKTsNCiAgICAgICAgY2hlY2tTdG9yYWdlUGVybWlzc2lvbigpOw0KICAgIH0NCg0KDQogICAgLyoqIOWtmOWCqOadg+mZkO+8muafpeS4gOS4i+acieayoeaciee7me+8iEFuZHJvaWQgMTErIOeci+OAjOaJgOacieaWh+S7tuiuv+mXruOAje+8ieOAgiAqLw0KICAgIHByaXZhdGUgdm9pZCBjaGVja1N0b3JhZ2VQZXJtaXNzaW9uKCkgew0KICAgICAgICBleGVjdXRvci5leGVjdXRlKCgpIC0+IHsNCiAgICAgICAgICAgIGlmICghaXNBZGRlZCgpKSByZXR1cm47DQogICAgICAgICAgICBib29sZWFuIG9rOw0KICAgICAgICAgICAgaWYgKGFuZHJvaWQub3MuQnVpbGQuVkVSU0lPTi5TREtfSU5UID49IDMwKSB7DQogICAgICAgICAgICAgICAgb2sgPSBhbmRyb2lkLm9zLkVudmlyb25tZW50LmlzRXh0ZXJuYWxTdG9yYWdlTWFuYWdlcigpOw0KICAgICAgICAgICAgfSBlbHNlIHsNCiAgICAgICAgICAgICAgICBvayA9IG9yZy5saW5iYW9ndS5yb21odWIuaGMuY29tbW9uLlBlcm1pc3Npb25VdGlscy5oYXNQZXJtaXNzaW9uKA0KICAgICAgICAgICAgICAgICAgICAgICAgcmVxdWlyZUNvbnRleHQoKSwgYW5kcm9pZC5NYW5pZmVzdC5wZXJtaXNzaW9uLldSSVRFX0VYVEVSTkFMX1NUT1JBR0UpOw0KICAgICAgICAgICAgfQ0KICAgICAgICAgICAgcmVxdWlyZUFjdGl2aXR5KCkucnVuT25VaVRocmVhZCgoKSAtPiB7DQogICAgICAgICAgICAgICAgaWYgKG1TdG9yYWdlUGVybWlzc2lvbkl0ZW0gIT0gbnVsbCkgbVN0b3JhZ2VQZXJtaXNzaW9uSXRlbS5zZXRDaGVja2VkKG9rKTsNCiAgICAgICAgICAgIH0pOw0KICAgICAgICB9KTsNCiAgICB9DQoNCiAgICAvKioNCiAgICAgKiDngrnlrZjlgqjpobkg4oaSIOeUs+ivt+WtmOWCqOadg+mZkOOAgg0KICAgICAqDQogICAgICog4pqg77iPIEFuZHJvaWQgMTMrIOS4iiBSRUFEL1dSSVRFX0VYVEVSTkFMX1NUT1JBR0Ug5bey5piv56m65pON5L2c77yIdGFyZ2V0U2RrIDM377yJ77yMDQogICAgICog5b+F6aG76LWw44CM5omA5pyJ5paH5Lu26K6/6Zeu44CN77yITUFOQUdFX0VYVEVSTkFMX1NUT1JBR0XvvInnmoTns7vnu5/orr7nva7pobXjgIINCiAgICAgKi8NCiAgICBwcml2YXRlIHZvaWQgcmVxdWVzdFN0b3JhZ2VQZXJtaXNzaW9uKCkgew0KICAgICAgICB0cnkgew0KICAgICAgICAgICAgaWYgKGFuZHJvaWQub3MuQnVpbGQuVkVSU0lPTi5TREtfSU5UID49IDMwKSB7DQogICAgICAgICAgICAgICAgYW5kcm9pZC5jb250ZW50LkludGVudCBpID0gbmV3IGFuZHJvaWQuY29udGVudC5JbnRlbnQoDQogICAgICAgICAgICAgICAgICAgICAgICBhbmRyb2lkLnByb3ZpZGVyLlNldHRpbmdzLkFDVElPTl9NQU5BR0VfQVBQX0FMTF9GSUxFU19BQ0NFU1NfUEVSTUlTU0lPTiwNCiAgICAgICAgICAgICAgICAgICAgICAgIGFuZHJvaWQubmV0LlVyaS5wYXJzZSgicGFja2FnZToiICsgcmVxdWlyZUNvbnRleHQoKS5nZXRQYWNrYWdlTmFtZSgpKSk7DQogICAgICAgICAgICAgICAgc3RhcnRBY3Rpdml0eShpKTsNCiAgICAgICAgICAgIH0gZWxzZSB7DQogICAgICAgICAgICAgICAgcmVxdWVzdFBlcm1pc3Npb25zKG5ldyBTdHJpbmdbXXsNCiAgICAgICAgICAgICAgICAgICAgICAgIGFuZHJvaWQuTWFuaWZlc3QucGVybWlzc2lvbi5XUklURV9FWFRFUk5BTF9TVE9SQUdFfSwgMTAwMik7DQogICAgICAgICAgICB9DQogICAgICAgIH0gY2F0Y2ggKFRocm93YWJsZSB0KSB7DQogICAgICAgICAgICB0cnkgew0KICAgICAgICAgICAgICAgIHN0YXJ0QWN0aXZpdHkobmV3IGFuZHJvaWQuY29udGVudC5JbnRlbnQoDQogICAgICAgICAgICAgICAgICAgICAgICBhbmRyb2lkLnByb3ZpZGVyLlNldHRpbmdzLkFDVElPTl9NQU5BR0VfQUxMX0ZJTEVTX0FDQ0VTU19QRVJNSVNTSU9OKSk7DQogICAgICAgICAgICB9IGNhdGNoIChUaHJvd2FibGUgaWdub3JlZCkgew0KICAgICAgICAgICAgfQ0KICAgICAgICB9DQogICAgfQ0KDQoNCn0NCg==
+/*
+ * This file is part of HyperCeiler.
+
+ * HyperCeiler is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as
+ * published by the Free Software Foundation, either version 3 of the
+ * License.
+
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Affero General Public License for more details.
+
+ * You should have received a copy of the GNU Affero General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+ * Copyright (C) 2023-2026 HyperCeiler Contributions
+ */
+package org.linbaogu.romhub.hc.provision.fragment;
+
+import static org.linbaogu.romhub.hc.provision.utils.NetworkManager.isInternetAvailable;
+import static org.linbaogu.romhub.hc.provision.utils.NetworkManager.isNetworkConnected;
+
+import android.content.Context;
+import android.net.ConnectivityManager;
+import android.net.Network;
+import android.net.NetworkCapabilities;
+import android.net.NetworkRequest;
+import android.os.Bundle;
+import android.view.View;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+
+import org.linbaogu.romhub.hc.common.PermissionUtils;
+import org.linbaogu.romhub.R;
+import org.linbaogu.romhub.hc.provision.widget.PermissionItemView;
+
+import java.io.File;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+
+import fan.provision.OobeUtils;
+
+public class PermissionSettingsFragment extends BaseFragment {
+    private static final int REQUEST_GET_INSTALLED_APPS = 1101;
+
+    private View mNextView;
+
+    PermissionItemView mRootPermissionItem;
+    PermissionItemView mNetworkPermissionItem;
+    PermissionItemView mLspPermissionItem;
+    PermissionItemView mInstalledAppsPermissionItem;
+    PermissionItemView mStoragePermissionItem;
+
+    private final ExecutorService executor = Executors.newSingleThreadExecutor();
+
+    private ConnectivityManager connectivityManager;
+    private ConnectivityManager.NetworkCallback networkCallback;
+    private long lastNetworkCheck = 0;
+
+    public static boolean isModuleActive = false;
+
+    @Override
+    protected int getLayoutId() {
+        return R.layout.provision_permission_layout;
+    }
+
+    @Override
+    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+        mNetworkPermissionItem = view.findViewById(R.id.network);
+        mInstalledAppsPermissionItem = view.findViewById(R.id.installed_apps);
+        mStoragePermissionItem = view.findViewById(R.id.storage);
+
+        if (mRootPermissionItem != null) mRootPermissionItem.setItemTitle(R.string.provision_permission_root);
+        mNetworkPermissionItem.setItemTitle(R.string.provision_permission_internet);
+        if (mLspPermissionItem != null) mLspPermissionItem.setItemTitle(R.string.provision_permission_lsp);
+        mInstalledAppsPermissionItem.setItemTitle(R.string.provision_permission_installed_apps);
+        if (mStoragePermissionItem != null) {
+            mStoragePermissionItem.setItemTitle(R.string.provision_permission_storage);
+            mStoragePermissionItem.setEnabled(true);   // 要能点，不能像网络项那样只读
+            mStoragePermissionItem.setOnClickListener(v -> requestStoragePermission());
+        }
+
+        mNetworkPermissionItem.setEnabled(false);
+        mInstalledAppsPermissionItem.setOnClickListener(v -> requestInstalledAppsPermission());
+
+        checkNetwork();
+        checkRooted();
+        checkLsp();
+        checkInstalledAppsPermission();
+        checkStoragePermission();
+        checkStoragePermission();
+        registerNetworkCallback();
+    }
+
+    private void checkRooted() {
+        executor.execute(() -> {
+            if (!isAdded()) return;
+
+            requireActivity().runOnUiThread(() -> {
+                if (mRootPermissionItem != null) {
+                    mRootPermissionItem.setChecked(isDeviceRooted());
+                }
+            });
+        });
+    }
+
+    private void checkLsp() {
+        executor.execute(() -> {
+            if (!isAdded()) return;
+
+            requireActivity().runOnUiThread(() -> {
+                if (mLspPermissionItem != null) {
+                    mLspPermissionItem.setChecked(isModuleActive);
+                }
+            });
+        });
+    }
+
+    private void checkNetwork() {
+        executor.execute(() -> {
+            boolean connected = isNetworkConnected(requireContext());
+            boolean internet = connected && isInternetAvailable();
+
+            if (!isAdded()) return;
+
+            requireActivity().runOnUiThread(() -> {
+                mNetworkPermissionItem.setChecked(internet);
+                setAllowNext(internet);
+            });
+        });
+    }
+
+    private void updateNetworkState(boolean state) {
+        if (!isAdded()) return;
+
+        requireActivity().runOnUiThread(() -> {
+            mNetworkPermissionItem.setChecked(state);
+            setAllowNext(state);
+        });
+    }
+
+    private void setAllowNext(boolean allowNext) {
+        if (!isAdded()) return;
+
+        requireActivity().runOnUiThread(() -> {
+            mNextView = OobeUtils.getNextView(getActivity());
+            mNextView.setEnabled(allowNext);
+            mNextView.setAlpha(allowNext ? OobeUtils.NO_ALPHA : OobeUtils.HALF_ALPHA);
+        });
+    }
+
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        checkNetwork();
+        checkRooted();
+        checkLsp();
+        checkInstalledAppsPermission();
+        checkStoragePermission();
+    }
+
+    @Override
+    public void onDestroyView() {
+        super.onDestroyView();
+        unregisterNetworkCallback();
+        executor.shutdownNow();
+    }
+
+    private void registerNetworkCallback() {
+        connectivityManager = (ConnectivityManager)
+            requireContext().getSystemService(Context.CONNECTIVITY_SERVICE);
+
+        if (connectivityManager == null) return;
+
+        networkCallback = new ConnectivityManager.NetworkCallback() {
+            @Override
+            public void onAvailable(@NonNull Network network) {
+                checkNetworkDebounced();
+            }
+
+            @Override
+            public void onLost(@NonNull Network network) {
+                updateNetworkState(false);
+            }
+
+            @Override
+            public void onCapabilitiesChanged(@NonNull Network network, @NonNull NetworkCapabilities caps) {
+                if (!caps.hasCapability(NetworkCapabilities.NET_CAPABILITY_INTERNET)) {
+                    updateNetworkState(false);
+                } else {
+                    checkNetworkDebounced();
+                }
+            }
+        };
+
+        NetworkRequest request = new NetworkRequest.Builder()
+            .addCapability(NetworkCapabilities.NET_CAPABILITY_INTERNET)
+            .build();
+
+        connectivityManager.registerNetworkCallback(request, networkCallback);
+    }
+
+    private void unregisterNetworkCallback() {
+        if (connectivityManager != null && networkCallback != null) {
+            try {
+                connectivityManager.unregisterNetworkCallback(networkCallback);
+            } catch (Exception ignored) {}
+        }
+    }
+
+    private void checkNetworkDebounced() {
+        long now = System.currentTimeMillis();
+        if (now - lastNetworkCheck < 1500) return;
+        lastNetworkCheck = now;
+        checkNetwork();
+    }
+
+    private boolean isDeviceRooted() {
+        String[] paths = {
+            "/system/bin/su",
+            "/system/xbin/su",
+            "/sbin/su",
+            "/system/sd/xbin/su",
+            "/system/bin/failsafe/su",
+            "/data/local/xbin/su",
+            "/data/local/bin/su",
+            "/data/local/su"
+        };
+
+        for (String path : paths) {
+            if (new File(path).exists()) {
+                return true;
+            }
+        }
+
+        try {
+            Process process = Runtime.getRuntime().exec(new String[]{ "su", "-c", "id" });
+            int exitCode = process.waitFor();
+            return exitCode == 0;
+        } catch (Exception ignored) {
+        }
+
+        return false;
+    }
+
+    private void checkInstalledAppsPermission() {
+        if (!isAdded() || mInstalledAppsPermissionItem == null) {
+            return;
+        }
+        mInstalledAppsPermissionItem.setChecked(
+            PermissionUtils.hasInstalledAppsPermission(requireContext())
+        );
+    }
+
+    private void requestInstalledAppsPermission() {
+        if (!isAdded()) {
+            return;
+        }
+        if (PermissionUtils.hasInstalledAppsPermission(requireContext())) {
+            checkInstalledAppsPermission();
+        checkStoragePermission();
+            return;
+        }
+        requestPermissions(
+            new String[]{PermissionUtils.PERMISSION_GET_INSTALLED_APPS},
+            REQUEST_GET_INSTALLED_APPS
+        );
+    }
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+        if (requestCode != REQUEST_GET_INSTALLED_APPS) {
+            return;
+        }
+
+        if (PermissionUtils.isInstalledAppsPermissionGranted(permissions, grantResults)
+            || PermissionUtils.hasInstalledAppsPermission(requireContext())) {
+            checkInstalledAppsPermission();
+        checkStoragePermission();
+            return;
+        }
+        checkInstalledAppsPermission();
+        checkStoragePermission();
+    }
+
+
+    /** 存储权限：查一下有没有给（Android 11+ 看「所有文件访问」）。 */
+    private void checkStoragePermission() {
+        executor.execute(() -> {
+            if (!isAdded()) return;
+            boolean ok;
+            if (android.os.Build.VERSION.SDK_INT >= 30) {
+                ok = android.os.Environment.isExternalStorageManager();
+            } else {
+                ok = org.linbaogu.romhub.hc.common.PermissionUtils.hasPermission(
+                        requireContext(), android.Manifest.permission.WRITE_EXTERNAL_STORAGE);
+            }
+            requireActivity().runOnUiThread(() -> {
+                if (mStoragePermissionItem != null) mStoragePermissionItem.setChecked(ok);
+            });
+        });
+    }
+
+    /**
+     * 点存储项 → 申请存储权限。
+     *
+     * ⚠️ Android 13+ 上 READ/WRITE_EXTERNAL_STORAGE 已是空操作（targetSdk 37），
+     * 必须走「所有文件访问」（MANAGE_EXTERNAL_STORAGE）的系统设置页。
+     */
+    private void requestStoragePermission() {
+        try {
+            if (android.os.Build.VERSION.SDK_INT >= 30) {
+                android.content.Intent i = new android.content.Intent(
+                        android.provider.Settings.ACTION_MANAGE_APP_ALL_FILES_ACCESS_PERMISSION,
+                        android.net.Uri.parse("package:" + requireContext().getPackageName()));
+                startActivity(i);
+            } else {
+                requestPermissions(new String[]{
+                        android.Manifest.permission.WRITE_EXTERNAL_STORAGE}, 1002);
+            }
+        } catch (Throwable t) {
+            try {
+                startActivity(new android.content.Intent(
+                        android.provider.Settings.ACTION_MANAGE_ALL_FILES_ACCESS_PERMISSION));
+            } catch (Throwable ignored) {
+            }
+        }
+    }
+
+
+}

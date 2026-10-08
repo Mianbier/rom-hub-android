@@ -1,1 +1,82 @@
-LyoKICogVGhpcyBmaWxlIGlzIHBhcnQgb2YgUk9NIEh1YiwgcmVsZWFzZWQgdW5kZXIgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSB2My4wLgogKgogKiDmnKzmlofku7bnp7vmpI0gLyDmlLnlhpnoh6ogSHlwZXJDZWlsZXLvvIhBR1BMLTMuMO+8jENvcHlyaWdodCAoQykgMjAyMy0yMDI2IEh5cGVyQ2VpbGVyCiAqIENvbnRyaWJ1dGlvbnPvvInvvIzmiJbkuLrlhbbnrYnku7fmm7/ouqvlrp7njrAg4oCU4oCUIOWujOaVtOadpea6kOS4jum4o+iwouingemhueebruagueebruW9lSBOT1RJQ0UubWTjgIIKICoKICogVGhpcyBwcm9ncmFtIGlzIGZyZWUgc29mdHdhcmU6IHlvdSBjYW4gcmVkaXN0cmlidXRlIGl0IGFuZC9vciBtb2RpZnkgaXQgdW5kZXIgdGhlIHRlcm1zCiAqIG9mIHRoZSBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UgYXMgcHVibGlzaGVkIGJ5IHRoZSBGcmVlIFNvZnR3YXJlIEZvdW5kYXRpb24sCiAqIGVpdGhlciB2ZXJzaW9uIDMgb2YgdGhlIExpY2Vuc2UuCiAqCiAqIFRoaXMgcHJvZ3JhbSBpcyBkaXN0cmlidXRlZCBpbiB0aGUgaG9wZSB0aGF0IGl0IHdpbGwgYmUgdXNlZnVsLCBidXQgV0lUSE9VVCBBTlkgV0FSUkFOVFk7CiAqIHdpdGhvdXQgZXZlbiB0aGUgaW1wbGllZCB3YXJyYW50eSBvZiBNRVJDSEFOVEFCSUxJVFkgb3IgRklUTkVTUyBGT1IgQSBQQVJUSUNVTEFSIFBVUlBPU0UuCiAqIFNlZSB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGZvciBtb3JlIGRldGFpbHMuCiAqCiAqIFlvdSBzaG91bGQgaGF2ZSByZWNlaXZlZCBhIGNvcHkgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBhbG9uZyB3aXRoIHRoaXMKICogcHJvZ3JhbS4gIElmIG5vdCwgc2VlIDxodHRwczovL3d3dy5nbnUub3JnL2xpY2Vuc2VzLz4uCiAqLwoKcGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLmhjLmNvbW1vbjsNCg0KaW1wb3J0IGFuZHJvaWQuYXBwLkFjdGl2aXR5Ow0KaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0Ow0KaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0V3JhcHBlcjsNCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQucmVzLkNvbmZpZ3VyYXRpb247DQoNCmltcG9ydCBqYXZhLnV0aWwuTG9jYWxlOw0KDQovKioNCiAqIEh5cGVyQ2VpbGVyIGBBcHBMYW5ndWFnZUhlbHBlcmAg55qE562J5Lu35pu/6Lqr44CCDQogKg0KICogUk9NIEh1YiDlj6rlh7rkuK3mlofvvIzkuI3lgZrlupTnlKjlhoXor63oqIDliIfmjaLvvIzmiYDku6Xov5nph4zlhajpg6jpgIDljJbmiJDjgIzot5/pmo/ns7vnu5/jgI3vvIwNCiAqIOWPquS/neivgSBwcm92aXNpb24g5rWB56iL6LCD55So5LiN54K444CC6LCD55So6Z2i5a6e5rWLIDYg5Liq5pa55rOV44CCDQogKi8NCnB1YmxpYyBmaW5hbCBjbGFzcyBBcHBMYW5ndWFnZUhlbHBlciB7DQoNCiAgICBwcml2YXRlIEFwcExhbmd1YWdlSGVscGVyKCkgew0KICAgIH0NCg0KICAgIC8qKiBwcm92aXNpb24g6YeM55So5Yiw55qE6K+t6KiA5p2h55uu77yI5Y+q55WZ44CM6Lef6ZqP57O757uf44CN5LiA6aG577yJ44CCICovDQogICAgcHVibGljIHN0YXRpYyBTdHJpbmdbXSBnZXRMYW5ndWFnZUVudHJpZXMoQ29udGV4dCBjdHgpIHsNCiAgICAgICAgcmV0dXJuIG5ldyBTdHJpbmdbXXsi6Lef6ZqP57O757ufIn07DQogICAgfQ0KDQogICAgcHVibGljIHN0YXRpYyBTdHJpbmdbXSBnZXRMYW5ndWFnZUVudHJ5VmFsdWVzKCkgew0KICAgICAgICByZXR1cm4gbmV3IFN0cmluZ1tdeyIifTsNCiAgICB9DQoNCiAgICBwdWJsaWMgc3RhdGljIGludCBnZXRDdXJyZW50TGFuZ3VhZ2VJbmRleChDb250ZXh0IGN0eCkgew0KICAgICAgICByZXR1cm4gMDsNCiAgICB9DQoNCiAgICAvKiog5YiH5o2i6K+t6KiA77yaUk9NIEh1YiDkuI3liIfvvIznm7TmjqXov5Tlm57jgIIgKi8NCiAgICBwdWJsaWMgc3RhdGljIHZvaWQgc2V0SW5kZXhMYW5ndWFnZShBY3Rpdml0eSBhY3Rpdml0eSwgaW50IGluZGV4LCBib29sZWFuIHJlY3JlYXRlKSB7DQogICAgICAgIC8vIG5vLW9wDQogICAgfQ0KDQogICAgcHVibGljIHN0YXRpYyB2b2lkIGZyZWV6ZUN1cnJlbnRMb2NhbGVJZlVuc2V0KENvbnRleHQgY3R4KSB7DQogICAgICAgIC8vIG5vLW9wDQogICAgfQ0KDQogICAgLyoqIOWMheijhSBDb250ZXh077yI5Y6f54mI55So5p2l5rOo5YWlIExvY2FsZe+8ieKAlOKAlOi/memHjOWOn+agt+i/lOWbnuOAgiAqLw0KICAgIHB1YmxpYyBzdGF0aWMgQ29udGV4dCB3cmFwQ29udGV4dChDb250ZXh0IGN0eCkgew0KICAgICAgICByZXR1cm4gY3R4Ow0KICAgIH0NCg0KICAgIHB1YmxpYyBzdGF0aWMgTG9jYWxlIGdldEN1cnJlbnRMb2NhbGUoQ29udGV4dCBjdHgpIHsNCiAgICAgICAgQ29uZmlndXJhdGlvbiBjID0gY3R4LmdldFJlc291cmNlcygpLmdldENvbmZpZ3VyYXRpb24oKTsNCiAgICAgICAgcmV0dXJuIGMuZ2V0TG9jYWxlcygpLmlzRW1wdHkoKSA/IExvY2FsZS5nZXREZWZhdWx0KCkgOiBjLmdldExvY2FsZXMoKS5nZXQoMCk7DQogICAgfQ0KDQogICAgcHVibGljIHN0YXRpYyBTdHJpbmcgZ2V0TGFuZ3VhZ2UoQ29udGV4dCBjdHgpIHsNCiAgICAgICAgcmV0dXJuIGdldEN1cnJlbnRMb2NhbGUoY3R4KS5nZXRMYW5ndWFnZSgpOw0KICAgIH0NCg0KICAgIC8qKiDkvpvlpJbpg6jop6PljIXvvIjljp/niYggd3JhcENvbnRleHQg5Lya5YyF5LiA5bGC77yM6L+Z6YeM5rKh5pyJ77yJ44CCICovDQogICAgcHVibGljIHN0YXRpYyBDb250ZXh0IHVud3JhcChDb250ZXh0IGN0eCkgew0KICAgICAgICB3aGlsZSAoY3R4IGluc3RhbmNlb2YgQ29udGV4dFdyYXBwZXIgJiYgIShjdHggaW5zdGFuY2VvZiBBY3Rpdml0eSkpIHsNCiAgICAgICAgICAgIGN0eCA9ICgoQ29udGV4dFdyYXBwZXIpIGN0eCkuZ2V0QmFzZUNvbnRleHQoKTsNCiAgICAgICAgfQ0KICAgICAgICByZXR1cm4gY3R4Ow0KICAgIH0NCn0NCg==
+/*
+ * This file is part of ROM Hub, released under the GNU Affero General Public License v3.0.
+ *
+ * 本文件移植 / 改写自 HyperCeiler（AGPL-3.0，Copyright (C) 2023-2026 HyperCeiler
+ * Contributions），或为其等价替身实现 —— 完整来源与鸣谢见项目根目录 NOTICE.md。
+ *
+ * This program is free software: you can redistribute it and/or modify it under the terms
+ * of the GNU Affero General Public License as published by the Free Software Foundation,
+ * either version 3 of the License.
+ *
+ * This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+ * without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * See the GNU Affero General Public License for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License along with this
+ * program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
+package org.linbaogu.romhub.hc.common;
+
+import android.app.Activity;
+import android.content.Context;
+import android.content.ContextWrapper;
+import android.content.res.Configuration;
+
+import java.util.Locale;
+
+/**
+ * HyperCeiler `AppLanguageHelper` 的等价替身。
+ *
+ * ROM Hub 只出中文，不做应用内语言切换，所以这里全部退化成「跟随系统」，
+ * 只保证 provision 流程调用不炸。调用面实测 6 个方法。
+ */
+public final class AppLanguageHelper {
+
+    private AppLanguageHelper() {
+    }
+
+    /** provision 里用到的语言条目（只留「跟随系统」一项）。 */
+    public static String[] getLanguageEntries(Context ctx) {
+        return new String[]{"跟随系统"};
+    }
+
+    public static String[] getLanguageEntryValues() {
+        return new String[]{""};
+    }
+
+    public static int getCurrentLanguageIndex(Context ctx) {
+        return 0;
+    }
+
+    /** 切换语言：ROM Hub 不切，直接返回。 */
+    public static void setIndexLanguage(Activity activity, int index, boolean recreate) {
+        // no-op
+    }
+
+    public static void freezeCurrentLocaleIfUnset(Context ctx) {
+        // no-op
+    }
+
+    /** 包装 Context（原版用来注入 Locale）——这里原样返回。 */
+    public static Context wrapContext(Context ctx) {
+        return ctx;
+    }
+
+    public static Locale getCurrentLocale(Context ctx) {
+        Configuration c = ctx.getResources().getConfiguration();
+        return c.getLocales().isEmpty() ? Locale.getDefault() : c.getLocales().get(0);
+    }
+
+    public static String getLanguage(Context ctx) {
+        return getCurrentLocale(ctx).getLanguage();
+    }
+
+    /** 供外部解包（原版 wrapContext 会包一层，这里没有）。 */
+    public static Context unwrap(Context ctx) {
+        while (ctx instanceof ContextWrapper && !(ctx instanceof Activity)) {
+            ctx = ((ContextWrapper) ctx).getBaseContext();
+        }
+        return ctx;
+    }
+}

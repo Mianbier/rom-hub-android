@@ -1,1 +1,8 @@
-Ly8gTWlycm9yZWQgZnJvbSBjb21wb3NlLW1pdWl4LXVpIGV4YW1wbGUgLyBLZXJuZWxTVS4KCnBhY2thZ2Ugb3JnLmxpbmJhb2d1LnJvbWh1Yi51aS5lZmZlY3QKCmVudW0gY2xhc3MgRGV2aWNlVHlwZSB7CiAgICBQSE9ORSwKICAgIFBBRCwKfQo=
+// Mirrored from compose-miuix-ui example / KernelSU.
+
+package org.linbaogu.romhub.ui.effect
+
+enum class DeviceType {
+    PHONE,
+    PAD,
+}

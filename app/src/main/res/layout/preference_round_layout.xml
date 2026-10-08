@@ -1,1 +1,113 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IS0tCiAgfiBUaGlzIGZpbGUgaXMgcGFydCBvZiBIeXBlckNlaWxlci4KICB+CiAgfiBIeXBlckNlaWxlciBpcyBmcmVlIHNvZnR3YXJlOiB5b3UgY2FuIHJlZGlzdHJpYnV0ZSBpdCBhbmQvb3IgbW9kaWZ5CiAgfiBpdCB1bmRlciB0aGUgdGVybXMgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBhcwogIH4gcHVibGlzaGVkIGJ5IHRoZSBGcmVlIFNvZnR3YXJlIEZvdW5kYXRpb24sIGVpdGhlciB2ZXJzaW9uIDMgb2YgdGhlCiAgfiBMaWNlbnNlLgogIH4KICB+IFRoaXMgcHJvZ3JhbSBpcyBkaXN0cmlidXRlZCBpbiB0aGUgaG9wZSB0aGF0IGl0IHdpbGwgYmUgdXNlZnVsLAogIH4gYnV0IFdJVEhPVVQgQU5ZIFdBUlJBTlRZOyB3aXRob3V0IGV2ZW4gdGhlIGltcGxpZWQgd2FycmFudHkgb2YKICB+IE1FUkNIQU5UQUJJTElUWSBvciBGSVRORVNTIEZPUiBBIFBBUlRJQ1VMQVIgUFVSUE9TRS4gIFNlZSB0aGUKICB+IEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBmb3IgbW9yZSBkZXRhaWxzLgogIH4KICB+IFlvdSBzaG91bGQgaGF2ZSByZWNlaXZlZCBhIGNvcHkgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZQogIH4gYWxvbmcgd2l0aCB0aGlzIHByb2dyYW0uICBJZiBub3QsIHNlZSA8aHR0cHM6Ly93d3cuZ251Lm9yZy9saWNlbnNlcy8+LgogIH4KICB+IENvcHlyaWdodCAoQykgMjAyMy0yMDI2IEh5cGVyQ2VpbGVyIENvbnRyaWJ1dGlvbnMKICAtLT48IS0tCiAgfiBDb3B5cmlnaHQgKEMpIDIwMTUgVGhlIEFuZHJvaWQgT3BlbiBTb3VyY2UgUHJvamVjdAogIH4KICB+IExpY2Vuc2VkIHVuZGVyIHRoZSBBcGFjaGUgTGljZW5zZSwgVmVyc2lvbiAyLjAgKHRoZSAiTGljZW5zZSIpOwogIH4geW91IG1heSBub3QgdXNlIHRoaXMgZmlsZSBleGNlcHQgaW4gY29tcGxpYW5jZSB3aXRoIHRoZSBMaWNlbnNlLgogIH4gWW91IG1heSBvYnRhaW4gYSBjb3B5IG9mIHRoZSBMaWNlbnNlIGF0CiAgfgogIH4gICAgICBodHRwOi8vd3d3LmFwYWNoZS5vcmcvbGljZW5zZXMvTElDRU5TRS0yLjAKICB+CiAgfiBVbmxlc3MgcmVxdWlyZWQgYnkgYXBwbGljYWJsZSBsYXcgb3IgYWdyZWVkIHRvIGluIHdyaXRpbmcsIHNvZnR3YXJlCiAgfiBkaXN0cmlidXRlZCB1bmRlciB0aGUgTGljZW5zZSBpcyBkaXN0cmlidXRlZCBvbiBhbiAiQVMgSVMiIEJBU0lTLAogIH4gV0lUSE9VVCBXQVJSQU5USUVTIE9SIENPTkRJVElPTlMgT0YgQU5ZIEtJTkQsIGVpdGhlciBleHByZXNzIG9yIGltcGxpZWQuCiAgfiBTZWUgdGhlIExpY2Vuc2UgZm9yIHRoZSBzcGVjaWZpYyBsYW5ndWFnZSBnb3Zlcm5pbmcgcGVybWlzc2lvbnMgYW5kCiAgfiBsaW1pdGF0aW9ucyB1bmRlciB0aGUgTGljZW5zZQogIC0tPgoKPExpbmVhckxheW91dCB4bWxuczphbmRyb2lkPSJodHRwOi8vc2NoZW1hcy5hbmRyb2lkLmNvbS9hcGsvcmVzL2FuZHJvaWQiCiAgICB4bWxuczp0b29scz0iaHR0cDovL3NjaGVtYXMuYW5kcm9pZC5jb20vdG9vbHMiCiAgICBhbmRyb2lkOmxheW91dF93aWR0aD0ibWF0Y2hfcGFyZW50IgogICAgYW5kcm9pZDpsYXlvdXRfaGVpZ2h0PSJ3cmFwX2NvbnRlbnQiCiAgICBhbmRyb2lkOmxheW91dF9ncmF2aXR5PSJjZW50ZXJfdmVydGljYWwiCiAgICBhbmRyb2lkOmJhY2tncm91bmQ9Ij9wcmVmZXJlbmNlSXRlbUJhY2tncm91bmQiCiAgICBhbmRyb2lkOmNsaXBDaGlsZHJlbj0iZmFsc2UiCiAgICBhbmRyb2lkOmdyYXZpdHk9ImNlbnRlcl92ZXJ0aWNhbCIKICAgIHRvb2xzOmlnbm9yZT0iUHJpdmF0ZVJlc291cmNlIj4KCiAgICA8RnJhbWVMYXlvdXQKICAgICAgICBhbmRyb2lkOmlkPSJAK2lkL2ljb25fZnJhbWUiCiAgICAgICAgYW5kcm9pZDpsYXlvdXRfd2lkdGg9IndyYXBfY29udGVudCIKICAgICAgICBhbmRyb2lkOmxheW91dF9oZWlnaHQ9IndyYXBfY29udGVudCIKICAgICAgICBhbmRyb2lkOm1pbldpZHRoPSJAZGltZW4vbWl1aXhfcHJlZmVyZW5jZV9pY29uX21pbldpZHRoIgogICAgICAgIGFuZHJvaWQ6cGFkZGluZ1RvcD0iQGRpbWVuL21pdWl4X3ByZWZlcmVuY2VfaXRlbV9wYWRkaW5nX2lubmVyIgogICAgICAgIGFuZHJvaWQ6cGFkZGluZ0VuZD0iQGRpbWVuL21pdWl4X3ByZWZlcmVuY2VfaWNvbl9wYWRkaW5nX2VuZCIKICAgICAgICBhbmRyb2lkOnBhZGRpbmdCb3R0b209IkBkaW1lbi9taXVpeF9wcmVmZXJlbmNlX2l0ZW1fcGFkZGluZ19pbm5lciIKICAgICAgICB0b29sczppZ25vcmU9IlByaXZhdGVSZXNvdXJjZSxSdGxTeW1tZXRyeSI+CgogICAgICAgIDxjb20uc2V2dGluZ2UuaHlwZXJjZWlsZXIuY29tbW9uLnZpZXcuQ2lyY2xlSW1hZ2VWaWV3CiAgICAgICAgICAgIGFuZHJvaWQ6aWQ9IkBhbmRyb2lkOmlkL2ljb24iCiAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X3dpZHRoPSI2MGRwIgogICAgICAgICAgICBhbmRyb2lkOmxheW91dF9oZWlnaHQ9IjYwZHAiCiAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X2dyYXZpdHk9ImNlbnRlciIgLz4KCiAgICA8L0ZyYW1lTGF5b3V0PgoKICAgIDxSZWxhdGl2ZUxheW91dAogICAgICAgIHN0eWxlPSJAc3R5bGUvV2lkZ2V0LlByZWZlcmVuY2VJdGVtIgogICAgICAgIGFuZHJvaWQ6bGF5b3V0X3dpZHRoPSJ3cmFwX2NvbnRlbnQiCiAgICAgICAgYW5kcm9pZDpsYXlvdXRfaGVpZ2h0PSJ3cmFwX2NvbnRlbnQiCiAgICAgICAgYW5kcm9pZDpsYXlvdXRfZ3Jhdml0eT0iY2VudGVyX3ZlcnRpY2FsIgogICAgICAgIGFuZHJvaWQ6bGF5b3V0X3dlaWdodD0iMSIKICAgICAgICBhbmRyb2lkOmdyYXZpdHk9ImNlbnRlcl92ZXJ0aWNhbCIKICAgICAgICB0b29sczppZ25vcmU9IkluZWZmaWNpZW50V2VpZ2h0Ij4KCiAgICAgICAgPFRleHRWaWV3CiAgICAgICAgICAgIGFuZHJvaWQ6aWQ9IkBhbmRyb2lkOmlkL3RpdGxlIgogICAgICAgICAgICBhbmRyb2lkOmxheW91dF93aWR0aD0id3JhcF9jb250ZW50IgogICAgICAgICAgICBhbmRyb2lkOmxheW91dF9oZWlnaHQ9IndyYXBfY29udGVudCIKICAgICAgICAgICAgYW5kcm9pZDplbGxpcHNpemU9ImVuZCIKICAgICAgICAgICAgYW5kcm9pZDpmYWRpbmdFZGdlPSJob3Jpem9udGFsIgogICAgICAgICAgICBhbmRyb2lkOm1heExpbmVzPSIyIgogICAgICAgICAgICBhbmRyb2lkOnRleHRBbGlnbm1lbnQ9InZpZXdTdGFydCIKICAgICAgICAgICAgYW5kcm9pZDp0ZXh0QXBwZWFyYW5jZT0iQHN0eWxlL1RleHRBcHBlYXJhbmNlLkxpc3QiIC8+CgogICAgICAgIDxUZXh0VmlldwogICAgICAgICAgICBhbmRyb2lkOmlkPSJAYW5kcm9pZDppZC9zdW1tYXJ5IgogICAgICAgICAgICBhbmRyb2lkOmxheW91dF93aWR0aD0id3JhcF9jb250ZW50IgogICAgICAgICAgICBhbmRyb2lkOmxheW91dF9oZWlnaHQ9IndyYXBfY29udGVudCIKICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfYmVsb3c9IkBhbmRyb2lkOmlkL3RpdGxlIgogICAgICAgICAgICBhbmRyb2lkOmxheW91dF9hbGlnblN0YXJ0PSJAYW5kcm9pZDppZC90aXRsZSIKICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfbWFyZ2luVG9wPSJAZGltZW4vbWl1aXhfcHJlZmVyZW5jZV9zdW1tYXJ5X21hcmdpbl90b3AiCiAgICAgICAgICAgIGFuZHJvaWQ6dGV4dEFsaWdubWVudD0idmlld1N0YXJ0IgogICAgICAgICAgICBhbmRyb2lkOnRleHRBcHBlYXJhbmNlPSJAc3R5bGUvVGV4dEFwcGVhcmFuY2UuTGlzdC5TZWNvbmRhcnkiCiAgICAgICAgICAgIHRvb2xzOmlnbm9yZT0iUHJpdmF0ZVJlc291cmNlIiAvPgoKICAgIDwvUmVsYXRpdmVMYXlvdXQ+CgogICAgPCEtLSBQcmVmZXJlbmNlIHNob3VsZCBwbGFjZSBpdHMgYWN0dWFsIHByZWZlcmVuY2Ugd2lkZ2V0IGhlcmUuIC0tPgogICAgPExpbmVhckxheW91dAogICAgICAgIGFuZHJvaWQ6aWQ9IkBhbmRyb2lkOmlkL3dpZGdldF9mcmFtZSIKICAgICAgICBhbmRyb2lkOmxheW91dF93aWR0aD0id3JhcF9jb250ZW50IgogICAgICAgIGFuZHJvaWQ6bGF5b3V0X2hlaWdodD0id3JhcF9jb250ZW50IgogICAgICAgIGFuZHJvaWQ6Y2xpcENoaWxkcmVuPSJmYWxzZSIKICAgICAgICBhbmRyb2lkOmdyYXZpdHk9ImNlbnRlciIKICAgICAgICBhbmRyb2lkOm1pbldpZHRoPSJAZGltZW4vbWl1aXhfcHJlZmVyZW5jZV93aWRnZXRfd2lkdGgiCiAgICAgICAgYW5kcm9pZDpvcmllbnRhdGlvbj0idmVydGljYWwiCiAgICAgICAgdG9vbHM6aWdub3JlPSJQcml2YXRlUmVzb3VyY2UiIC8+CgogICAgPEltYWdlVmlldwogICAgICAgIGFuZHJvaWQ6aWQ9IkAraWQvYXJyb3dfcmlnaHQiCiAgICAgICAgYW5kcm9pZDpsYXlvdXRfd2lkdGg9IndyYXBfY29udGVudCIKICAgICAgICBhbmRyb2lkOmxheW91dF9oZWlnaHQ9IndyYXBfY29udGVudCIKICAgICAgICBhbmRyb2lkOmxheW91dF9ncmF2aXR5PSJjZW50ZXJ8ZW5kIgogICAgICAgIGFuZHJvaWQ6Z3Jhdml0eT0iY2VudGVyIgogICAgICAgIGFuZHJvaWQ6c3JjPSJAZHJhd2FibGUvbWl1aXhfcHJlZmVyZW5jZV9pY29uX2Fycm93X3JpZ2h0IgogICAgICAgIHRvb2xzOmlnbm9yZT0iQ29udGVudERlc2NyaXB0aW9uLFByaXZhdGVSZXNvdXJjZSIgLz4KPC9MaW5lYXJMYXlvdXQ+
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ This file is part of HyperCeiler.
+  ~
+  ~ HyperCeiler is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU Affero General Public License as
+  ~ published by the Free Software Foundation, either version 3 of the
+  ~ License.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU Affero General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU Affero General Public License
+  ~ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+  ~
+  ~ Copyright (C) 2023-2026 HyperCeiler Contributions
+  --><!--
+  ~ Copyright (C) 2015 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:background="?preferenceItemBackground"
+    android:clipChildren="false"
+    android:gravity="center_vertical"
+    tools:ignore="PrivateResource">
+
+    <FrameLayout
+        android:id="@+id/icon_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="@dimen/miuix_preference_icon_minWidth"
+        android:paddingTop="@dimen/miuix_preference_item_padding_inner"
+        android:paddingEnd="@dimen/miuix_preference_icon_padding_end"
+        android:paddingBottom="@dimen/miuix_preference_item_padding_inner"
+        tools:ignore="PrivateResource,RtlSymmetry">
+
+        <com.sevtinge.hyperceiler.common.view.CircleImageView
+            android:id="@android:id/icon"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center" />
+
+    </FrameLayout>
+
+    <RelativeLayout
+        style="@style/Widget.PreferenceItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        tools:ignore="InefficientWeight">
+
+        <TextView
+            android:id="@android:id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:fadingEdge="horizontal"
+            android:maxLines="2"
+            android:textAlignment="viewStart"
+            android:textAppearance="@style/TextAppearance.List" />
+
+        <TextView
+            android:id="@android:id/summary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@android:id/title"
+            android:layout_alignStart="@android:id/title"
+            android:layout_marginTop="@dimen/miuix_preference_summary_margin_top"
+            android:textAlignment="viewStart"
+            android:textAppearance="@style/TextAppearance.List.Secondary"
+            tools:ignore="PrivateResource" />
+
+    </RelativeLayout>
+
+    <!-- Preference should place its actual preference widget here. -->
+    <LinearLayout
+        android:id="@android:id/widget_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clipChildren="false"
+        android:gravity="center"
+        android:minWidth="@dimen/miuix_preference_widget_width"
+        android:orientation="vertical"
+        tools:ignore="PrivateResource" />
+
+    <ImageView
+        android:id="@+id/arrow_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|end"
+        android:gravity="center"
+        android:src="@drawable/miuix_preference_icon_arrow_right"
+        tools:ignore="ContentDescription,PrivateResource" />
+</LinearLayout>

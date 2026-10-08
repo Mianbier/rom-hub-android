@@ -1,1 +1,61 @@
-LyoKICogVGhpcyBmaWxlIGlzIHBhcnQgb2YgSHlwZXJDZWlsZXIuCgogKiBIeXBlckNlaWxlciBpcyBmcmVlIHNvZnR3YXJlOiB5b3UgY2FuIHJlZGlzdHJpYnV0ZSBpdCBhbmQvb3IgbW9kaWZ5CiAqIGl0IHVuZGVyIHRoZSB0ZXJtcyBvZiB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGFzCiAqIHB1Ymxpc2hlZCBieSB0aGUgRnJlZSBTb2Z0d2FyZSBGb3VuZGF0aW9uLCBlaXRoZXIgdmVyc2lvbiAzIG9mIHRoZQogKiBMaWNlbnNlLgoKICogVGhpcyBwcm9ncmFtIGlzIGRpc3RyaWJ1dGVkIGluIHRoZSBob3BlIHRoYXQgaXQgd2lsbCBiZSB1c2VmdWwsCiAqIGJ1dCBXSVRIT1VUIEFOWSBXQVJSQU5UWTsgd2l0aG91dCBldmVuIHRoZSBpbXBsaWVkIHdhcnJhbnR5IG9mCiAqIE1FUkNIQU5UQUJJTElUWSBvciBGSVRORVNTIEZPUiBBIFBBUlRJQ1VMQVIgUFVSUE9TRS4gIFNlZSB0aGUKICogR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGZvciBtb3JlIGRldGFpbHMuCgogKiBZb3Ugc2hvdWxkIGhhdmUgcmVjZWl2ZWQgYSBjb3B5IG9mIHRoZSBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UKICogYWxvbmcgd2l0aCB0aGlzIHByb2dyYW0uICBJZiBub3QsIHNlZSA8aHR0cHM6Ly93d3cuZ251Lm9yZy9saWNlbnNlcy8+LgoKICogQ29weXJpZ2h0IChDKSAyMDIzLTIwMjYgSHlwZXJDZWlsZXIgQ29udHJpYnV0aW9ucwogKi8KcGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLmhjLnByb3Zpc2lvbi50ZXh0LnN0eWxlOwoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0OwppbXBvcnQgYW5kcm9pZC50ZXh0LlNwYW5uZWQ7CmltcG9ydCBhbmRyb2lkLnRleHQuVGV4dFBhaW50OwppbXBvcnQgYW5kcm9pZC50ZXh0LnN0eWxlLkNsaWNrYWJsZVNwYW47CmltcG9ydCBhbmRyb2lkLnZpZXcuVmlldzsKaW1wb3J0IGFuZHJvaWQud2lkZ2V0LlRleHRWaWV3OwoKaW1wb3J0IGFuZHJvaWR4LmFubm90YXRpb24uTm9uTnVsbDsKCmltcG9ydCBmYW4ucHJvdmlzaW9uLk9vYmVVdGlsczsKCmltcG9ydCBqYXZhLnV0aWwuSGFzaE1hcDsKCnB1YmxpYyBjbGFzcyBDbGlja1NwYW4gZXh0ZW5kcyBDbGlja2FibGVTcGFuIHsKCiAgICBwcml2YXRlIENvbnRleHQgbUNvbnRleHQ7CiAgICBwcml2YXRlIGZpbmFsIEhhc2hNYXA8U3RyaW5nLCBJbnRlZ2VyPiBtUHJpdmFjeVR5cGVNYXA7CgogICAgcHVibGljIENsaWNrU3BhbihDb250ZXh0IGNvbnRleHQsIEhhc2hNYXA8U3RyaW5nLCBJbnRlZ2VyPiB0eXBlTWFwKSB7CiAgICAgICAgdGhpcyh0eXBlTWFwKTsKICAgICAgICBtQ29udGV4dCA9IGNvbnRleHQ7CiAgICB9CgogICAgcHJpdmF0ZSBDbGlja1NwYW4oSGFzaE1hcDxTdHJpbmcsIEludGVnZXI+IHR5cGVNYXApIHsKICAgICAgICBtUHJpdmFjeVR5cGVNYXAgPSB0eXBlTWFwOwogICAgfQoKICAgIEBPdmVycmlkZQogICAgcHVibGljIHZvaWQgdXBkYXRlRHJhd1N0YXRlKEBOb25OdWxsIFRleHRQYWludCBkcykgewogICAgICAgIGRzLnNldFVuZGVybGluZVRleHQoZmFsc2UpOwogICAgICAgIHN1cGVyLnVwZGF0ZURyYXdTdGF0ZShkcyk7CiAgICB9CgogICAgQE92ZXJyaWRlCiAgICBwdWJsaWMgdm9pZCBvbkNsaWNrKEBOb25OdWxsIFZpZXcgd2lkZ2V0KSB7CiAgICAgICAgU3Bhbm5lZCBzcGFubmVkID0gKFNwYW5uZWQpICgoVGV4dFZpZXcpIHdpZGdldCkuZ2V0VGV4dCgpOwogICAgICAgIGludCBzcGFuU3RhcnQgPSBzcGFubmVkLmdldFNwYW5TdGFydCh0aGlzKTsKICAgICAgICBpbnQgc3BhbkVuZCA9IHNwYW5uZWQuZ2V0U3BhbkVuZCh0aGlzKTsKICAgICAgICBPb2JlVXRpbHMuc3RhcnRBY3Rpdml0eShtQ29udGV4dCwgT29iZVV0aWxzLmdldExpY2Vuc2VJbnRlbnQoImh0dHBzOi8vbGltZXN0YXJ0LmNuLyIpKTsKICAgIH0KfQo=
+/*
+ * This file is part of HyperCeiler.
+
+ * HyperCeiler is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as
+ * published by the Free Software Foundation, either version 3 of the
+ * License.
+
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Affero General Public License for more details.
+
+ * You should have received a copy of the GNU Affero General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+ * Copyright (C) 2023-2026 HyperCeiler Contributions
+ */
+package org.linbaogu.romhub.hc.provision.text.style;
+
+import android.content.Context;
+import android.text.Spanned;
+import android.text.TextPaint;
+import android.text.style.ClickableSpan;
+import android.view.View;
+import android.widget.TextView;
+
+import androidx.annotation.NonNull;
+
+import fan.provision.OobeUtils;
+
+import java.util.HashMap;
+
+public class ClickSpan extends ClickableSpan {
+
+    private Context mContext;
+    private final HashMap<String, Integer> mPrivacyTypeMap;
+
+    public ClickSpan(Context context, HashMap<String, Integer> typeMap) {
+        this(typeMap);
+        mContext = context;
+    }
+
+    private ClickSpan(HashMap<String, Integer> typeMap) {
+        mPrivacyTypeMap = typeMap;
+    }
+
+    @Override
+    public void updateDrawState(@NonNull TextPaint ds) {
+        ds.setUnderlineText(false);
+        super.updateDrawState(ds);
+    }
+
+    @Override
+    public void onClick(@NonNull View widget) {
+        Spanned spanned = (Spanned) ((TextView) widget).getText();
+        int spanStart = spanned.getSpanStart(this);
+        int spanEnd = spanned.getSpanEnd(this);
+        OobeUtils.startActivity(mContext, OobeUtils.getLicenseIntent("https://limestart.cn/"));
+    }
+}

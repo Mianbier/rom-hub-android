@@ -1,1 +1,64 @@
-I3ZlcnNpb24gMzAwIGVzCgp1bmlmb3JtIG1hdDQgdVBhdGNoWFs2XTsKdW5pZm9ybSBtYXQ0IHVQYXRjaFlbNl07CnVuaWZvcm0gbWF0NCB1UGF0Y2hSWzZdOwp1bmlmb3JtIG1hdDQgdVBhdGNoR1s2XTsKdW5pZm9ybSBtYXQ0IHVQYXRjaEJbNl07CgpvdXQgdmVjMyB2Q29sb3I7CgppbnQgbWVzaENvdW50ID0gMjA7CmludCBtZXNoQ291bnQyID0gNDAwOwpmbG9hdCBmX21lc2hDb3VudF9taW51c19vbmUgPSBmbG9hdCgxOSk7CmludCByb3cgPSA0OwppbnQgY29sID0gMzsKZmxvYXQgZl9yb3dfbWludXNfb25lID0gZmxvYXQoMyk7CmZsb2F0IGZfY29sX21pbnVzX29uZSA9IGZsb2F0KDIpOwp2ZWMzIGNhbGNQb3NpdGlvbjsKdmVjMyBjYWxjQ29sb3I7CgptYXQ0IEhNID0gbWF0NCgKICAgIDIuMCwgLTIuMCwgMS4wLCAxLjAsCiAgICAtMy4wLCAzLjAsIC0yLjAsIC0xLjAsCiAgICAwLjAsIDAuMCwgMS4wLCAwLjAsCiAgICAxLjAsIDAuMCwgMC4wLCAwLjApOwoKbWF0NCBITV9UID0gbWF0NCgKICAgIDIuMCwgLTMuMCwgMC4wLCAxLjAsCiAgICAtMi4wLCAzLjAsIDAuMCwgMC4wLAogICAgMS4wLCAtMi4wLCAxLjAsIDAuMCwKICAgIDEuMCwgLTEuMCwgMC4wLCAwLjApOwoKZmxvYXQgZ2V0UGF0Y2hQb2ludChtYXQ0IHBhdGNoQXR0cmksIHZlYzQgSE1fbXVsX3VWZWMsIHZlYzQgdlZlYykgewogICAgcmV0dXJuIGRvdChITV9UICogcGF0Y2hBdHRyaSAqIEhNX211bF91VmVjLCB2VmVjKTsKfQoKdm9pZCBtYWluKCkgewogICAgaW50IHZlcnRleEluZGV4ID0gZ2xfVmVydGV4SUQ7CiAgICBpbnQgcGF0Y2hSb3cgPSB2ZXJ0ZXhJbmRleCAvIChtZXNoQ291bnQyICogMik7CiAgICBpbnQgcGF0Y2hDb2wgPSBpbnQoKHZlcnRleEluZGV4IC0gbWVzaENvdW50MiAqIDIgKiBwYXRjaFJvdykgPj0gbWVzaENvdW50Mik7CiAgICBpbnQgcGF0Y2hJbmRleCA9IHBhdGNoUm93ICogMiArIHBhdGNoQ29sOwogICAgaW50IHZlcnRleEluZGV4SW5QYXRjaCA9IHZlcnRleEluZGV4IC0gbWVzaENvdW50MiAqIHBhdGNoSW5kZXg7CiAgICBpbnQgbSA9IHZlcnRleEluZGV4SW5QYXRjaCAvIG1lc2hDb3VudDsKICAgIGludCBuID0gdmVydGV4SW5kZXhJblBhdGNoICUgbWVzaENvdW50OwogICAgZmxvYXQgdSA9IGZsb2F0KG0pIC8gZl9tZXNoQ291bnRfbWludXNfb25lOwogICAgZmxvYXQgdiA9IGZsb2F0KG4pIC8gZl9tZXNoQ291bnRfbWludXNfb25lOwogICAgdmVjNCB1VmVjID0gdmVjNCh1ICogdSAqIHUsIHUgKiB1LCB1LCAxLjApOwogICAgdmVjNCB2VmVjID0gdmVjNCh2ICogdiAqIHYsIHYgKiB2LCB2LCAxLjApOwogICAgdmVjNCBITV9tdWxfdVZlYyA9IEhNICogdVZlYzsKICAgIGZsb2F0IHggPSBnZXRQYXRjaFBvaW50KHVQYXRjaFhbcGF0Y2hJbmRleF0sIEhNX211bF91VmVjLCB2VmVjKTsKICAgIGZsb2F0IHkgPSBnZXRQYXRjaFBvaW50KHVQYXRjaFlbcGF0Y2hJbmRleF0sIEhNX211bF91VmVjLCB2VmVjKTsKICAgIGZsb2F0IHIgPSBnZXRQYXRjaFBvaW50KHVQYXRjaFJbcGF0Y2hJbmRleF0sIEhNX211bF91VmVjLCB2VmVjKTsKICAgIGZsb2F0IGcgPSBnZXRQYXRjaFBvaW50KHVQYXRjaEdbcGF0Y2hJbmRleF0sIEhNX211bF91VmVjLCB2VmVjKTsKICAgIGZsb2F0IGIgPSBnZXRQYXRjaFBvaW50KHVQYXRjaEJbcGF0Y2hJbmRleF0sIEhNX211bF91VmVjLCB2VmVjKTsKICAgIGZsb2F0IHQgPSAoZmxvYXQocGF0Y2hDb2wpICogZl9tZXNoQ291bnRfbWludXNfb25lICsgZmxvYXQobSkpIC8gKGZfY29sX21pbnVzX29uZSAqIGZfbWVzaENvdW50X21pbnVzX29uZSk7CiAgICBmbG9hdCBzID0gKGZsb2F0KHBhdGNoUm93KSAqIGZfbWVzaENvdW50X21pbnVzX29uZSArIGZsb2F0KG4pKSAvIChmX3Jvd19taW51c19vbmUgKiBmX21lc2hDb3VudF9taW51c19vbmUpOwogICAgZmxvYXQgeiA9IDEuMGYgLSAoKHMgLSAwLjVmKSAqIChzIC0gMC41ZikgKyAodCAtIDAuNWYpICogKHQgLSAwLjVmKSk7CiAgICB4ID0gbWl4KC0xLjBmLCAxLjBmLCB4KTsKICAgIHkgPSBtaXgoLTEuMGYsIDEuMGYsIHkpOwogICAgeiA9IG1peCgtMS4wZiwgMS4wZiwgeik7CgogICAgdkNvbG9yID0gdmVjMyhyLCBnLCBiKTsKICAgIGdsX1Bvc2l0aW9uID0gdmVjNCh4LCB5LCB6LCAxLjApOwp9
+#version 300 es
+
+uniform mat4 uPatchX[6];
+uniform mat4 uPatchY[6];
+uniform mat4 uPatchR[6];
+uniform mat4 uPatchG[6];
+uniform mat4 uPatchB[6];
+
+out vec3 vColor;
+
+int meshCount = 20;
+int meshCount2 = 400;
+float f_meshCount_minus_one = float(19);
+int row = 4;
+int col = 3;
+float f_row_minus_one = float(3);
+float f_col_minus_one = float(2);
+vec3 calcPosition;
+vec3 calcColor;
+
+mat4 HM = mat4(
+    2.0, -2.0, 1.0, 1.0,
+    -3.0, 3.0, -2.0, -1.0,
+    0.0, 0.0, 1.0, 0.0,
+    1.0, 0.0, 0.0, 0.0);
+
+mat4 HM_T = mat4(
+    2.0, -3.0, 0.0, 1.0,
+    -2.0, 3.0, 0.0, 0.0,
+    1.0, -2.0, 1.0, 0.0,
+    1.0, -1.0, 0.0, 0.0);
+
+float getPatchPoint(mat4 patchAttri, vec4 HM_mul_uVec, vec4 vVec) {
+    return dot(HM_T * patchAttri * HM_mul_uVec, vVec);
+}
+
+void main() {
+    int vertexIndex = gl_VertexID;
+    int patchRow = vertexIndex / (meshCount2 * 2);
+    int patchCol = int((vertexIndex - meshCount2 * 2 * patchRow) >= meshCount2);
+    int patchIndex = patchRow * 2 + patchCol;
+    int vertexIndexInPatch = vertexIndex - meshCount2 * patchIndex;
+    int m = vertexIndexInPatch / meshCount;
+    int n = vertexIndexInPatch % meshCount;
+    float u = float(m) / f_meshCount_minus_one;
+    float v = float(n) / f_meshCount_minus_one;
+    vec4 uVec = vec4(u * u * u, u * u, u, 1.0);
+    vec4 vVec = vec4(v * v * v, v * v, v, 1.0);
+    vec4 HM_mul_uVec = HM * uVec;
+    float x = getPatchPoint(uPatchX[patchIndex], HM_mul_uVec, vVec);
+    float y = getPatchPoint(uPatchY[patchIndex], HM_mul_uVec, vVec);
+    float r = getPatchPoint(uPatchR[patchIndex], HM_mul_uVec, vVec);
+    float g = getPatchPoint(uPatchG[patchIndex], HM_mul_uVec, vVec);
+    float b = getPatchPoint(uPatchB[patchIndex], HM_mul_uVec, vVec);
+    float t = (float(patchCol) * f_meshCount_minus_one + float(m)) / (f_col_minus_one * f_meshCount_minus_one);
+    float s = (float(patchRow) * f_meshCount_minus_one + float(n)) / (f_row_minus_one * f_meshCount_minus_one);
+    float z = 1.0f - ((s - 0.5f) * (s - 0.5f) + (t - 0.5f) * (t - 0.5f));
+    x = mix(-1.0f, 1.0f, x);
+    y = mix(-1.0f, 1.0f, y);
+    z = mix(-1.0f, 1.0f, z);
+
+    vColor = vec3(r, g, b);
+    gl_Position = vec4(x, y, z, 1.0);
+}

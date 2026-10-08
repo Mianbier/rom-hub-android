@@ -1,1 +1,127 @@
-cGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLnVpLnNjcmVlbnMNCg0KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5jbGlja2FibGUNCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LkNvbHVtbg0KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuUGFkZGluZ1ZhbHVlcw0KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuUm93DQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5TcGFjZXINCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LmZpbGxNYXhXaWR0aA0KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuaGVpZ2h0DQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5wYWRkaW5nDQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5zaXplDQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxhenkuTGF6eUNvbHVtbg0KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXp5Lml0ZW1zDQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLkNvbXBvc2FibGUNCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLkFsaWdubWVudA0KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuTW9kaWZpZXINCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmdyYXBoaWNzLnZlY3Rvci5JbWFnZVZlY3Rvcg0KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudGV4dC5mb250LkZvbnRXZWlnaHQNCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnVuaXQuRHANCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnVuaXQuZHANCmltcG9ydCBvcmcubGluYmFvZ3Uucm9taHViLmNvcmUuUm9sZQ0KaW1wb3J0IG9yZy5saW5iYW9ndS5yb21odWIuaGMuSGNIb21lVGlwDQppbXBvcnQgb3JnLmxpbmJhb2d1LnJvbWh1Yi5wYW4uc3RvcmUuQm9va21hcmtTdG9yZQ0KaW1wb3J0IG9yZy5saW5iYW9ndS5yb21odWIudWkuQXBwVmlld01vZGVsDQppbXBvcnQgb3JnLmxpbmJhb2d1LnJvbWh1Yi51aS5jb21tb24uSGNEaXZpZGVyDQppbXBvcnQgb3JnLmxpbmJhb2d1LnJvbWh1Yi51aS5jb21tb24uSGNHcm91cA0KaW1wb3J0IG9yZy5saW5iYW9ndS5yb21odWIudWkuY29tbW9uLkxpc3RTY3JlZW4NCmltcG9ydCBvcmcubGluYmFvZ3Uucm9taHViLnVpLmNvbW1vbi5TZWN0aW9uTGFiZWwNCmltcG9ydCBvcmcubGluYmFvZ3Uucm9taHViLnVpLm5hdi5TY3JlZW4NCmltcG9ydCB0b3AueXVrb25nYS5taXVpeC5rbXAuYmFzaWMuSWNvbg0KaW1wb3J0IHRvcC55dWtvbmdhLm1pdWl4LmttcC5iYXNpYy5UZXh0DQppbXBvcnQgdG9wLnl1a29uZ2EubWl1aXgua21wLmljb24uTWl1aXhJY29ucw0KaW1wb3J0IHRvcC55dWtvbmdhLm1pdWl4LmttcC5pY29uLmV4dGVuZGVkLkNoZXZyb25Gb3J3YXJkDQppbXBvcnQgdG9wLnl1a29uZ2EubWl1aXgua21wLmljb24uZXh0ZW5kZWQuRG93bmxvYWQNCmltcG9ydCB0b3AueXVrb25nYS5taXVpeC5rbXAuaWNvbi5leHRlbmRlZC5HcmlkVmlldw0KaW1wb3J0IHRvcC55dWtvbmdhLm1pdWl4LmttcC5pY29uLmV4dGVuZGVkLlVwZGF0ZQ0KaW1wb3J0IHRvcC55dWtvbmdhLm1pdWl4LmttcC5pY29uLmV4dGVuZGVkLlVwbG9hZENsb3VkDQppbXBvcnQgdG9wLnl1a29uZ2EubWl1aXgua21wLnRoZW1lLk1pdWl4VGhlbWUNCg0KLyoqDQogKiDjgIzkuLvpobXjgI3igJTigJTku78gSHlwZXJDZWlsZXIg55qE6aaW6aG177yaKirkuIDkuKrlpKfmoIfpopggKyDkuIDmnaEgdGlwcyArIOS4gOe7hOWKn+iDveWFpeWPo+WNoeeJhyoq44CCDQogKg0KICog4pqg77iPIOeCuei/m+WOu+eahOWtkOmhtSoq6LWw5q2j5bi46aG16Z2i5qCIKirvvIhbU2NyZWVuLkZpcm13YXJlXSAvIFtTY3JlZW4uRmVlZF0gLyBbU2NyZWVuLlBhbkh1Yl0gLw0KICogW1NjcmVlbi5VcGxvYWRd77yJ77yM5LiN5YaN5Zyo6aaW6aG15YaF6IGU5o2i5YaF5a6544CC6L+Z5qC377yaDQogKiAgIMK3IOi/m+WFpeaXtuaciSBIeXBlck9TIOW8ueewp+a7keWFpSArIOS4i+WxgumhtemdouinhuW3ru+8iOWSjCBIeXBlckNlaWxlciDnmoQNCiAqICAgICBgcHJvdmlzaW9uX3NsaWRlX2luX3JpZ2h0YCDkuIDkuKrop4LmhJ/vvInvvJsNCiAqICAgwrcg6L+U5Zue5pe25piv5ruR5Ye65Yqo55S777yM6L+U5Zue6YC76L6R57uf5LiA55SxIGBBcHBOYXYuYmFjaygpYCDlpITnkIbvvIjmt7HlsYLpobUgcG9wIOKGkiB0YWIg5qC5IOKGkiDns7vnu5/vvInjgIINCiAqLw0KQENvbXBvc2FibGUNCmZ1biBIY0hvbWVQYWdlKA0KICAgIHZtOiBBcHBWaWV3TW9kZWwsDQogICAgYm9va21hcmtzOiBCb29rbWFya1N0b3JlLA0KICAgIGJvdHRvbUlubmVyUGFkZGluZzogRHAsDQopIHsNCiAgICB2YWwgc3RhdHMgPSB2bS5zdGF0cw0KICAgIHZhbCBzdWJ0aXRsZSA9IHN0YXRzPy5sZXQgeyAiJHtpdC5kZXZpY2VzfSDmrL7mnLrlnosgwrcgJHtpdC52ZXJzaW9uc30g5Liq54mI5pysIiB9Lm9yRW1wdHkoKQ0KDQogICAgTGlzdFNjcmVlbigNCiAgICAgICAgdGl0bGUgPSAi5Li76aG1IiwNCiAgICAgICAgbGFyZ2VUaXRsZSA9ICJIeXBlclJvbWh1YiIsDQogICAgICAgIHN1YnRpdGxlID0gc3VidGl0bGUsDQogICAgICAgIGJvdHRvbUlubmVyUGFkZGluZyA9IGJvdHRvbUlubmVyUGFkZGluZywNCiAgICAgICAgY29udGVudFBhZGRpbmcgPSBQYWRkaW5nVmFsdWVzKGhvcml6b250YWwgPSAxMi5kcCksDQogICAgKSB7DQogICAgICAgIC8vIOmhtumDqO+8mkh5cGVyQ2VpbGVyIOW8j+eahOmaj+acuuaPkOekuuadoe+8iOS6lOenjeagt+W8j+i9ruaNou+8iQ0KICAgICAgICBpdGVtIHsgSGNIb21lVGlwKCkgfQ0KDQogICAgICAgIGl0ZW0geyBTZWN0aW9uTGFiZWwoIuWKn+iDvSIpIH0NCiAgICAgICAgaXRlbSB7DQogICAgICAgICAgICBIY0dyb3VwIHsNCiAgICAgICAgICAgICAgICB2YWwgZW50cmllcyA9IGJ1aWxkTGlzdCB7DQogICAgICAgICAgICAgICAgICAgIGFkZChIb21lRW50cnkuRklSTVdBUkUpDQogICAgICAgICAgICAgICAgICAgIGFkZChIb21lRW50cnkuRkVFRCkNCiAgICAgICAgICAgICAgICAgICAgYWRkKEhvbWVFbnRyeS5QQU4pDQogICAgICAgICAgICAgICAgICAgIGlmICh2bS5zZXNzaW9uLnJvbGUgPT0gUm9sZS5ERVYpIGFkZChIb21lRW50cnkuVVBMT0FEKQ0KICAgICAgICAgICAgICAgIH0NCiAgICAgICAgICAgICAgICBlbnRyaWVzLmZvckVhY2hJbmRleGVkIHsgaSwgZSAtPg0KICAgICAgICAgICAgICAgICAgICBIb21lUm93KGUpIHsgdm0ubmF2LnB1c2goZS5zY3JlZW4pIH0NCiAgICAgICAgICAgICAgICAgICAgaWYgKGkgIT0gZW50cmllcy5sYXN0SW5kZXgpIEhjRGl2aWRlcigpDQogICAgICAgICAgICAgICAgfQ0KICAgICAgICAgICAgfQ0KICAgICAgICB9DQoNCiAgICAgICAgaXRlbSB7IFNwYWNlcihNb2RpZmllci5oZWlnaHQoOC5kcCkpIH0NCiAgICB9DQp9DQoNCi8qKiDkuLvpobXkuIrnmoTlip/og73lhaXlj6PjgIIgKi8NCnByaXZhdGUgZW51bSBjbGFzcyBIb21lRW50cnkoDQogICAgdmFsIHRpdGxlOiBTdHJpbmcsDQogICAgdmFsIHN1bW1hcnk6IFN0cmluZywNCiAgICB2YWwgaWNvbjogSW1hZ2VWZWN0b3IsDQogICAgdmFsIHNjcmVlbjogU2NyZWVuLA0KKSB7DQogICAgRklSTVdBUkUoIuWbuuS7tuS4i+i9vSIsICLlsI/nsbMgLyBPUFBPIC8gdml2byDnrYkgMTAg5Liq5ZOB54mMIiwgTWl1aXhJY29ucy5HcmlkVmlldywgU2NyZWVuLkZpcm13YXJlKSwNCiAgICBGRUVEKCLliqjmgIEiLCAi6K6i6ZiF5py65Z6L55qE5pyA5paw5pu05pawIiwgTWl1aXhJY29ucy5VcGRhdGUsIFNjcmVlbi5GZWVkKSwNCiAgICBQQU4oIue9keebmOS4i+i9veWZqCIsICLop6PmnpDnvZHnm5jliIbkuqvpk77mjqXlubbkuIvovb0iLCBNaXVpeEljb25zLkRvd25sb2FkLCBTY3JlZW4uUGFuSHViKSwNCiAgICBVUExPQUQoIuWMheS4iuS8oCIsICLkuIrkvKDlm7rku7bljIXliLDmnI3liqHlmagiLCBNaXVpeEljb25zLlVwbG9hZENsb3VkLCBTY3JlZW4uVXBsb2FkKSwNCn0NCg0KQENvbXBvc2FibGUNCnByaXZhdGUgZnVuIEhvbWVSb3coZW50cnk6IEhvbWVFbnRyeSwgb25DbGljazogKCkgLT4gVW5pdCkgew0KICAgIFJvdygNCiAgICAgICAgTW9kaWZpZXINCiAgICAgICAgICAgIC5maWxsTWF4V2lkdGgoKQ0KICAgICAgICAgICAgLmNsaWNrYWJsZShvbkNsaWNrID0gb25DbGljaykNCiAgICAgICAgICAgIC5wYWRkaW5nKGhvcml6b250YWwgPSAxNi5kcCwgdmVydGljYWwgPSAxNC5kcCksDQogICAgICAgIHZlcnRpY2FsQWxpZ25tZW50ID0gQWxpZ25tZW50LkNlbnRlclZlcnRpY2FsbHksDQogICAgKSB7DQogICAgICAgIEljb24oZW50cnkuaWNvbiwgY29udGVudERlc2NyaXB0aW9uID0gZW50cnkudGl0bGUsIG1vZGlmaWVyID0gTW9kaWZpZXIuc2l6ZSgyMi5kcCkpDQogICAgICAgIFNwYWNlcihNb2RpZmllci5zaXplKDE0LmRwKSkNCiAgICAgICAgQ29sdW1uKE1vZGlmaWVyLndlaWdodCgxZikpIHsNCiAgICAgICAgICAgIFRleHQoDQogICAgICAgICAgICAgICAgZW50cnkudGl0bGUsDQogICAgICAgICAgICAgICAgZm9udFNpemUgPSBNaXVpeFRoZW1lLnRleHRTdHlsZXMuYm9keTEuZm9udFNpemUsDQogICAgICAgICAgICAgICAgZm9udFdlaWdodCA9IEZvbnRXZWlnaHQuTWVkaXVtLA0KICAgICAgICAgICAgKQ0KICAgICAgICAgICAgU3BhY2VyKE1vZGlmaWVyLmhlaWdodCgyLmRwKSkNCiAgICAgICAgICAgIFRleHQoDQogICAgICAgICAgICAgICAgZW50cnkuc3VtbWFyeSwNCiAgICAgICAgICAgICAgICBmb250U2l6ZSA9IE1pdWl4VGhlbWUudGV4dFN0eWxlcy5mb290bm90ZTIuZm9udFNpemUsDQogICAgICAgICAgICAgICAgY29sb3IgPSBNaXVpeFRoZW1lLmNvbG9yU2NoZW1lLm9uU3VyZmFjZVZhcmlhbnRTdW1tYXJ5LA0KICAgICAgICAgICAgKQ0KICAgICAgICB9DQogICAgICAgIEljb24oTWl1aXhJY29ucy5DaGV2cm9uRm9yd2FyZCwgY29udGVudERlc2NyaXB0aW9uID0gbnVsbCwgbW9kaWZpZXIgPSBNb2RpZmllci5zaXplKDE4LmRwKSkNCiAgICB9DQp9DQo=
+package org.linbaogu.romhub.ui.screens
+
+import androidx.compose.foundation.clickable
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.PaddingValues
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.items
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.unit.Dp
+import androidx.compose.ui.unit.dp
+import org.linbaogu.romhub.core.Role
+import org.linbaogu.romhub.hc.HcHomeTip
+import org.linbaogu.romhub.pan.store.BookmarkStore
+import org.linbaogu.romhub.ui.AppViewModel
+import org.linbaogu.romhub.ui.common.HcDivider
+import org.linbaogu.romhub.ui.common.HcGroup
+import org.linbaogu.romhub.ui.common.ListScreen
+import org.linbaogu.romhub.ui.common.SectionLabel
+import org.linbaogu.romhub.ui.nav.Screen
+import top.yukonga.miuix.kmp.basic.Icon
+import top.yukonga.miuix.kmp.basic.Text
+import top.yukonga.miuix.kmp.icon.MiuixIcons
+import top.yukonga.miuix.kmp.icon.extended.ChevronForward
+import top.yukonga.miuix.kmp.icon.extended.Download
+import top.yukonga.miuix.kmp.icon.extended.GridView
+import top.yukonga.miuix.kmp.icon.extended.Update
+import top.yukonga.miuix.kmp.icon.extended.UploadCloud
+import top.yukonga.miuix.kmp.theme.MiuixTheme
+
+/**
+ * 「主页」——仿 HyperCeiler 的首页：**一个大标题 + 一条 tips + 一组功能入口卡片**。
+ *
+ * ⚠️ 点进去的子页**走正常页面栈**（[Screen.Firmware] / [Screen.Feed] / [Screen.PanHub] /
+ * [Screen.Upload]），不再在首页内联换内容。这样：
+ *   · 进入时有 HyperOS 弹簧滑入 + 下层页面视差（和 HyperCeiler 的
+ *     `provision_slide_in_right` 一个观感）；
+ *   · 返回时是滑出动画，返回逻辑统一由 `AppNav.back()` 处理（深层页 pop → tab 根 → 系统）。
+ */
+@Composable
+fun HcHomePage(
+    vm: AppViewModel,
+    bookmarks: BookmarkStore,
+    bottomInnerPadding: Dp,
+) {
+    val stats = vm.stats
+    val subtitle = stats?.let { "${it.devices} 款机型 · ${it.versions} 个版本" }.orEmpty()
+
+    ListScreen(
+        title = "主页",
+        largeTitle = "HyperRomhub",
+        subtitle = subtitle,
+        bottomInnerPadding = bottomInnerPadding,
+        contentPadding = PaddingValues(horizontal = 12.dp),
+    ) {
+        // 顶部：HyperCeiler 式的随机提示条（五种样式轮换）
+        item { HcHomeTip() }
+
+        item { SectionLabel("功能") }
+        item {
+            HcGroup {
+                val entries = buildList {
+                    add(HomeEntry.FIRMWARE)
+                    add(HomeEntry.FEED)
+                    add(HomeEntry.PAN)
+                    if (vm.session.role == Role.DEV) add(HomeEntry.UPLOAD)
+                }
+                entries.forEachIndexed { i, e ->
+                    HomeRow(e) { vm.nav.push(e.screen) }
+                    if (i != entries.lastIndex) HcDivider()
+                }
+            }
+        }
+
+        item { Spacer(Modifier.height(8.dp)) }
+    }
+}
+
+/** 主页上的功能入口。 */
+private enum class HomeEntry(
+    val title: String,
+    val summary: String,
+    val icon: ImageVector,
+    val screen: Screen,
+) {
+    FIRMWARE("固件下载", "小米 / OPPO / vivo 等 10 个品牌", MiuixIcons.GridView, Screen.Firmware),
+    FEED("动态", "订阅机型的最新更新", MiuixIcons.Update, Screen.Feed),
+    PAN("网盘下载器", "解析网盘分享链接并下载", MiuixIcons.Download, Screen.PanHub),
+    UPLOAD("包上传", "上传固件包到服务器", MiuixIcons.UploadCloud, Screen.Upload),
+}
+
+@Composable
+private fun HomeRow(entry: HomeEntry, onClick: () -> Unit) {
+    Row(
+        Modifier
+            .fillMaxWidth()
+            .clickable(onClick = onClick)
+            .padding(horizontal = 16.dp, vertical = 14.dp),
+        verticalAlignment = Alignment.CenterVertically,
+    ) {
+        Icon(entry.icon, contentDescription = entry.title, modifier = Modifier.size(22.dp))
+        Spacer(Modifier.size(14.dp))
+        Column(Modifier.weight(1f)) {
+            Text(
+                entry.title,
+                fontSize = MiuixTheme.textStyles.body1.fontSize,
+                fontWeight = FontWeight.Medium,
+            )
+            Spacer(Modifier.height(2.dp))
+            Text(
+                entry.summary,
+                fontSize = MiuixTheme.textStyles.footnote2.fontSize,
+                color = MiuixTheme.colorScheme.onSurfaceVariantSummary,
+            )
+        }
+        Icon(MiuixIcons.ChevronForward, contentDescription = null, modifier = Modifier.size(18.dp))
+    }
+}

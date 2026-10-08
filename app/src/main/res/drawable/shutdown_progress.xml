@@ -1,1 +1,32 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IS0tCiAgfiBUaGlzIGZpbGUgaXMgcGFydCBvZiBIeXBlckNlaWxlci4KICB+CiAgfiBIeXBlckNlaWxlciBpcyBmcmVlIHNvZnR3YXJlOiB5b3UgY2FuIHJlZGlzdHJpYnV0ZSBpdCBhbmQvb3IgbW9kaWZ5CiAgfiBpdCB1bmRlciB0aGUgdGVybXMgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBhcwogIH4gcHVibGlzaGVkIGJ5IHRoZSBGcmVlIFNvZnR3YXJlIEZvdW5kYXRpb24sIGVpdGhlciB2ZXJzaW9uIDMgb2YgdGhlCiAgfiBMaWNlbnNlLgogIH4KICB+IFRoaXMgcHJvZ3JhbSBpcyBkaXN0cmlidXRlZCBpbiB0aGUgaG9wZSB0aGF0IGl0IHdpbGwgYmUgdXNlZnVsLAogIH4gYnV0IFdJVEhPVVQgQU5ZIFdBUlJBTlRZOyB3aXRob3V0IGV2ZW4gdGhlIGltcGxpZWQgd2FycmFudHkgb2YKICB+IE1FUkNIQU5UQUJJTElUWSBvciBGSVRORVNTIEZPUiBBIFBBUlRJQ1VMQVIgUFVSUE9TRS4gIFNlZSB0aGUKICB+IEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBmb3IgbW9yZSBkZXRhaWxzLgogIH4KICB+IFlvdSBzaG91bGQgaGF2ZSByZWNlaXZlZCBhIGNvcHkgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZQogIH4gYWxvbmcgd2l0aCB0aGlzIHByb2dyYW0uICBJZiBub3QsIHNlZSA8aHR0cHM6Ly93d3cuZ251Lm9yZy9saWNlbnNlcy8+LgogIH4KICB+IENvcHlyaWdodCAoQykgMjAyMy0yMDI2IEh5cGVyQ2VpbGVyIENvbnRyaWJ1dGlvbnMKICAtLT4KPHZlY3RvciB4bWxuczphbmRyb2lkPSJodHRwOi8vc2NoZW1hcy5hbmRyb2lkLmNvbS9hcGsvcmVzL2FuZHJvaWQiCiAgICBhbmRyb2lkOmhlaWdodD0iMTMyZHAiCiAgICBhbmRyb2lkOndpZHRoPSIxMzJkcCIKICAgIGFuZHJvaWQ6dmlld3BvcnRXaWR0aD0iNjAuMCIKICAgIGFuZHJvaWQ6dmlld3BvcnRIZWlnaHQ9IjYwLjAiPgogICAgPHBhdGgKICAgICAgICBhbmRyb2lkOmZpbGxDb2xvcj0iI0ZGRkZGRiIKICAgICAgICBhbmRyb2lkOnBhdGhEYXRhPSJNMzAsNjBDNDYuNTY4NSw2MCA2MCw0Ni41Njg1IDYwLDMwQzYwLDEzLjQzMTUgNDYuNTY4NSwwIDMwLDBDMTMuNDMxNSwwIDAsMTMuNDMxNSAwLDMwQzAsNDYuNTY4NSAxMy40MzE1LDYwIDMwLDYwWk0zMC4wNzgxLDU0LjAwOThDNDMuMzMzLDU0LjAwOTggNTQuMDc4MSw0My4yNjQ2IDU0LjA3ODEsMzAuMDA5OEM1NC4wNzgxLDE2Ljc1NDkgNDMuMzMzLDYuMDA5OCAzMC4wNzgxLDYuMDA5OEMxNi44MjMzLDYuMDA5OCA2LjA3ODEsMTYuNzU0OSA2LjA3ODEsMzAuMDA5OEM2LjA3ODEsNDMuMjY0NiAxNi44MjMzLDU0LjAwOTggMzAuMDc4MSw1NC4wMDk4WiIKICAgICAgICBhbmRyb2lkOmZpbGxUeXBlPSJldmVuT2RkIiAvPgogICAgPHBhdGgKICAgICAgICBhbmRyb2lkOmZpbGxDb2xvcj0iI0ZGRkZGRiIKICAgICAgICBhbmRyb2lkOnBhdGhEYXRhPSJNMTguMTU2MiwzMC4wMTk1bS02LDBhNiw2IDAsMSAxLDEyIDBhNiw2IDAsMSAxLC0xMiAwIgogICAgICAgIGFuZHJvaWQ6c3Ryb2tlQWxwaGE9IjAuOCIgLz4KPC92ZWN0b3I+
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ This file is part of HyperCeiler.
+  ~
+  ~ HyperCeiler is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU Affero General Public License as
+  ~ published by the Free Software Foundation, either version 3 of the
+  ~ License.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU Affero General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU Affero General Public License
+  ~ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+  ~
+  ~ Copyright (C) 2023-2026 HyperCeiler Contributions
+  -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="132dp"
+    android:width="132dp"
+    android:viewportWidth="60.0"
+    android:viewportHeight="60.0">
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,60C46.5685,60 60,46.5685 60,30C60,13.4315 46.5685,0 30,0C13.4315,0 0,13.4315 0,30C0,46.5685 13.4315,60 30,60ZM30.0781,54.0098C43.333,54.0098 54.0781,43.2646 54.0781,30.0098C54.0781,16.7549 43.333,6.0098 30.0781,6.0098C16.8233,6.0098 6.0781,16.7549 6.0781,30.0098C6.0781,43.2646 16.8233,54.0098 30.0781,54.0098Z"
+        android:fillType="evenOdd" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M18.1562,30.0195m-6,0a6,6 0,1 1,12 0a6,6 0,1 1,-12 0"
+        android:strokeAlpha="0.8" />
+</vector>

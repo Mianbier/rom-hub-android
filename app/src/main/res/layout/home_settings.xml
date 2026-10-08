@@ -1,1 +1,70 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPEZyYW1lTGF5b3V0IHhtbG5zOmFuZHJvaWQ9Imh0dHA6Ly9zY2hlbWFzLmFuZHJvaWQuY29tL2Fway9yZXMvYW5kcm9pZCIKICAgIHhtbG5zOmFwcD0iaHR0cDovL3NjaGVtYXMuYW5kcm9pZC5jb20vYXBrL3Jlcy1hdXRvIgogICAgYW5kcm9pZDpsYXlvdXRfd2lkdGg9Im1hdGNoX3BhcmVudCIKICAgIGFuZHJvaWQ6bGF5b3V0X2hlaWdodD0ibWF0Y2hfcGFyZW50Ij4KCiAgICA8ZmFuLm5lc3RlZGhlYWRlci53aWRnZXQuTmVzdGVkSGVhZGVyTGF5b3V0CiAgICAgICAgYW5kcm9pZDppZD0iQCtpZC9uZXN0ZWRoZWFkZXJsYXlvdXQiCiAgICAgICAgYW5kcm9pZDpsYXlvdXRfd2lkdGg9Im1hdGNoX3BhcmVudCIKICAgICAgICBhbmRyb2lkOmxheW91dF9oZWlnaHQ9Im1hdGNoX3BhcmVudCIKICAgICAgICBhcHA6aGVhZGVyVmlldz0iQGlkL2hlYWRlcl92aWV3IgogICAgICAgIGFwcDpyYW5nZU9mZnNldD0iMHB4IgogICAgICAgIGFwcDpzY3JvbGxhYmxlVmlldz0iQGlkL3NwcmluZ2JhY2tsYXlvdXQiPgoKICAgICAgICA8aW5jbHVkZQogICAgICAgICAgICBhbmRyb2lkOmlkPSJAK2lkL2hlYWRlcl92aWV3IgogICAgICAgICAgICBsYXlvdXQ9IkBsYXlvdXQvbWl1aXhfYXBwY29tcGF0X3NlYXJjaF9zdHViIiAvPgoKICAgICAgICA8ZmFuLnNwcmluZ2JhY2sudmlldy5TcHJpbmdCYWNrTGF5b3V0CiAgICAgICAgICAgIGFuZHJvaWQ6aWQ9IkAraWQvc3ByaW5nYmFja2xheW91dCIKICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfd2lkdGg9Im1hdGNoX3BhcmVudCIKICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfaGVpZ2h0PSJtYXRjaF9wYXJlbnQiCiAgICAgICAgICAgIGFwcDpzY3JvbGxPcmllbnRhdGlvbj0idmVydGljYWwiCiAgICAgICAgICAgIGFwcDpzY3JvbGxhYmxlVmlldz0iQGlkL3Njcm9sbF9oZWFkZXJzIj4KCiAgICAgICAgICAgIDxmYW4ucmVjeWNsZXJ2aWV3LndpZGdldC5SZWN5Y2xlclZpZXcKICAgICAgICAgICAgICAgIGFuZHJvaWQ6aWQ9IkAraWQvc2Nyb2xsX2hlYWRlcnMiCiAgICAgICAgICAgICAgICBhbmRyb2lkOmxheW91dF93aWR0aD0ibWF0Y2hfcGFyZW50IgogICAgICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfaGVpZ2h0PSJtYXRjaF9wYXJlbnQiCiAgICAgICAgICAgICAgICBhbmRyb2lkOmNsaXBUb1BhZGRpbmc9ImZhbHNlIgogICAgICAgICAgICAgICAgYW5kcm9pZDpmYWRpbmdFZGdlTGVuZ3RoPSIxNmRwIgogICAgICAgICAgICAgICAgYW5kcm9pZDpwYWRkaW5nVG9wPSJAZGltZW4vbWl1aXhfcHJlZmVyZW5jZV9ydl90b3BfcGFkZGluZyIKICAgICAgICAgICAgICAgIGFuZHJvaWQ6cGFkZGluZ0JvdHRvbT0iQGRpbWVuL2FwcF9ob21lX3NldHRpbmdzX3JlY3ljbGVydmlld19wYWRkaW5nX2JvdHRvbSIgLz4KICAgICAgICA8L2Zhbi5zcHJpbmdiYWNrLnZpZXcuU3ByaW5nQmFja0xheW91dD4KICAgIDwvZmFuLm5lc3RlZGhlYWRlci53aWRnZXQuTmVzdGVkSGVhZGVyTGF5b3V0PgoKICAgIDxMaW5lYXJMYXlvdXQKICAgICAgICBhbmRyb2lkOmlkPSJAK2lkL3NlYXJjaF9yZXN1bHRfbGwiCiAgICAgICAgYW5kcm9pZDpsYXlvdXRfd2lkdGg9Im1hdGNoX3BhcmVudCIKICAgICAgICBhbmRyb2lkOmxheW91dF9oZWlnaHQ9Im1hdGNoX3BhcmVudCI+CgogICAgICAgIDxpbmNsdWRlCiAgICAgICAgICAgIGFuZHJvaWQ6aWQ9IkAraWQvc2VhcmNoX2hpc3RvcnkiCiAgICAgICAgICAgIGxheW91dD0iQGxheW91dC9zZWFyY2hfaGlzdG9yeV9sYXlvdXQiCiAgICAgICAgICAgIGFuZHJvaWQ6dmlzaWJpbGl0eT0iZ29uZSIgLz4KCiAgICAgICAgPGZhbi5zcHJpbmdiYWNrLnZpZXcuU3ByaW5nQmFja0xheW91dAogICAgICAgICAgICBhbmRyb2lkOmxheW91dF93aWR0aD0ibWF0Y2hfcGFyZW50IgogICAgICAgICAgICBhbmRyb2lkOmxheW91dF9oZWlnaHQ9Im1hdGNoX3BhcmVudCIKICAgICAgICAgICAgYXBwOnNjcm9sbE9yaWVudGF0aW9uPSJ2ZXJ0aWNhbCIKICAgICAgICAgICAgYXBwOnNjcm9sbGFibGVWaWV3PSJAaWQvc2VhcmNoX3Jlc3VsdCI+CgogICAgICAgICAgICA8ZmFuLnJlY3ljbGVydmlldy53aWRnZXQuUmVjeWNsZXJWaWV3CiAgICAgICAgICAgICAgICBhbmRyb2lkOmlkPSJAK2lkL3NlYXJjaF9yZXN1bHQiCiAgICAgICAgICAgICAgICBhbmRyb2lkOmxheW91dF93aWR0aD0ibWF0Y2hfcGFyZW50IgogICAgICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfaGVpZ2h0PSJtYXRjaF9wYXJlbnQiCiAgICAgICAgICAgICAgICBhbmRyb2lkOmNsaXBDaGlsZHJlbj0iZmFsc2UiCiAgICAgICAgICAgICAgICBhbmRyb2lkOmNsaXBUb1BhZGRpbmc9ImZhbHNlIgogICAgICAgICAgICAgICAgYW5kcm9pZDpwYWRkaW5nSG9yaXpvbnRhbD0iNGRwIgogICAgICAgICAgICAgICAgYW5kcm9pZDpwYWRkaW5nVG9wPSIxMmRwIgogICAgICAgICAgICAgICAgYW5kcm9pZDpwYWRkaW5nQm90dG9tPSI/YW5kcm9pZDphdHRyL2FjdGlvbkJhclNpemUiIC8+CiAgICAgICAgPC9mYW4uc3ByaW5nYmFjay52aWV3LlNwcmluZ0JhY2tMYXlvdXQ+CiAgICA8L0xpbmVhckxheW91dD4KCiAgICA8VmlldwogICAgICAgIGFuZHJvaWQ6aWQ9IkAraWQvc2VhcmNoX2xvYWRpbmciCiAgICAgICAgYW5kcm9pZDpsYXlvdXRfd2lkdGg9Im1hdGNoX3BhcmVudCIKICAgICAgICBhbmRyb2lkOmxheW91dF9oZWlnaHQ9Im1hdGNoX3BhcmVudCIKICAgICAgICBhbmRyb2lkOnZpc2liaWxpdHk9ImdvbmUiIC8+CjwvRnJhbWVMYXlvdXQ+Cg==
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fan.nestedheader.widget.NestedHeaderLayout
+        android:id="@+id/nestedheaderlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:headerView="@id/header_view"
+        app:rangeOffset="0px"
+        app:scrollableView="@id/springbacklayout">
+
+        <include
+            android:id="@+id/header_view"
+            layout="@layout/miuix_appcompat_search_stub" />
+
+        <fan.springback.view.SpringBackLayout
+            android:id="@+id/springbacklayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:scrollOrientation="vertical"
+            app:scrollableView="@id/scroll_headers">
+
+            <fan.recyclerview.widget.RecyclerView
+                android:id="@+id/scroll_headers"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clipToPadding="false"
+                android:fadingEdgeLength="16dp"
+                android:paddingTop="@dimen/miuix_preference_rv_top_padding"
+                android:paddingBottom="@dimen/app_home_settings_recyclerview_padding_bottom" />
+        </fan.springback.view.SpringBackLayout>
+    </fan.nestedheader.widget.NestedHeaderLayout>
+
+    <LinearLayout
+        android:id="@+id/search_result_ll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/search_history"
+            layout="@layout/search_history_layout"
+            android:visibility="gone" />
+
+        <fan.springback.view.SpringBackLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:scrollOrientation="vertical"
+            app:scrollableView="@id/search_result">
+
+            <fan.recyclerview.widget.RecyclerView
+                android:id="@+id/search_result"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:paddingHorizontal="4dp"
+                android:paddingTop="12dp"
+                android:paddingBottom="?android:attr/actionBarSize" />
+        </fan.springback.view.SpringBackLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/search_loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+</FrameLayout>

@@ -1,1 +1,44 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPExpbmVhckxheW91dCB4bWxuczphbmRyb2lkPSJodHRwOi8vc2NoZW1hcy5hbmRyb2lkLmNvbS9hcGsvcmVzL2FuZHJvaWQiCiAgICBhbmRyb2lkOmlkPSJAK2lkL2NhcmRfbGF5b3V0IgogICAgYW5kcm9pZDpsYXlvdXRfd2lkdGg9Im1hdGNoX3BhcmVudCIKICAgIGFuZHJvaWQ6bGF5b3V0X2hlaWdodD0iQGRpbWVuL2N1c3RvbV9vcmRlcl9pdGVtX2hlaWdodCIKICAgIGFuZHJvaWQ6bGF5b3V0X21hcmdpbkJvdHRvbT0iQGRpbWVuL2N1c3RvbV9vcmRlcl9pdGVtX21hcmdpbl90b3AiCiAgICBhbmRyb2lkOmJhY2tncm91bmQ9IkBkcmF3YWJsZS9pdGVtX2NhcmRfYmciCiAgICBhbmRyb2lkOmVsZXZhdGlvbj0iMGRwIgogICAgYW5kcm9pZDpmb2N1c2FibGU9InRydWUiCiAgICBhbmRyb2lkOmdyYXZpdHk9ImNlbnRlcl92ZXJ0aWNhbCIKICAgIGFuZHJvaWQ6aW1wb3J0YW50Rm9yQWNjZXNzaWJpbGl0eT0ieWVzIgogICAgYW5kcm9pZDpvcmllbnRhdGlvbj0iaG9yaXpvbnRhbCI+CgogICAgPEltYWdlQnV0dG9uCiAgICAgICAgYW5kcm9pZDppZD0iQCtpZC9tb3ZlX2J1dHRvbiIKICAgICAgICBhbmRyb2lkOmxheW91dF93aWR0aD0id3JhcF9jb250ZW50IgogICAgICAgIGFuZHJvaWQ6bGF5b3V0X2hlaWdodD0id3JhcF9jb250ZW50IgogICAgICAgIGFuZHJvaWQ6bGF5b3V0X21hcmdpblN0YXJ0PSJAZGltZW4vY3VzdG9tX29yZGVyX2l0ZW1fbWFyZ2luIgogICAgICAgIGFuZHJvaWQ6YmFja2dyb3VuZD0iQGRyYXdhYmxlL2ljX25hdmlnYXRpb25fcmVhcnJhbmdlIgogICAgICAgIGFuZHJvaWQ6Y2xpY2thYmxlPSJmYWxzZSIKICAgICAgICBhbmRyb2lkOnZpc2liaWxpdHk9ImdvbmUiLz4KCiAgICA8VGV4dFZpZXcKICAgICAgICBhbmRyb2lkOmlkPSJAK2lkL3RpdGxlX3RleHRfdmlldyIKICAgICAgICBhbmRyb2lkOmxheW91dF93aWR0aD0iMGRwIgogICAgICAgIGFuZHJvaWQ6bGF5b3V0X2hlaWdodD0id3JhcF9jb250ZW50IgogICAgICAgIGFuZHJvaWQ6bGF5b3V0X21hcmdpblN0YXJ0PSJAZGltZW4vY3VzdG9tX29yZGVyX2l0ZW1fbWFyZ2luX3N0YXJ0IgogICAgICAgIGFuZHJvaWQ6bGF5b3V0X3dlaWdodD0iMS4wIgogICAgICAgIGFuZHJvaWQ6ZWxsaXBzaXplPSJlbmQiCiAgICAgICAgYW5kcm9pZDpmb250RmFtaWx5PSJtaXByby1tZWRpdW0iCiAgICAgICAgYW5kcm9pZDpncmF2aXR5PSJjZW50ZXJ8c3RhcnQiCiAgICAgICAgYW5kcm9pZDptYXhMaW5lcz0iMSIKICAgICAgICBhbmRyb2lkOnRleHQ9IkNhcmQgVGl0bGUiCiAgICAgICAgYW5kcm9pZDp0ZXh0Q29sb3I9IkBjb2xvci9jb2xvcl9vbl9zdXJmYWNlIgogICAgICAgIGFuZHJvaWQ6dGV4dFNpemU9IjE3c3AiIC8+CgogICAgPENoZWNrQm94CiAgICAgICAgYW5kcm9pZDppZD0iQCtpZC9DaGVja0JveCIKICAgICAgICBhbmRyb2lkOmxheW91dF93aWR0aD0id3JhcF9jb250ZW50IgogICAgICAgIGFuZHJvaWQ6bGF5b3V0X2hlaWdodD0ibWF0Y2hfcGFyZW50IgogICAgICAgIGFuZHJvaWQ6Z3Jhdml0eT0iY2VudGVyIgogICAgICAgIGFuZHJvaWQ6cGFkZGluZ0VuZD0iMTZkcCIKICAgICAgICBhbmRyb2lkOnRoZW1lPSJAc3R5bGUvV2lkZ2V0LkNvbXBvdW5kQnV0dG9uLkNoZWNrQm94IiAvPgo8L0xpbmVhckxheW91dD4K
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_layout"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/custom_order_item_height"
+    android:layout_marginBottom="@dimen/custom_order_item_margin_top"
+    android:background="@drawable/item_card_bg"
+    android:elevation="0dp"
+    android:focusable="true"
+    android:gravity="center_vertical"
+    android:importantForAccessibility="yes"
+    android:orientation="horizontal">
+
+    <ImageButton
+        android:id="@+id/move_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/custom_order_item_margin"
+        android:background="@drawable/ic_navigation_rearrange"
+        android:clickable="false"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/title_text_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/custom_order_item_margin_start"
+        android:layout_weight="1.0"
+        android:ellipsize="end"
+        android:fontFamily="mipro-medium"
+        android:gravity="center|start"
+        android:maxLines="1"
+        android:text="Card Title"
+        android:textColor="@color/color_on_surface"
+        android:textSize="17sp" />
+
+    <CheckBox
+        android:id="@+id/CheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:paddingEnd="16dp"
+        android:theme="@style/Widget.CompoundButton.CheckBox" />
+</LinearLayout>

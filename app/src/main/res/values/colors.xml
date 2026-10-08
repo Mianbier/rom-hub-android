@@ -1,1 +1,5 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHJlc291cmNlcz4KICAgIDxjb2xvciBuYW1lPSJpY19sYXVuY2hlcl9iYWNrZ3JvdW5kIj4jMUIxRDIyPC9jb2xvcj4KICAgIDxjb2xvciBuYW1lPSJzcGxhc2hfYmFja2dyb3VuZCI+I0Y1RjZGODwvY29sb3I+CjwvcmVzb3VyY2VzPgo=
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ic_launcher_background">#1B1D22</color>
+    <color name="splash_background">#F5F6F8</color>
+</resources>

@@ -1,1 +1,68 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPExpbmVhckxheW91dCB4bWxuczphbmRyb2lkPSJodHRwOi8vc2NoZW1hcy5hbmRyb2lkLmNvbS9hcGsvcmVzL2FuZHJvaWQiCiAgICBhbmRyb2lkOmxheW91dF93aWR0aD0ibWF0Y2hfcGFyZW50IgogICAgYW5kcm9pZDpsYXlvdXRfaGVpZ2h0PSJ3cmFwX2NvbnRlbnQiCiAgICBhbmRyb2lkOmxheW91dF9ncmF2aXR5PSJjZW50ZXJfdmVydGljYWwiCiAgICBhbmRyb2lkOmJhY2tncm91bmQ9IkBhbmRyb2lkOmNvbG9yL3RyYW5zcGFyZW50IgogICAgYW5kcm9pZDpjbGlwQ2hpbGRyZW49ImZhbHNlIgogICAgYW5kcm9pZDpncmF2aXR5PSJjZW50ZXJfdmVydGljYWwiCiAgICBhbmRyb2lkOm1pbkhlaWdodD0iQGRpbWVuL21pdWl4X3ByZWZlcmVuY2VfaXRlbV9taW5faGVpZ2h0IgogICAgYW5kcm9pZDpwYWRkaW5nU3RhcnQ9IkBkaW1lbi9taXVpeF9wcmVmZXJlbmNlX21haW5fcGFkZGluZ19lbmQiCiAgICBhbmRyb2lkOnBhZGRpbmdFbmQ9IkBkaW1lbi9taXVpeF9wcmVmZXJlbmNlX21haW5fcGFkZGluZ19lbmQiPgoKICAgIDxJbWFnZVZpZXcKICAgICAgICBhbmRyb2lkOmlkPSJAYW5kcm9pZDppZC9pY29uIgogICAgICAgIHN0eWxlPSJAc3R5bGUvV2lkZ2V0LlByZWZlcmVuY2VJY29uIgogICAgICAgIGFuZHJvaWQ6bGF5b3V0X2dyYXZpdHk9ImNlbnRlciIKICAgICAgICBhbmRyb2lkOmFkanVzdFZpZXdCb3VuZHM9InRydWUiCiAgICAgICAgYW5kcm9pZDpncmF2aXR5PSJjZW50ZXIiCiAgICAgICAgYW5kcm9pZDpzY2FsZVR5cGU9ImNlbnRlciIgLz4KCiAgICA8UmVsYXRpdmVMYXlvdXQKICAgICAgICBzdHlsZT0iQHN0eWxlL1dpZGdldC5QcmVmZXJlbmNlSXRlbSIKICAgICAgICBhbmRyb2lkOmxheW91dF93aWR0aD0iMGRwIgogICAgICAgIGFuZHJvaWQ6bGF5b3V0X2hlaWdodD0id3JhcF9jb250ZW50IgogICAgICAgIGFuZHJvaWQ6bGF5b3V0X2dyYXZpdHk9ImNlbnRlcl92ZXJ0aWNhbCIKICAgICAgICBhbmRyb2lkOmxheW91dF93ZWlnaHQ9IjEuMCIKICAgICAgICBhbmRyb2lkOmdyYXZpdHk9ImNlbnRlcl92ZXJ0aWNhbCI+CgogICAgICAgIDxUZXh0VmlldwogICAgICAgICAgICBhbmRyb2lkOmlkPSJAYW5kcm9pZDppZC90aXRsZSIKICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfd2lkdGg9IndyYXBfY29udGVudCIKICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfaGVpZ2h0PSJ3cmFwX2NvbnRlbnQiCiAgICAgICAgICAgIGFuZHJvaWQ6ZWxsaXBzaXplPSJlbmQiCiAgICAgICAgICAgIGFuZHJvaWQ6ZmFkaW5nRWRnZT0iaG9yaXpvbnRhbCIKICAgICAgICAgICAgYW5kcm9pZDpoeXBoZW5hdGlvbkZyZXF1ZW5jeT0iZnVsbCIKICAgICAgICAgICAgYW5kcm9pZDptYXhMaW5lcz0iMiIKICAgICAgICAgICAgYW5kcm9pZDp0ZXh0QWxpZ25tZW50PSJ2aWV3U3RhcnQiCiAgICAgICAgICAgIGFuZHJvaWQ6dGV4dEFwcGVhcmFuY2U9IkBzdHlsZS9UZXh0QXBwZWFyYW5jZS5QcmVmZXJlbmNlTGlzdCIgLz4KCiAgICAgICAgPFRleHRWaWV3CiAgICAgICAgICAgIGFuZHJvaWQ6aWQ9IkBhbmRyb2lkOmlkL3N1bW1hcnkiCiAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X3dpZHRoPSJ3cmFwX2NvbnRlbnQiCiAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X2hlaWdodD0id3JhcF9jb250ZW50IgogICAgICAgICAgICBhbmRyb2lkOmxheW91dF9iZWxvdz0iQGFuZHJvaWQ6aWQvdGl0bGUiCiAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X2FsaWduU3RhcnQ9IkBhbmRyb2lkOmlkL3RpdGxlIgogICAgICAgICAgICBhbmRyb2lkOmxheW91dF9tYXJnaW5Ub3A9IkBkaW1lbi9taXVpeF9wcmVmZXJlbmNlX3N1bW1hcnlfbWFyZ2luX3RvcCIKICAgICAgICAgICAgYW5kcm9pZDp0ZXh0QWxpZ25tZW50PSJ2aWV3U3RhcnQiCiAgICAgICAgICAgIGFuZHJvaWQ6dGV4dEFwcGVhcmFuY2U9IkBzdHlsZS9UZXh0QXBwZWFyYW5jZS5QcmVmZXJlbmNlTGlzdC5TZWNvbmRhcnkiIC8+CiAgICA8L1JlbGF0aXZlTGF5b3V0PgoKICAgIDxMaW5lYXJMYXlvdXQKICAgICAgICBhbmRyb2lkOmlkPSJAYW5kcm9pZDppZC93aWRnZXRfZnJhbWUiCiAgICAgICAgYW5kcm9pZDpsYXlvdXRfd2lkdGg9IndyYXBfY29udGVudCIKICAgICAgICBhbmRyb2lkOmxheW91dF9oZWlnaHQ9IndyYXBfY29udGVudCIKICAgICAgICBhbmRyb2lkOmNsaXBDaGlsZHJlbj0iZmFsc2UiCiAgICAgICAgYW5kcm9pZDpncmF2aXR5PSJjZW50ZXIiCiAgICAgICAgYW5kcm9pZDptaW5XaWR0aD0iQGRpbWVuL21pdWl4X3ByZWZlcmVuY2Vfd2lkZ2V0X3dpZHRoIgogICAgICAgIGFuZHJvaWQ6b3JpZW50YXRpb249InZlcnRpY2FsIiAvPgoKICAgIDxJbWFnZVZpZXcKICAgICAgICBhbmRyb2lkOmlkPSJAK2lkL2Fycm93X3JpZ2h0IgogICAgICAgIGFuZHJvaWQ6bGF5b3V0X3dpZHRoPSJ3cmFwX2NvbnRlbnQiCiAgICAgICAgYW5kcm9pZDpsYXlvdXRfaGVpZ2h0PSJ3cmFwX2NvbnRlbnQiCiAgICAgICAgYW5kcm9pZDpsYXlvdXRfZ3Jhdml0eT0iY2VudGVyfGVuZCIKICAgICAgICBhbmRyb2lkOmxheW91dF9tYXJnaW5TdGFydD0iQGRpbWVuL21pdWl4X3ByZWZlcmVuY2VfaXRlbV9wYWRkaW5nX2lubmVyIgogICAgICAgIGFuZHJvaWQ6Z3Jhdml0eT0iY2VudGVyIgogICAgICAgIGFuZHJvaWQ6c3JjPSJAZHJhd2FibGUvbWl1aXhfcHJlZmVyZW5jZV9pY29uX2Fycm93X3JpZ2h0IiAvPgo8L0xpbmVhckxheW91dD4K
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:background="@android:color/transparent"
+    android:clipChildren="false"
+    android:gravity="center_vertical"
+    android:minHeight="@dimen/miuix_preference_item_min_height"
+    android:paddingStart="@dimen/miuix_preference_main_padding_end"
+    android:paddingEnd="@dimen/miuix_preference_main_padding_end">
+
+    <ImageView
+        android:id="@android:id/icon"
+        style="@style/Widget.PreferenceIcon"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:gravity="center"
+        android:scaleType="center" />
+
+    <RelativeLayout
+        style="@style/Widget.PreferenceItem"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1.0"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@android:id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:fadingEdge="horizontal"
+            android:hyphenationFrequency="full"
+            android:maxLines="2"
+            android:textAlignment="viewStart"
+            android:textAppearance="@style/TextAppearance.PreferenceList" />
+
+        <TextView
+            android:id="@android:id/summary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@android:id/title"
+            android:layout_alignStart="@android:id/title"
+            android:layout_marginTop="@dimen/miuix_preference_summary_margin_top"
+            android:textAlignment="viewStart"
+            android:textAppearance="@style/TextAppearance.PreferenceList.Secondary" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@android:id/widget_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clipChildren="false"
+        android:gravity="center"
+        android:minWidth="@dimen/miuix_preference_widget_width"
+        android:orientation="vertical" />
+
+    <ImageView
+        android:id="@+id/arrow_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|end"
+        android:layout_marginStart="@dimen/miuix_preference_item_padding_inner"
+        android:gravity="center"
+        android:src="@drawable/miuix_preference_icon_arrow_right" />
+</LinearLayout>

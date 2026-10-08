@@ -1,1 +1,191 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IS0tCiAgfiBUaGlzIGZpbGUgaXMgcGFydCBvZiBIeXBlckNlaWxlci4KICB+CiAgfiBIeXBlckNlaWxlciBpcyBmcmVlIHNvZnR3YXJlOiB5b3UgY2FuIHJlZGlzdHJpYnV0ZSBpdCBhbmQvb3IgbW9kaWZ5CiAgfiBpdCB1bmRlciB0aGUgdGVybXMgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBhcwogIH4gcHVibGlzaGVkIGJ5IHRoZSBGcmVlIFNvZnR3YXJlIEZvdW5kYXRpb24sIGVpdGhlciB2ZXJzaW9uIDMgb2YgdGhlCiAgfiBMaWNlbnNlLgogIH4KICB+IFRoaXMgcHJvZ3JhbSBpcyBkaXN0cmlidXRlZCBpbiB0aGUgaG9wZSB0aGF0IGl0IHdpbGwgYmUgdXNlZnVsLAogIH4gYnV0IFdJVEhPVVQgQU5ZIFdBUlJBTlRZOyB3aXRob3V0IGV2ZW4gdGhlIGltcGxpZWQgd2FycmFudHkgb2YKICB+IE1FUkNIQU5UQUJJTElUWSBvciBGSVRORVNTIEZPUiBBIFBBUlRJQ1VMQVIgUFVSUE9TRS4gIFNlZSB0aGUKICB+IEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBmb3IgbW9yZSBkZXRhaWxzLgogIH4KICB+IFlvdSBzaG91bGQgaGF2ZSByZWNlaXZlZCBhIGNvcHkgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZQogIH4gYWxvbmcgd2l0aCB0aGlzIHByb2dyYW0uICBJZiBub3QsIHNlZSA8aHR0cHM6Ly93d3cuZ251Lm9yZy9saWNlbnNlcy8+LgogIH4KICB+IENvcHlyaWdodCAoQykgMjAyMy0yMDI2IEh5cGVyQ2VpbGVyIENvbnRyaWJ1dGlvbnMKICAtLT4KPFByZWZlcmVuY2VTY3JlZW4geG1sbnM6YW5kcm9pZD0iaHR0cDovL3NjaGVtYXMuYW5kcm9pZC5jb20vYXBrL3Jlcy9hbmRyb2lkIgogICAgeG1sbnM6YXBwPSJodHRwOi8vc2NoZW1hcy5hbmRyb2lkLmNvbS9hcGsvcmVzLWF1dG8iCiAgICBhcHA6bXlMb2NhdGlvbj0iQHN0cmluZy9zeXN0ZW1fdWlfb3RoZXJfdGl0bGUiCiAgICBhcHA6cXVpY2tfcmVzdGFydD0iY29tLmFuZHJvaWQuc3lzdGVtdWkiPgogICAgPFByZWZlcmVuY2VDYXRlZ29yeQogICAgICAgIGFuZHJvaWQ6a2V5PSJwcmVmc19rZXlfc3lzdGVtX3VpX21vbmV0IgogICAgICAgIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvc3lzdGVtX3VpX21vbmV0X3RpdGxlIj4KCiAgICAgICAgPFN3aXRjaFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpkZWZhdWx0VmFsdWU9ImZhbHNlIgogICAgICAgICAgICBhbmRyb2lkOmtleT0icHJlZnNfa2V5X3N5c3RlbV91aV9tb25ldF9vdmVybGF5X2N1c3RvbSIKICAgICAgICAgICAgYW5kcm9pZDpzdW1tYXJ5PSJAc3RyaW5nL3N5c3RlbV91aV9tb25ldF9vdmVybGF5X2N1c3RvbV9kZXNjIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJAc3RyaW5nL3N5c3RlbV91aV9tb25ldF9vdmVybGF5X2N1c3RvbSIgLz4KCiAgICAgICAgPENvbG9yUGlja2VyUHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOmRlZmF1bHRWYWx1ZT0iLTEiCiAgICAgICAgICAgIGFuZHJvaWQ6ZGVwZW5kZW5jeT0icHJlZnNfa2V5X3N5c3RlbV91aV9tb25ldF9vdmVybGF5X2N1c3RvbSIKICAgICAgICAgICAgYW5kcm9pZDprZXk9InByZWZzX2tleV9zeXN0ZW1fdWlfbW9uZXRfb3ZlcmxheV9jdXN0b21fY29sb3IiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvc3lzdGVtX3VpX21vbmV0X292ZXJsYXlfY3VzdG9tX2NvbG9yIiAvPgoKICAgIDwvUHJlZmVyZW5jZUNhdGVnb3J5PgoKICAgIDxQcmVmZXJlbmNlQ2F0ZWdvcnkgYW5kcm9pZDp0aXRsZT0iQHN0cmluZy9zeXN0ZW1fdWlfbm90aWZpY2F0aW9uX3RpdGxlIj4KICAgICAgICA8U3dpdGNoUHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOmRlZmF1bHRWYWx1ZT0iZmFsc2UiCiAgICAgICAgICAgIGFuZHJvaWQ6a2V5PSJwcmVmc19rZXlfc3lzdGVtX2ZyYW1ld29ya19hbGxvd19tYW5hZ2VfYWxsX25vdGlmaWNhdGlvbnMiCiAgICAgICAgICAgIGFuZHJvaWQ6c3VtbWFyeT0iQHN0cmluZy9zeXN0ZW1fdWlfb3RoZXJfbm90aWZpY2F0aW9uX2ZpeCIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iQHN0cmluZy9zeXN0ZW1fZnJhbWV3b3JrX2FsbG93X21hbmFnZV9hbGxfbm90aWZpY2F0aW9ucyIgLz4KCiAgICAgICAgPFN3aXRjaFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpkZWZhdWx0VmFsdWU9ImZhbHNlIgogICAgICAgICAgICBhbmRyb2lkOmtleT0icHJlZnNfa2V5X3N5c3RlbV91aV9ub3RpZmljYXRpb25fZnJlZWZvcm0iCiAgICAgICAgICAgIGFuZHJvaWQ6c3VtbWFyeT0iQHN0cmluZy9zeXN0ZW1fdWlfbm90aWZpY2F0aW9uX2ZyZWVmb3JtX2Rlc2MiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvc3lzdGVtX3VpX25vdGlmaWNhdGlvbl9mcmVlZm9ybSIgLz4KCiAgICA8L1ByZWZlcmVuY2VDYXRlZ29yeT4KCiAgICA8UHJlZmVyZW5jZUNhdGVnb3J5IGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvc3lzdGVtX3VpX290aGVyc19wY3RfdGl0bGUiPgogICAgICAgIDxmYW4ucHJlZmVyZW5jZS5Ecm9wRG93blByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpkZWZhdWx0VmFsdWU9IjAiCiAgICAgICAgICAgIGFuZHJvaWQ6a2V5PSJwcmVmc19rZXlfc3lzdGVtX3VpX290aGVyc19wY3Rfc3R5bGUiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvc3lzdGVtX2NjX3Nob3dwY3Rfc3R5bGUiCiAgICAgICAgICAgIGFwcDplbnRyaWVzPSJAYXJyYXkvb3RoZXJzX3BjdF9zd2l0Y2hfc3R5bGUiCiAgICAgICAgICAgIGFwcDplbnRyeVZhbHVlcz0iQGFycmF5L290aGVyc19wY3Rfc3dpdGNoX3N0eWxlX3ZhbHVlIiAvPgoKICAgICAgICA8U3dpdGNoUHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOmRlZmF1bHRWYWx1ZT0iZmFsc2UiCiAgICAgICAgICAgIGFuZHJvaWQ6a2V5PSJwcmVmc19rZXlfc3lzdGVtX3VpX2NvbnRyb2xfY2VudGVyX3FzX2JyaWdodG5lc3NfdG9wX3ZhbHVlX3Nob3ciCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvc3lzdGVtX3VpX2NvbnRyb2xfY2VudGVyX3FzX2JyaWdodG5lc3NfdG9wX3ZhbHVlX3Nob3dfdGl0bGUiIC8+CgogICAgICAgIDxTd2l0Y2hQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6ZGVmYXVsdFZhbHVlPSJmYWxzZSIKICAgICAgICAgICAgYW5kcm9pZDprZXk9InByZWZzX2tleV9zeXN0ZW1fdWlfY29udHJvbF9jZW50ZXJfcXNfdm9sdW1lX3RvcF92YWx1ZV9zaG93IgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJAc3RyaW5nL3N5c3RlbV91aV9jb250cm9sX2NlbnRlcl9xc192b2x1bWVfdG9wX3ZhbHVlX3Nob3dfdGl0bGUiIC8+CgogICAgICAgIDxTd2l0Y2hQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6ZGVmYXVsdFZhbHVlPSJmYWxzZSIKICAgICAgICAgICAgYW5kcm9pZDprZXk9InByZWZzX2tleV9zeXN0ZW1fY2Nfdm9sdW1lX3Nob3dwY3RfdGl0bGUiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvc3lzdGVtX2NjX3ZvbHVtZV9zaG93cGN0X3RpdGxlIiAvPgoKICAgICAgICA8U3dpdGNoUHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOmRlZmF1bHRWYWx1ZT0iZmFsc2UiCiAgICAgICAgICAgIGFuZHJvaWQ6a2V5PSJwcmVmc19rZXlfc3lzdGVtX3Nob3dwY3RfdGl0bGUiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvc3lzdGVtX3Nob3dwY3RfdGl0bGUiIC8+CgogICAgICAgIDxTZWVrQmFyUHJlZmVyZW5jZUNvbXBhdAogICAgICAgICAgICBhbmRyb2lkOmtleT0icHJlZnNfa2V5X3N5c3RlbV91aV9vdGhlcnNfc2hvd3BjdF90b3AiCiAgICAgICAgICAgIGFuZHJvaWQ6c3VtbWFyeT0iQHN0cmluZy9zeXN0ZW1fdWlfb3RoZXJzX3Nob3dwY3RfdG9wX2Rlc2MiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvc3lzdGVtX3VpX290aGVyc19zaG93cGN0X3RvcCIKICAgICAgICAgICAgYXBwOmRlZmF1bHRWYWx1ZT0iNTQiCiAgICAgICAgICAgIGFwcDpkZWZhdWx0VmFsdWVUaXRsZT0iQHN0cmluZy9hcnJheV9kZWZhdWx0IgogICAgICAgICAgICBhcHA6Zm9ybWF0PSIlcyBkcCIKICAgICAgICAgICAgYXBwOm1heFZhbHVlPSIxMDI0IgogICAgICAgICAgICBhcHA6c2hvd1NlZWtCYXJWYWx1ZT0idHJ1ZSIKICAgICAgICAgICAgYXBwOnN0ZXBWYWx1ZT0iMSIgLz4KCiAgICAgICAgPFN3aXRjaFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpkZWZhdWx0VmFsdWU9ImZhbHNlIgogICAgICAgICAgICBhbmRyb2lkOmtleT0icHJlZnNfa2V5X3N5c3RlbV9zaG93cGN0X3VzZV9ibHVyIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJAc3RyaW5nL3N5c3RlbV9zaG93cGN0X3VzZV9ibHVyIiAvPgoKICAgIDwvUHJlZmVyZW5jZUNhdGVnb3J5PgoKICAgIDxQcmVmZXJlbmNlQ2F0ZWdvcnkgYW5kcm9pZDp0aXRsZT0iQHN0cmluZy9zeXN0ZW1fdWlfcGx1Z2luX3ZvbHVtZV90aXRsZSI+CiAgICAgICAgPFN3aXRjaFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpkZWZhdWx0VmFsdWU9ImZhbHNlIgogICAgICAgICAgICBhbmRyb2lkOmtleT0icHJlZnNfa2V5X3N5c3RlbV91aV92b2x1bWVfY29sbHBhc2VkX2NvbHVtbl9wcmVzcyIKICAgICAgICAgICAgYW5kcm9pZDpzdW1tYXJ5PSJAc3RyaW5nL3N5c3RlbV91aV92b2x1bWVfY29sbHBhc2VkX2NvbHVtbl9wcmVzc19kZXNjIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJAc3RyaW5nL3N5c3RlbV91aV92b2x1bWVfY29sbHBhc2VkX2NvbHVtbl9wcmVzcyIgLz4KCiAgICAgICAgPFN3aXRjaFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpkZWZhdWx0VmFsdWU9ImZhbHNlIgogICAgICAgICAgICBhbmRyb2lkOmtleT0icHJlZnNfa2V5X3N5c3RlbV91aV92b2x1bWVfaGlkZV9mb290X2J1dHRvbiIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iQHN0cmluZy9zeXN0ZW1fdWlfdm9sdW1lX2hpZGVfZm9vdF9idXR0b24iIC8+CgogICAgICAgIDxTd2l0Y2hQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6ZGVmYXVsdFZhbHVlPSJmYWxzZSIKICAgICAgICAgICAgYW5kcm9pZDprZXk9InByZWZzX2tleV9zeXN0ZW1fdWlfcGx1Z2luX2VuYWJsZV92b2x1bWVfYmx1ciIKICAgICAgICAgICAgYW5kcm9pZDpzdW1tYXJ5PSJAc3RyaW5nL3N5c3RlbV91aV9wbHVnaW5fZW5hYmxlX3ZvbHVtZV9ibHVyX2Rlc2MiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvc3lzdGVtX3VpX3BsdWdpbl9lbmFibGVfdm9sdW1lX2JsdXIiIC8+CgogICAgPC9QcmVmZXJlbmNlQ2F0ZWdvcnk+CgogICAgPFByZWZlcmVuY2VDYXRlZ29yeSBhbmRyb2lkOnRpdGxlPSJAc3RyaW5nL2Zsb2F0aW5nX3dpbmRvdyI+CiAgICAgICAgPFN3aXRjaFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpkZWZhdWx0VmFsdWU9ImZhbHNlIgogICAgICAgICAgICBhbmRyb2lkOmtleT0icHJlZnNfa2V5X3N5c3RlbV91aV9kaXNhYmxlX21pdWlfbXVsdGlfd2luX3N3aXRjaCIKICAgICAgICAgICAgYW5kcm9pZDpzdW1tYXJ5PSJAc3RyaW5nL3N5c3RlbV91aV9kaXNhYmxlX21pdWlfbXVsdGlfd2luX3N3aXRjaF9kZXNjIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJAc3RyaW5nL3N5c3RlbV91aV9kaXNhYmxlX21pdWlfbXVsdGlfd2luX3N3aXRjaCIgLz4KCiAgICAgICAgPFN3aXRjaFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpkZWZhdWx0VmFsdWU9ImZhbHNlIgogICAgICAgICAgICBhbmRyb2lkOmtleT0icHJlZnNfa2V5X3N5c3RlbV91aV9yZW1vdmVfbWl1aV9tdWx0aV93aW5fc3dpdGNoIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJAc3RyaW5nL3N5c3RlbV91aV9yZW1vdmVfbWl1aV9tdWx0aV93aW5fc3dpdGNoIiAvPgoKICAgICAgICA8U3dpdGNoUHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOmRlZmF1bHRWYWx1ZT0iZmFsc2UiCiAgICAgICAgICAgIGFuZHJvaWQ6a2V5PSJwcmVmc19rZXlfc3lzdGVtX3VpX2Rpc2FibGVfaW5maW5pdHltb2RlX2dlc3R1cmUiCiAgICAgICAgICAgIGFuZHJvaWQ6c3VtbWFyeT0iQHN0cmluZy9zeXN0ZW1fdWlfZGlzYWJsZV9pbmZpbml0eW1vZGVfZ2VzdHVyZV9zdW0iCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvc3lzdGVtX3VpX2Rpc2FibGVfaW5maW5pdHltb2RlX2dlc3R1cmUiIC8+CgogICAgICAgIDxTd2l0Y2hQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6ZGVmYXVsdFZhbHVlPSJmYWxzZSIKICAgICAgICAgICAgYW5kcm9pZDprZXk9InByZWZzX2tleV9zeXN0ZW1fdWlfZGlzYWJsZV9ib3R0b21iYXIiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvc3lzdGVtX3VpX2Rpc2FibGVfYm90dG9tYmFyIiAvPgoKICAgIDwvUHJlZmVyZW5jZUNhdGVnb3J5PgoKICAgIDxQcmVmZXJlbmNlQ2F0ZWdvcnkgYW5kcm9pZDp0aXRsZT0iQHN0cmluZy9zeXN0ZW1fdWlfYW5vdGhlcl90aXRsZSI+CiAgICAgICAgPFN3aXRjaFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpkZWZhdWx0VmFsdWU9ImZhbHNlIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJAc3RyaW5nL3N5c3RlbV9mcmFtZXdvcmtfYmFja2dyb3VuZF9ibHVyX3RvYXN0IgogICAgICAgICAgICBhbmRyb2lkOmtleT0icHJlZnNfa2V5X3N5c3RlbV9mcmFtZXdvcmtfYmFja2dyb3VuZF9ibHVyX3RvYXN0IiAvPgoKICAgICAgICA8U3dpdGNoUHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOmRlZmF1bHRWYWx1ZT0iZmFsc2UiCiAgICAgICAgICAgIGFuZHJvaWQ6a2V5PSJwcmVmc19rZXlfc3lzdGVtX3VpX2Rpc2FibGVfdm9sdW1lIgogICAgICAgICAgICBhbmRyb2lkOnN1bW1hcnk9IkBzdHJpbmcvc3lzdGVtX3VpX2Rpc2FibGVfdm9sdW1lX2Rlc2MiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvc3lzdGVtX3VpX2Rpc2FibGVfdm9sdW1lIiAvPgoKICAgICAgICA8U3dpdGNoUHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOmRlZmF1bHRWYWx1ZT0iZmFsc2UiCiAgICAgICAgICAgIGFuZHJvaWQ6a2V5PSJwcmVmc19rZXlfc3lzdGVtX3VpX2Rpc2FibGVfcG93ZXIiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvc3lzdGVtX3VpX2Rpc2FibGVfcG93ZXIiIC8+CgogICAgICAgIDxTd2l0Y2hQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6ZGVmYXVsdFZhbHVlPSJmYWxzZSIKICAgICAgICAgICAgYW5kcm9pZDprZXk9InByZWZzX2tleV9zeXN0ZW1fdWlfdW5sb2NrX2NsaXBib2FyZCIKICAgICAgICAgICAgYW5kcm9pZDpzdW1tYXJ5PSJAc3RyaW5nL3N5c3RlbV91aV91bmxvY2tfY2xpcGJvYXJkX2Rlc2MiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvc3lzdGVtX3VpX3VubG9ja19jbGlwYm9hcmQiIC8+CgogICAgICAgIDxTd2l0Y2hQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6ZGVmYXVsdFZhbHVlPSJmYWxzZSIKICAgICAgICAgICAgYW5kcm9pZDprZXk9InByZWZzX2tleV9zeXN0ZW1fdWlfb3RoZXJfZGVmYXVsdF9wbHVnaW5fdGhlbWUiCiAgICAgICAgICAgIGFuZHJvaWQ6c3VtbWFyeT0iQHN0cmluZy9zeXN0ZW1fdWlfb3RoZXJfZGVmYXVsdF9wbHVnaW5fdGhlbWVfZGVzYyIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iQHN0cmluZy9zeXN0ZW1fdWlfb3RoZXJfZGVmYXVsdF9wbHVnaW5fdGhlbWUiIC8+CgogICAgICAgIDxTd2l0Y2hQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6ZGVmYXVsdFZhbHVlPSJmYWxzZSIKICAgICAgICAgICAgYW5kcm9pZDprZXk9InByZWZzX2tleV9zeXN0ZW1fdWlfbW92ZV9sb2dfdG9fbWl1aSIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iQHN0cmluZy9zeXN0ZW1fdWlfbW92ZV9sb2dfdG9fbWl1aSIgLz4KCiAgICA8L1ByZWZlcmVuY2VDYXRlZ29yeT4KCiAgICA8UHJlZmVyZW5jZUNhdGVnb3J5IGFwcDppc1ByZWZlcmVuY2VWaXNpYmxlPSJmYWxzZSI+CiAgICAgICAgPFN3aXRjaFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpkZWZhdWx0VmFsdWU9ImZhbHNlIgogICAgICAgICAgICBhbmRyb2lkOmtleT0icHJlZnNfa2V5X3N5c3RlbV91aV9xc19sYWJlbCIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iQHN0cmluZy9zeXN0ZW1fdWlfcXNfbGFiZWwiIC8+CgogICAgPC9QcmVmZXJlbmNlQ2F0ZWdvcnk+Cgo8L1ByZWZlcmVuY2VTY3JlZW4+Cg==
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ This file is part of HyperCeiler.
+  ~
+  ~ HyperCeiler is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU Affero General Public License as
+  ~ published by the Free Software Foundation, either version 3 of the
+  ~ License.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU Affero General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU Affero General Public License
+  ~ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+  ~
+  ~ Copyright (C) 2023-2026 HyperCeiler Contributions
+  -->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:myLocation="@string/system_ui_other_title"
+    app:quick_restart="com.android.systemui">
+    <PreferenceCategory
+        android:key="prefs_key_system_ui_monet"
+        android:title="@string/system_ui_monet_title">
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefs_key_system_ui_monet_overlay_custom"
+            android:summary="@string/system_ui_monet_overlay_custom_desc"
+            android:title="@string/system_ui_monet_overlay_custom" />
+
+        <ColorPickerPreference
+            android:defaultValue="-1"
+            android:dependency="prefs_key_system_ui_monet_overlay_custom"
+            android:key="prefs_key_system_ui_monet_overlay_custom_color"
+            android:title="@string/system_ui_monet_overlay_custom_color" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/system_ui_notification_title">
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefs_key_system_framework_allow_manage_all_notifications"
+            android:summary="@string/system_ui_other_notification_fix"
+            android:title="@string/system_framework_allow_manage_all_notifications" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefs_key_system_ui_notification_freeform"
+            android:summary="@string/system_ui_notification_freeform_desc"
+            android:title="@string/system_ui_notification_freeform" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/system_ui_others_pct_title">
+        <fan.preference.DropDownPreference
+            android:defaultValue="0"
+            android:key="prefs_key_system_ui_others_pct_style"
+            android:title="@string/system_cc_showpct_style"
+            app:entries="@array/others_pct_switch_style"
+            app:entryValues="@array/others_pct_switch_style_value" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefs_key_system_ui_control_center_qs_brightness_top_value_show"
+            android:title="@string/system_ui_control_center_qs_brightness_top_value_show_title" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefs_key_system_ui_control_center_qs_volume_top_value_show"
+            android:title="@string/system_ui_control_center_qs_volume_top_value_show_title" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefs_key_system_cc_volume_showpct_title"
+            android:title="@string/system_cc_volume_showpct_title" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefs_key_system_showpct_title"
+            android:title="@string/system_showpct_title" />
+
+        <SeekBarPreferenceCompat
+            android:key="prefs_key_system_ui_others_showpct_top"
+            android:summary="@string/system_ui_others_showpct_top_desc"
+            android:title="@string/system_ui_others_showpct_top"
+            app:defaultValue="54"
+            app:defaultValueTitle="@string/array_default"
+            app:format="%s dp"
+            app:maxValue="1024"
+            app:showSeekBarValue="true"
+            app:stepValue="1" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefs_key_system_showpct_use_blur"
+            android:title="@string/system_showpct_use_blur" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/system_ui_plugin_volume_title">
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefs_key_system_ui_volume_collpased_column_press"
+            android:summary="@string/system_ui_volume_collpased_column_press_desc"
+            android:title="@string/system_ui_volume_collpased_column_press" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefs_key_system_ui_volume_hide_foot_button"
+            android:title="@string/system_ui_volume_hide_foot_button" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefs_key_system_ui_plugin_enable_volume_blur"
+            android:summary="@string/system_ui_plugin_enable_volume_blur_desc"
+            android:title="@string/system_ui_plugin_enable_volume_blur" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/floating_window">
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefs_key_system_ui_disable_miui_multi_win_switch"
+            android:summary="@string/system_ui_disable_miui_multi_win_switch_desc"
+            android:title="@string/system_ui_disable_miui_multi_win_switch" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefs_key_system_ui_remove_miui_multi_win_switch"
+            android:title="@string/system_ui_remove_miui_multi_win_switch" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefs_key_system_ui_disable_infinitymode_gesture"
+            android:summary="@string/system_ui_disable_infinitymode_gesture_sum"
+            android:title="@string/system_ui_disable_infinitymode_gesture" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefs_key_system_ui_disable_bottombar"
+            android:title="@string/system_ui_disable_bottombar" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/system_ui_another_title">
+        <SwitchPreference
+            android:defaultValue="false"
+            android:title="@string/system_framework_background_blur_toast"
+            android:key="prefs_key_system_framework_background_blur_toast" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefs_key_system_ui_disable_volume"
+            android:summary="@string/system_ui_disable_volume_desc"
+            android:title="@string/system_ui_disable_volume" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefs_key_system_ui_disable_power"
+            android:title="@string/system_ui_disable_power" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefs_key_system_ui_unlock_clipboard"
+            android:summary="@string/system_ui_unlock_clipboard_desc"
+            android:title="@string/system_ui_unlock_clipboard" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefs_key_system_ui_other_default_plugin_theme"
+            android:summary="@string/system_ui_other_default_plugin_theme_desc"
+            android:title="@string/system_ui_other_default_plugin_theme" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefs_key_system_ui_move_log_to_miui"
+            android:title="@string/system_ui_move_log_to_miui" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:isPreferenceVisible="false">
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefs_key_system_ui_qs_label"
+            android:title="@string/system_ui_qs_label" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

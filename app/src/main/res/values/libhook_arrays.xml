@@ -1,1 +1,128 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0NCiAgfiBUaGlzIGZpbGUgaXMgcGFydCBvZiBIeXBlckNlaWxlci4NCiAgfg0KICB+IEh5cGVyQ2VpbGVyIGlzIGZyZWUgc29mdHdhcmU6IHlvdSBjYW4gcmVkaXN0cmlidXRlIGl0IGFuZC9vciBtb2RpZnkNCiAgfiBpdCB1bmRlciB0aGUgdGVybXMgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBhcw0KICB+IHB1Ymxpc2hlZCBieSB0aGUgRnJlZSBTb2Z0d2FyZSBGb3VuZGF0aW9uLCBlaXRoZXIgdmVyc2lvbiAzIG9mIHRoZQ0KICB+IExpY2Vuc2UuDQogIH4NCiAgfiBUaGlzIHByb2dyYW0gaXMgZGlzdHJpYnV0ZWQgaW4gdGhlIGhvcGUgdGhhdCBpdCB3aWxsIGJlIHVzZWZ1bCwNCiAgfiBidXQgV0lUSE9VVCBBTlkgV0FSUkFOVFk7IHdpdGhvdXQgZXZlbiB0aGUgaW1wbGllZCB3YXJyYW50eSBvZg0KICB+IE1FUkNIQU5UQUJJTElUWSBvciBGSVRORVNTIEZPUiBBIFBBUlRJQ1VMQVIgUFVSUE9TRS4gIFNlZSB0aGUNCiAgfiBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UgZm9yIG1vcmUgZGV0YWlscy4NCiAgfg0KICB+IFlvdSBzaG91bGQgaGF2ZSByZWNlaXZlZCBhIGNvcHkgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZQ0KICB+IGFsb25nIHdpdGggdGhpcyBwcm9ncmFtLiAgSWYgbm90LCBzZWUgPGh0dHBzOi8vd3d3LmdudS5vcmcvbGljZW5zZXMvPi4NCiAgfg0KICB+IENvcHlyaWdodCAoQykgMjAyMy0yMDI2IEh5cGVyUm9taHViIENvbnRyaWJ1dGlvbnMNCiAgLS0+DQo8cmVzb3VyY2VzPg0KICAgIDxzdHJpbmctYXJyYXkgbmFtZT0ieHBvc2VkX3Njb3BlIj4NCiAgICAgICAgPGl0ZW0+YW5kcm9pZDwvaXRlbT4gPCEtLeezu+e7n+ahhuaeti0tPg0KICAgICAgICA8aXRlbT5jb20uYW5kcm9pZC5icm93c2VyPC9pdGVtPiA8IS0t5rWP6KeI5ZmoLS0+DQogICAgICAgIDxpdGVtPmNvbS5hbmRyb2lkLmNhbGVuZGFyPC9pdGVtPiA8IS0t5pel5Y6GLS0+DQogICAgICAgIDxpdGVtPmNvbS5hbmRyb2lkLmNhbWVyYTwvaXRlbT4gPCEtLeebuOacui0tPg0KICAgICAgICA8aXRlbT5jb20uYW5kcm9pZC5jb250YWN0czwvaXRlbT4gPCEtLemAmuiur+W9leS4juaLqOWPty0tPg0KICAgICAgICA8aXRlbT5jb20uYW5kcm9pZC5leHRlcm5hbHN0b3JhZ2U8L2l0ZW0+IDwhLS3lpJbpg6jlrZjlgqjorr7lpIctLT4NCiAgICAgICAgPGl0ZW0+Y29tLmFuZHJvaWQuZmlsZWV4cGxvcmVyPC9pdGVtPiA8IS0t5paH5Lu2566h55CGLS0+DQogICAgICAgIDxpdGVtPmNvbS5hbmRyb2lkLmh0bWx2aWV3ZXI8L2l0ZW0+IDwhLS1IVE1MIOafpeeci+WZqC0tPg0KICAgICAgICA8aXRlbT5jb20uYW5kcm9pZC5pbmNhbGx1aTwvaXRlbT4gPCEtLeeUteivnS0tPg0KICAgICAgICA8aXRlbT5jb20uYW5kcm9pZC5tbXM8L2l0ZW0+IDwhLS3nn63kv6EtLT4NCiAgICAgICAgPGl0ZW0+Y29tLmFuZHJvaWQubmZjPC9pdGVtPiA8IS0tTkZDIOacjeWKoS0tPg0KICAgICAgICA8aXRlbT5jb20uYW5kcm9pZC5waG9uZTwvaXRlbT4gPCEtLeeUteivneacjeWKoS0tPg0KICAgICAgICA8aXRlbT5jb20uYW5kcm9pZC5wcm92aWRlcnMuZG93bmxvYWRzPC9pdGVtPiA8IS0t5LiL6L29566h55CG56iL5bqPLS0+DQogICAgICAgIDxpdGVtPmNvbS5hbmRyb2lkLnByb3ZpZGVycy5kb3dubG9hZHMudWk8L2l0ZW0+IDwhLS3kuIvovb3nrqHnkIYtLT4NCiAgICAgICAgPGl0ZW0+Y29tLmFuZHJvaWQuc2VydmVyLnRlbGVjb208L2l0ZW0+IDwhLS3pgJror53nrqHnkIYtLT4NCiAgICAgICAgPGl0ZW0+Y29tLmFuZHJvaWQuc2V0dGluZ3M8L2l0ZW0+IDwhLS3orr7nva4tLT4NCiAgICAgICAgPGl0ZW0+Y29tLmFuZHJvaWQuc291bmRyZWNvcmRlcjwvaXRlbT4gPCEtLeW9lemfs+acui0tPg0KICAgICAgICA8aXRlbT5jb20uYW5kcm9pZC5zeXN0ZW11aTwvaXRlbT4gPCEtLeezu+e7n+eVjOmdoi0tPg0KICAgICAgICA8aXRlbT5jb20uYW5kcm9pZC50aGVtZW1hbmFnZXI8L2l0ZW0+IDwhLS3kuLvpopjlo4HnurgtLT4NCiAgICAgICAgPGl0ZW0+Y29tLmFuZHJvaWQudXBkYXRlcjwvaXRlbT4gPCEtLeezu+e7n+abtOaWsC0tPg0KICAgICAgICA8aXRlbT5jb20uZHVva2FuLnBob25lLnJlbW90ZWNvbnRyb2xsZXI8L2l0ZW0+IDwhLS3kuIfog73pgaXmjqctLT4NCiAgICAgICAgPGl0ZW0+Y29tLmxiZS5zZWN1cml0eS5taXVpPC9pdGVtPiA8IS0t5p2D6ZmQ566h55CG5pyN5YqhLS0+DQogICAgICAgIDxpdGVtPmNvbS5taS5oZWFsdGg8L2l0ZW0+IDwhLS3lsI/nsbPov5DliqjlgaXlurctLT4NCiAgICAgICAgPGl0ZW0+Y29tLm1pbGluay5zZXJ2aWNlPC9pdGVtPiA8IS0t5LqS6IGU5LqS6YCa5pyN5YqhLS0+DQogICAgICAgIDxpdGVtPmNvbS5taXVpLmFuYWx5dGljczwvaXRlbT4gPCEtLUFuYWx5dGljcy0tPg0KICAgICAgICA8aXRlbT5jb20ubWl1aS5hb2Q8L2l0ZW0+IDwhLS3mga/lsY/kuI7plIHlsY/nvJbovpEtLT4NCiAgICAgICAgPGl0ZW0+Y29tLm1pdWkuYmFja3VwPC9pdGVtPiA8IS0t5aSH5Lu9LS0+DQogICAgICAgIDwhLS08aXRlbT5jb20ubWl1aS5jbGVhbm1hc3RlcjwvaXRlbT4tLT4gPCEtLeWeg+Wcvua4heeQhi0tPg0KICAgICAgICA8aXRlbT5jb20ubWl1aS5jbG91ZHNlcnZpY2U8L2l0ZW0+IDwhLS3lsI/nsbPkupHmnI3liqEtLT4NCiAgICAgICAgPGl0ZW0+Y29tLm1pdWkuY29udGVudGV4dGVuc2lvbjwvaXRlbT4gPCEtLeS8oOmAgemXqC0tPg0KICAgICAgICA8aXRlbT5jb20ubWl1aS5jcmVhdGlvbjwvaXRlbT4gPCEtLeWwj+exs+WIm+S9nC0tPg0KICAgICAgICA8aXRlbT5jb20ubWl1aS5ldWljYzwvaXRlbT4gPCEtLUxQQS0tPg0KICAgICAgICA8aXRlbT5jb20ubWl1aS5nYWxsZXJ5PC9pdGVtPiA8IS0t55u45YaMLS0+DQogICAgICAgIDxpdGVtPmNvbS5taXVpLmd1YXJkcHJvdmlkZXI8L2l0ZW0+IDwhLS3ns7vnu5/lronlhajnu4Tku7YtLT4NCiAgICAgICAgPGl0ZW0+Y29tLm1pdWkuaG9tZTwvaXRlbT4gPCEtLeezu+e7n+ahjOmdoi0tPg0KICAgICAgICA8aXRlbT5jb20ubWl1aS5odWFuamk8L2l0ZW0+IDwhLS3lsI/nsbPmjaLmnLotLT4NCiAgICAgICAgPGl0ZW0+Y29tLm1pdWkubWVkaWFlZGl0b3I8L2l0ZW0+IDwhLS3lsI/nsbPnm7jlhowt57yW6L6RLS0+DQogICAgICAgIDxpdGVtPmNvbS5taXVpLm1pc2hhcmUuY29ubmVjdGl2aXR5PC9pdGVtPiA8IS0t5bCP57Gz5LqS5LygLS0+DQogICAgICAgIDxpdGVtPmNvbS5taXVpLm1pc291bmQ8L2l0ZW0+IDwhLS3pn7PotKjpn7PmlYgtLT4NCiAgICAgICAgPGl0ZW0+Y29tLm1pdWkubWl3YWxscGFwZXI8L2l0ZW0+IDwhLS3lo4HnurgtLT4NCiAgICAgICAgPGl0ZW0+Y29tLm1pdWkubm90ZXM8L2l0ZW0+IDwhLS3nrJTorrAtLT4NCiAgICAgICAgPGl0ZW0+Y29tLm1pdWkucGFja2FnZWluc3RhbGxlcjwvaXRlbT4gPCEtLeW6lOeUqOWMheeuoeeQhue7hOS7ti0tPg0KICAgICAgICA8aXRlbT5jb20ubWl1aS5wZXJzb25hbGFzc2lzdGFudDwvaXRlbT4gPCEtLeaZuuiDveWKqeeQhi0tPg0KICAgICAgICA8aXRlbT5jb20ubWl1aS5waHJhc2U8L2l0ZW0+IDwhLS3liarotLTmnb/kuI7luLjnlKjor60tLT4NCiAgICAgICAgPGl0ZW0+Y29tLm1pdWkucG93ZXJrZWVwZXI8L2l0ZW0+IDwhLS3nlLXph4/kuI7mgKfog70tLT4NCiAgICAgICAgPGl0ZW0+Y29tLm1pdWkuc2NyZWVucmVjb3JkZXI8L2l0ZW0+IDwhLS3lsY/luZXlvZXliLYtLT4NCiAgICAgICAgPGl0ZW0+Y29tLm1pdWkuc2NyZWVuc2hvdDwvaXRlbT4gPCEtLeaIquWxjy0tPg0KICAgICAgICA8aXRlbT5jb20ubWl1aS5zZWN1cml0eWFkZDwvaXRlbT4gPCEtLeezu+e7n+acjeWKoee7hOS7ti0tPg0KICAgICAgICA8aXRlbT5jb20ubWl1aS5zZWN1cml0eWNlbnRlcjwvaXRlbT4gPCEtLeaJi+acuueuoeWuti0tPg0KICAgICAgICA8aXRlbT5jb20ubWl1aS50c21jbGllbnQ8L2l0ZW0+IDwhLS3lsI/nsbPmmbrog73ljaEtLT4NCiAgICAgICAgPCEtLTxpdGVtPmNvbS5taXVpLnZvaWNlYXNzaXN0PC9pdGVtPi0tPiA8IS0t6LaF57qn5bCP54ixLS0+DQogICAgICAgIDxpdGVtPmNvbS5taXVpLndlYXRoZXIyPC9pdGVtPiA8IS0t5aSp5rCULS0+DQogICAgICAgIDxpdGVtPmNvbS54aWFvbWkuYWlhc3N0LnZpc2lvbjwvaXRlbT4gPCEtLeWwj+eIsee/u+ivkS0tPg0KICAgICAgICA8aXRlbT5jb20ueGlhb21pLmJhcnJhZ2U8L2l0ZW0+IDwhLS3lvLnluZXpgJrnn6UtLT4NCiAgICAgICAgPGl0ZW0+Y29tLnhpYW9taS5qb3lvc2U8L2l0ZW0+IDwhLS1Kb3lvc2UtLT4NCiAgICAgICAgPGl0ZW0+Y29tLnhpYW9taS5tYXJrZXQ8L2l0ZW0+IDwhLS3lupTnlKjllYblupctLT4NCiAgICAgICAgPCEtLTxpdGVtPmNvbS54aWFvbWkubWlycm9yPC9pdGVtPi0tPiA8IS0tTUlVSSstLT4NCiAgICAgICAgPGl0ZW0+Y29tLnhpYW9taS5taXNldHRpbmdzPC9pdGVtPiA8IS0t5bCP57Gz6K6+572uLS0+DQogICAgICAgIDxpdGVtPmNvbS54aWFvbWkubXRiPC9pdGVtPiA8IS0t6bKB54+tIChNVEIpLS0+DQogICAgICAgIDxpdGVtPmNvbS54aWFvbWkuc2Nhbm5lcjwvaXRlbT4gPCEtLeWwj+eIseinhuiniS0tPg0KICAgICAgICA8aXRlbT5jb20ueGlhb21pLnRydXN0c2VydmljZTwvaXRlbT4gPCEtLU1pVHJ1c3RTZXJ2aWNlLS0+DQogICAgICAgIDxpdGVtPmNvbS54aWFvbWkudmlwYWNjb3VudDwvaXRlbT4gPCEtLeWwj+exs+ekvuWMui0tPg0KICAgICAgICA8aXRlbT5jb20uaWZseXRlay5pbnB1dG1ldGhvZC5taXVpPC9pdGVtPiA8IS0t6K6v6aOe6L6T5YWl5rOV5bCP57Gz54mILS0+DQogICAgICAgIDxpdGVtPmNvbS5zb2h1LmlucHV0bWV0aG9kLnNvZ291LnhpYW9taTwvaXRlbT4gPCEtLeaQnOeLl+i+k+WFpeazleWwj+exs+eJiC0tPg0KICAgICAgICA8aXRlbT5jb20ubWl1aS52b2ljZXRyaWdnZXI8L2l0ZW0+IDwhLS3or63pn7PllKTphpItLT4NCiAgICAgICAgPGl0ZW0+Y29tLm1pdWkudm9pY2Vhc3Npc3Q8L2l0ZW0+DQogICAgICAgIDxpdGVtPmNvbS5hbmRyb2lkLnBob3RvcGlja2VyPC9pdGVtPg0KICAgICAgICA8aXRlbT5jb20ueGlhb21pLnNpbWFjdGl2YXRlLnNlcnZpY2U8L2l0ZW0+IDwhLS1zaW3ljaHmv4DmtLvmnI3liqEtLT4NCiAgICAgICAgPGl0ZW0+bWl1aS5zeXN0ZW11aS5wbHVnaW48L2l0ZW0+IDwhLS3ns7vnu5/nlYzpnaLnu4Tku7YtLT4NCiAgICAgICAgPCEtLTxpdGVtPmNvbS5oY2hlbi5kZW1vPC9pdGVtPi0tPiA8IS0tRGVtby0tPg0KICAgIDwvc3RyaW5nLWFycmF5Pg0KDQogICAgPGFycmF5IG5hbWU9Im1pdWlfZnJlZWZvcm1fYmxhY2tfbGlzdCI+DQogICAgICAgIDxpdGVtPmFiLmNkLnh5ejwvaXRlbT4NCiAgICA8L2FycmF5Pg0KDQogICAgPHN0cmluZy1hcnJheSBuYW1lPSJtaXVpX2NvcmVfYXBwX3BhY2thZ2VfbmFtZSI+DQogICAgICAgIDxpdGVtPmNvbS5sYmUuc2VjdXJpdHkubWl1aTwvaXRlbT4NCiAgICAgICAgPGl0ZW0+Y29tLm1pdWkucGFja2FnZWluc3RhbGxlcjwvaXRlbT4NCiAgICA8L3N0cmluZy1hcnJheT4NCg0KICAgIDxhcnJheSBuYW1lPSJtaXVpX3ZvbHVtZV90aW1lcl9zZWdtZW50cyI+DQogICAgICAgIDxpdGVtPkBudWxsPC9pdGVtPg0KICAgICAgICA8aXRlbT4xODAwPC9pdGVtPg0KICAgICAgICA8aXRlbT4zNjAwPC9pdGVtPg0KICAgICAgICA8aXRlbT43MjAwPC9pdGVtPg0KICAgICAgICA8aXRlbT4xMDgwMDwvaXRlbT4NCiAgICAgICAgPGl0ZW0+MTQ0MDA8L2l0ZW0+DQogICAgICAgIDxpdGVtPjE4MDAwPC9pdGVtPg0KICAgICAgICA8aXRlbT4yMTYwMDwvaXRlbT4NCiAgICAgICAgPGl0ZW0+Mjg4MDA8L2l0ZW0+DQogICAgICAgIDxpdGVtPjM2MDAwPC9pdGVtPg0KICAgICAgICA8aXRlbT40MzIwMDwvaXRlbT4NCiAgICA8L2FycmF5Pg0KDQogICAgPHN0cmluZy1hcnJheSBuYW1lPSJob29rX3N5c3RlbV9zZXR0aW5nc192cG5fdHlwZXMiPg0KICAgICAgICA8aXRlbT5QUFRQPC9pdGVtPg0KICAgICAgICA8aXRlbT5MMlRQL0lQU2VjIFBTSzwvaXRlbT4NCiAgICAgICAgPGl0ZW0+TDJUUC9JUFNlYyBSU0E8L2l0ZW0+DQogICAgICAgIDxpdGVtPklQU2VjIFhhdXRoIFBTSzwvaXRlbT4NCiAgICAgICAgPGl0ZW0+SVBTZWMgWGF1dGggUlNBPC9pdGVtPg0KICAgICAgICA8aXRlbT5JUFNlYyBIeWJyaWQgUlNBPC9pdGVtPg0KICAgICAgICA8aXRlbT5JS0V2Mi9JUFNlYyBNU0NIQVB2MjwvaXRlbT4NCiAgICAgICAgPGl0ZW0+SUtFdjIvSVBTZWMgUFNLPC9pdGVtPg0KICAgICAgICA8aXRlbT5JS0V2Mi9JUFNlYyBSU0E8L2l0ZW0+DQogICAgPC9zdHJpbmctYXJyYXk+DQo8L3Jlc291cmNlcz4NCg==
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ This file is part of HyperCeiler.
+  ~
+  ~ HyperCeiler is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU Affero General Public License as
+  ~ published by the Free Software Foundation, either version 3 of the
+  ~ License.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU Affero General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU Affero General Public License
+  ~ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+  ~
+  ~ Copyright (C) 2023-2026 HyperRomhub Contributions
+  -->
+<resources>
+    <string-array name="xposed_scope">
+        <item>android</item> <!--系统框架-->
+        <item>com.android.browser</item> <!--浏览器-->
+        <item>com.android.calendar</item> <!--日历-->
+        <item>com.android.camera</item> <!--相机-->
+        <item>com.android.contacts</item> <!--通讯录与拨号-->
+        <item>com.android.externalstorage</item> <!--外部存储设备-->
+        <item>com.android.fileexplorer</item> <!--文件管理-->
+        <item>com.android.htmlviewer</item> <!--HTML 查看器-->
+        <item>com.android.incallui</item> <!--电话-->
+        <item>com.android.mms</item> <!--短信-->
+        <item>com.android.nfc</item> <!--NFC 服务-->
+        <item>com.android.phone</item> <!--电话服务-->
+        <item>com.android.providers.downloads</item> <!--下载管理程序-->
+        <item>com.android.providers.downloads.ui</item> <!--下载管理-->
+        <item>com.android.server.telecom</item> <!--通话管理-->
+        <item>com.android.settings</item> <!--设置-->
+        <item>com.android.soundrecorder</item> <!--录音机-->
+        <item>com.android.systemui</item> <!--系统界面-->
+        <item>com.android.thememanager</item> <!--主题壁纸-->
+        <item>com.android.updater</item> <!--系统更新-->
+        <item>com.duokan.phone.remotecontroller</item> <!--万能遥控-->
+        <item>com.lbe.security.miui</item> <!--权限管理服务-->
+        <item>com.mi.health</item> <!--小米运动健康-->
+        <item>com.milink.service</item> <!--互联互通服务-->
+        <item>com.miui.analytics</item> <!--Analytics-->
+        <item>com.miui.aod</item> <!--息屏与锁屏编辑-->
+        <item>com.miui.backup</item> <!--备份-->
+        <!--<item>com.miui.cleanmaster</item>--> <!--垃圾清理-->
+        <item>com.miui.cloudservice</item> <!--小米云服务-->
+        <item>com.miui.contentextension</item> <!--传送门-->
+        <item>com.miui.creation</item> <!--小米创作-->
+        <item>com.miui.euicc</item> <!--LPA-->
+        <item>com.miui.gallery</item> <!--相册-->
+        <item>com.miui.guardprovider</item> <!--系统安全组件-->
+        <item>com.miui.home</item> <!--系统桌面-->
+        <item>com.miui.huanji</item> <!--小米换机-->
+        <item>com.miui.mediaeditor</item> <!--小米相册-编辑-->
+        <item>com.miui.mishare.connectivity</item> <!--小米互传-->
+        <item>com.miui.misound</item> <!--音质音效-->
+        <item>com.miui.miwallpaper</item> <!--壁纸-->
+        <item>com.miui.notes</item> <!--笔记-->
+        <item>com.miui.packageinstaller</item> <!--应用包管理组件-->
+        <item>com.miui.personalassistant</item> <!--智能助理-->
+        <item>com.miui.phrase</item> <!--剪贴板与常用语-->
+        <item>com.miui.powerkeeper</item> <!--电量与性能-->
+        <item>com.miui.screenrecorder</item> <!--屏幕录制-->
+        <item>com.miui.screenshot</item> <!--截屏-->
+        <item>com.miui.securityadd</item> <!--系统服务组件-->
+        <item>com.miui.securitycenter</item> <!--手机管家-->
+        <item>com.miui.tsmclient</item> <!--小米智能卡-->
+        <!--<item>com.miui.voiceassist</item>--> <!--超级小爱-->
+        <item>com.miui.weather2</item> <!--天气-->
+        <item>com.xiaomi.aiasst.vision</item> <!--小爱翻译-->
+        <item>com.xiaomi.barrage</item> <!--弹幕通知-->
+        <item>com.xiaomi.joyose</item> <!--Joyose-->
+        <item>com.xiaomi.market</item> <!--应用商店-->
+        <!--<item>com.xiaomi.mirror</item>--> <!--MIUI+-->
+        <item>com.xiaomi.misettings</item> <!--小米设置-->
+        <item>com.xiaomi.mtb</item> <!--鲁班 (MTB)-->
+        <item>com.xiaomi.scanner</item> <!--小爱视觉-->
+        <item>com.xiaomi.trustservice</item> <!--MiTrustService-->
+        <item>com.xiaomi.vipaccount</item> <!--小米社区-->
+        <item>com.iflytek.inputmethod.miui</item> <!--讯飞输入法小米版-->
+        <item>com.sohu.inputmethod.sogou.xiaomi</item> <!--搜狗输入法小米版-->
+        <item>com.miui.voicetrigger</item> <!--语音唤醒-->
+        <item>com.miui.voiceassist</item>
+        <item>com.android.photopicker</item>
+        <item>com.xiaomi.simactivate.service</item> <!--sim卡激活服务-->
+        <item>miui.systemui.plugin</item> <!--系统界面组件-->
+        <!--<item>com.hchen.demo</item>--> <!--Demo-->
+    </string-array>
+
+    <array name="miui_freeform_black_list">
+        <item>ab.cd.xyz</item>
+    </array>
+
+    <string-array name="miui_core_app_package_name">
+        <item>com.lbe.security.miui</item>
+        <item>com.miui.packageinstaller</item>
+    </string-array>
+
+    <array name="miui_volume_timer_segments">
+        <item>@null</item>
+        <item>1800</item>
+        <item>3600</item>
+        <item>7200</item>
+        <item>10800</item>
+        <item>14400</item>
+        <item>18000</item>
+        <item>21600</item>
+        <item>28800</item>
+        <item>36000</item>
+        <item>43200</item>
+    </array>
+
+    <string-array name="hook_system_settings_vpn_types">
+        <item>PPTP</item>
+        <item>L2TP/IPSec PSK</item>
+        <item>L2TP/IPSec RSA</item>
+        <item>IPSec Xauth PSK</item>
+        <item>IPSec Xauth RSA</item>
+        <item>IPSec Hybrid RSA</item>
+        <item>IKEv2/IPSec MSCHAPv2</item>
+        <item>IKEv2/IPSec PSK</item>
+        <item>IKEv2/IPSec RSA</item>
+    </string-array>
+</resources>

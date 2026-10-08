@@ -1,1 +1,5 @@
-cGx1Z2lucyB7CiAgICBhbGlhcyhsaWJzLnBsdWdpbnMuYWdwLmFwcCkgYXBwbHkgZmFsc2UKICAgIGFsaWFzKGxpYnMucGx1Z2lucy5jb21wb3NlLmNvbXBpbGVyKSBhcHBseSBmYWxzZQogICAgYWxpYXMobGlicy5wbHVnaW5zLmtvdGxpbi5zZXJpYWxpemF0aW9uKSBhcHBseSBmYWxzZQp9Cg==
+plugins {
+    alias(libs.plugins.agp.app) apply false
+    alias(libs.plugins.compose.compiler) apply false
+    alias(libs.plugins.kotlin.serialization) apply false
+}

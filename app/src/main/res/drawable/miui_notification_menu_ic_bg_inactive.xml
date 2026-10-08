@@ -1,1 +1,28 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLQogIH4gVGhpcyBmaWxlIGlzIHBhcnQgb2YgSHlwZXJDZWlsZXIuCiAgfgogIH4gSHlwZXJDZWlsZXIgaXMgZnJlZSBzb2Z0d2FyZTogeW91IGNhbiByZWRpc3RyaWJ1dGUgaXQgYW5kL29yIG1vZGlmeQogIH4gaXQgdW5kZXIgdGhlIHRlcm1zIG9mIHRoZSBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UgYXMKICB+IHB1Ymxpc2hlZCBieSB0aGUgRnJlZSBTb2Z0d2FyZSBGb3VuZGF0aW9uLCBlaXRoZXIgdmVyc2lvbiAzIG9mIHRoZQogIH4gTGljZW5zZS4KICB+CiAgfiBUaGlzIHByb2dyYW0gaXMgZGlzdHJpYnV0ZWQgaW4gdGhlIGhvcGUgdGhhdCBpdCB3aWxsIGJlIHVzZWZ1bCwKICB+IGJ1dCBXSVRIT1VUIEFOWSBXQVJSQU5UWTsgd2l0aG91dCBldmVuIHRoZSBpbXBsaWVkIHdhcnJhbnR5IG9mCiAgfiBNRVJDSEFOVEFCSUxJVFkgb3IgRklUTkVTUyBGT1IgQSBQQVJUSUNVTEFSIFBVUlBPU0UuICBTZWUgdGhlCiAgfiBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UgZm9yIG1vcmUgZGV0YWlscy4KICB+CiAgfiBZb3Ugc2hvdWxkIGhhdmUgcmVjZWl2ZWQgYSBjb3B5IG9mIHRoZSBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UKICB+IGFsb25nIHdpdGggdGhpcyBwcm9ncmFtLiAgSWYgbm90LCBzZWUgPGh0dHBzOi8vd3d3LmdudS5vcmcvbGljZW5zZXMvPi4KICB+CiAgfiBDb3B5cmlnaHQgKEMpIDIwMjMtMjAyNiBIeXBlckNlaWxlciBDb250cmlidXRpb25zCiAgLS0+Cjx2ZWN0b3IgeG1sbnM6YW5kcm9pZD0iaHR0cDovL3NjaGVtYXMuYW5kcm9pZC5jb20vYXBrL3Jlcy9hbmRyb2lkIgogICAgYW5kcm9pZDpoZWlnaHQ9IkBkaW1lbi9taXVpX25vdGlmaWNhdGlvbl9tb2RhbF9tZW51X2ljb25fYmdfc2l6ZSIKICAgIGFuZHJvaWQ6d2lkdGg9IkBkaW1lbi9taXVpX25vdGlmaWNhdGlvbl9tb2RhbF9tZW51X2ljb25fYmdfc2l6ZSIKICAgIGFuZHJvaWQ6dmlld3BvcnRXaWR0aD0iMTU2IgogICAgYW5kcm9pZDp2aWV3cG9ydEhlaWdodD0iMTU2Ij4KCTxwYXRoIAogICAgICAgIGFuZHJvaWQ6ZmlsbENvbG9yPSIjMjZmZmZmZmYiCiAgICAgICAgYW5kcm9pZDpwYXRoRGF0YT0iTTc4LDc4bS03OCwwYTc4LDc4IDAsMSAxLDE1NiAwYTc4LDc4IDAsMSAxLC0xNTYgMCIgLz4KPC92ZWN0b3I+Cg==
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ This file is part of HyperCeiler.
+  ~
+  ~ HyperCeiler is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU Affero General Public License as
+  ~ published by the Free Software Foundation, either version 3 of the
+  ~ License.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU Affero General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU Affero General Public License
+  ~ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+  ~
+  ~ Copyright (C) 2023-2026 HyperCeiler Contributions
+  -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="@dimen/miui_notification_modal_menu_icon_bg_size"
+    android:width="@dimen/miui_notification_modal_menu_icon_bg_size"
+    android:viewportWidth="156"
+    android:viewportHeight="156">
+	<path 
+        android:fillColor="#26ffffff"
+        android:pathData="M78,78m-78,0a78,78 0,1 1,156 0a78,78 0,1 1,-156 0" />
+</vector>

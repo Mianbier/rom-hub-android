@@ -1,1 +1,274 @@
-LyoKICogVGhpcyBmaWxlIGlzIHBhcnQgb2YgSHlwZXJDZWlsZXIuCgogKiBIeXBlckNlaWxlciBpcyBmcmVlIHNvZnR3YXJlOiB5b3UgY2FuIHJlZGlzdHJpYnV0ZSBpdCBhbmQvb3IgbW9kaWZ5CiAqIGl0IHVuZGVyIHRoZSB0ZXJtcyBvZiB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGFzCiAqIHB1Ymxpc2hlZCBieSB0aGUgRnJlZSBTb2Z0d2FyZSBGb3VuZGF0aW9uLCBlaXRoZXIgdmVyc2lvbiAzIG9mIHRoZQogKiBMaWNlbnNlLgoKICogVGhpcyBwcm9ncmFtIGlzIGRpc3RyaWJ1dGVkIGluIHRoZSBob3BlIHRoYXQgaXQgd2lsbCBiZSB1c2VmdWwsCiAqIGJ1dCBXSVRIT1VUIEFOWSBXQVJSQU5UWTsgd2l0aG91dCBldmVuIHRoZSBpbXBsaWVkIHdhcnJhbnR5IG9mCiAqIE1FUkNIQU5UQUJJTElUWSBvciBGSVRORVNTIEZPUiBBIFBBUlRJQ1VMQVIgUFVSUE9TRS4gIFNlZSB0aGUKICogR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGZvciBtb3JlIGRldGFpbHMuCgogKiBZb3Ugc2hvdWxkIGhhdmUgcmVjZWl2ZWQgYSBjb3B5IG9mIHRoZSBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UKICogYWxvbmcgd2l0aCB0aGlzIHByb2dyYW0uICBJZiBub3QsIHNlZSA8aHR0cHM6Ly93d3cuZ251Lm9yZy9saWNlbnNlcy8+LgoKICogQ29weXJpZ2h0IChDKSAyMDIzLTIwMjYgSHlwZXJDZWlsZXIgQ29udHJpYnV0aW9ucwogKi8KcGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLmhjLnByb3Zpc2lvbi5mcmFnbWVudDsKCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dDsKaW1wb3J0IGFuZHJvaWQub3MuQnVuZGxlOwppbXBvcnQgYW5kcm9pZC5vcy5IYW5kbGVyOwppbXBvcnQgYW5kcm9pZC5vcy5Mb29wZXI7CmltcG9ydCBhbmRyb2lkLnRleHQuQW5ub3RhdGlvbjsKaW1wb3J0IGFuZHJvaWQudGV4dC5TcGFubmFibGVTdHJpbmc7CmltcG9ydCBhbmRyb2lkLnRleHQuU3Bhbm5hYmxlU3RyaW5nQnVpbGRlcjsKaW1wb3J0IGFuZHJvaWQudGV4dC5TcGFubmVkOwppbXBvcnQgYW5kcm9pZC50ZXh0LnN0eWxlLkZvcmVncm91bmRDb2xvclNwYW47CmltcG9ydCBhbmRyb2lkLnV0aWwuTG9nOwppbXBvcnQgYW5kcm9pZC52aWV3LkxheW91dEluZmxhdGVyOwppbXBvcnQgYW5kcm9pZC52aWV3LlZpZXc7CmltcG9ydCBhbmRyb2lkLndpZGdldC5CdXR0b247CmltcG9ydCBhbmRyb2lkLndpZGdldC5DaGVja0JveDsKaW1wb3J0IGFuZHJvaWQud2lkZ2V0LkVkaXRUZXh0OwppbXBvcnQgYW5kcm9pZC53aWRnZXQuVGV4dFZpZXc7CgppbXBvcnQgYW5kcm9pZHguYW5ub3RhdGlvbi5Ob25OdWxsOwppbXBvcnQgYW5kcm9pZHguYW5ub3RhdGlvbi5OdWxsYWJsZTsKCmltcG9ydCBvcmcubGluYmFvZ3Uucm9taHViLmhjLmNvbW1vbi5BbmRyb2lkTG9nOwppbXBvcnQgb3JnLmxpbmJhb2d1LnJvbWh1Yi5oYy5jb21tb24uUHJlZnNCcmlkZ2U7CmltcG9ydCBvcmcubGluYmFvZ3Uucm9taHViLlI7CmltcG9ydCBvcmcubGluYmFvZ3Uucm9taHViLmhjLnByb3Zpc2lvbi50ZXh0LnN0eWxlLlRlcm1zVGl0bGVTcGFuOwppbXBvcnQgb3JnLmxpbmJhb2d1LnJvbWh1Yi5oYy5wcm92aXNpb24udXRpbHMuTm90aWNlUHJvdmlkZXI7CmltcG9ydCBvcmcubGluYmFvZ3Uucm9taHViLmhjLnByb3Zpc2lvbi51dGlscy5Qcm92aXNpb25NYW5hZ2VyOwppbXBvcnQgb3JnLmxpbmJhb2d1LnJvbWh1Yi5oYy5wcm92aXNpb24ud2lkZ2V0LlNpbXBsZVRleHRXYXRjaGVyOwoKaW1wb3J0IGphdmEudXRpbC5MaXN0OwoKaW1wb3J0IGZhbi5hcHBjb21wYXQuYXBwLkFsZXJ0RGlhbG9nOwppbXBvcnQgZmFuLnByb3Zpc2lvbi5Pb2JlVXRpbHM7CgpwdWJsaWMgY2xhc3MgVGVybXNBbmRTdGF0ZW1lbnRGcmFnbWVudCBleHRlbmRzIEJhc2VGcmFnbWVudCB7CgogICAgcHJpdmF0ZSBzdGF0aWMgZmluYWwgU3RyaW5nIFVTRVJfQUdSRUVNRU5UX0xJTksgPSAidXNlcl9hZ3JlZW1lbnQiOwogICAgcHJpdmF0ZSBzdGF0aWMgZmluYWwgU3RyaW5nIFBSSVZBQ1lfUE9MSUNZX0xJTksgPSAicHJpdmFjeV9wb2xpY3kiOwoKCiAgICBwcml2YXRlIFZpZXcgbU5leHRWaWV3OwogICAgcHJpdmF0ZSBUZXh0VmlldyBtUHJpdmFjeVZpZXc7CiAgICBwcml2YXRlIENoZWNrQm94IG1BZ3JlZUNoZWNrQm94OwoKICAgIHByaXZhdGUgQWxlcnREaWFsb2cgbUxvYWRpbmdEaWFsb2c7CgogICAgcHJpdmF0ZSB2b2xhdGlsZSBib29sZWFuIG1Ob3RpY2VMb2FkZWQgPSBmYWxzZTsKICAgIHByaXZhdGUgdm9sYXRpbGUgYm9vbGVhbiBtV2FpdGluZ0FmdGVyQ2xpY2sgPSBmYWxzZTsKCiAgICBwcml2YXRlIGludCBwcm90b2NvbFZlcnNpb24gPSAtMTsKICAgIHByaXZhdGUgaW50IHByaXZhY3lWZXJzaW9uID0gLTE7CgogICAgQE92ZXJyaWRlCiAgICBwcm90ZWN0ZWQgaW50IGdldExheW91dElkKCkgewogICAgICAgIHJldHVybiBSLmxheW91dC5wcm92aXNpb25fdGVybXNfYW5kX3N0YXRlbWVudF9sYXlvdXQ7CiAgICB9CgogICAgQE92ZXJyaWRlCiAgICBwdWJsaWMgdm9pZCBvblZpZXdDcmVhdGVkKEBOb25OdWxsIFZpZXcgdmlldywgQE51bGxhYmxlIEJ1bmRsZSBzYXZlZEluc3RhbmNlU3RhdGUpIHsKICAgICAgICBzdXBlci5vblZpZXdDcmVhdGVkKHZpZXcsIHNhdmVkSW5zdGFuY2VTdGF0ZSk7CgogICAgICAgIG1Qcml2YWN5VmlldyA9IHZpZXcuZmluZFZpZXdCeUlkKFIuaWQucHJpdmFjeSk7CiAgICAgICAgbVByaXZhY3lWaWV3LnNldFRleHQoZW5oYW5jZVRlcm1zVGl0bGUoKSk7CiAgICAgICAgbVByaXZhY3lWaWV3LnNldE1vdmVtZW50TWV0aG9kKGZhbi5hbmRyb2lkYmFzZS53aWRnZXQuTGlua01vdmVtZW50TWV0aG9kLmdldEluc3RhbmNlKCkpOwogICAgICAgIG1Qcml2YWN5Vmlldy5zZXRMaW5rc0NsaWNrYWJsZSh0cnVlKTsKCiAgICAgICAgbUFncmVlQ2hlY2tCb3ggPSB2aWV3LmZpbmRWaWV3QnlJZChSLmlkLmNoZWNrYm94X2FncmVlKTsKICAgICAgICBtQWdyZWVDaGVja0JveC5zZXRWaXNpYmlsaXR5KFZpZXcuVklTSUJMRSk7CiAgICAgICAgbUFncmVlQ2hlY2tCb3guc2V0Q2hlY2tlZChPb2JlVXRpbHMuZ2V0T3BlcmF0b3JTdGF0ZShyZXF1aXJlQ29udGV4dCgpLCAiY21fcGlja19zdGF0dXMiKSk7CiAgICAgICAgbUFncmVlQ2hlY2tCb3guc2V0VGV4dChSLnN0cmluZy5wcm92aXNpb25fYWdyZWVfdGVybXMpOwoKICAgICAgICBpZiAoZ2V0QWN0aXZpdHkoKSAhPSBudWxsKSB7CiAgICAgICAgICAgIG1OZXh0VmlldyA9IE9vYmVVdGlscy5nZXROZXh0VmlldyhnZXRBY3Rpdml0eSgpKTsKICAgICAgICAgICAgaWYgKG1OZXh0VmlldyBpbnN0YW5jZW9mIFRleHRWaWV3KSB7CiAgICAgICAgICAgICAgICAoKFRleHRWaWV3KSBtTmV4dFZpZXcpLnNldFRleHQoUi5zdHJpbmcucHJvdmlzaW9uX2FncmVlX2FuZF9uZXh0KTsKICAgICAgICAgICAgfQogICAgICAgICAgICBtTmV4dFZpZXcuc2V0RW5hYmxlZChtQWdyZWVDaGVja0JveC5pc0NoZWNrZWQoKSk7CiAgICAgICAgICAgIG1OZXh0Vmlldy5zZXRBbHBoYShtQWdyZWVDaGVja0JveC5pc0NoZWNrZWQoKSA/IE9vYmVVdGlscy5OT19BTFBIQSA6IE9vYmVVdGlscy5IQUxGX0FMUEhBKTsKICAgICAgICAgICAgbUFncmVlQ2hlY2tCb3guc2V0T25DbGlja0xpc3RlbmVyKHYgLT4gewogICAgICAgICAgICAgICAgaWYgKG1BZ3JlZUNoZWNrQm94LmlzQ2hlY2tlZCgpKSB7CiAgICAgICAgICAgICAgICAgICAgbUFncmVlQ2hlY2tCb3guc2V0Q2hlY2tlZChmYWxzZSk7CiAgICAgICAgICAgICAgICAgICAgc2hvd1ZlcmlmaWNhdGlvbkRpYWxvZyhzdWNjZXNzIC0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgaWYgKHN1Y2Nlc3MpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGhhbmRsZU5leHRDbGljaygpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgbUFncmVlQ2hlY2tCb3guc2V0Q2hlY2tlZCh0cnVlKTsKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0pOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9KTsKICAgICAgICAgICAgbUFncmVlQ2hlY2tCb3guc2V0T25DaGVja2VkQ2hhbmdlTGlzdGVuZXIoKHYsIGlzQ2hlY2tlZCkgLT4gewogICAgICAgICAgICAgICAgbU5leHRWaWV3LnNldEVuYWJsZWQoaXNDaGVja2VkKTsKICAgICAgICAgICAgICAgIG1OZXh0Vmlldy5zZXRBbHBoYShpc0NoZWNrZWQgPyBPb2JlVXRpbHMuTk9fQUxQSEEgOiBPb2JlVXRpbHMuSEFMRl9BTFBIQSk7CiAgICAgICAgICAgICAgICBPb2JlVXRpbHMuc2F2ZU9wZXJhdG9yU3RhdGUocmVxdWlyZUNvbnRleHQoKSwgImNtX3BpY2tfc3RhdHVzIiwgaXNDaGVja2VkKTsKICAgICAgICAgICAgfSk7CiAgICAgICAgfQoKICAgICAgICBzdGFydFN5bmNOb3RpY2UoKTsKICAgIH0KCiAgICBwcml2YXRlIHZvaWQgc3RhcnRTeW5jTm90aWNlKCkgewogICAgICAgIG5ldyBUaHJlYWQoKCkgLT4gewogICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgTm90aWNlUHJvdmlkZXIgcHJvdmlkZXIgPSBQcm92aXNpb25NYW5hZ2VyLmdldFByb3ZpZGVyKCk7CiAgICAgICAgICAgICAgICBpZiAocHJvdmlkZXIgIT0gbnVsbCkgewogICAgICAgICAgICAgICAgICAgIGZpbmFsIExpc3Q8SW50ZWdlcj5bXSBob2xkZXIgPSBuZXcgTGlzdFsxXTsKCiAgICAgICAgICAgICAgICAgICAgVGhyZWFkIHdvcmtlciA9IG5ldyBUaHJlYWQoKCkgLT4gewogICAgICAgICAgICAgICAgICAgICAgICBob2xkZXJbMF0gPSBwcm92aWRlci5nZXROb3RpY2VSZXN1bHQocmVxdWlyZUNvbnRleHQoKSk7CiAgICAgICAgICAgICAgICAgICAgfSk7CgogICAgICAgICAgICAgICAgICAgIHdvcmtlci5zdGFydCgpOwogICAgICAgICAgICAgICAgICAgIHdvcmtlci5qb2luKCk7CgogICAgICAgICAgICAgICAgICAgIExpc3Q8SW50ZWdlcj4gcmVzdWx0ID0gaG9sZGVyWzBdOwoKICAgICAgICAgICAgICAgICAgICBpZiAocmVzdWx0ICE9IG51bGwgJiYgcmVzdWx0LnNpemUoKSA+PSAyKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIHByb3RvY29sVmVyc2lvbiA9IHJlc3VsdC5nZXQoMCk7CiAgICAgICAgICAgICAgICAgICAgICAgIHByaXZhY3lWZXJzaW9uID0gcmVzdWx0LmdldCgxKTsKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgbU5vdGljZUxvYWRlZCA9IHRydWU7CgogICAgICAgICAgICAgICAgbmV3IEhhbmRsZXIoTG9vcGVyLmdldE1haW5Mb29wZXIoKSkucG9zdCgoKSAtPiB7CgogICAgICAgICAgICAgICAgICAgIGlmIChtTG9hZGluZ0RpYWxvZyAhPSBudWxsICYmIG1Mb2FkaW5nRGlhbG9nLmlzU2hvd2luZygpKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIG1Mb2FkaW5nRGlhbG9nLmRpc21pc3MoKTsKICAgICAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgICAgIGlmIChtV2FpdGluZ0FmdGVyQ2xpY2spIHsKICAgICAgICAgICAgICAgICAgICAgICAgbVdhaXRpbmdBZnRlckNsaWNrID0gZmFsc2U7CiAgICAgICAgICAgICAgICAgICAgICAgIHdyaXRlTm90aWNlVG9QcmVmcygpOwogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0pOwoKICAgICAgICAgICAgfSBjYXRjaCAoRXhjZXB0aW9uIGUpIHsKICAgICAgICAgICAgICAgIEFuZHJvaWRMb2cuZCgiVGVybXNBbmRTdGF0ZW1lbnRGcmFnbWVudCIsIGUudG9TdHJpbmcoKSk7CiAgICAgICAgICAgIH0KICAgICAgICB9KS5zdGFydCgpOwogICAgfQoKICAgIHByaXZhdGUgdm9pZCBoYW5kbGVOZXh0Q2xpY2soKSB7CgogICAgICAgIGlmICghbU5vdGljZUxvYWRlZCkgewogICAgICAgICAgICBtV2FpdGluZ0FmdGVyQ2xpY2sgPSB0cnVlOwogICAgICAgICAgICBzaG93TG9hZGluZ0RpYWxvZygpOwogICAgICAgICAgICByZXR1cm47CiAgICAgICAgfQoKICAgICAgICB3cml0ZU5vdGljZVRvUHJlZnMoKTsKICAgIH0KCiAgICBwcml2YXRlIHZvaWQgd3JpdGVOb3RpY2VUb1ByZWZzKCkgewogICAgICAgIFByZWZzQnJpZGdlLnB1dEJ5QXBwKCJwcmVmc19rZXlfcHJvdG9jb2xfdmVyc2lvbiIsIHByb3RvY29sVmVyc2lvbik7CiAgICAgICAgUHJlZnNCcmlkZ2UucHV0QnlBcHAoInByZWZzX2tleV9wcml2YWN5X3ZlcnNpb24iLCBwcml2YWN5VmVyc2lvbik7CiAgICB9CgogICAgcHJpdmF0ZSB2b2lkIHNob3dMb2FkaW5nRGlhbG9nKCkgewogICAgICAgIGlmIChtTG9hZGluZ0RpYWxvZyAhPSBudWxsICYmIG1Mb2FkaW5nRGlhbG9nLmlzU2hvd2luZygpKSByZXR1cm47CgogICAgICAgIG1Mb2FkaW5nRGlhbG9nID0gbmV3IEFsZXJ0RGlhbG9nLkJ1aWxkZXIocmVxdWlyZUFjdGl2aXR5KCkpCiAgICAgICAgICAgIC5zZXRNZXNzYWdlKFIuc3RyaW5nLnByb3Zpc2lvbl90ZXJtc19vZl91c2VfcHJvY2Vzc2luZykKICAgICAgICAgICAgLnNldENhbmNlbGFibGUoZmFsc2UpCiAgICAgICAgICAgIC5jcmVhdGUoKTsKCiAgICAgICAgbUxvYWRpbmdEaWFsb2cuc2hvdygpOwogICAgfQoKICAgIHByaXZhdGUgdm9pZCBzaG93VmVyaWZpY2F0aW9uRGlhbG9nKFZlcmlmaWNhdGlvbkNhbGxiYWNrIGNhbGxiYWNrKSB7CiAgICAgICAgVmlldyB2aWV3ID0gTGF5b3V0SW5mbGF0ZXIuZnJvbShnZXRBY3Rpdml0eSgpKS5pbmZsYXRlKFIubGF5b3V0LmVkaXRfdmVyaWZpY2F0aW9uX2NvZGVfZGlhbG9nLCBudWxsKTsKICAgICAgICBFZGl0VGV4dCBpbnB1dCA9IHZpZXcuZmluZFZpZXdCeUlkKFIuaWQudGl0bGUpOwoKICAgICAgICBBbGVydERpYWxvZyBkaWFsb2cgPSBuZXcgQWxlcnREaWFsb2cuQnVpbGRlcihyZXF1aXJlQWN0aXZpdHkoKSkKICAgICAgICAgICAgLnNldFRpdGxlKFIuc3RyaW5nLnByb3Zpc2lvbl90ZXJtc19vZl91c2VfdmVyaWZpY2F0aW9uX2NvZGVfZGlhbG9nX3RpdGxlKQogICAgICAgICAgICAuc2V0Vmlldyh2aWV3KQogICAgICAgICAgICAuc2V0Q2FuY2VsYWJsZShmYWxzZSkKICAgICAgICAgICAgLnNldFBvc2l0aXZlQnV0dG9uKFIuc3RyaW5nLnByb3Zpc2lvbl90ZXJtc19vZl91c2VfdmVyaWZpY2F0aW9uX2NvZGVfZGlhbG9nX2NvbnRpbnVlLCAoZCwgdykgLT4gY2FsbGJhY2sub25SZXN1bHQodHJ1ZSkpCiAgICAgICAgICAgIC5zZXROZWdhdGl2ZUJ1dHRvbihhbmRyb2lkLlIuc3RyaW5nLmNhbmNlbCwgKGQsIHcpIC0+IGNhbGxiYWNrLm9uUmVzdWx0KGZhbHNlKSkKICAgICAgICAgICAgLmNyZWF0ZSgpOwoKICAgICAgICBkaWFsb2cuc2V0T25TaG93TGlzdGVuZXIoZCAtPiB7CiAgICAgICAgICAgIEJ1dHRvbiBva0J1dHRvbiA9IGRpYWxvZy5nZXRCdXR0b24oQWxlcnREaWFsb2cuQlVUVE9OX1BPU0lUSVZFKTsKICAgICAgICAgICAgb2tCdXR0b24uc2V0RW5hYmxlZChmYWxzZSk7CgogICAgICAgICAgICBpbnB1dC5hZGRUZXh0Q2hhbmdlZExpc3RlbmVyKG5ldyBTaW1wbGVUZXh0V2F0Y2hlcigpIHsKICAgICAgICAgICAgICAgIEBPdmVycmlkZQogICAgICAgICAgICAgICAgcHVibGljIHZvaWQgb25UZXh0Q2hhbmdlZChDaGFyU2VxdWVuY2UgcywgaW50IHN0LCBpbnQgYiwgaW50IGMpIHsKICAgICAgICAgICAgICAgICAgICAvLyDmoLjlv4PvvJrlv4XpobvosIPnlKggdG9TdHJpbmcoKQogICAgICAgICAgICAgICAgICAgIFN0cmluZyBpbnB1dFN0ciA9IChzID09IG51bGwpID8gIiIgOiBzLnRvU3RyaW5nKCk7CiAgICAgICAgICAgICAgICAgICAgU3RyaW5nIHRhcmdldFN0ciA9IE9vYmVVdGlscy5nZXRTZWN1cmVTaXhEaWdpdCgpOwogICAgICAgICAgICAgICAgICAgIC8vIOiwg+ivleaJk+WNsO+8iOWPr+mAie+8ie+8muWmguaenOi/mOaYr+S4jeS6ru+8jOeci+S4gOecvCBMb2djYXQKICAgICAgICAgICAgICAgICAgICAvL0xvZy5kKCJWZXJpZnkiLCAiSW5wdXQ6IFsiICsgaW5wdXRTdHIgKyAiXSBUYXJnZXQ6IFsiICsgdGFyZ2V0U3RyICsgIl0iKTsKCgogICAgICAgICAgICAgICAgICAgIG9rQnV0dG9uLnNldEVuYWJsZWQoaW5wdXRTdHIuZXF1YWxzKHRhcmdldFN0cikpOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9KTsKICAgICAgICB9KTsKCiAgICAgICAgZGlhbG9nLnNob3coKTsKICAgIH0KCiAgICBpbnRlcmZhY2UgVmVyaWZpY2F0aW9uQ2FsbGJhY2sgewogICAgICAgIHZvaWQgb25SZXN1bHQoYm9vbGVhbiBzdWNjZXNzKTsKICAgIH0KCiAgICBwcml2YXRlIGJvb2xlYW4gdmVyaWZ5SW5wdXQoQWxlcnREaWFsb2cgZGlhbG9nKSB7CiAgICAgICAgRWRpdFRleHQgZWRpdFRleHQgPSBkaWFsb2cuZmluZFZpZXdCeUlkKFIuaWQudGl0bGUpOwogICAgICAgIGlmIChlZGl0VGV4dCA9PSBudWxsKSByZXR1cm4gZmFsc2U7CgogICAgICAgIFN0cmluZyBpbnB1dCA9IGVkaXRUZXh0LmdldFRleHQoKS50b1N0cmluZygpLnRyaW0oKTsKICAgICAgICByZXR1cm4gIjEyMzQ1NiIuZXF1YWxzKGlucHV0KTsKICAgIH0KCgogICAgcHVibGljIHZvaWQgc2V0V2ViVGV4dChUZXh0VmlldyB0diwgU3RyaW5nIGh0dHBVcmwpIHsKCiAgICB9CgogICAgcHVibGljIHZvaWQgZ29OZXh0KCkgewogICAgICAgIGlmIChnZXRBY3Rpdml0eSgpICE9IG51bGwpIHsKICAgICAgICAgICAgZ2V0QWN0aXZpdHkoKS5zZXRSZXN1bHQoLTEpOwogICAgICAgICAgICBnZXRBY3Rpdml0eSgpLmZpbmlzaCgpOwogICAgICAgIH0KICAgIH0KCiAgICBwdWJsaWMgU3Bhbm5hYmxlU3RyaW5nQnVpbGRlciBlbmhhbmNlVGVybXNUaXRsZSgpIHsKICAgICAgICBDaGFyU2VxdWVuY2UgcmF3ID0gZ2V0VGV4dChSLnN0cmluZy5wcm92aXNpb25fdGVybXNfb2ZfdXNlX2xhYmVsX3VzZV9uZXR3b3JrX2NoaW5hKTsKICAgICAgICBTcGFubmFibGVTdHJpbmcgYnVpbGRlciA9IG5ldyBTcGFubmFibGVTdHJpbmcocmF3KTsKICAgICAgICBBbm5vdGF0aW9uW10gYW5ub3RhdGlvbnMgPSBidWlsZGVyLmdldFNwYW5zKDAsIGJ1aWxkZXIubGVuZ3RoKCksIEFubm90YXRpb24uY2xhc3MpOwogICAgICAgIGludCBjb2xvciA9IGdldFJlc291cmNlcygpLmdldENvbG9yKFIuY29sb3IucHJvdmlzaW9uX2J1dHRvbl90ZXh0X2hpZ2hfY29sb3JfbGlnaHQsIHJlcXVpcmVDb250ZXh0KCkuZ2V0VGhlbWUoKSk7CiAgICAgICAgZm9yIChBbm5vdGF0aW9uIGFubm90YXRpb24gOiBhbm5vdGF0aW9ucykgewogICAgICAgICAgICBpbnQgc3RhcnQgPSBidWlsZGVyLmdldFNwYW5TdGFydChhbm5vdGF0aW9uKTsKICAgICAgICAgICAgaW50IGVuZCA9IGJ1aWxkZXIuZ2V0U3BhbkVuZChhbm5vdGF0aW9uKTsKICAgICAgICAgICAgYnVpbGRlci5yZW1vdmVTcGFuKGFubm90YXRpb24pOwogICAgICAgICAgICBpbnQgaHlwZXJsaW5rVHlwZSA9IGdldEh5cGVybGlua1R5cGUoYW5ub3RhdGlvbi5nZXRWYWx1ZSgpKTsKICAgICAgICAgICAgaWYgKGh5cGVybGlua1R5cGUgPT0gLTEgfHwgZW5kIDw9IHN0YXJ0KSB7CiAgICAgICAgICAgICAgICBjb250aW51ZTsKICAgICAgICAgICAgfQogICAgICAgICAgICBidWlsZGVyLnNldFNwYW4obmV3IEZvcmVncm91bmRDb2xvclNwYW4oY29sb3IpLCBzdGFydCwgZW5kLCBTcGFubmVkLlNQQU5fRVhDTFVTSVZFX0VYQ0xVU0lWRSk7CiAgICAgICAgICAgIGJ1aWxkZXIuc2V0U3BhbihuZXcgVGVybXNUaXRsZVNwYW4ocmVxdWlyZUFjdGl2aXR5KCksIGh5cGVybGlua1R5cGUpLCBzdGFydCwgZW5kLCBTcGFubmVkLlNQQU5fRVhDTFVTSVZFX0VYQ0xVU0lWRSk7CiAgICAgICAgfQogICAgICAgIHJldHVybiBuZXcgU3Bhbm5hYmxlU3RyaW5nQnVpbGRlcihidWlsZGVyKTsKICAgIH0KCiAgICBwcml2YXRlIGludCBnZXRIeXBlcmxpbmtUeXBlKFN0cmluZyB1cmwpIHsKICAgICAgICBpZiAoVVNFUl9BR1JFRU1FTlRfTElOSy5lcXVhbHModXJsKSkgewogICAgICAgICAgICByZXR1cm4gMjsKICAgICAgICB9CiAgICAgICAgaWYgKFBSSVZBQ1lfUE9MSUNZX0xJTksuZXF1YWxzKHVybCkpIHsKICAgICAgICAgICAgcmV0dXJuIDE7CiAgICAgICAgfQogICAgICAgIHJldHVybiAtMTsKICAgIH0KfQo=
+/*
+ * This file is part of HyperCeiler.
+
+ * HyperCeiler is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as
+ * published by the Free Software Foundation, either version 3 of the
+ * License.
+
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Affero General Public License for more details.
+
+ * You should have received a copy of the GNU Affero General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+ * Copyright (C) 2023-2026 HyperCeiler Contributions
+ */
+package org.linbaogu.romhub.hc.provision.fragment;
+
+import android.content.Context;
+import android.os.Bundle;
+import android.os.Handler;
+import android.os.Looper;
+import android.text.Annotation;
+import android.text.SpannableString;
+import android.text.SpannableStringBuilder;
+import android.text.Spanned;
+import android.text.style.ForegroundColorSpan;
+import android.util.Log;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.widget.Button;
+import android.widget.CheckBox;
+import android.widget.EditText;
+import android.widget.TextView;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+
+import org.linbaogu.romhub.hc.common.AndroidLog;
+import org.linbaogu.romhub.hc.common.PrefsBridge;
+import org.linbaogu.romhub.R;
+import org.linbaogu.romhub.hc.provision.text.style.TermsTitleSpan;
+import org.linbaogu.romhub.hc.provision.utils.NoticeProvider;
+import org.linbaogu.romhub.hc.provision.utils.ProvisionManager;
+import org.linbaogu.romhub.hc.provision.widget.SimpleTextWatcher;
+
+import java.util.List;
+
+import fan.appcompat.app.AlertDialog;
+import fan.provision.OobeUtils;
+
+public class TermsAndStatementFragment extends BaseFragment {
+
+    private static final String USER_AGREEMENT_LINK = "user_agreement";
+    private static final String PRIVACY_POLICY_LINK = "privacy_policy";
+
+
+    private View mNextView;
+    private TextView mPrivacyView;
+    private CheckBox mAgreeCheckBox;
+
+    private AlertDialog mLoadingDialog;
+
+    private volatile boolean mNoticeLoaded = false;
+    private volatile boolean mWaitingAfterClick = false;
+
+    private int protocolVersion = -1;
+    private int privacyVersion = -1;
+
+    @Override
+    protected int getLayoutId() {
+        return R.layout.provision_terms_and_statement_layout;
+    }
+
+    @Override
+    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+
+        mPrivacyView = view.findViewById(R.id.privacy);
+        mPrivacyView.setText(enhanceTermsTitle());
+        mPrivacyView.setMovementMethod(fan.androidbase.widget.LinkMovementMethod.getInstance());
+        mPrivacyView.setLinksClickable(true);
+
+        mAgreeCheckBox = view.findViewById(R.id.checkbox_agree);
+        mAgreeCheckBox.setVisibility(View.VISIBLE);
+        mAgreeCheckBox.setChecked(OobeUtils.getOperatorState(requireContext(), "cm_pick_status"));
+        mAgreeCheckBox.setText(R.string.provision_agree_terms);
+
+        if (getActivity() != null) {
+            mNextView = OobeUtils.getNextView(getActivity());
+            if (mNextView instanceof TextView) {
+                ((TextView) mNextView).setText(R.string.provision_agree_and_next);
+            }
+            mNextView.setEnabled(mAgreeCheckBox.isChecked());
+            mNextView.setAlpha(mAgreeCheckBox.isChecked() ? OobeUtils.NO_ALPHA : OobeUtils.HALF_ALPHA);
+            mAgreeCheckBox.setOnClickListener(v -> {
+                if (mAgreeCheckBox.isChecked()) {
+                    mAgreeCheckBox.setChecked(false);
+                    showVerificationDialog(success -> {
+                        if (success) {
+                            handleNextClick();
+                            mAgreeCheckBox.setChecked(true);
+                        }
+                    });
+                }
+            });
+            mAgreeCheckBox.setOnCheckedChangeListener((v, isChecked) -> {
+                mNextView.setEnabled(isChecked);
+                mNextView.setAlpha(isChecked ? OobeUtils.NO_ALPHA : OobeUtils.HALF_ALPHA);
+                OobeUtils.saveOperatorState(requireContext(), "cm_pick_status", isChecked);
+            });
+        }
+
+        startSyncNotice();
+    }
+
+    private void startSyncNotice() {
+        new Thread(() -> {
+            try {
+                NoticeProvider provider = ProvisionManager.getProvider();
+                if (provider != null) {
+                    final List<Integer>[] holder = new List[1];
+
+                    Thread worker = new Thread(() -> {
+                        holder[0] = provider.getNoticeResult(requireContext());
+                    });
+
+                    worker.start();
+                    worker.join();
+
+                    List<Integer> result = holder[0];
+
+                    if (result != null && result.size() >= 2) {
+                        protocolVersion = result.get(0);
+                        privacyVersion = result.get(1);
+                    }
+                }
+
+                mNoticeLoaded = true;
+
+                new Handler(Looper.getMainLooper()).post(() -> {
+
+                    if (mLoadingDialog != null && mLoadingDialog.isShowing()) {
+                        mLoadingDialog.dismiss();
+                    }
+
+                    if (mWaitingAfterClick) {
+                        mWaitingAfterClick = false;
+                        writeNoticeToPrefs();
+                    }
+                });
+
+            } catch (Exception e) {
+                AndroidLog.d("TermsAndStatementFragment", e.toString());
+            }
+        }).start();
+    }
+
+    private void handleNextClick() {
+
+        if (!mNoticeLoaded) {
+            mWaitingAfterClick = true;
+            showLoadingDialog();
+            return;
+        }
+
+        writeNoticeToPrefs();
+    }
+
+    private void writeNoticeToPrefs() {
+        PrefsBridge.putByApp("prefs_key_protocol_version", protocolVersion);
+        PrefsBridge.putByApp("prefs_key_privacy_version", privacyVersion);
+    }
+
+    private void showLoadingDialog() {
+        if (mLoadingDialog != null && mLoadingDialog.isShowing()) return;
+
+        mLoadingDialog = new AlertDialog.Builder(requireActivity())
+            .setMessage(R.string.provision_terms_of_use_processing)
+            .setCancelable(false)
+            .create();
+
+        mLoadingDialog.show();
+    }
+
+    private void showVerificationDialog(VerificationCallback callback) {
+        View view = LayoutInflater.from(getActivity()).inflate(R.layout.edit_verification_code_dialog, null);
+        EditText input = view.findViewById(R.id.title);
+
+        AlertDialog dialog = new AlertDialog.Builder(requireActivity())
+            .setTitle(R.string.provision_terms_of_use_verification_code_dialog_title)
+            .setView(view)
+            .setCancelable(false)
+            .setPositiveButton(R.string.provision_terms_of_use_verification_code_dialog_continue, (d, w) -> callback.onResult(true))
+            .setNegativeButton(android.R.string.cancel, (d, w) -> callback.onResult(false))
+            .create();
+
+        dialog.setOnShowListener(d -> {
+            Button okButton = dialog.getButton(AlertDialog.BUTTON_POSITIVE);
+            okButton.setEnabled(false);
+
+            input.addTextChangedListener(new SimpleTextWatcher() {
+                @Override
+                public void onTextChanged(CharSequence s, int st, int b, int c) {
+                    // 核心：必须调用 toString()
+                    String inputStr = (s == null) ? "" : s.toString();
+                    String targetStr = OobeUtils.getSecureSixDigit();
+                    // 调试打印（可选）：如果还是不亮，看一眼 Logcat
+                    //Log.d("Verify", "Input: [" + inputStr + "] Target: [" + targetStr + "]");
+
+
+                    okButton.setEnabled(inputStr.equals(targetStr));
+                }
+            });
+        });
+
+        dialog.show();
+    }
+
+    interface VerificationCallback {
+        void onResult(boolean success);
+    }
+
+    private boolean verifyInput(AlertDialog dialog) {
+        EditText editText = dialog.findViewById(R.id.title);
+        if (editText == null) return false;
+
+        String input = editText.getText().toString().trim();
+        return "123456".equals(input);
+    }
+
+
+    public void setWebText(TextView tv, String httpUrl) {
+
+    }
+
+    public void goNext() {
+        if (getActivity() != null) {
+            getActivity().setResult(-1);
+            getActivity().finish();
+        }
+    }
+
+    public SpannableStringBuilder enhanceTermsTitle() {
+        CharSequence raw = getText(R.string.provision_terms_of_use_label_use_network_china);
+        SpannableString builder = new SpannableString(raw);
+        Annotation[] annotations = builder.getSpans(0, builder.length(), Annotation.class);
+        int color = getResources().getColor(R.color.provision_button_text_high_color_light, requireContext().getTheme());
+        for (Annotation annotation : annotations) {
+            int start = builder.getSpanStart(annotation);
+            int end = builder.getSpanEnd(annotation);
+            builder.removeSpan(annotation);
+            int hyperlinkType = getHyperlinkType(annotation.getValue());
+            if (hyperlinkType == -1 || end <= start) {
+                continue;
+            }
+            builder.setSpan(new ForegroundColorSpan(color), start, end, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+            builder.setSpan(new TermsTitleSpan(requireActivity(), hyperlinkType), start, end, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+        }
+        return new SpannableStringBuilder(builder);
+    }
+
+    private int getHyperlinkType(String url) {
+        if (USER_AGREEMENT_LINK.equals(url)) {
+            return 2;
+        }
+        if (PRIVACY_POLICY_LINK.equals(url)) {
+            return 1;
+        }
+        return -1;
+    }
+}

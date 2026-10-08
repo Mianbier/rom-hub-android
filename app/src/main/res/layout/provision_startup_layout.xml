@@ -1,1 +1,128 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IS0tCiAgfiBUaGlzIGZpbGUgaXMgcGFydCBvZiBIeXBlckNlaWxlci4KICB+CiAgfiBIeXBlckNlaWxlciBpcyBmcmVlIHNvZnR3YXJlOiB5b3UgY2FuIHJlZGlzdHJpYnV0ZSBpdCBhbmQvb3IgbW9kaWZ5CiAgfiBpdCB1bmRlciB0aGUgdGVybXMgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBhcwogIH4gcHVibGlzaGVkIGJ5IHRoZSBGcmVlIFNvZnR3YXJlIEZvdW5kYXRpb24sIGVpdGhlciB2ZXJzaW9uIDMgb2YgdGhlCiAgfiBMaWNlbnNlLgogIH4KICB+IFRoaXMgcHJvZ3JhbSBpcyBkaXN0cmlidXRlZCBpbiB0aGUgaG9wZSB0aGF0IGl0IHdpbGwgYmUgdXNlZnVsLAogIH4gYnV0IFdJVEhPVVQgQU5ZIFdBUlJBTlRZOyB3aXRob3V0IGV2ZW4gdGhlIGltcGxpZWQgd2FycmFudHkgb2YKICB+IE1FUkNIQU5UQUJJTElUWSBvciBGSVRORVNTIEZPUiBBIFBBUlRJQ1VMQVIgUFVSUE9TRS4gIFNlZSB0aGUKICB+IEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBmb3IgbW9yZSBkZXRhaWxzLgogIH4KICB+IFlvdSBzaG91bGQgaGF2ZSByZWNlaXZlZCBhIGNvcHkgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZQogIH4gYWxvbmcgd2l0aCB0aGlzIHByb2dyYW0uICBJZiBub3QsIHNlZSA8aHR0cHM6Ly93d3cuZ251Lm9yZy9saWNlbnNlcy8+LgogIH4KICB+IENvcHlyaWdodCAoQykgMjAyMy0yMDI2IEh5cGVyQ2VpbGVyIENvbnRyaWJ1dGlvbnMKICAtLT4KPEZyYW1lTGF5b3V0IHhtbG5zOmFuZHJvaWQ9Imh0dHA6Ly9zY2hlbWFzLmFuZHJvaWQuY29tL2Fway9yZXMvYW5kcm9pZCIKICAgIGFuZHJvaWQ6bGF5b3V0X3dpZHRoPSJtYXRjaF9wYXJlbnQiCiAgICBhbmRyb2lkOmxheW91dF9oZWlnaHQ9Im1hdGNoX3BhcmVudCI+CgogICAgPEZyYW1lTGF5b3V0CiAgICAgICAgYW5kcm9pZDpsYXlvdXRfd2lkdGg9Im1hdGNoX3BhcmVudCIKICAgICAgICBhbmRyb2lkOmxheW91dF9oZWlnaHQ9Im1hdGNoX3BhcmVudCI+CgogICAgICAgIDxvcmcubGluYmFvZ3Uucm9taHViLmhjLnByb3Zpc2lvbi5yZW5kZXJlbmdpbmUuUmVuZGVyVmlld0xheW91dAogICAgICAgICAgICBhbmRyb2lkOmlkPSJAK2lkL3JlbmRlcl92aWV3X2xheW91dCIKICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfd2lkdGg9Im1hdGNoX3BhcmVudCIKICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfaGVpZ2h0PSJtYXRjaF9wYXJlbnQiCiAgICAgICAgICAgIGFuZHJvaWQ6Y29udGVudERlc2NyaXB0aW9uPSJAbnVsbCIKICAgICAgICAgICAgYW5kcm9pZDppbXBvcnRhbnRGb3JBY2Nlc3NpYmlsaXR5PSJubyIgLz4KCiAgICAgICAgPEltYWdlVmlldwogICAgICAgICAgICBhbmRyb2lkOmlkPSJAK2lkL2JhY2tncm91bmRfaW1hZ2UiCiAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X3dpZHRoPSJtYXRjaF9wYXJlbnQiCiAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X2hlaWdodD0ibWF0Y2hfcGFyZW50IgogICAgICAgICAgICBhbmRyb2lkOmNvbnRlbnREZXNjcmlwdGlvbj0iQG51bGwiCiAgICAgICAgICAgIGFuZHJvaWQ6aW1wb3J0YW50Rm9yQWNjZXNzaWJpbGl0eT0ibm8iCiAgICAgICAgICAgIGFuZHJvaWQ6c2NhbGVUeXBlPSJjZW50ZXJDcm9wIiAvPgogICAgPC9GcmFtZUxheW91dD4KCiAgICA8TGluZWFyTGF5b3V0CiAgICAgICAgYW5kcm9pZDppZD0iQCtpZC9taXVpX2VudGVyX2xheW91dCIKICAgICAgICBhbmRyb2lkOmxheW91dF93aWR0aD0ibWF0Y2hfcGFyZW50IgogICAgICAgIGFuZHJvaWQ6bGF5b3V0X2hlaWdodD0ibWF0Y2hfcGFyZW50IgogICAgICAgIGFuZHJvaWQ6aW1wb3J0YW50Rm9yQWNjZXNzaWJpbGl0eT0ibm8iCiAgICAgICAgYW5kcm9pZDpvcmllbnRhdGlvbj0idmVydGljYWwiPgoKICAgICAgICA8UmVsYXRpdmVMYXlvdXQKICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfd2lkdGg9Im1hdGNoX3BhcmVudCIKICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfaGVpZ2h0PSIwZHAiCiAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X3dlaWdodD0iMzAuMCI+CgogICAgICAgICAgICA8VmlldwogICAgICAgICAgICAgICAgYW5kcm9pZDppZD0iQCtpZC9zaG93X3FyX3ZpZXciCiAgICAgICAgICAgICAgICBhbmRyb2lkOmxheW91dF93aWR0aD0iQGRpbWVuL3Byb3Zpc2lvbl9xcl9lbnRyYW5jZV9zaXplIgogICAgICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfaGVpZ2h0PSJAZGltZW4vcHJvdmlzaW9uX3FyX2VudHJhbmNlX3NpemUiCiAgICAgICAgICAgICAgICBhbmRyb2lkOmxheW91dF9hbGlnblBhcmVudEVuZD0idHJ1ZSIKICAgICAgICAgICAgICAgIGFuZHJvaWQ6Y29udGVudERlc2NyaXB0aW9uPSJAbnVsbCIKICAgICAgICAgICAgICAgIGFuZHJvaWQ6aW1wb3J0YW50Rm9yQWNjZXNzaWJpbGl0eT0ibm8iIC8+CiAgICAgICAgPC9SZWxhdGl2ZUxheW91dD4KCiAgICAgICAgPEltYWdlVmlldwogICAgICAgICAgICBhbmRyb2lkOmlkPSJAK2lkL2xvZ29faW1hZ2UiCiAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X3dpZHRoPSI5MGRwIgogICAgICAgICAgICBhbmRyb2lkOmxheW91dF9oZWlnaHQ9IjkwZHAiCiAgICAgICAgICAgIGFuZHJvaWQ6Y29udGVudERlc2NyaXB0aW9uPSJAbnVsbCIKICAgICAgICAgICAgYW5kcm9pZDppbXBvcnRhbnRGb3JBY2Nlc3NpYmlsaXR5PSJubyIKICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfZ3Jhdml0eT0iY2VudGVyIi8+CgogICAgICAgIDxSZWxhdGl2ZUxheW91dAogICAgICAgICAgICBhbmRyb2lkOmxheW91dF93aWR0aD0ibWF0Y2hfcGFyZW50IgogICAgICAgICAgICBhbmRyb2lkOmxheW91dF9oZWlnaHQ9IjBkcCIKICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfd2VpZ2h0PSI0MCI+CgogICAgICAgICAgICA8RnJhbWVMYXlvdXQKICAgICAgICAgICAgICAgIGFuZHJvaWQ6aWQ9IkAraWQvbG9nb19pbWFnZV93cmFwcGVyIgogICAgICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfd2lkdGg9IndyYXBfY29udGVudCIKICAgICAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X2hlaWdodD0id3JhcF9jb250ZW50IgogICAgICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfYWxpZ25QYXJlbnRUb3A9InRydWUiCiAgICAgICAgICAgICAgICBhbmRyb2lkOmxheW91dF9jZW50ZXJIb3Jpem9udGFsPSJ0cnVlIj4KCiAgICAgICAgICAgICAgICA8SW1hZ2VWaWV3CiAgICAgICAgICAgICAgICAgICAgYW5kcm9pZDppZD0iQCtpZC90ZXh0X2xvZ29faW1hZ2UiCiAgICAgICAgICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfd2lkdGg9IkBkaW1lbi9wcm92aXNpb25fc3RhcnR1cF9sb2dvX3dpZHRoX3RoaXJ0ZWVuIgogICAgICAgICAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X2hlaWdodD0iQGRpbWVuL3Byb3Zpc2lvbl9zdGFydHVwX2xvZ29faGVpZ2h0X3RoaXJ0ZWVuIgogICAgICAgICAgICAgICAgICAgIGFuZHJvaWQ6Y29udGVudERlc2NyaXB0aW9uPSJAbnVsbCIKICAgICAgICAgICAgICAgICAgICBhbmRyb2lkOmltcG9ydGFudEZvckFjY2Vzc2liaWxpdHk9Im5vIgogICAgICAgICAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X21hcmdpblRvcD0iMjBkcCIvPgogICAgICAgICAgICA8L0ZyYW1lTGF5b3V0PgoKICAgICAgICAgICAgPEZyYW1lTGF5b3V0CiAgICAgICAgICAgICAgICBhbmRyb2lkOmlkPSJAK2lkL25leHRfbGF5b3V0IgogICAgICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfd2lkdGg9IndyYXBfY29udGVudCIKICAgICAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X2hlaWdodD0id3JhcF9jb250ZW50IgogICAgICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfYWxpZ25QYXJlbnRCb3R0b209InRydWUiCiAgICAgICAgICAgICAgICBhbmRyb2lkOmxheW91dF9jZW50ZXJIb3Jpem9udGFsPSJ0cnVlIgogICAgICAgICAgICAgICAgYW5kcm9pZDpwYWRkaW5nPSI0LjVkcCI+CgogICAgICAgICAgICAgICAgPEltYWdlQnV0dG9uCiAgICAgICAgICAgICAgICAgICAgYW5kcm9pZDppZD0iQCtpZC9uZXh0IgogICAgICAgICAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X3dpZHRoPSJAZGltZW4vcHJvdmlzaW9uX25leHRfYnV0dG9uX3NpemUiCiAgICAgICAgICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfaGVpZ2h0PSJAZGltZW4vcHJvdmlzaW9uX25leHRfYnV0dG9uX3NpemUiCiAgICAgICAgICAgICAgICAgICAgYW5kcm9pZDpjbGlja2FibGU9ImZhbHNlIgogICAgICAgICAgICAgICAgICAgIGFuZHJvaWQ6Y29udGVudERlc2NyaXB0aW9uPSJAc3RyaW5nL3Byb3Zpc2lvbl9zdGFydF9jb250ZW50X2Rlc2NyaXB0aW9uIgogICAgICAgICAgICAgICAgICAgIGFuZHJvaWQ6aW1wb3J0YW50Rm9yQWNjZXNzaWJpbGl0eT0ibm8iIC8+CgogICAgICAgICAgICAgICAgPEltYWdlVmlldwogICAgICAgICAgICAgICAgICAgIGFuZHJvaWQ6aWQ9IkAraWQvbmV4dF9hcnJvdyIKICAgICAgICAgICAgICAgICAgICBhbmRyb2lkOmxheW91dF93aWR0aD0iMjlkcCIKICAgICAgICAgICAgICAgICAgICBhbmRyb2lkOmxheW91dF9oZWlnaHQ9IjIwZHAiCiAgICAgICAgICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfZ3Jhdml0eT0iY2VudGVyIgogICAgICAgICAgICAgICAgICAgIGFuZHJvaWQ6Y2xpY2thYmxlPSJmYWxzZSIKICAgICAgICAgICAgICAgICAgICBhbmRyb2lkOmNvbnRlbnREZXNjcmlwdGlvbj0iQHN0cmluZy9wcm92aXNpb25fc3RhcnRfY29udGVudF9kZXNjcmlwdGlvbiIKICAgICAgICAgICAgICAgICAgICBhbmRyb2lkOmltcG9ydGFudEZvckFjY2Vzc2liaWxpdHk9Im5vIgogICAgICAgICAgICAgICAgICAgIGFuZHJvaWQ6dmlzaWJpbGl0eT0iZ29uZSIgLz4KICAgICAgICAgICAgPC9GcmFtZUxheW91dD4KICAgICAgICA8L1JlbGF0aXZlTGF5b3V0PgoKICAgICAgICA8U3BhY2UKICAgICAgICAgICAgYW5kcm9pZDppZD0iQCtpZC9zcGFjZV9ib3R0b20iCiAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X3dpZHRoPSJtYXRjaF9wYXJlbnQiCiAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X2hlaWdodD0iMGRwIgogICAgICAgICAgICBhbmRyb2lkOmxheW91dF93ZWlnaHQ9IjIwIiAvPgoKICAgIDwvTGluZWFyTGF5b3V0Pgo8L0ZyYW1lTGF5b3V0Pgo=
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ This file is part of HyperCeiler.
+  ~
+  ~ HyperCeiler is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU Affero General Public License as
+  ~ published by the Free Software Foundation, either version 3 of the
+  ~ License.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU Affero General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU Affero General Public License
+  ~ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+  ~
+  ~ Copyright (C) 2023-2026 HyperCeiler Contributions
+  -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <org.linbaogu.romhub.hc.provision.renderengine.RenderViewLayout
+            android:id="@+id/render_view_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@null"
+            android:importantForAccessibility="no" />
+
+        <ImageView
+            android:id="@+id/background_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@null"
+            android:importantForAccessibility="no"
+            android:scaleType="centerCrop" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/miui_enter_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:importantForAccessibility="no"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="30.0">
+
+            <View
+                android:id="@+id/show_qr_view"
+                android:layout_width="@dimen/provision_qr_entrance_size"
+                android:layout_height="@dimen/provision_qr_entrance_size"
+                android:layout_alignParentEnd="true"
+                android:contentDescription="@null"
+                android:importantForAccessibility="no" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/logo_image"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:contentDescription="@null"
+            android:importantForAccessibility="no"
+            android:layout_gravity="center"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="40">
+
+            <FrameLayout
+                android:id="@+id/logo_image_wrapper"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true">
+
+                <ImageView
+                    android:id="@+id/text_logo_image"
+                    android:layout_width="@dimen/provision_startup_logo_width_thirteen"
+                    android:layout_height="@dimen/provision_startup_logo_height_thirteen"
+                    android:contentDescription="@null"
+                    android:importantForAccessibility="no"
+                    android:layout_marginTop="20dp"/>
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/next_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:padding="4.5dp">
+
+                <ImageButton
+                    android:id="@+id/next"
+                    android:layout_width="@dimen/provision_next_button_size"
+                    android:layout_height="@dimen/provision_next_button_size"
+                    android:clickable="false"
+                    android:contentDescription="@string/provision_start_content_description"
+                    android:importantForAccessibility="no" />
+
+                <ImageView
+                    android:id="@+id/next_arrow"
+                    android:layout_width="29dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center"
+                    android:clickable="false"
+                    android:contentDescription="@string/provision_start_content_description"
+                    android:importantForAccessibility="no"
+                    android:visibility="gone" />
+            </FrameLayout>
+        </RelativeLayout>
+
+        <Space
+            android:id="@+id/space_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="20" />
+
+    </LinearLayout>
+</FrameLayout>

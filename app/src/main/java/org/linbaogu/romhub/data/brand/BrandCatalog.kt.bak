@@ -1,1 +1,68 @@
-cGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLmRhdGEuYnJhbmQKCi8qKgogKiDlk4HniYzlvZLlsZ7vvJrlhrPlrprjgIzniYjmnKzliJfooajku47lk6rmnaXjgI3lkozjgIzkuIvovb3nm7Tpk77mgI7kuYjmi7/jgI3jgIIKICoKICog5YWz6ZSu6K6k6K+G77yIMjAyNi0xMCDosIPnoJTnu5PorrrvvInvvJoKICogIC0g5YiX6KGo55SoIFtPcHVzSW5kZXhd77yIb3B1c3JvbS50b3Ag55qE6Z2Z5oCBIGpz77yM5YWN562+5ZCN44CB5YWN55m75b2V44CBOSDlk4HniYwgMzU5Njgg5p2h77yJCiAqICAtIOebtOmTvuS8mOWFiOi1sCoq5Y6C5ZWG5a6Y5pa5IE9UQSDmjqXlj6MqKu+8iFtDb2xvck90YUFwaV0gLyBbVml2b090YUFwaV3vvInvvIwKICogICAg5peg5Lu75L2V5Lq65py66aqM6K+B44CB5LiN5Lya6KKr5bCBIElQ77yb5ou/5LiN5Yiw5pe25YaN5Zue6JC95YiwIE9wdXMg55u06ZO+6Kej5p6Q44CCCiAqLwplbnVtIGNsYXNzIEJyYW5kRmFtaWx5IHsKICAgIC8qKiDlsI/nsbMgLyBSZWRtaSDigJTigJQgUk9NIEh1YiDoh6rmnInmlbDmja7mupDvvIzotbDljp/mnaXnmoTorr7lpIfpobUgKi8KICAgIFhJQU9NSSwKCiAgICAvKiogT1BQTyAvIOS4gOWKoCAvIOecn+aIkSDigJTigJQgQ29sb3JPUyDlrpjmlrkgYGNvbXBvbmVudC1vdGEtKmAg5o6l5Y+jICovCiAgICBDT0xPUl9PUywKCiAgICAvKiogdml2byAvIGlRT08g4oCU4oCUIE9yaWdpbk9TIOWumOaWuSBgc3lzdXBncmFkZS52aXZvLmNvbS5jbmAg5o6l5Y+jICovCiAgICBPUklHSU5fT1MsCgogICAgLyoqIOmtheaXjyAvIOe6oumtlCAvIOiBlOaDsyDigJTigJQg5YiX6KGo6LWwIE9wdXPvvIznm7Tpk77lm57okL3liLDmupDnq5kgKi8KICAgIE9USEVSLAp9CgovKioKICog5LiA5Liq5ZOB54mM44CCCiAqCiAqIEBwYXJhbSBrZXkgICAgICBPcHVzIOS+p+eahOWTgeeJjOmUru+8iGBkYXRhL3JvbXNfe2tleX0uanNg77yJCiAqIEBwYXJhbSBuYW1lWmggICDlsZXnpLrlkI0KICogQHBhcmFtIGZhbWlseSAgIOaVsOaNrua6kOW9kuWxngogKiBAcGFyYW0gY29sb3IgICAg5ZOB54mM5Li76Imy77yM55So5LqO5ZOB54mM5Y2h54mHCiAqLwpkYXRhIGNsYXNzIEJyYW5kKAogICAgdmFsIGtleTogU3RyaW5nLAogICAgdmFsIG5hbWVaaDogU3RyaW5nLAogICAgdmFsIGZhbWlseTogQnJhbmRGYW1pbHksCiAgICB2YWwgY29sb3I6IExvbmcsCikgewogICAgLyoqIOmmlumhteaYr+WQpui/myBST00gSHViIOWOn+acieeahOiuvuWkh+mhte+8iOWPquacieWwj+exs+aYr++8iSAqLwogICAgdmFsIHVzZU5hdGl2ZVNvdXJjZTogQm9vbGVhbiBnZXQoKSA9IGZhbWlseSA9PSBCcmFuZEZhbWlseS5YSUFPTUkKfQoKLyoqCiAqIOWTgeeJjOa4heWNleOAggogKgogKiDpobrluo/ljbPpppbpobXlsZXnpLrpobrluo/vvJrlsI/nsbPmiZPlpLTvvIjnlKjmiLfmnIDluLjnlKjvvInvvIzlhbbkvZnmjIkgQ29sb3JPUyDihpIgT3JpZ2luT1Mg4oaSIOWFtuS7luaOkuOAggogKiDmlbDmja7ph4/lj4LogIMgT3B1cyDnmoQgYFJPTVNfU1VNTUFSWS50b3RhbHNg77yaOSDlk4HniYwgLyAxMTU5IOacuuWeiyAvIDM1OTY4IOS4qiBST03jgIIKICovCm9iamVjdCBCcmFuZENhdGFsb2cgewoKICAgIHZhbCBhbGw6IExpc3Q8QnJhbmQ+ID0gbGlzdE9mKAogICAgICAgIEJyYW5kKCJ4aWFvbWkiLCAi5bCP57GzIiwgQnJhbmRGYW1pbHkuWElBT01JLCAweEZGRkY2OTAwKSwKICAgICAgICBCcmFuZCgicmVkbWkiLCAiUmVkbWkiLCBCcmFuZEZhbWlseS5YSUFPTUksIDB4RkZGRjNCMzApLAogICAgICAgIEJyYW5kKCJvcHBvIiwgIk9QUE8iLCBCcmFuZEZhbWlseS5DT0xPUl9PUywgMHhGRjBBNkNGRiksCiAgICAgICAgQnJhbmQoIm9uZXBsdXMiLCAi5LiA5YqgIiwgQnJhbmRGYW1pbHkuQ09MT1JfT1MsIDB4RkZFQjAwMjgpLAogICAgICAgIEJyYW5kKCJyZWFsbWUiLCAi55yf5oiRIiwgQnJhbmRGYW1pbHkuQ09MT1JfT1MsIDB4RkZGRkM5MTUpLAogICAgICAgIEJyYW5kKCJ2aXZvIiwgInZpdm8iLCBCcmFuZEZhbWlseS5PUklHSU5fT1MsIDB4RkY0MTVGRkYpLAogICAgICAgIEJyYW5kKCJpcW9vIiwgImlRT08iLCBCcmFuZEZhbWlseS5PUklHSU5fT1MsIDB4RkYwRDlCRkYpLAogICAgICAgIEJyYW5kKCJtZWl6dSIsICLprYXml48iLCBCcmFuZEZhbWlseS5PVEhFUiwgMHhGRjAwQTBFOSksCiAgICAgICAgQnJhbmQoInJlZG1hZ2ljIiwgIue6oumtlCIsIEJyYW5kRmFtaWx5Lk9USEVSLCAweEZGRDAwMjFCKSwKICAgICAgICBCcmFuZCgibGVub3ZvIiwgIuiBlOaDsyIsIEJyYW5kRmFtaWx5Lk9USEVSLCAweEZGQTUxQzMwKSwKICAgICkKCiAgICAvKiog6aaW6aG155yf5q2j6KaB5bGV56S655qE77yI5bCP57Gz5ZKMIFJlZG1pIOWFseeUqOS4gOS4quWFpeWPo++8jOi/memHjOWPqueVmeS4gOS4quOAjOWwj+exs+OAje+8ieOAgiAqLwogICAgdmFsIGhvbWVCcmFuZHM6IExpc3Q8QnJhbmQ+IGdldCgpID0gYWxsLmZpbHRlciB7IGl0LmtleSAhPSAicmVkbWkiIH0KCiAgICBmdW4gYnlLZXkoa2V5OiBTdHJpbmcpOiBCcmFuZD8gPSBhbGwuZmlyc3RPck51bGwgeyBpdC5rZXkuZXF1YWxzKGtleSwgaWdub3JlQ2FzZSA9IHRydWUpIH0KfQo=
+package org.linbaogu.romhub.data.brand
+
+/**
+ * 品牌归属：决定「版本列表从哪来」和「下载直链怎么拿」。
+ *
+ * 关键认识（2026-10 调研结论）：
+ *  - 列表用 [OpusIndex]（opusrom.top 的静态 js，免签名、免登录、9 品牌 35968 条）
+ *  - 直链优先走**厂商官方 OTA 接口**（[ColorOtaApi] / [VivoOtaApi]），
+ *    无任何人机验证、不会被封 IP；拿不到时再回落到 Opus 直链解析。
+ */
+enum class BrandFamily {
+    /** 小米 / Redmi —— ROM Hub 自有数据源，走原来的设备页 */
+    XIAOMI,
+
+    /** OPPO / 一加 / 真我 —— ColorOS 官方 `component-ota-*` 接口 */
+    COLOR_OS,
+
+    /** vivo / iQOO —— OriginOS 官方 `sysupgrade.vivo.com.cn` 接口 */
+    ORIGIN_OS,
+
+    /** 魅族 / 红魔 / 联想 —— 列表走 Opus，直链回落到源站 */
+    OTHER,
+}
+
+/**
+ * 一个品牌。
+ *
+ * @param key      Opus 侧的品牌键（`data/roms_{key}.js`）
+ * @param nameZh   展示名
+ * @param family   数据源归属
+ * @param color    品牌主色，用于品牌卡片
+ */
+data class Brand(
+    val key: String,
+    val nameZh: String,
+    val family: BrandFamily,
+    val color: Long,
+) {
+    /** 首页是否进 ROM Hub 原有的设备页（只有小米是） */
+    val useNativeSource: Boolean get() = family == BrandFamily.XIAOMI
+}
+
+/**
+ * 品牌清单。
+ *
+ * 顺序即首页展示顺序：小米打头（用户最常用），其余按 ColorOS → OriginOS → 其他排。
+ * 数据量参考 Opus 的 `ROMS_SUMMARY.totals`：9 品牌 / 1159 机型 / 35968 个 ROM。
+ */
+object BrandCatalog {
+
+    val all: List<Brand> = listOf(
+        Brand("xiaomi", "小米", BrandFamily.XIAOMI, 0xFFFF6900),
+        Brand("redmi", "Redmi", BrandFamily.XIAOMI, 0xFFFF3B30),
+        Brand("oppo", "OPPO", BrandFamily.COLOR_OS, 0xFF0A6CFF),
+        Brand("oneplus", "一加", BrandFamily.COLOR_OS, 0xFFEB0028),
+        Brand("realme", "真我", BrandFamily.COLOR_OS, 0xFFFFC915),
+        Brand("vivo", "vivo", BrandFamily.ORIGIN_OS, 0xFF415FFF),
+        Brand("iqoo", "iQOO", BrandFamily.ORIGIN_OS, 0xFF0D9BFF),
+        Brand("meizu", "魅族", BrandFamily.OTHER, 0xFF00A0E9),
+        Brand("redmagic", "红魔", BrandFamily.OTHER, 0xFFD0021B),
+        Brand("lenovo", "联想", BrandFamily.OTHER, 0xFFA51C30),
+    )
+
+    /** 首页真正要展示的（小米和 Redmi 共用一个入口，这里只留一个「小米」）。 */
+    val homeBrands: List<Brand> get() = all.filter { it.key != "redmi" }
+
+    fun byKey(key: String): Brand? = all.firstOrNull { it.key.equals(key, ignoreCase = true) }
+}

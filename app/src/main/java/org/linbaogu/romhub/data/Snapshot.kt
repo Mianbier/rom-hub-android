@@ -1,1 +1,89 @@
-cGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLmRhdGEKCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dAppbXBvcnQgYW5kcm9pZC51dGlsLkxvZwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkRpc3BhdGNoZXJzCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMud2l0aENvbnRleHQKaW1wb3J0IG9raHR0cDMuT2tIdHRwQ2xpZW50CmltcG9ydCBva2h0dHAzLlJlcXVlc3QKaW1wb3J0IG9yZy5saW5iYW9ndS5yb21odWIuY29yZS5QcmVmcwppbXBvcnQgamF2YS51dGlsLmNvbmN1cnJlbnQuVGltZVVuaXQKCi8qKgogKiDpnZnmgIHlv6vnhafpgJrpgZPvvJrku44gQ0ROIOi+uee8mOebtOaOpeivuyBKU09O77yMKirkuI3nu4/ov4fku7vkvZXkuIDlj7DpnIDopoHkurrnnIvnrqHnmoTmnLrlmagqKuOAggogKgogKiAjIyDlroPmmK/lhZzlupXvvIzkuI3mmK/mm7/ku6MKICoKICog5rWP6KeI57G75pWw5o2u77yI5Li76aG157uf6K6h44CB5Yqo5oCB44CB5py65Z6L6KGo77yJ5Y2g5LqG5L2/55So6YeP55qE57ud5aSn6YOo5YiG77yM5L2GKirlrp7ml7bmgKfkuI3og73nibrnibIqKu+8jAogKiDmiYDku6XkuLvot6/lvoTku43nhLbmmK/lrp7ml7bmjqXlj6PvvJrliqjmgIHotbAgUkVTVCArIFNTRSDmjqjpgIHvvIjmnI3liqHnq6/mnInmlrDliqjmgIEgMX4zIOenkuWIsO+8ie+8jAogKiDkuLvpobXnu5/orqEv5py65Z6L6KGo6LWwIFJFU1Qg5ouJ5Y+W44CCCiAqCiAqIOi/meadoemAmumBk+ino+WGs+eahOaYr+WPpuS4gOS7tuS6i++8mioq57u05oqk5py65Zmo5o6J57q/5pe2IEFwcCDkuI3kvJrnmb3lsY8qKuOAggogKiDmnI3liqHnq6/ml6nlsLHmiorlj6ror7vmlbDmja7lr7zlh7rmiJDpnZnmgIHlv6vnhafvvIhzZXJ2ZXIvc3RhdGljX2V4cG9ydCDkuIvnmoQganNvbu+8ieaOqOWIsCBDbG91ZGZsYXJlCiAqIFdvcmtlcnMgS1bvvIzovrnnvJjnm7TmjqXov5Tlm54g4oCU4oCUIOmCo+adoei3r+S4iuayoeacieS7u+S9leS4gOWPsOeUteiEkS/miYvmnLrlj4LkuI7vvIwKICog5omA5Lul57u05oqk5py65Zmo5YWz5py644CB5o2i572R57uc44CBVGVybXV4IOaOiee6v+aXtu+8jOeUqOaIt+S7jeeEtuiDveeci+WIsOacgOWQjuS4gOasoeeahOaVsOaNruOAggogKgogKiDlhpnmk43kvZzjgIHku6Xlj4rlv4Xpobvlrp7ml7bnmoTog73lipvvvIjlvIDlj5HogIXmipXnqL/jgIHkuIrkvKDnm7Tpk77jgIHmm7TmlrDmo4Dmn6XvvInmsLjov5zlj6rotbAgW0FwaV3jgIIKICoKICogIyMg5Y+W5YC86aG65bqPCiAqCiAqIOWunuaXtuaOpeWPoyDihpIg5b+r54WnIOKGkiDmnKzlnLDnvJPlrZjjgILkuInnuqfpg73nqbrmiY3miqXplJnvvIwKICog5L+d6K+B5Lu75L2V5LiA546v5oyC5LqG5Li76aG15ZKM5Yqo5oCB6YO96L+Y6IO95omT5byA77yM5Y+q5piv5pWw5o2u5pen5LiA54K544CCCiAqLwppbnRlcm5hbCBvYmplY3QgU25hcHNob3QgewoKICAgIHByaXZhdGUgY29uc3QgdmFsIFRBRyA9ICJSb21IdWJTbmFwIgoKICAgIC8qKiDovrnnvJjmnIkgMTUg56eS57yT5a2Y77yM6L+Z6YeM57uZ6Laz6LaF5pe25L2G5LuN54S25q+U5rqQ56uZ55+t77yM5Z2P5LqG5bCx6LW257Sn5o2i5LiL5LiA57qn44CCICovCiAgICBwcml2YXRlIHZhbCBjbGllbnQ6IE9rSHR0cENsaWVudCBieSBsYXp5IHsKICAgICAgICBPa0h0dHBDbGllbnQuQnVpbGRlcigpCiAgICAgICAgICAgIC5jb25uZWN0VGltZW91dCg2LCBUaW1lVW5pdC5TRUNPTkRTKQogICAgICAgICAgICAucmVhZFRpbWVvdXQoMTAsIFRpbWVVbml0LlNFQ09ORFMpCiAgICAgICAgICAgIC5jYWxsVGltZW91dCgxMiwgVGltZVVuaXQuU0VDT05EUykKICAgICAgICAgICAgLnJldHJ5T25Db25uZWN0aW9uRmFpbHVyZSh0cnVlKQogICAgICAgICAgICAuYnVpbGQoKQogICAgfQoKICAgIC8qKgogICAgICog5b+r54Wn5Zyw5Z2A5YCZ6YCJ44CCCiAgICAgKgogICAgICog6buY6K6k5YWs572R5Z+f5ZCN6LWwIENsb3VkZmxhcmUgV29ya2Vy77yI5rC46L+c5Zyo77yJ77yb5aaC5p6c55So5oi35oqK5pyN5Yqh5Zmo5Zyw5Z2A5pS55oiQ5bGA5Z+f572RL+acrOacuu+8jAogICAgICog5Lmf6aG65omL6K+V5LiA5LiL6YKj5Liq5Zyw5Z2AIOKAlOKAlCDmnI3liqHnq6/ku6XlkI7mioogL2RhdGEg5oyC5Ye65p2l5bCx6IO955u05o6l5ZG95Lit77yM5LiN55So5YaN5pS55a6i5oi356uv44CCCiAgICAgKi8KICAgIHByaXZhdGUgZnVuIGJhc2VzKGN0eDogQ29udGV4dCk6IExpc3Q8U3RyaW5nPiB7CiAgICAgICAgdmFsIG91dCA9IExpbmtlZEhhc2hTZXQ8U3RyaW5nPigpCiAgICAgICAgb3V0ICs9IFByZWZzLkRFRkFVTFRfQkFTRQogICAgICAgIHZhbCBjdXIgPSBQcmVmcy5zZXJ2ZXJCYXNlKGN0eCkudHJpbUVuZCgnLycpCiAgICAgICAgaWYgKGN1ci5pc05vdEJsYW5rKCkgJiYgY3VyICE9IFByZWZzLkRFRkFVTFRfQkFTRSkgb3V0ICs9IGN1cgogICAgICAgIHJldHVybiBvdXQudG9MaXN0KCkKICAgIH0KCiAgICAvKioKICAgICAqIOivu+S4gOS7veW/q+eFp+aWh+S7tuOAguS7u+S4gOWAmemAieWcsOWdgOWRveS4reWNs+i/lOWbnu+8jOWFqOmDqOWksei0pei/lOWbniBudWxs44CCCiAgICAgKgogICAgICog55SoIEdFVCDogIzkuI3mmK8gSEVBRO+8mktWIOS4iueahOWGheWuueWwseaYr+aWh+S7tuS9k++8jOS4gOasoeivt+axguaLv+WIsO+8jOecgeS4gOasoeW+gOi/lOOAggogICAgICovCiAgICBzdXNwZW5kIGZ1biB0ZXh0KGN0eDogQ29udGV4dCwgbmFtZTogU3RyaW5nKTogU3RyaW5nPyA9IHdpdGhDb250ZXh0KERpc3BhdGNoZXJzLklPKSB7CiAgICAgICAgZm9yIChiYXNlIGluIGJhc2VzKGN0eCkpIHsKICAgICAgICAgICAgdmFsIHVybCA9IGJhc2UudHJpbUVuZCgnLycpICsgIi9kYXRhLyIgKyBuYW1lCiAgICAgICAgICAgIHZhbCBib2R5ID0gcnVuQ2F0Y2hpbmcgewogICAgICAgICAgICAgICAgY2xpZW50Lm5ld0NhbGwoUmVxdWVzdC5CdWlsZGVyKCkudXJsKHVybCkuZ2V0KCkuYnVpbGQoKSkKICAgICAgICAgICAgICAgICAgICAuZXhlY3V0ZSgpCiAgICAgICAgICAgICAgICAgICAgLnVzZSB7IHIgLT4gaWYgKHIuaXNTdWNjZXNzZnVsKSByLmJvZHk/LnN0cmluZygpIGVsc2UgbnVsbCB9CiAgICAgICAgICAgIH0uZ2V0T3JOdWxsKCkKICAgICAgICAgICAgaWYgKCFib2R5LmlzTnVsbE9yQmxhbmsoKSkgewogICAgICAgICAgICAgICAgTG9nLmkoVEFHLCAi5b+r54Wn5ZG95LitICR1cmzvvIgke2JvZHkhIS5sZW5ndGh9IOWtl+iKgu+8iSIpCiAgICAgICAgICAgICAgICByZXR1cm5Ad2l0aENvbnRleHQgYm9keQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIExvZy53KFRBRywgIuW/q+eFp+WFqOmDqOWAmemAiemDveayoeWRveS4re+8miRuYW1lIikKICAgICAgICBudWxsCiAgICB9CgogICAgc3VzcGVuZCBpbmxpbmUgZnVuIDxyZWlmaWVkIFQ+IGdldChjdHg6IENvbnRleHQsIG5hbWU6IFN0cmluZyk6IFQ/IHsKICAgICAgICB2YWwgcmF3ID0gdGV4dChjdHgsIG5hbWUpID86IHJldHVybiBudWxsCiAgICAgICAgcmV0dXJuIHJ1bkNhdGNoaW5nIHsgUm9tSnNvbi5kZWNvZGVGcm9tU3RyaW5nPFQ+KHJhdykgfQogICAgICAgICAgICAub25GYWlsdXJlIHsgTG9nLncoVEFHLCAi5b+r54WnICRuYW1lIOino+aekOWksei0pe+8miR7aXQubWVzc2FnZX0iKSB9CiAgICAgICAgICAgIC5nZXRPck51bGwoKQogICAgfQp9
+package org.linbaogu.romhub.data
+
+import android.content.Context
+import android.util.Log
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
+import okhttp3.OkHttpClient
+import okhttp3.Request
+import org.linbaogu.romhub.core.Prefs
+import java.util.concurrent.TimeUnit
+
+/**
+ * 静态快照通道：从 CDN 边缘直接读 JSON，**不经过任何一台需要人看管的机器**。
+ *
+ * ## 它是兜底，不是替代
+ *
+ * 浏览类数据（主页统计、动态、机型表）占了使用量的绝大部分，但**实时性不能牺牲**，
+ * 所以主路径仍然是实时接口：动态走 REST + SSE 推送（服务端有新动态 1~3 秒到），
+ * 主页统计/机型表走 REST 拉取。
+ *
+ * 这条通道解决的是另一件事：**维护机器掉线时 App 不会白屏**。
+ * 服务端早就把只读数据导出成静态快照（server/static_export 下的 json）推到 Cloudflare
+ * Workers KV，边缘直接返回 —— 那条路上没有任何一台电脑/手机参与，
+ * 所以维护机器关机、换网络、Termux 掉线时，用户仍然能看到最后一次的数据。
+ *
+ * 写操作、以及必须实时的能力（开发者投稿、上传直链、更新检查）永远只走 [Api]。
+ *
+ * ## 取值顺序
+ *
+ * 实时接口 → 快照 → 本地缓存。三级都空才报错，
+ * 保证任何一环挂了主页和动态都还能打开，只是数据旧一点。
+ */
+internal object Snapshot {
+
+    private const val TAG = "RomHubSnap"
+
+    /** 边缘有 15 秒缓存，这里给足超时但仍然比源站短，坏了就赶紧换下一级。 */
+    private val client: OkHttpClient by lazy {
+        OkHttpClient.Builder()
+            .connectTimeout(6, TimeUnit.SECONDS)
+            .readTimeout(10, TimeUnit.SECONDS)
+            .callTimeout(12, TimeUnit.SECONDS)
+            .retryOnConnectionFailure(true)
+            .build()
+    }
+
+    /**
+     * 快照地址候选。
+     *
+     * 默认公网域名走 Cloudflare Worker（永远在）；如果用户把服务器地址改成局域网/本机，
+     * 也顺手试一下那个地址 —— 服务端以后把 /data 挂出来就能直接命中，不用再改客户端。
+     */
+    private fun bases(ctx: Context): List<String> {
+        val out = LinkedHashSet<String>()
+        out += Prefs.DEFAULT_BASE
+        val cur = Prefs.serverBase(ctx).trimEnd('/')
+        if (cur.isNotBlank() && cur != Prefs.DEFAULT_BASE) out += cur
+        return out.toList()
+    }
+
+    /**
+     * 读一份快照文件。任一候选地址命中即返回，全部失败返回 null。
+     *
+     * 用 GET 而不是 HEAD：KV 上的内容就是文件体，一次请求拿到，省一次往返。
+     */
+    suspend fun text(ctx: Context, name: String): String? = withContext(Dispatchers.IO) {
+        for (base in bases(ctx)) {
+            val url = base.trimEnd('/') + "/data/" + name
+            val body = runCatching {
+                client.newCall(Request.Builder().url(url).get().build())
+                    .execute()
+                    .use { r -> if (r.isSuccessful) r.body?.string() else null }
+            }.getOrNull()
+            if (!body.isNullOrBlank()) {
+                Log.i(TAG, "快照命中 $url（${body!!.length} 字节）")
+                return@withContext body
+            }
+        }
+        Log.w(TAG, "快照全部候选都没命中：$name")
+        null
+    }
+
+    suspend inline fun <reified T> get(ctx: Context, name: String): T? {
+        val raw = text(ctx, name) ?: return null
+        return runCatching { RomJson.decodeFromString<T>(raw) }
+            .onFailure { Log.w(TAG, "快照 $name 解析失败：${it.message}") }
+            .getOrNull()
+    }
+}

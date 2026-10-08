@@ -1,1 +1,77 @@
-cGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLmNvcmUKCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dAppbXBvcnQgb3JnLmxpbmJhb2d1LnJvbWh1Yi5kYXRhLkFwaQppbXBvcnQgb3JnLmxpbmJhb2d1LnJvbWh1Yi5kYXRhLkxlZ2FsSW5mbwoKLyoqCiAqIOeUqOaIt+WNj+iuriAvIOmakOengeaUv+etliDigJTigJQg5a6i5oi356uv5L6n55qE57uf5LiA5YWl5Y+j44CCCiAqCiAqICMjIOWGheWuueS7juWTquadpQogKiBgYGAKICog5LqR56uvIEtW77yIZGF0YS9sZWdhbC5qc29u77yJICDihpAg56uZ6ZW/5Zyo566h55CG56uv5pS55LiA5qyh77yM5omA5pyJ5a6i5oi356uv5LiL5qyh5ZCv5Yqo5bCx6IO95ou/5YiwCiAqICAgICAg4oaTIOivu+S4jeWIsO+8iOaWree9kSAvIOa6kOermeayoeW8gO+8iQogKiDmnKzlnLDnvJPlrZjvvIjkuIrmrKHmiJDlip/lkIzmraXkuIvmnaXnmoTvvIkKICogICAgICDihpMg5Lmf5rKh5pyJ77yI5Yia6KOF5aW944CB5LiA5qyh6YO95rKh5ZCM5q2l6L+H77yJCiAqIEFQSyDlhoXnva4gYXNzZXRz77yI5L+d5bqV77yM5rC46L+c6K+75b6X5Yiw77yJCiAqIGBgYAogKgogKiAjIyDkuLrku4DkuYjopoHlvLnnqpcKICog5Y2P6K6u5YaF5a655Y+Y5LqG77yM55So5oi35pyJ5p2D55+l6YGT44CC5YGa5rOV5piv5q+U5a+5KirniYjmnKzlj7cqKu+8mgogKiDkupHnq6/niYjmnKwgPiDnlKjmiLfjgIzlt7LlkIzmhI/jgI3nmoTniYjmnKwg4oaSIOW8ueS4gOasoeeql++8m+WQjOaEj+i/h+WwseS4jeWGjeaJk+aJsOOAggogKiDmiYDku6Xnq5nplb/mlLnljYHmrKHkuZ/lj6rkvJrlnKjnlKjmiLfpgqPovrnlvLnkuIDmrKHvvIjpmaTpnZ7lj4jmlLnkuobvvInjgIIKICovCm9iamVjdCBMZWdhbFJlcG8gewoKICAgIC8qKiDljY/orq7nmoTkuKTku73lhoXlrrnjgIIgKi8KICAgIGVudW0gY2xhc3MgRG9jKHZhbCBzY2hlbWU6IFN0cmluZywgdmFsIGFzc2V0OiBTdHJpbmcpIHsKICAgICAgICBURVJNUygibGVnYWw6Ly90ZXJtcyIsICJyb21odWJfdGVybXMubWQiKSwKICAgICAgICBQUklWQUNZKCJsZWdhbDovL3ByaXZhY3kiLCAicm9taHViX3ByaXZhY3kubWQiKSwKICAgIH0KCiAgICAvKioKICAgICAqIOWQjOatpeS4gOasoeS6keerr+WNj+iuru+8jOaIkOWKn+aXtuWGmee8k+WtmOW5tui/lOWbnuWGheWuue+8m+Wksei0pei/lOWbniBudWxs77yI6LCD55So5pa56LWw57yT5a2YL+WGhee9ru+8ieOAggogICAgICovCiAgICBzdXNwZW5kIGZ1biBmZXRjaChjdHg6IENvbnRleHQpOiBMZWdhbEluZm8/IHsKICAgICAgICB2YWwgaW5mbyA9IEFwaS5sZWdhbChjdHgpID86IHJldHVybiBudWxsCiAgICAgICAgLy8g56m65YaF5a655LiN566X5pWw77ya5a6B5Y+v57un57ut55So57yT5a2Y77yM5Lmf5LiN6KaB5ou/5LiA5Lu956m65Y2P6K6u5oqK55WM6Z2i5Yi355m9CiAgICAgICAgaWYgKGluZm8udGVybXMuaXNCbGFuaygpICYmIGluZm8ucHJpdmFjeS5pc0JsYW5rKCkpIHJldHVybiBudWxsCiAgICAgICAgUHJlZnMuc2V0TGVnYWxWZXJzaW9uKGN0eCwgaW5mby52ZXJzaW9uKQogICAgICAgIFByZWZzLnNldExlZ2FsVXBkYXRlZEF0KGN0eCwgaW5mby51cGRhdGVkQXQpCiAgICAgICAgUHJlZnMuc2V0TGVnYWxUZXh0KGN0eCwgaW5mby50ZXJtcywgaW5mby5wcml2YWN5KQogICAgICAgIHJldHVybiBpbmZvCiAgICB9CgogICAgLyoqCiAgICAgKiDmnInmsqHmnInjgIznlKjmiLfov5jmsqHlkIzmhI/ov4fnmoTmlrDniYjmnKzjgI3jgIIKICAgICAqIEByZXR1cm4g6ZyA6KaB5o+Q56S65pe26L+U5Zue5LqR56uv54mI5pys5Y+377yM5ZCm5YiZIG51bGwKICAgICAqLwogICAgZnVuIHBlbmRpbmdWZXJzaW9uKGN0eDogQ29udGV4dCwgaW5mbzogTGVnYWxJbmZvPyk6IEludD8gewogICAgICAgIHZhbCB2ID0gaW5mbz8udmVyc2lvbiA/OiBQcmVmcy5sZWdhbFZlcnNpb24oY3R4KQogICAgICAgIGlmICh2IDw9IDApIHJldHVybiBudWxsCiAgICAgICAgcmV0dXJuIGlmICh2ID4gUHJlZnMubGVnYWxBY2tlZFZlcnNpb24oY3R4KSkgdiBlbHNlIG51bGwKICAgIH0KCiAgICAvKiog55So5oi354K55LqG44CM5ZCM5oSPIC8g5oiR55+l6YGT5LqG44CN44CCICovCiAgICBmdW4gYWNrKGN0eDogQ29udGV4dCwgdmVyc2lvbjogSW50KSB7CiAgICAgICAgUHJlZnMuc2V0TGVnYWxBY2tlZFZlcnNpb24oY3R4LCB2ZXJzaW9uKQogICAgfQoKICAgIC8qKiDlj5bmraPmlofvvJrkupHnq6/nvJPlrZgg4oaSIEFQSyDlhoXnva7jgIIgKi8KICAgIGZ1biB0ZXh0KGN0eDogQ29udGV4dCwgZG9jOiBEb2MpOiBTdHJpbmcgewogICAgICAgIHZhbCBjYWNoZWQgPSB3aGVuIChkb2MpIHsKICAgICAgICAgICAgRG9jLlRFUk1TIC0+IFByZWZzLmxlZ2FsVGVybXMoY3R4KQogICAgICAgICAgICBEb2MuUFJJVkFDWSAtPiBQcmVmcy5sZWdhbFByaXZhY3koY3R4KQogICAgICAgIH0KICAgICAgICBpZiAoY2FjaGVkLmlzTm90QmxhbmsoKSkgcmV0dXJuIGNhY2hlZAogICAgICAgIHJldHVybiBydW5DYXRjaGluZyB7CiAgICAgICAgICAgIGN0eC5hc3NldHMub3Blbihkb2MuYXNzZXQpLmJ1ZmZlcmVkUmVhZGVyKENoYXJzZXRzLlVURl84KS51c2UgeyBpdC5yZWFkVGV4dCgpIH0KICAgICAgICB9LmdldE9yRGVmYXVsdCgiIikKICAgIH0KCiAgICAvKiog5b2T5YmN55Sf5pWI55qE54mI5pys5Y+377yI5LqR56uv57yT5a2Y6YeM55qE77yJ44CCICovCiAgICBmdW4gdmVyc2lvbihjdHg6IENvbnRleHQpOiBJbnQgPSBQcmVmcy5sZWdhbFZlcnNpb24oY3R4KQoKICAgIC8qKiDmnIDlkI7mm7TmlrDml7bpl7TvvIjnu5njgIzlhbPkuo7jgI3pobXmmL7npLrnlKjvvInjgIIgKi8KICAgIGZ1biB1cGRhdGVkQXQoY3R4OiBDb250ZXh0KTogU3RyaW5nID0gUHJlZnMubGVnYWxVcGRhdGVkQXQoY3R4KQp9Cg==
+package org.linbaogu.romhub.core
+
+import android.content.Context
+import org.linbaogu.romhub.data.Api
+import org.linbaogu.romhub.data.LegalInfo
+
+/**
+ * 用户协议 / 隐私政策 —— 客户端侧的统一入口。
+ *
+ * ## 内容从哪来
+ * ```
+ * 云端 KV（data/legal.json）  ← 站长在管理端改一次，所有客户端下次启动就能拿到
+ *      ↓ 读不到（断网 / 源站没开）
+ * 本地缓存（上次成功同步下来的）
+ *      ↓ 也没有（刚装好、一次都没同步过）
+ * APK 内置 assets（保底，永远读得到）
+ * ```
+ *
+ * ## 为什么要弹窗
+ * 协议内容变了，用户有权知道。做法是比对**版本号**：
+ * 云端版本 > 用户「已同意」的版本 → 弹一次窗；同意过就不再打扰。
+ * 所以站长改十次也只会在用户那边弹一次（除非又改了）。
+ */
+object LegalRepo {
+
+    /** 协议的两份内容。 */
+    enum class Doc(val scheme: String, val asset: String) {
+        TERMS("legal://terms", "romhub_terms.md"),
+        PRIVACY("legal://privacy", "romhub_privacy.md"),
+    }
+
+    /**
+     * 同步一次云端协议，成功时写缓存并返回内容；失败返回 null（调用方走缓存/内置）。
+     */
+    suspend fun fetch(ctx: Context): LegalInfo? {
+        val info = Api.legal(ctx) ?: return null
+        // 空内容不算数：宁可继续用缓存，也不要拿一份空协议把界面刷白
+        if (info.terms.isBlank() && info.privacy.isBlank()) return null
+        Prefs.setLegalVersion(ctx, info.version)
+        Prefs.setLegalUpdatedAt(ctx, info.updatedAt)
+        Prefs.setLegalText(ctx, info.terms, info.privacy)
+        return info
+    }
+
+    /**
+     * 有没有「用户还没同意过的新版本」。
+     * @return 需要提示时返回云端版本号，否则 null
+     */
+    fun pendingVersion(ctx: Context, info: LegalInfo?): Int? {
+        val v = info?.version ?: Prefs.legalVersion(ctx)
+        if (v <= 0) return null
+        return if (v > Prefs.legalAckedVersion(ctx)) v else null
+    }
+
+    /** 用户点了「同意 / 我知道了」。 */
+    fun ack(ctx: Context, version: Int) {
+        Prefs.setLegalAckedVersion(ctx, version)
+    }
+
+    /** 取正文：云端缓存 → APK 内置。 */
+    fun text(ctx: Context, doc: Doc): String {
+        val cached = when (doc) {
+            Doc.TERMS -> Prefs.legalTerms(ctx)
+            Doc.PRIVACY -> Prefs.legalPrivacy(ctx)
+        }
+        if (cached.isNotBlank()) return cached
+        return runCatching {
+            ctx.assets.open(doc.asset).bufferedReader(Charsets.UTF_8).use { it.readText() }
+        }.getOrDefault("")
+    }
+
+    /** 当前生效的版本号（云端缓存里的）。 */
+    fun version(ctx: Context): Int = Prefs.legalVersion(ctx)
+
+    /** 最后更新时间（给「关于」页显示用）。 */
+    fun updatedAt(ctx: Context): String = Prefs.legalUpdatedAt(ctx)
+}

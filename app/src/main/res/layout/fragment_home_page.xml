@@ -1,1 +1,83 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLQogIH4gVGhpcyBmaWxlIGlzIHBhcnQgb2YgSHlwZXJDZWlsZXIuCiAgfgogIH4gSHlwZXJDZWlsZXIgaXMgZnJlZSBzb2Z0d2FyZTogeW91IGNhbiByZWRpc3RyaWJ1dGUgaXQgYW5kL29yIG1vZGlmeQogIH4gaXQgdW5kZXIgdGhlIHRlcm1zIG9mIHRoZSBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UgYXMKICB+IHB1Ymxpc2hlZCBieSB0aGUgRnJlZSBTb2Z0d2FyZSBGb3VuZGF0aW9uLCBlaXRoZXIgdmVyc2lvbiAzIG9mIHRoZQogIH4gTGljZW5zZS4KICB+CiAgfiBUaGlzIHByb2dyYW0gaXMgZGlzdHJpYnV0ZWQgaW4gdGhlIGhvcGUgdGhhdCBpdCB3aWxsIGJlIHVzZWZ1bCwKICB+IGJ1dCBXSVRIT1VUIEFOWSBXQVJSQU5UWTsgd2l0aG91dCBldmVuIHRoZSBpbXBsaWVkIHdhcnJhbnR5IG9mCiAgfiBNRVJDSEFOVEFCSUxJVFkgb3IgRklUTkVTUyBGT1IgQSBQQVJUSUNVTEFSIFBVUlBPU0UuICBTZWUgdGhlCiAgfiBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UgZm9yIG1vcmUgZGV0YWlscy4KICB+CiAgfiBZb3Ugc2hvdWxkIGhhdmUgcmVjZWl2ZWQgYSBjb3B5IG9mIHRoZSBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UKICB+IGFsb25nIHdpdGggdGhpcyBwcm9ncmFtLiAgSWYgbm90LCBzZWUgPGh0dHBzOi8vd3d3LmdudS5vcmcvbGljZW5zZXMvPi4KICB+CiAgfiBDb3B5cmlnaHQgKEMpIDIwMjMtMjAyNiBIeXBlckNlaWxlciBDb250cmlidXRpb25zCiAgLS0+CjxGcmFtZUxheW91dCB4bWxuczphbmRyb2lkPSJodHRwOi8vc2NoZW1hcy5hbmRyb2lkLmNvbS9hcGsvcmVzL2FuZHJvaWQiCiAgICB4bWxuczphcHA9Imh0dHA6Ly9zY2hlbWFzLmFuZHJvaWQuY29tL2Fway9yZXMtYXV0byIKICAgIGFuZHJvaWQ6bGF5b3V0X3dpZHRoPSJtYXRjaF9wYXJlbnQiCiAgICBhbmRyb2lkOmxheW91dF9oZWlnaHQ9Im1hdGNoX3BhcmVudCI+CgogICAgPGZhbi5uZXN0ZWRoZWFkZXIud2lkZ2V0Lk5lc3RlZEhlYWRlckxheW91dAogICAgICAgIGFuZHJvaWQ6aWQ9IkAraWQvbmVzdGVkX2hlYWRlciIKICAgICAgICBhbmRyb2lkOmxheW91dF93aWR0aD0ibWF0Y2hfcGFyZW50IgogICAgICAgIGFuZHJvaWQ6bGF5b3V0X2hlaWdodD0ibWF0Y2hfcGFyZW50IgogICAgICAgIGFuZHJvaWQ6Y2xpcENoaWxkcmVuPSJmYWxzZSIKICAgICAgICBhbmRyb2lkOmRlc2NlbmRhbnRGb2N1c2FiaWxpdHk9ImJsb2Nrc0Rlc2NlbmRhbnRzIgogICAgICAgIGFwcDpoZWFkZXJDbG9zZT0iZmFsc2UiCiAgICAgICAgYXBwOmhlYWRlclZpZXc9IkBpZC9zZWFyY2hfYmFyIgogICAgICAgIGFwcDpyYW5nZU9mZnNldD0iMXB4IgogICAgICAgIGFwcDpzY3JvbGxhYmxlVmlldz0iQGlkL3NwcmluZ3ZpZXciPgoKICAgICAgICA8ZmFuLnNwcmluZ2JhY2sudmlldy5TcHJpbmdCYWNrTGF5b3V0CiAgICAgICAgICAgIGFuZHJvaWQ6aWQ9IkAraWQvc3ByaW5ndmlldyIKICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfd2lkdGg9Im1hdGNoX3BhcmVudCIKICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfaGVpZ2h0PSJtYXRjaF9wYXJlbnQiCiAgICAgICAgICAgIGFwcDpzY3JvbGxhYmxlVmlldz0iQGlkL3Njcm9sbHZpZXciPgoKICAgICAgICAgICAgPGZhbi5jb3JlLndpZGdldC5OZXN0ZWRTY3JvbGxWaWV3CiAgICAgICAgICAgICAgICBhbmRyb2lkOmlkPSJAK2lkL3Njcm9sbHZpZXciCiAgICAgICAgICAgICAgICBhbmRyb2lkOmxheW91dF93aWR0aD0ibWF0Y2hfcGFyZW50IgogICAgICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfaGVpZ2h0PSJtYXRjaF9wYXJlbnQiCiAgICAgICAgICAgICAgICBhbmRyb2lkOmNsaXBUb1BhZGRpbmc9ImZhbHNlIj4KCiAgICAgICAgICAgICAgICA8TGluZWFyTGF5b3V0CiAgICAgICAgICAgICAgICAgICAgYW5kcm9pZDppZD0iQCtpZC9zY3JvbGxfbGF5b3V0IgogICAgICAgICAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X3dpZHRoPSJtYXRjaF9wYXJlbnQiCiAgICAgICAgICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfaGVpZ2h0PSJtYXRjaF9wYXJlbnQiCiAgICAgICAgICAgICAgICAgICAgYW5kcm9pZDpvcmllbnRhdGlvbj0idmVydGljYWwiPgoKICAgICAgICAgICAgICAgICAgICA8RnJhbWVMYXlvdXQKICAgICAgICAgICAgICAgICAgICAgICAgYW5kcm9pZDppZD0iQGlkL3ByZWZzX2NvbnRhaW5lciIKICAgICAgICAgICAgICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfd2lkdGg9Im1hdGNoX3BhcmVudCIKICAgICAgICAgICAgICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfaGVpZ2h0PSJtYXRjaF9wYXJlbnQiCiAgICAgICAgICAgICAgICAgICAgICAgIGFuZHJvaWQ6Y2xpcENoaWxkcmVuPSJmYWxzZSIKICAgICAgICAgICAgICAgICAgICAgICAgYW5kcm9pZDpjbGlwVG9QYWRkaW5nPSJmYWxzZSIKICAgICAgICAgICAgICAgICAgICAgICAgYW5kcm9pZDpzbW9vdGhTY3JvbGxiYXI9ImZhbHNlIiAvPgoKICAgICAgICAgICAgICAgICAgICA8YW5kcm9pZHgucmVjeWNsZXJ2aWV3LndpZGdldC5SZWN5Y2xlclZpZXcKICAgICAgICAgICAgICAgICAgICAgICAgYW5kcm9pZDppZD0iQCtpZC9zZWFyY2hfcmVzdWx0X3ZpZXciCiAgICAgICAgICAgICAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X3dpZHRoPSJtYXRjaF9wYXJlbnQiCiAgICAgICAgICAgICAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X2hlaWdodD0ibWF0Y2hfcGFyZW50IgogICAgICAgICAgICAgICAgICAgICAgICBhbmRyb2lkOmJhY2tncm91bmQ9Ij9hbmRyb2lkOmF0dHIvd2luZG93QmFja2dyb3VuZCIKICAgICAgICAgICAgICAgICAgICAgICAgYW5kcm9pZDpjbGlwVG9QYWRkaW5nPSJmYWxzZSIKICAgICAgICAgICAgICAgICAgICAgICAgYW5kcm9pZDp2aXNpYmlsaXR5PSJnb25lIiAvPgoKICAgICAgICAgICAgICAgIDwvTGluZWFyTGF5b3V0PgoKICAgICAgICAgICAgPC9mYW4uY29yZS53aWRnZXQuTmVzdGVkU2Nyb2xsVmlldz4KICAgICAgICA8L2Zhbi5zcHJpbmdiYWNrLnZpZXcuU3ByaW5nQmFja0xheW91dD4KCiAgICAgICAgPGluY2x1ZGUKICAgICAgICAgICAgYW5kcm9pZDppZD0iQCtpZC9zZWFyY2hfYmFyIgogICAgICAgICAgICBsYXlvdXQ9IkBsYXlvdXQvbWl1aXhfYXBwY29tcGF0X3NlYXJjaF9zdHViIgogICAgICAgICAgICBhbmRyb2lkOmxheW91dF93aWR0aD0ibWF0Y2hfcGFyZW50IgogICAgICAgICAgICBhbmRyb2lkOmxheW91dF9oZWlnaHQ9IndyYXBfY29udGVudCIgLz4KCiAgICA8L2Zhbi5uZXN0ZWRoZWFkZXIud2lkZ2V0Lk5lc3RlZEhlYWRlckxheW91dD4KCjwvRnJhbWVMYXlvdXQ+Cg==
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ This file is part of HyperCeiler.
+  ~
+  ~ HyperCeiler is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU Affero General Public License as
+  ~ published by the Free Software Foundation, either version 3 of the
+  ~ License.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU Affero General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU Affero General Public License
+  ~ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+  ~
+  ~ Copyright (C) 2023-2026 HyperCeiler Contributions
+  -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fan.nestedheader.widget.NestedHeaderLayout
+        android:id="@+id/nested_header"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipChildren="false"
+        android:descendantFocusability="blocksDescendants"
+        app:headerClose="false"
+        app:headerView="@id/search_bar"
+        app:rangeOffset="1px"
+        app:scrollableView="@id/springview">
+
+        <fan.springback.view.SpringBackLayout
+            android:id="@+id/springview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:scrollableView="@id/scrollview">
+
+            <fan.core.widget.NestedScrollView
+                android:id="@+id/scrollview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clipToPadding="false">
+
+                <LinearLayout
+                    android:id="@+id/scroll_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <FrameLayout
+                        android:id="@id/prefs_container"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:clipChildren="false"
+                        android:clipToPadding="false"
+                        android:smoothScrollbar="false" />
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/search_result_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="?android:attr/windowBackground"
+                        android:clipToPadding="false"
+                        android:visibility="gone" />
+
+                </LinearLayout>
+
+            </fan.core.widget.NestedScrollView>
+        </fan.springback.view.SpringBackLayout>
+
+        <include
+            android:id="@+id/search_bar"
+            layout="@layout/miuix_appcompat_search_stub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </fan.nestedheader.widget.NestedHeaderLayout>
+
+</FrameLayout>

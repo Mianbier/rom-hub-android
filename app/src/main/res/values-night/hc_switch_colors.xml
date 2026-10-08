@@ -1,1 +1,4 @@
-PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0ndXRmLTgnPz4KPHJlc291cmNlcz4KICAgIDxjb2xvciBuYW1lPSJzd2l0Y2hfY2FyZF9zaGFkb3dfY29sb3IiPiM0ZDAwMDAwMDwvY29sb3I+CjwvcmVzb3VyY2VzPg==
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <color name="switch_card_shadow_color">#4d000000</color>
+</resources>

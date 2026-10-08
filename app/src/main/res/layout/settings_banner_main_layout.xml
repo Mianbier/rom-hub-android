@@ -1,1 +1,73 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPExpbmVhckxheW91dCB4bWxuczphbmRyb2lkPSJodHRwOi8vc2NoZW1hcy5hbmRyb2lkLmNvbS9hcGsvcmVzL2FuZHJvaWQiCiAgICBhbmRyb2lkOmxheW91dF93aWR0aD0ibWF0Y2hfcGFyZW50IgogICAgYW5kcm9pZDpsYXlvdXRfaGVpZ2h0PSJ3cmFwX2NvbnRlbnQiCiAgICBhbmRyb2lkOmxheW91dF9ncmF2aXR5PSJjZW50ZXJfdmVydGljYWwiCiAgICBhbmRyb2lkOmNsaXBDaGlsZHJlbj0iZmFsc2UiCiAgICBhbmRyb2lkOmdyYXZpdHk9ImNlbnRlcl92ZXJ0aWNhbCIKICAgIGFuZHJvaWQ6cGFkZGluZ0JvdHRvbT0iQGRpbWVuL3NldHRpbmdzX2Jhbm5lcl9seV9wYWRkaW5nX3RvcF9hbmRfYm90dG9tIj4KCiAgICA8TGluZWFyTGF5b3V0CiAgICAgICAgYW5kcm9pZDppZD0iQCtpZC9jb250YWluZXIiCiAgICAgICAgYW5kcm9pZDpvcmllbnRhdGlvbj0iaG9yaXpvbnRhbCIKICAgICAgICBhbmRyb2lkOmxheW91dF93aWR0aD0ibWF0Y2hfcGFyZW50IgogICAgICAgIGFuZHJvaWQ6bGF5b3V0X2hlaWdodD0id3JhcF9jb250ZW50IgogICAgICAgIGFuZHJvaWQ6bGF5b3V0X2dyYXZpdHk9ImNlbnRlcl92ZXJ0aWNhbCIKICAgICAgICBhbmRyb2lkOmJhY2tncm91bmQ9IkBkcmF3YWJsZS9zZXR0aW5nc19iYW5uZXJfYmciCiAgICAgICAgYW5kcm9pZDpncmF2aXR5PSJjZW50ZXJfdmVydGljYWwiCiAgICAgICAgYW5kcm9pZDpwYWRkaW5nU3RhcnQ9IkBkaW1lbi9zZXR0aW5nc19iYW5uZXJfbHlfaW5uZXJfcGFkZGluZ19zdGFydF9hbmRfZW5kIgogICAgICAgIGFuZHJvaWQ6cGFkZGluZ0VuZD0iQGRpbWVuL3NldHRpbmdzX2Jhbm5lcl9seV9pbm5lcl9wYWRkaW5nX3N0YXJ0X2FuZF9lbmQiPgoKICAgICAgICA8SW1hZ2VWaWV3CiAgICAgICAgICAgIGFuZHJvaWQ6aWQ9IkBhbmRyb2lkOmlkL2ljb24iCiAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X3dpZHRoPSJAZGltZW4vc2V0dGluZ3NfYmFubmVyX2ljb25fc2l6ZSIKICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfaGVpZ2h0PSJ3cmFwX2NvbnRlbnQiCiAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X2dyYXZpdHk9ImNlbnRlciIKICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfbWFyZ2luRW5kPSJAZGltZW4vc2V0dGluZ3NfYmFubmVyX2x5X2lubmVyX3BhZGRpbmdfc3RhcnRfYW5kX2VuZCIKICAgICAgICAgICAgYW5kcm9pZDphZGp1c3RWaWV3Qm91bmRzPSJ0cnVlIgogICAgICAgICAgICBhbmRyb2lkOmdyYXZpdHk9ImNlbnRlciIKICAgICAgICAgICAgYW5kcm9pZDptaW5XaWR0aD0iQGRpbWVuL3NldHRpbmdzX2Jhbm5lcl9pY29uX3dpZHRoIgogICAgICAgICAgICBhbmRyb2lkOnNjYWxlVHlwZT0iZml0Q2VudGVyIiAvPgoKICAgICAgICA8TGluZWFyTGF5b3V0CiAgICAgICAgICAgIGFuZHJvaWQ6b3JpZW50YXRpb249InZlcnRpY2FsIgogICAgICAgICAgICBhbmRyb2lkOmxheW91dF93aWR0aD0iMGRwIgogICAgICAgICAgICBhbmRyb2lkOmxheW91dF9oZWlnaHQ9IndyYXBfY29udGVudCIKICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfZ3Jhdml0eT0iY2VudGVyX3ZlcnRpY2FsIgogICAgICAgICAgICBhbmRyb2lkOmxheW91dF93ZWlnaHQ9IjEuMCIKICAgICAgICAgICAgYW5kcm9pZDpwYWRkaW5nVG9wPSJAZGltZW4vc2V0dGluZ3NfYmFubmVyX3RleHRfcGFkZGluZ190b3BfYW5kX2JvdHRvbSIKICAgICAgICAgICAgYW5kcm9pZDpwYWRkaW5nQm90dG9tPSJAZGltZW4vc2V0dGluZ3NfYmFubmVyX3RleHRfcGFkZGluZ190b3BfYW5kX2JvdHRvbSI+CgogICAgICAgICAgICA8VGV4dFZpZXcKICAgICAgICAgICAgICAgIGFuZHJvaWQ6aWQ9IkBhbmRyb2lkOmlkL3RpdGxlIgogICAgICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfd2lkdGg9Im1hdGNoX3BhcmVudCIKICAgICAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X2hlaWdodD0id3JhcF9jb250ZW50IgogICAgICAgICAgICAgICAgYW5kcm9pZDplbGxpcHNpemU9ImVuZCIKICAgICAgICAgICAgICAgIGFuZHJvaWQ6ZmFkaW5nRWRnZT0iaG9yaXpvbnRhbCIKICAgICAgICAgICAgICAgIGFuZHJvaWQ6aHlwaGVuYXRpb25GcmVxdWVuY3k9ImZ1bGwiCiAgICAgICAgICAgICAgICBhbmRyb2lkOm1heExpbmVzPSIyIgogICAgICAgICAgICAgICAgYW5kcm9pZDp0ZXh0QWxpZ25tZW50PSJ2aWV3U3RhcnQiCiAgICAgICAgICAgICAgICBhbmRyb2lkOnRleHRBcHBlYXJhbmNlPSJAc3R5bGUvVGV4dEFwcGVhcmFuY2UuUHJlZmVyZW5jZUxpc3QiIC8+CgogICAgICAgICAgICA8VGV4dFZpZXcKICAgICAgICAgICAgICAgIGFuZHJvaWQ6aWQ9IkBhbmRyb2lkOmlkL3N1bW1hcnkiCiAgICAgICAgICAgICAgICBhbmRyb2lkOmxheW91dF93aWR0aD0ibWF0Y2hfcGFyZW50IgogICAgICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfaGVpZ2h0PSJ3cmFwX2NvbnRlbnQiCiAgICAgICAgICAgICAgICBhbmRyb2lkOmxheW91dF9tYXJnaW5Ub3A9IkBkaW1lbi9taXVpeF9wcmVmZXJlbmNlX3N1bW1hcnlfbWFyZ2luX3RvcCIKICAgICAgICAgICAgICAgIGFuZHJvaWQ6Zm9udEZhbWlseT0iQHN0cmluZy9taXVpeF9mb250X3N0eWxlX21pc2Fuc19yZWd1bGFyX2ZvbnRfZmFtaWx5IgogICAgICAgICAgICAgICAgYW5kcm9pZDp0ZXh0QWxpZ25tZW50PSJ2aWV3U3RhcnQiCiAgICAgICAgICAgICAgICBhbmRyb2lkOnRleHRDb2xvcj0iQGNvbG9yL2NvbG9yX29uX3N1cmZhY2VfdGVydGlhcnkiCiAgICAgICAgICAgICAgICBhbmRyb2lkOnRleHRTaXplPSJAZGltZW4vbWl1aXhfcHJlZmVyZW5jZV9zZWNvbmRhcnlfdGV4dF9zaXplIiAvPgogICAgICAgIDwvTGluZWFyTGF5b3V0PgoKICAgICAgICA8SW1hZ2VWaWV3CiAgICAgICAgICAgIGFuZHJvaWQ6aWQ9IkAraWQvYXJyb3dfcmlnaHQiCiAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X3dpZHRoPSJ3cmFwX2NvbnRlbnQiCiAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X2hlaWdodD0id3JhcF9jb250ZW50IgogICAgICAgICAgICBhbmRyb2lkOmxheW91dF9ncmF2aXR5PSJjZW50ZXJ8ZW5kIgogICAgICAgICAgICBhbmRyb2lkOmxheW91dF9tYXJnaW5TdGFydD0iQGRpbWVuL3NldHRpbmdzX2Jhbm5lcl9seV9pbm5lcl9wYWRkaW5nX3N0YXJ0X2FuZF9lbmQiCiAgICAgICAgICAgIGFuZHJvaWQ6Z3Jhdml0eT0iY2VudGVyIgogICAgICAgICAgICBhbmRyb2lkOnBhZGRpbmdTdGFydD0iQGRpbWVuL3NldHRpbmdzX2Jhbm5lcl9hcnJvd19yaWdodF9wYWRkaW5nX3N0YXJ0IgogICAgICAgICAgICBhbmRyb2lkOnNyYz0iQGRyYXdhYmxlL21pdWl4X3ByZWZlcmVuY2VfaWNvbl9hcnJvd19yaWdodCIgLz4KICAgIDwvTGluZWFyTGF5b3V0Pgo8L0xpbmVhckxheW91dD4K
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:clipChildren="false"
+    android:gravity="center_vertical"
+    android:paddingBottom="@dimen/settings_banner_ly_padding_top_and_bottom">
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/settings_banner_bg"
+        android:gravity="center_vertical"
+        android:paddingStart="@dimen/settings_banner_ly_inner_padding_start_and_end"
+        android:paddingEnd="@dimen/settings_banner_ly_inner_padding_start_and_end">
+
+        <ImageView
+            android:id="@android:id/icon"
+            android:layout_width="@dimen/settings_banner_icon_size"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="@dimen/settings_banner_ly_inner_padding_start_and_end"
+            android:adjustViewBounds="true"
+            android:gravity="center"
+            android:minWidth="@dimen/settings_banner_icon_width"
+            android:scaleType="fitCenter" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1.0"
+            android:paddingTop="@dimen/settings_banner_text_padding_top_and_bottom"
+            android:paddingBottom="@dimen/settings_banner_text_padding_top_and_bottom">
+
+            <TextView
+                android:id="@android:id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:fadingEdge="horizontal"
+                android:hyphenationFrequency="full"
+                android:maxLines="2"
+                android:textAlignment="viewStart"
+                android:textAppearance="@style/TextAppearance.PreferenceList" />
+
+            <TextView
+                android:id="@android:id/summary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/miuix_preference_summary_margin_top"
+                android:fontFamily="@string/miuix_font_style_misans_regular_font_family"
+                android:textAlignment="viewStart"
+                android:textColor="@color/color_on_surface_tertiary"
+                android:textSize="@dimen/miuix_preference_secondary_text_size" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/arrow_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|end"
+            android:layout_marginStart="@dimen/settings_banner_ly_inner_padding_start_and_end"
+            android:gravity="center"
+            android:paddingStart="@dimen/settings_banner_arrow_right_padding_start"
+            android:src="@drawable/miuix_preference_icon_arrow_right" />
+    </LinearLayout>
+</LinearLayout>

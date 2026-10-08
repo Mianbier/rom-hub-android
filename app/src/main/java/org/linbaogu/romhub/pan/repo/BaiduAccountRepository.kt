@@ -1,1 +1,68 @@
-LyoKICogWXVuWCAo5LqR5p6QKSAtIEEgbmV0d29yayBkcml2ZSBzaGFyZS1saW5rIHBhcnNlciBhbmQgaGlnaC1zcGVlZCBkb3dubG9hZGVyIGZvciBBbmRyb2lkLgogKiBDb3B5cmlnaHQgKEMpIDIwMjYgQ1lRYXdhCiAqCiAqIFRoaXMgcHJvZ3JhbSBpcyBmcmVlIHNvZnR3YXJlOiB5b3UgY2FuIHJlZGlzdHJpYnV0ZSBpdCBhbmQvb3IgbW9kaWZ5CiAqIGl0IHVuZGVyIHRoZSB0ZXJtcyBvZiB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGFzIHB1Ymxpc2hlZCBieQogKiB0aGUgRnJlZSBTb2Z0d2FyZSBGb3VuZGF0aW9uLCBlaXRoZXIgdmVyc2lvbiAzIG9mIHRoZSBMaWNlbnNlLCBvcgogKiAoYXQgeW91ciBvcHRpb24pIGFueSBsYXRlciB2ZXJzaW9uLgogKgogKiBUaGlzIHByb2dyYW0gaXMgZGlzdHJpYnV0ZWQgaW4gdGhlIGhvcGUgdGhhdCBpdCB3aWxsIGJlIHVzZWZ1bCwKICogYnV0IFdJVEhPVVQgQU5ZIFdBUlJBTlRZOyB3aXRob3V0IGV2ZW4gdGhlIGltcGxpZWQgd2FycmFudHkgb2YKICogTUVSQ0hBTlRBQklMSVRZIG9yIEZJVE5FU1MgRk9SIEEgUEFSVElDVUxBUiBQVVJQT1NFLiAgU2VlIHRoZQogKiBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UgZm9yIG1vcmUgZGV0YWlscy4KICoKICogWW91IHNob3VsZCBoYXZlIHJlY2VpdmVkIGEgY29weSBvZiB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlCiAqIGFsb25nIHdpdGggdGhpcyBwcm9ncmFtLiAgSWYgbm90LCBzZWUgPGh0dHBzOi8vd3d3LmdudS5vcmcvbGljZW5zZXMvPi4KICovCgpwYWNrYWdlIG9yZy5saW5iYW9ndS5yb21odWIucGFuLnJlcG8KCmltcG9ydCBhbmRyb2lkLndlYmtpdC5Db29raWVNYW5hZ2VyCmltcG9ydCBvcmcubGluYmFvZ3Uucm9taHViLnBhbi5zdG9yZS5CYWlkdUFjY291bnREYW8KaW1wb3J0IG9yZy5saW5iYW9ndS5yb21odWIucGFuLnN0b3JlLkJhaWR1QWNjb3VudEVudGl0eQppbXBvcnQgb3JnLmxpbmJhb2d1LnJvbWh1Yi5wYW4uQmFpZHVBcGkKaW1wb3J0IG9yZy5saW5iYW9ndS5yb21odWIucGFuLkJhaWR1Q29uc3RhbnRzCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuRGlzcGF0Y2hlcnMKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93LkZsb3cKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy53aXRoQ29udGV4dAoKLyoqCiAqIOeZvuW6pui0puWPt+aVsOaNruS7k+W6k++8mlJvb20g5oyB5LmF5YyWICsg572R57uc6aqM6K+B77yIZ2V0dGVtcGxhdGV2YXJpYWJsZSDmi7/mmLXnp7DvvInjgIIKICovCmNsYXNzIEJhaWR1QWNjb3VudFJlcG9zaXRvcnkoCiAgICBwcml2YXRlIHZhbCBkYW86IEJhaWR1QWNjb3VudERhbywKICAgIHByaXZhdGUgdmFsIGFwaTogQmFpZHVBcGkKKSB7CgogICAgZnVuIG9ic2VydmVBY2NvdW50KCk6IEZsb3c8QmFpZHVBY2NvdW50RW50aXR5Pz4gPSBkYW8ub2JzZXJ2ZUFjY291bnQoKQoKICAgIHN1c3BlbmQgZnVuIGdldEFjY291bnQoKTogQmFpZHVBY2NvdW50RW50aXR5PyA9IGRhby5nZXRBY2NvdW50KCkKCiAgICAvKiog6YCA5Ye655m75b2V77ya5riF55CGIFdlYlZpZXcgQ29va2llICsg5riF6Zmk5pys5Zyw6K6w5b2VICovCiAgICBzdXNwZW5kIGZ1biBsb2dvdXRCYWlkdSgpIHsKICAgICAgICB3aXRoQ29udGV4dChEaXNwYXRjaGVycy5JTykgewogICAgICAgICAgICBydW5DYXRjaGluZyB7CiAgICAgICAgICAgICAgICBDb29raWVNYW5hZ2VyLmdldEluc3RhbmNlKCkucmVtb3ZlQWxsQ29va2llcyhudWxsKQogICAgICAgICAgICAgICAgQ29va2llTWFuYWdlci5nZXRJbnN0YW5jZSgpLmZsdXNoKCkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICBkYW8uY2xlYXIoKQogICAgfQoKICAgIC8qKgogICAgICog5qCh6aqMIENvb2tpZSDmnInmlYjmgKfvvIjpnIDlkKsgQkRVU1PvvInvvJvmnInmlYjliJnmi4nlj5bmmLXnp7DlubbokL3lupPvvIzov5Tlm54gdHJ1Ze+8m+aXoOaViOi/lOWbniBmYWxzZeOAggogICAgICovCiAgICBzdXNwZW5kIGZ1biBzYXZlQmFpZHVBY2NvdW50KGNvb2tpZTogU3RyaW5nKTogQm9vbGVhbiB7CiAgICAgICAgaWYgKCFCYWlkdUNvbnN0YW50cy5pc1ZhbGlkQ29va2llKGNvb2tpZSkpIHJldHVybiBmYWxzZQogICAgICAgIHZhbCBuaWNrbmFtZSA9IGFwaS5mZXRjaE5pY2tuYW1lKGNvb2tpZSkgPzogIueZvuW6pueUqOaItyIKICAgICAgICBkYW8udXBzZXJ0KAogICAgICAgICAgICBCYWlkdUFjY291bnRFbnRpdHkoCiAgICAgICAgICAgICAgICBpZCA9ICJiYWlkdSIsCiAgICAgICAgICAgICAgICBjb29raWUgPSBjb29raWUsCiAgICAgICAgICAgICAgICBuaWNrbmFtZSA9IG5pY2tuYW1lCiAgICAgICAgICAgICkKICAgICAgICApCiAgICAgICAgcmV0dXJuIHRydWUKICAgIH0KfQ==
+/*
+ * YunX (云析) - A network drive share-link parser and high-speed downloader for Android.
+ * Copyright (C) 2026 CYQawa
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Affero General Public License for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
+package org.linbaogu.romhub.pan.repo
+
+import android.webkit.CookieManager
+import org.linbaogu.romhub.pan.store.BaiduAccountDao
+import org.linbaogu.romhub.pan.store.BaiduAccountEntity
+import org.linbaogu.romhub.pan.BaiduApi
+import org.linbaogu.romhub.pan.BaiduConstants
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.withContext
+
+/**
+ * 百度账号数据仓库：Room 持久化 + 网络验证（gettemplatevariable 拿昵称）。
+ */
+class BaiduAccountRepository(
+    private val dao: BaiduAccountDao,
+    private val api: BaiduApi
+) {
+
+    fun observeAccount(): Flow<BaiduAccountEntity?> = dao.observeAccount()
+
+    suspend fun getAccount(): BaiduAccountEntity? = dao.getAccount()
+
+    /** 退出登录：清理 WebView Cookie + 清除本地记录 */
+    suspend fun logoutBaidu() {
+        withContext(Dispatchers.IO) {
+            runCatching {
+                CookieManager.getInstance().removeAllCookies(null)
+                CookieManager.getInstance().flush()
+            }
+        }
+        dao.clear()
+    }
+
+    /**
+     * 校验 Cookie 有效性（需含 BDUSS）；有效则拉取昵称并落库，返回 true；无效返回 false。
+     */
+    suspend fun saveBaiduAccount(cookie: String): Boolean {
+        if (!BaiduConstants.isValidCookie(cookie)) return false
+        val nickname = api.fetchNickname(cookie) ?: "百度用户"
+        dao.upsert(
+            BaiduAccountEntity(
+                id = "baidu",
+                cookie = cookie,
+                nickname = nickname
+            )
+        )
+        return true
+    }
+}

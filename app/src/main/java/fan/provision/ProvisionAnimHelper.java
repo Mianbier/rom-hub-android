@@ -1,1 +1,194 @@
-LyoKICogVGhpcyBmaWxlIGlzIHBhcnQgb2YgSHlwZXJDZWlsZXIuCgogKiBIeXBlckNlaWxlciBpcyBmcmVlIHNvZnR3YXJlOiB5b3UgY2FuIHJlZGlzdHJpYnV0ZSBpdCBhbmQvb3IgbW9kaWZ5CiAqIGl0IHVuZGVyIHRoZSB0ZXJtcyBvZiB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGFzCiAqIHB1Ymxpc2hlZCBieSB0aGUgRnJlZSBTb2Z0d2FyZSBGb3VuZGF0aW9uLCBlaXRoZXIgdmVyc2lvbiAzIG9mIHRoZQogKiBMaWNlbnNlLgoKICogVGhpcyBwcm9ncmFtIGlzIGRpc3RyaWJ1dGVkIGluIHRoZSBob3BlIHRoYXQgaXQgd2lsbCBiZSB1c2VmdWwsCiAqIGJ1dCBXSVRIT1VUIEFOWSBXQVJSQU5UWTsgd2l0aG91dCBldmVuIHRoZSBpbXBsaWVkIHdhcnJhbnR5IG9mCiAqIE1FUkNIQU5UQUJJTElUWSBvciBGSVRORVNTIEZPUiBBIFBBUlRJQ1VMQVIgUFVSUE9TRS4gIFNlZSB0aGUKICogR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGZvciBtb3JlIGRldGFpbHMuCgogKiBZb3Ugc2hvdWxkIGhhdmUgcmVjZWl2ZWQgYSBjb3B5IG9mIHRoZSBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UKICogYWxvbmcgd2l0aCB0aGlzIHByb2dyYW0uICBJZiBub3QsIHNlZSA8aHR0cHM6Ly93d3cuZ251Lm9yZy9saWNlbnNlcy8+LgoKICogQ29weXJpZ2h0IChDKSAyMDIzLTIwMjYgSHlwZXJDZWlsZXIgQ29udHJpYnV0aW9ucwogKi8KcGFja2FnZSBmYW4ucHJvdmlzaW9uOwoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Ccm9hZGNhc3RSZWNlaXZlcjsKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db21wb25lbnROYW1lOwppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQ7CmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuSW50ZW50OwppbXBvcnQgYW5kcm9pZC5jb250ZW50LkludGVudEZpbHRlcjsKaW1wb3J0IGFuZHJvaWQuY29udGVudC5TZXJ2aWNlQ29ubmVjdGlvbjsKaW1wb3J0IGFuZHJvaWQub3MuSGFuZGxlcjsKaW1wb3J0IGFuZHJvaWQub3MuSUJpbmRlcjsKaW1wb3J0IGFuZHJvaWQub3MuUmVtb3RlRXhjZXB0aW9uOwppbXBvcnQgYW5kcm9pZC51dGlsLkxvZzsKCmltcG9ydCBvcmcubGluYmFvZ3Uucm9taHViLmhjLnByb3Zpc2lvbi5JQW5pbUNhbGxiYWNrOwppbXBvcnQgb3JnLmxpbmJhb2d1LnJvbWh1Yi5oYy5wcm92aXNpb24uSVByb3Zpc2lvbkFuaW07CgpwdWJsaWMgY2xhc3MgUHJvdmlzaW9uQW5pbUhlbHBlciB7CgogICAgcHJpdmF0ZSBzdGF0aWMgZmluYWwgU3RyaW5nIFRBRyA9ICJQcm92aXNpb25BbmltSGVscGVyIjsKCiAgICBwcml2YXRlIGludCBtQW5pbVk7CiAgICBwcml2YXRlIGludCBtU2tpcE9yTmV4dCA9IDA7CgogICAgcHJpdmF0ZSBmaW5hbCBDb250ZXh0IG1Db250ZXh0OwogICAgcHJpdmF0ZSBmaW5hbCBIYW5kbGVyIG1IYW5kbGVyOwogICAgcHJpdmF0ZSBBbmltTGlzdGVuZXIgbUFuaW1MaXN0ZW5lcjsKCiAgICBwcml2YXRlIElQcm92aXNpb25BbmltIG1Qcm94eTsKICAgIHByaXZhdGUgZmluYWwgSUFuaW1DYWxsYmFjayBtQ2FsbGJhY2sgPSBuZXcgSUFuaW1DYWxsYmFjay5TdHViKCkgewogICAgICAgIEBPdmVycmlkZQogICAgICAgIHB1YmxpYyB2b2lkIG9uTmV4dEFtaW5TdGFydCgpIHsKICAgICAgICAgICAgTG9nLmQoVEFHLCAib25OZXh0QW1pblN0YXJ0OiAiICsgbVNraXBPck5leHQpOwogICAgICAgICAgICBpZiAobUhhbmRsZXIgIT0gbnVsbCkgewogICAgICAgICAgICAgICAgbUhhbmRsZXIucG9zdCgoKSAtPiB7CiAgICAgICAgICAgICAgICAgICAgaWYgKG1BbmltTGlzdGVuZXIgIT0gbnVsbCkgewogICAgICAgICAgICAgICAgICAgICAgICBzd2l0Y2ggKG1Ta2lwT3JOZXh0KSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjYXNlIDAgLT4gbUFuaW1MaXN0ZW5lci5vbk5leHRBbWluU3RhcnQoKTsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNhc2UgMSAtPiBtQW5pbUxpc3RlbmVyLm9uU2tpcEFtaW5TdGFydCgpOwogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfSk7CiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIEBPdmVycmlkZQogICAgICAgIHB1YmxpYyB2b2lkIG9uQmFja0FuaW1TdGFydCgpIHsKICAgICAgICAgICAgTG9nLmQoVEFHLCAib25CYWNrQW5pbVN0YXJ0Iik7CiAgICAgICAgICAgIGlmIChtSGFuZGxlciAhPSBudWxsKSB7CiAgICAgICAgICAgICAgICBtSGFuZGxlci5wb3N0RGVsYXllZCgoKSAtPiB7CiAgICAgICAgICAgICAgICAgICAgaWYgKG1BbmltTGlzdGVuZXIgIT0gbnVsbCkgewogICAgICAgICAgICAgICAgICAgICAgICBtQW5pbUxpc3RlbmVyLm9uQmFja0FuaW1TdGFydCgpOwogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0sIDMwTCk7CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9OwoKICAgIHByaXZhdGUgZmluYWwgU2VydmljZUNvbm5lY3Rpb24gbUNvbm5lY3Rpb24gPSBuZXcgU2VydmljZUNvbm5lY3Rpb24oKSB7CiAgICAgICAgQE92ZXJyaWRlCiAgICAgICAgcHVibGljIHZvaWQgb25TZXJ2aWNlQ29ubmVjdGVkKENvbXBvbmVudE5hbWUgbmFtZSwgSUJpbmRlciBzZXJ2aWNlKSB7CiAgICAgICAgICAgIG1Qcm94eSA9IElQcm92aXNpb25BbmltLlN0dWIuYXNJbnRlcmZhY2Uoc2VydmljZSk7CiAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICBtUHJveHkucmVnaXN0ZXJSZW1vdGVDYWxsYmFjayhtQ2FsbGJhY2spOwogICAgICAgICAgICAgICAgbUFuaW1MaXN0ZW5lci5vbkFtaW5TZXJ2aWNlQ29ubmVjdGVkKCk7CiAgICAgICAgICAgIH0gY2F0Y2ggKEV4Y2VwdGlvbiBlKSB7CiAgICAgICAgICAgICAgICBlLnByaW50U3RhY2tUcmFjZSgpOwogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICBAT3ZlcnJpZGUKICAgICAgICBwdWJsaWMgdm9pZCBvblNlcnZpY2VEaXNjb25uZWN0ZWQoQ29tcG9uZW50TmFtZSBuYW1lKSB7CgogICAgICAgIH0KICAgIH07CgogICAgcHJpdmF0ZSBmaW5hbCBCcm9hZGNhc3RSZWNlaXZlciBtUmVjZWl2ZXIgPSBuZXcgQnJvYWRjYXN0UmVjZWl2ZXIoKSB7CiAgICAgICAgQE92ZXJyaWRlCiAgICAgICAgcHVibGljIHZvaWQgb25SZWNlaXZlKENvbnRleHQgY29udGV4dCwgSW50ZW50IGludGVudCkgewogICAgICAgICAgICBpZiAoaW50ZW50ICE9IG51bGwgJiYgaW50ZW50LmdldEFjdGlvbigpLmVxdWFscygiZmFuLmFjdGlvbi5QUk9WSVNJT05fQU5JTV9FTkQiKSAmJgogICAgICAgICAgICAgICAgICAgIG1BbmltTGlzdGVuZXIgIT0gbnVsbCkgewogICAgICAgICAgICAgICAgbUFuaW1MaXN0ZW5lci5vbkFtaW5FbmQoKTsKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH07CgogICAgcHVibGljIGludGVyZmFjZSBBbmltTGlzdGVuZXIgewoKICAgICAgICB2b2lkIG9uQW1pblNlcnZpY2VDb25uZWN0ZWQoKTsKCiAgICAgICAgdm9pZCBvbkJhY2tBbmltU3RhcnQoKTsKCiAgICAgICAgdm9pZCBvbk5leHRBbWluU3RhcnQoKTsKCiAgICAgICAgdm9pZCBvblNraXBBbWluU3RhcnQoKTsKCiAgICAgICAgdm9pZCBvbkFtaW5FbmQoKTsKICAgIH0KCiAgICBwdWJsaWMgUHJvdmlzaW9uQW5pbUhlbHBlcihDb250ZXh0IGNvbnRleHQsIEhhbmRsZXIgaGFuZGxlcikgewogICAgICAgIG1Db250ZXh0ID0gY29udGV4dDsKICAgICAgICBtSGFuZGxlciA9IGhhbmRsZXI7CiAgICB9CgogICAgcHVibGljIHZvaWQgc2V0QW5pbUxpc3RlbmVyKEFuaW1MaXN0ZW5lciBsaXN0ZW5lcikgewogICAgICAgIG1BbmltTGlzdGVuZXIgPSBsaXN0ZW5lcjsKICAgIH0KCiAgICBwdWJsaWMgYm9vbGVhbiBpc0FuaW1FbmRlZCgpIHsKICAgICAgICB0cnkgewogICAgICAgICAgICByZXR1cm4gbVByb3h5LmlzQW5pbUVuZCgpOwogICAgICAgIH0gY2F0Y2ggKEV4Y2VwdGlvbiBlKSB7CiAgICAgICAgICAgIGUucHJpbnRTdGFja1RyYWNlKCk7CiAgICAgICAgICAgIHJldHVybiB0cnVlOwogICAgICAgIH0KICAgIH0KCiAgICBwdWJsaWMgYm9vbGVhbiBnb05leHRTdGVwKGludCBpKSB7CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgbVNraXBPck5leHQgPSBpOwogICAgICAgICAgICBtUHJveHkucGxheU5leHRBbmltKG1BbmltWSk7CiAgICAgICAgICAgIHJldHVybiB0cnVlOwogICAgICAgIH0gY2F0Y2ggKEV4Y2VwdGlvbiBlKSB7CiAgICAgICAgICAgIGUucHJpbnRTdGFja1RyYWNlKCk7CiAgICAgICAgICAgIHJldHVybiBmYWxzZTsKICAgICAgICB9CiAgICB9CgogICAgcHVibGljIGJvb2xlYW4gZ29CYWNrU3RlcCgpIHsKICAgICAgICB0cnkgewogICAgICAgICAgICBtUHJveHkucGxheUJhY2tBbmltKG1BbmltWSk7CiAgICAgICAgICAgIHJldHVybiB0cnVlOwogICAgICAgIH0gY2F0Y2ggKEV4Y2VwdGlvbiBlKSB7CiAgICAgICAgICAgIGUucHJpbnRTdGFja1RyYWNlKCk7CiAgICAgICAgICAgIHJldHVybiBmYWxzZTsKICAgICAgICB9CiAgICB9CgogICAgcHVibGljIHZvaWQgc2V0QW5pbVkoaW50IGkpIHsKICAgICAgICBtQW5pbVkgPSBpOwogICAgfQoKICAgIHB1YmxpYyB2b2lkIHJlZ2lzdGVyQW5pbVNlcnZpY2UoKSB7CiAgICAgICAgaWYgKG1Db250ZXh0ICE9IG51bGwpIHsKICAgICAgICAgICAgbUNvbnRleHQucmVnaXN0ZXJSZWNlaXZlcihtUmVjZWl2ZXIsIG5ldyBJbnRlbnRGaWx0ZXIoImZhbi5hY3Rpb24uUFJPVklTSU9OX0FOSU1fRU5EIiksIENvbnRleHQuUkVDRUlWRVJfRVhQT1JURUQpOwogICAgICAgICAgICBJbnRlbnQgaW50ZW50ID0gbmV3IEludGVudCgiZmFuLmludGVudC5hY3Rpb24uT09CU0VSVklDRSIpOwogICAgICAgICAgICAvLyDimqAg5Y6f54mI5YaZ5q27IEh5cGVyQ2VpbGVyIOeahOWMheWQjSBjb20uc2V2dGluZ2UuaHlwZXJjZWlsZXLvvIwKICAgICAgICAgICAgLy8g5oiR5Lus55qE5YyF5ZCN5LiN5ZCMIOKGkiBiaW5kU2VydmljZSDpnZnpu5jlpLHotKUg4oaSIG1Qcm94eSDkuLogbnVsbCDihpIKICAgICAgICAgICAgLy8g54K544CM57un57ut44CN5pe2IHBsYXlOZXh0QW5pbSDmipsgTlBF77yM5oyJ6ZKu55yL6LW35p2l5q+r5peg5Y+N5bqU44CCCiAgICAgICAgICAgIGludGVudC5zZXRQYWNrYWdlKG1Db250ZXh0LmdldFBhY2thZ2VOYW1lKCkpOwogICAgICAgICAgICBtQ29udGV4dC5iaW5kU2VydmljZShpbnRlbnQsIG1Db25uZWN0aW9uLCAxKTsKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICBMb2cuZShUQUcsICJyZWdpc3RlckFuaW1TZXJ2aWNlIGNvbnRleHQgaXMgbnVsbCIpOwogICAgICAgIH0KICAgIH0KCiAgICBwdWJsaWMgdm9pZCB1bnJlZ2lzdGVyQW5pbVNlcnZpY2UoKSB7CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgbVByb3h5LnVucmVnaXN0ZXJSZW1vdGVDYWxsYmFjayhtQ2FsbGJhY2spOwogICAgICAgIH0gY2F0Y2ggKEV4Y2VwdGlvbiBlKSB7CiAgICAgICAgICAgIGUucHJpbnRTdGFja1RyYWNlKCk7CiAgICAgICAgfQogICAgICAgIGlmIChtQ29udGV4dCAhPSBudWxsKSB7CiAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICBtQ29udGV4dC51bmJpbmRTZXJ2aWNlKG1Db25uZWN0aW9uKTsKICAgICAgICAgICAgfSBjYXRjaCAoRXhjZXB0aW9uIGUpIHsKICAgICAgICAgICAgICAgIC8vIOacquaIkOWKn+e7keWumuaXtiB1bmJpbmRTZXJ2aWNlIOS8muaKmyBJbGxlZ2FsQXJndW1lbnRFeGNlcHRpb27vvIzlv73nlaXljbPlj68KICAgICAgICAgICAgICAgIGUucHJpbnRTdGFja1RyYWNlKCk7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIG1Db250ZXh0LnVucmVnaXN0ZXJSZWNlaXZlcihtUmVjZWl2ZXIpOwogICAgICAgICAgICB9IGNhdGNoIChFeGNlcHRpb24gZSkgewogICAgICAgICAgICAgICAgZS5wcmludFN0YWNrVHJhY2UoKTsKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KfQo=
+/*
+ * This file is part of HyperCeiler.
+
+ * HyperCeiler is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as
+ * published by the Free Software Foundation, either version 3 of the
+ * License.
+
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Affero General Public License for more details.
+
+ * You should have received a copy of the GNU Affero General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+ * Copyright (C) 2023-2026 HyperCeiler Contributions
+ */
+package fan.provision;
+
+import android.content.BroadcastReceiver;
+import android.content.ComponentName;
+import android.content.Context;
+import android.content.Intent;
+import android.content.IntentFilter;
+import android.content.ServiceConnection;
+import android.os.Handler;
+import android.os.IBinder;
+import android.os.RemoteException;
+import android.util.Log;
+
+import org.linbaogu.romhub.hc.provision.IAnimCallback;
+import org.linbaogu.romhub.hc.provision.IProvisionAnim;
+
+public class ProvisionAnimHelper {
+
+    private static final String TAG = "ProvisionAnimHelper";
+
+    private int mAnimY;
+    private int mSkipOrNext = 0;
+
+    private final Context mContext;
+    private final Handler mHandler;
+    private AnimListener mAnimListener;
+
+    private IProvisionAnim mProxy;
+    private final IAnimCallback mCallback = new IAnimCallback.Stub() {
+        @Override
+        public void onNextAminStart() {
+            Log.d(TAG, "onNextAminStart: " + mSkipOrNext);
+            if (mHandler != null) {
+                mHandler.post(() -> {
+                    if (mAnimListener != null) {
+                        switch (mSkipOrNext) {
+                            case 0 -> mAnimListener.onNextAminStart();
+                            case 1 -> mAnimListener.onSkipAminStart();
+                        }
+                    }
+                });
+            }
+        }
+
+        @Override
+        public void onBackAnimStart() {
+            Log.d(TAG, "onBackAnimStart");
+            if (mHandler != null) {
+                mHandler.postDelayed(() -> {
+                    if (mAnimListener != null) {
+                        mAnimListener.onBackAnimStart();
+                    }
+                }, 30L);
+            }
+        }
+    };
+
+    private final ServiceConnection mConnection = new ServiceConnection() {
+        @Override
+        public void onServiceConnected(ComponentName name, IBinder service) {
+            mProxy = IProvisionAnim.Stub.asInterface(service);
+            try {
+                mProxy.registerRemoteCallback(mCallback);
+                mAnimListener.onAminServiceConnected();
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
+
+        @Override
+        public void onServiceDisconnected(ComponentName name) {
+
+        }
+    };
+
+    private final BroadcastReceiver mReceiver = new BroadcastReceiver() {
+        @Override
+        public void onReceive(Context context, Intent intent) {
+            if (intent != null && intent.getAction().equals("fan.action.PROVISION_ANIM_END") &&
+                    mAnimListener != null) {
+                mAnimListener.onAminEnd();
+            }
+        }
+    };
+
+    public interface AnimListener {
+
+        void onAminServiceConnected();
+
+        void onBackAnimStart();
+
+        void onNextAminStart();
+
+        void onSkipAminStart();
+
+        void onAminEnd();
+    }
+
+    public ProvisionAnimHelper(Context context, Handler handler) {
+        mContext = context;
+        mHandler = handler;
+    }
+
+    public void setAnimListener(AnimListener listener) {
+        mAnimListener = listener;
+    }
+
+    public boolean isAnimEnded() {
+        try {
+            return mProxy.isAnimEnd();
+        } catch (Exception e) {
+            e.printStackTrace();
+            return true;
+        }
+    }
+
+    public boolean goNextStep(int i) {
+        try {
+            mSkipOrNext = i;
+            mProxy.playNextAnim(mAnimY);
+            return true;
+        } catch (Exception e) {
+            e.printStackTrace();
+            return false;
+        }
+    }
+
+    public boolean goBackStep() {
+        try {
+            mProxy.playBackAnim(mAnimY);
+            return true;
+        } catch (Exception e) {
+            e.printStackTrace();
+            return false;
+        }
+    }
+
+    public void setAnimY(int i) {
+        mAnimY = i;
+    }
+
+    public void registerAnimService() {
+        if (mContext != null) {
+            mContext.registerReceiver(mReceiver, new IntentFilter("fan.action.PROVISION_ANIM_END"), Context.RECEIVER_EXPORTED);
+            Intent intent = new Intent("fan.intent.action.OOBSERVICE");
+            // ⚠ 原版写死 HyperCeiler 的包名 com.sevtinge.hyperceiler，
+            // 我们的包名不同 → bindService 静默失败 → mProxy 为 null →
+            // 点「继续」时 playNextAnim 抛 NPE，按钮看起来毫无反应。
+            intent.setPackage(mContext.getPackageName());
+            mContext.bindService(intent, mConnection, 1);
+        } else {
+            Log.e(TAG, "registerAnimService context is null");
+        }
+    }
+
+    public void unregisterAnimService() {
+        try {
+            mProxy.unregisterRemoteCallback(mCallback);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        if (mContext != null) {
+            try {
+                mContext.unbindService(mConnection);
+            } catch (Exception e) {
+                // 未成功绑定时 unbindService 会抛 IllegalArgumentException，忽略即可
+                e.printStackTrace();
+            }
+            try {
+                mContext.unregisterReceiver(mReceiver);
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
+    }
+}

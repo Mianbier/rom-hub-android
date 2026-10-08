@@ -1,1 +1,5 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHJlc291cmNlcz4KICAgIDxzdHJpbmcgbmFtZT0iaG9tZV9kb2NrX29zNF93aW5kb3dfaGludCI+5r6O5rmDIDQg6ZyA5Yu+6YCJ57O757uf5qGG5p625L2c55So5Z+f77yM5bm25Zyo5pu05paw5ZCO6YeN5ZCv5omL5py644CC5p+U5YWJ546755KD5L2/55So57O757uf5Y6f55Sf5p2Q6LSo77yM5Yid5aeL5YyW5aSx6LSl5pe25Zue6YCA6Iez6auY57qn5p2Q6LSo44CCPC9zdHJpbmc+CiAgICA8c3RyaW5nIG5hbWU9ImhvbWVfZG9ja19vczRfc3R5bGVfZ2xhc3MiPuaflOWFieeOu+eSgzwvc3RyaW5nPgo8L3Jlc291cmNlcz4K
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="home_dock_os4_window_hint">澎湃 4 需勾选系统框架作用域，并在更新后重启手机。柔光玻璃使用系统原生材质，初始化失败时回退至高级材质。</string>
+    <string name="home_dock_os4_style_glass">柔光玻璃</string>
+</resources>

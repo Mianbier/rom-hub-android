@@ -1,1 +1,223 @@
-LyoKICogVGhpcyBmaWxlIGlzIHBhcnQgb2YgUk9NIEh1YiwgcmVsZWFzZWQgdW5kZXIgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSB2My4wLgogKgogKiDmnKzmlofku7bnp7vmpI0gLyDmlLnlhpnoh6ogSHlwZXJDZWlsZXLvvIhBR1BMLTMuMO+8jENvcHlyaWdodCAoQykgMjAyMy0yMDI2IEh5cGVyQ2VpbGVyCiAqIENvbnRyaWJ1dGlvbnPvvInvvIzmiJbkuLrlhbbnrYnku7fmm7/ouqvlrp7njrAg4oCU4oCUIOWujOaVtOadpea6kOS4jum4o+iwouingemhueebruagueebruW9lSBOT1RJQ0UubWTjgIIKICoKICogVGhpcyBwcm9ncmFtIGlzIGZyZWUgc29mdHdhcmU6IHlvdSBjYW4gcmVkaXN0cmlidXRlIGl0IGFuZC9vciBtb2RpZnkgaXQgdW5kZXIgdGhlIHRlcm1zCiAqIG9mIHRoZSBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UgYXMgcHVibGlzaGVkIGJ5IHRoZSBGcmVlIFNvZnR3YXJlIEZvdW5kYXRpb24sCiAqIGVpdGhlciB2ZXJzaW9uIDMgb2YgdGhlIExpY2Vuc2UuCiAqCiAqIFRoaXMgcHJvZ3JhbSBpcyBkaXN0cmlidXRlZCBpbiB0aGUgaG9wZSB0aGF0IGl0IHdpbGwgYmUgdXNlZnVsLCBidXQgV0lUSE9VVCBBTlkgV0FSUkFOVFk7CiAqIHdpdGhvdXQgZXZlbiB0aGUgaW1wbGllZCB3YXJyYW50eSBvZiBNRVJDSEFOVEFCSUxJVFkgb3IgRklUTkVTUyBGT1IgQSBQQVJUSUNVTEFSIFBVUlBPU0UuCiAqIFNlZSB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGZvciBtb3JlIGRldGFpbHMuCiAqCiAqIFlvdSBzaG91bGQgaGF2ZSByZWNlaXZlZCBhIGNvcHkgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBhbG9uZyB3aXRoIHRoaXMKICogcHJvZ3JhbS4gIElmIG5vdCwgc2VlIDxodHRwczovL3d3dy5nbnUub3JnL2xpY2Vuc2VzLz4uCiAqLwoKcGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLmhjLnV0aWw7CgppbXBvcnQgc3RhdGljIGFuZHJvaWQuY29udGVudC5Db250ZXh0Lk5PVElGSUNBVElPTl9TRVJWSUNFOwppbXBvcnQgc3RhdGljIGFuZHJvaWR4LmNvcmUuY29udGVudC5Db250ZXh0Q29tcGF0LmdldFN5c3RlbVNlcnZpY2U7CgppbXBvcnQgYW5kcm9pZC5hcHAuTm90aWZpY2F0aW9uOwppbXBvcnQgYW5kcm9pZC5hcHAuTm90aWZpY2F0aW9uQ2hhbm5lbDsKaW1wb3J0IGFuZHJvaWQuYXBwLk5vdGlmaWNhdGlvbk1hbmFnZXI7CmltcG9ydCBhbmRyb2lkLmFwcC5QZW5kaW5nSW50ZW50OwppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQ7CmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuSW50ZW50OwppbXBvcnQgYW5kcm9pZC5ncmFwaGljcy5CaXRtYXBGYWN0b3J5OwppbXBvcnQgYW5kcm9pZC5ncmFwaGljcy5kcmF3YWJsZS5JY29uOwppbXBvcnQgYW5kcm9pZC5vcy5CdWlsZDsKaW1wb3J0IGFuZHJvaWQub3MuQnVuZGxlOwppbXBvcnQgYW5kcm9pZC50ZXh0LlRleHRVdGlsczsKCmltcG9ydCBhbmRyb2lkeC5hbm5vdGF0aW9uLk5vbk51bGw7CmltcG9ydCBhbmRyb2lkeC5jb3JlLmFwcC5Ob3RpZmljYXRpb25Db21wYXQ7CmltcG9ydCBhbmRyb2lkeC5jb3JlLmNvbnRlbnQuQ29udGV4dENvbXBhdDsKCmltcG9ydCBvcmcubGluYmFvZ3Uucm9taHViLlI7CgoKaW1wb3J0IG9yZy5qc29uLkpTT05BcnJheTsKaW1wb3J0IG9yZy5qc29uLkpTT05FeGNlcHRpb247CmltcG9ydCBvcmcuanNvbi5KU09OT2JqZWN0OwoKcHVibGljIGNsYXNzIE5vdGlmaWNhdGlvbkhlbHBlciB7CgogICAgcHJpdmF0ZSBzdGF0aWMgZmluYWwgU3RyaW5nIENIQU5ORUxfSURfQVBQX0NSQVNIID0gIkFwcF9DcmFzaCI7CiAgICBwcml2YXRlIHN0YXRpYyBmaW5hbCBTdHJpbmcgR1JPVVBfS0VZX1dPUktfRU1BSUwgPSAiQXBwX0NyYXNoIjsKCiAgICBwdWJsaWMgc3RhdGljIHZvaWQgY3JlYXRlRWdnTm90aWZpY2F0aW9uQ2hhbm5lbChDb250ZXh0IGNvbnRleHQpIHsKICAgICAgICBTdHJpbmcgY2hhbm5lbElkID0gImxvZ29fY2hhbm5lbF9pZCI7CiAgICAgICAgU3RyaW5nIGNoYW5uZWxOYW1lID0gY29udGV4dC5nZXRSZXNvdXJjZXMoKS5nZXRTdHJpbmcoUi5zdHJpbmcubG9nb19lZ2dfTm90aWZpY2F0aW9uTmFtZSk7CiAgICAgICAgU3RyaW5nIGNoYW5uZWxEZXNjcmlwdGlvbiA9IGNvbnRleHQuZ2V0UmVzb3VyY2VzKCkuZ2V0U3RyaW5nKFIuc3RyaW5nLmxvZ29fZWdnX05vdGlmaWNhdGlvbk5hbWVfdGlwcyk7CiAgICAgICAgY3JlYXRlTm90aWZpY2F0aW9uQ2hhbm5lbChjb250ZXh0LCBjaGFubmVsSWQsIGNoYW5uZWxOYW1lLCBjaGFubmVsRGVzY3JpcHRpb24pOwogICAgfQoKICAgIHB1YmxpYyBzdGF0aWMgdm9pZCBjcmVhdGVOb3RpZmljYXRpb25DaGFubmVsKENvbnRleHQgY29udGV4dCwgU3RyaW5nIGNoYW5uZWxJZCwgU3RyaW5nIGNoYW5uZWxOYW1lLCBTdHJpbmcgY2hhbm5lbERlc2NyaXB0aW9uKSB7CiAgICAgICAgTm90aWZpY2F0aW9uTWFuYWdlciBub3RpZmljYXRpb25NYW5hZ2VyID0gZ2V0U3lzdGVtU2VydmljZShjb250ZXh0LCBOb3RpZmljYXRpb25NYW5hZ2VyLmNsYXNzKTsKCiAgICAgICAgTm90aWZpY2F0aW9uQ2hhbm5lbCBjaGFubmVsID0gbmV3IE5vdGlmaWNhdGlvbkNoYW5uZWwoY2hhbm5lbElkLCBjaGFubmVsTmFtZSwgTm90aWZpY2F0aW9uTWFuYWdlci5JTVBPUlRBTkNFX0RFRkFVTFQpOwogICAgICAgIGNoYW5uZWwuc2V0RGVzY3JpcHRpb24oY2hhbm5lbERlc2NyaXB0aW9uKTsKCiAgICAgICAgaWYgKG5vdGlmaWNhdGlvbk1hbmFnZXIgIT0gbnVsbCkgewogICAgICAgICAgICBub3RpZmljYXRpb25NYW5hZ2VyLmNyZWF0ZU5vdGlmaWNhdGlvbkNoYW5uZWwoY2hhbm5lbCk7CiAgICAgICAgfQogICAgfQoKCiAgICBwdWJsaWMgc3RhdGljIHZvaWQgc2hvd0FwcENyYXNoTm90aWZpY2F0aW9uKENvbnRleHQgY29udGV4dCwgU3RyaW5nIHBhY2thZ2VOYW1lLCBJbnRlbnQgaW50ZW50KSB7CiAgICAgICAgbm90aWZ5Tm90aWZpY2F0aW9uKGNvbnRleHQsIDEsIGdldEFwcENyYXNoTm90aWZpY2F0aW9uKGNvbnRleHQsIHBhY2thZ2VOYW1lLCBpbnRlbnQpKTsKICAgIH0KCiAgICBwdWJsaWMgc3RhdGljIE5vdGlmaWNhdGlvbiBnZXRBcHBDcmFzaE5vdGlmaWNhdGlvbihDb250ZXh0IGNvbnRleHQsIFN0cmluZyBwYWNrYWdlTmFtZSwgSW50ZW50IGludGVudCkgewogICAgICAgIGNyZWF0ZUFwcENyYXNoQ2hhbm5lbChjb250ZXh0KTsKICAgICAgICBTdHJpbmcgdGl0bGUgPSBjb250ZXh0LmdldFJlc291cmNlcygpLmdldFN0cmluZyhSLnN0cmluZy5ub3RpZmljYXRpb25fdGl0bGVfbWVzc2FnZV9lbWVyZ2VuY3lfY3Jhc2gpOwogICAgICAgIFN0cmluZyBjb250ZW50ID0gY29udGV4dC5nZXRSZXNvdXJjZXMoKS5nZXRTdHJpbmcoUi5zdHJpbmcubm90aWZpY2F0aW9uX2NvbnRlbnRfbWVzc2FnZSk7CgogICAgICAgIGludGVudC5wdXRFeHRyYSgibm90aWZpY2F0aW9uX2NsaWNrIiwgdHJ1ZSk7CiAgICAgICAgaW50ZW50LnNldEZsYWdzKEludGVudC5GTEFHX0FDVElWSVRZX05FV19UQVNLIHwgSW50ZW50LkZMQUdfQUNUSVZJVFlfQ0xFQVJfVEFTSyk7CgogICAgICAgIE5vdGlmaWNhdGlvbiBub3RpZmljYXRpb24gPSBidWlsZE5vdGlmaWNhdGlvbihjb250ZXh0LCBDSEFOTkVMX0lEX0FQUF9DUkFTSCwgU3RyaW5nLmZvcm1hdCh0aXRsZSwgcGFja2FnZU5hbWUpLCBjb250ZW50LCBnZXRBY3Rpdml0eShjb250ZXh0LCBDSEFOTkVMX0lEX0FQUF9DUkFTSC5oYXNoQ29kZSgpLCBpbnRlbnQpLCBmYWxzZSk7CiAgICAgICAgc2V0RW5hYmxlRmxvYXQobm90aWZpY2F0aW9uLCB0cnVlKTsKICAgICAgICByZXR1cm4gbm90aWZpY2F0aW9uOwogICAgfQoKICAgIHByaXZhdGUgc3RhdGljIFBlbmRpbmdJbnRlbnQgZ2V0QWN0aXZpdHkoQ29udGV4dCBjb250ZXh0LCBpbnQgcmVxdWVzdENvZGUsIEludGVudCBpbnRlbnQpIHsKICAgICAgICByZXR1cm4gUGVuZGluZ0ludGVudC5nZXRBY3Rpdml0eShjb250ZXh0LCByZXF1ZXN0Q29kZSwgaW50ZW50LCBQZW5kaW5nSW50ZW50LkZMQUdfSU1NVVRBQkxFKTsKICAgIH0KCiAgICBwcml2YXRlIHN0YXRpYyB2b2lkIG5vdGlmeU5vdGlmaWNhdGlvbihDb250ZXh0IGNvbnRleHQsIGludCBpZCwgTm90aWZpY2F0aW9uIG5vdGlmaWNhdGlvbikgewogICAgICAgIE5vdGlmaWNhdGlvbk1hbmFnZXIgbWFuYWdlciA9IChOb3RpZmljYXRpb25NYW5hZ2VyKSBjb250ZXh0LmdldFN5c3RlbVNlcnZpY2UoTk9USUZJQ0FUSU9OX1NFUlZJQ0UpOwogICAgICAgIG1hbmFnZXIubm90aWZ5KGlkLCBub3RpZmljYXRpb24pOwogICAgfQoKICAgIHB1YmxpYyBzdGF0aWMgdm9pZCBub3RpZmljYXRpb25BY3Rpb25zKENvbnRleHQgY29udGV4dCwgU3RyaW5nIHRpdGxlLCBTdHJpbmcgY29udGVudCkgewogICAgICAgIE5vdGlmaWNhdGlvbk1hbmFnZXIgbm90aWZpY2F0aW9uTWFuYWdlciA9IChOb3RpZmljYXRpb25NYW5hZ2VyKSBjb250ZXh0LmdldFN5c3RlbVNlcnZpY2UoTk9USUZJQ0FUSU9OX1NFUlZJQ0UpOwoKICAgICAgICBJbnRlbnQgaW50ZW50ID0gbmV3IEludGVudChjb250ZXh0LCBvcmcubGluYmFvZ3Uucm9taHViLk1haW5BY3Rpdml0eS5jbGFzcyk7CiAgICAgICAgaW50ZW50LnNldEZsYWdzKEludGVudC5GTEFHX0FDVElWSVRZX05FV19UQVNLIHwgSW50ZW50LkZMQUdfQUNUSVZJVFlfQ0xFQVJfVEFTSyk7CiAgICAgICAgUGVuZGluZ0ludGVudCBwZW5kaW5nSW50ZW50ID0gUGVuZGluZ0ludGVudC5nZXRBY3Rpdml0eShjb250ZXh0LCAwLCBpbnRlbnQsIFBlbmRpbmdJbnRlbnQuRkxBR19JTU1VVEFCTEUpOwoKICAgICAgICBOb3RpZmljYXRpb25Db21wYXQuQnVpbGRlciBidWlsZGVyID0gbmV3IE5vdGlmaWNhdGlvbkNvbXBhdC5CdWlsZGVyKGNvbnRleHQsIENIQU5ORUxfSURfQVBQX0NSQVNIKTsKICAgICAgICBidWlsZGVyLnNldFNtYWxsSWNvbihSLm1pcG1hcC5pY19sYXVuY2hlcik7CiAgICAgICAgYnVpbGRlci5zZXRDb2xvcihDb250ZXh0Q29tcGF0LmdldENvbG9yKGNvbnRleHQsIG9yZy5saW5iYW9ndS5yb21odWIuUi5jb2xvci50ZXh0dmlld19ibGFjaykpOwogICAgICAgIGJ1aWxkZXIuc2V0TGFyZ2VJY29uKEJpdG1hcEZhY3RvcnkuZGVjb2RlUmVzb3VyY2UoY29udGV4dC5nZXRSZXNvdXJjZXMoKSwgUi5taXBtYXAuaWNfbGF1bmNoZXIpKTsKICAgICAgICBidWlsZGVyLnNldENvbnRlbnRUaXRsZSh0aXRsZSk7CiAgICAgICAgYnVpbGRlci5zZXRDb250ZW50VGV4dChjb250ZW50KTsKICAgICAgICBidWlsZGVyLnNldFN0eWxlKG5ldyBOb3RpZmljYXRpb25Db21wYXQuQmlnVGV4dFN0eWxlKCkKICAgICAgICAgICAgLmJpZ1RleHQoIk11Y2ggbG9uZ2VyIHRleHQgdGhhdCBjYW5ub3QgZml0IG9uZSBsaW5lLi4uIikpOwoKICAgICAgICBidWlsZGVyLnNldFdoZW4oU3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCkpOwogICAgICAgIGJ1aWxkZXIuc2V0QXV0b0NhbmNlbCh0cnVlKTsKICAgICAgICBidWlsZGVyLnNldENvbnRlbnRJbnRlbnQocGVuZGluZ0ludGVudCk7CgogICAgICAgIGJ1aWxkZXIuc2V0UHJpb3JpdHkoTm90aWZpY2F0aW9uQ29tcGF0LlBSSU9SSVRZX0RFRkFVTFQpOwogICAgICAgIGJ1aWxkZXIuYWRkQWN0aW9uKFIubWlwbWFwLmljX2xhdW5jaGVyLCBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5ub3RpZmljYXRpb25fdmlldyksIHBlbmRpbmdJbnRlbnQpOwoKICAgICAgICBidWlsZGVyLnNldEdyb3VwKEdST1VQX0tFWV9XT1JLX0VNQUlMKTsKCiAgICAgICAgY3JlYXRlTWl1aUZvY2N1c0FjdGlvbihjb250ZXh0LCBidWlsZGVyKTsKCiAgICAgICAgbm90aWZpY2F0aW9uTWFuYWdlci5ub3RpZnkoQ0hBTk5FTF9JRF9BUFBfQ1JBU0guaGFzaENvZGUoKSwgYnVpbGRlci5idWlsZCgpKTsKICAgIH0KCgogICAgcHVibGljIHN0YXRpYyBOb3RpZmljYXRpb24gYnVpbGROb3RpZmljYXRpb24oQE5vbk51bGwgQ29udGV4dCBjb250ZXh0LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgQE5vbk51bGwgU3RyaW5nIGNoYW5uZWxJZCwgU3RyaW5nIHRpdGxlLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgU3RyaW5nIGNvbnRlbnQsIFBlbmRpbmdJbnRlbnQgaW50ZW50LCBib29sZWFuIG9uZ29pbmcpIHsKICAgICAgICBOb3RpZmljYXRpb25Db21wYXQuQnVpbGRlciBidWlsZGVyID0gbmV3IE5vdGlmaWNhdGlvbkNvbXBhdC5CdWlsZGVyKGNvbnRleHQsIGNoYW5uZWxJZCk7CiAgICAgICAgYnVpbGRlci5zZXRTbWFsbEljb24oUi5taXBtYXAuaWNfbGF1bmNoZXIpOwogICAgICAgIGJ1aWxkZXIuc2V0Q29udGVudFRpdGxlKHRpdGxlKTsKICAgICAgICBidWlsZGVyLnNldENvbnRlbnRUZXh0KGNvbnRlbnQpOwogICAgICAgIGJ1aWxkZXIuc2V0Q29udGVudEludGVudChpbnRlbnQpOwogICAgICAgIC8vIOiuvue9ruS4uuW4uOmpu+mAmuefpQogICAgICAgIGJ1aWxkZXIuc2V0T25nb2luZyhvbmdvaW5nKTsKICAgICAgICBidWlsZGVyLnNldEF1dG9DYW5jZWwodHJ1ZSk7CiAgICAgICAgYnVpbGRlci5zZXRQcmlvcml0eShOb3RpZmljYXRpb25Db21wYXQuUFJJT1JJVFlfREVGQVVMVCk7CiAgICAgICAgYnVpbGRlci5zZXRXaGVuKFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpKTsKCiAgICAgICAgYnVpbGRlci5zZXRTaG93V2hlbih0cnVlKTsKCiAgICAgICAgcmV0dXJuIGJ1aWxkZXIuYnVpbGQoKTsKICAgIH0KCiAgICBwcml2YXRlIHN0YXRpYyB2b2lkIGNyZWF0ZU1pdWlGb2NjdXNBY3Rpb24oQ29udGV4dCBjb250ZXh0LCBOb3RpZmljYXRpb25Db21wYXQuQnVpbGRlciBidWlsZGVyKSB7CiAgICAgICAgQnVuZGxlIGV4dHJhcyA9IG5ldyBCdW5kbGUoKTsKICAgICAgICBleHRyYXMucHV0Qm9vbGVhbigibWl1aS5zaG93QWN0aW9uIiwgdHJ1ZSk7CiAgICAgICAgZXh0cmFzLnB1dEJvb2xlYW4oIm1pdWkuZXhwYW5kYWJsZU9uS2V5Z3VhcmQiLCB0cnVlKTsKCiAgICAgICAgSlNPTk9iamVjdCBqU09OT2JqZWN0ID0gbmV3IEpTT05PYmplY3QoKTsKICAgICAgICBKU09OT2JqZWN0IGpTT05PYmplY3QyID0gbmV3IEpTT05PYmplY3QoKTsKICAgICAgICBKU09OT2JqZWN0IGpTT05PYmplY3QzID0gbmV3IEpTT05PYmplY3QoKTsKICAgICAgICBKU09OT2JqZWN0IGpTT05PYmplY3Q0ID0gbmV3IEpTT05PYmplY3QoKTsKICAgICAgICBKU09OQXJyYXkgalNPTkFycmF5ID0gbmV3IEpTT05BcnJheSgpOwogICAgICAgIHRyeSB7CiAgICAgICAgICAgIGpTT05PYmplY3QucHV0KCJwYXJhbV92MiIsIGpTT05PYmplY3QyKTsKCiAgICAgICAgICAgIGpTT05PYmplY3QyLnB1dCgicHJvdG9jb2wiLCAxKQogICAgICAgICAgICAgICAgLnB1dCgidXBkYXRhYmxlIiwgdHJ1ZSkKICAgICAgICAgICAgICAgIC5wdXQoImVuYWJsZUZsb2F0IiwgdHJ1ZSkKICAgICAgICAgICAgICAgIC5wdXQoImJhc2VJbmZvIiwgalNPTk9iamVjdDMpCiAgICAgICAgICAgICAgICAucHV0KCJoaWdobGlnaHRJbmZvIiwgalNPTk9iamVjdDMpCiAgICAgICAgICAgICAgICAucHV0KCJhY3Rpb25zIiwgalNPTkFycmF5KTsKCiAgICAgICAgICAgIGpTT05PYmplY3QzLnB1dCgidHlwZSIsIDEpCiAgICAgICAgICAgICAgICAucHV0KCJ0aXRsZSIsICIwMDowMCIpCiAgICAgICAgICAgICAgICAucHV0KCJzdWJDb250ZW50IiwgInN1YkNvbnRlbnQiKQogICAgICAgICAgICAgICAgLnB1dCgiY29sb3JTdWJDb250ZW50IiwgIiMzNDgyRkYiKQogICAgICAgICAgICAgICAgLnB1dCgiY29sb3JTdWJDb250ZW50RGFyayIsICIjMjc3QUY3IikKICAgICAgICAgICAgICAgIC5wdXQoInBpY0Z1bmN0aW9uIiwgIm1pdWkuZm9jdXMucGljX3RpbWVyIik7CgogICAgICAgICAgICBqU09OT2JqZWN0NC5wdXQoImFjdGlvbiIsICJtaXVpLmZvY3VzLmFjdGlvbl8xIik7CgogICAgICAgICAgICBqU09OQXJyYXkucHV0KGpTT05PYmplY3Q0KTsKCiAgICAgICAgICAgIGV4dHJhcy5wdXRTdHJpbmcoIm1pdWkuZm9jdXMucGFyYW0iLCBqU09OT2JqZWN0LnRvU3RyaW5nKCkpOwoKICAgICAgICAgICAgTm90aWZpY2F0aW9uLkFjdGlvbiBidWlsZCA9IG5ldyBOb3RpZmljYXRpb24uQWN0aW9uLkJ1aWxkZXIoSWNvbi5jcmVhdGVXaXRoUmVzb3VyY2UoY29udGV4dCwgUi5taXBtYXAuaWNfbGF1bmNoZXIpLCAiIiwgbnVsbCkuYnVpbGQoKTsKICAgICAgICAgICAgYnVpbGQuZ2V0RXh0cmFzKCkucHV0U3RyaW5nKCJpY29uX25hbWUiLCAiYWN0aW9uX2Nsb3NlIik7CgogICAgICAgICAgICBCdW5kbGUgYnVuZGxlMiA9IG5ldyBCdW5kbGUoKTsKICAgICAgICAgICAgYnVuZGxlMi5wdXRQYXJjZWxhYmxlKCJtaXVpLmZvY3VzLmFjdGlvbl8xIiwgYnVpbGQpOwogICAgICAgICAgICBleHRyYXMucHV0QnVuZGxlKCJtaXVpLmZvY3VzLmFjdGlvbnMiLCBidW5kbGUyKTsKCiAgICAgICAgICAgIEJ1bmRsZSBidW5kbGUzID0gbmV3IEJ1bmRsZSgpOwogICAgICAgICAgICBidW5kbGUzLnB1dFBhcmNlbGFibGUoIm1pdWkuZm9jdXMucGljX3RpY2tlciIsIEljb24uY3JlYXRlV2l0aFJlc291cmNlKGNvbnRleHQsIFIubWlwbWFwLmljX2xhdW5jaGVyKSk7CiAgICAgICAgICAgIGJ1bmRsZTMucHV0UGFyY2VsYWJsZSgibWl1aS5mb2N1cy5waWNfdGlja2VyX2RhcmsiLCBJY29uLmNyZWF0ZVdpdGhSZXNvdXJjZShjb250ZXh0LCBSLm1pcG1hcC5pY19sYXVuY2hlcikpOwoKICAgICAgICAgICAgZXh0cmFzLnB1dEJ1bmRsZSgibWl1aS5mb2N1cy5waWNzIiwgYnVuZGxlMyk7CgogICAgICAgICAgICBidWlsZGVyLmFkZEV4dHJhcyhleHRyYXMpOwogICAgICAgICAgICAvKnJldHVybiBidWlsZGVyLmJ1aWxkKCk7Ki8KICAgICAgICB9IGNhdGNoIChKU09ORXhjZXB0aW9uIGUpIHsKICAgICAgICAgICAgdGhyb3cgbmV3IFJ1bnRpbWVFeGNlcHRpb24oZSk7CiAgICAgICAgfQogICAgfQoKICAgIHB1YmxpYyBzdGF0aWMgdm9pZCBzZXRFbmFibGVGbG9hdChOb3RpZmljYXRpb24gbm90aWZpY2F0aW9uLCBib29sZWFuIGVuYWJsZSkgewogICAgICAgIHRyeSB7CiAgICAgICAgICAgIE9iamVjdCBvYmogPSBub3RpZmljYXRpb24uZ2V0Q2xhc3MoKS5nZXREZWNsYXJlZEZpZWxkKCJleHRyYU5vdGlmaWNhdGlvbiIpLmdldChub3RpZmljYXRpb24pOwogICAgICAgICAgICBvYmouZ2V0Q2xhc3MoKS5nZXREZWNsYXJlZE1ldGhvZCgic2V0RW5hYmxlRmxvYXQiLCBCb29sZWFuLlRZUEUpLmludm9rZShvYmosIGVuYWJsZSk7CiAgICAgICAgfSBjYXRjaCAoRXhjZXB0aW9uIHVudXNlZCkge30KICAgIH0KCiAgICBwcml2YXRlIHN0YXRpYyB2b2lkIGNyZWF0ZUFwcENyYXNoQ2hhbm5lbChDb250ZXh0IGNvbnRleHQpIHsKICAgICAgICBTdHJpbmcgbmFtZSA9IGNvbnRleHQuZ2V0UmVzb3VyY2VzKCkuZ2V0U3RyaW5nKFIuc3RyaW5nLm5vdGlmaWNhdGlvbl9jaGFubmVsX2FwcF9jcmFzaF9uYW1lKTsKICAgICAgICBjcmVhdGVOb3RpZmljYXRpb25DaGFubmVsKGNvbnRleHQsIENIQU5ORUxfSURfQVBQX0NSQVNILCBuYW1lLCAiIiwgTm90aWZpY2F0aW9uTWFuYWdlci5JTVBPUlRBTkNFX0hJR0gpOwogICAgfQoKICAgIC8vIOWIm+W7uua4oOmBk+W5tuiuvue9rumHjeimgeaApwogICAgcHVibGljIHN0YXRpYyB2b2lkIGNyZWF0ZU5vdGlmaWNhdGlvbkNoYW5uZWwoQ29udGV4dCBjb250ZXh0LCBTdHJpbmcgaWQsIENoYXJTZXF1ZW5jZSBuYW1lLCBTdHJpbmcgZGVzY3JpcHRpb24sIGludCBpbXBvcnRhbmNlKSB7CiAgICAgICAgTm90aWZpY2F0aW9uTWFuYWdlciBtYW5hZ2VyID0gKE5vdGlmaWNhdGlvbk1hbmFnZXIpIGNvbnRleHQuZ2V0U3lzdGVtU2VydmljZShOT1RJRklDQVRJT05fU0VSVklDRSk7CiAgICAgICAgLy8gQ3JlYXRlIHRoZSBOb3RpZmljYXRpb25DaGFubmVsLCBidXQgb25seSBvbiBBUEkgMjYrIGJlY2F1c2UKICAgICAgICAvLyB0aGUgTm90aWZpY2F0aW9uQ2hhbm5lbCBjbGFzcyBpcyBub3QgYXZhaWxhYmxlIGluIHRoZSBTdXBwb3J0IExpYnJhcnkuCiAgICAgICAgaWYgKEJ1aWxkLlZFUlNJT04uU0RLX0lOVCA+PSBCdWlsZC5WRVJTSU9OX0NPREVTLk8pIHsKICAgICAgICAgICAgTm90aWZpY2F0aW9uQ2hhbm5lbCBjaGFubmVsID0gbmV3IE5vdGlmaWNhdGlvbkNoYW5uZWwoaWQsIG5hbWUsIGltcG9ydGFuY2UpOwogICAgICAgICAgICBpZiAoIVRleHRVdGlscy5pc0VtcHR5KGRlc2NyaXB0aW9uKSkgY2hhbm5lbC5zZXREZXNjcmlwdGlvbihkZXNjcmlwdGlvbik7CiAgICAgICAgICAgIG1hbmFnZXIuY3JlYXRlTm90aWZpY2F0aW9uQ2hhbm5lbChjaGFubmVsKTsKICAgICAgICB9CiAgICB9Cn0K
+/*
+ * This file is part of ROM Hub, released under the GNU Affero General Public License v3.0.
+ *
+ * 本文件移植 / 改写自 HyperCeiler（AGPL-3.0，Copyright (C) 2023-2026 HyperCeiler
+ * Contributions），或为其等价替身实现 —— 完整来源与鸣谢见项目根目录 NOTICE.md。
+ *
+ * This program is free software: you can redistribute it and/or modify it under the terms
+ * of the GNU Affero General Public License as published by the Free Software Foundation,
+ * either version 3 of the License.
+ *
+ * This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+ * without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * See the GNU Affero General Public License for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License along with this
+ * program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
+package org.linbaogu.romhub.hc.util;
+
+import static android.content.Context.NOTIFICATION_SERVICE;
+import static androidx.core.content.ContextCompat.getSystemService;
+
+import android.app.Notification;
+import android.app.NotificationChannel;
+import android.app.NotificationManager;
+import android.app.PendingIntent;
+import android.content.Context;
+import android.content.Intent;
+import android.graphics.BitmapFactory;
+import android.graphics.drawable.Icon;
+import android.os.Build;
+import android.os.Bundle;
+import android.text.TextUtils;
+
+import androidx.annotation.NonNull;
+import androidx.core.app.NotificationCompat;
+import androidx.core.content.ContextCompat;
+
+import org.linbaogu.romhub.R;
+
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+public class NotificationHelper {
+
+    private static final String CHANNEL_ID_APP_CRASH = "App_Crash";
+    private static final String GROUP_KEY_WORK_EMAIL = "App_Crash";
+
+    public static void createEggNotificationChannel(Context context) {
+        String channelId = "logo_channel_id";
+        String channelName = context.getResources().getString(R.string.logo_egg_NotificationName);
+        String channelDescription = context.getResources().getString(R.string.logo_egg_NotificationName_tips);
+        createNotificationChannel(context, channelId, channelName, channelDescription);
+    }
+
+    public static void createNotificationChannel(Context context, String channelId, String channelName, String channelDescription) {
+        NotificationManager notificationManager = getSystemService(context, NotificationManager.class);
+
+        NotificationChannel channel = new NotificationChannel(channelId, channelName, NotificationManager.IMPORTANCE_DEFAULT);
+        channel.setDescription(channelDescription);
+
+        if (notificationManager != null) {
+            notificationManager.createNotificationChannel(channel);
+        }
+    }
+
+
+    public static void showAppCrashNotification(Context context, String packageName, Intent intent) {
+        notifyNotification(context, 1, getAppCrashNotification(context, packageName, intent));
+    }
+
+    public static Notification getAppCrashNotification(Context context, String packageName, Intent intent) {
+        createAppCrashChannel(context);
+        String title = context.getResources().getString(R.string.notification_title_message_emergency_crash);
+        String content = context.getResources().getString(R.string.notification_content_message);
+
+        intent.putExtra("notification_click", true);
+        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+
+        Notification notification = buildNotification(context, CHANNEL_ID_APP_CRASH, String.format(title, packageName), content, getActivity(context, CHANNEL_ID_APP_CRASH.hashCode(), intent), false);
+        setEnableFloat(notification, true);
+        return notification;
+    }
+
+    private static PendingIntent getActivity(Context context, int requestCode, Intent intent) {
+        return PendingIntent.getActivity(context, requestCode, intent, PendingIntent.FLAG_IMMUTABLE);
+    }
+
+    private static void notifyNotification(Context context, int id, Notification notification) {
+        NotificationManager manager = (NotificationManager) context.getSystemService(NOTIFICATION_SERVICE);
+        manager.notify(id, notification);
+    }
+
+    public static void notificationActions(Context context, String title, String content) {
+        NotificationManager notificationManager = (NotificationManager) context.getSystemService(NOTIFICATION_SERVICE);
+
+        Intent intent = new Intent(context, org.linbaogu.romhub.MainActivity.class);
+        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+        PendingIntent pendingIntent = PendingIntent.getActivity(context, 0, intent, PendingIntent.FLAG_IMMUTABLE);
+
+        NotificationCompat.Builder builder = new NotificationCompat.Builder(context, CHANNEL_ID_APP_CRASH);
+        builder.setSmallIcon(R.mipmap.ic_launcher);
+        builder.setColor(ContextCompat.getColor(context, org.linbaogu.romhub.R.color.textview_black));
+        builder.setLargeIcon(BitmapFactory.decodeResource(context.getResources(), R.mipmap.ic_launcher));
+        builder.setContentTitle(title);
+        builder.setContentText(content);
+        builder.setStyle(new NotificationCompat.BigTextStyle()
+            .bigText("Much longer text that cannot fit one line..."));
+
+        builder.setWhen(System.currentTimeMillis());
+        builder.setAutoCancel(true);
+        builder.setContentIntent(pendingIntent);
+
+        builder.setPriority(NotificationCompat.PRIORITY_DEFAULT);
+        builder.addAction(R.mipmap.ic_launcher, context.getString(R.string.notification_view), pendingIntent);
+
+        builder.setGroup(GROUP_KEY_WORK_EMAIL);
+
+        createMiuiFoccusAction(context, builder);
+
+        notificationManager.notify(CHANNEL_ID_APP_CRASH.hashCode(), builder.build());
+    }
+
+
+    public static Notification buildNotification(@NonNull Context context,
+                                                 @NonNull String channelId, String title,
+                                                 String content, PendingIntent intent, boolean ongoing) {
+        NotificationCompat.Builder builder = new NotificationCompat.Builder(context, channelId);
+        builder.setSmallIcon(R.mipmap.ic_launcher);
+        builder.setContentTitle(title);
+        builder.setContentText(content);
+        builder.setContentIntent(intent);
+        // 设置为常驻通知
+        builder.setOngoing(ongoing);
+        builder.setAutoCancel(true);
+        builder.setPriority(NotificationCompat.PRIORITY_DEFAULT);
+        builder.setWhen(System.currentTimeMillis());
+
+        builder.setShowWhen(true);
+
+        return builder.build();
+    }
+
+    private static void createMiuiFoccusAction(Context context, NotificationCompat.Builder builder) {
+        Bundle extras = new Bundle();
+        extras.putBoolean("miui.showAction", true);
+        extras.putBoolean("miui.expandableOnKeyguard", true);
+
+        JSONObject jSONObject = new JSONObject();
+        JSONObject jSONObject2 = new JSONObject();
+        JSONObject jSONObject3 = new JSONObject();
+        JSONObject jSONObject4 = new JSONObject();
+        JSONArray jSONArray = new JSONArray();
+        try {
+            jSONObject.put("param_v2", jSONObject2);
+
+            jSONObject2.put("protocol", 1)
+                .put("updatable", true)
+                .put("enableFloat", true)
+                .put("baseInfo", jSONObject3)
+                .put("highlightInfo", jSONObject3)
+                .put("actions", jSONArray);
+
+            jSONObject3.put("type", 1)
+                .put("title", "00:00")
+                .put("subContent", "subContent")
+                .put("colorSubContent", "#3482FF")
+                .put("colorSubContentDark", "#277AF7")
+                .put("picFunction", "miui.focus.pic_timer");
+
+            jSONObject4.put("action", "miui.focus.action_1");
+
+            jSONArray.put(jSONObject4);
+
+            extras.putString("miui.focus.param", jSONObject.toString());
+
+            Notification.Action build = new Notification.Action.Builder(Icon.createWithResource(context, R.mipmap.ic_launcher), "", null).build();
+            build.getExtras().putString("icon_name", "action_close");
+
+            Bundle bundle2 = new Bundle();
+            bundle2.putParcelable("miui.focus.action_1", build);
+            extras.putBundle("miui.focus.actions", bundle2);
+
+            Bundle bundle3 = new Bundle();
+            bundle3.putParcelable("miui.focus.pic_ticker", Icon.createWithResource(context, R.mipmap.ic_launcher));
+            bundle3.putParcelable("miui.focus.pic_ticker_dark", Icon.createWithResource(context, R.mipmap.ic_launcher));
+
+            extras.putBundle("miui.focus.pics", bundle3);
+
+            builder.addExtras(extras);
+            /*return builder.build();*/
+        } catch (JSONException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    public static void setEnableFloat(Notification notification, boolean enable) {
+        try {
+            Object obj = notification.getClass().getDeclaredField("extraNotification").get(notification);
+            obj.getClass().getDeclaredMethod("setEnableFloat", Boolean.TYPE).invoke(obj, enable);
+        } catch (Exception unused) {}
+    }
+
+    private static void createAppCrashChannel(Context context) {
+        String name = context.getResources().getString(R.string.notification_channel_app_crash_name);
+        createNotificationChannel(context, CHANNEL_ID_APP_CRASH, name, "", NotificationManager.IMPORTANCE_HIGH);
+    }
+
+    // 创建渠道并设置重要性
+    public static void createNotificationChannel(Context context, String id, CharSequence name, String description, int importance) {
+        NotificationManager manager = (NotificationManager) context.getSystemService(NOTIFICATION_SERVICE);
+        // Create the NotificationChannel, but only on API 26+ because
+        // the NotificationChannel class is not available in the Support Library.
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+            NotificationChannel channel = new NotificationChannel(id, name, importance);
+            if (!TextUtils.isEmpty(description)) channel.setDescription(description);
+            manager.createNotificationChannel(channel);
+        }
+    }
+}

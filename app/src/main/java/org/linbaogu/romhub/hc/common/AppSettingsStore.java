@@ -1,1 +1,95 @@
-LyoKICogVGhpcyBmaWxlIGlzIHBhcnQgb2YgUk9NIEh1YiwgcmVsZWFzZWQgdW5kZXIgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSB2My4wLgogKgogKiDmnKzmlofku7bnp7vmpI0gLyDmlLnlhpnoh6ogSHlwZXJDZWlsZXLvvIhBR1BMLTMuMO+8jENvcHlyaWdodCAoQykgMjAyMy0yMDI2IEh5cGVyQ2VpbGVyCiAqIENvbnRyaWJ1dGlvbnPvvInvvIzmiJbkuLrlhbbnrYnku7fmm7/ouqvlrp7njrAg4oCU4oCUIOWujOaVtOadpea6kOS4jum4o+iwouingemhueebruagueebruW9lSBOT1RJQ0UubWTjgIIKICoKICogVGhpcyBwcm9ncmFtIGlzIGZyZWUgc29mdHdhcmU6IHlvdSBjYW4gcmVkaXN0cmlidXRlIGl0IGFuZC9vciBtb2RpZnkgaXQgdW5kZXIgdGhlIHRlcm1zCiAqIG9mIHRoZSBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UgYXMgcHVibGlzaGVkIGJ5IHRoZSBGcmVlIFNvZnR3YXJlIEZvdW5kYXRpb24sCiAqIGVpdGhlciB2ZXJzaW9uIDMgb2YgdGhlIExpY2Vuc2UuCiAqCiAqIFRoaXMgcHJvZ3JhbSBpcyBkaXN0cmlidXRlZCBpbiB0aGUgaG9wZSB0aGF0IGl0IHdpbGwgYmUgdXNlZnVsLCBidXQgV0lUSE9VVCBBTlkgV0FSUkFOVFk7CiAqIHdpdGhvdXQgZXZlbiB0aGUgaW1wbGllZCB3YXJyYW50eSBvZiBNRVJDSEFOVEFCSUxJVFkgb3IgRklUTkVTUyBGT1IgQSBQQVJUSUNVTEFSIFBVUlBPU0UuCiAqIFNlZSB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGZvciBtb3JlIGRldGFpbHMuCiAqCiAqIFlvdSBzaG91bGQgaGF2ZSByZWNlaXZlZCBhIGNvcHkgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBhbG9uZyB3aXRoIHRoaXMKICogcHJvZ3JhbS4gIElmIG5vdCwgc2VlIDxodHRwczovL3d3dy5nbnUub3JnL2xpY2Vuc2VzLz4uCiAqLwoKcGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLmhjLmNvbW1vbjsKCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dDsKaW1wb3J0IGFuZHJvaWQuY29udGVudC5TaGFyZWRQcmVmZXJlbmNlczsKCi8qKgogKiBIeXBlckNlaWxlciBgQXBwU2V0dGluZ3NTdG9yZWAg55qE562J5Lu35pu/6Lqr77yI5Zu+5qCH5qih5byPIC8g5oKs5rWu5a+86IiqIC8g5L2c55So5Z+f5ZCM5q2lIOetieiuvue9ru+8ieOAggogKiBST00gSHViIOmHjOi/meS6m+mDveS4jemcgOimgeecn+ato+eUn+aViO+8jOS9huimgeS/neivgSBwcm92aXNpb24g5rWB56iL6K+75YaZ5LiN54K4IOKAlOKAlCDokL3liLDmnKzlnLAgcHJlZnPjgIIKICovCnB1YmxpYyBmaW5hbCBjbGFzcyBBcHBTZXR0aW5nc1N0b3JlIHsKCiAgICBwcml2YXRlIHN0YXRpYyBmaW5hbCBTdHJpbmcgU1BfTkFNRSA9ICJoY19hcHBfc2V0dGluZ3MiOwoKICAgIHByaXZhdGUgQXBwU2V0dGluZ3NTdG9yZSgpIHsKICAgIH0KCiAgICBwcml2YXRlIHN0YXRpYyBTaGFyZWRQcmVmZXJlbmNlcyBzcChDb250ZXh0IGN0eCkgewogICAgICAgIHJldHVybiBjdHguZ2V0QXBwbGljYXRpb25Db250ZXh0KCkuZ2V0U2hhcmVkUHJlZmVyZW5jZXMoU1BfTkFNRSwgQ29udGV4dC5NT0RFX1BSSVZBVEUpOwogICAgfQoKICAgIC8vIC0tLS0g5qGM6Z2i5Zu+5qCH77yIdHJ1ZSA9IOWcqOahjOmdouaYvuekuuWbvuagh++8m+m7mOiupOW8gO+8jOWQpuWImeWbvuagh+S8muS7juahjOmdoua2iOWkse+8iS0tLS0KICAgIHB1YmxpYyBzdGF0aWMgYm9vbGVhbiBpc0hpZGVBcHBJY29uRW5hYmxlZChDb250ZXh0IGN0eCkgewogICAgICAgIHJldHVybiBjdHggPT0gbnVsbCB8fCBzcChjdHgpLmdldEJvb2xlYW4oImhpZGVfYXBwX2ljb24iLCB0cnVlKTsKICAgIH0KCiAgICBwdWJsaWMgc3RhdGljIHZvaWQgc2V0SGlkZUFwcEljb25FbmFibGVkKENvbnRleHQgY3R4LCBib29sZWFuIGVuYWJsZWQpIHsKICAgICAgICBpZiAoY3R4ICE9IG51bGwpIHNwKGN0eCkuZWRpdCgpLnB1dEJvb2xlYW4oImhpZGVfYXBwX2ljb24iLCBlbmFibGVkKS5hcHBseSgpOwogICAgfQoKICAgIC8vIC0tLS0g5oKs5rWu5a+86Iiq77yI5oiR5Lus55qE5oKs5rWu5bqV5qCP5byA5YWz5Lmf5a2Y6L+Z6YeM77yM5pa55L6/57uf5LiA77yJLS0tLQogICAgcHVibGljIHN0YXRpYyBib29sZWFuIGlzRmxvYXROYXZFbmFibGVkKENvbnRleHQgY3R4KSB7CiAgICAgICAgcmV0dXJuIGN0eCA9PSBudWxsIHx8IHNwKGN0eCkuZ2V0Qm9vbGVhbigiZmxvYXRfbmF2IiwgdHJ1ZSk7CiAgICB9CgogICAgcHVibGljIHN0YXRpYyB2b2lkIHNldEZsb2F0TmF2RW5hYmxlZChDb250ZXh0IGN0eCwgYm9vbGVhbiBlbmFibGVkKSB7CiAgICAgICAgaWYgKGN0eCAhPSBudWxsKSBzcChjdHgpLmVkaXQoKS5wdXRCb29sZWFuKCJmbG9hdF9uYXYiLCBlbmFibGVkKS5hcHBseSgpOwogICAgfQoKICAgIC8vIC0tLS0g5L2c55So5Z+f5ZCM5q2lIC0tLS0KICAgIHB1YmxpYyBzdGF0aWMgYm9vbGVhbiBpc1Njb3BlU3luY0VuYWJsZWQoQ29udGV4dCBjdHgpIHsKICAgICAgICByZXR1cm4gY3R4ICE9IG51bGwgJiYgc3AoY3R4KS5nZXRCb29sZWFuKCJzY29wZV9zeW5jIiwgdHJ1ZSk7CiAgICB9CgogICAgcHVibGljIHN0YXRpYyB2b2lkIHNldFNjb3BlU3luY0VuYWJsZWQoQ29udGV4dCBjdHgsIGJvb2xlYW4gZW5hYmxlZCkgewogICAgICAgIGlmIChjdHggIT0gbnVsbCkgc3AoY3R4KS5lZGl0KCkucHV0Qm9vbGVhbigic2NvcGVfc3luYyIsIGVuYWJsZWQpLmFwcGx5KCk7CiAgICB9CgogICAgLy8gLS0tLSDlm77moIfmoLflvI8gLS0tLQogICAgcHVibGljIHN0YXRpYyBpbnQgZ2V0SWNvbkluZGV4KENvbnRleHQgY3R4KSB7CiAgICAgICAgcmV0dXJuIGN0eCA9PSBudWxsID8gMCA6IHNwKGN0eCkuZ2V0SW50KCJpY29uX2luZGV4IiwgMCk7CiAgICB9CgogICAgcHVibGljIHN0YXRpYyB2b2lkIHNldEljb25JbmRleChDb250ZXh0IGN0eCwgaW50IGluZGV4KSB7CiAgICAgICAgaWYgKGN0eCAhPSBudWxsKSBzcChjdHgpLmVkaXQoKS5wdXRJbnQoImljb25faW5kZXgiLCBpbmRleCkuYXBwbHkoKTsKICAgIH0KCiAgICBwdWJsaWMgc3RhdGljIGludCBnZXRJY29uTW9kZUluZGV4KENvbnRleHQgY3R4KSB7CiAgICAgICAgcmV0dXJuIGN0eCA9PSBudWxsID8gMCA6IHNwKGN0eCkuZ2V0SW50KCJpY29uX21vZGVfaW5kZXgiLCAwKTsKICAgIH0KCiAgICBwdWJsaWMgc3RhdGljIHZvaWQgc2V0SWNvbk1vZGVJbmRleChDb250ZXh0IGN0eCwgaW50IGluZGV4KSB7CiAgICAgICAgaWYgKGN0eCAhPSBudWxsKSBzcChjdHgpLmVkaXQoKS5wdXRJbnQoImljb25fbW9kZV9pbmRleCIsIGluZGV4KS5hcHBseSgpOwogICAgfQoKICAgIC8vIC0tLS0g5bqU55So6K+t6KiA77yIUk9NIEh1YiDlj6rmnInot5/pmo/ns7vnu5/vvIktLS0tCiAgICBwdWJsaWMgc3RhdGljIGludCBnZXRBcHBMYW5ndWFnZUluZGV4KENvbnRleHQgY3R4KSB7CiAgICAgICAgcmV0dXJuIGdldEFwcExhbmd1YWdlSW5kZXgoY3R4LCAwKTsKICAgIH0KCiAgICBwdWJsaWMgc3RhdGljIGludCBnZXRBcHBMYW5ndWFnZUluZGV4KENvbnRleHQgY3R4LCBpbnQgZGVmVmFsdWUpIHsKICAgICAgICByZXR1cm4gY3R4ID09IG51bGwgPyBkZWZWYWx1ZSA6IHNwKGN0eCkuZ2V0SW50KCJhcHBfbGFuZ3VhZ2VfaW5kZXgiLCBkZWZWYWx1ZSk7CiAgICB9CgogICAgcHVibGljIHN0YXRpYyB2b2lkIHNldEFwcExhbmd1YWdlSW5kZXgoQ29udGV4dCBjdHgsIGludCBpbmRleCkgewogICAgICAgIGlmIChjdHggIT0gbnVsbCkgc3AoY3R4KS5lZGl0KCkucHV0SW50KCJhcHBfbGFuZ3VhZ2VfaW5kZXgiLCBpbmRleCkuYXBwbHkoKTsKICAgIH0KfQo=
+/*
+ * This file is part of ROM Hub, released under the GNU Affero General Public License v3.0.
+ *
+ * 本文件移植 / 改写自 HyperCeiler（AGPL-3.0，Copyright (C) 2023-2026 HyperCeiler
+ * Contributions），或为其等价替身实现 —— 完整来源与鸣谢见项目根目录 NOTICE.md。
+ *
+ * This program is free software: you can redistribute it and/or modify it under the terms
+ * of the GNU Affero General Public License as published by the Free Software Foundation,
+ * either version 3 of the License.
+ *
+ * This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+ * without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * See the GNU Affero General Public License for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License along with this
+ * program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
+package org.linbaogu.romhub.hc.common;
+
+import android.content.Context;
+import android.content.SharedPreferences;
+
+/**
+ * HyperCeiler `AppSettingsStore` 的等价替身（图标模式 / 悬浮导航 / 作用域同步 等设置）。
+ * ROM Hub 里这些都不需要真正生效，但要保证 provision 流程读写不炸 —— 落到本地 prefs。
+ */
+public final class AppSettingsStore {
+
+    private static final String SP_NAME = "hc_app_settings";
+
+    private AppSettingsStore() {
+    }
+
+    private static SharedPreferences sp(Context ctx) {
+        return ctx.getApplicationContext().getSharedPreferences(SP_NAME, Context.MODE_PRIVATE);
+    }
+
+    // ---- 桌面图标（true = 在桌面显示图标；默认开，否则图标会从桌面消失）----
+    public static boolean isHideAppIconEnabled(Context ctx) {
+        return ctx == null || sp(ctx).getBoolean("hide_app_icon", true);
+    }
+
+    public static void setHideAppIconEnabled(Context ctx, boolean enabled) {
+        if (ctx != null) sp(ctx).edit().putBoolean("hide_app_icon", enabled).apply();
+    }
+
+    // ---- 悬浮导航（我们的悬浮底栏开关也存这里，方便统一）----
+    public static boolean isFloatNavEnabled(Context ctx) {
+        return ctx == null || sp(ctx).getBoolean("float_nav", true);
+    }
+
+    public static void setFloatNavEnabled(Context ctx, boolean enabled) {
+        if (ctx != null) sp(ctx).edit().putBoolean("float_nav", enabled).apply();
+    }
+
+    // ---- 作用域同步 ----
+    public static boolean isScopeSyncEnabled(Context ctx) {
+        return ctx != null && sp(ctx).getBoolean("scope_sync", true);
+    }
+
+    public static void setScopeSyncEnabled(Context ctx, boolean enabled) {
+        if (ctx != null) sp(ctx).edit().putBoolean("scope_sync", enabled).apply();
+    }
+
+    // ---- 图标样式 ----
+    public static int getIconIndex(Context ctx) {
+        return ctx == null ? 0 : sp(ctx).getInt("icon_index", 0);
+    }
+
+    public static void setIconIndex(Context ctx, int index) {
+        if (ctx != null) sp(ctx).edit().putInt("icon_index", index).apply();
+    }
+
+    public static int getIconModeIndex(Context ctx) {
+        return ctx == null ? 0 : sp(ctx).getInt("icon_mode_index", 0);
+    }
+
+    public static void setIconModeIndex(Context ctx, int index) {
+        if (ctx != null) sp(ctx).edit().putInt("icon_mode_index", index).apply();
+    }
+
+    // ---- 应用语言（ROM Hub 只有跟随系统）----
+    public static int getAppLanguageIndex(Context ctx) {
+        return getAppLanguageIndex(ctx, 0);
+    }
+
+    public static int getAppLanguageIndex(Context ctx, int defValue) {
+        return ctx == null ? defValue : sp(ctx).getInt("app_language_index", defValue);
+    }
+
+    public static void setAppLanguageIndex(Context ctx, int index) {
+        if (ctx != null) sp(ctx).edit().putInt("app_language_index", index).apply();
+    }
+}

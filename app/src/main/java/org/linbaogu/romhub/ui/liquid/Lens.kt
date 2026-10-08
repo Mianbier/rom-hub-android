@@ -1,1 +1,217 @@
-Ly8gQWRhcHRlZCBmcm9tIEt5YW50MC9BbmRyb2lkTGlxdWlkR2xhc3MgKEFwYWNoZSAyLjApCi8vIHZpYSBLZXJuZWxTVSB1aS9jb21wb25lbnQvbGlxdWlkL0xlbnMua3Qg4oCUIOWOn+agt+enu+akjeOAggovLyDov5nlsLHmmK/jgIzmtrLmgIHnjrvnkoPjgI3nmoTmipjlsITpg6jliIbvvJrnlKggU0RGIOeul+WchuinkuefqeW9ou+8jOWcqOi+uee8mOWBmuWchuW9ouaYoOWwhOeahOS9jeenu+mHh+agt+OAggoKcGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLnVpLmxpcXVpZAoKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5zaGFwZS5Db3JuZXJCYXNlZFNoYXBlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnVuaXQuTGF5b3V0RGlyZWN0aW9uCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnV0aWwuZmFzdENvZXJjZUF0TW9zdAppbXBvcnQgdG9wLnl1a29uZ2EubWl1aXgua21wLmJsdXIuQmFja2Ryb3BFZmZlY3RTY29wZQppbXBvcnQgdG9wLnl1a29uZ2EubWl1aXgua21wLmJsdXIuaXNSdW50aW1lU2hhZGVyU3VwcG9ydGVkCmltcG9ydCB0b3AueXVrb25nYS5taXVpeC5rbXAuYmx1ci5ydW50aW1lU2hhZGVyRWZmZWN0CgpmdW4gQmFja2Ryb3BFZmZlY3RTY29wZS5sZW5zKAogICAgcmVmcmFjdGlvbkhlaWdodDogRmxvYXQsCiAgICByZWZyYWN0aW9uQW1vdW50OiBGbG9hdCwKICAgIGRlcHRoRWZmZWN0OiBCb29sZWFuID0gZmFsc2UsCiAgICBjaHJvbWF0aWNBYmVycmF0aW9uOiBGbG9hdCA9IDBmLAopIHsKICAgIGlmICghaXNSdW50aW1lU2hhZGVyU3VwcG9ydGVkKCkpIHJldHVybgogICAgaWYgKHJlZnJhY3Rpb25IZWlnaHQgPD0gMGYgfHwgcmVmcmFjdGlvbkFtb3VudCA8PSAwZikgcmV0dXJuCgogICAgaWYgKHBhZGRpbmcgPCByZWZyYWN0aW9uQW1vdW50KSB7CiAgICAgICAgcGFkZGluZyA9IHJlZnJhY3Rpb25BbW91bnQKICAgIH0KCiAgICB2YWwgcmFkaWkgPSByb3VuZGVkUmVjdENvcm5lclJhZGlpKCkgPzogcmV0dXJuCgogICAgdmFsIGRpc3BlcnNpb25FbmFibGVkID0gY2hyb21hdGljQWJlcnJhdGlvbiA+IDBmCiAgICB2YWwgc2hhZGVyU3RyaW5nID0KICAgICAgICBpZiAoZGlzcGVyc2lvbkVuYWJsZWQpIHsKICAgICAgICAgICAgUk9VTkRFRF9SRUNUX1JFRlJBQ1RJT05fV0lUSF9ESVNQRVJTSU9OX1NIQURFUgogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIFJPVU5ERURfUkVDVF9SRUZSQUNUSU9OX1NIQURFUgogICAgICAgIH0KICAgIHZhbCBrZXkgPSBpZiAoZGlzcGVyc2lvbkVuYWJsZWQpICJMaXF1aWRHbGFzc0xlbnNEaXNwZXJzaW9uIiBlbHNlICJMaXF1aWRHbGFzc0xlbnMiCgogICAgdmFsIHNmID0gZG93bnNjYWxlRmFjdG9yLmNvZXJjZUF0TGVhc3QoMSkudG9GbG9hdCgpCiAgICB2YWwgc2NhbGVkU2l6ZVcgPSBzaXplLndpZHRoIC8gc2YKICAgIHZhbCBzY2FsZWRTaXplSCA9IHNpemUuaGVpZ2h0IC8gc2YKICAgIHZhbCBzY2FsZWRQYWRkaW5nID0gcGFkZGluZyAvIHNmCiAgICB2YWwgc2NhbGVkUmVmcmFjdGlvbkhlaWdodCA9IHJlZnJhY3Rpb25IZWlnaHQgLyBzZgogICAgdmFsIHNjYWxlZFJlZnJhY3Rpb25BbW91bnQgPSByZWZyYWN0aW9uQW1vdW50IC8gc2YKICAgIHZhbCBzY2FsZWRSYWRpaSA9IEZsb2F0QXJyYXkocmFkaWkuc2l6ZSkgeyByYWRpaVtpdF0gLyBzZiB9CgogICAgcnVudGltZVNoYWRlckVmZmVjdCgKICAgICAgICBrZXkgPSBrZXksCiAgICAgICAgc2hhZGVyU3RyaW5nID0gc2hhZGVyU3RyaW5nLAogICAgICAgIHVuaWZvcm1TaGFkZXJOYW1lID0gImNvbnRlbnQiLAogICAgKSB7CiAgICAgICAgc2V0RmxvYXRVbmlmb3JtKCJzaXplIiwgc2NhbGVkU2l6ZVcsIHNjYWxlZFNpemVIKQogICAgICAgIHNldEZsb2F0VW5pZm9ybSgib2Zmc2V0IiwgLXNjYWxlZFBhZGRpbmcsIC1zY2FsZWRQYWRkaW5nKQogICAgICAgIHNldEZsb2F0VW5pZm9ybSgiY29ybmVyUmFkaWkiLCBzY2FsZWRSYWRpaSkKICAgICAgICBzZXRGbG9hdFVuaWZvcm0oInJlZnJhY3Rpb25IZWlnaHQiLCBzY2FsZWRSZWZyYWN0aW9uSGVpZ2h0KQogICAgICAgIHNldEZsb2F0VW5pZm9ybSgicmVmcmFjdGlvbkFtb3VudCIsIC1zY2FsZWRSZWZyYWN0aW9uQW1vdW50KQogICAgICAgIHNldEZsb2F0VW5pZm9ybSgiZGVwdGhFZmZlY3QiLCBpZiAoZGVwdGhFZmZlY3QpIDFmIGVsc2UgMGYpCiAgICAgICAgaWYgKGRpc3BlcnNpb25FbmFibGVkKSB7CiAgICAgICAgICAgIHNldEZsb2F0VW5pZm9ybSgiY2hyb21hdGljQWJlcnJhdGlvbiIsIGNocm9tYXRpY0FiZXJyYXRpb24pCiAgICAgICAgfQogICAgfQp9Cgpwcml2YXRlIGZ1biBCYWNrZHJvcEVmZmVjdFNjb3BlLnJvdW5kZWRSZWN0Q29ybmVyUmFkaWkoKTogRmxvYXRBcnJheT8gewogICAgdmFsIGNvcm5lclNoYXBlID0gc2hhcGUgYXM/IENvcm5lckJhc2VkU2hhcGUgPzogcmV0dXJuIG51bGwKICAgIHZhbCBzaXplUHggPSBzaXplCiAgICB2YWwgbWF4UmFkaXVzID0gc2l6ZVB4Lm1pbkRpbWVuc2lvbiAvIDJmCiAgICB2YWwgaXNMdHIgPSBsYXlvdXREaXJlY3Rpb24gPT0gTGF5b3V0RGlyZWN0aW9uLkx0cgogICAgdmFsIHRvcExlZnQgPSBpZiAoaXNMdHIpIGNvcm5lclNoYXBlLnRvcFN0YXJ0LnRvUHgoc2l6ZVB4LCB0aGlzKSBlbHNlIGNvcm5lclNoYXBlLnRvcEVuZC50b1B4KHNpemVQeCwgdGhpcykKICAgIHZhbCB0b3BSaWdodCA9IGlmIChpc0x0cikgY29ybmVyU2hhcGUudG9wRW5kLnRvUHgoc2l6ZVB4LCB0aGlzKSBlbHNlIGNvcm5lclNoYXBlLnRvcFN0YXJ0LnRvUHgoc2l6ZVB4LCB0aGlzKQogICAgdmFsIGJvdHRvbVJpZ2h0ID0gaWYgKGlzTHRyKSBjb3JuZXJTaGFwZS5ib3R0b21FbmQudG9QeChzaXplUHgsIHRoaXMpIGVsc2UgY29ybmVyU2hhcGUuYm90dG9tU3RhcnQudG9QeChzaXplUHgsIHRoaXMpCiAgICB2YWwgYm90dG9tTGVmdCA9IGlmIChpc0x0cikgY29ybmVyU2hhcGUuYm90dG9tU3RhcnQudG9QeChzaXplUHgsIHRoaXMpIGVsc2UgY29ybmVyU2hhcGUuYm90dG9tRW5kLnRvUHgoc2l6ZVB4LCB0aGlzKQogICAgcmV0dXJuIGZsb2F0QXJyYXlPZigKICAgICAgICB0b3BMZWZ0LmZhc3RDb2VyY2VBdE1vc3QobWF4UmFkaXVzKSwKICAgICAgICB0b3BSaWdodC5mYXN0Q29lcmNlQXRNb3N0KG1heFJhZGl1cyksCiAgICAgICAgYm90dG9tUmlnaHQuZmFzdENvZXJjZUF0TW9zdChtYXhSYWRpdXMpLAogICAgICAgIGJvdHRvbUxlZnQuZmFzdENvZXJjZUF0TW9zdChtYXhSYWRpdXMpLAogICAgKQp9Cgpwcml2YXRlIGNvbnN0IHZhbCBST1VOREVEX1JFQ1RfU0RGID0gIiIiCmZsb2F0IHJhZGl1c0F0KGZsb2F0MiBjb29yZCwgZmxvYXQ0IHJhZGlpKSB7CiAgICBpZiAoY29vcmQueCA+PSAwLjApIHsKICAgICAgICBpZiAoY29vcmQueSA8PSAwLjApIHJldHVybiByYWRpaS55OwogICAgICAgIGVsc2UgcmV0dXJuIHJhZGlpLno7CiAgICB9IGVsc2UgewogICAgICAgIGlmIChjb29yZC55IDw9IDAuMCkgcmV0dXJuIHJhZGlpLng7CiAgICAgICAgZWxzZSByZXR1cm4gcmFkaWkudzsKICAgIH0KfQoKZmxvYXQgc2RSb3VuZGVkUmVjdChmbG9hdDIgY29vcmQsIGZsb2F0MiBoYWxmU2l6ZSwgZmxvYXQgcmFkaXVzKSB7CiAgICBmbG9hdDIgY29ybmVyQ29vcmQgPSBhYnMoY29vcmQpIC0gKGhhbGZTaXplIC0gZmxvYXQyKHJhZGl1cykpOwogICAgZmxvYXQgb3V0c2lkZSA9IGxlbmd0aChtYXgoY29ybmVyQ29vcmQsIDAuMCkpIC0gcmFkaXVzOwogICAgZmxvYXQgaW5zaWRlID0gbWluKG1heChjb3JuZXJDb29yZC54LCBjb3JuZXJDb29yZC55KSwgMC4wKTsKICAgIHJldHVybiBvdXRzaWRlICsgaW5zaWRlOwp9CgpmbG9hdDIgZ3JhZFNkUm91bmRlZFJlY3QoZmxvYXQyIGNvb3JkLCBmbG9hdDIgaGFsZlNpemUsIGZsb2F0IHJhZGl1cykgewogICAgZmxvYXQyIGNvcm5lckNvb3JkID0gYWJzKGNvb3JkKSAtIChoYWxmU2l6ZSAtIGZsb2F0MihyYWRpdXMpKTsKICAgIGlmIChjb3JuZXJDb29yZC54ID49IDAuMCB8fCBjb3JuZXJDb29yZC55ID49IDAuMCkgewogICAgICAgIHJldHVybiBzaWduKGNvb3JkKSAqIG5vcm1hbGl6ZShtYXgoY29ybmVyQ29vcmQsIDAuMCkpOwogICAgfSBlbHNlIHsKICAgICAgICBmbG9hdCBncmFkWCA9IHN0ZXAoY29ybmVyQ29vcmQueSwgY29ybmVyQ29vcmQueCk7CiAgICAgICAgcmV0dXJuIHNpZ24oY29vcmQpICogZmxvYXQyKGdyYWRYLCAxLjAgLSBncmFkWCk7CiAgICB9Cn0KIiIiCgpwcml2YXRlIGNvbnN0IHZhbCBST1VOREVEX1JFQ1RfUkVGUkFDVElPTl9TSEFERVIgPSAiIiIKdW5pZm9ybSBzaGFkZXIgY29udGVudDsKCnVuaWZvcm0gZmxvYXQyIHNpemU7CnVuaWZvcm0gZmxvYXQyIG9mZnNldDsKdW5pZm9ybSBmbG9hdDQgY29ybmVyUmFkaWk7CnVuaWZvcm0gZmxvYXQgcmVmcmFjdGlvbkhlaWdodDsKdW5pZm9ybSBmbG9hdCByZWZyYWN0aW9uQW1vdW50Owp1bmlmb3JtIGZsb2F0IGRlcHRoRWZmZWN0OwoKJFJPVU5ERURfUkVDVF9TREYKCmZsb2F0IGNpcmNsZU1hcChmbG9hdCB4KSB7CiAgICByZXR1cm4gMS4wIC0gc3FydCgxLjAgLSB4ICogeCk7Cn0KCmhhbGY0IG1haW4oZmxvYXQyIGNvb3JkKSB7CiAgICBmbG9hdDIgaGFsZlNpemUgPSBzaXplICogMC41OwogICAgZmxvYXQyIGNlbnRlcmVkQ29vcmQgPSAoY29vcmQgKyBvZmZzZXQpIC0gaGFsZlNpemU7CiAgICBmbG9hdCByYWRpdXMgPSByYWRpdXNBdChjZW50ZXJlZENvb3JkLCBjb3JuZXJSYWRpaSk7CgogICAgZmxvYXQgc2QgPSBzZFJvdW5kZWRSZWN0KGNlbnRlcmVkQ29vcmQsIGhhbGZTaXplLCByYWRpdXMpOwogICAgaWYgKC1zZCA+PSByZWZyYWN0aW9uSGVpZ2h0KSB7CiAgICAgICAgcmV0dXJuIGNvbnRlbnQuZXZhbChjb29yZCk7CiAgICB9CiAgICBzZCA9IG1pbihzZCwgMC4wKTsKCiAgICBmbG9hdCBkID0gY2lyY2xlTWFwKDEuMCAtIC1zZCAvIHJlZnJhY3Rpb25IZWlnaHQpICogcmVmcmFjdGlvbkFtb3VudDsKICAgIGZsb2F0IGdyYWRSYWRpdXMgPSBtaW4ocmFkaXVzICogMS41LCBtaW4oaGFsZlNpemUueCwgaGFsZlNpemUueSkpOwogICAgZmxvYXQyIGdyYWQgPSBub3JtYWxpemUoZ3JhZFNkUm91bmRlZFJlY3QoY2VudGVyZWRDb29yZCwgaGFsZlNpemUsIGdyYWRSYWRpdXMpICsgZGVwdGhFZmZlY3QgKiBub3JtYWxpemUoY2VudGVyZWRDb29yZCkpOwoKICAgIGZsb2F0MiByZWZyYWN0ZWRDb29yZCA9IGNvb3JkICsgZCAqIGdyYWQ7CiAgICByZXR1cm4gY29udGVudC5ldmFsKHJlZnJhY3RlZENvb3JkKTsKfQoiIiIKCnByaXZhdGUgY29uc3QgdmFsIFJPVU5ERURfUkVDVF9SRUZSQUNUSU9OX1dJVEhfRElTUEVSU0lPTl9TSEFERVIgPSAiIiIKdW5pZm9ybSBzaGFkZXIgY29udGVudDsKCnVuaWZvcm0gZmxvYXQyIHNpemU7CnVuaWZvcm0gZmxvYXQyIG9mZnNldDsKdW5pZm9ybSBmbG9hdDQgY29ybmVyUmFkaWk7CnVuaWZvcm0gZmxvYXQgcmVmcmFjdGlvbkhlaWdodDsKdW5pZm9ybSBmbG9hdCByZWZyYWN0aW9uQW1vdW50Owp1bmlmb3JtIGZsb2F0IGRlcHRoRWZmZWN0Owp1bmlmb3JtIGZsb2F0IGNocm9tYXRpY0FiZXJyYXRpb247CgokUk9VTkRFRF9SRUNUX1NERgoKZmxvYXQgY2lyY2xlTWFwKGZsb2F0IHgpIHsKICAgIHJldHVybiAxLjAgLSBzcXJ0KDEuMCAtIHggKiB4KTsKfQoKaGFsZjQgbWFpbihmbG9hdDIgY29vcmQpIHsKICAgIGZsb2F0MiBoYWxmU2l6ZSA9IHNpemUgKiAwLjU7CiAgICBmbG9hdDIgY2VudGVyZWRDb29yZCA9IChjb29yZCArIG9mZnNldCkgLSBoYWxmU2l6ZTsKICAgIGZsb2F0IHJhZGl1cyA9IHJhZGl1c0F0KGNlbnRlcmVkQ29vcmQsIGNvcm5lclJhZGlpKTsKCiAgICBmbG9hdCBzZCA9IHNkUm91bmRlZFJlY3QoY2VudGVyZWRDb29yZCwgaGFsZlNpemUsIHJhZGl1cyk7CiAgICBpZiAoLXNkID49IHJlZnJhY3Rpb25IZWlnaHQpIHsKICAgICAgICByZXR1cm4gY29udGVudC5ldmFsKGNvb3JkKTsKICAgIH0KICAgIHNkID0gbWluKHNkLCAwLjApOwoKICAgIGZsb2F0IGQgPSBjaXJjbGVNYXAoMS4wIC0gLXNkIC8gcmVmcmFjdGlvbkhlaWdodCkgKiByZWZyYWN0aW9uQW1vdW50OwogICAgZmxvYXQgZ3JhZFJhZGl1cyA9IG1pbihyYWRpdXMgKiAxLjUsIG1pbihoYWxmU2l6ZS54LCBoYWxmU2l6ZS55KSk7CiAgICBmbG9hdDIgZ3JhZCA9IG5vcm1hbGl6ZShncmFkU2RSb3VuZGVkUmVjdChjZW50ZXJlZENvb3JkLCBoYWxmU2l6ZSwgZ3JhZFJhZGl1cykgKyBkZXB0aEVmZmVjdCAqIG5vcm1hbGl6ZShjZW50ZXJlZENvb3JkKSk7CgogICAgZmxvYXQyIHJlZnJhY3RlZENvb3JkID0gY29vcmQgKyBkICogZ3JhZDsKICAgIGZsb2F0IGRpc3BlcnNpb25JbnRlbnNpdHkgPSBjaHJvbWF0aWNBYmVycmF0aW9uICogKChjZW50ZXJlZENvb3JkLnggKiBjZW50ZXJlZENvb3JkLnkpIC8gKGhhbGZTaXplLnggKiBoYWxmU2l6ZS55KSk7CiAgICBmbG9hdDIgZGlzcGVyc2VkQ29vcmQgPSBkICogZ3JhZCAqIGRpc3BlcnNpb25JbnRlbnNpdHk7CgogICAgaGFsZjQgY29sb3IgPSBoYWxmNCgwLjApOwoKICAgIGhhbGY0IHJlZCA9IGNvbnRlbnQuZXZhbChyZWZyYWN0ZWRDb29yZCArIGRpc3BlcnNlZENvb3JkKTsKICAgIGNvbG9yLnIgKz0gcmVkLnIgLyAzLjU7CiAgICBjb2xvci5hICs9IHJlZC5hIC8gNy4wOwoKICAgIGhhbGY0IG9yYW5nZSA9IGNvbnRlbnQuZXZhbChyZWZyYWN0ZWRDb29yZCArIGRpc3BlcnNlZENvb3JkICogKDIuMCAvIDMuMCkpOwogICAgY29sb3IuciArPSBvcmFuZ2UuciAvIDMuNTsKICAgIGNvbG9yLmcgKz0gb3JhbmdlLmcgLyA3LjA7CiAgICBjb2xvci5hICs9IG9yYW5nZS5hIC8gNy4wOwoKICAgIGhhbGY0IHllbGxvdyA9IGNvbnRlbnQuZXZhbChyZWZyYWN0ZWRDb29yZCArIGRpc3BlcnNlZENvb3JkICogKDEuMCAvIDMuMCkpOwogICAgY29sb3IuciArPSB5ZWxsb3cuciAvIDMuNTsKICAgIGNvbG9yLmcgKz0geWVsbG93LmcgLyAzLjU7CiAgICBjb2xvci5hICs9IHllbGxvdy5hIC8gNy4wOwoKICAgIGhhbGY0IGdyZWVuID0gY29udGVudC5ldmFsKHJlZnJhY3RlZENvb3JkKTsKICAgIGNvbG9yLmcgKz0gZ3JlZW4uZyAvIDMuNTsKICAgIGNvbG9yLmEgKz0gZ3JlZW4uYSAvIDcuMDsKCiAgICBoYWxmNCBjeWFuID0gY29udGVudC5ldmFsKHJlZnJhY3RlZENvb3JkIC0gZGlzcGVyc2VkQ29vcmQgKiAoMS4wIC8gMy4wKSk7CiAgICBjb2xvci5nICs9IGN5YW4uZyAvIDMuNTsKICAgIGNvbG9yLmIgKz0gY3lhbi5iIC8gMy4wOwogICAgY29sb3IuYSArPSBjeWFuLmEgLyA3LjA7CgogICAgaGFsZjQgYmx1ZSA9IGNvbnRlbnQuZXZhbChyZWZyYWN0ZWRDb29yZCAtIGRpc3BlcnNlZENvb3JkICogKDIuMCAvIDMuMCkpOwogICAgY29sb3IuYiArPSBibHVlLmIgLyAzLjA7CiAgICBjb2xvci5hICs9IGJsdWUuYSAvIDcuMDsKCiAgICBoYWxmNCBwdXJwbGUgPSBjb250ZW50LmV2YWwocmVmcmFjdGVkQ29vcmQgLSBkaXNwZXJzZWRDb29yZCk7CiAgICBjb2xvci5yICs9IHB1cnBsZS5yIC8gNy4wOwogICAgY29sb3IuYiArPSBwdXJwbGUuYiAvIDMuMDsKICAgIGNvbG9yLmEgKz0gcHVycGxlLmEgLyA3LjA7CgogICAgcmV0dXJuIGNvbG9yOwp9CiIiIgo=
+// Adapted from Kyant0/AndroidLiquidGlass (Apache 2.0)
+// via KernelSU ui/component/liquid/Lens.kt — 原样移植。
+// 这就是「液态玻璃」的折射部分：用 SDF 算圆角矩形，在边缘做圆形映射的位移采样。
+
+package org.linbaogu.romhub.ui.liquid
+
+import androidx.compose.foundation.shape.CornerBasedShape
+import androidx.compose.ui.unit.LayoutDirection
+import androidx.compose.ui.util.fastCoerceAtMost
+import top.yukonga.miuix.kmp.blur.BackdropEffectScope
+import top.yukonga.miuix.kmp.blur.isRuntimeShaderSupported
+import top.yukonga.miuix.kmp.blur.runtimeShaderEffect
+
+fun BackdropEffectScope.lens(
+    refractionHeight: Float,
+    refractionAmount: Float,
+    depthEffect: Boolean = false,
+    chromaticAberration: Float = 0f,
+) {
+    if (!isRuntimeShaderSupported()) return
+    if (refractionHeight <= 0f || refractionAmount <= 0f) return
+
+    if (padding < refractionAmount) {
+        padding = refractionAmount
+    }
+
+    val radii = roundedRectCornerRadii() ?: return
+
+    val dispersionEnabled = chromaticAberration > 0f
+    val shaderString =
+        if (dispersionEnabled) {
+            ROUNDED_RECT_REFRACTION_WITH_DISPERSION_SHADER
+        } else {
+            ROUNDED_RECT_REFRACTION_SHADER
+        }
+    val key = if (dispersionEnabled) "LiquidGlassLensDispersion" else "LiquidGlassLens"
+
+    val sf = downscaleFactor.coerceAtLeast(1).toFloat()
+    val scaledSizeW = size.width / sf
+    val scaledSizeH = size.height / sf
+    val scaledPadding = padding / sf
+    val scaledRefractionHeight = refractionHeight / sf
+    val scaledRefractionAmount = refractionAmount / sf
+    val scaledRadii = FloatArray(radii.size) { radii[it] / sf }
+
+    runtimeShaderEffect(
+        key = key,
+        shaderString = shaderString,
+        uniformShaderName = "content",
+    ) {
+        setFloatUniform("size", scaledSizeW, scaledSizeH)
+        setFloatUniform("offset", -scaledPadding, -scaledPadding)
+        setFloatUniform("cornerRadii", scaledRadii)
+        setFloatUniform("refractionHeight", scaledRefractionHeight)
+        setFloatUniform("refractionAmount", -scaledRefractionAmount)
+        setFloatUniform("depthEffect", if (depthEffect) 1f else 0f)
+        if (dispersionEnabled) {
+            setFloatUniform("chromaticAberration", chromaticAberration)
+        }
+    }
+}
+
+private fun BackdropEffectScope.roundedRectCornerRadii(): FloatArray? {
+    val cornerShape = shape as? CornerBasedShape ?: return null
+    val sizePx = size
+    val maxRadius = sizePx.minDimension / 2f
+    val isLtr = layoutDirection == LayoutDirection.Ltr
+    val topLeft = if (isLtr) cornerShape.topStart.toPx(sizePx, this) else cornerShape.topEnd.toPx(sizePx, this)
+    val topRight = if (isLtr) cornerShape.topEnd.toPx(sizePx, this) else cornerShape.topStart.toPx(sizePx, this)
+    val bottomRight = if (isLtr) cornerShape.bottomEnd.toPx(sizePx, this) else cornerShape.bottomStart.toPx(sizePx, this)
+    val bottomLeft = if (isLtr) cornerShape.bottomStart.toPx(sizePx, this) else cornerShape.bottomEnd.toPx(sizePx, this)
+    return floatArrayOf(
+        topLeft.fastCoerceAtMost(maxRadius),
+        topRight.fastCoerceAtMost(maxRadius),
+        bottomRight.fastCoerceAtMost(maxRadius),
+        bottomLeft.fastCoerceAtMost(maxRadius),
+    )
+}
+
+private const val ROUNDED_RECT_SDF = """
+float radiusAt(float2 coord, float4 radii) {
+    if (coord.x >= 0.0) {
+        if (coord.y <= 0.0) return radii.y;
+        else return radii.z;
+    } else {
+        if (coord.y <= 0.0) return radii.x;
+        else return radii.w;
+    }
+}
+
+float sdRoundedRect(float2 coord, float2 halfSize, float radius) {
+    float2 cornerCoord = abs(coord) - (halfSize - float2(radius));
+    float outside = length(max(cornerCoord, 0.0)) - radius;
+    float inside = min(max(cornerCoord.x, cornerCoord.y), 0.0);
+    return outside + inside;
+}
+
+float2 gradSdRoundedRect(float2 coord, float2 halfSize, float radius) {
+    float2 cornerCoord = abs(coord) - (halfSize - float2(radius));
+    if (cornerCoord.x >= 0.0 || cornerCoord.y >= 0.0) {
+        return sign(coord) * normalize(max(cornerCoord, 0.0));
+    } else {
+        float gradX = step(cornerCoord.y, cornerCoord.x);
+        return sign(coord) * float2(gradX, 1.0 - gradX);
+    }
+}
+"""
+
+private const val ROUNDED_RECT_REFRACTION_SHADER = """
+uniform shader content;
+
+uniform float2 size;
+uniform float2 offset;
+uniform float4 cornerRadii;
+uniform float refractionHeight;
+uniform float refractionAmount;
+uniform float depthEffect;
+
+$ROUNDED_RECT_SDF
+
+float circleMap(float x) {
+    return 1.0 - sqrt(1.0 - x * x);
+}
+
+half4 main(float2 coord) {
+    float2 halfSize = size * 0.5;
+    float2 centeredCoord = (coord + offset) - halfSize;
+    float radius = radiusAt(centeredCoord, cornerRadii);
+
+    float sd = sdRoundedRect(centeredCoord, halfSize, radius);
+    if (-sd >= refractionHeight) {
+        return content.eval(coord);
+    }
+    sd = min(sd, 0.0);
+
+    float d = circleMap(1.0 - -sd / refractionHeight) * refractionAmount;
+    float gradRadius = min(radius * 1.5, min(halfSize.x, halfSize.y));
+    float2 grad = normalize(gradSdRoundedRect(centeredCoord, halfSize, gradRadius) + depthEffect * normalize(centeredCoord));
+
+    float2 refractedCoord = coord + d * grad;
+    return content.eval(refractedCoord);
+}
+"""
+
+private const val ROUNDED_RECT_REFRACTION_WITH_DISPERSION_SHADER = """
+uniform shader content;
+
+uniform float2 size;
+uniform float2 offset;
+uniform float4 cornerRadii;
+uniform float refractionHeight;
+uniform float refractionAmount;
+uniform float depthEffect;
+uniform float chromaticAberration;
+
+$ROUNDED_RECT_SDF
+
+float circleMap(float x) {
+    return 1.0 - sqrt(1.0 - x * x);
+}
+
+half4 main(float2 coord) {
+    float2 halfSize = size * 0.5;
+    float2 centeredCoord = (coord + offset) - halfSize;
+    float radius = radiusAt(centeredCoord, cornerRadii);
+
+    float sd = sdRoundedRect(centeredCoord, halfSize, radius);
+    if (-sd >= refractionHeight) {
+        return content.eval(coord);
+    }
+    sd = min(sd, 0.0);
+
+    float d = circleMap(1.0 - -sd / refractionHeight) * refractionAmount;
+    float gradRadius = min(radius * 1.5, min(halfSize.x, halfSize.y));
+    float2 grad = normalize(gradSdRoundedRect(centeredCoord, halfSize, gradRadius) + depthEffect * normalize(centeredCoord));
+
+    float2 refractedCoord = coord + d * grad;
+    float dispersionIntensity = chromaticAberration * ((centeredCoord.x * centeredCoord.y) / (halfSize.x * halfSize.y));
+    float2 dispersedCoord = d * grad * dispersionIntensity;
+
+    half4 color = half4(0.0);
+
+    half4 red = content.eval(refractedCoord + dispersedCoord);
+    color.r += red.r / 3.5;
+    color.a += red.a / 7.0;
+
+    half4 orange = content.eval(refractedCoord + dispersedCoord * (2.0 / 3.0));
+    color.r += orange.r / 3.5;
+    color.g += orange.g / 7.0;
+    color.a += orange.a / 7.0;
+
+    half4 yellow = content.eval(refractedCoord + dispersedCoord * (1.0 / 3.0));
+    color.r += yellow.r / 3.5;
+    color.g += yellow.g / 3.5;
+    color.a += yellow.a / 7.0;
+
+    half4 green = content.eval(refractedCoord);
+    color.g += green.g / 3.5;
+    color.a += green.a / 7.0;
+
+    half4 cyan = content.eval(refractedCoord - dispersedCoord * (1.0 / 3.0));
+    color.g += cyan.g / 3.5;
+    color.b += cyan.b / 3.0;
+    color.a += cyan.a / 7.0;
+
+    half4 blue = content.eval(refractedCoord - dispersedCoord * (2.0 / 3.0));
+    color.b += blue.b / 3.0;
+    color.a += blue.a / 7.0;
+
+    half4 purple = content.eval(refractedCoord - dispersedCoord);
+    color.r += purple.r / 7.0;
+    color.b += purple.b / 3.0;
+    color.a += purple.a / 7.0;
+
+    return color;
+}
+"""

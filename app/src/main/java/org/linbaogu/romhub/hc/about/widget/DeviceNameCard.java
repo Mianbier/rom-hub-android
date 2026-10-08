@@ -1,1 +1,79 @@
-LyoKICogVGhpcyBmaWxlIGlzIHBhcnQgb2YgUk9NIEh1YiwgcmVsZWFzZWQgdW5kZXIgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSB2My4wLgogKgogKiDmnKzmlofku7bnp7vmpI0gLyDmlLnlhpnoh6ogSHlwZXJDZWlsZXLvvIhBR1BMLTMuMO+8jENvcHlyaWdodCAoQykgMjAyMy0yMDI2IEh5cGVyQ2VpbGVyCiAqIENvbnRyaWJ1dGlvbnPvvInvvIzmiJbkuLrlhbbnrYnku7fmm7/ouqvlrp7njrAg4oCU4oCUIOWujOaVtOadpea6kOS4jum4o+iwouingemhueebruagueebruW9lSBOT1RJQ0UubWTjgIIKICoKICogVGhpcyBwcm9ncmFtIGlzIGZyZWUgc29mdHdhcmU6IHlvdSBjYW4gcmVkaXN0cmlidXRlIGl0IGFuZC9vciBtb2RpZnkgaXQgdW5kZXIgdGhlIHRlcm1zCiAqIG9mIHRoZSBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UgYXMgcHVibGlzaGVkIGJ5IHRoZSBGcmVlIFNvZnR3YXJlIEZvdW5kYXRpb24sCiAqIGVpdGhlciB2ZXJzaW9uIDMgb2YgdGhlIExpY2Vuc2UuCiAqCiAqIFRoaXMgcHJvZ3JhbSBpcyBkaXN0cmlidXRlZCBpbiB0aGUgaG9wZSB0aGF0IGl0IHdpbGwgYmUgdXNlZnVsLCBidXQgV0lUSE9VVCBBTlkgV0FSUkFOVFk7CiAqIHdpdGhvdXQgZXZlbiB0aGUgaW1wbGllZCB3YXJyYW50eSBvZiBNRVJDSEFOVEFCSUxJVFkgb3IgRklUTkVTUyBGT1IgQSBQQVJUSUNVTEFSIFBVUlBPU0UuCiAqIFNlZSB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGZvciBtb3JlIGRldGFpbHMuCiAqCiAqIFlvdSBzaG91bGQgaGF2ZSByZWNlaXZlZCBhIGNvcHkgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBhbG9uZyB3aXRoIHRoaXMKICogcHJvZ3JhbS4gIElmIG5vdCwgc2VlIDxodHRwczovL3d3dy5nbnUub3JnL2xpY2Vuc2VzLz4uCiAqLwoKcGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLmhjLmFib3V0LndpZGdldDsKCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dDsKaW1wb3J0IGFuZHJvaWQucHJvdmlkZXIuU2V0dGluZ3M7CmltcG9ydCBhbmRyb2lkLnRleHQuVGV4dFV0aWxzOwppbXBvcnQgYW5kcm9pZC51dGlsLkF0dHJpYnV0ZVNldDsKaW1wb3J0IGFuZHJvaWQudmlldy5MYXlvdXRJbmZsYXRlcjsKaW1wb3J0IGFuZHJvaWQudmlldy5WaWV3OwppbXBvcnQgYW5kcm9pZC53aWRnZXQuRnJhbWVMYXlvdXQ7CmltcG9ydCBhbmRyb2lkLndpZGdldC5UZXh0VmlldzsKCmltcG9ydCBhbmRyb2lkeC5hbm5vdGF0aW9uLk5vbk51bGw7CmltcG9ydCBhbmRyb2lkeC5hbm5vdGF0aW9uLk51bGxhYmxlOwppbXBvcnQgYW5kcm9pZHguY29yZS52aWV3LlZpZXdDb21wYXQ7CgppbXBvcnQgb3JnLmxpbmJhb2d1LnJvbWh1Yi5SOwppbXBvcnQgb3JnLmxpbmJhb2d1LnJvbWh1Yi5oYy51dGlsLkxhcmdlRm9udFV0aWxzOwoKcHVibGljIGNsYXNzIERldmljZU5hbWVDYXJkIGV4dGVuZHMgRnJhbWVMYXlvdXQgaW1wbGVtZW50cyBWaWV3Lk9uQ2xpY2tMaXN0ZW5lciB7CgogICAgcHJpdmF0ZSBUZXh0VmlldyBtRGV2aWNlTmFtZVRleHQ7CgogICAgcHVibGljIERldmljZU5hbWVDYXJkKEBOb25OdWxsIENvbnRleHQgY29udGV4dCkgewogICAgICAgIHN1cGVyKGNvbnRleHQpOwogICAgICAgIGluaXRWaWV3KCk7CiAgICB9CgogICAgcHVibGljIERldmljZU5hbWVDYXJkKEBOb25OdWxsIENvbnRleHQgY29udGV4dCwgQE51bGxhYmxlIEF0dHJpYnV0ZVNldCBhdHRycykgewogICAgICAgIHN1cGVyKGNvbnRleHQsIGF0dHJzKTsKICAgICAgICBpbml0VmlldygpOwogICAgfQoKICAgIHByaXZhdGUgdm9pZCBpbml0VmlldygpIHsKICAgICAgICBMYXlvdXRJbmZsYXRlci5mcm9tKGdldENvbnRleHQoKSkuaW5mbGF0ZShSLmxheW91dC5hcHBfZGV2aWNlX2luZm9faXRlbSwgdGhpcywgdHJ1ZSk7CiAgICAgICAgKChUZXh0VmlldykgZmluZFZpZXdCeUlkKFIuaWQudGl0bGUpKS5zZXRUZXh0KGdldFJlc291cmNlcygpLmdldFN0cmluZyhSLnN0cmluZy5kZXZpY2VfbmFtZSkpOwogICAgICAgIG1EZXZpY2VOYW1lVGV4dCA9IGZpbmRWaWV3QnlJZChSLmlkLnN1bW1hcnkpOwogICAgICAgIGlmIChtRGV2aWNlTmFtZVRleHQgIT0gbnVsbCAmJiBMYXJnZUZvbnRVdGlscy5pc0xhcmdlRm9udExldmVsKGdldENvbnRleHQoKSkpIHsKICAgICAgICAgICAgbURldmljZU5hbWVUZXh0LnNldE1heExpbmVzKDIpOwogICAgICAgICAgICBpZiAoVmlld0NvbXBhdC5nZXRMYXlvdXREaXJlY3Rpb24obURldmljZU5hbWVUZXh0KSA9PSBWaWV3Q29tcGF0LkxBWU9VVF9ESVJFQ1RJT05fUlRMKSB7CiAgICAgICAgICAgICAgICBtRGV2aWNlTmFtZVRleHQuc2V0R3Jhdml0eSg4Mzg4NjEzKTsKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIG1EZXZpY2VOYW1lVGV4dC5zZXRHcmF2aXR5KDApOwogICAgICAgICAgICB9CiAgICAgICAgICAgIG1EZXZpY2VOYW1lVGV4dC5zZXRUZXh0QWxpZ25tZW50KFZpZXcuVEVYVF9BTElHTk1FTlRfVklFV19TVEFSVCk7CiAgICAgICAgfQogICAgICAgIHJlZnJlc2hEZXZpY2VOYW1lKCk7CiAgICAgICAgc2V0T25DbGlja0xpc3RlbmVyKHRoaXMpOwogICAgfQoKICAgIHB1YmxpYyB2b2lkIHJlZnJlc2hEZXZpY2VOYW1lKCkgewogICAgICAgIFN0cmluZyBkZXZpY2VOYW1lID0gU2V0dGluZ3MuR2xvYmFsLmdldFN0cmluZyhnZXRDb250ZXh0KCkuZ2V0Q29udGVudFJlc29sdmVyKCksICJkZXZpY2VfbmFtZSIpOwogICAgICAgIGlmICghVGV4dFV0aWxzLmlzRW1wdHkoZGV2aWNlTmFtZSkgJiYgbURldmljZU5hbWVUZXh0ICE9IG51bGwpIHsKICAgICAgICAgICAgbURldmljZU5hbWVUZXh0LnNldFRleHQoZGV2aWNlTmFtZSk7CiAgICAgICAgfQogICAgfQoKICAgIEBPdmVycmlkZQogICAgcHVibGljIHZvaWQgb25DbGljayhWaWV3IHYpIHsKCiAgICB9Cn0K
+/*
+ * This file is part of ROM Hub, released under the GNU Affero General Public License v3.0.
+ *
+ * 本文件移植 / 改写自 HyperCeiler（AGPL-3.0，Copyright (C) 2023-2026 HyperCeiler
+ * Contributions），或为其等价替身实现 —— 完整来源与鸣谢见项目根目录 NOTICE.md。
+ *
+ * This program is free software: you can redistribute it and/or modify it under the terms
+ * of the GNU Affero General Public License as published by the Free Software Foundation,
+ * either version 3 of the License.
+ *
+ * This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+ * without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * See the GNU Affero General Public License for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License along with this
+ * program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
+package org.linbaogu.romhub.hc.about.widget;
+
+import android.content.Context;
+import android.provider.Settings;
+import android.text.TextUtils;
+import android.util.AttributeSet;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.widget.FrameLayout;
+import android.widget.TextView;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.core.view.ViewCompat;
+
+import org.linbaogu.romhub.R;
+import org.linbaogu.romhub.hc.util.LargeFontUtils;
+
+public class DeviceNameCard extends FrameLayout implements View.OnClickListener {
+
+    private TextView mDeviceNameText;
+
+    public DeviceNameCard(@NonNull Context context) {
+        super(context);
+        initView();
+    }
+
+    public DeviceNameCard(@NonNull Context context, @Nullable AttributeSet attrs) {
+        super(context, attrs);
+        initView();
+    }
+
+    private void initView() {
+        LayoutInflater.from(getContext()).inflate(R.layout.app_device_info_item, this, true);
+        ((TextView) findViewById(R.id.title)).setText(getResources().getString(R.string.device_name));
+        mDeviceNameText = findViewById(R.id.summary);
+        if (mDeviceNameText != null && LargeFontUtils.isLargeFontLevel(getContext())) {
+            mDeviceNameText.setMaxLines(2);
+            if (ViewCompat.getLayoutDirection(mDeviceNameText) == ViewCompat.LAYOUT_DIRECTION_RTL) {
+                mDeviceNameText.setGravity(8388613);
+            } else {
+                mDeviceNameText.setGravity(0);
+            }
+            mDeviceNameText.setTextAlignment(View.TEXT_ALIGNMENT_VIEW_START);
+        }
+        refreshDeviceName();
+        setOnClickListener(this);
+    }
+
+    public void refreshDeviceName() {
+        String deviceName = Settings.Global.getString(getContext().getContentResolver(), "device_name");
+        if (!TextUtils.isEmpty(deviceName) && mDeviceNameText != null) {
+            mDeviceNameText.setText(deviceName);
+        }
+    }
+
+    @Override
+    public void onClick(View v) {
+
+    }
+}

@@ -1,1 +1,35 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLQogIOW8leWvvOa1geeoi+OAjOeZu+W9leOAjemhteeahOWGheWuueWMuuOAggogIOWkluWjs++8iOi/lOWbnueureWktCAvIOmihOiniOWbviAvIOagh+mimCAvIOW6lemDqOiTneiJsuaMiemSrue7hO+8ieeUsSBmYW4ucHJvdmlzaW9uLlByb3Zpc2lvbkJhc2VBY3Rpdml0eQogIOe7n+S4gOaPkOS+myDigJTigJQg5ZKM5p2D6ZmQ6aG144CB5Y2P6K6u6aG144CB5Z+656GA6K6+572u6aG15piv5ZCM5LiA5aWX6aqo5p6277yM5omA5Lul6KeC5oSf5ZKM5a6D5Lus5a6M5YWo5LiA6Ie044CCCiAg6L+Z6YeM5Y+q5pS+5Lit6Ze06YKj5Z2X6KGo5Y2V77ya55SoIENvbXBvc2UgKyBNaXVpeCDnmoQgVGV4dEZpZWxk77yI5bCx5pivIEh5cGVyT1Mg6YKj5aWX6L6T5YWl5qGG77yJ44CCCi0tPgo8U2Nyb2xsVmlldyB4bWxuczphbmRyb2lkPSJodHRwOi8vc2NoZW1hcy5hbmRyb2lkLmNvbS9hcGsvcmVzL2FuZHJvaWQiCiAgICBhbmRyb2lkOmxheW91dF93aWR0aD0ibWF0Y2hfcGFyZW50IgogICAgYW5kcm9pZDpsYXlvdXRfaGVpZ2h0PSJtYXRjaF9wYXJlbnQiCiAgICBhbmRyb2lkOmZpbGxWaWV3cG9ydD0idHJ1ZSI+CgogICAgPExpbmVhckxheW91dAogICAgICAgIGFuZHJvaWQ6bGF5b3V0X3dpZHRoPSJtYXRjaF9wYXJlbnQiCiAgICAgICAgYW5kcm9pZDpsYXlvdXRfaGVpZ2h0PSJ3cmFwX2NvbnRlbnQiCiAgICAgICAgYW5kcm9pZDpvcmllbnRhdGlvbj0idmVydGljYWwiCiAgICAgICAgYW5kcm9pZDpwYWRkaW5nSG9yaXpvbnRhbD0iQGRpbWVuL21pdWl4X3RoZW1lX3BhZGRpbmdfaG9yaXpvbnRhbF9jb21tb24iPgoKICAgICAgICA8VGV4dFZpZXcKICAgICAgICAgICAgc3R5bGU9IkBzdHlsZS9Qcm92aXNpb25MaXN0U2Vjb25kYXJ5VGV4dFN0eWxlIgogICAgICAgICAgICBhbmRyb2lkOmxheW91dF93aWR0aD0ibWF0Y2hfcGFyZW50IgogICAgICAgICAgICBhbmRyb2lkOmxheW91dF9oZWlnaHQ9IndyYXBfY29udGVudCIKICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfbWFyZ2luVG9wPSI4ZHAiCiAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X21hcmdpbkJvdHRvbT0iMTJkcCIKICAgICAgICAgICAgYW5kcm9pZDpwYWRkaW5nSG9yaXpvbnRhbD0iQGRpbWVuL21pdWl4X3RoZW1lX2NvbnRlbnRfcGFkZGluZ19ob3Jpem9udGFsX2NvbW1vbiIKICAgICAgICAgICAgYW5kcm9pZDp0ZXh0PSJAc3RyaW5nL3Byb3Zpc2lvbl9sb2dpbl9kZXNjIgogICAgICAgICAgICBhbmRyb2lkOnRleHRTaXplPSIxM3NwIiAvPgoKICAgICAgICA8YW5kcm9pZHguY29tcG9zZS51aS5wbGF0Zm9ybS5Db21wb3NlVmlldwogICAgICAgICAgICBhbmRyb2lkOmlkPSJAK2lkL2xvZ2luX2NvbXBvc2UiCiAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X3dpZHRoPSJtYXRjaF9wYXJlbnQiCiAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X2hlaWdodD0id3JhcF9jb250ZW50IiAvPgoKICAgIDwvTGluZWFyTGF5b3V0Pgo8L1Njcm9sbFZpZXc+Cg==
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  引导流程「登录」页的内容区。
+  外壳（返回箭头 / 预览图 / 标题 / 底部蓝色按钮组）由 fan.provision.ProvisionBaseActivity
+  统一提供 —— 和权限页、协议页、基础设置页是同一套骨架，所以观感和它们完全一致。
+  这里只放中间那块表单：用 Compose + Miuix 的 TextField（就是 HyperOS 那套输入框）。
+-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingHorizontal="@dimen/miuix_theme_padding_horizontal_common">
+
+        <TextView
+            style="@style/ProvisionListSecondaryTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="12dp"
+            android:paddingHorizontal="@dimen/miuix_theme_content_padding_horizontal_common"
+            android:text="@string/provision_login_desc"
+            android:textSize="13sp" />
+
+        <androidx.compose.ui.platform.ComposeView
+            android:id="@+id/login_compose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</ScrollView>

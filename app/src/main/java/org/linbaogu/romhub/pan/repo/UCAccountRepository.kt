@@ -1,1 +1,109 @@
-LyoKICogWXVuWCAo5LqR5p6QKSAtIEEgbmV0d29yayBkcml2ZSBzaGFyZS1saW5rIHBhcnNlciBhbmQgaGlnaC1zcGVlZCBkb3dubG9hZGVyIGZvciBBbmRyb2lkLgogKiBDb3B5cmlnaHQgKEMpIDIwMjYgQ1lRYXdhCiAqCiAqIFRoaXMgcHJvZ3JhbSBpcyBmcmVlIHNvZnR3YXJlOiB5b3UgY2FuIHJlZGlzdHJpYnV0ZSBpdCBhbmQvb3IgbW9kaWZ5CiAqIGl0IHVuZGVyIHRoZSB0ZXJtcyBvZiB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGFzIHB1Ymxpc2hlZCBieQogKiB0aGUgRnJlZSBTb2Z0d2FyZSBGb3VuZGF0aW9uLCBlaXRoZXIgdmVyc2lvbiAzIG9mIHRoZSBMaWNlbnNlLCBvcgogKiAoYXQgeW91ciBvcHRpb24pIGFueSBsYXRlciB2ZXJzaW9uLgogKgogKiBUaGlzIHByb2dyYW0gaXMgZGlzdHJpYnV0ZWQgaW4gdGhlIGhvcGUgdGhhdCBpdCB3aWxsIGJlIHVzZWZ1bCwKICogYnV0IFdJVEhPVVQgQU5ZIFdBUlJBTlRZOyB3aXRob3V0IGV2ZW4gdGhlIGltcGxpZWQgd2FycmFudHkgb2YKICogTUVSQ0hBTlRBQklMSVRZIG9yIEZJVE5FU1MgRk9SIEEgUEFSVElDVUxBUiBQVVJQT1NFLiAgU2VlIHRoZQogKiBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UgZm9yIG1vcmUgZGV0YWlscy4KICoKICogWW91IHNob3VsZCBoYXZlIHJlY2VpdmVkIGEgY29weSBvZiB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlCiAqIGFsb25nIHdpdGggdGhpcyBwcm9ncmFtLiAgSWYgbm90LCBzZWUgPGh0dHBzOi8vd3d3LmdudS5vcmcvbGljZW5zZXMvPi4KICovCgpwYWNrYWdlIG9yZy5saW5iYW9ndS5yb21odWIucGFuLnJlcG8KCmltcG9ydCBhbmRyb2lkLndlYmtpdC5Db29raWVNYW5hZ2VyCmltcG9ydCBvcmcubGluYmFvZ3Uucm9taHViLnBhbi5zdG9yZS5VQ0FjY291bnREYW8KaW1wb3J0IG9yZy5saW5iYW9ndS5yb21odWIucGFuLnN0b3JlLlVDQWNjb3VudEVudGl0eQppbXBvcnQgb3JnLmxpbmJhb2d1LnJvbWh1Yi5wYW4uVUNBcGkKaW1wb3J0IG9yZy5saW5iYW9ndS5yb21odWIucGFuLlVDQ29uc3RhbnRzCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuQ29yb3V0aW5lU2NvcGUKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5EaXNwYXRjaGVycwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLlN1cGVydmlzb3JKb2IKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93LkZsb3cKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5sYXVuY2gKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy53aXRoQ29udGV4dAoKLyoqCiAqIFVDIOi0puWPt+aVsOaNruS7k+W6k++8mlJvb20g5oyB5LmF5YyWICsg572R57uc6aqM6K+BICsgX19wdXVzIOS8muivneWIt+aWsO+8iOS4juWkuOWFi+WQjOa6kO+8jOS/ruWkjeWPlumTvi/nm7Tpk77ov4fmnJ/lpLHotKXvvInjgIIKICogX19wdXVzIOe6piAzIOWwj+aXtui/h+acn++8jOaYr+WPlumTvuaOpeWPo++8iC9maWxlL2Rvd25sb2FkIOetie+8ieW/hemhu+aQuuW4pueahOacieaViOS8muivneWtl+aute+8mwogKiDlj5bpk77liY3mg7DmgKfliLfmlrAgKyDlk43lupQgU2V0LUNvb2tpZSDoh6rliqjlm57lhpnlj4zkv53pmanjgIIKICovCmNsYXNzIFVDQWNjb3VudFJlcG9zaXRvcnkoCiAgICBwcml2YXRlIHZhbCBkYW86IFVDQWNjb3VudERhbywKICAgIHByaXZhdGUgdmFsIGFwaTogVUNBcGkKKSB7CgogICAgLyoqIOS4iuasoeS4u+WKqOWIt+aWsCBfX3B1dXMg55qE5pe26Ze05oiz77yI6L+b56iL5YaF77yb6Leo6L+b56iL6YeN5ZCv5ZCO6aaW5qyh5Y+W6ZO+5Lya5Zug6Ze06ZqU6LaF5pe26Kem5Y+R5Yi35paw77yJICovCiAgICBwcml2YXRlIHZhciBsYXN0UmVmcmVzaFRzID0gMEwKCiAgICAvKiogY29va2llU2luayDokL3lupPnlKjni6znq4vkvZznlKjln5/vvIjpnZ4gVUkg57q/56iL77yM6YG/5YWN6Zi75aGeIEFQSSDosIPnlKjpk77vvIkgKi8KICAgIHByaXZhdGUgdmFsIHNpbmtTY29wZSA9IENvcm91dGluZVNjb3BlKFN1cGVydmlzb3JKb2IoKSArIERpc3BhdGNoZXJzLklPKQoKICAgIGluaXQgewogICAgICAgIC8vIOavj+asoSBBUEkg5ZON5bqU6Iul5bimIFNldC1Db29raWXvvIhfX3B1dXMvX19wdXPvvInvvIzoh6rliqjlkIjlubblubbokL3lupPvvIzkv53mjIHkvJror53lp4vnu4jmlrDpspwKICAgICAgICBhcGkuY29va2llU2luayA9IHsgbWVyZ2VkIC0+CiAgICAgICAgICAgIHNpbmtTY29wZS5sYXVuY2ggewogICAgICAgICAgICAgICAgZGFvLmdldEFjY291bnQoKT8ubGV0IHsgYWNjIC0+CiAgICAgICAgICAgICAgICAgICAgaWYgKGFjYy5jb29raWUgIT0gbWVyZ2VkKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGRhby51cHNlcnQoYWNjLmNvcHkoY29va2llID0gbWVyZ2VkLCB1cGRhdGVkQXQgPSBTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKSkpCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIGZ1biBvYnNlcnZlQWNjb3VudCgpOiBGbG93PFVDQWNjb3VudEVudGl0eT8+ID0gZGFvLm9ic2VydmVBY2NvdW50KCkKCiAgICBzdXNwZW5kIGZ1biBnZXRBY2NvdW50KCk6IFVDQWNjb3VudEVudGl0eT8gPSBkYW8uZ2V0QWNjb3VudCgpCgogICAgLyoqCiAgICAgKiDov5Tlm57jgIzkv53or4EgX19wdXVzIOacqui/h+acn+OAjeeahCBDb29raWXvvIjlj5bpk74v5LiL6L295YmN6LCD55So77yJ77yaCiAgICAgKiAtIOi3neS4iuasoeWIt+aWsOi2hei/hyBQVVVTX1JFRlJFU0hfSU5URVJWQUxfTVMg5pe277yM5YWIIHJlZnJlc2hTZXNzaW9uIOWGjeiQveW6k++8mwogICAgICogLSDliLfmlrDlpLHotKXliJnlm57pgIDov5Tlm57lvZPliY0gQ29va2ll77yI5LiN6K6p5Y+W6ZO+L+S4i+i9veebtOaOpeW0qe+8ieOAggogICAgICovCiAgICBzdXNwZW5kIGZ1biBnZXRGcmVzaENvb2tpZSgpOiBTdHJpbmc/IHsKICAgICAgICB2YWwgYWNjID0gZGFvLmdldEFjY291bnQoKSA/OiByZXR1cm4gbnVsbAogICAgICAgIHZhbCBuZWVkID0gU3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCkgLSBsYXN0UmVmcmVzaFRzID4gVUNDb25zdGFudHMuUFVVU19SRUZSRVNIX0lOVEVSVkFMX01TCiAgICAgICAgaWYgKCFuZWVkKSByZXR1cm4gYWNjLmNvb2tpZQogICAgICAgIHZhbCByZWZyZXNoZWQgPSBhcGkucmVmcmVzaFNlc3Npb24oYWNjLmNvb2tpZSkKICAgICAgICByZXR1cm4gaWYgKHJlZnJlc2hlZCAhPSBudWxsKSB7CiAgICAgICAgICAgIGRhby51cHNlcnQoYWNjLmNvcHkoY29va2llID0gcmVmcmVzaGVkLCB1cGRhdGVkQXQgPSBTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKSkpCiAgICAgICAgICAgIGxhc3RSZWZyZXNoVHMgPSBTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKQogICAgICAgICAgICByZWZyZXNoZWQKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICBhY2MuY29va2llCiAgICAgICAgfQogICAgfQoKICAgIHN1c3BlbmQgZnVuIGxvZ291dFVDKCkgewogICAgICAgIHdpdGhDb250ZXh0KERpc3BhdGNoZXJzLklPKSB7CiAgICAgICAgICAgIHJ1bkNhdGNoaW5nIHsKICAgICAgICAgICAgICAgIENvb2tpZU1hbmFnZXIuZ2V0SW5zdGFuY2UoKS5yZW1vdmVBbGxDb29raWVzKG51bGwpCiAgICAgICAgICAgICAgICBDb29raWVNYW5hZ2VyLmdldEluc3RhbmNlKCkuZmx1c2goKQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIGRhby5jbGVhcigpCiAgICB9CgogICAgc3VzcGVuZCBmdW4gc2F2ZVVDQWNjb3VudChjb29raWU6IFN0cmluZyk6IEJvb2xlYW4gewogICAgICAgIGlmICghVUNDb25zdGFudHMuaXNWYWxpZENvb2tpZShjb29raWUpKSByZXR1cm4gZmFsc2UKICAgICAgICB2YWwgbmlja25hbWUgPSBhcGkuZmV0Y2hOaWNrbmFtZShjb29raWUpID86ICJVQ+eUqOaItyIKICAgICAgICBkYW8udXBzZXJ0KAogICAgICAgICAgICBVQ0FjY291bnRFbnRpdHkoCiAgICAgICAgICAgICAgICBpZCA9ICJ1YyIsCiAgICAgICAgICAgICAgICBjb29raWUgPSBjb29raWUsCiAgICAgICAgICAgICAgICBuaWNrbmFtZSA9IG5pY2tuYW1lCiAgICAgICAgICAgICkKICAgICAgICApCiAgICAgICAgLy8g6YeN572u5Yi35paw6K6h5pe277ya5paw55m75b2V55qEIF9fcHV1cyDmmK/mlrDpspznmoTvvIzpgb/lhY3nq4vliLvop6blj5HkuIDmrKHml6DosJPliLfmlrAKICAgICAgICBsYXN0UmVmcmVzaFRzID0gU3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCkKICAgICAgICByZXR1cm4gdHJ1ZQogICAgfQp9
+/*
+ * YunX (云析) - A network drive share-link parser and high-speed downloader for Android.
+ * Copyright (C) 2026 CYQawa
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Affero General Public License for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
+package org.linbaogu.romhub.pan.repo
+
+import android.webkit.CookieManager
+import org.linbaogu.romhub.pan.store.UCAccountDao
+import org.linbaogu.romhub.pan.store.UCAccountEntity
+import org.linbaogu.romhub.pan.UCApi
+import org.linbaogu.romhub.pan.UCConstants
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.SupervisorJob
+import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
+
+/**
+ * UC 账号数据仓库：Room 持久化 + 网络验证 + __puus 会话刷新（与夸克同源，修复取链/直链过期失败）。
+ * __puus 约 3 小时过期，是取链接口（/file/download 等）必须携带的有效会话字段；
+ * 取链前惰性刷新 + 响应 Set-Cookie 自动回写双保险。
+ */
+class UCAccountRepository(
+    private val dao: UCAccountDao,
+    private val api: UCApi
+) {
+
+    /** 上次主动刷新 __puus 的时间戳（进程内；跨进程重启后首次取链会因间隔超时触发刷新） */
+    private var lastRefreshTs = 0L
+
+    /** cookieSink 落库用独立作用域（非 UI 线程，避免阻塞 API 调用链） */
+    private val sinkScope = CoroutineScope(SupervisorJob() + Dispatchers.IO)
+
+    init {
+        // 每次 API 响应若带 Set-Cookie（__puus/__pus），自动合并并落库，保持会话始终新鲜
+        api.cookieSink = { merged ->
+            sinkScope.launch {
+                dao.getAccount()?.let { acc ->
+                    if (acc.cookie != merged) {
+                        dao.upsert(acc.copy(cookie = merged, updatedAt = System.currentTimeMillis()))
+                    }
+                }
+            }
+        }
+    }
+
+    fun observeAccount(): Flow<UCAccountEntity?> = dao.observeAccount()
+
+    suspend fun getAccount(): UCAccountEntity? = dao.getAccount()
+
+    /**
+     * 返回「保证 __puus 未过期」的 Cookie（取链/下载前调用）：
+     * - 距上次刷新超过 PUUS_REFRESH_INTERVAL_MS 时，先 refreshSession 再落库；
+     * - 刷新失败则回退返回当前 Cookie（不让取链/下载直接崩）。
+     */
+    suspend fun getFreshCookie(): String? {
+        val acc = dao.getAccount() ?: return null
+        val need = System.currentTimeMillis() - lastRefreshTs > UCConstants.PUUS_REFRESH_INTERVAL_MS
+        if (!need) return acc.cookie
+        val refreshed = api.refreshSession(acc.cookie)
+        return if (refreshed != null) {
+            dao.upsert(acc.copy(cookie = refreshed, updatedAt = System.currentTimeMillis()))
+            lastRefreshTs = System.currentTimeMillis()
+            refreshed
+        } else {
+            acc.cookie
+        }
+    }
+
+    suspend fun logoutUC() {
+        withContext(Dispatchers.IO) {
+            runCatching {
+                CookieManager.getInstance().removeAllCookies(null)
+                CookieManager.getInstance().flush()
+            }
+        }
+        dao.clear()
+    }
+
+    suspend fun saveUCAccount(cookie: String): Boolean {
+        if (!UCConstants.isValidCookie(cookie)) return false
+        val nickname = api.fetchNickname(cookie) ?: "UC用户"
+        dao.upsert(
+            UCAccountEntity(
+                id = "uc",
+                cookie = cookie,
+                nickname = nickname
+            )
+        )
+        // 重置刷新计时：新登录的 __puus 是新鲜的，避免立刻触发一次无谓刷新
+        lastRefreshTs = System.currentTimeMillis()
+        return true
+    }
+}

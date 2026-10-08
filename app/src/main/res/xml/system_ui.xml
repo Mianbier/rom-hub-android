@@ -1,1 +1,43 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IS0tCiAgfiBUaGlzIGZpbGUgaXMgcGFydCBvZiBIeXBlckNlaWxlci4KICB+CiAgfiBIeXBlckNlaWxlciBpcyBmcmVlIHNvZnR3YXJlOiB5b3UgY2FuIHJlZGlzdHJpYnV0ZSBpdCBhbmQvb3IgbW9kaWZ5CiAgfiBpdCB1bmRlciB0aGUgdGVybXMgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBhcwogIH4gcHVibGlzaGVkIGJ5IHRoZSBGcmVlIFNvZnR3YXJlIEZvdW5kYXRpb24sIGVpdGhlciB2ZXJzaW9uIDMgb2YgdGhlCiAgfiBMaWNlbnNlLgogIH4KICB+IFRoaXMgcHJvZ3JhbSBpcyBkaXN0cmlidXRlZCBpbiB0aGUgaG9wZSB0aGF0IGl0IHdpbGwgYmUgdXNlZnVsLAogIH4gYnV0IFdJVEhPVVQgQU5ZIFdBUlJBTlRZOyB3aXRob3V0IGV2ZW4gdGhlIGltcGxpZWQgd2FycmFudHkgb2YKICB+IE1FUkNIQU5UQUJJTElUWSBvciBGSVRORVNTIEZPUiBBIFBBUlRJQ1VMQVIgUFVSUE9TRS4gIFNlZSB0aGUKICB+IEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBmb3IgbW9yZSBkZXRhaWxzLgogIH4KICB+IFlvdSBzaG91bGQgaGF2ZSByZWNlaXZlZCBhIGNvcHkgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZQogIH4gYWxvbmcgd2l0aCB0aGlzIHByb2dyYW0uICBJZiBub3QsIHNlZSA8aHR0cHM6Ly93d3cuZ251Lm9yZy9saWNlbnNlcy8+LgogIH4KICB+IENvcHlyaWdodCAoQykgMjAyMy0yMDI2IEh5cGVyQ2VpbGVyIENvbnRyaWJ1dGlvbnMKICAtLT4KPFByZWZlcmVuY2VTY3JlZW4geG1sbnM6YW5kcm9pZD0iaHR0cDovL3NjaGVtYXMuYW5kcm9pZC5jb20vYXBrL3Jlcy9hbmRyb2lkIj4KICAgIDxQcmVmZXJlbmNlQ2F0ZWdvcnk+CiAgICA8UHJlZmVyZW5jZQogICAgICAgIGFuZHJvaWQ6ZnJhZ21lbnQ9ImNvbS5zZXZ0aW5nZS5oeXBlcmNlaWxlci5ob29rZXIuc3lzdGVtdWkuTG9ja1NjcmVlblNldHRpbmdzIgogICAgICAgIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvc3lzdGVtX3VpX2xvY2tzY3JlZW5fdGl0bGUiIC8+CgogICAgPFByZWZlcmVuY2UKICAgICAgICBhbmRyb2lkOmZyYWdtZW50PSJjb20uc2V2dGluZ2UuaHlwZXJjZWlsZXIuaG9va2VyLnN5c3RlbXVpLlN0YXR1c0JhclNldHRpbmdzIgogICAgICAgIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvc3lzdGVtX3VpX3N0YXR1c2Jhcl90aXRsZSIgLz4KCiAgICA8UHJlZmVyZW5jZQogICAgICAgIGFuZHJvaWQ6ZnJhZ21lbnQ9ImNvbS5zZXZ0aW5nZS5oeXBlcmNlaWxlci5ob29rZXIuc3lzdGVtdWkuTmF2aWdhdGlvblNldHRpbmdzIgogICAgICAgIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvc3lzdGVtX3VpX25hdmlnYXRpb25fdGl0bGUiIC8+CgogICAgPFByZWZlcmVuY2UKICAgICAgICBhbmRyb2lkOmZyYWdtZW50PSJjb20uc2V2dGluZ2UuaHlwZXJjZWlsZXIuaG9va2VyLnN5c3RlbXVpLkNvbnRyb2xDZW50ZXJTZXR0aW5ncyIKICAgICAgICBhbmRyb2lkOnRpdGxlPSJAc3RyaW5nL3N5c3RlbV91aV9jb250cm9sY2VudGVyX3RpdGxlIiAvPgoKICAgIDxQcmVmZXJlbmNlCiAgICAgICAgYW5kcm9pZDpmcmFnbWVudD0iY29tLnNldnRpbmdlLmh5cGVyY2VpbGVyLmhvb2tlci5zeXN0ZW11aS5PdGhlclNldHRpbmdzIgogICAgICAgIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvc3lzdGVtX3VpX290aGVyX3RpdGxlIiAvPgoKICAgIDwvUHJlZmVyZW5jZUNhdGVnb3J5PgoKPC9QcmVmZXJlbmNlU2NyZWVuPg==
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ This file is part of HyperCeiler.
+  ~
+  ~ HyperCeiler is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU Affero General Public License as
+  ~ published by the Free Software Foundation, either version 3 of the
+  ~ License.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU Affero General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU Affero General Public License
+  ~ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+  ~
+  ~ Copyright (C) 2023-2026 HyperCeiler Contributions
+  -->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory>
+    <Preference
+        android:fragment="com.sevtinge.hyperceiler.hooker.systemui.LockScreenSettings"
+        android:title="@string/system_ui_lockscreen_title" />
+
+    <Preference
+        android:fragment="com.sevtinge.hyperceiler.hooker.systemui.StatusBarSettings"
+        android:title="@string/system_ui_statusbar_title" />
+
+    <Preference
+        android:fragment="com.sevtinge.hyperceiler.hooker.systemui.NavigationSettings"
+        android:title="@string/system_ui_navigation_title" />
+
+    <Preference
+        android:fragment="com.sevtinge.hyperceiler.hooker.systemui.ControlCenterSettings"
+        android:title="@string/system_ui_controlcenter_title" />
+
+    <Preference
+        android:fragment="com.sevtinge.hyperceiler.hooker.systemui.OtherSettings"
+        android:title="@string/system_ui_other_title" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,1 +1,174 @@
-LyoKICogVGhpcyBmaWxlIGlzIHBhcnQgb2YgSHlwZXJDZWlsZXIuCgogKiBIeXBlckNlaWxlciBpcyBmcmVlIHNvZnR3YXJlOiB5b3UgY2FuIHJlZGlzdHJpYnV0ZSBpdCBhbmQvb3IgbW9kaWZ5CiAqIGl0IHVuZGVyIHRoZSB0ZXJtcyBvZiB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGFzCiAqIHB1Ymxpc2hlZCBieSB0aGUgRnJlZSBTb2Z0d2FyZSBGb3VuZGF0aW9uLCBlaXRoZXIgdmVyc2lvbiAzIG9mIHRoZQogKiBMaWNlbnNlLgoKICogVGhpcyBwcm9ncmFtIGlzIGRpc3RyaWJ1dGVkIGluIHRoZSBob3BlIHRoYXQgaXQgd2lsbCBiZSB1c2VmdWwsCiAqIGJ1dCBXSVRIT1VUIEFOWSBXQVJSQU5UWTsgd2l0aG91dCBldmVuIHRoZSBpbXBsaWVkIHdhcnJhbnR5IG9mCiAqIE1FUkNIQU5UQUJJTElUWSBvciBGSVRORVNTIEZPUiBBIFBBUlRJQ1VMQVIgUFVSUE9TRS4gIFNlZSB0aGUKICogR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGZvciBtb3JlIGRldGFpbHMuCgogKiBZb3Ugc2hvdWxkIGhhdmUgcmVjZWl2ZWQgYSBjb3B5IG9mIHRoZSBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UKICogYWxvbmcgd2l0aCB0aGlzIHByb2dyYW0uICBJZiBub3QsIHNlZSA8aHR0cHM6Ly93d3cuZ251Lm9yZy9saWNlbnNlcy8+LgoKICogQ29weXJpZ2h0IChDKSAyMDIzLTIwMjYgSHlwZXJDZWlsZXIgQ29udHJpYnV0aW9ucwogKi8KcGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLmhjLnByb3Zpc2lvbi51dGlsczsKCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQnJvYWRjYXN0UmVjZWl2ZXI7CmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dDsKaW1wb3J0IGFuZHJvaWQuY29udGVudC5JbnRlbnQ7CmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuSW50ZW50RmlsdGVyOwppbXBvcnQgYW5kcm9pZC5vcy5IYW5kbGVyOwppbXBvcnQgYW5kcm9pZC5vcy5NZXNzYWdlOwoKaW1wb3J0IGFuZHJvaWR4LmFubm90YXRpb24uTm9uTnVsbDsKCmltcG9ydCBqYXZhLnV0aWwuQXJyYXlMaXN0OwppbXBvcnQgamF2YS51dGlsLkhhc2hNYXA7CgpwdWJsaWMgY2xhc3MgTG9jYWxCcm9hZGNhc3RIZWxwZXIgewoKICAgIHByaXZhdGUgc3RhdGljIGZpbmFsIFN0cmluZyBUQUcgPSAiTG9jYWxCcm9hZGNhc3RNYW5hZ2VyIjsKICAgIHByaXZhdGUgc3RhdGljIExvY2FsQnJvYWRjYXN0SGVscGVyIG1JbnN0YW5jZTsKICAgIHByaXZhdGUgc3RhdGljIGZpbmFsIE9iamVjdCBtTG9jayA9IG5ldyBPYmplY3QoKTsKCiAgICBwcml2YXRlIGZpbmFsIENvbnRleHQgbUFwcENvbnRleHQ7CiAgICBwcml2YXRlIGZpbmFsIEhhbmRsZXIgbUhhbmRsZXI7CiAgICBwcml2YXRlIGZpbmFsIEFycmF5TGlzdDxCcm9hZGNhc3RSZWNvcmQ+IG1QZW5kaW5nQnJvYWRjYXN0cyA9IG5ldyBBcnJheUxpc3Q8PigpOwogICAgcHJpdmF0ZSBmaW5hbCBIYXNoTWFwPFN0cmluZywgQXJyYXlMaXN0PFJlY2VpdmVyUmVjb3JkPj4gbUFjdGlvbnMgPSBuZXcgSGFzaE1hcDw+KCk7CiAgICBwcml2YXRlIGZpbmFsIEhhc2hNYXA8QnJvYWRjYXN0UmVjZWl2ZXIsIEFycmF5TGlzdDxJbnRlbnRGaWx0ZXI+PiBtUmVjZWl2ZXJzID0gbmV3IEhhc2hNYXA8PigpOwoKCiAgICBwdWJsaWMgc3RhdGljIExvY2FsQnJvYWRjYXN0SGVscGVyIGdldEluc3RhbmNlKENvbnRleHQgY29udGV4dCkgewogICAgICAgIExvY2FsQnJvYWRjYXN0SGVscGVyIGxvY2FsQnJvYWRjYXN0SGVscGVyOwogICAgICAgIHN5bmNocm9uaXplZCAobUxvY2spIHsKICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIGlmIChtSW5zdGFuY2UgPT0gbnVsbCkgewogICAgICAgICAgICAgICAgICAgIG1JbnN0YW5jZSA9IG5ldyBMb2NhbEJyb2FkY2FzdEhlbHBlcihjb250ZXh0LmdldEFwcGxpY2F0aW9uQ29udGV4dCgpKTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGxvY2FsQnJvYWRjYXN0SGVscGVyID0gbUluc3RhbmNlOwogICAgICAgICAgICB9IGNhdGNoIChUaHJvd2FibGUgdGgpIHsKICAgICAgICAgICAgICAgIHRocm93IHRoOwogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIHJldHVybiBsb2NhbEJyb2FkY2FzdEhlbHBlcjsKICAgIH0KCiAgICBwcml2YXRlIExvY2FsQnJvYWRjYXN0SGVscGVyKENvbnRleHQgY29udGV4dCkgewogICAgICAgIG1BcHBDb250ZXh0ID0gY29udGV4dDsKICAgICAgICBtSGFuZGxlciA9IG5ldyBIYW5kbGVyKGNvbnRleHQuZ2V0TWFpbkxvb3BlcigpKSB7CiAgICAgICAgICAgIEBPdmVycmlkZQogICAgICAgICAgICBwdWJsaWMgdm9pZCBoYW5kbGVNZXNzYWdlKEBOb25OdWxsIE1lc3NhZ2UgbXNnKSB7CiAgICAgICAgICAgICAgICBpZiAobXNnLndoYXQgPT0gMSkgewogICAgICAgICAgICAgICAgICAgIGV4ZWN1dGVQZW5kaW5nQnJvYWRjYXN0cygpOwogICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICBzdXBlci5oYW5kbGVNZXNzYWdlKG1zZyk7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9OwogICAgfQoKICAgIHB1YmxpYyB2b2lkIHJlZ2lzdGVyUmVjZWl2ZXIoQnJvYWRjYXN0UmVjZWl2ZXIgcmVjZWl2ZXIsIEludGVudEZpbHRlciBpbnRlbnRGaWx0ZXIpIHsKICAgICAgICBzeW5jaHJvbml6ZWQgKG1SZWNlaXZlcnMpIHsKICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIFJlY2VpdmVyUmVjb3JkIHJlY2VpdmVyUmVjb3JkID0gbmV3IFJlY2VpdmVyUmVjb3JkKGludGVudEZpbHRlciwgcmVjZWl2ZXIpOwogICAgICAgICAgICAgICAgQXJyYXlMaXN0PEludGVudEZpbHRlcj4gYXJyYXlMaXN0ID0gbVJlY2VpdmVycy5jb21wdXRlSWZBYnNlbnQocmVjZWl2ZXIsIGsgLT4gbmV3IEFycmF5TGlzdDw+KDEpKTsKICAgICAgICAgICAgICAgIGFycmF5TGlzdC5hZGQoaW50ZW50RmlsdGVyKTsKICAgICAgICAgICAgICAgIGZvciAoaW50IGkgPSAwOyBpIDwgaW50ZW50RmlsdGVyLmNvdW50QWN0aW9ucygpOyBpKyspIHsKICAgICAgICAgICAgICAgICAgICBTdHJpbmcgYWN0aW9uID0gaW50ZW50RmlsdGVyLmdldEFjdGlvbihpKTsKICAgICAgICAgICAgICAgICAgICBBcnJheUxpc3Q8UmVjZWl2ZXJSZWNvcmQ+IGFycmF5TGlzdDIgPSBtQWN0aW9ucy5jb21wdXRlSWZBYnNlbnQoYWN0aW9uLCBrIC0+IG5ldyBBcnJheUxpc3Q8PigxKSk7CiAgICAgICAgICAgICAgICAgICAgYXJyYXlMaXN0Mi5hZGQocmVjZWl2ZXJSZWNvcmQpOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9IGNhdGNoIChUaHJvd2FibGUgdGgpIHsKICAgICAgICAgICAgICAgIHRocm93IHRoOwogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIHB1YmxpYyB2b2lkIHVucmVnaXN0ZXJSZWNlaXZlcihCcm9hZGNhc3RSZWNlaXZlciBicm9hZGNhc3RSZWNlaXZlcikgewogICAgICAgIHN5bmNocm9uaXplZCAobVJlY2VpdmVycykgewogICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgQXJyYXlMaXN0PEludGVudEZpbHRlcj4gcmVtb3ZlID0gbVJlY2VpdmVycy5yZW1vdmUoYnJvYWRjYXN0UmVjZWl2ZXIpOwogICAgICAgICAgICAgICAgaWYgKHJlbW92ZSAhPSBudWxsKSB7CiAgICAgICAgICAgICAgICAgICAgZm9yIChpbnQgaSA9IDA7IGkgPCByZW1vdmUuc2l6ZSgpOyBpKyspIHsKICAgICAgICAgICAgICAgICAgICAgICAgSW50ZW50RmlsdGVyIGludGVudEZpbHRlciA9IHJlbW92ZS5nZXQoaSk7CiAgICAgICAgICAgICAgICAgICAgICAgIGZvciAoaW50IGkyID0gMDsgaTIgPCBpbnRlbnRGaWx0ZXIuY291bnRBY3Rpb25zKCk7IGkyKyspIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIFN0cmluZyBhY3Rpb24gPSBpbnRlbnRGaWx0ZXIuZ2V0QWN0aW9uKGkyKTsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIEFycmF5TGlzdDxSZWNlaXZlclJlY29yZD4gYXJyYXlMaXN0ID0gdGhpcy5tQWN0aW9ucy5nZXQoYWN0aW9uKTsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmIChhcnJheUxpc3QgIT0gbnVsbCkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGludCBpMyA9IDA7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgd2hpbGUgKGkzIDwgYXJyYXlMaXN0LnNpemUoKSkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZiAoYXJyYXlMaXN0LmdldChpMykubVJlY2VpdmVyID09IGJyb2FkY2FzdFJlY2VpdmVyKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhcnJheUxpc3QucmVtb3ZlKGkzKTsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGkzLS07CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaTMrKzsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaWYgKGFycmF5TGlzdC5zaXplKCkgPD0gMCkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtQWN0aW9ucy5yZW1vdmUoYWN0aW9uKTsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0gY2F0Y2ggKFRocm93YWJsZSB0aCkgewogICAgICAgICAgICAgICAgdGhyb3cgdGg7CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgcHVibGljIHZvaWQgZXhlY3V0ZVBlbmRpbmdCcm9hZGNhc3RzKCkgewogICAgICAgIGludCBzaXplOwogICAgICAgIEJyb2FkY2FzdFJlY29yZFtdIGJyb2FkY2FzdFJlY29yZHM7CiAgICAgICAgd2hpbGUgKHRydWUpIHsKICAgICAgICAgICAgc3luY2hyb25pemVkIChtUmVjZWl2ZXJzKSB7CiAgICAgICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgICAgIHNpemUgPSBtUGVuZGluZ0Jyb2FkY2FzdHMuc2l6ZSgpOwogICAgICAgICAgICAgICAgICAgIGlmIChzaXplID4gMCkgewogICAgICAgICAgICAgICAgICAgICAgICBicm9hZGNhc3RSZWNvcmRzID0gbmV3IEJyb2FkY2FzdFJlY29yZFtzaXplXTsKICAgICAgICAgICAgICAgICAgICAgICAgbVBlbmRpbmdCcm9hZGNhc3RzLnRvQXJyYXkoYnJvYWRjYXN0UmVjb3Jkcyk7CiAgICAgICAgICAgICAgICAgICAgICAgIG1QZW5kaW5nQnJvYWRjYXN0cy5jbGVhcigpOwogICAgICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybjsKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9IGNhdGNoIChUaHJvd2FibGUgdGgpIHsKICAgICAgICAgICAgICAgICAgICB0aHJvdyB0aDsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICAgICBmb3IgKGludCBpID0gMDsgaSA8IHNpemU7IGkrKykgewogICAgICAgICAgICAgICAgQnJvYWRjYXN0UmVjb3JkIGJyb2FkY2FzdFJlY29yZCA9IGJyb2FkY2FzdFJlY29yZHNbaV07CiAgICAgICAgICAgICAgICBmb3IgKGludCBpMiA9IDA7IGkyIDwgYnJvYWRjYXN0UmVjb3JkLm1SZWNlaXZlcnMuc2l6ZSgpOyBpMisrKSB7CiAgICAgICAgICAgICAgICAgICAgYnJvYWRjYXN0UmVjb3JkLm1SZWNlaXZlcnMuZ2V0KGkyKS5tUmVjZWl2ZXIub25SZWNlaXZlKG1BcHBDb250ZXh0LCBicm9hZGNhc3RSZWNvcmQubUludGVudCk7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSByZWNvcmQgQnJvYWRjYXN0UmVjb3JkKEludGVudCBtSW50ZW50LCBBcnJheUxpc3Q8UmVjZWl2ZXJSZWNvcmQ+IG1SZWNlaXZlcnMpIHsKICAgIH0KCiAgICBwcml2YXRlIHN0YXRpYyBjbGFzcyBSZWNlaXZlclJlY29yZCB7CiAgICAgICAgYm9vbGVhbiBicm9hZGNhc3Rpbmc7CiAgICAgICAgZmluYWwgSW50ZW50RmlsdGVyIG1GaWx0ZXI7CiAgICAgICAgZmluYWwgQnJvYWRjYXN0UmVjZWl2ZXIgbVJlY2VpdmVyOwoKICAgICAgICBSZWNlaXZlclJlY29yZChJbnRlbnRGaWx0ZXIgZmlsdGVyLCBCcm9hZGNhc3RSZWNlaXZlciByZWNlaXZlcikgewogICAgICAgICAgICBtRmlsdGVyID0gZmlsdGVyOwogICAgICAgICAgICBtUmVjZWl2ZXIgPSByZWNlaXZlcjsKICAgICAgICB9CgogICAgICAgIHB1YmxpYyBTdHJpbmcgdG9TdHJpbmcoKSB7CiAgICAgICAgICAgIFN0cmluZyBidWlsZGVyID0gIlJlY2VpdmVyeyIgKwogICAgICAgICAgICAgICAgbVJlY2VpdmVyICsKICAgICAgICAgICAgICAgICIgZmlsdGVyPSIgKwogICAgICAgICAgICAgICAgbUZpbHRlciArCiAgICAgICAgICAgICAgICAifSI7CiAgICAgICAgICAgIHJldHVybiBidWlsZGVyOwogICAgICAgIH0KICAgIH0KCn0K
+/*
+ * This file is part of HyperCeiler.
+
+ * HyperCeiler is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as
+ * published by the Free Software Foundation, either version 3 of the
+ * License.
+
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Affero General Public License for more details.
+
+ * You should have received a copy of the GNU Affero General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+ * Copyright (C) 2023-2026 HyperCeiler Contributions
+ */
+package org.linbaogu.romhub.hc.provision.utils;
+
+import android.content.BroadcastReceiver;
+import android.content.Context;
+import android.content.Intent;
+import android.content.IntentFilter;
+import android.os.Handler;
+import android.os.Message;
+
+import androidx.annotation.NonNull;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+
+public class LocalBroadcastHelper {
+
+    private static final String TAG = "LocalBroadcastManager";
+    private static LocalBroadcastHelper mInstance;
+    private static final Object mLock = new Object();
+
+    private final Context mAppContext;
+    private final Handler mHandler;
+    private final ArrayList<BroadcastRecord> mPendingBroadcasts = new ArrayList<>();
+    private final HashMap<String, ArrayList<ReceiverRecord>> mActions = new HashMap<>();
+    private final HashMap<BroadcastReceiver, ArrayList<IntentFilter>> mReceivers = new HashMap<>();
+
+
+    public static LocalBroadcastHelper getInstance(Context context) {
+        LocalBroadcastHelper localBroadcastHelper;
+        synchronized (mLock) {
+            try {
+                if (mInstance == null) {
+                    mInstance = new LocalBroadcastHelper(context.getApplicationContext());
+                }
+                localBroadcastHelper = mInstance;
+            } catch (Throwable th) {
+                throw th;
+            }
+        }
+        return localBroadcastHelper;
+    }
+
+    private LocalBroadcastHelper(Context context) {
+        mAppContext = context;
+        mHandler = new Handler(context.getMainLooper()) {
+            @Override
+            public void handleMessage(@NonNull Message msg) {
+                if (msg.what == 1) {
+                    executePendingBroadcasts();
+                } else {
+                    super.handleMessage(msg);
+                }
+            }
+        };
+    }
+
+    public void registerReceiver(BroadcastReceiver receiver, IntentFilter intentFilter) {
+        synchronized (mReceivers) {
+            try {
+                ReceiverRecord receiverRecord = new ReceiverRecord(intentFilter, receiver);
+                ArrayList<IntentFilter> arrayList = mReceivers.computeIfAbsent(receiver, k -> new ArrayList<>(1));
+                arrayList.add(intentFilter);
+                for (int i = 0; i < intentFilter.countActions(); i++) {
+                    String action = intentFilter.getAction(i);
+                    ArrayList<ReceiverRecord> arrayList2 = mActions.computeIfAbsent(action, k -> new ArrayList<>(1));
+                    arrayList2.add(receiverRecord);
+                }
+            } catch (Throwable th) {
+                throw th;
+            }
+        }
+    }
+
+    public void unregisterReceiver(BroadcastReceiver broadcastReceiver) {
+        synchronized (mReceivers) {
+            try {
+                ArrayList<IntentFilter> remove = mReceivers.remove(broadcastReceiver);
+                if (remove != null) {
+                    for (int i = 0; i < remove.size(); i++) {
+                        IntentFilter intentFilter = remove.get(i);
+                        for (int i2 = 0; i2 < intentFilter.countActions(); i2++) {
+                            String action = intentFilter.getAction(i2);
+                            ArrayList<ReceiverRecord> arrayList = this.mActions.get(action);
+                            if (arrayList != null) {
+                                int i3 = 0;
+                                while (i3 < arrayList.size()) {
+                                    if (arrayList.get(i3).mReceiver == broadcastReceiver) {
+                                        arrayList.remove(i3);
+                                        i3--;
+                                    }
+                                    i3++;
+                                }
+                                if (arrayList.size() <= 0) {
+                                    mActions.remove(action);
+                                }
+                            }
+                        }
+                    }
+                }
+            } catch (Throwable th) {
+                throw th;
+            }
+        }
+    }
+
+    public void executePendingBroadcasts() {
+        int size;
+        BroadcastRecord[] broadcastRecords;
+        while (true) {
+            synchronized (mReceivers) {
+                try {
+                    size = mPendingBroadcasts.size();
+                    if (size > 0) {
+                        broadcastRecords = new BroadcastRecord[size];
+                        mPendingBroadcasts.toArray(broadcastRecords);
+                        mPendingBroadcasts.clear();
+                    } else {
+                        return;
+                    }
+                } catch (Throwable th) {
+                    throw th;
+                }
+            }
+            for (int i = 0; i < size; i++) {
+                BroadcastRecord broadcastRecord = broadcastRecords[i];
+                for (int i2 = 0; i2 < broadcastRecord.mReceivers.size(); i2++) {
+                    broadcastRecord.mReceivers.get(i2).mReceiver.onReceive(mAppContext, broadcastRecord.mIntent);
+                }
+            }
+        }
+    }
+
+    private record BroadcastRecord(Intent mIntent, ArrayList<ReceiverRecord> mReceivers) {
+    }
+
+    private static class ReceiverRecord {
+        boolean broadcasting;
+        final IntentFilter mFilter;
+        final BroadcastReceiver mReceiver;
+
+        ReceiverRecord(IntentFilter filter, BroadcastReceiver receiver) {
+            mFilter = filter;
+            mReceiver = receiver;
+        }
+
+        public String toString() {
+            String builder = "Receiver{" +
+                mReceiver +
+                " filter=" +
+                mFilter +
+                "}";
+            return builder;
+        }
+    }
+
+}

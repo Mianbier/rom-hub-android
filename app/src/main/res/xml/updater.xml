@@ -1,1 +1,82 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IS0tCiAgfiBUaGlzIGZpbGUgaXMgcGFydCBvZiBIeXBlckNlaWxlci4KICB+CiAgfiBIeXBlckNlaWxlciBpcyBmcmVlIHNvZnR3YXJlOiB5b3UgY2FuIHJlZGlzdHJpYnV0ZSBpdCBhbmQvb3IgbW9kaWZ5CiAgfiBpdCB1bmRlciB0aGUgdGVybXMgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBhcwogIH4gcHVibGlzaGVkIGJ5IHRoZSBGcmVlIFNvZnR3YXJlIEZvdW5kYXRpb24sIGVpdGhlciB2ZXJzaW9uIDMgb2YgdGhlCiAgfiBMaWNlbnNlLgogIH4KICB+IFRoaXMgcHJvZ3JhbSBpcyBkaXN0cmlidXRlZCBpbiB0aGUgaG9wZSB0aGF0IGl0IHdpbGwgYmUgdXNlZnVsLAogIH4gYnV0IFdJVEhPVVQgQU5ZIFdBUlJBTlRZOyB3aXRob3V0IGV2ZW4gdGhlIGltcGxpZWQgd2FycmFudHkgb2YKICB+IE1FUkNIQU5UQUJJTElUWSBvciBGSVRORVNTIEZPUiBBIFBBUlRJQ1VMQVIgUFVSUE9TRS4gIFNlZSB0aGUKICB+IEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBmb3IgbW9yZSBkZXRhaWxzLgogIH4KICB+IFlvdSBzaG91bGQgaGF2ZSByZWNlaXZlZCBhIGNvcHkgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZQogIH4gYWxvbmcgd2l0aCB0aGlzIHByb2dyYW0uICBJZiBub3QsIHNlZSA8aHR0cHM6Ly93d3cuZ251Lm9yZy9saWNlbnNlcy8+LgogIH4KICB+IENvcHlyaWdodCAoQykgMjAyMy0yMDI2IEh5cGVyQ2VpbGVyIENvbnRyaWJ1dGlvbnMKICAtLT4KPFByZWZlcmVuY2VTY3JlZW4geG1sbnM6YW5kcm9pZD0iaHR0cDovL3NjaGVtYXMuYW5kcm9pZC5jb20vYXBrL3Jlcy9hbmRyb2lkIgogICAgeG1sbnM6YXBwPSJodHRwOi8vc2NoZW1hcy5hbmRyb2lkLmNvbS9hcGsvcmVzLWF1dG8iCiAgICBhcHA6bXlMb2NhdGlvbj0iQHN0cmluZy91cGRhdGVyIgogICAgYXBwOnF1aWNrX3Jlc3RhcnQ9ImNvbS5hbmRyb2lkLnVwZGF0ZXIiPgogICAgPFByZWZlcmVuY2VDYXRlZ29yeT4KICAgICAgICA8U3dpdGNoUHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOmRlZmF1bHRWYWx1ZT0iZmFsc2UiCiAgICAgICAgICAgIGFuZHJvaWQ6a2V5PSJwcmVmc19rZXlfdXBkYXRlcl9mdWNrX3ZhYiIKICAgICAgICAgICAgYW5kcm9pZDpzdW1tYXJ5PSJAc3RyaW5nL3VwZGF0ZXJfZnVja192YWJfZGVzYyIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iQHN0cmluZy91cGRhdGVyX2Z1Y2tfdmFiIiAvPgoKICAgICAgICA8U3dpdGNoUHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOmRlZmF1bHRWYWx1ZT0iZmFsc2UiCiAgICAgICAgICAgIGFuZHJvaWQ6a2V5PSJwcmVmc19rZXlfdXBkYXRlcl9kaWFibGVfZGlhbG9nIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJAc3RyaW5nL3VwZGF0ZXJfZGlhYmxlX2RpYWxvZyIgLz4KCiAgICAgICAgPFN3aXRjaFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpkZWZhdWx0VmFsdWU9ImZhbHNlIgogICAgICAgICAgICBhbmRyb2lkOmtleT0icHJlZnNfa2V5X3VwZGF0ZXJfZW5hYmxlX21pdWlfdmVyc2lvbiIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iQHN0cmluZy91cGRhdGVyX2VuYWJsZV9taXVpX3ZlcnNpb24iIC8+CgogICAgICAgIDxmYW4ucHJlZmVyZW5jZS5Ecm9wRG93blByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpkZWZhdWx0VmFsdWU9IjEiCiAgICAgICAgICAgIGFuZHJvaWQ6ZGVwZW5kZW5jeT0icHJlZnNfa2V5X3VwZGF0ZXJfZW5hYmxlX21pdWlfdmVyc2lvbiIKICAgICAgICAgICAgYW5kcm9pZDprZXk9InByZWZzX2tleV91cGRhdGVyX3ZlcnNpb25fbW9kZSIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iQHN0cmluZy91cGRhdGVyX3ZlcnNpb25fbW9kZSIKICAgICAgICAgICAgYXBwOmVudHJpZXM9IkBhcnJheS91cGRhdGVyX3ZlcnNpb25fbW9kZSIKICAgICAgICAgICAgYXBwOmVudHJ5VmFsdWVzPSJAYXJyYXkvdXBkYXRlcl92ZXJzaW9uX21vZGVfdmFsdWUiIC8+CgogICAgICAgIDxFZGl0VGV4dFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpkZWZhdWx0VmFsdWU9Ik9TMiIKICAgICAgICAgICAgYW5kcm9pZDpkZXBlbmRlbmN5PSJwcmVmc19rZXlfdXBkYXRlcl9lbmFibGVfbWl1aV92ZXJzaW9uIgogICAgICAgICAgICBhbmRyb2lkOmtleT0icHJlZnNfa2V5X3ZhcmlvdXNfdXBkYXRlcl9iaWdfdmVyc2lvbiIKICAgICAgICAgICAgYW5kcm9pZDpzdW1tYXJ5PSJAc3RyaW5nL3VwZGF0ZXJfYmlnX3ZlcnNpb25fZGVzYyIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iQHN0cmluZy91cGRhdGVyX2JpZ192ZXJzaW9uIiAvPgoKICAgICAgICA8RWRpdFRleHRQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6ZGVwZW5kZW5jeT0icHJlZnNfa2V5X3VwZGF0ZXJfZW5hYmxlX21pdWlfdmVyc2lvbiIKICAgICAgICAgICAgYW5kcm9pZDprZXk9InByZWZzX2tleV92YXJpb3VzX3VwZGF0ZXJfeG1zX3ZlcnNpb24iCiAgICAgICAgICAgIGFuZHJvaWQ6c3VtbWFyeT0iQHN0cmluZy91cGRhdGVyX3htc192ZXJzaW9uX2Rlc2MiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvdXBkYXRlcl94bXNfdmVyc2lvbiIgLz4KCiAgICAgICAgPEVkaXRUZXh0UHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOmRlcGVuZGVuY3k9InByZWZzX2tleV91cGRhdGVyX2VuYWJsZV9taXVpX3ZlcnNpb24iCiAgICAgICAgICAgIGFuZHJvaWQ6a2V5PSJwcmVmc19rZXlfdmFyaW91c191cGRhdGVyX21pdWlfdmVyc2lvbiIKICAgICAgICAgICAgYW5kcm9pZDpzdW1tYXJ5PSJAc3RyaW5nL3VwZGF0ZXJfbWl1aV92ZXJzaW9uX2Rlc2MiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvdXBkYXRlcl9taXVpX3ZlcnNpb24iIC8+CgogICAgICAgIDxFZGl0VGV4dFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpkZXBlbmRlbmN5PSJwcmVmc19rZXlfdXBkYXRlcl9lbmFibGVfbWl1aV92ZXJzaW9uIgogICAgICAgICAgICBhbmRyb2lkOmtleT0icHJlZnNfa2V5X3ZhcmlvdXNfdXBkYXRlcl9hbmRyb2lkX3ZlcnNpb24iCiAgICAgICAgICAgIGFuZHJvaWQ6c3VtbWFyeT0iQHN0cmluZy91cGRhdGVyX21pdWlfdmVyc2lvbl9kZXNjIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJAc3RyaW5nL3VwZGF0ZXJfYW5kcm9pZF92ZXJzaW9uIiAvPgoKICAgICAgICA8RWRpdFRleHRQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6ZGVwZW5kZW5jeT0icHJlZnNfa2V5X3VwZGF0ZXJfZW5hYmxlX21pdWlfdmVyc2lvbiIKICAgICAgICAgICAgYW5kcm9pZDprZXk9InByZWZzX2tleV91cGRhdGVyX2RldmljZSIKICAgICAgICAgICAgYW5kcm9pZDpzdW1tYXJ5PSJAc3RyaW5nL3VwZGF0ZXJfZGV2aWNlX2Rlc2MiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvdXBkYXRlcl9kZXZpY2UiCiAgICAgICAgICAgIGFwcDppc1ByZWZlcmVuY2VWaXNpYmxlPSJ0cnVlIiAvPgoKICAgIDwvUHJlZmVyZW5jZUNhdGVnb3J5PgoKPC9QcmVmZXJlbmNlU2NyZWVuPg==
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ This file is part of HyperCeiler.
+  ~
+  ~ HyperCeiler is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU Affero General Public License as
+  ~ published by the Free Software Foundation, either version 3 of the
+  ~ License.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU Affero General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU Affero General Public License
+  ~ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+  ~
+  ~ Copyright (C) 2023-2026 HyperCeiler Contributions
+  -->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:myLocation="@string/updater"
+    app:quick_restart="com.android.updater">
+    <PreferenceCategory>
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefs_key_updater_fuck_vab"
+            android:summary="@string/updater_fuck_vab_desc"
+            android:title="@string/updater_fuck_vab" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefs_key_updater_diable_dialog"
+            android:title="@string/updater_diable_dialog" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefs_key_updater_enable_miui_version"
+            android:title="@string/updater_enable_miui_version" />
+
+        <fan.preference.DropDownPreference
+            android:defaultValue="1"
+            android:dependency="prefs_key_updater_enable_miui_version"
+            android:key="prefs_key_updater_version_mode"
+            android:title="@string/updater_version_mode"
+            app:entries="@array/updater_version_mode"
+            app:entryValues="@array/updater_version_mode_value" />
+
+        <EditTextPreference
+            android:defaultValue="OS2"
+            android:dependency="prefs_key_updater_enable_miui_version"
+            android:key="prefs_key_various_updater_big_version"
+            android:summary="@string/updater_big_version_desc"
+            android:title="@string/updater_big_version" />
+
+        <EditTextPreference
+            android:dependency="prefs_key_updater_enable_miui_version"
+            android:key="prefs_key_various_updater_xms_version"
+            android:summary="@string/updater_xms_version_desc"
+            android:title="@string/updater_xms_version" />
+
+        <EditTextPreference
+            android:dependency="prefs_key_updater_enable_miui_version"
+            android:key="prefs_key_various_updater_miui_version"
+            android:summary="@string/updater_miui_version_desc"
+            android:title="@string/updater_miui_version" />
+
+        <EditTextPreference
+            android:dependency="prefs_key_updater_enable_miui_version"
+            android:key="prefs_key_various_updater_android_version"
+            android:summary="@string/updater_miui_version_desc"
+            android:title="@string/updater_android_version" />
+
+        <EditTextPreference
+            android:dependency="prefs_key_updater_enable_miui_version"
+            android:key="prefs_key_updater_device"
+            android:summary="@string/updater_device_desc"
+            android:title="@string/updater_device"
+            app:isPreferenceVisible="true" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

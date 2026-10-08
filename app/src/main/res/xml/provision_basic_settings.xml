@@ -1,1 +1,44 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPFByZWZlcmVuY2VTY3JlZW4geG1sbnM6YW5kcm9pZD0iaHR0cDovL3NjaGVtYXMuYW5kcm9pZC5jb20vYXBrL3Jlcy9hbmRyb2lkIgogICAgeG1sbnM6YXBwPSJodHRwOi8vc2NoZW1hcy5hbmRyb2lkLmNvbS9hcGsvcmVzLWF1dG8iPgogICAgPFByZWZlcmVuY2VDYXRlZ29yeSBhbmRyb2lkOnRpdGxlPSJAc3RyaW5nL3Byb3Zpc2lvbl9iYXNpY19zZXR0aW5nc19jYXRlZ29yeV9hcHAiPgogICAgICAgIDxTd2l0Y2hQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6ZGVmYXVsdFZhbHVlPSJ0cnVlIgogICAgICAgICAgICBhbmRyb2lkOmtleT0icHJlZnNfa2V5X3NldHRpbmdzX2hpZGVfYXBwX2ljb24iCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvcHJvdmlzaW9uX2Jhc2ljX3NldHRpbmdzX2hpZGVfYXBwX2ljb24iIC8+CgogICAgICAgIDxmYW4ucHJlZmVyZW5jZS5Ecm9wRG93blByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpkZWZhdWx0VmFsdWU9IjAiCiAgICAgICAgICAgIGFuZHJvaWQ6a2V5PSJwcmVmc19rZXlfc2V0dGluZ3NfaWNvbiIKICAgICAgICAgICAgYW5kcm9pZDpzdW1tYXJ5PSJAc3RyaW5nL3Byb3Zpc2lvbl9iYXNpY19zZXR0aW5nc19pY29uX2Rlc2MiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvcHJvdmlzaW9uX2Jhc2ljX3NldHRpbmdzX2ljb24iCiAgICAgICAgICAgIGFwcDplbnRyaWVzPSJAYXJyYXkvcHJvdmlzaW9uX2Jhc2ljX3NldHRpbmdzX2ljb24iCiAgICAgICAgICAgIGFwcDplbnRyeVZhbHVlcz0iQGFycmF5L3Byb3Zpc2lvbl9iYXNpY19zZXR0aW5nc19pY29uX3ZhbHVlIiAvPgoKICAgICAgICA8ZmFuLnByZWZlcmVuY2UuRHJvcERvd25QcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6ZGVmYXVsdFZhbHVlPSIwIgogICAgICAgICAgICBhbmRyb2lkOmRlcGVuZGVuY3k9InByZWZzX2tleV9zZXR0aW5nc19pY29uIgogICAgICAgICAgICBhbmRyb2lkOmtleT0icHJlZnNfa2V5X3NldHRpbmdzX2ljb25fbW9kZSIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iQHN0cmluZy9wcm92aXNpb25fYmFzaWNfc2V0dGluZ3NfaWNvbl9tb2RlIgogICAgICAgICAgICBhcHA6ZW50cmllcz0iQGFycmF5L3Byb3Zpc2lvbl9iYXNpY19zZXR0aW5nc19pY29uX21vZGUiCiAgICAgICAgICAgIGFwcDplbnRyeVZhbHVlcz0iQGFycmF5L3Byb3Zpc2lvbl9iYXNpY19zZXR0aW5nc19pY29uX21vZGVfdmFsdWUiIC8+CgogICAgICAgIDxmYW4ucHJlZmVyZW5jZS5Ecm9wRG93blByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpkZWZhdWx0VmFsdWU9IjAiCiAgICAgICAgICAgIGFuZHJvaWQ6a2V5PSJwcmVmc19rZXlfc2V0dGluZ3NfYXBwX2xhbmd1YWdlIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJAc3RyaW5nL3Byb3Zpc2lvbl9iYXNpY19zZXR0aW5nc19sYW5ndWFnZSIgLz4KICAgIDwvUHJlZmVyZW5jZUNhdGVnb3J5PgoKICAgIDxQcmVmZXJlbmNlQ2F0ZWdvcnkgYW5kcm9pZDp0aXRsZT0iQHN0cmluZy9wcm92aXNpb25fYmFzaWNfc2V0dGluZ3NfY2F0ZWdvcnlfc2NvcGUiPgogICAgICAgIDxTd2l0Y2hQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6ZGVmYXVsdFZhbHVlPSJmYWxzZSIKICAgICAgICAgICAgYW5kcm9pZDprZXk9InByZWZzX2tleV9zZXR0aW5nc19zY29wZV9zeW5jIgogICAgICAgICAgICBhbmRyb2lkOnN1bW1hcnk9IkBzdHJpbmcvcHJvdmlzaW9uX2Jhc2ljX3NldHRpbmdzX3Njb3BlX3N5bmNfZGVzYyIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iQHN0cmluZy9wcm92aXNpb25fYmFzaWNfc2V0dGluZ3Nfc2NvcGVfc3luYyIgLz4KCiAgICAgICAgPFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDprZXk9InByZWZzX2tleV9zZXR0aW5nc19zY29wZSIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iQHN0cmluZy9wcm92aXNpb25fYmFzaWNfc2V0dGluZ3Nfc2NvcGUiIC8+CiAgICA8L1ByZWZlcmVuY2VDYXRlZ29yeT4KCjwvUHJlZmVyZW5jZVNjcmVlbj4K
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="@string/provision_basic_settings_category_app">
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="prefs_key_settings_hide_app_icon"
+            android:title="@string/provision_basic_settings_hide_app_icon" />
+
+        <fan.preference.DropDownPreference
+            android:defaultValue="0"
+            android:key="prefs_key_settings_icon"
+            android:summary="@string/provision_basic_settings_icon_desc"
+            android:title="@string/provision_basic_settings_icon"
+            app:entries="@array/provision_basic_settings_icon"
+            app:entryValues="@array/provision_basic_settings_icon_value" />
+
+        <fan.preference.DropDownPreference
+            android:defaultValue="0"
+            android:dependency="prefs_key_settings_icon"
+            android:key="prefs_key_settings_icon_mode"
+            android:title="@string/provision_basic_settings_icon_mode"
+            app:entries="@array/provision_basic_settings_icon_mode"
+            app:entryValues="@array/provision_basic_settings_icon_mode_value" />
+
+        <fan.preference.DropDownPreference
+            android:defaultValue="0"
+            android:key="prefs_key_settings_app_language"
+            android:title="@string/provision_basic_settings_language" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/provision_basic_settings_category_scope">
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefs_key_settings_scope_sync"
+            android:summary="@string/provision_basic_settings_scope_sync_desc"
+            android:title="@string/provision_basic_settings_scope_sync" />
+
+        <Preference
+            android:key="prefs_key_settings_scope"
+            android:title="@string/provision_basic_settings_scope" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

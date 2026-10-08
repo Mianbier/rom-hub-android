@@ -1,1 +1,86 @@
-LyoKICogWXVuWCAo5LqR5p6QKSAtIEEgbmV0d29yayBkcml2ZSBzaGFyZS1saW5rIHBhcnNlciBhbmQgaGlnaC1zcGVlZCBkb3dubG9hZGVyIGZvciBBbmRyb2lkLgogKiBDb3B5cmlnaHQgKEMpIDIwMjYgQ1lRYXdhCiAqCiAqIFRoaXMgcHJvZ3JhbSBpcyBmcmVlIHNvZnR3YXJlOiB5b3UgY2FuIHJlZGlzdHJpYnV0ZSBpdCBhbmQvb3IgbW9kaWZ5CiAqIGl0IHVuZGVyIHRoZSB0ZXJtcyBvZiB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGFzIHB1Ymxpc2hlZCBieQogKiB0aGUgRnJlZSBTb2Z0d2FyZSBGb3VuZGF0aW9uLCBlaXRoZXIgdmVyc2lvbiAzIG9mIHRoZSBMaWNlbnNlLCBvcgogKiAoYXQgeW91ciBvcHRpb24pIGFueSBsYXRlciB2ZXJzaW9uLgogKgogKiBUaGlzIHByb2dyYW0gaXMgZGlzdHJpYnV0ZWQgaW4gdGhlIGhvcGUgdGhhdCBpdCB3aWxsIGJlIHVzZWZ1bCwKICogYnV0IFdJVEhPVVQgQU5ZIFdBUlJBTlRZOyB3aXRob3V0IGV2ZW4gdGhlIGltcGxpZWQgd2FycmFudHkgb2YKICogTUVSQ0hBTlRBQklMSVRZIG9yIEZJVE5FU1MgRk9SIEEgUEFSVElDVUxBUiBQVVJQT1NFLiAgU2VlIHRoZQogKiBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UgZm9yIG1vcmUgZGV0YWlscy4KICoKICogWW91IHNob3VsZCBoYXZlIHJlY2VpdmVkIGEgY29weSBvZiB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlCiAqIGFsb25nIHdpdGggdGhpcyBwcm9ncmFtLiAgSWYgbm90LCBzZWUgPGh0dHBzOi8vd3d3LmdudS5vcmcvbGljZW5zZXMvPi4KICovCgpwYWNrYWdlIG9yZy5saW5iYW9ndS5yb21odWIucGFuLnJlcG8KCmltcG9ydCBhbmRyb2lkLndlYmtpdC5Db29raWVNYW5hZ2VyCmltcG9ydCBhbmRyb2lkLndlYmtpdC5XZWJTdG9yYWdlCmltcG9ydCBvcmcubGluYmFvZ3Uucm9taHViLnBhbi5zdG9yZS5QYW4xMjNBY2NvdW50RGFvCmltcG9ydCBvcmcubGluYmFvZ3Uucm9taHViLnBhbi5zdG9yZS5QYW4xMjNBY2NvdW50RW50aXR5CmltcG9ydCBvcmcubGluYmFvZ3Uucm9taHViLnBhbi5QYW4xMjNBcGkKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93LkZsb3cKCi8qKgogKiAxMjMg5LqR55uY6LSm5Y+35LuT5bqT77ya572R6aG155m75b2V77yIeXVuLjEyM3Bhbi5jbiDnmoQgbG9jYWxTdG9yYWdlIGF1dGhvclRva2Vu77yJ4oaSIEpXVCDokL3lupPjgIIKICog5Yet6K+BID0gYXV0aG9yVG9rZW7vvIhCZWFyZXIgSldU77yM5LiO5penIHNpZ25faW4g5o6l5Y+j6L+U5Zue55qEIGRhdGEudG9rZW4g5ZCM5rqQ5ZCM5b2i77yM57qmIDkwIOWkqei/h+acn++8ie+8mwogKiB0b2tlbiDlpLHmlYjml7bph43mlrDotbDnvZHpobXnmbvlvZXvvIjml6AgcmVmcmVzaCDmjqXlj6PvvInjgIIKICovCmNsYXNzIFBhbjEyM0FjY291bnRSZXBvc2l0b3J5KAogICAgcHJpdmF0ZSB2YWwgZGFvOiBQYW4xMjNBY2NvdW50RGFvLAogICAgcHJpdmF0ZSB2YWwgYXBpOiBQYW4xMjNBcGkKKSB7CgogICAgZnVuIG9ic2VydmVBY2NvdW50KCk6IEZsb3c8UGFuMTIzQWNjb3VudEVudGl0eT8+ID0gZGFvLm9ic2VydmVBY2NvdW50KCkKCiAgICBzdXNwZW5kIGZ1biBnZXRBY2NvdW50KCk6IFBhbjEyM0FjY291bnRFbnRpdHk/ID0gZGFvLmdldEFjY291bnQoKQoKICAgIC8qKgogICAgICog572R6aG155m75b2V5Yet6K+B77yIYXV0aG9yVG9rZW7vvInmoKHpqozlubbokL3lupPvvJrlhYjnlKggdXNlci9pbmZvIOaOpeWPo+ehruiupCB0b2tlbiDmnInmlYjlubblj5bmmLXnp7DvvIzmiJDlip/ov5Tlm54gdHJ1ZeOAggogICAgICogQHBhcmFtIHRva2VuIDEyMyDkupHnm5jnvZHpobUgbG9jYWxTdG9yYWdlIOeahCBhdXRob3JUb2tlbu+8iEJlYXJlciBKV1TvvIkKICAgICAqLwogICAgc3VzcGVuZCBmdW4gc2F2ZVRva2VuKHRva2VuOiBTdHJpbmcpOiBCb29sZWFuIHsKICAgICAgICB2YWwgdCA9IHRva2VuLnRyaW0oKQogICAgICAgIGlmICh0LmlzQmxhbmsoKSkgcmV0dXJuIGZhbHNlCiAgICAgICAgLy8g572R6aG155m75b2V5ou/5LiN5Yiw5omL5py65Y+377yaYWNjb3VudCDnlZnnqbrvvIzotKblj7fpobXlsZXnpLrml7blm57pgIDmmLXnp7AKICAgICAgICB2YWwgbmlja25hbWUgPSBhcGkuZmV0Y2hOaWNrbmFtZSh0KSA/OiByZXR1cm4gZmFsc2UKICAgICAgICBkYW8udXBzZXJ0KAogICAgICAgICAgICBQYW4xMjNBY2NvdW50RW50aXR5KAogICAgICAgICAgICAgICAgaWQgPSAicGFuMTIzIiwKICAgICAgICAgICAgICAgIGFjY2Vzc1Rva2VuID0gdCwKICAgICAgICAgICAgICAgIGFjY291bnQgPSAiIiwKICAgICAgICAgICAgICAgIG5pY2tuYW1lID0gbmlja25hbWUKICAgICAgICAgICAgKQogICAgICAgICkKICAgICAgICByZXR1cm4gdHJ1ZQogICAgfQoKICAgIC8qKiDmoKHpqozlvZPliY0gdG9rZW4g5piv5ZCm5LuN5pyJ5pWI77yI5aSx6LSl6Ieq5Yqo5riF5bqT77yM5LiL5qyh6YeN5paw55m75b2V77yJICovCiAgICBzdXNwZW5kIGZ1biB2YWxpZGF0ZSgpOiBCb29sZWFuIHsKICAgICAgICB2YWwgYWNjID0gZGFvLmdldEFjY291bnQoKSA/OiByZXR1cm4gZmFsc2UKICAgICAgICB2YWwgb2sgPSBhcGkuZmV0Y2hOaWNrbmFtZShhY2MuYWNjZXNzVG9rZW4pICE9IG51bGwKICAgICAgICBpZiAoIW9rKSBkYW8uY2xlYXIoKQogICAgICAgIHJldHVybiBvawogICAgfQoKICAgIC8qKgogICAgICog6YCA5Ye655m75b2V77ya5riF5bqTICsg5riF55CGIFdlYlZpZXcg55m75b2V5oCB77yIQ29va2llIOS4jiBsb2NhbFN0b3JhZ2UvRE9NIOWtmOWCqO+8ieOAggogICAgICog572R6aG155m75b2V5oCB5L+d5a2Y5ZyoIFdlYlZpZXcg6YeM77yb5LiN5riF55CG55qE6K+d77yM55So5oi35YaN5qyh5omT5byA55m75b2V6aG15pe277yM6aG16Z2i5q6L55WZ55qECiAgICAgKiBhdXRob3JUb2tlbiDkvJrooqvoh6rliqjnmbvlvZXmo4DmtYvnm7TmjqXnmbvlm57ml6fotKblj7fvvIzlr7zoh7TjgIzpgIDlh7rnmbvlvZXjgI3lvaLlkIzomZrorr7jgIIKICAgICAqIFdlYlZpZXcg5a2Y5YKo5pa55rOV6aG75Zyo5bimIExvb3BlciDnmoTnur/nqIvvvIjkuLvnur/nqIvvvInosIPnlKjigJTigJTmnKzmlrnms5XnlLEgdmlld01vZGVsU2NvcGXvvIhNYWlu77yJ5omn6KGM44CCCiAgICAgKi8KICAgIHN1c3BlbmQgZnVuIGxvZ291dCgpIHsKICAgICAgICAvLyDmuIUgQ29va2ll77ya6aG65bim5riF5o6JIFdlYlZpZXcg6YeM5YW25LuW5bmz5Y+w55qE5Lya6K+d77yI5LiO55m+5bqmL+WkuOWFi+etieeZu+WHuuihjOS4uuS4gOiHtO+8jOWdh+S4uuWFqOmHj+a4heeQhu+8iQogICAgICAgIHJ1bkNhdGNoaW5nIHsKICAgICAgICAgICAgQ29va2llTWFuYWdlci5nZXRJbnN0YW5jZSgpLnJlbW92ZUFsbENvb2tpZXMobnVsbCkKICAgICAgICAgICAgQ29va2llTWFuYWdlci5nZXRJbnN0YW5jZSgpLmZsdXNoKCkKICAgICAgICB9CiAgICAgICAgLy8g5riFIGxvY2FsU3RvcmFnZS9ET00g5a2Y5YKo77yaYXV0aG9yVG9rZW4g5bCx5a2Y5Zyo6L+Z6YeMCiAgICAgICAgcnVuQ2F0Y2hpbmcgeyBXZWJTdG9yYWdlLmdldEluc3RhbmNlKCkuZGVsZXRlQWxsRGF0YSgpIH0KICAgICAgICBkYW8uY2xlYXIoKQogICAgfQp9Cg==
+/*
+ * YunX (云析) - A network drive share-link parser and high-speed downloader for Android.
+ * Copyright (C) 2026 CYQawa
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Affero General Public License for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
+package org.linbaogu.romhub.pan.repo
+
+import android.webkit.CookieManager
+import android.webkit.WebStorage
+import org.linbaogu.romhub.pan.store.Pan123AccountDao
+import org.linbaogu.romhub.pan.store.Pan123AccountEntity
+import org.linbaogu.romhub.pan.Pan123Api
+import kotlinx.coroutines.flow.Flow
+
+/**
+ * 123 云盘账号仓库：网页登录（yun.123pan.cn 的 localStorage authorToken）→ JWT 落库。
+ * 凭证 = authorToken（Bearer JWT，与旧 sign_in 接口返回的 data.token 同源同形，约 90 天过期）；
+ * token 失效时重新走网页登录（无 refresh 接口）。
+ */
+class Pan123AccountRepository(
+    private val dao: Pan123AccountDao,
+    private val api: Pan123Api
+) {
+
+    fun observeAccount(): Flow<Pan123AccountEntity?> = dao.observeAccount()
+
+    suspend fun getAccount(): Pan123AccountEntity? = dao.getAccount()
+
+    /**
+     * 网页登录凭证（authorToken）校验并落库：先用 user/info 接口确认 token 有效并取昵称，成功返回 true。
+     * @param token 123 云盘网页 localStorage 的 authorToken（Bearer JWT）
+     */
+    suspend fun saveToken(token: String): Boolean {
+        val t = token.trim()
+        if (t.isBlank()) return false
+        // 网页登录拿不到手机号：account 留空，账号页展示时回退昵称
+        val nickname = api.fetchNickname(t) ?: return false
+        dao.upsert(
+            Pan123AccountEntity(
+                id = "pan123",
+                accessToken = t,
+                account = "",
+                nickname = nickname
+            )
+        )
+        return true
+    }
+
+    /** 校验当前 token 是否仍有效（失败自动清库，下次重新登录） */
+    suspend fun validate(): Boolean {
+        val acc = dao.getAccount() ?: return false
+        val ok = api.fetchNickname(acc.accessToken) != null
+        if (!ok) dao.clear()
+        return ok
+    }
+
+    /**
+     * 退出登录：清库 + 清理 WebView 登录态（Cookie 与 localStorage/DOM 存储）。
+     * 网页登录态保存在 WebView 里；不清理的话，用户再次打开登录页时，页面残留的
+     * authorToken 会被自动登录检测直接登回旧账号，导致「退出登录」形同虚设。
+     * WebView 存储方法须在带 Looper 的线程（主线程）调用——本方法由 viewModelScope（Main）执行。
+     */
+    suspend fun logout() {
+        // 清 Cookie：顺带清掉 WebView 里其他平台的会话（与百度/夸克等登出行为一致，均为全量清理）
+        runCatching {
+            CookieManager.getInstance().removeAllCookies(null)
+            CookieManager.getInstance().flush()
+        }
+        // 清 localStorage/DOM 存储：authorToken 就存在这里
+        runCatching { WebStorage.getInstance().deleteAllData() }
+        dao.clear()
+    }
+}

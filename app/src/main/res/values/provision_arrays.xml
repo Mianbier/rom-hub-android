@@ -1,1 +1,27 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHJlc291cmNlcz4KICAgIDxzdHJpbmctYXJyYXkgbmFtZT0icHJvdmlzaW9uX2Jhc2ljX3NldHRpbmdzX2ljb24iPgogICAgICAgIDxpdGVtPkBzdHJpbmcvcHJvdmlzaW9uX2Jhc2ljX3NldHRpbmdzX2ljb25fZGlzYWJsZTwvaXRlbT4KICAgICAgICA8aXRlbT5Ac3RyaW5nL3Byb3Zpc2lvbl9iYXNpY19zZXR0aW5nc19pY29uX3RvcDwvaXRlbT4KICAgICAgICA8aXRlbT5Ac3RyaW5nL3Byb3Zpc2lvbl9iYXNpY19zZXR0aW5nc19pY29uX21lZGl1bTwvaXRlbT4KICAgICAgICA8aXRlbT5Ac3RyaW5nL3Byb3Zpc2lvbl9iYXNpY19zZXR0aW5nc19pY29uX2Rvd248L2l0ZW0+CiAgICA8L3N0cmluZy1hcnJheT4KCiAgICA8c3RyaW5nLWFycmF5IG5hbWU9InByb3Zpc2lvbl9iYXNpY19zZXR0aW5nc19pY29uX3ZhbHVlIj4KICAgICAgICA8aXRlbT4wPC9pdGVtPgogICAgICAgIDxpdGVtPjE8L2l0ZW0+CiAgICAgICAgPGl0ZW0+MjwvaXRlbT4KICAgICAgICA8aXRlbT4zPC9pdGVtPgogICAgPC9zdHJpbmctYXJyYXk+CgogICAgPHN0cmluZy1hcnJheSBuYW1lPSJwcm92aXNpb25fYmFzaWNfc2V0dGluZ3NfaWNvbl9tb2RlIj4KICAgICAgICA8aXRlbT5Ac3RyaW5nL3Byb3Zpc2lvbl9iYXNpY19zZXR0aW5nc19pY29uX21pdWlfMTQ8L2l0ZW0+CiAgICAgICAgPGl0ZW0+QHN0cmluZy9wcm92aXNpb25fYmFzaWNfc2V0dGluZ3NfaWNvbl9taXVpXzEzPC9pdGVtPgogICAgPC9zdHJpbmctYXJyYXk+CgogICAgPHN0cmluZy1hcnJheSBuYW1lPSJwcm92aXNpb25fYmFzaWNfc2V0dGluZ3NfaWNvbl9tb2RlX3ZhbHVlIj4KICAgICAgICA8aXRlbT4wPC9pdGVtPgogICAgICAgIDxpdGVtPjE8L2l0ZW0+CiAgICA8L3N0cmluZy1hcnJheT4KCjwvcmVzb3VyY2VzPgo=
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="provision_basic_settings_icon">
+        <item>@string/provision_basic_settings_icon_disable</item>
+        <item>@string/provision_basic_settings_icon_top</item>
+        <item>@string/provision_basic_settings_icon_medium</item>
+        <item>@string/provision_basic_settings_icon_down</item>
+    </string-array>
+
+    <string-array name="provision_basic_settings_icon_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="provision_basic_settings_icon_mode">
+        <item>@string/provision_basic_settings_icon_miui_14</item>
+        <item>@string/provision_basic_settings_icon_miui_13</item>
+    </string-array>
+
+    <string-array name="provision_basic_settings_icon_mode_value">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+</resources>

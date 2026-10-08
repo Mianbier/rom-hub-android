@@ -1,1 +1,204 @@
-dW5pZm9ybSB2ZWMyIHVSZXNvbHV0aW9uOw0KLy91bmlmb3JtIHNoYWRlciB1UGVybGluVGV4Ow0KDQovLyDmlrDniYjlj4LmlbANCnVuaWZvcm0gZmxvYXQgdUFuaW1UaW1lOw0KdW5pZm9ybSB2ZWM0IHVCb3VuZDsNCnVuaWZvcm0gZmxvYXQgdVRyYW5zbGF0ZVk7DQp1bmlmb3JtIHZlYzMgdVBvaW50c1s0XTsNCnVuaWZvcm0gdmVjNCB1Q29sb3JzWzRdOw0KdW5pZm9ybSBmbG9hdCB1QWxwaGFNdWx0aTsNCnVuaWZvcm0gZmxvYXQgdU5vaXNlU2NhbGU7DQp1bmlmb3JtIGZsb2F0IHVQb2ludE9mZnNldDsNCnVuaWZvcm0gZmxvYXQgdVBvaW50UmFkaXVzTXVsdGk7DQp1bmlmb3JtIGZsb2F0IHVTYXR1cmF0ZU9mZnNldDsNCnVuaWZvcm0gZmxvYXQgdUxpZ2h0T2Zmc2V0Ow0KdW5pZm9ybSBmbG9hdCB1QWxwaGFPZmZzZXQ7DQp1bmlmb3JtIGZsb2F0IHVTaGFkb3dDb2xvck11bHRpOw0KdW5pZm9ybSBmbG9hdCB1U2hhZG93Q29sb3JPZmZzZXQ7DQp1bmlmb3JtIGZsb2F0IHVTaGFkb3dOb2lzZVNjYWxlOw0KdW5pZm9ybSBmbG9hdCB1U2hhZG93T2Zmc2V0Ow0KDQp2ZWMzIGhzbDJyZ2IoaW4gdmVjMyBjKQ0Kew0KICAgIHZlYzMgcmdiID0gY2xhbXAoYWJzKG1vZChjLngqNi4wK3ZlYzMoMC4wLCA0LjAsIDIuMCksIDYuMCktMy4wKS0xLjAsIDAuMCwgMS4wKTsNCg0KICAgIHJldHVybiBjLnogKyBjLnkgKiAocmdiLTAuNSkqKDEuMC1hYnMoMi4wKmMuei0xLjApKTsNCn0NCg0KdmVjMyBIdWVTaGlmdCAoaW4gdmVjMyBDb2xvciwgaW4gZmxvYXQgU2hpZnQpDQp7DQogICAgdmVjMyBQID0gdmVjMygwLjU1NzM1KSpkb3QodmVjMygwLjU1NzM1KSwgQ29sb3IpOw0KDQogICAgdmVjMyBVID0gQ29sb3ItUDsNCg0KICAgIHZlYzMgViA9IGNyb3NzKHZlYzMoMC41NTczNSksIFUpOw0KDQogICAgQ29sb3IgPSBVKmNvcyhTaGlmdCo2LjI4MzIpICsgVipzaW4oU2hpZnQqNi4yODMyKSArIFA7DQoNCiAgICByZXR1cm4gdmVjMyhDb2xvcik7DQp9DQoNCnZlYzMgcmdiMmhzbChpbiB2ZWMzIGMpew0KICAgIGZsb2F0IGggPSAwLjA7DQogICAgZmxvYXQgcyA9IDAuMDsNCiAgICBmbG9hdCBsID0gMC4wOw0KICAgIGZsb2F0IHIgPSBjLnI7DQogICAgZmxvYXQgZyA9IGMuZzsNCiAgICBmbG9hdCBiID0gYy5iOw0KICAgIGZsb2F0IGNNaW4gPSBtaW4ociwgbWluKGcsIGIpKTsNCiAgICBmbG9hdCBjTWF4ID0gbWF4KHIsIG1heChnLCBiKSk7DQoNCiAgICBsID0gKGNNYXggKyBjTWluKSAvIDIuMDsNCiAgICBpZiAoY01heCA+IGNNaW4pIHsNCiAgICAgICAgZmxvYXQgY0RlbHRhID0gY01heCAtIGNNaW47DQoNCiAgICAgICAgLy9zID0gbCA8IC4wNSA/IGNEZWx0YSAvICggY01heCArIGNNaW4gKSA6IGNEZWx0YSAvICggMi4wIC0gKCBjTWF4ICsgY01pbiApICk7IE9yaWdpbmFsDQogICAgICAgIHMgPSBsIDwgLjAgPyBjRGVsdGEgLyAoY01heCArIGNNaW4pIDogY0RlbHRhIC8gKDIuMCAtIChjTWF4ICsgY01pbikpOw0KDQogICAgICAgIGlmIChyID09IGNNYXgpIHsNCiAgICAgICAgICAgIGggPSAoZyAtIGIpIC8gY0RlbHRhOw0KICAgICAgICB9IGVsc2UgaWYgKGcgPT0gY01heCkgew0KICAgICAgICAgICAgaCA9IDIuMCArIChiIC0gcikgLyBjRGVsdGE7DQogICAgICAgIH0gZWxzZSB7DQogICAgICAgICAgICBoID0gNC4wICsgKHIgLSBnKSAvIGNEZWx0YTsNCiAgICAgICAgfQ0KDQogICAgICAgIGlmIChoIDwgMC4wKSB7DQogICAgICAgICAgICBoICs9IDYuMDsNCiAgICAgICAgfQ0KICAgICAgICBoID0gaCAvIDYuMDsNCiAgICB9DQogICAgcmV0dXJuIHZlYzMoaCwgcywgbCk7DQp9DQoNCnZlYzMgcmdiMmhzdih2ZWMzIGMpDQp7DQogICAgdmVjNCBLID0gdmVjNCgwLjAsIC0xLjAgLyAzLjAsIDIuMCAvIDMuMCwgLTEuMCk7DQogICAgdmVjNCBwID0gbWl4KHZlYzQoYy5iZywgSy53eiksIHZlYzQoYy5nYiwgSy54eSksIHN0ZXAoYy5iLCBjLmcpKTsNCiAgICB2ZWM0IHEgPSBtaXgodmVjNChwLnh5dywgYy5yKSwgdmVjNChjLnIsIHAueXp4KSwgc3RlcChwLngsIGMucikpOw0KDQogICAgZmxvYXQgZCA9IHEueCAtIG1pbihxLncsIHEueSk7DQogICAgZmxvYXQgZSA9IDEuMGUtMTA7DQogICAgcmV0dXJuIHZlYzMoYWJzKHEueiArIChxLncgLSBxLnkpIC8gKDYuMCAqIGQgKyBlKSksIGQgLyAocS54ICsgZSksIHEueCk7DQp9DQoNCnZlYzMgaHN2MnJnYih2ZWMzIGMpDQp7DQogICAgdmVjNCBLID0gdmVjNCgxLjAsIDIuMCAvIDMuMCwgMS4wIC8gMy4wLCAzLjApOw0KICAgIHZlYzMgcCA9IGFicyhmcmFjdChjLnh4eCArIEsueHl6KSAqIDYuMCAtIEsud3d3KTsNCiAgICByZXR1cm4gYy56ICogbWl4KEsueHh4LCBjbGFtcChwIC0gSy54eHgsIDAuMCwgMS4wKSwgYy55KTsNCn0NCg0KZmxvYXQgaGFzaCh2ZWMyIHApIHsNCiAgICB2ZWMzIHAzID0gZnJhY3QodmVjMyhwLnh5eCkgKiAwLjEzKTsNCiAgICBwMyArPSBkb3QocDMsIHAzLnl6eCArIDMuMzMzKTsNCiAgICByZXR1cm4gZnJhY3QoKHAzLnggKyBwMy55KSAqIHAzLnopOw0KfQ0KDQpmbG9hdCBwZXJsaW4odmVjMiB4KSB7DQogICAgdmVjMiBpID0gZmxvb3IoeCk7DQogICAgdmVjMiBmID0gZnJhY3QoeCk7DQoNCiAgICBmbG9hdCBhID0gaGFzaChpKTsNCiAgICBmbG9hdCBiID0gaGFzaChpICsgdmVjMigxLjAsIDAuMCkpOw0KICAgIGZsb2F0IGMgPSBoYXNoKGkgKyB2ZWMyKDAuMCwgMS4wKSk7DQogICAgZmxvYXQgZCA9IGhhc2goaSArIHZlYzIoMS4wLCAxLjApKTsNCg0KICAgIHZlYzIgdSA9IGYgKiBmICogKDMuMCAtIDIuMCAqIGYpOw0KICAgIHJldHVybiBtaXgoYSwgYiwgdS54KSArIChjIC0gYSkgKiB1LnkgKiAoMS4wIC0gdS54KSArIChkIC0gYikgKiB1LnggKiB1Lnk7DQp9DQoNCnZlYzQgc3JjT3Zlcih2ZWM0IHNyYywgdmVjNCBkc3Qpew0KICAgIHJldHVybiBzcmMgKyBkc3QgKiAoMS4wIC0gc3JjLmEpOw0KfQ0KDQp2ZWM0IGJsZW5kU3JjT3Zlcih2ZWM0IHNyYywgdmVjNCBkc3QpIHsNCiAgICBpZiAoc3JjLmEgPT0gMC4wKSB7DQogICAgICAgIHJldHVybiBkc3Q7DQogICAgfQ0KDQogICAgZmxvYXQgc3JjQWxwaGEgPSBzcmMuYTsNCiAgICBmbG9hdCBkc3RBbHBoYSA9IGRzdC5hICogKDEuMCAtIHNyY0FscGhhKTsNCiAgICBmbG9hdCBvdXRBbHBoYSA9IHNyY0FscGhhICsgZHN0QWxwaGE7DQoNCiAgICBpZiAob3V0QWxwaGEgPT0gMC4wKSB7DQogICAgICAgIHJldHVybiB2ZWM0KDAsIDAsIDAsIDApOw0KICAgIH0NCg0KICAgIHZlYzQgb3V0Q29sb3IgPSAoc3JjICogc3JjQWxwaGEgKyBkc3QgKiBkc3RBbHBoYSkgLyBvdXRBbHBoYTsNCiAgICByZXR1cm4gdmVjNChvdXRDb2xvci5yZ2IsIG91dEFscGhhKTsNCn0NCg0KZmxvYXQgZ3JhZGllbnROb2lzZShpbiB2ZWMyIHV2KQ0Kew0KICAgIHJldHVybiBmcmFjdCg1Mi45ODI5MTg5ICogZnJhY3QoZG90KHV2LCB2ZWMyKDAuMDY3MTEwNTYsIDAuMDA1ODM3MTUpKSkpOw0KfQ0KDQp2ZWM0IG1haW4odmVjMiBmcmFnQ29vcmQpew0KDQogICAgdmVjMiB2VXYgPSBmcmFnQ29vcmQvdVJlc29sdXRpb247DQogICAgdlV2LnkgPSAxLjAtdlV2Lnk7DQogICAgdmVjMiB1diA9IHZVdjsNCiAgICB1diAtPSB2ZWMyKDAuLCB1VHJhbnNsYXRlWSk7DQoNCiAgICB1di54eSAtPSB1Qm91bmQueHk7DQogICAgdXYueHkgLz0gdUJvdW5kLnp3Ow0KDQogICAgdmVjMyBoc3Y7DQoNCi8vICAgIHZlYzQgY29sb3IgPSB2ZWM0KDEsIDEsIDEsIDAuKTsNCiAgICB2ZWM0IGNvbG9yID0gdmVjNCgwLjApOw0KDQogICAgZmxvYXQgbm9pc2VWYWx1ZSA9IHBlcmxpbih2VXYgKiB1Tm9pc2VTY2FsZSArIHZlYzIoLXVBbmltVGltZSwgLXVBbmltVGltZSkpOw0KLy8gICAgZmxvYXQgbm9pc2VWYWx1ZSA9IHVQZXJsaW5UZXguZXZhbCh2VXYgKiB2ZWMyKDEyOC4wKSArIHZlYzIoLXVBbmltVGltZSwgLXVBbmltVGltZSkqNTAuMCkucjsNCg0KICAgIC8vIGRyYXcgY2lyY2xlcw0KICAgIGZvciAoaW50IGkgPSAwOyBpIDwgNDsgaSsrKXsNCiAgICAgICAgdmVjNCBwb2ludENvbG9yID0gdUNvbG9yc1tpXTsNCiAgICAgICAgcG9pbnRDb2xvci5yZ2IgKj0gcG9pbnRDb2xvci5hOw0KICAgICAgICB2ZWMyIHBvaW50ID0gdVBvaW50c1tpXS54eTsNCiAgICAgICAgZmxvYXQgcmFkID0gdVBvaW50c1tpXS56ICogdVBvaW50UmFkaXVzTXVsdGk7DQoNCiAgICAgICAgcG9pbnQueCArPSBzaW4odUFuaW1UaW1lICsgcG9pbnQueSkgKiB1UG9pbnRPZmZzZXQ7DQogICAgICAgIHBvaW50LnkgKz0gY29zKHVBbmltVGltZSArIHBvaW50LngpICogdVBvaW50T2Zmc2V0Ow0KDQogICAgICAgIGZsb2F0IGQgPSBkaXN0YW5jZSh1diwgcG9pbnQpOw0KICAgICAgICBmbG9hdCBwY3QgPSBzbW9vdGhzdGVwKHJhZCwgMC4sIGQpOw0KICAgICAgICAvL2Zsb2F0IHBjdCA9IHNtb290aHN0ZXAocmFkLCByYWQgLSAwLjAxLCBkKTsNCg0KICAgICAgICAvLyBjb2xvciA9IGJsZW5kU3JjT3Zlcihjb2xvciwgcG9pbnRDb2xvcik7DQogICAgICAgIC8vIGNvbG9yID0gYmxlbmRTcmNPdmVyKHBvaW50Q29sb3IsIGNvbG9yKTsNCg0KICAgICAgICBjb2xvci5yZ2IgPSBtaXgoY29sb3IucmdiLCBwb2ludENvbG9yLnJnYiwgcGN0KTsNCg0KICAgICAgICAvLyBjb2xvci5hICs9ICgxLiAtIGNvbG9yLmEpICogcG9pbnRDb2xvci5hOw0KICAgICAgICBjb2xvci5hID0gbWl4KGNvbG9yLmEsIHBvaW50Q29sb3IuYSwgcGN0KTsNCiAgICB9DQoNCiAgICBmbG9hdCBvcHBvc2l0ZU5vaXNlID0gc21vb3Roc3RlcCgwLiwgMS4sIG5vaXNlVmFsdWUpOw0KICAgIGNvbG9yLnJnYiAvPSBjb2xvci5hOw0KICAgIGhzdiA9IHJnYjJoc3YoY29sb3IucmdiKTsNCiAgICBoc3YueSA9IG1peChoc3YueSwgMC4wLCBvcHBvc2l0ZU5vaXNlICogdVNhdHVyYXRlT2Zmc2V0KTsNCi8vICAgIGhzdi55ICs9IG9wcG9zaXRlTm9pc2UgKiB1U2F0dXJhdGVPZmZzZXQ7DQogICAgY29sb3IucmdiID0gaHN2MnJnYihoc3YpOw0KDQogICAgY29sb3IucmdiICs9IG9wcG9zaXRlTm9pc2UgKiB1TGlnaHRPZmZzZXQ7DQovLyAgICBjb2xvci5yZ2IgPSBtaXgoY29sb3IucmdiLCBtaW4oY29sb3IucmdiICsgb3Bwb3NpdGVOb2lzZSAqIHVMaWdodE9mZnNldCwgdmVjMygxLikpLCBvcHBvc2l0ZU5vaXNlKTsNCiAgICAvLyBjb2xvci5hICs9IG5vaXNlVmFsdWUgKiB1QWxwaGFPZmZzZXQ7DQoNCiAgICBjb2xvci5hID0gY2xhbXAoY29sb3IuYSwgMC4sIDEuKTsNCiAgICBjb2xvci5hICo9IHVBbHBoYU11bHRpOw0KDQogICAgLy8g4pqgIOacrOWcsOaUueWKqO+8muWOn+eJiOi/memHjOi/mOacieS4pOS4quWtkOedgOiJsuWZqCB1bmlmb3Jt77yIdVRleCA9IOacrOinhuWbvuWGheWuueOAgXVUZXhCaXRtYXAgPSDkvY3lm77vvInvvIwNCiAgICAvLyDnlKjmnaXmiorjgIzop4blm77lhoXlrrnjgI3lj6DliLDmuJDlj5jkuIrjgILmiJHku6zov5nlsYLog4zmma/op4blm77mmK/nqbrnmoTvvIzmnKzmnaXlsLHkvJrotbAgZ3JhZGllbnQg5YiG5pSv77ybDQogICAgLy8g6ICMKirkuI3nu5HlrprlrZDnnYDoibLlmagqKuaXtu+8jOmDqOWIhumpseWKqOS8muiuqeaVtOadoSBzaGFkZXIg5rGC5YC85aSx6LSlIOKAlOKAlCDooajnjrDlsLHmmK8i5LuA5LmI6YO95rKh5pyJIuOAgg0KICAgIC8vIOaJgOS7peebtOaOpeaKiumCo+S4pOWkhOWPluagt+WOu+aOie+8jOWPqui+k+WHuua4kOWPmO+8iOinguaEn+S4juWOn+eJiOS4gOiHtO+8ieOAgg0KICAgIGNvbG9yICs9ICgxMC4wIC8gMjU1LjApICogZ3JhZGllbnROb2lzZShmcmFnQ29vcmQueHkpIC0gKDUuMCAvIDI1NS4wKTsNCg0KICAgIHZlYzQgZnJhZ0NvbG9yID0gY29sb3I7DQogICAgcmV0dXJuIHZlYzQoZnJhZ0NvbG9yLnJnYipmcmFnQ29sb3IuYSwgZnJhZ0NvbG9yLmEpOw0KICAgIC8vY29sb3IgKz0gKDEwLjAgLyAyNTUuMCkgKiBncmFkaWVudE5vaXNlKGZyYWdDb29yZC54eSkgLSAoNS4wIC8gMjU1LjApOw0KICAgIGNvbG9yICs9ICgxLjAgLyAyNTUuMCkgKiBncmFkaWVudE5vaXNlKGZyYWdDb29yZC54eSkgLSAoMC41IC8gMjU1LjApOw0KICAgIHJldHVybiB2ZWM0KGNvbG9yLnJnYipjb2xvci5hLCBjb2xvci5hKTsNCn0NCg==
+uniform vec2 uResolution;
+//uniform shader uPerlinTex;
+
+// 新版参数
+uniform float uAnimTime;
+uniform vec4 uBound;
+uniform float uTranslateY;
+uniform vec3 uPoints[4];
+uniform vec4 uColors[4];
+uniform float uAlphaMulti;
+uniform float uNoiseScale;
+uniform float uPointOffset;
+uniform float uPointRadiusMulti;
+uniform float uSaturateOffset;
+uniform float uLightOffset;
+uniform float uAlphaOffset;
+uniform float uShadowColorMulti;
+uniform float uShadowColorOffset;
+uniform float uShadowNoiseScale;
+uniform float uShadowOffset;
+
+vec3 hsl2rgb(in vec3 c)
+{
+    vec3 rgb = clamp(abs(mod(c.x*6.0+vec3(0.0, 4.0, 2.0), 6.0)-3.0)-1.0, 0.0, 1.0);
+
+    return c.z + c.y * (rgb-0.5)*(1.0-abs(2.0*c.z-1.0));
+}
+
+vec3 HueShift (in vec3 Color, in float Shift)
+{
+    vec3 P = vec3(0.55735)*dot(vec3(0.55735), Color);
+
+    vec3 U = Color-P;
+
+    vec3 V = cross(vec3(0.55735), U);
+
+    Color = U*cos(Shift*6.2832) + V*sin(Shift*6.2832) + P;
+
+    return vec3(Color);
+}
+
+vec3 rgb2hsl(in vec3 c){
+    float h = 0.0;
+    float s = 0.0;
+    float l = 0.0;
+    float r = c.r;
+    float g = c.g;
+    float b = c.b;
+    float cMin = min(r, min(g, b));
+    float cMax = max(r, max(g, b));
+
+    l = (cMax + cMin) / 2.0;
+    if (cMax > cMin) {
+        float cDelta = cMax - cMin;
+
+        //s = l < .05 ? cDelta / ( cMax + cMin ) : cDelta / ( 2.0 - ( cMax + cMin ) ); Original
+        s = l < .0 ? cDelta / (cMax + cMin) : cDelta / (2.0 - (cMax + cMin));
+
+        if (r == cMax) {
+            h = (g - b) / cDelta;
+        } else if (g == cMax) {
+            h = 2.0 + (b - r) / cDelta;
+        } else {
+            h = 4.0 + (r - g) / cDelta;
+        }
+
+        if (h < 0.0) {
+            h += 6.0;
+        }
+        h = h / 6.0;
+    }
+    return vec3(h, s, l);
+}
+
+vec3 rgb2hsv(vec3 c)
+{
+    vec4 K = vec4(0.0, -1.0 / 3.0, 2.0 / 3.0, -1.0);
+    vec4 p = mix(vec4(c.bg, K.wz), vec4(c.gb, K.xy), step(c.b, c.g));
+    vec4 q = mix(vec4(p.xyw, c.r), vec4(c.r, p.yzx), step(p.x, c.r));
+
+    float d = q.x - min(q.w, q.y);
+    float e = 1.0e-10;
+    return vec3(abs(q.z + (q.w - q.y) / (6.0 * d + e)), d / (q.x + e), q.x);
+}
+
+vec3 hsv2rgb(vec3 c)
+{
+    vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);
+    vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);
+    return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);
+}
+
+float hash(vec2 p) {
+    vec3 p3 = fract(vec3(p.xyx) * 0.13);
+    p3 += dot(p3, p3.yzx + 3.333);
+    return fract((p3.x + p3.y) * p3.z);
+}
+
+float perlin(vec2 x) {
+    vec2 i = floor(x);
+    vec2 f = fract(x);
+
+    float a = hash(i);
+    float b = hash(i + vec2(1.0, 0.0));
+    float c = hash(i + vec2(0.0, 1.0));
+    float d = hash(i + vec2(1.0, 1.0));
+
+    vec2 u = f * f * (3.0 - 2.0 * f);
+    return mix(a, b, u.x) + (c - a) * u.y * (1.0 - u.x) + (d - b) * u.x * u.y;
+}
+
+vec4 srcOver(vec4 src, vec4 dst){
+    return src + dst * (1.0 - src.a);
+}
+
+vec4 blendSrcOver(vec4 src, vec4 dst) {
+    if (src.a == 0.0) {
+        return dst;
+    }
+
+    float srcAlpha = src.a;
+    float dstAlpha = dst.a * (1.0 - srcAlpha);
+    float outAlpha = srcAlpha + dstAlpha;
+
+    if (outAlpha == 0.0) {
+        return vec4(0, 0, 0, 0);
+    }
+
+    vec4 outColor = (src * srcAlpha + dst * dstAlpha) / outAlpha;
+    return vec4(outColor.rgb, outAlpha);
+}
+
+float gradientNoise(in vec2 uv)
+{
+    return fract(52.9829189 * fract(dot(uv, vec2(0.06711056, 0.00583715))));
+}
+
+vec4 main(vec2 fragCoord){
+
+    vec2 vUv = fragCoord/uResolution;
+    vUv.y = 1.0-vUv.y;
+    vec2 uv = vUv;
+    uv -= vec2(0., uTranslateY);
+
+    uv.xy -= uBound.xy;
+    uv.xy /= uBound.zw;
+
+    vec3 hsv;
+
+//    vec4 color = vec4(1, 1, 1, 0.);
+    vec4 color = vec4(0.0);
+
+    float noiseValue = perlin(vUv * uNoiseScale + vec2(-uAnimTime, -uAnimTime));
+//    float noiseValue = uPerlinTex.eval(vUv * vec2(128.0) + vec2(-uAnimTime, -uAnimTime)*50.0).r;
+
+    // draw circles
+    for (int i = 0; i < 4; i++){
+        vec4 pointColor = uColors[i];
+        pointColor.rgb *= pointColor.a;
+        vec2 point = uPoints[i].xy;
+        float rad = uPoints[i].z * uPointRadiusMulti;
+
+        point.x += sin(uAnimTime + point.y) * uPointOffset;
+        point.y += cos(uAnimTime + point.x) * uPointOffset;
+
+        float d = distance(uv, point);
+        float pct = smoothstep(rad, 0., d);
+        //float pct = smoothstep(rad, rad - 0.01, d);
+
+        // color = blendSrcOver(color, pointColor);
+        // color = blendSrcOver(pointColor, color);
+
+        color.rgb = mix(color.rgb, pointColor.rgb, pct);
+
+        // color.a += (1. - color.a) * pointColor.a;
+        color.a = mix(color.a, pointColor.a, pct);
+    }
+
+    float oppositeNoise = smoothstep(0., 1., noiseValue);
+    color.rgb /= color.a;
+    hsv = rgb2hsv(color.rgb);
+    hsv.y = mix(hsv.y, 0.0, oppositeNoise * uSaturateOffset);
+//    hsv.y += oppositeNoise * uSaturateOffset;
+    color.rgb = hsv2rgb(hsv);
+
+    color.rgb += oppositeNoise * uLightOffset;
+//    color.rgb = mix(color.rgb, min(color.rgb + oppositeNoise * uLightOffset, vec3(1.)), oppositeNoise);
+    // color.a += noiseValue * uAlphaOffset;
+
+    color.a = clamp(color.a, 0., 1.);
+    color.a *= uAlphaMulti;
+
+    // ⚠ 本地改动：原版这里还有两个子着色器 uniform（uTex = 本视图内容、uTexBitmap = 位图），
+    // 用来把「视图内容」叠到渐变上。我们这层背景视图是空的，本来就会走 gradient 分支；
+    // 而**不绑定子着色器**时，部分驱动会让整条 shader 求值失败 —— 表现就是"什么都没有"。
+    // 所以直接把那两处取样去掉，只输出渐变（观感与原版一致）。
+    color += (10.0 / 255.0) * gradientNoise(fragCoord.xy) - (5.0 / 255.0);
+
+    vec4 fragColor = color;
+    return vec4(fragColor.rgb*fragColor.a, fragColor.a);
+    //color += (10.0 / 255.0) * gradientNoise(fragCoord.xy) - (5.0 / 255.0);
+    color += (1.0 / 255.0) * gradientNoise(fragCoord.xy) - (0.5 / 255.0);
+    return vec4(color.rgb*color.a, color.a);
+}

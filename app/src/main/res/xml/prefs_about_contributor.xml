@@ -1,1 +1,501 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IS0tCiAgfiBUaGlzIGZpbGUgaXMgcGFydCBvZiBIeXBlckNlaWxlci4KICB+CiAgfiBIeXBlckNlaWxlciBpcyBmcmVlIHNvZnR3YXJlOiB5b3UgY2FuIHJlZGlzdHJpYnV0ZSBpdCBhbmQvb3IgbW9kaWZ5CiAgfiBpdCB1bmRlciB0aGUgdGVybXMgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBhcwogIH4gcHVibGlzaGVkIGJ5IHRoZSBGcmVlIFNvZnR3YXJlIEZvdW5kYXRpb24sIGVpdGhlciB2ZXJzaW9uIDMgb2YgdGhlCiAgfiBMaWNlbnNlLgogIH4KICB+IFRoaXMgcHJvZ3JhbSBpcyBkaXN0cmlidXRlZCBpbiB0aGUgaG9wZSB0aGF0IGl0IHdpbGwgYmUgdXNlZnVsLAogIH4gYnV0IFdJVEhPVVQgQU5ZIFdBUlJBTlRZOyB3aXRob3V0IGV2ZW4gdGhlIGltcGxpZWQgd2FycmFudHkgb2YKICB+IE1FUkNIQU5UQUJJTElUWSBvciBGSVRORVNTIEZPUiBBIFBBUlRJQ1VMQVIgUFVSUE9TRS4gIFNlZSB0aGUKICB+IEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBmb3IgbW9yZSBkZXRhaWxzLgogIH4KICB+IFlvdSBzaG91bGQgaGF2ZSByZWNlaXZlZCBhIGNvcHkgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZQogIH4gYWxvbmcgd2l0aCB0aGlzIHByb2dyYW0uICBJZiBub3QsIHNlZSA8aHR0cHM6Ly93d3cuZ251Lm9yZy9saWNlbnNlcy8+LgogIH4KICB+IENvcHlyaWdodCAoQykgMjAyMy0yMDI2IEh5cGVyQ2VpbGVyIENvbnRyaWJ1dGlvbnMKICAtLT4KPFByZWZlcmVuY2VTY3JlZW4geG1sbnM6YW5kcm9pZD0iaHR0cDovL3NjaGVtYXMuYW5kcm9pZC5jb20vYXBrL3Jlcy9hbmRyb2lkIgogICAgeG1sbnM6YXBwPSJodHRwOi8vc2NoZW1hcy5hbmRyb2lkLmNvbS9hcGsvcmVzLWF1dG8iPgoKICAgIDxQcmVmZXJlbmNlCiAgICAgICAgYW5kcm9pZDpzdW1tYXJ5PSJAc3RyaW5nL2Fib3V0X2NvbnRyaWJ1dGVyX2Rlc2MiLz4KCiAgICA8UHJlZmVyZW5jZUNhdGVnb3J5CiAgICAgICAgYXBwOmlzUHJlZmVyZW5jZVZpc2libGU9ImZhbHNlIgogICAgICAgIGFuZHJvaWQ6a2V5PSJwcmVmc19rZXlfYWJvdXRfY29udHJpYnV0b3JzIiA+CiAgICAgICAgPCEtLTxQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6c3VtbWFyeT0iR2l0SHViQEFkbHlxIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJBZGx5cSI+CiAgICAgICAgICAgIDxpbnRlbnQKICAgICAgICAgICAgICAgIGFuZHJvaWQ6YWN0aW9uPSJhbmRyb2lkLmludGVudC5hY3Rpb24uVklFVyIKICAgICAgICAgICAgICAgIGFuZHJvaWQ6ZGF0YT0iaHR0cHM6Ly9naXRodWIuY29tL0FkbHlxIiAvPgogICAgICAgIDwvUHJlZmVyZW5jZT4KICAgICAgICA8UHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOnN1bW1hcnk9IkdpdEh1YkBDQzAxMjYiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IkNDMDEyNiI+CiAgICAgICAgICAgIDxpbnRlbnQKICAgICAgICAgICAgICAgIGFuZHJvaWQ6YWN0aW9uPSJhbmRyb2lkLmludGVudC5hY3Rpb24uVklFVyIKICAgICAgICAgICAgICAgIGFuZHJvaWQ6ZGF0YT0iaHR0cHM6Ly9naXRodWIuY29tL0NDMDEyNiIgLz4KICAgICAgICA8L1ByZWZlcmVuY2U+CiAgICAgICAgPFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpzdW1tYXJ5PSJHaXRIdWJAQ0VDb2ZmZWUiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IkNFQ29mZmVlMHYwIj4KICAgICAgICAgICAgPGludGVudAogICAgICAgICAgICAgICAgYW5kcm9pZDphY3Rpb249ImFuZHJvaWQuaW50ZW50LmFjdGlvbi5WSUVXIgogICAgICAgICAgICAgICAgYW5kcm9pZDpkYXRhPSJodHRwczovL2dpdGh1Yi5jb20vQ0VDb2ZmZWUiIC8+CiAgICAgICAgPC9QcmVmZXJlbmNlPgogICAgICAgIDxQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6c3VtbWFyeT0iR2l0SHViQENMT1VERVJIRU0iCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IkNMT1VERVJIRU0iPgogICAgICAgICAgICA8aW50ZW50CiAgICAgICAgICAgICAgICBhbmRyb2lkOmFjdGlvbj0iYW5kcm9pZC5pbnRlbnQuYWN0aW9uLlZJRVciCiAgICAgICAgICAgICAgICBhbmRyb2lkOmRhdGE9Imh0dHBzOi8vZ2l0aHViLmNvbS9DTE9VREVSSEVNIiAvPgogICAgICAgIDwvUHJlZmVyZW5jZT4KICAgICAgICA8UHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOnN1bW1hcnk9IkdpdEh1YkBEZWVwQ2hpcnAiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IkRlZXBDaGlycCI+CiAgICAgICAgICAgIDxpbnRlbnQKICAgICAgICAgICAgICAgIGFuZHJvaWQ6YWN0aW9uPSJhbmRyb2lkLmludGVudC5hY3Rpb24uVklFVyIKICAgICAgICAgICAgICAgIGFuZHJvaWQ6ZGF0YT0iaHR0cHM6Ly9naXRodWIuY29tL0RlZXBDaGlycCIgLz4KICAgICAgICA8L1ByZWZlcmVuY2U+CiAgICAgICAgPFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpzdW1tYXJ5PSJHaXRIdWJASXR6REZQbGF5ZXIiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IkRlbnlzIEtvdmFsZXZza3lpIj4KICAgICAgICAgICAgPGludGVudAogICAgICAgICAgICAgICAgYW5kcm9pZDphY3Rpb249ImFuZHJvaWQuaW50ZW50LmFjdGlvbi5WSUVXIgogICAgICAgICAgICAgICAgYW5kcm9pZDpkYXRhPSJodHRwczovL2dpdGh1Yi5jb20vSXR6REZQbGF5ZXIiIC8+CiAgICAgICAgPC9QcmVmZXJlbmNlPgogICAgICAgIDxQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6c3VtbWFyeT0iR2l0SHViQGhlaW51MTIzIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJFbHlzaWEiPgogICAgICAgICAgICA8aW50ZW50CiAgICAgICAgICAgICAgICBhbmRyb2lkOmFjdGlvbj0iYW5kcm9pZC5pbnRlbnQuYWN0aW9uLlZJRVciCiAgICAgICAgICAgICAgICBhbmRyb2lkOmRhdGE9Imh0dHBzOi8vZ2l0aHViLmNvbS9oZWludTEyMyIgLz4KICAgICAgICA8L1ByZWZlcmVuY2U+CiAgICAgICAgPFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpzdW1tYXJ5PSJHaXRIdWJARmFuMDk1IgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJGYW4iPgogICAgICAgICAgICA8aW50ZW50CiAgICAgICAgICAgICAgICBhbmRyb2lkOmFjdGlvbj0iYW5kcm9pZC5pbnRlbnQuYWN0aW9uLlZJRVciCiAgICAgICAgICAgICAgICBhbmRyb2lkOmRhdGE9Imh0dHBzOi8vZ2l0aHViLmNvbS9GYW4wOTUiIC8+CiAgICAgICAgPC9QcmVmZXJlbmNlPgogICAgICAgIDxQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6c3VtbWFyeT0iR2l0SHViQGZyYW5rLTc4MiIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iZnJhbmstNzgyIj4KICAgICAgICAgICAgPGludGVudAogICAgICAgICAgICAgICAgYW5kcm9pZDphY3Rpb249ImFuZHJvaWQuaW50ZW50LmFjdGlvbi5WSUVXIgogICAgICAgICAgICAgICAgYW5kcm9pZDpkYXRhPSJodHRwczovL2dpdGh1Yi5jb20vZnJhbmstNzgyIiAvPgogICAgICAgIDwvUHJlZmVyZW5jZT4KICAgICAgICA8UHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOnN1bW1hcnk9IkdpdEh1YkBHTWVyZ2UwMSIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iR01lcmdlIj4KICAgICAgICAgICAgPGludGVudAogICAgICAgICAgICAgICAgYW5kcm9pZDphY3Rpb249ImFuZHJvaWQuaW50ZW50LmFjdGlvbi5WSUVXIgogICAgICAgICAgICAgICAgYW5kcm9pZDpkYXRhPSJodHRwczovL2dpdGh1Yi5jb20vR01lcmdlMDEiIC8+CiAgICAgICAgPC9QcmVmZXJlbmNlPgogICAgICAgIDxQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6c3VtbWFyeT0iQ29vbEFwa0DmvYfpo47mrovmnIgiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IkdyZWVuIFlhbmciPgogICAgICAgICAgICA8aW50ZW50CiAgICAgICAgICAgICAgICBhbmRyb2lkOmFjdGlvbj0iYW5kcm9pZC5pbnRlbnQuYWN0aW9uLlZJRVciCiAgICAgICAgICAgICAgICBhbmRyb2lkOmRhdGE9Imh0dHBzOi8vd3d3LmNvb2xhcGsuY29tL3UvNjY2MTkwIiAvPgogICAgICAgIDwvUHJlZmVyZW5jZT4KICAgICAgICA8UHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOnN1bW1hcnk9IkdpdEh1YkBHU1dYWE4gLyBDb29sQXBrQOi/t+eSkCIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iR1NXWFhOIj4KICAgICAgICAgICAgPGludGVudAogICAgICAgICAgICAgICAgYW5kcm9pZDphY3Rpb249ImFuZHJvaWQuaW50ZW50LmFjdGlvbi5WSUVXIgogICAgICAgICAgICAgICAgYW5kcm9pZDpkYXRhPSJodHRwczovL2dpdGh1Yi5jb20vR1NXWFhOIiAvPgogICAgICAgIDwvUHJlZmVyZW5jZT4KICAgICAgICA8UHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOnN1bW1hcnk9IkdpdEh1YkBoYW1qaW4gLyBDb29sQXBrQEhhbUppbiIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iaGFtamluIj4KICAgICAgICAgICAgPGludGVudAogICAgICAgICAgICAgICAgYW5kcm9pZDphY3Rpb249ImFuZHJvaWQuaW50ZW50LmFjdGlvbi5WSUVXIgogICAgICAgICAgICAgICAgYW5kcm9pZDpkYXRhPSJodHRwczovL2dpdGh1Yi5jb20vaGFtamluIiAvPgogICAgICAgIDwvUHJlZmVyZW5jZT4KICAgICAgICA8UHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOnN1bW1hcnk9IkdpdEh1YkBIb3JhbmdlMzIxIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJIb3JhbmdlMzIxIj4KICAgICAgICAgICAgPGludGVudAogICAgICAgICAgICAgICAgYW5kcm9pZDphY3Rpb249ImFuZHJvaWQuaW50ZW50LmFjdGlvbi5WSUVXIgogICAgICAgICAgICAgICAgYW5kcm9pZDpkYXRhPSJodHRwczovL2dpdGh1Yi5jb20vSG9yYW5nZTMyMSIgLz4KICAgICAgICA8L1ByZWZlcmVuY2U+CiAgICAgICAgPFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpzdW1tYXJ5PSJHaXRIdWJAaHJzdGhydDc0IgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJocnN0aHJ0NzQiPgogICAgICAgICAgICA8aW50ZW50CiAgICAgICAgICAgICAgICBhbmRyb2lkOmFjdGlvbj0iYW5kcm9pZC5pbnRlbnQuYWN0aW9uLlZJRVciCiAgICAgICAgICAgICAgICBhbmRyb2lkOmRhdGE9Imh0dHBzOi8vZ2l0aHViLmNvbS9ocnN0aHJ0NzQiIC8+CiAgICAgICAgPC9QcmVmZXJlbmNlPgogICAgICAgIDxQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6c3VtbWFyeT0iR2l0SHViQGlnb3JtaWd1ZWxsIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJpZ29yIj4KICAgICAgICAgICAgPGludGVudAogICAgICAgICAgICAgICAgYW5kcm9pZDphY3Rpb249ImFuZHJvaWQuaW50ZW50LmFjdGlvbi5WSUVXIgogICAgICAgICAgICAgICAgYW5kcm9pZDpkYXRhPSJodHRwczovL2dpdGh1Yi5jb20vaWdvcm1pZ3VlbGwiIC8+CiAgICAgICAgPC9QcmVmZXJlbmNlPgogICAgICAgIDxQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6c3VtbWFyeT0iNFBEQUBLb3Ntb3Npazk2IgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJLb3Ntb3Npazk2Ij4KICAgICAgICAgICAgPGludGVudAogICAgICAgICAgICAgICAgYW5kcm9pZDphY3Rpb249ImFuZHJvaWQuaW50ZW50LmFjdGlvbi5WSUVXIgogICAgICAgICAgICAgICAgYW5kcm9pZDpkYXRhPSJodHRwczovLzRwZGEudG8vZm9ydW0vaW5kZXgucGhwP3Nob3d1c2VyPTEwNzg5NzE4IiAvPgogICAgICAgIDwvUHJlZmVyZW5jZT4KICAgICAgICA8UHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOnN1bW1hcnk9IkdpdEh1YkBMaXVCb2RvbmciCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IkxpdUJvZG9uZyI+CiAgICAgICAgICAgIDxpbnRlbnQKICAgICAgICAgICAgICAgIGFuZHJvaWQ6YWN0aW9uPSJhbmRyb2lkLmludGVudC5hY3Rpb24uVklFVyIKICAgICAgICAgICAgICAgIGFuZHJvaWQ6ZGF0YT0iaHR0cHM6Ly9naXRodWIuY29tL0xpdUJvZG9uZyIgLz4KICAgICAgICA8L1ByZWZlcmVuY2U+CiAgICAgICAgPFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpzdW1tYXJ5PSJHaXRIdWJATHVvWXVuWGkwNDA3IgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJMdW9ZdW5YaSI+CiAgICAgICAgICAgIDxpbnRlbnQKICAgICAgICAgICAgICAgIGFuZHJvaWQ6YWN0aW9uPSJhbmRyb2lkLmludGVudC5hY3Rpb24uVklFVyIKICAgICAgICAgICAgICAgIGFuZHJvaWQ6ZGF0YT0iaHR0cHM6Ly9naXRodWIuY29tL0x1b1l1blhpMDQwNyIgLz4KICAgICAgICA8L1ByZWZlcmVuY2U+CiAgICAgICAgPFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpzdW1tYXJ5PSJHaXRIdWJATWVtb3J5MjMxNCIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iTWVtb3J5Ij4KICAgICAgICAgICAgPGludGVudAogICAgICAgICAgICAgICAgYW5kcm9pZDphY3Rpb249ImFuZHJvaWQuaW50ZW50LmFjdGlvbi5WSUVXIgogICAgICAgICAgICAgICAgYW5kcm9pZDpkYXRhPSJodHRwczovL2dpdGh1Yi5jb20vTWVtb3J5MjMxNCIgLz4KICAgICAgICA8L1ByZWZlcmVuY2U+CiAgICAgICAgPFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpzdW1tYXJ5PSJHaXRIdWJATmFoaWRhQnVlciIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iTmFoaWRhIj4KICAgICAgICAgICAgPGludGVudAogICAgICAgICAgICAgICAgYW5kcm9pZDphY3Rpb249ImFuZHJvaWQuaW50ZW50LmFjdGlvbi5WSUVXIgogICAgICAgICAgICAgICAgYW5kcm9pZDpkYXRhPSJodHRwczovL2dpdGh1Yi5jb20vTmFoaWRhQnVlciIgLz4KICAgICAgICA8L1ByZWZlcmVuY2U+CiAgICAgICAgPFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpzdW1tYXJ5PSJHaXRIdWJAbmFraXhpaSAvIENvb2xBcGtAbmFraXhpaSIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0ibmFraXhpaSI+CiAgICAgICAgICAgIDxpbnRlbnQKICAgICAgICAgICAgICAgIGFuZHJvaWQ6YWN0aW9uPSJhbmRyb2lkLmludGVudC5hY3Rpb24uVklFVyIKICAgICAgICAgICAgICAgIGFuZHJvaWQ6ZGF0YT0iaHR0cHM6Ly9naXRodWIuY29tL25ha2l4aWkiIC8+CiAgICAgICAgPC9QcmVmZXJlbmNlPgogICAgICAgIDxQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6c3VtbWFyeT0iR2l0SHViQEhlbnZ5LU1hbmdvIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJOYW9taSI+CiAgICAgICAgICAgIDxpbnRlbnQKICAgICAgICAgICAgICAgIGFuZHJvaWQ6YWN0aW9uPSJhbmRyb2lkLmludGVudC5hY3Rpb24uVklFVyIKICAgICAgICAgICAgICAgIGFuZHJvaWQ6ZGF0YT0iaHR0cHM6Ly9naXRodWIuY29tL0hlbnZ5LU1hbmdvIiAvPgogICAgICAgIDwvUHJlZmVyZW5jZT4KICAgICAgICA8UHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOnN1bW1hcnk9IkdpdEh1YkBOZXh0QWxvbmUiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9Ik5leHQgQWxvbmUiPgogICAgICAgICAgICA8aW50ZW50CiAgICAgICAgICAgICAgICBhbmRyb2lkOmFjdGlvbj0iYW5kcm9pZC5pbnRlbnQuYWN0aW9uLlZJRVciCiAgICAgICAgICAgICAgICBhbmRyb2lkOmRhdGE9Imh0dHBzOi8vZ2l0aHViLmNvbS9OZXh0QWxvbmUiIC8+CiAgICAgICAgPC9QcmVmZXJlbmNlPgogICAgICAgIDxQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6c3VtbWFyeT0iQ29vbEFwa0BNb25ldENhcmxvcyIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iTW9uZXRDYXJsb3MiPgogICAgICAgICAgICA8aW50ZW50CiAgICAgICAgICAgICAgICBhbmRyb2lkOmFjdGlvbj0iYW5kcm9pZC5pbnRlbnQuYWN0aW9uLlZJRVciCiAgICAgICAgICAgICAgICBhbmRyb2lkOmRhdGE9Imh0dHBzOi8vd3d3LmNvb2xhcGsuY29tL3UvOTAyMTg1NSIgLz4KICAgICAgICA8L1ByZWZlcmVuY2U+CiAgICAgICAgPFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpzdW1tYXJ5PSJHaXRIdWJAbnhpYmp6QyIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0ibnhpYmp6Ij4KICAgICAgICAgICAgPGludGVudAogICAgICAgICAgICAgICAgYW5kcm9pZDphY3Rpb249ImFuZHJvaWQuaW50ZW50LmFjdGlvbi5WSUVXIgogICAgICAgICAgICAgICAgYW5kcm9pZDpkYXRhPSJodHRwczovL2dpdGh1Yi5jb20vbnhpYmp6QyIgLz4KICAgICAgICA8L1ByZWZlcmVuY2U+CiAgICAgICAgPFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpzdW1tYXJ5PSJHaXRIdWJAb3VmbSIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0ib3VmbSI+CiAgICAgICAgICAgIDxpbnRlbnQKICAgICAgICAgICAgICAgIGFuZHJvaWQ6YWN0aW9uPSJhbmRyb2lkLmludGVudC5hY3Rpb24uVklFVyIKICAgICAgICAgICAgICAgIGFuZHJvaWQ6ZGF0YT0iaHR0cHM6Ly9naXRodWIuY29tL291Zm0iIC8+CiAgICAgICAgPC9QcmVmZXJlbmNlPgogICAgICAgIDxQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6c3VtbWFyeT0iR2l0SHViQHB6Y24iCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IlBlZHJvWiI+CiAgICAgICAgICAgIDxpbnRlbnQKICAgICAgICAgICAgICAgIGFuZHJvaWQ6YWN0aW9uPSJhbmRyb2lkLmludGVudC5hY3Rpb24uVklFVyIKICAgICAgICAgICAgICAgIGFuZHJvaWQ6ZGF0YT0iaHR0cHM6Ly9naXRodWIuY29tL3B6Y24iIC8+CiAgICAgICAgPC9QcmVmZXJlbmNlPgogICAgICAgIDxQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6c3VtbWFyeT0iR2l0SHViQHVhcml4IgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJRdWFyaXgiPgogICAgICAgICAgICA8aW50ZW50CiAgICAgICAgICAgICAgICBhbmRyb2lkOmFjdGlvbj0iYW5kcm9pZC5pbnRlbnQuYWN0aW9uLlZJRVciCiAgICAgICAgICAgICAgICBhbmRyb2lkOmRhdGE9Imh0dHBzOi8vZ2l0aHViLmNvbS91YXJpeCIgLz4KICAgICAgICA8L1ByZWZlcmVuY2U+CiAgICAgICAgPFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpzdW1tYXJ5PSJHaXRIdWJAcWRzcDZzdyIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0icWRzcDZzdyI+CiAgICAgICAgICAgIDxpbnRlbnQKICAgICAgICAgICAgICAgIGFuZHJvaWQ6YWN0aW9uPSJhbmRyb2lkLmludGVudC5hY3Rpb24uVklFVyIKICAgICAgICAgICAgICAgIGFuZHJvaWQ6ZGF0YT0iaHR0cHM6Ly9naXRodWIuY29tL3Fkc3A2c3ciIC8+CiAgICAgICAgPC9QcmVmZXJlbmNlPgogICAgICAgIDxQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6c3VtbWFyeT0iQ29vbEFwa0BRZV94ciIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iUWVfeHIiPgogICAgICAgICAgICA8aW50ZW50CiAgICAgICAgICAgICAgICBhbmRyb2lkOmFjdGlvbj0iYW5kcm9pZC5pbnRlbnQuYWN0aW9uLlZJRVciCiAgICAgICAgICAgICAgICBhbmRyb2lkOmRhdGE9Imh0dHA6Ly93d3cuY29vbGFway5jb20vdS8yOTE5NTAzIiAvPgogICAgICAgIDwvUHJlZmVyZW5jZT4KICAgICAgICA8UHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOnN1bW1hcnk9IkdpdEh1YkByaS1jaGFyIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJyaUNoYXIiPgogICAgICAgICAgICA8aW50ZW50CiAgICAgICAgICAgICAgICBhbmRyb2lkOmFjdGlvbj0iYW5kcm9pZC5pbnRlbnQuYWN0aW9uLlZJRVciCiAgICAgICAgICAgICAgICBhbmRyb2lkOmRhdGE9Imh0dHBzOi8vZ2l0aHViLmNvbS9yaS1jaGFyIiAvPgogICAgICAgIDwvUHJlZmVyZW5jZT4KICAgICAgICA8UHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOnN1bW1hcnk9IkdpdEh1YkBGdXJyeVJibCIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iU2hhcnBJY2Ug6ZSQ5Yaw6b6ZIj4KICAgICAgICAgICAgPGludGVudAogICAgICAgICAgICAgICAgYW5kcm9pZDphY3Rpb249ImFuZHJvaWQuaW50ZW50LmFjdGlvbi5WSUVXIgogICAgICAgICAgICAgICAgYW5kcm9pZDpkYXRhPSJodHRwczovL2dpdGh1Yi5jb20vRnVycnlSYmwiIC8+CiAgICAgICAgPC9QcmVmZXJlbmNlPgogICAgICAgIDxQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6c3VtbWFyeT0iR2l0SHViQFNtYXJ0SlEiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IlNtYXJ0SlEiPgogICAgICAgICAgICA8aW50ZW50CiAgICAgICAgICAgICAgICBhbmRyb2lkOmFjdGlvbj0iYW5kcm9pZC5pbnRlbnQuYWN0aW9uLlZJRVciCiAgICAgICAgICAgICAgICBhbmRyb2lkOmRhdGE9Imh0dHBzOi8vZ2l0aHViLmNvbS9TbWFydEpRIiAvPgogICAgICAgIDwvUHJlZmVyZW5jZT4KICAgICAgICA8UHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOnN1bW1hcnk9IkdpdEh1YkBTcGFjZVZlY3RvciIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iU3BhY2VWZWN0b3IiPgogICAgICAgICAgICA8aW50ZW50CiAgICAgICAgICAgICAgICBhbmRyb2lkOmFjdGlvbj0iYW5kcm9pZC5pbnRlbnQuYWN0aW9uLlZJRVciCiAgICAgICAgICAgICAgICBhbmRyb2lkOmRhdGE9Imh0dHBzOi8vZ2l0aHViLmNvbS9TcGFjZVZlY3RvciIgLz4KICAgICAgICA8L1ByZWZlcmVuY2U+CiAgICAgICAgPFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpzdW1tYXJ5PSJHaXRIdWJAeXhzcmEiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IlNVTVVTIj4KICAgICAgICAgICAgPGludGVudAogICAgICAgICAgICAgICAgYW5kcm9pZDphY3Rpb249ImFuZHJvaWQuaW50ZW50LmFjdGlvbi5WSUVXIgogICAgICAgICAgICAgICAgYW5kcm9pZDpkYXRhPSJodHRwczovL2dpdGh1Yi5jb20veXhzcmEiIC8+CiAgICAgICAgPC9QcmVmZXJlbmNlPgogICAgICAgIDxQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6c3VtbWFyeT0iR2l0SHViQHRlaGNuZWtvIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJ0ZWhjbmVrbyI+CiAgICAgICAgICAgIDxpbnRlbnQKICAgICAgICAgICAgICAgIGFuZHJvaWQ6YWN0aW9uPSJhbmRyb2lkLmludGVudC5hY3Rpb24uVklFVyIKICAgICAgICAgICAgICAgIGFuZHJvaWQ6ZGF0YT0iaHR0cHM6Ly9naXRodWIuY29tL3RlaGNuZWtvIiAvPgogICAgICAgIDwvUHJlZmVyZW5jZT4KICAgICAgICA8UHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOnN1bW1hcnk9IkdpdEh1YkBteW5uYTQwNCIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iVHJ1RSI+CiAgICAgICAgICAgIDxpbnRlbnQKICAgICAgICAgICAgICAgIGFuZHJvaWQ6YWN0aW9uPSJhbmRyb2lkLmludGVudC5hY3Rpb24uVklFVyIKICAgICAgICAgICAgICAgIGFuZHJvaWQ6ZGF0YT0iaHR0cHM6Ly9naXRodWIuY29tL215bm5hNDA0IiAvPgogICAgICAgIDwvUHJlZmVyZW5jZT4KICAgICAgICA8UHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOnN1bW1hcnk9IkdpdEh1YkB2NXU4NzEiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9InY1dTg3Ij4KICAgICAgICAgICAgPGludGVudAogICAgICAgICAgICAgICAgYW5kcm9pZDphY3Rpb249ImFuZHJvaWQuaW50ZW50LmFjdGlvbi5WSUVXIgogICAgICAgICAgICAgICAgYW5kcm9pZDpkYXRhPSJodHRwOi8vd3d3LmNvb2xhcGsuY29tL3UvNTgxNjc0MSIgLz4KICAgICAgICA8L1ByZWZlcmVuY2U+CiAgICAgICAgPFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpzdW1tYXJ5PSJHaXRIdWJAVm9lbXAiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IlZvZW1wIj4KICAgICAgICAgICAgPGludGVudAogICAgICAgICAgICAgICAgYW5kcm9pZDphY3Rpb249ImFuZHJvaWQuaW50ZW50LmFjdGlvbi5WSUVXIgogICAgICAgICAgICAgICAgYW5kcm9pZDpkYXRhPSJodHRwczovL2dpdGh1Yi5jb20vVm9lbXAiIC8+CiAgICAgICAgPC9QcmVmZXJlbmNlPgogICAgICAgIDxQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6c3VtbWFyeT0iR2l0SHViQGhvc2l6b3JhcnUiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IlZveWFnZXIiPgogICAgICAgICAgICA8aW50ZW50CiAgICAgICAgICAgICAgICBhbmRyb2lkOmFjdGlvbj0iYW5kcm9pZC5pbnRlbnQuYWN0aW9uLlZJRVciCiAgICAgICAgICAgICAgICBhbmRyb2lkOmRhdGE9Imh0dHBzOi8vZ2l0aHViLmNvbS9ob3Npem9yYXJ1IiAvPgogICAgICAgIDwvUHJlZmVyZW5jZT4KICAgICAgICA8UHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOnN1bW1hcnk9IkdpdEh1YkBXYW5zbi13IgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJXYW5zbiI+CiAgICAgICAgICAgIDxpbnRlbnQKICAgICAgICAgICAgICAgIGFuZHJvaWQ6YWN0aW9uPSJhbmRyb2lkLmludGVudC5hY3Rpb24uVklFVyIKICAgICAgICAgICAgICAgIGFuZHJvaWQ6ZGF0YT0iaHR0cHM6Ly9naXRodWIuY29tL1dhbnNuLXciIC8+CiAgICAgICAgPC9QcmVmZXJlbmNlPgogICAgICAgIDxQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6c3VtbWFyeT0iR2l0SHViQHdlaWd1aTQwNCIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0id2VpZ3VpNDA0Ij4KICAgICAgICAgICAgPGludGVudAogICAgICAgICAgICAgICAgYW5kcm9pZDphY3Rpb249ImFuZHJvaWQuaW50ZW50LmFjdGlvbi5WSUVXIgogICAgICAgICAgICAgICAgYW5kcm9pZDpkYXRhPSJodHRwczovL2dpdGh1Yi5jb20vd2VpZ3VpNDA0IiAvPgogICAgICAgIDwvUHJlZmVyZW5jZT4KICAgICAgICA8UHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOnN1bW1hcnk9IkdpdEh1YkBXZXZlcnNlcyIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iV2V2ZXJzZSI+CiAgICAgICAgICAgIDxpbnRlbnQKICAgICAgICAgICAgICAgIGFuZHJvaWQ6YWN0aW9uPSJhbmRyb2lkLmludGVudC5hY3Rpb24uVklFVyIKICAgICAgICAgICAgICAgIGFuZHJvaWQ6ZGF0YT0iaHR0cHM6Ly9naXRodWIuY29tL1dldmVyc2VzIiAvPgogICAgICAgIDwvUHJlZmVyZW5jZT4KICAgICAgICA8UHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOnN1bW1hcnk9IkdpdEh1YkB3dXNoaWRpYSIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0id3VzaGlkaSI+CiAgICAgICAgICAgIDxpbnRlbnQKICAgICAgICAgICAgICAgIGFuZHJvaWQ6YWN0aW9uPSJhbmRyb2lkLmludGVudC5hY3Rpb24uVklFVyIKICAgICAgICAgICAgICAgIGFuZHJvaWQ6ZGF0YT0iaHR0cHM6Ly9naXRodWIuY29tL3d1c2hpZGlhIiAvPgogICAgICAgIDwvUHJlZmVyZW5jZT4KICAgICAgICA8UHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOnN1bW1hcnk9IkdpdEh1YkBYYW5kZXItQyIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iWGFuZGVyLUMiPgogICAgICAgICAgICA8aW50ZW50CiAgICAgICAgICAgICAgICBhbmRyb2lkOmFjdGlvbj0iYW5kcm9pZC5pbnRlbnQuYWN0aW9uLlZJRVciCiAgICAgICAgICAgICAgICBhbmRyb2lkOmRhdGE9Imh0dHBzOi8vZ2l0aHViLmNvbS9YYW5kZXItQyIgLz4KICAgICAgICA8L1ByZWZlcmVuY2U+CiAgICAgICAgPFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpzdW1tYXJ5PSJHaXRIdWJAeGllZmVpLWdpdGh1YiIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0ieGllZmVpLWdpdGh1YiI+CiAgICAgICAgICAgIDxpbnRlbnQKICAgICAgICAgICAgICAgIGFuZHJvaWQ6YWN0aW9uPSJhbmRyb2lkLmludGVudC5hY3Rpb24uVklFVyIKICAgICAgICAgICAgICAgIGFuZHJvaWQ6ZGF0YT0iaHR0cHM6Ly9naXRodWIuY29tL3hpZWZlaS1naXRodWIiIC8+CiAgICAgICAgPC9QcmVmZXJlbmNlPgogICAgICAgIDxQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6c3VtbWFyeT0iR2l0SHViQHh1ZXNoaWppIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJ4dWVzaGlqaSI+CiAgICAgICAgICAgIDxpbnRlbnQKICAgICAgICAgICAgICAgIGFuZHJvaWQ6YWN0aW9uPSJhbmRyb2lkLmludGVudC5hY3Rpb24uVklFVyIKICAgICAgICAgICAgICAgIGFuZHJvaWQ6ZGF0YT0iaHR0cHM6Ly9naXRodWIuY29tL3h1ZXNoaWppIiAvPgogICAgICAgIDwvUHJlZmVyZW5jZT4KICAgICAgICA8UHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOnN1bW1hcnk9IkdpdEh1YkB4emFrb3RhIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJ4emFrb3RhIj4KICAgICAgICAgICAgPGludGVudAogICAgICAgICAgICAgICAgYW5kcm9pZDphY3Rpb249ImFuZHJvaWQuaW50ZW50LmFjdGlvbi5WSUVXIgogICAgICAgICAgICAgICAgYW5kcm9pZDpkYXRhPSJodHRwczovL2dpdGh1Yi5jb20veHpha290YSIgLz4KICAgICAgICA8L1ByZWZlcmVuY2U+CiAgICAgICAgPFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpzdW1tYXJ5PSJHaXRIdWJAWWlmZVBsYXl0ZSIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iWWlmZSBQbGF5dGUiPgogICAgICAgICAgICA8aW50ZW50CiAgICAgICAgICAgICAgICBhbmRyb2lkOmFjdGlvbj0iYW5kcm9pZC5pbnRlbnQuYWN0aW9uLlZJRVciCiAgICAgICAgICAgICAgICBhbmRyb2lkOmRhdGE9Imh0dHBzOi8vZ2l0aHViLmNvbS9ZaWZlUGxheXRlIiAvPgogICAgICAgIDwvUHJlZmVyZW5jZT4KICAgICAgICA8UHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOnN1bW1hcnk9IkdpdEh1YkBZdW5aaUEiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9Ill1blppQSI+CiAgICAgICAgICAgIDxpbnRlbnQKICAgICAgICAgICAgICAgIGFuZHJvaWQ6YWN0aW9uPSJhbmRyb2lkLmludGVudC5hY3Rpb24uVklFVyIKICAgICAgICAgICAgICAgIGFuZHJvaWQ6ZGF0YT0iaHR0cHM6Ly9naXRodWIuY29tL1l1blppQSIgLz4KICAgICAgICA8L1ByZWZlcmVuY2U+CiAgICAgICAgPFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpzdW1tYXJ5PSJHaXRIdWJATmVwLVRpbWVsaW5lIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJZdVNha2nkuLZLYW5hZGUiPgogICAgICAgICAgICA8aW50ZW50CiAgICAgICAgICAgICAgICBhbmRyb2lkOmFjdGlvbj0iYW5kcm9pZC5pbnRlbnQuYWN0aW9uLlZJRVciCiAgICAgICAgICAgICAgICBhbmRyb2lkOmRhdGE9Imh0dHBzOi8vZ2l0aHViLmNvbS9OZXAtVGltZWxpbmUiIC8+CiAgICAgICAgPC9QcmVmZXJlbmNlPgogICAgICAgIDxQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6c3VtbWFyeT0iR2l0SHViQHpjYXJyb2xsNCIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iWmFjaCBDYXJyb2xsIj4KICAgICAgICAgICAgPGludGVudAogICAgICAgICAgICAgICAgYW5kcm9pZDphY3Rpb249ImFuZHJvaWQuaW50ZW50LmFjdGlvbi5WSUVXIgogICAgICAgICAgICAgICAgYW5kcm9pZDpkYXRhPSJodHRwczovL2dpdGh1Yi5jb20vemNhcnJvbGw0IiAvPgogICAgICAgIDwvUHJlZmVyZW5jZT4KICAgICAgICA8UHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOnN1bW1hcnk9IkdpdEh1YkBsaWdodHN1bW1lcjIzMyIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0i5reh44GE5aSPIj4KICAgICAgICAgICAgPGludGVudAogICAgICAgICAgICAgICAgYW5kcm9pZDphY3Rpb249ImFuZHJvaWQuaW50ZW50LmFjdGlvbi5WSUVXIgogICAgICAgICAgICAgICAgYW5kcm9pZDpkYXRhPSJodHRwczovL2dpdGh1Yi5jb20vbGlnaHRzdW1tZXIyMzMiIC8+CiAgICAgICAgPC9QcmVmZXJlbmNlPgogICAgICAgIDxQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6c3VtbWFyeT0iR2l0SHViQEhDaGVuWCIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0i54SV5pmoSENoZW4iPgogICAgICAgICAgICA8aW50ZW50CiAgICAgICAgICAgICAgICBhbmRyb2lkOmFjdGlvbj0iYW5kcm9pZC5pbnRlbnQuYWN0aW9uLlZJRVciCiAgICAgICAgICAgICAgICBhbmRyb2lkOmRhdGE9Imh0dHBzOi8vZ2l0aHViLmNvbS9IQ2hlblgiIC8+CiAgICAgICAgPC9QcmVmZXJlbmNlPgogICAgICAgIDxQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6c3VtbWFyeT0iR2l0SHViQGtseGlhb25pdSIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0i5b+r5LmQ5bCP54mbIj4KICAgICAgICAgICAgPGludGVudAogICAgICAgICAgICAgICAgYW5kcm9pZDphY3Rpb249ImFuZHJvaWQuaW50ZW50LmFjdGlvbi5WSUVXIgogICAgICAgICAgICAgICAgYW5kcm9pZDpkYXRhPSJodHRwczovL2dpdGh1Yi5jb20va2x4aWFvbml1IiAvPgogICAgICAgIDwvUHJlZmVyZW5jZT4KICAgICAgICA8UHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOnN1bW1hcnk9IkdpdEh1YkBnaGhjY2doayIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0i5p2O5aSq55m9Ij4KICAgICAgICAgICAgPGludGVudAogICAgICAgICAgICAgICAgYW5kcm9pZDphY3Rpb249ImFuZHJvaWQuaW50ZW50LmFjdGlvbi5WSUVXIgogICAgICAgICAgICAgICAgYW5kcm9pZDpkYXRhPSJodHRwczovL2dpdGh1Yi5jb20vZ2hoY2NnaGsiIC8+CiAgICAgICAgPC9QcmVmZXJlbmNlPgogICAgICAgIDxQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6c3VtbWFyeT0iR2l0SHViQGxpbmdxaXFpNTIxMSIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0i6ZOD5p+S5p+SIj4KICAgICAgICAgICAgPGludGVudAogICAgICAgICAgICAgICAgYW5kcm9pZDphY3Rpb249ImFuZHJvaWQuaW50ZW50LmFjdGlvbi5WSUVXIgogICAgICAgICAgICAgICAgYW5kcm9pZDpkYXRhPSJodHRwczovL2dpdGh1Yi5jb20vbGluZ3FpcWk1MjExIiAvPgogICAgICAgIDwvUHJlZmVyZW5jZT4KICAgICAgICA8UHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOnN1bW1hcnk9IkNvb2xBcGtA5qyn55Ov54OoIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSLmrKfnk6/ng6giPgogICAgICAgICAgICA8aW50ZW50CiAgICAgICAgICAgICAgICBhbmRyb2lkOmFjdGlvbj0iYW5kcm9pZC5pbnRlbnQuYWN0aW9uLlZJRVciCiAgICAgICAgICAgICAgICBhbmRyb2lkOmRhdGE9Imh0dHA6Ly93d3cuY29vbGFway5jb20vdS8xMjIyMzExNCIgLz4KICAgICAgICA8L1ByZWZlcmVuY2U+CiAgICAgICAgPFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpzdW1tYXJ5PSJHaXRIdWJASG9seUJlYXJUVyIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0i6IGW5bCP54aKIj4KICAgICAgICAgICAgPGludGVudAogICAgICAgICAgICAgICAgYW5kcm9pZDphY3Rpb249ImFuZHJvaWQuaW50ZW50LmFjdGlvbi5WSUVXIgogICAgICAgICAgICAgICAgYW5kcm9pZDpkYXRhPSJodHRwczovL2dpdGh1Yi5jb20vSG9seUJlYXJUVyIgLz4KICAgICAgICA8L1ByZWZlcmVuY2U+CiAgICAgICAgPFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpzdW1tYXJ5PSJHaXRIdWJATWVldGluZ2ZhdGUiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IuebuOingeWNs+aYr+e8mCI+CiAgICAgICAgICAgIDxpbnRlbnQKICAgICAgICAgICAgICAgIGFuZHJvaWQ6YWN0aW9uPSJhbmRyb2lkLmludGVudC5hY3Rpb24uVklFVyIKICAgICAgICAgICAgICAgIGFuZHJvaWQ6ZGF0YT0iaHR0cHM6Ly9naXRodWIuY29tL01lZXRpbmdmYXRlIiAvPgogICAgICAgIDwvUHJlZmVyZW5jZT4KICAgICAgICA8UHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOnN1bW1hcnk9IkdpdEh1YkB4aW5nMG1lbmciCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IuaYn+WknOiQjCI+CiAgICAgICAgICAgIDxpbnRlbnQKICAgICAgICAgICAgICAgIGFuZHJvaWQ6YWN0aW9uPSJhbmRyb2lkLmludGVudC5hY3Rpb24uVklFVyIKICAgICAgICAgICAgICAgIGFuZHJvaWQ6ZGF0YT0iaHR0cHM6Ly9naXRodWIuY29tL3hpbmcwbWVuZyIgLz4KICAgICAgICA8L1ByZWZlcmVuY2U+CiAgICAgICAgPFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpzdW1tYXJ5PSJHaXRIdWJAbHN3bGMzMyIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0i6Zuq5Lit5piO5pyIIj4KICAgICAgICAgICAgPGludGVudAogICAgICAgICAgICAgICAgYW5kcm9pZDphY3Rpb249ImFuZHJvaWQuaW50ZW50LmFjdGlvbi5WSUVXIgogICAgICAgICAgICAgICAgYW5kcm9pZDpkYXRhPSJodHRwczovL2dpdGh1Yi5jb20vbHN3bGMzMyIgLz4KICAgICAgICA8L1ByZWZlcmVuY2U+CiAgICAgICAgPFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpzdW1tYXJ5PSJHaXRIdWJAemp3MjAxNyIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0i5p+a56iaIj4KICAgICAgICAgICAgPGludGVudAogICAgICAgICAgICAgICAgYW5kcm9pZDphY3Rpb249ImFuZHJvaWQuaW50ZW50LmFjdGlvbi5WSUVXIgogICAgICAgICAgICAgICAgYW5kcm9pZDpkYXRhPSJodHRwczovL2dpdGh1Yi5jb20vemp3MjAxNyIgLz4KICAgICAgICA8L1ByZWZlcmVuY2U+CiAgICAgICAgPFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpzdW1tYXJ5PSJHaXRIdWJAWXVLb25nQSIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0i5L2Z56m6Ij4KICAgICAgICAgICAgPGludGVudAogICAgICAgICAgICAgICAgYW5kcm9pZDphY3Rpb249ImFuZHJvaWQuaW50ZW50LmFjdGlvbi5WSUVXIgogICAgICAgICAgICAgICAgYW5kcm9pZDpkYXRhPSJodHRwczovL2dpdGh1Yi5jb20vWXVLb25nQSIgLz4KICAgICAgICA8L1ByZWZlcmVuY2U+CiAgICAgICAgPFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpzdW1tYXJ5PSJHaXRIdWJAcG9tZWxvaGFuIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSLpm6jkuK3otbDov4ciPgogICAgICAgICAgICA8aW50ZW50CiAgICAgICAgICAgICAgICBhbmRyb2lkOmFjdGlvbj0iYW5kcm9pZC5pbnRlbnQuYWN0aW9uLlZJRVciCiAgICAgICAgICAgICAgICBhbmRyb2lkOmRhdGE9Imh0dHBzOi8vZ2l0aHViLmNvbS9wb21lbG9oYW4iIC8+CiAgICAgICAgPC9QcmVmZXJlbmNlPi0tPgogICAgPC9QcmVmZXJlbmNlQ2F0ZWdvcnk+CgogICAgPFByZWZlcmVuY2VDYXRlZ29yeQogICAgICAgIGFuZHJvaWQ6a2V5PSJwcmVmc19rZXlfYWJvdXRfY29udHJpYnV0b3JzX3Byb2dyZXNzaW5nIgogICAgICAgIGFuZHJvaWQ6bGF5b3V0PSJAbGF5b3V0L3ByZWZfcHJvZ3Jlc3MiIC8+CgogICAgPFByZWZlcmVuY2VDYXRlZ29yeQogICAgICAgIGFwcDppc1ByZWZlcmVuY2VWaXNpYmxlPSJmYWxzZSIKICAgICAgICBhbmRyb2lkOmtleT0icHJlZnNfa2V5X2Fib3V0X2NvbnRyaWJ1dG9yc19sb2FkX2ZhaWxlZCIKICAgICAgICBhbmRyb2lkOmxheW91dD0iQGxheW91dC9wcmVmX2xvYWRfZmFpbGVkIiAvPgoKPC9QcmVmZXJlbmNlU2NyZWVuPgo=
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ This file is part of HyperCeiler.
+  ~
+  ~ HyperCeiler is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU Affero General Public License as
+  ~ published by the Free Software Foundation, either version 3 of the
+  ~ License.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU Affero General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU Affero General Public License
+  ~ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+  ~
+  ~ Copyright (C) 2023-2026 HyperCeiler Contributions
+  -->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Preference
+        android:summary="@string/about_contributer_desc"/>
+
+    <PreferenceCategory
+        app:isPreferenceVisible="false"
+        android:key="prefs_key_about_contributors" >
+        <!--<Preference
+            android:summary="GitHub@Adlyq"
+            android:title="Adlyq">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/Adlyq" />
+        </Preference>
+        <Preference
+            android:summary="GitHub@CC0126"
+            android:title="CC0126">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/CC0126" />
+        </Preference>
+        <Preference
+            android:summary="GitHub@CECoffee"
+            android:title="CECoffee0v0">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/CECoffee" />
+        </Preference>
+        <Preference
+            android:summary="GitHub@CLOUDERHEM"
+            android:title="CLOUDERHEM">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/CLOUDERHEM" />
+        </Preference>
+        <Preference
+            android:summary="GitHub@DeepChirp"
+            android:title="DeepChirp">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/DeepChirp" />
+        </Preference>
+        <Preference
+            android:summary="GitHub@ItzDFPlayer"
+            android:title="Denys Kovalevskyi">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/ItzDFPlayer" />
+        </Preference>
+        <Preference
+            android:summary="GitHub@heinu123"
+            android:title="Elysia">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/heinu123" />
+        </Preference>
+        <Preference
+            android:summary="GitHub@Fan095"
+            android:title="Fan">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/Fan095" />
+        </Preference>
+        <Preference
+            android:summary="GitHub@frank-782"
+            android:title="frank-782">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/frank-782" />
+        </Preference>
+        <Preference
+            android:summary="GitHub@GMerge01"
+            android:title="GMerge">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/GMerge01" />
+        </Preference>
+        <Preference
+            android:summary="CoolApk@潇风残月"
+            android:title="Green Yang">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://www.coolapk.com/u/666190" />
+        </Preference>
+        <Preference
+            android:summary="GitHub@GSWXXN / CoolApk@迷璐"
+            android:title="GSWXXN">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/GSWXXN" />
+        </Preference>
+        <Preference
+            android:summary="GitHub@hamjin / CoolApk@HamJin"
+            android:title="hamjin">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/hamjin" />
+        </Preference>
+        <Preference
+            android:summary="GitHub@Horange321"
+            android:title="Horange321">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/Horange321" />
+        </Preference>
+        <Preference
+            android:summary="GitHub@hrsthrt74"
+            android:title="hrsthrt74">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/hrsthrt74" />
+        </Preference>
+        <Preference
+            android:summary="GitHub@igormiguell"
+            android:title="igor">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/igormiguell" />
+        </Preference>
+        <Preference
+            android:summary="4PDA@Kosmosik96"
+            android:title="Kosmosik96">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://4pda.to/forum/index.php?showuser=10789718" />
+        </Preference>
+        <Preference
+            android:summary="GitHub@LiuBodong"
+            android:title="LiuBodong">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/LiuBodong" />
+        </Preference>
+        <Preference
+            android:summary="GitHub@LuoYunXi0407"
+            android:title="LuoYunXi">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/LuoYunXi0407" />
+        </Preference>
+        <Preference
+            android:summary="GitHub@Memory2314"
+            android:title="Memory">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/Memory2314" />
+        </Preference>
+        <Preference
+            android:summary="GitHub@NahidaBuer"
+            android:title="Nahida">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/NahidaBuer" />
+        </Preference>
+        <Preference
+            android:summary="GitHub@nakixii / CoolApk@nakixii"
+            android:title="nakixii">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/nakixii" />
+        </Preference>
+        <Preference
+            android:summary="GitHub@Henvy-Mango"
+            android:title="Naomi">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/Henvy-Mango" />
+        </Preference>
+        <Preference
+            android:summary="GitHub@NextAlone"
+            android:title="Next Alone">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/NextAlone" />
+        </Preference>
+        <Preference
+            android:summary="CoolApk@MonetCarlos"
+            android:title="MonetCarlos">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://www.coolapk.com/u/9021855" />
+        </Preference>
+        <Preference
+            android:summary="GitHub@nxibjzC"
+            android:title="nxibjz">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/nxibjzC" />
+        </Preference>
+        <Preference
+            android:summary="GitHub@oufm"
+            android:title="oufm">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/oufm" />
+        </Preference>
+        <Preference
+            android:summary="GitHub@pzcn"
+            android:title="PedroZ">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/pzcn" />
+        </Preference>
+        <Preference
+            android:summary="GitHub@uarix"
+            android:title="Quarix">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/uarix" />
+        </Preference>
+        <Preference
+            android:summary="GitHub@qdsp6sw"
+            android:title="qdsp6sw">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/qdsp6sw" />
+        </Preference>
+        <Preference
+            android:summary="CoolApk@Qe_xr"
+            android:title="Qe_xr">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="http://www.coolapk.com/u/2919503" />
+        </Preference>
+        <Preference
+            android:summary="GitHub@ri-char"
+            android:title="riChar">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/ri-char" />
+        </Preference>
+        <Preference
+            android:summary="GitHub@FurryRbl"
+            android:title="SharpIce 锐冰龙">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/FurryRbl" />
+        </Preference>
+        <Preference
+            android:summary="GitHub@SmartJQ"
+            android:title="SmartJQ">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/SmartJQ" />
+        </Preference>
+        <Preference
+            android:summary="GitHub@SpaceVector"
+            android:title="SpaceVector">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/SpaceVector" />
+        </Preference>
+        <Preference
+            android:summary="GitHub@yxsra"
+            android:title="SUMUS">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/yxsra" />
+        </Preference>
+        <Preference
+            android:summary="GitHub@tehcneko"
+            android:title="tehcneko">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/tehcneko" />
+        </Preference>
+        <Preference
+            android:summary="GitHub@mynna404"
+            android:title="TruE">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/mynna404" />
+        </Preference>
+        <Preference
+            android:summary="GitHub@v5u871"
+            android:title="v5u87">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="http://www.coolapk.com/u/5816741" />
+        </Preference>
+        <Preference
+            android:summary="GitHub@Voemp"
+            android:title="Voemp">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/Voemp" />
+        </Preference>
+        <Preference
+            android:summary="GitHub@hosizoraru"
+            android:title="Voyager">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/hosizoraru" />
+        </Preference>
+        <Preference
+            android:summary="GitHub@Wansn-w"
+            android:title="Wansn">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/Wansn-w" />
+        </Preference>
+        <Preference
+            android:summary="GitHub@weigui404"
+            android:title="weigui404">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/weigui404" />
+        </Preference>
+        <Preference
+            android:summary="GitHub@Weverses"
+            android:title="Weverse">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/Weverses" />
+        </Preference>
+        <Preference
+            android:summary="GitHub@wushidia"
+            android:title="wushidi">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/wushidia" />
+        </Preference>
+        <Preference
+            android:summary="GitHub@Xander-C"
+            android:title="Xander-C">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/Xander-C" />
+        </Preference>
+        <Preference
+            android:summary="GitHub@xiefei-github"
+            android:title="xiefei-github">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/xiefei-github" />
+        </Preference>
+        <Preference
+            android:summary="GitHub@xueshiji"
+            android:title="xueshiji">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/xueshiji" />
+        </Preference>
+        <Preference
+            android:summary="GitHub@xzakota"
+            android:title="xzakota">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/xzakota" />
+        </Preference>
+        <Preference
+            android:summary="GitHub@YifePlayte"
+            android:title="Yife Playte">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/YifePlayte" />
+        </Preference>
+        <Preference
+            android:summary="GitHub@YunZiA"
+            android:title="YunZiA">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/YunZiA" />
+        </Preference>
+        <Preference
+            android:summary="GitHub@Nep-Timeline"
+            android:title="YuSaki丶Kanade">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/Nep-Timeline" />
+        </Preference>
+        <Preference
+            android:summary="GitHub@zcarroll4"
+            android:title="Zach Carroll">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/zcarroll4" />
+        </Preference>
+        <Preference
+            android:summary="GitHub@lightsummer233"
+            android:title="淡い夏">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/lightsummer233" />
+        </Preference>
+        <Preference
+            android:summary="GitHub@HChenX"
+            android:title="焕晨HChen">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/HChenX" />
+        </Preference>
+        <Preference
+            android:summary="GitHub@klxiaoniu"
+            android:title="快乐小牛">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/klxiaoniu" />
+        </Preference>
+        <Preference
+            android:summary="GitHub@ghhccghk"
+            android:title="李太白">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/ghhccghk" />
+        </Preference>
+        <Preference
+            android:summary="GitHub@lingqiqi5211"
+            android:title="铃柒柒">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/lingqiqi5211" />
+        </Preference>
+        <Preference
+            android:summary="CoolApk@欧瓯烨"
+            android:title="欧瓯烨">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="http://www.coolapk.com/u/12223114" />
+        </Preference>
+        <Preference
+            android:summary="GitHub@HolyBearTW"
+            android:title="聖小熊">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/HolyBearTW" />
+        </Preference>
+        <Preference
+            android:summary="GitHub@Meetingfate"
+            android:title="相见即是缘">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/Meetingfate" />
+        </Preference>
+        <Preference
+            android:summary="GitHub@xing0meng"
+            android:title="星夜萌">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/xing0meng" />
+        </Preference>
+        <Preference
+            android:summary="GitHub@lswlc33"
+            android:title="雪中明月">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/lswlc33" />
+        </Preference>
+        <Preference
+            android:summary="GitHub@zjw2017"
+            android:title="柚稚">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/zjw2017" />
+        </Preference>
+        <Preference
+            android:summary="GitHub@YuKongA"
+            android:title="余空">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/YuKongA" />
+        </Preference>
+        <Preference
+            android:summary="GitHub@pomelohan"
+            android:title="雨中走过">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/pomelohan" />
+        </Preference>-->
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="prefs_key_about_contributors_progressing"
+        android:layout="@layout/pref_progress" />
+
+    <PreferenceCategory
+        app:isPreferenceVisible="false"
+        android:key="prefs_key_about_contributors_load_failed"
+        android:layout="@layout/pref_load_failed" />
+
+</PreferenceScreen>

@@ -1,1 +1,63 @@
-LyoKICogVGhpcyBmaWxlIGlzIHBhcnQgb2YgSHlwZXJDZWlsZXIuCgogKiBIeXBlckNlaWxlciBpcyBmcmVlIHNvZnR3YXJlOiB5b3UgY2FuIHJlZGlzdHJpYnV0ZSBpdCBhbmQvb3IgbW9kaWZ5CiAqIGl0IHVuZGVyIHRoZSB0ZXJtcyBvZiB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGFzCiAqIHB1Ymxpc2hlZCBieSB0aGUgRnJlZSBTb2Z0d2FyZSBGb3VuZGF0aW9uLCBlaXRoZXIgdmVyc2lvbiAzIG9mIHRoZQogKiBMaWNlbnNlLgoKICogVGhpcyBwcm9ncmFtIGlzIGRpc3RyaWJ1dGVkIGluIHRoZSBob3BlIHRoYXQgaXQgd2lsbCBiZSB1c2VmdWwsCiAqIGJ1dCBXSVRIT1VUIEFOWSBXQVJSQU5UWTsgd2l0aG91dCBldmVuIHRoZSBpbXBsaWVkIHdhcnJhbnR5IG9mCiAqIE1FUkNIQU5UQUJJTElUWSBvciBGSVRORVNTIEZPUiBBIFBBUlRJQ1VMQVIgUFVSUE9TRS4gIFNlZSB0aGUKICogR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGZvciBtb3JlIGRldGFpbHMuCgogKiBZb3Ugc2hvdWxkIGhhdmUgcmVjZWl2ZWQgYSBjb3B5IG9mIHRoZSBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UKICogYWxvbmcgd2l0aCB0aGlzIHByb2dyYW0uICBJZiBub3QsIHNlZSA8aHR0cHM6Ly93d3cuZ251Lm9yZy9saWNlbnNlcy8+LgoKICogQ29weXJpZ2h0IChDKSAyMDIzLTIwMjYgSHlwZXJDZWlsZXIgQ29udHJpYnV0aW9ucwogKi8KcGFja2FnZSBmYW4ucHJvdmlzaW9uOwoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0OwppbXBvcnQgYW5kcm9pZC51dGlsLkF0dHJpYnV0ZVNldDsKaW1wb3J0IGFuZHJvaWQudXRpbC5Mb2c7CmltcG9ydCBhbmRyb2lkLnZpZXcuTW90aW9uRXZlbnQ7CmltcG9ydCBhbmRyb2lkLndpZGdldC5GcmFtZUxheW91dDsKCmltcG9ydCBhbmRyb2lkeC5hbm5vdGF0aW9uLk5vbk51bGw7CmltcG9ydCBhbmRyb2lkeC5hbm5vdGF0aW9uLk51bGxhYmxlOwoKcHVibGljIGNsYXNzIEN1c3RvbURpc3BhdGNoRnJhbWVMYXlvdXQgZXh0ZW5kcyBGcmFtZUxheW91dCB7CgogICAgcHJvdGVjdGVkIFByb3Zpc2lvbkFuaW1IZWxwZXIgbVByb3Zpc2lvbkFuaW1IZWxwZXI7CgogICAgcHVibGljIEN1c3RvbURpc3BhdGNoRnJhbWVMYXlvdXQoQE5vbk51bGwgQ29udGV4dCBjb250ZXh0KSB7CiAgICAgICAgc3VwZXIoY29udGV4dCk7CiAgICB9CgogICAgcHVibGljIEN1c3RvbURpc3BhdGNoRnJhbWVMYXlvdXQoQE5vbk51bGwgQ29udGV4dCBjb250ZXh0LCBATnVsbGFibGUgQXR0cmlidXRlU2V0IGF0dHJzKSB7CiAgICAgICAgc3VwZXIoY29udGV4dCwgYXR0cnMpOwogICAgfQoKICAgIHB1YmxpYyBDdXN0b21EaXNwYXRjaEZyYW1lTGF5b3V0KEBOb25OdWxsIENvbnRleHQgY29udGV4dCwgQE51bGxhYmxlIEF0dHJpYnV0ZVNldCBhdHRycywgaW50IGRlZlN0eWxlQXR0cikgewogICAgICAgIHN1cGVyKGNvbnRleHQsIGF0dHJzLCBkZWZTdHlsZUF0dHIpOwogICAgfQoKICAgIHB1YmxpYyBDdXN0b21EaXNwYXRjaEZyYW1lTGF5b3V0KEBOb25OdWxsIENvbnRleHQgY29udGV4dCwgQE51bGxhYmxlIEF0dHJpYnV0ZVNldCBhdHRycywgaW50IGRlZlN0eWxlQXR0ciwgaW50IGRlZlN0eWxlUmVzKSB7CiAgICAgICAgc3VwZXIoY29udGV4dCwgYXR0cnMsIGRlZlN0eWxlQXR0ciwgZGVmU3R5bGVSZXMpOwogICAgfQoKICAgIEBPdmVycmlkZQogICAgcHVibGljIGJvb2xlYW4gZGlzcGF0Y2hUb3VjaEV2ZW50KE1vdGlvbkV2ZW50IGV2KSB7CiAgICAgICAgaWYgKGlzQW5pbUVuZGVkKCkpIHsKICAgICAgICAgICAgcmV0dXJuIHN1cGVyLmRpc3BhdGNoVG91Y2hFdmVudChldik7CiAgICAgICAgfQogICAgICAgIExvZy53KCJPb2JlVXRpbDIiLCAiYW5pbSBub3QgZW5kLCBza2lwIHRvdWNoIGV2ZW50Iik7CiAgICAgICAgcmV0dXJuIHRydWU7CiAgICB9CgogICAgcHJvdGVjdGVkIGJvb2xlYW4gaXNBbmltRW5kZWQoKSB7CiAgICAgICAgcmV0dXJuIG1Qcm92aXNpb25BbmltSGVscGVyID09IG51bGwgfHwgbVByb3Zpc2lvbkFuaW1IZWxwZXIuaXNBbmltRW5kZWQoKTsKICAgIH0KCn0K
+/*
+ * This file is part of HyperCeiler.
+
+ * HyperCeiler is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as
+ * published by the Free Software Foundation, either version 3 of the
+ * License.
+
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Affero General Public License for more details.
+
+ * You should have received a copy of the GNU Affero General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+ * Copyright (C) 2023-2026 HyperCeiler Contributions
+ */
+package fan.provision;
+
+import android.content.Context;
+import android.util.AttributeSet;
+import android.util.Log;
+import android.view.MotionEvent;
+import android.widget.FrameLayout;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+
+public class CustomDispatchFrameLayout extends FrameLayout {
+
+    protected ProvisionAnimHelper mProvisionAnimHelper;
+
+    public CustomDispatchFrameLayout(@NonNull Context context) {
+        super(context);
+    }
+
+    public CustomDispatchFrameLayout(@NonNull Context context, @Nullable AttributeSet attrs) {
+        super(context, attrs);
+    }
+
+    public CustomDispatchFrameLayout(@NonNull Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
+        super(context, attrs, defStyleAttr);
+    }
+
+    public CustomDispatchFrameLayout(@NonNull Context context, @Nullable AttributeSet attrs, int defStyleAttr, int defStyleRes) {
+        super(context, attrs, defStyleAttr, defStyleRes);
+    }
+
+    @Override
+    public boolean dispatchTouchEvent(MotionEvent ev) {
+        if (isAnimEnded()) {
+            return super.dispatchTouchEvent(ev);
+        }
+        Log.w("OobeUtil2", "anim not end, skip touch event");
+        return true;
+    }
+
+    protected boolean isAnimEnded() {
+        return mProvisionAnimHelper == null || mProvisionAnimHelper.isAnimEnded();
+    }
+
+}

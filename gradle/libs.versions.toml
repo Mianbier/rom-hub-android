@@ -1,1 +1,60 @@
-IyDniYjmnKznu4TlkIjlhajpg6jlr7npvZAgS2VybmVsU1Ug55qEIG1hbmFnZXIvZ3JhZGxlL2xpYnMudmVyc2lvbnMudG9tbA0KIyDvvIjov5nmmK/og73phY3lh7ogRmxvYXRpbmdCb3R0b21CYXIua3QgLyBNaXVpeCAwLjkuNCDnmoTnoa7lrprnu4TlkIjvvIzliKvmlLnvvIkNClt2ZXJzaW9uc10NCmFncCA9ICI5LjQuMSINCmtvdGxpbiA9ICIyLjQuMjAiDQpjb21wb3NlLWJvbSA9ICIyMDI2LjA5LjAwIg0KbGlmZWN5Y2xlID0gIjIuMTEuMCINCmFjdGl2aXR5LWNvbXBvc2UgPSAiMS4xMy4wIg0KY29yZS1zcGxhc2hzY3JlZW4gPSAiMS4yLjAiDQpjb3JlLWt0eCA9ICIxLjE5LjAiDQprb3RsaW54LWNvcm91dGluZXMgPSAiMS4xMS4wIg0Ka290bGlueC1zZXJpYWxpemF0aW9uID0gIjEuOS4wIg0KbWl1aXggPSAiMC45LjQiDQpva2h0dHAgPSAiNS41LjAiDQpjb2lsID0gIjMuNC4wIg0Kd29yayA9ICIyLjExLjAiDQp3ZWJraXQgPSAiMS4xNy4wIg0KDQpbcGx1Z2luc10NCmFncC1hcHAgPSB7IGlkID0gImNvbS5hbmRyb2lkLmFwcGxpY2F0aW9uIiwgdmVyc2lvbi5yZWYgPSAiYWdwIiB9DQpjb21wb3NlLWNvbXBpbGVyID0geyBpZCA9ICJvcmcuamV0YnJhaW5zLmtvdGxpbi5wbHVnaW4uY29tcG9zZSIsIHZlcnNpb24ucmVmID0gImtvdGxpbiIgfQ0Ka290bGluLXNlcmlhbGl6YXRpb24gPSB7IGlkID0gIm9yZy5qZXRicmFpbnMua290bGluLnBsdWdpbi5zZXJpYWxpemF0aW9uIiwgdmVyc2lvbi5yZWYgPSAia290bGluIiB9DQoNCltsaWJyYXJpZXNdDQphbmRyb2lkeC1hY3Rpdml0eS1jb21wb3NlID0geyBncm91cCA9ICJhbmRyb2lkeC5hY3Rpdml0eSIsIG5hbWUgPSAiYWN0aXZpdHktY29tcG9zZSIsIHZlcnNpb24ucmVmID0gImFjdGl2aXR5LWNvbXBvc2UiIH0NCmFuZHJvaWR4LWNvcmUta3R4ID0geyBncm91cCA9ICJhbmRyb2lkeC5jb3JlIiwgbmFtZSA9ICJjb3JlLWt0eCIsIHZlcnNpb24ucmVmID0gImNvcmUta3R4IiB9DQphbmRyb2lkeC1jb3JlLXNwbGFzaHNjcmVlbiA9IHsgZ3JvdXAgPSAiYW5kcm9pZHguY29yZSIsIG5hbWUgPSAiY29yZS1zcGxhc2hzY3JlZW4iLCB2ZXJzaW9uLnJlZiA9ICJjb3JlLXNwbGFzaHNjcmVlbiIgfQ0KDQphbmRyb2lkeC1jb21wb3NlLWJvbSA9IHsgZ3JvdXAgPSAiYW5kcm9pZHguY29tcG9zZSIsIG5hbWUgPSAiY29tcG9zZS1ib20iLCB2ZXJzaW9uLnJlZiA9ICJjb21wb3NlLWJvbSIgfQ0KYW5kcm9pZHgtY29tcG9zZS1tYXRlcmlhbC1pY29ucy1leHRlbmRlZCA9IHsgZ3JvdXAgPSAiYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbCIsIG5hbWUgPSAibWF0ZXJpYWwtaWNvbnMtZXh0ZW5kZWQiIH0NCmFuZHJvaWR4LWNvbXBvc2UtbWF0ZXJpYWwzID0geyBncm91cCA9ICJhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMyIsIG5hbWUgPSAibWF0ZXJpYWwzIiB9DQphbmRyb2lkeC1jb21wb3NlLXVpID0geyBncm91cCA9ICJhbmRyb2lkeC5jb21wb3NlLnVpIiwgbmFtZSA9ICJ1aSIgfQ0KYW5kcm9pZHgtY29tcG9zZS11aS10b29saW5nID0geyBncm91cCA9ICJhbmRyb2lkeC5jb21wb3NlLnVpIiwgbmFtZSA9ICJ1aS10b29saW5nIiB9DQphbmRyb2lkeC1jb21wb3NlLXVpLXRvb2xpbmctcHJldmlldyA9IHsgZ3JvdXAgPSAiYW5kcm9pZHguY29tcG9zZS51aSIsIG5hbWUgPSAidWktdG9vbGluZy1wcmV2aWV3IiB9DQoNCmFuZHJvaWR4LWxpZmVjeWNsZS1ydW50aW1lLWt0eCA9IHsgZ3JvdXAgPSAiYW5kcm9pZHgubGlmZWN5Y2xlIiwgbmFtZSA9ICJsaWZlY3ljbGUtcnVudGltZS1rdHgiLCB2ZXJzaW9uLnJlZiA9ICJsaWZlY3ljbGUiIH0NCmFuZHJvaWR4LWxpZmVjeWNsZS1ydW50aW1lLWNvbXBvc2UgPSB7IGdyb3VwID0gImFuZHJvaWR4LmxpZmVjeWNsZSIsIG5hbWUgPSAibGlmZWN5Y2xlLXJ1bnRpbWUtY29tcG9zZSIsIHZlcnNpb24ucmVmID0gImxpZmVjeWNsZSIgfQ0KYW5kcm9pZHgtbGlmZWN5Y2xlLXZpZXdtb2RlbC1jb21wb3NlID0geyBncm91cCA9ICJhbmRyb2lkeC5saWZlY3ljbGUiLCBuYW1lID0gImxpZmVjeWNsZS12aWV3bW9kZWwtY29tcG9zZSIsIHZlcnNpb24ucmVmID0gImxpZmVjeWNsZSIgfQ0KDQphbmRyb2lkeC13b3JrLXJ1bnRpbWUta3R4ID0geyBncm91cCA9ICJhbmRyb2lkeC53b3JrIiwgbmFtZSA9ICJ3b3JrLXJ1bnRpbWUta3R4IiwgdmVyc2lvbi5yZWYgPSAid29yayIgfQ0KYW5kcm9pZHgtd2Via2l0ID0geyBtb2R1bGUgPSAiYW5kcm9pZHgud2Via2l0OndlYmtpdCIsIHZlcnNpb24ucmVmID0gIndlYmtpdCIgfQ0KDQprb3RsaW54LWNvcm91dGluZXMtY29yZSA9IHsgbW9kdWxlID0gIm9yZy5qZXRicmFpbnMua290bGlueDprb3RsaW54LWNvcm91dGluZXMtY29yZSIsIHZlcnNpb24ucmVmID0gImtvdGxpbngtY29yb3V0aW5lcyIgfQ0Ka290bGlueC1jb3JvdXRpbmVzLWFuZHJvaWQgPSB7IG1vZHVsZSA9ICJvcmcuamV0YnJhaW5zLmtvdGxpbng6a290bGlueC1jb3JvdXRpbmVzLWFuZHJvaWQiLCB2ZXJzaW9uLnJlZiA9ICJrb3RsaW54LWNvcm91dGluZXMiIH0NCmtvdGxpbngtc2VyaWFsaXphdGlvbi1qc29uID0geyBtb2R1bGUgPSAib3JnLmpldGJyYWlucy5rb3RsaW54OmtvdGxpbngtc2VyaWFsaXphdGlvbi1qc29uIiwgdmVyc2lvbi5yZWYgPSAia290bGlueC1zZXJpYWxpemF0aW9uIiB9DQoNCiMgS2VybmVsU1Ug55So55qE5ZCM5LiA5aWXIFVJIOW6kw0KbWl1aXgtdWkgPSB7IG1vZHVsZSA9ICJ0b3AueXVrb25nYS5taXVpeC5rbXA6bWl1aXgtdWktYW5kcm9pZCIsIHZlcnNpb24ucmVmID0gIm1pdWl4IiB9DQptaXVpeC1pY29ucyA9IHsgbW9kdWxlID0gInRvcC55dWtvbmdhLm1pdWl4LmttcDptaXVpeC1pY29ucy1hbmRyb2lkIiwgdmVyc2lvbi5yZWYgPSAibWl1aXgiIH0NCm1pdWl4LW5hdiA9IHsgbW9kdWxlID0gInRvcC55dWtvbmdhLm1pdWl4LmttcDptaXVpeC1uYXYtYW5kcm9pZCIsIHZlcnNpb24ucmVmID0gIm1pdWl4IiB9DQptaXVpeC1wcmVmZXJlbmNlID0geyBtb2R1bGUgPSAidG9wLnl1a29uZ2EubWl1aXgua21wOm1pdWl4LXByZWZlcmVuY2UtYW5kcm9pZCIsIHZlcnNpb24ucmVmID0gIm1pdWl4IiB9DQptaXVpeC1ibHVyID0geyBtb2R1bGUgPSAidG9wLnl1a29uZ2EubWl1aXgua21wOm1pdWl4LWJsdXItYW5kcm9pZCIsIHZlcnNpb24ucmVmID0gIm1pdWl4IiB9DQptaXVpeC1zaGFkZXIgPSB7IG1vZHVsZSA9ICJ0b3AueXVrb25nYS5taXVpeC5rbXA6bWl1aXgtc2hhZGVyLWFuZHJvaWQiLCB2ZXJzaW9uLnJlZiA9ICJtaXVpeCIgfQ0KbWl1aXgtY29yZSA9IHsgbW9kdWxlID0gInRvcC55dWtvbmdhLm1pdWl4LmttcDptaXVpeC1jb3JlLWFuZHJvaWQiLCB2ZXJzaW9uLnJlZiA9ICJtaXVpeCIgfQ0KDQpva2h0dHAtYm9tID0geyBtb2R1bGUgPSAiY29tLnNxdWFyZXVwLm9raHR0cDM6b2todHRwLWJvbSIsIHZlcnNpb24ucmVmID0gIm9raHR0cCIgfQ0KIyBva2h0dHAg5pys6Lqr5LiN5bim54mI5pys77yM6Z2gIG9raHR0cC1ib20g57uf5LiA5a+56b2Q77yI5ZKM5Li7IGFwcCDkuIDoh7TvvIkNCm9raHR0cCA9IHsgbW9kdWxlID0gImNvbS5zcXVhcmV1cC5va2h0dHAzOm9raHR0cCIgfQ0KY29pbC1jb21wb3NlID0geyBtb2R1bGUgPSAiaW8uY29pbC1rdC5jb2lsMzpjb2lsLWNvbXBvc2UiLCB2ZXJzaW9uLnJlZiA9ICJjb2lsIiB9DQpjb2lsLW5ldHdvcmstb2todHRwID0geyBtb2R1bGUgPSAiaW8uY29pbC1rdC5jb2lsMzpjb2lsLW5ldHdvcmstb2todHRwIiwgdmVyc2lvbi5yZWYgPSAiY29pbCIgfQ0K
+# 版本组合全部对齐 KernelSU 的 manager/gradle/libs.versions.toml
+# （这是能配出 FloatingBottomBar.kt / Miuix 0.9.4 的确定组合，别改）
+[versions]
+agp = "9.4.1"
+kotlin = "2.4.20"
+compose-bom = "2026.09.00"
+lifecycle = "2.11.0"
+activity-compose = "1.13.0"
+core-splashscreen = "1.2.0"
+core-ktx = "1.19.0"
+kotlinx-coroutines = "1.11.0"
+kotlinx-serialization = "1.9.0"
+miuix = "0.9.4"
+okhttp = "5.5.0"
+coil = "3.4.0"
+work = "2.11.0"
+webkit = "1.17.0"
+
+[plugins]
+agp-app = { id = "com.android.application", version.ref = "agp" }
+compose-compiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
+
+[libraries]
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activity-compose" }
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "core-ktx" }
+androidx-core-splashscreen = { group = "androidx.core", name = "core-splashscreen", version.ref = "core-splashscreen" }
+
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "compose-bom" }
+androidx-compose-material-icons-extended = { group = "androidx.compose.material", name = "material-icons-extended" }
+androidx-compose-material3 = { group = "androidx.compose.material3", name = "material3" }
+androidx-compose-ui = { group = "androidx.compose.ui", name = "ui" }
+androidx-compose-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+androidx-compose-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycle" }
+androidx-lifecycle-runtime-compose = { group = "androidx.lifecycle", name = "lifecycle-runtime-compose", version.ref = "lifecycle" }
+androidx-lifecycle-viewmodel-compose = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-compose", version.ref = "lifecycle" }
+
+androidx-work-runtime-ktx = { group = "androidx.work", name = "work-runtime-ktx", version.ref = "work" }
+androidx-webkit = { module = "androidx.webkit:webkit", version.ref = "webkit" }
+
+kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "kotlinx-coroutines" }
+kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "kotlinx-coroutines" }
+kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "kotlinx-serialization" }
+
+# KernelSU 用的同一套 UI 库
+miuix-ui = { module = "top.yukonga.miuix.kmp:miuix-ui-android", version.ref = "miuix" }
+miuix-icons = { module = "top.yukonga.miuix.kmp:miuix-icons-android", version.ref = "miuix" }
+miuix-nav = { module = "top.yukonga.miuix.kmp:miuix-nav-android", version.ref = "miuix" }
+miuix-preference = { module = "top.yukonga.miuix.kmp:miuix-preference-android", version.ref = "miuix" }
+miuix-blur = { module = "top.yukonga.miuix.kmp:miuix-blur-android", version.ref = "miuix" }
+miuix-shader = { module = "top.yukonga.miuix.kmp:miuix-shader-android", version.ref = "miuix" }
+miuix-core = { module = "top.yukonga.miuix.kmp:miuix-core-android", version.ref = "miuix" }
+
+okhttp-bom = { module = "com.squareup.okhttp3:okhttp-bom", version.ref = "okhttp" }
+# okhttp 本身不带版本，靠 okhttp-bom 统一对齐（和主 app 一致）
+okhttp = { module = "com.squareup.okhttp3:okhttp" }
+coil-compose = { module = "io.coil-kt.coil3:coil-compose", version.ref = "coil" }
+coil-network-okhttp = { module = "io.coil-kt.coil3:coil-network-okhttp", version.ref = "coil" }

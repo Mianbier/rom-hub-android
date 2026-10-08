@@ -1,1 +1,209 @@
-cGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLmRhdGEKCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dAppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkRpc3BhdGNoZXJzCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMud2l0aENvbnRleHQKaW1wb3J0IG9yZy5saW5iYW9ndS5yb21odWIuY29yZS5QcmVmcwoKLyoqCiAqIOaVsOaNruS7k+W6k++8muWcqCBBUEkg5LmL5LiK5Yqg5LiA5bGC5pys5Zyw57yT5a2Y44CCCiAqCiAqIOWKqOaAgemhteeahOimgeaxguaYr+OAjOesrOS4gOasoeimgeS/neWtmOWcqOeUqOaIt+acrOWcsOOAjeKAlOKAlOaJgOS7pSBbcmVmcmVzaEZlZWRdIOS8muaKiue7k+aenOWQiOW5tui/m+acrOWcsOW/q+eFp++8jAogKiDlubbnrpflh7rmnKror7vmlbDvvJtbY2FjaGVkRmVlZF0g6K6pIEFwcCDlhrflkK/liqjml7bnq4vliLvmnInlhoXlrrnlj6/nlLvjgIIKICovCm9iamVjdCBSZXBvIHsKCiAgICBwcml2YXRlIGNvbnN0IHZhbCBGRUVEX0tFRVAgPSAzMDAKCiAgICAvLyDlhoXlrZjnvJPlrZjvvIjov5vnqIvlhoXvvInvvIzpgb/lhY3mnaXlm57liIfpobXph43lpI3or7fmsYIKICAgIEBWb2xhdGlsZSBwcml2YXRlIHZhciBkZXZpY2VzTWVtOiBMaXN0PERldmljZUl0ZW0+PyA9IG51bGwKICAgIEBWb2xhdGlsZSBwcml2YXRlIHZhciBzdGF0c01lbTogUm9tU3RhdHM/ID0gbnVsbAoKICAgIC8qKgogICAgICog5Li76aG157uf6K6h44CCCiAgICAgKgogICAgICog5LiJ57qn5Y+W5YC877ya5YaF5a2YIOKGkiDlrp7ml7bmjqXlj6Mg4oaSIOacrOWcsOW/q+eFp+OAggogICAgICog5YWz6ZSu5pivKirmi7/kuI3liLDkuZ/opoHmnInmlbAqKu+8muaOpeWPo+WSjOW/q+eFp+mDveaMguaOieaXtui/lOWbnuS4iuasoeiQveebmOeahOmCo+S7ve+8jAogICAgICog5Li76aG15pWw5a2X54Wn5bi45pi+56S677yI55SxIFtsYXN0U3RhdHNPZmZsaW5lXSDmoIfms6jmmK/ml6fmlbDmja7vvInvvIzogIzkuI3mmK/mlbTlsY/nqbrnnYDovazlnIjjgIIKICAgICAqLwogICAgc3VzcGVuZCBmdW4gc3RhdHMoY3R4OiBDb250ZXh0LCBmb3JjZTogQm9vbGVhbiA9IGZhbHNlKTogUm9tU3RhdHMgewogICAgICAgIHN0YXRzTWVtPy50YWtlSWYgeyAhZm9yY2UgfT8ubGV0IHsgcmV0dXJuIGl0IH0KICAgICAgICB2YWwgZmV0Y2hlZCA9IHJ1bkNhdGNoaW5nIHsgQXBpLnN0YXRzKGN0eCkgfS5nZXRPck51bGwoKQogICAgICAgIGlmIChmZXRjaGVkICE9IG51bGwpIHsKICAgICAgICAgICAgc3RhdHNNZW0gPSBmZXRjaGVkCiAgICAgICAgICAgIGxhc3RTdGF0c09mZmxpbmUgPSBmYWxzZQogICAgICAgICAgICBQcmVmcy5zZXRTdGF0c0NhY2hlKGN0eCwgUm9tSnNvbi5lbmNvZGVUb1N0cmluZyhmZXRjaGVkKSkKICAgICAgICAgICAgcmV0dXJuIGZldGNoZWQKICAgICAgICB9CiAgICAgICAgbGFzdFN0YXRzT2ZmbGluZSA9IHRydWUKICAgICAgICByZXR1cm4gY2FjaGVkU3RhdHMoY3R4KQogICAgfQoKICAgIC8qKgogICAgICog5pyA6L+R5LiA5qyhIFtzdGF0c10g5piv5LiN5piv6LWw5LqG5YWc5bqV5p2l5rqQ44CCCiAgICAgKgogICAgICog55WM6Z2i55So5a6D5Yaz5a6a6KaB5LiN6KaB5qCH44CM56a757q/5pWw5o2u44CN4oCU4oCUIOWFnOW6leadpeeahOaVsOWtl+WPr+iDvei/h+aXtu+8jAogICAgICog5LiN5qCH55qE6K+d55So5oi35Lya5b2T5oiQ5a6e5pe255qE77yM54K56L+b6K6+5aSH6aG15Y+R546w5rKh5pyJ5paw5py65Z6L5bCx5Lya5b2T5oiQIGJ1Z+OAggogICAgICovCiAgICBAVm9sYXRpbGUgdmFyIGxhc3RTdGF0c09mZmxpbmU6IEJvb2xlYW4gPSBmYWxzZQogICAgICAgIHByaXZhdGUgc2V0CgogICAgLyoqIOS4iuasoeaIkOWKn+aLv+WIsOeahOe7n+iuoe+8iOWGt+WQr+WKqCAvIOWFqOe9keS4jemAmuaXtueUqO+8ieOAgiAqLwogICAgc3VzcGVuZCBmdW4gY2FjaGVkU3RhdHMoY3R4OiBDb250ZXh0KTogUm9tU3RhdHMgewogICAgICAgIHN0YXRzTWVtPy5sZXQgeyByZXR1cm4gaXQgfQogICAgICAgIHZhbCByYXcgPSBQcmVmcy5zdGF0c0NhY2hlKGN0eCkKICAgICAgICBpZiAocmF3LmlzTm90QmxhbmsoKSkgewogICAgICAgICAgICBydW5DYXRjaGluZyB7IFJvbUpzb24uZGVjb2RlRnJvbVN0cmluZzxSb21TdGF0cz4ocmF3KSB9LmdldE9yTnVsbCgpPy5sZXQgewogICAgICAgICAgICAgICAgc3RhdHNNZW0gPSBpdAogICAgICAgICAgICAgICAgcmV0dXJuIGl0CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgLy8g6L+e5pys5Zyw57yT5a2Y6YO95rKh5pyJ77yI5Yia6KOF5a6M56ys5LiA5qyh5omT5byA77yJ4oaSIOeUqOaJk+WMhei/m+adpeeahOenjeWtkO+8jOiHs+WwkeS4jeaYr+S4gOeJhyAwCiAgICAgICAgcmV0dXJuIFNlZWQuc3RhdHMoY3R4KSA/OiBSb21TdGF0cygpCiAgICB9CgogICAgc3VzcGVuZCBmdW4gZGV2aWNlcyhjdHg6IENvbnRleHQsIGtleXdvcmQ6IFN0cmluZyA9ICIiLCBmb3JjZTogQm9vbGVhbiA9IGZhbHNlKTogTGlzdDxEZXZpY2VJdGVtPiB7CiAgICAgICAgaWYgKGtleXdvcmQuaXNCbGFuaygpICYmICFmb3JjZSkgewogICAgICAgICAgICBkZXZpY2VzTWVtPy5sZXQgeyByZXR1cm4gaXQgfQogICAgICAgIH0KICAgICAgICB2YWwgZmV0Y2hlZCA9IHJ1bkNhdGNoaW5nIHsgQXBpLmRldmljZXMoY3R4LCBrZXl3b3JkKSB9LmdldE9yTnVsbCgpCiAgICAgICAgaWYgKGZldGNoZWQgIT0gbnVsbCkgewogICAgICAgICAgICBpZiAoa2V5d29yZC5pc0JsYW5rKCkpIHsKICAgICAgICAgICAgICAgIGRldmljZXNNZW0gPSBmZXRjaGVkLml0ZW1zCiAgICAgICAgICAgICAgICBQcmVmcy5zZXREZXZpY2VzQ2FjaGUoY3R4LCBSb21Kc29uLmVuY29kZVRvU3RyaW5nKGZldGNoZWQpKQogICAgICAgICAgICB9CiAgICAgICAgICAgIHJldHVybiBmZXRjaGVkLml0ZW1zCiAgICAgICAgfQogICAgICAgIC8vIOaLv+S4jeWIsOWwseeUqOacrOWcsOmCo+S7veWGjeetm+S4gOasoe+8jOWIq+iuqeaQnOe0ouahhuaVtOS4quepuuaOiQogICAgICAgIGlmIChrZXl3b3JkLmlzQmxhbmsoKSkgewogICAgICAgICAgICBkZXZpY2VzTWVtPy5sZXQgeyByZXR1cm4gaXQgfQogICAgICAgICAgICBsb2FkRGV2aWNlc0NhY2hlKGN0eCk/LmxldCB7IHJldHVybiBpdCB9CiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgbG9hZERldmljZXNDYWNoZShjdHgpPy5sZXQgeyBhbGwgLT4KICAgICAgICAgICAgICAgIHJldHVybiBhbGwuZmlsdGVyIHsgaXQubWF0Y2hlcyhrZXl3b3JkKSB9CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgcmV0dXJuIGVtcHR5TGlzdCgpCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gbG9hZERldmljZXNDYWNoZShjdHg6IENvbnRleHQpOiBMaXN0PERldmljZUl0ZW0+PyB7CiAgICAgICAgZGV2aWNlc01lbT8ubGV0IHsgcmV0dXJuIGl0IH0KICAgICAgICB2YWwgcmF3ID0gUHJlZnMuZGV2aWNlc0NhY2hlKGN0eCkKICAgICAgICBpZiAocmF3LmlzQmxhbmsoKSkgcmV0dXJuIG51bGwKICAgICAgICByZXR1cm4gcnVuQ2F0Y2hpbmcgeyBSb21Kc29uLmRlY29kZUZyb21TdHJpbmc8RGV2aWNlTGlzdFJlc3A+KHJhdykuaXRlbXMgfQogICAgICAgICAgICAuZ2V0T3JOdWxsKCkKICAgICAgICAgICAgPy50YWtlSWYgeyBpdC5pc05vdEVtcHR5KCkgfQogICAgICAgICAgICA/LmFsc28geyBkZXZpY2VzTWVtID0gaXQgfQogICAgfQoKICAgIGZ1biBjYWNoZWREZXZpY2VzKCk6IExpc3Q8RGV2aWNlSXRlbT4gPSBkZXZpY2VzTWVtLm9yRW1wdHkoKQoKICAgIC8vIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0g5Yqo5oCBCgogICAgZnVuIGNhY2hlZEZlZWQoY3R4OiBDb250ZXh0KTogUm9tVXBkYXRlTGlzdFJlc3AgewogICAgICAgIHZhbCByYXcgPSBQcmVmcy5mZWVkQ2FjaGUoY3R4KQogICAgICAgIGlmIChyYXcuaXNCbGFuaygpKSByZXR1cm4gUm9tVXBkYXRlTGlzdFJlc3AoKQogICAgICAgIHJldHVybiBydW5DYXRjaGluZyB7IFJvbUpzb24uZGVjb2RlRnJvbVN0cmluZzxSb21VcGRhdGVMaXN0UmVzcD4ocmF3KSB9CiAgICAgICAgICAgIC5nZXRPckRlZmF1bHQoUm9tVXBkYXRlTGlzdFJlc3AoKSkKICAgIH0KCiAgICAvKioKICAgICAqIOaLieWPluacgOaWsOWKqOaAge+8jOS4juacrOWcsOW/q+eFp+WQiOW5tu+8iOaMiSBpZCDljrvph43vvIzmlrDnmoTlnKjliY3vvInvvIwKICAgICAqIOW5tuaMieOAjOavlOS4iuasoeW3suivu+S9jee9ruabtOaWsOeahOadoeaVsOOAjeeul+WHuuacquivu+aVsOOAggogICAgICovCiAgICBzdXNwZW5kIGZ1biByZWZyZXNoRmVlZChjdHg6IENvbnRleHQsIGxpbWl0OiBJbnQgPSA4MCk6IFJvbVVwZGF0ZUxpc3RSZXNwIHsKICAgICAgICB2YWwgZnJlc2ggPSBBcGkucm9tVXBkYXRlcyhjdHgsIGxpbWl0ID0gbGltaXQpCiAgICAgICAgdmFsIG9sZCA9IGNhY2hlZEZlZWQoY3R4KS5pdGVtcwogICAgICAgIHZhbCBtZXJnZWQgPSBMaW5rZWRIYXNoTWFwPExvbmcsIFJvbVVwZGF0ZT4oKQogICAgICAgIGZyZXNoLml0ZW1zLmZvckVhY2ggeyBtZXJnZWRbaXQuaWRdID0gaXQgfQogICAgICAgIG9sZC5mb3JFYWNoIHsgaWYgKCFtZXJnZWQuY29udGFpbnNLZXkoaXQuaWQpKSBtZXJnZWRbaXQuaWRdID0gaXQgfQogICAgICAgIHZhbCBzb3J0ZWQgPSBtZXJnZWQudmFsdWVzLnNvcnRlZEJ5RGVzY2VuZGluZyB7IGl0LmlkIH0udGFrZShGRUVEX0tFRVApCgogICAgICAgIC8vIOKaoCDpppbmrKHmi7/liLDmlbDmja7ml7blv4XpobvlhYjlu7rjgIzlt7Lor7vln7rnur/jgI3vvJrljp/mnaUgbWF4U2VlbiDkuLogMCDml7bmnKror7vmgZLkuLogMO+8jAogICAgICAgIC8vICAg5LqO5piv5LmL5ZCO55qE5paw5Yqo5oCB5rC46L+c5LiN566X5pyq6K+744CB5bqV5qCP5bCP57qi54K55rC46L+c5LiN5Ye6546w44CCCiAgICAgICAgaWYgKFByZWZzLmZlZWRNYXhTZWVuSWQoY3R4KSA8PSAwTCkgewogICAgICAgICAgICB2YWwgbWF4Tm93ID0gc29ydGVkLm1heE9mT3JOdWxsIHsgaXQuaWQgfSA/OiAwTAogICAgICAgICAgICBpZiAobWF4Tm93ID4gMEwpIFByZWZzLnNldEZlZWRNYXhTZWVuSWQoY3R4LCBtYXhOb3cpCiAgICAgICAgfQogICAgICAgIHZhbCB1bnJlYWQgPSBzb3J0ZWQuY291bnQgeyBpdC5pZCA+IFByZWZzLmZlZWRNYXhTZWVuSWQoY3R4KSB9CgogICAgICAgIHZhbCByZXN1bHQgPSBSb21VcGRhdGVMaXN0UmVzcCgKICAgICAgICAgICAgdG90YWwgPSBzb3J0ZWQuc2l6ZSwKICAgICAgICAgICAgaXRlbXMgPSBzb3J0ZWQsCiAgICAgICAgICAgIGNvdW50cyA9IGZyZXNoLmNvdW50cywKICAgICAgICAgICAgc2VydmVyVGltZSA9IGZyZXNoLnNlcnZlclRpbWUsCiAgICAgICAgKQogICAgICAgIFByZWZzLnNldEZlZWRDYWNoZShjdHgsIFJvbUpzb24uZW5jb2RlVG9TdHJpbmcocmVzdWx0KSkKICAgICAgICBQcmVmcy5zZXRGZWVkVW5yZWFkKGN0eCwgdW5yZWFkKQogICAgICAgIHJldHVybiByZXN1bHQKICAgIH0KCiAgICAvKiog55So5oi355yL5a6M5Yqo5oCB77ya5oqK5bey6K+75L2N572u5o6o5Yiw5pyA5YmN77yM5riF5o6J5bCP57qi54K544CCICovCiAgICBmdW4gbWFya0ZlZWRTZWVuKGN0eDogQ29udGV4dCkgewogICAgICAgIHZhbCBtYXggPSBjYWNoZWRGZWVkKGN0eCkuaXRlbXMubWF4T2ZPck51bGwgeyBpdC5pZCB9ID86IDBMCiAgICAgICAgdmFsIG5vdyA9IG1heE9mKG1heCwgUHJlZnMuZmVlZE1heFNlZW5JZChjdHgpKQogICAgICAgIFByZWZzLnNldEZlZWRNYXhTZWVuSWQoY3R4LCBub3cpCiAgICAgICAgUHJlZnMuc2V0RmVlZFVucmVhZChjdHgsIDApCiAgICB9CgogICAgLyoqIOmmluasoeS9v+eUqO+8muaKiuW9k+WJjeWGheWuueW9k+S9nOW3suivu+Wfuue6v++8iOmBv+WFjeS4gOWuieijheWwsemhtuedgOe6oueCue+8ieOAgiAqLwogICAgZnVuIGluaXRGZWVkQmFzZWxpbmVJZk5lZWRlZChjdHg6IENvbnRleHQpIHsKICAgICAgICBpZiAoUHJlZnMuZmVlZE1heFNlZW5JZChjdHgpID09IDBMKSB7CiAgICAgICAgICAgIHZhbCBtYXggPSBjYWNoZWRGZWVkKGN0eCkuaXRlbXMubWF4T2ZPck51bGwgeyBpdC5pZCB9ID86IDBMCiAgICAgICAgICAgIGlmIChtYXggPiAwTCkgUHJlZnMuc2V0RmVlZE1heFNlZW5JZChjdHgsIG1heCkKICAgICAgICB9CiAgICB9CgogICAgZnVuIHVucmVhZENvdW50KGN0eDogQ29udGV4dCk6IEludCA9IFByZWZzLmZlZWRVbnJlYWQoY3R4KQoKICAgIC8vIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0g5ZCO5Y+w6L2u6K+i77yI6YCa55+l55So77yJCgogICAgLyoqCiAgICAgKiDov5Tlm57jgIzorqLpmIXmnLrlnovph4zjgIHkuIrmrKHpgJrnn6XkuYvlkI7mlrDlh7rnjrDnmoTmm7TmlrDjgI3jgILlrpjmlrnljIXkuI7np7vmpI3ljIXliIblvIDnnIvjgIIKICAgICAqLwogICAgc3VzcGVuZCBmdW4gcG9sbE5ld1VwZGF0ZXMoY3R4OiBDb250ZXh0KTogUGFpcjxMaXN0PFJvbVVwZGF0ZT4sIExpc3Q8UG9ydFBhY2thZ2U+PiA9CiAgICAgICAgd2l0aENvbnRleHQoRGlzcGF0Y2hlcnMuSU8pIHsKICAgICAgICAgICAgdmFsIHN1YnMgPSBQcmVmcy5zdWJzY3JpcHRpb25zKGN0eCkKICAgICAgICAgICAgaWYgKHN1YnMuaXNFbXB0eSgpKSByZXR1cm5Ad2l0aENvbnRleHQgZW1wdHlMaXN0PFJvbVVwZGF0ZT4oKSB0byBlbXB0eUxpc3QoKQogICAgICAgICAgICB2YWwgbGFzdElkID0gUHJlZnMubm90aWZ5TGFzdElkKGN0eCkKICAgICAgICAgICAgdmFsIG9mZmljaWFsID0gbXV0YWJsZUxpc3RPZjxSb21VcGRhdGU+KCkKICAgICAgICAgICAgdmFsIHBvcnRzID0gbXV0YWJsZUxpc3RPZjxQb3J0UGFja2FnZT4oKQoKICAgICAgICAgICAgaWYgKFByZWZzLm5vdGlmeU9mZmljaWFsKGN0eCkpIHsKICAgICAgICAgICAgICAgIHJ1bkNhdGNoaW5nIHsKICAgICAgICAgICAgICAgICAgICB2YWwgcmVzcCA9IEFwaS5yb21VcGRhdGVzKGN0eCwgbGltaXQgPSAxMjApCiAgICAgICAgICAgICAgICAgICAgcmVzcC5pdGVtcy5maWx0ZXIgeyBpdC5pZCA+IGxhc3RJZCAmJiBzdWJzLmNvbnRhaW5zKGl0LmNvZGVuYW1lKSB9CiAgICAgICAgICAgICAgICAgICAgICAgIC5sZXQgeyBvZmZpY2lhbCArPSBpdCB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgaWYgKFByZWZzLm5vdGlmeVBvcnRzKGN0eCkpIHsKICAgICAgICAgICAgICAgIHJ1bkNhdGNoaW5nIHsKICAgICAgICAgICAgICAgICAgICB2YWwgcmVzcCA9IEFwaS5wb3J0cyhjdHgsIGxpbWl0ID0gMTIwKQogICAgICAgICAgICAgICAgICAgIHJlc3AuaXRlbXMuZmlsdGVyIHsgc3Vicy5jb250YWlucyhpdC5jb2RlbmFtZSkgfQogICAgICAgICAgICAgICAgICAgICAgICAuZmlsdGVyIHsgaXNOZXdQb3J0KGN0eCwgaXQpIH0KICAgICAgICAgICAgICAgICAgICAgICAgLmxldCB7IHBvcnRzICs9IGl0IH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICAgICBvZmZpY2lhbCB0byBwb3J0cwogICAgICAgIH0KCiAgICBwcml2YXRlIGNvbnN0IHZhbCBLX1NFRU5fUE9SVFMgPSAic2Vlbl9wb3J0X2lkcyIKCiAgICAvKiog6L+Z5Liq56e75qSN5YyF5pyJ5rKh5pyJ5o6o6L+H6YCa55+l77yI5a6e5pe26YCa6YGT5ZKM5ZCO5Y+w6L2u6K+i5YWx55So5ZCM5LiA5Lu96K6w5b2V77yM6YG/5YWN6YeN5aSN5omT5omw77yJ44CCICovCiAgICBmdW4gaXNOZXdQb3J0KGN0eDogQ29udGV4dCwgcG9ydElkOiBMb25nKTogQm9vbGVhbiB7CiAgICAgICAgdmFsIHNlZW4gPSBjdHguZ2V0U2hhcmVkUHJlZmVyZW5jZXMoInJvbWh1Yl9wcmVmcyIsIENvbnRleHQuTU9ERV9QUklWQVRFKQogICAgICAgICAgICAuZ2V0U3RyaW5nU2V0KEtfU0VFTl9QT1JUUywgZW1wdHlTZXQoKSk/LnRvU2V0KCkgPzogZW1wdHlTZXQoKQogICAgICAgIHJldHVybiAhc2Vlbi5jb250YWlucyhwb3J0SWQudG9TdHJpbmcoKSkKICAgIH0KCiAgICBwcml2YXRlIGZ1biBpc05ld1BvcnQoY3R4OiBDb250ZXh0LCBwOiBQb3J0UGFja2FnZSk6IEJvb2xlYW4gPSBpc05ld1BvcnQoY3R4LCBwLmlkKQoKICAgIGZ1biBtYXJrUG9ydHNTZWVuKGN0eDogQ29udGV4dCwgaWRzOiBMaXN0PExvbmc+KSB7CiAgICAgICAgdmFsIHNwID0gY3R4LmdldFNoYXJlZFByZWZlcmVuY2VzKCJyb21odWJfcHJlZnMiLCBDb250ZXh0Lk1PREVfUFJJVkFURSkKICAgICAgICB2YWwgc2VlbiA9IChzcC5nZXRTdHJpbmdTZXQoS19TRUVOX1BPUlRTLCBlbXB0eVNldCgpKT8udG9TZXQoKSA/OiBlbXB0eVNldCgpKS50b011dGFibGVTZXQoKQogICAgICAgIGlkcy5mb3JFYWNoIHsgc2Vlbi5hZGQoaXQudG9TdHJpbmcoKSkgfQogICAgICAgIC8vIOWPquS/neeVmeacgOi/kSAyMDAwIOS4qu+8jOmYsuatouaXoOmZkOWinumVvwogICAgICAgIHZhbCB0cmltbWVkID0gc2Vlbi50b0xpc3QoKS50YWtlTGFzdCgyMDAwKS50b1NldCgpCiAgICAgICAgc3AuZWRpdCgpLnB1dFN0cmluZ1NldChLX1NFRU5fUE9SVFMsIHRyaW1tZWQpLmFwcGx5KCkKICAgIH0KfQo=
+package org.linbaogu.romhub.data
+
+import android.content.Context
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
+import org.linbaogu.romhub.core.Prefs
+
+/**
+ * 数据仓库：在 API 之上加一层本地缓存。
+ *
+ * 动态页的要求是「第一次要保存在用户本地」——所以 [refreshFeed] 会把结果合并进本地快照，
+ * 并算出未读数；[cachedFeed] 让 App 冷启动时立刻有内容可画。
+ */
+object Repo {
+
+    private const val FEED_KEEP = 300
+
+    // 内存缓存（进程内），避免来回切页重复请求
+    @Volatile private var devicesMem: List<DeviceItem>? = null
+    @Volatile private var statsMem: RomStats? = null
+
+    /**
+     * 主页统计。
+     *
+     * 三级取值：内存 → 实时接口 → 本地快照。
+     * 关键是**拿不到也要有数**：接口和快照都挂掉时返回上次落盘的那份，
+     * 主页数字照常显示（由 [lastStatsOffline] 标注是旧数据），而不是整屏空着转圈。
+     */
+    suspend fun stats(ctx: Context, force: Boolean = false): RomStats {
+        statsMem?.takeIf { !force }?.let { return it }
+        val fetched = runCatching { Api.stats(ctx) }.getOrNull()
+        if (fetched != null) {
+            statsMem = fetched
+            lastStatsOffline = false
+            Prefs.setStatsCache(ctx, RomJson.encodeToString(fetched))
+            return fetched
+        }
+        lastStatsOffline = true
+        return cachedStats(ctx)
+    }
+
+    /**
+     * 最近一次 [stats] 是不是走了兜底来源。
+     *
+     * 界面用它决定要不要标「离线数据」—— 兜底来的数字可能过时，
+     * 不标的话用户会当成实时的，点进设备页发现没有新机型就会当成 bug。
+     */
+    @Volatile var lastStatsOffline: Boolean = false
+        private set
+
+    /** 上次成功拿到的统计（冷启动 / 全网不通时用）。 */
+    suspend fun cachedStats(ctx: Context): RomStats {
+        statsMem?.let { return it }
+        val raw = Prefs.statsCache(ctx)
+        if (raw.isNotBlank()) {
+            runCatching { RomJson.decodeFromString<RomStats>(raw) }.getOrNull()?.let {
+                statsMem = it
+                return it
+            }
+        }
+        // 连本地缓存都没有（刚装完第一次打开）→ 用打包进来的种子，至少不是一片 0
+        return Seed.stats(ctx) ?: RomStats()
+    }
+
+    suspend fun devices(ctx: Context, keyword: String = "", force: Boolean = false): List<DeviceItem> {
+        if (keyword.isBlank() && !force) {
+            devicesMem?.let { return it }
+        }
+        val fetched = runCatching { Api.devices(ctx, keyword) }.getOrNull()
+        if (fetched != null) {
+            if (keyword.isBlank()) {
+                devicesMem = fetched.items
+                Prefs.setDevicesCache(ctx, RomJson.encodeToString(fetched))
+            }
+            return fetched.items
+        }
+        // 拿不到就用本地那份再筛一次，别让搜索框整个空掉
+        if (keyword.isBlank()) {
+            devicesMem?.let { return it }
+            loadDevicesCache(ctx)?.let { return it }
+        } else {
+            loadDevicesCache(ctx)?.let { all ->
+                return all.filter { it.matches(keyword) }
+            }
+        }
+        return emptyList()
+    }
+
+    private fun loadDevicesCache(ctx: Context): List<DeviceItem>? {
+        devicesMem?.let { return it }
+        val raw = Prefs.devicesCache(ctx)
+        if (raw.isBlank()) return null
+        return runCatching { RomJson.decodeFromString<DeviceListResp>(raw).items }
+            .getOrNull()
+            ?.takeIf { it.isNotEmpty() }
+            ?.also { devicesMem = it }
+    }
+
+    fun cachedDevices(): List<DeviceItem> = devicesMem.orEmpty()
+
+    // ------------------------------------------------------------- 动态
+
+    fun cachedFeed(ctx: Context): RomUpdateListResp {
+        val raw = Prefs.feedCache(ctx)
+        if (raw.isBlank()) return RomUpdateListResp()
+        return runCatching { RomJson.decodeFromString<RomUpdateListResp>(raw) }
+            .getOrDefault(RomUpdateListResp())
+    }
+
+    /**
+     * 拉取最新动态，与本地快照合并（按 id 去重，新的在前），
+     * 并按「比上次已读位置更新的条数」算出未读数。
+     */
+    suspend fun refreshFeed(ctx: Context, limit: Int = 80): RomUpdateListResp {
+        val fresh = Api.romUpdates(ctx, limit = limit)
+        val old = cachedFeed(ctx).items
+        val merged = LinkedHashMap<Long, RomUpdate>()
+        fresh.items.forEach { merged[it.id] = it }
+        old.forEach { if (!merged.containsKey(it.id)) merged[it.id] = it }
+        val sorted = merged.values.sortedByDescending { it.id }.take(FEED_KEEP)
+
+        // ⚠ 首次拿到数据时必须先建「已读基线」：原来 maxSeen 为 0 时未读恒为 0，
+        //   于是之后的新动态永远不算未读、底栏小红点永远不出现。
+        if (Prefs.feedMaxSeenId(ctx) <= 0L) {
+            val maxNow = sorted.maxOfOrNull { it.id } ?: 0L
+            if (maxNow > 0L) Prefs.setFeedMaxSeenId(ctx, maxNow)
+        }
+        val unread = sorted.count { it.id > Prefs.feedMaxSeenId(ctx) }
+
+        val result = RomUpdateListResp(
+            total = sorted.size,
+            items = sorted,
+            counts = fresh.counts,
+            serverTime = fresh.serverTime,
+        )
+        Prefs.setFeedCache(ctx, RomJson.encodeToString(result))
+        Prefs.setFeedUnread(ctx, unread)
+        return result
+    }
+
+    /** 用户看完动态：把已读位置推到最前，清掉小红点。 */
+    fun markFeedSeen(ctx: Context) {
+        val max = cachedFeed(ctx).items.maxOfOrNull { it.id } ?: 0L
+        val now = maxOf(max, Prefs.feedMaxSeenId(ctx))
+        Prefs.setFeedMaxSeenId(ctx, now)
+        Prefs.setFeedUnread(ctx, 0)
+    }
+
+    /** 首次使用：把当前内容当作已读基线（避免一安装就顶着红点）。 */
+    fun initFeedBaselineIfNeeded(ctx: Context) {
+        if (Prefs.feedMaxSeenId(ctx) == 0L) {
+            val max = cachedFeed(ctx).items.maxOfOrNull { it.id } ?: 0L
+            if (max > 0L) Prefs.setFeedMaxSeenId(ctx, max)
+        }
+    }
+
+    fun unreadCount(ctx: Context): Int = Prefs.feedUnread(ctx)
+
+    // ------------------------------------------------------------- 后台轮询（通知用）
+
+    /**
+     * 返回「订阅机型里、上次通知之后新出现的更新」。官方包与移植包分开看。
+     */
+    suspend fun pollNewUpdates(ctx: Context): Pair<List<RomUpdate>, List<PortPackage>> =
+        withContext(Dispatchers.IO) {
+            val subs = Prefs.subscriptions(ctx)
+            if (subs.isEmpty()) return@withContext emptyList<RomUpdate>() to emptyList()
+            val lastId = Prefs.notifyLastId(ctx)
+            val official = mutableListOf<RomUpdate>()
+            val ports = mutableListOf<PortPackage>()
+
+            if (Prefs.notifyOfficial(ctx)) {
+                runCatching {
+                    val resp = Api.romUpdates(ctx, limit = 120)
+                    resp.items.filter { it.id > lastId && subs.contains(it.codename) }
+                        .let { official += it }
+                }
+            }
+            if (Prefs.notifyPorts(ctx)) {
+                runCatching {
+                    val resp = Api.ports(ctx, limit = 120)
+                    resp.items.filter { subs.contains(it.codename) }
+                        .filter { isNewPort(ctx, it) }
+                        .let { ports += it }
+                }
+            }
+            official to ports
+        }
+
+    private const val K_SEEN_PORTS = "seen_port_ids"
+
+    /** 这个移植包有没有推过通知（实时通道和后台轮询共用同一份记录，避免重复打扰）。 */
+    fun isNewPort(ctx: Context, portId: Long): Boolean {
+        val seen = ctx.getSharedPreferences("romhub_prefs", Context.MODE_PRIVATE)
+            .getStringSet(K_SEEN_PORTS, emptySet())?.toSet() ?: emptySet()
+        return !seen.contains(portId.toString())
+    }
+
+    private fun isNewPort(ctx: Context, p: PortPackage): Boolean = isNewPort(ctx, p.id)
+
+    fun markPortsSeen(ctx: Context, ids: List<Long>) {
+        val sp = ctx.getSharedPreferences("romhub_prefs", Context.MODE_PRIVATE)
+        val seen = (sp.getStringSet(K_SEEN_PORTS, emptySet())?.toSet() ?: emptySet()).toMutableSet()
+        ids.forEach { seen.add(it.toString()) }
+        // 只保留最近 2000 个，防止无限增长
+        val trimmed = seen.toList().takeLast(2000).toSet()
+        sp.edit().putStringSet(K_SEEN_PORTS, trimmed).apply()
+    }
+}

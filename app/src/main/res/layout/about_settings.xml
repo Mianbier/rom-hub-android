@@ -1,1 +1,87 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPEZyYW1lTGF5b3V0IHhtbG5zOmFuZHJvaWQ9Imh0dHA6Ly9zY2hlbWFzLmFuZHJvaWQuY29tL2Fway9yZXMvYW5kcm9pZCIKICAgIHhtbG5zOmFwcD0iaHR0cDovL3NjaGVtYXMuYW5kcm9pZC5jb20vYXBrL3Jlcy1hdXRvIgogICAgYW5kcm9pZDpsYXlvdXRfd2lkdGg9Im1hdGNoX3BhcmVudCIKICAgIGFuZHJvaWQ6bGF5b3V0X2hlaWdodD0ibWF0Y2hfcGFyZW50Ij4KCiAgICA8ZmFuLnNwcmluZ2JhY2sudmlldy5TcHJpbmdCYWNrTGF5b3V0CiAgICAgICAgYW5kcm9pZDppZD0iQCtpZC9zcHJpbmd2aWV3IgogICAgICAgIGFuZHJvaWQ6bGF5b3V0X3dpZHRoPSJtYXRjaF9wYXJlbnQiCiAgICAgICAgYW5kcm9pZDpsYXlvdXRfaGVpZ2h0PSJtYXRjaF9wYXJlbnQiCiAgICAgICAgYXBwOnNjcm9sbGFibGVWaWV3PSJAaWQvc2Nyb2xsdmlldyI+CgogICAgICAgIDxhbmRyb2lkeC5jb3JlLndpZGdldC5OZXN0ZWRTY3JvbGxWaWV3CiAgICAgICAgICAgIGFuZHJvaWQ6aWQ9IkAraWQvc2Nyb2xsdmlldyIKICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfd2lkdGg9Im1hdGNoX3BhcmVudCIKICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfaGVpZ2h0PSJtYXRjaF9wYXJlbnQiCiAgICAgICAgICAgIGFuZHJvaWQ6Y2xpcFRvUGFkZGluZz0iZmFsc2UiPgoKICAgICAgICAgICAgPExpbmVhckxheW91dAogICAgICAgICAgICAgICAgYW5kcm9pZDppZD0iQCtpZC9zY3JvbGxfbGF5b3V0IgogICAgICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfd2lkdGg9Im1hdGNoX3BhcmVudCIKICAgICAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X2hlaWdodD0id3JhcF9jb250ZW50IgogICAgICAgICAgICAgICAgYW5kcm9pZDpvcmllbnRhdGlvbj0idmVydGljYWwiPgoKICAgICAgICAgICAgICAgIDxWaWV3CiAgICAgICAgICAgICAgICAgICAgYW5kcm9pZDppZD0iQCtpZC92ZXJzaW9uX2NhcmRfY2xpY2tfdmlldyIKICAgICAgICAgICAgICAgICAgICBhbmRyb2lkOmxheW91dF93aWR0aD0ibWF0Y2hfcGFyZW50IgogICAgICAgICAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X2hlaWdodD0iQGRpbWVuL2FwcF9sb2dvX2FyZWFfaGVpZ2h0IiAvPgoKICAgICAgICAgICAgICAgIDxvcmcubGluYmFvZ3Uucm9taHViLmhjLmFib3V0LndpZGdldC5EZXZpY2VJbmZvQ2FyZAogICAgICAgICAgICAgICAgICAgIGFuZHJvaWQ6aWQ9IkAraWQvZGV2aWNlX2luZm9fY2FyZF92aWV3IgogICAgICAgICAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X3dpZHRoPSJtYXRjaF9wYXJlbnQiCiAgICAgICAgICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfaGVpZ2h0PSJ3cmFwX2NvbnRlbnQiCiAgICAgICAgICAgICAgICAgICAgYW5kcm9pZDpmb2N1c2FibGU9ImZhbHNlIgogICAgICAgICAgICAgICAgICAgIGFuZHJvaWQ6Y2xpY2thYmxlPSJmYWxzZSIvPgoKICAgICAgICAgICAgICAgIDwhLS08aW5jbHVkZSBsYXlvdXQ9IkBsYXlvdXQvYXBwX2RldmljZV9sYXlvdXQiIC8+LS0+CgogICAgICAgICAgICAgICAgPFJlbGF0aXZlTGF5b3V0CiAgICAgICAgICAgICAgICAgICAgYW5kcm9pZDppZD0iQCtpZC9kZXZpY2VfcGFyYW1zIgogICAgICAgICAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X3dpZHRoPSJtYXRjaF9wYXJlbnQiCiAgICAgICAgICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfaGVpZ2h0PSJ3cmFwX2NvbnRlbnQiCiAgICAgICAgICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfbWFyZ2luU3RhcnQ9IkBkaW1lbi9jYXJkX21hcmdpbl9lZGdlIgogICAgICAgICAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X21hcmdpblRvcD0iQGRpbWVuL2FwcF9jYXJkX21hcmdpbl9lZGdlIgogICAgICAgICAgICAgICAgICAgIGFuZHJvaWQ6cGFkZGluZ1RvcD0iMTZkcCI+CgogICAgICAgICAgICAgICAgICAgIDxhbmRyb2lkeC5yZWN5Y2xlcnZpZXcud2lkZ2V0LlJlY3ljbGVyVmlldwogICAgICAgICAgICAgICAgICAgICAgICBhbmRyb2lkOmlkPSJAK2lkL2Rlc2NyaXB0aW9uX2dyaWQiCiAgICAgICAgICAgICAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X3dpZHRoPSJtYXRjaF9wYXJlbnQiCiAgICAgICAgICAgICAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X2hlaWdodD0id3JhcF9jb250ZW50IgogICAgICAgICAgICAgICAgICAgICAgICBhbmRyb2lkOm5lc3RlZFNjcm9sbGluZ0VuYWJsZWQ9ImZhbHNlIgogICAgICAgICAgICAgICAgICAgICAgICBhbmRyb2lkOm92ZXJTY3JvbGxNb2RlPSJuZXZlciIKICAgICAgICAgICAgICAgICAgICAgICAgYW5kcm9pZDpwYWRkaW5nU3RhcnQ9IkBkaW1lbi9wcmVmZXJlbmNlX2l0ZW1fcGFkZGluZyIKICAgICAgICAgICAgICAgICAgICAgICAgYW5kcm9pZDpwYWRkaW5nRW5kPSJAZGltZW4vcHJlZmVyZW5jZV9pdGVtX3BhZGRpbmciIC8+CiAgICAgICAgICAgICAgICA8L1JlbGF0aXZlTGF5b3V0PgoKICAgICAgICAgICAgICAgIDxGcmFtZUxheW91dAogICAgICAgICAgICAgICAgICAgIGFuZHJvaWQ6aWQ9IkAraWQvcHJlZnNfY29udGFpbmVyIgogICAgICAgICAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X3dpZHRoPSJtYXRjaF9wYXJlbnQiCiAgICAgICAgICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfaGVpZ2h0PSIwZHAiCiAgICAgICAgICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfd2VpZ2h0PSIxLjAiCiAgICAgICAgICAgICAgICAgICAgYW5kcm9pZDpjbGlwQ2hpbGRyZW49ImZhbHNlIgogICAgICAgICAgICAgICAgICAgIGFuZHJvaWQ6Y2xpcFRvUGFkZGluZz0iZmFsc2UiCiAgICAgICAgICAgICAgICAgICAgYW5kcm9pZDpzbW9vdGhTY3JvbGxiYXI9ImZhbHNlIiAvPgoKICAgICAgICAgICAgICAgIDwhLS08VGV4dFZpZXcKICAgICAgICAgICAgICAgICAgICBhbmRyb2lkOmlkPSJAK2lkL2Rpc2NsYWltZXIiCiAgICAgICAgICAgICAgICAgICAgc3R5bGU9IkBzdHlsZS9NaXVpeC5BcHBDb21wYXQuVGV4dEFwcGVhcmFuY2UuTGlzdC5TZWNvbmRhcnkuUHJlZmVyZW5jZSIKICAgICAgICAgICAgICAgICAgICBhbmRyb2lkOmxheW91dF93aWR0aD0ibWF0Y2hfcGFyZW50IgogICAgICAgICAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X2hlaWdodD0id3JhcF9jb250ZW50IgogICAgICAgICAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X21hcmdpblN0YXJ0PSJAZGltZW4vZGV2aWNlX25hbWVfZWRpdF91c2FnZV9wYWRkaW5nIgogICAgICAgICAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X21hcmdpblRvcD0iMjBkcCIKICAgICAgICAgICAgICAgICAgICBhbmRyb2lkOmxheW91dF9tYXJnaW5FbmQ9IkBkaW1lbi9kZXZpY2VfbmFtZV9lZGl0X3VzYWdlX3BhZGRpbmciCiAgICAgICAgICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfbWFyZ2luQm90dG9tPSJAZGltZW4vbXlfY2FyZF9ib3R0b21fcGFkZGluZyIKICAgICAgICAgICAgICAgICAgICBhbmRyb2lkOnRleHQ9IkBzdHJpbmcvbXlfZGV2aWNlX2Rpc2NsYWltZXIiCiAgICAgICAgICAgICAgICAgICAgYW5kcm9pZDp0ZXh0U2l6ZT0iMTNzcCIKICAgICAgICAgICAgICAgICAgICBhbmRyb2lkOnZpc2liaWxpdHk9ImdvbmUiIC8+LS0+CiAgICAgICAgICAgIDwvTGluZWFyTGF5b3V0PgogICAgICAgIDwvYW5kcm9pZHguY29yZS53aWRnZXQuTmVzdGVkU2Nyb2xsVmlldz4KICAgIDwvZmFuLnNwcmluZ2JhY2sudmlldy5TcHJpbmdCYWNrTGF5b3V0PgoKICAgIDxvcmcubGluYmFvZ3Uucm9taHViLmhjLmFib3V0LndpZGdldC5WZXJzaW9uQ2FyZAogICAgICAgIGFuZHJvaWQ6aWQ9IkAraWQvdmVyc2lvbl9jYXJkX3ZpZXciCiAgICAgICAgYW5kcm9pZDpsYXlvdXRfd2lkdGg9Im1hdGNoX3BhcmVudCIKICAgICAgICBhbmRyb2lkOmxheW91dF9oZWlnaHQ9IkBkaW1lbi9hcHBfbG9nb19hcmVhX2hlaWdodCIgLz4KCjwvRnJhbWVMYXlvdXQ+
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fan.springback.view.SpringBackLayout
+        android:id="@+id/springview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:scrollableView="@id/scrollview">
+
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/scrollview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false">
+
+            <LinearLayout
+                android:id="@+id/scroll_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <View
+                    android:id="@+id/version_card_click_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/app_logo_area_height" />
+
+                <org.linbaogu.romhub.hc.about.widget.DeviceInfoCard
+                    android:id="@+id/device_info_card_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:focusable="false"
+                    android:clickable="false"/>
+
+                <!--<include layout="@layout/app_device_layout" />-->
+
+                <RelativeLayout
+                    android:id="@+id/device_params"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/card_margin_edge"
+                    android:layout_marginTop="@dimen/app_card_margin_edge"
+                    android:paddingTop="16dp">
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/description_grid"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:nestedScrollingEnabled="false"
+                        android:overScrollMode="never"
+                        android:paddingStart="@dimen/preference_item_padding"
+                        android:paddingEnd="@dimen/preference_item_padding" />
+                </RelativeLayout>
+
+                <FrameLayout
+                    android:id="@+id/prefs_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1.0"
+                    android:clipChildren="false"
+                    android:clipToPadding="false"
+                    android:smoothScrollbar="false" />
+
+                <!--<TextView
+                    android:id="@+id/disclaimer"
+                    style="@style/Miuix.AppCompat.TextAppearance.List.Secondary.Preference"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/device_name_edit_usage_padding"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="@dimen/device_name_edit_usage_padding"
+                    android:layout_marginBottom="@dimen/my_card_bottom_padding"
+                    android:text="@string/my_device_disclaimer"
+                    android:textSize="13sp"
+                    android:visibility="gone" />-->
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </fan.springback.view.SpringBackLayout>
+
+    <org.linbaogu.romhub.hc.about.widget.VersionCard
+        android:id="@+id/version_card_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/app_logo_area_height" />
+
+</FrameLayout>

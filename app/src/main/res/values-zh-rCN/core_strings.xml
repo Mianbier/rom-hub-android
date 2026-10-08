@@ -1,1 +1,84 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxyZXNvdXJjZXM+DQogICAgPCEtLeW8ueeqly9taXVpeCDpg6jliIYtLT4NCiAgICA8c3RyaW5nIG5hbWU9Im1pdWl4X2FwcGNvbXBhdF9hY3Rpb25fbW9kZV9zZWxlY3RfYWxsIj7lhajpgIk8L3N0cmluZz4NCiAgICA8c3RyaW5nIG5hbWU9Im1pdWl4X2FwcGNvbXBhdF9hY3Rpb25fbW9kZV9pbnZlcnNlIj7lj43pgIk8L3N0cmluZz4NCiAgICA8c3RyaW5nIG5hbWU9Im1pdWl4X2FwcGNvbXBhdF9jYW5jZWxfZGVzY3JpcHRpb24iPuWPlua2iDwvc3RyaW5nPg0KICAgIDxzdHJpbmcgbmFtZT0ibWl1aXhfYXBwY29tcGF0X2NvbmZpcm1fZGVzY3JpcHRpb24iPuehruiupDwvc3RyaW5nPg0KICAgIDxzdHJpbmcgbmFtZT0ibWl1aXhfYXBwY29tcGF0X3NlbGVjdF9hbGxfZGVzY3JpcHRpb24iPuWFqOmAiTwvc3RyaW5nPg0KICAgIDxzdHJpbmcgbmFtZT0ibWl1aXhfYXBwY29tcGF0X2Rlc2VsZWN0X2FsbF9kZXNjcmlwdGlvbiI+5YWo5LiN6YCJPC9zdHJpbmc+DQogICAgPHN0cmluZyBuYW1lPSJtaXVpeF9hcHBjb21wYXRfZGVsZXRlX2Rlc2NyaXB0aW9uIj7liKDpmaQ8L3N0cmluZz4NCiAgICA8c3RyaW5nIG5hbWU9Im1pdWl4X2FwcGNvbXBhdF9zZWFyY2hfYWN0aW9uX21vZGVfY2FuY2VsIj7lj5bmtog8L3N0cmluZz4NCiAgICA8c3RyaW5nIG5hbWU9Im1pdWl4X2FwcGNvbXBhdF9zZWFyY2hfaW5wdXRfZGVzY3JpcHRpb24iPuaQnOe0ojwvc3RyaW5nPg0KICAgIDxzdHJpbmcgbmFtZT0ibWl1aXhfYXBwY29tcGF0X2FjdGlvbmJhcl9pbW1lcnNpb25fYnV0dG9uX21vcmVfZGVzY3JpcHRpb24iPuabtOWkmjwvc3RyaW5nPg0KICAgIDwhLS1IeXBlckNlaWxlciBTZXR0aW5ncy9BYm91dCBQYWdlLS0+DQogICAgPHN0cmluZyBuYW1lPSJzb2Z0X3JlYm9vdCI+6YeN5ZCvPC9zdHJpbmc+DQogICAgPHN0cmluZyBuYW1lPSJyZXN0YXJ0X2FwcF9kZXNjIj7noa7lrpropoHnq4vljbPph43lkK8lMSRz5ZCX77yfPC9zdHJpbmc+DQogICAgPHN0cmluZyBuYW1lPSJ0aXAiPuaPkOekujwvc3RyaW5nPg0KICAgIDxzdHJpbmcgbmFtZT0icm9vdCI+5pyq5o6I5LqIIFJvb3QvU3Ug5p2D6ZmQ6YOo5YiG5Yqf6IO95LiN5Y+v55SoPC9zdHJpbmc+DQogICAgPHN0cmluZyBuYW1lPSJleHBlcmltZW50YWxfZmVhdHVyZXMiPuWunumqjOaAp+WKn+iDvTwvc3RyaW5nPg0KICAgIDxzdHJpbmcgbmFtZT0iaG9va19mYWlsZWQiPkh5cGVyUm9taHViIOaaguacqua/gOa0u++8jOivt+ajgOafpSBYcG9zZWQg566h55CG5Zmo5piv5ZCm5ZCv55So77yM5Y+K5piv5ZCm5YWB6K64IEh5cGVyQ2VpbGVyIOiHquWQr+WKqO+8jOWmguacieivt+mHjeWQr+aIlumHjeaWsOS8mOWMluaooeWdlzwvc3RyaW5nPg0KICAgIDxzdHJpbmcgbmFtZT0ia2lsbF9mYWlsZWQiPue7k+adn+i/m+eoi+Wksei0pe+8jOivt+ajgOafpeaYr+WQpuS4uiBIeXBlclJvbWh1YiDmjojkuojkuoYgUm9vdC9TdSDmnYPpmZA8L3N0cmluZz4NCiAgICA8c3RyaW5nIG5hbWU9InBpZF9mYWlsZWQiPuebruagh+W6lOeUqOacqui/kOihjO+8jOS4jemcgOimgemHjeWQr+OAgjwvc3RyaW5nPg0KICAgIDxzdHJpbmcgbmFtZT0icmVib290X2ZhaWxlZCI+6YeN5ZCv5aSx6LSl77yM6K+35qOA5p+l5piv5ZCm5Li6IEh5cGVyUm9taHViIOaOiOS6iOS6hiBSb290L1N1IOadg+mZkDwvc3RyaW5nPg0KICAgIDxzdHJpbmcgbmFtZT0ic3RhcnRfZmFpbGVkIj7lkK/liqggQWN0aXZpdHkg5aSx6LSl77yM6K+35qOA5p+l5piv5ZCm5Li6IEh5cGVyUm9taHViIOaOiOS6iOS6hiBSb290L1N1IOadg+mZkDwvc3RyaW5nPg0KICAgIDwhLS1IeXBlckNlaWxlciBUaXBzLS0+DQogICAgPHN0cmluZyBuYW1lPSJ3YXJuIj7orablkYo8L3N0cmluZz4NCiAgICA8c3RyaW5nIG5hbWU9Im1vZHVsZV90aXRsZV8xIj7ln7rmnKzkv6Hmga88L3N0cmluZz4NCiAgICA8c3RyaW5nIG5hbWU9Im1vZHVsZV90aXRsZV8yIj7loIbmoIjkv6Hmga88L3N0cmluZz4NCiAgICA8c3RyaW5nIG5hbWU9ImFwcF9lcnJvcl9kZXNjIj5IeXBlclJvbWh1YiDlvILluLjnu4jmraLvvIzor7fmkLrluKbku6XkuIvkv6Hmga/ov5vooYzmnInmlYjlj43ppojjgIJcbumVv+aMieS7u+aEj+S/oeaBr+WNs+WPr+WkjeWItuWFqOmDqOOAgjwvc3RyaW5nPg0KICAgIDxzdHJpbmcgbmFtZT0ic2FmZV9tb2RlX2hpc3RvcnkiPuafpeeci+W8guW4uOiusOW9lTwvc3RyaW5nPg0KICAgIDxzdHJpbmcgbmFtZT0ic2FmZV9tb2RlX2NhbmNlbCI+6Kej6ZmkPC9zdHJpbmc+DQogICAgPHN0cmluZyBuYW1lPSJzYWZlX21vZGVfb2siPueojeWQjuWkhOeQhjwvc3RyaW5nPg0KICAgIDxzdHJpbmcgbmFtZT0ic2FmZV9tb2RlX2xhdGVyX3RpdGxlIj7mj5DnpLo8L3N0cmluZz4NCiAgICA8c3RyaW5nIG5hbWU9InNhZmVfbW9kZV9yZWNvcmRlcl90aXRsZSI+5byC5bi46K6w5b2VPC9zdHJpbmc+DQogICAgPHN0cmluZyBuYW1lPSJzYWZlX21vZGVfcmVjb3JkZXJfZmlsZSI+5paH5Lu25ZCNPC9zdHJpbmc+DQogICAgPHN0cmluZyBuYW1lPSJzYWZlX21vZGVfcmVjb3JkZXJfY2xhc3MiPuaKm+WHuuexuzwvc3RyaW5nPg0KICAgIDxzdHJpbmcgbmFtZT0ic2FmZV9tb2RlX3JlY29yZGVyX21ldGhvZCI+5oqb5Ye65pa55rOVPC9zdHJpbmc+DQogICAgPHN0cmluZyBuYW1lPSJzYWZlX21vZGVfcmVjb3JkZXJfbGluZSI+6KGM5Y+3PC9zdHJpbmc+DQogICAgPHN0cmluZyBuYW1lPSJzYWZlX21vZGVfcmVjb3JkZXJfbXNnIj7lvILluLjnsbvlnovlj4rkv6Hmga88L3N0cmluZz4NCiAgICA8c3RyaW5nIG5hbWU9InNhZmVfbW9kZV9yZWNvcmRlcl9zdCI+5byC5bi45aCG5qCI5YaF5a65PC9zdHJpbmc+DQogICAgPHN0cmluZyBuYW1lPSJlcnJvcl9tZXNzYWdlIj7lvILluLjkv6Hmga88L3N0cmluZz4NCiAgICA8c3RyaW5nIG5hbWU9ImVycm9yX3R5cGUiPuW8guW4uOexu+Weizwvc3RyaW5nPg0KICAgIDxzdHJpbmcgbmFtZT0iZXJyb3JfZmlsZV9uYW1lIj7mlofku7blkI08L3N0cmluZz4NCiAgICA8c3RyaW5nIG5hbWU9ImVycm9yX3RpbWUiPuiusOW9leaXtumXtDwvc3RyaW5nPg0KICAgIDxzdHJpbmcgbmFtZT0iZXJyb3JfdmVyc2lvbl9uYW1lIj7niYjmnKzlkI08L3N0cmluZz4NCiAgICA8c3RyaW5nIG5hbWU9ImVycm9yX2dpdF9oYXNoIj7mj5DkuqTlk4jluIw8L3N0cmluZz4NCiAgICA8c3RyaW5nIG5hbWU9ImVycm9yX2J1aWxkX3RpbWUiPuaehOW7uuaXtumXtDwvc3RyaW5nPg0KICAgIDxzdHJpbmcgbmFtZT0idGlwX2RlZmF1bHQiPlRpcDog6L+Z6YeM5piv6buY6K6kIHRpcCB+IOWmguaenOS9oOiDveeci+ingeaIke+8jOWwseivtOaYjiBIeXBlclJvbWh1YiDlh7rnjrDkuobpl67popjvvIzor7flj4rml7bkuJTmnInmlYjnmoTlj43ppojnu5nlvIDlj5HogIXjgII8L3N0cmluZz4NCiAgICA8c3RyaW5nIG5hbWU9ImhlYWR0aXBfdGlwX2F1dG9fc2FmZV9tb2RlIj7kuLvliqjlronlhajmqKHlvI/lj6/ku6XlnKjpg6jliIblupTnlKjlpJrmrKHltKnmuoPml7blj4rml7blj5bmtoggaG9vayDku6Xnoa7kv53lronlhajjgILor6Xlip/og73pnIDopoEgaG9vayDkvZznlKjln58gXCLns7vnu5/moYbmnrZcIiDmnaXov5DooYzvvIzmiJHku6zljYHliIblu7rorq7mgqjli77pgInkvZznlKjln58gXCLns7vnu5/moYbmnrZcIiDku6Xmv4DmtLvlkozov5DooYzkuLvliqjlronlhajmqKHlvI/jgII8L3N0cmluZz4NCiAgICA8c3RyaW5nIG5hbWU9ImhhcHB5X2JpcnRoZGF5X2h5cGVyY2VpbGVyIj7ku4rlpKnmmK8gSHlwZXJSb21odWIg55qE55Sf5pel77yBXG7mhJ/osKLkuI7mgqjlsoHmnIjnm7jkvLTkuYvmganvvIzmhL/mnaXlubTlho3nu63liY3nvJjvvIzlhbHotbTpo47pm6jvvIzmkLrmiYvlubbov5vvvIE8L3N0cmluZz4NCiAgICA8c3RyaW5nIG5hbWU9ImhlYWR0aXBfdGlwX2Z1Y2tfY29vbGFwayI+5Y6G5Y+y5LiK55qE5LuK5aSp77yaMjAyMiDlubQgNyDmnIggMTQg5pel77yM57uA5ryT5Y+R6KGo6YeN6KaB6K6y6K+d44CCPC9zdHJpbmc+DQogICAgPHN0cmluZyBuYW1lPSJoZWFkdGlwX25vdGljZV9kZWFkX2xvZ2dlcl9lcnJjb2RlIj7lvZPliY3orr7lpIcgTG9nIOacjeWKoeW8guW4uO+8jEh5cGVyUm9taHViIOWKn+iDveWwhuiiq+mZkOWItuOAglxu6K+35oGi5aSNIExvZyDmnI3liqHvvIzkvb/lhbblj6/ku6XmraPluLjov5DooYzjgIJcbumUmeivr+S7o+eggTogJTEkczwvc3RyaW5nPg0KICAgIDxzdHJpbmcgbmFtZT0iaGVhZHRpcF9ub3RpY2VfZGVhZF9sb2dnZXIiPuW9k+WJjeiuvuWkhyBMb2cg5pyN5Yqh5byC5bi477yMSHlwZXJSb21odWIg5Yqf6IO95bCG6KKr6ZmQ5Yi244CC6K+35oGi5aSNIExvZyDmnI3liqHvvIzkvb/lhbblj6/ku6XmraPluLjov5DooYzjgII8L3N0cmluZz4NCiAgICA8c3RyaW5nIG5hbWU9InVuc3VwcG9ydGVkX3N5c3RlbV9mdW5jIj7lvZPliY3ns7vnu5/niYjmnKzkuI3mlK/mjIHmraTlip/og708L3N0cmluZz4NCiAgICA8c3RyaW5nIG5hbWU9InN1cHBvcnRlZF9zeXN0ZW1fZnVuYyI+5b2T5YmN57O757uf54mI5pys5a6Y5pa55bey5pSv5oyB5q2k5Yqf6IO9PC9zdHJpbmc+DQogICAgPHN0cmluZyBuYW1lPSJ1bnN1cHBvcnRlZF9hcHBfdmVyc2lvbl9mdW5jIj7lvZPliY3lupTnlKjniYjmnKzkuI3mlK/mjIHmraTlip/og708L3N0cmluZz4NCiAgICA8c3RyaW5nIG5hbWU9InN1cHBvcnRlZF9hcHBfdmVyc2lvbl9mdW5jIj7lvZPliY3lupTnlKjniYjmnKzlt7LmlK/mjIHmraTlip/og708L3N0cmluZz4NCiAgICA8c3RyaW5nIG5hbWU9ImFwcF92ZXJzaW9uX3VuYXZhaWxhYmxlX3dhcm5pbmdfYmFubmVyIj7lvZPliY3ml6Dms5Xojrflj5bmraTlupTnlKjnmoTniYjmnKzlj7csIOS4uuehruS/nSBob29rIOWuieWFqCwg5bey56aB55So5pys5bqU55So55qE5YWo6YOo5Yqf6IO9PC9zdHJpbmc+DQogICAgPHN0cmluZyBuYW1lPSJmZWF0dXJlX2RvaW5nX2Z1bmMiPuW9k+WJjeWKn+iDveato+WcqOWItuS9nOS4re+8jOaVrOivt+acn+W+hTwvc3RyaW5nPg0KICAgIDxzdHJpbmcgbmFtZT0ic2VhcmNoX3Jlc3VsdF9ub3RfYXZhaWxhYmxlIj7mraTlip/og73lj6/og73kuI3mlK/mjIHmraTorr7lpIfmiJbpmpDol4/liLDpg6jliIbpgInpobnkuIs8L3N0cmluZz4NCiAgICA8IS0tU3lzdGVtIFVJLS0+DQogICAgPHN0cmluZyBuYW1lPSJzeXN0ZW1fdWkiPuezu+e7n+eVjOmdojwvc3RyaW5nPg0KICAgIDwhLS1TeXN0ZW0gbGF1bmNoZXItLT4NCiAgICA8c3RyaW5nIG5hbWU9Im1paG9tZSI+57O757uf5qGM6Z2iPC9zdHJpbmc+DQogICAgPCEtLVNldHRpbmdzLS0+DQogICAgPHN0cmluZyBuYW1lPSJzeXN0ZW1fc2V0dGluZ3MiPuiuvue9rjwvc3RyaW5nPg0KICAgIDwhLS1TZWN1cml0eS9UYWJsZXQgc2VjdXJpdHkgY2VudGVyLS0+DQogICAgPHN0cmluZyBuYW1lPSJzZWN1cml0eV9jZW50ZXJfaHlwZXJvcyI+5a6J5YWo5pyN5YqhPC9zdHJpbmc+DQogICAgPCEtLU90aGVyLS0+DQogICAgPHN0cmluZyBuYW1lPSJleGl0Ij7pgIDlh7o8L3N0cmluZz4NCiAgICA8c3RyaW5nIG5hbWU9Imlnbm9yZSI+5b+955WlPC9zdHJpbmc+DQogICAgPHN0cmluZyBuYW1lPSJkaXNhYmxlX3N1Z2dlc3QiPuemgeeUqOaOqOiNkDwvc3RyaW5nPg0KICAgIDxzdHJpbmcgbmFtZT0iZW5hYmxlX3N1Z2dlc3QiPuWQr+eUqOaOqOiNkDwvc3RyaW5nPg0KICAgIDxzdHJpbmcgbmFtZT0ic2VhcmNoX2FwcHNfaGludCI+5pCc57SiICVkIOS4quW6lOeUqDwvc3RyaW5nPg0KICAgIDxzdHJpbmcgbmFtZT0ibG9hZF9hcHBzX2ZhaWxlZCI+5Yqg6L295bqU55So5YiX6KGo5aSx6LSlPC9zdHJpbmc+DQogICAgPHN0cmluZyBuYW1lPSJ1bnN1cHBvcnRlZF9mdW5jX3RpcHMiPuW9k+WJjeebruagh+S9nOeUqOWfn+adpea6kOWPr+iDveW5tuS4jeaYryBYaWFvbWkg5a6Y5pa577yM5Ye65LqO5a6J5YWo6ICD6JmR77yM5bey5YGc5q2i5Yqg6L295q2k5L2c55So5Z+f55qE5omA5pyJ5Yqf6IO977yM6K+35bCd6K+V5pu05pS55Li6IFhpYW9taSDlrpjmlrnlj5HluIPnmoTlupTnlKjljIXvvIzmiJbliY3lvoAgXCJIeXBlclJvbWh1YiDorr7nva4t5byA5Y+R6ICF6YCJ6aG5Leiwg+ivleaooeW8j1wiIOaMh+WumuaMgui9veeJiOacrOWQjumHjeivleOAgjwvc3RyaW5nPg0KICAgIDxzdHJpbmcgbmFtZT0iZGVidWdfbW9kZV9ydW5uaW5nIj7lvZPliY3nm67moIfkvZznlKjln5/mraPlpITkuo7osIPor5XmqKHlvI/vvIzoi6Xml6Dlv4XopoHlvIDlkK/or7fliY3lvoDlhbPpl63jgIJcbuW9k+WJjeW6lOeUqOeJiOacrO+8miUxJHNcbumAieaLqeebruagh+eJiOacrO+8miUyJHNcbuaYr+WQpuaIkOWKn+aMgumSqe+8miUzJHM8L3N0cmluZz4NCiAgICA8c3RyaW5nIG5hbWU9ImRlYnVnX21vZGVfc3dpdGNoIj7osIPor5XniYjmnKw8L3N0cmluZz4NCg0KICAgIDwhLS1BSUNSLS0+DQogICAgPHN0cmluZyBuYW1lPSJhaWNyX21vZGlmeV9icm93c2VyX2NvcHkiPuS/ruaUueWkjeWItuebtOi+vuS9v+eUqOeahOa1j+iniOWZqDwvc3RyaW5nPg0KICAgIDxzdHJpbmcgbmFtZT0iYWljcl9wcmVmZXJyZWRfYnJvd3NlciI+6YCJ5oup5omT5byA55qE5rWP6KeI5ZmoPC9zdHJpbmc+DQogICAgPHN0cmluZyBuYW1lPSJhaWNyX2RlZmF1bHRfYnJvd3NlciI+6buY6K6k5rWP6KeI5ZmoPC9zdHJpbmc+DQo8L3Jlc291cmNlcz4NCg==
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--弹窗/miuix 部分-->
+    <string name="miuix_appcompat_action_mode_select_all">全选</string>
+    <string name="miuix_appcompat_action_mode_inverse">反选</string>
+    <string name="miuix_appcompat_cancel_description">取消</string>
+    <string name="miuix_appcompat_confirm_description">确认</string>
+    <string name="miuix_appcompat_select_all_description">全选</string>
+    <string name="miuix_appcompat_deselect_all_description">全不选</string>
+    <string name="miuix_appcompat_delete_description">删除</string>
+    <string name="miuix_appcompat_search_action_mode_cancel">取消</string>
+    <string name="miuix_appcompat_search_input_description">搜索</string>
+    <string name="miuix_appcompat_actionbar_immersion_button_more_description">更多</string>
+    <!--HyperCeiler Settings/About Page-->
+    <string name="soft_reboot">重启</string>
+    <string name="restart_app_desc">确定要立即重启%1$s吗？</string>
+    <string name="tip">提示</string>
+    <string name="root">未授予 Root/Su 权限部分功能不可用</string>
+    <string name="experimental_features">实验性功能</string>
+    <string name="hook_failed">HyperRomhub 暂未激活，请检查 Xposed 管理器是否启用，及是否允许 HyperCeiler 自启动，如有请重启或重新优化模块</string>
+    <string name="kill_failed">结束进程失败，请检查是否为 HyperRomhub 授予了 Root/Su 权限</string>
+    <string name="pid_failed">目标应用未运行，不需要重启。</string>
+    <string name="reboot_failed">重启失败，请检查是否为 HyperRomhub 授予了 Root/Su 权限</string>
+    <string name="start_failed">启动 Activity 失败，请检查是否为 HyperRomhub 授予了 Root/Su 权限</string>
+    <!--HyperCeiler Tips-->
+    <string name="warn">警告</string>
+    <string name="module_title_1">基本信息</string>
+    <string name="module_title_2">堆栈信息</string>
+    <string name="app_error_desc">HyperRomhub 异常终止，请携带以下信息进行有效反馈。\n长按任意信息即可复制全部。</string>
+    <string name="safe_mode_history">查看异常记录</string>
+    <string name="safe_mode_cancel">解除</string>
+    <string name="safe_mode_ok">稍后处理</string>
+    <string name="safe_mode_later_title">提示</string>
+    <string name="safe_mode_recorder_title">异常记录</string>
+    <string name="safe_mode_recorder_file">文件名</string>
+    <string name="safe_mode_recorder_class">抛出类</string>
+    <string name="safe_mode_recorder_method">抛出方法</string>
+    <string name="safe_mode_recorder_line">行号</string>
+    <string name="safe_mode_recorder_msg">异常类型及信息</string>
+    <string name="safe_mode_recorder_st">异常堆栈内容</string>
+    <string name="error_message">异常信息</string>
+    <string name="error_type">异常类型</string>
+    <string name="error_file_name">文件名</string>
+    <string name="error_time">记录时间</string>
+    <string name="error_version_name">版本名</string>
+    <string name="error_git_hash">提交哈希</string>
+    <string name="error_build_time">构建时间</string>
+    <string name="tip_default">Tip: 这里是默认 tip ~ 如果你能看见我，就说明 HyperRomhub 出现了问题，请及时且有效的反馈给开发者。</string>
+    <string name="headtip_tip_auto_safe_mode">主动安全模式可以在部分应用多次崩溃时及时取消 hook 以确保安全。该功能需要 hook 作用域 \"系统框架\" 来运行，我们十分建议您勾选作用域 \"系统框架\" 以激活和运行主动安全模式。</string>
+    <string name="happy_birthday_hyperceiler">今天是 HyperRomhub 的生日！\n感谢与您岁月相伴之恩，愿来年再续前缘，共赴风雨，携手并进！</string>
+    <string name="headtip_tip_fuck_coolapk">历史上的今天：2022 年 7 月 14 日，绀漓发表重要讲话。</string>
+    <string name="headtip_notice_dead_logger_errcode">当前设备 Log 服务异常，HyperRomhub 功能将被限制。\n请恢复 Log 服务，使其可以正常运行。\n错误代码: %1$s</string>
+    <string name="headtip_notice_dead_logger">当前设备 Log 服务异常，HyperRomhub 功能将被限制。请恢复 Log 服务，使其可以正常运行。</string>
+    <string name="unsupported_system_func">当前系统版本不支持此功能</string>
+    <string name="supported_system_func">当前系统版本官方已支持此功能</string>
+    <string name="unsupported_app_version_func">当前应用版本不支持此功能</string>
+    <string name="supported_app_version_func">当前应用版本已支持此功能</string>
+    <string name="app_version_unavailable_warning_banner">当前无法获取此应用的版本号, 为确保 hook 安全, 已禁用本应用的全部功能</string>
+    <string name="feature_doing_func">当前功能正在制作中，敬请期待</string>
+    <string name="search_result_not_available">此功能可能不支持此设备或隐藏到部分选项下</string>
+    <!--System UI-->
+    <string name="system_ui">系统界面</string>
+    <!--System launcher-->
+    <string name="mihome">系统桌面</string>
+    <!--Settings-->
+    <string name="system_settings">设置</string>
+    <!--Security/Tablet security center-->
+    <string name="security_center_hyperos">安全服务</string>
+    <!--Other-->
+    <string name="exit">退出</string>
+    <string name="ignore">忽略</string>
+    <string name="disable_suggest">禁用推荐</string>
+    <string name="enable_suggest">启用推荐</string>
+    <string name="search_apps_hint">搜索 %d 个应用</string>
+    <string name="load_apps_failed">加载应用列表失败</string>
+    <string name="unsupported_func_tips">当前目标作用域来源可能并不是 Xiaomi 官方，出于安全考虑，已停止加载此作用域的所有功能，请尝试更改为 Xiaomi 官方发布的应用包，或前往 \"HyperRomhub 设置-开发者选项-调试模式\" 指定挂载版本后重试。</string>
+    <string name="debug_mode_running">当前目标作用域正处于调试模式，若无必要开启请前往关闭。\n当前应用版本：%1$s\n选择目标版本：%2$s\n是否成功挂钩：%3$s</string>
+    <string name="debug_mode_switch">调试版本</string>
+
+    <!--AICR-->
+    <string name="aicr_modify_browser_copy">修改复制直达使用的浏览器</string>
+    <string name="aicr_preferred_browser">选择打开的浏览器</string>
+    <string name="aicr_default_browser">默认浏览器</string>
+</resources>

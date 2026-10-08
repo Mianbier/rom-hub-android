@@ -1,1 +1,21 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPExpbmVhckxheW91dCB4bWxuczphbmRyb2lkPSJodHRwOi8vc2NoZW1hcy5hbmRyb2lkLmNvbS9hcGsvcmVzL2FuZHJvaWQiCiAgICBhbmRyb2lkOmlkPSJAK2lkL2RldmljZV9iYXNpY19sYXlvdXQiCiAgICBhbmRyb2lkOmxheW91dF93aWR0aD0ibWF0Y2hfcGFyZW50IgogICAgYW5kcm9pZDpsYXlvdXRfaGVpZ2h0PSJ3cmFwX2NvbnRlbnQiCiAgICBhbmRyb2lkOmxheW91dF9tYXJnaW5TdGFydD0iQGRpbWVuL2NhcmRfbWFyZ2luX2VkZ2UiCiAgICBhbmRyb2lkOmxheW91dF9tYXJnaW5FbmQ9IkBkaW1lbi9jYXJkX21hcmdpbl9lZGdlIgogICAgYW5kcm9pZDpiYWNrZ3JvdW5kPSJAZHJhd2FibGUvYXBwX2RldmljZV9jYXJkX2JhY2tncm91bmQiCiAgICBhbmRyb2lkOmNsaXBDaGlsZHJlbj0idHJ1ZSIKICAgIGFuZHJvaWQ6b3JpZW50YXRpb249InZlcnRpY2FsIj4KCiAgICA8b3JnLmxpbmJhb2d1LnJvbWh1Yi5oYy5hYm91dC53aWRnZXQuRGV2aWNlTmFtZUNhcmQKICAgICAgICBhbmRyb2lkOmlkPSJAK2lkL2RldmljZV9uYW1lX2NhcmRfdmlldyIKICAgICAgICBhbmRyb2lkOmxheW91dF93aWR0aD0ibWF0Y2hfcGFyZW50IgogICAgICAgIGFuZHJvaWQ6bGF5b3V0X2hlaWdodD0id3JhcF9jb250ZW50IiAvPgoKICAgIDxvcmcubGluYmFvZ3Uucm9taHViLmhjLmFib3V0LndpZGdldC5WZXJzaW9uTmFtZUNhcmQKICAgICAgICBhbmRyb2lkOmlkPSJAK2lkL3ZlcnNpb25fbmFtZV9jYXJkX3ZpZXciCiAgICAgICAgYW5kcm9pZDpsYXlvdXRfd2lkdGg9Im1hdGNoX3BhcmVudCIKICAgICAgICBhbmRyb2lkOmxheW91dF9oZWlnaHQ9IndyYXBfY29udGVudCIgLz4KPC9MaW5lYXJMYXlvdXQ+Cg==
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/device_basic_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/card_margin_edge"
+    android:layout_marginEnd="@dimen/card_margin_edge"
+    android:background="@drawable/app_device_card_background"
+    android:clipChildren="true"
+    android:orientation="vertical">
+
+    <org.linbaogu.romhub.hc.about.widget.DeviceNameCard
+        android:id="@+id/device_name_card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <org.linbaogu.romhub.hc.about.widget.VersionNameCard
+        android:id="@+id/version_name_card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

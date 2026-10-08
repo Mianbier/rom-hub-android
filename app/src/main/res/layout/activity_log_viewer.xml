@@ -1,1 +1,50 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPGZhbi5uZXN0ZWRoZWFkZXIud2lkZ2V0Lk5lc3RlZEhlYWRlckxheW91dCB4bWxuczphbmRyb2lkPSJodHRwOi8vc2NoZW1hcy5hbmRyb2lkLmNvbS9hcGsvcmVzL2FuZHJvaWQiCiAgICB4bWxuczphcHA9Imh0dHA6Ly9zY2hlbWFzLmFuZHJvaWQuY29tL2Fway9yZXMtYXV0byIKICAgIGFuZHJvaWQ6aWQ9IkAraWQvbmVzdGVkX2hlYWRlcl9sYXlvdXQiCiAgICBhbmRyb2lkOmxheW91dF93aWR0aD0ibWF0Y2hfcGFyZW50IgogICAgYW5kcm9pZDpsYXlvdXRfaGVpZ2h0PSJtYXRjaF9wYXJlbnQiCiAgICBhbmRyb2lkOm9yaWVudGF0aW9uPSJ2ZXJ0aWNhbCIKICAgIGFwcDpoZWFkZXJWaWV3PSJAaWQvc2VhcmNoX2JhciIKICAgIGFwcDpzY3JvbGxhYmxlVmlldz0iQGlkL3ZpZXdfcGFnZXIiCiAgICBhcHA6c3RpY2t5Vmlldz0iQGlkL3N0aWNreV92aWV3Ij4KCiAgICA8ZmFuLnZpZXdwYWdlci53aWRnZXQuVmlld1BhZ2VyCiAgICAgICAgYW5kcm9pZDppZD0iQCtpZC92aWV3X3BhZ2VyIgogICAgICAgIGFuZHJvaWQ6bGF5b3V0X3dpZHRoPSJtYXRjaF9wYXJlbnQiCiAgICAgICAgYW5kcm9pZDpsYXlvdXRfaGVpZ2h0PSJtYXRjaF9wYXJlbnQiIC8+CgogICAgPCEtLSDmkJzntKLooYwgLS0+CiAgICA8aW5jbHVkZQogICAgICAgIGFuZHJvaWQ6aWQ9IkAraWQvc2VhcmNoX2JhciIKICAgICAgICBsYXlvdXQ9IkBsYXlvdXQvc2VhcmNoX3N0dWIiIC8+CgogICAgPExpbmVhckxheW91dAogICAgICAgIGFuZHJvaWQ6aWQ9IkBpZC9zdGlja3lfdmlldyIKICAgICAgICBhbmRyb2lkOmxheW91dF93aWR0aD0ibWF0Y2hfcGFyZW50IgogICAgICAgIGFuZHJvaWQ6bGF5b3V0X2hlaWdodD0id3JhcF9jb250ZW50IgogICAgICAgIGFuZHJvaWQ6b3JpZW50YXRpb249InZlcnRpY2FsIj4KCiAgICAgICAgPCEtLSDml6Xlv5fnsbvlnovliIfmjaIgLS0+CiAgICAgICAgPGZhbi5taXVpeGJhc2Uud2lkZ2V0LkZpbHRlclNvcnRWaWV3MgogICAgICAgICAgICBhbmRyb2lkOmlkPSJAK2lkL2xvZ190eXBlIgogICAgICAgICAgICBhbmRyb2lkOmxheW91dF93aWR0aD0ibWF0Y2hfcGFyZW50IgogICAgICAgICAgICBhbmRyb2lkOmxheW91dF9oZWlnaHQ9IndyYXBfY29udGVudCIKICAgICAgICAgICAgYW5kcm9pZDpwYWRkaW5nSG9yaXpvbnRhbD0iQGRpbWVuL21pdWl4X3RoZW1lX3BhZGRpbmdfaG9yaXpvbnRhbF9jb21tb24iPgoKICAgICAgICAgICAgPGZhbi5taXVpeGJhc2Uud2lkZ2V0LkZpbHRlclNvcnRUYWJWaWV3CiAgICAgICAgICAgICAgICBhbmRyb2lkOmlkPSJAK2lkL2xvZ190eXBlX2FwcCIKICAgICAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X3dpZHRoPSJ3cmFwX2NvbnRlbnQiCiAgICAgICAgICAgICAgICBhbmRyb2lkOmxheW91dF9oZWlnaHQ9IndyYXBfY29udGVudCIKICAgICAgICAgICAgICAgIGFuZHJvaWQ6dGV4dD0iQHN0cmluZy9sb2dfdHlwZV9hcHAiIC8+CgogICAgICAgICAgICA8ZmFuLm1pdWl4YmFzZS53aWRnZXQuRmlsdGVyU29ydFRhYlZpZXcKICAgICAgICAgICAgICAgIGFuZHJvaWQ6aWQ9IkAraWQvbG9nX3R5cGVfeHBvc2VkIgogICAgICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfd2lkdGg9IndyYXBfY29udGVudCIKICAgICAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X2hlaWdodD0id3JhcF9jb250ZW50IgogICAgICAgICAgICAgICAgYW5kcm9pZDp0ZXh0PSJAc3RyaW5nL2xvZ190eXBlX3hwb3NlZCIgLz4KCiAgICAgICAgPC9mYW4ubWl1aXhiYXNlLndpZGdldC5GaWx0ZXJTb3J0VmlldzI+CiAgICA8L0xpbmVhckxheW91dD4KCjwvZmFuLm5lc3RlZGhlYWRlci53aWRnZXQuTmVzdGVkSGVhZGVyTGF5b3V0Pg==
+<?xml version="1.0" encoding="utf-8"?>
+<fan.nestedheader.widget.NestedHeaderLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nested_header_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:headerView="@id/search_bar"
+    app:scrollableView="@id/view_pager"
+    app:stickyView="@id/sticky_view">
+
+    <fan.viewpager.widget.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- 搜索行 -->
+    <include
+        android:id="@+id/search_bar"
+        layout="@layout/search_stub" />
+
+    <LinearLayout
+        android:id="@id/sticky_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- 日志类型切换 -->
+        <fan.miuixbase.widget.FilterSortView2
+            android:id="@+id/log_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="@dimen/miuix_theme_padding_horizontal_common">
+
+            <fan.miuixbase.widget.FilterSortTabView
+                android:id="@+id/log_type_app"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/log_type_app" />
+
+            <fan.miuixbase.widget.FilterSortTabView
+                android:id="@+id/log_type_xposed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/log_type_xposed" />
+
+        </fan.miuixbase.widget.FilterSortView2>
+    </LinearLayout>
+
+</fan.nestedheader.widget.NestedHeaderLayout>

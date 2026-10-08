@@ -1,1 +1,36 @@
-LyoNCiAqIFRoaXMgZmlsZSBpcyBwYXJ0IG9mIEh5cGVyQ2VpbGVyLg0KICoNCiAqIEh5cGVyQ2VpbGVyIGlzIGZyZWUgc29mdHdhcmU6IHlvdSBjYW4gcmVkaXN0cmlidXRlIGl0IGFuZC9vciBtb2RpZnkNCiAqIGl0IHVuZGVyIHRoZSB0ZXJtcyBvZiB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGFzDQogKiBwdWJsaXNoZWQgYnkgdGhlIEZyZWUgU29mdHdhcmUgRm91bmRhdGlvbiwgZWl0aGVyIHZlcnNpb24gMyBvZiB0aGUNCiAqIExpY2Vuc2UuDQogKg0KICogVGhpcyBwcm9ncmFtIGlzIGRpc3RyaWJ1dGVkIGluIHRoZSBob3BlIHRoYXQgaXQgd2lsbCBiZSB1c2VmdWwsDQogKiBidXQgV0lUSE9VVCBBTlkgV0FSUkFOVFk7IHdpdGhvdXQgZXZlbiB0aGUgaW1wbGllZCB3YXJyYW50eSBvZg0KICogTUVSQ0hBTlRBQklMSVRZIG9yIEZJVE5FU1MgRk9SIEEgUEFSVElDVUxBUiBQVVJQT1NFLiAgU2VlIHRoZQ0KICogR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGZvciBtb3JlIGRldGFpbHMuDQogKg0KICogWW91IHNob3VsZCBoYXZlIHJlY2VpdmVkIGEgY29weSBvZiB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlDQogKiBhbG9uZyB3aXRoIHRoaXMgcHJvZ3JhbS4gIElmIG5vdCwgc2VlIDxodHRwczovL3d3dy5nbnUub3JnL2xpY2Vuc2VzLz4uDQogKg0KICogQ29weXJpZ2h0IChDKSAyMDIzLTIwMjYgSHlwZXJDZWlsZXIgQ29udHJpYnV0aW9ucw0KICovDQoNCnBhY2thZ2Ugb3JnLmxpbmJhb2d1LnJvbWh1Yi5oYy51dGlsOw0KDQoNCg0KDQppbXBvcnQgamF2YS50aW1lLkxvY2FsRGF0ZTsNCg0KcHVibGljIGNsYXNzIFBlcnNpc3RDb25maWcgew0KICAgIHByaXZhdGUgc3RhdGljIGZpbmFsIExvY2FsRGF0ZSBsb2NhbERhdGUgPSBMb2NhbERhdGUubm93KCk7DQoNCg0KDQogICAgcHVibGljIGZpbmFsIHN0YXRpYyBib29sZWFuIGlzTmVlZEdyYXlWaWV3ID0gZmFsc2U7DQogICAgcHVibGljIGZpbmFsIHN0YXRpYyBib29sZWFuIGlzTHVuYXJOZXdZZWFyVGhlbWVWaWV3ID0gZmFsc2U7DQoNCiAgICBwdWJsaWMgZmluYWwgc3RhdGljIGJvb2xlYW4gaXNBcHJpbEZvb2xzVGhlbWVWaWV3ID0gbG9jYWxEYXRlLmdldE1vbnRoVmFsdWUoKSA9PSA0ICYmIGxvY2FsRGF0ZS5nZXREYXlPZk1vbnRoKCkgPT0gMTsNCn0NCg==
+/*
+ * This file is part of HyperCeiler.
+ *
+ * HyperCeiler is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as
+ * published by the Free Software Foundation, either version 3 of the
+ * License.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Affero General Public License for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ *
+ * Copyright (C) 2023-2026 HyperCeiler Contributions
+ */
+
+package org.linbaogu.romhub.hc.util;
+
+
+
+
+import java.time.LocalDate;
+
+public class PersistConfig {
+    private static final LocalDate localDate = LocalDate.now();
+
+
+
+    public final static boolean isNeedGrayView = false;
+    public final static boolean isLunarNewYearThemeView = false;
+
+    public final static boolean isAprilFoolsThemeView = localDate.getMonthValue() == 4 && localDate.getDayOfMonth() == 1;
+}

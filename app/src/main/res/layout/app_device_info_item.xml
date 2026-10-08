@@ -1,1 +1,38 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPExpbmVhckxheW91dCB4bWxuczphbmRyb2lkPSJodHRwOi8vc2NoZW1hcy5hbmRyb2lkLmNvbS9hcGsvcmVzL2FuZHJvaWQiCiAgICBhbmRyb2lkOmxheW91dF93aWR0aD0ibWF0Y2hfcGFyZW50IgogICAgYW5kcm9pZDpsYXlvdXRfaGVpZ2h0PSJ3cmFwX2NvbnRlbnQiCiAgICBhbmRyb2lkOmxheW91dF9ncmF2aXR5PSJjZW50ZXJfdmVydGljYWwiCiAgICBhbmRyb2lkOmJhY2tncm91bmQ9IkBhbmRyb2lkOmNvbG9yL3RyYW5zcGFyZW50IgogICAgYW5kcm9pZDpjbGlwQ2hpbGRyZW49ImZhbHNlIgogICAgYW5kcm9pZDpncmF2aXR5PSJjZW50ZXJfdmVydGljYWwiCiAgICBhbmRyb2lkOnBhZGRpbmdIb3Jpem9udGFsPSJAZGltZW4vcHJlZmVyZW5jZV9pdGVtX3BhZGRpbmciCiAgICBhbmRyb2lkOnBhZGRpbmdUb3A9IkBkaW1lbi9taXVpeF9wcmVmZXJlbmNlX2l0ZW1fcGFkZGluZ190b3AiCiAgICBhbmRyb2lkOnBhZGRpbmdCb3R0b209IkBkaW1lbi9taXVpeF9wcmVmZXJlbmNlX2l0ZW1fcGFkZGluZ19ib3R0b20iPgoKICAgIDxUZXh0VmlldwogICAgICAgIGFuZHJvaWQ6aWQ9IkAraWQvdGl0bGUiCiAgICAgICAgYW5kcm9pZDpsYXlvdXRfd2lkdGg9IndyYXBfY29udGVudCIKICAgICAgICBhbmRyb2lkOmxheW91dF9oZWlnaHQ9IndyYXBfY29udGVudCIKICAgICAgICBhbmRyb2lkOmVsbGlwc2l6ZT0iZW5kIgogICAgICAgIGFuZHJvaWQ6ZmFkaW5nRWRnZT0iaG9yaXpvbnRhbCIKICAgICAgICBhbmRyb2lkOmh5cGhlbmF0aW9uRnJlcXVlbmN5PSJmdWxsIgogICAgICAgIGFuZHJvaWQ6c2luZ2xlTGluZT0idHJ1ZSIKICAgICAgICBhbmRyb2lkOnRleHQ9IkBzdHJpbmcvZGV2aWNlX25hbWUiCiAgICAgICAgYW5kcm9pZDp0ZXh0QXBwZWFyYW5jZT0iQHN0eWxlL1RleHRBcHBlYXJhbmNlLlByZWZlcmVuY2VMaXN0IgogICAgICAgIGFuZHJvaWQ6dGV4dFNpemU9IjE3c3AiIC8+CgogICAgPFRleHRWaWV3CiAgICAgICAgYW5kcm9pZDppZD0iQGlkL3N1bW1hcnkiCiAgICAgICAgYW5kcm9pZDpsYXlvdXRfd2lkdGg9IjBkcCIKICAgICAgICBhbmRyb2lkOmxheW91dF9oZWlnaHQ9IndyYXBfY29udGVudCIKICAgICAgICBhbmRyb2lkOmVsbGlwc2l6ZT0iZW5kIgogICAgICAgIGFuZHJvaWQ6ZmFkaW5nRWRnZT0iaG9yaXpvbnRhbCIKICAgICAgICBhbmRyb2lkOnRleHRBbGlnbm1lbnQ9InRleHRFbmQiCiAgICAgICAgYW5kcm9pZDptYXhMaW5lcz0iMTAiCiAgICAgICAgYW5kcm9pZDpsYXlvdXRfd2VpZ2h0PSIxIgogICAgICAgIGFuZHJvaWQ6dGV4dEFwcGVhcmFuY2U9IkBzdHlsZS9UZXh0QXBwZWFyYW5jZS5QcmVmZXJlbmNlTGlzdC5TZWNvbmRhcnkiCiAgICAgICAgYW5kcm9pZDp0ZXh0Q29sb3I9IkBjb2xvci9hcHBfZGV2aWNlX2luZm9faXRlbV9zdW1tYXJ5X2NvbG9yIgogICAgICAgIGFuZHJvaWQ6dGV4dFNpemU9IjE0c3AiIC8+Cgo8L0xpbmVhckxheW91dD4K
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:background="@android:color/transparent"
+    android:clipChildren="false"
+    android:gravity="center_vertical"
+    android:paddingHorizontal="@dimen/preference_item_padding"
+    android:paddingTop="@dimen/miuix_preference_item_padding_top"
+    android:paddingBottom="@dimen/miuix_preference_item_padding_bottom">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:fadingEdge="horizontal"
+        android:hyphenationFrequency="full"
+        android:singleLine="true"
+        android:text="@string/device_name"
+        android:textAppearance="@style/TextAppearance.PreferenceList"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@id/summary"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:fadingEdge="horizontal"
+        android:textAlignment="textEnd"
+        android:maxLines="10"
+        android:layout_weight="1"
+        android:textAppearance="@style/TextAppearance.PreferenceList.Secondary"
+        android:textColor="@color/app_device_info_item_summary_color"
+        android:textSize="14sp" />
+
+</LinearLayout>

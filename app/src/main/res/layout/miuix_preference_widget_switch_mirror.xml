@@ -1,1 +1,9 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPGZhbi5zbGlkaW5nd2lkZ2V0LndpZGdldC5TbGlkaW5nQnV0dG9uIHhtbG5zOmFuZHJvaWQ9Imh0dHA6Ly9zY2hlbWFzLmFuZHJvaWQuY29tL2Fway9yZXMvYW5kcm9pZCIKICAgIGFuZHJvaWQ6aWQ9IkBhbmRyb2lkOmlkL3N3aXRjaF93aWRnZXQiCiAgICBhbmRyb2lkOmxheW91dF93aWR0aD0id3JhcF9jb250ZW50IgogICAgYW5kcm9pZDpsYXlvdXRfaGVpZ2h0PSJ3cmFwX2NvbnRlbnQiCiAgICBhbmRyb2lkOmxheW91dF9ncmF2aXR5PSJjZW50ZXIiCiAgICBhbmRyb2lkOmNsaWNrYWJsZT0iZmFsc2UiCiAgICBhbmRyb2lkOmZvY3VzYWJsZT0iZmFsc2UiCiAgICBhbmRyb2lkOmxheW91dERpcmVjdGlvbj0icnRsIi8+
+<?xml version="1.0" encoding="utf-8"?>
+<fan.slidingwidget.widget.SlidingButton xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/switch_widget"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:clickable="false"
+    android:focusable="false"
+    android:layoutDirection="rtl"/>

@@ -1,1 +1,43 @@
-LyoKICogVGhpcyBmaWxlIGlzIHBhcnQgb2YgSHlwZXJDZWlsZXIuCgogKiBIeXBlckNlaWxlciBpcyBmcmVlIHNvZnR3YXJlOiB5b3UgY2FuIHJlZGlzdHJpYnV0ZSBpdCBhbmQvb3IgbW9kaWZ5CiAqIGl0IHVuZGVyIHRoZSB0ZXJtcyBvZiB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGFzCiAqIHB1Ymxpc2hlZCBieSB0aGUgRnJlZSBTb2Z0d2FyZSBGb3VuZGF0aW9uLCBlaXRoZXIgdmVyc2lvbiAzIG9mIHRoZQogKiBMaWNlbnNlLgoKICogVGhpcyBwcm9ncmFtIGlzIGRpc3RyaWJ1dGVkIGluIHRoZSBob3BlIHRoYXQgaXQgd2lsbCBiZSB1c2VmdWwsCiAqIGJ1dCBXSVRIT1VUIEFOWSBXQVJSQU5UWTsgd2l0aG91dCBldmVuIHRoZSBpbXBsaWVkIHdhcnJhbnR5IG9mCiAqIE1FUkNIQU5UQUJJTElUWSBvciBGSVRORVNTIEZPUiBBIFBBUlRJQ1VMQVIgUFVSUE9TRS4gIFNlZSB0aGUKICogR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGZvciBtb3JlIGRldGFpbHMuCgogKiBZb3Ugc2hvdWxkIGhhdmUgcmVjZWl2ZWQgYSBjb3B5IG9mIHRoZSBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UKICogYWxvbmcgd2l0aCB0aGlzIHByb2dyYW0uICBJZiBub3QsIHNlZSA8aHR0cHM6Ly93d3cuZ251Lm9yZy9saWNlbnNlcy8+LgoKICogQ29weXJpZ2h0IChDKSAyMDIzLTIwMjYgSHlwZXJDZWlsZXIgQ29udHJpYnV0aW9ucwogKi8KcGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLmhjLnByb3Zpc2lvbi51dGlsczsKCmltcG9ydCBvcmcubGluYmFvZ3Uucm9taHViLmhjLnByb3Zpc2lvbi5zdGF0ZS5TdGF0ZU1hY2hpbmU7CgpwdWJsaWMgY2xhc3MgUHJvdmlzaW9uU3RhdGVIb2xkZXIgewoKICAgIHByaXZhdGUgc3RhdGljIFByb3Zpc2lvblN0YXRlSG9sZGVyIHNJbnN0YW5jZTsKICAgIHByaXZhdGUgU3RhdGVNYWNoaW5lIG1TdGF0ZU1hY2hpbmU7CgogICAgcHVibGljIHN0YXRpYyBQcm92aXNpb25TdGF0ZUhvbGRlciBnZXRJbnN0YW5jZSgpIHsKICAgICAgICBpZiAoc0luc3RhbmNlID09IG51bGwpIHsKICAgICAgICAgICAgc3luY2hyb25pemVkIChQcm92aXNpb25TdGF0ZUhvbGRlci5jbGFzcykgewogICAgICAgICAgICAgICAgaWYgKHNJbnN0YW5jZSA9PSBudWxsKSB7CiAgICAgICAgICAgICAgICAgICAgc0luc3RhbmNlID0gbmV3IFByb3Zpc2lvblN0YXRlSG9sZGVyKCk7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgcmV0dXJuIHNJbnN0YW5jZTsKICAgIH0KCiAgICBwdWJsaWMgdm9pZCBzZXRTdGF0ZU1hY2hpbmUoU3RhdGVNYWNoaW5lIHN0YXRlTWFjaGluZSkgewogICAgICAgIG1TdGF0ZU1hY2hpbmUgPSBzdGF0ZU1hY2hpbmU7CiAgICB9Cgp9Cg==
+/*
+ * This file is part of HyperCeiler.
+
+ * HyperCeiler is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as
+ * published by the Free Software Foundation, either version 3 of the
+ * License.
+
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Affero General Public License for more details.
+
+ * You should have received a copy of the GNU Affero General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+ * Copyright (C) 2023-2026 HyperCeiler Contributions
+ */
+package org.linbaogu.romhub.hc.provision.utils;
+
+import org.linbaogu.romhub.hc.provision.state.StateMachine;
+
+public class ProvisionStateHolder {
+
+    private static ProvisionStateHolder sInstance;
+    private StateMachine mStateMachine;
+
+    public static ProvisionStateHolder getInstance() {
+        if (sInstance == null) {
+            synchronized (ProvisionStateHolder.class) {
+                if (sInstance == null) {
+                    sInstance = new ProvisionStateHolder();
+                }
+            }
+        }
+        return sInstance;
+    }
+
+    public void setStateMachine(StateMachine stateMachine) {
+        mStateMachine = stateMachine;
+    }
+
+}

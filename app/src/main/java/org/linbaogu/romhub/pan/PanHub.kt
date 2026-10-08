@@ -1,1 +1,385 @@
-cGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLnBhbg0KDQppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQNCmltcG9ydCBvcmcubGluYmFvZ3Uucm9taHViLmNsb3VkLkJhaWR1Q2xvdWRBcGkNCmltcG9ydCBvcmcubGluYmFvZ3Uucm9taHViLmNsb3VkLkMxMzlDbG91ZEFwaQ0KaW1wb3J0IG9yZy5saW5iYW9ndS5yb21odWIuY2xvdWQuQ2xvdWRBcGkNCmltcG9ydCBvcmcubGluYmFvZ3Uucm9taHViLmNsb3VkLlBhbjExNUNsb3VkQXBpDQppbXBvcnQgb3JnLmxpbmJhb2d1LnJvbWh1Yi5jbG91ZC5QYW4xMjNDbG91ZEFwaQ0KaW1wb3J0IG9yZy5saW5iYW9ndS5yb21odWIuY2xvdWQuUXVhcmtDbG91ZEFwaQ0KaW1wb3J0IG9yZy5saW5iYW9ndS5yb21odWIuY2xvdWQuVUNDbG91ZEFwaQ0KaW1wb3J0IG9yZy5saW5iYW9ndS5yb21odWIuY2xvdWQuWHVubGVpQ2xvdWRBcGkNCmltcG9ydCBvcmcubGluYmFvZ3Uucm9taHViLnBhbi5tb2RlbC5Eb3dubG9hZExpbmsNCmltcG9ydCBvcmcubGluYmFvZ3Uucm9taHViLnBhbi5tb2RlbC5TaGFyZUZpbGUNCmltcG9ydCBvcmcubGluYmFvZ3Uucm9taHViLnBhbi5tb2RlbC5TaGFyZVNlc3Npb24NCmltcG9ydCBvcmcubGluYmFvZ3Uucm9taHViLnBhbi5yZXBvLkJhaWR1QWNjb3VudFJlcG9zaXRvcnkNCmltcG9ydCBvcmcubGluYmFvZ3Uucm9taHViLnBhbi5yZXBvLkJhaWR1UmVzb2x2ZVJlcG9zaXRvcnkNCmltcG9ydCBvcmcubGluYmFvZ3Uucm9taHViLnBhbi5yZXBvLkMxMzlBY2NvdW50UmVwb3NpdG9yeQ0KaW1wb3J0IG9yZy5saW5iYW9ndS5yb21odWIucGFuLnJlcG8uQzEzOVJlc29sdmVSZXBvc2l0b3J5DQppbXBvcnQgb3JnLmxpbmJhb2d1LnJvbWh1Yi5wYW4ucmVwby5QYW4xMTVBY2NvdW50UmVwb3NpdG9yeQ0KaW1wb3J0IG9yZy5saW5iYW9ndS5yb21odWIucGFuLnJlcG8uUGFuMTE1UmVzb2x2ZVJlcG9zaXRvcnkNCmltcG9ydCBvcmcubGluYmFvZ3Uucm9taHViLnBhbi5yZXBvLlBhbjEyM0FjY291bnRSZXBvc2l0b3J5DQppbXBvcnQgb3JnLmxpbmJhb2d1LnJvbWh1Yi5wYW4ucmVwby5QYW4xMjNSZXNvbHZlUmVwb3NpdG9yeQ0KaW1wb3J0IG9yZy5saW5iYW9ndS5yb21odWIucGFuLnJlcG8uUXVhcmtBY2NvdW50UmVwb3NpdG9yeQ0KaW1wb3J0IG9yZy5saW5iYW9ndS5yb21odWIucGFuLnJlcG8uUXVhcmtSZXNvbHZlUmVwb3NpdG9yeQ0KaW1wb3J0IG9yZy5saW5iYW9ndS5yb21odWIucGFuLnJlcG8uU2hhcmVSZXNvbHZlUmVwb3NpdG9yeQ0KaW1wb3J0IG9yZy5saW5iYW9ndS5yb21odWIucGFuLnJlcG8uVUNBY2NvdW50UmVwb3NpdG9yeQ0KaW1wb3J0IG9yZy5saW5iYW9ndS5yb21odWIucGFuLnJlcG8uVUNSZXNvbHZlUmVwb3NpdG9yeQ0KaW1wb3J0IG9yZy5saW5iYW9ndS5yb21odWIucGFuLnJlcG8uWHVubGVpQWNjb3VudFJlcG9zaXRvcnkNCmltcG9ydCBvcmcubGluYmFvZ3Uucm9taHViLnBhbi5yZXBvLlh1bmxlaVJlc29sdmVSZXBvc2l0b3J5DQppbXBvcnQgb3JnLmxpbmJhb2d1LnJvbWh1Yi5wYW4uc3RvcmUuQmFpZHVBY2NvdW50RGFvDQppbXBvcnQgb3JnLmxpbmJhb2d1LnJvbWh1Yi5wYW4uc3RvcmUuQzEzOUFjY291bnREYW8NCmltcG9ydCBvcmcubGluYmFvZ3Uucm9taHViLnBhbi5zdG9yZS5QYW4xMTVBY2NvdW50RGFvDQppbXBvcnQgb3JnLmxpbmJhb2d1LnJvbWh1Yi5wYW4uc3RvcmUuUGFuMTIzQWNjb3VudERhbw0KaW1wb3J0IG9yZy5saW5iYW9ndS5yb21odWIucGFuLnN0b3JlLlF1YXJrQWNjb3VudERhbw0KaW1wb3J0IG9yZy5saW5iYW9ndS5yb21odWIucGFuLnN0b3JlLlVDQWNjb3VudERhbw0KaW1wb3J0IG9yZy5saW5iYW9ndS5yb21odWIucGFuLnN0b3JlLlh1bmxlaUFjY291bnREYW8NCmltcG9ydCBqYXZhLnV0aWwuY29uY3VycmVudC5Db25jdXJyZW50SGFzaE1hcA0KDQovKioNCiAqIOe9keebmOino+aekOeahOe7n+S4gOWFpeWPo+OAgg0KICoNCiAqIOi/memHjOaYr+WUr+S4gOmcgOimgeOAjOefpemBk+aJgOaciee9keebmOOAjeeahOWcsOaWuSDigJTigJQg5LiK6Z2i6YKj5bGCIFVJIOWPquiwgyBbcmVzb2x2ZV0g5ZKMDQogKiBbcGlja0Rvd25sb2FkTGlua13vvIzkuI3nlKjlhbPlv4PmmK/lk6rlrrbnvZHnm5jjgIHopoHluKbku4DkuYggY29va2ll44CCDQogKg0KICog5Luj56CB5p2l6Ieq5LqR5p6Q77yIQ1lRYXdhL1l1bljvvIxBR1BMLTMuMO+8ie+8mmBwYW4vYCDkuIvnmoTop6PmnpDlsYLlkowgYHBhbi9yZXBvL2Ag5LiL55qEDQogKiDmtYHnqIvlsYLpg73mmK/mkKzov4fmnaXnmoTvvIzlj6rmlLnkuobljIXlkI3vvIzlubbmioogUm9vbSDmjaLmiJAgSlNPTiDlrZjlgqjvvIjop4Egc3RvcmUvQWNjb3VudFN0b3JlLmt077yJ44CCDQogKi8NCm9iamVjdCBQYW5IdWIgew0KDQogICAgLy8gLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSBBcGkg5Y2V5L6LDQogICAgLy8g6L+Z5LqbIEFwaSDpg73mmK/ml6DnirbmgIHnmoTvvIjmr4/kuKrmlrnms5Xoh6rlt7HmlLblj5Hor7fmsYLvvInvvIzmiYDku6XlhajlsYDkuIDku73lsLHlpJ/jgIINCiAgICBwcml2YXRlIHZhbCBiYWlkdUFwaSBieSBsYXp5IHsgQmFpZHVBcGkoKSB9DQogICAgcHJpdmF0ZSB2YWwgcXVhcmtBcGkgYnkgbGF6eSB7IFF1YXJrQXBpKCkgfQ0KICAgIHByaXZhdGUgdmFsIHVjQXBpIGJ5IGxhenkgeyBVQ0FwaSgpIH0NCiAgICBwcml2YXRlIHZhbCBwYW4xMTVBcGkgYnkgbGF6eSB7IFBhbjExNUFwaSgpIH0NCiAgICBwcml2YXRlIHZhbCBwYW4xMjNBcGkgYnkgbGF6eSB7IFBhbjEyM0FwaSgpIH0NCiAgICBwcml2YXRlIHZhbCBjMTM5QXBpIGJ5IGxhenkgeyBDMTM5QXBpKCkgfQ0KICAgIHByaXZhdGUgdmFsIHh1bmxlaUFwaSBieSBsYXp5IHsgWHVubGVpQXBpKCkgfQ0KDQogICAgLy8gLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSDotKblj7fku5PlupMNCiAgICBwcml2YXRlIHZhbCBjYWNoZSA9IENvbmN1cnJlbnRIYXNoTWFwPFN0cmluZywgQW55PigpDQoNCiAgICBAU3VwcHJlc3MoIlVOQ0hFQ0tFRF9DQVNUIikNCiAgICBwcml2YXRlIGZ1biA8VCA6IEFueT4gY2FjaGVkKGtleTogU3RyaW5nLCBjcmVhdGU6ICgpIC0+IFQpOiBUID0NCiAgICAgICAgY2FjaGUuZ2V0T3JQdXQoa2V5KSB7IGNyZWF0ZSgpIH0gYXMgVA0KDQogICAgZnVuIGJhaWR1QWNjb3VudChjdHg6IENvbnRleHQpOiBCYWlkdUFjY291bnRSZXBvc2l0b3J5ID0NCiAgICAgICAgY2FjaGVkKCJiYWlkdSIpIHsgQmFpZHVBY2NvdW50UmVwb3NpdG9yeShCYWlkdUFjY291bnREYW8oY3R4KSwgYmFpZHVBcGkpIH0NCg0KICAgIGZ1biBxdWFya0FjY291bnQoY3R4OiBDb250ZXh0KTogUXVhcmtBY2NvdW50UmVwb3NpdG9yeSA9DQogICAgICAgIGNhY2hlZCgicXVhcmsiKSB7IFF1YXJrQWNjb3VudFJlcG9zaXRvcnkoUXVhcmtBY2NvdW50RGFvKGN0eCksIHF1YXJrQXBpKSB9DQoNCiAgICBmdW4gdWNBY2NvdW50KGN0eDogQ29udGV4dCk6IFVDQWNjb3VudFJlcG9zaXRvcnkgPQ0KICAgICAgICBjYWNoZWQoInVjIikgeyBVQ0FjY291bnRSZXBvc2l0b3J5KFVDQWNjb3VudERhbyhjdHgpLCB1Y0FwaSkgfQ0KDQogICAgZnVuIHBhbjExNUFjY291bnQoY3R4OiBDb250ZXh0KTogUGFuMTE1QWNjb3VudFJlcG9zaXRvcnkgPQ0KICAgICAgICBjYWNoZWQoInBhbjExNSIpIHsgUGFuMTE1QWNjb3VudFJlcG9zaXRvcnkoUGFuMTE1QWNjb3VudERhbyhjdHgpLCBwYW4xMTVBcGkpIH0NCg0KICAgIGZ1biBwYW4xMjNBY2NvdW50KGN0eDogQ29udGV4dCk6IFBhbjEyM0FjY291bnRSZXBvc2l0b3J5ID0NCiAgICAgICAgY2FjaGVkKCJwYW4xMjMiKSB7IFBhbjEyM0FjY291bnRSZXBvc2l0b3J5KFBhbjEyM0FjY291bnREYW8oY3R4KSwgcGFuMTIzQXBpKSB9DQoNCiAgICBmdW4gYzEzOUFjY291bnQoY3R4OiBDb250ZXh0KTogQzEzOUFjY291bnRSZXBvc2l0b3J5ID0NCiAgICAgICAgY2FjaGVkKCJjMTM5IikgeyBDMTM5QWNjb3VudFJlcG9zaXRvcnkoQzEzOUFjY291bnREYW8oY3R4KSkgfQ0KDQogICAgLyoqIDEzOSBBcGkg5YWl5Y+j77yI6LSm5Y+35LuT5bqT6KaB55So5a6D5YGa55m75b2V5oCB5o6i6ZKI77yb5Lmf6KGM5YaF55u05Y+W56m66Ze06K+m5oOF77yJ44CCICovDQogICAgZnVuIGMxMzlBcGkoKTogQzEzOUFwaSA9IGMxMzlBcGkNCg0KICAgIGZ1biB4dW5sZWlBY2NvdW50KGN0eDogQ29udGV4dCk6IFh1bmxlaUFjY291bnRSZXBvc2l0b3J5ID0NCiAgICAgICAgY2FjaGVkKCJ4dW5sZWkiKSB7IFh1bmxlaUFjY291bnRSZXBvc2l0b3J5KFh1bmxlaUFjY291bnREYW8oY3R4KSwgeHVubGVpQXBpKSB9DQoNCiAgICAvLyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tIOino+aekOS7k+W6kw0KDQogICAgZnVuIHJlc29sdmVSZXBvKGN0eDogQ29udGV4dCwgcGxhdGZvcm06IFNoYXJlUGxhdGZvcm0pOiBTaGFyZVJlc29sdmVSZXBvc2l0b3J5PyA9IHdoZW4gKHBsYXRmb3JtKSB7DQogICAgICAgIFNoYXJlUGxhdGZvcm0uUVVBUksgLT4gUXVhcmtSZXNvbHZlUmVwb3NpdG9yeShxdWFya0FwaSkNCiAgICAgICAgU2hhcmVQbGF0Zm9ybS5VQyAtPiBVQ1Jlc29sdmVSZXBvc2l0b3J5KHVjQXBpKQ0KICAgICAgICBTaGFyZVBsYXRmb3JtLkJBSURVIC0+IEJhaWR1UmVzb2x2ZVJlcG9zaXRvcnkoYmFpZHVBcGkpDQogICAgICAgIFNoYXJlUGxhdGZvcm0uUEFOMTE1IC0+IFBhbjExNVJlc29sdmVSZXBvc2l0b3J5KHBhbjExNUFwaSkNCiAgICAgICAgU2hhcmVQbGF0Zm9ybS5QQU4xMjMgLT4gUGFuMTIzUmVzb2x2ZVJlcG9zaXRvcnkocGFuMTIzQXBpKSB7IGNyZWRlbnRpYWwoY3R4LCBTaGFyZVBsYXRmb3JtLlBBTjEyMykgfQ0KICAgICAgICBTaGFyZVBsYXRmb3JtLkMxMzkgLT4gQzEzOVJlc29sdmVSZXBvc2l0b3J5KGMxMzlBcGkpDQogICAgICAgIC8vIOKaoO+4jyDov5nph4wgYWNjb3VudFByb3ZpZGVyIOimgeeahOaYryoq6KO4IGFjY2Vzc1Rva2VuKirvvIjkuI3mmK8gY3JlZGVudGlhbCDnmoTkuInmrrXlvI/vvInigJTigJQNCiAgICAgICAgLy8gICAgZGV2aWNlSWQgLyBjYXB0Y2hhIOeUseS4i+mdouS4pOS4qiBwcm92aWRlciDljZXni6znu5njgILliIbkuqvop6PmnpDku5PlupPmmK/mjInjgIzkuInku7blpZfliIblvIDkvKDjgI3orr7orqHnmoTjgIINCiAgICAgICAgU2hhcmVQbGF0Zm9ybS5YVU5MRUkgLT4gWHVubGVpUmVzb2x2ZVJlcG9zaXRvcnkoDQogICAgICAgICAgICBhcGkgPSB4dW5sZWlBcGksDQogICAgICAgICAgICBhY2NvdW50UHJvdmlkZXIgPSB7DQogICAgICAgICAgICAgICAgcnVuQ2F0Y2hpbmcgeyB4dW5sZWlBY2NvdW50KGN0eCkuZ2V0QWNjb3VudCgpPy5hY2Nlc3NUb2tlbiB9LmdldE9yTnVsbCgpDQogICAgICAgICAgICB9LA0KICAgICAgICAgICAgZGV2aWNlSWRQcm92aWRlciA9IHsgcnVuQ2F0Y2hpbmcgeyB4dW5sZWlBY2NvdW50KGN0eCkuZ2V0QWNjb3VudCgpPy5kZXZpY2VJZCB9LmdldE9yTnVsbCgpIH0sDQogICAgICAgICAgICBjYXB0Y2hhUHJvdmlkZXIgPSB7IHJ1bkNhdGNoaW5nIHsgeHVubGVpQWNjb3VudChjdHgpLmdldEFjY291bnQoKT8uY2FwdGNoYVRva2VuIH0uZ2V0T3JOdWxsKCkgfSwNCiAgICAgICAgICAgIHJlZnJlc2hQcm92aWRlciA9IG51bGwsDQogICAgICAgICkNCiAgICAgICAgLy8gR2l0SHViIOS4jei1sOi/meWll++8muWug+ebtOaOpeeUqCBHaXRIdWJBcGkg5ou/55u06ZO+77yI6KeBIHJlc29sdmUoKe+8iQ0KICAgICAgICBTaGFyZVBsYXRmb3JtLkdJVEhVQiAtPiBudWxsDQogICAgfQ0KDQogICAgLy8gLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSDkupHnm5jmtY/op4gNCiAgICAvLyDkupHmnpDnu5kgNyDlrrblkITlhpnkuobkuIDkuKogfjY4MCDooYznmoQgQ2xvdWRWaWV3TW9kZWzvvIzov5nph4zmlLbmi6LmiJDjgIzkuIDkuKrmjqXlj6MgKyA3IOS4qumAgumFjeWZqOOAje+8jA0KICAgIC8vIOS4iumdoueahOa1j+iniCBVSSDlj6rorqQgQ2xvdWRBcGnvvIzkuI3lhbPlv4PmmK/lk6rlrrbnvZHnm5jjgIINCg0KICAgIGZ1biBjbG91ZEFwaShwbGF0Zm9ybTogU2hhcmVQbGF0Zm9ybSk6IENsb3VkQXBpPyA9IHdoZW4gKHBsYXRmb3JtKSB7DQogICAgICAgIFNoYXJlUGxhdGZvcm0uUVVBUksgLT4gUXVhcmtDbG91ZEFwaShxdWFya0FwaSkNCiAgICAgICAgU2hhcmVQbGF0Zm9ybS5VQyAtPiBVQ0Nsb3VkQXBpKHVjQXBpKQ0KICAgICAgICBTaGFyZVBsYXRmb3JtLkJBSURVIC0+IEJhaWR1Q2xvdWRBcGkoYmFpZHVBcGkpDQogICAgICAgIFNoYXJlUGxhdGZvcm0uUEFOMTE1IC0+IFBhbjExNUNsb3VkQXBpKHBhbjExNUFwaSkNCiAgICAgICAgU2hhcmVQbGF0Zm9ybS5QQU4xMjMgLT4gUGFuMTIzQ2xvdWRBcGkocGFuMTIzQXBpKQ0KICAgICAgICBTaGFyZVBsYXRmb3JtLkMxMzkgLT4gQzEzOUNsb3VkQXBpKGMxMzlBcGkpDQogICAgICAgIFNoYXJlUGxhdGZvcm0uWFVOTEVJIC0+IFh1bmxlaUNsb3VkQXBpKHh1bmxlaUFwaSkNCiAgICAgICAgU2hhcmVQbGF0Zm9ybS5HSVRIVUIgLT4gbnVsbA0KICAgIH0NCg0KICAgIC8vIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0g5Yet5o2uDQoNCiAgICAvKioNCiAgICAgKiDlj5bov5nkuKrlubPlj7DlvZPliY3lj6/nlKjnmoTlh63mja7vvIhjb29raWUg5oiWIHRva2Vu77yJ77yb5rKh55m75b2V6L+U5ZueIG51bGzjgIINCiAgICAgKg0KICAgICAqIOKaoO+4jyDov4Xpm7fmmK8qKuS4ieauteW8jyoq77yIYGFjY2Vzc1Rva2VufGRldmljZUlkfGNhcHRjaGFUb2tlbmDvvInvvIzkuI3mmK/oo7ggdG9rZW4g4oCU4oCUDQogICAgICog6KeBIFtYdW5sZWlDbG91ZEFwaV0g55qEIGBwYXJ0cygpYOOAgmRldmljZUlkIOWSjCBjYXB0Y2hhVG9rZW4gKirlv4XpobvkuIDotbfluKbkuIoqKu+8mg0KICAgICAqIOi/hembtyBwYW4g5o6l5Y+j5piv44CMQmVhcmVyIHRva2VuICsgWC1EZXZpY2UtSWQgKyBYLUNhcHRjaGEtVG9rZW7jgI3kuInku7blpZfvvIwNCiAgICAgKiDlj6rnu5kgdG9rZW4g5Lya6KKr5YikIGBpbnZhbGlkX2FyZ3VtZW50YO+8iEhUVFAgNDAw77yM55So5oi35a6e5rWL5oiq5Zu+77yJ44CCDQogICAgICog6ICM5LiUIHRva2Vu44CBZGV2aWNlSWQg5pivKirlkIzkuIDmrKHnmbvlvZXnlJ/miJAqKueahO+8jOS4jeiDveaLv+aXp+eahOmFjeaWsOeahOOAgg0KICAgICAqLw0KICAgIHN1c3BlbmQgZnVuIGNyZWRlbnRpYWwoY3R4OiBDb250ZXh0LCBwbGF0Zm9ybTogU2hhcmVQbGF0Zm9ybSk6IFN0cmluZz8gPSBydW5DYXRjaGluZyB7DQogICAgICAgIHdoZW4gKHBsYXRmb3JtKSB7DQogICAgICAgICAgICBTaGFyZVBsYXRmb3JtLlFVQVJLIC0+DQogICAgICAgICAgICAgICAgcXVhcmtBY2NvdW50KGN0eCkuZ2V0RnJlc2hDb29raWUoKT8udGFrZUlmIHsgaXQuaXNOb3RCbGFuaygpIH0NCiAgICAgICAgICAgICAgICAgICAgPzogcXVhcmtBY2NvdW50KGN0eCkuZ2V0QWNjb3VudCgpPy5jb29raWU/LnRha2VJZiB7IGl0LmlzTm90QmxhbmsoKSB9DQoNCiAgICAgICAgICAgIFNoYXJlUGxhdGZvcm0uVUMgLT4NCiAgICAgICAgICAgICAgICB1Y0FjY291bnQoY3R4KS5nZXRGcmVzaENvb2tpZSgpPy50YWtlSWYgeyBpdC5pc05vdEJsYW5rKCkgfQ0KICAgICAgICAgICAgICAgICAgICA/OiB1Y0FjY291bnQoY3R4KS5nZXRBY2NvdW50KCk/LmNvb2tpZT8udGFrZUlmIHsgaXQuaXNOb3RCbGFuaygpIH0NCg0KICAgICAgICAgICAgU2hhcmVQbGF0Zm9ybS5CQUlEVSAtPg0KICAgICAgICAgICAgICAgIGJhaWR1QWNjb3VudChjdHgpLmdldEFjY291bnQoKT8uY29va2llPy50YWtlSWYgeyBpdC5pc05vdEJsYW5rKCkgfQ0KDQogICAgICAgICAgICBTaGFyZVBsYXRmb3JtLlBBTjExNSAtPg0KICAgICAgICAgICAgICAgIHBhbjExNUFjY291bnQoY3R4KS5nZXRBY2NvdW50KCk/LmNvb2tpZT8udGFrZUlmIHsgaXQuaXNOb3RCbGFuaygpIH0NCg0KICAgICAgICAgICAgU2hhcmVQbGF0Zm9ybS5QQU4xMjMgLT4NCiAgICAgICAgICAgICAgICBwYW4xMjNBY2NvdW50KGN0eCkuZ2V0QWNjb3VudCgpPy5hY2Nlc3NUb2tlbj8udGFrZUlmIHsgaXQuaXNOb3RCbGFuaygpIH0NCg0KICAgICAgICAgICAgLy8g4pqg77iP4pqg77iPIOW/hemhu+e7mSoq5a6M5pW0IENvb2tpZSDkuLIqKu+8jOS4jeiDvee7meijuCBhdXRob3JpemF0aW9u77yBDQogICAgICAgICAgICAvLyBbQzEzOUFwaV0g55qE5q+P5Liq5pa55rOV5YaF6YOo6YO95Lya6Ieq5bex6LeR5LiA5qyhIGBleHRyYWN0QXV0aG9yaXphdGlvbihjb29raWUpYO+8jA0KICAgICAgICAgICAgLy8g5Lmf5bCx5piv5Zyo6L+Z5Liq5a2X56ym5Liy6YeM5om+IGBhdXRob3JpemF0aW9uPWAg5YmN57yA5YaN5Y+W5YC844CCDQogICAgICAgICAgICAvLyDml6nlubTov5nph4zlhpnmiJDkuoYgYGl0LmF1dGhvcml6YXRpb24uaWZCbGFuayB7IGl0LmNvb2tpZSB9YO+8iOi/lOWbniAiQmFzaWMgeHh4Iu+8ie+8jA0KICAgICAgICAgICAgLy8g5a+5552AICJCYXNpYyB4eHgiIOaJviAiYXV0aG9yaXphdGlvbj0iIOawuOi/nOaJvuS4jeWIsCDihpIg5LiA5b6L5oqbDQogICAgICAgICAgICAvLyDjgIznmbvlvZXmgIHnvLrlsJEgYXV0aG9yaXphdGlvbuOAjeihqOeOsOS4uuOAjOiDveeZu+W9leaIkOWKn+S9hui/m+S4jeWOu+S6keebmOOAjeOAgg0KICAgICAgICAgICAgLy8g5LiK5ri4IFl1blgg55qEIE1haW5TY3JlZW4ua3Q6NDY2LzQ5OSDlsLHmmK8gYHsgYzEzOVJlcG9zaXRvcnkuZ2V0QWNjb3VudCgpPy5jb29raWUgfWDjgIINCiAgICAgICAgICAgIC8vDQogICAgICAgICAgICAvLyDimqDvuI/imqDvuI8g5L2GIDEzOSDnmoTlnZHmr5TkuIrmuLjmt7HkuIDlsYLvvJrlroPnmoTmjqXlj6Plj6rorqQgYGF1dGhvcml6YXRpb249YO+8jOiAjCoq6ICB5a2Y5qGj5b6I5Y+v6IO95rKh5pyJKioNCiAgICAgICAgICAgIC8vIO+8iOaXqeW5tOeJiOacrOWtmOS4i+adpeeahOWwseaYr+S4jeWujOaVtOeahOS4gOS4su+8ieOAguebtOaOpeWOn+agt+S6pOWHuuWOuyDihpIg5b+F5oqb44CM55m75b2V5oCB57y65bCRIGF1dGhvcml6YXRpb27jgI3jgIINCiAgICAgICAgICAgIC8vIOaJgOS7pei/memHjOi/h+S4gOmBjSBlbnN1cmVBdXRob3JpemF0aW9u77ya6IO955So546w5a2Y5a2X5q61566X5Ye65p2l5bCx6KGl5LiK77yM566X5LiN5Ye65p2l5Lmf6Iez5bCRDQogICAgICAgICAgICAvLyDmioogZW50aXR5LmF1dGhvcml6YXRpb24g5ou85Zue5Y6777yI55m75b2V5pe25Y2V54us55WZ5LqG5LiA5Lu977yM5q2j5piv5Li65LqG5pWR6L+Z56eN5Zy677yJ44CCDQogICAgICAgICAgICBTaGFyZVBsYXRmb3JtLkMxMzkgLT4NCiAgICAgICAgICAgICAgICBjMTM5QWNjb3VudChjdHgpLmdldEFjY291bnQoKQ0KICAgICAgICAgICAgICAgICAgICA/LmxldCB7IEMxMzlDb25zdGFudHMuZW5zdXJlQXV0aG9yaXphdGlvbihpdC5jb29raWUsIGl0LmF1dGhvcml6YXRpb24pIH0NCiAgICAgICAgICAgICAgICAgICAgPy50YWtlSWYgeyBpdC5pc05vdEJsYW5rKCkgfQ0KDQogICAgICAgICAgICAvLyDov4Xpm7fkuI3og73lj6rnu5kgdG9rZW7vvJpwYW4g5o6l5Y+j6KaB44CMdG9rZW4gKyBkZXZpY2VJZCArIGNhcHRjaGFUb2tlbuOAjeS4ieS7tuWll++8jA0KICAgICAgICAgICAgLy8g57y6IGRldmljZUlkIC8gY2FwdGNoYVRva2VuIOS8miA0MDAgaW52YWxpZF9hcmd1bWVudOOAguaLvOaIkCBgdG9rZW58ZGV2aWNlSWR8Y2FwdGNoYWDjgIINCiAgICAgICAgICAgIFNoYXJlUGxhdGZvcm0uWFVOTEVJIC0+DQogICAgICAgICAgICAgICAgeHVubGVpQWNjb3VudChjdHgpLmdldEFjY291bnQoKQ0KICAgICAgICAgICAgICAgICAgICA/LnRha2VJZiB7IGl0LmFjY2Vzc1Rva2VuLmlzTm90QmxhbmsoKSB9DQogICAgICAgICAgICAgICAgICAgID8ubGV0IHsgIiR7aXQuYWNjZXNzVG9rZW59fCR7aXQuZGV2aWNlSWR9fCR7aXQuY2FwdGNoYVRva2VufSIgfQ0KDQogICAgICAgICAgICBTaGFyZVBsYXRmb3JtLkdJVEhVQiAtPiBudWxsDQogICAgICAgIH0NCiAgICB9LmdldE9yTnVsbCgpDQoNCiAgICBzdXNwZW5kIGZ1biBpc0xvZ2dlZEluKGN0eDogQ29udGV4dCwgcGxhdGZvcm06IFNoYXJlUGxhdGZvcm0pOiBCb29sZWFuID0NCiAgICAgICAgcGxhdGZvcm0gPT0gU2hhcmVQbGF0Zm9ybS5HSVRIVUIgfHwgIWNyZWRlbnRpYWwoY3R4LCBwbGF0Zm9ybSkuaXNOdWxsT3JCbGFuaygpDQoNCiAgICAvLyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tIOe7n+S4gOino+aekA0KDQogICAgLyoqIOino+aekOe7k+aenOOAglVJIOaMiei/meS4quWIhuaUr+WGs+WumuS4i+S4gOatpeOAgiAqLw0KICAgIHNlYWxlZCBpbnRlcmZhY2UgUGFuUmVzdWx0IHsNCiAgICAgICAgLyoqIOS4jeaYr+e9keebmOWIhuS6q+mTvuaOpe+8iOaIliBHaXRIdWLvvInvvJrlvZPmma7pgJrnm7Tpk77vvIznm7TmjqXkuKLnu5nkuIvovb3lmaggKi8NCiAgICAgICAgZGF0YSBjbGFzcyBEaXJlY3QodmFsIHVybDogU3RyaW5nKSA6IFBhblJlc3VsdA0KDQogICAgICAgIC8qKiDop6PmnpDmiJDlip/vvIzmi7/liLDmlofku7bliJfooajvvIjlkKvnm67lvZXvvInjgIIgKi8NCiAgICAgICAgZGF0YSBjbGFzcyBGaWxlcygNCiAgICAgICAgICAgIHZhbCBwbGF0Zm9ybTogU2hhcmVQbGF0Zm9ybSwNCiAgICAgICAgICAgIHZhbCBzZXNzaW9uOiBTaGFyZVNlc3Npb24sDQogICAgICAgICAgICB2YWwgZmlsZXM6IExpc3Q8U2hhcmVGaWxlPiwNCiAgICAgICAgICAgIHZhbCBjcmVkZW50aWFsOiBTdHJpbmcsDQogICAgICAgICkgOiBQYW5SZXN1bHQNCg0KICAgICAgICAvKiog6L+Z5a62572R55uY6L+Y5rKh55m75b2V44CCICovDQogICAgICAgIGRhdGEgY2xhc3MgTmVlZExvZ2luKHZhbCBwbGF0Zm9ybTogU2hhcmVQbGF0Zm9ybSkgOiBQYW5SZXN1bHQNCg0KICAgICAgICAvKiog6L+Z5Liq5YiG5Lqr6ZyA6KaB5o+Q5Y+W56CB77yI5oiW5o+Q5Y+W56CB5aGr6ZSZ5LqG77yJ4oCU4oCUIOeVjOmdouW6lOaYvuekuuaPkOWPlueggei+k+WFpeahhuOAgiAqLw0KICAgICAgICBkYXRhIGNsYXNzIE5lZWRQYXNzd29yZCh2YWwgcGxhdGZvcm06IFNoYXJlUGxhdGZvcm0sIHZhbCBoaW50OiBTdHJpbmcpIDogUGFuUmVzdWx0DQoNCiAgICAgICAgZGF0YSBjbGFzcyBGYWlsZWQodmFsIG1lc3NhZ2U6IFN0cmluZykgOiBQYW5SZXN1bHQNCiAgICB9DQoNCiAgICAvKioNCiAgICAgKiDorqTpk77mjqUg4oaSIOWGs+Wumui1sOWTquadoei3r+OAgg0KICAgICAqDQogICAgICogwrcg6K6k5LiN5Ye65piv572R55uY5YiG5Lqr6ZO+5o6lIOKGkiBbUGFuUmVzdWx0LkRpcmVjdF3vvIjmma7pgJrkuIvovb3vvIkNCiAgICAgKiDCtyDorqTlvpflh7rkvYbmsqHnmbvlvZUgICAgICDihpIgW1BhblJlc3VsdC5OZWVkTG9naW5dDQogICAgICogwrcg6K6k5b6X5Ye65LiU5bey55m75b2VICAgICAg4oaSIOW7uuS8muivnSArIOWIl+agueebruW9lSDihpIgW1BhblJlc3VsdC5GaWxlc10NCiAgICAgKi8NCiAgICBzdXNwZW5kIGZ1biByZXNvbHZlKGN0eDogQ29udGV4dCwgdGV4dDogU3RyaW5nLCBwd2Q6IFN0cmluZz8gPSBudWxsKTogUGFuUmVzdWx0IHsNCiAgICAgICAgdmFsIHRyaW1tZWQgPSB0ZXh0LnRyaW0oKQ0KICAgICAgICB2YWwgcGFyc2VkID0gU2hhcmVMaW5rUGFyc2VyLnBhcnNlKHRyaW1tZWQpDQogICAgICAgICAgICA/OiByZXR1cm4gUGFuUmVzdWx0LkRpcmVjdCh0cmltbWVkKQ0KDQogICAgICAgIGlmIChwYXJzZWQucGxhdGZvcm0gPT0gU2hhcmVQbGF0Zm9ybS5HSVRIVUIpIHsNCiAgICAgICAgICAgIC8vIEdpdEh1YiDpk77mjqXvvJpBcGkg55u05o6l6IO957uZ5Ye65Y+v5LiL6L295Zyw5Z2A77yM5LiN55So5Lya6K+dDQogICAgICAgICAgICByZXR1cm4gUGFuUmVzdWx0LkRpcmVjdCh0cmltbWVkKQ0KICAgICAgICB9DQoNCiAgICAgICAgdmFsIGNyZWQgPSBjcmVkZW50aWFsKGN0eCwgcGFyc2VkLnBsYXRmb3JtKQ0KICAgICAgICBpZiAoY3JlZC5pc051bGxPckJsYW5rKCkpIHJldHVybiBQYW5SZXN1bHQuTmVlZExvZ2luKHBhcnNlZC5wbGF0Zm9ybSkNCg0KICAgICAgICB2YWwgcmVwbyA9IHJlc29sdmVSZXBvKGN0eCwgcGFyc2VkLnBsYXRmb3JtKQ0KICAgICAgICAgICAgPzogcmV0dXJuIFBhblJlc3VsdC5GYWlsZWQoIuaaguS4jeaUr+aMgSAke3BsYXRmb3JtTmFtZShwYXJzZWQucGxhdGZvcm0pfSIpDQoNCiAgICAgICAgdmFsIGVmZmVjdGl2ZVB3ZCA9IHB3ZD8udGFrZUlmIHsgaXQuaXNOb3RCbGFuaygpIH0gPzogcGFyc2VkLnB3ZA0KICAgICAgICB2YWwgc2Vzc2lvbiA9IHJlcG8uY3JlYXRlU2Vzc2lvbih0cmltbWVkLCBlZmZlY3RpdmVQd2QsIGNyZWQpDQogICAgICAgICAgICAuZ2V0T3JFbHNlIHsgZSAtPg0KICAgICAgICAgICAgICAgIHZhbCBtc2cgPSBlLm1lc3NhZ2Uub3JFbXB0eSgpDQogICAgICAgICAgICAgICAgLy8g5o+Q5Y+W56CB6ZSZL+e8uuWkseaXtu+8jOiuqeeVjOmdouaPkOekuuihpeeggeOAgg0KICAgICAgICAgICAgICAgIC8vIOmZpOS6huS4reaWh+WFs+mUruivje+8jOi/mOimgeiupOOAjOayoeWhq+i/h+eggSArIOWIhuS6q+acrOi6q+imgeaxgueggeOAjei/meenjeaDheW9oiDigJTigJQNCiAgICAgICAgICAgICAgICAvLyDlkITlrrbov5Tlm57nmoTmlofmoYgv6ZSZ6K+v56CB5LiN57uf5LiA77yM6Z2g5a2X56ym5Liy5Yy56YWN5a655piT5ryP77yI55So5oi35Y+N6aaI77ya5bim5o+Q5Y+W56CB55qE5YiG5LqrDQogICAgICAgICAgICAgICAgLy8g5LiA6Kej5p6Q5bCx5oql5Liq55yL5LiN5oeC55qE6ZSZ77yM5qC55pys5rKh57uZ5aGr56CB55qE5Zyw5pa577yJ44CCDQogICAgICAgICAgICAgICAgdmFsIGxvb2tzTGlrZVB3ZElzc3VlID0gbXNnLmNvbnRhaW5zKCLlr4bnoIEiKSB8fCBtc2cuY29udGFpbnMoIuaPkOWPlueggSIpIHx8DQogICAgICAgICAgICAgICAgICAgIG1zZy5jb250YWlucygiNDEwMDAxMiIpIHx8IG1zZy5jb250YWlucygiNDEwMDAwOCIpIHx8DQogICAgICAgICAgICAgICAgICAgIG1zZy5jb250YWlucygicGFzc3dkIiwgaWdub3JlQ2FzZSA9IHRydWUpIHx8DQogICAgICAgICAgICAgICAgICAgIG1zZy5jb250YWlucygicGFzc3dvcmQiLCBpZ25vcmVDYXNlID0gdHJ1ZSkgfHwNCiAgICAgICAgICAgICAgICAgICAgbXNnLmNvbnRhaW5zKCJwd2QiLCBpZ25vcmVDYXNlID0gdHJ1ZSkNCiAgICAgICAgICAgICAgICBpZiAobG9va3NMaWtlUHdkSXNzdWUpIHsNCiAgICAgICAgICAgICAgICAgICAgcmV0dXJuIFBhblJlc3VsdC5OZWVkUGFzc3dvcmQocGFyc2VkLnBsYXRmb3JtLCBtc2cuaWZCbGFuayB7ICLpnIDopoHmj5Dlj5bnoIEiIH0pDQogICAgICAgICAgICAgICAgfQ0KICAgICAgICAgICAgICAgIC8vIOWIhuS6q+ayoeWhq+eggeOAgeS4lOmTvuaOpemHjOS5n+ayoeW4pueggSDihpIg5LiA5b6L5o+Q56S66KGl56CB77yM6K6p55So5oi35pyJ5py65Lya5aGrDQogICAgICAgICAgICAgICAgaWYgKGVmZmVjdGl2ZVB3ZC5pc051bGxPckJsYW5rKCkgJiYgcGFyc2VkLnB3ZC5pc051bGxPckJsYW5rKCkgJiYNCiAgICAgICAgICAgICAgICAgICAgIW1zZy5jb250YWlucygi5LiN5a2Y5ZyoIikgJiYgIW1zZy5jb250YWlucygi5aSx5pWIIikgJiYgIW1zZy5jb250YWlucygi5Y+W5raIIikNCiAgICAgICAgICAgICAgICApIHsNCiAgICAgICAgICAgICAgICAgICAgcmV0dXJuIFBhblJlc3VsdC5OZWVkUGFzc3dvcmQocGFyc2VkLnBsYXRmb3JtLCBtc2cpDQogICAgICAgICAgICAgICAgfQ0KICAgICAgICAgICAgICAgIHJldHVybiBQYW5SZXN1bHQuRmFpbGVkKG1zZy5pZkJsYW5rIHsgIuino+aekOWksei0pSIgfSkNCiAgICAgICAgICAgIH0NCg0KICAgICAgICB2YWwgZmlsZXMgPSByZXBvLmxpc3RGaWxlcyhzZXNzaW9uLCAiIiwgY3JlZCkNCiAgICAgICAgICAgIC5nZXRPckVsc2UgeyBlIC0+IHJldHVybiBQYW5SZXN1bHQuRmFpbGVkKGUubWVzc2FnZSA/OiAi6K+75Y+W5paH5Lu25YiX6KGo5aSx6LSlIikgfQ0KDQogICAgICAgIHJldHVybiBQYW5SZXN1bHQuRmlsZXMocGFyc2VkLnBsYXRmb3JtLCBzZXNzaW9uLCBmaWxlcywgY3JlZCkNCiAgICB9DQoNCiAgICAvKioNCiAgICAgKiDliJflh7rliIbkuqvph4zmn5DkuKrlrZDnm67lvZXnmoTmlofku7bvvIjkvpvjgIzmtY/op4jmlofku7bjgI3pobXpgJDlsYLov5vlhaXvvInjgIINCiAgICAgKg0KICAgICAqIFtkaXJGaWRdIOS8oOepuuS4suaIliAiMCIg6KGo56S65qC555uu5b2VIOKAlOKAlCDlkITlrrbku5PlupPlhoXpg6joh6rlt7HmiornqbrkuLLop4TmlbTmiJDmoLnjgIINCiAgICAgKi8NCiAgICBzdXNwZW5kIGZ1biBsaXN0U2hhcmVGaWxlcygNCiAgICAgICAgY3R4OiBDb250ZXh0LA0KICAgICAgICBwbGF0Zm9ybTogU2hhcmVQbGF0Zm9ybSwNCiAgICAgICAgc2Vzc2lvbjogU2hhcmVTZXNzaW9uLA0KICAgICAgICBkaXJGaWQ6IFN0cmluZywNCiAgICAgICAgY3JlZGVudGlhbDogU3RyaW5nLA0KICAgICk6IFJlc3VsdDxMaXN0PFNoYXJlRmlsZT4+IHsNCiAgICAgICAgdmFsIHJlcG8gPSByZXNvbHZlUmVwbyhjdHgsIHBsYXRmb3JtKQ0KICAgICAgICAgICAgPzogcmV0dXJuIFJlc3VsdC5mYWlsdXJlKElsbGVnYWxBcmd1bWVudEV4Y2VwdGlvbigi5pqC5LiN5pSv5oyBICR7cGxhdGZvcm1OYW1lKHBsYXRmb3JtKX0iKSkNCiAgICAgICAgcmV0dXJuIHJlcG8ubGlzdEZpbGVzKHNlc3Npb24sIGRpckZpZCwgY3JlZGVudGlhbCkNCiAgICB9DQoNCiAgICAvKioNCiAgICAgKiDlj5bmn5DkuKrmlofku7bnmoTkuIvovb3nm7Tpk77jgIINCiAgICAgKg0KICAgICAqIFtwcmVmZXJOb1NhdmVdIOS4uiB0cnVlIOaXtuS8mOWFiOi1sOOAjOS4jei9rOWtmOebtOaOpeS4i+OAje+8jOWksei0peWGjeWbnuiQveWIsOi9rOWtmOi3r+W+hCDigJTigJQNCiAgICAgKiDovazlrZjkvJrlnKjnlKjmiLfnvZHnm5jph4znlZnkuIvkuLTml7bmlofku7bvvIzog73kuI3kuIvlsLHkuI3kuIvjgIINCiAgICAgKi8NCiAgICBzdXNwZW5kIGZ1biBwaWNrRG93bmxvYWRMaW5rKA0KICAgICAgICBjdHg6IENvbnRleHQsDQogICAgICAgIHBsYXRmb3JtOiBTaGFyZVBsYXRmb3JtLA0KICAgICAgICBzZXNzaW9uOiBTaGFyZVNlc3Npb24sDQogICAgICAgIGZpbGU6IFNoYXJlRmlsZSwNCiAgICAgICAgY3JlZGVudGlhbDogU3RyaW5nLA0KICAgICAgICBwcmVmZXJOb1NhdmU6IEJvb2xlYW4gPSB0cnVlLA0KICAgICk6IFJlc3VsdDxEb3dubG9hZExpbms+IHsNCiAgICAgICAgdmFsIHJlcG8gPSByZXNvbHZlUmVwbyhjdHgsIHBsYXRmb3JtKQ0KICAgICAgICAgICAgPzogcmV0dXJuIFJlc3VsdC5mYWlsdXJlKElsbGVnYWxBcmd1bWVudEV4Y2VwdGlvbigi5pqC5LiN5pSv5oyBICR7cGxhdGZvcm1OYW1lKHBsYXRmb3JtKX0iKSkNCg0KICAgICAgICBpZiAocHJlZmVyTm9TYXZlKSB7DQogICAgICAgICAgICB2YWwgZGlyZWN0ID0gcmVwby5nZXRTaGFyZURvd25sb2FkTGlua1dpdGhvdXRTYXZlKHNlc3Npb24sIGZpbGUsIGNyZWRlbnRpYWwpDQogICAgICAgICAgICBpZiAoZGlyZWN0LmlzU3VjY2VzcykgcmV0dXJuIGRpcmVjdA0KICAgICAgICB9DQogICAgICAgIHJldHVybiByZXBvLmdldFNoYXJlRG93bmxvYWRMaW5rKHNlc3Npb24sIGZpbGUsIGNyZWRlbnRpYWwpDQogICAgfQ0KDQogICAgLy8gLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSDlsI/lt6XlhbcNCg0KICAgIC8qKg0KICAgICAqIOaKiuWIhuS6q+mHjOeahOaWh+S7tioq6L2s5a2Y5Yiw55So5oi36Ieq5bex55qE572R55uYKirvvIjkuI3kuIDlrprkuIvovb3vvInjgIINCiAgICAgKg0KICAgICAqIOi/meWwseaYr+S6keaekOeahOOAjOS/neWtmOWIsOe9keebmOOAje+8muW7uuS4gOS4quS4tOaXtuebruW9lSDihpIg5oqK5YiG5Lqr5paH5Lu26L2s5a2Y6L+b5Y6744CCDQogICAgICog5ZKMIFtwaWNrRG93bmxvYWRMaW5rXSDnmoTljLrliKvmmK/ov5nph4zkuI3lj5bnm7Tpk77vvIzovazlrZjlrozlsLHnu5PmnZ8g4oCU4oCUDQogICAgICog55So5oi35oOz56iN5ZCO5Zyo572R55uYIEFwcCDph4zkuIvjgIHmiJbogIXlvZLmoaPnlZnlrZjvvIzpg73nlKjov5nmnaHot6/lvoTjgIINCiAgICAgKg0KICAgICAqIEByZXR1cm4g6L2s5a2Y5Yiw55qE55uu5qCH55uu5b2VIGZpZA0KICAgICAqLw0KICAgIHN1c3BlbmQgZnVuIHNhdmVUb015RHJpdmUoDQogICAgICAgIGN0eDogQ29udGV4dCwNCiAgICAgICAgcGxhdGZvcm06IFNoYXJlUGxhdGZvcm0sDQogICAgICAgIHNlc3Npb246IFNoYXJlU2Vzc2lvbiwNCiAgICAgICAgZmlsZTogU2hhcmVGaWxlLA0KICAgICAgICBjcmVkZW50aWFsOiBTdHJpbmcsDQogICAgKTogUmVzdWx0PFN0cmluZz4gew0KICAgICAgICB2YWwgcmVwbyA9IHJlc29sdmVSZXBvKGN0eCwgcGxhdGZvcm0pDQogICAgICAgICAgICA/OiByZXR1cm4gUmVzdWx0LmZhaWx1cmUoSWxsZWdhbEFyZ3VtZW50RXhjZXB0aW9uKCLmmoLkuI3mlK/mjIEgJHtwbGF0Zm9ybU5hbWUocGxhdGZvcm0pfSIpKQ0KDQogICAgICAgIHZhbCBkaXIgPSByZXBvLmVuc3VyZVRlbXBEaXIoY3JlZGVudGlhbCkuZ2V0T3JFbHNlIHsgZSAtPg0KICAgICAgICAgICAgcmV0dXJuIFJlc3VsdC5mYWlsdXJlKGUpDQogICAgICAgIH0NCiAgICAgICAgcmV0dXJuIHJlcG8udHJhbnNmZXJGaWxlKHNlc3Npb24sIGZpbGUsIGRpciwgY3JlZGVudGlhbCkNCiAgICB9DQoNCiAgICAvKioNCiAgICAgKiDmibnph4/ovazlrZjvvIjlkIzkuIDmrKHkvJror53ph4znmoTlpJrkuKrmlofku7bovazov5vlkIzkuIDkuKrnm67lvZXvvIzpgb/lhY3lu7rkuIDloIbkuLTml7bnm67lvZXvvInjgIINCiAgICAgKg0KICAgICAqIEByZXR1cm4gUGFpcijnm67moIfnm67lvZUgZmlkLCDmr4/kuKrmlofku7bnmoTovazlrZjnu5PmnpwpDQogICAgICovDQogICAgc3VzcGVuZCBmdW4gc2F2ZU1hbnlUb015RHJpdmUoDQogICAgICAgIGN0eDogQ29udGV4dCwNCiAgICAgICAgcGxhdGZvcm06IFNoYXJlUGxhdGZvcm0sDQogICAgICAgIHNlc3Npb246IFNoYXJlU2Vzc2lvbiwNCiAgICAgICAgZmlsZXM6IExpc3Q8U2hhcmVGaWxlPiwNCiAgICAgICAgY3JlZGVudGlhbDogU3RyaW5nLA0KICAgICk6IFJlc3VsdDxQYWlyPFN0cmluZywgTGlzdDxSZXN1bHQ8U3RyaW5nPj4+PiB7DQogICAgICAgIHZhbCByZXBvID0gcmVzb2x2ZVJlcG8oY3R4LCBwbGF0Zm9ybSkNCiAgICAgICAgICAgID86IHJldHVybiBSZXN1bHQuZmFpbHVyZShJbGxlZ2FsQXJndW1lbnRFeGNlcHRpb24oIuaaguS4jeaUr+aMgSAke3BsYXRmb3JtTmFtZShwbGF0Zm9ybSl9IikpDQoNCiAgICAgICAgdmFsIGRpciA9IHJlcG8uZW5zdXJlVGVtcERpcihjcmVkZW50aWFsKS5nZXRPckVsc2UgeyBlIC0+DQogICAgICAgICAgICByZXR1cm4gUmVzdWx0LmZhaWx1cmUoZSkNCiAgICAgICAgfQ0KICAgICAgICB2YWwgcmVzdWx0cyA9IGZpbGVzLm1hcCB7IHJlcG8udHJhbnNmZXJGaWxlKHNlc3Npb24sIGl0LCBkaXIsIGNyZWRlbnRpYWwpIH0NCiAgICAgICAgcmV0dXJuIFJlc3VsdC5zdWNjZXNzKGRpciB0byByZXN1bHRzKQ0KICAgIH0NCg0KICAgIGZ1biBwbGF0Zm9ybU5hbWUocDogU2hhcmVQbGF0Zm9ybSk6IFN0cmluZyA9IHdoZW4gKHApIHsNCiAgICAgICAgU2hhcmVQbGF0Zm9ybS5RVUFSSyAtPiAi5aS45YWL572R55uYIg0KICAgICAgICBTaGFyZVBsYXRmb3JtLlVDIC0+ICJVQyDnvZHnm5giDQogICAgICAgIFNoYXJlUGxhdGZvcm0uQkFJRFUgLT4gIueZvuW6pue9keebmCINCiAgICAgICAgU2hhcmVQbGF0Zm9ybS5QQU4xMTUgLT4gIjExNSDnvZHnm5giDQogICAgICAgIFNoYXJlUGxhdGZvcm0uUEFOMTIzIC0+ICIxMjMg5LqR55uYIg0KICAgICAgICBTaGFyZVBsYXRmb3JtLkMxMzkgLT4gIuenu+WKqOS6keebmCINCiAgICAgICAgU2hhcmVQbGF0Zm9ybS5YVU5MRUkgLT4gIui/hembt+S6keebmCINCiAgICAgICAgU2hhcmVQbGF0Zm9ybS5HSVRIVUIgLT4gIkdpdEh1YiINCiAgICB9DQoNCiAgICAvKiog6L+Z5Liq6ZO+5o6l5piv5LiN5piv572R55uY5YiG5Lqr6ZO+5o6l77yI57uZIFVJIOaYvuekuuagh+etvueUqO+8ieOAgiAqLw0KICAgIGZ1biBwbGF0Zm9ybU9mKHRleHQ6IFN0cmluZyk6IFNoYXJlUGxhdGZvcm0/ID0gU2hhcmVMaW5rUGFyc2VyLnBhcnNlKHRleHQpPy5wbGF0Zm9ybQ0KDQogICAgLyoqDQogICAgICog5ZCE5a62572R55uY55qE5o6o6I2Q57q/56iL5pWw44CCDQogICAgICoNCiAgICAgKiDkvp3mja7vvJrnmb7luqbpo47mjqfmnIDkuKXvvIzlvIDpq5jlubblj5HlrrnmmJPooqvpmZDpgJ8gLyDliKTlrprlvILluLjvvIznu5kgNO+8mw0KICAgICAqIOWkuOWFi+OAgTExNSDlr7nlubblj5Hlrr3lrrnvvIzlj6/ku6XlkIPmu6EgOH4xNu+8m+WFtuS9meWPluaKmOS4rSA444CCDQogICAgICog5rOo5oSP5YWl5Y+C5pivKirlubPlj7DmmL7npLrlkI0qKu+8iGBwbGF0Zm9ybU5hbWVgIOeahOi/lOWbnuWAvO+8ie+8jOS4jeaYr+aemuS4vuWQjeOAgg0KICAgICAqLw0KICAgIGZ1biByZWNvbW1lbmRlZFRocmVhZHMocGxhdGZvcm1OYW1lOiBTdHJpbmcpOiBJbnQgPSB3aGVuIHsNCiAgICAgICAgcGxhdGZvcm1OYW1lLmNvbnRhaW5zKCLnmb7luqYiKSAtPiA0DQogICAgICAgIHBsYXRmb3JtTmFtZS5jb250YWlucygi5aS45YWLIikgfHwgcGxhdGZvcm1OYW1lLmNvbnRhaW5zKCIxMTUiKSAtPiA4DQogICAgICAgIGVsc2UgLT4gOA0KICAgIH0NCn0NCg==
+package org.linbaogu.romhub.pan
+
+import android.content.Context
+import org.linbaogu.romhub.cloud.BaiduCloudApi
+import org.linbaogu.romhub.cloud.C139CloudApi
+import org.linbaogu.romhub.cloud.CloudApi
+import org.linbaogu.romhub.cloud.Pan115CloudApi
+import org.linbaogu.romhub.cloud.Pan123CloudApi
+import org.linbaogu.romhub.cloud.QuarkCloudApi
+import org.linbaogu.romhub.cloud.UCCloudApi
+import org.linbaogu.romhub.cloud.XunleiCloudApi
+import org.linbaogu.romhub.pan.model.DownloadLink
+import org.linbaogu.romhub.pan.model.ShareFile
+import org.linbaogu.romhub.pan.model.ShareSession
+import org.linbaogu.romhub.pan.repo.BaiduAccountRepository
+import org.linbaogu.romhub.pan.repo.BaiduResolveRepository
+import org.linbaogu.romhub.pan.repo.C139AccountRepository
+import org.linbaogu.romhub.pan.repo.C139ResolveRepository
+import org.linbaogu.romhub.pan.repo.Pan115AccountRepository
+import org.linbaogu.romhub.pan.repo.Pan115ResolveRepository
+import org.linbaogu.romhub.pan.repo.Pan123AccountRepository
+import org.linbaogu.romhub.pan.repo.Pan123ResolveRepository
+import org.linbaogu.romhub.pan.repo.QuarkAccountRepository
+import org.linbaogu.romhub.pan.repo.QuarkResolveRepository
+import org.linbaogu.romhub.pan.repo.ShareResolveRepository
+import org.linbaogu.romhub.pan.repo.UCAccountRepository
+import org.linbaogu.romhub.pan.repo.UCResolveRepository
+import org.linbaogu.romhub.pan.repo.XunleiAccountRepository
+import org.linbaogu.romhub.pan.repo.XunleiResolveRepository
+import org.linbaogu.romhub.pan.store.BaiduAccountDao
+import org.linbaogu.romhub.pan.store.C139AccountDao
+import org.linbaogu.romhub.pan.store.Pan115AccountDao
+import org.linbaogu.romhub.pan.store.Pan123AccountDao
+import org.linbaogu.romhub.pan.store.QuarkAccountDao
+import org.linbaogu.romhub.pan.store.UCAccountDao
+import org.linbaogu.romhub.pan.store.XunleiAccountDao
+import java.util.concurrent.ConcurrentHashMap
+
+/**
+ * 网盘解析的统一入口。
+ *
+ * 这里是唯一需要「知道所有网盘」的地方 —— 上面那层 UI 只调 [resolve] 和
+ * [pickDownloadLink]，不用关心是哪家网盘、要带什么 cookie。
+ *
+ * 代码来自云析（CYQawa/YunX，AGPL-3.0）：`pan/` 下的解析层和 `pan/repo/` 下的
+ * 流程层都是搬过来的，只改了包名，并把 Room 换成 JSON 存储（见 store/AccountStore.kt）。
+ */
+object PanHub {
+
+    // ---------------------------------------------------------------- Api 单例
+    // 这些 Api 都是无状态的（每个方法自己收发请求），所以全局一份就够。
+    private val baiduApi by lazy { BaiduApi() }
+    private val quarkApi by lazy { QuarkApi() }
+    private val ucApi by lazy { UCApi() }
+    private val pan115Api by lazy { Pan115Api() }
+    private val pan123Api by lazy { Pan123Api() }
+    private val c139Api by lazy { C139Api() }
+    private val xunleiApi by lazy { XunleiApi() }
+
+    // ---------------------------------------------------------------- 账号仓库
+    private val cache = ConcurrentHashMap<String, Any>()
+
+    @Suppress("UNCHECKED_CAST")
+    private fun <T : Any> cached(key: String, create: () -> T): T =
+        cache.getOrPut(key) { create() } as T
+
+    fun baiduAccount(ctx: Context): BaiduAccountRepository =
+        cached("baidu") { BaiduAccountRepository(BaiduAccountDao(ctx), baiduApi) }
+
+    fun quarkAccount(ctx: Context): QuarkAccountRepository =
+        cached("quark") { QuarkAccountRepository(QuarkAccountDao(ctx), quarkApi) }
+
+    fun ucAccount(ctx: Context): UCAccountRepository =
+        cached("uc") { UCAccountRepository(UCAccountDao(ctx), ucApi) }
+
+    fun pan115Account(ctx: Context): Pan115AccountRepository =
+        cached("pan115") { Pan115AccountRepository(Pan115AccountDao(ctx), pan115Api) }
+
+    fun pan123Account(ctx: Context): Pan123AccountRepository =
+        cached("pan123") { Pan123AccountRepository(Pan123AccountDao(ctx), pan123Api) }
+
+    fun c139Account(ctx: Context): C139AccountRepository =
+        cached("c139") { C139AccountRepository(C139AccountDao(ctx)) }
+
+    /** 139 Api 入口（账号仓库要用它做登录态探针；也行内直取空间详情）。 */
+    fun c139Api(): C139Api = c139Api
+
+    fun xunleiAccount(ctx: Context): XunleiAccountRepository =
+        cached("xunlei") { XunleiAccountRepository(XunleiAccountDao(ctx), xunleiApi) }
+
+    // ---------------------------------------------------------------- 解析仓库
+
+    fun resolveRepo(ctx: Context, platform: SharePlatform): ShareResolveRepository? = when (platform) {
+        SharePlatform.QUARK -> QuarkResolveRepository(quarkApi)
+        SharePlatform.UC -> UCResolveRepository(ucApi)
+        SharePlatform.BAIDU -> BaiduResolveRepository(baiduApi)
+        SharePlatform.PAN115 -> Pan115ResolveRepository(pan115Api)
+        SharePlatform.PAN123 -> Pan123ResolveRepository(pan123Api) { credential(ctx, SharePlatform.PAN123) }
+        SharePlatform.C139 -> C139ResolveRepository(c139Api)
+        // ⚠️ 这里 accountProvider 要的是**裸 accessToken**（不是 credential 的三段式）——
+        //    deviceId / captcha 由下面两个 provider 单独给。分享解析仓库是按「三件套分开传」设计的。
+        SharePlatform.XUNLEI -> XunleiResolveRepository(
+            api = xunleiApi,
+            accountProvider = {
+                runCatching { xunleiAccount(ctx).getAccount()?.accessToken }.getOrNull()
+            },
+            deviceIdProvider = { runCatching { xunleiAccount(ctx).getAccount()?.deviceId }.getOrNull() },
+            captchaProvider = { runCatching { xunleiAccount(ctx).getAccount()?.captchaToken }.getOrNull() },
+            refreshProvider = null,
+        )
+        // GitHub 不走这套：它直接用 GitHubApi 拿直链（见 resolve()）
+        SharePlatform.GITHUB -> null
+    }
+
+    // ---------------------------------------------------------------- 云盘浏览
+    // 云析给 7 家各写了一个 ~680 行的 CloudViewModel，这里收拢成「一个接口 + 7 个适配器」，
+    // 上面的浏览 UI 只认 CloudApi，不关心是哪家网盘。
+
+    fun cloudApi(platform: SharePlatform): CloudApi? = when (platform) {
+        SharePlatform.QUARK -> QuarkCloudApi(quarkApi)
+        SharePlatform.UC -> UCCloudApi(ucApi)
+        SharePlatform.BAIDU -> BaiduCloudApi(baiduApi)
+        SharePlatform.PAN115 -> Pan115CloudApi(pan115Api)
+        SharePlatform.PAN123 -> Pan123CloudApi(pan123Api)
+        SharePlatform.C139 -> C139CloudApi(c139Api)
+        SharePlatform.XUNLEI -> XunleiCloudApi(xunleiApi)
+        SharePlatform.GITHUB -> null
+    }
+
+    // ---------------------------------------------------------------- 凭据
+
+    /**
+     * 取这个平台当前可用的凭据（cookie 或 token）；没登录返回 null。
+     *
+     * ⚠️ 迅雷是**三段式**（`accessToken|deviceId|captchaToken`），不是裸 token ——
+     * 见 [XunleiCloudApi] 的 `parts()`。deviceId 和 captchaToken **必须一起带上**：
+     * 迅雷 pan 接口是「Bearer token + X-Device-Id + X-Captcha-Token」三件套，
+     * 只给 token 会被判 `invalid_argument`（HTTP 400，用户实测截图）。
+     * 而且 token、deviceId 是**同一次登录生成**的，不能拿旧的配新的。
+     */
+    suspend fun credential(ctx: Context, platform: SharePlatform): String? = runCatching {
+        when (platform) {
+            SharePlatform.QUARK ->
+                quarkAccount(ctx).getFreshCookie()?.takeIf { it.isNotBlank() }
+                    ?: quarkAccount(ctx).getAccount()?.cookie?.takeIf { it.isNotBlank() }
+
+            SharePlatform.UC ->
+                ucAccount(ctx).getFreshCookie()?.takeIf { it.isNotBlank() }
+                    ?: ucAccount(ctx).getAccount()?.cookie?.takeIf { it.isNotBlank() }
+
+            SharePlatform.BAIDU ->
+                baiduAccount(ctx).getAccount()?.cookie?.takeIf { it.isNotBlank() }
+
+            SharePlatform.PAN115 ->
+                pan115Account(ctx).getAccount()?.cookie?.takeIf { it.isNotBlank() }
+
+            SharePlatform.PAN123 ->
+                pan123Account(ctx).getAccount()?.accessToken?.takeIf { it.isNotBlank() }
+
+            // ⚠️⚠️ 必须给**完整 Cookie 串**，不能给裸 authorization！
+            // [C139Api] 的每个方法内部都会自己跑一次 `extractAuthorization(cookie)`，
+            // 也就是在这个字符串里找 `authorization=` 前缀再取值。
+            // 早年这里写成了 `it.authorization.ifBlank { it.cookie }`（返回 "Basic xxx"），
+            // 对着 "Basic xxx" 找 "authorization=" 永远找不到 → 一律抛
+            // 「登录态缺少 authorization」表现为「能登录成功但进不去云盘」。
+            // 上游 YunX 的 MainScreen.kt:466/499 就是 `{ c139Repository.getAccount()?.cookie }`。
+            //
+            // ⚠️⚠️ 但 139 的坑比上游深一层：它的接口只认 `authorization=`，而**老存档很可能没有**
+            // （早年版本存下来的就是不完整的一串）。直接原样交出去 → 必抛「登录态缺少 authorization」。
+            // 所以这里过一遍 ensureAuthorization：能用现存字段算出来就补上，算不出来也至少
+            // 把 entity.authorization 拼回去（登录时单独留了一份，正是为了救这种场）。
+            SharePlatform.C139 ->
+                c139Account(ctx).getAccount()
+                    ?.let { C139Constants.ensureAuthorization(it.cookie, it.authorization) }
+                    ?.takeIf { it.isNotBlank() }
+
+            // 迅雷不能只给 token：pan 接口要「token + deviceId + captchaToken」三件套，
+            // 缺 deviceId / captchaToken 会 400 invalid_argument。拼成 `token|deviceId|captcha`。
+            SharePlatform.XUNLEI ->
+                xunleiAccount(ctx).getAccount()
+                    ?.takeIf { it.accessToken.isNotBlank() }
+                    ?.let { "${it.accessToken}|${it.deviceId}|${it.captchaToken}" }
+
+            SharePlatform.GITHUB -> null
+        }
+    }.getOrNull()
+
+    suspend fun isLoggedIn(ctx: Context, platform: SharePlatform): Boolean =
+        platform == SharePlatform.GITHUB || !credential(ctx, platform).isNullOrBlank()
+
+    // ---------------------------------------------------------------- 统一解析
+
+    /** 解析结果。UI 按这个分支决定下一步。 */
+    sealed interface PanResult {
+        /** 不是网盘分享链接（或 GitHub）：当普通直链，直接丢给下载器 */
+        data class Direct(val url: String) : PanResult
+
+        /** 解析成功，拿到文件列表（含目录）。 */
+        data class Files(
+            val platform: SharePlatform,
+            val session: ShareSession,
+            val files: List<ShareFile>,
+            val credential: String,
+        ) : PanResult
+
+        /** 这家网盘还没登录。 */
+        data class NeedLogin(val platform: SharePlatform) : PanResult
+
+        /** 这个分享需要提取码（或提取码填错了）—— 界面应显示提取码输入框。 */
+        data class NeedPassword(val platform: SharePlatform, val hint: String) : PanResult
+
+        data class Failed(val message: String) : PanResult
+    }
+
+    /**
+     * 认链接 → 决定走哪条路。
+     *
+     * · 认不出是网盘分享链接 → [PanResult.Direct]（普通下载）
+     * · 认得出但没登录      → [PanResult.NeedLogin]
+     * · 认得出且已登录      → 建会话 + 列根目录 → [PanResult.Files]
+     */
+    suspend fun resolve(ctx: Context, text: String, pwd: String? = null): PanResult {
+        val trimmed = text.trim()
+        val parsed = ShareLinkParser.parse(trimmed)
+            ?: return PanResult.Direct(trimmed)
+
+        if (parsed.platform == SharePlatform.GITHUB) {
+            // GitHub 链接：Api 直接能给出可下载地址，不用会话
+            return PanResult.Direct(trimmed)
+        }
+
+        val cred = credential(ctx, parsed.platform)
+        if (cred.isNullOrBlank()) return PanResult.NeedLogin(parsed.platform)
+
+        val repo = resolveRepo(ctx, parsed.platform)
+            ?: return PanResult.Failed("暂不支持 ${platformName(parsed.platform)}")
+
+        val effectivePwd = pwd?.takeIf { it.isNotBlank() } ?: parsed.pwd
+        val session = repo.createSession(trimmed, effectivePwd, cred)
+            .getOrElse { e ->
+                val msg = e.message.orEmpty()
+                // 提取码错/缺失时，让界面提示补码。
+                // 除了中文关键词，还要认「没填过码 + 分享本身要求码」这种情形 ——
+                // 各家返回的文案/错误码不统一，靠字符串匹配容易漏（用户反馈：带提取码的分享
+                // 一解析就报个看不懂的错，根本没给填码的地方）。
+                val looksLikePwdIssue = msg.contains("密码") || msg.contains("提取码") ||
+                    msg.contains("4100012") || msg.contains("4100008") ||
+                    msg.contains("passwd", ignoreCase = true) ||
+                    msg.contains("password", ignoreCase = true) ||
+                    msg.contains("pwd", ignoreCase = true)
+                if (looksLikePwdIssue) {
+                    return PanResult.NeedPassword(parsed.platform, msg.ifBlank { "需要提取码" })
+                }
+                // 分享没填码、且链接里也没带码 → 一律提示补码，让用户有机会填
+                if (effectivePwd.isNullOrBlank() && parsed.pwd.isNullOrBlank() &&
+                    !msg.contains("不存在") && !msg.contains("失效") && !msg.contains("取消")
+                ) {
+                    return PanResult.NeedPassword(parsed.platform, msg)
+                }
+                return PanResult.Failed(msg.ifBlank { "解析失败" })
+            }
+
+        val files = repo.listFiles(session, "", cred)
+            .getOrElse { e -> return PanResult.Failed(e.message ?: "读取文件列表失败") }
+
+        return PanResult.Files(parsed.platform, session, files, cred)
+    }
+
+    /**
+     * 列出分享里某个子目录的文件（供「浏览文件」页逐层进入）。
+     *
+     * [dirFid] 传空串或 "0" 表示根目录 —— 各家仓库内部自己把空串规整成根。
+     */
+    suspend fun listShareFiles(
+        ctx: Context,
+        platform: SharePlatform,
+        session: ShareSession,
+        dirFid: String,
+        credential: String,
+    ): Result<List<ShareFile>> {
+        val repo = resolveRepo(ctx, platform)
+            ?: return Result.failure(IllegalArgumentException("暂不支持 ${platformName(platform)}"))
+        return repo.listFiles(session, dirFid, credential)
+    }
+
+    /**
+     * 取某个文件的下载直链。
+     *
+     * [preferNoSave] 为 true 时优先走「不转存直接下」，失败再回落到转存路径 ——
+     * 转存会在用户网盘里留下临时文件，能不下就不下。
+     */
+    suspend fun pickDownloadLink(
+        ctx: Context,
+        platform: SharePlatform,
+        session: ShareSession,
+        file: ShareFile,
+        credential: String,
+        preferNoSave: Boolean = true,
+    ): Result<DownloadLink> {
+        val repo = resolveRepo(ctx, platform)
+            ?: return Result.failure(IllegalArgumentException("暂不支持 ${platformName(platform)}"))
+
+        if (preferNoSave) {
+            val direct = repo.getShareDownloadLinkWithoutSave(session, file, credential)
+            if (direct.isSuccess) return direct
+        }
+        return repo.getShareDownloadLink(session, file, credential)
+    }
+
+    // ---------------------------------------------------------------- 小工具
+
+    /**
+     * 把分享里的文件**转存到用户自己的网盘**（不一定下载）。
+     *
+     * 这就是云析的「保存到网盘」：建一个临时目录 → 把分享文件转存进去。
+     * 和 [pickDownloadLink] 的区别是这里不取直链，转存完就结束 ——
+     * 用户想稍后在网盘 App 里下、或者归档留存，都用这条路径。
+     *
+     * @return 转存到的目标目录 fid
+     */
+    suspend fun saveToMyDrive(
+        ctx: Context,
+        platform: SharePlatform,
+        session: ShareSession,
+        file: ShareFile,
+        credential: String,
+    ): Result<String> {
+        val repo = resolveRepo(ctx, platform)
+            ?: return Result.failure(IllegalArgumentException("暂不支持 ${platformName(platform)}"))
+
+        val dir = repo.ensureTempDir(credential).getOrElse { e ->
+            return Result.failure(e)
+        }
+        return repo.transferFile(session, file, dir, credential)
+    }
+
+    /**
+     * 批量转存（同一次会话里的多个文件转进同一个目录，避免建一堆临时目录）。
+     *
+     * @return Pair(目标目录 fid, 每个文件的转存结果)
+     */
+    suspend fun saveManyToMyDrive(
+        ctx: Context,
+        platform: SharePlatform,
+        session: ShareSession,
+        files: List<ShareFile>,
+        credential: String,
+    ): Result<Pair<String, List<Result<String>>>> {
+        val repo = resolveRepo(ctx, platform)
+            ?: return Result.failure(IllegalArgumentException("暂不支持 ${platformName(platform)}"))
+
+        val dir = repo.ensureTempDir(credential).getOrElse { e ->
+            return Result.failure(e)
+        }
+        val results = files.map { repo.transferFile(session, it, dir, credential) }
+        return Result.success(dir to results)
+    }
+
+    fun platformName(p: SharePlatform): String = when (p) {
+        SharePlatform.QUARK -> "夸克网盘"
+        SharePlatform.UC -> "UC 网盘"
+        SharePlatform.BAIDU -> "百度网盘"
+        SharePlatform.PAN115 -> "115 网盘"
+        SharePlatform.PAN123 -> "123 云盘"
+        SharePlatform.C139 -> "移动云盘"
+        SharePlatform.XUNLEI -> "迅雷云盘"
+        SharePlatform.GITHUB -> "GitHub"
+    }
+
+    /** 这个链接是不是网盘分享链接（给 UI 显示标签用）。 */
+    fun platformOf(text: String): SharePlatform? = ShareLinkParser.parse(text)?.platform
+
+    /**
+     * 各家网盘的推荐线程数。
+     *
+     * 依据：百度风控最严，开高并发容易被限速 / 判定异常，给 4；
+     * 夸克、115 对并发宽容，可以吃满 8~16；其余取折中 8。
+     * 注意入参是**平台显示名**（`platformName` 的返回值），不是枚举名。
+     */
+    fun recommendedThreads(platformName: String): Int = when {
+        platformName.contains("百度") -> 4
+        platformName.contains("夸克") || platformName.contains("115") -> 8
+        else -> 8
+    }
+}

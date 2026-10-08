@@ -1,1 +1,113 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IS0tCiAgfiBUaGlzIGZpbGUgaXMgcGFydCBvZiBIeXBlckNlaWxlci4KICB+CiAgfiBIeXBlckNlaWxlciBpcyBmcmVlIHNvZnR3YXJlOiB5b3UgY2FuIHJlZGlzdHJpYnV0ZSBpdCBhbmQvb3IgbW9kaWZ5CiAgfiBpdCB1bmRlciB0aGUgdGVybXMgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBhcwogIH4gcHVibGlzaGVkIGJ5IHRoZSBGcmVlIFNvZnR3YXJlIEZvdW5kYXRpb24sIGVpdGhlciB2ZXJzaW9uIDMgb2YgdGhlCiAgfiBMaWNlbnNlLgogIH4KICB+IFRoaXMgcHJvZ3JhbSBpcyBkaXN0cmlidXRlZCBpbiB0aGUgaG9wZSB0aGF0IGl0IHdpbGwgYmUgdXNlZnVsLAogIH4gYnV0IFdJVEhPVVQgQU5ZIFdBUlJBTlRZOyB3aXRob3V0IGV2ZW4gdGhlIGltcGxpZWQgd2FycmFudHkgb2YKICB+IE1FUkNIQU5UQUJJTElUWSBvciBGSVRORVNTIEZPUiBBIFBBUlRJQ1VMQVIgUFVSUE9TRS4gIFNlZSB0aGUKICB+IEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBmb3IgbW9yZSBkZXRhaWxzLgogIH4KICB+IFlvdSBzaG91bGQgaGF2ZSByZWNlaXZlZCBhIGNvcHkgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZQogIH4gYWxvbmcgd2l0aCB0aGlzIHByb2dyYW0uICBJZiBub3QsIHNlZSA8aHR0cHM6Ly93d3cuZ251Lm9yZy9saWNlbnNlcy8+LgogIH4KICB+IENvcHlyaWdodCAoQykgMjAyMy0yMDI2IEh5cGVyQ2VpbGVyIENvbnRyaWJ1dGlvbnMKICAtLT4KPFByZWZlcmVuY2VTY3JlZW4geG1sbnM6YW5kcm9pZD0iaHR0cDovL3NjaGVtYXMuYW5kcm9pZC5jb20vYXBrL3Jlcy9hbmRyb2lkIgogICAgeG1sbnM6YXBwPSJodHRwOi8vc2NoZW1hcy5hbmRyb2lkLmNvbS9hcGsvcmVzLWF1dG8iCiAgICBhcHA6bXlMb2NhdGlvbj0iQHN0cmluZy9zeXN0ZW1fdWlfc3RhdHVzX2Jhcl9iYXR0ZXJ5X3N0eWxlX3RpdGxlIgogICAgYXBwOnF1aWNrX3Jlc3RhcnQ9ImNvbS5hbmRyb2lkLnN5c3RlbXVpIj4KICAgIDxQcmVmZXJlbmNlQ2F0ZWdvcnk+CiAgICAgICAgPFN3aXRjaFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpkZWZhdWx0VmFsdWU9ImZhbHNlIgogICAgICAgICAgICBhbmRyb2lkOmtleT0icHJlZnNfa2V5X3N5c3RlbV91aV9zdGF0dXNfYmFyX2JhdHRlcnlfc3R5bGVfY2hhbmdlX2xvY2F0aW9uIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJAc3RyaW5nL3N5c3RlbV91aV9zdGF0dXNfYmFyX2JhdHRlcnlfc3R5bGVfY2hhbmdlX2xvY2F0aW9uX3RpdGxlIiAvPgoKICAgICAgICA8U3dpdGNoUHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOmRlZmF1bHRWYWx1ZT0iZmFsc2UiCiAgICAgICAgICAgIGFuZHJvaWQ6a2V5PSJwcmVmc19rZXlfc3lzdGVtX3VpX3N0YXR1c19iYXJfYmF0dGVyeV9zdHlsZV9lbmFibGVfY3VzdG9tIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJAc3RyaW5nL3N5c3RlbV91aV9zdGF0dXNiYXJfbmV0d29ya19zcGVlZF9hbGxfc3RhdHVzIiAvPgogICAgPC9QcmVmZXJlbmNlQ2F0ZWdvcnk+CgogICAgPFByZWZlcmVuY2VDYXRlZ29yeQogICAgICAgIGFuZHJvaWQ6ZGVwZW5kZW5jeT0icHJlZnNfa2V5X3N5c3RlbV91aV9zdGF0dXNfYmFyX2JhdHRlcnlfc3R5bGVfZW5hYmxlX2N1c3RvbSIKICAgICAgICBhbmRyb2lkOnRpdGxlPSJAc3RyaW5nL3N5c3RlbV91aV9zdGF0dXNiYXJfaW5kaWNhdG9yX2V4cGFuZF90aXRsZSIgPgogICAgICAgIDxTd2l0Y2hQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6ZGVmYXVsdFZhbHVlPSJmYWxzZSIKICAgICAgICAgICAgYW5kcm9pZDprZXk9InByZWZzX2tleV9zeXN0ZW1fdWlfc3RhdHVzX2Jhcl9iYXR0ZXJ5X3N0eWxlX2JvbGQiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvc3lzdGVtX3VpX3N0YXR1c2Jhcl9pbmRpY2F0b3JfYm9sZCIgLz4KCiAgICAgICAgPFNlZWtCYXJQcmVmZXJlbmNlQ29tcGF0CiAgICAgICAgICAgIGFwcDpkZWZhdWx0VmFsdWU9IjE1IgogICAgICAgICAgICBhbmRyb2lkOmtleT0icHJlZnNfa2V5X3N5c3RlbV91aV9zdGF0dXNfYmFyX2JhdHRlcnlfc3R5bGVfZm9udF9zaXplIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJAc3RyaW5nL3N5c3RlbV91aV9zdGF0dXNfYmFyX2JhdHRlcnlfc3R5bGVfZm9udF9zaXplIgogICAgICAgICAgICBhcHA6ZGVmYXVsdFZhbHVlVGl0bGU9IkBzdHJpbmcvYXJyYXlfZGVmYXVsdCIKICAgICAgICAgICAgYXBwOmRpdmlkZXJWYWx1ZT0iMiIKICAgICAgICAgICAgYXBwOmZvcm1hdD0iJS4xZiBkcCIKICAgICAgICAgICAgYXBwOm1heFZhbHVlPSI0MCIKICAgICAgICAgICAgYXBwOm1pblZhbHVlPSIxNSIKICAgICAgICAgICAgYXBwOnN0ZXBWYWx1ZT0iMSIgLz4KCiAgICAgICAgPFNlZWtCYXJQcmVmZXJlbmNlQ29tcGF0CiAgICAgICAgICAgIGFwcDpkZWZhdWx0VmFsdWU9IjE1IgogICAgICAgICAgICBhbmRyb2lkOmtleT0icHJlZnNfa2V5X3N5c3RlbV91aV9zdGF0dXNfYmFyX2JhdHRlcnlfc3R5bGVfZm9udF9tYXJrX3NpemUiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvc3lzdGVtX3VpX3N0YXR1c19iYXJfYmF0dGVyeV9zdHlsZV9mb250X21hcmtfc2l6ZSIKICAgICAgICAgICAgYXBwOmRlZmF1bHRWYWx1ZVRpdGxlPSJAc3RyaW5nL2FycmF5X2RlZmF1bHQiCiAgICAgICAgICAgIGFwcDpkaXZpZGVyVmFsdWU9IjIiCiAgICAgICAgICAgIGFwcDpmb3JtYXQ9IiUuMWYgZHAiCiAgICAgICAgICAgIGFwcDptYXhWYWx1ZT0iNDAiCiAgICAgICAgICAgIGFwcDptaW5WYWx1ZT0iMTUiCiAgICAgICAgICAgIGFwcDpzdGVwVmFsdWU9IjEiIC8+CgogICAgICAgIDxTZWVrQmFyUHJlZmVyZW5jZUNvbXBhdAogICAgICAgICAgICBhcHA6ZGVmYXVsdFZhbHVlPSIwIgogICAgICAgICAgICBhbmRyb2lkOmtleT0icHJlZnNfa2V5X3N5c3RlbV91aV9zdGF0dXNfYmFyX2JhdHRlcnlfc3R5bGVfbGVmdF9tYXJnaW4iCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvbGVmdF9tYXJnaW4iCiAgICAgICAgICAgIGFwcDpkZWZhdWx0VmFsdWVUaXRsZT0iQHN0cmluZy9hcnJheV9kZWZhdWx0IgogICAgICAgICAgICBhcHA6ZGl2aWRlclZhbHVlPSIyIgogICAgICAgICAgICBhcHA6Zm9ybWF0PSIlLjFmIGRwIgogICAgICAgICAgICBhcHA6bWF4VmFsdWU9IjEwIgogICAgICAgICAgICBhcHA6bWluVmFsdWU9IjAiCiAgICAgICAgICAgIGFwcDpzdGVwVmFsdWU9IjEiIC8+CgogICAgICAgIDxTZWVrQmFyUHJlZmVyZW5jZUNvbXBhdAogICAgICAgICAgICBhcHA6ZGVmYXVsdFZhbHVlPSIwIgogICAgICAgICAgICBhbmRyb2lkOmtleT0icHJlZnNfa2V5X3N5c3RlbV91aV9zdGF0dXNfYmFyX2JhdHRlcnlfc3R5bGVfcmlnaHRfbWFyZ2luIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJAc3RyaW5nL3JpZ2h0X21hcmdpbiIKICAgICAgICAgICAgYXBwOmRlZmF1bHRWYWx1ZVRpdGxlPSJAc3RyaW5nL2FycmF5X2RlZmF1bHQiCiAgICAgICAgICAgIGFwcDpkaXZpZGVyVmFsdWU9IjIiCiAgICAgICAgICAgIGFwcDpmb3JtYXQ9IiUuMWYgZHAiCiAgICAgICAgICAgIGFwcDptYXhWYWx1ZT0iMTAiCiAgICAgICAgICAgIGFwcDptaW5WYWx1ZT0iMCIKICAgICAgICAgICAgYXBwOnN0ZXBWYWx1ZT0iMSIgLz4KCiAgICAgICAgPFNlZWtCYXJQcmVmZXJlbmNlQ29tcGF0CiAgICAgICAgICAgIGFwcDpkZWZhdWx0VmFsdWU9IjEyIgogICAgICAgICAgICBhbmRyb2lkOmtleT0icHJlZnNfa2V5X3N5c3RlbV91aV9zdGF0dXNfYmFyX2JhdHRlcnlfc3R5bGVfdmVydGljYWxfb2Zmc2V0IgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJAc3RyaW5nL3ZlcnRpY2FsX29mZnNldCIKICAgICAgICAgICAgYXBwOmRlZmF1bHRWYWx1ZVRpdGxlPSJAc3RyaW5nL2FycmF5X2RlZmF1bHQiCiAgICAgICAgICAgIGFwcDpkaXZpZGVyVmFsdWU9IjIiCiAgICAgICAgICAgIGFwcDpmb3JtYXQ9IiUuMWYgZHAiCiAgICAgICAgICAgIGFwcDptYXhWYWx1ZT0iMjQiCiAgICAgICAgICAgIGFwcDptaW5WYWx1ZT0iMCIKICAgICAgICAgICAgYXBwOm5lZ2F0aXZlU2hpZnQ9IjEyIgogICAgICAgICAgICBhcHA6c3RlcFZhbHVlPSIxIiAvPgoKICAgICAgICA8U2Vla0JhclByZWZlcmVuY2VDb21wYXQKICAgICAgICAgICAgYXBwOmRlZmF1bHRWYWx1ZT0iMjciCiAgICAgICAgICAgIGFuZHJvaWQ6a2V5PSJwcmVmc19rZXlfc3lzdGVtX3VpX3N0YXR1c19iYXJfYmF0dGVyeV9zdHlsZV92ZXJ0aWNhbF9vZmZzZXRfbWFyayIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iQHN0cmluZy9zeXN0ZW1fdWlfc3RhdHVzX2Jhcl9iYXR0ZXJ5X3N0eWxlX3ZlcnRpY2FsX29mZnNldCIKICAgICAgICAgICAgYXBwOmRlZmF1bHRWYWx1ZVRpdGxlPSJAc3RyaW5nL2FycmF5X2RlZmF1bHQiCiAgICAgICAgICAgIGFwcDpkaXZpZGVyVmFsdWU9IjIiCiAgICAgICAgICAgIGFwcDpmb3JtYXQ9IiUuMWYgZHAiCiAgICAgICAgICAgIGFwcDptYXhWYWx1ZT0iMjciCiAgICAgICAgICAgIGFwcDptaW5WYWx1ZT0iMCIKICAgICAgICAgICAgYXBwOm5lZ2F0aXZlU2hpZnQ9IjEzIgogICAgICAgICAgICBhcHA6c3RlcFZhbHVlPSIxIiAvPgoKICAgIDwvUHJlZmVyZW5jZUNhdGVnb3J5PgoKPC9QcmVmZXJlbmNlU2NyZWVuPg==
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ This file is part of HyperCeiler.
+  ~
+  ~ HyperCeiler is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU Affero General Public License as
+  ~ published by the Free Software Foundation, either version 3 of the
+  ~ License.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU Affero General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU Affero General Public License
+  ~ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+  ~
+  ~ Copyright (C) 2023-2026 HyperCeiler Contributions
+  -->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:myLocation="@string/system_ui_status_bar_battery_style_title"
+    app:quick_restart="com.android.systemui">
+    <PreferenceCategory>
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefs_key_system_ui_status_bar_battery_style_change_location"
+            android:title="@string/system_ui_status_bar_battery_style_change_location_title" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefs_key_system_ui_status_bar_battery_style_enable_custom"
+            android:title="@string/system_ui_statusbar_network_speed_all_status" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:dependency="prefs_key_system_ui_status_bar_battery_style_enable_custom"
+        android:title="@string/system_ui_statusbar_indicator_expand_title" >
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefs_key_system_ui_status_bar_battery_style_bold"
+            android:title="@string/system_ui_statusbar_indicator_bold" />
+
+        <SeekBarPreferenceCompat
+            app:defaultValue="15"
+            android:key="prefs_key_system_ui_status_bar_battery_style_font_size"
+            android:title="@string/system_ui_status_bar_battery_style_font_size"
+            app:defaultValueTitle="@string/array_default"
+            app:dividerValue="2"
+            app:format="%.1f dp"
+            app:maxValue="40"
+            app:minValue="15"
+            app:stepValue="1" />
+
+        <SeekBarPreferenceCompat
+            app:defaultValue="15"
+            android:key="prefs_key_system_ui_status_bar_battery_style_font_mark_size"
+            android:title="@string/system_ui_status_bar_battery_style_font_mark_size"
+            app:defaultValueTitle="@string/array_default"
+            app:dividerValue="2"
+            app:format="%.1f dp"
+            app:maxValue="40"
+            app:minValue="15"
+            app:stepValue="1" />
+
+        <SeekBarPreferenceCompat
+            app:defaultValue="0"
+            android:key="prefs_key_system_ui_status_bar_battery_style_left_margin"
+            android:title="@string/left_margin"
+            app:defaultValueTitle="@string/array_default"
+            app:dividerValue="2"
+            app:format="%.1f dp"
+            app:maxValue="10"
+            app:minValue="0"
+            app:stepValue="1" />
+
+        <SeekBarPreferenceCompat
+            app:defaultValue="0"
+            android:key="prefs_key_system_ui_status_bar_battery_style_right_margin"
+            android:title="@string/right_margin"
+            app:defaultValueTitle="@string/array_default"
+            app:dividerValue="2"
+            app:format="%.1f dp"
+            app:maxValue="10"
+            app:minValue="0"
+            app:stepValue="1" />
+
+        <SeekBarPreferenceCompat
+            app:defaultValue="12"
+            android:key="prefs_key_system_ui_status_bar_battery_style_vertical_offset"
+            android:title="@string/vertical_offset"
+            app:defaultValueTitle="@string/array_default"
+            app:dividerValue="2"
+            app:format="%.1f dp"
+            app:maxValue="24"
+            app:minValue="0"
+            app:negativeShift="12"
+            app:stepValue="1" />
+
+        <SeekBarPreferenceCompat
+            app:defaultValue="27"
+            android:key="prefs_key_system_ui_status_bar_battery_style_vertical_offset_mark"
+            android:title="@string/system_ui_status_bar_battery_style_vertical_offset"
+            app:defaultValueTitle="@string/array_default"
+            app:dividerValue="2"
+            app:format="%.1f dp"
+            app:maxValue="27"
+            app:minValue="0"
+            app:negativeShift="13"
+            app:stepValue="1" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

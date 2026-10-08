@@ -1,1 +1,50 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IS0tCiAgfiBUaGlzIGZpbGUgaXMgcGFydCBvZiBIeXBlckNlaWxlci4KICB+CiAgfiBIeXBlckNlaWxlciBpcyBmcmVlIHNvZnR3YXJlOiB5b3UgY2FuIHJlZGlzdHJpYnV0ZSBpdCBhbmQvb3IgbW9kaWZ5CiAgfiBpdCB1bmRlciB0aGUgdGVybXMgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBhcwogIH4gcHVibGlzaGVkIGJ5IHRoZSBGcmVlIFNvZnR3YXJlIEZvdW5kYXRpb24sIGVpdGhlciB2ZXJzaW9uIDMgb2YgdGhlCiAgfiBMaWNlbnNlLgogIH4KICB+IFRoaXMgcHJvZ3JhbSBpcyBkaXN0cmlidXRlZCBpbiB0aGUgaG9wZSB0aGF0IGl0IHdpbGwgYmUgdXNlZnVsLAogIH4gYnV0IFdJVEhPVVQgQU5ZIFdBUlJBTlRZOyB3aXRob3V0IGV2ZW4gdGhlIGltcGxpZWQgd2FycmFudHkgb2YKICB+IE1FUkNIQU5UQUJJTElUWSBvciBGSVRORVNTIEZPUiBBIFBBUlRJQ1VMQVIgUFVSUE9TRS4gIFNlZSB0aGUKICB+IEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBmb3IgbW9yZSBkZXRhaWxzLgogIH4KICB+IFlvdSBzaG91bGQgaGF2ZSByZWNlaXZlZCBhIGNvcHkgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZQogIH4gYWxvbmcgd2l0aCB0aGlzIHByb2dyYW0uICBJZiBub3QsIHNlZSA8aHR0cHM6Ly93d3cuZ251Lm9yZy9saWNlbnNlcy8+LgogIH4KICB+IENvcHlyaWdodCAoQykgMjAyMy0yMDI2IEh5cGVyQ2VpbGVyIENvbnRyaWJ1dGlvbnMKICAtLT4KPFByZWZlcmVuY2VTY3JlZW4geG1sbnM6YW5kcm9pZD0iaHR0cDovL3NjaGVtYXMuYW5kcm9pZC5jb20vYXBrL3Jlcy9hbmRyb2lkIj4KICAgIDxQcmVmZXJlbmNlQ2F0ZWdvcnk+CiAgICAgICAgPFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpmcmFnbWVudD0iY29tLnNldnRpbmdlLmh5cGVyY2VpbGVyLmhvb2tlci5mcmFtZXdvcmsuRnJlZUZvcm1TZXR0aW5ncyIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iQHN0cmluZy9mbG9hdGluZ193aW5kb3ciIC8+CgogICAgICAgIDxQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6ZnJhZ21lbnQ9ImNvbS5zZXZ0aW5nZS5oeXBlcmNlaWxlci5ob29rZXIuZnJhbWV3b3JrLlZvbHVtZVNldHRpbmdzIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJAc3RyaW5nL3N5c3RlbV9mcmFtZXdvcmtfdm9sdW1lX3RpdGxlIiAvPgoKICAgICAgICA8UHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOmZyYWdtZW50PSJjb20uc2V2dGluZ2UuaHlwZXJjZWlsZXIuaG9va2VyLmZyYW1ld29yay5EaXNwbGF5U2V0dGluZ3MiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvc3lzdGVtX2ZyYW1ld29ya19kaXNwbGF5X3RpdGxlIiAvPgoKICAgICAgICA8UHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOmZyYWdtZW50PSJjb20uc2V2dGluZ2UuaHlwZXJjZWlsZXIuaG9va2VyLmZyYW1ld29yay5PdGhlclNldHRpbmdzIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJAc3RyaW5nL3N5c3RlbV9mcmFtZXdvcmtfb3RoZXJfdGl0bGUiIC8+CgogICAgICAgIDxQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6ZnJhZ21lbnQ9ImNvbS5zZXZ0aW5nZS5oeXBlcmNlaWxlci5ob29rZXIuZnJhbWV3b3JrLk1pUGFkU2V0dGluZ3MiCiAgICAgICAgICAgIGFuZHJvaWQ6a2V5PSJwcmVmc19rZXlfc3lzdGVtX2ZyYW1ld29ya19taXBhZCIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iQHN0cmluZy92YXJpb3VzX21pcGFkX3RpdGxlIiAvPgoKICAgIDwvUHJlZmVyZW5jZUNhdGVnb3J5PgoKICAgIDxQcmVmZXJlbmNlQ2F0ZWdvcnk+CiAgICAgICAgPFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpmcmFnbWVudD0iY29tLnNldnRpbmdlLmh5cGVyY2VpbGVyLmhvb2tlci5mcmFtZXdvcmsuQ29yZVBhdGNoU2V0dGluZ3MiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvc3lzdGVtX2ZyYW1ld29ya19jb3JlcGF0Y2hfdGl0bGUiIC8+CiAgICA8L1ByZWZlcmVuY2VDYXRlZ29yeT4KCjwvUHJlZmVyZW5jZVNjcmVlbj4=
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ This file is part of HyperCeiler.
+  ~
+  ~ HyperCeiler is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU Affero General Public License as
+  ~ published by the Free Software Foundation, either version 3 of the
+  ~ License.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU Affero General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU Affero General Public License
+  ~ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+  ~
+  ~ Copyright (C) 2023-2026 HyperCeiler Contributions
+  -->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory>
+        <Preference
+            android:fragment="com.sevtinge.hyperceiler.hooker.framework.FreeFormSettings"
+            android:title="@string/floating_window" />
+
+        <Preference
+            android:fragment="com.sevtinge.hyperceiler.hooker.framework.VolumeSettings"
+            android:title="@string/system_framework_volume_title" />
+
+        <Preference
+            android:fragment="com.sevtinge.hyperceiler.hooker.framework.DisplaySettings"
+            android:title="@string/system_framework_display_title" />
+
+        <Preference
+            android:fragment="com.sevtinge.hyperceiler.hooker.framework.OtherSettings"
+            android:title="@string/system_framework_other_title" />
+
+        <Preference
+            android:fragment="com.sevtinge.hyperceiler.hooker.framework.MiPadSettings"
+            android:key="prefs_key_system_framework_mipad"
+            android:title="@string/various_mipad_title" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory>
+        <Preference
+            android:fragment="com.sevtinge.hyperceiler.hooker.framework.CorePatchSettings"
+            android:title="@string/system_framework_corepatch_title" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

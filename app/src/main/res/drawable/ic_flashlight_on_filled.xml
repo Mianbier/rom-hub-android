@@ -1,1 +1,31 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLQogIH4gVGhpcyBmaWxlIGlzIHBhcnQgb2YgSHlwZXJDZWlsZXIuCiAgfgogIH4gSHlwZXJDZWlsZXIgaXMgZnJlZSBzb2Z0d2FyZTogeW91IGNhbiByZWRpc3RyaWJ1dGUgaXQgYW5kL29yIG1vZGlmeQogIH4gaXQgdW5kZXIgdGhlIHRlcm1zIG9mIHRoZSBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UgYXMKICB+IHB1Ymxpc2hlZCBieSB0aGUgRnJlZSBTb2Z0d2FyZSBGb3VuZGF0aW9uLCBlaXRoZXIgdmVyc2lvbiAzIG9mIHRoZQogIH4gTGljZW5zZS4KICB+CiAgfiBUaGlzIHByb2dyYW0gaXMgZGlzdHJpYnV0ZWQgaW4gdGhlIGhvcGUgdGhhdCBpdCB3aWxsIGJlIHVzZWZ1bCwKICB+IGJ1dCBXSVRIT1VUIEFOWSBXQVJSQU5UWTsgd2l0aG91dCBldmVuIHRoZSBpbXBsaWVkIHdhcnJhbnR5IG9mCiAgfiBNRVJDSEFOVEFCSUxJVFkgb3IgRklUTkVTUyBGT1IgQSBQQVJUSUNVTEFSIFBVUlBPU0UuICBTZWUgdGhlCiAgfiBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UgZm9yIG1vcmUgZGV0YWlscy4KICB+CiAgfiBZb3Ugc2hvdWxkIGhhdmUgcmVjZWl2ZWQgYSBjb3B5IG9mIHRoZSBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UKICB+IGFsb25nIHdpdGggdGhpcyBwcm9ncmFtLiAgSWYgbm90LCBzZWUgPGh0dHBzOi8vd3d3LmdudS5vcmcvbGljZW5zZXMvPi4KICB+CiAgfiBDb3B5cmlnaHQgKEMpIDIwMjMtMjAyNiBIeXBlckNlaWxlciBDb250cmlidXRpb25zCiAgLS0+Cjx2ZWN0b3IgeG1sbnM6YW5kcm9pZD0iaHR0cDovL3NjaGVtYXMuYW5kcm9pZC5jb20vYXBrL3Jlcy9hbmRyb2lkIgogICAgYW5kcm9pZDp3aWR0aD0iMzBkcCIKICAgIGFuZHJvaWQ6aGVpZ2h0PSIzMGRwIgogICAgYW5kcm9pZDp2aWV3cG9ydFdpZHRoPSI5NjAiCiAgICBhbmRyb2lkOnZpZXdwb3J0SGVpZ2h0PSI5NjAiCiAgICBhbmRyb2lkOnRpbnQ9Ij9hbmRyb2lkOmF0dHIvY29sb3JDb250cm9sTm9ybWFsIj4KICAgIDxwYXRoCiAgICAgICAgYW5kcm9pZDpmaWxsQ29sb3I9IkBhbmRyb2lkOmNvbG9yL3doaXRlIgogICAgICAgIGFuZHJvaWQ6ZmlsbEFscGhhPSIwLjgiCiAgICAgICAgYW5kcm9pZDpmaWxsVHlwZT0iZXZlbk9kZCIKICAgICAgICBhbmRyb2lkOnBhdGhEYXRhPSJNMjQwLDIwMEwyNDAsODBMNzIwLDgwTDcyMCwyMDBMMjQwLDIwMFpNNDgwLDYyMFE1MDUsNjIwIDUyMi41LDYwMi41UTU0MCw1ODUgNTQwLDU2MFE1NDAsNTM1IDUyMi41LDUxNy41UTUwNSw1MDAgNDgwLDUwMFE0NTUsNTAwIDQzNy41LDUxNy41UTQyMCw1MzUgNDIwLDU2MFE0MjAsNTg1IDQzNy41LDYwMi41UTQ1NSw2MjAgNDgwLDYyMFpNMzIwLDg4MEwzMjAsNDQwTDI0MCwzMjBMMjQwLDI4MEw3MjAsMjgwTDcyMCwzMjBMNjQwLDQ0MEw2NDAsODgwTDMyMCw4ODBaIiAvPgo8L3ZlY3Rvcj4K
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ This file is part of HyperCeiler.
+  ~
+  ~ HyperCeiler is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU Affero General Public License as
+  ~ published by the Free Software Foundation, either version 3 of the
+  ~ License.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU Affero General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU Affero General Public License
+  ~ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+  ~
+  ~ Copyright (C) 2023-2026 HyperCeiler Contributions
+  -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="30dp"
+    android:height="30dp"
+    android:viewportWidth="960"
+    android:viewportHeight="960"
+    android:tint="?android:attr/colorControlNormal">
+    <path
+        android:fillColor="@android:color/white"
+        android:fillAlpha="0.8"
+        android:fillType="evenOdd"
+        android:pathData="M240,200L240,80L720,80L720,200L240,200ZM480,620Q505,620 522.5,602.5Q540,585 540,560Q540,535 522.5,517.5Q505,500 480,500Q455,500 437.5,517.5Q420,535 420,560Q420,585 437.5,602.5Q455,620 480,620ZM320,880L320,440L240,320L240,280L720,280L720,320L640,440L640,880L320,880Z" />
+</vector>

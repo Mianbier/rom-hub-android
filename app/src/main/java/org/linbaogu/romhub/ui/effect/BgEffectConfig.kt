@@ -1,1 +1,70 @@
-Ly8gTWlycm9yZWQgZnJvbSBjb21wb3NlLW1pdWl4LXVpIGV4YW1wbGUgLyBLZXJuZWxTVSB1aS9jb21wb25lbnQvbWl1aXgvZWZmZWN0L0JnRWZmZWN0Q29uZmlnLmt0Ci8vIOWPguaVsOS4jiBIeXBlckNlaWxlciDnmoQgQmdFZmZlY3REYXRhTWFuYWdlciDlrozlhajkuIDoh7TjgIIKCnBhY2thZ2Ugb3JnLmxpbmJhb2d1LnJvbWh1Yi51aS5lZmZlY3QKCmludGVybmFsIG9iamVjdCBCZ0VmZmVjdENvbmZpZyB7CgogICAgaW50ZXJuYWwgY2xhc3MgQ29uZmlnKAogICAgICAgIHZhbCBwb2ludHM6IEZsb2F0QXJyYXksCiAgICAgICAgdmFsIGNvbG9yczE6IEZsb2F0QXJyYXksCiAgICAgICAgdmFsIGNvbG9yczI6IEZsb2F0QXJyYXksCiAgICAgICAgdmFsIGNvbG9yczM6IEZsb2F0QXJyYXksCiAgICAgICAgdmFsIGNvbG9ySW50ZXJwUGVyaW9kOiBGbG9hdCwKICAgICAgICB2YWwgbGlnaHRPZmZzZXQ6IEZsb2F0LAogICAgICAgIHZhbCBzYXR1cmF0ZU9mZnNldDogRmxvYXQsCiAgICAgICAgdmFsIHBvaW50T2Zmc2V0OiBGbG9hdCwKICAgICkKCiAgICBwcml2YXRlIHZhbCBQSE9ORV9MSUdIVCA9IENvbmZpZygKICAgICAgICBwb2ludHMgPSBmbG9hdEFycmF5T2YoMC44ZiwgMC4yZiwgMS4wZiwgMC44ZiwgMC45ZiwgMS4wZiwgMC4yZiwgMC45ZiwgMS4wZiwgMC4yZiwgMC4yZiwgMS4wZiksCiAgICAgICAgY29sb3JzMSA9IGZsb2F0QXJyYXlPZigxLjBmLCAwLjlmLCAwLjk0ZiwgMS4wZiwgMS4wZiwgMC44NGYsIDAuODlmLCAxLjBmLCAwLjk3ZiwgMC43M2YsIDAuODJmLCAxLjBmLCAwLjY0ZiwgMC42NWYsIDAuOThmLCAxLjBmKSwKICAgICAgICBjb2xvcnMyID0gZmxvYXRBcnJheU9mKDAuNThmLCAwLjc0ZiwgMS4wZiwgMS4wZiwgMS4wZiwgMC45ZiwgMC45M2YsIDEuMGYsIDAuNzRmLCAwLjc2ZiwgMS4wZiwgMS4wZiwgMC45N2YsIDAuNzdmLCAwLjg0ZiwgMS4wZiksCiAgICAgICAgY29sb3JzMyA9IGZsb2F0QXJyYXlPZigwLjk4ZiwgMC44NmYsIDAuOWYsIDEuMGYsIDAuNmYsIDAuNzNmLCAwLjk4ZiwgMS4wZiwgMC45MmYsIDAuOTNmLCAxLjBmLCAxLjBmLCAwLjU2ZiwgMC42OWYsIDEuMGYsIDEuMGYpLAogICAgICAgIGNvbG9ySW50ZXJwUGVyaW9kID0gNS4wZiwKICAgICAgICBsaWdodE9mZnNldCA9IDAuMWYsCiAgICAgICAgc2F0dXJhdGVPZmZzZXQgPSAwLjJmLAogICAgICAgIHBvaW50T2Zmc2V0ID0gMC4yZiwKICAgICkKCiAgICBwcml2YXRlIHZhbCBQSE9ORV9EQVJLID0gQ29uZmlnKAogICAgICAgIHBvaW50cyA9IGZsb2F0QXJyYXlPZigwLjhmLCAwLjJmLCAxLjBmLCAwLjhmLCAwLjlmLCAxLjBmLCAwLjJmLCAwLjlmLCAxLjBmLCAwLjJmLCAwLjJmLCAxLjBmKSwKICAgICAgICBjb2xvcnMxID0gZmxvYXRBcnJheU9mKDAuMmYsIDAuMDZmLCAwLjg4ZiwgMC40ZiwgMC4zZiwgMC4xNGYsIDAuNTVmLCAwLjVmLCAwLjBmLCAwLjY0ZiwgMC45NmYsIDAuNWYsIDAuMTFmLCAwLjE2ZiwgMC44M2YsIDAuNGYpLAogICAgICAgIGNvbG9yczIgPSBmbG9hdEFycmF5T2YoMC4wN2YsIDAuMTVmLCAwLjc5ZiwgMC41ZiwgMC42MmYsIDAuMjFmLCAwLjY3ZiwgMC41ZiwgMC4wNmYsIDAuMjVmLCAwLjg0ZiwgMC41ZiwgMC4wZiwgMC4yZiwgMC43OGYsIDAuNWYpLAogICAgICAgIGNvbG9yczMgPSBmbG9hdEFycmF5T2YoMC41OGYsIDAuM2YsIDAuNzRmLCAwLjRmLCAwLjI3ZiwgMC4xOGYsIDAuNmYsIDAuNWYsIDAuNjZmLCAwLjI2ZiwgMC42MmYsIDAuNWYsIDAuMTJmLCAwLjE2ZiwgMC43ZiwgMC42ZiksCiAgICAgICAgY29sb3JJbnRlcnBQZXJpb2QgPSA4LjBmLAogICAgICAgIGxpZ2h0T2Zmc2V0ID0gMC4wZiwKICAgICAgICBzYXR1cmF0ZU9mZnNldCA9IDAuMTdmLAogICAgICAgIHBvaW50T2Zmc2V0ID0gMC40ZiwKICAgICkKCiAgICBwcml2YXRlIHZhbCBQQURfTElHSFQgPSBDb25maWcoCiAgICAgICAgcG9pbnRzID0gZmxvYXRBcnJheU9mKDAuOGYsIDAuMmYsIDEuMGYsIDAuOGYsIDAuOWYsIDEuMGYsIDAuMmYsIDAuOWYsIDEuMGYsIDAuMmYsIDAuMmYsIDEuMGYpLAogICAgICAgIGNvbG9yczEgPSBmbG9hdEFycmF5T2YoMC45OWYsIDAuNzdmLCAwLjg2ZiwgMS4wZiwgMC43NGYsIDAuNzZmLCAxLjBmLCAxLjBmLCAwLjcyZiwgMC43NGYsIDEuMGYsIDEuMGYsIDAuOThmLCAwLjc2ZiwgMC44ZiwgMS4wZiksCiAgICAgICAgY29sb3JzMiA9IGZsb2F0QXJyYXlPZigwLjY2ZiwgMC43NWYsIDEuMGYsIDEuMGYsIDEuMGYsIDAuODZmLCAwLjkxZiwgMS4wZiwgMC43NGYsIDAuNzZmLCAxLjBmLCAxLjBmLCAwLjk3ZiwgMC43N2YsIDAuODRmLCAxLjBmKSwKICAgICAgICBjb2xvcnMzID0gZmxvYXRBcnJheU9mKDAuOTdmLCAwLjc5ZiwgMC44NWYsIDEuMGYsIDAuNjVmLCAwLjY4ZiwgMC45OGYsIDEuMGYsIDAuNjZmLCAwLjc3ZiwgMS4wZiwgMS4wZiwgMC43MmYsIDAuNzNmLCAwLjk4ZiwgMS4wZiksCiAgICAgICAgY29sb3JJbnRlcnBQZXJpb2QgPSA3LjBmLAogICAgICAgIGxpZ2h0T2Zmc2V0ID0gMC4xZiwKICAgICAgICBzYXR1cmF0ZU9mZnNldCA9IDAuMmYsCiAgICAgICAgcG9pbnRPZmZzZXQgPSAwLjJmLAogICAgKQoKICAgIHByaXZhdGUgdmFsIFBBRF9EQVJLID0gQ29uZmlnKAogICAgICAgIHBvaW50cyA9IGZsb2F0QXJyYXlPZigwLjhmLCAwLjJmLCAxLjBmLCAwLjhmLCAwLjlmLCAxLjBmLCAwLjJmLCAwLjlmLCAxLjBmLCAwLjJmLCAwLjJmLCAxLjBmKSwKICAgICAgICBjb2xvcnMxID0gZmxvYXRBcnJheU9mKDAuNjZmLCAwLjI2ZiwgMC42MmYsIDAuNGYsIDAuMDZmLCAwLjI1ZiwgMC44NGYsIDAuNWYsIDAuMGYsIDAuNjRmLCAwLjk2ZiwgMC41ZiwgMC4xNGYsIDAuMThmLCAwLjU1ZiwgMC41ZiksCiAgICAgICAgY29sb3JzMiA9IGZsb2F0QXJyYXlPZigwLjA3ZiwgMC4xNWYsIDAuNzlmLCAwLjVmLCAwLjExZiwgMC4xNmYsIDAuODNmLCAwLjVmLCAwLjA2ZiwgMC4yNWYsIDAuODRmLCAwLjVmLCAwLjY2ZiwgMC4yNmYsIDAuNjJmLCAwLjVmKSwKICAgICAgICBjb2xvcnMzID0gZmxvYXRBcnJheU9mKDAuNThmLCAwLjNmLCAwLjc0ZiwgMC41ZiwgMC4xMWYsIDAuMTZmLCAwLjgzZiwgMC41ZiwgMC42NmYsIDAuMjZmLCAwLjYyZiwgMC41ZiwgMC4yN2YsIDAuMThmLCAwLjZmLCAwLjZmKSwKICAgICAgICBjb2xvckludGVycFBlcmlvZCA9IDcuMGYsCiAgICAgICAgbGlnaHRPZmZzZXQgPSAwLjBmLAogICAgICAgIHNhdHVyYXRlT2Zmc2V0ID0gMC4wZiwKICAgICAgICBwb2ludE9mZnNldCA9IDAuMmYsCiAgICApCgogICAgaW50ZXJuYWwgZnVuIGdldCgKICAgICAgICBkZXZpY2VUeXBlOiBEZXZpY2VUeXBlLAogICAgICAgIGlzRGFyazogQm9vbGVhbiwKICAgICk6IENvbmZpZyA9IHdoZW4gKGRldmljZVR5cGUpIHsKICAgICAgICBEZXZpY2VUeXBlLlBIT05FIC0+IGlmICghaXNEYXJrKSBQSE9ORV9MSUdIVCBlbHNlIFBIT05FX0RBUksKICAgICAgICBEZXZpY2VUeXBlLlBBRCAtPiBpZiAoIWlzRGFyaykgUEFEX0xJR0hUIGVsc2UgUEFEX0RBUksKICAgIH0KfQo=
+// Mirrored from compose-miuix-ui example / KernelSU ui/component/miuix/effect/BgEffectConfig.kt
+// 参数与 HyperCeiler 的 BgEffectDataManager 完全一致。
+
+package org.linbaogu.romhub.ui.effect
+
+internal object BgEffectConfig {
+
+    internal class Config(
+        val points: FloatArray,
+        val colors1: FloatArray,
+        val colors2: FloatArray,
+        val colors3: FloatArray,
+        val colorInterpPeriod: Float,
+        val lightOffset: Float,
+        val saturateOffset: Float,
+        val pointOffset: Float,
+    )
+
+    private val PHONE_LIGHT = Config(
+        points = floatArrayOf(0.8f, 0.2f, 1.0f, 0.8f, 0.9f, 1.0f, 0.2f, 0.9f, 1.0f, 0.2f, 0.2f, 1.0f),
+        colors1 = floatArrayOf(1.0f, 0.9f, 0.94f, 1.0f, 1.0f, 0.84f, 0.89f, 1.0f, 0.97f, 0.73f, 0.82f, 1.0f, 0.64f, 0.65f, 0.98f, 1.0f),
+        colors2 = floatArrayOf(0.58f, 0.74f, 1.0f, 1.0f, 1.0f, 0.9f, 0.93f, 1.0f, 0.74f, 0.76f, 1.0f, 1.0f, 0.97f, 0.77f, 0.84f, 1.0f),
+        colors3 = floatArrayOf(0.98f, 0.86f, 0.9f, 1.0f, 0.6f, 0.73f, 0.98f, 1.0f, 0.92f, 0.93f, 1.0f, 1.0f, 0.56f, 0.69f, 1.0f, 1.0f),
+        colorInterpPeriod = 5.0f,
+        lightOffset = 0.1f,
+        saturateOffset = 0.2f,
+        pointOffset = 0.2f,
+    )
+
+    private val PHONE_DARK = Config(
+        points = floatArrayOf(0.8f, 0.2f, 1.0f, 0.8f, 0.9f, 1.0f, 0.2f, 0.9f, 1.0f, 0.2f, 0.2f, 1.0f),
+        colors1 = floatArrayOf(0.2f, 0.06f, 0.88f, 0.4f, 0.3f, 0.14f, 0.55f, 0.5f, 0.0f, 0.64f, 0.96f, 0.5f, 0.11f, 0.16f, 0.83f, 0.4f),
+        colors2 = floatArrayOf(0.07f, 0.15f, 0.79f, 0.5f, 0.62f, 0.21f, 0.67f, 0.5f, 0.06f, 0.25f, 0.84f, 0.5f, 0.0f, 0.2f, 0.78f, 0.5f),
+        colors3 = floatArrayOf(0.58f, 0.3f, 0.74f, 0.4f, 0.27f, 0.18f, 0.6f, 0.5f, 0.66f, 0.26f, 0.62f, 0.5f, 0.12f, 0.16f, 0.7f, 0.6f),
+        colorInterpPeriod = 8.0f,
+        lightOffset = 0.0f,
+        saturateOffset = 0.17f,
+        pointOffset = 0.4f,
+    )
+
+    private val PAD_LIGHT = Config(
+        points = floatArrayOf(0.8f, 0.2f, 1.0f, 0.8f, 0.9f, 1.0f, 0.2f, 0.9f, 1.0f, 0.2f, 0.2f, 1.0f),
+        colors1 = floatArrayOf(0.99f, 0.77f, 0.86f, 1.0f, 0.74f, 0.76f, 1.0f, 1.0f, 0.72f, 0.74f, 1.0f, 1.0f, 0.98f, 0.76f, 0.8f, 1.0f),
+        colors2 = floatArrayOf(0.66f, 0.75f, 1.0f, 1.0f, 1.0f, 0.86f, 0.91f, 1.0f, 0.74f, 0.76f, 1.0f, 1.0f, 0.97f, 0.77f, 0.84f, 1.0f),
+        colors3 = floatArrayOf(0.97f, 0.79f, 0.85f, 1.0f, 0.65f, 0.68f, 0.98f, 1.0f, 0.66f, 0.77f, 1.0f, 1.0f, 0.72f, 0.73f, 0.98f, 1.0f),
+        colorInterpPeriod = 7.0f,
+        lightOffset = 0.1f,
+        saturateOffset = 0.2f,
+        pointOffset = 0.2f,
+    )
+
+    private val PAD_DARK = Config(
+        points = floatArrayOf(0.8f, 0.2f, 1.0f, 0.8f, 0.9f, 1.0f, 0.2f, 0.9f, 1.0f, 0.2f, 0.2f, 1.0f),
+        colors1 = floatArrayOf(0.66f, 0.26f, 0.62f, 0.4f, 0.06f, 0.25f, 0.84f, 0.5f, 0.0f, 0.64f, 0.96f, 0.5f, 0.14f, 0.18f, 0.55f, 0.5f),
+        colors2 = floatArrayOf(0.07f, 0.15f, 0.79f, 0.5f, 0.11f, 0.16f, 0.83f, 0.5f, 0.06f, 0.25f, 0.84f, 0.5f, 0.66f, 0.26f, 0.62f, 0.5f),
+        colors3 = floatArrayOf(0.58f, 0.3f, 0.74f, 0.5f, 0.11f, 0.16f, 0.83f, 0.5f, 0.66f, 0.26f, 0.62f, 0.5f, 0.27f, 0.18f, 0.6f, 0.6f),
+        colorInterpPeriod = 7.0f,
+        lightOffset = 0.0f,
+        saturateOffset = 0.0f,
+        pointOffset = 0.2f,
+    )
+
+    internal fun get(
+        deviceType: DeviceType,
+        isDark: Boolean,
+    ): Config = when (deviceType) {
+        DeviceType.PHONE -> if (!isDark) PHONE_LIGHT else PHONE_DARK
+        DeviceType.PAD -> if (!isDark) PAD_LIGHT else PAD_DARK
+    }
+}

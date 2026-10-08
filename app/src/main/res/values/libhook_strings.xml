@@ -1,1 +1,128 @@
-PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0ndXRmLTgnPz4NCjxyZXNvdXJjZXM+DQogICAgPHN0cmluZyBuYW1lPSJsaWJyYXJ5X2FwcF9uYW1lIiB0cmFuc2xhdGFibGU9ImZhbHNlIj5IeXBlclJvbWh1Yjwvc3RyaW5nPg0KICAgIA0KICAgIDxzdHJpbmcgbmFtZT0ieHBvc2VkX2Rlc2NyaXB0aW9uIj5NYWtlIEh5cGVyT1MgR3JlYXQgQWdhaW4hPC9zdHJpbmc+DQogICAgPHN0cmluZyBuYW1lPSJtaXVpX3F1aWNrX3NldHRpbmdzX3RpbGVzX3N0b2NrIiB0cmFuc2xhdGFibGU9ImZhbHNlIj5yZWR1Y2VfYnJpZ2h0bmVzcyx2b3dpZmkxLHZvd2lmaTIsY2VsbCx3aWZpLGJ0LGFpcnBsYW5lLGF1dG9icmlnaHRuZXNzLG11dGUsc2NyZWVuc2hvdCxmbGFzaGxpZ2h0LHJvdGF0aW9uLHNjcmVlbmxvY2ssZHRtZHRtLHNjYW5uZXIscGFwZXJtb2RlLG5pZ2h0LHF1aWV0bW9kZSxiYXR0ZXJ5c2F2ZXIsdXdiX3NocCxhaXRyYW5zbGF0ZSxhaXN1YnRpdGxlcyxmcmVlZm9ybWhhbmcsdmlicmF0ZSxob3RzcG90LHN5bmMsd2lyZWxlc3Nwb3dlcixuZmMsZG9sYnlhdG9tc3NvdW5kLGdwcyxlZGl0LGhlYXJpbmdhc3Npc3R0aWxlLGNvbnRyb2xzLHdhbGxldCxpbnZlcnNpb24sc2F2ZXIsZGFyayxvbmVoYW5kZWQsY29sb3JfY29ycmVjdGlvbix1c2VyLGRuZCx0YXNrbWFuYWdlcixzZXR0aW5ncyxjYW1lcmFoYW5kbGUsY2Fyc2lja25lc3Msdm9pY2V0cmFuczwvc3RyaW5nPg0KICAgIDxzdHJpbmcgbmFtZT0ibWl1aV9xdWlja19zZXR0aW5nc190aWxlc19zdG9ja19wYWQiIHRyYW5zbGF0YWJsZT0iZmFsc2UiPnJlZHVjZV9icmlnaHRuZXNzLHZvd2lmaTEsdm93aWZpMixjZWxsLHdpZmkscm90YXRpb24sYWlycGxhbmUsbXV0ZSxzY3JlZW5zaG90LGJ0LGF1dG9icmlnaHRuZXNzLHNjcmVlbmxvY2ssZHRtZHRtLG5pZ2h0LHBhcGVybW9kZSxxdWlldG1vZGUsYmF0dGVyeXNhdmVyLGdwcyxmbGFzaGxpZ2h0LHNjYW5uZXIsZnJlZWZvcm1oYW5nLHZpYnJhdGUsaG90c3BvdCxzeW5jLHdpcmVsZXNzcG93ZXIsbmZjLGRvbGJ5YXRvbXNzb3VuZCxlZGl0LGNvbnRyb2xzLHdvcmttb2RlLHdhbGxldCxpbnZlcnNpb24sc2F2ZXIsZGFyayxvbmVoYW5kZWQsY29sb3JfY29ycmVjdGlvbix1c2VyLGRuZCx0YXNrbWFuYWdlcixzZXR0aW5ncyxjYXJzaWNrbmVzcyx2b2ljZXRyYW5zPC9zdHJpbmc+DQogICAgDQogICAgPHN0cmluZyBuYW1lPSJmbG9hdGluZ193aW5kb3ciPkZyZWVmb3JtPC9zdHJpbmc+DQogICAgDQogICAgPHN0cmluZyBuYW1lPSJ0aWxlc19nbXMiPkdvb2dsZSBQbGF5IHNlcnZpY2U8L3N0cmluZz4NCiAgICA8c3RyaW5nIG5hbWU9InRpbGVzX3Nub3dfbGVvcGFyZF9tb2RlIj5TLUxlbyBtb2RlPC9zdHJpbmc+DQogICAgPHN0cmluZyBuYW1lPSJ0aWxlc190YXBsdXMiPlRhcGx1czwvc3RyaW5nPg0KICAgIDxzdHJpbmcgbmFtZT0idGlsZXNfNWciPjVHIG5ldHdvcms8L3N0cmluZz4NCiAgICA8c3RyaW5nIG5hbWU9InN5c3RlbV91aV9zdGF0dXNiYXJfbXVzaWNfc2hhcmUiPlNoYXJlIGx5cmljczwvc3RyaW5nPg0KICAgIDxzdHJpbmcgbmFtZT0ic3lzdGVtX3VpX3N0YXR1c2Jhcl9tdXNpY19zZW5kIj5SZWxlYXNlIHRvIHNlbmQ8L3N0cmluZz4NCiAgICA8c3RyaW5nIG5hbWU9InN5c3RlbV91aV9zdGF0dXNiYXJfbXVzaWNfc2VuZF9zaGFyZV90ZXh0Ij5JIHNoYXJlZCB0aGUgZm9sbG93aW5nIGx5cmljcyBmcm9tICUxJHM6XG4lMiRzPC9zdHJpbmc+DQogICAgPHN0cmluZyBuYW1lPSJzeXN0ZW1fdWlfc3RhdHVzYmFyX25ldHdvcmtfc3BlZWRfQnMiIHRyYW5zbGF0YWJsZT0iZmFsc2UiPkIvczwvc3RyaW5nPg0KICAgIDxzdHJpbmcgbmFtZT0ic3lzdGVtX3VpX3N0YXR1c2Jhcl9uZXR3b3JrX3NwZWVkX3NwZWVkdW5pdHMiIHRyYW5zbGF0YWJsZT0iZmFsc2UiPktNRzwvc3RyaW5nPg0KICAgIDxzdHJpbmcgbmFtZT0ib3Blbl9ieV9kZWZhdWx0Ij5PcGVuIGJ5IGRlZmF1bHQ8L3N0cmluZz4NCiAgICA8c3RyaW5nIG5hbWU9InNlY3VyaXR5X2NlbnRlcl9hb3NwX2FwcF9pbmZvX2xhYmVsIj5BT1NQIGFwcCBpbmZvPC9zdHJpbmc+DQogICAgPHN0cmluZyBuYW1lPSJzZWN1cml0eV9jZW50ZXJfYW9zcF9hcHBfaW5mbyI+QWRkIEFPU1AgYXBwIGluZm8gZW50cnk8L3N0cmluZz4NCiAgICA8c3RyaW5nIG5hbWU9InNlY3VyaXR5X2NlbnRlcl9hb3NwX2FwcF9tYW5hZ2VyX2xhYmVsIj5BT1NQIGFwcCBtYW5hZ2VyPC9zdHJpbmc+DQogICAgPHN0cmluZyBuYW1lPSJzZWN1cml0eV9jZW50ZXJfYW9zcF9hcHBfbWFuYWdlciI+QWRkIEFPU1AgYXBwIG1hbmFnZXIgZW50cnk8L3N0cmluZz4NCiAgICA8c3RyaW5nIG5hbWU9InNlY3VyaXR5X2NlbnRlcl9iYXR0ZXJ5X2Rlc2lnbl9jYXBhY2l0eSI+QmF0dGVyeSBkZXNpZ24gY2FwYWNpdHk8L3N0cmluZz4NCiAgICA8c3RyaW5nIG5hbWU9InNlY3VyaXR5X2NlbnRlcl9iYXR0ZXJ5X2Z1bGxfY2FwYWNpdHkiPkJhdHRlcnkgZnVsbCBjYXBhY2l0eTwvc3RyaW5nPg0KICAgIDxzdHJpbmcgbmFtZT0ic2VjdXJpdHlfY2VudGVyX2JhdHRlcnlfY2FwYWNpdHlfZm9ybWF0Ij4lMSRkIG1BaDwvc3RyaW5nPg0KICAgIDxzdHJpbmcgbmFtZT0iYXBwX2xpbmtfb3Blbl9hbHdheXMiPkFsbG93cyB0aGUgYXBwIHRvIG9wZW4gc3VwcG9ydGVkIGxpbmtzPC9zdHJpbmc+DQogICAgPHN0cmluZyBuYW1lPSJhcHBfbGlua19vcGVuX25ldmVyIj5Eb25cJ3QgYWxsb3cgYXBwcyB0byBvcGVuIGxpbmtzPC9zdHJpbmc+DQogICAgPHN0cmluZyBuYW1lPSJkYXNoYm9hcmRfNWciPlVzZSA1Rzwvc3RyaW5nPg0KICAgIDxzdHJpbmcgbmFtZT0idGlsZXNfc3Vuc2hpbmVfbW9kZSI+U3VubGlnaHQgbW9kZTwvc3RyaW5nPg0KICAgIDxzdHJpbmcgbmFtZT0ic3lzdGVtX2NjX3Nob3dwY3Rfc3R5bGVfMSI+SW5saW5lPC9zdHJpbmc+DQogICAgPHN0cmluZyBuYW1lPSJzeXN0ZW1fY2Nfc2hvd3BjdF9zdHlsZV8yIj5FeHBsaWNpdDwvc3RyaW5nPg0KICAgIDxzdHJpbmcgbmFtZT0ibWVkaWFfY29udHJvbF9ncm91bmRfbW9kZV8xIj5Db3ZlciBhcnQ8L3N0cmluZz4NCiAgICA8c3RyaW5nIG5hbWU9Im1lZGlhX2NvbnRyb2xfZ3JvdW5kX21vZGVfMiI+Qmx1cnJ5IGNvdmVyPC9zdHJpbmc+DQogICAgPHN0cmluZyBuYW1lPSJtZWRpYV9jb250cm9sX2dyb3VuZF9tb2RlXzMiPlJhZGlhbCBncmFkaWVudDwvc3RyaW5nPg0KICAgIDxzdHJpbmcgbmFtZT0ibWVkaWFfY29udHJvbF9ncm91bmRfbW9kZV80Ij5MaW5lYXIgZ3JhZGllbnQ8L3N0cmluZz4NCiAgICA8c3RyaW5nIG5hbWU9Im1lZGlhX2NvbnRyb2xfZ3JvdW5kX21vZGVfNSI+TWF0ZXJpYWwgYmx1cjwvc3RyaW5nPg0KICAgIDxzdHJpbmcgbmFtZT0ibWVkaWFfY29udHJvbF9hbGJ1bV9tb2RlXzEiPkhpZGUgc291cmNlIGlkZW50aWZpZXI8L3N0cmluZz4NCiAgICA8c3RyaW5nIG5hbWU9Im1lZGlhX2NvbnRyb2xfYWxidW1fbW9kZV8yIj5JbnZpc2libGU8L3N0cmluZz4NCiAgICA8c3RyaW5nIG5hbWU9Im1lZGlhX2NvbnRyb2xfYnV0dG9uX21vZGVfMSI+VGhlIGN1c3RvbSBidXR0b24gaXMgb24gdGhlIGZhciByaWdodDwvc3RyaW5nPg0KICAgIDxzdHJpbmcgbmFtZT0ibWVkaWFfY29udHJvbF9idXR0b25fbW9kZV8yIj5UaGUgcGxheSBidXR0b24gaXMgb24gdGhlIGZhciBsZWZ0PC9zdHJpbmc+DQogICAgPHN0cmluZyBuYW1lPSJub3Rlc191bmxvY2tfYWlfbW9kZV8xIj5PbGQgdmVyc2lvbjwvc3RyaW5nPg0KICAgIDxzdHJpbmcgbmFtZT0ibm90ZXNfdW5sb2NrX2FpX21vZGVfMiI+TmV3IHZlcnNpb248L3N0cmluZz4NCiAgICA8c3RyaW5nIG5hbWU9Im1vZGVfcGhvbmUiPlBob25lPC9zdHJpbmc+DQogICAgPHN0cmluZyBuYW1lPSJtb2RlX3BhZCI+UGFkPC9zdHJpbmc+DQogICAgPHN0cmluZyBuYW1lPSJtaXNvdW5kX2JsdWV0b290aF90eXBlX25vbmUiPk9yaWdpbmFsPC9zdHJpbmc+DQogICAgPHN0cmluZyBuYW1lPSJtaXNvdW5kX2JsdWV0b290aF90eXBlX2RvbGJ5Ij5Eb2xieSBBdG1vczwvc3RyaW5nPg0KICAgIDxzdHJpbmcgbmFtZT0ibWlzb3VuZF9ibHVldG9vdGhfdHlwZV9taXNvdW5kIj5NaSBTb3VuZDwvc3RyaW5nPg0KICAgIDxzdHJpbmcgbmFtZT0ibWlzb3VuZF9ibHVldG9vdGhfdHlwZV9rZWVwIj5LZWVwIEN1cnJlbnQ8L3N0cmluZz4NCiAgICANCiAgICA8c3RyaW5nIG5hbWU9InN5c3RlbV9mcmFtZXdvcmtfcGhvbmVfbmV0d29ya190aXRsZSI+TmV0d29yayBzZXR0aW5nczwvc3RyaW5nPg0KICAgIDxzdHJpbmcgbmFtZT0ic3lzdGVtX3VpX2hpZGVfbmF2aWdhdGlvbl9iYXIiPkhpZGUgZ2VzdHVyZSBsaW5lPC9zdHJpbmc+DQogICAgPHN0cmluZyBuYW1lPSJzeXN0ZW1fdWlfaGlkZV9uYXZpZ2F0aW9uX2Jhcl90b2FzdCI+RG9uXCd0IHN3aXRjaCB0byBidXR0b24gbmF2aWdhdGlvbjwvc3RyaW5nPg0KICAgIDxzdHJpbmcgbmFtZT0ic3lzdGVtX3VpX2hpZGVfbmF2aWdhdGlvbl9iYXJfdG9hc3RfMiI+RG9uXCd0IGhpZGUgZ2VzdHVyZSBsaW5lczwvc3RyaW5nPg0KICAgIDxzdHJpbmcgbmFtZT0ic3lzdGVtX3VpX2hpZGVfbmF2aWdhdGlvbl9iYXJfbW9yZSI+UGxlYXNlIHJlc3RhcnQgdGhlIFN5c3RlbSBsYXVuY2hlciBhbmQgU3lzdGVtIFVJIHNjb3Blczwvc3RyaW5nPg0KICAgIDxzdHJpbmcgbmFtZT0ic3lzdGVtX2ZyYW1ld29ya19ndWlkZWRfYWNjZXNzX3N0YXR1cyI+RW5oYW5jZWQgc2hpZWxkaW5nPC9zdHJpbmc+DQogICAgPHN0cmluZyBuYW1lPSJzeXN0ZW1fZnJhbWV3b3JrX2d1aWRlZF9hY2Nlc3Nfc3RhdHVzX21vcmUiPldoZW4gcGlubmVkLCBoaWRlIHN0YXR1cyBiYXIgYW5kIGdlc3R1cmUgbGluZSB1bnRpbCB1bnBpbm5lZDwvc3RyaW5nPg0KICAgIDxzdHJpbmcgbmFtZT0ic3lzdGVtX2ZyYW1ld29ya19ndWlkZWRfYWNjZXNzX3RpbGUiPlFTIHRpbGUgZW50cnk8L3N0cmluZz4NCiAgICA8c3RyaW5nIG5hbWU9InN5c3RlbV9mcmFtZXdvcmtfZ3VpZGVkX2FjY2Vzc190aWxlX21vcmUiPkFkZCBhICJHdWlkZWQgQWNjZXNzIiBRUyB0aWxlIGVudHJ5PC9zdHJpbmc+DQogICAgPHN0cmluZyBuYW1lPSJzeXN0ZW1fZnJhbWV3b3JrX2d1aWRlZF9hY2Nlc3NfYmxvY2tfZGlhbG9nIj5JbnRlcmNlcHQgcGlubmluZyBkaWFsb2c8L3N0cmluZz4NCiAgICA8c3RyaW5nIG5hbWU9InN5c3RlbV9mcmFtZXdvcmtfZ3VpZGVkX2FjY2Vzc19ibG9ja19kaWFsb2dfbW9yZSI+SW50ZXJjZXB0aW5nIGRpYWxvZ3MgbWF5IGNhdXNlIHVuZXhwZWN0ZWQgaXNzdWVzPC9zdHJpbmc+DQogICAgPHN0cmluZyBuYW1lPSJzeXN0ZW1fZnJhbWV3b3JrX2d1aWRlZF9hY2Nlc3NfZXhpdF9sb2Nrc2NyZWVuIj5HbyB0byBsb2NrIHNjcmVlbiBhZnRlciB1bnBpbjwvc3RyaW5nPg0KICAgIDxzdHJpbmcgbmFtZT0ic3lzdGVtX2ZyYW1ld29ya19ndWlkZWRfYWNjZXNzX2V4aXRfbG9ja3NjcmVlbl9tb3JlIj5BZnRlciBleGl0aW5nIHBpbm5lZCBtb2RlLCBqdW1wIHRvIGxvY2sgc2NyZWVuPC9zdHJpbmc+DQogICAgPHN0cmluZyBuYW1lPSJzeXN0ZW1fZnJhbWV3b3JrX2d1aWRlZF9hY2Nlc3MiPkZpeGVkIGFwcHM8L3N0cmluZz4NCiAgICA8c3RyaW5nIG5hbWU9InN5c3RlbV9mcmFtZXdvcmtfZ3VpZGVkX2FjY2Vzc19tb3JlIj5SZXF1aXJlcyBlbmFibGluZyBib3RoIHRoZSAiU3lzdGVtIFVJIiBhbmQgIlN5c3RlbSBsYXVuY2hlciIgc2NvcGVzIHdoaWxlIGluIHVzZTwvc3RyaW5nPg0KICAgIA0KICAgIDxzdHJpbmcgbmFtZT0icXVpY2tfc2V0dGluZ3Nfc3RhdGVfY2hhbmdlX21lc3NhZ2Vfb25fbXkiPiUxJHMgaXMgb248L3N0cmluZz4NCiAgICA8c3RyaW5nIG5hbWU9InF1aWNrX3NldHRpbmdzX3N0YXRlX2NoYW5nZV9tZXNzYWdlX29mZl9teSI+JTEkcyBpcyBvZmY8L3N0cmluZz4NCiAgICA8c3RyaW5nIG5hbWU9InN5c3RlbV9jb250cm9sX2NlbnRlcl9yZWR1Y2VfYnJpZ2h0X2NvbG9yc190aWxlIj5FeHRyYSBkaW08L3N0cmluZz4NCiAgICA8c3RyaW5nIG5hbWU9InN5c3RlbV9jb250cm9sX2NlbnRlcl9zdW5zaGluZV9tb2RlIj5TdW5saWdodCBtb2RlPC9zdHJpbmc+DQogICAgPHN0cmluZyBuYW1lPSJzeXN0ZW1fY29udHJvbF9jZW50ZXJfc3Vuc2hpbmVfbW9kZV9icmlnaHRuZXNzIj5TdW5saWdodCBtb2RlIGJyaWdodG5lc3M8L3N0cmluZz4NCiAgICA8c3RyaW5nIG5hbWU9InN5c3RlbV9jb250cm9sX2NlbnRlcl9zdW5zaGluZV9tb2RlX2JyaWdodG5lc3NfZGVzYyI+QSB2ZXJ5IGhpZ2ggYnJpZ2h0bmVzcyBjYW4gY2F1c2Ugc2NyZWVuIGFnaW5nLCBzY3JlZW4gYnVybi1pbiwgYW5kIG90aGVyIGlycmV2ZXJzaWJsZSBjb25zZXF1ZW5jZXMuIEl0XCdzIHJlY29tbWVuZGVkIHRvIGNob29zZSB0aGUgYnJpZ2h0bmVzcyBhbmQgdXNlIGl0IGFwcHJvcHJpYXRlbHkuPC9zdHJpbmc+DQogICAgDQogICAgPHN0cmluZyBuYW1lPSJzeXN0ZW1fc2V0dGluZ3Nfd2lmaXBhc3N3b3JkX2J0bl90aXRsZSI+Vmlldzwvc3RyaW5nPg0KICAgIDxzdHJpbmcgbmFtZT0ic3lzdGVtX3NldHRpbmdzX3dpZmlfcGFzc3dvcmRfbGFiZWwiPlBhc3N3b3JkPC9zdHJpbmc+DQogICAgPHN0cmluZyBuYW1lPSJzeXN0ZW1fc2V0dGluZ3Nfd2lmaV9wYXNzd29yZF9kbGd0aXRsZSI+V2ktRmkgZGV0YWlsczwvc3RyaW5nPg0KICAgIA0KICAgIDxzdHJpbmcgbmFtZT0ibWlzaGFyZSI+WGlhb21pIFNoYXJlPC9zdHJpbmc+DQogICAgPHN0cmluZyBuYW1lPSJtaXNoYXJlX2Rpc2FibGVfbWlzaGFyZV9hdXRvX29mZiI+RGlzYWJsZSBhdXRvbWF0aWMgZGlzYWJsZSBvZiBYaWFvbWkgU2hhcmU8L3N0cmluZz4NCiAgICA8c3RyaW5nIG5hbWU9Im1pc2hhcmVfaG9va19zd2l0Y2hfbW9kZV9hbGwiPkV2ZXJ5b25lPC9zdHJpbmc+DQogICAgDQogICAgPHN0cmluZyBuYW1lPSJ0c21jbGllbnQiPlNtYXJ0IGNhcmRzPC9zdHJpbmc+DQogICAgPHN0cmluZyBuYW1lPSJ0c21jbGllbnRfYXV0b19uZmMiPk1hbmFnZSBORkMgYXV0b21hdGljYWxseTwvc3RyaW5nPg0KICAgIDxzdHJpbmcgbmFtZT0idHNtY2xpZW50X2F1dG9fbmZjX2Rlc2MiPk5GQyBhdXRvbWF0aWNhbGx5IHR1cm4gb24gd2hlbiBlbnRlcmluZyB0aGUgY2FyZCBzd2lwaW5nIHBhZ2UsIGFuZCBhdXRvbWF0aWNhbGx5IHR1cm4gb2ZmIGFmdGVyIGV4aXQuPC9zdHJpbmc+DQogICAgPHN0cmluZyBuYW1lPSJ0c21jbGllbnRfbmZjX3R1cm5pbmdfb24iPlR1cm5pbmcgb24gTkZDIGF1dG9tYXRpY2FsbHnigKY8L3N0cmluZz4NCiAgICA8c3RyaW5nIG5hbWU9InRzbWNsaWVudF9uZmNfdHVybl9vbl9tYW51YWxseSI+VHVybiBvbiBORkMgbWFudWFsbHk8L3N0cmluZz4NCiAgICA8c3RyaW5nIG5hbWU9InRzbWNsaWVudF9uZmNfdHVybl9vbl9mYWlsZWQiPkZhaWxlZCB0byBlbmFibGUgTkZDIGF1dG9tYXRpY2FsbHk8L3N0cmluZz4NCg0KICAgIA0KICAgIDxzdHJpbmcgbmFtZT0id2FsbGV0Ij5NaSBXYWxsZXQ8L3N0cmluZz4NCiAgICA8c3RyaW5nIG5hbWU9IndhbGxldF9kaXNhYmxlX3NwbGFzaF9hZCI+UmVtb3ZlIHNwbGFzaCBhZHM8L3N0cmluZz4NCiAgICA8c3RyaW5nIG5hbWU9IndhbGxldF9kaXNhYmxlX3NwbGFzaF9hZF9kZXNjIj5Ta2lwIHNwbGFzaCBzY3JlZW4gYW5kIGJsb2NrIGFkIHJlcXVlc3RzPC9zdHJpbmc+DQogICAgDQogICAgPHN0cmluZyBuYW1lPSJhaWNyIj5YaWFvbWkgQUkgRW5naW5lPC9zdHJpbmc+DQogICAgDQogICAgPHN0cmluZyBuYW1lPSJ4bXNmIj5YaWFvbWkgU2VydmljZSBGcmFtZXdvcms8L3N0cmluZz4NCiAgICA8c3RyaW5nIG5hbWU9Inhtc2ZfdW5sb2NrX2ZvdWNzX2FwcF9zaWduX3doaXRlX2xpc3QiPlVubG9jayBGb2N1cyBOb3RpZmljYXRpb24gV2hpdGVsaXN0IFNpZ25hdHVyZSBWZXJpZmljYXRpb248L3N0cmluZz4NCiAgICANCiAgICA8c3RyaW5nIG5hbWU9InNoYXJlX2NlbnRlciI+WGlhb21pIFNtYXJ0IEh1Yjwvc3RyaW5nPg0KICAgIDxzdHJpbmcgbmFtZT0ibmV3X3Rhc2siPk5ldyB0YXNrPC9zdHJpbmc+DQogICAgPHN0cmluZyBuYW1lPSJjdXN0b21faG9vayI+Q3VzdG9tPC9zdHJpbmc+DQogICAgPHN0cmluZyBuYW1lPSJ2YXJpb3VzX2luc3RhbGxfYXBwX2luZm9fdmVyc2lvbl9uYW1lIj5WZXJzaW9uIG5hbWU8L3N0cmluZz4NCiAgICA8c3RyaW5nIG5hbWU9InZhcmlvdXNfaW5zdGFsbF9hcHBfaW5mb192ZXJzaW9uX2NvZGUiPlZlcnNpb24gY29kZTwvc3RyaW5nPg0KICAgIDxzdHJpbmcgbmFtZT0idmFyaW91c19pbnN0YWxsX2FwcF9pbmZvX3NkayI+U3VwcG9ydCBTREs8L3N0cmluZz4NCiAgICA8c3RyaW5nIG5hbWU9InZhcmlvdXNfaW5zdGFsbF9hcHBfc2l6ZSI+U2l6ZTwvc3RyaW5nPg0KICAgIDxzdHJpbmcgbmFtZT0iYXBwX2RldGFpbHNfcGxheXN0b3JlIj5PcGVuIHdpdGggUGxheSBTdG9yZTwvc3RyaW5nPg0KICAgIDxzdHJpbmcgbmFtZT0iYXBwX2RldGFpbHNfbGF1bmNoIj5MYXVuY2g8L3N0cmluZz4NCiAgICA8c3RyaW5nIG5hbWU9ImFwcF9kZXRhaWxzX25vbGF1bmNoIj5BcHAgaGFzIG5vIGRlZmF1bHQgbGF1bmNoYWJsZSBhY3Rpdml0eTwvc3RyaW5nPg0KICAgIDxzdHJpbmcgbmFtZT0iYXBwX2RldGFpbHNfYXBrX2ZpbGUiPkFQSyBkaXJlY3Rvcnk8L3N0cmluZz4NCiAgICA8c3RyaW5nIG5hbWU9ImFwcF9kZXRhaWxzX2Fwa192ZXJzaW9uX2NvZGUiPkFwcCB2ZXJzaW9uIG51bWJlcjwvc3RyaW5nPg0KICAgIDxzdHJpbmcgbmFtZT0iYXBwX2RldGFpbHNfZGF0YV9wYXRoIj5EYXRhIGRpcmVjdG9yeTwvc3RyaW5nPg0KICAgIDxzdHJpbmcgbmFtZT0iYXBwX2RldGFpbHNfYXBwX3VpZCI+VXNlciBJRDwvc3RyaW5nPg0KICAgIDxzdHJpbmcgbmFtZT0iYXBwX2RldGFpbHNfc2RrIj5UYXJnZXQgU0RLIHZlcnNpb248L3N0cmluZz4NCiAgICA8c3RyaW5nIG5hbWU9ImFwcF9kZXRhaWxzX21pbl9zZGsiPk1pbiBTREsgdmVyc2lvbjwvc3RyaW5nPg0KICAgIDxzdHJpbmcgbmFtZT0iZGlzYWJsZV9hcHBfc2V0dGluZ3MiPkl0XCdzIGEgYmFkIGlkZWEhPC9zdHJpbmc+DQogICAgPHN0cmluZyBuYW1lPSJkaXNhYmxlX2FwcF90aXRsZSI+QXJlIHlvdSBzdXJlIHlvdSB3YW50IHRvIGRpc2FibGUgdGhlIGFwcD88L3N0cmluZz4NCiAgICA8c3RyaW5nIG5hbWU9ImRpc2FibGVfYXBwX3RleHQiPklmIHRoaXMgaXMgYSBuZWNlc3Nhcnkgc3lzdGVtIGFwcCwgZGlzYWJsaW5nIGl0IGNvdWxkIGNhdXNlIGRhbWFnZS48L3N0cmluZz4NCiAgICA8c3RyaW5nIG5hbWU9ImRpc2FibGVfYXBwX2ZhaWwiPkZhaWxlZCB0byBjaGFuZ2UgYXBwIHN0YXRlPC9zdHJpbmc+DQogICAgPHN0cmluZyBuYW1lPSJzeXN0ZW1fbm90aWZyb3dtZW51X2FwcGluZm8iPkFwcCBpbmZvPC9zdHJpbmc+DQogICAgPHN0cmluZyBuYW1lPSJzeXN0ZW1fbm90aWZyb3dtZW51X29wZW5pbmZ3Ij5GbG9hdGluZyB3aW5kb3c8L3N0cmluZz4NCiAgICA8c3RyaW5nIG5hbWU9InN5c3RlbV9ub3RpZnJvd21lbnVfZm9yY2VjbG9zZSI+Rm9yY2UgY2xvc2U8L3N0cmluZz4NCiAgICANCiAgICA8c3RyaW5nIG5hbWU9ImhvbWVfc2hhcmVfYXBrX3ByZXBhcmluZyI+UHJlcGFyaW5nIGZpbGXigKY8L3N0cmluZz4NCiAgICA8c3RyaW5nIG5hbWU9ImhvbWVfc2hhcmVfYXBrX3ByZXBhcmluZ19zcGxpdCI+UGFja2FnaW5nIHNwbGl0IEFQS3MgKCUxJGQgZmlsZXMp4oCmPC9zdHJpbmc+DQogICAgPHN0cmluZyBuYW1lPSJob21lX3NoYXJlX2Fwa19mYWlsZWQiPlNoYXJlIGZhaWxlZDwvc3RyaW5nPg0KICAgIDxzdHJpbmcgbmFtZT0iaG9tZV9zaGFyZV9hcGtfcHJlcGFyZV9mYWlsZWQiPkZhaWxlZCB0byBwcmVwYXJlIGZpbGU8L3N0cmluZz4NCjwvcmVzb3VyY2VzPg==
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="library_app_name" translatable="false">HyperRomhub</string>
+    
+    <string name="xposed_description">Make HyperOS Great Again!</string>
+    <string name="miui_quick_settings_tiles_stock" translatable="false">reduce_brightness,vowifi1,vowifi2,cell,wifi,bt,airplane,autobrightness,mute,screenshot,flashlight,rotation,screenlock,dtmdtm,scanner,papermode,night,quietmode,batterysaver,uwb_shp,aitranslate,aisubtitles,freeformhang,vibrate,hotspot,sync,wirelesspower,nfc,dolbyatomssound,gps,edit,hearingassisttile,controls,wallet,inversion,saver,dark,onehanded,color_correction,user,dnd,taskmanager,settings,camerahandle,carsickness,voicetrans</string>
+    <string name="miui_quick_settings_tiles_stock_pad" translatable="false">reduce_brightness,vowifi1,vowifi2,cell,wifi,rotation,airplane,mute,screenshot,bt,autobrightness,screenlock,dtmdtm,night,papermode,quietmode,batterysaver,gps,flashlight,scanner,freeformhang,vibrate,hotspot,sync,wirelesspower,nfc,dolbyatomssound,edit,controls,workmode,wallet,inversion,saver,dark,onehanded,color_correction,user,dnd,taskmanager,settings,carsickness,voicetrans</string>
+    
+    <string name="floating_window">Freeform</string>
+    
+    <string name="tiles_gms">Google Play service</string>
+    <string name="tiles_snow_leopard_mode">S-Leo mode</string>
+    <string name="tiles_taplus">Taplus</string>
+    <string name="tiles_5g">5G network</string>
+    <string name="system_ui_statusbar_music_share">Share lyrics</string>
+    <string name="system_ui_statusbar_music_send">Release to send</string>
+    <string name="system_ui_statusbar_music_send_share_text">I shared the following lyrics from %1$s:\n%2$s</string>
+    <string name="system_ui_statusbar_network_speed_Bs" translatable="false">B/s</string>
+    <string name="system_ui_statusbar_network_speed_speedunits" translatable="false">KMG</string>
+    <string name="open_by_default">Open by default</string>
+    <string name="security_center_aosp_app_info_label">AOSP app info</string>
+    <string name="security_center_aosp_app_info">Add AOSP app info entry</string>
+    <string name="security_center_aosp_app_manager_label">AOSP app manager</string>
+    <string name="security_center_aosp_app_manager">Add AOSP app manager entry</string>
+    <string name="security_center_battery_design_capacity">Battery design capacity</string>
+    <string name="security_center_battery_full_capacity">Battery full capacity</string>
+    <string name="security_center_battery_capacity_format">%1$d mAh</string>
+    <string name="app_link_open_always">Allows the app to open supported links</string>
+    <string name="app_link_open_never">Don\'t allow apps to open links</string>
+    <string name="dashboard_5g">Use 5G</string>
+    <string name="tiles_sunshine_mode">Sunlight mode</string>
+    <string name="system_cc_showpct_style_1">Inline</string>
+    <string name="system_cc_showpct_style_2">Explicit</string>
+    <string name="media_control_ground_mode_1">Cover art</string>
+    <string name="media_control_ground_mode_2">Blurry cover</string>
+    <string name="media_control_ground_mode_3">Radial gradient</string>
+    <string name="media_control_ground_mode_4">Linear gradient</string>
+    <string name="media_control_ground_mode_5">Material blur</string>
+    <string name="media_control_album_mode_1">Hide source identifier</string>
+    <string name="media_control_album_mode_2">Invisible</string>
+    <string name="media_control_button_mode_1">The custom button is on the far right</string>
+    <string name="media_control_button_mode_2">The play button is on the far left</string>
+    <string name="notes_unlock_ai_mode_1">Old version</string>
+    <string name="notes_unlock_ai_mode_2">New version</string>
+    <string name="mode_phone">Phone</string>
+    <string name="mode_pad">Pad</string>
+    <string name="misound_bluetooth_type_none">Original</string>
+    <string name="misound_bluetooth_type_dolby">Dolby Atmos</string>
+    <string name="misound_bluetooth_type_misound">Mi Sound</string>
+    <string name="misound_bluetooth_type_keep">Keep Current</string>
+    
+    <string name="system_framework_phone_network_title">Network settings</string>
+    <string name="system_ui_hide_navigation_bar">Hide gesture line</string>
+    <string name="system_ui_hide_navigation_bar_toast">Don\'t switch to button navigation</string>
+    <string name="system_ui_hide_navigation_bar_toast_2">Don\'t hide gesture lines</string>
+    <string name="system_ui_hide_navigation_bar_more">Please restart the System launcher and System UI scopes</string>
+    <string name="system_framework_guided_access_status">Enhanced shielding</string>
+    <string name="system_framework_guided_access_status_more">When pinned, hide status bar and gesture line until unpinned</string>
+    <string name="system_framework_guided_access_tile">QS tile entry</string>
+    <string name="system_framework_guided_access_tile_more">Add a "Guided Access" QS tile entry</string>
+    <string name="system_framework_guided_access_block_dialog">Intercept pinning dialog</string>
+    <string name="system_framework_guided_access_block_dialog_more">Intercepting dialogs may cause unexpected issues</string>
+    <string name="system_framework_guided_access_exit_lockscreen">Go to lock screen after unpin</string>
+    <string name="system_framework_guided_access_exit_lockscreen_more">After exiting pinned mode, jump to lock screen</string>
+    <string name="system_framework_guided_access">Fixed apps</string>
+    <string name="system_framework_guided_access_more">Requires enabling both the "System UI" and "System launcher" scopes while in use</string>
+    
+    <string name="quick_settings_state_change_message_on_my">%1$s is on</string>
+    <string name="quick_settings_state_change_message_off_my">%1$s is off</string>
+    <string name="system_control_center_reduce_bright_colors_tile">Extra dim</string>
+    <string name="system_control_center_sunshine_mode">Sunlight mode</string>
+    <string name="system_control_center_sunshine_mode_brightness">Sunlight mode brightness</string>
+    <string name="system_control_center_sunshine_mode_brightness_desc">A very high brightness can cause screen aging, screen burn-in, and other irreversible consequences. It\'s recommended to choose the brightness and use it appropriately.</string>
+    
+    <string name="system_settings_wifipassword_btn_title">View</string>
+    <string name="system_settings_wifi_password_label">Password</string>
+    <string name="system_settings_wifi_password_dlgtitle">Wi-Fi details</string>
+    
+    <string name="mishare">Xiaomi Share</string>
+    <string name="mishare_disable_mishare_auto_off">Disable automatic disable of Xiaomi Share</string>
+    <string name="mishare_hook_switch_mode_all">Everyone</string>
+    
+    <string name="tsmclient">Smart cards</string>
+    <string name="tsmclient_auto_nfc">Manage NFC automatically</string>
+    <string name="tsmclient_auto_nfc_desc">NFC automatically turn on when entering the card swiping page, and automatically turn off after exit.</string>
+    <string name="tsmclient_nfc_turning_on">Turning on NFC automatically…</string>
+    <string name="tsmclient_nfc_turn_on_manually">Turn on NFC manually</string>
+    <string name="tsmclient_nfc_turn_on_failed">Failed to enable NFC automatically</string>
+
+    
+    <string name="wallet">Mi Wallet</string>
+    <string name="wallet_disable_splash_ad">Remove splash ads</string>
+    <string name="wallet_disable_splash_ad_desc">Skip splash screen and block ad requests</string>
+    
+    <string name="aicr">Xiaomi AI Engine</string>
+    
+    <string name="xmsf">Xiaomi Service Framework</string>
+    <string name="xmsf_unlock_foucs_app_sign_white_list">Unlock Focus Notification Whitelist Signature Verification</string>
+    
+    <string name="share_center">Xiaomi Smart Hub</string>
+    <string name="new_task">New task</string>
+    <string name="custom_hook">Custom</string>
+    <string name="various_install_app_info_version_name">Version name</string>
+    <string name="various_install_app_info_version_code">Version code</string>
+    <string name="various_install_app_info_sdk">Support SDK</string>
+    <string name="various_install_app_size">Size</string>
+    <string name="app_details_playstore">Open with Play Store</string>
+    <string name="app_details_launch">Launch</string>
+    <string name="app_details_nolaunch">App has no default launchable activity</string>
+    <string name="app_details_apk_file">APK directory</string>
+    <string name="app_details_apk_version_code">App version number</string>
+    <string name="app_details_data_path">Data directory</string>
+    <string name="app_details_app_uid">User ID</string>
+    <string name="app_details_sdk">Target SDK version</string>
+    <string name="app_details_min_sdk">Min SDK version</string>
+    <string name="disable_app_settings">It\'s a bad idea!</string>
+    <string name="disable_app_title">Are you sure you want to disable the app?</string>
+    <string name="disable_app_text">If this is a necessary system app, disabling it could cause damage.</string>
+    <string name="disable_app_fail">Failed to change app state</string>
+    <string name="system_notifrowmenu_appinfo">App info</string>
+    <string name="system_notifrowmenu_openinfw">Floating window</string>
+    <string name="system_notifrowmenu_forceclose">Force close</string>
+    
+    <string name="home_share_apk_preparing">Preparing file…</string>
+    <string name="home_share_apk_preparing_split">Packaging split APKs (%1$d files)…</string>
+    <string name="home_share_apk_failed">Share failed</string>
+    <string name="home_share_apk_prepare_failed">Failed to prepare file</string>
+</resources>

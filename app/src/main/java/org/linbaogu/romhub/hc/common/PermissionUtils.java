@@ -1,1 +1,71 @@
-LyoKICogVGhpcyBmaWxlIGlzIHBhcnQgb2YgUk9NIEh1YiwgcmVsZWFzZWQgdW5kZXIgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSB2My4wLgogKgogKiDmnKzmlofku7bnp7vmpI0gLyDmlLnlhpnoh6ogSHlwZXJDZWlsZXLvvIhBR1BMLTMuMO+8jENvcHlyaWdodCAoQykgMjAyMy0yMDI2IEh5cGVyQ2VpbGVyCiAqIENvbnRyaWJ1dGlvbnPvvInvvIzmiJbkuLrlhbbnrYnku7fmm7/ouqvlrp7njrAg4oCU4oCUIOWujOaVtOadpea6kOS4jum4o+iwouingemhueebruagueebruW9lSBOT1RJQ0UubWTjgIIKICoKICogVGhpcyBwcm9ncmFtIGlzIGZyZWUgc29mdHdhcmU6IHlvdSBjYW4gcmVkaXN0cmlidXRlIGl0IGFuZC9vciBtb2RpZnkgaXQgdW5kZXIgdGhlIHRlcm1zCiAqIG9mIHRoZSBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UgYXMgcHVibGlzaGVkIGJ5IHRoZSBGcmVlIFNvZnR3YXJlIEZvdW5kYXRpb24sCiAqIGVpdGhlciB2ZXJzaW9uIDMgb2YgdGhlIExpY2Vuc2UuCiAqCiAqIFRoaXMgcHJvZ3JhbSBpcyBkaXN0cmlidXRlZCBpbiB0aGUgaG9wZSB0aGF0IGl0IHdpbGwgYmUgdXNlZnVsLCBidXQgV0lUSE9VVCBBTlkgV0FSUkFOVFk7CiAqIHdpdGhvdXQgZXZlbiB0aGUgaW1wbGllZCB3YXJyYW50eSBvZiBNRVJDSEFOVEFCSUxJVFkgb3IgRklUTkVTUyBGT1IgQSBQQVJUSUNVTEFSIFBVUlBPU0UuCiAqIFNlZSB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGZvciBtb3JlIGRldGFpbHMuCiAqCiAqIFlvdSBzaG91bGQgaGF2ZSByZWNlaXZlZCBhIGNvcHkgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBhbG9uZyB3aXRoIHRoaXMKICogcHJvZ3JhbS4gIElmIG5vdCwgc2VlIDxodHRwczovL3d3dy5nbnUub3JnL2xpY2Vuc2VzLz4uCiAqLwoKcGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLmhjLmNvbW1vbjsKCmltcG9ydCBhbmRyb2lkLk1hbmlmZXN0OwppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQ7CmltcG9ydCBhbmRyb2lkLmNvbnRlbnQucG0uUGFja2FnZU1hbmFnZXI7CmltcG9ydCBhbmRyb2lkLm9zLkJ1aWxkOwoKaW1wb3J0IGFuZHJvaWR4LmNvcmUuY29udGVudC5Db250ZXh0Q29tcGF0OwoKLyoqCiAqIOadg+mZkOW3peWFtyDigJTigJQgKirmjInnlKjmiLfpgInmi6notbDnmoQgQiDmlrnmoYgqKu+8mue7k+aehOeFp+aKhCBIeXBlckNlaWxlciDnmoQgYFBlcm1pc3Npb25VdGlsc2DvvIwKICog5L2G5oqK44CM6K+75Y+W5bey5a6J6KOF5bqU55So5YiX6KGo44CN5o2i5oiQIFJPTSBIdWIg55yf5q2j6ZyA6KaB55qE5p2D6ZmQ44CCCiAqCiAqIFJPTSBIdWIg6ZyA6KaB55qE5piv77yaKirpgJrnn6XmnYPpmZAqKu+8iOaOqOmAgeaWsCBST00gLyDmlrDljIXmj5DphpLvvInjgIIKICog5Y6f5p2l55qEIGBQRVJNSVNTSU9OX0dFVF9JTlNUQUxMRURfQVBQU2Ag5bi46YeP5L+d55WZ5ZCM5ZCN77yIcHJvdmlzaW9uIOa1geeoi+mHjOW8leeUqOWug++8ie+8jAogKiDlgLzmlLnmiJDpgJrnn6XmnYPpmZDvvIzov5nmoLfnlYzpnaLnu5PmnoTkuI3nlKjliqjjgIHlhoXlrrnlj5jmiJDmiJHku6zoh6rlt7HnmoTjgIIKICovCnB1YmxpYyBmaW5hbCBjbGFzcyBQZXJtaXNzaW9uVXRpbHMgewoKICAgIC8qKiDljp/niYjmmK8gImFuZHJvaWQucGVybWlzc2lvbi5RVUVSWV9BTExfUEFDS0FHRVMi77yM6L+Z6YeM5o2i5oiQIFJPTSBIdWIg55yf5q2j6KaB55qE44CCICovCiAgICBwdWJsaWMgc3RhdGljIGZpbmFsIFN0cmluZyBQRVJNSVNTSU9OX0dFVF9JTlNUQUxMRURfQVBQUyA9IE1hbmlmZXN0LnBlcm1pc3Npb24uUE9TVF9OT1RJRklDQVRJT05TOwoKICAgIHByaXZhdGUgUGVybWlzc2lvblV0aWxzKCkgewogICAgfQoKICAgIHB1YmxpYyBzdGF0aWMgYm9vbGVhbiBoYXNQZXJtaXNzaW9uKENvbnRleHQgY3R4LCBTdHJpbmcgcGVybWlzc2lvbikgewogICAgICAgIGlmIChCdWlsZC5WRVJTSU9OLlNES19JTlQgPCBCdWlsZC5WRVJTSU9OX0NPREVTLk0pIHJldHVybiB0cnVlOwogICAgICAgIHJldHVybiBDb250ZXh0Q29tcGF0LmNoZWNrU2VsZlBlcm1pc3Npb24oY3R4LCBwZXJtaXNzaW9uKSA9PSBQYWNrYWdlTWFuYWdlci5QRVJNSVNTSU9OX0dSQU5URUQ7CiAgICB9CgogICAgLyoqIHByb3Zpc2lvbiDnmoTjgIzmnYPpmZDjgI3pgqPkuIDmraXnlKjlroPliKTmlq3mmK/lkKblt7LmjojmnYPjgIIgKi8KICAgIHB1YmxpYyBzdGF0aWMgYm9vbGVhbiBoYXNJbnN0YWxsZWRBcHBzUGVybWlzc2lvbihDb250ZXh0IGN0eCkgewogICAgICAgIHJldHVybiBoYXNQZXJtaXNzaW9uKGN0eCwgUEVSTUlTU0lPTl9HRVRfSU5TVEFMTEVEX0FQUFMpOwogICAgfQoKICAgIHB1YmxpYyBzdGF0aWMgYm9vbGVhbiBjYW5SZWFkSW5zdGFsbGVkQXBwcyhDb250ZXh0IGN0eCkgewogICAgICAgIHJldHVybiBoYXNJbnN0YWxsZWRBcHBzUGVybWlzc2lvbihjdHgpOwogICAgfQoKICAgIHB1YmxpYyBzdGF0aWMgYm9vbGVhbiBpc1Blcm1pc3Npb25HcmFudGVkKFN0cmluZyBwZXJtaXNzaW9uLCBTdHJpbmdbXSBwZXJtaXNzaW9ucywgaW50W10gZ3JhbnRSZXN1bHRzKSB7CiAgICAgICAgaWYgKHBlcm1pc3Npb25zID09IG51bGwgfHwgZ3JhbnRSZXN1bHRzID09IG51bGwpIHJldHVybiBmYWxzZTsKICAgICAgICBmb3IgKGludCBpID0gMDsgaSA8IHBlcm1pc3Npb25zLmxlbmd0aDsgaSsrKSB7CiAgICAgICAgICAgIGlmIChwZXJtaXNzaW9uLmVxdWFscyhwZXJtaXNzaW9uc1tpXSkpIHsKICAgICAgICAgICAgICAgIHJldHVybiBpIDwgZ3JhbnRSZXN1bHRzLmxlbmd0aCAmJiBncmFudFJlc3VsdHNbaV0gPT0gUGFja2FnZU1hbmFnZXIuUEVSTUlTU0lPTl9HUkFOVEVEOwogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIHJldHVybiBmYWxzZTsKICAgIH0KCiAgICBwdWJsaWMgc3RhdGljIGJvb2xlYW4gaXNJbnN0YWxsZWRBcHBzUGVybWlzc2lvbkdyYW50ZWQoU3RyaW5nW10gcGVybWlzc2lvbnMsIGludFtdIGdyYW50UmVzdWx0cykgewogICAgICAgIHJldHVybiBpc1Blcm1pc3Npb25HcmFudGVkKFBFUk1JU1NJT05fR0VUX0lOU1RBTExFRF9BUFBTLCBwZXJtaXNzaW9ucywgZ3JhbnRSZXN1bHRzKTsKICAgIH0KfQo=
+/*
+ * This file is part of ROM Hub, released under the GNU Affero General Public License v3.0.
+ *
+ * 本文件移植 / 改写自 HyperCeiler（AGPL-3.0，Copyright (C) 2023-2026 HyperCeiler
+ * Contributions），或为其等价替身实现 —— 完整来源与鸣谢见项目根目录 NOTICE.md。
+ *
+ * This program is free software: you can redistribute it and/or modify it under the terms
+ * of the GNU Affero General Public License as published by the Free Software Foundation,
+ * either version 3 of the License.
+ *
+ * This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+ * without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * See the GNU Affero General Public License for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License along with this
+ * program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
+package org.linbaogu.romhub.hc.common;
+
+import android.Manifest;
+import android.content.Context;
+import android.content.pm.PackageManager;
+import android.os.Build;
+
+import androidx.core.content.ContextCompat;
+
+/**
+ * 权限工具 —— **按用户选择走的 B 方案**：结构照抄 HyperCeiler 的 `PermissionUtils`，
+ * 但把「读取已安装应用列表」换成 ROM Hub 真正需要的权限。
+ *
+ * ROM Hub 需要的是：**通知权限**（推送新 ROM / 新包提醒）。
+ * 原来的 `PERMISSION_GET_INSTALLED_APPS` 常量保留同名（provision 流程里引用它），
+ * 值改成通知权限，这样界面结构不用动、内容变成我们自己的。
+ */
+public final class PermissionUtils {
+
+    /** 原版是 "android.permission.QUERY_ALL_PACKAGES"，这里换成 ROM Hub 真正要的。 */
+    public static final String PERMISSION_GET_INSTALLED_APPS = Manifest.permission.POST_NOTIFICATIONS;
+
+    private PermissionUtils() {
+    }
+
+    public static boolean hasPermission(Context ctx, String permission) {
+        if (Build.VERSION.SDK_INT < Build.VERSION_CODES.M) return true;
+        return ContextCompat.checkSelfPermission(ctx, permission) == PackageManager.PERMISSION_GRANTED;
+    }
+
+    /** provision 的「权限」那一步用它判断是否已授权。 */
+    public static boolean hasInstalledAppsPermission(Context ctx) {
+        return hasPermission(ctx, PERMISSION_GET_INSTALLED_APPS);
+    }
+
+    public static boolean canReadInstalledApps(Context ctx) {
+        return hasInstalledAppsPermission(ctx);
+    }
+
+    public static boolean isPermissionGranted(String permission, String[] permissions, int[] grantResults) {
+        if (permissions == null || grantResults == null) return false;
+        for (int i = 0; i < permissions.length; i++) {
+            if (permission.equals(permissions[i])) {
+                return i < grantResults.length && grantResults[i] == PackageManager.PERMISSION_GRANTED;
+            }
+        }
+        return false;
+    }
+
+    public static boolean isInstalledAppsPermissionGranted(String[] permissions, int[] grantResults) {
+        return isPermissionGranted(PERMISSION_GET_INSTALLED_APPS, permissions, grantResults);
+    }
+}

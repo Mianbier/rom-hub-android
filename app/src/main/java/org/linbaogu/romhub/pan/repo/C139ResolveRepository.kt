@@ -1,1 +1,132 @@
-LyoKICogWXVuWCAo5LqR5p6QKSAtIEEgbmV0d29yayBkcml2ZSBzaGFyZS1saW5rIHBhcnNlciBhbmQgaGlnaC1zcGVlZCBkb3dubG9hZGVyIGZvciBBbmRyb2lkLgogKiBDb3B5cmlnaHQgKEMpIDIwMjYgQ1lRYXdhCiAqCiAqIFRoaXMgcHJvZ3JhbSBpcyBmcmVlIHNvZnR3YXJlOiB5b3UgY2FuIHJlZGlzdHJpYnV0ZSBpdCBhbmQvb3IgbW9kaWZ5CiAqIGl0IHVuZGVyIHRoZSB0ZXJtcyBvZiB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGFzIHB1Ymxpc2hlZCBieQogKiB0aGUgRnJlZSBTb2Z0d2FyZSBGb3VuZGF0aW9uLCBlaXRoZXIgdmVyc2lvbiAzIG9mIHRoZSBMaWNlbnNlLCBvcgogKiAoYXQgeW91ciBvcHRpb24pIGFueSBsYXRlciB2ZXJzaW9uLgogKgogKiBUaGlzIHByb2dyYW0gaXMgZGlzdHJpYnV0ZWQgaW4gdGhlIGhvcGUgdGhhdCBpdCB3aWxsIGJlIHVzZWZ1bCwKICogYnV0IFdJVEhPVVQgQU5ZIFdBUlJBTlRZOyB3aXRob3V0IGV2ZW4gdGhlIGltcGxpZWQgd2FycmFudHkgb2YKICogTUVSQ0hBTlRBQklMSVRZIG9yIEZJVE5FU1MgRk9SIEEgUEFSVElDVUxBUiBQVVJQT1NFLiAgU2VlIHRoZQogKiBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UgZm9yIG1vcmUgZGV0YWlscy4KICoKICogWW91IHNob3VsZCBoYXZlIHJlY2VpdmVkIGEgY29weSBvZiB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlCiAqIGFsb25nIHdpdGggdGhpcyBwcm9ncmFtLiAgSWYgbm90LCBzZWUgPGh0dHBzOi8vd3d3LmdudS5vcmcvbGljZW5zZXMvPi4KICovCgpwYWNrYWdlIG9yZy5saW5iYW9ndS5yb21odWIucGFuLnJlcG8KCmltcG9ydCBvcmcubGluYmFvZ3Uucm9taHViLnBhbi5DMTM5QXBpCmltcG9ydCBvcmcubGluYmFvZ3Uucm9taHViLnBhbi5DMTM5Q29uc3RhbnRzCmltcG9ydCBvcmcubGluYmFvZ3Uucm9taHViLnBhbi5TaGFyZUxpbmtQYXJzZXIKaW1wb3J0IG9yZy5saW5iYW9ndS5yb21odWIucGFuLm1vZGVsLkRvd25sb2FkTGluawppbXBvcnQgb3JnLmxpbmJhb2d1LnJvbWh1Yi5wYW4ubW9kZWwuU2hhcmVGaWxlCmltcG9ydCBvcmcubGluYmFvZ3Uucm9taHViLnBhbi5tb2RlbC5TaGFyZVNlc3Npb24KCi8qKgogKiAxMznvvIjlkozlvankupHvvInliIbkuqvop6PmnpDku5PlupPvvJpjb29raWUg4oaSIGdldE91dExpbmtJbmZvVjYg5YiX55uu5b2VIOKGkiBkbEZyb21PdXRMaW5rVjMg55u06ZO+44CCCiAqIDEzOSDliIbkuqvml6DpnIDovazlrZjvvIhzaGFyZSBob3N0IOebtOaOpeWIl+ebruW9lSArIOWPluebtOmTvu+8ie+8jGNyZWRlbnRpYWwg5Li655m75b2VIENvb2tpZe+8iOWQq+i0puWPt+S/oeaBr++8ie+8mwogKiBhdXRob3JpemF0aW9uIOS7jiBjb29raWUg5o+Q5Y+W77yM5YiG5Lqr5o6l5Y+j5oyJ6ZyA5pC65bim77yI5Y+v56m677yJ44CCCiAqIOWIl+ebruW9leWFgeiuuOa4uOWuou+8iGNvb2tpZSDkuLrnqbrvvInvvJpnZXRPdXRMaW5rSW5mb1Y2IOaYr+WMv+WQjeerr+eCue+8m+WPluebtOmTvuS7jeimgeaxgueZu+W9le+8iEFnZW50Lm1kIMKnMy4xOe+8ieOAggogKi8KY2xhc3MgQzEzOVJlc29sdmVSZXBvc2l0b3J5KHByaXZhdGUgdmFsIGFwaTogQzEzOUFwaSkgOiBTaGFyZVJlc29sdmVSZXBvc2l0b3J5IHsKCiAgICBvdmVycmlkZSBzdXNwZW5kIGZ1biBjcmVhdGVTZXNzaW9uKGxpbms6IFN0cmluZywgcHdkOiBTdHJpbmc/LCBjb29raWU6IFN0cmluZyk6IFJlc3VsdDxTaGFyZVNlc3Npb24+IHsKICAgICAgICB2YWwgcGFyc2VkID0gU2hhcmVMaW5rUGFyc2VyLnBhcnNlKGxpbmspCiAgICAgICAgICAgID86IHJldHVybiBSZXN1bHQuZmFpbHVyZShJbGxlZ2FsQXJndW1lbnRFeGNlcHRpb24oIuaXoOazleivhuWIq+WIhuS6q+mTvuaOpSIpKQogICAgICAgIC8vIOa4uOWuouaooeW8j++8muS4jeWGjeimgeaxgiBjb29raWUg6YeM5ZCr6LSm5Y+35L+h5oGvIOKAlOKAlCAxMzkg55qE5YiX6KGo56uv54K577yIZ2V0T3V0TGlua0luZm9WNu+8ieacrOi6q+WwseaYrwogICAgICAgIC8vIOWMv+WQjeiwg+eUqO+8iGFjY291bnQg5Zu65a6a56m65Liy44CB5LiN5bimIGF1dGhvcml6YXRpb24vbWNsb3VkLXNpZ27vvIzop4EgQzEzOUFwaS5nZXRTaGFyZUZpbGVz77yJ77yMCiAgICAgICAgLy8g56m6IGNvb2tpZSDkuZ/og73liJflh7rnm67lvZXjgILkuIvovb0v6L2s5a2Y5LuN5Lya5Zyo5ZCE6Ieq5YWl5Y+j6KaB5rGC55m75b2V77yI6KeBIEFnZW50Lm1kIMKnMy4xOe+8ieOAggogICAgICAgIHJldHVybiBydW5DYXRjaGluZyB7CiAgICAgICAgICAgIC8vIDEzOSDliIbkuqvml6AgdG9rZW7vvJpzaGFyZUlkIOWNsyBsaW5rSUTvvIxzdG9rZW4g5pqC5a2Y5o+Q5Y+W56CBCiAgICAgICAgICAgIC8vIOWvhueggeS8mOWFiOe6p++8mueUqOaIt+aJi+i+kyA+IDEzOSBnZXRPdXRMaW5rR2VuZXJhbCDmmI7mloflm57lkJDnmoQgcGFzc3dk77yI6YG/5YWN5LiL6L295Zug57y65a+G56CB5oqlIDkxODjvvIkKICAgICAgICAgICAgdmFsIGxlYWtlZFB3ZCA9IGFwaS5nZXRPdXRMaW5rUGFzc3dvcmQocGFyc2VkLnNoYXJlSWQpCiAgICAgICAgICAgIHZhbCBwYXNzd2QgPSBwd2Q/LnRha2VJZiB7IGl0LmlzTm90QmxhbmsoKSB9ID86IGxlYWtlZFB3ZC5vckVtcHR5KCkKICAgICAgICAgICAgLy8g5qCH6aKY5LuOIGdldE91dExpbmtHZW5lcmFsIOaLv++8iOWksei0peWbnumAgOefremTviBJRO+8iQogICAgICAgICAgICB2YWwgdGl0bGUgPSBhcGkuZ2V0T3V0TGlua1RpdGxlKHBhcnNlZC5zaGFyZUlkKQogICAgICAgICAgICAgICAgPy50YWtlSWYgeyBpdC5pc05vdEJsYW5rKCkgfSA/OiBwYXJzZWQuc2hhcmVJZAogICAgICAgICAgICBTaGFyZVNlc3Npb24ocGFyc2VkLnNoYXJlSWQsIHBhc3N3ZCwgdGl0bGUpCiAgICAgICAgfS5mb2xkKAogICAgICAgICAgICBvblN1Y2Nlc3MgPSB7IFJlc3VsdC5zdWNjZXNzKGl0KSB9LAogICAgICAgICAgICBvbkZhaWx1cmUgPSB7IFJlc3VsdC5mYWlsdXJlKGl0KSB9CiAgICAgICAgKQogICAgfQoKICAgIG92ZXJyaWRlIHN1c3BlbmQgZnVuIGxpc3RGaWxlcyhzZXNzaW9uOiBTaGFyZVNlc3Npb24sIGRpckZpZDogU3RyaW5nLCBjb29raWU6IFN0cmluZyk6IFJlc3VsdDxMaXN0PFNoYXJlRmlsZT4+ID0KICAgICAgICBydW5DYXRjaGluZyB7CiAgICAgICAgICAgIC8vIOWIl+ihqOerr+eCueS4uuWMv+WQjeiwg+eUqO+8iMKnOTUzMOS/ruWkjeaWh+ahoyDCpzPvvInvvJrml6DpnIAgYXV0aG9yaXphdGlvbi9hY2NvdW5077yMQXBpIOWGhemDqOi1sOWMv+WQjeivt+axggogICAgICAgICAgICAvLyBwQ2FJRCDmoLnnm67lvZXlv4XpobvkvKAgInJvb3Qi77yIwqcxNi4y77ya56m65Liy5Lya5oqlIHBDYUlE5LiN6IO95Li656m677yJ77yM5a2Q55uu5b2V5Lyg54i2IGNhSUQgLyBjb0lECiAgICAgICAgICAgIHZhbCBwY2FJZCA9IGlmIChkaXJGaWQgPT0gIjAiIHx8IGRpckZpZC5pc0JsYW5rKCkpICJyb290IiBlbHNlIGRpckZpZAogICAgICAgICAgICAvLyBwYXNzd2QgPSDliIbkuqvmj5Dlj5bnoIHvvIhjcmVhdGVTZXNzaW9uIOaXtuWtmOWFpSBzdG9rZW7vvJvml6DliJnnqbrkuLLvvIkKICAgICAgICAgICAgdmFsIGFsbCA9IG11dGFibGVMaXN0T2Y8U2hhcmVGaWxlPigpCiAgICAgICAgICAgIHZhciBiZWdpbiA9IDEKICAgICAgICAgICAgZG8gewogICAgICAgICAgICAgICAgdmFsIGJhdGNoID0gYXBpLmdldFNoYXJlRmlsZXMoc2Vzc2lvbi5zaGFyZUlkLCBwY2FJZCwgc2Vzc2lvbi5zdG9rZW4sIGJlZ2luLCBiZWdpbiArIDE5OSkKICAgICAgICAgICAgICAgIGFsbCArPSBiYXRjaAogICAgICAgICAgICAgICAgYmVnaW4gKz0gMjAwCiAgICAgICAgICAgIH0gd2hpbGUgKGJhdGNoLnNpemUgPT0gMjAwICYmIGJlZ2luIDw9IDIwXzAwMCkKICAgICAgICAgICAgYWxsCiAgICAgICAgfS5mb2xkKAogICAgICAgICAgICBvblN1Y2Nlc3MgPSB7IFJlc3VsdC5zdWNjZXNzKGl0KSB9LAogICAgICAgICAgICBvbkZhaWx1cmUgPSB7IFJlc3VsdC5mYWlsdXJlKGl0KSB9CiAgICAgICAgKQoKICAgIC8qKiAxMzkg5YiG5Lqr5LiN6ZyA6KaB6L2s5a2YL+S4quS6uue9keebmOebtOmTvu+8jOS/neeVmeepuuWunueOsOmBv+WFjeivr+eUqCAqLwogICAgb3ZlcnJpZGUgc3VzcGVuZCBmdW4gZW5zdXJlVGVtcERpcihjb29raWU6IFN0cmluZyk6IFJlc3VsdDxTdHJpbmc+ID0KICAgICAgICBSZXN1bHQuZmFpbHVyZShVbnN1cHBvcnRlZE9wZXJhdGlvbkV4Y2VwdGlvbigiMTM5IOWIhuS6q+aXoOmcgOi9rOWtmCIpKQoKICAgIG92ZXJyaWRlIHN1c3BlbmQgZnVuIHRyYW5zZmVyRmlsZSgKICAgICAgICBzZXNzaW9uOiBTaGFyZVNlc3Npb24sCiAgICAgICAgZmlsZTogU2hhcmVGaWxlLAogICAgICAgIHRvRGlyRmlkOiBTdHJpbmcsCiAgICAgICAgY29va2llOiBTdHJpbmcKICAgICk6IFJlc3VsdDxTdHJpbmc+ID0gcnVuQ2F0Y2hpbmcgewogICAgICAgIHZhbCBhY2NvdW50ID0gQzEzOUNvbnN0YW50cy5leHRyYWN0QWNjb3VudEZ1bGwoY29va2llKQogICAgICAgICAgICA/OiB0aHJvdyBJbGxlZ2FsU3RhdGVFeGNlcHRpb24oIueZu+W9leaAgee8uuWwkei0puWPt+S/oeaBr++8jOivt+mHjeaWsOeZu+W9lSIpCiAgICAgICAgdmFsIGF1dGhvcml6YXRpb24gPSBDMTM5Q29uc3RhbnRzLmV4dHJhY3RBdXRob3JpemF0aW9uKGNvb2tpZSkKICAgICAgICAvLyAxMzkg6L2s5a2Y77ya5Yib5bu65om56YeP5Lu75Yqh77yIQUVTIOWKoOWvhuaOpeWPo++8ieKGkiDova7or6Lmn6Xor6Lnu5Pmnpwg4oaSIOi/lOWbnui9rOWtmOWQjuaWsCBmaWxlSWQKICAgICAgICB2YWwgdGFza0lkID0gYXBpLmNyZWF0ZVRyYW5zZmVyVGFzaygKICAgICAgICAgICAgY29JRExzdCA9IGxpc3RPZihmaWxlLmZpZCksCiAgICAgICAgICAgIGNhdGFsb2dJRExzdCA9IGVtcHR5TGlzdCgpLAogICAgICAgICAgICB0b0ZvbGRlcklkID0gdG9EaXJGaWQsCiAgICAgICAgICAgIGxpbmtJRCA9IHNlc3Npb24uc2hhcmVJZCwKICAgICAgICAgICAgYWNjb3VudCA9IGFjY291bnQsCiAgICAgICAgICAgIGF1dGhvcml6YXRpb24gPSBhdXRob3JpemF0aW9uCiAgICAgICAgKSA/OiB0aHJvdyBJbGxlZ2FsU3RhdGVFeGNlcHRpb24oIuWIm+W7uui9rOWtmOS7u+WKoeWksei0pSIpCiAgICAgICAgdmFyIG5ld0lkOiBTdHJpbmc/ID0gbnVsbAogICAgICAgIGZvciAoaSBpbiAwIHVudGlsIDMwKSB7CiAgICAgICAgICAgIGtvdGxpbnguY29yb3V0aW5lcy5kZWxheSg4MDApCiAgICAgICAgICAgIHZhbCByZXN1bHQgPSBhcGkucXVlcnlUcmFuc2ZlclRhc2sodGFza0lkLCBhY2NvdW50LCBhdXRob3JpemF0aW9uKQogICAgICAgICAgICBpZiAocmVzdWx0LmRvbmUpIHsKICAgICAgICAgICAgICAgIG5ld0lkID0gcmVzdWx0Lm1hcHBpbmdbZmlsZS5maWRdCiAgICAgICAgICAgICAgICBicmVhawogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIG5ld0lkID86IHRocm93IElsbGVnYWxTdGF0ZUV4Y2VwdGlvbigi6L2s5a2Y6LaF5pe25oiW5aSx6LSlIikKICAgIH0uZm9sZCgKICAgICAgICBvblN1Y2Nlc3MgPSB7IFJlc3VsdC5zdWNjZXNzKGl0KSB9LAogICAgICAgIG9uRmFpbHVyZSA9IHsgUmVzdWx0LmZhaWx1cmUoaXQpIH0KICAgICkKCiAgICBvdmVycmlkZSBzdXNwZW5kIGZ1biBnZXREb3dubG9hZExpbmsoZmlkOiBTdHJpbmcsIGNvb2tpZTogU3RyaW5nKTogUmVzdWx0PERvd25sb2FkTGluaz4gPQogICAgICAgIFJlc3VsdC5mYWlsdXJlKFVuc3VwcG9ydGVkT3BlcmF0aW9uRXhjZXB0aW9uKCIxMzkg5YiG5Lqr6K+35L2/55SoIGdldFNoYXJlRG93bmxvYWRMaW5rIikpCgogICAgb3ZlcnJpZGUgc3VzcGVuZCBmdW4gZ2V0U2hhcmVEb3dubG9hZExpbmsoCiAgICAgICAgc2Vzc2lvbjogU2hhcmVTZXNzaW9uLAogICAgICAgIGZpbGU6IFNoYXJlRmlsZSwKICAgICAgICBjb29raWU6IFN0cmluZwogICAgKTogUmVzdWx0PERvd25sb2FkTGluaz4gPSBydW5DYXRjaGluZyB7CiAgICAgICAgdmFsIGFjY291bnQgPSBDMTM5Q29uc3RhbnRzLmV4dHJhY3RBY2NvdW50RnVsbChjb29raWUpCiAgICAgICAgICAgID86IHRocm93IElsbGVnYWxTdGF0ZUV4Y2VwdGlvbigi55m75b2V5oCB57y65bCR6LSm5Y+35L+h5oGv77yM6K+36YeN5paw55m75b2VIikKICAgICAgICB2YWwgYXV0aG9yaXphdGlvbiA9IEMxMzlDb25zdGFudHMuZXh0cmFjdEF1dGhvcml6YXRpb24oY29va2llKQogICAgICAgIHZhbCBsaW5rID0gYXBpLmdldFNoYXJlRG93bmxvYWRMaW5rKGZpbGUuZmlkLCBzZXNzaW9uLnNoYXJlSWQsIGFjY291bnQsIGF1dGhvcml6YXRpb24pCiAgICAgICAgICAgID86IHRocm93IElsbGVnYWxTdGF0ZUV4Y2VwdGlvbigi6I635Y+W5LiL6L296ZO+5o6l5aSx6LSlIikKICAgICAgICAvLyDmlofku7blkI3nlKjliJfooajph4znmoQgY29OYW1l77yIZGxGcm9tT3V0TGlua1YzIOWTjeW6lOS4jeWQq+aWh+S7tuWQje+8jOWQpuWImeS8miBmYWxsYmFjayDmiJAgY29JRCDkubHnoIHvvIkKICAgICAgICBsaW5rLmNvcHkoZmlsZW5hbWUgPSBmaWxlLmZuYW1lLmlmQmxhbmsgeyBsaW5rLmZpbGVuYW1lIH0pCiAgICB9LmZvbGQoCiAgICAgICAgb25TdWNjZXNzID0geyBSZXN1bHQuc3VjY2VzcyhpdCkgfSwKICAgICAgICBvbkZhaWx1cmUgPSB7IFJlc3VsdC5mYWlsdXJlKGl0KSB9CiAgICApCn0K
+/*
+ * YunX (云析) - A network drive share-link parser and high-speed downloader for Android.
+ * Copyright (C) 2026 CYQawa
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Affero General Public License for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
+package org.linbaogu.romhub.pan.repo
+
+import org.linbaogu.romhub.pan.C139Api
+import org.linbaogu.romhub.pan.C139Constants
+import org.linbaogu.romhub.pan.ShareLinkParser
+import org.linbaogu.romhub.pan.model.DownloadLink
+import org.linbaogu.romhub.pan.model.ShareFile
+import org.linbaogu.romhub.pan.model.ShareSession
+
+/**
+ * 139（和彩云）分享解析仓库：cookie → getOutLinkInfoV6 列目录 → dlFromOutLinkV3 直链。
+ * 139 分享无需转存（share host 直接列目录 + 取直链），credential 为登录 Cookie（含账号信息）；
+ * authorization 从 cookie 提取，分享接口按需携带（可空）。
+ * 列目录允许游客（cookie 为空）：getOutLinkInfoV6 是匿名端点；取直链仍要求登录（Agent.md §3.19）。
+ */
+class C139ResolveRepository(private val api: C139Api) : ShareResolveRepository {
+
+    override suspend fun createSession(link: String, pwd: String?, cookie: String): Result<ShareSession> {
+        val parsed = ShareLinkParser.parse(link)
+            ?: return Result.failure(IllegalArgumentException("无法识别分享链接"))
+        // 游客模式：不再要求 cookie 里含账号信息 —— 139 的列表端点（getOutLinkInfoV6）本身就是
+        // 匿名调用（account 固定空串、不带 authorization/mcloud-sign，见 C139Api.getShareFiles），
+        // 空 cookie 也能列出目录。下载/转存仍会在各自入口要求登录（见 Agent.md §3.19）。
+        return runCatching {
+            // 139 分享无 token：shareId 即 linkID，stoken 暂存提取码
+            // 密码优先级：用户手输 > 139 getOutLinkGeneral 明文回吐的 passwd（避免下载因缺密码报 9188）
+            val leakedPwd = api.getOutLinkPassword(parsed.shareId)
+            val passwd = pwd?.takeIf { it.isNotBlank() } ?: leakedPwd.orEmpty()
+            // 标题从 getOutLinkGeneral 拿（失败回退短链 ID）
+            val title = api.getOutLinkTitle(parsed.shareId)
+                ?.takeIf { it.isNotBlank() } ?: parsed.shareId
+            ShareSession(parsed.shareId, passwd, title)
+        }.fold(
+            onSuccess = { Result.success(it) },
+            onFailure = { Result.failure(it) }
+        )
+    }
+
+    override suspend fun listFiles(session: ShareSession, dirFid: String, cookie: String): Result<List<ShareFile>> =
+        runCatching {
+            // 列表端点为匿名调用（§9530修复文档 §3）：无需 authorization/account，Api 内部走匿名请求
+            // pCaID 根目录必须传 "root"（§16.2：空串会报 pCaID不能为空），子目录传父 caID / coID
+            val pcaId = if (dirFid == "0" || dirFid.isBlank()) "root" else dirFid
+            // passwd = 分享提取码（createSession 时存入 stoken；无则空串）
+            val all = mutableListOf<ShareFile>()
+            var begin = 1
+            do {
+                val batch = api.getShareFiles(session.shareId, pcaId, session.stoken, begin, begin + 199)
+                all += batch
+                begin += 200
+            } while (batch.size == 200 && begin <= 20_000)
+            all
+        }.fold(
+            onSuccess = { Result.success(it) },
+            onFailure = { Result.failure(it) }
+        )
+
+    /** 139 分享不需要转存/个人网盘直链，保留空实现避免误用 */
+    override suspend fun ensureTempDir(cookie: String): Result<String> =
+        Result.failure(UnsupportedOperationException("139 分享无需转存"))
+
+    override suspend fun transferFile(
+        session: ShareSession,
+        file: ShareFile,
+        toDirFid: String,
+        cookie: String
+    ): Result<String> = runCatching {
+        val account = C139Constants.extractAccountFull(cookie)
+            ?: throw IllegalStateException("登录态缺少账号信息，请重新登录")
+        val authorization = C139Constants.extractAuthorization(cookie)
+        // 139 转存：创建批量任务（AES 加密接口）→ 轮询查询结果 → 返回转存后新 fileId
+        val taskId = api.createTransferTask(
+            coIDLst = listOf(file.fid),
+            catalogIDLst = emptyList(),
+            toFolderId = toDirFid,
+            linkID = session.shareId,
+            account = account,
+            authorization = authorization
+        ) ?: throw IllegalStateException("创建转存任务失败")
+        var newId: String? = null
+        for (i in 0 until 30) {
+            kotlinx.coroutines.delay(800)
+            val result = api.queryTransferTask(taskId, account, authorization)
+            if (result.done) {
+                newId = result.mapping[file.fid]
+                break
+            }
+        }
+        newId ?: throw IllegalStateException("转存超时或失败")
+    }.fold(
+        onSuccess = { Result.success(it) },
+        onFailure = { Result.failure(it) }
+    )
+
+    override suspend fun getDownloadLink(fid: String, cookie: String): Result<DownloadLink> =
+        Result.failure(UnsupportedOperationException("139 分享请使用 getShareDownloadLink"))
+
+    override suspend fun getShareDownloadLink(
+        session: ShareSession,
+        file: ShareFile,
+        cookie: String
+    ): Result<DownloadLink> = runCatching {
+        val account = C139Constants.extractAccountFull(cookie)
+            ?: throw IllegalStateException("登录态缺少账号信息，请重新登录")
+        val authorization = C139Constants.extractAuthorization(cookie)
+        val link = api.getShareDownloadLink(file.fid, session.shareId, account, authorization)
+            ?: throw IllegalStateException("获取下载链接失败")
+        // 文件名用列表里的 coName（dlFromOutLinkV3 响应不含文件名，否则会 fallback 成 coID 乱码）
+        link.copy(filename = file.fname.ifBlank { link.filename })
+    }.fold(
+        onSuccess = { Result.success(it) },
+        onFailure = { Result.failure(it) }
+    )
+}

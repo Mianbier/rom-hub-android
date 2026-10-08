@@ -1,1 +1,194 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IS0tCiAgfiBUaGlzIGZpbGUgaXMgcGFydCBvZiBIeXBlckNlaWxlci4KICB+CiAgfiBIeXBlckNlaWxlciBpcyBmcmVlIHNvZnR3YXJlOiB5b3UgY2FuIHJlZGlzdHJpYnV0ZSBpdCBhbmQvb3IgbW9kaWZ5CiAgfiBpdCB1bmRlciB0aGUgdGVybXMgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBhcwogIH4gcHVibGlzaGVkIGJ5IHRoZSBGcmVlIFNvZnR3YXJlIEZvdW5kYXRpb24sIGVpdGhlciB2ZXJzaW9uIDMgb2YgdGhlCiAgfiBMaWNlbnNlLgogIH4KICB+IFRoaXMgcHJvZ3JhbSBpcyBkaXN0cmlidXRlZCBpbiB0aGUgaG9wZSB0aGF0IGl0IHdpbGwgYmUgdXNlZnVsLAogIH4gYnV0IFdJVEhPVVQgQU5ZIFdBUlJBTlRZOyB3aXRob3V0IGV2ZW4gdGhlIGltcGxpZWQgd2FycmFudHkgb2YKICB+IE1FUkNIQU5UQUJJTElUWSBvciBGSVRORVNTIEZPUiBBIFBBUlRJQ1VMQVIgUFVSUE9TRS4gIFNlZSB0aGUKICB+IEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBmb3IgbW9yZSBkZXRhaWxzLgogIH4KICB+IFlvdSBzaG91bGQgaGF2ZSByZWNlaXZlZCBhIGNvcHkgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZQogIH4gYWxvbmcgd2l0aCB0aGlzIHByb2dyYW0uICBJZiBub3QsIHNlZSA8aHR0cHM6Ly93d3cuZ251Lm9yZy9saWNlbnNlcy8+LgogIH4KICB+IENvcHlyaWdodCAoQykgMjAyMy0yMDI2IEh5cGVyQ2VpbGVyIENvbnRyaWJ1dGlvbnMKICAtLT4KPFByZWZlcmVuY2VTY3JlZW4geG1sbnM6YW5kcm9pZD0iaHR0cDovL3NjaGVtYXMuYW5kcm9pZC5jb20vYXBrL3Jlcy9hbmRyb2lkIgogICAgeG1sbnM6YXBwPSJodHRwOi8vc2NoZW1hcy5hbmRyb2lkLmNvbS9hcGsvcmVzLWF1dG8iCiAgICBhcHA6bXlMb2NhdGlvbj0iQHN0cmluZy9ob21lX2RvY2siCiAgICBhcHA6cXVpY2tfcmVzdGFydD0iY29tLm1pdWkuaG9tZSI+CiAgICA8UHJlZmVyZW5jZUNhdGVnb3J5PgogICAgICAgIDxTd2l0Y2hQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6ZGVmYXVsdFZhbHVlPSJmYWxzZSIKICAgICAgICAgICAgYW5kcm9pZDprZXk9InByZWZzX2tleV9ob21lX2RvY2tfdW5sb2NrX2hvdHNlYXQiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvaG9tZV9kb2NrX3VubG9ja19ob3RzZWF0IiAvPgoKICAgICAgICA8U3dpdGNoUHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOmRlZmF1bHRWYWx1ZT0iZmFsc2UiCiAgICAgICAgICAgIGFuZHJvaWQ6a2V5PSJwcmVmc19rZXlfaG9tZV9kb2NrX2Rpc2FibGVfcmVjZW50c19pY29uIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJAc3RyaW5nL2hvbWVfZG9ja19kaXNhYmxlX3JlY2VudHNfaWNvbiIgLz4KCiAgICAgICAgPFN3aXRjaFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpkZWZhdWx0VmFsdWU9ImZhbHNlIgogICAgICAgICAgICBhbmRyb2lkOmtleT0icHJlZnNfa2V5X2hvbWVfZG9ja19pY29uX3RpdGxlIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJAc3RyaW5nL2hvbWVfZG9ja19pY29uX3RpdGxlIiAvPgoKICAgICAgICA8U3dpdGNoUHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOmRlZmF1bHRWYWx1ZT0iZmFsc2UiCiAgICAgICAgICAgIGFuZHJvaWQ6ZGlzYWJsZURlcGVuZGVudHNTdGF0ZT0idHJ1ZSIKICAgICAgICAgICAgYW5kcm9pZDprZXk9InByZWZzX2tleV9ob21lX2RvY2tfaGlkZV9kb2NrIgogICAgICAgICAgICBhbmRyb2lkOnN1bW1hcnk9IkBzdHJpbmcvaG9tZV9kb2NrX2hpZGVfZG9ja19kZXNjIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJAc3RyaW5nL2hvbWVfZG9ja19oaWRlX2RvY2siCiAgICAgICAgICAgIGFwcDppc1ByZWZlcmVuY2VWaXNpYmxlPSJmYWxzZSIgLz4KCiAgICAgICAgPFN3aXRjaFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpkZWZhdWx0VmFsdWU9ImZhbHNlIgogICAgICAgICAgICBhbmRyb2lkOmRlcGVuZGVuY3k9InByZWZzX2tleV9ob21lX2RvY2tfaGlkZV9kb2NrIgogICAgICAgICAgICBhbmRyb2lkOmtleT0icHJlZnNfa2V5X2hvbWVfZG9ja19zbGlkZV91cF9vbmx5X3Nob3dfZG9jayIKICAgICAgICAgICAgYW5kcm9pZDpzdW1tYXJ5PSJAc3RyaW5nL2hvbWVfZG9ja19zbGlkZV91cF9vbmx5X3Nob3dfZG9ja19kZXNjIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJAc3RyaW5nL2hvbWVfZG9ja19zbGlkZV91cF9vbmx5X3Nob3dfZG9jayIKICAgICAgICAgICAgYXBwOmlzUHJlZmVyZW5jZVZpc2libGU9ImZhbHNlIiAvPgoKICAgIDwvUHJlZmVyZW5jZUNhdGVnb3J5PgoKICAgIDxQcmVmZXJlbmNlQ2F0ZWdvcnk+CiAgICAgICAgPFN3aXRjaFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpkZWZhdWx0VmFsdWU9ImZhbHNlIgogICAgICAgICAgICBhbmRyb2lkOmtleT0icHJlZnNfa2V5X2hvbWVfZG9ja19iZ19jdXN0b21fZW5hYmxlIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJAc3RyaW5nL2hvbWVfZG9ja19iZ19lbmFibGUiIC8+CgogICAgICAgIDxmYW4ucHJlZmVyZW5jZS5Ecm9wRG93blByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpkZWZhdWx0VmFsdWU9ImRheWJyZWFrIgogICAgICAgICAgICBhbmRyb2lkOmRlcGVuZGVuY3k9InByZWZzX2tleV9ob21lX2RvY2tfYmdfY3VzdG9tX2VuYWJsZSIKICAgICAgICAgICAgYW5kcm9pZDprZXk9InByZWZzX2tleV9ob21lX2RvY2tfdW5sb2NrX3N0eWxlIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJAc3RyaW5nL2hvbWVfZG9ja191bmxvY2tfc3R5bGUiCiAgICAgICAgICAgIGFwcDplbnRyaWVzPSJAYXJyYXkvaG9tZV9kb2NrX3VubG9ja19zdHlsZSIKICAgICAgICAgICAgYXBwOmVudHJ5VmFsdWVzPSJAYXJyYXkvaG9tZV9kb2NrX3VubG9ja19zdHlsZV92YWx1ZSIgLz4KCiAgICAgICAgPFN3aXRjaFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpkZWZhdWx0VmFsdWU9ImZhbHNlIgogICAgICAgICAgICBhbmRyb2lkOmtleT0icHJlZnNfa2V5X2hvbWVfZG9ja19iZ19hbGxfYXBwIgogICAgICAgICAgICBhbmRyb2lkOnN1bW1hcnk9IkBzdHJpbmcvaG9tZV9kb2NrX2JnX2FsbF9hcHBfbW9yZSIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iQHN0cmluZy9ob21lX2RvY2tfYmdfYWxsX2FwcCIgLz4KCiAgICAgICAgPGZhbi5wcmVmZXJlbmNlLkRyb3BEb3duUHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOmRlZmF1bHRWYWx1ZT0iMCIKICAgICAgICAgICAgYW5kcm9pZDpkZXBlbmRlbmN5PSJwcmVmc19rZXlfaG9tZV9kb2NrX2JnX2N1c3RvbV9lbmFibGUiCiAgICAgICAgICAgIGFuZHJvaWQ6a2V5PSJwcmVmc19rZXlfaG9tZV9kb2NrX2FkZF9ibHVyIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJAc3RyaW5nL2hvbWVfZG9ja19hZGRfYmx1ciIKICAgICAgICAgICAgYXBwOmVudHJpZXM9IkBhcnJheS9ibHVyX3N3aXRjaCIKICAgICAgICAgICAgYXBwOmVudHJ5VmFsdWVzPSJAYXJyYXkvYmx1cl9zd2l0Y2hfdmFsdWUiIC8+CgogICAgICAgIDxQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6ZGVwZW5kZW5jeT0icHJlZnNfa2V5X2hvbWVfZG9ja19iZ19jdXN0b21fZW5hYmxlIgogICAgICAgICAgICBhbmRyb2lkOmZyYWdtZW50PSJjb20uc2V2dGluZ2UuaHlwZXJjZWlsZXIuc3ViLkN1c3RvbUJhY2tncm91bmRTZXR0aW5ncyIKICAgICAgICAgICAgYW5kcm9pZDprZXk9InByZWZzX2tleV9ob21lX2RvY2tfYmdfY3VzdG9tIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJAc3RyaW5nL2hvbWVfZG9ja19iZ19jdXN0b20iIC8+CgogICAgICAgIDxTZWVrQmFyUHJlZmVyZW5jZUNvbXBhdAogICAgICAgICAgICBhbmRyb2lkOmRlcGVuZGVuY3k9InByZWZzX2tleV9ob21lX2RvY2tfYmdfY3VzdG9tX2VuYWJsZSIKICAgICAgICAgICAgYW5kcm9pZDprZXk9InByZWZzX2tleV9ob21lX2RvY2tfYmdfaGVpZ2h0IgogICAgICAgICAgICBhbmRyb2lkOnN1bW1hcnk9IkBzdHJpbmcvaG9tZV9kb2NrX2JnX2hlaWdodF9kZXNjIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJAc3RyaW5nL2hvbWVfZG9ja19iZ19oZWlnaHQiCiAgICAgICAgICAgIGFwcDpkZWZhdWx0VmFsdWU9IjE1MCIKICAgICAgICAgICAgYXBwOmRlZmF1bHRWYWx1ZVRpdGxlPSJAc3RyaW5nL2FycmF5X2RlZmF1bHQiCiAgICAgICAgICAgIGFwcDpmb3JtYXQ9IiVzIGRwIgogICAgICAgICAgICBhcHA6bWF4VmFsdWU9IjMwMCIKICAgICAgICAgICAgYXBwOnNob3dTZWVrQmFyVmFsdWU9InRydWUiCiAgICAgICAgICAgIGFwcDpzdGVwVmFsdWU9IjEiIC8+CgogICAgICAgIDxTZWVrQmFyUHJlZmVyZW5jZUNvbXBhdAogICAgICAgICAgICBhbmRyb2lkOmRlcGVuZGVuY3k9InByZWZzX2tleV9ob21lX2RvY2tfYmdfY3VzdG9tX2VuYWJsZSIKICAgICAgICAgICAgYW5kcm9pZDprZXk9InByZWZzX2tleV9ob21lX2RvY2tfYmdfbWFyZ2luX2hvcml6b250YWwiCiAgICAgICAgICAgIGFuZHJvaWQ6c3VtbWFyeT0iQHN0cmluZy9ob21lX2RvY2tfYmdfbWFyZ2luX2hvcml6b250YWxfZGVzYyIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iQHN0cmluZy9ob21lX2RvY2tfYmdfbWFyZ2luX2hvcml6b250YWwiCiAgICAgICAgICAgIGFwcDpkZWZhdWx0VmFsdWU9IjI1IgogICAgICAgICAgICBhcHA6ZGVmYXVsdFZhbHVlVGl0bGU9IkBzdHJpbmcvYXJyYXlfZGVmYXVsdCIKICAgICAgICAgICAgYXBwOmZvcm1hdD0iJXMgZHAiCiAgICAgICAgICAgIGFwcDptYXhWYWx1ZT0iMTYwIgogICAgICAgICAgICBhcHA6c2hvd1NlZWtCYXJWYWx1ZT0idHJ1ZSIKICAgICAgICAgICAgYXBwOnN0ZXBWYWx1ZT0iMSIgLz4KCiAgICAgICAgPCEtLVNlZWtCYXJQcmVmZXJlbmNlQ29tcGF0CiAgICAgICAgICAgIGFuZHJvaWQ6a2V5PSJwcmVmc19rZXlfaG9tZV9kb2NrX2JnX21hcmdpbl90b3AiCiAgICAgICAgICAgIGFuZHJvaWQ6ZGVwZW5kZW5jeT0icHJlZnNfa2V5X2hvbWVfZG9ja19iZ19jdXN0b21fZW5hYmxlIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJAc3RyaW5nL3RvcF9tYXJnaW4iCiAgICAgICAgICAgIGFuZHJvaWQ6c3VtbWFyeT0iQHN0cmluZy9ob21lX2RvY2tfYmdfbWFyZ2luX3RvcF9kZXNjIgogICAgICAgICAgICBhbmRyb2lkOmRlZmF1bHRWYWx1ZT0iMjUiCiAgICAgICAgICAgIGFwcDpkZWZhdWx0VmFsdWVUaXRsZT0iQHN0cmluZy9hcnJheV9kZWZhdWx0IgogICAgICAgICAgICBhcHA6bWF4VmFsdWU9IjE1MCIKICAgICAgICAgICAgYXBwOnN0ZXBWYWx1ZT0iMSIKICAgICAgICAgICAgYXBwOmZvcm1hdD0iJXMgZHAiCiAgICAgICAgICAgIGFwcDpzaG93U2Vla0JhclZhbHVlPSJ0cnVlIiAvLS0+CgogICAgICAgIDxTZWVrQmFyUHJlZmVyZW5jZUNvbXBhdAogICAgICAgICAgICBhbmRyb2lkOmRlcGVuZGVuY3k9InByZWZzX2tleV9ob21lX2RvY2tfYmdfY3VzdG9tX2VuYWJsZSIKICAgICAgICAgICAgYW5kcm9pZDprZXk9InByZWZzX2tleV9ob21lX2RvY2tfYmdfbWFyZ2luX2JvdHRvbSIKICAgICAgICAgICAgYW5kcm9pZDpzdW1tYXJ5PSJAc3RyaW5nL2hvbWVfZG9ja19iZ19tYXJnaW5fYm90dG9tX2Rlc2MiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvYm90dG9tX21hcmdpbiIKICAgICAgICAgICAgYXBwOmRlZmF1bHRWYWx1ZT0iMTUiCiAgICAgICAgICAgIGFwcDpkZWZhdWx0VmFsdWVUaXRsZT0iQHN0cmluZy9hcnJheV9kZWZhdWx0IgogICAgICAgICAgICBhcHA6Zm9ybWF0PSIlcyBkcCIKICAgICAgICAgICAgYXBwOm1heFZhbHVlPSIxNTAiCiAgICAgICAgICAgIGFwcDpzaG93U2Vla0JhclZhbHVlPSJ0cnVlIgogICAgICAgICAgICBhcHA6c3RlcFZhbHVlPSIxIiAvPgoKICAgICAgICA8U2Vla0JhclByZWZlcmVuY2VDb21wYXQKICAgICAgICAgICAgYW5kcm9pZDpkZXBlbmRlbmN5PSJwcmVmc19rZXlfaG9tZV9kb2NrX2JnX2N1c3RvbV9lbmFibGUiCiAgICAgICAgICAgIGFuZHJvaWQ6a2V5PSJwcmVmc19rZXlfaG9tZV9kb2NrX2JnX3JhZGl1cyIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iQHN0cmluZy9jdXN0b21fYmFja2dyb3VuZF9jb3JuZXJfcmFkaXVzIgogICAgICAgICAgICBhcHA6ZGVmYXVsdFZhbHVlPSIzMCIKICAgICAgICAgICAgYXBwOmRlZmF1bHRWYWx1ZVRpdGxlPSJAc3RyaW5nL2FycmF5X2RlZmF1bHQiCiAgICAgICAgICAgIGFwcDpmb3JtYXQ9IiVzIGRwIgogICAgICAgICAgICBhcHA6bWF4VmFsdWU9IjYwIgogICAgICAgICAgICBhcHA6c2hvd1NlZWtCYXJWYWx1ZT0idHJ1ZSIKICAgICAgICAgICAgYXBwOnN0ZXBWYWx1ZT0iMSIgLz4KCiAgICAgICAgPCEtLTxTZWVrQmFyUHJlZmVyZW5jZUNvbXBhdAogICAgICAgICAgICBhcHA6ZGVmYXVsdFZhbHVlPSIyMDAiCiAgICAgICAgICAgIGFuZHJvaWQ6ZGVwZW5kZW5jeT0icHJlZnNfa2V5X2hvbWVfZG9ja19iZ19jdXN0b21fZW5hYmxlIgogICAgICAgICAgICBhbmRyb2lkOmtleT0icHJlZnNfa2V5X2N1c3RvbV9iYWNrZ3JvdW5kX2JsdXJfZGVncmVlIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJAc3RyaW5nL2N1c3RvbV9iYWNrZ3JvdW5kX2JsdXJfZGVncmVlIgogICAgICAgICAgICBhcHA6ZGVmYXVsdFZhbHVlVGl0bGU9IkBzdHJpbmcvYXJyYXlfZGVmYXVsdCIKICAgICAgICAgICAgYXBwOmZvcm1hdD0iJXMgYmwiCiAgICAgICAgICAgIGFwcDptYXhWYWx1ZT0iNTAwIgogICAgICAgICAgICBhcHA6c2hvd1NlZWtCYXJWYWx1ZT0idHJ1ZSIKICAgICAgICAgICAgYXBwOnN0ZXBWYWx1ZT0iMSIgLz4tLT4KCiAgICAgICAgPENvbG9yUGlja2VyUHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOmRlZmF1bHRWYWx1ZT0iMCIKICAgICAgICAgICAgYW5kcm9pZDpkZXBlbmRlbmN5PSJwcmVmc19rZXlfaG9tZV9kb2NrX2JnX2N1c3RvbV9lbmFibGUiCiAgICAgICAgICAgIGFuZHJvaWQ6a2V5PSJwcmVmc19rZXlfaG9tZV9kb2NrX2JnX2NvbG9yIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJAc3RyaW5nL2hvbWVfZG9ja19iZ19jb2xvciIgLz4KCiAgICAgICAgPCEtLTxTZWVrQmFyUHJlZmVyZW5jZUNvbXBhdAogICAgICAgICAgICBhbmRyb2lkOmtleT0icHJlZnNfa2V5X2hvbWVfZG9ja19pY29uX21hcmdpbl9ib3R0b20iCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvaG9tZV9kb2NrX2ljb25fbWFyZ2luX2JvdHRvbSIKICAgICAgICAgICAgYW5kcm9pZDpzdW1tYXJ5PSJAc3RyaW5nL2hvbWVfZG9ja19pY29uX21hcmdpbl9ib3R0b21fZGVzYyIKICAgICAgICAgICAgYW5kcm9pZDpkZWZhdWx0VmFsdWU9IjkwIgogICAgICAgICAgICBhcHA6bWF4VmFsdWU9IjIwMCIKICAgICAgICAgICAgYW5kcm9pZDpmb3JtYXQ9IiVkIGRwIgogICAgICAgICAgICBhcHA6c3RlcFZhbHVlPSIxIgogICAgICAgICAgICBhbmRyb2lkOmRlcGVuZGVuY3k9InByZWZzX2tleV9ob21lX2RvY2tfYmdfY3VzdG9tX2VuYWJsZSIgLz4KCiAgICAgICAgPFNlZWtCYXJQcmVmZXJlbmNlQ29tcGF0CiAgICAgICAgICAgIGFuZHJvaWQ6a2V5PSJwcmVmc19rZXlfaG9tZV9kb2NrX2ljb25fYm90dG9tX21hcmdpbiIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iQHN0cmluZy9ob21lX2RvY2tfaWNvbl9ib3R0b21fbWFyZ2luIgogICAgICAgICAgICBhbmRyb2lkOmRlZmF1bHRWYWx1ZT0iMzUiCiAgICAgICAgICAgIGFwcDptYXhWYWx1ZT0iMTAwIgogICAgICAgICAgICBhcHA6c3RlcFZhbHVlPSIxIgogICAgICAgICAgICBhbmRyb2lkOmRlcGVuZGVuY3k9InByZWZzX2tleV9ob21lX2RvY2tfYmdfY3VzdG9tX2VuYWJsZSIgLz4KCiAgICAgICAgPFNlZWtCYXJQcmVmZXJlbmNlQ29tcGF0CiAgICAgICAgICAgIGFuZHJvaWQ6a2V5PSJwcmVmc19rZXlfaG9tZV9kb2NrX21hcmdpbl9ib3R0b20iCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvaG9tZV9kb2NrX21hcmdpbl9ib3R0b20iCiAgICAgICAgICAgIGFuZHJvaWQ6ZGVmYXVsdFZhbHVlPSI2MCIKICAgICAgICAgICAgYXBwOm1heFZhbHVlPSIxMDAiCiAgICAgICAgICAgIGFwcDpzdGVwVmFsdWU9IjEiCiAgICAgICAgICAgIGFuZHJvaWQ6ZGVwZW5kZW5jeT0icHJlZnNfa2V5X2hvbWVfZG9ja19iZ19jdXN0b21fZW5hYmxlIiAvPi0tPgoKICAgIDwvUHJlZmVyZW5jZUNhdGVnb3J5Pgo8L1ByZWZlcmVuY2VTY3JlZW4+
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ This file is part of HyperCeiler.
+  ~
+  ~ HyperCeiler is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU Affero General Public License as
+  ~ published by the Free Software Foundation, either version 3 of the
+  ~ License.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU Affero General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU Affero General Public License
+  ~ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+  ~
+  ~ Copyright (C) 2023-2026 HyperCeiler Contributions
+  -->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:myLocation="@string/home_dock"
+    app:quick_restart="com.miui.home">
+    <PreferenceCategory>
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefs_key_home_dock_unlock_hotseat"
+            android:title="@string/home_dock_unlock_hotseat" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefs_key_home_dock_disable_recents_icon"
+            android:title="@string/home_dock_disable_recents_icon" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefs_key_home_dock_icon_title"
+            android:title="@string/home_dock_icon_title" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:disableDependentsState="true"
+            android:key="prefs_key_home_dock_hide_dock"
+            android:summary="@string/home_dock_hide_dock_desc"
+            android:title="@string/home_dock_hide_dock"
+            app:isPreferenceVisible="false" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:dependency="prefs_key_home_dock_hide_dock"
+            android:key="prefs_key_home_dock_slide_up_only_show_dock"
+            android:summary="@string/home_dock_slide_up_only_show_dock_desc"
+            android:title="@string/home_dock_slide_up_only_show_dock"
+            app:isPreferenceVisible="false" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory>
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefs_key_home_dock_bg_custom_enable"
+            android:title="@string/home_dock_bg_enable" />
+
+        <fan.preference.DropDownPreference
+            android:defaultValue="daybreak"
+            android:dependency="prefs_key_home_dock_bg_custom_enable"
+            android:key="prefs_key_home_dock_unlock_style"
+            android:title="@string/home_dock_unlock_style"
+            app:entries="@array/home_dock_unlock_style"
+            app:entryValues="@array/home_dock_unlock_style_value" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefs_key_home_dock_bg_all_app"
+            android:summary="@string/home_dock_bg_all_app_more"
+            android:title="@string/home_dock_bg_all_app" />
+
+        <fan.preference.DropDownPreference
+            android:defaultValue="0"
+            android:dependency="prefs_key_home_dock_bg_custom_enable"
+            android:key="prefs_key_home_dock_add_blur"
+            android:title="@string/home_dock_add_blur"
+            app:entries="@array/blur_switch"
+            app:entryValues="@array/blur_switch_value" />
+
+        <Preference
+            android:dependency="prefs_key_home_dock_bg_custom_enable"
+            android:fragment="com.sevtinge.hyperceiler.sub.CustomBackgroundSettings"
+            android:key="prefs_key_home_dock_bg_custom"
+            android:title="@string/home_dock_bg_custom" />
+
+        <SeekBarPreferenceCompat
+            android:dependency="prefs_key_home_dock_bg_custom_enable"
+            android:key="prefs_key_home_dock_bg_height"
+            android:summary="@string/home_dock_bg_height_desc"
+            android:title="@string/home_dock_bg_height"
+            app:defaultValue="150"
+            app:defaultValueTitle="@string/array_default"
+            app:format="%s dp"
+            app:maxValue="300"
+            app:showSeekBarValue="true"
+            app:stepValue="1" />
+
+        <SeekBarPreferenceCompat
+            android:dependency="prefs_key_home_dock_bg_custom_enable"
+            android:key="prefs_key_home_dock_bg_margin_horizontal"
+            android:summary="@string/home_dock_bg_margin_horizontal_desc"
+            android:title="@string/home_dock_bg_margin_horizontal"
+            app:defaultValue="25"
+            app:defaultValueTitle="@string/array_default"
+            app:format="%s dp"
+            app:maxValue="160"
+            app:showSeekBarValue="true"
+            app:stepValue="1" />
+
+        <!--SeekBarPreferenceCompat
+            android:key="prefs_key_home_dock_bg_margin_top"
+            android:dependency="prefs_key_home_dock_bg_custom_enable"
+            android:title="@string/top_margin"
+            android:summary="@string/home_dock_bg_margin_top_desc"
+            android:defaultValue="25"
+            app:defaultValueTitle="@string/array_default"
+            app:maxValue="150"
+            app:stepValue="1"
+            app:format="%s dp"
+            app:showSeekBarValue="true" /-->
+
+        <SeekBarPreferenceCompat
+            android:dependency="prefs_key_home_dock_bg_custom_enable"
+            android:key="prefs_key_home_dock_bg_margin_bottom"
+            android:summary="@string/home_dock_bg_margin_bottom_desc"
+            android:title="@string/bottom_margin"
+            app:defaultValue="15"
+            app:defaultValueTitle="@string/array_default"
+            app:format="%s dp"
+            app:maxValue="150"
+            app:showSeekBarValue="true"
+            app:stepValue="1" />
+
+        <SeekBarPreferenceCompat
+            android:dependency="prefs_key_home_dock_bg_custom_enable"
+            android:key="prefs_key_home_dock_bg_radius"
+            android:title="@string/custom_background_corner_radius"
+            app:defaultValue="30"
+            app:defaultValueTitle="@string/array_default"
+            app:format="%s dp"
+            app:maxValue="60"
+            app:showSeekBarValue="true"
+            app:stepValue="1" />
+
+        <!--<SeekBarPreferenceCompat
+            app:defaultValue="200"
+            android:dependency="prefs_key_home_dock_bg_custom_enable"
+            android:key="prefs_key_custom_background_blur_degree"
+            android:title="@string/custom_background_blur_degree"
+            app:defaultValueTitle="@string/array_default"
+            app:format="%s bl"
+            app:maxValue="500"
+            app:showSeekBarValue="true"
+            app:stepValue="1" />-->
+
+        <ColorPickerPreference
+            android:defaultValue="0"
+            android:dependency="prefs_key_home_dock_bg_custom_enable"
+            android:key="prefs_key_home_dock_bg_color"
+            android:title="@string/home_dock_bg_color" />
+
+        <!--<SeekBarPreferenceCompat
+            android:key="prefs_key_home_dock_icon_margin_bottom"
+            android:title="@string/home_dock_icon_margin_bottom"
+            android:summary="@string/home_dock_icon_margin_bottom_desc"
+            android:defaultValue="90"
+            app:maxValue="200"
+            android:format="%d dp"
+            app:stepValue="1"
+            android:dependency="prefs_key_home_dock_bg_custom_enable" />
+
+        <SeekBarPreferenceCompat
+            android:key="prefs_key_home_dock_icon_bottom_margin"
+            android:title="@string/home_dock_icon_bottom_margin"
+            android:defaultValue="35"
+            app:maxValue="100"
+            app:stepValue="1"
+            android:dependency="prefs_key_home_dock_bg_custom_enable" />
+
+        <SeekBarPreferenceCompat
+            android:key="prefs_key_home_dock_margin_bottom"
+            android:title="@string/home_dock_margin_bottom"
+            android:defaultValue="60"
+            app:maxValue="100"
+            app:stepValue="1"
+            android:dependency="prefs_key_home_dock_bg_custom_enable" />-->
+
+    </PreferenceCategory>
+</PreferenceScreen>

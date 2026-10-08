@@ -1,1 +1,40 @@
-Ly8gQWRhcHRlZCBmcm9tIEt5YW50MC9BbmRyb2lkTGlxdWlkR2xhc3MgKEFwYWNoZSAyLjApCi8vIHZpYSBLZXJuZWxTVSB1aS9jb21wb25lbnQvbGlxdWlkL0NvbWJpbmVkQmFja2Ryb3Aua3Qg4oCUIOWOn+agt+enu+akjeOAggoKcGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLnVpLmxpcXVpZAoKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5Db21wb3NhYmxlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuU3RhYmxlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUucmVtZW1iZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuZ3JhcGhpY3MuR3JhcGhpY3NMYXllclNjb3BlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmdyYXBoaWNzLmRyYXdzY29wZS5EcmF3U2NvcGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkubGF5b3V0LkxheW91dENvb3JkaW5hdGVzCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnVuaXQuRGVuc2l0eQppbXBvcnQgdG9wLnl1a29uZ2EubWl1aXgua21wLmJsdXIuQmFja2Ryb3AKCkBTdGFibGUKY2xhc3MgQ29tYmluZWRCYWNrZHJvcCgKICAgIHZhbCBmaXJzdDogQmFja2Ryb3AsCiAgICB2YWwgc2Vjb25kOiBCYWNrZHJvcCwKKSA6IEJhY2tkcm9wIHsKCiAgICBvdmVycmlkZSB2YWwgaXNDb29yZGluYXRlc0RlcGVuZGVudDogQm9vbGVhbiA9CiAgICAgICAgZmlyc3QuaXNDb29yZGluYXRlc0RlcGVuZGVudCB8fCBzZWNvbmQuaXNDb29yZGluYXRlc0RlcGVuZGVudAoKICAgIG92ZXJyaWRlIHZhbCBvZmZzZXRSZXNpZHVhbFg6IEZsb2F0IGdldCgpID0gZmlyc3Qub2Zmc2V0UmVzaWR1YWxYCiAgICBvdmVycmlkZSB2YWwgb2Zmc2V0UmVzaWR1YWxZOiBGbG9hdCBnZXQoKSA9IGZpcnN0Lm9mZnNldFJlc2lkdWFsWQoKICAgIG92ZXJyaWRlIGZ1biBEcmF3U2NvcGUuZHJhd0JhY2tkcm9wKAogICAgICAgIGRlbnNpdHk6IERlbnNpdHksCiAgICAgICAgY29vcmRpbmF0ZXM6IExheW91dENvb3JkaW5hdGVzPywKICAgICAgICBsYXllckJsb2NrOiAoR3JhcGhpY3NMYXllclNjb3BlLigpIC0+IFVuaXQpPywKICAgICAgICBkb3duc2NhbGVGYWN0b3I6IEludCwKICAgICkgewogICAgICAgIHdpdGgoZmlyc3QpIHsgZHJhd0JhY2tkcm9wKGRlbnNpdHksIGNvb3JkaW5hdGVzLCBsYXllckJsb2NrLCBkb3duc2NhbGVGYWN0b3IpIH0KICAgICAgICB3aXRoKHNlY29uZCkgeyBkcmF3QmFja2Ryb3AoZGVuc2l0eSwgY29vcmRpbmF0ZXMsIGxheWVyQmxvY2ssIGRvd25zY2FsZUZhY3RvcikgfQogICAgfQp9CgpAQ29tcG9zYWJsZQpmdW4gcmVtZW1iZXJDb21iaW5lZEJhY2tkcm9wKGZpcnN0OiBCYWNrZHJvcCwgc2Vjb25kOiBCYWNrZHJvcCk6IEJhY2tkcm9wID0KICAgIHJlbWVtYmVyKGZpcnN0LCBzZWNvbmQpIHsgQ29tYmluZWRCYWNrZHJvcChmaXJzdCwgc2Vjb25kKSB9Cg==
+// Adapted from Kyant0/AndroidLiquidGlass (Apache 2.0)
+// via KernelSU ui/component/liquid/CombinedBackdrop.kt — 原样移植。
+
+package org.linbaogu.romhub.ui.liquid
+
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.Stable
+import androidx.compose.runtime.remember
+import androidx.compose.ui.graphics.GraphicsLayerScope
+import androidx.compose.ui.graphics.drawscope.DrawScope
+import androidx.compose.ui.layout.LayoutCoordinates
+import androidx.compose.ui.unit.Density
+import top.yukonga.miuix.kmp.blur.Backdrop
+
+@Stable
+class CombinedBackdrop(
+    val first: Backdrop,
+    val second: Backdrop,
+) : Backdrop {
+
+    override val isCoordinatesDependent: Boolean =
+        first.isCoordinatesDependent || second.isCoordinatesDependent
+
+    override val offsetResidualX: Float get() = first.offsetResidualX
+    override val offsetResidualY: Float get() = first.offsetResidualY
+
+    override fun DrawScope.drawBackdrop(
+        density: Density,
+        coordinates: LayoutCoordinates?,
+        layerBlock: (GraphicsLayerScope.() -> Unit)?,
+        downscaleFactor: Int,
+    ) {
+        with(first) { drawBackdrop(density, coordinates, layerBlock, downscaleFactor) }
+        with(second) { drawBackdrop(density, coordinates, layerBlock, downscaleFactor) }
+    }
+}
+
+@Composable
+fun rememberCombinedBackdrop(first: Backdrop, second: Backdrop): Backdrop =
+    remember(first, second) { CombinedBackdrop(first, second) }

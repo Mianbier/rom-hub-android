@@ -1,1 +1,49 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0NCiAgfiBUaGlzIGZpbGUgaXMgcGFydCBvZiBIeXBlckNlaWxlci4NCiAgfg0KICB+IEh5cGVyQ2VpbGVyIGlzIGZyZWUgc29mdHdhcmU6IHlvdSBjYW4gcmVkaXN0cmlidXRlIGl0IGFuZC9vciBtb2RpZnkNCiAgfiBpdCB1bmRlciB0aGUgdGVybXMgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBhcw0KICB+IHB1Ymxpc2hlZCBieSB0aGUgRnJlZSBTb2Z0d2FyZSBGb3VuZGF0aW9uLCBlaXRoZXIgdmVyc2lvbiAzIG9mIHRoZQ0KICB+IExpY2Vuc2UuDQogIH4NCiAgfiBUaGlzIHByb2dyYW0gaXMgZGlzdHJpYnV0ZWQgaW4gdGhlIGhvcGUgdGhhdCBpdCB3aWxsIGJlIHVzZWZ1bCwNCiAgfiBidXQgV0lUSE9VVCBBTlkgV0FSUkFOVFk7IHdpdGhvdXQgZXZlbiB0aGUgaW1wbGllZCB3YXJyYW50eSBvZg0KICB+IE1FUkNIQU5UQUJJTElUWSBvciBGSVRORVNTIEZPUiBBIFBBUlRJQ1VMQVIgUFVSUE9TRS4gIFNlZSB0aGUNCiAgfiBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UgZm9yIG1vcmUgZGV0YWlscy4NCiAgfg0KICB+IFlvdSBzaG91bGQgaGF2ZSByZWNlaXZlZCBhIGNvcHkgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZQ0KICB+IGFsb25nIHdpdGggdGhpcyBwcm9ncmFtLiAgSWYgbm90LCBzZWUgPGh0dHBzOi8vd3d3LmdudS5vcmcvbGljZW5zZXMvPi4NCiAgfg0KICB+IENvcHlyaWdodCAoQykgMjAyMy0yMDI2IEh5cGVyUm9taHViIENvbnRyaWJ1dGlvbnMNCiAgLS0+DQo8cmVzb3VyY2VzPg0KICAgIDxjb2xvciBuYW1lPSJwcm92aXNpb25fbGlzdF9kZXNjcmlwdGlvbl9jb2xvciI+IzgwMDAwMDAwPC9jb2xvcj4NCg0KICAgIDxjb2xvciBuYW1lPSJwcm92aXNpb25fbGlzdF9pdGVtX3RleHRfdW5zZWxlY3RlZCI+I2ZmMDAwMDAwPC9jb2xvcj4NCg0KICAgIDxjb2xvciBuYW1lPSJwcm92aXNpb25faXRlbV9ub3JtYWxfYmdfY29sb3IiPkBjb2xvci9taXVpeF9kZWZhdWx0X2NvbG9yX2NvbnRhaW5lcl9saXN0X2xpZ2h0PC9jb2xvcj4NCiAgICA8Y29sb3IgbmFtZT0icHJvdmlzaW9uX2l0ZW1fcHJlc3NlZF9iZ19jb2xvciI+IzE0MDAwMDAwPC9jb2xvcj4NCiAgICA8Y29sb3IgbmFtZT0icHJvdmlzaW9uX2l0ZW1fc2VsZWN0ZWRfYmdfY29sb3IiPkBjb2xvci9taXVpeF9jb2xvcl9ibHVlX2xpZ2h0X3ByaW1hcnlfZGVmYXVsdDwvY29sb3I+DQoNCiAgICA8Y29sb3IgbmFtZT0icHJvdmlzaW9uX3RpdGxlX3RleHRfY29sb3IiPkBjb2xvci9taXVpeF9kZWZhdWx0X2NvbG9yX29uX3N1cmZhY2VfbGlnaHQ8L2NvbG9yPg0KICAgIDxjb2xvciBuYW1lPSJwcm92aXNpb25fc3VidGl0bGVfdGV4dF9jb2xvciI+QGNvbG9yL21pdWl4X2RlZmF1bHRfY29sb3Jfb25fc3VyZmFjZV90ZXJ0aWFyeV9saWdodDwvY29sb3I+DQoNCiAgICA8Y29sb3IgbmFtZT0icHJvdmlzaW9uX2NvbXBsZXRlX3RpdGxlX2NvbG9yIj4jZmYwMDAwMDA8L2NvbG9yPg0KICAgIDxjb2xvciBuYW1lPSJwcm92aXNpb25fc2xvZ2FuX3RleHRfY29sb3IiPiM4MDAwMDAwMDwvY29sb3I+DQoNCiAgICA8Y29sb3IgbmFtZT0icHJvdmlzaW9uX3NlcnZpY2VfbmFtZV9jb2xvciI+IzAwMDAwMDwvY29sb3I+DQogICAgPGNvbG9yIG5hbWU9InByb3Zpc2lvbl9zZXJ2aWNlX2Rlc2NfY29sb3IiPiM4MDAwMDAwMDwvY29sb3I+DQoNCiAgICA8Y29sb3IgbmFtZT0icHJvdmlzaW9uX2l0ZW1fcG9saWN5X3RleHRfY29sb3IiPiMwZDg0ZmY8L2NvbG9yPg0KDQogICAgPGNvbG9yIG5hbWU9InByb3Zpc2lvbl9zZXJ2aWNlX2FncmVlX2NvbG9yIj4jMDAwMDAwPC9jb2xvcj4NCg0KICAgIDxjb2xvciBuYW1lPSJwcm92aXNpb25fYnV0dG9uX3RleHRfaGlnaF9jb2xvcl9saWdodCI+IzBkODRmZjwvY29sb3I+DQoNCg0KDQoNCiAgICA8Y29sb3IgbmFtZT0iYW5pbV9mb3JlZ3JvdW5kX2NvbG9yIj4jOTkwMDAwMDA8L2NvbG9yPg0KICAgIDxjb2xvciBuYW1lPSJhbmltX2ZvcmVncm91bmRfY29sb3JfYmx1cl9lbmFibGUiPiMwMGZmZmZmZjwvY29sb3I+DQo8L3Jlc291cmNlcz4NCg==
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ This file is part of HyperCeiler.
+  ~
+  ~ HyperCeiler is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU Affero General Public License as
+  ~ published by the Free Software Foundation, either version 3 of the
+  ~ License.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU Affero General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU Affero General Public License
+  ~ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+  ~
+  ~ Copyright (C) 2023-2026 HyperRomhub Contributions
+  -->
+<resources>
+    <color name="provision_list_description_color">#80000000</color>
+
+    <color name="provision_list_item_text_unselected">#ff000000</color>
+
+    <color name="provision_item_normal_bg_color">@color/miuix_default_color_container_list_light</color>
+    <color name="provision_item_pressed_bg_color">#14000000</color>
+    <color name="provision_item_selected_bg_color">@color/miuix_color_blue_light_primary_default</color>
+
+    <color name="provision_title_text_color">@color/miuix_default_color_on_surface_light</color>
+    <color name="provision_subtitle_text_color">@color/miuix_default_color_on_surface_tertiary_light</color>
+
+    <color name="provision_complete_title_color">#ff000000</color>
+    <color name="provision_slogan_text_color">#80000000</color>
+
+    <color name="provision_service_name_color">#000000</color>
+    <color name="provision_service_desc_color">#80000000</color>
+
+    <color name="provision_item_policy_text_color">#0d84ff</color>
+
+    <color name="provision_service_agree_color">#000000</color>
+
+    <color name="provision_button_text_high_color_light">#0d84ff</color>
+
+
+
+
+    <color name="anim_foreground_color">#99000000</color>
+    <color name="anim_foreground_color_blur_enable">#00ffffff</color>
+</resources>

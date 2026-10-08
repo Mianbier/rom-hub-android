@@ -1,1 +1,75 @@
-cGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLnVpLmNvbXBvbmVudAoKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5DYW52YXMKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuQm94CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LmZpbGxNYXhTaXplCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LnNpemUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5zaGFwZS5Sb3VuZGVkQ29ybmVyU2hhcGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5Db21wb3NhYmxlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLkFsaWdubWVudAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5Nb2RpZmllcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5kcmF3LmNsaXAKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuZ2VvbWV0cnkuT2Zmc2V0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmdyYXBoaWNzLkJydXNoCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmdyYXBoaWNzLkNvbG9yCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmdyYXBoaWNzLlBhdGgKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudW5pdC5EcAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS51bml0LmRwCgovKioKICogQXBwIOWbvuagh++8iOS4juahjOmdouWbvuagh+WQjOS4gOWll+avlOS+i++8ieOAggogKi8KQENvbXBvc2FibGUKZnVuIEFwcExvZ28oc2l6ZTogRHAgPSA4NC5kcCwgbW9kaWZpZXI6IE1vZGlmaWVyID0gTW9kaWZpZXIpIHsKICAgIHZhbCBnID0gQnJ1c2gubGluZWFyR3JhZGllbnQobGlzdE9mKENvbG9yKDB4RkY0RjdDRjYpLCBDb2xvcigweEZGN0M1Q0Y2KSkpCiAgICBCb3goCiAgICAgICAgbW9kaWZpZXIKICAgICAgICAgICAgLnNpemUoc2l6ZSkKICAgICAgICAgICAgLmNsaXAoUm91bmRlZENvcm5lclNoYXBlKHNpemUgKiAwLjI0ZikpCiAgICAgICAgICAgIC50aGVuKE1vZGlmaWVyKSwKICAgICAgICBjb250ZW50QWxpZ25tZW50ID0gQWxpZ25tZW50LkNlbnRlciwKICAgICkgewogICAgICAgIENhbnZhcyhNb2RpZmllci5maWxsTWF4U2l6ZSgpKSB7CiAgICAgICAgICAgIHZhbCB3ID0gdGhpcy5zaXplLndpZHRoCiAgICAgICAgICAgIHZhbCBoID0gdGhpcy5zaXplLmhlaWdodAoKICAgICAgICAgICAgLy8g5bqV6ImyCiAgICAgICAgICAgIGRyYXdSb3VuZFJlY3QoCiAgICAgICAgICAgICAgICBicnVzaCA9IGcsCiAgICAgICAgICAgICAgICBjb3JuZXJSYWRpdXMgPSBhbmRyb2lkeC5jb21wb3NlLnVpLmdlb21ldHJ5LkNvcm5lclJhZGl1cyh3ICogMC4yNGYsIHcgKiAwLjI0ZiksCiAgICAgICAgICAgICAgICBzaXplID0gdGhpcy5zaXplLAogICAgICAgICAgICApCgogICAgICAgICAgICAvLyDnmb3oibLkuIvovb3nrq3lpLQgKyDlupXluqcKICAgICAgICAgICAgdmFsIGN4ID0gdyAvIDJmCiAgICAgICAgICAgIHZhbCBzaGFmdFcgPSB3ICogMC4wODVmCiAgICAgICAgICAgIHZhbCBzaGFmdFRvcCA9IGggKiAwLjI0ZgogICAgICAgICAgICB2YWwgc2hhZnRCb3R0b20gPSBoICogMC41MGYKCiAgICAgICAgICAgIGRyYXdSZWN0KAogICAgICAgICAgICAgICAgY29sb3IgPSBDb2xvci5XaGl0ZSwKICAgICAgICAgICAgICAgIHRvcExlZnQgPSBPZmZzZXQoY3ggLSBzaGFmdFcgLyAyZiwgc2hhZnRUb3ApLAogICAgICAgICAgICAgICAgc2l6ZSA9IGFuZHJvaWR4LmNvbXBvc2UudWkuZ2VvbWV0cnkuU2l6ZShzaGFmdFcsIHNoYWZ0Qm90dG9tIC0gc2hhZnRUb3ApLAogICAgICAgICAgICApCgogICAgICAgICAgICB2YWwgaGVhZCA9IFBhdGgoKS5hcHBseSB7CiAgICAgICAgICAgICAgICBtb3ZlVG8oY3ggLSB3ICogMC4xNmYsIGggKiAwLjQ2ZikKICAgICAgICAgICAgICAgIGxpbmVUbyhjeCArIHcgKiAwLjE2ZiwgaCAqIDAuNDZmKQogICAgICAgICAgICAgICAgbGluZVRvKGN4LCBoICogMC42NmYpCiAgICAgICAgICAgICAgICBjbG9zZSgpCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZHJhd1BhdGgoaGVhZCwgQ29sb3IuV2hpdGUpCgogICAgICAgICAgICB2YWwgYmFyVG9wID0gaCAqIDAuNzI1ZgogICAgICAgICAgICB2YWwgYmFySCA9IGggKiAwLjA3NWYKICAgICAgICAgICAgZHJhd1JvdW5kUmVjdCgKICAgICAgICAgICAgICAgIGNvbG9yID0gQ29sb3IuV2hpdGUsCiAgICAgICAgICAgICAgICB0b3BMZWZ0ID0gT2Zmc2V0KGN4IC0gdyAqIDAuMjJmLCBiYXJUb3ApLAogICAgICAgICAgICAgICAgc2l6ZSA9IGFuZHJvaWR4LmNvbXBvc2UudWkuZ2VvbWV0cnkuU2l6ZSh3ICogMC40NGYsIGJhckgpLAogICAgICAgICAgICAgICAgY29ybmVyUmFkaXVzID0gYW5kcm9pZHguY29tcG9zZS51aS5nZW9tZXRyeS5Db3JuZXJSYWRpdXMoYmFySCAvIDJmLCBiYXJIIC8gMmYpLAogICAgICAgICAgICApCiAgICAgICAgfQogICAgfQp9Cgpwcml2YXRlIHZhbCBEZWZhdWx0TG9nb1NpemUgPSA4NC5kcAo=
+package org.linbaogu.romhub.ui.component
+
+import androidx.compose.foundation.Canvas
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.geometry.Offset
+import androidx.compose.ui.graphics.Brush
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.Path
+import androidx.compose.ui.unit.Dp
+import androidx.compose.ui.unit.dp
+
+/**
+ * App 图标（与桌面图标同一套比例）。
+ */
+@Composable
+fun AppLogo(size: Dp = 84.dp, modifier: Modifier = Modifier) {
+    val g = Brush.linearGradient(listOf(Color(0xFF4F7CF6), Color(0xFF7C5CF6)))
+    Box(
+        modifier
+            .size(size)
+            .clip(RoundedCornerShape(size * 0.24f))
+            .then(Modifier),
+        contentAlignment = Alignment.Center,
+    ) {
+        Canvas(Modifier.fillMaxSize()) {
+            val w = this.size.width
+            val h = this.size.height
+
+            // 底色
+            drawRoundRect(
+                brush = g,
+                cornerRadius = androidx.compose.ui.geometry.CornerRadius(w * 0.24f, w * 0.24f),
+                size = this.size,
+            )
+
+            // 白色下载箭头 + 底座
+            val cx = w / 2f
+            val shaftW = w * 0.085f
+            val shaftTop = h * 0.24f
+            val shaftBottom = h * 0.50f
+
+            drawRect(
+                color = Color.White,
+                topLeft = Offset(cx - shaftW / 2f, shaftTop),
+                size = androidx.compose.ui.geometry.Size(shaftW, shaftBottom - shaftTop),
+            )
+
+            val head = Path().apply {
+                moveTo(cx - w * 0.16f, h * 0.46f)
+                lineTo(cx + w * 0.16f, h * 0.46f)
+                lineTo(cx, h * 0.66f)
+                close()
+            }
+            drawPath(head, Color.White)
+
+            val barTop = h * 0.725f
+            val barH = h * 0.075f
+            drawRoundRect(
+                color = Color.White,
+                topLeft = Offset(cx - w * 0.22f, barTop),
+                size = androidx.compose.ui.geometry.Size(w * 0.44f, barH),
+                cornerRadius = androidx.compose.ui.geometry.CornerRadius(barH / 2f, barH / 2f),
+            )
+        }
+    }
+}
+
+private val DefaultLogoSize = 84.dp

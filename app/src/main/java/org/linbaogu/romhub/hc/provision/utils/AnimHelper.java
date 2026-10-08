@@ -1,1 +1,185 @@
-LyoKICogVGhpcyBmaWxlIGlzIHBhcnQgb2YgSHlwZXJDZWlsZXIuCgogKiBIeXBlckNlaWxlciBpcyBmcmVlIHNvZnR3YXJlOiB5b3UgY2FuIHJlZGlzdHJpYnV0ZSBpdCBhbmQvb3IgbW9kaWZ5CiAqIGl0IHVuZGVyIHRoZSB0ZXJtcyBvZiB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGFzCiAqIHB1Ymxpc2hlZCBieSB0aGUgRnJlZSBTb2Z0d2FyZSBGb3VuZGF0aW9uLCBlaXRoZXIgdmVyc2lvbiAzIG9mIHRoZQogKiBMaWNlbnNlLgoKICogVGhpcyBwcm9ncmFtIGlzIGRpc3RyaWJ1dGVkIGluIHRoZSBob3BlIHRoYXQgaXQgd2lsbCBiZSB1c2VmdWwsCiAqIGJ1dCBXSVRIT1VUIEFOWSBXQVJSQU5UWTsgd2l0aG91dCBldmVuIHRoZSBpbXBsaWVkIHdhcnJhbnR5IG9mCiAqIE1FUkNIQU5UQUJJTElUWSBvciBGSVRORVNTIEZPUiBBIFBBUlRJQ1VMQVIgUFVSUE9TRS4gIFNlZSB0aGUKICogR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGZvciBtb3JlIGRldGFpbHMuCgogKiBZb3Ugc2hvdWxkIGhhdmUgcmVjZWl2ZWQgYSBjb3B5IG9mIHRoZSBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UKICogYWxvbmcgd2l0aCB0aGlzIHByb2dyYW0uICBJZiBub3QsIHNlZSA8aHR0cHM6Ly93d3cuZ251Lm9yZy9saWNlbnNlcy8+LgoKICogQ29weXJpZ2h0IChDKSAyMDIzLTIwMjYgSHlwZXJDZWlsZXIgQ29udHJpYnV0aW9ucwogKi8KcGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLmhjLnByb3Zpc2lvbi51dGlsczsKCmltcG9ydCBhbmRyb2lkLmFuaW1hdGlvbi5BbmltYXRvcjsKaW1wb3J0IGFuZHJvaWQuYW5pbWF0aW9uLk9iamVjdEFuaW1hdG9yOwppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQ7CmltcG9ydCBhbmRyb2lkLnV0aWwuTG9nOwppbXBvcnQgYW5kcm9pZC52aWV3LlZpZXc7CgppbXBvcnQgYW5kcm9pZHguYW5ub3RhdGlvbi5Ob25OdWxsOwoKaW1wb3J0IGZhbi5hbmltYXRpb24uRm9sbWU7CmltcG9ydCBmYW4uYW5pbWF0aW9uLkZvbG1lRWFzZTsKaW1wb3J0IGZhbi5hbmltYXRpb24uSVN0YXRlU3R5bGU7CmltcG9ydCBmYW4uYW5pbWF0aW9uLmJhc2UuQW5pbUNvbmZpZzsKaW1wb3J0IGZhbi5hbmltYXRpb24uYmFzZS5BbmltU3BlY2lhbENvbmZpZzsKaW1wb3J0IGZhbi5hbmltYXRpb24uY29udHJvbGxlci5BbmltU3RhdGU7CmltcG9ydCBmYW4uYW5pbWF0aW9uLmxpc3RlbmVyLlRyYW5zaXRpb25MaXN0ZW5lcjsKaW1wb3J0IGZhbi5hbmltYXRpb24ucHJvcGVydHkuVmlld1Byb3BlcnR5OwppbXBvcnQgZmFuLmFuaW1hdGlvbi51dGlscy5FYXNlTWFuYWdlcjsKCnB1YmxpYyBjbGFzcyBBbmltSGVscGVyIHsKCiAgICBwdWJsaWMgc3RhdGljIGZpbmFsIFN0cmluZyBUQUcgPSAiQW5pbUhlbHBlciI7CgogICAgcHVibGljIHN0YXRpYyBpbnQgZHAycHgoQ29udGV4dCBjb250ZXh0LCBmbG9hdCBmKSB7CiAgICAgICAgcmV0dXJuIChpbnQpICgoZiAqIGNvbnRleHQuZ2V0UmVzb3VyY2VzKCkuZ2V0RGlzcGxheU1ldHJpY3MoKS5kZW5zaXR5KSArIDAuNWYpOwogICAgfQoKICAgIHB1YmxpYyBzdGF0aWMgdm9pZCBzdGFydFBhZ2VUZXh0QW5pbShWaWV3IHZpZXcpIHsKICAgICAgICB2aWV3LnNldFRyYW5zbGF0aW9uWShkcDJweCh2aWV3LmdldENvbnRleHQoKSwgMTAwLjBmKSk7CiAgICAgICAgdmlldy5zZXRBbHBoYSgwLjBmKTsKCiAgICAgICAgT2JqZWN0QW5pbWF0b3IgdHJhbnNsYXRpb25ZID0gT2JqZWN0QW5pbWF0b3Iub2ZGbG9hdCh2aWV3LCAidHJhbnNsYXRpb25ZIiwgZHAycHgodmlldy5nZXRDb250ZXh0KCksIDEwMC4wZiksIDAuMGYpOwogICAgICAgIHRyYW5zbGF0aW9uWS5zZXRJbnRlcnBvbGF0b3IoRWFzZU1hbmFnZXIuZ2V0SW50ZXJwb2xhdG9yKDIwLCAxNzAwLjBmKSk7CiAgICAgICAgdHJhbnNsYXRpb25ZLnNldER1cmF0aW9uKDE3MDBMKTsKICAgICAgICB0cmFuc2xhdGlvblkuc3RhcnQoKTsKCiAgICAgICAgT2JqZWN0QW5pbWF0b3IgYWxwaGEgPSBPYmplY3RBbmltYXRvci5vZkZsb2F0KHZpZXcsICJhbHBoYSIsIDAuMGYsIDEuMGYpOwogICAgICAgIGFscGhhLnNldEludGVycG9sYXRvcihFYXNlTWFuYWdlci5nZXRJbnRlcnBvbGF0b3IoMjAsIDE0MDAuMGYpKTsKICAgICAgICBhbHBoYS5zZXREdXJhdGlvbigxNDAwTCk7CiAgICAgICAgYWxwaGEuc2V0U3RhcnREZWxheSgzMDBMKTsKICAgICAgICBhbHBoYS5zdGFydCgpOwogICAgfQoKCiAgICBwdWJsaWMgc3RhdGljIHZvaWQgc3RhcnRQYWdlQnRuRW5hYmxlZEFuaW0oVmlldyB0YXJnZXQpIHsKICAgICAgICBzdGFydFBhZ2VCdG5BbmltKHRhcmdldCwgbmV3IEFuaW1hdG9yLkFuaW1hdG9yTGlzdGVuZXIoKSB7CiAgICAgICAgICAgIEBPdmVycmlkZQogICAgICAgICAgICBwdWJsaWMgdm9pZCBvbkFuaW1hdGlvblN0YXJ0KEBOb25OdWxsIEFuaW1hdG9yIGFuaW1hdGlvbikgewoKICAgICAgICAgICAgfQoKICAgICAgICAgICAgQE92ZXJyaWRlCiAgICAgICAgICAgIHB1YmxpYyB2b2lkIG9uQW5pbWF0aW9uRW5kKEBOb25OdWxsIEFuaW1hdG9yIGFuaW1hdGlvbikgewogICAgICAgICAgICAgICAgTG9nLmQoVEFHLCAib25BbmltYXRpb25FbmQiKTsKICAgICAgICAgICAgICAgIGlmICh0YXJnZXQgIT0gbnVsbCkgewogICAgICAgICAgICAgICAgICAgIHRhcmdldC5zZXRFbmFibGVkKHRydWUpOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CgogICAgICAgICAgICBAT3ZlcnJpZGUKICAgICAgICAgICAgcHVibGljIHZvaWQgb25BbmltYXRpb25DYW5jZWwoQE5vbk51bGwgQW5pbWF0b3IgYW5pbWF0aW9uKSB7CgogICAgICAgICAgICB9CgogICAgICAgICAgICBAT3ZlcnJpZGUKICAgICAgICAgICAgcHVibGljIHZvaWQgb25BbmltYXRpb25SZXBlYXQoQE5vbk51bGwgQW5pbWF0b3IgYW5pbWF0aW9uKSB7CgogICAgICAgICAgICB9CiAgICAgICAgfSk7CiAgICB9CgogICAgcHVibGljIHN0YXRpYyB2b2lkIHN0YXJ0UGFnZUJ0bkFuaW0oVmlldyB0YXJnZXQsIEFuaW1hdG9yLkFuaW1hdG9yTGlzdGVuZXIgbGlzdGVuZXIpIHsKICAgICAgICBpZiAodGFyZ2V0ICE9IG51bGwpIHsKICAgICAgICAgICAgdGFyZ2V0LnNldFNjYWxlWCgwLjk4Zik7CiAgICAgICAgICAgIHRhcmdldC5zZXRTY2FsZVkoMC45OGYpOwogICAgICAgICAgICB0YXJnZXQuc2V0QWxwaGEoMC4wZik7CgogICAgICAgICAgICBPYmplY3RBbmltYXRvciBzY2FsZVggPSBPYmplY3RBbmltYXRvci5vZkZsb2F0KHRhcmdldCwgInNjYWxlWCIsIDAuOThmLCAxLjBmKTsKICAgICAgICAgICAgc2NhbGVYLnNldEludGVycG9sYXRvcihFYXNlTWFuYWdlci5nZXRJbnRlcnBvbGF0b3IoMjApKTsKICAgICAgICAgICAgc2NhbGVYLnNldER1cmF0aW9uKDYwMEwpOwogICAgICAgICAgICBzY2FsZVguc2V0U3RhcnREZWxheSgxMjAwTCk7CiAgICAgICAgICAgIHNjYWxlWC5zdGFydCgpOwoKICAgICAgICAgICAgT2JqZWN0QW5pbWF0b3Igc2NhbGVZID0gT2JqZWN0QW5pbWF0b3Iub2ZGbG9hdCh0YXJnZXQsICJzY2FsZVkiLCAwLjk4ZiwgMS4wZik7CiAgICAgICAgICAgIHNjYWxlWS5zZXRJbnRlcnBvbGF0b3IoRWFzZU1hbmFnZXIuZ2V0SW50ZXJwb2xhdG9yKDIwKSk7CiAgICAgICAgICAgIHNjYWxlWS5zZXREdXJhdGlvbig2MDBMKTsKICAgICAgICAgICAgc2NhbGVZLnNldFN0YXJ0RGVsYXkoMTIwMEwpOwogICAgICAgICAgICBzY2FsZVkuc3RhcnQoKTsKCiAgICAgICAgICAgIE9iamVjdEFuaW1hdG9yIGFscGhhID0gT2JqZWN0QW5pbWF0b3Iub2ZGbG9hdCh0YXJnZXQsICJhbHBoYSIsIDAuMGYsIDEuMGYpOwogICAgICAgICAgICBhbHBoYS5zZXRJbnRlcnBvbGF0b3IoRWFzZU1hbmFnZXIuZ2V0SW50ZXJwb2xhdG9yKDEpKTsKICAgICAgICAgICAgYWxwaGEuc2V0RHVyYXRpb24oNTAwTCk7CiAgICAgICAgICAgIGFscGhhLnNldFN0YXJ0RGVsYXkoMTIwMEwpOwogICAgICAgICAgICBpZiAobGlzdGVuZXIgIT0gbnVsbCkgYWxwaGEuYWRkTGlzdGVuZXIobGlzdGVuZXIpOwogICAgICAgICAgICBhbHBoYS5zdGFydCgpOwogICAgICAgIH0KICAgIH0KCiAgICBwdWJsaWMgc3RhdGljIHZvaWQgY2VudGVyUGFnZUFuaW0oVmlldyB2aWV3KSB7CiAgICAgICAgQW5pbVN0YXRlIGFuaW1TdGF0ZSA9IG5ldyBBbmltU3RhdGUoInN0YXJ0Iik7CiAgICAgICAgVmlld1Byb3BlcnR5IHZpZXdQcm9wZXJ0eSA9IFZpZXdQcm9wZXJ0eS5BTFBIQTsKICAgICAgICBBbmltU3RhdGUgYWRkID0gYW5pbVN0YXRlLmFkZCh2aWV3UHJvcGVydHksIDAuMGQpOwogICAgICAgIFZpZXdQcm9wZXJ0eSB2aWV3UHJvcGVydHkyID0gVmlld1Byb3BlcnR5LlRSQU5TTEFUSU9OX1k7CiAgICAgICAgQW5pbVN0YXRlIGFkZDIgPSBhZGQuYWRkKHZpZXdQcm9wZXJ0eTIsIGRwMnB4KHZpZXcuZ2V0Q29udGV4dCgpLCAzMC4wZikpOwogICAgICAgIEFuaW1TdGF0ZSBhZGQzID0gbmV3IEFuaW1TdGF0ZSgiZW5kIikuYWRkKHZpZXdQcm9wZXJ0eSwgMS4wZCkuYWRkKHZpZXdQcm9wZXJ0eTIsIDAuMGQpOwogICAgICAgIEFuaW1TcGVjaWFsQ29uZmlnIGFuaW1TcGVjaWFsQ29uZmlnID0gKEFuaW1TcGVjaWFsQ29uZmlnKSBuZXcgQW5pbVNwZWNpYWxDb25maWcoKS5zZXRFYXNlKC0yLCAwLjk1ZiwgMC41Zik7CiAgICAgICAgQW5pbVNwZWNpYWxDb25maWcgYW5pbVNwZWNpYWxDb25maWcyID0gKEFuaW1TcGVjaWFsQ29uZmlnKSBuZXcgQW5pbVNwZWNpYWxDb25maWcoKS5zZXRFYXNlKDIwLCA1MDAuMGYpOwogICAgICAgIGZhbi5hbmltYXRpb24uYmFzZS5BbmltQ29uZmlnIGFuaW1Db25maWcgPSBuZXcgZmFuLmFuaW1hdGlvbi5iYXNlLkFuaW1Db25maWcoKTsKICAgICAgICBhbmltQ29uZmlnLnNldFNwZWNpYWwodmlld1Byb3BlcnR5LCBhbmltU3BlY2lhbENvbmZpZzIpOwogICAgICAgIGFuaW1Db25maWcuc2V0U3BlY2lhbCh2aWV3UHJvcGVydHkyLCBhbmltU3BlY2lhbENvbmZpZyk7CiAgICAgICAgRm9sbWUudXNlQXQodmlldykuc3RhdGUoKS5mcm9tVG8oYWRkMiwgYWRkMywgYW5pbUNvbmZpZyk7CiAgICB9CgogICAgcHVibGljIHN0YXRpYyB2b2lkIGVuZFBhZ2VBbmltKFZpZXcgdmlldykgewogICAgICAgIHZpZXcuc2V0VHJhbnNsYXRpb25ZKGRwMnB4KHZpZXcuZ2V0Q29udGV4dCgpLCAyMC4wZikpOwogICAgICAgIHZpZXcuc2V0QWxwaGEoMC4wZik7CgogICAgICAgIE9iamVjdEFuaW1hdG9yIHRyYW5zbGF0aW9uWSA9IE9iamVjdEFuaW1hdG9yLm9mRmxvYXQodmlldywgInRyYW5zbGF0aW9uWSIsIGRwMnB4KHZpZXcuZ2V0Q29udGV4dCgpLCAyMC4wZiksIDAuMGYpOwogICAgICAgIHRyYW5zbGF0aW9uWS5zZXRJbnRlcnBvbGF0b3IoRWFzZU1hbmFnZXIuZ2V0SW50ZXJwb2xhdG9yKDIwKSk7CiAgICAgICAgdHJhbnNsYXRpb25ZLnNldER1cmF0aW9uKDEyNTBMKTsKICAgICAgICB0cmFuc2xhdGlvblkuc3RhcnQoKTsKCiAgICAgICAgT2JqZWN0QW5pbWF0b3IgYWxwaGEgPSBPYmplY3RBbmltYXRvci5vZkZsb2F0KHZpZXcsICJhbHBoYSIsIDAuMGYsIDEuMGYpOwogICAgICAgIGFscGhhLnNldEludGVycG9sYXRvcihFYXNlTWFuYWdlci5nZXRJbnRlcnBvbGF0b3IoMjApKTsKICAgICAgICBhbHBoYS5zZXREdXJhdGlvbigxMDUwTCk7CiAgICAgICAgYWxwaGEuc3RhcnQoKTsKICAgIH0KCgoKCgogICAgcHVibGljIHN0YXRpYyB2b2lkIHN0YXJ0UGFnZUxvZ29BbmltKFZpZXcgdmlldykgewogICAgICAgIGlmICh2aWV3ID09IG51bGwpIHJldHVybjsKICAgICAgICBBbmltU3RhdGUgYW5pbVN0YXRlID0gbmV3IEFuaW1TdGF0ZSgic3RhcnQiKTsKICAgICAgICBWaWV3UHJvcGVydHkgdmlld1Byb3BlcnR5ID0gVmlld1Byb3BlcnR5LlNDQUxFX1g7CiAgICAgICAgQW5pbVN0YXRlIGFuaW1TdGF0ZUFkZCA9IGFuaW1TdGF0ZS5hZGQodmlld1Byb3BlcnR5LCAwLjVkKTsKICAgICAgICBWaWV3UHJvcGVydHkgdmlld1Byb3BlcnR5MiA9IFZpZXdQcm9wZXJ0eS5TQ0FMRV9ZOwogICAgICAgIEFuaW1TdGF0ZSBhbmltU3RhdGVBZGQyID0gYW5pbVN0YXRlQWRkLmFkZCh2aWV3UHJvcGVydHkyLCAwLjVkKTsKICAgICAgICBBbmltU3RhdGUgYW5pbVN0YXRlQWRkMyA9IG5ldyBBbmltU3RhdGUoIm1pZGRsZSIpLmFkZCh2aWV3UHJvcGVydHksIDAuOTVkKS5hZGQodmlld1Byb3BlcnR5MiwgMC45NWQpOwogICAgICAgIEZvbG1lLnVzZSh2aWV3KS5zdGF0ZSgpLnNldFRvKGFuaW1TdGF0ZUFkZDIpLnRvKGFuaW1TdGF0ZUFkZDMsIG5ldyBBbmltQ29uZmlnKCkuc2V0RWFzZShGb2xtZUVhc2Uuc2luT3V0KDQ0MEwpKSkudGhlbihuZXcgQW5pbVN0YXRlKCJlbmQiKS5hZGQodmlld1Byb3BlcnR5LCAxLjBkKS5hZGQodmlld1Byb3BlcnR5MiwgMS4wZCksIG5ldyBBbmltQ29uZmlnKCkuc2V0RWFzZShGb2xtZUVhc2UuY3ViaWNPdXQoNzAwTCkpKTsKICAgICAgICBBbmltQ29uZmlnIGRlbGF5ID0gbmV3IEFuaW1Db25maWcoKS5zZXREZWxheSg2MEwpOwogICAgICAgIElTdGF0ZVN0eWxlIGlTdGF0ZVN0eWxlU3RhdGUgPSBGb2xtZS51c2Uodmlldykuc3RhdGUoKTsKICAgICAgICBWaWV3UHJvcGVydHkgdmlld1Byb3BlcnR5MyA9IFZpZXdQcm9wZXJ0eS5BTFBIQTsKICAgICAgICBpU3RhdGVTdHlsZVN0YXRlLnNldFRvKHZpZXdQcm9wZXJ0eTMsIEZsb2F0LnZhbHVlT2YoMC4wZikpLnRvKHZpZXdQcm9wZXJ0eTMsIEZsb2F0LnZhbHVlT2YoMS4wZiksIGRlbGF5KTsKICAgIH0KCgogICAgcHVibGljIHN0YXRpYyB2b2lkIHN0YXJ0UGFnZUJ0bkFuaW0oVmlldyB2aWV3LCBUcmFuc2l0aW9uTGlzdGVuZXIgdHJhbnNpdGlvbkxpc3RlbmVyKSB7CiAgICAgICAgaWYgKHZpZXcgPT0gbnVsbCkgcmV0dXJuOwoKICAgICAgICBBbmltU3RhdGUgYW5pbVN0YXRlID0gbmV3IEFuaW1TdGF0ZSgic3RhcnQiKTsKICAgICAgICBWaWV3UHJvcGVydHkgdmlld1Byb3BlcnR5ID0gVmlld1Byb3BlcnR5LkFMUEhBOwogICAgICAgIEFuaW1TdGF0ZSBhbmltU3RhdGVBZGQgPSBhbmltU3RhdGUuYWRkKHZpZXdQcm9wZXJ0eSwgMC4wZCk7CiAgICAgICAgVmlld1Byb3BlcnR5IHZpZXdQcm9wZXJ0eTIgPSBWaWV3UHJvcGVydHkuU0NBTEVfWDsKICAgICAgICBBbmltU3RhdGUgYW5pbVN0YXRlQWRkMiA9IGFuaW1TdGF0ZUFkZC5hZGQodmlld1Byb3BlcnR5MiwgMC45ZCk7CiAgICAgICAgVmlld1Byb3BlcnR5IHZpZXdQcm9wZXJ0eTMgPSBWaWV3UHJvcGVydHkuU0NBTEVfWTsKICAgICAgICBBbmltU3RhdGUgYW5pbVN0YXRlQWRkMyA9IGFuaW1TdGF0ZUFkZDIuYWRkKHZpZXdQcm9wZXJ0eTMsIDAuOWQpOwogICAgICAgIEFuaW1TdGF0ZSBhbmltU3RhdGVBZGQ0ID0gbmV3IEFuaW1TdGF0ZSgiZW5kIikuYWRkKHZpZXdQcm9wZXJ0eSwgMS4wZCkuYWRkKHZpZXdQcm9wZXJ0eTIsIDEuMGQpLmFkZCh2aWV3UHJvcGVydHkzLCAxLjBkKTsKICAgICAgICBBbmltQ29uZmlnIGRlbGF5ID0gbmV3IEFuaW1Db25maWcoKS5zZXRFYXNlKEZvbG1lRWFzZS5jdWJpY091dCg0NTBMKSkuc2V0RGVsYXkoMTM0MEwpOwogICAgICAgIGlmICh0cmFuc2l0aW9uTGlzdGVuZXIgIT0gbnVsbCkgewogICAgICAgICAgICBkZWxheS5hZGRMaXN0ZW5lcnModHJhbnNpdGlvbkxpc3RlbmVyKTsKICAgICAgICB9CiAgICAgICAgRm9sbWUudXNlKHZpZXcpLnN0YXRlKCkuc2V0VG8oYW5pbVN0YXRlQWRkMykudG8oYW5pbVN0YXRlQWRkNCwgZGVsYXkpOwogICAgfQp9Cg==
+/*
+ * This file is part of HyperCeiler.
+
+ * HyperCeiler is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as
+ * published by the Free Software Foundation, either version 3 of the
+ * License.
+
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Affero General Public License for more details.
+
+ * You should have received a copy of the GNU Affero General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+ * Copyright (C) 2023-2026 HyperCeiler Contributions
+ */
+package org.linbaogu.romhub.hc.provision.utils;
+
+import android.animation.Animator;
+import android.animation.ObjectAnimator;
+import android.content.Context;
+import android.util.Log;
+import android.view.View;
+
+import androidx.annotation.NonNull;
+
+import fan.animation.Folme;
+import fan.animation.FolmeEase;
+import fan.animation.IStateStyle;
+import fan.animation.base.AnimConfig;
+import fan.animation.base.AnimSpecialConfig;
+import fan.animation.controller.AnimState;
+import fan.animation.listener.TransitionListener;
+import fan.animation.property.ViewProperty;
+import fan.animation.utils.EaseManager;
+
+public class AnimHelper {
+
+    public static final String TAG = "AnimHelper";
+
+    public static int dp2px(Context context, float f) {
+        return (int) ((f * context.getResources().getDisplayMetrics().density) + 0.5f);
+    }
+
+    public static void startPageTextAnim(View view) {
+        view.setTranslationY(dp2px(view.getContext(), 100.0f));
+        view.setAlpha(0.0f);
+
+        ObjectAnimator translationY = ObjectAnimator.ofFloat(view, "translationY", dp2px(view.getContext(), 100.0f), 0.0f);
+        translationY.setInterpolator(EaseManager.getInterpolator(20, 1700.0f));
+        translationY.setDuration(1700L);
+        translationY.start();
+
+        ObjectAnimator alpha = ObjectAnimator.ofFloat(view, "alpha", 0.0f, 1.0f);
+        alpha.setInterpolator(EaseManager.getInterpolator(20, 1400.0f));
+        alpha.setDuration(1400L);
+        alpha.setStartDelay(300L);
+        alpha.start();
+    }
+
+
+    public static void startPageBtnEnabledAnim(View target) {
+        startPageBtnAnim(target, new Animator.AnimatorListener() {
+            @Override
+            public void onAnimationStart(@NonNull Animator animation) {
+
+            }
+
+            @Override
+            public void onAnimationEnd(@NonNull Animator animation) {
+                Log.d(TAG, "onAnimationEnd");
+                if (target != null) {
+                    target.setEnabled(true);
+                }
+            }
+
+            @Override
+            public void onAnimationCancel(@NonNull Animator animation) {
+
+            }
+
+            @Override
+            public void onAnimationRepeat(@NonNull Animator animation) {
+
+            }
+        });
+    }
+
+    public static void startPageBtnAnim(View target, Animator.AnimatorListener listener) {
+        if (target != null) {
+            target.setScaleX(0.98f);
+            target.setScaleY(0.98f);
+            target.setAlpha(0.0f);
+
+            ObjectAnimator scaleX = ObjectAnimator.ofFloat(target, "scaleX", 0.98f, 1.0f);
+            scaleX.setInterpolator(EaseManager.getInterpolator(20));
+            scaleX.setDuration(600L);
+            scaleX.setStartDelay(1200L);
+            scaleX.start();
+
+            ObjectAnimator scaleY = ObjectAnimator.ofFloat(target, "scaleY", 0.98f, 1.0f);
+            scaleY.setInterpolator(EaseManager.getInterpolator(20));
+            scaleY.setDuration(600L);
+            scaleY.setStartDelay(1200L);
+            scaleY.start();
+
+            ObjectAnimator alpha = ObjectAnimator.ofFloat(target, "alpha", 0.0f, 1.0f);
+            alpha.setInterpolator(EaseManager.getInterpolator(1));
+            alpha.setDuration(500L);
+            alpha.setStartDelay(1200L);
+            if (listener != null) alpha.addListener(listener);
+            alpha.start();
+        }
+    }
+
+    public static void centerPageAnim(View view) {
+        AnimState animState = new AnimState("start");
+        ViewProperty viewProperty = ViewProperty.ALPHA;
+        AnimState add = animState.add(viewProperty, 0.0d);
+        ViewProperty viewProperty2 = ViewProperty.TRANSLATION_Y;
+        AnimState add2 = add.add(viewProperty2, dp2px(view.getContext(), 30.0f));
+        AnimState add3 = new AnimState("end").add(viewProperty, 1.0d).add(viewProperty2, 0.0d);
+        AnimSpecialConfig animSpecialConfig = (AnimSpecialConfig) new AnimSpecialConfig().setEase(-2, 0.95f, 0.5f);
+        AnimSpecialConfig animSpecialConfig2 = (AnimSpecialConfig) new AnimSpecialConfig().setEase(20, 500.0f);
+        fan.animation.base.AnimConfig animConfig = new fan.animation.base.AnimConfig();
+        animConfig.setSpecial(viewProperty, animSpecialConfig2);
+        animConfig.setSpecial(viewProperty2, animSpecialConfig);
+        Folme.useAt(view).state().fromTo(add2, add3, animConfig);
+    }
+
+    public static void endPageAnim(View view) {
+        view.setTranslationY(dp2px(view.getContext(), 20.0f));
+        view.setAlpha(0.0f);
+
+        ObjectAnimator translationY = ObjectAnimator.ofFloat(view, "translationY", dp2px(view.getContext(), 20.0f), 0.0f);
+        translationY.setInterpolator(EaseManager.getInterpolator(20));
+        translationY.setDuration(1250L);
+        translationY.start();
+
+        ObjectAnimator alpha = ObjectAnimator.ofFloat(view, "alpha", 0.0f, 1.0f);
+        alpha.setInterpolator(EaseManager.getInterpolator(20));
+        alpha.setDuration(1050L);
+        alpha.start();
+    }
+
+
+
+
+
+    public static void startPageLogoAnim(View view) {
+        if (view == null) return;
+        AnimState animState = new AnimState("start");
+        ViewProperty viewProperty = ViewProperty.SCALE_X;
+        AnimState animStateAdd = animState.add(viewProperty, 0.5d);
+        ViewProperty viewProperty2 = ViewProperty.SCALE_Y;
+        AnimState animStateAdd2 = animStateAdd.add(viewProperty2, 0.5d);
+        AnimState animStateAdd3 = new AnimState("middle").add(viewProperty, 0.95d).add(viewProperty2, 0.95d);
+        Folme.use(view).state().setTo(animStateAdd2).to(animStateAdd3, new AnimConfig().setEase(FolmeEase.sinOut(440L))).then(new AnimState("end").add(viewProperty, 1.0d).add(viewProperty2, 1.0d), new AnimConfig().setEase(FolmeEase.cubicOut(700L)));
+        AnimConfig delay = new AnimConfig().setDelay(60L);
+        IStateStyle iStateStyleState = Folme.use(view).state();
+        ViewProperty viewProperty3 = ViewProperty.ALPHA;
+        iStateStyleState.setTo(viewProperty3, Float.valueOf(0.0f)).to(viewProperty3, Float.valueOf(1.0f), delay);
+    }
+
+
+    public static void startPageBtnAnim(View view, TransitionListener transitionListener) {
+        if (view == null) return;
+
+        AnimState animState = new AnimState("start");
+        ViewProperty viewProperty = ViewProperty.ALPHA;
+        AnimState animStateAdd = animState.add(viewProperty, 0.0d);
+        ViewProperty viewProperty2 = ViewProperty.SCALE_X;
+        AnimState animStateAdd2 = animStateAdd.add(viewProperty2, 0.9d);
+        ViewProperty viewProperty3 = ViewProperty.SCALE_Y;
+        AnimState animStateAdd3 = animStateAdd2.add(viewProperty3, 0.9d);
+        AnimState animStateAdd4 = new AnimState("end").add(viewProperty, 1.0d).add(viewProperty2, 1.0d).add(viewProperty3, 1.0d);
+        AnimConfig delay = new AnimConfig().setEase(FolmeEase.cubicOut(450L)).setDelay(1340L);
+        if (transitionListener != null) {
+            delay.addListeners(transitionListener);
+        }
+        Folme.use(view).state().setTo(animStateAdd3).to(animStateAdd4, delay);
+    }
+}

@@ -1,1 +1,151 @@
-cGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLmRvd25sb2FkCgppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkRpc3BhdGNoZXJzCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMud2l0aENvbnRleHQKaW1wb3J0IG9raHR0cDMuT2tIdHRwQ2xpZW50CmltcG9ydCBva2h0dHAzLlJlcXVlc3QKaW1wb3J0IGphdmEubmV0LlVSTERlY29kZXIKCi8qKgogKiDkuIvovb3liY3nmoTmjqLmtYvvvJrov5nmnaHpk77mjqXlpJrlpKfjgIHog73kuI3og73liIbniYfjgIHlrZjmiJDku4DkuYjmlofku7blkI3jgIIKICoKICog5YGa5rOV5piv5Y+q6K+35rGCIGBSYW5nZTogYnl0ZXM9MC0wYO+8iOS4gOS4quWtl+iKgu+8ie+8mgogKiAgIMK3IOacjeWKoeWZqOWbniAyMDYgKyBgQ29udGVudC1SYW5nZTogYnl0ZXMgMC0wLzEyMzQ1Njc4OWAg4oaSIOaAu+Wkp+Wwj+W3suefpe+8jOS4lCoq5pSv5oyB5YiG54mHKioKICogICDCtyDmnI3liqHlmajlm54gMjAw77yI5peg6KeGIFJhbmdl77yJ4oaSIOS4jeaUr+aMgeWIhueJh++8jOWPquiDveWNlee6v+eoi+mhuuedgOS4iwogKiDov5nmoLfml6Lmi7/liLDkv6Hmga/vvIzlj4jlh6DkuY7kuI3ogJfmtYHph48g4oCU4oCUIOebtOaOpSBHRVQg5LiA5Liq5YegIEcg55qEIFJPTSDljIXmmK/kuI3lj6/mjqXlj5fnmoTjgIIKICovCm9iamVjdCBSYW5nZVByb2JlIHsKCiAgICBjb25zdCB2YWwgVUEgPSAiTW96aWxsYS81LjAgKExpbnV4OyBBbmRyb2lkIDE0OyBLKSBBcHBsZVdlYktpdC81MzcuMzYgIiArCiAgICAgICAgICAgICIoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS8xMjAuMCBNb2JpbGUgU2FmYXJpLzUzNy4zNiIKCiAgICBwcml2YXRlIHZhbCBjb250ZW50UmFuZ2VSZSA9IFJlZ2V4KCIiImJ5dGVzXHMrKFxkKyktKFxkKykvKFxkK3xcKikiIiIsIFJlZ2V4T3B0aW9uLklHTk9SRV9DQVNFKQoKICAgIGRhdGEgY2xhc3MgSW5mbygKICAgICAgICAvKiog5oC75a2X6IqC5pWw77ybLTEg6KGo56S65pyN5Yqh5Zmo5rKh6K+0ICovCiAgICAgICAgdmFsIHRvdGFsOiBMb25nLAogICAgICAgIC8qKiDmlK/mjIHmlq3ngrkv5YiG54mHICovCiAgICAgICAgdmFsIHJlc3VtYWJsZTogQm9vbGVhbiwKICAgICAgICB2YWwgZmlsZU5hbWU6IFN0cmluZywKICAgICAgICB2YWwgbWltZTogU3RyaW5nPywKICAgICkKCiAgICAvKioKICAgICAqIOaOoua1i+eUqOeahOWuouaIt+err+OAggogICAgICoKICAgICAqICMjIOS4uuS7gOS5iOimgeWNleeLrOaUtuefrei2heaXtuOAgei/mOimgeWFs+aOiei/nuaOpeWksei0pemHjeivlQogICAgICoKICAgICAqIOaOoua1i+WPquWPkeS4gOS4qiBgUmFuZ2U6IGJ5dGVzPTAtMGDvvIzmraPluLjlh6Dnmb7mr6vnp5LlsLHlm57mnaXkuobjgILkvYbkuIvpnaLkuKTku7bkuosKICAgICAqIOS8muiuqeWug+aLluW+iOS5he+8jOeUqOaIt+eci+WIsOeahOWwseaYr+OAjOeCueS6huW8gOWni+S4i+i9ve+8jOWNiuWkqeayoeWPjeW6lOOAje+8mgogICAgICoKICAgICAqICAgMS4gYGNhbGxUaW1lb3V0YCDmmK8gKipBc3luY1RpbWVvdXQqKiDorqHml7bnmoTvvIzlj6rlnKjor7fmsYIqKuecn+ato+W8gOWni+aJp+ihjCoq5ZCOCiAgICAgKiAgICAgIOaJjeW8gOWni+eul+OAguivt+axgui/mOWcqOi/nuaOpeaxoC/pmJ/liJfph4zmjpLpmJ/ml7bmmK/kuI3orqHml7bnmoTjgIIKICAgICAqICAgMi4g5LiL6L295a6i5oi356uv5byA5LqGIGByZXRyeU9uQ29ubmVjdGlvbkZhaWx1cmUodHJ1ZSlg77yI5a+55YiG54mH5Lyg5aSn5paH5Lu25piv5a+555qE77yJ77yMCiAgICAgKiAgICAgIOS9huaOoua1i+mYtuauteS4gOaXpua6kOermei/nuS4jeS4iu+8jOWug+S8mioq5Y+N5aSN6YeN6K+VKirvvIzmr4/mrKHph43or5Xpg73ph43mlrDnrYnkuIDova4KICAgICAqICAgICAgY29ubmVjdCArIGNhbGwg6LaF5pe244CCMTUg56eS5bu66L+eIMOXIDMg5qyh6YeN6K+VIOKJiCA1NSDnp5Lnmb3nrYkg4oCU4oCUCiAgICAgKiAgICAgIOi/mei3nyLljaHkvY/kuoYi5Zyo55So5oi355y86YeM5rKh5pyJ5Yy65Yir44CCCiAgICAgKgogICAgICog5omA5Lul5o6i5rWL6L+Z6YeM77ya6LaF5pe25pS255+t77yI5bu66L+eIDgg56eSIC8g5pW05L2TIDEyIOenku+8ie+8jOW5tuS4lCoq5YWz5o6J6YeN6K+VKiog4oCU4oCUCiAgICAgKiDov57kuI3kuIrlsLHlsL3lv6vmiornu5Porrrmipvlh7rmnaXvvIzorqnnlYzpnaLnq4vliLvmmL7npLrljp/lm6DvvIzogIzkuI3mmK/orqnnlKjmiLflubLnrYnjgIIKICAgICAqLwogICAgcHJpdmF0ZSBmdW4gcHJvYmVDbGllbnQoYmFzZTogT2tIdHRwQ2xpZW50KTogT2tIdHRwQ2xpZW50ID0KICAgICAgICBiYXNlLm5ld0J1aWxkZXIoKQogICAgICAgICAgICAuY2FsbFRpbWVvdXQoMTIsIGphdmEudXRpbC5jb25jdXJyZW50LlRpbWVVbml0LlNFQ09ORFMpCiAgICAgICAgICAgIC5yZWFkVGltZW91dCgxMiwgamF2YS51dGlsLmNvbmN1cnJlbnQuVGltZVVuaXQuU0VDT05EUykKICAgICAgICAgICAgLmNvbm5lY3RUaW1lb3V0KDgsIGphdmEudXRpbC5jb25jdXJyZW50LlRpbWVVbml0LlNFQ09ORFMpCiAgICAgICAgICAgIC8vIOWFs+aOiemHjeivle+8muaOoua1i+mYtuautemHjeivleWPquS8muaKiiLov57kuI3kuIoi6L+Z5Lu25LqL5ouW5oiQ5Yeg5Y2B56eS55qE6Z2Z6buY562J5b6FCiAgICAgICAgICAgIC5yZXRyeU9uQ29ubmVjdGlvbkZhaWx1cmUoZmFsc2UpCiAgICAgICAgICAgIC5idWlsZCgpCgogICAgc3VzcGVuZCBmdW4gcHJvYmUoCiAgICAgICAgY2xpZW50OiBPa0h0dHBDbGllbnQsCiAgICAgICAgdXJsOiBTdHJpbmcsCiAgICAgICAgaGVhZGVyczogTWFwPFN0cmluZywgU3RyaW5nPiA9IGVtcHR5TWFwKCksCiAgICApOiBJbmZvID0gd2l0aENvbnRleHQoRGlzcGF0Y2hlcnMuSU8pIHsKICAgICAgICB2YWwgcmVxID0gUmVxdWVzdC5CdWlsZGVyKCkKICAgICAgICAgICAgLnVybCh1cmwpCiAgICAgICAgICAgIC5oZWFkZXIoIlJhbmdlIiwgImJ5dGVzPTAtMCIpCiAgICAgICAgICAgIC5oZWFkZXIoIlVzZXItQWdlbnQiLCBVQSkKICAgICAgICAgICAgLmhlYWRlcigiQWNjZXB0IiwgIiovKiIpCiAgICAgICAgICAgIC5hcHBseSB7IGhlYWRlcnMuZm9yRWFjaCB7IChrLCB2KSAtPiBpZiAoay5pc05vdEJsYW5rKCkpIGhlYWRlcihrLCB2KSB9IH0KICAgICAgICAgICAgLmdldCgpCiAgICAgICAgICAgIC5idWlsZCgpCgogICAgICAgIHZhbCB0MCA9IGFuZHJvaWQub3MuU3lzdGVtQ2xvY2suZWxhcHNlZFJlYWx0aW1lKCkKICAgICAgICBhbmRyb2lkLnV0aWwuTG9nLmkoIlJvbUh1YkRMIiwgInByb2JlIOKGkiAke3VybC50YWtlKDEwMCl9IikKICAgICAgICBwcm9iZUNsaWVudChjbGllbnQpLm5ld0NhbGwocmVxKS5leGVjdXRlKCkudXNlIHsgcmVzcCAtPgogICAgICAgICAgICBhbmRyb2lkLnV0aWwuTG9nLmkoCiAgICAgICAgICAgICAgICAiUm9tSHViREwiLAogICAgICAgICAgICAgICAgInByb2JlIOKGkCBIVFRQICR7cmVzcC5jb2RlfSDnlKjml7YgJHthbmRyb2lkLm9zLlN5c3RlbUNsb2NrLmVsYXBzZWRSZWFsdGltZSgpIC0gdDB9bXMgIiArCiAgICAgICAgICAgICAgICAgICAgICAgICJDUj0ke3Jlc3AuaGVhZGVyKCJDb250ZW50LVJhbmdlIil9IENMPSR7cmVzcC5oZWFkZXIoIkNvbnRlbnQtTGVuZ3RoIil9IiwKICAgICAgICAgICAgKQogICAgICAgICAgICBpZiAoIXJlc3AuaXNTdWNjZXNzZnVsKSB7CiAgICAgICAgICAgICAgICB0aHJvdyBJbGxlZ2FsU3RhdGVFeGNlcHRpb24oIuacjeWKoeWZqOi/lOWbniBIVFRQICR7cmVzcC5jb2RlfSIpCiAgICAgICAgICAgIH0KICAgICAgICAgICAgdmFsIG1pbWUgPSByZXNwLmhlYWRlcigiQ29udGVudC1UeXBlIik/LnN1YnN0cmluZ0JlZm9yZSgnOycpPy50cmltKCkKICAgICAgICAgICAgdmFsIG5hbWUgPSBwaWNrRmlsZU5hbWUocmVzcC5oZWFkZXIoIkNvbnRlbnQtRGlzcG9zaXRpb24iKSwgdXJsLCBtaW1lKQoKICAgICAgICAgICAgdmFsIGNyID0gY29udGVudFJhbmdlUmUuZmluZChyZXNwLmhlYWRlcigiQ29udGVudC1SYW5nZSIpLm9yRW1wdHkoKSkKICAgICAgICAgICAgdmFsIHRvdGFsID0gY3I/Lmdyb3VwVmFsdWVzPy5nZXRPck51bGwoMykKICAgICAgICAgICAgICAgID8udGFrZVVubGVzcyB7IGl0ID09ICIqIiB9CiAgICAgICAgICAgICAgICA/LnRvTG9uZ09yTnVsbCgpCiAgICAgICAgICAgICAgICA/OiByZXNwLmhlYWRlcigiQ29udGVudC1MZW5ndGgiKT8udG9Mb25nT3JOdWxsKCkKICAgICAgICAgICAgICAgID86IC0xTAoKICAgICAgICAgICAgLy8g5Y+q5pyJIDIwNiArIENvbnRlbnQtUmFuZ2Ug5omN566X44CM55yf5pSv5oyB5YiG54mH44CN77ybMjAwIOaYr+acjeWKoeWZqOW/veeVpeS6hiBSYW5nZQogICAgICAgICAgICB2YWwgcmVzdW1hYmxlID0gcmVzcC5jb2RlID09IDIwNiAmJiBjciAhPSBudWxsCgogICAgICAgICAgICBJbmZvKHRvdGFsLCByZXN1bWFibGUsIG5hbWUsIG1pbWUpCiAgICAgICAgfQogICAgfQoKICAgIC8vIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0g5paH5Lu25ZCN5o6o5patCgogICAgcHJpdmF0ZSBmdW4gcGlja0ZpbGVOYW1lKGRpc3Bvc2l0aW9uOiBTdHJpbmc/LCB1cmw6IFN0cmluZywgbWltZTogU3RyaW5nPyk6IFN0cmluZyB7CiAgICAgICAgZGlzcG9zaXRpb24/LmxldCB7IGQgLT4KICAgICAgICAgICAgLy8gZmlsZW5hbWUqPVVURi04Jyd4eHglMjB5eXnvvIhSRkMgNTk4N++8jOS8mOWFiO+8iQogICAgICAgICAgICBSZWdleCgiIiJmaWxlbmFtZVwqXHMqPVxzKihbXjtdKykiIiIsIFJlZ2V4T3B0aW9uLklHTk9SRV9DQVNFKS5maW5kKGQpPy5sZXQgeyBtIC0+CiAgICAgICAgICAgICAgICB2YWwgdiA9IG0uZ3JvdXBWYWx1ZXNbMV0udHJpbSgpLnRyaW0oJyInKQogICAgICAgICAgICAgICAgdmFsIGVuY29kZWQgPSB2LnN1YnN0cmluZ0FmdGVyKCInJyIsIHYpCiAgICAgICAgICAgICAgICBkZWNvZGVRdWlldGx5KGVuY29kZWQpLnRha2VJZiB7IGl0LmlzTm90QmxhbmsoKSB9Py5sZXQgeyByZXR1cm4gaXQgfQogICAgICAgICAgICB9CiAgICAgICAgICAgIC8vIGZpbGVuYW1lPSJ4eHgiCiAgICAgICAgICAgIFJlZ2V4KCIiImZpbGVuYW1lXHMqPVxzKiI/KFteIjtdKykiPyIiIiwgUmVnZXhPcHRpb24uSUdOT1JFX0NBU0UpLmZpbmQoZCk/LmxldCB7IG0gLT4KICAgICAgICAgICAgICAgIGRlY29kZVF1aWV0bHkobS5ncm91cFZhbHVlc1sxXS50cmltKCkudHJpbSgnIicpKQogICAgICAgICAgICAgICAgICAgIC50YWtlSWYgeyBpdC5pc05vdEJsYW5rKCkgfT8ubGV0IHsgcmV0dXJuIGl0IH0KICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgLy8g5LuOIFVSTCDmnKvmrrXlj5bvvIzljrvmjokgcXVlcnkKICAgICAgICB2YWwgcGF0aCA9IHVybC5zdWJzdHJpbmdCZWZvcmUoJz8nKS5zdWJzdHJpbmdCZWZvcmUoJyMnKS50cmltRW5kKCcvJykKICAgICAgICB2YWwgbGFzdCA9IHBhdGguc3Vic3RyaW5nQWZ0ZXJMYXN0KCcvJykKICAgICAgICB2YWwgZGVjb2RlZCA9IGRlY29kZVF1aWV0bHkobGFzdCkKICAgICAgICBpZiAoZGVjb2RlZC5pc05vdEJsYW5rKCkgJiYgZGVjb2RlZC5jb250YWlucygnLicpKSByZXR1cm4gZGVjb2RlZAoKICAgICAgICByZXR1cm4gImRvd25sb2FkXyR7U3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCl9IiArIGV4dEZyb21NaW1lKG1pbWUpCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gZXh0RnJvbU1pbWUobWltZTogU3RyaW5nPyk6IFN0cmluZyA9IHdoZW4gKG1pbWU/Lmxvd2VyY2FzZSgpKSB7CiAgICAgICAgImFwcGxpY2F0aW9uL3ppcCIsICJhcHBsaWNhdGlvbi94LXppcC1jb21wcmVzc2VkIiAtPiAiLnppcCIKICAgICAgICAiYXBwbGljYXRpb24vdm5kLmFuZHJvaWQucGFja2FnZS1hcmNoaXZlIiAtPiAiLmFwayIKICAgICAgICAiYXBwbGljYXRpb24vb2N0ZXQtc3RyZWFtIiAtPiAiLmJpbiIKICAgICAgICAidGV4dC9wbGFpbiIgLT4gIi50eHQiCiAgICAgICAgZWxzZSAtPiAiIgogICAgfQoKICAgIHByaXZhdGUgZnVuIGRlY29kZVF1aWV0bHkoczogU3RyaW5nKTogU3RyaW5nID0KICAgICAgICBydW5DYXRjaGluZyB7IFVSTERlY29kZXIuZGVjb2RlKHMsICJVVEYtOCIpIH0uZ2V0T3JEZWZhdWx0KHMpCgogICAgLyoqIOaWh+S7tuWQjemHjOeahOmdnuazleWtl+espuaNouaIkOS4i+WIkue6v++8jOW5tuS4lOWIq+iuqei3r+W+hOi3keWHuuebruW9leOAgiAqLwogICAgZnVuIHNhbml0aXplKG5hbWU6IFN0cmluZywgZmFsbGJhY2s6IFN0cmluZyk6IFN0cmluZyB7CiAgICAgICAgdmFyIGNsZWFuZWQgPSBuYW1lLnJlcGxhY2UoUmVnZXgoIiIiW1xcLzoqPyI8PnxceDAwLVx4MWZdIiIiKSwgIl8iKS50cmltKCkKICAgICAgICBjbGVhbmVkID0gY2xlYW5lZC50cmltU3RhcnQoJy4nKSAgICAgICAgICAvLyDliKvnlJ/miJAgLmhpZGRlbiAvIC4uL3gKICAgICAgICBpZiAoY2xlYW5lZC5pc0JsYW5rKCkpIGNsZWFuZWQgPSBmYWxsYmFjawogICAgICAgIGlmIChjbGVhbmVkLmxlbmd0aCA+IDEyMCkgewogICAgICAgICAgICB2YWwgZXh0ID0gY2xlYW5lZC5zdWJzdHJpbmdBZnRlckxhc3QoJy4nLCAiIikudGFrZSgxMCkKICAgICAgICAgICAgdmFsIGJhc2UgPSBjbGVhbmVkLnN1YnN0cmluZ0JlZm9yZUxhc3QoJy4nKS50YWtlKDEwMCkKICAgICAgICAgICAgY2xlYW5lZCA9IGlmIChleHQuaXNOb3RCbGFuaygpICYmIGV4dCAhPSBjbGVhbmVkKSAiJGJhc2UuJGV4dCIgZWxzZSBjbGVhbmVkLnRha2UoMTIwKQogICAgICAgIH0KICAgICAgICByZXR1cm4gY2xlYW5lZAogICAgfQp9Cg==
+package org.linbaogu.romhub.download
+
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
+import okhttp3.OkHttpClient
+import okhttp3.Request
+import java.net.URLDecoder
+
+/**
+ * 下载前的探测：这条链接多大、能不能分片、存成什么文件名。
+ *
+ * 做法是只请求 `Range: bytes=0-0`（一个字节）：
+ *   · 服务器回 206 + `Content-Range: bytes 0-0/123456789` → 总大小已知，且**支持分片**
+ *   · 服务器回 200（无视 Range）→ 不支持分片，只能单线程顺着下
+ * 这样既拿到信息，又几乎不耗流量 —— 直接 GET 一个几 G 的 ROM 包是不可接受的。
+ */
+object RangeProbe {
+
+    const val UA = "Mozilla/5.0 (Linux; Android 14; K) AppleWebKit/537.36 " +
+            "(KHTML, like Gecko) Chrome/120.0 Mobile Safari/537.36"
+
+    private val contentRangeRe = Regex("""bytes\s+(\d+)-(\d+)/(\d+|\*)""", RegexOption.IGNORE_CASE)
+
+    data class Info(
+        /** 总字节数；-1 表示服务器没说 */
+        val total: Long,
+        /** 支持断点/分片 */
+        val resumable: Boolean,
+        val fileName: String,
+        val mime: String?,
+    )
+
+    /**
+     * 探测用的客户端。
+     *
+     * ## 为什么要单独收短超时、还要关掉连接失败重试
+     *
+     * 探测只发一个 `Range: bytes=0-0`，正常几百毫秒就回来了。但下面两件事
+     * 会让它拖很久，用户看到的就是「点了开始下载，半天没反应」：
+     *
+     *   1. `callTimeout` 是 **AsyncTimeout** 计时的，只在请求**真正开始执行**后
+     *      才开始算。请求还在连接池/队列里排队时是不计时的。
+     *   2. 下载客户端开了 `retryOnConnectionFailure(true)`（对分片传大文件是对的），
+     *      但探测阶段一旦源站连不上，它会**反复重试**，每次重试都重新等一轮
+     *      connect + call 超时。15 秒建连 × 3 次重试 ≈ 55 秒白等 ——
+     *      这跟"卡住了"在用户眼里没有区别。
+     *
+     * 所以探测这里：超时收短（建连 8 秒 / 整体 12 秒），并且**关掉重试** ——
+     * 连不上就尽快把结论抛出来，让界面立刻显示原因，而不是让用户干等。
+     */
+    private fun probeClient(base: OkHttpClient): OkHttpClient =
+        base.newBuilder()
+            .callTimeout(12, java.util.concurrent.TimeUnit.SECONDS)
+            .readTimeout(12, java.util.concurrent.TimeUnit.SECONDS)
+            .connectTimeout(8, java.util.concurrent.TimeUnit.SECONDS)
+            // 关掉重试：探测阶段重试只会把"连不上"这件事拖成几十秒的静默等待
+            .retryOnConnectionFailure(false)
+            .build()
+
+    suspend fun probe(
+        client: OkHttpClient,
+        url: String,
+        headers: Map<String, String> = emptyMap(),
+    ): Info = withContext(Dispatchers.IO) {
+        val req = Request.Builder()
+            .url(url)
+            .header("Range", "bytes=0-0")
+            .header("User-Agent", UA)
+            .header("Accept", "*/*")
+            .apply { headers.forEach { (k, v) -> if (k.isNotBlank()) header(k, v) } }
+            .get()
+            .build()
+
+        val t0 = android.os.SystemClock.elapsedRealtime()
+        android.util.Log.i("RomHubDL", "probe → ${url.take(100)}")
+        probeClient(client).newCall(req).execute().use { resp ->
+            android.util.Log.i(
+                "RomHubDL",
+                "probe ← HTTP ${resp.code} 用时 ${android.os.SystemClock.elapsedRealtime() - t0}ms " +
+                        "CR=${resp.header("Content-Range")} CL=${resp.header("Content-Length")}",
+            )
+            if (!resp.isSuccessful) {
+                throw IllegalStateException("服务器返回 HTTP ${resp.code}")
+            }
+            val mime = resp.header("Content-Type")?.substringBefore(';')?.trim()
+            val name = pickFileName(resp.header("Content-Disposition"), url, mime)
+
+            val cr = contentRangeRe.find(resp.header("Content-Range").orEmpty())
+            val total = cr?.groupValues?.getOrNull(3)
+                ?.takeUnless { it == "*" }
+                ?.toLongOrNull()
+                ?: resp.header("Content-Length")?.toLongOrNull()
+                ?: -1L
+
+            // 只有 206 + Content-Range 才算「真支持分片」；200 是服务器忽略了 Range
+            val resumable = resp.code == 206 && cr != null
+
+            Info(total, resumable, name, mime)
+        }
+    }
+
+    // ---------------------------------------------------------------- 文件名推断
+
+    private fun pickFileName(disposition: String?, url: String, mime: String?): String {
+        disposition?.let { d ->
+            // filename*=UTF-8''xxx%20yyy（RFC 5987，优先）
+            Regex("""filename\*\s*=\s*([^;]+)""", RegexOption.IGNORE_CASE).find(d)?.let { m ->
+                val v = m.groupValues[1].trim().trim('"')
+                val encoded = v.substringAfter("''", v)
+                decodeQuietly(encoded).takeIf { it.isNotBlank() }?.let { return it }
+            }
+            // filename="xxx"
+            Regex("""filename\s*=\s*"?([^";]+)"?""", RegexOption.IGNORE_CASE).find(d)?.let { m ->
+                decodeQuietly(m.groupValues[1].trim().trim('"'))
+                    .takeIf { it.isNotBlank() }?.let { return it }
+            }
+        }
+
+        // 从 URL 末段取，去掉 query
+        val path = url.substringBefore('?').substringBefore('#').trimEnd('/')
+        val last = path.substringAfterLast('/')
+        val decoded = decodeQuietly(last)
+        if (decoded.isNotBlank() && decoded.contains('.')) return decoded
+
+        return "download_${System.currentTimeMillis()}" + extFromMime(mime)
+    }
+
+    private fun extFromMime(mime: String?): String = when (mime?.lowercase()) {
+        "application/zip", "application/x-zip-compressed" -> ".zip"
+        "application/vnd.android.package-archive" -> ".apk"
+        "application/octet-stream" -> ".bin"
+        "text/plain" -> ".txt"
+        else -> ""
+    }
+
+    private fun decodeQuietly(s: String): String =
+        runCatching { URLDecoder.decode(s, "UTF-8") }.getOrDefault(s)
+
+    /** 文件名里的非法字符换成下划线，并且别让路径跑出目录。 */
+    fun sanitize(name: String, fallback: String): String {
+        var cleaned = name.replace(Regex("""[\\/:*?"<>|\x00-\x1f]"""), "_").trim()
+        cleaned = cleaned.trimStart('.')          // 别生成 .hidden / ../x
+        if (cleaned.isBlank()) cleaned = fallback
+        if (cleaned.length > 120) {
+            val ext = cleaned.substringAfterLast('.', "").take(10)
+            val base = cleaned.substringBeforeLast('.').take(100)
+            cleaned = if (ext.isNotBlank() && ext != cleaned) "$base.$ext" else cleaned.take(120)
+        }
+        return cleaned
+    }
+}

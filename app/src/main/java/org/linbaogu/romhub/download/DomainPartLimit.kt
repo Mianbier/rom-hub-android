@@ -1,1 +1,140 @@
-cGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLmRvd25sb2FkCgppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQKaW1wb3J0IGtvdGxpbnguc2VyaWFsaXphdGlvbi5TZXJpYWxpemFibGUKaW1wb3J0IGtvdGxpbnguc2VyaWFsaXphdGlvbi5qc29uLkpzb24KaW1wb3J0IGphdmEuaW8uRmlsZQoKLyoqCiAqIOOAjOaMieWfn+WQjeiusOS9j+acgOS8mOWIhueJh+aVsOOAje+8muWQjOS4gOS4quWfn+WQjeS4i+asoeayv+eUqOS4iuasoeWunua1i+WlveeUqOeahOWIhueJh+aVsOOAggogKgogKiAjIyDkuLrku4DkuYjpnIDopoHlroMKICoKICog5ZCE5a62IENETiDlr7nlubblj5HnmoTlrrnlv43luqblt67lvpfov5zvvJoKICogICDCtyDmnInkupvmupDnq5nlvIAgNjQg57q/56iL6aOe5b+r77yM5byAIDgg57q/56iL5oWi5Y2B5YCN77ybCiAqICAgwrcg5pyJ5Lqb5rqQ56uZ6LaF6L+HIDE2IOW5tuWPkeebtOaOpeiiq+mZkOmAny/ov5Tlm54gNTAz77yI55m+5bqm572R55uY5bCx5piv5YW45Z6L77yJ44CCCiAqCiAqIOaAnei3r+aYryoq5oyJ5Z+f5ZCN6K6w5L2P6K+V5Ye65p2l55qE5ZCI6YCC5YiG54mH5pWwKirvvIzkuIvmrKHku47lkIzkuIDkuKrln5/lkI0KICog5LiL6L295pe26Ieq5Yqo5aWX55So77yM5LiN55So5q+P5qyh5omL5Yqo6LCD44CC5a6D55qE5a6e546w5pivIFNRTGl0ZSDooajvvJoKICogYGRvbWFpbl9wYXJ0X2xpbWl0KF9pZCwgZG9tYWluLCBwYXJ0X2xpbWl0LCB1c2VfZm9yX3N1YmRvbWFpbilgCiAqCiAqIOi/memHjOeUqCBKU09OIOiQveebmO+8iOS7u+WKoemHj+Wwj++8jOayoeW/heimgeS4iiBSb29t77yJ77yM6YC76L6R5L+d5oyB5LiA6Ie077yaCiAqICAgwrcgW3BhcnRMaW1pdEZvcl0g5p+l5Z+f5ZCN5a+55bqU55qE5YiG54mH5pWw77yM5rKh5pyJ5bCx6L+U5ZueIDDvvIjooajnpLoi55So5YWo5bGA6buY6K6kIu+8iQogKiAgIMK3IFtyZW1lbWJlcl0g5LiL6L295oiQ5Yqf5ZCO5oqK5a6e6ZmF55Sf5pWI55qE54mH5pWw6K6w5LiL5p2l77yM5LiL5qyh5aSN55SoCiAqICAgwrcgYHVzZUZvclN1YmRvbWFpbmDvvJrmr5TlpoIgYGNkbi5hLmNvbWAg55qE6K6+572u5piv5ZCm5aWX55So5YiwIGBhLmNvbWAg55qE5a2Q5Z+fCiAqLwpvYmplY3QgRG9tYWluUGFydExpbWl0IHsKCiAgICBwcml2YXRlIGNvbnN0IHZhbCBGSUxFX05BTUUgPSAiZG9tYWluX3BhcnRzLmpzb24iCgogICAgLyoqIOavj+S4quWfn+WQjeeahOiusOW9leaVsOS4iumZkCDigJTigJQg6Ziy5q2i5peg6ZmQ5aKe6ZW/44CCICovCiAgICBwcml2YXRlIGNvbnN0IHZhbCBNQVhfRU5UUklFUyA9IDMwMAoKICAgIEBTZXJpYWxpemFibGUKICAgIGRhdGEgY2xhc3MgRW50cnkoCiAgICAgICAgdmFsIGRvbWFpbjogU3RyaW5nLAogICAgICAgIC8qKiDliIbniYfmlbDvvJswID0g5pyq6K6w5b2VICovCiAgICAgICAgdmFyIHBhcnRMaW1pdDogSW50ID0gMCwKICAgICAgICAvKiog5piv5ZCm5aWX55So5Yiw5a2Q5Z+f5ZCNICovCiAgICAgICAgdmFyIHVzZUZvclN1YmRvbWFpbjogQm9vbGVhbiA9IHRydWUsCiAgICAgICAgdmFyIHVwZGF0ZWRBdDogTG9uZyA9IFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpLAogICAgKQoKICAgIHByaXZhdGUgdmFsIGpzb24gPSBKc29uIHsKICAgICAgICBpZ25vcmVVbmtub3duS2V5cyA9IHRydWUKICAgICAgICBlbmNvZGVEZWZhdWx0cyA9IHRydWUKICAgIH0KCiAgICBAVm9sYXRpbGUgcHJpdmF0ZSB2YXIgY2FjaGU6IE11dGFibGVNYXA8U3RyaW5nLCBFbnRyeT4/ID0gbnVsbAoKICAgIHByaXZhdGUgZnVuIGZpbGUoY3R4OiBDb250ZXh0KTogRmlsZSA9IEZpbGUoY3R4LmZpbGVzRGlyLCBGSUxFX05BTUUpCgogICAgQFN5bmNocm9uaXplZAogICAgcHJpdmF0ZSBmdW4gbG9hZChjdHg6IENvbnRleHQpOiBNdXRhYmxlTWFwPFN0cmluZywgRW50cnk+IHsKICAgICAgICBjYWNoZT8ubGV0IHsgcmV0dXJuIGl0IH0KICAgICAgICB2YWwgbWFwID0gcnVuQ2F0Y2hpbmcgewogICAgICAgICAgICB2YWwgZiA9IGZpbGUoY3R4KQogICAgICAgICAgICBpZiAoIWYuZXhpc3RzKCkgfHwgZi5yZWFkVGV4dCgpLmlzQmxhbmsoKSkgewogICAgICAgICAgICAgICAgbXV0YWJsZU1hcE9mKCkKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIGpzb24uZGVjb2RlRnJvbVN0cmluZzxMaXN0PEVudHJ5Pj4oZi5yZWFkVGV4dCgpKQogICAgICAgICAgICAgICAgICAgIC5hc3NvY2lhdGVCeVRvKG11dGFibGVNYXBPZigpKSB7IGl0LmRvbWFpbi5sb3dlcmNhc2UoKSB9CiAgICAgICAgICAgIH0KICAgICAgICB9LmdldE9yRWxzZSB7IG11dGFibGVNYXBPZigpIH0KICAgICAgICBjYWNoZSA9IG1hcAogICAgICAgIHJldHVybiBtYXAKICAgIH0KCiAgICBAU3luY2hyb25pemVkCiAgICBwcml2YXRlIGZ1biBzYXZlKGN0eDogQ29udGV4dCkgewogICAgICAgIHJ1bkNhdGNoaW5nIHsKICAgICAgICAgICAgdmFsIG1hcCA9IGxvYWQoY3R4KQogICAgICAgICAgICAvLyDotoXlh7rkuIrpmZDlsLHnoI3mjonmnIDogIHnmoQKICAgICAgICAgICAgdmFsIGxpc3QgPSBpZiAobWFwLnNpemUgPiBNQVhfRU5UUklFUykgewogICAgICAgICAgICAgICAgbWFwLnZhbHVlcy5zb3J0ZWRCeURlc2NlbmRpbmcgeyBpdC51cGRhdGVkQXQgfS50YWtlKE1BWF9FTlRSSUVTKQogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgbWFwLnZhbHVlcy50b0xpc3QoKQogICAgICAgICAgICB9CiAgICAgICAgICAgIGZpbGUoY3R4KS53cml0ZVRleHQoanNvbi5lbmNvZGVUb1N0cmluZyhsaXN0KSkKICAgICAgICB9CiAgICB9CgogICAgLyoqIOS7jiBVUkwg6YeM5oqg5Ye65Li75py65ZCN77yI5bCP5YaZ44CB5Y6756uv5Y+j77yJ44CCICovCiAgICBmdW4gZG9tYWluT2YodXJsOiBTdHJpbmcpOiBTdHJpbmcgPSBydW5DYXRjaGluZyB7CiAgICAgICAgdmFsIHUgPSBva2h0dHAzLkh0dHBVcmwuQ29tcGFuaW9uLnJ1biB7IHVybC50b0h0dHBVcmxPck51bGwoKSB9CiAgICAgICAgICAgID86IHJldHVybkBydW5DYXRjaGluZyAiIgogICAgICAgIHUuaG9zdC5sb3dlcmNhc2UoKQogICAgfS5nZXRPckRlZmF1bHQoIiIpCgogICAgLyoqCiAgICAgKiDmn6Xov5nkuKrln5/lkI3or6XnlKjlh6DkuKrliIbniYfjgIIKICAgICAqCiAgICAgKiDmn6XkuI3liLDnsr7noa7ljLnphY3ml7bvvIzlvoDkuIrkuIDnuqfln5/lkI3mib7vvIjlpoLmnpzpgqPmnaHorrDlvZXlvIDkuoYgW0VudHJ5LnVzZUZvclN1YmRvbWFpbl3vvInjgIIKICAgICAqIOi/lOWbniAwID0g5rKh6K6w5b2V77yM6LCD55So5pa555So6Ieq5bex55qE6buY6K6k5YC844CCCiAgICAgKi8KICAgIGZ1biBwYXJ0TGltaXRGb3IoY3R4OiBDb250ZXh0LCB1cmw6IFN0cmluZyk6IEludCB7CiAgICAgICAgdmFsIGhvc3QgPSBkb21haW5PZih1cmwpCiAgICAgICAgaWYgKGhvc3QuaXNCbGFuaygpKSByZXR1cm4gMAogICAgICAgIHZhbCBtYXAgPSBsb2FkKGN0eCkKCiAgICAgICAgbWFwW2hvc3RdPy50YWtlSWYgeyBpdC5wYXJ0TGltaXQgPiAwIH0/LmxldCB7IHJldHVybiBpdC5wYXJ0TGltaXQgfQoKICAgICAgICAvLyDpgJDnuqflvoDkuIrmib7niLbln5/vvJpjZG4uZGwuZXhhbXBsZS5jb20g4oaSIGRsLmV4YW1wbGUuY29tIOKGkiBleGFtcGxlLmNvbQogICAgICAgIHZhbCBwYXJ0cyA9IGhvc3Quc3BsaXQoJy4nKQogICAgICAgIGZvciAoaSBpbiAxIHVudGlsIHBhcnRzLnNpemUgLSAxKSB7CiAgICAgICAgICAgIHZhbCBwYXJlbnQgPSBwYXJ0cy5zdWJMaXN0KGksIHBhcnRzLnNpemUpLmpvaW5Ub1N0cmluZygiLiIpCiAgICAgICAgICAgIG1hcFtwYXJlbnRdPy5sZXQgeyBlIC0+CiAgICAgICAgICAgICAgICBpZiAoZS51c2VGb3JTdWJkb21haW4gJiYgZS5wYXJ0TGltaXQgPiAwKSByZXR1cm4gZS5wYXJ0TGltaXQKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICByZXR1cm4gMAogICAgfQoKICAgIC8qKiDorrDkuIvmn5DkuKrln5/lkI3lrp7mtYvlpb3nlKjnmoTliIbniYfmlbDjgIIgKi8KICAgIGZ1biByZW1lbWJlcihjdHg6IENvbnRleHQsIHVybDogU3RyaW5nLCBwYXJ0TGltaXQ6IEludCwgdXNlRm9yU3ViZG9tYWluOiBCb29sZWFuID0gdHJ1ZSkgewogICAgICAgIHZhbCBob3N0ID0gZG9tYWluT2YodXJsKQogICAgICAgIGlmIChob3N0LmlzQmxhbmsoKSB8fCBwYXJ0TGltaXQgPD0gMCkgcmV0dXJuCiAgICAgICAgdmFsIG1hcCA9IGxvYWQoY3R4KQogICAgICAgIG1hcFtob3N0XSA9IEVudHJ5KAogICAgICAgICAgICBkb21haW4gPSBob3N0LAogICAgICAgICAgICBwYXJ0TGltaXQgPSBwYXJ0TGltaXQsCiAgICAgICAgICAgIHVzZUZvclN1YmRvbWFpbiA9IHVzZUZvclN1YmRvbWFpbiwKICAgICAgICAgICAgdXBkYXRlZEF0ID0gU3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCksCiAgICAgICAgKQogICAgICAgIHNhdmUoY3R4KQogICAgfQoKICAgIC8qKiDliJflh7rmiYDmnInlt7LorrDlvZXln5/lkI3vvIjnu5norr7nva7pobXlsZXnpLov57yW6L6R55So77yJ44CCICovCiAgICBmdW4gbGlzdChjdHg6IENvbnRleHQpOiBMaXN0PEVudHJ5PiA9CiAgICAgICAgbG9hZChjdHgpLnZhbHVlcy5zb3J0ZWRCeSB7IGl0LmRvbWFpbiB9CgogICAgZnVuIHJlbW92ZShjdHg6IENvbnRleHQsIGRvbWFpbjogU3RyaW5nKSB7CiAgICAgICAgbG9hZChjdHgpLnJlbW92ZShkb21haW4ubG93ZXJjYXNlKCkpCiAgICAgICAgc2F2ZShjdHgpCiAgICB9CgogICAgZnVuIGNsZWFyKGN0eDogQ29udGV4dCkgewogICAgICAgIGxvYWQoY3R4KS5jbGVhcigpCiAgICAgICAgc2F2ZShjdHgpCiAgICB9Cn0K
+package org.linbaogu.romhub.download
+
+import android.content.Context
+import kotlinx.serialization.Serializable
+import kotlinx.serialization.json.Json
+import java.io.File
+
+/**
+ * 「按域名记住最优分片数」：同一个域名下次沿用上次实测好用的分片数。
+ *
+ * ## 为什么需要它
+ *
+ * 各家 CDN 对并发的容忍度差得远：
+ *   · 有些源站开 64 线程飞快，开 8 线程慢十倍；
+ *   · 有些源站超过 16 并发直接被限速/返回 503（百度网盘就是典型）。
+ *
+ * 思路是**按域名记住试出来的合适分片数**，下次从同一个域名
+ * 下载时自动套用，不用每次手动调。它的实现是 SQLite 表：
+ * `domain_part_limit(_id, domain, part_limit, use_for_subdomain)`
+ *
+ * 这里用 JSON 落盘（任务量小，没必要上 Room），逻辑保持一致：
+ *   · [partLimitFor] 查域名对应的分片数，没有就返回 0（表示"用全局默认"）
+ *   · [remember] 下载成功后把实际生效的片数记下来，下次复用
+ *   · `useForSubdomain`：比如 `cdn.a.com` 的设置是否套用到 `a.com` 的子域
+ */
+object DomainPartLimit {
+
+    private const val FILE_NAME = "domain_parts.json"
+
+    /** 每个域名的记录数上限 —— 防止无限增长。 */
+    private const val MAX_ENTRIES = 300
+
+    @Serializable
+    data class Entry(
+        val domain: String,
+        /** 分片数；0 = 未记录 */
+        var partLimit: Int = 0,
+        /** 是否套用到子域名 */
+        var useForSubdomain: Boolean = true,
+        var updatedAt: Long = System.currentTimeMillis(),
+    )
+
+    private val json = Json {
+        ignoreUnknownKeys = true
+        encodeDefaults = true
+    }
+
+    @Volatile private var cache: MutableMap<String, Entry>? = null
+
+    private fun file(ctx: Context): File = File(ctx.filesDir, FILE_NAME)
+
+    @Synchronized
+    private fun load(ctx: Context): MutableMap<String, Entry> {
+        cache?.let { return it }
+        val map = runCatching {
+            val f = file(ctx)
+            if (!f.exists() || f.readText().isBlank()) {
+                mutableMapOf()
+            } else {
+                json.decodeFromString<List<Entry>>(f.readText())
+                    .associateByTo(mutableMapOf()) { it.domain.lowercase() }
+            }
+        }.getOrElse { mutableMapOf() }
+        cache = map
+        return map
+    }
+
+    @Synchronized
+    private fun save(ctx: Context) {
+        runCatching {
+            val map = load(ctx)
+            // 超出上限就砍掉最老的
+            val list = if (map.size > MAX_ENTRIES) {
+                map.values.sortedByDescending { it.updatedAt }.take(MAX_ENTRIES)
+            } else {
+                map.values.toList()
+            }
+            file(ctx).writeText(json.encodeToString(list))
+        }
+    }
+
+    /** 从 URL 里抠出主机名（小写、去端口）。 */
+    fun domainOf(url: String): String = runCatching {
+        val u = okhttp3.HttpUrl.Companion.run { url.toHttpUrlOrNull() }
+            ?: return@runCatching ""
+        u.host.lowercase()
+    }.getOrDefault("")
+
+    /**
+     * 查这个域名该用几个分片。
+     *
+     * 查不到精确匹配时，往上一级域名找（如果那条记录开了 [Entry.useForSubdomain]）。
+     * 返回 0 = 没记录，调用方用自己的默认值。
+     */
+    fun partLimitFor(ctx: Context, url: String): Int {
+        val host = domainOf(url)
+        if (host.isBlank()) return 0
+        val map = load(ctx)
+
+        map[host]?.takeIf { it.partLimit > 0 }?.let { return it.partLimit }
+
+        // 逐级往上找父域：cdn.dl.example.com → dl.example.com → example.com
+        val parts = host.split('.')
+        for (i in 1 until parts.size - 1) {
+            val parent = parts.subList(i, parts.size).joinToString(".")
+            map[parent]?.let { e ->
+                if (e.useForSubdomain && e.partLimit > 0) return e.partLimit
+            }
+        }
+        return 0
+    }
+
+    /** 记下某个域名实测好用的分片数。 */
+    fun remember(ctx: Context, url: String, partLimit: Int, useForSubdomain: Boolean = true) {
+        val host = domainOf(url)
+        if (host.isBlank() || partLimit <= 0) return
+        val map = load(ctx)
+        map[host] = Entry(
+            domain = host,
+            partLimit = partLimit,
+            useForSubdomain = useForSubdomain,
+            updatedAt = System.currentTimeMillis(),
+        )
+        save(ctx)
+    }
+
+    /** 列出所有已记录域名（给设置页展示/编辑用）。 */
+    fun list(ctx: Context): List<Entry> =
+        load(ctx).values.sortedBy { it.domain }
+
+    fun remove(ctx: Context, domain: String) {
+        load(ctx).remove(domain.lowercase())
+        save(ctx)
+    }
+
+    fun clear(ctx: Context) {
+        load(ctx).clear()
+        save(ctx)
+    }
+}

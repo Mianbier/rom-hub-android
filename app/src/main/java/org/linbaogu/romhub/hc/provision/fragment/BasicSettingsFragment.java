@@ -1,1 +1,223 @@
-LyoKICogVGhpcyBmaWxlIGlzIHBhcnQgb2YgSHlwZXJDZWlsZXIuCgogKiBIeXBlckNlaWxlciBpcyBmcmVlIHNvZnR3YXJlOiB5b3UgY2FuIHJlZGlzdHJpYnV0ZSBpdCBhbmQvb3IgbW9kaWZ5CiAqIGl0IHVuZGVyIHRoZSB0ZXJtcyBvZiB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGFzCiAqIHB1Ymxpc2hlZCBieSB0aGUgRnJlZSBTb2Z0d2FyZSBGb3VuZGF0aW9uLCBlaXRoZXIgdmVyc2lvbiAzIG9mIHRoZQogKiBMaWNlbnNlLgoKICogVGhpcyBwcm9ncmFtIGlzIGRpc3RyaWJ1dGVkIGluIHRoZSBob3BlIHRoYXQgaXQgd2lsbCBiZSB1c2VmdWwsCiAqIGJ1dCBXSVRIT1VUIEFOWSBXQVJSQU5UWTsgd2l0aG91dCBldmVuIHRoZSBpbXBsaWVkIHdhcnJhbnR5IG9mCiAqIE1FUkNIQU5UQUJJTElUWSBvciBGSVRORVNTIEZPUiBBIFBBUlRJQ1VMQVIgUFVSUE9TRS4gIFNlZSB0aGUKICogR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGZvciBtb3JlIGRldGFpbHMuCgogKiBZb3Ugc2hvdWxkIGhhdmUgcmVjZWl2ZWQgYSBjb3B5IG9mIHRoZSBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UKICogYWxvbmcgd2l0aCB0aGlzIHByb2dyYW0uICBJZiBub3QsIHNlZSA8aHR0cHM6Ly93d3cuZ251Lm9yZy9saWNlbnNlcy8+LgoKICogQ29weXJpZ2h0IChDKSAyMDIzLTIwMjYgSHlwZXJDZWlsZXIgQ29udHJpYnV0aW9ucwogKi8KcGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLmhjLnByb3Zpc2lvbi5mcmFnbWVudDsKCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29tcG9uZW50TmFtZTsKaW1wb3J0IGFuZHJvaWQuY29udGVudC5JbnRlbnQ7CmltcG9ydCBhbmRyb2lkLmNvbnRlbnQucG0uUGFja2FnZU1hbmFnZXI7CmltcG9ydCBhbmRyb2lkLm9zLkJ1bmRsZTsKaW1wb3J0IGFuZHJvaWQudmlldy5WaWV3OwppbXBvcnQgYW5kcm9pZC53aWRnZXQuVG9hc3Q7CgppbXBvcnQgYW5kcm9pZHguYW5ub3RhdGlvbi5Ob25OdWxsOwppbXBvcnQgYW5kcm9pZHguYW5ub3RhdGlvbi5OdWxsYWJsZTsKaW1wb3J0IGFuZHJvaWR4LnByZWZlcmVuY2UuUHJlZmVyZW5jZTsKaW1wb3J0IGFuZHJvaWR4LnByZWZlcmVuY2UuU3dpdGNoUHJlZmVyZW5jZTsKaW1wb3J0IGFuZHJvaWR4LnJlY3ljbGVydmlldy53aWRnZXQuUmVjeWNsZXJWaWV3OwoKaW1wb3J0IG9yZy5saW5iYW9ndS5yb21odWIuaGMuY29tbW9uLkFwcExhbmd1YWdlSGVscGVyOwppbXBvcnQgb3JnLmxpbmJhb2d1LnJvbWh1Yi5oYy5jb21tb24uQXBwU2V0dGluZ3NTdG9yZTsKaW1wb3J0IG9yZy5saW5iYW9ndS5yb21odWIuaGMuY29tbW9uLlByZWZzQ29uZmlndXJhdG9yOwppbXBvcnQgb3JnLmxpbmJhb2d1LnJvbWh1Yi5SOwoKaW1wb3J0IGZhbi5wcmVmZXJlbmNlLkRyb3BEb3duUHJlZmVyZW5jZTsKaW1wb3J0IGZhbi5wcmVmZXJlbmNlLlByZWZlcmVuY2VGcmFnbWVudDsKCnB1YmxpYyBjbGFzcyBCYXNpY1NldHRpbmdzRnJhZ21lbnQgZXh0ZW5kcyBQcmVmZXJlbmNlRnJhZ21lbnQgewoKICAgIHByaXZhdGUgc3RhdGljIGZpbmFsIFN0cmluZyBTQ09QRV9QSUNLRVJfQ0xBU1NfTkFNRSA9ICJvcmcubGluYmFvZ3Uucm9taHViLk1haW5BY3Rpdml0eSI7CiAgICBwcml2YXRlIHN0YXRpYyBmaW5hbCBTdHJpbmcgU0NPUEVfUElDS0VSX0VYVFJBX0lOSVRJQUxJWkFUSU9OX01PREUgPSAiaW5pdGlhbGl6YXRpb25fbW9kZSI7CiAgICBwcml2YXRlIHN0YXRpYyBmaW5hbCBTdHJpbmcgTEFVTkNIRVJfQUNUSVZJVFlfQ0xBU1NfTkFNRSA9ICJvcmcubGluYmFvZ3Uucm9taHViLk1haW5BY3Rpdml0eSI7CiAgICBwcml2YXRlIHN0YXRpYyBmaW5hbCBTdHJpbmcgUFJFRl9BUFBfTEFOR1VBR0UgPSAicHJlZnNfa2V5X3NldHRpbmdzX2FwcF9sYW5ndWFnZSI7CgogICAgcHJpdmF0ZSBib29sZWFuIG1Jc1Njcm9sbGVkQm90dG9tID0gZmFsc2U7CgogICAgU3dpdGNoUHJlZmVyZW5jZSBtSGlkZUFwcEljb247CiAgICBTd2l0Y2hQcmVmZXJlbmNlIG1TY29wZVN5bmNQcmVmZXJlbmNlOwogICAgUHJlZmVyZW5jZSBtU2NvcGVQcmVmZXJlbmNlOwogICAgRHJvcERvd25QcmVmZXJlbmNlIG1MYW5ndWFnZVByZWZlcmVuY2U7CiAgICBEcm9wRG93blByZWZlcmVuY2UgbUljb25Nb2RlUHJlZmVyZW5jZTsKICAgIERyb3BEb3duUHJlZmVyZW5jZSBtSWNvbk1vZGVWYWx1ZTsKCiAgICBwcml2YXRlIFJlY3ljbGVyVmlldyBtUmVjeWNsZXJWaWV3OwoKICAgIEBPdmVycmlkZQogICAgcHVibGljIHZvaWQgb25DcmVhdGVQcmVmZXJlbmNlcyhATnVsbGFibGUgQnVuZGxlIHNhdmVkSW5zdGFuY2VTdGF0ZSwgQE51bGxhYmxlIFN0cmluZyByb290S2V5KSB7CiAgICAgICAgUHJlZnNDb25maWd1cmF0b3Iuc2V0dXAodGhpcyk7CiAgICAgICAgc2V0UHJlZmVyZW5jZXNGcm9tUmVzb3VyY2UoUi54bWwucHJvdmlzaW9uX2Jhc2ljX3NldHRpbmdzLCByb290S2V5KTsKCiAgICAgICAgbUhpZGVBcHBJY29uID0gZmluZFByZWZlcmVuY2UoInByZWZzX2tleV9zZXR0aW5nc19oaWRlX2FwcF9pY29uIik7CiAgICAgICAgbVNjb3BlU3luY1ByZWZlcmVuY2UgPSBmaW5kUHJlZmVyZW5jZSgicHJlZnNfa2V5X3NldHRpbmdzX3Njb3BlX3N5bmMiKTsKICAgICAgICBtU2NvcGVQcmVmZXJlbmNlID0gZmluZFByZWZlcmVuY2UoInByZWZzX2tleV9zZXR0aW5nc19zY29wZSIpOwogICAgICAgIG1MYW5ndWFnZVByZWZlcmVuY2UgPSBmaW5kUHJlZmVyZW5jZShQUkVGX0FQUF9MQU5HVUFHRSk7CiAgICAgICAgbUljb25Nb2RlUHJlZmVyZW5jZSA9IGZpbmRQcmVmZXJlbmNlKCJwcmVmc19rZXlfc2V0dGluZ3NfaWNvbiIpOwogICAgICAgIG1JY29uTW9kZVZhbHVlID0gZmluZFByZWZlcmVuY2UoInByZWZzX2tleV9zZXR0aW5nc19pY29uX21vZGUiKTsKCiAgICAgICAgaWYgKG1IaWRlQXBwSWNvbiAhPSBudWxsKSB7CiAgICAgICAgICAgIG1IaWRlQXBwSWNvbi5zZXRQZXJzaXN0ZW50KGZhbHNlKTsKICAgICAgICB9CiAgICAgICAgaWYgKG1TY29wZVN5bmNQcmVmZXJlbmNlICE9IG51bGwpIHsKICAgICAgICAgICAgbVNjb3BlU3luY1ByZWZlcmVuY2Uuc2V0UGVyc2lzdGVudChmYWxzZSk7CiAgICAgICAgfQogICAgICAgIGlmIChtTGFuZ3VhZ2VQcmVmZXJlbmNlICE9IG51bGwpIHsKICAgICAgICAgICAgbUxhbmd1YWdlUHJlZmVyZW5jZS5zZXRQZXJzaXN0ZW50KGZhbHNlKTsKICAgICAgICAgICAgbUxhbmd1YWdlUHJlZmVyZW5jZS5zZXRFbnRyaWVzKEFwcExhbmd1YWdlSGVscGVyLmdldExhbmd1YWdlRW50cmllcyhyZXF1aXJlQ29udGV4dCgpKSk7CiAgICAgICAgICAgIG1MYW5ndWFnZVByZWZlcmVuY2Uuc2V0RW50cnlWYWx1ZXMoQXBwTGFuZ3VhZ2VIZWxwZXIuZ2V0TGFuZ3VhZ2VFbnRyeVZhbHVlcygpKTsKICAgICAgICB9CiAgICAgICAgaWYgKG1JY29uTW9kZVByZWZlcmVuY2UgIT0gbnVsbCkgewogICAgICAgICAgICBtSWNvbk1vZGVQcmVmZXJlbmNlLnNldFBlcnNpc3RlbnQoZmFsc2UpOwogICAgICAgIH0KICAgICAgICBpZiAobUljb25Nb2RlVmFsdWUgIT0gbnVsbCkgewogICAgICAgICAgICBtSWNvbk1vZGVWYWx1ZS5zZXRQZXJzaXN0ZW50KGZhbHNlKTsKICAgICAgICB9CiAgICB9CgogICAgQE92ZXJyaWRlCiAgICBwdWJsaWMgdm9pZCBvblZpZXdDcmVhdGVkKFZpZXcgdmlldywgQnVuZGxlIGJ1bmRsZSkgewogICAgICAgIHN1cGVyLm9uVmlld0NyZWF0ZWQodmlldywgYnVuZGxlKTsKICAgICAgICBtUmVjeWNsZXJWaWV3ID0gZ2V0TGlzdFZpZXcoKTsKICAgICAgICBtUmVjeWNsZXJWaWV3LmFkZE9uU2Nyb2xsTGlzdGVuZXIobmV3IFJlY3ljbGVyVmlldy5PblNjcm9sbExpc3RlbmVyKCkgewogICAgICAgICAgICBAT3ZlcnJpZGUKICAgICAgICAgICAgcHVibGljIHZvaWQgb25TY3JvbGxlZChATm9uTnVsbCBSZWN5Y2xlclZpZXcgcmVjeWNsZXJWaWV3LCBpbnQgZHgsIGludCBkeSkgewogICAgICAgICAgICAgICAgc3VwZXIub25TY3JvbGxlZChyZWN5Y2xlclZpZXcsIGR4LCBkeSk7CiAgICAgICAgICAgICAgICBpZiAoIW1SZWN5Y2xlclZpZXcuY2FuU2Nyb2xsVmVydGljYWxseSgxKSkgewogICAgICAgICAgICAgICAgICAgIG1Jc1Njcm9sbGVkQm90dG9tID0gdHJ1ZTsKICAgICAgICAgICAgICAgICAgICBhZGp1c3ROZXh0VmlldygpOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfSk7CgogICAgICAgIGludCBtSWNvbk1vZGUgPSBBcHBTZXR0aW5nc1N0b3JlLmdldEljb25JbmRleChyZXF1aXJlQ29udGV4dCgpKTsKICAgICAgICBpbnQgbGFuZ3VhZ2VJbmRleCA9IEFwcExhbmd1YWdlSGVscGVyLmdldEN1cnJlbnRMYW5ndWFnZUluZGV4KHJlcXVpcmVDb250ZXh0KCkpOwogICAgICAgIGludCBpY29uTW9kZVZhbHVlID0gQXBwU2V0dGluZ3NTdG9yZS5nZXRJY29uTW9kZUluZGV4KHJlcXVpcmVDb250ZXh0KCkpOwogICAgICAgIGJvb2xlYW4gaGlkZUFwcEljb25FbmFibGVkID0gQXBwU2V0dGluZ3NTdG9yZS5pc0hpZGVBcHBJY29uRW5hYmxlZChyZXF1aXJlQ29udGV4dCgpKTsKICAgICAgICBib29sZWFuIHNjb3BlU3luY0VuYWJsZWQgPSBBcHBTZXR0aW5nc1N0b3JlLmlzU2NvcGVTeW5jRW5hYmxlZChyZXF1aXJlQ29udGV4dCgpKTsKICAgICAgICBtSGlkZUFwcEljb24gPSBmaW5kUHJlZmVyZW5jZSgicHJlZnNfa2V5X3NldHRpbmdzX2hpZGVfYXBwX2ljb24iKTsKICAgICAgICBtU2NvcGVTeW5jUHJlZmVyZW5jZSA9IGZpbmRQcmVmZXJlbmNlKCJwcmVmc19rZXlfc2V0dGluZ3Nfc2NvcGVfc3luYyIpOwogICAgICAgIG1TY29wZVByZWZlcmVuY2UgPSBmaW5kUHJlZmVyZW5jZSgicHJlZnNfa2V5X3NldHRpbmdzX3Njb3BlIik7CiAgICAgICAgbUxhbmd1YWdlUHJlZmVyZW5jZSA9IGZpbmRQcmVmZXJlbmNlKFBSRUZfQVBQX0xBTkdVQUdFKTsKICAgICAgICBtSWNvbk1vZGVQcmVmZXJlbmNlID0gZmluZFByZWZlcmVuY2UoInByZWZzX2tleV9zZXR0aW5nc19pY29uIik7CiAgICAgICAgbUljb25Nb2RlVmFsdWUgPSBmaW5kUHJlZmVyZW5jZSgicHJlZnNfa2V5X3NldHRpbmdzX2ljb25fbW9kZSIpOwoKICAgICAgICBpZiAobUhpZGVBcHBJY29uICE9IG51bGwpIHsKICAgICAgICAgICAgbUhpZGVBcHBJY29uLnNldENoZWNrZWQoaGlkZUFwcEljb25FbmFibGVkKTsKICAgICAgICB9CiAgICAgICAgaWYgKG1TY29wZVN5bmNQcmVmZXJlbmNlICE9IG51bGwpIHsKICAgICAgICAgICAgbVNjb3BlU3luY1ByZWZlcmVuY2Uuc2V0Q2hlY2tlZChzY29wZVN5bmNFbmFibGVkKTsKICAgICAgICB9CiAgICAgICAgaWYgKG1MYW5ndWFnZVByZWZlcmVuY2UgIT0gbnVsbCkgewogICAgICAgICAgICBtTGFuZ3VhZ2VQcmVmZXJlbmNlLnNldFZhbHVlSW5kZXgobGFuZ3VhZ2VJbmRleCk7CiAgICAgICAgfQogICAgICAgIGlmIChtSWNvbk1vZGVQcmVmZXJlbmNlICE9IG51bGwpIHsKICAgICAgICAgICAgbUljb25Nb2RlUHJlZmVyZW5jZS5zZXRWYWx1ZUluZGV4KG1JY29uTW9kZSk7CiAgICAgICAgfQogICAgICAgIGlmIChtSWNvbk1vZGVWYWx1ZSAhPSBudWxsKSB7CiAgICAgICAgICAgIG1JY29uTW9kZVZhbHVlLnNldFZhbHVlSW5kZXgoaWNvbk1vZGVWYWx1ZSk7CiAgICAgICAgfQoKICAgICAgICBzZXRJY29uTW9kZShtSWNvbk1vZGUpOwogICAgICAgIGFwcGx5TGF1bmNoZXJJY29uU3RhdGUoaGlkZUFwcEljb25FbmFibGVkKTsKCiAgICAgICAgbUhpZGVBcHBJY29uLnNldE9uUHJlZmVyZW5jZUNoYW5nZUxpc3RlbmVyKChwcmVmZXJlbmNlLCBuZXdWYWx1ZSkgLT4gewogICAgICAgICAgICBib29sZWFuIGVuYWJsZWQgPSBCb29sZWFuLlRSVUUuZXF1YWxzKG5ld1ZhbHVlKTsKICAgICAgICAgICAgQXBwU2V0dGluZ3NTdG9yZS5zZXRIaWRlQXBwSWNvbkVuYWJsZWQocmVxdWlyZUNvbnRleHQoKSwgZW5hYmxlZCk7CiAgICAgICAgICAgIGFwcGx5TGF1bmNoZXJJY29uU3RhdGUoZW5hYmxlZCk7CiAgICAgICAgICAgIHJldHVybiB0cnVlOwogICAgICAgIH0pOwogICAgICAgIG1TY29wZVN5bmNQcmVmZXJlbmNlLnNldE9uUHJlZmVyZW5jZUNoYW5nZUxpc3RlbmVyKChwcmVmZXJlbmNlLCBuZXdWYWx1ZSkgLT4gewogICAgICAgICAgICBib29sZWFuIGVuYWJsZWQgPSBCb29sZWFuLlRSVUUuZXF1YWxzKG5ld1ZhbHVlKTsKICAgICAgICAgICAgQXBwU2V0dGluZ3NTdG9yZS5zZXRTY29wZVN5bmNFbmFibGVkKHJlcXVpcmVDb250ZXh0KCksIGVuYWJsZWQpOwogICAgICAgICAgICBpZiAoZW5hYmxlZCkgewogICAgICAgICAgICAgICAgc3luY0hlYWRlclByZWZlcmVuY2VzVG9DdXJyZW50U2NvcGUoKTsKICAgICAgICAgICAgfQogICAgICAgICAgICByZXR1cm4gdHJ1ZTsKICAgICAgICB9KTsKICAgICAgICBtSWNvbk1vZGVQcmVmZXJlbmNlLnNldE9uUHJlZmVyZW5jZUNoYW5nZUxpc3RlbmVyKChwcmVmZXJlbmNlLCBuZXdWYWx1ZSkgLT4gewogICAgICAgICAgICBpbnQgaW5kZXggPSBJbnRlZ2VyLnBhcnNlSW50KChTdHJpbmcpIG5ld1ZhbHVlKTsKICAgICAgICAgICAgQXBwU2V0dGluZ3NTdG9yZS5zZXRJY29uSW5kZXgocmVxdWlyZUNvbnRleHQoKSwgaW5kZXgpOwogICAgICAgICAgICBzZXRJY29uTW9kZShpbmRleCk7CiAgICAgICAgICAgIHJldHVybiB0cnVlOwogICAgICAgIH0pOwogICAgICAgIG1JY29uTW9kZVZhbHVlLnNldE9uUHJlZmVyZW5jZUNoYW5nZUxpc3RlbmVyKChwcmVmZXJlbmNlLCBuZXdWYWx1ZSkgLT4gewogICAgICAgICAgICBBcHBTZXR0aW5nc1N0b3JlLnNldEljb25Nb2RlSW5kZXgocmVxdWlyZUNvbnRleHQoKSwgSW50ZWdlci5wYXJzZUludCgoU3RyaW5nKSBuZXdWYWx1ZSkpOwogICAgICAgICAgICByZXR1cm4gdHJ1ZTsKICAgICAgICB9KTsKICAgICAgICBtTGFuZ3VhZ2VQcmVmZXJlbmNlLnNldE9uUHJlZmVyZW5jZUNoYW5nZUxpc3RlbmVyKChwcmVmZXJlbmNlLCBuZXdWYWx1ZSkgLT4gewogICAgICAgICAgICBpbnQgaW5kZXggPSBJbnRlZ2VyLnBhcnNlSW50KChTdHJpbmcpIG5ld1ZhbHVlKTsKICAgICAgICAgICAgQXBwTGFuZ3VhZ2VIZWxwZXIuc2V0SW5kZXhMYW5ndWFnZShyZXF1aXJlQWN0aXZpdHkoKSwgaW5kZXgsIHRydWUpOwogICAgICAgICAgICByZXR1cm4gdHJ1ZTsKICAgICAgICB9KTsKCiAgICAgICAgbVNjb3BlUHJlZmVyZW5jZS5zZXRPblByZWZlcmVuY2VDbGlja0xpc3RlbmVyKHByZWZlcmVuY2UgLT4gewogICAgICAgICAgICBsYXVuY2hTY29wZVBpY2tlckZvckluaXRpYWxpemF0aW9uKCk7CiAgICAgICAgICAgIHJldHVybiB0cnVlOwogICAgICAgIH0pOwogICAgfQoKICAgIHB1YmxpYyB2b2lkIGFkanVzdE5leHRWaWV3KCkgewogICAgICAgIC8qaWYgKG1OZXh0VmlldyAhPSBudWxsICYmIG1OZXh0VmlldyBpbnN0YW5jZW9mIFRleHRWaWV3KSB7CiAgICAgICAgICAgIGlmIChtSXNTY3JvbGxlZEJvdHRvbSkgewogICAgICAgICAgICAgICAgKChUZXh0VmlldykgbU5leHRWaWV3KS5zZXRUZXh0KFIuc3RyaW5nLm5leHQpOwogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgKChUZXh0VmlldykgbU5leHRWaWV3KS5zZXRUZXh0KFIuc3RyaW5nLm1vcmUpOwogICAgICAgICAgICB9CiAgICAgICAgfSovCiAgICB9CgogICAgcHJpdmF0ZSB2b2lkIHNldEljb25Nb2RlKGludCBtb2RlKSB7CiAgICAgICAgbUljb25Nb2RlVmFsdWUuc2V0VmlzaWJsZShtb2RlICE9IDApOwogICAgfQoKICAgIHByaXZhdGUgdm9pZCBhcHBseUxhdW5jaGVySWNvblN0YXRlKGJvb2xlYW4gZW5hYmxlZCkgewogICAgICAgIFBhY2thZ2VNYW5hZ2VyIHBhY2thZ2VNYW5hZ2VyID0gcmVxdWlyZUFjdGl2aXR5KCkuZ2V0UGFja2FnZU1hbmFnZXIoKTsKICAgICAgICBpbnQgY29tcG9uZW50RW5hYmxlZFN0YXRlID0gZW5hYmxlZAogICAgICAgICAgICA/IFBhY2thZ2VNYW5hZ2VyLkNPTVBPTkVOVF9FTkFCTEVEX1NUQVRFX0VOQUJMRUQKICAgICAgICAgICAgOiBQYWNrYWdlTWFuYWdlci5DT01QT05FTlRfRU5BQkxFRF9TVEFURV9ESVNBQkxFRDsKCiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgcGFja2FnZU1hbmFnZXIuc2V0Q29tcG9uZW50RW5hYmxlZFNldHRpbmcoCiAgICAgICAgICAgICAgICBuZXcgQ29tcG9uZW50TmFtZShyZXF1aXJlQ29udGV4dCgpLCBMQVVOQ0hFUl9BQ1RJVklUWV9DTEFTU19OQU1FKSwKICAgICAgICAgICAgICAgIGNvbXBvbmVudEVuYWJsZWRTdGF0ZSwKICAgICAgICAgICAgICAgIFBhY2thZ2VNYW5hZ2VyLkRPTlRfS0lMTF9BUFAKICAgICAgICAgICAgKTsKICAgICAgICB9IGNhdGNoIChFeGNlcHRpb24gaWdub3JlZCkgewogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIHZvaWQgbGF1bmNoU2NvcGVQaWNrZXJGb3JJbml0aWFsaXphdGlvbigpIHsKICAgICAgICB0cnkgewogICAgICAgICAgICBJbnRlbnQgaW50ZW50ID0gbmV3IEludGVudCgpOwogICAgICAgICAgICBpbnRlbnQuc2V0Q2xhc3NOYW1lKHJlcXVpcmVDb250ZXh0KCksIFNDT1BFX1BJQ0tFUl9DTEFTU19OQU1FKTsKICAgICAgICAgICAgaW50ZW50LnB1dEV4dHJhKFNDT1BFX1BJQ0tFUl9FWFRSQV9JTklUSUFMSVpBVElPTl9NT0RFLCB0cnVlKTsKICAgICAgICAgICAgc3RhcnRBY3Rpdml0eShpbnRlbnQpOwogICAgICAgIH0gY2F0Y2ggKEV4Y2VwdGlvbiBlKSB7CiAgICAgICAgICAgIFRvYXN0Lm1ha2VUZXh0KHJlcXVpcmVDb250ZXh0KCksIFIuc3RyaW5nLnByb3Zpc2lvbl9zY29wZV9vcGVuX2ZhaWxlZCwgVG9hc3QuTEVOR1RIX1NIT1JUKS5zaG93KCk7CiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgdm9pZCBzeW5jSGVhZGVyUHJlZmVyZW5jZXNUb0N1cnJlbnRTY29wZSgpIHsKICAgICAgICB0cnkgewogICAgICAgICAgICBDbGFzczw/PiBoZWFkZXJNYW5hZ2VyID0gQ2xhc3MuZm9yTmFtZSgib3JnLmxpbmJhb2d1LnJvbWh1Yi5NYWluQWN0aXZpdHkiKTsKICAgICAgICAgICAgaGVhZGVyTWFuYWdlci5nZXRNZXRob2QoInN5bmNIZWFkZXJQcmVmZXJlbmNlc1RvQ3VycmVudFNjb3BlIiwgYW5kcm9pZC5jb250ZW50LkNvbnRleHQuY2xhc3MpCiAgICAgICAgICAgICAgICAuaW52b2tlKG51bGwsIHJlcXVpcmVDb250ZXh0KCkpOwogICAgICAgIH0gY2F0Y2ggKEV4Y2VwdGlvbiBpZ25vcmVkKSB7CiAgICAgICAgfQogICAgfQoKfQo=
+/*
+ * This file is part of HyperCeiler.
+
+ * HyperCeiler is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as
+ * published by the Free Software Foundation, either version 3 of the
+ * License.
+
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Affero General Public License for more details.
+
+ * You should have received a copy of the GNU Affero General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+ * Copyright (C) 2023-2026 HyperCeiler Contributions
+ */
+package org.linbaogu.romhub.hc.provision.fragment;
+
+import android.content.ComponentName;
+import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Toast;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.preference.Preference;
+import androidx.preference.SwitchPreference;
+import androidx.recyclerview.widget.RecyclerView;
+
+import org.linbaogu.romhub.hc.common.AppLanguageHelper;
+import org.linbaogu.romhub.hc.common.AppSettingsStore;
+import org.linbaogu.romhub.hc.common.PrefsConfigurator;
+import org.linbaogu.romhub.R;
+
+import fan.preference.DropDownPreference;
+import fan.preference.PreferenceFragment;
+
+public class BasicSettingsFragment extends PreferenceFragment {
+
+    private static final String SCOPE_PICKER_CLASS_NAME = "org.linbaogu.romhub.MainActivity";
+    private static final String SCOPE_PICKER_EXTRA_INITIALIZATION_MODE = "initialization_mode";
+    private static final String LAUNCHER_ACTIVITY_CLASS_NAME = "org.linbaogu.romhub.MainActivity";
+    private static final String PREF_APP_LANGUAGE = "prefs_key_settings_app_language";
+
+    private boolean mIsScrolledBottom = false;
+
+    SwitchPreference mHideAppIcon;
+    SwitchPreference mScopeSyncPreference;
+    Preference mScopePreference;
+    DropDownPreference mLanguagePreference;
+    DropDownPreference mIconModePreference;
+    DropDownPreference mIconModeValue;
+
+    private RecyclerView mRecyclerView;
+
+    @Override
+    public void onCreatePreferences(@Nullable Bundle savedInstanceState, @Nullable String rootKey) {
+        PrefsConfigurator.setup(this);
+        setPreferencesFromResource(R.xml.provision_basic_settings, rootKey);
+
+        mHideAppIcon = findPreference("prefs_key_settings_hide_app_icon");
+        mScopeSyncPreference = findPreference("prefs_key_settings_scope_sync");
+        mScopePreference = findPreference("prefs_key_settings_scope");
+        mLanguagePreference = findPreference(PREF_APP_LANGUAGE);
+        mIconModePreference = findPreference("prefs_key_settings_icon");
+        mIconModeValue = findPreference("prefs_key_settings_icon_mode");
+
+        if (mHideAppIcon != null) {
+            mHideAppIcon.setPersistent(false);
+        }
+        if (mScopeSyncPreference != null) {
+            mScopeSyncPreference.setPersistent(false);
+        }
+        if (mLanguagePreference != null) {
+            mLanguagePreference.setPersistent(false);
+            mLanguagePreference.setEntries(AppLanguageHelper.getLanguageEntries(requireContext()));
+            mLanguagePreference.setEntryValues(AppLanguageHelper.getLanguageEntryValues());
+        }
+        if (mIconModePreference != null) {
+            mIconModePreference.setPersistent(false);
+        }
+        if (mIconModeValue != null) {
+            mIconModeValue.setPersistent(false);
+        }
+    }
+
+    @Override
+    public void onViewCreated(View view, Bundle bundle) {
+        super.onViewCreated(view, bundle);
+        mRecyclerView = getListView();
+        mRecyclerView.addOnScrollListener(new RecyclerView.OnScrollListener() {
+            @Override
+            public void onScrolled(@NonNull RecyclerView recyclerView, int dx, int dy) {
+                super.onScrolled(recyclerView, dx, dy);
+                if (!mRecyclerView.canScrollVertically(1)) {
+                    mIsScrolledBottom = true;
+                    adjustNextView();
+                }
+            }
+        });
+
+        int mIconMode = AppSettingsStore.getIconIndex(requireContext());
+        int languageIndex = AppLanguageHelper.getCurrentLanguageIndex(requireContext());
+        int iconModeValue = AppSettingsStore.getIconModeIndex(requireContext());
+        boolean hideAppIconEnabled = AppSettingsStore.isHideAppIconEnabled(requireContext());
+        boolean scopeSyncEnabled = AppSettingsStore.isScopeSyncEnabled(requireContext());
+        mHideAppIcon = findPreference("prefs_key_settings_hide_app_icon");
+        mScopeSyncPreference = findPreference("prefs_key_settings_scope_sync");
+        mScopePreference = findPreference("prefs_key_settings_scope");
+        mLanguagePreference = findPreference(PREF_APP_LANGUAGE);
+        mIconModePreference = findPreference("prefs_key_settings_icon");
+        mIconModeValue = findPreference("prefs_key_settings_icon_mode");
+
+        if (mHideAppIcon != null) {
+            mHideAppIcon.setChecked(hideAppIconEnabled);
+        }
+        if (mScopeSyncPreference != null) {
+            mScopeSyncPreference.setChecked(scopeSyncEnabled);
+        }
+        if (mLanguagePreference != null) {
+            mLanguagePreference.setValueIndex(languageIndex);
+        }
+        if (mIconModePreference != null) {
+            mIconModePreference.setValueIndex(mIconMode);
+        }
+        if (mIconModeValue != null) {
+            mIconModeValue.setValueIndex(iconModeValue);
+        }
+
+        setIconMode(mIconMode);
+        applyLauncherIconState(hideAppIconEnabled);
+
+        mHideAppIcon.setOnPreferenceChangeListener((preference, newValue) -> {
+            boolean enabled = Boolean.TRUE.equals(newValue);
+            AppSettingsStore.setHideAppIconEnabled(requireContext(), enabled);
+            applyLauncherIconState(enabled);
+            return true;
+        });
+        mScopeSyncPreference.setOnPreferenceChangeListener((preference, newValue) -> {
+            boolean enabled = Boolean.TRUE.equals(newValue);
+            AppSettingsStore.setScopeSyncEnabled(requireContext(), enabled);
+            if (enabled) {
+                syncHeaderPreferencesToCurrentScope();
+            }
+            return true;
+        });
+        mIconModePreference.setOnPreferenceChangeListener((preference, newValue) -> {
+            int index = Integer.parseInt((String) newValue);
+            AppSettingsStore.setIconIndex(requireContext(), index);
+            setIconMode(index);
+            return true;
+        });
+        mIconModeValue.setOnPreferenceChangeListener((preference, newValue) -> {
+            AppSettingsStore.setIconModeIndex(requireContext(), Integer.parseInt((String) newValue));
+            return true;
+        });
+        mLanguagePreference.setOnPreferenceChangeListener((preference, newValue) -> {
+            int index = Integer.parseInt((String) newValue);
+            AppLanguageHelper.setIndexLanguage(requireActivity(), index, true);
+            return true;
+        });
+
+        mScopePreference.setOnPreferenceClickListener(preference -> {
+            launchScopePickerForInitialization();
+            return true;
+        });
+    }
+
+    public void adjustNextView() {
+        /*if (mNextView != null && mNextView instanceof TextView) {
+            if (mIsScrolledBottom) {
+                ((TextView) mNextView).setText(R.string.next);
+            } else {
+                ((TextView) mNextView).setText(R.string.more);
+            }
+        }*/
+    }
+
+    private void setIconMode(int mode) {
+        mIconModeValue.setVisible(mode != 0);
+    }
+
+    private void applyLauncherIconState(boolean enabled) {
+        PackageManager packageManager = requireActivity().getPackageManager();
+        int componentEnabledState = enabled
+            ? PackageManager.COMPONENT_ENABLED_STATE_ENABLED
+            : PackageManager.COMPONENT_ENABLED_STATE_DISABLED;
+
+        try {
+            packageManager.setComponentEnabledSetting(
+                new ComponentName(requireContext(), LAUNCHER_ACTIVITY_CLASS_NAME),
+                componentEnabledState,
+                PackageManager.DONT_KILL_APP
+            );
+        } catch (Exception ignored) {
+        }
+    }
+
+    private void launchScopePickerForInitialization() {
+        try {
+            Intent intent = new Intent();
+            intent.setClassName(requireContext(), SCOPE_PICKER_CLASS_NAME);
+            intent.putExtra(SCOPE_PICKER_EXTRA_INITIALIZATION_MODE, true);
+            startActivity(intent);
+        } catch (Exception e) {
+            Toast.makeText(requireContext(), R.string.provision_scope_open_failed, Toast.LENGTH_SHORT).show();
+        }
+    }
+
+    private void syncHeaderPreferencesToCurrentScope() {
+        try {
+            Class<?> headerManager = Class.forName("org.linbaogu.romhub.MainActivity");
+            headerManager.getMethod("syncHeaderPreferencesToCurrentScope", android.content.Context.class)
+                .invoke(null, requireContext());
+        } catch (Exception ignored) {
+        }
+    }
+
+}

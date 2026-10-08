@@ -1,1 +1,107 @@
-LyoKICogWXVuWCAo5LqR5p6QKSAtIEEgbmV0d29yayBkcml2ZSBzaGFyZS1saW5rIHBhcnNlciBhbmQgaGlnaC1zcGVlZCBkb3dubG9hZGVyIGZvciBBbmRyb2lkLgogKiBDb3B5cmlnaHQgKEMpIDIwMjYgQ1lRYXdhCiAqCiAqIFRoaXMgcHJvZ3JhbSBpcyBmcmVlIHNvZnR3YXJlOiB5b3UgY2FuIHJlZGlzdHJpYnV0ZSBpdCBhbmQvb3IgbW9kaWZ5CiAqIGl0IHVuZGVyIHRoZSB0ZXJtcyBvZiB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGFzIHB1Ymxpc2hlZCBieQogKiB0aGUgRnJlZSBTb2Z0d2FyZSBGb3VuZGF0aW9uLCBlaXRoZXIgdmVyc2lvbiAzIG9mIHRoZSBMaWNlbnNlLCBvcgogKiAoYXQgeW91ciBvcHRpb24pIGFueSBsYXRlciB2ZXJzaW9uLgogKgogKiBUaGlzIHByb2dyYW0gaXMgZGlzdHJpYnV0ZWQgaW4gdGhlIGhvcGUgdGhhdCBpdCB3aWxsIGJlIHVzZWZ1bCwKICogYnV0IFdJVEhPVVQgQU5ZIFdBUlJBTlRZOyB3aXRob3V0IGV2ZW4gdGhlIGltcGxpZWQgd2FycmFudHkgb2YKICogTUVSQ0hBTlRBQklMSVRZIG9yIEZJVE5FU1MgRk9SIEEgUEFSVElDVUxBUiBQVVJQT1NFLiAgU2VlIHRoZQogKiBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UgZm9yIG1vcmUgZGV0YWlscy4KICoKICogWW91IHNob3VsZCBoYXZlIHJlY2VpdmVkIGEgY29weSBvZiB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlCiAqIGFsb25nIHdpdGggdGhpcyBwcm9ncmFtLiAgSWYgbm90LCBzZWUgPGh0dHBzOi8vd3d3LmdudS5vcmcvbGljZW5zZXMvPi4KICovCgpwYWNrYWdlIG9yZy5saW5iYW9ndS5yb21odWIucGFuLnNlY3VyaXR5CgppbXBvcnQgYW5kcm9pZC5zZWN1cml0eS5rZXlzdG9yZS5LZXlHZW5QYXJhbWV0ZXJTcGVjCmltcG9ydCBhbmRyb2lkLnNlY3VyaXR5LmtleXN0b3JlLktleVByb3BlcnRpZXMKaW1wb3J0IGFuZHJvaWQudXRpbC5CYXNlNjQKaW1wb3J0IGphdmEuc2VjdXJpdHkuS2V5U3RvcmUKaW1wb3J0IGphdmF4LmNyeXB0by5DaXBoZXIKaW1wb3J0IGphdmF4LmNyeXB0by5LZXlHZW5lcmF0b3IKaW1wb3J0IGphdmF4LmNyeXB0by5TZWNyZXRLZXkKaW1wb3J0IGphdmF4LmNyeXB0by5zcGVjLkdDTVBhcmFtZXRlclNwZWMKCmludGVybmFsIGludGVyZmFjZSBDcmVkZW50aWFsQ2lwaGVyIHsKICAgIGZ1biBlbmNyeXB0KHBsYWludGV4dDogU3RyaW5nLCBwdXJwb3NlOiBTdHJpbmcpOiBTdHJpbmcKICAgIGZ1biBkZWNyeXB0KHN0b3JlZDogU3RyaW5nLCBwdXJwb3NlOiBTdHJpbmcpOiBTdHJpbmcKICAgIGZ1biBpc0VuY3J5cHRlZChzdG9yZWQ6IFN0cmluZyk6IEJvb2xlYW4KfQoKLyoqCiAqIEFFUy1HQ00gZW52ZWxvcGUgZW5jcnlwdGlvbiB3aG9zZSBub24tZXhwb3J0YWJsZSBrZXkgaXMgaGVsZCBieSBBbmRyb2lkIEtleXN0b3JlLgogKgogKiDmgKfog73kvJjljJbvvJrlr4bpkqXpppbmrKHku44gS2V5c3RvcmUg5Yqg6L295ZCO57yT5a2Y5aSN55So77yIQW5kcm9pZEtleVN0b3JlIOavj+asoSBLZXlTdG9yZS5sb2FkK2dldEtleQogKiDpg73mmK8gQmluZGVyIElQQ++8jOe8k+WtmOWQjumBv+WFjeavj+asoeino+Wvhi/liqDlr4bpg73ph43lpI3otbAgSVBD77yJ44CCCiAqLwppbnRlcm5hbCBjbGFzcyBBbmRyb2lkS2V5c3RvcmVDcmVkZW50aWFsQ2lwaGVyIDogQ3JlZGVudGlhbENpcGhlciB7CgogICAgQFZvbGF0aWxlCiAgICBwcml2YXRlIHZhciBjYWNoZWRLZXk6IFNlY3JldEtleT8gPSBudWxsCgogICAgb3ZlcnJpZGUgZnVuIGVuY3J5cHQocGxhaW50ZXh0OiBTdHJpbmcsIHB1cnBvc2U6IFN0cmluZyk6IFN0cmluZyB7CiAgICAgICAgdmFsIGNpcGhlciA9IENpcGhlci5nZXRJbnN0YW5jZShUUkFOU0ZPUk1BVElPTikKICAgICAgICBjaXBoZXIuaW5pdChDaXBoZXIuRU5DUllQVF9NT0RFLCBrZXkoKSkKICAgICAgICBjaXBoZXIudXBkYXRlQUFEKHB1cnBvc2UudG9CeXRlQXJyYXkoQ2hhcnNldHMuVVRGXzgpKQogICAgICAgIHZhbCBjaXBoZXJ0ZXh0ID0gY2lwaGVyLmRvRmluYWwocGxhaW50ZXh0LnRvQnl0ZUFycmF5KENoYXJzZXRzLlVURl84KSkKICAgICAgICByZXR1cm4gbGlzdE9mKAogICAgICAgICAgICBQUkVGSVgsCiAgICAgICAgICAgIEJhc2U2NC5lbmNvZGVUb1N0cmluZyhjaXBoZXIuaXYsIEJhc2U2NC5OT19XUkFQKSwKICAgICAgICAgICAgQmFzZTY0LmVuY29kZVRvU3RyaW5nKGNpcGhlcnRleHQsIEJhc2U2NC5OT19XUkFQKQogICAgICAgICkuam9pblRvU3RyaW5nKCI6IikKICAgIH0KCiAgICBvdmVycmlkZSBmdW4gZGVjcnlwdChzdG9yZWQ6IFN0cmluZywgcHVycG9zZTogU3RyaW5nKTogU3RyaW5nIHsKICAgICAgICBpZiAoIWlzRW5jcnlwdGVkKHN0b3JlZCkpIHJldHVybiBzdG9yZWQKICAgICAgICB2YWwgcGFydHMgPSBzdG9yZWQuc3BsaXQoJzonLCBsaW1pdCA9IDQpCiAgICAgICAgcmVxdWlyZShwYXJ0cy5zaXplID09IDQgJiYgcGFydHNbMF0gPT0gInl1bngiICYmIHBhcnRzWzFdID09ICJ2MSIpIHsKICAgICAgICAgICAgIlVuc3VwcG9ydGVkIGVuY3J5cHRlZCBjcmVkZW50aWFsIGZvcm1hdCIKICAgICAgICB9CiAgICAgICAgdmFsIGl2ID0gQmFzZTY0LmRlY29kZShwYXJ0c1syXSwgQmFzZTY0Lk5PX1dSQVApCiAgICAgICAgdmFsIGNpcGhlcnRleHQgPSBCYXNlNjQuZGVjb2RlKHBhcnRzWzNdLCBCYXNlNjQuTk9fV1JBUCkKICAgICAgICB2YWwgY2lwaGVyID0gQ2lwaGVyLmdldEluc3RhbmNlKFRSQU5TRk9STUFUSU9OKQogICAgICAgIGNpcGhlci5pbml0KENpcGhlci5ERUNSWVBUX01PREUsIGtleSgpLCBHQ01QYXJhbWV0ZXJTcGVjKDEyOCwgaXYpKQogICAgICAgIGNpcGhlci51cGRhdGVBQUQocHVycG9zZS50b0J5dGVBcnJheShDaGFyc2V0cy5VVEZfOCkpCiAgICAgICAgcmV0dXJuIGNpcGhlci5kb0ZpbmFsKGNpcGhlcnRleHQpLnRvU3RyaW5nKENoYXJzZXRzLlVURl84KQogICAgfQoKICAgIG92ZXJyaWRlIGZ1biBpc0VuY3J5cHRlZChzdG9yZWQ6IFN0cmluZyk6IEJvb2xlYW4gPSBzdG9yZWQuc3RhcnRzV2l0aCgiJFBSRUZJWDoiKQoKICAgIHByaXZhdGUgZnVuIGtleSgpOiBTZWNyZXRLZXkgewogICAgICAgIGNhY2hlZEtleT8ubGV0IHsgcmV0dXJuIGl0IH0KICAgICAgICBzeW5jaHJvbml6ZWQodGhpcykgewogICAgICAgICAgICBjYWNoZWRLZXk/LmxldCB7IHJldHVybiBpdCB9CiAgICAgICAgICAgIHZhbCBrZXlTdG9yZSA9IEtleVN0b3JlLmdldEluc3RhbmNlKEtFWVNUT1JFKS5hcHBseSB7IGxvYWQobnVsbCkgfQogICAgICAgICAgICAoa2V5U3RvcmUuZ2V0S2V5KEtFWV9BTElBUywgbnVsbCkgYXM/IFNlY3JldEtleSk/LmxldCB7IGtleSAtPgogICAgICAgICAgICAgICAgY2FjaGVkS2V5ID0ga2V5CiAgICAgICAgICAgICAgICByZXR1cm4ga2V5CiAgICAgICAgICAgIH0KICAgICAgICAgICAgdmFsIGdlbmVyYXRvciA9IEtleUdlbmVyYXRvci5nZXRJbnN0YW5jZShLZXlQcm9wZXJ0aWVzLktFWV9BTEdPUklUSE1fQUVTLCBLRVlTVE9SRSkKICAgICAgICAgICAgZ2VuZXJhdG9yLmluaXQoCiAgICAgICAgICAgICAgICBLZXlHZW5QYXJhbWV0ZXJTcGVjLkJ1aWxkZXIoCiAgICAgICAgICAgICAgICAgICAgS0VZX0FMSUFTLAogICAgICAgICAgICAgICAgICAgIEtleVByb3BlcnRpZXMuUFVSUE9TRV9FTkNSWVBUIG9yIEtleVByb3BlcnRpZXMuUFVSUE9TRV9ERUNSWVBUCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgLnNldEJsb2NrTW9kZXMoS2V5UHJvcGVydGllcy5CTE9DS19NT0RFX0dDTSkKICAgICAgICAgICAgICAgICAgICAuc2V0RW5jcnlwdGlvblBhZGRpbmdzKEtleVByb3BlcnRpZXMuRU5DUllQVElPTl9QQURESU5HX05PTkUpCiAgICAgICAgICAgICAgICAgICAgLnNldFJhbmRvbWl6ZWRFbmNyeXB0aW9uUmVxdWlyZWQodHJ1ZSkKICAgICAgICAgICAgICAgICAgICAuYnVpbGQoKQogICAgICAgICAgICApCiAgICAgICAgICAgIHZhbCBrZXkgPSBnZW5lcmF0b3IuZ2VuZXJhdGVLZXkoKQogICAgICAgICAgICBjYWNoZWRLZXkgPSBrZXkKICAgICAgICAgICAgcmV0dXJuIGtleQogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIGNvbXBhbmlvbiBvYmplY3QgewogICAgICAgIGNvbnN0IHZhbCBLRVlTVE9SRSA9ICJBbmRyb2lkS2V5U3RvcmUiCiAgICAgICAgY29uc3QgdmFsIEtFWV9BTElBUyA9ICJ5dW54LmFjY291bnQuY3JlZGVudGlhbHMudjEiCiAgICAgICAgY29uc3QgdmFsIFRSQU5TRk9STUFUSU9OID0gIkFFUy9HQ00vTm9QYWRkaW5nIgogICAgICAgIGNvbnN0IHZhbCBQUkVGSVggPSAieXVueDp2MSIKICAgIH0KfQ==
+/*
+ * YunX (云析) - A network drive share-link parser and high-speed downloader for Android.
+ * Copyright (C) 2026 CYQawa
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Affero General Public License for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
+package org.linbaogu.romhub.pan.security
+
+import android.security.keystore.KeyGenParameterSpec
+import android.security.keystore.KeyProperties
+import android.util.Base64
+import java.security.KeyStore
+import javax.crypto.Cipher
+import javax.crypto.KeyGenerator
+import javax.crypto.SecretKey
+import javax.crypto.spec.GCMParameterSpec
+
+internal interface CredentialCipher {
+    fun encrypt(plaintext: String, purpose: String): String
+    fun decrypt(stored: String, purpose: String): String
+    fun isEncrypted(stored: String): Boolean
+}
+
+/**
+ * AES-GCM envelope encryption whose non-exportable key is held by Android Keystore.
+ *
+ * 性能优化：密钥首次从 Keystore 加载后缓存复用（AndroidKeyStore 每次 KeyStore.load+getKey
+ * 都是 Binder IPC，缓存后避免每次解密/加密都重复走 IPC）。
+ */
+internal class AndroidKeystoreCredentialCipher : CredentialCipher {
+
+    @Volatile
+    private var cachedKey: SecretKey? = null
+
+    override fun encrypt(plaintext: String, purpose: String): String {
+        val cipher = Cipher.getInstance(TRANSFORMATION)
+        cipher.init(Cipher.ENCRYPT_MODE, key())
+        cipher.updateAAD(purpose.toByteArray(Charsets.UTF_8))
+        val ciphertext = cipher.doFinal(plaintext.toByteArray(Charsets.UTF_8))
+        return listOf(
+            PREFIX,
+            Base64.encodeToString(cipher.iv, Base64.NO_WRAP),
+            Base64.encodeToString(ciphertext, Base64.NO_WRAP)
+        ).joinToString(":")
+    }
+
+    override fun decrypt(stored: String, purpose: String): String {
+        if (!isEncrypted(stored)) return stored
+        val parts = stored.split(':', limit = 4)
+        require(parts.size == 4 && parts[0] == "yunx" && parts[1] == "v1") {
+            "Unsupported encrypted credential format"
+        }
+        val iv = Base64.decode(parts[2], Base64.NO_WRAP)
+        val ciphertext = Base64.decode(parts[3], Base64.NO_WRAP)
+        val cipher = Cipher.getInstance(TRANSFORMATION)
+        cipher.init(Cipher.DECRYPT_MODE, key(), GCMParameterSpec(128, iv))
+        cipher.updateAAD(purpose.toByteArray(Charsets.UTF_8))
+        return cipher.doFinal(ciphertext).toString(Charsets.UTF_8)
+    }
+
+    override fun isEncrypted(stored: String): Boolean = stored.startsWith("$PREFIX:")
+
+    private fun key(): SecretKey {
+        cachedKey?.let { return it }
+        synchronized(this) {
+            cachedKey?.let { return it }
+            val keyStore = KeyStore.getInstance(KEYSTORE).apply { load(null) }
+            (keyStore.getKey(KEY_ALIAS, null) as? SecretKey)?.let { key ->
+                cachedKey = key
+                return key
+            }
+            val generator = KeyGenerator.getInstance(KeyProperties.KEY_ALGORITHM_AES, KEYSTORE)
+            generator.init(
+                KeyGenParameterSpec.Builder(
+                    KEY_ALIAS,
+                    KeyProperties.PURPOSE_ENCRYPT or KeyProperties.PURPOSE_DECRYPT
+                )
+                    .setBlockModes(KeyProperties.BLOCK_MODE_GCM)
+                    .setEncryptionPaddings(KeyProperties.ENCRYPTION_PADDING_NONE)
+                    .setRandomizedEncryptionRequired(true)
+                    .build()
+            )
+            val key = generator.generateKey()
+            cachedKey = key
+            return key
+        }
+    }
+
+    private companion object {
+        const val KEYSTORE = "AndroidKeyStore"
+        const val KEY_ALIAS = "yunx.account.credentials.v1"
+        const val TRANSFORMATION = "AES/GCM/NoPadding"
+        const val PREFIX = "yunx:v1"
+    }
+}

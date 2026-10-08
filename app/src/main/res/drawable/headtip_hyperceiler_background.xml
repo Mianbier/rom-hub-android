@@ -1,1 +1,6 @@
-PCEtLSByb3VuZGVkX2Nvcm5lci54bWwgLS0+CjxzaGFwZSB4bWxuczphbmRyb2lkPSJodHRwOi8vc2NoZW1hcy5hbmRyb2lkLmNvbS9hcGsvcmVzL2FuZHJvaWQiCiAgICBhbmRyb2lkOnNoYXBlPSJyZWN0YW5nbGUiPgogICAgPHNvbGlkIGFuZHJvaWQ6Y29sb3I9IkBjb2xvci9oZWFkdGlwX2h5cGVyY2VpbGVyX2NvbG9yIiAvPgogICAgPGNvcm5lcnMgYW5kcm9pZDpyYWRpdXM9IjE2ZHAiIC8+Cjwvc2hhcGU+
+<!-- rounded_corner.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="@color/headtip_hyperceiler_color" />
+    <corners android:radius="16dp" />
+</shape>

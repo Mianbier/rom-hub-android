@@ -1,1 +1,93 @@
-LyoKICogVGhpcyBmaWxlIGlzIHBhcnQgb2YgUk9NIEh1YiwgcmVsZWFzZWQgdW5kZXIgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSB2My4wLgogKgogKiDmnKzmlofku7bnp7vmpI0gLyDmlLnlhpnoh6ogSHlwZXJDZWlsZXLvvIhBR1BMLTMuMO+8jENvcHlyaWdodCAoQykgMjAyMy0yMDI2IEh5cGVyQ2VpbGVyCiAqIENvbnRyaWJ1dGlvbnPvvInvvIzmiJbkuLrlhbbnrYnku7fmm7/ouqvlrp7njrAg4oCU4oCUIOWujOaVtOadpea6kOS4jum4o+iwouingemhueebruagueebruW9lSBOT1RJQ0UubWTjgIIKICoKICogVGhpcyBwcm9ncmFtIGlzIGZyZWUgc29mdHdhcmU6IHlvdSBjYW4gcmVkaXN0cmlidXRlIGl0IGFuZC9vciBtb2RpZnkgaXQgdW5kZXIgdGhlIHRlcm1zCiAqIG9mIHRoZSBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UgYXMgcHVibGlzaGVkIGJ5IHRoZSBGcmVlIFNvZnR3YXJlIEZvdW5kYXRpb24sCiAqIGVpdGhlciB2ZXJzaW9uIDMgb2YgdGhlIExpY2Vuc2UuCiAqCiAqIFRoaXMgcHJvZ3JhbSBpcyBkaXN0cmlidXRlZCBpbiB0aGUgaG9wZSB0aGF0IGl0IHdpbGwgYmUgdXNlZnVsLCBidXQgV0lUSE9VVCBBTlkgV0FSUkFOVFk7CiAqIHdpdGhvdXQgZXZlbiB0aGUgaW1wbGllZCB3YXJyYW50eSBvZiBNRVJDSEFOVEFCSUxJVFkgb3IgRklUTkVTUyBGT1IgQSBQQVJUSUNVTEFSIFBVUlBPU0UuCiAqIFNlZSB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGZvciBtb3JlIGRldGFpbHMuCiAqCiAqIFlvdSBzaG91bGQgaGF2ZSByZWNlaXZlZCBhIGNvcHkgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBhbG9uZyB3aXRoIHRoaXMKICogcHJvZ3JhbS4gIElmIG5vdCwgc2VlIDxodHRwczovL3d3dy5nbnUub3JnL2xpY2Vuc2VzLz4uCiAqLwoKcGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLmhjLnByb3Zpc2lvbi51dGlsczsKCmltcG9ydCBhbmRyb2lkLmFwcC5BY3Rpdml0eU1hbmFnZXI7CmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dDsKaW1wb3J0IGFuZHJvaWQuZ3JhcGhpY3MuQml0bWFwOwppbXBvcnQgYW5kcm9pZC50ZXh0LlRleHRVdGlsczsKaW1wb3J0IGFuZHJvaWQudXRpbC5Mb2c7CgppbXBvcnQgamF2YS51dGlsLkxpc3Q7CmltcG9ydCBqYXZhLnV0aWwuTG9jYWxlOwoKaW1wb3J0IGZhbi5jb3JlLnV0aWxzLkh5cGVyTWF0ZXJpYWxVdGlsczsKaW1wb3J0IGZhbi5pbnRlcm5hbC51dGlscy5MaXRlVXRpbHM7CmltcG9ydCBmYW4ub3MuQnVpbGQ7CmltcG9ydCBmYW4ucHJvdmlzaW9uLk9vYmVVdGlsczsKCnB1YmxpYyBjbGFzcyBVdGlscyB7CgogICAgcHJpdmF0ZSBzdGF0aWMgZmluYWwgU3RyaW5nIFRBRyA9ICJQcm92aXNpb25fVXRpbHMiOwoKICAgIHB1YmxpYyBzdGF0aWMgYm9vbGVhbiBpc0ZpcnN0Qm9vdCA9IHRydWU7CgogICAgcHVibGljIHN0YXRpYyBib29sZWFuIElTX1NUQVJUX0FOSU1BID0gZmFsc2U7CgogICAgcHVibGljIHN0YXRpYyBmaW5hbCBib29sZWFuIElTX1NVUFBPUlRfQU5JTSA9ICFPb2JlVXRpbHMuaXNMaXRlT3JMb3dEZXZpY2UoKTsKCiAgICBwdWJsaWMgc3RhdGljIGludCBJU19SVEwgPSAwOwogICAgcHVibGljIHN0YXRpYyBpbnQgTE9DQVRJT05fWCA9IC0xOwogICAgcHVibGljIHN0YXRpYyBpbnQgTE9DQVRJT05fWSA9IC0xOwogICAgcHVibGljIHN0YXRpYyBCaXRtYXAgQ0FDSEVfQklUTUFQID0gbnVsbDsKCiAgICBwcml2YXRlIHN0YXRpYyBCb29sZWFuIG1CbHVyRWZmZWN0RW5hYmxlZENhY2hlID0gbnVsbDsKCgogICAgcHVibGljIHN0YXRpYyBib29sZWFuIGlzUlRMKCkgewogICAgICAgIHJldHVybiBUZXh0VXRpbHMuZ2V0TGF5b3V0RGlyZWN0aW9uRnJvbUxvY2FsZShMb2NhbGUuZ2V0RGVmYXVsdCgpKSA9PSAxOwogICAgfQoKICAgIHB1YmxpYyBzdGF0aWMgYm9vbGVhbiBpc0ZvbGREZXZpY2UoKSB7CiAgICAgICAgcmV0dXJuIEJ1aWxkLklTX0ZPTERBQkxFOwogICAgfQoKICAgIHB1YmxpYyBzdGF0aWMgQml0bWFwIGdldENhY2hlQml0bWFwKGJvb2xlYW4gcm90YXRpb24pIHsKICAgICAgICBpZiAoQ0FDSEVfQklUTUFQICE9IG51bGwpIHsKICAgICAgICAgICAgaWYgKHJvdGF0aW9uKSB7CiAgICAgICAgICAgICAgICBDQUNIRV9CSVRNQVAgPSBWaWV3VXRpbHMucm90YXRlQml0bWFwMTgwKENBQ0hFX0JJVE1BUCk7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgcmV0dXJuIENBQ0hFX0JJVE1BUDsKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICByZXR1cm4gbnVsbDsKICAgICAgICB9CiAgICB9CgogICAgcHVibGljIHN0YXRpYyBTdHJpbmcgZ2V0VG9wQWN0aXZpdHlDbGFzc05hbWUoQ29udGV4dCBjb250ZXh0KSB0aHJvd3MgU2VjdXJpdHlFeGNlcHRpb24gewogICAgICAgIEFjdGl2aXR5TWFuYWdlciBtYW5hZ2VyID0gKChBY3Rpdml0eU1hbmFnZXIpIGNvbnRleHQuZ2V0U3lzdGVtU2VydmljZShDb250ZXh0LkFDVElWSVRZX1NFUlZJQ0UpKTsKICAgICAgICBMaXN0PEFjdGl2aXR5TWFuYWdlci5SdW5uaW5nVGFza0luZm8+IHJ1bm5pbmdUYXNrcyA9IG1hbmFnZXIuZ2V0UnVubmluZ1Rhc2tzKDEpOwogICAgICAgIGlmIChydW5uaW5nVGFza3MgPT0gbnVsbCB8fCBydW5uaW5nVGFza3MuaXNFbXB0eSgpKSB7CiAgICAgICAgICAgIHJldHVybiBudWxsOwogICAgICAgIH0KICAgICAgICBBY3Rpdml0eU1hbmFnZXIuUnVubmluZ1Rhc2tJbmZvIHRhc2tJbmZvID0gcnVubmluZ1Rhc2tzLmdldCgwKTsKICAgICAgICBTdHJpbmcgdG9wQWN0aXZpdHlDbGFzc05hbWUgPSB0YXNrSW5mby50b3BBY3Rpdml0eS5nZXRDbGFzc05hbWUoKTsKICAgICAgICBMb2cuZChUQUcsICJnZXRUb3BBY3Rpdml0eUNsYXNzTmFtZTogIiArIHRvcEFjdGl2aXR5Q2xhc3NOYW1lKTsKICAgICAgICByZXR1cm4gdG9wQWN0aXZpdHlDbGFzc05hbWU7CiAgICB9CgogICAgcHVibGljIHN0YXRpYyBib29sZWFuIGlzQmx1ckVmZmVjdEVuYWJsZWQoQ29udGV4dCBjb250ZXh0KSB7CiAgICAgICAgaWYgKG1CbHVyRWZmZWN0RW5hYmxlZENhY2hlICE9IG51bGwpIHsKICAgICAgICAgICAgcmV0dXJuIG1CbHVyRWZmZWN0RW5hYmxlZENhY2hlOwogICAgICAgIH0KICAgICAgICBpZiAoY29udGV4dCA9PSBudWxsKSByZXR1cm4gZmFsc2U7CiAgICAgICAgbUJsdXJFZmZlY3RFbmFibGVkQ2FjaGUgPSBIeXBlck1hdGVyaWFsVXRpbHMuaXNFbmFibGUoKSAmJiAhTGl0ZVV0aWxzLmlzQ29tbW9uTGl0ZVN0cmF0ZWd5KCkgJiYgSHlwZXJNYXRlcmlhbFV0aWxzLmlzRmVhdHVyZUVuYWJsZShjb250ZXh0KTsKICAgICAgICBMb2cuZChUQUcsICJpc0JsdXJFZmZlY3RFbmFibGVkOiAiICsgbUJsdXJFZmZlY3RFbmFibGVkQ2FjaGUpOwogICAgICAgIHJldHVybiBtQmx1ckVmZmVjdEVuYWJsZWRDYWNoZTsKICAgIH0KfQo=
+/*
+ * This file is part of ROM Hub, released under the GNU Affero General Public License v3.0.
+ *
+ * 本文件移植 / 改写自 HyperCeiler（AGPL-3.0，Copyright (C) 2023-2026 HyperCeiler
+ * Contributions），或为其等价替身实现 —— 完整来源与鸣谢见项目根目录 NOTICE.md。
+ *
+ * This program is free software: you can redistribute it and/or modify it under the terms
+ * of the GNU Affero General Public License as published by the Free Software Foundation,
+ * either version 3 of the License.
+ *
+ * This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+ * without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * See the GNU Affero General Public License for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License along with this
+ * program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
+package org.linbaogu.romhub.hc.provision.utils;
+
+import android.app.ActivityManager;
+import android.content.Context;
+import android.graphics.Bitmap;
+import android.text.TextUtils;
+import android.util.Log;
+
+import java.util.List;
+import java.util.Locale;
+
+import fan.core.utils.HyperMaterialUtils;
+import fan.internal.utils.LiteUtils;
+import fan.os.Build;
+import fan.provision.OobeUtils;
+
+public class Utils {
+
+    private static final String TAG = "Provision_Utils";
+
+    public static boolean isFirstBoot = true;
+
+    public static boolean IS_START_ANIMA = false;
+
+    public static final boolean IS_SUPPORT_ANIM = !OobeUtils.isLiteOrLowDevice();
+
+    public static int IS_RTL = 0;
+    public static int LOCATION_X = -1;
+    public static int LOCATION_Y = -1;
+    public static Bitmap CACHE_BITMAP = null;
+
+    private static Boolean mBlurEffectEnabledCache = null;
+
+
+    public static boolean isRTL() {
+        return TextUtils.getLayoutDirectionFromLocale(Locale.getDefault()) == 1;
+    }
+
+    public static boolean isFoldDevice() {
+        return Build.IS_FOLDABLE;
+    }
+
+    public static Bitmap getCacheBitmap(boolean rotation) {
+        if (CACHE_BITMAP != null) {
+            if (rotation) {
+                CACHE_BITMAP = ViewUtils.rotateBitmap180(CACHE_BITMAP);
+            }
+            return CACHE_BITMAP;
+        } else {
+            return null;
+        }
+    }
+
+    public static String getTopActivityClassName(Context context) throws SecurityException {
+        ActivityManager manager = ((ActivityManager) context.getSystemService(Context.ACTIVITY_SERVICE));
+        List<ActivityManager.RunningTaskInfo> runningTasks = manager.getRunningTasks(1);
+        if (runningTasks == null || runningTasks.isEmpty()) {
+            return null;
+        }
+        ActivityManager.RunningTaskInfo taskInfo = runningTasks.get(0);
+        String topActivityClassName = taskInfo.topActivity.getClassName();
+        Log.d(TAG, "getTopActivityClassName: " + topActivityClassName);
+        return topActivityClassName;
+    }
+
+    public static boolean isBlurEffectEnabled(Context context) {
+        if (mBlurEffectEnabledCache != null) {
+            return mBlurEffectEnabledCache;
+        }
+        if (context == null) return false;
+        mBlurEffectEnabledCache = HyperMaterialUtils.isEnable() && !LiteUtils.isCommonLiteStrategy() && HyperMaterialUtils.isFeatureEnable(context);
+        Log.d(TAG, "isBlurEffectEnabled: " + mBlurEffectEnabledCache);
+        return mBlurEffectEnabledCache;
+    }
+}

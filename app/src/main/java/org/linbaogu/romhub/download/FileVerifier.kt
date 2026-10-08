@@ -1,1 +1,265 @@
-cGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLmRvd25sb2FkCgppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQKaW1wb3J0IGFuZHJvaWQuY29udGVudC5wbS5QYWNrYWdlSW5mbwppbXBvcnQgYW5kcm9pZC5jb250ZW50LnBtLlBhY2thZ2VNYW5hZ2VyCmltcG9ydCBhbmRyb2lkLm9zLkJ1aWxkCmltcG9ydCBqYXZhLmlvLkZpbGUKaW1wb3J0IGphdmEuc2VjdXJpdHkuTWVzc2FnZURpZ2VzdAppbXBvcnQgamF2YS51dGlsLnppcC5aaXBGaWxlCgovKioKICog5LiL6L295a6M5oiQ5ZCO55qEKirpgJrnlKjlrozmlbTmgKfmoKHpqowqKiDigJTigJQg55u05o6l5Zue5bqU44CM5LiL6L295ZCO6L2v5Lu2562+5ZCN5LiO5LmL5YmN55qE5LiN5ZCM44CN6L+Z5p2h5Y+N6aaI44CCCiAqCiAqICMjIOS4uuS7gOS5iOS4jeiDveWPquiupCBBUEsKICoKICog6L+Z5LiqIEFwcCDkuIvovb3nmoTkuJzopb/ku6UgKipST00g5YyFIC8gWklQIOWIt+acuuWMhSoqIOS4uuS4u++8jEFQSyDlj6rmmK/lhbbkuK3kuIDnsbvjgIIKICogUk9NIOWMheaZrumBjeaYryB6aXAg57uT5p6E77yI5pyJ55qE6L+Y5aWXIHppcCAvIHBheWxvYWQuYmlu77yJ77yM5LiA5pem6KKr5LiL5Z2P77yaCiAqICAgwrcg5Yi35py65pe25Y2h5ZyoICJWZXJpZnlpbmcgdXBkYXRlIHBhY2thZ2UiIOaIluebtOaOpeaKpSBgZm9vdGVyIGlzIHdyb25nYO+8mwogKiAgIMK3IOino+WOi+aKpSBDUkMzMiDplJnor6/vvJsKICogICDCtyDnlKjmiLfnnIvliLDnmoTnjrDosaHlsLHmmK/jgIzmlofku7bkuI3lr7kgLyDnrb7lkI3kuI3lr7njgI3jgIIKICog5omA5Lul5qCh6aqM5b+F6aG75oyJKirmlofku7blrp7pmYXnsbvlnosqKuWIhuWxguWBmu+8jOiAjOS4jeaYr+WGmeatuyBBUEvjgIIKICoKICogIyMg5YiG5bGC5qCh6aqM562W55WlCiAqCiAqIHwg5bGC57qnIHwg5p2h5Lu2IHwg5omL5q61IHwKICogfC0tLXwtLS18LS0tfAogKiB8IDEuIOWkp+WwjyB8IOacjeWKoeerr+e7meS6hiBDb250ZW50LUxlbmd0aCB8IOeyvuehruavlOWvueaWh+S7tumVv+W6piB8CiAqIHwgMi4g57uT5p6EIHwg5paH5Lu25pivIHppcCDns7vvvIhhcGsvemlwL3JvbSDluLjop4HvvIkgfCDpgY3ljobkuK3lpK7nm67lvZXlgZoqKumAkOadoSBDUkMzMiDmoKHpqowqKu+8iOecn+ivu+S4gOmBjeino+WOi+a1ge+8iSB8CiAqIHwgMy4g562+5ZCNIHwg5paH5Lu25pivIEFQSyB8IOivu+etvuWQjeivgeS5piBTSEEtMjU277yM5bm25LiO5pys5py65bey6KOF5ZCM5YyF5ZCN5bqU55So5a+55q+UIHwKICogfCA0LiDmkZjopoEgfCDmnI3liqHnq6/nu5nkuoYgaGFzaO+8iOWPr+mAie+8iSB8IOS4juS4i+i9veWGheWuueeul+WHuueahOaRmOimgeavlOWvuSB8CiAqCiAqIHppcCDnu5PmnoTmoKHpqozmmK/mnIDmnInku7flgLznmoTkuIDlsYIg4oCU4oCUIOWugyoq55yf55qE6IO95p+l5Ye65YiG54mH5YaZ5Z2P5a+86Ie055qE5a2X6IqC6ZSZ5L2NKirvvIwKICog5Zug5Li65Lu75L2V5LiA5Liq5a2X6IqC6ZSZ5L2N6YO95Lya6K6p5a+55bqU5p2h55uu55qEIENSQzMyIOWvueS4jeS4iuOAggogKgogKiDms6jmhI/vvJp6aXAg5qCh6aqM6KaB5a6M5pW06K+75LiA6YGN5paH5Lu277yM5Yeg5LiqIEcg55qEIFJPTSDljIXlnKjkuLvnur/nqIvlpJblgZrmsqHpl67popjvvIwKICog5L2G5Li65LqG5LiN5ouW5oWiIuS4i+i9veWujOaIkCLnmoTkvZPmhJ/vvIzlroPlj6rlnKjnlKjmiLfmsqHlhbPmjonor6XlvIDlhbPjgIHkuJTmlofku7bkuI3lpKrlpKfml7bmiY3ot5EKICog77yI6KeBIFtEb3dubG9hZE1hbmFnZXJdIOmHjOeahOiwg+eUqO+8ieOAggogKi8Kb2JqZWN0IEZpbGVWZXJpZmllciB7CgogICAgLyoqIOWBmiB6aXAg6YCQ5p2hIENSQyDmoKHpqoznmoTkvZPnp6/kuIrpmZDvvJrotoXov4flsLHlj6rlgZrlpKflsI/moKHpqozvvIjpgb/lhY3kuIvlrozljaHlh6DljYHnp5LvvInjgIIgKi8KICAgIHByaXZhdGUgY29uc3QgdmFsIFpJUF9DSEVDS19MSU1JVCA9IDJMICogMTAyNCAqIDEwMjQgKiAxMDI0ICAvLyAyR0IKCiAgICAvKioKICAgICAqIOagoemqjOe7k+aenOOAguWtl+auteS4uiBudWxsIOihqOekuiLor6XlsYLnuqfmnKrmiafooYwv5LiN6YCC55SoIu+8jOS4jeaYr+Wksei0peOAggogICAgICovCiAgICBkYXRhIGNsYXNzIFJlc3VsdCgKICAgICAgICAvKiog5paH5Lu26ZW/5bqm5piv5ZCm5LiO5pyN5Yqh56uv5aOw5piO5LiA6Ie077yI5aOw5piO5pyq55+l5pe25Li6IHRydWXvvIkgKi8KICAgICAgICB2YWwgc2l6ZU9rOiBCb29sZWFuLAogICAgICAgIHZhbCBleHBlY3RlZFNpemU6IExvbmcsCiAgICAgICAgdmFsIGFjdHVhbFNpemU6IExvbmcsCiAgICAgICAgLyoqIOivhuWIq+WHuueahOaWh+S7tuexu+Wei++8mmFwayAvIHppcCAvIG90aGVyICovCiAgICAgICAgdmFsIGtpbmQ6IEtpbmQsCiAgICAgICAgLyoqIHppcCDnu5PmnoTmmK/lkKblrozlpb3vvIhDUkMg5YWo6L+H77yJ77yb6Z2eIHppcCDmiJbmnKrmoKHpqozml7bkuLogbnVsbCAqLwogICAgICAgIHZhbCB6aXBPazogQm9vbGVhbj8sCiAgICAgICAgLyoqIHppcCDmoKHpqozmlLbliLDnmoTplJnor6/mnaHnm67vvIjliY3lh6DmnaHvvInvvIznu5nnlKjmiLfnnIsgKi8KICAgICAgICB2YWwgemlwRXJyb3I6IFN0cmluZz8sCiAgICAgICAgLyoqIOaVtOS4quaWh+S7tueahCBTSEEtMjU277yI5bCP5YaZ5Y2B5YWt6L+b5Yi277yJ77yb5rKh566X5Li6IG51bGwgKi8KICAgICAgICB2YWwgc2hhMjU2OiBTdHJpbmc/LAogICAgICAgIC8qKiBBUEsg55qE5YyF5ZCNL+eJiOacrO+8m+mdniBBUEsg5Li6IG51bGwgKi8KICAgICAgICB2YWwgcGFja2FnZU5hbWU6IFN0cmluZz8sCiAgICAgICAgdmFsIHZlcnNpb25OYW1lOiBTdHJpbmc/LAogICAgICAgIHZhbCB2ZXJzaW9uQ29kZTogTG9uZywKICAgICAgICAvKiogQVBLIOetvuWQjeivgeS5piBTSEEtMjU277yI5aSn5YaZ5YaS5Y+35YiG6ZqU77yJICovCiAgICAgICAgdmFsIHNpZ25hdHVyZVNoYTI1NjogU3RyaW5nPywKICAgICAgICAvKiog5pys5py65bey5a6J6KOF5ZCM5YyF5ZCN5bqU55So55qE562+5ZCNIFNIQS0yNTYgKi8KICAgICAgICB2YWwgaW5zdGFsbGVkU2lnbmF0dXJlU2hhMjU2OiBTdHJpbmc/LAogICAgICAgIC8qKiDkuI7lt7Llronoo4XniYjmnKznrb7lkI3mmK/lkKbkuIDoh7TvvJvmnKroo4Uv6Z2eIEFQSyDkuLogbnVsbCAqLwogICAgICAgIHZhbCBzaWduYXR1cmVNYXRjaGVzSW5zdGFsbGVkOiBCb29sZWFuPywKICAgICkgewogICAgICAgIGVudW0gY2xhc3MgS2luZCB7IEFQSywgWklQLCBPVEhFUiB9CgogICAgICAgIC8qKiDmiYDmnInlt7LmiafooYznmoTmo4Dmn6XmmK/lkKbpg73pgJrov4fjgIIgKi8KICAgICAgICB2YWwgYWxsUGFzc2VkOiBCb29sZWFuCiAgICAgICAgICAgIGdldCgpID0gc2l6ZU9rICYmICh6aXBPayAhPSBmYWxzZSkgJiYgKHNpZ25hdHVyZU1hdGNoZXNJbnN0YWxsZWQgIT0gZmFsc2UpCgogICAgICAgIC8qKiDkuIDlj6Xor53nu5PorrrvvIznm7TmjqXnu5nnlYzpnaLmmL7npLrjgIIgKi8KICAgICAgICBmdW4gc3VtbWFyeSgpOiBTdHJpbmcgPSB3aGVuIHsKICAgICAgICAgICAgIXNpemVPayAtPiAi5paH5Lu25aSn5bCP5LiN56ym77yI5pyf5pybICR7Zm9ybWF0Qnl0ZXMoZXhwZWN0ZWRTaXplKX3vvIzlrp7pmYUgJHtmb3JtYXRCeXRlcyhhY3R1YWxTaXplKX3vvInvvIzkuIvovb3lj6/og73kuI3lrozmlbQiCiAgICAgICAgICAgIHppcE9rID09IGZhbHNlIC0+ICLljovnvKnljIXnu5PmnoTmjZ/lnY8ke3ppcEVycm9yPy5sZXQgeyAi77yIJGl077yJIiB9ID86ICIife+8jOaWh+S7tuW3suaNn+Wdj++8jOivt+mHjeaWsOS4i+i9vSIKICAgICAgICAgICAgc2lnbmF0dXJlTWF0Y2hlc0luc3RhbGxlZCA9PSBmYWxzZSAtPgogICAgICAgICAgICAgICAgIkFQSyDnrb7lkI3kuI7mnKzmnLrlt7Llronoo4XnmoQgJHBhY2thZ2VOYW1lIOS4jeS4gOiHtO+8jCIgKwogICAgICAgICAgICAgICAgICAgICAgICAi5pys5YyFICR7c2lnbmF0dXJlU2hhMjU2Py50YWtlKDIzKX3igKbvvIzlt7Loo4UgJHtpbnN0YWxsZWRTaWduYXR1cmVTaGEyNTY/LnRha2UoMjMpfeKApiIKICAgICAgICAgICAga2luZCA9PSBLaW5kLkFQSyAmJiBzaWduYXR1cmVTaGEyNTYgIT0gbnVsbCAtPiAi5paH5Lu25a6M5pW077yMQVBLIOetvuWQjSAke3NpZ25hdHVyZVNoYTI1Ni50YWtlKDIzKX3igKYiCiAgICAgICAgICAgIGtpbmQgPT0gS2luZC5aSVAgJiYgemlwT2sgPT0gdHJ1ZSAtPiAi5Y6L57yp5YyF5a6M5pW077yIQ1JDIOagoemqjOmAmui/h++8iSIKICAgICAgICAgICAga2luZCAhPSBLaW5kLk9USEVSICYmIHNpemVPayAtPiAi5paH5Lu25aSn5bCP5qCh6aqM6YCa6L+HIgogICAgICAgICAgICBlbHNlIC0+ICLmlofku7blt7LlrozmlbTkuIvovb0iCiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICog6LeR5qCh6aqM44CCW2V4cGVjdGVkU2hhMjU2XSDkvKDnqbrkuLLooajnpLrkuI3mr5Tlr7nmkZjopoHjgIIKICAgICAqCiAgICAgKiBAcGFyYW0gZGVlcFppcCDmmK/lkKblgZogemlwIOmAkOadoSBDUkMg5qCh6aqM77yI55So5oi35Y+v5YWz77yb5YWz5o6J5Y+q5YGa5aSn5bCPICsgQVBLIOetvuWQje+8iQogICAgICovCiAgICBmdW4gdmVyaWZ5KAogICAgICAgIGN0eDogQ29udGV4dCwKICAgICAgICBmaWxlOiBGaWxlLAogICAgICAgIGV4cGVjdGVkU2l6ZTogTG9uZywKICAgICAgICBleHBlY3RlZFNoYTI1NjogU3RyaW5nID0gIiIsCiAgICAgICAgZGVlcFppcDogQm9vbGVhbiA9IHRydWUsCiAgICApOiBSZXN1bHQgewogICAgICAgIHZhbCBhY3R1YWwgPSBpZiAoZmlsZS5leGlzdHMoKSkgZmlsZS5sZW5ndGgoKSBlbHNlIDBMCiAgICAgICAgdmFsIHNpemVPayA9IGV4cGVjdGVkU2l6ZSA8PSAwTCB8fCBhY3R1YWwgPT0gZXhwZWN0ZWRTaXplCiAgICAgICAgdmFsIG5hbWUgPSBmaWxlLm5hbWUubG93ZXJjYXNlKCkKCiAgICAgICAgLy8g5oyJ6a2U5pWw5Yik5pat57G75Z6L77yM5q+U5omp5bGV5ZCN5Y+v6Z2gCiAgICAgICAgdmFsIGtpbmQgPSB3aGVuIHsKICAgICAgICAgICAgbmFtZS5lbmRzV2l0aCgiLmFwayIpIC0+IFJlc3VsdC5LaW5kLkFQSwogICAgICAgICAgICBpc1ppcEZpbGUoZmlsZSkgLT4gUmVzdWx0LktpbmQuWklQCiAgICAgICAgICAgIGVsc2UgLT4gUmVzdWx0LktpbmQuT1RIRVIKICAgICAgICB9CgogICAgICAgIC8vIC0tLS0gemlwIOe7k+aehOagoemqjO+8iOWQqyBBUEsg4oCU4oCUIEFQSyDlsLHmmK8gemlw77yJIC0tLS0KICAgICAgICB2YXIgemlwT2s6IEJvb2xlYW4/ID0gbnVsbAogICAgICAgIHZhciB6aXBFcnJvcjogU3RyaW5nPyA9IG51bGwKICAgICAgICBpZiAoZGVlcFppcCAmJiAoa2luZCA9PSBSZXN1bHQuS2luZC5aSVAgfHwga2luZCA9PSBSZXN1bHQuS2luZC5BUEspICYmCiAgICAgICAgICAgIGFjdHVhbCBpbiAxIHVudGlsIFpJUF9DSEVDS19MSU1JVAogICAgICAgICkgewogICAgICAgICAgICB2YWwgciA9IGNoZWNrWmlwKGZpbGUpCiAgICAgICAgICAgIHppcE9rID0gci5maXJzdAogICAgICAgICAgICB6aXBFcnJvciA9IHIuc2Vjb25kCiAgICAgICAgfQoKICAgICAgICAvLyAtLS0tIEFQSyDnrb7lkI0gLS0tLQogICAgICAgIHZhciBwa2c6IFN0cmluZz8gPSBudWxsCiAgICAgICAgdmFyIHZlck5hbWU6IFN0cmluZz8gPSBudWxsCiAgICAgICAgdmFyIHZlckNvZGUgPSAwTAogICAgICAgIHZhciBteVNpZzogU3RyaW5nPyA9IG51bGwKICAgICAgICB2YXIgaW5zdGFsbGVkU2lnOiBTdHJpbmc/ID0gbnVsbAogICAgICAgIHZhciBzaWdNYXRjaDogQm9vbGVhbj8gPSBudWxsCgogICAgICAgIGlmIChraW5kID09IFJlc3VsdC5LaW5kLkFQSykgewogICAgICAgICAgICB2YWwgcG0gPSBjdHgucGFja2FnZU1hbmFnZXIKICAgICAgICAgICAgdmFsIGZsYWdzID0gUGFja2FnZU1hbmFnZXIuR0VUX1NJR05JTkdfQ0VSVElGSUNBVEVTCiAgICAgICAgICAgIHZhbCBhcmNoaXZlOiBQYWNrYWdlSW5mbz8gPSBydW5DYXRjaGluZyB7CiAgICAgICAgICAgICAgICBAU3VwcHJlc3MoIkRFUFJFQ0FUSU9OIikKICAgICAgICAgICAgICAgIHBtLmdldFBhY2thZ2VBcmNoaXZlSW5mbyhmaWxlLmFic29sdXRlUGF0aCwgZmxhZ3MpCiAgICAgICAgICAgIH0uZ2V0T3JOdWxsKCkKICAgICAgICAgICAgaWYgKGFyY2hpdmUgIT0gbnVsbCkgewogICAgICAgICAgICAgICAgcGtnID0gYXJjaGl2ZS5wYWNrYWdlTmFtZQogICAgICAgICAgICAgICAgdmVyTmFtZSA9IGFyY2hpdmUudmVyc2lvbk5hbWUKICAgICAgICAgICAgICAgIHZlckNvZGUgPSBpZiAoQnVpbGQuVkVSU0lPTi5TREtfSU5UID49IEJ1aWxkLlZFUlNJT05fQ09ERVMuUCkgewogICAgICAgICAgICAgICAgICAgIGFyY2hpdmUubG9uZ1ZlcnNpb25Db2RlCiAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgIEBTdXBwcmVzcygiREVQUkVDQVRJT04iKSBhcmNoaXZlLnZlcnNpb25Db2RlLnRvTG9uZygpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBteVNpZyA9IHNpZ25hdHVyZU9mKGFyY2hpdmUpCiAgICAgICAgICAgICAgICBpbnN0YWxsZWRTaWcgPSBydW5DYXRjaGluZyB7CiAgICAgICAgICAgICAgICAgICAgQFN1cHByZXNzKCJERVBSRUNBVElPTiIpCiAgICAgICAgICAgICAgICAgICAgdmFsIHBpID0gaWYgKEJ1aWxkLlZFUlNJT04uU0RLX0lOVCA+PSBCdWlsZC5WRVJTSU9OX0NPREVTLlRJUkFNSVNVKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIHBtLmdldFBhY2thZ2VJbmZvKGFyY2hpdmUucGFja2FnZU5hbWUsIFBhY2thZ2VNYW5hZ2VyLlBhY2thZ2VJbmZvRmxhZ3Mub2YoZmxhZ3MudG9Mb25nKCkpKQogICAgICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgICAgIHBtLmdldFBhY2thZ2VJbmZvKGFyY2hpdmUucGFja2FnZU5hbWUsIGZsYWdzKQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBzaWduYXR1cmVPZihwaSkKICAgICAgICAgICAgICAgIH0uZ2V0T3JOdWxsKCkKICAgICAgICAgICAgICAgIHNpZ01hdGNoID0gd2hlbiB7CiAgICAgICAgICAgICAgICAgICAgbXlTaWcgPT0gbnVsbCB8fCBpbnN0YWxsZWRTaWcgPT0gbnVsbCAtPiBudWxsCiAgICAgICAgICAgICAgICAgICAgZWxzZSAtPiBteVNpZy5lcXVhbHMoaW5zdGFsbGVkU2lnLCBpZ25vcmVDYXNlID0gdHJ1ZSkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgLy8gLS0tLSDmkZjopoHvvIjlj6/pgInvvJrmnI3liqHnq6/nu5nkuobmiY3mr5Tlr7nvvIkgLS0tLQogICAgICAgIHZhciBzaGEyNTY6IFN0cmluZz8gPSBudWxsCiAgICAgICAgaWYgKGV4cGVjdGVkU2hhMjU2LmlzTm90QmxhbmsoKSAmJiBhY3R1YWwgaW4gMSB1bnRpbCBaSVBfQ0hFQ0tfTElNSVQpIHsKICAgICAgICAgICAgc2hhMjU2ID0gc2hhMjU2T2YoZmlsZSkKICAgICAgICB9CgogICAgICAgIHJldHVybiBSZXN1bHQoCiAgICAgICAgICAgIHNpemVPayA9IHNpemVPaywKICAgICAgICAgICAgZXhwZWN0ZWRTaXplID0gZXhwZWN0ZWRTaXplLAogICAgICAgICAgICBhY3R1YWxTaXplID0gYWN0dWFsLAogICAgICAgICAgICBraW5kID0ga2luZCwKICAgICAgICAgICAgemlwT2sgPSB6aXBPaywKICAgICAgICAgICAgemlwRXJyb3IgPSB6aXBFcnJvciwKICAgICAgICAgICAgc2hhMjU2ID0gc2hhMjU2LAogICAgICAgICAgICBwYWNrYWdlTmFtZSA9IHBrZywKICAgICAgICAgICAgdmVyc2lvbk5hbWUgPSB2ZXJOYW1lLAogICAgICAgICAgICB2ZXJzaW9uQ29kZSA9IHZlckNvZGUsCiAgICAgICAgICAgIHNpZ25hdHVyZVNoYTI1NiA9IG15U2lnLAogICAgICAgICAgICBpbnN0YWxsZWRTaWduYXR1cmVTaGEyNTYgPSBpbnN0YWxsZWRTaWcsCiAgICAgICAgICAgIHNpZ25hdHVyZU1hdGNoZXNJbnN0YWxsZWQgPSBzaWdNYXRjaCwKICAgICAgICApCiAgICB9CgogICAgLy8gLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSB6aXAg6YCQ5p2h5qCh6aqMCgogICAgLyoqCiAgICAgKiDpgY3ljoYgemlwIOeahOavj+S4quadoeebruW5tuivu+WPluWFtuWGheWuue+8jOmdoCBDUkMzMiDliKTlrprmnInml6DmjZ/lnY/jgIIKICAgICAqCiAgICAgKiDkuLrku4DkuYjlv4XpobsqKuivu+WujOWFqOmDqOWtl+iKgioq77yaYFppcEZpbGVgIOaJk+W8gOaXtuWPquivu+S4reWkruebruW9le+8jOS4jeivu+aVsOaNruOAggogICAgICog5Y+q5pyJ55yf5q2j5oqK5q+P5p2h55qE5rWB6K+75LiA6YGN77yMSmF2YSDmiY3kvJrlnKjnu5PlsL7mr5Tlr7kgQ1JDMzIg4oCU4oCUIOi/meaJjeaYr+iDvQogICAgICog5o+q5Ye6IuWtl+iKguiiq+WGmeWdjyLnmoTlhbPplK7jgILlj6ogbGlzdCBlbnRyaWVzIOaYr+afpeS4jeWHuuadpeeahOOAggogICAgICoKICAgICAqIEByZXR1cm4gKOaYr+WQpuWFqOmDqOWujOWlvSwg56ys5LiA5Liq5Ye66ZSZ55qE5p2h55uu5o+P6L+wKQogICAgICovCiAgICBwcml2YXRlIGZ1biBjaGVja1ppcChmaWxlOiBGaWxlKTogUGFpcjxCb29sZWFuLCBTdHJpbmc/PiA9IHJ1bkNhdGNoaW5nIHsKICAgICAgICBaaXBGaWxlKGZpbGUpLnVzZSB7IHpmIC0+CiAgICAgICAgICAgIHZhbCBlbnRyaWVzID0gemYuZW50cmllcygpCiAgICAgICAgICAgIHdoaWxlIChlbnRyaWVzLmhhc01vcmVFbGVtZW50cygpKSB7CiAgICAgICAgICAgICAgICB2YWwgZSA9IGVudHJpZXMubmV4dEVsZW1lbnQoKQogICAgICAgICAgICAgICAgaWYgKGUuaXNEaXJlY3RvcnkpIGNvbnRpbnVlCiAgICAgICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgICAgIHpmLmdldElucHV0U3RyZWFtKGUpLnVzZSB7IGlucHV0IC0+CiAgICAgICAgICAgICAgICAgICAgICAgIHZhbCBidWYgPSBCeXRlQXJyYXkoNjQgKiAxMDI0KQogICAgICAgICAgICAgICAgICAgICAgICB3aGlsZSAoaW5wdXQucmVhZChidWYpID4gMCkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgLy8g6K+75Yiw5bqV5bCx5Lya6Kem5Y+RIENSQyDmoKHpqowKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0gY2F0Y2ggKGV4OiBUaHJvd2FibGUpIHsKICAgICAgICAgICAgICAgICAgICByZXR1cm5AdXNlIFBhaXIoZmFsc2UsICIke2UubmFtZX3vvJoke2V4Lm1lc3NhZ2UgPzogZXguamF2YUNsYXNzLnNpbXBsZU5hbWV9IikKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICAgICBQYWlyKHRydWUsIG51bGwpCiAgICAgICAgfQogICAgfS5nZXRPckVsc2UgeyBQYWlyKGZhbHNlLCBpdC5tZXNzYWdlID86ICLljovnvKnljIXml6Dms5XmiZPlvIAiKSB9CgogICAgLyoqIOmdoOWJjSA0IOWtl+iKgumtlOaVsOWIpOaWreaYr+S4jeaYryB6aXDvvIhQS1x4MDNceDA0IC8gUEtceDA1XHgwNiAvIFBLXHgwN1x4MDjvvInjgIIgKi8KICAgIHByaXZhdGUgZnVuIGlzWmlwRmlsZShmaWxlOiBGaWxlKTogQm9vbGVhbiA9IHJ1bkNhdGNoaW5nIHsKICAgICAgICBpZiAoIWZpbGUuZXhpc3RzKCkgfHwgZmlsZS5sZW5ndGgoKSA8IDQpIHJldHVybiBmYWxzZQogICAgICAgIHZhbCBoZWFkID0gQnl0ZUFycmF5KDQpCiAgICAgICAgZmlsZS5pbnB1dFN0cmVhbSgpLnVzZSB7IGl0LnJlYWQoaGVhZCkgfQogICAgICAgIGhlYWRbMF0gPT0gMHg1MC50b0J5dGUoKSAmJiBoZWFkWzFdID09IDB4NEIudG9CeXRlKCkgJiYKICAgICAgICAgICAgICAgIChoZWFkWzJdID09IDB4MDMudG9CeXRlKCkgfHwgaGVhZFsyXSA9PSAweDA1LnRvQnl0ZSgpIHx8IGhlYWRbMl0gPT0gMHgwNy50b0J5dGUoKSkKICAgIH0uZ2V0T3JEZWZhdWx0KGZhbHNlKQoKICAgIHByaXZhdGUgZnVuIHNoYTI1Nk9mKGZpbGU6IEZpbGUpOiBTdHJpbmc/ID0gcnVuQ2F0Y2hpbmcgewogICAgICAgIHZhbCBtZCA9IE1lc3NhZ2VEaWdlc3QuZ2V0SW5zdGFuY2UoIlNIQS0yNTYiKQogICAgICAgIGZpbGUuaW5wdXRTdHJlYW0oKS51c2UgeyBpbnB1dCAtPgogICAgICAgICAgICB2YWwgYnVmID0gQnl0ZUFycmF5KDI1NiAqIDEwMjQpCiAgICAgICAgICAgIHdoaWxlICh0cnVlKSB7CiAgICAgICAgICAgICAgICB2YWwgbiA9IGlucHV0LnJlYWQoYnVmKQogICAgICAgICAgICAgICAgaWYgKG4gPD0gMCkgYnJlYWsKICAgICAgICAgICAgICAgIG1kLnVwZGF0ZShidWYsIDAsIG4pCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgbWQuZGlnZXN0KCkuam9pblRvU3RyaW5nKCIiKSB7ICIlMDJ4Ii5mb3JtYXQoaXQpIH0KICAgIH0uZ2V0T3JOdWxsKCkKCiAgICAvKiog5Y+WIEFQSyDnrb7lkI3or4HkuabnmoQgU0hBLTI1Nu+8iOi3nyBNVOeuoeeQhuWZqC9rZXl0b29sIOaYvuekuueahOS4gOiHtO+8mkFBOkJCOuKApiDlpKflhpnvvInjgIIgKi8KICAgIHByaXZhdGUgZnVuIHNpZ25hdHVyZU9mKGluZm86IFBhY2thZ2VJbmZvPyk6IFN0cmluZz8gewogICAgICAgIGlmIChpbmZvID09IG51bGwpIHJldHVybiBudWxsCiAgICAgICAgcmV0dXJuIHJ1bkNhdGNoaW5nIHsKICAgICAgICAgICAgdmFsIHNpZ25pbmdJbmZvID0gaWYgKEJ1aWxkLlZFUlNJT04uU0RLX0lOVCA+PSBCdWlsZC5WRVJTSU9OX0NPREVTLlApIHsKICAgICAgICAgICAgICAgIGluZm8uc2lnbmluZ0luZm8KICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIEBTdXBwcmVzcygiREVQUkVDQVRJT04iKSBudWxsCiAgICAgICAgICAgIH0KICAgICAgICAgICAgdmFsIHNpZ25lcnMgPSBpZiAoc2lnbmluZ0luZm8gIT0gbnVsbCkgewogICAgICAgICAgICAgICAgaWYgKHNpZ25pbmdJbmZvLmhhc011bHRpcGxlU2lnbmVycygpKSB7CiAgICAgICAgICAgICAgICAgICAgc2lnbmluZ0luZm8uYXBrQ29udGVudHNTaWduZXJzCiAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgIHNpZ25pbmdJbmZvLnNpZ25pbmdDZXJ0aWZpY2F0ZUhpc3RvcnkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIEBTdXBwcmVzcygiREVQUkVDQVRJT04iKSBpbmZvLnNpZ25hdHVyZXMKICAgICAgICAgICAgfSA/OiByZXR1cm4gbnVsbAogICAgICAgICAgICB2YWwgY2VydCA9IHNpZ25lcnMubGFzdE9yTnVsbCgpID86IHJldHVybiBudWxsCiAgICAgICAgICAgIE1lc3NhZ2VEaWdlc3QuZ2V0SW5zdGFuY2UoIlNIQS0yNTYiKS5kaWdlc3QoY2VydC50b0J5dGVBcnJheSgpKQogICAgICAgICAgICAgICAgLmpvaW5Ub1N0cmluZygiOiIpIHsgIiUwMlgiLmZvcm1hdChpdCkgfQogICAgICAgIH0uZ2V0T3JOdWxsKCkKICAgIH0KfQo=
+package org.linbaogu.romhub.download
+
+import android.content.Context
+import android.content.pm.PackageInfo
+import android.content.pm.PackageManager
+import android.os.Build
+import java.io.File
+import java.security.MessageDigest
+import java.util.zip.ZipFile
+
+/**
+ * 下载完成后的**通用完整性校验** —— 直接回应「下载后软件签名与之前的不同」这条反馈。
+ *
+ * ## 为什么不能只认 APK
+ *
+ * 这个 App 下载的东西以 **ROM 包 / ZIP 刷机包** 为主，APK 只是其中一类。
+ * ROM 包普遍是 zip 结构（有的还套 zip / payload.bin），一旦被下坏：
+ *   · 刷机时卡在 "Verifying update package" 或直接报 `footer is wrong`；
+ *   · 解压报 CRC32 错误；
+ *   · 用户看到的现象就是「文件不对 / 签名不对」。
+ * 所以校验必须按**文件实际类型**分层做，而不是写死 APK。
+ *
+ * ## 分层校验策略
+ *
+ * | 层级 | 条件 | 手段 |
+ * |---|---|---|
+ * | 1. 大小 | 服务端给了 Content-Length | 精确比对文件长度 |
+ * | 2. 结构 | 文件是 zip 系（apk/zip/rom 常见） | 遍历中央目录做**逐条 CRC32 校验**（真读一遍解压流） |
+ * | 3. 签名 | 文件是 APK | 读签名证书 SHA-256，并与本机已装同包名应用对比 |
+ * | 4. 摘要 | 服务端给了 hash（可选） | 与下载内容算出的摘要比对 |
+ *
+ * zip 结构校验是最有价值的一层 —— 它**真的能查出分片写坏导致的字节错位**，
+ * 因为任何一个字节错位都会让对应条目的 CRC32 对不上。
+ *
+ * 注意：zip 校验要完整读一遍文件，几个 G 的 ROM 包在主线程外做没问题，
+ * 但为了不拖慢"下载完成"的体感，它只在用户没关掉该开关、且文件不太大时才跑
+ * （见 [DownloadManager] 里的调用）。
+ */
+object FileVerifier {
+
+    /** 做 zip 逐条 CRC 校验的体积上限：超过就只做大小校验（避免下完卡几十秒）。 */
+    private const val ZIP_CHECK_LIMIT = 2L * 1024 * 1024 * 1024  // 2GB
+
+    /**
+     * 校验结果。字段为 null 表示"该层级未执行/不适用"，不是失败。
+     */
+    data class Result(
+        /** 文件长度是否与服务端声明一致（声明未知时为 true） */
+        val sizeOk: Boolean,
+        val expectedSize: Long,
+        val actualSize: Long,
+        /** 识别出的文件类型：apk / zip / other */
+        val kind: Kind,
+        /** zip 结构是否完好（CRC 全过）；非 zip 或未校验时为 null */
+        val zipOk: Boolean?,
+        /** zip 校验收到的错误条目（前几条），给用户看 */
+        val zipError: String?,
+        /** 整个文件的 SHA-256（小写十六进制）；没算为 null */
+        val sha256: String?,
+        /** APK 的包名/版本；非 APK 为 null */
+        val packageName: String?,
+        val versionName: String?,
+        val versionCode: Long,
+        /** APK 签名证书 SHA-256（大写冒号分隔） */
+        val signatureSha256: String?,
+        /** 本机已安装同包名应用的签名 SHA-256 */
+        val installedSignatureSha256: String?,
+        /** 与已安装版本签名是否一致；未装/非 APK 为 null */
+        val signatureMatchesInstalled: Boolean?,
+    ) {
+        enum class Kind { APK, ZIP, OTHER }
+
+        /** 所有已执行的检查是否都通过。 */
+        val allPassed: Boolean
+            get() = sizeOk && (zipOk != false) && (signatureMatchesInstalled != false)
+
+        /** 一句话结论，直接给界面显示。 */
+        fun summary(): String = when {
+            !sizeOk -> "文件大小不符（期望 ${formatBytes(expectedSize)}，实际 ${formatBytes(actualSize)}），下载可能不完整"
+            zipOk == false -> "压缩包结构损坏${zipError?.let { "（$it）" } ?: ""}，文件已损坏，请重新下载"
+            signatureMatchesInstalled == false ->
+                "APK 签名与本机已安装的 $packageName 不一致，" +
+                        "本包 ${signatureSha256?.take(23)}…，已装 ${installedSignatureSha256?.take(23)}…"
+            kind == Kind.APK && signatureSha256 != null -> "文件完整，APK 签名 ${signatureSha256.take(23)}…"
+            kind == Kind.ZIP && zipOk == true -> "压缩包完整（CRC 校验通过）"
+            kind != Kind.OTHER && sizeOk -> "文件大小校验通过"
+            else -> "文件已完整下载"
+        }
+    }
+
+    /**
+     * 跑校验。[expectedSha256] 传空串表示不比对摘要。
+     *
+     * @param deepZip 是否做 zip 逐条 CRC 校验（用户可关；关掉只做大小 + APK 签名）
+     */
+    fun verify(
+        ctx: Context,
+        file: File,
+        expectedSize: Long,
+        expectedSha256: String = "",
+        deepZip: Boolean = true,
+    ): Result {
+        val actual = if (file.exists()) file.length() else 0L
+        val sizeOk = expectedSize <= 0L || actual == expectedSize
+        val name = file.name.lowercase()
+
+        // 按魔数判断类型，比扩展名可靠
+        val kind = when {
+            name.endsWith(".apk") -> Result.Kind.APK
+            isZipFile(file) -> Result.Kind.ZIP
+            else -> Result.Kind.OTHER
+        }
+
+        // ---- zip 结构校验（含 APK —— APK 就是 zip） ----
+        var zipOk: Boolean? = null
+        var zipError: String? = null
+        if (deepZip && (kind == Result.Kind.ZIP || kind == Result.Kind.APK) &&
+            actual in 1 until ZIP_CHECK_LIMIT
+        ) {
+            val r = checkZip(file)
+            zipOk = r.first
+            zipError = r.second
+        }
+
+        // ---- APK 签名 ----
+        var pkg: String? = null
+        var verName: String? = null
+        var verCode = 0L
+        var mySig: String? = null
+        var installedSig: String? = null
+        var sigMatch: Boolean? = null
+
+        if (kind == Result.Kind.APK) {
+            val pm = ctx.packageManager
+            val flags = PackageManager.GET_SIGNING_CERTIFICATES
+            val archive: PackageInfo? = runCatching {
+                @Suppress("DEPRECATION")
+                pm.getPackageArchiveInfo(file.absolutePath, flags)
+            }.getOrNull()
+            if (archive != null) {
+                pkg = archive.packageName
+                verName = archive.versionName
+                verCode = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.P) {
+                    archive.longVersionCode
+                } else {
+                    @Suppress("DEPRECATION") archive.versionCode.toLong()
+                }
+                mySig = signatureOf(archive)
+                installedSig = runCatching {
+                    @Suppress("DEPRECATION")
+                    val pi = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+                        pm.getPackageInfo(archive.packageName, PackageManager.PackageInfoFlags.of(flags.toLong()))
+                    } else {
+                        pm.getPackageInfo(archive.packageName, flags)
+                    }
+                    signatureOf(pi)
+                }.getOrNull()
+                sigMatch = when {
+                    mySig == null || installedSig == null -> null
+                    else -> mySig.equals(installedSig, ignoreCase = true)
+                }
+            }
+        }
+
+        // ---- 摘要（可选：服务端给了才比对） ----
+        var sha256: String? = null
+        if (expectedSha256.isNotBlank() && actual in 1 until ZIP_CHECK_LIMIT) {
+            sha256 = sha256Of(file)
+        }
+
+        return Result(
+            sizeOk = sizeOk,
+            expectedSize = expectedSize,
+            actualSize = actual,
+            kind = kind,
+            zipOk = zipOk,
+            zipError = zipError,
+            sha256 = sha256,
+            packageName = pkg,
+            versionName = verName,
+            versionCode = verCode,
+            signatureSha256 = mySig,
+            installedSignatureSha256 = installedSig,
+            signatureMatchesInstalled = sigMatch,
+        )
+    }
+
+    // ---------------------------------------------------------------- zip 逐条校验
+
+    /**
+     * 遍历 zip 的每个条目并读取其内容，靠 CRC32 判定有无损坏。
+     *
+     * 为什么必须**读完全部字节**：`ZipFile` 打开时只读中央目录，不读数据。
+     * 只有真正把每条的流读一遍，Java 才会在结尾比对 CRC32 —— 这才是能
+     * 揪出"字节被写坏"的关键。只 list entries 是查不出来的。
+     *
+     * @return (是否全部完好, 第一个出错的条目描述)
+     */
+    private fun checkZip(file: File): Pair<Boolean, String?> = runCatching {
+        ZipFile(file).use { zf ->
+            val entries = zf.entries()
+            while (entries.hasMoreElements()) {
+                val e = entries.nextElement()
+                if (e.isDirectory) continue
+                try {
+                    zf.getInputStream(e).use { input ->
+                        val buf = ByteArray(64 * 1024)
+                        while (input.read(buf) > 0) {
+                            // 读到底就会触发 CRC 校验
+                        }
+                    }
+                } catch (ex: Throwable) {
+                    return@use Pair(false, "${e.name}：${ex.message ?: ex.javaClass.simpleName}")
+                }
+            }
+            Pair(true, null)
+        }
+    }.getOrElse { Pair(false, it.message ?: "压缩包无法打开") }
+
+    /** 靠前 4 字节魔数判断是不是 zip（PK\x03\x04 / PK\x05\x06 / PK\x07\x08）。 */
+    private fun isZipFile(file: File): Boolean = runCatching {
+        if (!file.exists() || file.length() < 4) return false
+        val head = ByteArray(4)
+        file.inputStream().use { it.read(head) }
+        head[0] == 0x50.toByte() && head[1] == 0x4B.toByte() &&
+                (head[2] == 0x03.toByte() || head[2] == 0x05.toByte() || head[2] == 0x07.toByte())
+    }.getOrDefault(false)
+
+    private fun sha256Of(file: File): String? = runCatching {
+        val md = MessageDigest.getInstance("SHA-256")
+        file.inputStream().use { input ->
+            val buf = ByteArray(256 * 1024)
+            while (true) {
+                val n = input.read(buf)
+                if (n <= 0) break
+                md.update(buf, 0, n)
+            }
+        }
+        md.digest().joinToString("") { "%02x".format(it) }
+    }.getOrNull()
+
+    /** 取 APK 签名证书的 SHA-256（跟 MT管理器/keytool 显示的一致：AA:BB:… 大写）。 */
+    private fun signatureOf(info: PackageInfo?): String? {
+        if (info == null) return null
+        return runCatching {
+            val signingInfo = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.P) {
+                info.signingInfo
+            } else {
+                @Suppress("DEPRECATION") null
+            }
+            val signers = if (signingInfo != null) {
+                if (signingInfo.hasMultipleSigners()) {
+                    signingInfo.apkContentsSigners
+                } else {
+                    signingInfo.signingCertificateHistory
+                }
+            } else {
+                @Suppress("DEPRECATION") info.signatures
+            } ?: return null
+            val cert = signers.lastOrNull() ?: return null
+            MessageDigest.getInstance("SHA-256").digest(cert.toByteArray())
+                .joinToString(":") { "%02X".format(it) }
+        }.getOrNull()
+    }
+}

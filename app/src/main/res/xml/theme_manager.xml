@@ -1,1 +1,51 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IS0tCiAgfiBUaGlzIGZpbGUgaXMgcGFydCBvZiBIeXBlckNlaWxlci4KICB+CiAgfiBIeXBlckNlaWxlciBpcyBmcmVlIHNvZnR3YXJlOiB5b3UgY2FuIHJlZGlzdHJpYnV0ZSBpdCBhbmQvb3IgbW9kaWZ5CiAgfiBpdCB1bmRlciB0aGUgdGVybXMgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBhcwogIH4gcHVibGlzaGVkIGJ5IHRoZSBGcmVlIFNvZnR3YXJlIEZvdW5kYXRpb24sIGVpdGhlciB2ZXJzaW9uIDMgb2YgdGhlCiAgfiBMaWNlbnNlLgogIH4KICB+IFRoaXMgcHJvZ3JhbSBpcyBkaXN0cmlidXRlZCBpbiB0aGUgaG9wZSB0aGF0IGl0IHdpbGwgYmUgdXNlZnVsLAogIH4gYnV0IFdJVEhPVVQgQU5ZIFdBUlJBTlRZOyB3aXRob3V0IGV2ZW4gdGhlIGltcGxpZWQgd2FycmFudHkgb2YKICB+IE1FUkNIQU5UQUJJTElUWSBvciBGSVRORVNTIEZPUiBBIFBBUlRJQ1VMQVIgUFVSUE9TRS4gIFNlZSB0aGUKICB+IEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBmb3IgbW9yZSBkZXRhaWxzLgogIH4KICB+IFlvdSBzaG91bGQgaGF2ZSByZWNlaXZlZCBhIGNvcHkgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZQogIH4gYWxvbmcgd2l0aCB0aGlzIHByb2dyYW0uICBJZiBub3QsIHNlZSA8aHR0cHM6Ly93d3cuZ251Lm9yZy9saWNlbnNlcy8+LgogIH4KICB+IENvcHlyaWdodCAoQykgMjAyMy0yMDI2IEh5cGVyQ2VpbGVyIENvbnRyaWJ1dGlvbnMKICAtLT4KPFByZWZlcmVuY2VTY3JlZW4geG1sbnM6YW5kcm9pZD0iaHR0cDovL3NjaGVtYXMuYW5kcm9pZC5jb20vYXBrL3Jlcy9hbmRyb2lkIgogICAgeG1sbnM6YXBwPSJodHRwOi8vc2NoZW1hcy5hbmRyb2lkLmNvbS9hcGsvcmVzLWF1dG8iCiAgICBhcHA6bXlMb2NhdGlvbj0iQHN0cmluZy90aGVtZV9tYW5hZ2VyIgogICAgYXBwOnF1aWNrX3Jlc3RhcnQ9ImNvbS5hbmRyb2lkLnRoZW1lbWFuYWdlciI+CiAgICA8UHJlZmVyZW5jZUNhdGVnb3J5PgogICAgICAgIDxTd2l0Y2hQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvdGhlbWVfbWFuYWdlcl9kaWFibGVfYWRzIgogICAgICAgICAgICBhbmRyb2lkOnN1bW1hcnk9IkBzdHJpbmcvdGhlbWVfbWFuYWdlcl9kaWFibGVfYWRzX2Rlc2MiCiAgICAgICAgICAgIGFuZHJvaWQ6a2V5PSJwcmVmc19rZXlfdmFyaW91c190aGVtZV9kaXNhYmxlX2FkcyIKICAgICAgICAgICAgYW5kcm9pZDpkZWZhdWx0VmFsdWU9ImZhbHNlIiAvPgoKICAgICAgICA8U3dpdGNoUHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJAc3RyaW5nL3RoZW1lX21hbmFnZXJfYWxsb3dfZG93bmxvYWRfbW9yZSIKICAgICAgICAgICAgYW5kcm9pZDpzdW1tYXJ5PSJAc3RyaW5nL3RoZW1lX21hbmFnZXJfYWxsb3dfZG93bmxvYWRfbW9yZV9kZXNjIgogICAgICAgICAgICBhbmRyb2lkOmtleT0icHJlZnNfa2V5X3RoZW1lX21hbmFnZXJfYWxsb3dfZG93bmxvYWRfbW9yZSIKICAgICAgICAgICAgYW5kcm9pZDpkZWZhdWx0VmFsdWU9ImZhbHNlIiAvPgoKICAgICAgICA8U3dpdGNoUHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJAc3RyaW5nL3VubG9ja19haV93YWxscGFwZXIiCiAgICAgICAgICAgIGFuZHJvaWQ6a2V5PSJwcmVmc19rZXlfdGhlbWVfbWFuYWdlcl91bmxvY2tfYWlfd2FsbHBhcGVyIgogICAgICAgICAgICBhbmRyb2lkOmRlZmF1bHRWYWx1ZT0iZmFsc2UiIC8+CgogICAgICAgIDxmYW4ucHJlZmVyZW5jZS5Ecm9wRG93blByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDprZXk9InByZWZzX2tleV90aGVtZV9tYW5hZ2VyX25ld192ZXJzaW9uX2NvZGVfbW9kaWZ5IgogICAgICAgICAgICBhbmRyb2lkOnN1bW1hcnk9IkBzdHJpbmcvdGhlbWVfbWFuYWdlcl92ZXJzaW9uX2NvZGVfbW9kaWZ5X2Rlc2MiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvdGhlbWVfbWFuYWdlcl92ZXJzaW9uX2NvZGVfbW9kaWZ5IgogICAgICAgICAgICBhbmRyb2lkOmRlZmF1bHRWYWx1ZT0iMCIKICAgICAgICAgICAgYXBwOmVudHJpZXM9IkBhcnJheS90aGVtZV9tYW5hZ2VyX3ZlcnNpb25fY29kZSIKICAgICAgICAgICAgYXBwOmVudHJ5VmFsdWVzPSJAYXJyYXkvdGhlbWVfbWFuYWdlcl92ZXJzaW9uX2NvZGVfdmFsdWUiCiAgICAgICAgICAgIGFwcDppc1ByZWZlcmVuY2VWaXNpYmxlPSJmYWxzZSIgLz4KCiAgICA8L1ByZWZlcmVuY2VDYXRlZ29yeT4KPC9QcmVmZXJlbmNlU2NyZWVuPg==
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ This file is part of HyperCeiler.
+  ~
+  ~ HyperCeiler is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU Affero General Public License as
+  ~ published by the Free Software Foundation, either version 3 of the
+  ~ License.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU Affero General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU Affero General Public License
+  ~ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+  ~
+  ~ Copyright (C) 2023-2026 HyperCeiler Contributions
+  -->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:myLocation="@string/theme_manager"
+    app:quick_restart="com.android.thememanager">
+    <PreferenceCategory>
+        <SwitchPreference
+            android:title="@string/theme_manager_diable_ads"
+            android:summary="@string/theme_manager_diable_ads_desc"
+            android:key="prefs_key_various_theme_disable_ads"
+            android:defaultValue="false" />
+
+        <SwitchPreference
+            android:title="@string/theme_manager_allow_download_more"
+            android:summary="@string/theme_manager_allow_download_more_desc"
+            android:key="prefs_key_theme_manager_allow_download_more"
+            android:defaultValue="false" />
+
+        <SwitchPreference
+            android:title="@string/unlock_ai_wallpaper"
+            android:key="prefs_key_theme_manager_unlock_ai_wallpaper"
+            android:defaultValue="false" />
+
+        <fan.preference.DropDownPreference
+            android:key="prefs_key_theme_manager_new_version_code_modify"
+            android:summary="@string/theme_manager_version_code_modify_desc"
+            android:title="@string/theme_manager_version_code_modify"
+            android:defaultValue="0"
+            app:entries="@array/theme_manager_version_code"
+            app:entryValues="@array/theme_manager_version_code_value"
+            app:isPreferenceVisible="false" />
+
+    </PreferenceCategory>
+</PreferenceScreen>

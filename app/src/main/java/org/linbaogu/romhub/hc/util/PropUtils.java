@@ -1,1 +1,63 @@
-LyoKICogVGhpcyBmaWxlIGlzIHBhcnQgb2YgUk9NIEh1YiwgcmVsZWFzZWQgdW5kZXIgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSB2My4wLgogKgogKiDmnKzmlofku7bnp7vmpI0gLyDmlLnlhpnoh6ogSHlwZXJDZWlsZXLvvIhBR1BMLTMuMO+8jENvcHlyaWdodCAoQykgMjAyMy0yMDI2IEh5cGVyQ2VpbGVyCiAqIENvbnRyaWJ1dGlvbnPvvInvvIzmiJbkuLrlhbbnrYnku7fmm7/ouqvlrp7njrAg4oCU4oCUIOWujOaVtOadpea6kOS4jum4o+iwouingemhueebruagueebruW9lSBOT1RJQ0UubWTjgIIKICoKICogVGhpcyBwcm9ncmFtIGlzIGZyZWUgc29mdHdhcmU6IHlvdSBjYW4gcmVkaXN0cmlidXRlIGl0IGFuZC9vciBtb2RpZnkgaXQgdW5kZXIgdGhlIHRlcm1zCiAqIG9mIHRoZSBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UgYXMgcHVibGlzaGVkIGJ5IHRoZSBGcmVlIFNvZnR3YXJlIEZvdW5kYXRpb24sCiAqIGVpdGhlciB2ZXJzaW9uIDMgb2YgdGhlIExpY2Vuc2UuCiAqCiAqIFRoaXMgcHJvZ3JhbSBpcyBkaXN0cmlidXRlZCBpbiB0aGUgaG9wZSB0aGF0IGl0IHdpbGwgYmUgdXNlZnVsLCBidXQgV0lUSE9VVCBBTlkgV0FSUkFOVFk7CiAqIHdpdGhvdXQgZXZlbiB0aGUgaW1wbGllZCB3YXJyYW50eSBvZiBNRVJDSEFOVEFCSUxJVFkgb3IgRklUTkVTUyBGT1IgQSBQQVJUSUNVTEFSIFBVUlBPU0UuCiAqIFNlZSB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGZvciBtb3JlIGRldGFpbHMuCiAqCiAqIFlvdSBzaG91bGQgaGF2ZSByZWNlaXZlZCBhIGNvcHkgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBhbG9uZyB3aXRoIHRoaXMKICogcHJvZ3JhbS4gIElmIG5vdCwgc2VlIDxodHRwczovL3d3dy5nbnUub3JnL2xpY2Vuc2VzLz4uCiAqLwoKcGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLmhjLnV0aWw7CgppbXBvcnQgamF2YS5sYW5nLnJlZmxlY3QuTWV0aG9kOwoKLyoqCiAqIEh5cGVyQ2VpbGVyIGBsaWJob29rLnV0aWxzLmFwaS5Qcm9wVXRpbHNgIOeahOetieS7t+abv+i6q++8iOivu+ezu+e7n+WxnuaAp++8ieOAggogKgogKiDljp/niYjotbAgaG9vayDmoYbmnrbor7sgTUlVSSDnp4HmnInlsZ7mgKfvvJvov5nph4znlKjmoIflh4bnmoQgYFN5c3RlbVByb3BlcnRpZXNgIOWPjeWwhOWunueOsO+8jAogKiDor7vkuI3liLDlsLHov5Tlm57pu5jorqTlgLzvvIzkv53or4HjgIzlhbPkuo7pobXjgI3nmoTorr7lpIfkv6Hmga/ljaHog73mraPluLjmuLLmn5PjgIHkuI3kvJrltKnjgIIKICovCnB1YmxpYyBmaW5hbCBjbGFzcyBQcm9wVXRpbHMgewoKICAgIHByaXZhdGUgc3RhdGljIE1ldGhvZCBzR2V0OwoKICAgIHByaXZhdGUgUHJvcFV0aWxzKCkgewogICAgfQoKICAgIC8qKiDor7vns7vnu5/lsZ7mgKfvvIzor7vkuI3liLDov5Tlm57nqbrkuLLjgIIgKi8KICAgIHB1YmxpYyBzdGF0aWMgU3RyaW5nIGdldFByb3AoU3RyaW5nIGtleSkgewogICAgICAgIHJldHVybiBnZXRQcm9wKGtleSwgIiIpOwogICAgfQoKICAgIC8qKiDor7vns7vnu5/lsZ7mgKfvvIzluKbpu5jorqTlgLzjgIIgKi8KICAgIHB1YmxpYyBzdGF0aWMgU3RyaW5nIGdldFByb3AoU3RyaW5nIGtleSwgU3RyaW5nIGRlZikgewogICAgICAgIHRyeSB7CiAgICAgICAgICAgIGlmIChzR2V0ID09IG51bGwpIHsKICAgICAgICAgICAgICAgIENsYXNzPD8+IGMgPSBDbGFzcy5mb3JOYW1lKCJhbmRyb2lkLm9zLlN5c3RlbVByb3BlcnRpZXMiKTsKICAgICAgICAgICAgICAgIHNHZXQgPSBjLmdldE1ldGhvZCgiZ2V0IiwgU3RyaW5nLmNsYXNzLCBTdHJpbmcuY2xhc3MpOwogICAgICAgICAgICB9CiAgICAgICAgICAgIE9iamVjdCB2ID0gc0dldC5pbnZva2UobnVsbCwga2V5LCBkZWYpOwogICAgICAgICAgICByZXR1cm4gdiA9PSBudWxsID8gZGVmIDogdi50b1N0cmluZygpOwogICAgICAgIH0gY2F0Y2ggKFRocm93YWJsZSBlKSB7CiAgICAgICAgICAgIHJldHVybiBkZWY7CiAgICAgICAgfQogICAgfQoKICAgIC8qKiDku6Ugcm9vdCDor7vns7vnu5/lsZ7mgKcg4oCU4oCUIFJPTSBIdWIg5pegIHJvb3TvvIznm7TmjqXpgIDlm57mma7pgJror7vlj5bjgIIgKi8KICAgIHB1YmxpYyBzdGF0aWMgU3RyaW5nIGdldFByb3BTdShTdHJpbmcga2V5KSB7CiAgICAgICAgcmV0dXJuIGdldFByb3Aoa2V5LCAiIik7CiAgICB9CgogICAgcHVibGljIHN0YXRpYyBTdHJpbmcgZ2V0UHJvcFN1KFN0cmluZyBrZXksIFN0cmluZyBkZWYpIHsKICAgICAgICByZXR1cm4gZ2V0UHJvcChrZXksIGRlZik7CiAgICB9Cn0K
+/*
+ * This file is part of ROM Hub, released under the GNU Affero General Public License v3.0.
+ *
+ * 本文件移植 / 改写自 HyperCeiler（AGPL-3.0，Copyright (C) 2023-2026 HyperCeiler
+ * Contributions），或为其等价替身实现 —— 完整来源与鸣谢见项目根目录 NOTICE.md。
+ *
+ * This program is free software: you can redistribute it and/or modify it under the terms
+ * of the GNU Affero General Public License as published by the Free Software Foundation,
+ * either version 3 of the License.
+ *
+ * This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+ * without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * See the GNU Affero General Public License for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License along with this
+ * program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
+package org.linbaogu.romhub.hc.util;
+
+import java.lang.reflect.Method;
+
+/**
+ * HyperCeiler `libhook.utils.api.PropUtils` 的等价替身（读系统属性）。
+ *
+ * 原版走 hook 框架读 MIUI 私有属性；这里用标准的 `SystemProperties` 反射实现，
+ * 读不到就返回默认值，保证「关于页」的设备信息卡能正常渲染、不会崩。
+ */
+public final class PropUtils {
+
+    private static Method sGet;
+
+    private PropUtils() {
+    }
+
+    /** 读系统属性，读不到返回空串。 */
+    public static String getProp(String key) {
+        return getProp(key, "");
+    }
+
+    /** 读系统属性，带默认值。 */
+    public static String getProp(String key, String def) {
+        try {
+            if (sGet == null) {
+                Class<?> c = Class.forName("android.os.SystemProperties");
+                sGet = c.getMethod("get", String.class, String.class);
+            }
+            Object v = sGet.invoke(null, key, def);
+            return v == null ? def : v.toString();
+        } catch (Throwable e) {
+            return def;
+        }
+    }
+
+    /** 以 root 读系统属性 —— ROM Hub 无 root，直接退回普通读取。 */
+    public static String getPropSu(String key) {
+        return getProp(key, "");
+    }
+
+    public static String getPropSu(String key, String def) {
+        return getProp(key, def);
+    }
+}

@@ -1,1 +1,150 @@
-Ly8gdmlhIEtlcm5lbFNVIHVpL2NvbXBvbmVudC9taXVpeC9hbmltYXRpb24vRGFtcGVkRHJhZ0FuaW1hdGlvbi5rdCDigJQg5Y6f5qC356e75qSN44CCCi8vIOW6leagj+iDtuWbiueahOaMieS4iy/nvKnmlL4v6YCf5bqm5oyk5Y6L5YWo6YOo55Sx5a6D6amx5Yqo44CCCgpwYWNrYWdlIG9yZy5saW5iYW9ndS5yb21odWIudWkubWl1aXguYW5pbWF0aW9uCgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5hbmltYXRpb24uY29yZS5BbmltYXRhYmxlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmFuaW1hdGlvbi5jb3JlLnNwcmluZwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLk11dGF0b3JNdXRleAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLnNuYXBzaG90RmxvdwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5Nb2RpZmllcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5nZW9tZXRyeS5PZmZzZXQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuaW5wdXQucG9pbnRlci5wb2ludGVySW5wdXQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuaW5wdXQucG9pbnRlci51dGlsLlZlbG9jaXR5VHJhY2tlcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS51bml0LkludFNpemUKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5Db3JvdXRpbmVTY29wZQppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkNvcm91dGluZVN0YXJ0CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuSm9iCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuYW5kcm9pZC5hd2FpdEZyYW1lCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5maXJzdAppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmxhdW5jaAppbXBvcnQgb3JnLmxpbmJhb2d1LnJvbWh1Yi51aS5taXVpeC5tb2RpZmllci5pbnNwZWN0RHJhZ0dlc3R1cmVzCmltcG9ydCBrb3RsaW4ubWF0aC5hYnMKaW1wb3J0IGtvdGxpbi50aW1lLlRpbWVTb3VyY2UKCmNsYXNzIERhbXBlZERyYWdBbmltYXRpb24oCiAgICBwcml2YXRlIHZhbCBhbmltYXRpb25TY29wZTogQ29yb3V0aW5lU2NvcGUsCiAgICB2YWwgaW5pdGlhbFZhbHVlOiBGbG9hdCwKICAgIHZhbCB2YWx1ZVJhbmdlOiBDbG9zZWRSYW5nZTxGbG9hdD4sCiAgICB2YWwgdmlzaWJpbGl0eVRocmVzaG9sZDogRmxvYXQsCiAgICB2YWwgaW5pdGlhbFNjYWxlOiBGbG9hdCwKICAgIHZhbCBwcmVzc2VkU2NhbGU6IEZsb2F0LAogICAgdmFsIGNhbkRyYWc6IChPZmZzZXQpIC0+IEJvb2xlYW4gPSB7IHRydWUgfSwKICAgIHZhbCBvbkRyYWdTdGFydGVkOiBEYW1wZWREcmFnQW5pbWF0aW9uLihwb3NpdGlvbjogT2Zmc2V0KSAtPiBVbml0LAogICAgdmFsIG9uRHJhZ1N0b3BwZWQ6IERhbXBlZERyYWdBbmltYXRpb24uKCkgLT4gVW5pdCwKICAgIHZhbCBvbkRyYWdDYW5jZWxsZWQ6IERhbXBlZERyYWdBbmltYXRpb24uKCkgLT4gVW5pdCA9IG9uRHJhZ1N0b3BwZWQsCiAgICB2YWwgb25EcmFnOiBEYW1wZWREcmFnQW5pbWF0aW9uLihzaXplOiBJbnRTaXplLCBkcmFnQW1vdW50OiBPZmZzZXQpIC0+IFVuaXQsCikgewoKICAgIHByaXZhdGUgdmFsIHZhbHVlQW5pbWF0aW9uU3BlYyA9IHNwcmluZygxZiwgMTAwMGYsIHZpc2liaWxpdHlUaHJlc2hvbGQpCiAgICBwcml2YXRlIHZhbCB2ZWxvY2l0eUFuaW1hdGlvblNwZWMgPSBzcHJpbmcoMC41ZiwgMzAwZiwgdmlzaWJpbGl0eVRocmVzaG9sZCAqIDEwZikKICAgIHByaXZhdGUgdmFsIHByZXNzUHJvZ3Jlc3NBbmltYXRpb25TcGVjID0gc3ByaW5nKDFmLCAxMDAwZiwgMC4wMDFmKQogICAgcHJpdmF0ZSB2YWwgc2NhbGVYQW5pbWF0aW9uU3BlYyA9IHNwcmluZygwLjZmLCAyNTBmLCAwLjAwMWYpCiAgICBwcml2YXRlIHZhbCBzY2FsZVlBbmltYXRpb25TcGVjID0gc3ByaW5nKDAuN2YsIDI1MGYsIDAuMDAxZikKCiAgICBwcml2YXRlIHZhbCB2YWx1ZUFuaW1hdGlvbiA9IEFuaW1hdGFibGUoaW5pdGlhbFZhbHVlLCB2aXNpYmlsaXR5VGhyZXNob2xkKQogICAgcHJpdmF0ZSB2YWwgdmVsb2NpdHlBbmltYXRpb24gPSBBbmltYXRhYmxlKDBmLCA1ZikKICAgIHByaXZhdGUgdmFsIHByZXNzUHJvZ3Jlc3NBbmltYXRpb24gPSBBbmltYXRhYmxlKDBmLCAwLjAwMWYpCiAgICBwcml2YXRlIHZhbCBzY2FsZVhBbmltYXRpb24gPSBBbmltYXRhYmxlKGluaXRpYWxTY2FsZSwgMC4wMDFmKQogICAgcHJpdmF0ZSB2YWwgc2NhbGVZQW5pbWF0aW9uID0gQW5pbWF0YWJsZShpbml0aWFsU2NhbGUsIDAuMDAxZikKCiAgICBwcml2YXRlIHZhbCBtdXRhdG9yTXV0ZXggPSBNdXRhdG9yTXV0ZXgoKQoKICAgIHByaXZhdGUgdmFyIHByZXNzSm9iOiBKb2I/ID0gbnVsbAogICAgcHJpdmF0ZSB2YXIgcmVsZWFzZUpvYjogSm9iPyA9IG51bGwKCiAgICBwcml2YXRlIHZhbCB2ZWxvY2l0eVRyYWNrZXIgPSBWZWxvY2l0eVRyYWNrZXIoKQogICAgcHJpdmF0ZSB2YWwgc3RhcnRNYXJrID0gVGltZVNvdXJjZS5Nb25vdG9uaWMubWFya05vdygpCgogICAgdmFsIHZhbHVlOiBGbG9hdCBnZXQoKSA9IHZhbHVlQW5pbWF0aW9uLnZhbHVlCiAgICB2YWwgdGFyZ2V0VmFsdWU6IEZsb2F0IGdldCgpID0gdmFsdWVBbmltYXRpb24udGFyZ2V0VmFsdWUKICAgIHZhbCBwcmVzc1Byb2dyZXNzOiBGbG9hdCBnZXQoKSA9IHByZXNzUHJvZ3Jlc3NBbmltYXRpb24udmFsdWUKICAgIHZhbCBzY2FsZVg6IEZsb2F0IGdldCgpID0gc2NhbGVYQW5pbWF0aW9uLnZhbHVlCiAgICB2YWwgc2NhbGVZOiBGbG9hdCBnZXQoKSA9IHNjYWxlWUFuaW1hdGlvbi52YWx1ZQogICAgdmFsIHZlbG9jaXR5OiBGbG9hdCBnZXQoKSA9IHZlbG9jaXR5QW5pbWF0aW9uLnZhbHVlCgogICAgdmFsIG1vZGlmaWVyOiBNb2RpZmllciA9IE1vZGlmaWVyLnBvaW50ZXJJbnB1dChVbml0KSB7CiAgICAgICAgaW5zcGVjdERyYWdHZXN0dXJlcygKICAgICAgICAgICAgb25EcmFnU3RhcnQgPSB7IGRvd24gLT4KICAgICAgICAgICAgICAgIG9uRHJhZ1N0YXJ0ZWQoZG93bi5wb3NpdGlvbikKICAgICAgICAgICAgICAgIHByZXNzKCkKICAgICAgICAgICAgfSwKICAgICAgICAgICAgb25EcmFnRW5kID0gewogICAgICAgICAgICAgICAgb25EcmFnU3RvcHBlZCgpCiAgICAgICAgICAgICAgICByZWxlYXNlKCkKICAgICAgICAgICAgfSwKICAgICAgICAgICAgb25EcmFnQ2FuY2VsID0gewogICAgICAgICAgICAgICAgb25EcmFnQ2FuY2VsbGVkKCkKICAgICAgICAgICAgICAgIHJlbGVhc2UoKQogICAgICAgICAgICB9CiAgICAgICAgKSB7IGNoYW5nZSwgZHJhZ0Ftb3VudCAtPgogICAgICAgICAgICB2YWwgcG9zaXRpb24gPSBjaGFuZ2UucG9zaXRpb24KICAgICAgICAgICAgdmFsIHByZXZpb3VzUG9zaXRpb24gPSBjaGFuZ2UucHJldmlvdXNQb3NpdGlvbgoKICAgICAgICAgICAgdmFsIGlzSW5zaWRlID0gY2FuRHJhZyhwb3NpdGlvbikKICAgICAgICAgICAgdmFsIHdhc0luc2lkZSA9IGNhbkRyYWcocHJldmlvdXNQb3NpdGlvbikKCiAgICAgICAgICAgIGlmIChpc0luc2lkZSAmJiB3YXNJbnNpZGUpIHsKICAgICAgICAgICAgICAgIG9uRHJhZyhzaXplLCBkcmFnQW1vdW50KQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIGZ1biBwcmVzcygpIHsKICAgICAgICByZWxlYXNlSm9iPy5jYW5jZWwoKQogICAgICAgIHByZXNzSm9iPy5jYW5jZWwoKQogICAgICAgIHZlbG9jaXR5VHJhY2tlci5yZXNldFRyYWNraW5nKCkKICAgICAgICBwcmVzc0pvYiA9IGFuaW1hdGlvblNjb3BlLmxhdW5jaCB7CiAgICAgICAgICAgIGxhdW5jaCB7IHByZXNzUHJvZ3Jlc3NBbmltYXRpb24uYW5pbWF0ZVRvKDFmLCBwcmVzc1Byb2dyZXNzQW5pbWF0aW9uU3BlYykgfQogICAgICAgICAgICBsYXVuY2ggeyBzY2FsZVhBbmltYXRpb24uYW5pbWF0ZVRvKHByZXNzZWRTY2FsZSwgc2NhbGVYQW5pbWF0aW9uU3BlYykgfQogICAgICAgICAgICBsYXVuY2ggeyBzY2FsZVlBbmltYXRpb24uYW5pbWF0ZVRvKHByZXNzZWRTY2FsZSwgc2NhbGVZQW5pbWF0aW9uU3BlYykgfQogICAgICAgIH0KICAgIH0KCiAgICBmdW4gcmVsZWFzZSgpIHsKICAgICAgICByZWxlYXNlSm9iPy5jYW5jZWwoKQogICAgICAgIHJlbGVhc2VKb2IgPSBhbmltYXRpb25TY29wZS5sYXVuY2ggewogICAgICAgICAgICBhd2FpdEZyYW1lKCkKICAgICAgICAgICAgaWYgKHZhbHVlICE9IHRhcmdldFZhbHVlKSB7CiAgICAgICAgICAgICAgICB2YWwgdGhyZXNob2xkID0gKHZhbHVlUmFuZ2UuZW5kSW5jbHVzaXZlIC0gdmFsdWVSYW5nZS5zdGFydCkgKiAwLjAyNWYKICAgICAgICAgICAgICAgIHNuYXBzaG90RmxvdyB7IHZhbHVlQW5pbWF0aW9uLnZhbHVlIH0uZmlyc3QgeyBhYnMoaXQgLSB2YWx1ZUFuaW1hdGlvbi50YXJnZXRWYWx1ZSkgPCB0aHJlc2hvbGQgfQogICAgICAgICAgICB9CiAgICAgICAgICAgIGxhdW5jaCB7IHByZXNzUHJvZ3Jlc3NBbmltYXRpb24uYW5pbWF0ZVRvKDBmLCBwcmVzc1Byb2dyZXNzQW5pbWF0aW9uU3BlYykgfQogICAgICAgICAgICBsYXVuY2ggeyBzY2FsZVhBbmltYXRpb24uYW5pbWF0ZVRvKGluaXRpYWxTY2FsZSwgc2NhbGVYQW5pbWF0aW9uU3BlYykgfQogICAgICAgICAgICBsYXVuY2ggeyBzY2FsZVlBbmltYXRpb24uYW5pbWF0ZVRvKGluaXRpYWxTY2FsZSwgc2NhbGVZQW5pbWF0aW9uU3BlYykgfQogICAgICAgIH0KICAgIH0KCiAgICBmdW4gdXBkYXRlVmFsdWUodmFsdWU6IEZsb2F0KSB7CiAgICAgICAgdmFsIHRhcmdldFZhbHVlID0gdmFsdWUuY29lcmNlSW4odmFsdWVSYW5nZSkKICAgICAgICBhbmltYXRpb25TY29wZS5sYXVuY2goc3RhcnQgPSBDb3JvdXRpbmVTdGFydC5VTkRJU1BBVENIRUQpIHsKICAgICAgICAgICAgdmFsdWVBbmltYXRpb24uYW5pbWF0ZVRvKHRhcmdldFZhbHVlLCB2YWx1ZUFuaW1hdGlvblNwZWMpIHsgdXBkYXRlVmVsb2NpdHkoKSB9CiAgICAgICAgfQogICAgfQoKICAgIGZ1biBhbmltYXRlVG9WYWx1ZSh2YWx1ZTogRmxvYXQpIHsKICAgICAgICBhbmltYXRpb25TY29wZS5sYXVuY2ggewogICAgICAgICAgICBtdXRhdG9yTXV0ZXgubXV0YXRlIHsKICAgICAgICAgICAgICAgIHByZXNzKCkKICAgICAgICAgICAgICAgIHZhbCB0YXJnZXRWYWx1ZSA9IHZhbHVlLmNvZXJjZUluKHZhbHVlUmFuZ2UpCiAgICAgICAgICAgICAgICBsYXVuY2ggeyB2YWx1ZUFuaW1hdGlvbi5hbmltYXRlVG8odGFyZ2V0VmFsdWUsIHZhbHVlQW5pbWF0aW9uU3BlYykgfQogICAgICAgICAgICAgICAgaWYgKHZlbG9jaXR5ICE9IDBmKSB7CiAgICAgICAgICAgICAgICAgICAgbGF1bmNoIHsgdmVsb2NpdHlBbmltYXRpb24uYW5pbWF0ZVRvKDBmLCB2ZWxvY2l0eUFuaW1hdGlvblNwZWMpIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIHJlbGVhc2UoKQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIHVwZGF0ZVZlbG9jaXR5KCkgewogICAgICAgIHZlbG9jaXR5VHJhY2tlci5hZGRQb3NpdGlvbigKICAgICAgICAgICAgc3RhcnRNYXJrLmVsYXBzZWROb3coKS5pbldob2xlTWlsbGlzZWNvbmRzLAogICAgICAgICAgICBPZmZzZXQodmFsdWUsIDBmKSwKICAgICAgICApCiAgICAgICAgdmFsIHNwYW4gPSAodmFsdWVSYW5nZS5lbmRJbmNsdXNpdmUgLSB2YWx1ZVJhbmdlLnN0YXJ0KS5jb2VyY2VBdExlYXN0KDFlLTZmKQogICAgICAgIHZhbCB0YXJnZXRWZWxvY2l0eSA9IHZlbG9jaXR5VHJhY2tlci5jYWxjdWxhdGVWZWxvY2l0eSgpLnggLyBzcGFuCiAgICAgICAgYW5pbWF0aW9uU2NvcGUubGF1bmNoKHN0YXJ0ID0gQ29yb3V0aW5lU3RhcnQuVU5ESVNQQVRDSEVEKSB7CiAgICAgICAgICAgIHZlbG9jaXR5QW5pbWF0aW9uLnNuYXBUbyh0YXJnZXRWZWxvY2l0eSkKICAgICAgICB9CiAgICB9Cn0K
+// via KernelSU ui/component/miuix/animation/DampedDragAnimation.kt — 原样移植。
+// 底栏胶囊的按下/缩放/速度挤压全部由它驱动。
+
+package org.linbaogu.romhub.ui.miuix.animation
+
+import androidx.compose.animation.core.Animatable
+import androidx.compose.animation.core.spring
+import androidx.compose.foundation.MutatorMutex
+import androidx.compose.runtime.snapshotFlow
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.geometry.Offset
+import androidx.compose.ui.input.pointer.pointerInput
+import androidx.compose.ui.input.pointer.util.VelocityTracker
+import androidx.compose.ui.unit.IntSize
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.CoroutineStart
+import kotlinx.coroutines.Job
+import kotlinx.coroutines.android.awaitFrame
+import kotlinx.coroutines.flow.first
+import kotlinx.coroutines.launch
+import org.linbaogu.romhub.ui.miuix.modifier.inspectDragGestures
+import kotlin.math.abs
+import kotlin.time.TimeSource
+
+class DampedDragAnimation(
+    private val animationScope: CoroutineScope,
+    val initialValue: Float,
+    val valueRange: ClosedRange<Float>,
+    val visibilityThreshold: Float,
+    val initialScale: Float,
+    val pressedScale: Float,
+    val canDrag: (Offset) -> Boolean = { true },
+    val onDragStarted: DampedDragAnimation.(position: Offset) -> Unit,
+    val onDragStopped: DampedDragAnimation.() -> Unit,
+    val onDragCancelled: DampedDragAnimation.() -> Unit = onDragStopped,
+    val onDrag: DampedDragAnimation.(size: IntSize, dragAmount: Offset) -> Unit,
+) {
+
+    private val valueAnimationSpec = spring(1f, 1000f, visibilityThreshold)
+    private val velocityAnimationSpec = spring(0.5f, 300f, visibilityThreshold * 10f)
+    private val pressProgressAnimationSpec = spring(1f, 1000f, 0.001f)
+    private val scaleXAnimationSpec = spring(0.6f, 250f, 0.001f)
+    private val scaleYAnimationSpec = spring(0.7f, 250f, 0.001f)
+
+    private val valueAnimation = Animatable(initialValue, visibilityThreshold)
+    private val velocityAnimation = Animatable(0f, 5f)
+    private val pressProgressAnimation = Animatable(0f, 0.001f)
+    private val scaleXAnimation = Animatable(initialScale, 0.001f)
+    private val scaleYAnimation = Animatable(initialScale, 0.001f)
+
+    private val mutatorMutex = MutatorMutex()
+
+    private var pressJob: Job? = null
+    private var releaseJob: Job? = null
+
+    private val velocityTracker = VelocityTracker()
+    private val startMark = TimeSource.Monotonic.markNow()
+
+    val value: Float get() = valueAnimation.value
+    val targetValue: Float get() = valueAnimation.targetValue
+    val pressProgress: Float get() = pressProgressAnimation.value
+    val scaleX: Float get() = scaleXAnimation.value
+    val scaleY: Float get() = scaleYAnimation.value
+    val velocity: Float get() = velocityAnimation.value
+
+    val modifier: Modifier = Modifier.pointerInput(Unit) {
+        inspectDragGestures(
+            onDragStart = { down ->
+                onDragStarted(down.position)
+                press()
+            },
+            onDragEnd = {
+                onDragStopped()
+                release()
+            },
+            onDragCancel = {
+                onDragCancelled()
+                release()
+            }
+        ) { change, dragAmount ->
+            val position = change.position
+            val previousPosition = change.previousPosition
+
+            val isInside = canDrag(position)
+            val wasInside = canDrag(previousPosition)
+
+            if (isInside && wasInside) {
+                onDrag(size, dragAmount)
+            }
+        }
+    }
+
+    fun press() {
+        releaseJob?.cancel()
+        pressJob?.cancel()
+        velocityTracker.resetTracking()
+        pressJob = animationScope.launch {
+            launch { pressProgressAnimation.animateTo(1f, pressProgressAnimationSpec) }
+            launch { scaleXAnimation.animateTo(pressedScale, scaleXAnimationSpec) }
+            launch { scaleYAnimation.animateTo(pressedScale, scaleYAnimationSpec) }
+        }
+    }
+
+    fun release() {
+        releaseJob?.cancel()
+        releaseJob = animationScope.launch {
+            awaitFrame()
+            if (value != targetValue) {
+                val threshold = (valueRange.endInclusive - valueRange.start) * 0.025f
+                snapshotFlow { valueAnimation.value }.first { abs(it - valueAnimation.targetValue) < threshold }
+            }
+            launch { pressProgressAnimation.animateTo(0f, pressProgressAnimationSpec) }
+            launch { scaleXAnimation.animateTo(initialScale, scaleXAnimationSpec) }
+            launch { scaleYAnimation.animateTo(initialScale, scaleYAnimationSpec) }
+        }
+    }
+
+    fun updateValue(value: Float) {
+        val targetValue = value.coerceIn(valueRange)
+        animationScope.launch(start = CoroutineStart.UNDISPATCHED) {
+            valueAnimation.animateTo(targetValue, valueAnimationSpec) { updateVelocity() }
+        }
+    }
+
+    fun animateToValue(value: Float) {
+        animationScope.launch {
+            mutatorMutex.mutate {
+                press()
+                val targetValue = value.coerceIn(valueRange)
+                launch { valueAnimation.animateTo(targetValue, valueAnimationSpec) }
+                if (velocity != 0f) {
+                    launch { velocityAnimation.animateTo(0f, velocityAnimationSpec) }
+                }
+                release()
+            }
+        }
+    }
+
+    private fun updateVelocity() {
+        velocityTracker.addPosition(
+            startMark.elapsedNow().inWholeMilliseconds,
+            Offset(value, 0f),
+        )
+        val span = (valueRange.endInclusive - valueRange.start).coerceAtLeast(1e-6f)
+        val targetVelocity = velocityTracker.calculateVelocity().x / span
+        animationScope.launch(start = CoroutineStart.UNDISPATCHED) {
+            velocityAnimation.snapTo(targetVelocity)
+        }
+    }
+}

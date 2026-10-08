@@ -1,1 +1,43 @@
-LyoKICogVGhpcyBmaWxlIGlzIHBhcnQgb2YgUk9NIEh1YiwgcmVsZWFzZWQgdW5kZXIgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSB2My4wLgogKgogKiDmnKzmlofku7bnp7vmpI0gLyDmlLnlhpnoh6ogSHlwZXJDZWlsZXLvvIhBR1BMLTMuMO+8jENvcHlyaWdodCAoQykgMjAyMy0yMDI2IEh5cGVyQ2VpbGVyCiAqIENvbnRyaWJ1dGlvbnPvvInvvIzmiJbkuLrlhbbnrYnku7fmm7/ouqvlrp7njrAg4oCU4oCUIOWujOaVtOadpea6kOS4jum4o+iwouingemhueebruagueebruW9lSBOT1RJQ0UubWTjgIIKICoKICogVGhpcyBwcm9ncmFtIGlzIGZyZWUgc29mdHdhcmU6IHlvdSBjYW4gcmVkaXN0cmlidXRlIGl0IGFuZC9vciBtb2RpZnkgaXQgdW5kZXIgdGhlIHRlcm1zCiAqIG9mIHRoZSBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UgYXMgcHVibGlzaGVkIGJ5IHRoZSBGcmVlIFNvZnR3YXJlIEZvdW5kYXRpb24sCiAqIGVpdGhlciB2ZXJzaW9uIDMgb2YgdGhlIExpY2Vuc2UuCiAqCiAqIFRoaXMgcHJvZ3JhbSBpcyBkaXN0cmlidXRlZCBpbiB0aGUgaG9wZSB0aGF0IGl0IHdpbGwgYmUgdXNlZnVsLCBidXQgV0lUSE9VVCBBTlkgV0FSUkFOVFk7CiAqIHdpdGhvdXQgZXZlbiB0aGUgaW1wbGllZCB3YXJyYW50eSBvZiBNRVJDSEFOVEFCSUxJVFkgb3IgRklUTkVTUyBGT1IgQSBQQVJUSUNVTEFSIFBVUlBPU0UuCiAqIFNlZSB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGZvciBtb3JlIGRldGFpbHMuCiAqCiAqIFlvdSBzaG91bGQgaGF2ZSByZWNlaXZlZCBhIGNvcHkgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBhbG9uZyB3aXRoIHRoaXMKICogcHJvZ3JhbS4gIElmIG5vdCwgc2VlIDxodHRwczovL3d3dy5nbnUub3JnL2xpY2Vuc2VzLz4uCiAqLwoKcGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLmhjLnV0aWw7CgppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQ7CmltcG9ydCBhbmRyb2lkLm9zLkJ1bmRsZTsKCi8qKgogKiBIeXBlckNlaWxlciBgRWdnSGVscGVyYCDnmoTnrYnku7fmm7/ouqvvvIjlvanom4vvvJrngrnniYjmnKzlj7fop6blj5HnmoTpgqPngrnlsI/njqnmhI/vvInjgIIKICoKICog54Wn5oqE55qEIGBWZXJzaW9uQ2FyZGAg5Lya5Zyo6ZW/5oyJ54mI5pys5Y+35pe26LCDIGBFZ2dIZWxwZXIuSU5TVEFOQ0UuZm9jdXNCdWlsZChtc2csIGN0eClgCiAqIOe7memAmuefpeWKoCBleHRyYXPjgIJST00gSHViIOS4jeaQnuW9qeibi++8jOi/memHjOi/lOWbnuS4gOS4quepuiBCdW5kbGXvvIzkv53or4HosIPnlKjkuI3ngrjjgIEKICog55WM6Z2i5LiOIEh5cGVyQ2VpbGVyIOWujOWFqOS4gOiHtOOAggogKi8KcHVibGljIGZpbmFsIGNsYXNzIEVnZ0hlbHBlciB7CgogICAgLyoqIOWNleS+i++8iOWOn+eJiOaYryBLb3RsaW4gb2JqZWN077yM6LCD55So54K55pivIGBFZ2dIZWxwZXIuSU5TVEFOQ0UueHh4YO+8ieOAgiAqLwogICAgcHVibGljIHN0YXRpYyBmaW5hbCBFZ2dIZWxwZXIgSU5TVEFOQ0UgPSBuZXcgRWdnSGVscGVyKCk7CgogICAgcHJpdmF0ZSBFZ2dIZWxwZXIoKSB7CiAgICB9CgogICAgLyoqIOmVv+aMieeJiOacrOWPt+aXtueahCBleHRyYXMg4oCU4oCUIOepuuWunueOsOOAgiAqLwogICAgcHVibGljIEJ1bmRsZSBmb2N1c0J1aWxkKFN0cmluZyBtc2csIENvbnRleHQgY3R4KSB7CiAgICAgICAgcmV0dXJuIG5ldyBCdW5kbGUoKTsKICAgIH0KfQo=
+/*
+ * This file is part of ROM Hub, released under the GNU Affero General Public License v3.0.
+ *
+ * 本文件移植 / 改写自 HyperCeiler（AGPL-3.0，Copyright (C) 2023-2026 HyperCeiler
+ * Contributions），或为其等价替身实现 —— 完整来源与鸣谢见项目根目录 NOTICE.md。
+ *
+ * This program is free software: you can redistribute it and/or modify it under the terms
+ * of the GNU Affero General Public License as published by the Free Software Foundation,
+ * either version 3 of the License.
+ *
+ * This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+ * without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * See the GNU Affero General Public License for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License along with this
+ * program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
+package org.linbaogu.romhub.hc.util;
+
+import android.content.Context;
+import android.os.Bundle;
+
+/**
+ * HyperCeiler `EggHelper` 的等价替身（彩蛋：点版本号触发的那点小玩意）。
+ *
+ * 照抄的 `VersionCard` 会在长按版本号时调 `EggHelper.INSTANCE.focusBuild(msg, ctx)`
+ * 给通知加 extras。ROM Hub 不搞彩蛋，这里返回一个空 Bundle，保证调用不炸、
+ * 界面与 HyperCeiler 完全一致。
+ */
+public final class EggHelper {
+
+    /** 单例（原版是 Kotlin object，调用点是 `EggHelper.INSTANCE.xxx`）。 */
+    public static final EggHelper INSTANCE = new EggHelper();
+
+    private EggHelper() {
+    }
+
+    /** 长按版本号时的 extras —— 空实现。 */
+    public Bundle focusBuild(String msg, Context ctx) {
+        return new Bundle();
+    }
+}

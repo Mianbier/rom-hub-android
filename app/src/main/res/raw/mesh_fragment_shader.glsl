@@ -1,1 +1,10 @@
-I3ZlcnNpb24gMzAwIGVzCnByZWNpc2lvbiBoaWdocCBmbG9hdDsKCmluIHZlYzMgdkNvbG9yOwpvdXQgdmVjNCBvRnJhZ0NvbG9yOwoKdm9pZCBtYWluKCkgewogICAgb0ZyYWdDb2xvci5hID0gMS47CiAgICBvRnJhZ0NvbG9yLnJnYiA9IHZDb2xvcjsKfQ==
+#version 300 es
+precision highp float;
+
+in vec3 vColor;
+out vec4 oFragColor;
+
+void main() {
+    oFragColor.a = 1.;
+    oFragColor.rgb = vColor;
+}

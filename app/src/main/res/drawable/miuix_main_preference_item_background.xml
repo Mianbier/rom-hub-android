@@ -1,1 +1,9 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHNoYXBlIHhtbG5zOmFuZHJvaWQ9Imh0dHA6Ly9zY2hlbWFzLmFuZHJvaWQuY29tL2Fway9yZXMvYW5kcm9pZCIKICAgIGFuZHJvaWQ6c2hhcGU9InJlY3RhbmdsZSI+CiAgICA8c29saWQgYW5kcm9pZDpjb2xvcj0iQGNvbG9yL21pdWl4X2FwcGNvbXBhdF90cmFuc3BhcmVudCIgLz4KICAgIDxzaXplIGFuZHJvaWQ6aGVpZ2h0PSJAZGltZW4vbWl1aXhfcHJlZmVyZW5jZV9pdGVtX21pbl9oZWlnaHQiIC8+CiAgICA8cGFkZGluZwogICAgICAgIGFuZHJvaWQ6bGVmdD0iQGRpbWVuL21pdWl4X3ByZWZlcmVuY2VfbWFpbl9wYWRkaW5nX3N0YXJ0IgogICAgICAgIGFuZHJvaWQ6cmlnaHQ9IkBkaW1lbi9taXVpeF9wcmVmZXJlbmNlX21haW5fcGFkZGluZ19lbmQiIC8+Cjwvc2hhcGU+Cg==
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="@color/miuix_appcompat_transparent" />
+    <size android:height="@dimen/miuix_preference_item_min_height" />
+    <padding
+        android:left="@dimen/miuix_preference_main_padding_start"
+        android:right="@dimen/miuix_preference_main_padding_end" />
+</shape>

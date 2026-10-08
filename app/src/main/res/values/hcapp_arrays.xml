@@ -1,1 +1,19 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHJlc291cmNlcz4KICAgIDxhcnJheSBuYW1lPSJhcHBfdXBkYXRlX2NhcmRfc3Ryb2tlX2dyYWRpZW50X2NvbG9yc19saWdodCI+CiAgICAgICAgPGl0ZW0+QGNvbG9yL2FwcF91cGRhdGVfdGV4dF9ib3JkZXIyPC9pdGVtPgogICAgICAgIDxpdGVtPkBjb2xvci9hcHBfdXBkYXRlX3RleHRfYm9yZGVyMTwvaXRlbT4KICAgIDwvYXJyYXk+CgogICAgPHN0cmluZy1hcnJheSBuYW1lPSJsb2dfbGV2ZWwiPgogICAgICAgIDxpdGVtPkBzdHJpbmcvbG9nX2xldmVsX25vbmU8L2l0ZW0+CiAgICAgICAgPGl0ZW0+QHN0cmluZy9sb2dfbGV2ZWxfZ2VuZXJhbDwvaXRlbT4KICAgICAgICA8aXRlbT5Ac3RyaW5nL2xvZ19sZXZlbF9kZXRhaWxlZDwvaXRlbT4KICAgIDwvc3RyaW5nLWFycmF5PgoKICAgIDxzdHJpbmctYXJyYXkgbmFtZT0ibG9nX2xldmVsX3ZhbHVlIj4KICAgICAgICA8aXRlbT4wPC9pdGVtPgogICAgICAgIDxpdGVtPjE8L2l0ZW0+CiAgICAgICAgPGl0ZW0+MjwvaXRlbT4KICAgIDwvc3RyaW5nLWFycmF5Pgo8L3Jlc291cmNlcz4K
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="app_update_card_stroke_gradient_colors_light">
+        <item>@color/app_update_text_border2</item>
+        <item>@color/app_update_text_border1</item>
+    </array>
+
+    <string-array name="log_level">
+        <item>@string/log_level_none</item>
+        <item>@string/log_level_general</item>
+        <item>@string/log_level_detailed</item>
+    </string-array>
+
+    <string-array name="log_level_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+</resources>

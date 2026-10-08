@@ -1,1 +1,119 @@
-cGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLnVpLmNvbW1vbgoKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuQ29sdW1uCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LlNwYWNlcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5maWxsTWF4V2lkdGgKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuaGVpZ2h0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24udGV4dC5zZWxlY3Rpb24uU2VsZWN0aW9uQ29udGFpbmVyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24uc2hhcGUuUm91bmRlZENvcm5lclNoYXBlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24udGV4dC5DbGlja2FibGVUZXh0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuQ29tcG9zYWJsZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLnJlbWVtYmVyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLk1vZGlmaWVyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmRyYXcuY2xpcAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5sYXlvdXQuQ29udGVudFNjYWxlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnBsYXRmb3JtLkxvY2FsQ2xpcGJvYXJkTWFuYWdlcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5wbGF0Zm9ybS5Mb2NhbENvbnRleHQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudGV4dC5Bbm5vdGF0ZWRTdHJpbmcKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudGV4dC5TcGFuU3R5bGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudGV4dC5idWlsZEFubm90YXRlZFN0cmluZwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS50ZXh0LnN0eWxlLlRleHREZWNvcmF0aW9uCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnVuaXQuZHAKaW1wb3J0IGNvaWwzLmNvbXBvc2UuQXN5bmNJbWFnZQppbXBvcnQgb3JnLmxpbmJhb2d1LnJvbWh1Yi51aS5jb21wb25lbnQuR2hvc3RCdXR0b24KaW1wb3J0IHRvcC55dWtvbmdhLm1pdWl4LmttcC50aGVtZS5NaXVpeFRoZW1lCgovKioKICog5YWs5ZGK5a+M5paH5pys77ya5LiA5q6157qv5paH5pys5YWs5ZGK77yM5riy5p+T5oiQ44CM5Y+v5aSN5Yi2ICsg6ZO+5o6l5Y+v54K5ICsg5Zu+54mH5Y+v6KeB44CN44CCCiAqCiAqIOS9nOiAheWFrOWRiuaYr+iHqueUseaWh+acrO+8jOmHjOmdoue7j+W4uOS8muacieS4i+i9veWcsOWdgOOAgeaIquWbvumTvuaOpeOAguWOn+adpeWPquaYr+W5suW3tOW3tOS4gOautSBUZXh077yMCiAqIOmTvuaOpeeCueS4jeS6huOAgeWbvueJh+eci+S4jeS6huOAgeS5n+S4jeiDveWkjeWItuOAgui/memHjOe7n+S4gOWkhOeQhu+8mgogKgogKiAgIDEuIGh0dHBzOi8vLi4uICDmuLLmn5PmiJDok53oibLkuIvliJLnur/vvIzngrnlh7vnm7TmjqXnlKjmtY/op4jlmajmiZPlvIAKICogICAyLiDlm77niYfpk77mjqXvvIhwbmcvanBnL2dpZi93ZWJwL2JtcO+8iea4suafk+aIkOWbvueJhwogKiAgIDMuIOaVtOauteaWh+Wtl+mVv+aMieWPr+mAieS4reWkjeWItu+8jOWPpuWklui/mOe7meS6huOAjOWkjeWItuWFrOWRiuOAjeaMiemSrgogKgogKiBBcHDvvIjnp7vmpI3ljIXor6bmg4XvvInlkozku6XlkI7lhbblroPopoHmmL7npLrlhazlkYrnmoTlnLDmlrnpg73nlKjlroPvvIzkv53or4HlpJrnq6/ooajnjrDkuIDoh7TjgIIKICovCgovKiog5Yy56YWNIGh0dHAvaHR0cHMg6ZO+5o6l77yM6YGH5Yiw56m655m95ZKM5bi46KeB5Lit5paH5qCH54K55bCx5YGc77yM6YG/5YWN5oqK5ZCO6Z2i55qE5q2j5paH5ZCe6L+b5p2l44CCICovCnByaXZhdGUgdmFsIFVSTF9SRSA9IFJlZ2V4KCIiImh0dHBzPzovL1teXHPjgIDvvIzjgILvvJvjgIHvvInjgJEiJzw+YF0rIiIiKQoKcHJpdmF0ZSB2YWwgSU1HX0VYVFMgPSBzZXRPZigicG5nIiwgImpwZyIsICJqcGVnIiwgImdpZiIsICJ3ZWJwIiwgImJtcCIpCgpwcml2YXRlIGZ1biBpc0ltYWdlVXJsKHVybDogU3RyaW5nKTogQm9vbGVhbiB7CiAgICB2YWwgcGF0aCA9IHVybC5zdWJzdHJpbmdCZWZvcmUoJz8nKS5zdWJzdHJpbmdCZWZvcmUoJyMnKQogICAgdmFsIGV4dCA9IHBhdGguc3Vic3RyaW5nQWZ0ZXJMYXN0KCcuJywgIiIpLmxvd2VyY2FzZSgpCiAgICByZXR1cm4gZXh0IGluIElNR19FWFRTCn0KCkBDb21wb3NhYmxlCmZ1biBOb3RpY2VSaWNoVGV4dCgKICAgIHRleHQ6IFN0cmluZywKICAgIG1vZGlmaWVyOiBNb2RpZmllciA9IE1vZGlmaWVyLAopIHsKICAgIGlmICh0ZXh0LmlzQmxhbmsoKSkgcmV0dXJuCgogICAgdmFsIGN0eCA9IExvY2FsQ29udGV4dC5jdXJyZW50CiAgICB2YWwgY2xpcGJvYXJkID0gTG9jYWxDbGlwYm9hcmRNYW5hZ2VyLmN1cnJlbnQKICAgIHZhbCBjcyA9IE1pdWl4VGhlbWUuY29sb3JTY2hlbWUKCiAgICAvLyDlm77niYfljZXni6zmir3lh7rmnaXmmL7npLrlnKjmloflrZfkuIvmlrnvvIhBbm5vdGF0ZWRTdHJpbmcg6YeM5aGe5LiN6L+b5Zu+54mH77yJCiAgICB2YWwgaW1hZ2VzID0gcmVtZW1iZXIodGV4dCkgewogICAgICAgIFVSTF9SRS5maW5kQWxsKHRleHQpLm1hcCB7IGl0LnZhbHVlIH0uZmlsdGVyKDo6aXNJbWFnZVVybCkudG9MaXN0KCkKICAgIH0KCiAgICAvLyDmraPmlofvvJrmma7pgJrmloflrZfkv53mjIHljp/moLfvvIzpk77mjqXliqDok53oibLkuIvliJLnur/vvIzlubbmjILkuIrlj6/ngrnlh7vnmoTms6jop6MKICAgIHZhbCBhbm5vdGF0ZWQ6IEFubm90YXRlZFN0cmluZyA9IHJlbWVtYmVyKHRleHQpIHsKICAgICAgICBidWlsZEFubm90YXRlZFN0cmluZyB7CiAgICAgICAgICAgIHZhciBjdXJzb3IgPSAwCiAgICAgICAgICAgIGZvciAobSBpbiBVUkxfUkUuZmluZEFsbCh0ZXh0KSkgewogICAgICAgICAgICAgICAgaWYgKG0ucmFuZ2UuZmlyc3QgPiBjdXJzb3IpIGFwcGVuZCh0ZXh0LnN1YnN0cmluZyhjdXJzb3IsIG0ucmFuZ2UuZmlyc3QpKQogICAgICAgICAgICAgICAgcHVzaFN0cmluZ0Fubm90YXRpb24oIlVSTCIsIG0udmFsdWUpCiAgICAgICAgICAgICAgICBwdXNoU3R5bGUoCiAgICAgICAgICAgICAgICAgICAgU3BhblN0eWxlKAogICAgICAgICAgICAgICAgICAgICAgICBjb2xvciA9IGNzLnByaW1hcnksCiAgICAgICAgICAgICAgICAgICAgICAgIHRleHREZWNvcmF0aW9uID0gVGV4dERlY29yYXRpb24uVW5kZXJsaW5lLAogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIGFwcGVuZChtLnZhbHVlKQogICAgICAgICAgICAgICAgcG9wKCkgICAvLyDlvLnlh7rmoLflvI8KICAgICAgICAgICAgICAgIHBvcCgpICAgLy8g5by55Ye66ZO+5o6l5rOo6KejCiAgICAgICAgICAgICAgICBjdXJzb3IgPSBtLnJhbmdlLmxhc3QgKyAxCiAgICAgICAgICAgIH0KICAgICAgICAgICAgaWYgKGN1cnNvciA8IHRleHQubGVuZ3RoKSBhcHBlbmQodGV4dC5zdWJzdHJpbmcoY3Vyc29yKSkKICAgICAgICB9CiAgICB9CgogICAgQ29sdW1uKG1vZGlmaWVyLmZpbGxNYXhXaWR0aCgpKSB7CiAgICAgICAgLy8g6ZW/5oyJ5Y+v5Lul6YCJ5Lit5aSN5Yi277yb5Y2V5Ye75LuN54S26LWw6ZO+5o6l54K55Ye7CiAgICAgICAgU2VsZWN0aW9uQ29udGFpbmVyIHsKICAgICAgICAgICAgQ2xpY2thYmxlVGV4dCgKICAgICAgICAgICAgICAgIHRleHQgPSBhbm5vdGF0ZWQsCiAgICAgICAgICAgICAgICBzdHlsZSA9IE1pdWl4VGhlbWUudGV4dFN0eWxlcy5ib2R5MS5jb3B5KGNvbG9yID0gY3Mub25TdXJmYWNlKSwKICAgICAgICAgICAgICAgIG9uQ2xpY2sgPSB7IG9mZnNldCAtPgogICAgICAgICAgICAgICAgICAgIGFubm90YXRlZC5nZXRTdHJpbmdBbm5vdGF0aW9ucygiVVJMIiwgb2Zmc2V0LCBvZmZzZXQpCiAgICAgICAgICAgICAgICAgICAgICAgIC5maXJzdE9yTnVsbCgpCiAgICAgICAgICAgICAgICAgICAgICAgID8ubGV0IHsgb3BlblVybChjdHgsIGl0Lml0ZW0pIH0KICAgICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICkKICAgICAgICB9CgogICAgICAgIGltYWdlcy5mb3JFYWNoIHsgdXJsIC0+CiAgICAgICAgICAgIFNwYWNlcihNb2RpZmllci5oZWlnaHQoOC5kcCkpCiAgICAgICAgICAgIEFzeW5jSW1hZ2UoCiAgICAgICAgICAgICAgICBtb2RlbCA9IHVybCwKICAgICAgICAgICAgICAgIGNvbnRlbnREZXNjcmlwdGlvbiA9ICLlhazlkYrlm77niYciLAogICAgICAgICAgICAgICAgY29udGVudFNjYWxlID0gQ29udGVudFNjYWxlLkZpbGxXaWR0aCwKICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIKICAgICAgICAgICAgICAgICAgICAuZmlsbE1heFdpZHRoKCkKICAgICAgICAgICAgICAgICAgICAuY2xpcChSb3VuZGVkQ29ybmVyU2hhcGUoOC5kcCkpLAogICAgICAgICAgICApCiAgICAgICAgfQoKICAgICAgICBTcGFjZXIoTW9kaWZpZXIuaGVpZ2h0KDguZHApKQogICAgICAgIEdob3N0QnV0dG9uKCLlpI3liLblhazlkYoiKSB7CiAgICAgICAgICAgIGNsaXBib2FyZC5zZXRUZXh0KEFubm90YXRlZFN0cmluZyh0ZXh0KSkKICAgICAgICB9CiAgICB9Cn0K
+package org.linbaogu.romhub.ui.common
+
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.text.selection.SelectionContainer
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.foundation.text.ClickableText
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.remember
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.platform.LocalClipboardManager
+import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.text.AnnotatedString
+import androidx.compose.ui.text.SpanStyle
+import androidx.compose.ui.text.buildAnnotatedString
+import androidx.compose.ui.text.style.TextDecoration
+import androidx.compose.ui.unit.dp
+import coil3.compose.AsyncImage
+import org.linbaogu.romhub.ui.component.GhostButton
+import top.yukonga.miuix.kmp.theme.MiuixTheme
+
+/**
+ * 公告富文本：一段纯文本公告，渲染成「可复制 + 链接可点 + 图片可见」。
+ *
+ * 作者公告是自由文本，里面经常会有下载地址、截图链接。原来只是干巴巴一段 Text，
+ * 链接点不了、图片看不了、也不能复制。这里统一处理：
+ *
+ *   1. https://...  渲染成蓝色下划线，点击直接用浏览器打开
+ *   2. 图片链接（png/jpg/gif/webp/bmp）渲染成图片
+ *   3. 整段文字长按可选中复制，另外还给了「复制公告」按钮
+ *
+ * App（移植包详情）和以后其它要显示公告的地方都用它，保证多端表现一致。
+ */
+
+/** 匹配 http/https 链接，遇到空白和常见中文标点就停，避免把后面的正文吞进来。 */
+private val URL_RE = Regex("""https?://[^\s　，。；、）】"'<>`]+""")
+
+private val IMG_EXTS = setOf("png", "jpg", "jpeg", "gif", "webp", "bmp")
+
+private fun isImageUrl(url: String): Boolean {
+    val path = url.substringBefore('?').substringBefore('#')
+    val ext = path.substringAfterLast('.', "").lowercase()
+    return ext in IMG_EXTS
+}
+
+@Composable
+fun NoticeRichText(
+    text: String,
+    modifier: Modifier = Modifier,
+) {
+    if (text.isBlank()) return
+
+    val ctx = LocalContext.current
+    val clipboard = LocalClipboardManager.current
+    val cs = MiuixTheme.colorScheme
+
+    // 图片单独抽出来显示在文字下方（AnnotatedString 里塞不进图片）
+    val images = remember(text) {
+        URL_RE.findAll(text).map { it.value }.filter(::isImageUrl).toList()
+    }
+
+    // 正文：普通文字保持原样，链接加蓝色下划线，并挂上可点击的注解
+    val annotated: AnnotatedString = remember(text) {
+        buildAnnotatedString {
+            var cursor = 0
+            for (m in URL_RE.findAll(text)) {
+                if (m.range.first > cursor) append(text.substring(cursor, m.range.first))
+                pushStringAnnotation("URL", m.value)
+                pushStyle(
+                    SpanStyle(
+                        color = cs.primary,
+                        textDecoration = TextDecoration.Underline,
+                    )
+                )
+                append(m.value)
+                pop()   // 弹出样式
+                pop()   // 弹出链接注解
+                cursor = m.range.last + 1
+            }
+            if (cursor < text.length) append(text.substring(cursor))
+        }
+    }
+
+    Column(modifier.fillMaxWidth()) {
+        // 长按可以选中复制；单击仍然走链接点击
+        SelectionContainer {
+            ClickableText(
+                text = annotated,
+                style = MiuixTheme.textStyles.body1.copy(color = cs.onSurface),
+                onClick = { offset ->
+                    annotated.getStringAnnotations("URL", offset, offset)
+                        .firstOrNull()
+                        ?.let { openUrl(ctx, it.item) }
+                },
+            )
+        }
+
+        images.forEach { url ->
+            Spacer(Modifier.height(8.dp))
+            AsyncImage(
+                model = url,
+                contentDescription = "公告图片",
+                contentScale = ContentScale.FillWidth,
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .clip(RoundedCornerShape(8.dp)),
+            )
+        }
+
+        Spacer(Modifier.height(8.dp))
+        GhostButton("复制公告") {
+            clipboard.setText(AnnotatedString(text))
+        }
+    }
+}

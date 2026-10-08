@@ -1,1 +1,80 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IS0tCiAgfiBUaGlzIGZpbGUgaXMgcGFydCBvZiBIeXBlckNlaWxlci4KICB+CiAgfiBIeXBlckNlaWxlciBpcyBmcmVlIHNvZnR3YXJlOiB5b3UgY2FuIHJlZGlzdHJpYnV0ZSBpdCBhbmQvb3IgbW9kaWZ5CiAgfiBpdCB1bmRlciB0aGUgdGVybXMgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBhcwogIH4gcHVibGlzaGVkIGJ5IHRoZSBGcmVlIFNvZnR3YXJlIEZvdW5kYXRpb24sIGVpdGhlciB2ZXJzaW9uIDMgb2YgdGhlCiAgfiBMaWNlbnNlLgogIH4KICB+IFRoaXMgcHJvZ3JhbSBpcyBkaXN0cmlidXRlZCBpbiB0aGUgaG9wZSB0aGF0IGl0IHdpbGwgYmUgdXNlZnVsLAogIH4gYnV0IFdJVEhPVVQgQU5ZIFdBUlJBTlRZOyB3aXRob3V0IGV2ZW4gdGhlIGltcGxpZWQgd2FycmFudHkgb2YKICB+IE1FUkNIQU5UQUJJTElUWSBvciBGSVRORVNTIEZPUiBBIFBBUlRJQ1VMQVIgUFVSUE9TRS4gIFNlZSB0aGUKICB+IEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBmb3IgbW9yZSBkZXRhaWxzLgogIH4KICB+IFlvdSBzaG91bGQgaGF2ZSByZWNlaXZlZCBhIGNvcHkgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZQogIH4gYWxvbmcgd2l0aCB0aGlzIHByb2dyYW0uICBJZiBub3QsIHNlZSA8aHR0cHM6Ly93d3cuZ251Lm9yZy9saWNlbnNlcy8+LgogIH4KICB+IENvcHlyaWdodCAoQykgMjAyMy0yMDI2IEh5cGVyQ2VpbGVyIENvbnRyaWJ1dGlvbnMKICAtLT4KPFByZWZlcmVuY2VTY3JlZW4geG1sbnM6YW5kcm9pZD0iaHR0cDovL3NjaGVtYXMuYW5kcm9pZC5jb20vYXBrL3Jlcy9hbmRyb2lkIj4KICAgIDxQcmVmZXJlbmNlQ2F0ZWdvcnkgYW5kcm9pZDp0aXRsZT0iQHN0cmluZy9kZXZlbG9wbWVudF90b29scyI+CiAgICAgICAgPFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDprZXk9InByZWZzX2tleV9kZXZlbG9wbWVudF9kZWJ1Z19pbmZvIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJAc3RyaW5nL2RldmVsb3BtZW50X2RlYnVnX2luZm8iCiAgICAgICAgICAgIGFuZHJvaWQ6ZnJhZ21lbnQ9ImNvbS5zZXZ0aW5nZS5oeXBlcmNlaWxlci5zZXR0aW5ncy5kZXZlbG9wbWVudC5EZXZlbG9wbWVudERlYnVnSW5mb0ZyYWdtZW50IiAvPgoKICAgICAgICA8UHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOmtleT0icHJlZnNfa2V5X2RldmVsb3BtZW50X2RlYnVnX21vZGUiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvZGVidWdfbW9kZSIKICAgICAgICAgICAgYW5kcm9pZDpmcmFnbWVudD0iY29tLnNldnRpbmdlLmh5cGVyY2VpbGVyLnNldHRpbmdzLmRldmVsb3BtZW50LkRldmVsb3BtZW50RGVidWdNb2RlRnJhZ21lbnQiIC8+CgogICAgICAgIDxQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6ZnJhZ21lbnQ9ImNvbS5zZXZ0aW5nZS5oeXBlcmNlaWxlci5zZXR0aW5ncy5kZXZlbG9wbWVudC5EZXZlbG9wbWVudFVJRnJhZ21lbnQiCiAgICAgICAgICAgIGFuZHJvaWQ6a2V5PSJwcmVmc19rZXlfZGV2ZWxvcG1lbnRfdWkiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvZGV2ZWxvcG1lbnRfdWkiIC8+CgogICAgICAgIDxQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6a2V5PSJwcmVmc19rZXlfZGV2ZWxvcG1lbnRfb29iZSIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iT09CRSIKICAgICAgICAgICAgYW5kcm9pZDplbmFibGVkPSJ0cnVlIiAvPgoKICAgIDwvUHJlZmVyZW5jZUNhdGVnb3J5PgoKICAgIDxQcmVmZXJlbmNlQ2F0ZWdvcnkgYW5kcm9pZDp0aXRsZT0iQHN0cmluZy9kZXZlbG9wbWVudF9zeXN0ZW0iPgogICAgICAgIDxQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6a2V5PSJwcmVmc19rZXlfZGV2ZWxvcG1lbnRfa2lsbCIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iQHN0cmluZy9raWxsIgogICAgICAgICAgICBhbmRyb2lkOmZyYWdtZW50PSJjb20uc2V2dGluZ2UuaHlwZXJjZWlsZXIuc2V0dGluZ3MuZGV2ZWxvcG1lbnQuRGV2ZWxvcG1lbnRLaWxsRnJhZ21lbnQiIC8+CgogICAgICAgIDxQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6a2V5PSJwcmVmc19rZXlfZGV2ZWxvcG1lbnRfcHJlZnMiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvZGV2ZWxvcG1lbnRfcHJlZnMiCiAgICAgICAgICAgIGFuZHJvaWQ6ZnJhZ21lbnQ9ImNvbS5zZXZ0aW5nZS5oeXBlcmNlaWxlci5zZXR0aW5ncy5kZXZlbG9wbWVudC5EZXZlbG9wbWVudFByZWZzRnJhZ21lbnQiIC8+CgogICAgICAgIDxQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6a2V5PSJwcmVmc19rZXlfZGV2ZWxvcG1lbnRfY21kX3IiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvZGV2ZWxvcG1lbnRfY21kX3IiIC8+CgogICAgPC9QcmVmZXJlbmNlQ2F0ZWdvcnk+CgogICAgPFByZWZlcmVuY2VDYXRlZ29yeSBhbmRyb2lkOnRpdGxlPSJAc3RyaW5nL2RldmVsb3BtZW50X2NhY2hlIj4KICAgICAgICA8U3dpdGNoUHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOmtleT0icHJlZnNfa2V5X2RldmVsb3BtZW50X2Nsb3NlX2xvZ19hbGVydF9kaWFsb2ciCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvZGV2ZWxvcG1lbnRfY2xvc2VfbG9nX2FsZXJ0X2RpYWxvZyIKICAgICAgICAgICAgYW5kcm9pZDpkZWZhdWx0VmFsdWU9ImZhbHNlIiAvPgoKICAgICAgICA8UHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOmtleT0icHJlZnNfa2V5X2RldmVsb3BtZW50X2ZpeF9sc3Bvc2VkX2xvZyIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iQHN0cmluZy9kZXZlbG9wbWVudF9maXhfbHNwb3NlZF9sb2ciIC8+CgogICAgICAgIDxQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6a2V5PSJwcmVmc19rZXlfZGV2ZWxvcG1lbnRfZGVsZXRlX2FsbF9kZXhraXRfY2FjaGUiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvZGV2ZWxvcG1lbnRfZGVsZXRlX2FsbF9kZXhraXRfY2FjaGUiIC8+CgogICAgICAgIDxQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6a2V5PSJwcmVmc19rZXlfZGV2ZWxvcG1lbnRfY2xlYXJfYXBwX3Byb3BlcnRpZXMiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvZGV2ZWxvcG1lbnRfY2xlYXJfYXBwX3Byb3BlcnRpZXMiIC8+CgogICAgPC9QcmVmZXJlbmNlQ2F0ZWdvcnk+Cgo8L1ByZWZlcmVuY2VTY3JlZW4+Cg==
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ This file is part of HyperCeiler.
+  ~
+  ~ HyperCeiler is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU Affero General Public License as
+  ~ published by the Free Software Foundation, either version 3 of the
+  ~ License.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU Affero General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU Affero General Public License
+  ~ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+  ~
+  ~ Copyright (C) 2023-2026 HyperCeiler Contributions
+  -->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/development_tools">
+        <Preference
+            android:key="prefs_key_development_debug_info"
+            android:title="@string/development_debug_info"
+            android:fragment="com.sevtinge.hyperceiler.settings.development.DevelopmentDebugInfoFragment" />
+
+        <Preference
+            android:key="prefs_key_development_debug_mode"
+            android:title="@string/debug_mode"
+            android:fragment="com.sevtinge.hyperceiler.settings.development.DevelopmentDebugModeFragment" />
+
+        <Preference
+            android:fragment="com.sevtinge.hyperceiler.settings.development.DevelopmentUIFragment"
+            android:key="prefs_key_development_ui"
+            android:title="@string/development_ui" />
+
+        <Preference
+            android:key="prefs_key_development_oobe"
+            android:title="OOBE"
+            android:enabled="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/development_system">
+        <Preference
+            android:key="prefs_key_development_kill"
+            android:title="@string/kill"
+            android:fragment="com.sevtinge.hyperceiler.settings.development.DevelopmentKillFragment" />
+
+        <Preference
+            android:key="prefs_key_development_prefs"
+            android:title="@string/development_prefs"
+            android:fragment="com.sevtinge.hyperceiler.settings.development.DevelopmentPrefsFragment" />
+
+        <Preference
+            android:key="prefs_key_development_cmd_r"
+            android:title="@string/development_cmd_r" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/development_cache">
+        <SwitchPreference
+            android:key="prefs_key_development_close_log_alert_dialog"
+            android:title="@string/development_close_log_alert_dialog"
+            android:defaultValue="false" />
+
+        <Preference
+            android:key="prefs_key_development_fix_lsposed_log"
+            android:title="@string/development_fix_lsposed_log" />
+
+        <Preference
+            android:key="prefs_key_development_delete_all_dexkit_cache"
+            android:title="@string/development_delete_all_dexkit_cache" />
+
+        <Preference
+            android:key="prefs_key_development_clear_app_properties"
+            android:title="@string/development_clear_app_properties" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

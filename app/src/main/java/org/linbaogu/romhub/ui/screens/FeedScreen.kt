@@ -1,1 +1,302 @@
-cGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLnVpLnNjcmVlbnMNCg0KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5jbGlja2FibGUNCmltcG9ydCBvcmcubGluYmFvZ3Uucm9taHViLnVpLmNvbW1vbi5IY0RpdmlkZXINCmltcG9ydCBvcmcubGluYmFvZ3Uucm9taHViLnVpLmNvbW1vbi5IY0dyb3VwDQppbXBvcnQgdG9wLnl1a29uZ2EubWl1aXgua21wLmljb24uZXh0ZW5kZWQuQ2hldnJvbkZvcndhcmQNCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LkFycmFuZ2VtZW50DQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5Db2x1bW4NCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LlBhZGRpbmdWYWx1ZXMNCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LlJvdw0KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuU3BhY2VyDQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5maWxsTWF4V2lkdGgNCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LmhlaWdodA0KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQucGFkZGluZw0KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuc2l6ZQ0KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQud2lkdGgNCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF6eS5MYXp5Um93DQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxhenkuaXRlbXMNCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuQ29tcG9zYWJsZQ0KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5MYXVuY2hlZEVmZmVjdA0KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5nZXRWYWx1ZQ0KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5tdXRhYmxlU3RhdGVPZg0KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5yZW1lbWJlcg0KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5zZXRWYWx1ZQ0KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuQWxpZ25tZW50DQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5Nb2RpZmllcg0KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkucGxhdGZvcm0uTG9jYWxDb250ZXh0DQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS50ZXh0LmZvbnQuRm9udFdlaWdodA0KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudGV4dC5zdHlsZS5UZXh0T3ZlcmZsb3cNCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnVuaXQuRHANCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnVuaXQuZHANCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuYXN5bmMNCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuY29yb3V0aW5lU2NvcGUNCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuc3luYy5NdXRleA0KaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5zeW5jLndpdGhMb2NrDQppbXBvcnQgb3JnLmxpbmJhb2d1LnJvbWh1Yi5kYXRhLkFwaQ0KaW1wb3J0IG9yZy5saW5iYW9ndS5yb21odWIuZGF0YS5SZXBvDQppbXBvcnQgb3JnLmxpbmJhb2d1LnJvbWh1Yi5kYXRhLlJvbVVwZGF0ZQ0KaW1wb3J0IG9yZy5saW5iYW9ndS5yb21odWIudWkuY29tbW9uLkNoaXANCmltcG9ydCBvcmcubGluYmFvZ3Uucm9taHViLnVpLmNvbW1vbi5FcnJvckhpbnQNCmltcG9ydCBvcmcubGluYmFvZ3Uucm9taHViLnVpLmNvbW1vbi5IaW50DQppbXBvcnQgb3JnLmxpbmJhb2d1LnJvbWh1Yi51aS5jb21tb24uTGlzdFNjcmVlbg0KaW1wb3J0IG9yZy5saW5iYW9ndS5yb21odWIudWkuY29tbW9uLlNlY3Rpb25MYWJlbA0KaW1wb3J0IG9yZy5saW5iYW9ndS5yb21odWIudWkuY29tbW9uLlN0YXRlQ2hpcA0KaW1wb3J0IG9yZy5saW5iYW9ndS5yb21odWIudWkuY29tbW9uLmtpbmRMYWJlbA0KaW1wb3J0IHRvcC55dWtvbmdhLm1pdWl4LmttcC5iYXNpYy5DYXJkDQppbXBvcnQgdG9wLnl1a29uZ2EubWl1aXgua21wLmJhc2ljLkljb24NCmltcG9ydCB0b3AueXVrb25nYS5taXVpeC5rbXAuYmFzaWMuSWNvbkJ1dHRvbg0KaW1wb3J0IHRvcC55dWtvbmdhLm1pdWl4LmttcC5iYXNpYy5UZXh0DQppbXBvcnQgdG9wLnl1a29uZ2EubWl1aXgua21wLmljb24uTWl1aXhJY29ucw0KaW1wb3J0IHRvcC55dWtvbmdhLm1pdWl4LmttcC5pY29uLmV4dGVuZGVkLlJlZnJlc2gNCmltcG9ydCB0b3AueXVrb25nYS5taXVpeC5rbXAudGhlbWUuTWl1aXhUaGVtZQ0KaW1wb3J0IG9yZy5saW5iYW9ndS5yb21odWIudWkuY29tbW9uLkh5cGVyTG9hZGluZ0lubGluZQoNCnByaXZhdGUgdmFsIFNUQVRFUyA9IGxpc3RPZigi5YWo6YOoIiwgIuWFrOW8gCIsICLlhoXmtYsiLCAiQmV0YSIsICLmkqTljIUiKQ0KDQpAQ29tcG9zYWJsZQ0KZnVuIEZlZWRTY3JlZW4oDQogICAgc3VidGl0bGU6IFN0cmluZywNCiAgICBib3R0b21Jbm5lclBhZGRpbmc6IERwLA0KICAgIG9uU2VlbjogKCkgLT4gVW5pdCwNCiAgICBvbk9wZW5WZXJzaW9uOiAoUm9tVXBkYXRlKSAtPiBVbml0LA0KKSB7DQogICAgdmFsIGN0eCA9IExvY2FsQ29udGV4dC5jdXJyZW50DQogICAgdmFyIGl0ZW1zIGJ5IHJlbWVtYmVyIHsgbXV0YWJsZVN0YXRlT2YoUmVwby5jYWNoZWRGZWVkKGN0eCkuaXRlbXMpIH0NCiAgICB2YXIgY291bnRzIGJ5IHJlbWVtYmVyIHsgbXV0YWJsZVN0YXRlT2YoZW1wdHlNYXA8U3RyaW5nLCBJbnQ+KCkpIH0NCiAgICB2YXIgbG9hZGluZyBieSByZW1lbWJlciB7IG11dGFibGVTdGF0ZU9mKGl0ZW1zLmlzRW1wdHkoKSkgfQ0KICAgIHZhciByZWZyZXNoaW5nIGJ5IHJlbWVtYmVyIHsgbXV0YWJsZVN0YXRlT2YoZmFsc2UpIH0NCiAgICB2YXIgZXJyb3IgYnkgcmVtZW1iZXIgeyBtdXRhYmxlU3RhdGVPZigiIikgfQ0KICAgIHZhciBzdGF0ZSBieSByZW1lbWJlciB7IG11dGFibGVTdGF0ZU9mKCLlhajpg6giKSB9DQogICAgdmFyIG9ubHlDTiBieSByZW1lbWJlciB7IG11dGFibGVTdGF0ZU9mKGZhbHNlKSB9DQogICAgdmFyIHJlbG9hZCBieSByZW1lbWJlciB7IG11dGFibGVTdGF0ZU9mKDApIH0NCg0KICAgIC8vIOWQjOS4gOaXtumXtOWPquWFgeiuuOS4gOS4quivt+axguWcqOi3ke+8muaJi+eCueWIt+aWsOOAgeWIh+agh+etvuOAgTIwIOenkuiHquWKqOWIt+aWsOS4jeS8muS6kuebuOaSnui9pu+8jA0KICAgIC8vIOS5n+WwseS4jeS8muOAjOWJjeS4gOasoei/mOayoeWbnuadpeWQjuS4gOasoeWPiOi2heaXtuOAjeWcsOi/nueOr+aKpemUmeOAgg0KICAgIHZhbCByZXFMb2NrID0gcmVtZW1iZXIgeyBNdXRleCgpIH0NCg0KICAgIExhdW5jaGVkRWZmZWN0KHN0YXRlLCByZWxvYWQpIHsNCiAgICAgICAgLy8g6K6p5YiH5o2i5Yqo55S75YWI6LeR5a6M5YaN5bmy5rS744CCDQogICAgICAgIC8vIOWKqOaAgemhteacieS4pOS4quW5tuWPkee9kee7nOivt+axgu+8iOWIl+ihqCArIOagh+etvuiuoeaVsO+8iSsgMTIwIOadoeeahOino+aekO+8jA0KICAgICAgICAvLyDoi6XlnKggdGFiIOWIh+aNoueahOmCo+S4gOW4p+WwseWPkei1t++8jOS8muaYjuaYvuaLluaFoiBwYWdlciDnmoTovazlnLrvvIjnlKjmiLflj43ppojjgIzljaHkuIDkuIvmiY3ov4fljrvjgI3vvInjgIINCiAgICAgICAgLy8g6L+Z6YeM5Y+q5piv5oqK44CM5byA5aeL5bmy5rS744CN5o6o6L+f5LiA5bCP5Lya5YS/77yM5LiN5pS55Y+Y5Lu75L2V5Y+v6KeB54q25oCB44CCDQogICAgICAgIGtvdGxpbnguY29yb3V0aW5lcy5kZWxheShpZiAoaXRlbXMuaXNFbXB0eSgpKSAxODAgZWxzZSAwKQ0KICAgICAgICByZXFMb2NrLndpdGhMb2NrIHsNCiAgICAgICAgICAgIHZhbCBmaXJzdExvYWQgPSBpdGVtcy5pc0VtcHR5KCkNCiAgICAgICAgICAgIC8vIOKaoCDlj6rmnInliJfooajnnJ/nmoTnqbrnnYDmiY3mlbTlsY/ovazlnIjvvJvlt7Lnu4/mnInlhoXlrrnml7bmmK/jgIzpnZnpu5jliLfmlrDjgI3vvIwNCiAgICAgICAgICAgIC8vICAg5YiX6KGo55WZ5Zyo5Y6f5Zyw77yM57ud5LiN5Lya5LiA6Zeq5Y+Y56m65YaN5by56ZSZ6K+v44CCDQogICAgICAgICAgICBsb2FkaW5nID0gZmlyc3RMb2FkDQogICAgICAgICAgICByZWZyZXNoaW5nID0gIWZpcnN0TG9hZA0KICAgICAgICAgICAgZXJyb3IgPSAiIg0KICAgICAgICAgICAgcnVuQ2F0Y2hpbmcgew0KICAgICAgICAgICAgICAgIGlmIChzdGF0ZSA9PSAi5YWo6YOoIikgew0KICAgICAgICAgICAgICAgICAgICAvLyDlj6rmi4nkuIDmrKHliJfooajvvIjlkIzml7blhpnov5vmnKzlnLDlv6vnhafvvInvvIzmoIfnrb7orqHmlbDlubbooYzlj5bvvIjpgqPkuKrmjqXlj6PlvojlsI/vvIkNCiAgICAgICAgICAgICAgICAgICAgY29yb3V0aW5lU2NvcGUgew0KICAgICAgICAgICAgICAgICAgICAgICAgdmFsIGxpc3QgPSBhc3luYyB7IFJlcG8ucmVmcmVzaEZlZWQoY3R4LCBsaW1pdCA9IDEyMCkgfQ0KICAgICAgICAgICAgICAgICAgICAgICAgdmFsIGNzID0gYXN5bmMgew0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJ1bkNhdGNoaW5nIHsgQXBpLnVwZGF0ZVN0YXRlcyhjdHgpIH0uZ2V0T3JEZWZhdWx0KGVtcHR5TWFwKCkpDQogICAgICAgICAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICAgICAgICAgICAgICB2YWwgcmVzcCA9IGxpc3QuYXdhaXQoKQ0KICAgICAgICAgICAgICAgICAgICAgICAgY291bnRzID0gY3MuYXdhaXQoKQ0KICAgICAgICAgICAgICAgICAgICAgICAgcmVzcC5pdGVtcw0KICAgICAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICAgICAgfSBlbHNlIHsNCiAgICAgICAgICAgICAgICAgICAgdmFsIHJlc3AgPSBBcGkucm9tVXBkYXRlcyhjdHgsIGxpbWl0ID0gMTIwLCBzdGF0ZSA9IHN0YXRlKQ0KICAgICAgICAgICAgICAgICAgICBjb3VudHMgPSByZXNwLmNvdW50cw0KICAgICAgICAgICAgICAgICAgICByZXNwLml0ZW1zDQogICAgICAgICAgICAgICAgfQ0KICAgICAgICAgICAgfS5vblN1Y2Nlc3Mgew0KICAgICAgICAgICAgICAgIGl0ZW1zID0gaXQNCiAgICAgICAgICAgICAgICBsb2FkaW5nID0gZmFsc2UNCiAgICAgICAgICAgICAgICByZWZyZXNoaW5nID0gZmFsc2UNCiAgICAgICAgICAgIH0ub25GYWlsdXJlIHsNCiAgICAgICAgICAgICAgICBlcnJvciA9IGl0Lm1lc3NhZ2UgPzogIuWKoOi9veWksei0pSINCiAgICAgICAgICAgICAgICBsb2FkaW5nID0gZmFsc2UNCiAgICAgICAgICAgICAgICByZWZyZXNoaW5nID0gZmFsc2UNCiAgICAgICAgICAgIH0NCiAgICAgICAgfQ0KICAgIH0NCg0KICAgIC8vIOWunuaXtu+8muWBnOWcqOWKqOaAgemhteaXtuavjyAyMCDnp5Lmi4nkuIDmrKHvvIzmlrDliqjmgIHoh6rlt7HlhpLlh7rmnaXvvIjkuI3nlKjmiYvliqjliLfmlrDvvIkNCiAgICBMYXVuY2hlZEVmZmVjdChzdGF0ZSkgew0KICAgICAgICB3aGlsZSAodHJ1ZSkgew0KICAgICAgICAgICAga290bGlueC5jb3JvdXRpbmVzLmRlbGF5KDIwXzAwMCkNCiAgICAgICAgICAgIGlmIChzdGF0ZSAhPSAi5YWo6YOoIikgY29udGludWUNCiAgICAgICAgICAgIC8vIOWQjuWPsOmdmem7mOWIt+aWsO+8muWksei0peS4jeaPkOekuu+8iOWFjeW+l+ayoeS6i+WwseW8ueS4gOadoemUmeivr++8ie+8jOS5n+S4jeaKouato+WcqOi3keeahOivt+axgg0KICAgICAgICAgICAgaWYgKCFyZXFMb2NrLmlzTG9ja2VkKSB7DQogICAgICAgICAgICAgICAgcnVuQ2F0Y2hpbmcgew0KICAgICAgICAgICAgICAgICAgICB2YWwgZnJlc2ggPSByZXFMb2NrLndpdGhMb2NrIHsgUmVwby5yZWZyZXNoRmVlZChjdHgsIGxpbWl0ID0gMTIwKSB9Lml0ZW1zDQogICAgICAgICAgICAgICAgICAgIGlmIChmcmVzaC5maXJzdE9yTnVsbCgpPy5pZCAhPSBpdGVtcy5maXJzdE9yTnVsbCgpPy5pZCkgaXRlbXMgPSBmcmVzaA0KICAgICAgICAgICAgICAgIH0NCiAgICAgICAgICAgIH0NCiAgICAgICAgfQ0KICAgIH0NCg0KICAgIC8vIOeci+i/h+S6huWwsea4heWwj+e6oueCuQ0KICAgIExhdW5jaGVkRWZmZWN0KGl0ZW1zLnNpemUpIHsNCiAgICAgICAgaWYgKGl0ZW1zLmlzTm90RW1wdHkoKSkgb25TZWVuKCkNCiAgICB9DQoNCiAgICB2YWwgc2hvd24gPSByZW1lbWJlcihpdGVtcywgb25seUNOKSB7DQogICAgICAgIGlmIChvbmx5Q04pIGl0ZW1zLmZpbHRlciB7IGl0LnJlZ2lvbiA9PSAiY24iIH0gZWxzZSBpdGVtcw0KICAgIH0NCg0KICAgIC8vIOaMieaXpeacn+WIhue7hOeahOaIkOacrOS4jeS9ju+8iDEyMCDmnaEgw5cg5q+P5qyh6YeN57uE6YO96KaB6YeN566XICsg6YeN5o6S77yJ77yMDQogICAgLy8g6ICM5a6D5Y+q5L6d6LWWIHNob3duIOKAlOKAlCDnlKggcmVtZW1iZXIg57yT5a2Y77yM5YiHIHRhYiAvIOmrmOmikemHjee7hOaXtuS4jeWGjemHjeWkjeeul+OAgg0KICAgIC8vIOi/meS4gOatpeaYr+OAjOacgOWPsyB0YWIg54K55Yqo5oCB5Y2h5LiA5LiL44CN55qE5Li76KaB5p2l5rqQ5LmL5LiA77yIcGFnZXIg5YiH6aG15Lya6Kem5Y+R6YeN57uE77yJ44CCDQogICAgdmFsIGdyb3VwZWQgPSByZW1lbWJlcihzaG93bikgew0KICAgICAgICBzaG93bi5ncm91cEJ5IHsgdSAtPiB1LnNob3J0RGF0ZS5zdWJzdHJpbmdCZWZvcmUoJyAnKS5pZkJsYW5rIHsgdS5kZXRlY3RlZEF0LnRha2UoMTApIH0gfQ0KICAgIH0NCg0KICAgIExpc3RTY3JlZW4oDQogICAgICAgIHRpdGxlID0gIuWKqOaAgSIsDQogICAgICAgIGxhcmdlVGl0bGUgPSAi5Yqo5oCBIiwNCiAgICAgICAgc3VidGl0bGUgPSBzdWJ0aXRsZSwNCiAgICAgICAgYm90dG9tSW5uZXJQYWRkaW5nID0gYm90dG9tSW5uZXJQYWRkaW5nLA0KICAgICAgICBjb250ZW50UGFkZGluZyA9IFBhZGRpbmdWYWx1ZXMoaG9yaXpvbnRhbCA9IDEyLmRwKSwNCiAgICAgICAgYWN0aW9ucyA9IHsNCiAgICAgICAgICAgIEljb25CdXR0b24ob25DbGljayA9IHsgaWYgKCFsb2FkaW5nICYmICFyZWZyZXNoaW5nKSByZWxvYWQrKyB9KSB7DQogICAgICAgICAgICAgICAgSWNvbihNaXVpeEljb25zLlJlZnJlc2gsIGNvbnRlbnREZXNjcmlwdGlvbiA9ICLliLfmlrAiKQ0KICAgICAgICAgICAgfQ0KICAgICAgICB9LA0KICAgICAgICBib3R0b21Db250ZW50ID0gew0KICAgICAgICAgICAgQ29sdW1uKE1vZGlmaWVyLnBhZGRpbmcoYm90dG9tID0gNi5kcCkpIHsNCiAgICAgICAgICAgICAgICBMYXp5Um93KA0KICAgICAgICAgICAgICAgICAgICBob3Jpem9udGFsQXJyYW5nZW1lbnQgPSBBcnJhbmdlbWVudC5zcGFjZWRCeSg4LmRwKSwNCiAgICAgICAgICAgICAgICAgICAgY29udGVudFBhZGRpbmcgPSBQYWRkaW5nVmFsdWVzKGhvcml6b250YWwgPSAxMi5kcCksDQogICAgICAgICAgICAgICAgKSB7DQogICAgICAgICAgICAgICAgICAgIGl0ZW1zKFNUQVRFUykgeyBzIC0+DQogICAgICAgICAgICAgICAgICAgICAgICB2YWwgYyA9IGNvdW50c1tzXQ0KICAgICAgICAgICAgICAgICAgICAgICAgdmFsIGxhYmVsID0gaWYgKHMgPT0gIuWFqOmDqCIgfHwgYyA9PSBudWxsKSBzIGVsc2UgIiRz77yIJGPvvIkiDQogICAgICAgICAgICAgICAgICAgICAgICBDaGlwKHRleHQgPSBsYWJlbCwgc2VsZWN0ZWQgPSBzID09IHN0YXRlLCBvbkNsaWNrID0geyBzdGF0ZSA9IHMgfSkNCiAgICAgICAgICAgICAgICAgICAgfQ0KICAgICAgICAgICAgICAgIH0NCiAgICAgICAgICAgICAgICBTcGFjZXIoTW9kaWZpZXIuaGVpZ2h0KDYuZHApKQ0KICAgICAgICAgICAgICAgIExhenlSb3coDQogICAgICAgICAgICAgICAgICAgIGhvcml6b250YWxBcnJhbmdlbWVudCA9IEFycmFuZ2VtZW50LnNwYWNlZEJ5KDguZHApLA0KICAgICAgICAgICAgICAgICAgICBjb250ZW50UGFkZGluZyA9IFBhZGRpbmdWYWx1ZXMoaG9yaXpvbnRhbCA9IDEyLmRwKSwNCiAgICAgICAgICAgICAgICApIHsNCiAgICAgICAgICAgICAgICAgICAgaXRlbSB7DQogICAgICAgICAgICAgICAgICAgICAgICBDaGlwKHRleHQgPSAi5Y+q55yL5Zu96KGMIiwgc2VsZWN0ZWQgPSBvbmx5Q04sIG9uQ2xpY2sgPSB7IG9ubHlDTiA9IHRydWUgfSkNCiAgICAgICAgICAgICAgICAgICAgfQ0KICAgICAgICAgICAgICAgICAgICBpdGVtIHsNCiAgICAgICAgICAgICAgICAgICAgICAgIENoaXAodGV4dCA9ICLlhajpg6jlnLDljLoiLCBzZWxlY3RlZCA9ICFvbmx5Q04sIG9uQ2xpY2sgPSB7IG9ubHlDTiA9IGZhbHNlIH0pDQogICAgICAgICAgICAgICAgICAgIH0NCiAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICB9DQogICAgICAgIH0sDQogICAgKSB7DQogICAgICAgIGlmIChsb2FkaW5nKSBpdGVtIHsgSHlwZXJMb2FkaW5nSW5saW5lKCkgfQ0KICAgICAgICBpZiAocmVmcmVzaGluZykgaXRlbSB7IEhpbnQoIuato+WcqOWIt+aWsOKApiIpIH0NCiAgICAgICAgLy8g5Ye66ZSZ5Lmf5Y+q5piv5LiA5p2h5qiq5bmF77yM5LiL6Z2i55qE5YiX6KGo54Wn5bi45pi+56S677yI5LiN5riF56m644CB5LiN6Zeq5bGP77yJDQogICAgICAgIGlmIChlcnJvci5pc05vdEJsYW5rKCkpIGl0ZW0geyBFcnJvckhpbnQoZXJyb3IpIHsgcmVsb2FkKysgfSB9DQogICAgICAgIGlmICghbG9hZGluZyAmJiAhcmVmcmVzaGluZyAmJiBlcnJvci5pc0JsYW5rKCkgJiYgc2hvd24uaXNFbXB0eSgpKSB7DQogICAgICAgICAgICBpdGVtIHsgSGludCgi6L+Z5Liq562b6YCJ5LiL5pqC5peg5Yqo5oCBIikgfQ0KICAgICAgICB9DQoNCiAgICAgICAgLy8gSHlwZXJDZWlsZXIg57uT5p6E77ya5ZCM5LiA5aSp55qE5Yqo5oCB6KOF6L+b5LiA5byg5a6e5bqV5aSn5Y2h54mH77yM5q+P5p2h5piv5LiA6KGMDQogICAgICAgIC8vIOKaoCBMYXp5TGlzdFNjb3BlIOeahCBjb250ZW50IOS4jeaYryBAQ29tcG9zYWJsZSDkuIrkuIvmlofvvIzov5nph4zkuI3og70gcmVtZW1iZXINCiAgICAgICAgLy8gICDihpIg5YiG57uE5bey57uP5Zyo5LiK6Z2iIHJlbWVtYmVyIOWlveS6hu+8iGdyb3VwZWTvvIkNCiAgICAgICAgZ3JvdXBlZC5mb3JFYWNoIHsgKGRheSwgbGlzdCkgLT4NCiAgICAgICAgICAgIGl0ZW0oa2V5ID0gImRheV8kZGF5IikgeyBTZWN0aW9uTGFiZWwoZGF5KSB9DQogICAgICAgICAgICBpdGVtKGtleSA9ICJncnBfJGRheSIpIHsNCiAgICAgICAgICAgICAgICBIY0dyb3VwIHsNCiAgICAgICAgICAgICAgICAgICAgbGlzdC5mb3JFYWNoSW5kZXhlZCB7IGksIHUgLT4NCiAgICAgICAgICAgICAgICAgICAgICAgIGlmIChpID4gMCkgSGNEaXZpZGVyKHN0YXJ0SW5kZW50ID0gMTYuZHApDQogICAgICAgICAgICAgICAgICAgICAgICBGZWVkUm93KHUpIHsgb25PcGVuVmVyc2lvbih1KSB9DQogICAgICAgICAgICAgICAgICAgIH0NCiAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICB9DQogICAgICAgIH0NCiAgICB9DQp9DQoNCkBDb21wb3NhYmxlDQpwcml2YXRlIGZ1biBGZWVkUm93KHU6IFJvbVVwZGF0ZSwgb25DbGljazogKCkgLT4gVW5pdCkgew0KICAgIHZhbCBjcyA9IE1pdWl4VGhlbWUuY29sb3JTY2hlbWUNCiAgICB2YWwgbGFiZWwgPSBraW5kTGFiZWwodS5raW5kLCB1LmtpbmRaaCwgdS5zdGF0ZSkNCiAgICBSb3coDQogICAgICAgIE1vZGlmaWVyDQogICAgICAgICAgICAuZmlsbE1heFdpZHRoKCkNCiAgICAgICAgICAgIC5jbGlja2FibGUob25DbGljayA9IG9uQ2xpY2spDQogICAgICAgICAgICAucGFkZGluZyhob3Jpem9udGFsID0gMTYuZHAsIHZlcnRpY2FsID0gMTIuZHApLA0KICAgICAgICB2ZXJ0aWNhbEFsaWdubWVudCA9IEFsaWdubWVudC5DZW50ZXJWZXJ0aWNhbGx5LA0KICAgICkgew0KICAgICAgICBDb2x1bW4oTW9kaWZpZXIud2VpZ2h0KDFmKSkgew0KICAgICAgICAgICAgUm93KHZlcnRpY2FsQWxpZ25tZW50ID0gQWxpZ25tZW50LkNlbnRlclZlcnRpY2FsbHkpIHsNCiAgICAgICAgICAgICAgICBUZXh0KA0KICAgICAgICAgICAgICAgICAgICB0ZXh0ID0gdS5kZXZpY2VOYW1lLmlmQmxhbmsgeyB1LmNvZGVuYW1lIH0sDQogICAgICAgICAgICAgICAgICAgIGZvbnRTaXplID0gTWl1aXhUaGVtZS50ZXh0U3R5bGVzLmJvZHkxLmZvbnRTaXplLA0KICAgICAgICAgICAgICAgICAgICBmb250V2VpZ2h0ID0gRm9udFdlaWdodC5NZWRpdW0sDQogICAgICAgICAgICAgICAgICAgIG1heExpbmVzID0gMSwNCiAgICAgICAgICAgICAgICAgICAgb3ZlcmZsb3cgPSBUZXh0T3ZlcmZsb3cuRWxsaXBzaXMsDQogICAgICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIud2VpZ2h0KDFmLCBmaWxsID0gZmFsc2UpLA0KICAgICAgICAgICAgICAgICkNCiAgICAgICAgICAgICAgICBTcGFjZXIoTW9kaWZpZXIud2lkdGgoNi5kcCkpDQogICAgICAgICAgICAgICAgU3RhdGVDaGlwKHN0YXRlID0gdS5zdGF0ZS5pZkJsYW5rIHsgbGFiZWwgfSwgdGV4dE92ZXJyaWRlID0gbGFiZWwpDQogICAgICAgICAgICAgICAgaWYgKHUua2luZCA9PSAicG9ydCIpIHsNCiAgICAgICAgICAgICAgICAgICAgU3BhY2VyKE1vZGlmaWVyLndpZHRoKDQuZHApKQ0KICAgICAgICAgICAgICAgICAgICBTdGF0ZUNoaXAoc3RhdGUgPSAi56e75qSN5YyFIikNCiAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICB9DQoNCiAgICAgICAgICAgIFNwYWNlcihNb2RpZmllci5oZWlnaHQoNi5kcCkpDQogICAgICAgICAgICBSb3codmVydGljYWxBbGlnbm1lbnQgPSBBbGlnbm1lbnQuQ2VudGVyVmVydGljYWxseSkgew0KICAgICAgICAgICAgICAgIFRleHQoDQogICAgICAgICAgICAgICAgICAgIHRleHQgPSB1Lm5ld1ZlcnNpb24uaWZCbGFuayB7IHUub2xkVmVyc2lvbiB9LA0KICAgICAgICAgICAgICAgICAgICBmb250U2l6ZSA9IE1pdWl4VGhlbWUudGV4dFN0eWxlcy5mb290bm90ZTEuZm9udFNpemUsDQogICAgICAgICAgICAgICAgICAgIGNvbG9yID0gY3MucHJpbWFyeSwNCiAgICAgICAgICAgICAgICAgICAgZm9udFdlaWdodCA9IEZvbnRXZWlnaHQuTWVkaXVtLA0KICAgICAgICAgICAgICAgICAgICBtYXhMaW5lcyA9IDEsDQogICAgICAgICAgICAgICAgICAgIG92ZXJmbG93ID0gVGV4dE92ZXJmbG93LkVsbGlwc2lzLA0KICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLndlaWdodCgxZiwgZmlsbCA9IGZhbHNlKSwNCiAgICAgICAgICAgICAgICApDQogICAgICAgICAgICAgICAgU3BhY2VyKE1vZGlmaWVyLndpZHRoKDguZHApKQ0KICAgICAgICAgICAgICAgIFRleHQoDQogICAgICAgICAgICAgICAgICAgIHRleHQgPSBsaXN0T2ZOb3ROdWxsKA0KICAgICAgICAgICAgICAgICAgICAgICAgdS5yZWdpb25aaC50YWtlSWYgeyBpdC5pc05vdEJsYW5rKCkgfSwNCiAgICAgICAgICAgICAgICAgICAgICAgIHUuYnJhbmNoWmgudGFrZUlmIHsgaXQuaXNOb3RCbGFuaygpIH0sDQogICAgICAgICAgICAgICAgICAgICkuam9pblRvU3RyaW5nKCIgwrcgIiksDQogICAgICAgICAgICAgICAgICAgIGZvbnRTaXplID0gTWl1aXhUaGVtZS50ZXh0U3R5bGVzLmZvb3Rub3RlMi5mb250U2l6ZSwNCiAgICAgICAgICAgICAgICAgICAgY29sb3IgPSBjcy5vblN1cmZhY2VWYXJpYW50U3VtbWFyeSwNCiAgICAgICAgICAgICAgICApDQogICAgICAgICAgICB9DQoNCiAgICAgICAgICAgIGlmICh1LmRlc2MuaXNOb3RCbGFuaygpKSB7DQogICAgICAgICAgICAgICAgU3BhY2VyKE1vZGlmaWVyLmhlaWdodCg0LmRwKSkNCiAgICAgICAgICAgICAgICBUZXh0KA0KICAgICAgICAgICAgICAgICAgICB0ZXh0ID0gdS5kZXNjLA0KICAgICAgICAgICAgICAgICAgICBmb250U2l6ZSA9IE1pdWl4VGhlbWUudGV4dFN0eWxlcy5mb290bm90ZTIuZm9udFNpemUsDQogICAgICAgICAgICAgICAgICAgIGNvbG9yID0gY3Mub25TdXJmYWNlVmFyaWFudFN1bW1hcnksDQogICAgICAgICAgICAgICAgICAgIG1heExpbmVzID0gMiwNCiAgICAgICAgICAgICAgICAgICAgb3ZlcmZsb3cgPSBUZXh0T3ZlcmZsb3cuRWxsaXBzaXMsDQogICAgICAgICAgICAgICAgKQ0KICAgICAgICAgICAgfQ0KDQogICAgICAgICAgICBpZiAodS5zdGF0ZVRleHQuaXNOb3RCbGFuaygpKSB7DQogICAgICAgICAgICAgICAgU3BhY2VyKE1vZGlmaWVyLmhlaWdodCg2LmRwKSkNCiAgICAgICAgICAgICAgICBUZXh0KA0KICAgICAgICAgICAgICAgICAgICB0ZXh0ID0gdS5zdGF0ZVRleHQsDQogICAgICAgICAgICAgICAgICAgIGZvbnRTaXplID0gTWl1aXhUaGVtZS50ZXh0U3R5bGVzLmZvb3Rub3RlMi5mb250U2l6ZSwNCiAgICAgICAgICAgICAgICAgICAgY29sb3IgPSBjcy5vblN1cmZhY2VWYXJpYW50U3VtbWFyeSwNCiAgICAgICAgICAgICAgICAgICAgbWF4TGluZXMgPSAyLA0KICAgICAgICAgICAgICAgICAgICBvdmVyZmxvdyA9IFRleHRPdmVyZmxvdy5FbGxpcHNpcywNCiAgICAgICAgICAgICAgICApDQogICAgICAgICAgICB9DQoNCiAgICAgICAgICAgIFNwYWNlcihNb2RpZmllci5oZWlnaHQoNi5kcCkpDQogICAgICAgICAgICBUZXh0KA0KICAgICAgICAgICAgICAgIHRleHQgPSB1LnNob3J0RGF0ZSwNCiAgICAgICAgICAgICAgICBmb250U2l6ZSA9IE1pdWl4VGhlbWUudGV4dFN0eWxlcy5mb290bm90ZTIuZm9udFNpemUsDQogICAgICAgICAgICAgICAgY29sb3IgPSBjcy5vblN1cmZhY2VWYXJpYW50U3VtbWFyeSwNCiAgICAgICAgICAgICkNCiAgICAgICAgfQ0KICAgICAgICBTcGFjZXIoTW9kaWZpZXIud2lkdGgoOC5kcCkpDQogICAgICAgIEljb24oDQogICAgICAgICAgICBNaXVpeEljb25zLkNoZXZyb25Gb3J3YXJkLA0KICAgICAgICAgICAgY29udGVudERlc2NyaXB0aW9uID0gbnVsbCwNCiAgICAgICAgICAgIHRpbnQgPSBjcy5vblN1cmZhY2VWYXJpYW50U3VtbWFyeS5jb3B5KGFscGhhID0gMC41NWYpLA0KICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci5zaXplKDE2LmRwKSwNCiAgICAgICAgKQ0KICAgIH0NCn0NCg==
+package org.linbaogu.romhub.ui.screens
+
+import androidx.compose.foundation.clickable
+import org.linbaogu.romhub.ui.common.HcDivider
+import org.linbaogu.romhub.ui.common.HcGroup
+import top.yukonga.miuix.kmp.icon.extended.ChevronForward
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.PaddingValues
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.lazy.LazyRow
+import androidx.compose.foundation.lazy.items
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextOverflow
+import androidx.compose.ui.unit.Dp
+import androidx.compose.ui.unit.dp
+import kotlinx.coroutines.async
+import kotlinx.coroutines.coroutineScope
+import kotlinx.coroutines.sync.Mutex
+import kotlinx.coroutines.sync.withLock
+import org.linbaogu.romhub.data.Api
+import org.linbaogu.romhub.data.Repo
+import org.linbaogu.romhub.data.RomUpdate
+import org.linbaogu.romhub.ui.common.Chip
+import org.linbaogu.romhub.ui.common.ErrorHint
+import org.linbaogu.romhub.ui.common.Hint
+import org.linbaogu.romhub.ui.common.ListScreen
+import org.linbaogu.romhub.ui.common.SectionLabel
+import org.linbaogu.romhub.ui.common.StateChip
+import org.linbaogu.romhub.ui.common.kindLabel
+import top.yukonga.miuix.kmp.basic.Card
+import top.yukonga.miuix.kmp.basic.Icon
+import top.yukonga.miuix.kmp.basic.IconButton
+import top.yukonga.miuix.kmp.basic.Text
+import top.yukonga.miuix.kmp.icon.MiuixIcons
+import top.yukonga.miuix.kmp.icon.extended.Refresh
+import top.yukonga.miuix.kmp.theme.MiuixTheme
+import org.linbaogu.romhub.ui.common.HyperLoadingInline
+
+private val STATES = listOf("全部", "公开", "内测", "Beta", "撤包")
+
+@Composable
+fun FeedScreen(
+    subtitle: String,
+    bottomInnerPadding: Dp,
+    onSeen: () -> Unit,
+    onOpenVersion: (RomUpdate) -> Unit,
+) {
+    val ctx = LocalContext.current
+    var items by remember { mutableStateOf(Repo.cachedFeed(ctx).items) }
+    var counts by remember { mutableStateOf(emptyMap<String, Int>()) }
+    var loading by remember { mutableStateOf(items.isEmpty()) }
+    var refreshing by remember { mutableStateOf(false) }
+    var error by remember { mutableStateOf("") }
+    var state by remember { mutableStateOf("全部") }
+    var onlyCN by remember { mutableStateOf(false) }
+    var reload by remember { mutableStateOf(0) }
+
+    // 同一时间只允许一个请求在跑：手点刷新、切标签、20 秒自动刷新不会互相撞车，
+    // 也就不会「前一次还没回来后一次又超时」地连环报错。
+    val reqLock = remember { Mutex() }
+
+    LaunchedEffect(state, reload) {
+        // 让切换动画先跑完再干活。
+        // 动态页有两个并发网络请求（列表 + 标签计数）+ 120 条的解析，
+        // 若在 tab 切换的那一帧就发起，会明显拖慢 pager 的转场（用户反馈「卡一下才过去」）。
+        // 这里只是把「开始干活」推迟一小会儿，不改变任何可见状态。
+        kotlinx.coroutines.delay(if (items.isEmpty()) 180 else 0)
+        reqLock.withLock {
+            val firstLoad = items.isEmpty()
+            // ⚠ 只有列表真的空着才整屏转圈；已经有内容时是「静默刷新」，
+            //   列表留在原地，绝不会一闪变空再弹错误。
+            loading = firstLoad
+            refreshing = !firstLoad
+            error = ""
+            runCatching {
+                if (state == "全部") {
+                    // 只拉一次列表（同时写进本地快照），标签计数并行取（那个接口很小）
+                    coroutineScope {
+                        val list = async { Repo.refreshFeed(ctx, limit = 120) }
+                        val cs = async {
+                            runCatching { Api.updateStates(ctx) }.getOrDefault(emptyMap())
+                        }
+                        val resp = list.await()
+                        counts = cs.await()
+                        resp.items
+                    }
+                } else {
+                    val resp = Api.romUpdates(ctx, limit = 120, state = state)
+                    counts = resp.counts
+                    resp.items
+                }
+            }.onSuccess {
+                items = it
+                loading = false
+                refreshing = false
+            }.onFailure {
+                error = it.message ?: "加载失败"
+                loading = false
+                refreshing = false
+            }
+        }
+    }
+
+    // 实时：停在动态页时每 20 秒拉一次，新动态自己冒出来（不用手动刷新）
+    LaunchedEffect(state) {
+        while (true) {
+            kotlinx.coroutines.delay(20_000)
+            if (state != "全部") continue
+            // 后台静默刷新：失败不提示（免得没事就弹一条错误），也不抢正在跑的请求
+            if (!reqLock.isLocked) {
+                runCatching {
+                    val fresh = reqLock.withLock { Repo.refreshFeed(ctx, limit = 120) }.items
+                    if (fresh.firstOrNull()?.id != items.firstOrNull()?.id) items = fresh
+                }
+            }
+        }
+    }
+
+    // 看过了就清小红点
+    LaunchedEffect(items.size) {
+        if (items.isNotEmpty()) onSeen()
+    }
+
+    val shown = remember(items, onlyCN) {
+        if (onlyCN) items.filter { it.region == "cn" } else items
+    }
+
+    // 按日期分组的成本不低（120 条 × 每次重组都要重算 + 重排），
+    // 而它只依赖 shown —— 用 remember 缓存，切 tab / 高频重组时不再重复算。
+    // 这一步是「最右 tab 点动态卡一下」的主要来源之一（pager 切页会触发重组）。
+    val grouped = remember(shown) {
+        shown.groupBy { u -> u.shortDate.substringBefore(' ').ifBlank { u.detectedAt.take(10) } }
+    }
+
+    ListScreen(
+        title = "动态",
+        largeTitle = "动态",
+        subtitle = subtitle,
+        bottomInnerPadding = bottomInnerPadding,
+        contentPadding = PaddingValues(horizontal = 12.dp),
+        actions = {
+            IconButton(onClick = { if (!loading && !refreshing) reload++ }) {
+                Icon(MiuixIcons.Refresh, contentDescription = "刷新")
+            }
+        },
+        bottomContent = {
+            Column(Modifier.padding(bottom = 6.dp)) {
+                LazyRow(
+                    horizontalArrangement = Arrangement.spacedBy(8.dp),
+                    contentPadding = PaddingValues(horizontal = 12.dp),
+                ) {
+                    items(STATES) { s ->
+                        val c = counts[s]
+                        val label = if (s == "全部" || c == null) s else "$s（$c）"
+                        Chip(text = label, selected = s == state, onClick = { state = s })
+                    }
+                }
+                Spacer(Modifier.height(6.dp))
+                LazyRow(
+                    horizontalArrangement = Arrangement.spacedBy(8.dp),
+                    contentPadding = PaddingValues(horizontal = 12.dp),
+                ) {
+                    item {
+                        Chip(text = "只看国行", selected = onlyCN, onClick = { onlyCN = true })
+                    }
+                    item {
+                        Chip(text = "全部地区", selected = !onlyCN, onClick = { onlyCN = false })
+                    }
+                }
+            }
+        },
+    ) {
+        if (loading) item { HyperLoadingInline() }
+        if (refreshing) item { Hint("正在刷新…") }
+        // 出错也只是一条横幅，下面的列表照常显示（不清空、不闪屏）
+        if (error.isNotBlank()) item { ErrorHint(error) { reload++ } }
+        if (!loading && !refreshing && error.isBlank() && shown.isEmpty()) {
+            item { Hint("这个筛选下暂无动态") }
+        }
+
+        // HyperCeiler 结构：同一天的动态装进一张实底大卡片，每条是一行
+        // ⚠ LazyListScope 的 content 不是 @Composable 上下文，这里不能 remember
+        //   → 分组已经在上面 remember 好了（grouped）
+        grouped.forEach { (day, list) ->
+            item(key = "day_$day") { SectionLabel(day) }
+            item(key = "grp_$day") {
+                HcGroup {
+                    list.forEachIndexed { i, u ->
+                        if (i > 0) HcDivider(startIndent = 16.dp)
+                        FeedRow(u) { onOpenVersion(u) }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@Composable
+private fun FeedRow(u: RomUpdate, onClick: () -> Unit) {
+    val cs = MiuixTheme.colorScheme
+    val label = kindLabel(u.kind, u.kindZh, u.state)
+    Row(
+        Modifier
+            .fillMaxWidth()
+            .clickable(onClick = onClick)
+            .padding(horizontal = 16.dp, vertical = 12.dp),
+        verticalAlignment = Alignment.CenterVertically,
+    ) {
+        Column(Modifier.weight(1f)) {
+            Row(verticalAlignment = Alignment.CenterVertically) {
+                Text(
+                    text = u.deviceName.ifBlank { u.codename },
+                    fontSize = MiuixTheme.textStyles.body1.fontSize,
+                    fontWeight = FontWeight.Medium,
+                    maxLines = 1,
+                    overflow = TextOverflow.Ellipsis,
+                    modifier = Modifier.weight(1f, fill = false),
+                )
+                Spacer(Modifier.width(6.dp))
+                StateChip(state = u.state.ifBlank { label }, textOverride = label)
+                if (u.kind == "port") {
+                    Spacer(Modifier.width(4.dp))
+                    StateChip(state = "移植包")
+                }
+            }
+
+            Spacer(Modifier.height(6.dp))
+            Row(verticalAlignment = Alignment.CenterVertically) {
+                Text(
+                    text = u.newVersion.ifBlank { u.oldVersion },
+                    fontSize = MiuixTheme.textStyles.footnote1.fontSize,
+                    color = cs.primary,
+                    fontWeight = FontWeight.Medium,
+                    maxLines = 1,
+                    overflow = TextOverflow.Ellipsis,
+                    modifier = Modifier.weight(1f, fill = false),
+                )
+                Spacer(Modifier.width(8.dp))
+                Text(
+                    text = listOfNotNull(
+                        u.regionZh.takeIf { it.isNotBlank() },
+                        u.branchZh.takeIf { it.isNotBlank() },
+                    ).joinToString(" · "),
+                    fontSize = MiuixTheme.textStyles.footnote2.fontSize,
+                    color = cs.onSurfaceVariantSummary,
+                )
+            }
+
+            if (u.desc.isNotBlank()) {
+                Spacer(Modifier.height(4.dp))
+                Text(
+                    text = u.desc,
+                    fontSize = MiuixTheme.textStyles.footnote2.fontSize,
+                    color = cs.onSurfaceVariantSummary,
+                    maxLines = 2,
+                    overflow = TextOverflow.Ellipsis,
+                )
+            }
+
+            if (u.stateText.isNotBlank()) {
+                Spacer(Modifier.height(6.dp))
+                Text(
+                    text = u.stateText,
+                    fontSize = MiuixTheme.textStyles.footnote2.fontSize,
+                    color = cs.onSurfaceVariantSummary,
+                    maxLines = 2,
+                    overflow = TextOverflow.Ellipsis,
+                )
+            }
+
+            Spacer(Modifier.height(6.dp))
+            Text(
+                text = u.shortDate,
+                fontSize = MiuixTheme.textStyles.footnote2.fontSize,
+                color = cs.onSurfaceVariantSummary,
+            )
+        }
+        Spacer(Modifier.width(8.dp))
+        Icon(
+            MiuixIcons.ChevronForward,
+            contentDescription = null,
+            tint = cs.onSurfaceVariantSummary.copy(alpha = 0.55f),
+            modifier = Modifier.size(16.dp),
+        )
+    }
+}

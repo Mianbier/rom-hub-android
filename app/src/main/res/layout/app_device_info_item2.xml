@@ -1,1 +1,118 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPExpbmVhckxheW91dCB4bWxuczphbmRyb2lkPSJodHRwOi8vc2NoZW1hcy5hbmRyb2lkLmNvbS9hcGsvcmVzL2FuZHJvaWQiCiAgICBhbmRyb2lkOmxheW91dF93aWR0aD0ibWF0Y2hfcGFyZW50IgogICAgYW5kcm9pZDpsYXlvdXRfaGVpZ2h0PSJ3cmFwX2NvbnRlbnQiCiAgICBhbmRyb2lkOm9yaWVudGF0aW9uPSJ2ZXJ0aWNhbCIKICAgIGFuZHJvaWQ6bGF5b3V0X21hcmdpblN0YXJ0PSJAZGltZW4vY2FyZF9tYXJnaW5fZWRnZSIKICAgIGFuZHJvaWQ6bGF5b3V0X21hcmdpbkVuZD0iQGRpbWVuL2NhcmRfbWFyZ2luX2VkZ2UiCiAgICBhbmRyb2lkOnBhZGRpbmdCb3R0b209IjEwZHAiCiAgICBhbmRyb2lkOmJhY2tncm91bmQ9IkBkcmF3YWJsZS9hcHBfZGV2aWNlX2NhcmRfYmFja2dyb3VuZCI+CgogICAgPFRleHRWaWV3CiAgICAgICAgYW5kcm9pZDppZD0iQCtpZC9kZXZpY2VfbmFtZSIKICAgICAgICBhbmRyb2lkOmxheW91dF93aWR0aD0id3JhcF9jb250ZW50IgogICAgICAgIGFuZHJvaWQ6bGF5b3V0X2hlaWdodD0id3JhcF9jb250ZW50IgogICAgICAgIGFuZHJvaWQ6bGF5b3V0X21hcmdpbkhvcml6b250YWw9IjE4ZHAiCiAgICAgICAgYW5kcm9pZDpwYWRkaW5nVmVydGljYWw9IjIwZHAiCiAgICAgICAgYW5kcm9pZDp0ZXh0QXBwZWFyYW5jZT0iQHN0eWxlL1RleHRBcHBlYXJhbmNlLlByZWZlcmVuY2VMaXN0IgogICAgICAgIGFuZHJvaWQ6dGV4dENvbG9yPSJAY29sb3IvdGV4dHZpZXdfYmxhY2tfdGl0bGUiCiAgICAgICAgYW5kcm9pZDp0ZXh0U2l6ZT0iMjRzcCIKICAgICAgICBhbmRyb2lkOnRleHQ9Ikh5cGVyQ2VpbGVyIFVzZXIncyBEZXZpY2UiLz4KCiAgICA8TGluZWFyTGF5b3V0CiAgICAgICAgYW5kcm9pZDppZD0iQCtpZC9pbmZvX2RldmljZSIKICAgICAgICBhbmRyb2lkOmxheW91dF93aWR0aD0id3JhcF9jb250ZW50IgogICAgICAgIGFuZHJvaWQ6bGF5b3V0X2hlaWdodD0id3JhcF9jb250ZW50IgogICAgICAgIGFuZHJvaWQ6cGFkZGluZ1RvcD0iNGRwIgogICAgICAgIGFuZHJvaWQ6cGFkZGluZ0JvdHRvbT0iMTBkcCIKICAgICAgICBhbmRyb2lkOm9yaWVudGF0aW9uPSJ2ZXJ0aWNhbCI+CgogICAgICAgIDxUZXh0VmlldwogICAgICAgICAgICBhbmRyb2lkOmlkPSJAK2lkL2RldmljZV9pbmZvX2RldmljZV90aXRsZSIKICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfd2lkdGg9IndyYXBfY29udGVudCIKICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfaGVpZ2h0PSJ3cmFwX2NvbnRlbnQiCiAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X21hcmdpblN0YXJ0PSIxOGRwIgogICAgICAgICAgICBhbmRyb2lkOmxheW91dF9tYXJnaW5FbmQ9IjE4ZHAiCiAgICAgICAgICAgIGFuZHJvaWQ6dGV4dEFwcGVhcmFuY2U9IkBzdHlsZS9UZXh0QXBwZWFyYW5jZS5QcmVmZXJlbmNlTGlzdCIKICAgICAgICAgICAgYW5kcm9pZDp0ZXh0Q29sb3I9IkBjb2xvci90ZXh0dmlld19ibGFja190aXRsZSIKICAgICAgICAgICAgYW5kcm9pZDp0ZXh0U2l6ZT0iMTRkcCIKICAgICAgICAgICAgYW5kcm9pZDp0ZXh0PSJIeXBlckNlaWxlciBEZXZpY2UiLz4KCiAgICAgICAgPFRleHRWaWV3CiAgICAgICAgICAgIGFuZHJvaWQ6aWQ9IkAraWQvZGV2aWNlX2luZm9fZGV2aWNlX3N1bW1hcnkiCiAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X3dpZHRoPSJ3cmFwX2NvbnRlbnQiCiAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X2hlaWdodD0id3JhcF9jb250ZW50IgogICAgICAgICAgICBhbmRyb2lkOmxheW91dF9tYXJnaW5TdGFydD0iMThkcCIKICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfbWFyZ2luRW5kPSIxOGRwIgogICAgICAgICAgICBhbmRyb2lkOnRleHRBcHBlYXJhbmNlPSJAc3R5bGUvVGV4dEFwcGVhcmFuY2UuUHJlZmVyZW5jZUxpc3QuU2Vjb25kYXJ5IgogICAgICAgICAgICBhbmRyb2lkOnRleHRDb2xvcj0iQGNvbG9yL3RleHR2aWV3X2JsYWNrX3N1bW1hcnkiCiAgICAgICAgICAgIGFuZHJvaWQ6dGV4dFNpemU9IjExZHAiCiAgICAgICAgICAgIGFuZHJvaWQ6dGV4dD0iQHN0cmluZy9hYm91dF9kZXZpY2VfaW5mb19kZXZpY2UiLz4KCiAgICA8L0xpbmVhckxheW91dD4KCiAgICA8TGluZWFyTGF5b3V0CiAgICAgICAgYW5kcm9pZDppZD0iQCtpZC9kZXZpY2VfaW5mb19hbmRyb2lkIgogICAgICAgIGFuZHJvaWQ6bGF5b3V0X3dpZHRoPSJ3cmFwX2NvbnRlbnQiCiAgICAgICAgYW5kcm9pZDpsYXlvdXRfaGVpZ2h0PSJ3cmFwX2NvbnRlbnQiCiAgICAgICAgYW5kcm9pZDpwYWRkaW5nVG9wPSI0ZHAiCiAgICAgICAgYW5kcm9pZDpwYWRkaW5nQm90dG9tPSIxMGRwIgogICAgICAgIGFuZHJvaWQ6b3JpZW50YXRpb249InZlcnRpY2FsIj4KCiAgICAgICAgPFRleHRWaWV3CiAgICAgICAgICAgIGFuZHJvaWQ6aWQ9IkAraWQvZGV2aWNlX2luZm9fYW5kcm9pZF90aXRsZSIKICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfd2lkdGg9IndyYXBfY29udGVudCIKICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfaGVpZ2h0PSJ3cmFwX2NvbnRlbnQiCiAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X21hcmdpblN0YXJ0PSIxOGRwIgogICAgICAgICAgICBhbmRyb2lkOmxheW91dF9tYXJnaW5FbmQ9IjE4ZHAiCiAgICAgICAgICAgIGFuZHJvaWQ6dGV4dEFwcGVhcmFuY2U9IkBzdHlsZS9UZXh0QXBwZWFyYW5jZS5QcmVmZXJlbmNlTGlzdCIKICAgICAgICAgICAgYW5kcm9pZDp0ZXh0Q29sb3I9IkBjb2xvci90ZXh0dmlld19ibGFja190aXRsZSIKICAgICAgICAgICAgYW5kcm9pZDp0ZXh0U2l6ZT0iMTRkcCIKICAgICAgICAgICAgYW5kcm9pZDp0ZXh0PSIxNiIvPgoKICAgICAgICA8VGV4dFZpZXcKICAgICAgICAgICAgYW5kcm9pZDppZD0iQCtpZC9kZXZpY2VfaW5mb19hbmRyb2lkX3N1bW1hcnkiCiAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X3dpZHRoPSJ3cmFwX2NvbnRlbnQiCiAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X2hlaWdodD0id3JhcF9jb250ZW50IgogICAgICAgICAgICBhbmRyb2lkOmxheW91dF9tYXJnaW5TdGFydD0iMThkcCIKICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfbWFyZ2luRW5kPSIxOGRwIgogICAgICAgICAgICBhbmRyb2lkOnRleHRBcHBlYXJhbmNlPSJAc3R5bGUvVGV4dEFwcGVhcmFuY2UuUHJlZmVyZW5jZUxpc3QuU2Vjb25kYXJ5IgogICAgICAgICAgICBhbmRyb2lkOnRleHRDb2xvcj0iQGNvbG9yL3RleHR2aWV3X2JsYWNrX3N1bW1hcnkiCiAgICAgICAgICAgIGFuZHJvaWQ6dGV4dFNpemU9IjExZHAiCiAgICAgICAgICAgIGFuZHJvaWQ6dGV4dD0iQHN0cmluZy9hYm91dF9kZXZpY2VfaW5mb19hbmRyb2lkIi8+CgogICAgPC9MaW5lYXJMYXlvdXQ+CgogICAgPExpbmVhckxheW91dAogICAgICAgIGFuZHJvaWQ6aWQ9IkAraWQvZGV2aWNlX2luZm9fb3MiCiAgICAgICAgYW5kcm9pZDpsYXlvdXRfd2lkdGg9IndyYXBfY29udGVudCIKICAgICAgICBhbmRyb2lkOmxheW91dF9oZWlnaHQ9IndyYXBfY29udGVudCIKICAgICAgICBhbmRyb2lkOnBhZGRpbmdUb3A9IjRkcCIKICAgICAgICBhbmRyb2lkOnBhZGRpbmdCb3R0b209IjEwZHAiCiAgICAgICAgYW5kcm9pZDpvcmllbnRhdGlvbj0idmVydGljYWwiPgoKICAgICAgICA8VGV4dFZpZXcKICAgICAgICAgICAgYW5kcm9pZDppZD0iQCtpZC9kZXZpY2VfaW5mb19vc190aXRsZSIKICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfd2lkdGg9IndyYXBfY29udGVudCIKICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfaGVpZ2h0PSJ3cmFwX2NvbnRlbnQiCiAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X21hcmdpblN0YXJ0PSIxOGRwIgogICAgICAgICAgICBhbmRyb2lkOmxheW91dF9tYXJnaW5FbmQ9IjE4ZHAiCiAgICAgICAgICAgIGFuZHJvaWQ6dGV4dEFwcGVhcmFuY2U9IkBzdHlsZS9UZXh0QXBwZWFyYW5jZS5QcmVmZXJlbmNlTGlzdCIKICAgICAgICAgICAgYW5kcm9pZDp0ZXh0Q29sb3I9IkBjb2xvci90ZXh0dmlld19ibGFja190aXRsZSIKICAgICAgICAgICAgYW5kcm9pZDp0ZXh0U2l6ZT0iMTRkcCIKICAgICAgICAgICAgYW5kcm9pZDp0ZXh0PSJPUzIuMC4xLjAuVU5CQ05YTSIvPgoKICAgICAgICA8VGV4dFZpZXcKICAgICAgICAgICAgYW5kcm9pZDppZD0iQCtpZC9kZXZpY2VfaW5mb19vc19zdW1tYXJ5IgogICAgICAgICAgICBhbmRyb2lkOmxheW91dF93aWR0aD0id3JhcF9jb250ZW50IgogICAgICAgICAgICBhbmRyb2lkOmxheW91dF9oZWlnaHQ9IndyYXBfY29udGVudCIKICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfbWFyZ2luU3RhcnQ9IjE4ZHAiCiAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X21hcmdpbkVuZD0iMThkcCIKICAgICAgICAgICAgYW5kcm9pZDp0ZXh0QXBwZWFyYW5jZT0iQHN0eWxlL1RleHRBcHBlYXJhbmNlLlByZWZlcmVuY2VMaXN0LlNlY29uZGFyeSIKICAgICAgICAgICAgYW5kcm9pZDp0ZXh0Q29sb3I9IkBjb2xvci90ZXh0dmlld19ibGFja19zdW1tYXJ5IgogICAgICAgICAgICBhbmRyb2lkOnRleHRTaXplPSIxMWRwIgogICAgICAgICAgICBhbmRyb2lkOnRleHQ9IkBzdHJpbmcvYWJvdXRfZGV2aWNlX2luZm9fb3MiLz4KCiAgICA8L0xpbmVhckxheW91dD4KCjwvTGluZWFyTGF5b3V0Pg==
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginStart="@dimen/card_margin_edge"
+    android:layout_marginEnd="@dimen/card_margin_edge"
+    android:paddingBottom="10dp"
+    android:background="@drawable/app_device_card_background">
+
+    <TextView
+        android:id="@+id/device_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="18dp"
+        android:paddingVertical="20dp"
+        android:textAppearance="@style/TextAppearance.PreferenceList"
+        android:textColor="@color/textview_black_title"
+        android:textSize="24sp"
+        android:text="HyperCeiler User's Device"/>
+
+    <LinearLayout
+        android:id="@+id/info_device"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="4dp"
+        android:paddingBottom="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/device_info_device_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="18dp"
+            android:layout_marginEnd="18dp"
+            android:textAppearance="@style/TextAppearance.PreferenceList"
+            android:textColor="@color/textview_black_title"
+            android:textSize="14dp"
+            android:text="HyperCeiler Device"/>
+
+        <TextView
+            android:id="@+id/device_info_device_summary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="18dp"
+            android:layout_marginEnd="18dp"
+            android:textAppearance="@style/TextAppearance.PreferenceList.Secondary"
+            android:textColor="@color/textview_black_summary"
+            android:textSize="11dp"
+            android:text="@string/about_device_info_device"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/device_info_android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="4dp"
+        android:paddingBottom="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/device_info_android_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="18dp"
+            android:layout_marginEnd="18dp"
+            android:textAppearance="@style/TextAppearance.PreferenceList"
+            android:textColor="@color/textview_black_title"
+            android:textSize="14dp"
+            android:text="16"/>
+
+        <TextView
+            android:id="@+id/device_info_android_summary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="18dp"
+            android:layout_marginEnd="18dp"
+            android:textAppearance="@style/TextAppearance.PreferenceList.Secondary"
+            android:textColor="@color/textview_black_summary"
+            android:textSize="11dp"
+            android:text="@string/about_device_info_android"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/device_info_os"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="4dp"
+        android:paddingBottom="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/device_info_os_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="18dp"
+            android:layout_marginEnd="18dp"
+            android:textAppearance="@style/TextAppearance.PreferenceList"
+            android:textColor="@color/textview_black_title"
+            android:textSize="14dp"
+            android:text="OS2.0.1.0.UNBCNXM"/>
+
+        <TextView
+            android:id="@+id/device_info_os_summary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="18dp"
+            android:layout_marginEnd="18dp"
+            android:textAppearance="@style/TextAppearance.PreferenceList.Secondary"
+            android:textColor="@color/textview_black_summary"
+            android:textSize="11dp"
+            android:text="@string/about_device_info_os"/>
+
+    </LinearLayout>
+
+</LinearLayout>

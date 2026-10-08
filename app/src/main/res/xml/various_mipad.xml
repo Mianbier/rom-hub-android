@@ -1,1 +1,59 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IS0tCiAgfiBUaGlzIGZpbGUgaXMgcGFydCBvZiBIeXBlckNlaWxlci4KICB+CiAgfiBIeXBlckNlaWxlciBpcyBmcmVlIHNvZnR3YXJlOiB5b3UgY2FuIHJlZGlzdHJpYnV0ZSBpdCBhbmQvb3IgbW9kaWZ5CiAgfiBpdCB1bmRlciB0aGUgdGVybXMgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBhcwogIH4gcHVibGlzaGVkIGJ5IHRoZSBGcmVlIFNvZnR3YXJlIEZvdW5kYXRpb24sIGVpdGhlciB2ZXJzaW9uIDMgb2YgdGhlCiAgfiBMaWNlbnNlLgogIH4KICB+IFRoaXMgcHJvZ3JhbSBpcyBkaXN0cmlidXRlZCBpbiB0aGUgaG9wZSB0aGF0IGl0IHdpbGwgYmUgdXNlZnVsLAogIH4gYnV0IFdJVEhPVVQgQU5ZIFdBUlJBTlRZOyB3aXRob3V0IGV2ZW4gdGhlIGltcGxpZWQgd2FycmFudHkgb2YKICB+IE1FUkNIQU5UQUJJTElUWSBvciBGSVRORVNTIEZPUiBBIFBBUlRJQ1VMQVIgUFVSUE9TRS4gIFNlZSB0aGUKICB+IEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBmb3IgbW9yZSBkZXRhaWxzLgogIH4KICB+IFlvdSBzaG91bGQgaGF2ZSByZWNlaXZlZCBhIGNvcHkgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZQogIH4gYWxvbmcgd2l0aCB0aGlzIHByb2dyYW0uICBJZiBub3QsIHNlZSA8aHR0cHM6Ly93d3cuZ251Lm9yZy9saWNlbnNlcy8+LgogIH4KICB+IENvcHlyaWdodCAoQykgMjAyMy0yMDI2IEh5cGVyQ2VpbGVyIENvbnRyaWJ1dGlvbnMKICAtLT4KPFByZWZlcmVuY2VTY3JlZW4geG1sbnM6YW5kcm9pZD0iaHR0cDovL3NjaGVtYXMuYW5kcm9pZC5jb20vYXBrL3Jlcy9hbmRyb2lkIgogICAgeG1sbnM6YXBwPSJodHRwOi8vc2NoZW1hcy5hbmRyb2lkLmNvbS9hcGsvcmVzLWF1dG8iCiAgICBhcHA6bXlMb2NhdGlvbj0iQHN0cmluZy92YXJpb3VzX21pcGFkX3RpdGxlIgogICAgYXBwOnF1aWNrX3Jlc3RhcnQ9InN5c3RlbSI+CiAgICA8UHJlZmVyZW5jZUNhdGVnb3J5IGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvdmFyaW91c19taXBhZF9pbnB1dF90aXRsZSI+CiAgICAgICAgPFN3aXRjaFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iQHN0cmluZy92YXJpb3VzX21pcGFkX2lucHV0X3Jlc3RvcmVfZXNjX3RpdGxlIgogICAgICAgICAgICBhbmRyb2lkOnN1bW1hcnk9IkBzdHJpbmcvdmFyaW91c19taXBhZF9pbnB1dF9yZXN0b3JlX2VzY19kZXNjIgogICAgICAgICAgICBhbmRyb2lkOmtleT0icHJlZnNfa2V5X21pcGFkX2lucHV0X3Jlc3RvcmVfZXNjIgogICAgICAgICAgICBhbmRyb2lkOmRlZmF1bHRWYWx1ZT0iZmFsc2UiIC8+CgogICAgICAgIDxTd2l0Y2hQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvdmFyaW91c19taXBhZF9pbnB1dF9pbmdvcmVfZ2VzdHVyZV90aXRsZSIKICAgICAgICAgICAgYW5kcm9pZDpzdW1tYXJ5PSJAc3RyaW5nL3ZhcmlvdXNfbWlwYWRfaW5wdXRfaW5nb3JlX2dlc3R1cmVfZGVzYyIKICAgICAgICAgICAgYW5kcm9pZDprZXk9InByZWZzX2tleV9taXBhZF9pbnB1dF9pbmdvcmVfZ2VzdHVyZSIKICAgICAgICAgICAgYW5kcm9pZDpkZWZhdWx0VmFsdWU9ImZhbHNlIiAvPgoKICAgICAgICA8U3dpdGNoUHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJAc3RyaW5nL3ZhcmlvdXNfbWlwYWRfaW5wdXRfbmVlZF9maW5nZXJfbnVtX3RpdGxlIgogICAgICAgICAgICBhbmRyb2lkOnN1bW1hcnk9IkBzdHJpbmcvdmFyaW91c19taXBhZF9pbnB1dF9uZWVkX2Zpbmdlcl9udW1fZGVzYyIKICAgICAgICAgICAgYW5kcm9pZDprZXk9InByZWZzX2tleV9taXBhZF9pbnB1dF9uZWVkX2Zpbmdlcl9udW0iCiAgICAgICAgICAgIGFuZHJvaWQ6ZGVmYXVsdFZhbHVlPSJmYWxzZSIgLz4KCiAgICAgICAgPFN3aXRjaFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iQHN0cmluZy92YXJpb3VzX21pcGFkX2lucHV0X2Rpc2FibGVfYmx1ZXRvb3RoX3RpdGxlIgogICAgICAgICAgICBhbmRyb2lkOnN1bW1hcnk9IkBzdHJpbmcvdmFyaW91c19taXBhZF9pbnB1dF9kaXNhYmxlX2JsdWV0b290aF9kZXNjIgogICAgICAgICAgICBhbmRyb2lkOmtleT0icHJlZnNfa2V5X21pcGFkX2lucHV0X2Rpc2FibGVfYmx1ZXRvb3RoX25ldyIKICAgICAgICAgICAgYW5kcm9pZDpkZWZhdWx0VmFsdWU9ImZhbHNlIiAvPgoKICAgICAgICA8ZmFuLnByZWZlcmVuY2UuRHJvcERvd25QcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6a2V5PSJwcmVmc19rZXlfbWlwYWRfaW5wdXRfYmx1ZXRvb3RoX3ZlcnNpb24iCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvdmFyaW91c19taXBhZF9pbnB1dF9ibHVldG9vdGhfdmVyc2lvbl90aXRsZSIKICAgICAgICAgICAgYW5kcm9pZDpzdW1tYXJ5PSJAc3RyaW5nL3ZhcmlvdXNfbWlwYWRfaW5wdXRfYmx1ZXRvb3RoX3ZlcnNpb25fZGVzYyIKICAgICAgICAgICAgYW5kcm9pZDpkZWZhdWx0VmFsdWU9IjIiCiAgICAgICAgICAgIGFuZHJvaWQ6ZGVwZW5kZW5jeT0icHJlZnNfa2V5X21pcGFkX2lucHV0X2Rpc2FibGVfYmx1ZXRvb3RoX25ldyIKICAgICAgICAgICAgYXBwOmVudHJpZXM9IkBhcnJheS9taXBhZF9pbnB1dF9ibHVldG9vdGhfdmVyc2lvbiIKICAgICAgICAgICAgYXBwOmVudHJ5VmFsdWVzPSJAYXJyYXkvbWlwYWRfaW5wdXRfYmx1ZXRvb3RoX3ZlcnNpb25fdmFsdWUiIC8+CgogICAgPC9QcmVmZXJlbmNlQ2F0ZWdvcnk+Cgo8L1ByZWZlcmVuY2VTY3JlZW4+
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ This file is part of HyperCeiler.
+  ~
+  ~ HyperCeiler is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU Affero General Public License as
+  ~ published by the Free Software Foundation, either version 3 of the
+  ~ License.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU Affero General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU Affero General Public License
+  ~ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+  ~
+  ~ Copyright (C) 2023-2026 HyperCeiler Contributions
+  -->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:myLocation="@string/various_mipad_title"
+    app:quick_restart="system">
+    <PreferenceCategory android:title="@string/various_mipad_input_title">
+        <SwitchPreference
+            android:title="@string/various_mipad_input_restore_esc_title"
+            android:summary="@string/various_mipad_input_restore_esc_desc"
+            android:key="prefs_key_mipad_input_restore_esc"
+            android:defaultValue="false" />
+
+        <SwitchPreference
+            android:title="@string/various_mipad_input_ingore_gesture_title"
+            android:summary="@string/various_mipad_input_ingore_gesture_desc"
+            android:key="prefs_key_mipad_input_ingore_gesture"
+            android:defaultValue="false" />
+
+        <SwitchPreference
+            android:title="@string/various_mipad_input_need_finger_num_title"
+            android:summary="@string/various_mipad_input_need_finger_num_desc"
+            android:key="prefs_key_mipad_input_need_finger_num"
+            android:defaultValue="false" />
+
+        <SwitchPreference
+            android:title="@string/various_mipad_input_disable_bluetooth_title"
+            android:summary="@string/various_mipad_input_disable_bluetooth_desc"
+            android:key="prefs_key_mipad_input_disable_bluetooth_new"
+            android:defaultValue="false" />
+
+        <fan.preference.DropDownPreference
+            android:key="prefs_key_mipad_input_bluetooth_version"
+            android:title="@string/various_mipad_input_bluetooth_version_title"
+            android:summary="@string/various_mipad_input_bluetooth_version_desc"
+            android:defaultValue="2"
+            android:dependency="prefs_key_mipad_input_disable_bluetooth_new"
+            app:entries="@array/mipad_input_bluetooth_version"
+            app:entryValues="@array/mipad_input_bluetooth_version_value" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,1 +1,269 @@
-cGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLnVpLnNjcmVlbnMNCg0KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5jbGlja2FibGUNCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LkFycmFuZ2VtZW50DQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5Db2x1bW4NCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LlBhZGRpbmdWYWx1ZXMNCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LlJvdw0KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuU3BhY2VyDQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5maWxsTWF4V2lkdGgNCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LmhlaWdodA0KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQucGFkZGluZw0KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuc2l6ZQ0KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5Db21wb3NhYmxlDQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLmdldFZhbHVlDQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLm11dGFibGVTdGF0ZU9mDQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLnJlbWVtYmVyDQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLnNldFZhbHVlDQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5BbGlnbm1lbnQNCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLk1vZGlmaWVyDQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5wbGF0Zm9ybS5Mb2NhbENvbnRleHQNCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnVuaXQuRHANCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnVuaXQuZHANCmltcG9ydCBvcmcubGluYmFvZ3Uucm9taHViLkJ1aWxkQ29uZmlnDQppbXBvcnQgb3JnLmxpbmJhb2d1LnJvbWh1Yi5jb3JlLlByZWZzDQppbXBvcnQgb3JnLmxpbmJhb2d1LnJvbWh1Yi5jb3JlLlJvbGUNCmltcG9ydCBvcmcubGluYmFvZ3Uucm9taHViLmhjLkhjTmF2U3RhdGUNCmltcG9ydCBvcmcubGluYmFvZ3Uucm9taHViLm5vdGlmeS5Ob3RpZnlTY2hlZHVsZXINCmltcG9ydCBvcmcubGluYmFvZ3Uucm9taHViLnVpLkFwcFZpZXdNb2RlbA0KaW1wb3J0IG9yZy5saW5iYW9ndS5yb21odWIudWkuY29tbW9uLkhjRGl2aWRlcg0KaW1wb3J0IG9yZy5saW5iYW9ndS5yb21odWIudWkuY29tbW9uLkhjR3JvdXANCmltcG9ydCBvcmcubGluYmFvZ3Uucm9taHViLnVpLmNvbW1vbi5MaXN0U2NyZWVuDQppbXBvcnQgb3JnLmxpbmJhb2d1LnJvbWh1Yi51aS5jb21tb24uU2VjdGlvbkxhYmVsDQppbXBvcnQgdG9wLnl1a29uZ2EubWl1aXgua21wLmJhc2ljLlRleHQNCmltcG9ydCB0b3AueXVrb25nYS5taXVpeC5rbXAuYmFzaWMuVGV4dEJ1dHRvbg0KaW1wb3J0IHRvcC55dWtvbmdhLm1pdWl4LmttcC50aGVtZS5NaXVpeFRoZW1lDQoNCi8qKg0KICog44CM6K6+572u44CNdGFiIOKAlOKAlCDlrozlhajmjIkgSHlwZXJDZWlsZXIg55qE6K6+572u6aG157uT5p6E77yaKirliIbnu4TmoIfpopggKyDkuIDlvKDlrp7lupXljaHniYfoo4Xoi6XlubLooYwqKu+8jA0KICog6KGM5LiO6KGM5LmL6Ze05LiA5p2h57uG5YiG5Ymy57q/77yM5Y+z5L6n5piv5byA5YWzIC8g566t5aS0IC8g5YC844CCDQogKg0KICog4pqg77iPIOi/memHjCoq5LiN5YaN5L2/55SoKiogYE92ZXJsYXlEaWFsb2dg77ya5a6D5bGe5LqOIE1pdWl4IOeahCBwb3B1cCDkvZPns7vvvIzpnIDopoHmjILlnKjlpJblsYINCiAqIGBTY2FmZm9sZGAg55qEIGBwb3B1cEhvc3RgIOmHjO+8m+S5i+WJjeebtOaOpeW9k+aZrumAmiBDb21wb3NhYmxlIOaUvuWcqOWIl+ihqOWQjOe6p++8jA0KICog54K55Ye744CM6YeN572u6K6+572u44CN5pe25a6/5Li75om+5LiN5YiwIOKGkiDnm7TmjqXpl6rpgIDjgILnjrDlnKjmlLnmiJAqKuihjOWGheS6jOasoeehruiupCoqDQogKiDvvIjngrnkuIDkuIvlsZXlvIDjgIznoa7lrpogLyDlj5bmtojjgI3vvInvvIzpm7bkvp3otZbjgIHkuI3kvJrlho3ltKnjgIINCiAqLw0KQENvbXBvc2FibGUNCmZ1biBIY1NldHRpbmdzUGFnZSgNCiAgICB2bTogQXBwVmlld01vZGVsLA0KICAgIGJvdHRvbUlubmVyUGFkZGluZzogRHAsDQopIHsNCiAgICB2YWwgY3R4ID0gTG9jYWxDb250ZXh0LmN1cnJlbnQNCiAgICB2YXIgbm90aWZ5T24gYnkgcmVtZW1iZXIgeyBtdXRhYmxlU3RhdGVPZihQcmVmcy5ub3RpZnlFbmFibGVkKGN0eCkpIH0NCiAgICB2YXIgbm90aWZ5T2ZmaWNpYWwgYnkgcmVtZW1iZXIgeyBtdXRhYmxlU3RhdGVPZihQcmVmcy5ub3RpZnlPZmZpY2lhbChjdHgpKSB9DQogICAgdmFyIG5vdGlmeVBvcnRzIGJ5IHJlbWVtYmVyIHsgbXV0YWJsZVN0YXRlT2YoUHJlZnMubm90aWZ5UG9ydHMoY3R4KSkgfQ0KICAgIC8vIOKaoCDlv4XpobvnlKggbXV0YWJsZVN0YXRlT2Yg5a2Y5LiA5Lu977ya55u05o6l5YaZIGBjaGVja2VkID0gUHJlZnMuZG93bmxvYWRCYXR0ZXJ5TGltaXQoY3R4KWANCiAgICAvLyAgIOivu+eahOaYr+aZrumAmiBTaGFyZWRQcmVmZXJlbmNlc++8jCoq5LiN5pivIENvbXBvc2Ug54q25oCBKiog4oaSIOWIh+aNouWQjuS4jeS8mumHjee7hO+8jA0KICAgIC8vICAg5byA5YWz56uL5Yi75by55Zue5Y6f54q277yI55So5oi35oql44CM55yB5rWB5qih5byP55qE5byA5YWz5peg5rOV5omT5byA44CN77yJ44CCDQogICAgdmFyIGJhdHRlcnlMaW1pdCBieSByZW1lbWJlciB7IG11dGFibGVTdGF0ZU9mKFByZWZzLmRvd25sb2FkQmF0dGVyeUxpbWl0KGN0eCkpIH0NCiAgICB2YXIgY29uZmlybVJlc2V0IGJ5IHJlbWVtYmVyIHsgbXV0YWJsZVN0YXRlT2YoZmFsc2UpIH0NCg0KICAgIExpc3RTY3JlZW4oDQogICAgICAgIHRpdGxlID0gIuiuvue9riIsDQogICAgICAgIGxhcmdlVGl0bGUgPSAi6K6+572uIiwNCiAgICAgICAgc3VidGl0bGUgPSAiSHlwZXJSb21odWIgJHtCdWlsZENvbmZpZy5WRVJTSU9OX05BTUV9IiwNCiAgICAgICAgYm90dG9tSW5uZXJQYWRkaW5nID0gYm90dG9tSW5uZXJQYWRkaW5nLA0KICAgICAgICBjb250ZW50UGFkZGluZyA9IFBhZGRpbmdWYWx1ZXMoaG9yaXpvbnRhbCA9IDEyLmRwKSwNCiAgICApIHsNCiAgICAgICAgLy8g4pSA4pSAIOmAmuefpSDilIDilIANCiAgICAgICAgaXRlbSB7IFNlY3Rpb25MYWJlbCgi6YCa55+lIikgfQ0KICAgICAgICBpdGVtIHsNCiAgICAgICAgICAgIEhjR3JvdXAgew0KICAgICAgICAgICAgICAgIEhjU3dpdGNoUm93KA0KICAgICAgICAgICAgICAgICAgICB0aXRsZSA9ICLlvIDlkK/mm7TmlrDmj5DphpIiLA0KICAgICAgICAgICAgICAgICAgICBzdW1tYXJ5ID0gIuWFs+mXreWQjuS4jeWGjeaOqOmAgeS7u+S9lemAmuefpSIsDQogICAgICAgICAgICAgICAgICAgIGNoZWNrZWQgPSBub3RpZnlPbiwNCiAgICAgICAgICAgICAgICApIHsNCiAgICAgICAgICAgICAgICAgICAgbm90aWZ5T24gPSBpdA0KICAgICAgICAgICAgICAgICAgICBQcmVmcy5zZXROb3RpZnlFbmFibGVkKGN0eCwgaXQpDQogICAgICAgICAgICAgICAgICAgIGlmIChpdCkgTm90aWZ5U2NoZWR1bGVyLnNjaGVkdWxlKGN0eCkgZWxzZSBOb3RpZnlTY2hlZHVsZXIuY2FuY2VsKGN0eCkNCiAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICAgICAgSGNEaXZpZGVyKCkNCiAgICAgICAgICAgICAgICBIY1N3aXRjaFJvdygNCiAgICAgICAgICAgICAgICAgICAgdGl0bGUgPSAi5a6Y5pa55YyF5pu05pawIiwNCiAgICAgICAgICAgICAgICAgICAgc3VtbWFyeSA9ICLnqLPlrprniYggLyDlvIDlj5HniYggLyDlhoXmtYsgLyBCZXRhIOeahOaWsOeJiOacrCIsDQogICAgICAgICAgICAgICAgICAgIGNoZWNrZWQgPSBub3RpZnlPZmZpY2lhbCwNCiAgICAgICAgICAgICAgICAgICAgZW5hYmxlZCA9IG5vdGlmeU9uLA0KICAgICAgICAgICAgICAgICkgeyBub3RpZnlPZmZpY2lhbCA9IGl0OyBQcmVmcy5zZXROb3RpZnlPZmZpY2lhbChjdHgsIGl0KSB9DQogICAgICAgICAgICAgICAgSGNEaXZpZGVyKCkNCiAgICAgICAgICAgICAgICBIY1N3aXRjaFJvdygNCiAgICAgICAgICAgICAgICAgICAgdGl0bGUgPSAi56e75qSN5YyF5pu05pawIiwNCiAgICAgICAgICAgICAgICAgICAgc3VtbWFyeSA9ICLorqLpmIXmnLrlnovmnInmlrDmj5DkuqTnmoTnpL7ljLrnp7vmpI3ljIUiLA0KICAgICAgICAgICAgICAgICAgICBjaGVja2VkID0gbm90aWZ5UG9ydHMsDQogICAgICAgICAgICAgICAgICAgIGVuYWJsZWQgPSBub3RpZnlPbiwNCiAgICAgICAgICAgICAgICApIHsgbm90aWZ5UG9ydHMgPSBpdDsgUHJlZnMuc2V0Tm90aWZ5UG9ydHMoY3R4LCBpdCkgfQ0KICAgICAgICAgICAgfQ0KICAgICAgICB9DQoNCiAgICAgICAgLy8g4pSA4pSAIOWkluingiDilIDilIANCiAgICAgICAgaXRlbSB7IFNlY3Rpb25MYWJlbCgi5aSW6KeCIikgfQ0KICAgICAgICBpdGVtIHsNCiAgICAgICAgICAgIEhjR3JvdXAgew0KICAgICAgICAgICAgICAgIEhjU3dpdGNoUm93KA0KICAgICAgICAgICAgICAgICAgICB0aXRsZSA9ICLmgqzmta7lupXmoI8iLA0KICAgICAgICAgICAgICAgICAgICBzdW1tYXJ5ID0gIuW8gCA9IOaCrOa1ruiDtuWbiu+8m+WFsyA9IOi0tOWcsOagh+etvuagjyIsDQogICAgICAgICAgICAgICAgICAgIGNoZWNrZWQgPSBIY05hdlN0YXRlLmVuYWJsZWQsDQogICAgICAgICAgICAgICAgKSB7IEhjTmF2U3RhdGUuc2V0RW5hYmxlZChjdHgsIGl0KSB9DQogICAgICAgICAgICAgICAgSGNEaXZpZGVyKCkNCiAgICAgICAgICAgICAgICBIY1N3aXRjaFJvdygNCiAgICAgICAgICAgICAgICAgICAgdGl0bGUgPSAi6IO25ZuK546755KDIiwNCiAgICAgICAgICAgICAgICAgICAgc3VtbWFyeSA9ICLlvIAgPSDnjrvnkoPmipjlsITmlYjmnpzvvJvlhbMgPSDnuq/oibLog7blm4rvvIjku4Xmgqzmta7ml7bnlJ/mlYjvvIkiLA0KICAgICAgICAgICAgICAgICAgICBjaGVja2VkID0gSGNOYXZTdGF0ZS5nbGFzcywNCiAgICAgICAgICAgICAgICAgICAgZW5hYmxlZCA9IEhjTmF2U3RhdGUuZW5hYmxlZCwNCiAgICAgICAgICAgICAgICApIHsgSGNOYXZTdGF0ZS5zZXRHbGFzcyhjdHgsIGl0KSB9DQogICAgICAgICAgICB9DQogICAgICAgIH0NCg0KICAgICAgICAvLyDilIDilIAg5a2Y5YKoIOKUgOKUgA0KICAgICAgICBpdGVtIHsgU2VjdGlvbkxhYmVsKCLlrZjlgqgiKSB9DQogICAgICAgIGl0ZW0gew0KICAgICAgICAgICAgSGNHcm91cCB7DQogICAgICAgICAgICAgICAgSGNTd2l0Y2hSb3coDQogICAgICAgICAgICAgICAgICAgIHRpdGxlID0gIuecgea1geaooeW8jyIsDQogICAgICAgICAgICAgICAgICAgIHN1bW1hcnkgPSAi5Y+q5L+d55WZ5pyA6L+R55qE5pWw5o2u57yT5a2Y77yM5YeP5bCR5Y2g55SoIiwNCiAgICAgICAgICAgICAgICAgICAgY2hlY2tlZCA9IGJhdHRlcnlMaW1pdCwNCiAgICAgICAgICAgICAgICApIHsNCiAgICAgICAgICAgICAgICAgICAgYmF0dGVyeUxpbWl0ID0gaXQNCiAgICAgICAgICAgICAgICAgICAgUHJlZnMuc2V0RG93bmxvYWRCYXR0ZXJ5TGltaXQoY3R4LCBpdCkNCiAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICB9DQogICAgICAgIH0NCg0KICAgICAgICAvLyDilIDilIAg5pWw5o2u77yI5aSH5Lu9IC8g5oGi5aSNIC8g6YeN572u77yMSHlwZXJDZWlsZXIg55qE57uT5p6E5oCn6K6+572u77yJ4pSA4pSADQogICAgICAgIGl0ZW0geyBTZWN0aW9uTGFiZWwoIuaVsOaNriIpIH0NCiAgICAgICAgaXRlbSB7DQogICAgICAgICAgICBIY0dyb3VwIHsNCiAgICAgICAgICAgICAgICBIY0NsaWNrUm93KCLlpIfku73orr7nva4iLCAi5a+85Ye65YiwIERvd25sb2FkL3JvbS1odWIvc2V0dGluZ3MuanNvbiIpIHsNCiAgICAgICAgICAgICAgICAgICAgdG9hc3QoY3R4LCBTZXR0aW5nc0JhY2t1cC5iYWNrdXAoY3R4KSkNCiAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICAgICAgSGNEaXZpZGVyKCkNCiAgICAgICAgICAgICAgICBIY0NsaWNrUm93KCLmgaLlpI3orr7nva4iLCAi5LuO5aSH5Lu95paH5Lu26K+75Zue6K6+572uIikgew0KICAgICAgICAgICAgICAgICAgICB0b2FzdChjdHgsIFNldHRpbmdzQmFja3VwLnJlc3RvcmUoY3R4KSkNCiAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICAgICAgSGNEaXZpZGVyKCkNCiAgICAgICAgICAgICAgICBIY0NsaWNrUm93KCLph43nva7orr7nva4iLCAi5riF56m65omA5pyJ6K6+572u5LiO6K6i6ZiF77yI5LiN5Y+v5oGi5aSN77yJIikgew0KICAgICAgICAgICAgICAgICAgICBjb25maXJtUmVzZXQgPSAhY29uZmlybVJlc2V0DQogICAgICAgICAgICAgICAgfQ0KICAgICAgICAgICAgICAgIGlmIChjb25maXJtUmVzZXQpIHsNCiAgICAgICAgICAgICAgICAgICAgSGNEaXZpZGVyKCkNCiAgICAgICAgICAgICAgICAgICAgUm93KA0KICAgICAgICAgICAgICAgICAgICAgICAgTW9kaWZpZXINCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAuZmlsbE1heFdpZHRoKCkNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAucGFkZGluZyhob3Jpem9udGFsID0gMTYuZHAsIHZlcnRpY2FsID0gMTAuZHApLA0KICAgICAgICAgICAgICAgICAgICAgICAgaG9yaXpvbnRhbEFycmFuZ2VtZW50ID0gQXJyYW5nZW1lbnQuc3BhY2VkQnkoMTAuZHApLA0KICAgICAgICAgICAgICAgICAgICAgICAgdmVydGljYWxBbGlnbm1lbnQgPSBBbGlnbm1lbnQuQ2VudGVyVmVydGljYWxseSwNCiAgICAgICAgICAgICAgICAgICAgKSB7DQogICAgICAgICAgICAgICAgICAgICAgICBUZXh0KA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICLnoa7lrpropoHph43nva7lkJfvvJ8iLA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZvbnRTaXplID0gTWl1aXhUaGVtZS50ZXh0U3R5bGVzLmZvb3Rub3RlMS5mb250U2l6ZSwNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb2xvciA9IE1pdWl4VGhlbWUuY29sb3JTY2hlbWUuZXJyb3IsDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci53ZWlnaHQoMWYpLA0KICAgICAgICAgICAgICAgICAgICAgICAgKQ0KICAgICAgICAgICAgICAgICAgICAgICAgVGV4dEJ1dHRvbigi5Y+W5raIIiwgb25DbGljayA9IHsgY29uZmlybVJlc2V0ID0gZmFsc2UgfSkNCiAgICAgICAgICAgICAgICAgICAgICAgIFRleHRCdXR0b24oDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgIuehruWumiIsDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgb25DbGljayA9IHsNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgU2V0dGluZ3NCYWNrdXAucmVzZXQoY3R4KQ0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBub3RpZnlPbiA9IFByZWZzLm5vdGlmeUVuYWJsZWQoY3R4KQ0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBub3RpZnlPZmZpY2lhbCA9IFByZWZzLm5vdGlmeU9mZmljaWFsKGN0eCkNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbm90aWZ5UG9ydHMgPSBQcmVmcy5ub3RpZnlQb3J0cyhjdHgpDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJhdHRlcnlMaW1pdCA9IFByZWZzLmRvd25sb2FkQmF0dGVyeUxpbWl0KGN0eCkNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY29uZmlybVJlc2V0ID0gZmFsc2UNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdG9hc3QoY3R4LCAi5bey6YeN572uIikNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9LA0KICAgICAgICAgICAgICAgICAgICAgICAgKQ0KICAgICAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICAgICAgfQ0KICAgICAgICAgICAgfQ0KICAgICAgICB9DQoNCiAgICAgICAgLy8g4pSA4pSAIOWFtuS7liDilIDilIANCiAgICAgICAgaXRlbSB7IFNlY3Rpb25MYWJlbCgi5YW25LuWIikgfQ0KICAgICAgICBpdGVtIHsNCiAgICAgICAgICAgIEhjR3JvdXAgew0KICAgICAgICAgICAgICAgIEhjQ2xpY2tSb3coIuajgOafpeabtOaWsCIsICLlvZPliY3niYjmnKwgJHtCdWlsZENvbmZpZy5WRVJTSU9OX05BTUV9Iikgew0KICAgICAgICAgICAgICAgICAgICAvLyDimqAg5b+F6aG75LygIG1hbnVhbCA9IHRydWXvvJoNCiAgICAgICAgICAgICAgICAgICAgLy8gICDkuI3kvKDnmoTor53vvIzmsqHmn6XliLDmm7TmlrDml7bml6LkuI3lvLnnqpfkuZ/kuI3mj5DnpLrvvIznlKjmiLfmjInkuobnrYnkuo7msqHlj43lupTjgIINCiAgICAgICAgICAgICAgICAgICAgLy8gICBtYW51YWwgPSB0cnVlIOaJjeS8muaKiue7k+aenOWGmei/myBnbG9iYWxNZXNzYWdl77yI5pyJ5paw54mI5pysIC8g5bey5piv5pyA5pawIC8g5pyN5Yqh56uv5rKh6YWN572u77yJ44CCDQogICAgICAgICAgICAgICAgICAgIHZtLmNoZWNrQXBwVXBkYXRlKG1hbnVhbCA9IHRydWUpDQogICAgICAgICAgICAgICAgfQ0KICAgICAgICAgICAgICAgIEhjRGl2aWRlcigpDQogICAgICAgICAgICAgICAgSGNDbGlja1Jvdygi5riF6Zmk57yT5a2YIiwgIua4heaOieacuuWeiyAvIOWKqOaAgSAvIOe7n+iuoeeahOacrOWcsOe8k+WtmCIpIHsNCiAgICAgICAgICAgICAgICAgICAgUHJlZnMuc2V0RmVlZENhY2hlKGN0eCwgIiIpDQogICAgICAgICAgICAgICAgICAgIFByZWZzLnNldFN0YXRzQ2FjaGUoY3R4LCAiIikNCiAgICAgICAgICAgICAgICAgICAgdG9hc3QoY3R4LCAi57yT5a2Y5bey5riF6ZmkIikNCiAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICAgICAgSGNEaXZpZGVyKCkNCiAgICAgICAgICAgICAgICBIY0NsaWNrUm93KA0KICAgICAgICAgICAgICAgICAgICAi5b2T5YmN6Lqr5Lu9IiwNCiAgICAgICAgICAgICAgICAgICAgaWYgKHZtLnNlc3Npb24ucm9sZSA9PSBSb2xlLkRFVikgIuW8gOWPkeiAhSIgZWxzZSAi5pmu6YCa55So5oi3IiwNCiAgICAgICAgICAgICAgICApIHsgfQ0KICAgICAgICAgICAgfQ0KICAgICAgICB9DQoNCiAgICAgICAgaXRlbSB7IFNwYWNlcihNb2RpZmllci5oZWlnaHQoOC5kcCkpIH0NCiAgICB9DQp9DQoNCnByaXZhdGUgZnVuIHRvYXN0KGN0eDogYW5kcm9pZC5jb250ZW50LkNvbnRleHQsIG1zZzogU3RyaW5nKSB7DQogICAgYW5kcm9pZC53aWRnZXQuVG9hc3QubWFrZVRleHQoY3R4LCBtc2csIGFuZHJvaWQud2lkZ2V0LlRvYXN0LkxFTkdUSF9TSE9SVCkuc2hvdygpDQp9DQoNCi8qKiDluKblvIDlhbPnmoTooYzvvIhIeXBlckNlaWxlciDorr7nva7pobnmoLflvI/vvInjgIIgKi8NCkBDb21wb3NhYmxlDQpwcml2YXRlIGZ1biBIY1N3aXRjaFJvdygNCiAgICB0aXRsZTogU3RyaW5nLA0KICAgIHN1bW1hcnk6IFN0cmluZywNCiAgICBjaGVja2VkOiBCb29sZWFuLA0KICAgIGVuYWJsZWQ6IEJvb2xlYW4gPSB0cnVlLA0KICAgIG9uQ2hhbmdlOiAoQm9vbGVhbikgLT4gVW5pdCwNCikgew0KICAgIFJvdygNCiAgICAgICAgTW9kaWZpZXINCiAgICAgICAgICAgIC5maWxsTWF4V2lkdGgoKQ0KICAgICAgICAgICAgLnBhZGRpbmcoaG9yaXpvbnRhbCA9IDE2LmRwLCB2ZXJ0aWNhbCA9IDEyLmRwKSwNCiAgICAgICAgdmVydGljYWxBbGlnbm1lbnQgPSBBbGlnbm1lbnQuQ2VudGVyVmVydGljYWxseSwNCiAgICApIHsNCiAgICAgICAgQ29sdW1uKE1vZGlmaWVyLndlaWdodCgxZikpIHsNCiAgICAgICAgICAgIFRleHQodGl0bGUsIGZvbnRTaXplID0gTWl1aXhUaGVtZS50ZXh0U3R5bGVzLmJvZHkxLmZvbnRTaXplKQ0KICAgICAgICAgICAgaWYgKHN1bW1hcnkuaXNOb3RCbGFuaygpKSB7DQogICAgICAgICAgICAgICAgU3BhY2VyKE1vZGlmaWVyLmhlaWdodCgyLmRwKSkNCiAgICAgICAgICAgICAgICBUZXh0KA0KICAgICAgICAgICAgICAgICAgICBzdW1tYXJ5LA0KICAgICAgICAgICAgICAgICAgICBmb250U2l6ZSA9IE1pdWl4VGhlbWUudGV4dFN0eWxlcy5mb290bm90ZTIuZm9udFNpemUsDQogICAgICAgICAgICAgICAgICAgIGNvbG9yID0gTWl1aXhUaGVtZS5jb2xvclNjaGVtZS5vblN1cmZhY2VWYXJpYW50U3VtbWFyeSwNCiAgICAgICAgICAgICAgICApDQogICAgICAgICAgICB9DQogICAgICAgIH0NCiAgICAgICAgU3BhY2VyKE1vZGlmaWVyLnNpemUoOC5kcCkpDQogICAgICAgIHRvcC55dWtvbmdhLm1pdWl4LmttcC5iYXNpYy5Td2l0Y2goDQogICAgICAgICAgICBjaGVja2VkID0gY2hlY2tlZCwNCiAgICAgICAgICAgIG9uQ2hlY2tlZENoYW5nZSA9IGlmIChlbmFibGVkKSBvbkNoYW5nZSBlbHNlIG51bGwsDQogICAgICAgICAgICBlbmFibGVkID0gZW5hYmxlZCwNCiAgICAgICAgKQ0KICAgIH0NCn0NCg0KLyoqIOWPr+eCueihjO+8iOWPs+S+p+eVmeeureWktOS9je+8ieOAgiAqLw0KQENvbXBvc2FibGUNCnByaXZhdGUgZnVuIEhjQ2xpY2tSb3codGl0bGU6IFN0cmluZywgc3VtbWFyeTogU3RyaW5nLCBvbkNsaWNrOiAoKSAtPiBVbml0KSB7DQogICAgUm93KA0KICAgICAgICBNb2RpZmllcg0KICAgICAgICAgICAgLmZpbGxNYXhXaWR0aCgpDQogICAgICAgICAgICAuY2xpY2thYmxlKG9uQ2xpY2sgPSBvbkNsaWNrKQ0KICAgICAgICAgICAgLnBhZGRpbmcoaG9yaXpvbnRhbCA9IDE2LmRwLCB2ZXJ0aWNhbCA9IDEyLmRwKSwNCiAgICAgICAgdmVydGljYWxBbGlnbm1lbnQgPSBBbGlnbm1lbnQuQ2VudGVyVmVydGljYWxseSwNCiAgICApIHsNCiAgICAgICAgQ29sdW1uKE1vZGlmaWVyLndlaWdodCgxZikpIHsNCiAgICAgICAgICAgIFRleHQodGl0bGUsIGZvbnRTaXplID0gTWl1aXhUaGVtZS50ZXh0U3R5bGVzLmJvZHkxLmZvbnRTaXplKQ0KICAgICAgICAgICAgaWYgKHN1bW1hcnkuaXNOb3RCbGFuaygpKSB7DQogICAgICAgICAgICAgICAgU3BhY2VyKE1vZGlmaWVyLmhlaWdodCgyLmRwKSkNCiAgICAgICAgICAgICAgICBUZXh0KA0KICAgICAgICAgICAgICAgICAgICBzdW1tYXJ5LA0KICAgICAgICAgICAgICAgICAgICBmb250U2l6ZSA9IE1pdWl4VGhlbWUudGV4dFN0eWxlcy5mb290bm90ZTIuZm9udFNpemUsDQogICAgICAgICAgICAgICAgICAgIGNvbG9yID0gTWl1aXhUaGVtZS5jb2xvclNjaGVtZS5vblN1cmZhY2VWYXJpYW50U3VtbWFyeSwNCiAgICAgICAgICAgICAgICApDQogICAgICAgICAgICB9DQogICAgICAgIH0NCiAgICB9DQp9DQo=
+package org.linbaogu.romhub.ui.screens
+
+import androidx.compose.foundation.clickable
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.PaddingValues
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.unit.Dp
+import androidx.compose.ui.unit.dp
+import org.linbaogu.romhub.BuildConfig
+import org.linbaogu.romhub.core.Prefs
+import org.linbaogu.romhub.core.Role
+import org.linbaogu.romhub.hc.HcNavState
+import org.linbaogu.romhub.notify.NotifyScheduler
+import org.linbaogu.romhub.ui.AppViewModel
+import org.linbaogu.romhub.ui.common.HcDivider
+import org.linbaogu.romhub.ui.common.HcGroup
+import org.linbaogu.romhub.ui.common.ListScreen
+import org.linbaogu.romhub.ui.common.SectionLabel
+import top.yukonga.miuix.kmp.basic.Text
+import top.yukonga.miuix.kmp.basic.TextButton
+import top.yukonga.miuix.kmp.theme.MiuixTheme
+
+/**
+ * 「设置」tab —— 完全按 HyperCeiler 的设置页结构：**分组标题 + 一张实底卡片装若干行**，
+ * 行与行之间一条细分割线，右侧是开关 / 箭头 / 值。
+ *
+ * ⚠️ 这里**不再使用** `OverlayDialog`：它属于 Miuix 的 popup 体系，需要挂在外层
+ * `Scaffold` 的 `popupHost` 里；之前直接当普通 Composable 放在列表同级，
+ * 点击「重置设置」时宿主找不到 → 直接闪退。现在改成**行内二次确认**
+ * （点一下展开「确定 / 取消」），零依赖、不会再崩。
+ */
+@Composable
+fun HcSettingsPage(
+    vm: AppViewModel,
+    bottomInnerPadding: Dp,
+) {
+    val ctx = LocalContext.current
+    var notifyOn by remember { mutableStateOf(Prefs.notifyEnabled(ctx)) }
+    var notifyOfficial by remember { mutableStateOf(Prefs.notifyOfficial(ctx)) }
+    var notifyPorts by remember { mutableStateOf(Prefs.notifyPorts(ctx)) }
+    // ⚠ 必须用 mutableStateOf 存一份：直接写 `checked = Prefs.downloadBatteryLimit(ctx)`
+    //   读的是普通 SharedPreferences，**不是 Compose 状态** → 切换后不会重组，
+    //   开关立刻弹回原状（用户报「省流模式的开关无法打开」）。
+    var batteryLimit by remember { mutableStateOf(Prefs.downloadBatteryLimit(ctx)) }
+    var confirmReset by remember { mutableStateOf(false) }
+
+    ListScreen(
+        title = "设置",
+        largeTitle = "设置",
+        subtitle = "HyperRomhub ${BuildConfig.VERSION_NAME}",
+        bottomInnerPadding = bottomInnerPadding,
+        contentPadding = PaddingValues(horizontal = 12.dp),
+    ) {
+        // ── 通知 ──
+        item { SectionLabel("通知") }
+        item {
+            HcGroup {
+                HcSwitchRow(
+                    title = "开启更新提醒",
+                    summary = "关闭后不再推送任何通知",
+                    checked = notifyOn,
+                ) {
+                    notifyOn = it
+                    Prefs.setNotifyEnabled(ctx, it)
+                    if (it) NotifyScheduler.schedule(ctx) else NotifyScheduler.cancel(ctx)
+                }
+                HcDivider()
+                HcSwitchRow(
+                    title = "官方包更新",
+                    summary = "稳定版 / 开发版 / 内测 / Beta 的新版本",
+                    checked = notifyOfficial,
+                    enabled = notifyOn,
+                ) { notifyOfficial = it; Prefs.setNotifyOfficial(ctx, it) }
+                HcDivider()
+                HcSwitchRow(
+                    title = "移植包更新",
+                    summary = "订阅机型有新提交的社区移植包",
+                    checked = notifyPorts,
+                    enabled = notifyOn,
+                ) { notifyPorts = it; Prefs.setNotifyPorts(ctx, it) }
+            }
+        }
+
+        // ── 外观 ──
+        item { SectionLabel("外观") }
+        item {
+            HcGroup {
+                HcSwitchRow(
+                    title = "悬浮底栏",
+                    summary = "开 = 悬浮胶囊；关 = 贴地标签栏",
+                    checked = HcNavState.enabled,
+                ) { HcNavState.setEnabled(ctx, it) }
+                HcDivider()
+                HcSwitchRow(
+                    title = "胶囊玻璃",
+                    summary = "开 = 玻璃折射效果；关 = 纯色胶囊（仅悬浮时生效）",
+                    checked = HcNavState.glass,
+                    enabled = HcNavState.enabled,
+                ) { HcNavState.setGlass(ctx, it) }
+            }
+        }
+
+        // ── 存储 ──
+        item { SectionLabel("存储") }
+        item {
+            HcGroup {
+                HcSwitchRow(
+                    title = "省流模式",
+                    summary = "只保留最近的数据缓存，减少占用",
+                    checked = batteryLimit,
+                ) {
+                    batteryLimit = it
+                    Prefs.setDownloadBatteryLimit(ctx, it)
+                }
+            }
+        }
+
+        // ── 数据（备份 / 恢复 / 重置，HyperCeiler 的结构性设置）──
+        item { SectionLabel("数据") }
+        item {
+            HcGroup {
+                HcClickRow("备份设置", "导出到 Download/rom-hub/settings.json") {
+                    toast(ctx, SettingsBackup.backup(ctx))
+                }
+                HcDivider()
+                HcClickRow("恢复设置", "从备份文件读回设置") {
+                    toast(ctx, SettingsBackup.restore(ctx))
+                }
+                HcDivider()
+                HcClickRow("重置设置", "清空所有设置与订阅（不可恢复）") {
+                    confirmReset = !confirmReset
+                }
+                if (confirmReset) {
+                    HcDivider()
+                    Row(
+                        Modifier
+                            .fillMaxWidth()
+                            .padding(horizontal = 16.dp, vertical = 10.dp),
+                        horizontalArrangement = Arrangement.spacedBy(10.dp),
+                        verticalAlignment = Alignment.CenterVertically,
+                    ) {
+                        Text(
+                            "确定要重置吗？",
+                            fontSize = MiuixTheme.textStyles.footnote1.fontSize,
+                            color = MiuixTheme.colorScheme.error,
+                            modifier = Modifier.weight(1f),
+                        )
+                        TextButton("取消", onClick = { confirmReset = false })
+                        TextButton(
+                            "确定",
+                            onClick = {
+                                SettingsBackup.reset(ctx)
+                                notifyOn = Prefs.notifyEnabled(ctx)
+                                notifyOfficial = Prefs.notifyOfficial(ctx)
+                                notifyPorts = Prefs.notifyPorts(ctx)
+                                batteryLimit = Prefs.downloadBatteryLimit(ctx)
+                                confirmReset = false
+                                toast(ctx, "已重置")
+                            },
+                        )
+                    }
+                }
+            }
+        }
+
+        // ── 其他 ──
+        item { SectionLabel("其他") }
+        item {
+            HcGroup {
+                HcClickRow("检查更新", "当前版本 ${BuildConfig.VERSION_NAME}") {
+                    // ⚠ 必须传 manual = true：
+                    //   不传的话，没查到更新时既不弹窗也不提示，用户按了等于没反应。
+                    //   manual = true 才会把结果写进 globalMessage（有新版本 / 已是最新 / 服务端没配置）。
+                    vm.checkAppUpdate(manual = true)
+                }
+                HcDivider()
+                HcClickRow("清除缓存", "清掉机型 / 动态 / 统计的本地缓存") {
+                    Prefs.setFeedCache(ctx, "")
+                    Prefs.setStatsCache(ctx, "")
+                    toast(ctx, "缓存已清除")
+                }
+                HcDivider()
+                HcClickRow(
+                    "当前身份",
+                    if (vm.session.role == Role.DEV) "开发者" else "普通用户",
+                ) { }
+            }
+        }
+
+        item { Spacer(Modifier.height(8.dp)) }
+    }
+}
+
+private fun toast(ctx: android.content.Context, msg: String) {
+    android.widget.Toast.makeText(ctx, msg, android.widget.Toast.LENGTH_SHORT).show()
+}
+
+/** 带开关的行（HyperCeiler 设置项样式）。 */
+@Composable
+private fun HcSwitchRow(
+    title: String,
+    summary: String,
+    checked: Boolean,
+    enabled: Boolean = true,
+    onChange: (Boolean) -> Unit,
+) {
+    Row(
+        Modifier
+            .fillMaxWidth()
+            .padding(horizontal = 16.dp, vertical = 12.dp),
+        verticalAlignment = Alignment.CenterVertically,
+    ) {
+        Column(Modifier.weight(1f)) {
+            Text(title, fontSize = MiuixTheme.textStyles.body1.fontSize)
+            if (summary.isNotBlank()) {
+                Spacer(Modifier.height(2.dp))
+                Text(
+                    summary,
+                    fontSize = MiuixTheme.textStyles.footnote2.fontSize,
+                    color = MiuixTheme.colorScheme.onSurfaceVariantSummary,
+                )
+            }
+        }
+        Spacer(Modifier.size(8.dp))
+        top.yukonga.miuix.kmp.basic.Switch(
+            checked = checked,
+            onCheckedChange = if (enabled) onChange else null,
+            enabled = enabled,
+        )
+    }
+}
+
+/** 可点行（右侧留箭头位）。 */
+@Composable
+private fun HcClickRow(title: String, summary: String, onClick: () -> Unit) {
+    Row(
+        Modifier
+            .fillMaxWidth()
+            .clickable(onClick = onClick)
+            .padding(horizontal = 16.dp, vertical = 12.dp),
+        verticalAlignment = Alignment.CenterVertically,
+    ) {
+        Column(Modifier.weight(1f)) {
+            Text(title, fontSize = MiuixTheme.textStyles.body1.fontSize)
+            if (summary.isNotBlank()) {
+                Spacer(Modifier.height(2.dp))
+                Text(
+                    summary,
+                    fontSize = MiuixTheme.textStyles.footnote2.fontSize,
+                    color = MiuixTheme.colorScheme.onSurfaceVariantSummary,
+                )
+            }
+        }
+    }
+}

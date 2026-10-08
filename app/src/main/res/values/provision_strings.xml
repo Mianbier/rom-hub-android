@@ -1,1 +1,64 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxyZXNvdXJjZXM+DQogICAgPHN0cmluZyBuYW1lPSJwcm92aXNpb25fYmFja19kZXNjcmlwdGlvbiI+6L+U5ZuePC9zdHJpbmc+DQogICAgPHN0cmluZyBuYW1lPSJwcm92aXNpb25fc3RhcnRfY29udGVudF9kZXNjcmlwdGlvbiI+5byA5aeLPC9zdHJpbmc+DQogICAgPHN0cmluZyBuYW1lPSJwcm92aXNpb25fYmFjayI+6L+U5ZuePC9zdHJpbmc+DQogICAgPHN0cmluZyBuYW1lPSJwcm92aXNpb25fbmV4dCI+57un57utPC9zdHJpbmc+DQogICAgPHN0cmluZyBuYW1lPSJwcm92aXNpb25fc2tpcF91bmRlcmxpbmUiPui3s+i/hzwvc3RyaW5nPg0KICAgIDxzdHJpbmcgbmFtZT0icHJvdmlzaW9uX3Blcm1pc3Npb25fc2V0dGluZ3NfdGl0bGUiPuadg+mZkOiuvue9rjwvc3RyaW5nPg0KICAgIDxzdHJpbmcgbmFtZT0icHJvdmlzaW9uX3Rlcm1zX2FuZF9zdGF0ZW1lbnRfdGl0bGUiPuWNj+iuruS4juWjsOaYjjwvc3RyaW5nPg0KICAgIDxzdHJpbmcgbmFtZT0icHJvdmlzaW9uX2Jhc2ljX3NldHRpbmdzX3RpdGxlIj7ln7rnoYDorr7nva48L3N0cmluZz4NCiAgICA8c3RyaW5nIG5hbWU9InByb3Zpc2lvbl9hZ3JlZV9hbmRfbmV4dCI+5ZCM5oSP5bm257un57utPC9zdHJpbmc+DQogICAgPHN0cmluZyBuYW1lPSJwcm92aXNpb25fYWdyZWVfdGVybXMiPuaIkeW3suS7lOe7humYheivu+W5tuWQjOaEj+S4iui/sOadoeasvjwvc3RyaW5nPg0KICAgIDxzdHJpbmcgbmFtZT0icHJvdmlzaW9uX3Rlcm1zX29mX3VzZSI+5L2/55So5p2h5qy+PC9zdHJpbmc+DQogICAgPHN0cmluZyBuYW1lPSJwcm92aXNpb25fdGVybXNfb2ZfdXNlX2xhYmVsX3VzZV9uZXR3b3JrX2NoaW5hIj7kuLrkuobnu5nmgqjmj5Dkvpvmm7Tlpb3nmoTmnI3liqHvvIzmgqjpnIDopoHpmIXor7vlubblkIzmhI88YW5ub3RhdGlvbiBrZXk9InVzZXJfYWdyZWVtZW50Ij7jgIrnlKjmiLfljY/orq7jgIs8L2Fubm90YXRpb24+5LiOPGFubm90YXRpb24ga2V5PSJwcml2YWN5X3BvbGljeSI+44CK6ZqQ56eB5pS/562W44CLPC9hbm5vdGF0aW9uPuaJjeWPr+e7p+e7reS9v+eUqCBIeXBlclJvbWh1YuOAguaIkeS7rOWwhuS4peagvOmBteWuiOebuOWFs+azleW+i+azleinhOWSjOmakOengeaUv+etlu+8jOS7heWcqOacrOacuuS/neWtmOaCqOiuoumYheeahOacuuWei+S4juaWsOWMheiusOW9le+8jOS4jeS8muS4iuS8oOaCqOeahOS4quS6uuS/oeaBr+OAgjwvc3RyaW5nPg0KICAgIDxzdHJpbmcgbmFtZT0icHJvdmlzaW9uX3Rlcm1zX29mX2xhYmVsX3BlcmlvZCI+PC9zdHJpbmc+DQogICAgPHN0cmluZyBuYW1lPSJwcm92aXNpb25fcHJvdGVjdF9wZXJzb2FubF9pbmZvX3N0YXRlbWVudCI+5oiR5Lus5bCG5Lil5qC86YG15a6I55u45YWz5rOV5b6L5rOV6KeE5ZKM6ZqQ56eB5pS/562W5Lul5L+d5oqk5oKo55qE5Liq5Lq65L+h5oGv44CCPC9zdHJpbmc+DQogICAgPHN0cmluZyBuYW1lPSJwcm92aXNpb25fc2VydmljZV9hZ3JlZW1lbnQiPuaIkeW3suS7lOe7humYheivu+W5tuWQjOaEj+S4iui/sOadoeasvjwvc3RyaW5nPg0KICAgIDxzdHJpbmcgbmFtZT0icHJvdmlzaW9uX3NlcnZpY2VfbmFtZV9kb3dubG9hZCI+5LiL6L29566h55CGPC9zdHJpbmc+DQogICAgPHN0cmluZyBuYW1lPSJwcm92aXNpb25fc2VydmljZV9wb2xpY3lfZG93bmxvYWQiPjxEYXRhPuivt+aCqOmYheivu+W5tuWQjOaEjyZsdDthIGhyZWY9JTEkcyZndDvjgIpIeXBlclJvbWh1YiDpmpDnp4HmlL/nrZbjgIsmbHQ7L2EgJmd0O+S4jiZsdDthIGhyZWY9JTEkcyZndDvjgIpST00gSHViIOeUqOaIt+WNj+iuruOAiyZsdDsvYSAmZ3Q7PC9EYXRhPjwvc3RyaW5nPg0KICAgIDxzdHJpbmcgbmFtZT0icHJvdmlzaW9uX2NvbmdyYXR1bGF0aW9uX3RpdGxlIj7orr7nva7lrozmr5U8L3N0cmluZz4NCiAgICA8c3RyaW5nIG5hbWU9InByb3Zpc2lvbl9jb25ncmF0dWxhdGlvbl9sYWJlbCI+5qyi6L+O5p2l5YiwIEh5cGVyUm9taHViPC9zdHJpbmc+DQogICAgPHN0cmluZyBuYW1lPSJwcm92aXNpb25fY29tcGxldGVfdGV4dCI+5byA5aeL5L2/55SoPC9zdHJpbmc+DQoNCiAgICA8c3RyaW5nIG5hbWU9InByb3Zpc2lvbl9zZXRfcGVybWlzc2lvbl9sYXRlciI+5oKo5Y+v5Lul56iN5ZCO6K6+572u5LiL5YiX5b+F6KaB5p2D6ZmQPC9zdHJpbmc+DQogICAgPHN0cmluZyBuYW1lPSJwcm92aXNpb25fcGVybWlzc2lvbl9pbnRlcm5ldCI+5YWB6K646K6/6Zeu572R57uc77yI5p+l6K+i5LiO5LiL6L29IFJPTe+8iTwvc3RyaW5nPg0KICAgIDxzdHJpbmcgbmFtZT0icHJvdmlzaW9uX3Blcm1pc3Npb25fcm9vdCI+5YWB6K646K6/6Zeu5a2Y5YKo56m66Ze077yI5LiL6L295Zu65Lu26ZyA6KaB77yJPC9zdHJpbmc+DQogICAgPHN0cmluZyBuYW1lPSJwcm92aXNpb25fcGVybWlzc2lvbl9pbnN0YWxsZWRfYXBwcyI+5YWB6K645Y+R6YCB6YCa55+l77yI5pawIFJPTSDmj5DphpLvvIk8L3N0cmluZz4NCiAgICA8c3RyaW5nIG5hbWU9InByb3Zpc2lvbl9wZXJtaXNzaW9uX2xzcCI+5YWB6K645Zyo5ZCO5Y+w6L+Q6KGM77yI5LiL6L295LiN5Lit5pat77yJPC9zdHJpbmc+DQogICAgPHN0cmluZyBuYW1lPSJwcm92aXNpb25fdGVybXNfb2ZfdXNlX2xvYWRpbmciPuWKoOi9veS4reKApjwvc3RyaW5nPg0KICAgIDxzdHJpbmcgbmFtZT0icHJvdmlzaW9uX3Rlcm1zX29mX3VzZV92ZXJpZmljYXRpb25fY29kZV90aXAiPuaCqOeahOmqjOivgeeggeaYryAlMSRz44CCPC9zdHJpbmc+DQogICAgPHN0cmluZyBuYW1lPSJwcm92aXNpb25fdGVybXNfb2ZfdXNlX3ZlcmlmaWNhdGlvbl9jb2RlX2RpYWxvZ190aXRsZSI+6K+36L6T5YWl6aqM6K+B56CBPC9zdHJpbmc+DQogICAgPHN0cmluZyBuYW1lPSJwcm92aXNpb25fdGVybXNfb2ZfdXNlX3ZlcmlmaWNhdGlvbl9jb2RlX2RpYWxvZ19kZXNjIj7mgqjlj6/ku6XlnKjjgIrnlKjmiLfljY/orq7jgIvmiJbjgIrpmpDnp4HmlL/nrZbjgIvkuK3mib7liLA8L3N0cmluZz4NCiAgICA8c3RyaW5nIG5hbWU9InByb3Zpc2lvbl90ZXJtc19vZl91c2VfdmVyaWZpY2F0aW9uX2NvZGVfZGlhbG9nX2NvbnRpbnVlIj7nu6fnu608L3N0cmluZz4NCiAgICA8c3RyaW5nIG5hbWU9InByb3Zpc2lvbl90ZXJtc19vZl91c2VfcHJvY2Vzc2luZyI+5q2j5Zyo5ZCM5q2l5YaF5a654oCmPC9zdHJpbmc+DQogICAgPHN0cmluZyBuYW1lPSJwcm92aXNpb25fYmFzaWNfc2V0dGluZ3NfaGlkZV9hcHBfaWNvbiI+5pi+56S65qGM6Z2i5Zu+5qCHPC9zdHJpbmc+DQogICAgPHN0cmluZyBuYW1lPSJwcm92aXNpb25fYmFzaWNfc2V0dGluZ3NfY2F0ZWdvcnlfYXBwIj7lupTnlKg8L3N0cmluZz4NCiAgICA8c3RyaW5nIG5hbWU9InByb3Zpc2lvbl9iYXNpY19zZXR0aW5nc19jYXRlZ29yeV9zY29wZSI+6K6i6ZiFPC9zdHJpbmc+DQogICAgPHN0cmluZyBuYW1lPSJwcm92aXNpb25fYmFzaWNfc2V0dGluZ3NfbGFuZ3VhZ2UiPuivreiogDwvc3RyaW5nPg0KICAgIDxzdHJpbmcgbmFtZT0icHJvdmlzaW9uX2Jhc2ljX3NldHRpbmdzX3Njb3BlX3N5bmMiPuiuoumYheWQjOatpTwvc3RyaW5nPg0KICAgIDxzdHJpbmcgbmFtZT0icHJvdmlzaW9uX2Jhc2ljX3NldHRpbmdzX3Njb3BlX3N5bmNfZGVzYyI+6aaW6aG15YiX6KGo55qE5Yu+6YCJ54q25oCB5Lya5LiO44CM5oiR55qE6K6i6ZiF44CN5ZCM5q2lPC9zdHJpbmc+DQogICAgPHN0cmluZyBuYW1lPSJwcm92aXNpb25fYmFzaWNfc2V0dGluZ3Nfc2NvcGUiPuiuoumYhTwvc3RyaW5nPg0KICAgIDxzdHJpbmcgbmFtZT0icHJvdmlzaW9uX2Jhc2ljX3NldHRpbmdzX2ljb24iPuWkluingjwvc3RyaW5nPg0KICAgIDxzdHJpbmcgbmFtZT0icHJvdmlzaW9uX2Jhc2ljX3NldHRpbmdzX2ljb25fZGVzYyI+6YCJ5oup5bqV5qCP5LiO5Zu+5qCH55qE5pi+56S65pa55byPPC9zdHJpbmc+DQogICAgPHN0cmluZyBuYW1lPSJwcm92aXNpb25fYmFzaWNfc2V0dGluZ3NfaWNvbl9tb2RlIj7lupXmoI/moLflvI88L3N0cmluZz4NCiAgICA8c3RyaW5nIG5hbWU9InByb3Zpc2lvbl9iYXNpY19zZXR0aW5nc19pY29uX2Rpc2FibGUiPuWFs+mXrTwvc3RyaW5nPg0KICAgIDxzdHJpbmcgbmFtZT0icHJvdmlzaW9uX2Jhc2ljX3NldHRpbmdzX2ljb25fdG9wIj7mgqzmta7og7blm4o8L3N0cmluZz4NCiAgICA8c3RyaW5nIG5hbWU9InByb3Zpc2lvbl9iYXNpY19zZXR0aW5nc19pY29uX21lZGl1bSI+6LS05Zyw5qCH562+PC9zdHJpbmc+DQogICAgPHN0cmluZyBuYW1lPSJwcm92aXNpb25fYmFzaWNfc2V0dGluZ3NfaWNvbl9kb3duIj7lupXpg6g8L3N0cmluZz4NCiAgICA8c3RyaW5nIG5hbWU9InByb3Zpc2lvbl9iYXNpY19zZXR0aW5nc19pY29uX21pdWlfMTQiPuWchuinkuefqeW9ouagt+W8jzwvc3RyaW5nPg0KICAgIDxzdHJpbmcgbmFtZT0icHJvdmlzaW9uX2Jhc2ljX3NldHRpbmdzX2ljb25fbWl1aV8xMyI+6IOM5pmv6ZWC56m65qC35byPPC9zdHJpbmc+DQoNCiAgICA8c3RyaW5nIG5hbWU9InByb3Zpc2lvbl9zeXN0ZW1fcHJlcGFyaW5nIj7ns7vnu5/lh4blpIfkuK08L3N0cmluZz4NCiAgICA8c3RyaW5nIG5hbWU9InByb3Zpc2lvbl9zeXN0ZW1fY29tcGxldGUiPuiuvue9ruWujOavlTwvc3RyaW5nPg0KICAgIDxzdHJpbmcgbmFtZT0icHJvdmlzaW9uX3Njb3BlX29wZW5fZmFpbGVkIj7ml6Dms5XmiZPlvIDorqLpmIXpobXpnaI8L3N0cmluZz4NCg0KICAgIDxzdHJpbmcgbmFtZT0icHJvdmlzaW9uX2dldF9tZF9mYWlsZWQiPiMjIOiOt+WPluWGheWuueWksei0peOAgiANCiAtIOaCqOWPr+WJjeW+gFvmraTlpIRdKCVVUkwlKeafpeeci+WOn+Wni+WGheWuueOAgiANCiAtIOaIluWwneivlVvliLfmlrBdKHJvbWh1YjovL3JlZnJlc2gp5q2k6aG144CCPC9zdHJpbmc+DQogICAgPHN0cmluZyBuYW1lPSJwcm92aXNpb25fcGVybWlzc2lvbl9zdG9yYWdlIj7lhYHorrjorr/pl67lrZjlgqjnqbrpl7TvvIjkv53lrZjlm7rku7bljIXvvIk8L3N0cmluZz4NCg0KICAgIDwhLS0g5byV5a+85rWB56iL55qE44CM55m75b2V44CN6aG177yI5o6S5Zyo5Z+656GA6K6+572u5LmL5ZCO44CB5byA5aeL5L2/55So5LmL5YmN77yJIC0tPg0KICAgIDxzdHJpbmcgbmFtZT0icHJvdmlzaW9uX2xvZ2luX3RpdGxlIj7nmbvlvZU8L3N0cmluZz4NCiAgICA8c3RyaW5nIG5hbWU9InByb3Zpc2lvbl9sb2dpbl9kZXNjIj7nmbvlvZXlkI7lj6/lkIzmraXorqLpmIXjgIHkuIrkvKDnp7vmpI3ljIXvvJvkuZ/lj6/ku6Xnm7TmjqXot7Pov4fvvIznlKjmuLjlrqLouqvku73ov5vlhaXjgII8L3N0cmluZz4NCjwvcmVzb3VyY2VzPg0K
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="provision_back_description">返回</string>
+    <string name="provision_start_content_description">开始</string>
+    <string name="provision_back">返回</string>
+    <string name="provision_next">继续</string>
+    <string name="provision_skip_underline">跳过</string>
+    <string name="provision_permission_settings_title">权限设置</string>
+    <string name="provision_terms_and_statement_title">协议与声明</string>
+    <string name="provision_basic_settings_title">基础设置</string>
+    <string name="provision_agree_and_next">同意并继续</string>
+    <string name="provision_agree_terms">我已仔细阅读并同意上述条款</string>
+    <string name="provision_terms_of_use">使用条款</string>
+    <string name="provision_terms_of_use_label_use_network_china">为了给您提供更好的服务，您需要阅读并同意<annotation key="user_agreement">《用户协议》</annotation>与<annotation key="privacy_policy">《隐私政策》</annotation>才可继续使用 HyperRomhub。我们将严格遵守相关法律法规和隐私政策，仅在本机保存您订阅的机型与新包记录，不会上传您的个人信息。</string>
+    <string name="provision_terms_of_label_period"></string>
+    <string name="provision_protect_persoanl_info_statement">我们将严格遵守相关法律法规和隐私政策以保护您的个人信息。</string>
+    <string name="provision_service_agreement">我已仔细阅读并同意上述条款</string>
+    <string name="provision_service_name_download">下载管理</string>
+    <string name="provision_service_policy_download"><Data>请您阅读并同意&lt;a href=%1$s&gt;《HyperRomhub 隐私政策》&lt;/a &gt;与&lt;a href=%1$s&gt;《ROM Hub 用户协议》&lt;/a &gt;</Data></string>
+    <string name="provision_congratulation_title">设置完毕</string>
+    <string name="provision_congratulation_label">欢迎来到 HyperRomhub</string>
+    <string name="provision_complete_text">开始使用</string>
+
+    <string name="provision_set_permission_later">您可以稍后设置下列必要权限</string>
+    <string name="provision_permission_internet">允许访问网络（查询与下载 ROM）</string>
+    <string name="provision_permission_root">允许访问存储空间（下载固件需要）</string>
+    <string name="provision_permission_installed_apps">允许发送通知（新 ROM 提醒）</string>
+    <string name="provision_permission_lsp">允许在后台运行（下载不中断）</string>
+    <string name="provision_terms_of_use_loading">加载中…</string>
+    <string name="provision_terms_of_use_verification_code_tip">您的验证码是 %1$s。</string>
+    <string name="provision_terms_of_use_verification_code_dialog_title">请输入验证码</string>
+    <string name="provision_terms_of_use_verification_code_dialog_desc">您可以在《用户协议》或《隐私政策》中找到</string>
+    <string name="provision_terms_of_use_verification_code_dialog_continue">继续</string>
+    <string name="provision_terms_of_use_processing">正在同步内容…</string>
+    <string name="provision_basic_settings_hide_app_icon">显示桌面图标</string>
+    <string name="provision_basic_settings_category_app">应用</string>
+    <string name="provision_basic_settings_category_scope">订阅</string>
+    <string name="provision_basic_settings_language">语言</string>
+    <string name="provision_basic_settings_scope_sync">订阅同步</string>
+    <string name="provision_basic_settings_scope_sync_desc">首页列表的勾选状态会与「我的订阅」同步</string>
+    <string name="provision_basic_settings_scope">订阅</string>
+    <string name="provision_basic_settings_icon">外观</string>
+    <string name="provision_basic_settings_icon_desc">选择底栏与图标的显示方式</string>
+    <string name="provision_basic_settings_icon_mode">底栏样式</string>
+    <string name="provision_basic_settings_icon_disable">关闭</string>
+    <string name="provision_basic_settings_icon_top">悬浮胶囊</string>
+    <string name="provision_basic_settings_icon_medium">贴地标签</string>
+    <string name="provision_basic_settings_icon_down">底部</string>
+    <string name="provision_basic_settings_icon_miui_14">圆角矩形样式</string>
+    <string name="provision_basic_settings_icon_miui_13">背景镂空样式</string>
+
+    <string name="provision_system_preparing">系统准备中</string>
+    <string name="provision_system_complete">设置完毕</string>
+    <string name="provision_scope_open_failed">无法打开订阅页面</string>
+
+    <string name="provision_get_md_failed">## 获取内容失败。 
+ - 您可前往[此处](%URL%)查看原始内容。 
+ - 或尝试[刷新](romhub://refresh)此页。</string>
+    <string name="provision_permission_storage">允许访问存储空间（保存固件包）</string>
+
+    <!-- 引导流程的「登录」页（排在基础设置之后、开始使用之前） -->
+    <string name="provision_login_title">登录</string>
+    <string name="provision_login_desc">登录后可同步订阅、上传移植包；也可以直接跳过，用游客身份进入。</string>
+</resources>

@@ -1,1 +1,82 @@
-LyoKICogWXVuWCAo5LqR5p6QKSAtIEEgbmV0d29yayBkcml2ZSBzaGFyZS1saW5rIHBhcnNlciBhbmQgaGlnaC1zcGVlZCBkb3dubG9hZGVyIGZvciBBbmRyb2lkLgogKiBDb3B5cmlnaHQgKEMpIDIwMjYgQ1lRYXdhCiAqCiAqIFRoaXMgcHJvZ3JhbSBpcyBmcmVlIHNvZnR3YXJlOiB5b3UgY2FuIHJlZGlzdHJpYnV0ZSBpdCBhbmQvb3IgbW9kaWZ5CiAqIGl0IHVuZGVyIHRoZSB0ZXJtcyBvZiB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGFzIHB1Ymxpc2hlZCBieQogKiB0aGUgRnJlZSBTb2Z0d2FyZSBGb3VuZGF0aW9uLCBlaXRoZXIgdmVyc2lvbiAzIG9mIHRoZSBMaWNlbnNlLCBvcgogKiAoYXQgeW91ciBvcHRpb24pIGFueSBsYXRlciB2ZXJzaW9uLgogKgogKiBUaGlzIHByb2dyYW0gaXMgZGlzdHJpYnV0ZWQgaW4gdGhlIGhvcGUgdGhhdCBpdCB3aWxsIGJlIHVzZWZ1bCwKICogYnV0IFdJVEhPVVQgQU5ZIFdBUlJBTlRZOyB3aXRob3V0IGV2ZW4gdGhlIGltcGxpZWQgd2FycmFudHkgb2YKICogTUVSQ0hBTlRBQklMSVRZIG9yIEZJVE5FU1MgRk9SIEEgUEFSVElDVUxBUiBQVVJQT1NFLiAgU2VlIHRoZQogKiBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UgZm9yIG1vcmUgZGV0YWlscy4KICoKICogWW91IHNob3VsZCBoYXZlIHJlY2VpdmVkIGEgY29weSBvZiB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlCiAqIGFsb25nIHdpdGggdGhpcyBwcm9ncmFtLiAgSWYgbm90LCBzZWUgPGh0dHBzOi8vd3d3LmdudS5vcmcvbGljZW5zZXMvPi4KICovCgpwYWNrYWdlIG9yZy5saW5iYW9ndS5yb21odWIucGFuLnJlcG8KCmltcG9ydCBvcmcubGluYmFvZ3Uucm9taHViLnBhbi5tb2RlbC5Eb3dubG9hZExpbmsKaW1wb3J0IG9yZy5saW5iYW9ndS5yb21odWIucGFuLm1vZGVsLlNoYXJlRmlsZQppbXBvcnQgb3JnLmxpbmJhb2d1LnJvbWh1Yi5wYW4ubW9kZWwuU2hhcmVTZXNzaW9uCgovKioKICog5YiG5Lqr6Kej5p6Q5LuT5bqT5YWs5YWx5o6l5Y+j77ya5aS45YWLIC8gVUMg5YWx55So5ZCM5LiA5aWX5rWB56iL77yIdG9rZW4g4oaSIOWIl+ihqCDihpIg6L2s5a2YIOKGkiDnm7Tpk77vvInjgIIKICovCmludGVyZmFjZSBTaGFyZVJlc29sdmVSZXBvc2l0b3J5IHsKICAgIHN1c3BlbmQgZnVuIGNyZWF0ZVNlc3Npb24obGluazogU3RyaW5nLCBwd2Q6IFN0cmluZz8sIGNvb2tpZTogU3RyaW5nKTogUmVzdWx0PFNoYXJlU2Vzc2lvbj4KICAgIHN1c3BlbmQgZnVuIGxpc3RGaWxlcyhzZXNzaW9uOiBTaGFyZVNlc3Npb24sIGRpckZpZDogU3RyaW5nLCBjb29raWU6IFN0cmluZyk6IFJlc3VsdDxMaXN0PFNoYXJlRmlsZT4+CiAgICBzdXNwZW5kIGZ1biBlbnN1cmVUZW1wRGlyKGNvb2tpZTogU3RyaW5nKTogUmVzdWx0PFN0cmluZz4KICAgIHN1c3BlbmQgZnVuIHRyYW5zZmVyRmlsZSgKICAgICAgICBzZXNzaW9uOiBTaGFyZVNlc3Npb24sCiAgICAgICAgZmlsZTogU2hhcmVGaWxlLAogICAgICAgIHRvRGlyRmlkOiBTdHJpbmcsCiAgICAgICAgY29va2llOiBTdHJpbmcKICAgICk6IFJlc3VsdDxTdHJpbmc+CiAgICBzdXNwZW5kIGZ1biBnZXREb3dubG9hZExpbmsoZmlkOiBTdHJpbmcsIGNvb2tpZTogU3RyaW5nKTogUmVzdWx0PERvd25sb2FkTGluaz4KCiAgICAvKioKICAgICAqIOiOt+WPluWIhuS6q+aWh+S7tuS4i+i9veebtOmTvu+8iOW5s+WPsOW3ruW8guWcqOatpOaUtuaVm++8ie+8mgogICAgICogLSDlpLjlhYvvvJrovazlrZjliLDkuLTml7bnm67lvZUg4oaSIOeUqOi9rOWtmOWQjuaWsCBmaWQg5Y+W55u06ZO+77ybCiAgICAgKiAtIFVD77ya55u05o6l55So5YiG5LqrIGZpZCArIHN0b2tlbiArIGZpZF90b2tlbiDlj5bnm7Tpk77vvIjml6DpnIDovazlrZjvvInjgIIKICAgICAqLwogICAgc3VzcGVuZCBmdW4gZ2V0U2hhcmVEb3dubG9hZExpbmsoCiAgICAgICAgc2Vzc2lvbjogU2hhcmVTZXNzaW9uLAogICAgICAgIGZpbGU6IFNoYXJlRmlsZSwKICAgICAgICBjb29raWU6IFN0cmluZwogICAgKTogUmVzdWx0PERvd25sb2FkTGluaz4KCiAgICAvKioKICAgICAqIOWFjei9rOWtmOWPlumTvu+8iOeZu+W9leaAge+8ie+8muS4jeaKiuWIhuS6q+aWh+S7tui9rOWtmOWIsOeUqOaIt+e9keebmO+8jOebtOaOpeeUqOWIhuS6q+WHreivgeaNouS4i+i9veebtOmTviDigJTigJQKICAgICAqIOWwkeS4gOasoeOAjOW7uuebruW9lSDihpIg6L2s5a2YIOKGkiDova7or6LjgI3vvIzkuI3lnKjnlKjmiLfnvZHnm5jnlZnkuLTml7bnm67lvZXvvIzkuZ/kuI3kvJrmkp7lpLjlhYvnmoTovazlrZjljrvph43jgIIKICAgICAqCiAgICAgKiDpu5jorqTlrp7njrDlm57pgIDliLAgW2dldFNoYXJlRG93bmxvYWRMaW5rXe+8jOihjOS4uuS4juaUueWKqOWJjeWujOWFqOS4gOiHtO+8mlVDIOacrOadpeWwseebtOaOpeWPlumTvuS4jei9rOWtmO+8jAogICAgICog5YW25L2Z5bmz5Y+w55qE5Y+W6ZO+6K+t5LmJ5ZCE6Ieq54us56uL77yM5LiN6ZyA6KaB6LWw6L+Z5p2h6Lev77yb55uu5YmN5Y+q5pyJ5aS45YWL6KaG5YaZ44CCCiAgICAgKi8KICAgIHN1c3BlbmQgZnVuIGdldFNoYXJlRG93bmxvYWRMaW5rV2l0aG91dFNhdmUoCiAgICAgICAgc2Vzc2lvbjogU2hhcmVTZXNzaW9uLAogICAgICAgIGZpbGU6IFNoYXJlRmlsZSwKICAgICAgICBjb29raWU6IFN0cmluZwogICAgKTogUmVzdWx0PERvd25sb2FkTGluaz4gPSBnZXRTaGFyZURvd25sb2FkTGluayhzZXNzaW9uLCBmaWxlLCBjb29raWUpCgogICAgLyoqCiAgICAgKiDmnKrnmbvlvZXvvIjmuLjlrqLvvInlj5bliIbkuqvnm7Tpk77vvJrnm67liY3lj6rmnInlpLjlhYsvVUMg5a6e546w44CCCiAgICAgKiDov5Tlm57nmoQgW0Rvd25sb2FkTGluay5ndWVzdENvb2tpZV0g5b+F6aG75bim6L+b5LiL6L296K+35rGC77yI5pyN5Yqh56uv6ZqP5Y+W6ZO+5ZON5bqU5LiL5Y+R55qE5ri45a6i5oCBIF9fcHVnc++8jAogICAgICog5aS45YWL57y65a6DIDQxMuOAgVVDIOe8uuWugyA0MDPvvInvvJvkuI3pnIDopoHkuZ/kuI3lupTor6XkvKDotKblj7cgQ29va2ll44CCCiAgICAgKiDlhbbkvZnlubPlj7Dpu5jorqTlpLHotKUg4oCU4oCUIOWug+S7rOeahOWPlumTvi/ovazlrZjkuK3ovazpg73kvp3otZbotKblj7fmgIHjgIIKICAgICAqLwogICAgc3VzcGVuZCBmdW4gZ2V0R3Vlc3RTaGFyZURvd25sb2FkTGluaygKICAgICAgICBzZXNzaW9uOiBTaGFyZVNlc3Npb24sCiAgICAgICAgZmlsZTogU2hhcmVGaWxlCiAgICApOiBSZXN1bHQ8RG93bmxvYWRMaW5rPiA9IFJlc3VsdC5mYWlsdXJlKAogICAgICAgIElsbGVnYWxTdGF0ZUV4Y2VwdGlvbigi6K+l5bmz5Y+w5pyq55m75b2V5pe25peg5rOV5LiL6L2977yM6K+35YWI55m75b2V5ZCO5YaN6K+VIikKICAgICkKCiAgICAvKioKICAgICAqIOS4i+i9veWujOaIkOWQjua4heeQhuS4tOaXtui9rOWtmOebruW9le+8iOWkuOWFi+WunueOsOWIoOmZpCB0cl8qIOWtkOebruW9le+8m+WFtuWug+W5s+WPsOm7mOiupOepuuWunueOsO+8ieOAggogICAgICogQHBhcmFtIGRpckZpZCBEb3dubG9hZExpbmsuY2xlYW51cERpckZpZCDluKblm57nmoTkuLTml7bnm67lvZUgZmlkCiAgICAgKi8KICAgIHN1c3BlbmQgZnVuIGNsZWFudXBUZW1wRGlyKGRpckZpZDogU3RyaW5nLCBjb29raWU6IFN0cmluZykge30KfQ==
+/*
+ * YunX (云析) - A network drive share-link parser and high-speed downloader for Android.
+ * Copyright (C) 2026 CYQawa
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Affero General Public License for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
+package org.linbaogu.romhub.pan.repo
+
+import org.linbaogu.romhub.pan.model.DownloadLink
+import org.linbaogu.romhub.pan.model.ShareFile
+import org.linbaogu.romhub.pan.model.ShareSession
+
+/**
+ * 分享解析仓库公共接口：夸克 / UC 共用同一套流程（token → 列表 → 转存 → 直链）。
+ */
+interface ShareResolveRepository {
+    suspend fun createSession(link: String, pwd: String?, cookie: String): Result<ShareSession>
+    suspend fun listFiles(session: ShareSession, dirFid: String, cookie: String): Result<List<ShareFile>>
+    suspend fun ensureTempDir(cookie: String): Result<String>
+    suspend fun transferFile(
+        session: ShareSession,
+        file: ShareFile,
+        toDirFid: String,
+        cookie: String
+    ): Result<String>
+    suspend fun getDownloadLink(fid: String, cookie: String): Result<DownloadLink>
+
+    /**
+     * 获取分享文件下载直链（平台差异在此收敛）：
+     * - 夸克：转存到临时目录 → 用转存后新 fid 取直链；
+     * - UC：直接用分享 fid + stoken + fid_token 取直链（无需转存）。
+     */
+    suspend fun getShareDownloadLink(
+        session: ShareSession,
+        file: ShareFile,
+        cookie: String
+    ): Result<DownloadLink>
+
+    /**
+     * 免转存取链（登录态）：不把分享文件转存到用户网盘，直接用分享凭证换下载直链 ——
+     * 少一次「建目录 → 转存 → 轮询」，不在用户网盘留临时目录，也不会撞夸克的转存去重。
+     *
+     * 默认实现回退到 [getShareDownloadLink]，行为与改动前完全一致：UC 本来就直接取链不转存，
+     * 其余平台的取链语义各自独立，不需要走这条路；目前只有夸克覆写。
+     */
+    suspend fun getShareDownloadLinkWithoutSave(
+        session: ShareSession,
+        file: ShareFile,
+        cookie: String
+    ): Result<DownloadLink> = getShareDownloadLink(session, file, cookie)
+
+    /**
+     * 未登录（游客）取分享直链：目前只有夸克/UC 实现。
+     * 返回的 [DownloadLink.guestCookie] 必须带进下载请求（服务端随取链响应下发的游客态 __pugs，
+     * 夸克缺它 412、UC 缺它 403）；不需要也不应该传账号 Cookie。
+     * 其余平台默认失败 —— 它们的取链/转存中转都依赖账号态。
+     */
+    suspend fun getGuestShareDownloadLink(
+        session: ShareSession,
+        file: ShareFile
+    ): Result<DownloadLink> = Result.failure(
+        IllegalStateException("该平台未登录时无法下载，请先登录后再试")
+    )
+
+    /**
+     * 下载完成后清理临时转存目录（夸克实现删除 tr_* 子目录；其它平台默认空实现）。
+     * @param dirFid DownloadLink.cleanupDirFid 带回的临时目录 fid
+     */
+    suspend fun cleanupTempDir(dirFid: String, cookie: String) {}
+}

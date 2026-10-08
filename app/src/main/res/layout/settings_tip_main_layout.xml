@@ -1,1 +1,21 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPFJlbGF0aXZlTGF5b3V0IHhtbG5zOmFuZHJvaWQ9Imh0dHA6Ly9zY2hlbWFzLmFuZHJvaWQuY29tL2Fway9yZXMvYW5kcm9pZCIKICAgIGFuZHJvaWQ6bGF5b3V0X3dpZHRoPSJtYXRjaF9wYXJlbnQiCiAgICBhbmRyb2lkOmxheW91dF9oZWlnaHQ9IndyYXBfY29udGVudCIKICAgIGFuZHJvaWQ6bGF5b3V0X2dyYXZpdHk9ImNlbnRlcl92ZXJ0aWNhbCIKICAgIGFuZHJvaWQ6Y2xpcENoaWxkcmVuPSJmYWxzZSIKICAgIGFuZHJvaWQ6cGFkZGluZ1RvcD0iQGRpbWVuL3NldHRpbmdzX2Jhbm5lcl90ZXh0X3BhZGRpbmdfdG9wX2FuZF9ib3R0b20iCiAgICBhbmRyb2lkOnBhZGRpbmdCb3R0b209IkBkaW1lbi9zZXR0aW5nc19iYW5uZXJfdGV4dF9wYWRkaW5nX3RvcF9hbmRfYm90dG9tIgogICAgYW5kcm9pZDpiYWNrZ3JvdW5kPSJAZHJhd2FibGUvc2V0dGluZ3NfYmFubmVyX2JnIgogICAgYW5kcm9pZDpwYWRkaW5nU3RhcnQ9IkBkaW1lbi9zZXR0aW5nc19iYW5uZXJfbHlfaW5uZXJfcGFkZGluZ19zdGFydF9hbmRfZW5kIgogICAgYW5kcm9pZDpwYWRkaW5nRW5kPSJAZGltZW4vc2V0dGluZ3NfYmFubmVyX2x5X2lubmVyX3BhZGRpbmdfc3RhcnRfYW5kX2VuZCI+CgogICAgPFRleHRWaWV3CiAgICAgICAgYW5kcm9pZDppZD0iQGFuZHJvaWQ6aWQvdGl0bGUiCiAgICAgICAgYW5kcm9pZDpsYXlvdXRfd2lkdGg9Im1hdGNoX3BhcmVudCIKICAgICAgICBhbmRyb2lkOmxheW91dF9oZWlnaHQ9IndyYXBfY29udGVudCIKICAgICAgICBhbmRyb2lkOnRleHRTaXplPSIxM3NwIgogICAgICAgIGFuZHJvaWQ6dGV4dENvbG9yPSJAY29sb3IvY29sb3Jfb25fc3VyZmFjZV90ZXJ0aWFyeSIKICAgICAgICBhbmRyb2lkOmxheW91dF9jZW50ZXJWZXJ0aWNhbD0idHJ1ZSIgLz4KCjwvUmVsYXRpdmVMYXlvdXQ+
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:clipChildren="false"
+    android:paddingTop="@dimen/settings_banner_text_padding_top_and_bottom"
+    android:paddingBottom="@dimen/settings_banner_text_padding_top_and_bottom"
+    android:background="@drawable/settings_banner_bg"
+    android:paddingStart="@dimen/settings_banner_ly_inner_padding_start_and_end"
+    android:paddingEnd="@dimen/settings_banner_ly_inner_padding_start_and_end">
+
+    <TextView
+        android:id="@android:id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:textColor="@color/color_on_surface_tertiary"
+        android:layout_centerVertical="true" />
+
+</RelativeLayout>

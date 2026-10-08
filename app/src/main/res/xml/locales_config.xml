@@ -1,1 +1,20 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPGxvY2FsZS1jb25maWcgeG1sbnM6YW5kcm9pZD0iaHR0cDovL3NjaGVtYXMuYW5kcm9pZC5jb20vYXBrL3Jlcy9hbmRyb2lkIj4KICAgIDxsb2NhbGUgYW5kcm9pZDpuYW1lPSJlbiIgLz4KICAgIDxsb2NhbGUgYW5kcm9pZDpuYW1lPSJ6aC1DTiIgLz4KICAgIDxsb2NhbGUgYW5kcm9pZDpuYW1lPSJ6aC1UVyIgLz4KICAgIDxsb2NhbGUgYW5kcm9pZDpuYW1lPSJ6aC1ISyIgLz4KICAgIDxsb2NhbGUgYW5kcm9pZDpuYW1lPSJqYS1KUCIgLz4KICAgIDxsb2NhbGUgYW5kcm9pZDpuYW1lPSJwbC1QTCIgLz4KICAgIDxsb2NhbGUgYW5kcm9pZDpuYW1lPSJydS1SVSIgLz4KICAgIDxsb2NhbGUgYW5kcm9pZDpuYW1lPSJhci1TQSIgLz4KICAgIDxsb2NhbGUgYW5kcm9pZDpuYW1lPSJlcy1FUyIgLz4KICAgIDxsb2NhbGUgYW5kcm9pZDpuYW1lPSJwdC1CUiIgLz4KICAgIDxsb2NhbGUgYW5kcm9pZDpuYW1lPSJpZC1JRCIgLz4KICAgIDxsb2NhbGUgYW5kcm9pZDpuYW1lPSJ0ci1UUiIgLz4KICAgIDxsb2NhbGUgYW5kcm9pZDpuYW1lPSJ2aS1WTiIgLz4KICAgIDxsb2NhbGUgYW5kcm9pZDpuYW1lPSJpdC1JVCIgLz4KICAgIDxsb2NhbGUgYW5kcm9pZDpuYW1lPSJkZS1ERSIgLz4KICAgIDxsb2NhbGUgYW5kcm9pZDpuYW1lPSJ1ay1VQSIgLz4KICAgIDxsb2NhbGUgYW5kcm9pZDpuYW1lPSJ6aC1NRSIgLz4KPC9sb2NhbGUtY29uZmlnPgo=
+<?xml version="1.0" encoding="utf-8"?>
+<locale-config xmlns:android="http://schemas.android.com/apk/res/android">
+    <locale android:name="en" />
+    <locale android:name="zh-CN" />
+    <locale android:name="zh-TW" />
+    <locale android:name="zh-HK" />
+    <locale android:name="ja-JP" />
+    <locale android:name="pl-PL" />
+    <locale android:name="ru-RU" />
+    <locale android:name="ar-SA" />
+    <locale android:name="es-ES" />
+    <locale android:name="pt-BR" />
+    <locale android:name="id-ID" />
+    <locale android:name="tr-TR" />
+    <locale android:name="vi-VN" />
+    <locale android:name="it-IT" />
+    <locale android:name="de-DE" />
+    <locale android:name="uk-UA" />
+    <locale android:name="zh-ME" />
+</locale-config>

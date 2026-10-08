@@ -1,1 +1,139 @@
-LyoKICogVGhpcyBmaWxlIGlzIHBhcnQgb2YgUk9NIEh1YiwgcmVsZWFzZWQgdW5kZXIgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSB2My4wLgogKgogKiDmnKzmlofku7bnp7vmpI0gLyDmlLnlhpnoh6ogSHlwZXJDZWlsZXLvvIhBR1BMLTMuMO+8jENvcHlyaWdodCAoQykgMjAyMy0yMDI2IEh5cGVyQ2VpbGVyCiAqIENvbnRyaWJ1dGlvbnPvvInvvIzmiJbkuLrlhbbnrYnku7fmm7/ouqvlrp7njrAg4oCU4oCUIOWujOaVtOadpea6kOS4jum4o+iwouingemhueebruagueebruW9lSBOT1RJQ0UubWTjgIIKICoKICogVGhpcyBwcm9ncmFtIGlzIGZyZWUgc29mdHdhcmU6IHlvdSBjYW4gcmVkaXN0cmlidXRlIGl0IGFuZC9vciBtb2RpZnkgaXQgdW5kZXIgdGhlIHRlcm1zCiAqIG9mIHRoZSBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UgYXMgcHVibGlzaGVkIGJ5IHRoZSBGcmVlIFNvZnR3YXJlIEZvdW5kYXRpb24sCiAqIGVpdGhlciB2ZXJzaW9uIDMgb2YgdGhlIExpY2Vuc2UuCiAqCiAqIFRoaXMgcHJvZ3JhbSBpcyBkaXN0cmlidXRlZCBpbiB0aGUgaG9wZSB0aGF0IGl0IHdpbGwgYmUgdXNlZnVsLCBidXQgV0lUSE9VVCBBTlkgV0FSUkFOVFk7CiAqIHdpdGhvdXQgZXZlbiB0aGUgaW1wbGllZCB3YXJyYW50eSBvZiBNRVJDSEFOVEFCSUxJVFkgb3IgRklUTkVTUyBGT1IgQSBQQVJUSUNVTEFSIFBVUlBPU0UuCiAqIFNlZSB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGZvciBtb3JlIGRldGFpbHMuCiAqCiAqIFlvdSBzaG91bGQgaGF2ZSByZWNlaXZlZCBhIGNvcHkgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBhbG9uZyB3aXRoIHRoaXMKICogcHJvZ3JhbS4gIElmIG5vdCwgc2VlIDxodHRwczovL3d3dy5nbnUub3JnL2xpY2Vuc2VzLz4uCiAqLwoKcGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLmhjLmFib3V0LmNvbnRyb2xsZXI7CgppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQ7CmltcG9ydCBhbmRyb2lkLnZpZXcuVmlldzsKaW1wb3J0IGFuZHJvaWQudmlldy5WaWV3R3JvdXA7CgppbXBvcnQgb3JnLmxpbmJhb2d1LnJvbWh1Yi5SOwoKaW1wb3J0IGZhbi5hcHBjb21wYXQuYXBwLkFjdGlvbkJhcjsKaW1wb3J0IGZhbi5vcy5CdWlsZDsKCnB1YmxpYyBjbGFzcyBCZ0VmZmVjdENvbnRyb2xsZXIgaW1wbGVtZW50cyBSdW5uYWJsZSB7CgogICAgcHJpdmF0ZSBmbG9hdFtdIGJvdW5kOwogICAgcHJpdmF0ZSBmbG9hdCBtRGVsdGFUaW1lOwogICAgcHJpdmF0ZSBsb25nIG1MYXN0R2xvYmFsVGltZTsKICAgIHByaXZhdGUgZmluYWwgVmlldyBtVGFyZ2V0OwogICAgcHJpdmF0ZSBmbG9hdCBtVGltZTsKICAgIHByaXZhdGUgZmxvYXQgbVRpbWVEaXJlY3Rpb24gPSAxLjBmOwoKICAgIC8qKiDlj6rlnKjnrKzkuIDluKfmiZPkuIDmnaHml6Xlv5fvvIzmlrnkvr/noa7orqTlhYnmlYjliLDlupXmnInmsqHmnInot5HotbfmnaXjgIIgKi8KICAgIHByaXZhdGUgYm9vbGVhbiBtTG9nZ2VkT25jZSA9IGZhbHNlOwoKICAgIEJnRWZmZWN0UGFpbnRlciBtQmdFZmZlY3RQYWludGVyOwoKICAgIHB1YmxpYyBCZ0VmZmVjdENvbnRyb2xsZXIoVmlldyB0YXJnZXQpIHsKICAgICAgICBtVGFyZ2V0ID0gdGFyZ2V0OwogICAgfQoKICAgIHB1YmxpYyB2b2lkIHN0YXJ0KCkgewogICAgICAgIGlmIChtQmdFZmZlY3RQYWludGVyID09IG51bGwpIHsKICAgICAgICAgICAgbUJnRWZmZWN0UGFpbnRlciA9IG5ldyBCZ0VmZmVjdFBhaW50ZXIobVRhcmdldC5nZXRDb250ZXh0KCkpOwogICAgICAgICAgICBtTGFzdEdsb2JhbFRpbWUgPSBTeXN0ZW0ubmFub1RpbWUoKTsKICAgICAgICAgICAgcmVzZXRUaW1lKCk7CiAgICAgICAgICAgIG1UYXJnZXQucG9zdE9uQW5pbWF0aW9uKHRoaXMpOwogICAgICAgIH0KICAgIH0KCiAgICBAT3ZlcnJpZGUKICAgIHB1YmxpYyB2b2lkIHJ1bigpIHsKICAgICAgICBpZiAobUJnRWZmZWN0UGFpbnRlciAhPSBudWxsKSB7CiAgICAgICAgICAgIHRpY2tQaW5nUG9uZygpOwogICAgICAgICAgICBpZiAobVRhcmdldC5nZXRXaWR0aCgpID4gMCAmJiBtVGFyZ2V0LmdldEhlaWdodCgpID4gMCkgewogICAgICAgICAgICAgICAgbUJnRWZmZWN0UGFpbnRlci5zZXRSZXNvbHV0aW9uKG1UYXJnZXQuZ2V0V2lkdGgoKSwgbVRhcmdldC5nZXRIZWlnaHQoKSk7CiAgICAgICAgICAgICAgICBtQmdFZmZlY3RQYWludGVyLnVwZGF0ZU1hdGVyaWFscyhtRGVsdGFUaW1lICogbVRpbWVEaXJlY3Rpb24pOwogICAgICAgICAgICAgICAgbVRhcmdldC5zZXRSZW5kZXJFZmZlY3QobUJnRWZmZWN0UGFpbnRlci5nZXRSZW5kZXJFZmZlY3QoKSk7CiAgICAgICAgICAgICAgICBtVGFyZ2V0LmludmFsaWRhdGUoKTsKICAgICAgICAgICAgICAgIGlmICghbUxvZ2dlZE9uY2UpIHsKICAgICAgICAgICAgICAgICAgICBtTG9nZ2VkT25jZSA9IHRydWU7CiAgICAgICAgICAgICAgICAgICAgYW5kcm9pZC51dGlsLkxvZy5pKCJCZ0VmZmVjdENvbnRyb2xsZXIiLCAiZmlyc3QgZnJhbWUgYXBwbGllZCwgc2l6ZT0iCiAgICAgICAgICAgICAgICAgICAgICAgICsgbVRhcmdldC5nZXRXaWR0aCgpICsgIngiICsgbVRhcmdldC5nZXRIZWlnaHQoKSArICIgYm91bmQ9IiArIGphdmEudXRpbC5BcnJheXMudG9TdHJpbmcoYm91bmQpKTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICAgICBtVGFyZ2V0LnBvc3RPbkFuaW1hdGlvbih0aGlzKTsKICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSB2b2lkIHRpY2tQaW5nUG9uZygpIHsKICAgICAgICBsb25nIG5hbm9UaW1lID0gU3lzdGVtLm5hbm9UaW1lKCk7CiAgICAgICAgbURlbHRhVGltZSA9IChmbG9hdCkgKChuYW5vVGltZSAtIG1MYXN0R2xvYmFsVGltZSkgKiAxLjBFLTlkKTsKICAgICAgICBtVGltZSA9IG1UaW1lICsgKG1EZWx0YVRpbWUgKiBtVGltZURpcmVjdGlvbik7CiAgICAgICAgaWYgKG1UaW1lRGlyZWN0aW9uID4gMC4wZikgewogICAgICAgICAgICBpZiAobVRpbWUgPj0gMTIwLjBmKSB7CiAgICAgICAgICAgICAgICBtVGltZURpcmVjdGlvbiA9IC0xLjBmOwogICAgICAgICAgICB9CiAgICAgICAgfSBlbHNlIGlmIChtVGltZSA8PSAwLjBmKSB7CiAgICAgICAgICAgIG1UaW1lRGlyZWN0aW9uID0gMS4wZjsKICAgICAgICB9CiAgICAgICAgbUxhc3RHbG9iYWxUaW1lID0gbmFub1RpbWU7CiAgICB9CgogICAgcHVibGljIHZvaWQgcmVzZXRUaW1lKCkgewogICAgICAgIG1MYXN0R2xvYmFsVGltZSA9IFN5c3RlbS5uYW5vVGltZSgpOwogICAgICAgIG1UaW1lID0gMC4wZjsKICAgICAgICBtVGltZURpcmVjdGlvbiA9IDEuMGY7CiAgICB9CgogICAgcHVibGljIHZvaWQgc3RvcCgpIHsKICAgICAgICBpZiAobUJnRWZmZWN0UGFpbnRlciAhPSBudWxsKSB7CiAgICAgICAgICAgIG1UYXJnZXQucmVtb3ZlQ2FsbGJhY2tzKHRoaXMpOwogICAgICAgICAgICBtQmdFZmZlY3RQYWludGVyLnN0b3AoKTsKICAgICAgICAgICAgbUJnRWZmZWN0UGFpbnRlciA9IG51bGw7CiAgICAgICAgICAgIG1UYXJnZXQuc2V0UmVuZGVyRWZmZWN0KG51bGwpOwogICAgICAgICAgICBtVGFyZ2V0LmludmFsaWRhdGUoKTsKICAgICAgICB9CiAgICB9CgogICAgcHVibGljIHN0YXRpYyBib29sZWFuIGlzRGFya01vZGVFbmFibGUoQ29udGV4dCBjb250ZXh0KSB7CiAgICAgICAgcmV0dXJuIChjb250ZXh0LmdldFJlc291cmNlcygpLmdldENvbmZpZ3VyYXRpb24oKS51aU1vZGUgJiA0OCkgPT0gMzI7CiAgICB9CgogICAgcHVibGljIHZvaWQgc2V0VHlwZShDb250ZXh0IGNvbnRleHQsIFZpZXcgdmlldywgQWN0aW9uQmFyIGFjdGlvbkJhcikgewogICAgICAgIHJlc2V0VGltZSgpOwogICAgICAgIGNhbGNBbmltYXRpb25Cb3VuZChjb250ZXh0LCB2aWV3LCBhY3Rpb25CYXIpOwogICAgICAgIGlmIChpc0RhcmtNb2RlRW5hYmxlKGNvbnRleHQpKSB7CiAgICAgICAgICAgIGlmIChCdWlsZC5JU19UQUJMRVQpIHsKICAgICAgICAgICAgICAgIG1CZ0VmZmVjdFBhaW50ZXIuc2V0VHlwZShCZ0VmZmVjdERhdGFNYW5hZ2VyLkRldmljZVR5cGUuVEFCTEVULCBCZ0VmZmVjdERhdGFNYW5hZ2VyLlRoZW1lTW9kZS5EQVJLLCB0aGlzLmJvdW5kKTsKICAgICAgICAgICAgICAgIHJldHVybjsKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIG1CZ0VmZmVjdFBhaW50ZXIuc2V0VHlwZShCZ0VmZmVjdERhdGFNYW5hZ2VyLkRldmljZVR5cGUuUEhPTkUsIEJnRWZmZWN0RGF0YU1hbmFnZXIuVGhlbWVNb2RlLkRBUkssIHRoaXMuYm91bmQpOwogICAgICAgICAgICAgICAgcmV0dXJuOwogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIGlmIChCdWlsZC5JU19UQUJMRVQpIHsKICAgICAgICAgICAgbUJnRWZmZWN0UGFpbnRlci5zZXRUeXBlKEJnRWZmZWN0RGF0YU1hbmFnZXIuRGV2aWNlVHlwZS5UQUJMRVQsIEJnRWZmZWN0RGF0YU1hbmFnZXIuVGhlbWVNb2RlLkxJR0hULCB0aGlzLmJvdW5kKTsKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICBtQmdFZmZlY3RQYWludGVyLnNldFR5cGUoQmdFZmZlY3REYXRhTWFuYWdlci5EZXZpY2VUeXBlLlBIT05FLCBCZ0VmZmVjdERhdGFNYW5hZ2VyLlRoZW1lTW9kZS5MSUdIVCwgdGhpcy5ib3VuZCk7CiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgdm9pZCBjYWxjQW5pbWF0aW9uQm91bmQoQ29udGV4dCBjb250ZXh0LCBWaWV3IHZpZXcsIEFjdGlvbkJhciBhY3Rpb25CYXIpIHsKICAgICAgICBmbG9hdCBoZWlnaHQgPSAoYWN0aW9uQmFyICE9IG51bGwgPyBhY3Rpb25CYXIuZ2V0SGVpZ2h0KCkgKyAwLjBmIDogMC4wZikgKyBjb250ZXh0LmdldFJlc291cmNlcygpLmdldERpbWVuc2lvblBpeGVsU2l6ZShSLmRpbWVuLmFwcF9sb2dvX2FyZWFfaGVpZ2h0KTsKICAgICAgICBmbG9hdCBoZWlnaHQyID0gaGVpZ2h0IC8gKChWaWV3R3JvdXApIHZpZXcuZ2V0UGFyZW50KCkpLmdldEhlaWdodCgpOwogICAgICAgIGZsb2F0IHdpZHRoID0gKChWaWV3R3JvdXApIHZpZXcuZ2V0UGFyZW50KCkpLmdldFdpZHRoKCk7CiAgICAgICAgaWYgKHdpZHRoIDw9IGhlaWdodCkgewogICAgICAgICAgICB0aGlzLmJvdW5kID0gbmV3IGZsb2F0W117MC4wZiwgMS4wZiAtIGhlaWdodDIsIDEuMGYsIGhlaWdodDJ9OwogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIHRoaXMuYm91bmQgPSBuZXcgZmxvYXRbXXsoKHdpZHRoIC0gaGVpZ2h0KSAvIDIuMGYpIC8gd2lkdGgsIDEuMGYgLSBoZWlnaHQyLCBoZWlnaHQgLyB3aWR0aCwgaGVpZ2h0Mn07CiAgICAgICAgfQogICAgfQp9Cg==
+/*
+ * This file is part of ROM Hub, released under the GNU Affero General Public License v3.0.
+ *
+ * 本文件移植 / 改写自 HyperCeiler（AGPL-3.0，Copyright (C) 2023-2026 HyperCeiler
+ * Contributions），或为其等价替身实现 —— 完整来源与鸣谢见项目根目录 NOTICE.md。
+ *
+ * This program is free software: you can redistribute it and/or modify it under the terms
+ * of the GNU Affero General Public License as published by the Free Software Foundation,
+ * either version 3 of the License.
+ *
+ * This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+ * without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * See the GNU Affero General Public License for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License along with this
+ * program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
+package org.linbaogu.romhub.hc.about.controller;
+
+import android.content.Context;
+import android.view.View;
+import android.view.ViewGroup;
+
+import org.linbaogu.romhub.R;
+
+import fan.appcompat.app.ActionBar;
+import fan.os.Build;
+
+public class BgEffectController implements Runnable {
+
+    private float[] bound;
+    private float mDeltaTime;
+    private long mLastGlobalTime;
+    private final View mTarget;
+    private float mTime;
+    private float mTimeDirection = 1.0f;
+
+    /** 只在第一帧打一条日志，方便确认光效到底有没有跑起来。 */
+    private boolean mLoggedOnce = false;
+
+    BgEffectPainter mBgEffectPainter;
+
+    public BgEffectController(View target) {
+        mTarget = target;
+    }
+
+    public void start() {
+        if (mBgEffectPainter == null) {
+            mBgEffectPainter = new BgEffectPainter(mTarget.getContext());
+            mLastGlobalTime = System.nanoTime();
+            resetTime();
+            mTarget.postOnAnimation(this);
+        }
+    }
+
+    @Override
+    public void run() {
+        if (mBgEffectPainter != null) {
+            tickPingPong();
+            if (mTarget.getWidth() > 0 && mTarget.getHeight() > 0) {
+                mBgEffectPainter.setResolution(mTarget.getWidth(), mTarget.getHeight());
+                mBgEffectPainter.updateMaterials(mDeltaTime * mTimeDirection);
+                mTarget.setRenderEffect(mBgEffectPainter.getRenderEffect());
+                mTarget.invalidate();
+                if (!mLoggedOnce) {
+                    mLoggedOnce = true;
+                    android.util.Log.i("BgEffectController", "first frame applied, size="
+                        + mTarget.getWidth() + "x" + mTarget.getHeight() + " bound=" + java.util.Arrays.toString(bound));
+                }
+            }
+            mTarget.postOnAnimation(this);
+        }
+    }
+
+    private void tickPingPong() {
+        long nanoTime = System.nanoTime();
+        mDeltaTime = (float) ((nanoTime - mLastGlobalTime) * 1.0E-9d);
+        mTime = mTime + (mDeltaTime * mTimeDirection);
+        if (mTimeDirection > 0.0f) {
+            if (mTime >= 120.0f) {
+                mTimeDirection = -1.0f;
+            }
+        } else if (mTime <= 0.0f) {
+            mTimeDirection = 1.0f;
+        }
+        mLastGlobalTime = nanoTime;
+    }
+
+    public void resetTime() {
+        mLastGlobalTime = System.nanoTime();
+        mTime = 0.0f;
+        mTimeDirection = 1.0f;
+    }
+
+    public void stop() {
+        if (mBgEffectPainter != null) {
+            mTarget.removeCallbacks(this);
+            mBgEffectPainter.stop();
+            mBgEffectPainter = null;
+            mTarget.setRenderEffect(null);
+            mTarget.invalidate();
+        }
+    }
+
+    public static boolean isDarkModeEnable(Context context) {
+        return (context.getResources().getConfiguration().uiMode & 48) == 32;
+    }
+
+    public void setType(Context context, View view, ActionBar actionBar) {
+        resetTime();
+        calcAnimationBound(context, view, actionBar);
+        if (isDarkModeEnable(context)) {
+            if (Build.IS_TABLET) {
+                mBgEffectPainter.setType(BgEffectDataManager.DeviceType.TABLET, BgEffectDataManager.ThemeMode.DARK, this.bound);
+                return;
+            } else {
+                mBgEffectPainter.setType(BgEffectDataManager.DeviceType.PHONE, BgEffectDataManager.ThemeMode.DARK, this.bound);
+                return;
+            }
+        }
+        if (Build.IS_TABLET) {
+            mBgEffectPainter.setType(BgEffectDataManager.DeviceType.TABLET, BgEffectDataManager.ThemeMode.LIGHT, this.bound);
+        } else {
+            mBgEffectPainter.setType(BgEffectDataManager.DeviceType.PHONE, BgEffectDataManager.ThemeMode.LIGHT, this.bound);
+        }
+    }
+
+    private void calcAnimationBound(Context context, View view, ActionBar actionBar) {
+        float height = (actionBar != null ? actionBar.getHeight() + 0.0f : 0.0f) + context.getResources().getDimensionPixelSize(R.dimen.app_logo_area_height);
+        float height2 = height / ((ViewGroup) view.getParent()).getHeight();
+        float width = ((ViewGroup) view.getParent()).getWidth();
+        if (width <= height) {
+            this.bound = new float[]{0.0f, 1.0f - height2, 1.0f, height2};
+        } else {
+            this.bound = new float[]{((width - height) / 2.0f) / width, 1.0f - height2, height / width, height2};
+        }
+    }
+}

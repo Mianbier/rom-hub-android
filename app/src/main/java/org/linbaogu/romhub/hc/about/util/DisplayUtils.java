@@ -1,1 +1,80 @@
-LyoKICogVGhpcyBmaWxlIGlzIHBhcnQgb2YgSHlwZXJDZWlsZXIuCgogKiBIeXBlckNlaWxlciBpcyBmcmVlIHNvZnR3YXJlOiB5b3UgY2FuIHJlZGlzdHJpYnV0ZSBpdCBhbmQvb3IgbW9kaWZ5CiAqIGl0IHVuZGVyIHRoZSB0ZXJtcyBvZiB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGFzCiAqIHB1Ymxpc2hlZCBieSB0aGUgRnJlZSBTb2Z0d2FyZSBGb3VuZGF0aW9uLCBlaXRoZXIgdmVyc2lvbiAzIG9mIHRoZQogKiBMaWNlbnNlLgoKICogVGhpcyBwcm9ncmFtIGlzIGRpc3RyaWJ1dGVkIGluIHRoZSBob3BlIHRoYXQgaXQgd2lsbCBiZSB1c2VmdWwsCiAqIGJ1dCBXSVRIT1VUIEFOWSBXQVJSQU5UWTsgd2l0aG91dCBldmVuIHRoZSBpbXBsaWVkIHdhcnJhbnR5IG9mCiAqIE1FUkNIQU5UQUJJTElUWSBvciBGSVRORVNTIEZPUiBBIFBBUlRJQ1VMQVIgUFVSUE9TRS4gIFNlZSB0aGUKICogR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGZvciBtb3JlIGRldGFpbHMuCgogKiBZb3Ugc2hvdWxkIGhhdmUgcmVjZWl2ZWQgYSBjb3B5IG9mIHRoZSBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UKICogYWxvbmcgd2l0aCB0aGlzIHByb2dyYW0uICBJZiBub3QsIHNlZSA8aHR0cHM6Ly93d3cuZ251Lm9yZy9saWNlbnNlcy8+LgoKICogQ29weXJpZ2h0IChDKSAyMDIzLTIwMjYgSHlwZXJDZWlsZXIgQ29udHJpYnV0aW9ucwogKi8KcGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLmhjLnV0aWw7CgoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0OwppbXBvcnQgYW5kcm9pZC5jb250ZW50LnJlcy5SZXNvdXJjZXM7CmltcG9ydCBhbmRyb2lkLnV0aWwuRGlzcGxheU1ldHJpY3M7CgovKioKICog5pi+56S65bel5YW357G7CiAqIOaPkOS+myBkcC9zcC9weCDljZXkvY3ovazmjaLlip/og70KICovCnB1YmxpYyBjbGFzcyBEaXNwbGF5VXRpbHMgewoKICAgIHB1YmxpYyBzdGF0aWMgZmxvYXQgbURlbnNpdHk7CiAgICBwdWJsaWMgc3RhdGljIGludCBtRGVuc2l0eURwaTsKICAgIHB1YmxpYyBzdGF0aWMgRGlzcGxheU1ldHJpY3MgbURpc3BsYXlNZXRyaWNzOwogICAgcHVibGljIHN0YXRpYyBpbnQgbUhlaWdodERwczsKICAgIHB1YmxpYyBzdGF0aWMgaW50IG1IZWlnaHRQaXhlbHM7CiAgICBwdWJsaWMgc3RhdGljIGludCBtV2lkdGhEcHM7CiAgICBwdWJsaWMgc3RhdGljIGludCBtV2lkdGhQaXhlbHM7CgogICAgcHVibGljIHN0YXRpYyB2b2lkIGdldEFuZHJvaWRTY3JlZW5Qcm9wZXJ0eShDb250ZXh0IGNvbnRleHQpIHsKICAgICAgICBtRGlzcGxheU1ldHJpY3MgPSBuZXcgRGlzcGxheU1ldHJpY3MoKTsKICAgICAgICBjb250ZXh0LmdldERpc3BsYXkoKS5nZXRNZXRyaWNzKG1EaXNwbGF5TWV0cmljcyk7CiAgICAgICAgbVdpZHRoUGl4ZWxzID0gbURpc3BsYXlNZXRyaWNzLndpZHRoUGl4ZWxzOwogICAgICAgIG1IZWlnaHRQaXhlbHMgPSBtRGlzcGxheU1ldHJpY3MuaGVpZ2h0UGl4ZWxzOwogICAgICAgIG1EZW5zaXR5ID0gbURpc3BsYXlNZXRyaWNzLmRlbnNpdHk7CiAgICAgICAgbURlbnNpdHlEcGkgPSBtRGlzcGxheU1ldHJpY3MuZGVuc2l0eURwaTsKICAgICAgICBmbG9hdCBmID0gbURlbnNpdHk7CiAgICAgICAgbVdpZHRoRHBzID0gKGludCkgKChmbG9hdCkgbVdpZHRoUGl4ZWxzIC8gZik7CiAgICAgICAgbUhlaWdodERwcyA9IChpbnQpICgoZmxvYXQpIG1IZWlnaHRQaXhlbHMgLyBmKTsKICAgIH0KCiAgICBwdWJsaWMgc3RhdGljIGludCBkcDJweChpbnQgZGlwVmFsdWUpIHsKICAgICAgICByZXR1cm4gZHAycHgoKGZsb2F0KSBkaXBWYWx1ZSk7CiAgICB9CgogICAgcHVibGljIHN0YXRpYyBpbnQgZHAycHgoZmxvYXQgZGlwVmFsdWUpIHsKICAgICAgICBmaW5hbCBmbG9hdCBzY2FsZSA9IFJlc291cmNlcy5nZXRTeXN0ZW0oKS5nZXREaXNwbGF5TWV0cmljcygpLmRlbnNpdHk7CiAgICAgICAgcmV0dXJuIChpbnQpIChkaXBWYWx1ZSAqIHNjYWxlICsgMC41Zik7CiAgICB9CgogICAgcHVibGljIHN0YXRpYyBpbnQgZHAycHgoQ29udGV4dCBjb250ZXh0LCBmbG9hdCBkaXBWYWx1ZSkgewogICAgICAgIGZpbmFsIGZsb2F0IHNjYWxlID0gY29udGV4dC5nZXRSZXNvdXJjZXMoKS5nZXREaXNwbGF5TWV0cmljcygpLmRlbnNpdHk7CiAgICAgICAgcmV0dXJuIChpbnQpIChkaXBWYWx1ZSAqIHNjYWxlICsgMC41Zik7CiAgICB9CgogICAgcHVibGljIHN0YXRpYyBpbnQgc3AycHgoZmxvYXQgc3BWYWx1ZSkgewogICAgICAgIGZpbmFsIGZsb2F0IHNjYWxlID0gUmVzb3VyY2VzLmdldFN5c3RlbSgpLmdldERpc3BsYXlNZXRyaWNzKCkuc2NhbGVkRGVuc2l0eTsKICAgICAgICByZXR1cm4gKGludCkgKHNwVmFsdWUgKiBzY2FsZSArIDAuNWYpOwogICAgfQoKICAgIHB1YmxpYyBzdGF0aWMgaW50IHNwMnB4KENvbnRleHQgY29udGV4dCwgZmxvYXQgc3BWYWx1ZSkgewogICAgICAgIGZpbmFsIGZsb2F0IHNjYWxlID0gY29udGV4dC5nZXRSZXNvdXJjZXMoKS5nZXREaXNwbGF5TWV0cmljcygpLnNjYWxlZERlbnNpdHk7CiAgICAgICAgcmV0dXJuIChpbnQpIChzcFZhbHVlICogc2NhbGUgKyAwLjVmKTsKICAgIH0KCiAgICBwdWJsaWMgc3RhdGljIGludCBweDJkcChmbG9hdCBweFZhbHVlKSB7CiAgICAgICAgZmluYWwgZmxvYXQgc2NhbGUgPSBSZXNvdXJjZXMuZ2V0U3lzdGVtKCkuZ2V0RGlzcGxheU1ldHJpY3MoKS5kZW5zaXR5OwogICAgICAgIHJldHVybiAoaW50KSAocHhWYWx1ZSAvIHNjYWxlICsgMC41Zik7CiAgICB9Cn0K
+/*
+ * This file is part of HyperCeiler.
+
+ * HyperCeiler is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as
+ * published by the Free Software Foundation, either version 3 of the
+ * License.
+
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Affero General Public License for more details.
+
+ * You should have received a copy of the GNU Affero General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+ * Copyright (C) 2023-2026 HyperCeiler Contributions
+ */
+package org.linbaogu.romhub.hc.util;
+
+
+import android.content.Context;
+import android.content.res.Resources;
+import android.util.DisplayMetrics;
+
+/**
+ * 显示工具类
+ * 提供 dp/sp/px 单位转换功能
+ */
+public class DisplayUtils {
+
+    public static float mDensity;
+    public static int mDensityDpi;
+    public static DisplayMetrics mDisplayMetrics;
+    public static int mHeightDps;
+    public static int mHeightPixels;
+    public static int mWidthDps;
+    public static int mWidthPixels;
+
+    public static void getAndroidScreenProperty(Context context) {
+        mDisplayMetrics = new DisplayMetrics();
+        context.getDisplay().getMetrics(mDisplayMetrics);
+        mWidthPixels = mDisplayMetrics.widthPixels;
+        mHeightPixels = mDisplayMetrics.heightPixels;
+        mDensity = mDisplayMetrics.density;
+        mDensityDpi = mDisplayMetrics.densityDpi;
+        float f = mDensity;
+        mWidthDps = (int) ((float) mWidthPixels / f);
+        mHeightDps = (int) ((float) mHeightPixels / f);
+    }
+
+    public static int dp2px(int dipValue) {
+        return dp2px((float) dipValue);
+    }
+
+    public static int dp2px(float dipValue) {
+        final float scale = Resources.getSystem().getDisplayMetrics().density;
+        return (int) (dipValue * scale + 0.5f);
+    }
+
+    public static int dp2px(Context context, float dipValue) {
+        final float scale = context.getResources().getDisplayMetrics().density;
+        return (int) (dipValue * scale + 0.5f);
+    }
+
+    public static int sp2px(float spValue) {
+        final float scale = Resources.getSystem().getDisplayMetrics().scaledDensity;
+        return (int) (spValue * scale + 0.5f);
+    }
+
+    public static int sp2px(Context context, float spValue) {
+        final float scale = context.getResources().getDisplayMetrics().scaledDensity;
+        return (int) (spValue * scale + 0.5f);
+    }
+
+    public static int px2dp(float pxValue) {
+        final float scale = Resources.getSystem().getDisplayMetrics().density;
+        return (int) (pxValue / scale + 0.5f);
+    }
+}

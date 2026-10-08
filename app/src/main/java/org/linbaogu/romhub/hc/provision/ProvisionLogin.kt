@@ -1,1 +1,142 @@
-LyoKICogVGhpcyBmaWxlIGlzIHBhcnQgb2YgUk9NIEh1YiwgcmVsZWFzZWQgdW5kZXIgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSB2My4wLgogKgogKiDmnKzmlofku7bnp7vmpI0gLyDmlLnlhpnoh6ogSHlwZXJDZWlsZXLvvIhBR1BMLTMuMO+8jENvcHlyaWdodCAoQykgMjAyMy0yMDI2IEh5cGVyQ2VpbGVyCiAqIENvbnRyaWJ1dGlvbnPvvInvvIzmiJbkuLrlhbbnrYnku7fmm7/ouqvlrp7njrAg4oCU4oCUIOWujOaVtOadpea6kOS4jum4o+iwouingemhueebruagueebruW9lSBOT1RJQ0UubWTjgIIKICoKICogVGhpcyBwcm9ncmFtIGlzIGZyZWUgc29mdHdhcmU6IHlvdSBjYW4gcmVkaXN0cmlidXRlIGl0IGFuZC9vciBtb2RpZnkgaXQgdW5kZXIgdGhlIHRlcm1zCiAqIG9mIHRoZSBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UgYXMgcHVibGlzaGVkIGJ5IHRoZSBGcmVlIFNvZnR3YXJlIEZvdW5kYXRpb24sCiAqIGVpdGhlciB2ZXJzaW9uIDMgb2YgdGhlIExpY2Vuc2UuCiAqCiAqIFRoaXMgcHJvZ3JhbSBpcyBkaXN0cmlidXRlZCBpbiB0aGUgaG9wZSB0aGF0IGl0IHdpbGwgYmUgdXNlZnVsLCBidXQgV0lUSE9VVCBBTlkgV0FSUkFOVFk7CiAqIHdpdGhvdXQgZXZlbiB0aGUgaW1wbGllZCB3YXJyYW50eSBvZiBNRVJDSEFOVEFCSUxJVFkgb3IgRklUTkVTUyBGT1IgQSBQQVJUSUNVTEFSIFBVUlBPU0UuCiAqIFNlZSB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGZvciBtb3JlIGRldGFpbHMuCiAqCiAqIFlvdSBzaG91bGQgaGF2ZSByZWNlaXZlZCBhIGNvcHkgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBhbG9uZyB3aXRoIHRoaXMKICogcHJvZ3JhbS4gIElmIG5vdCwgc2VlIDxodHRwczovL3d3dy5nbnUub3JnL2xpY2Vuc2VzLz4uCiAqLwoKcGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLmhjLnByb3Zpc2lvbgoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuQ29yb3V0aW5lU2NvcGUKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5EaXNwYXRjaGVycwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLlN1cGVydmlzb3JKb2IKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5sYXVuY2gKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy53aXRoQ29udGV4dAppbXBvcnQgb3JnLmxpbmJhb2d1LnJvbWh1Yi5jb3JlLlByZWZzCmltcG9ydCBvcmcubGluYmFvZ3Uucm9taHViLmNvcmUuUm9sZQppbXBvcnQgb3JnLmxpbmJhb2d1LnJvbWh1Yi5jb3JlLlNlc3Npb24KaW1wb3J0IG9yZy5saW5iYW9ndS5yb21odWIuZGF0YS5BcGkKaW1wb3J0IG9yZy5saW5iYW9ndS5yb21odWIuZGF0YS5EZXZBcHBseVJlcQoKLyoqCiAqIOW8leWvvOa1geeoi+mHjOOAjOeZu+W9leOAjei/meS4gOatpeeahOahpeOAggogKgogKiDkuLrku4DkuYjopoHljZXni6zkuIDkuKogS290bGluIOaWh+S7tu+8mmBBcGkuZGV2TG9naW5gIOaYryBzdXNwZW5kIOWHveaVsO+8jOS7jiBKYXZhIOeahAogKiBGcmFnbWVudCDph4zosIPopoHoh6rlt7HpgKAgQ29udGludWF0aW9u77yM5aSq5LiR77yb6L+Z6YeM5YyF5LiA5bGC5Zue6LCD5byP55qE6Z2Z5oCB5pa55rOV77yMCiAqIEphdmEg5L6n55u05o6lIGBQcm92aXNpb25Mb2dpbi5kZXYoY3R4LCB1c2VyLCBwd2QsIGVyciAtPiB7Li4ufSlgIOWwseihjOOAggogKgogKiDnmbvlvZXnu5Pmnpznm7TmjqXlhpnov5sgW1ByZWZzXSDnmoTkvJror53vvIjlkozkuLsgQXBwIOeUqOeahOaYr+WQjOS4gOS7ve+8ie+8jAogKiDmiYDku6XlvJXlr7zpobXnmbvlrozvvIzov5vkuLvnlYzpnaLlsLHlt7Lnu4/mmK/nmbvlvZXmgIHkuobjgIIKICovCm9iamVjdCBQcm92aXNpb25Mb2dpbiB7CgogICAgcHJpdmF0ZSB2YWwgc2NvcGUgPSBDb3JvdXRpbmVTY29wZShTdXBlcnZpc29ySm9iKCkgKyBEaXNwYXRjaGVycy5NYWluLmltbWVkaWF0ZSkKCiAgICAvKiog5b2T5YmN5piv5LiN5piv5bey57uP5pyJ6Lqr5Lu95LqG77yI5ri45a6i5Lmf566X77yJ44CCICovCiAgICBASnZtU3RhdGljCiAgICBmdW4gaXNMb2dnZWRJbihjdHg6IENvbnRleHQpOiBCb29sZWFuID0gUHJlZnMuc2Vzc2lvbihjdHgpLnJvbGUgIT0gUm9sZS5OT05FCgogICAgLyoqIOa4uOWuou+8muebtOaOpeWGmeS8muivne+8jOS4jemcgOimgee9kee7nOOAgiAqLwogICAgQEp2bVN0YXRpYwogICAgZnVuIGd1ZXN0KGN0eDogQ29udGV4dCkgewogICAgICAgIFByZWZzLnNldFNlc3Npb24oY3R4LCBTZXNzaW9uKHJvbGUgPSBSb2xlLkdVRVNUKSkKICAgIH0KCiAgICAvKioKICAgICAqIOW8gOWPkeiAhei0puWPt+eZu+W9leOAggogICAgICogQHBhcmFtIGNiIOWbnuiwg+WcqOS4u+e6v+eoi++8m2BudWxsYCA9IOaIkOWKn++8jOWQpuWImeaYr+mUmeivr+aWh+ahiOOAggogICAgICovCiAgICBASnZtU3RhdGljCiAgICBmdW4gZGV2KGN0eDogQ29udGV4dCwgdXNlcm5hbWU6IFN0cmluZywgcGFzc3dvcmQ6IFN0cmluZywgY2I6IChTdHJpbmc/KSAtPiBVbml0KSB7CiAgICAgICAgdmFsIGFwcEN0eCA9IGN0eC5hcHBsaWNhdGlvbkNvbnRleHQKICAgICAgICBpZiAodXNlcm5hbWUuaXNCbGFuaygpIHx8IHBhc3N3b3JkLmlzQmxhbmsoKSkgewogICAgICAgICAgICBjYigi6LSm5Y+35ZKM5a+G56CB6YO95LiN6IO95Li656m6IikKICAgICAgICAgICAgcmV0dXJuCiAgICAgICAgfQogICAgICAgIHNjb3BlLmxhdW5jaCB7CiAgICAgICAgICAgIHZhbCBlcnIgPSB3aXRoQ29udGV4dChEaXNwYXRjaGVycy5JTykgewogICAgICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgICAgICB2YWwgciA9IEFwaS5kZXZMb2dpbihhcHBDdHgsIHVzZXJuYW1lLnRyaW0oKSwgcGFzc3dvcmQpCiAgICAgICAgICAgICAgICAgICAgaWYgKCFyLm9rIHx8IHIudG9rZW4uaXNCbGFuaygpKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIHIuZXJyb3IuaWZCbGFuayB7ICLotKblj7fmiJblr4bnoIHplJnor6/vvIzmiJbotKblj7fov5jmsqHpgJrov4flrqHmoLgiIH0KICAgICAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgICAgICBQcmVmcy5zZXRTZXNzaW9uKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgYXBwQ3R4LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgU2Vzc2lvbigKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICByb2xlID0gUm9sZS5ERVYsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdXNlcm5hbWUgPSByLnVzZXJuYW1lLmlmQmxhbmsgeyB1c2VybmFtZS50cmltKCkgfSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0b2tlbiA9IHIudG9rZW4sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgICAgIG51bGwKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgICAgICBlLm1lc3NhZ2UgPzogIue9kee7nOW8guW4uCIKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICAgICBjYihlcnIpCiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICog5o+Q5LqkKirlvIDlj5HogIXotKblj7fnlLPor7cqKuOAguermemVv+imgeaxgueahOWbm+agt++8mui0puWPt++8iOmCrueuse+8iS8g5ZCN56ewIC8g6YW35a6J5ZCNIC8g5a+G56CB44CCCiAgICAgKgogICAgICog5pys5Zyw5YWI5YGa5LiA6YGN5qC85byP5qCh6aqM77yM55yB5b6X55m96LeR5LiA6Laf572R57uc5YaN6KKr5pyN5Yqh56uv5omT5Zue5p2l44CCCiAgICAgKiBAcGFyYW0gY2Ig5Zue6LCD5Zyo5Li757q/56iL77ybYG51bGxgID0g5oiQ5Yqf77yM5ZCm5YiZ5piv6ZSZ6K+v5paH5qGI44CCCiAgICAgKi8KICAgIEBKdm1TdGF0aWMKICAgIGZ1biBhcHBseSgKICAgICAgICBjdHg6IENvbnRleHQsCiAgICAgICAgZW1haWw6IFN0cmluZywKICAgICAgICBuYW1lOiBTdHJpbmcsCiAgICAgICAgY29vbGFwazogU3RyaW5nLAogICAgICAgIHBhc3N3b3JkOiBTdHJpbmcsCiAgICAgICAgY2I6IChTdHJpbmc/KSAtPiBVbml0LAogICAgKSB7CiAgICAgICAgdmFsIGFwcEN0eCA9IGN0eC5hcHBsaWNhdGlvbkNvbnRleHQKICAgICAgICB2YWwgbWFpbCA9IGVtYWlsLnRyaW0oKS5sb3dlcmNhc2UoKQogICAgICAgIHZhbCBlcnIgPSB3aGVuIHsKICAgICAgICAgICAgIkAiICFpbiBtYWlsIHx8ICIuIiAhaW4gbWFpbC5zdWJzdHJpbmdBZnRlcigiQCIpIHx8ICIgIiBpbiBtYWlsIC0+CiAgICAgICAgICAgICAgICAi6LSm5Y+36KaB5aGr6YKu566x77yM5L6L5aaCIHlvdUBleGFtcGxlLmNvbSIKICAgICAgICAgICAgbmFtZS5pc0JsYW5rKCkgLT4gIuivt+Whq+WGmeWQjeensCIKICAgICAgICAgICAgY29vbGFway5pc0JsYW5rKCkgLT4gIuivt+Whq+WGmemFt+WuieWQjSIKICAgICAgICAgICAgcGFzc3dvcmQubGVuZ3RoIDwgNiAtPiAi5a+G56CB6Iez5bCRIDYg5L2NIgogICAgICAgICAgICBlbHNlIC0+IG51bGwKICAgICAgICB9CiAgICAgICAgaWYgKGVyciAhPSBudWxsKSB7CiAgICAgICAgICAgIGNiKGVycikKICAgICAgICAgICAgcmV0dXJuCiAgICAgICAgfQogICAgICAgIHNjb3BlLmxhdW5jaCB7CiAgICAgICAgICAgIHZhbCBlID0gd2l0aENvbnRleHQoRGlzcGF0Y2hlcnMuSU8pIHsKICAgICAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICAgICAgdmFsIHIgPSBBcGkuZGV2QXBwbHkoCiAgICAgICAgICAgICAgICAgICAgICAgIGFwcEN0eCwKICAgICAgICAgICAgICAgICAgICAgICAgRGV2QXBwbHlSZXEoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB1c2VybmFtZSA9IG1haWwsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBwYXNzd29yZCA9IHBhc3N3b3JkLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgbmFtZSA9IG5hbWUudHJpbSgpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgY29vbGFwayA9IGNvb2xhcGsudHJpbSgpLAogICAgICAgICAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICBpZiAoci5vaykgbnVsbCBlbHNlIHIuZXJyb3IuaWZCbGFuayB7ICLnlLPor7flpLHotKUiIH0KICAgICAgICAgICAgICAgIH0gY2F0Y2ggKGV4OiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgICAgICBleC5tZXNzYWdlID86ICLnvZHnu5zlvILluLgiCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgY2IoZSkKICAgICAgICB9CiAgICB9Cn0K
+/*
+ * This file is part of ROM Hub, released under the GNU Affero General Public License v3.0.
+ *
+ * 本文件移植 / 改写自 HyperCeiler（AGPL-3.0，Copyright (C) 2023-2026 HyperCeiler
+ * Contributions），或为其等价替身实现 —— 完整来源与鸣谢见项目根目录 NOTICE.md。
+ *
+ * This program is free software: you can redistribute it and/or modify it under the terms
+ * of the GNU Affero General Public License as published by the Free Software Foundation,
+ * either version 3 of the License.
+ *
+ * This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+ * without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * See the GNU Affero General Public License for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License along with this
+ * program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
+package org.linbaogu.romhub.hc.provision
+
+import android.content.Context
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.SupervisorJob
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
+import org.linbaogu.romhub.core.Prefs
+import org.linbaogu.romhub.core.Role
+import org.linbaogu.romhub.core.Session
+import org.linbaogu.romhub.data.Api
+import org.linbaogu.romhub.data.DevApplyReq
+
+/**
+ * 引导流程里「登录」这一步的桥。
+ *
+ * 为什么要单独一个 Kotlin 文件：`Api.devLogin` 是 suspend 函数，从 Java 的
+ * Fragment 里调要自己造 Continuation，太丑；这里包一层回调式的静态方法，
+ * Java 侧直接 `ProvisionLogin.dev(ctx, user, pwd, err -> {...})` 就行。
+ *
+ * 登录结果直接写进 [Prefs] 的会话（和主 App 用的是同一份），
+ * 所以引导页登完，进主界面就已经是登录态了。
+ */
+object ProvisionLogin {
+
+    private val scope = CoroutineScope(SupervisorJob() + Dispatchers.Main.immediate)
+
+    /** 当前是不是已经有身份了（游客也算）。 */
+    @JvmStatic
+    fun isLoggedIn(ctx: Context): Boolean = Prefs.session(ctx).role != Role.NONE
+
+    /** 游客：直接写会话，不需要网络。 */
+    @JvmStatic
+    fun guest(ctx: Context) {
+        Prefs.setSession(ctx, Session(role = Role.GUEST))
+    }
+
+    /**
+     * 开发者账号登录。
+     * @param cb 回调在主线程；`null` = 成功，否则是错误文案。
+     */
+    @JvmStatic
+    fun dev(ctx: Context, username: String, password: String, cb: (String?) -> Unit) {
+        val appCtx = ctx.applicationContext
+        if (username.isBlank() || password.isBlank()) {
+            cb("账号和密码都不能为空")
+            return
+        }
+        scope.launch {
+            val err = withContext(Dispatchers.IO) {
+                try {
+                    val r = Api.devLogin(appCtx, username.trim(), password)
+                    if (!r.ok || r.token.isBlank()) {
+                        r.error.ifBlank { "账号或密码错误，或账号还没通过审核" }
+                    } else {
+                        Prefs.setSession(
+                            appCtx,
+                            Session(
+                                role = Role.DEV,
+                                username = r.username.ifBlank { username.trim() },
+                                token = r.token,
+                            ),
+                        )
+                        null
+                    }
+                } catch (e: Exception) {
+                    e.message ?: "网络异常"
+                }
+            }
+            cb(err)
+        }
+    }
+
+    /**
+     * 提交**开发者账号申请**。站长要求的四样：账号（邮箱）/ 名称 / 酷安名 / 密码。
+     *
+     * 本地先做一遍格式校验，省得白跑一趟网络再被服务端打回来。
+     * @param cb 回调在主线程；`null` = 成功，否则是错误文案。
+     */
+    @JvmStatic
+    fun apply(
+        ctx: Context,
+        email: String,
+        name: String,
+        coolapk: String,
+        password: String,
+        cb: (String?) -> Unit,
+    ) {
+        val appCtx = ctx.applicationContext
+        val mail = email.trim().lowercase()
+        val err = when {
+            "@" !in mail || "." !in mail.substringAfter("@") || " " in mail ->
+                "账号要填邮箱，例如 you@example.com"
+            name.isBlank() -> "请填写名称"
+            coolapk.isBlank() -> "请填写酷安名"
+            password.length < 6 -> "密码至少 6 位"
+            else -> null
+        }
+        if (err != null) {
+            cb(err)
+            return
+        }
+        scope.launch {
+            val e = withContext(Dispatchers.IO) {
+                try {
+                    val r = Api.devApply(
+                        appCtx,
+                        DevApplyReq(
+                            username = mail,
+                            password = password,
+                            name = name.trim(),
+                            coolapk = coolapk.trim(),
+                        ),
+                    )
+                    if (r.ok) null else r.error.ifBlank { "申请失败" }
+                } catch (ex: Exception) {
+                    ex.message ?: "网络异常"
+                }
+            }
+            cb(e)
+        }
+    }
+}

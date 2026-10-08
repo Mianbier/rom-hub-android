@@ -1,1 +1,54 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLQogIH4gVGhpcyBmaWxlIGlzIHBhcnQgb2YgSHlwZXJDZWlsZXIuCiAgfgogIH4gSHlwZXJDZWlsZXIgaXMgZnJlZSBzb2Z0d2FyZTogeW91IGNhbiByZWRpc3RyaWJ1dGUgaXQgYW5kL29yIG1vZGlmeQogIH4gaXQgdW5kZXIgdGhlIHRlcm1zIG9mIHRoZSBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UgYXMKICB+IHB1Ymxpc2hlZCBieSB0aGUgRnJlZSBTb2Z0d2FyZSBGb3VuZGF0aW9uLCBlaXRoZXIgdmVyc2lvbiAzIG9mIHRoZQogIH4gTGljZW5zZS4KICB+CiAgfiBUaGlzIHByb2dyYW0gaXMgZGlzdHJpYnV0ZWQgaW4gdGhlIGhvcGUgdGhhdCBpdCB3aWxsIGJlIHVzZWZ1bCwKICB+IGJ1dCBXSVRIT1VUIEFOWSBXQVJSQU5UWTsgd2l0aG91dCBldmVuIHRoZSBpbXBsaWVkIHdhcnJhbnR5IG9mCiAgfiBNRVJDSEFOVEFCSUxJVFkgb3IgRklUTkVTUyBGT1IgQSBQQVJUSUNVTEFSIFBVUlBPU0UuICBTZWUgdGhlCiAgfiBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UgZm9yIG1vcmUgZGV0YWlscy4KICB+CiAgfiBZb3Ugc2hvdWxkIGhhdmUgcmVjZWl2ZWQgYSBjb3B5IG9mIHRoZSBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UKICB+IGFsb25nIHdpdGggdGhpcyBwcm9ncmFtLiAgSWYgbm90LCBzZWUgPGh0dHBzOi8vd3d3LmdudS5vcmcvbGljZW5zZXMvPi4KICB+CiAgfiBDb3B5cmlnaHQgKEMpIDIwMjMtMjAyNiBIeXBlckNlaWxlciBDb250cmlidXRpb25zCiAgLS0+Cgo8UHJlZmVyZW5jZVNjcmVlbiB4bWxuczphbmRyb2lkPSJodHRwOi8vc2NoZW1hcy5hbmRyb2lkLmNvbS9hcGsvcmVzL2FuZHJvaWQiPgoKICAgIDxjb20uc2V2dGluZ2UuaHlwZXJjZWlsZXIucHJlZnMuTGF5b3V0UHJlZmVyZW5jZQogICAgICAgIGFuZHJvaWQ6ZW5hYmxlZD0iZmFsc2UiCiAgICAgICAgYW5kcm9pZDprZXk9InByZWZzX2tleV9sYXlvdXRfZnJhbWV3b3JrX2NvbXBhdGlibGUiCiAgICAgICAgYW5kcm9pZDpsYXlvdXQ9IkBsYXlvdXQvaGVhZHRpcF90aXAiCiAgICAgICAgYW5kcm9pZDp0aXRsZT0iQHN0cmluZy9oZWxwX2ZyYW1ld29ya193YXJuaW5nX2NhcmRfY29tcGF0aWJsZSIgLz4KCiAgICA8Y29tLnNldnRpbmdlLmh5cGVyY2VpbGVyLnByZWZzLkxheW91dFByZWZlcmVuY2UKICAgICAgICBhbmRyb2lkOmVuYWJsZWQ9ImZhbHNlIgogICAgICAgIGFuZHJvaWQ6a2V5PSJwcmVmc19rZXlfbGF5b3V0X2ZyYW1ld29ya19zZXJ2aWNlX2Vycm9yIgogICAgICAgIGFuZHJvaWQ6bGF5b3V0PSJAbGF5b3V0L2hlYWR0aXBfbm90aWNlIgogICAgICAgIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvaGVscF9mcmFtZXdvcmtfd2FybmluZ19jYXJkX3NlcnZpY2VfZXJyb3IiIC8+CgogICAgPGNvbS5zZXZ0aW5nZS5oeXBlcmNlaWxlci5wcmVmcy5MYXlvdXRQcmVmZXJlbmNlCiAgICAgICAgYW5kcm9pZDplbmFibGVkPSJmYWxzZSIKICAgICAgICBhbmRyb2lkOmtleT0icHJlZnNfa2V5X2xheW91dF9mcmFtZXdvcmtfcGVuZGluZyIKICAgICAgICBhbmRyb2lkOmxheW91dD0iQGxheW91dC9oZWFkdGlwX25vdGljZSIKICAgICAgICBhbmRyb2lkOnRpdGxlPSJAc3RyaW5nL2hlbHBfZnJhbWV3b3JrX3dhcm5pbmdfY2FyZF9wZW5kaW5nIiAvPgoKICAgIDxjb20uc2V2dGluZ2UuaHlwZXJjZWlsZXIucHJlZnMuTGF5b3V0UHJlZmVyZW5jZQogICAgICAgIGFuZHJvaWQ6ZW5hYmxlZD0iZmFsc2UiCiAgICAgICAgYW5kcm9pZDprZXk9InByZWZzX2tleV9sYXlvdXRfZnJhbWV3b3JrX2luY29tcGF0aWJsZSIKICAgICAgICBhbmRyb2lkOmxheW91dD0iQGxheW91dC9oZWFkdGlwX3dhcm4iCiAgICAgICAgYW5kcm9pZDp0aXRsZT0iQHN0cmluZy9oZWxwX2ZyYW1ld29ya193YXJuaW5nX2NhcmRfaW5jb21wYXRpYmxlIiAvPgoKICAgIDxQcmVmZXJlbmNlCiAgICAgICAgYW5kcm9pZDplbmFibGVkPSJmYWxzZSIKICAgICAgICBhbmRyb2lkOmtleT0icHJlZnNfa2V5X3RleHR2aWV3X2hlbHBfZnJhbWV3b3JrX3dhcm5pbmciCiAgICAgICAgYW5kcm9pZDpsYXlvdXQ9IkBsYXlvdXQvcHJlZmVyZW5jZV9oZWxwIgogICAgICAgIGFuZHJvaWQ6c3VtbWFyeT0iIgogICAgICAgIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvaGVscF9mcmFtZXdvcmtfd2FybmluZ190aXRsZSIgLz4KCjwvUHJlZmVyZW5jZVNjcmVlbj4K
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ This file is part of HyperCeiler.
+  ~
+  ~ HyperCeiler is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU Affero General Public License as
+  ~ published by the Free Software Foundation, either version 3 of the
+  ~ License.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU Affero General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU Affero General Public License
+  ~ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+  ~
+  ~ Copyright (C) 2023-2026 HyperCeiler Contributions
+  -->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.sevtinge.hyperceiler.prefs.LayoutPreference
+        android:enabled="false"
+        android:key="prefs_key_layout_framework_compatible"
+        android:layout="@layout/headtip_tip"
+        android:title="@string/help_framework_warning_card_compatible" />
+
+    <com.sevtinge.hyperceiler.prefs.LayoutPreference
+        android:enabled="false"
+        android:key="prefs_key_layout_framework_service_error"
+        android:layout="@layout/headtip_notice"
+        android:title="@string/help_framework_warning_card_service_error" />
+
+    <com.sevtinge.hyperceiler.prefs.LayoutPreference
+        android:enabled="false"
+        android:key="prefs_key_layout_framework_pending"
+        android:layout="@layout/headtip_notice"
+        android:title="@string/help_framework_warning_card_pending" />
+
+    <com.sevtinge.hyperceiler.prefs.LayoutPreference
+        android:enabled="false"
+        android:key="prefs_key_layout_framework_incompatible"
+        android:layout="@layout/headtip_warn"
+        android:title="@string/help_framework_warning_card_incompatible" />
+
+    <Preference
+        android:enabled="false"
+        android:key="prefs_key_textview_help_framework_warning"
+        android:layout="@layout/preference_help"
+        android:summary=""
+        android:title="@string/help_framework_warning_title" />
+
+</PreferenceScreen>

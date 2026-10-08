@@ -1,1 +1,68 @@
-LyoKICogVGhpcyBmaWxlIGlzIHBhcnQgb2YgSHlwZXJDZWlsZXIuCgogKiBIeXBlckNlaWxlciBpcyBmcmVlIHNvZnR3YXJlOiB5b3UgY2FuIHJlZGlzdHJpYnV0ZSBpdCBhbmQvb3IgbW9kaWZ5CiAqIGl0IHVuZGVyIHRoZSB0ZXJtcyBvZiB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGFzCiAqIHB1Ymxpc2hlZCBieSB0aGUgRnJlZSBTb2Z0d2FyZSBGb3VuZGF0aW9uLCBlaXRoZXIgdmVyc2lvbiAzIG9mIHRoZQogKiBMaWNlbnNlLgoKICogVGhpcyBwcm9ncmFtIGlzIGRpc3RyaWJ1dGVkIGluIHRoZSBob3BlIHRoYXQgaXQgd2lsbCBiZSB1c2VmdWwsCiAqIGJ1dCBXSVRIT1VUIEFOWSBXQVJSQU5UWTsgd2l0aG91dCBldmVuIHRoZSBpbXBsaWVkIHdhcnJhbnR5IG9mCiAqIE1FUkNIQU5UQUJJTElUWSBvciBGSVRORVNTIEZPUiBBIFBBUlRJQ1VMQVIgUFVSUE9TRS4gIFNlZSB0aGUKICogR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGZvciBtb3JlIGRldGFpbHMuCgogKiBZb3Ugc2hvdWxkIGhhdmUgcmVjZWl2ZWQgYSBjb3B5IG9mIHRoZSBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UKICogYWxvbmcgd2l0aCB0aGlzIHByb2dyYW0uICBJZiBub3QsIHNlZSA8aHR0cHM6Ly93d3cuZ251Lm9yZy9saWNlbnNlcy8+LgoKICogQ29weXJpZ2h0IChDKSAyMDIzLTIwMjYgSHlwZXJDZWlsZXIgQ29udHJpYnV0aW9ucwogKi8KcGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLmhjLnByb3Zpc2lvbi51dGlsczsKCmltcG9ydCBhbmRyb2lkLmFwcC5BY3Rpdml0eTsKaW1wb3J0IGFuZHJvaWQudXRpbC5Mb2c7CgppbXBvcnQgb3JnLmxpbmJhb2d1LnJvbWh1Yi5oYy5wcm92aXNpb24uYWN0aXZpdHkuQmFzZUFjdGl2aXR5OwoKaW1wb3J0IGphdmEudXRpbC5EZXF1ZTsKaW1wb3J0IGphdmEudXRpbC5MaW5rZWRMaXN0OwoKcHVibGljIGNsYXNzIExpZmVjeWNsZUhhbmRsZXIgewoKICAgIHByaXZhdGUgZmluYWwgRGVxdWU8QWN0aXZpdHk+IG1BY3Rpdml0aWVTdGFjayA9IG5ldyBMaW5rZWRMaXN0KCk7CgogICAgcHJpdmF0ZSBzdGF0aWMgdm9sYXRpbGUgTGlmZWN5Y2xlSGFuZGxlciBzaW5nbGV0b247CgogICAgcHVibGljIHN0YXRpYyBMaWZlY3ljbGVIYW5kbGVyIGdldEluc3RhbmNlKCkgewogICAgICAgIGlmIChzaW5nbGV0b24gPT0gbnVsbCkgewogICAgICAgICAgICBzeW5jaHJvbml6ZWQgKExpZmVjeWNsZUhhbmRsZXIuY2xhc3MpIHsKICAgICAgICAgICAgICAgIGlmIChzaW5nbGV0b24gPT0gbnVsbCkgewogICAgICAgICAgICAgICAgICAgIHNpbmdsZXRvbiA9IG5ldyBMaWZlY3ljbGVIYW5kbGVyKCk7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgcmV0dXJuIHNpbmdsZXRvbjsKICAgIH0KCiAgICBwdWJsaWMgQWN0aXZpdHkgZ2V0QWN0aXZpdHkoQ2xhc3M8Pz4gY2xhenopIHsKICAgICAgICBmb3IgKEFjdGl2aXR5IGFjdGl2aXR5IDogbUFjdGl2aXRpZVN0YWNrKSB7CiAgICAgICAgICAgIExvZy5kKCJNeUxpZmVjeWNsZUhhbmRsZXIiLCAiY2xhc3MgaXM6IiArIGFjdGl2aXR5LmdldENsYXNzKCkpOwogICAgICAgICAgICBpZiAoYWN0aXZpdHkuZ2V0Q2xhc3MoKS5lcXVhbHMoY2xhenopKSB7CiAgICAgICAgICAgICAgICBMb2cuZCgiTXlMaWZlY3ljbGVIYW5kbGVyIiwgImNsYXNzIGlzOiIgKyBhY3Rpdml0eS5nZXRDbGFzcygpICsgIiBmaW5pc2giKTsKICAgICAgICAgICAgICAgIHJldHVybiBhY3Rpdml0eTsKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICByZXR1cm4gbnVsbDsKICAgIH0KCiAgICBwdWJsaWMgdm9pZCBmaW5pc2hBY3Rpdml0eShDbGFzczw/PiBjbGF6eikgewogICAgICAgIGZvciAoQWN0aXZpdHkgYWN0aXZpdHkgOiBtQWN0aXZpdGllU3RhY2spIHsKICAgICAgICAgICAgTG9nLmQoIk15TGlmZWN5Y2xlSGFuZGxlciIsICJjbGFzcyBpczoiICsgYWN0aXZpdHkuZ2V0Q2xhc3MoKSk7CiAgICAgICAgICAgIGlmIChhY3Rpdml0eS5nZXRDbGFzcygpLmVxdWFscyhjbGF6eikpIHsKICAgICAgICAgICAgICAgIExvZy5kKCJNeUxpZmVjeWNsZUhhbmRsZXIiLCAiY2xhc3MgaXM6IiArIGFjdGl2aXR5LmdldENsYXNzKCkgKyAiIGZpbmlzaCIpOwogICAgICAgICAgICAgICAgYWN0aXZpdHkuZmluaXNoKCk7CiAgICAgICAgICAgICAgICBib29sZWFuIHogPSBhY3Rpdml0eSBpbnN0YW5jZW9mIEJhc2VBY3Rpdml0eTsKICAgICAgICAgICAgICAgIHJldHVybjsKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KfQo=
+/*
+ * This file is part of HyperCeiler.
+
+ * HyperCeiler is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as
+ * published by the Free Software Foundation, either version 3 of the
+ * License.
+
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Affero General Public License for more details.
+
+ * You should have received a copy of the GNU Affero General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+ * Copyright (C) 2023-2026 HyperCeiler Contributions
+ */
+package org.linbaogu.romhub.hc.provision.utils;
+
+import android.app.Activity;
+import android.util.Log;
+
+import org.linbaogu.romhub.hc.provision.activity.BaseActivity;
+
+import java.util.Deque;
+import java.util.LinkedList;
+
+public class LifecycleHandler {
+
+    private final Deque<Activity> mActivitieStack = new LinkedList();
+
+    private static volatile LifecycleHandler singleton;
+
+    public static LifecycleHandler getInstance() {
+        if (singleton == null) {
+            synchronized (LifecycleHandler.class) {
+                if (singleton == null) {
+                    singleton = new LifecycleHandler();
+                }
+            }
+        }
+        return singleton;
+    }
+
+    public Activity getActivity(Class<?> clazz) {
+        for (Activity activity : mActivitieStack) {
+            Log.d("MyLifecycleHandler", "class is:" + activity.getClass());
+            if (activity.getClass().equals(clazz)) {
+                Log.d("MyLifecycleHandler", "class is:" + activity.getClass() + " finish");
+                return activity;
+            }
+        }
+        return null;
+    }
+
+    public void finishActivity(Class<?> clazz) {
+        for (Activity activity : mActivitieStack) {
+            Log.d("MyLifecycleHandler", "class is:" + activity.getClass());
+            if (activity.getClass().equals(clazz)) {
+                Log.d("MyLifecycleHandler", "class is:" + activity.getClass() + " finish");
+                activity.finish();
+                boolean z = activity instanceof BaseActivity;
+                return;
+            }
+        }
+    }
+}

@@ -1,1 +1,112 @@
-LyoKICogVGhpcyBmaWxlIGlzIHBhcnQgb2YgUk9NIEh1YiwgcmVsZWFzZWQgdW5kZXIgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSB2My4wLgogKgogKiDmnKzmlofku7bnp7vmpI0gLyDmlLnlhpnoh6ogSHlwZXJDZWlsZXLvvIhBR1BMLTMuMO+8jENvcHlyaWdodCAoQykgMjAyMy0yMDI2IEh5cGVyQ2VpbGVyCiAqIENvbnRyaWJ1dGlvbnPvvInvvIzmiJbkuLrlhbbnrYnku7fmm7/ouqvlrp7njrAg4oCU4oCUIOWujOaVtOadpea6kOS4jum4o+iwouingemhueebruagueebruW9lSBOT1RJQ0UubWTjgIIKICoKICogVGhpcyBwcm9ncmFtIGlzIGZyZWUgc29mdHdhcmU6IHlvdSBjYW4gcmVkaXN0cmlidXRlIGl0IGFuZC9vciBtb2RpZnkgaXQgdW5kZXIgdGhlIHRlcm1zCiAqIG9mIHRoZSBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UgYXMgcHVibGlzaGVkIGJ5IHRoZSBGcmVlIFNvZnR3YXJlIEZvdW5kYXRpb24sCiAqIGVpdGhlciB2ZXJzaW9uIDMgb2YgdGhlIExpY2Vuc2UuCiAqCiAqIFRoaXMgcHJvZ3JhbSBpcyBkaXN0cmlidXRlZCBpbiB0aGUgaG9wZSB0aGF0IGl0IHdpbGwgYmUgdXNlZnVsLCBidXQgV0lUSE9VVCBBTlkgV0FSUkFOVFk7CiAqIHdpdGhvdXQgZXZlbiB0aGUgaW1wbGllZCB3YXJyYW50eSBvZiBNRVJDSEFOVEFCSUxJVFkgb3IgRklUTkVTUyBGT1IgQSBQQVJUSUNVTEFSIFBVUlBPU0UuCiAqIFNlZSB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGZvciBtb3JlIGRldGFpbHMuCiAqCiAqIFlvdSBzaG91bGQgaGF2ZSByZWNlaXZlZCBhIGNvcHkgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBhbG9uZyB3aXRoIHRoaXMKICogcHJvZ3JhbS4gIElmIG5vdCwgc2VlIDxodHRwczovL3d3dy5nbnUub3JnL2xpY2Vuc2VzLz4uCiAqLwoKcGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLmhjLnByb3Zpc2lvbi5yZW5kZXJlbmdpbmU7CgppbXBvcnQgYW5kcm9pZC52aWV3LlZpZXc7CgpwdWJsaWMgY2xhc3MgR2xvd0NvbnRyb2xsZXIgaW1wbGVtZW50cyBSdW5uYWJsZSB7CgogICAgR2xvd1BhaW50ZXIgbUdsb3dQYWludGVyOwoKICAgIHByaXZhdGUgZmxvYXQgbVRpbWU7CiAgICBwcml2YXRlIGZsb2F0IG1EZWx0YVRpbWU7CiAgICBwcml2YXRlIGZsb2F0IG1UaW1lRGlyZWN0aW9uID0gMS4wZjsKCiAgICBwcml2YXRlIGxvbmcgbUxhc3RHbG9iYWxUaW1lOwoKICAgIHByaXZhdGUgZmluYWwgVmlldyBtVGFyZ2V0OwoKICAgIHB1YmxpYyBHbG93Q29udHJvbGxlcihWaWV3IHRhcmdldCkgewogICAgICAgIG1UYXJnZXQgPSB0YXJnZXQ7CiAgICB9CgogICAgcHVibGljIHZvaWQgc3RhcnQoYm9vbGVhbiB6KSB7CiAgICAgICAgaWYgKG1HbG93UGFpbnRlciA9PSBudWxsKSB7CiAgICAgICAgICAgIG1HbG93UGFpbnRlciA9IG5ldyBHbG93UGFpbnRlcihtVGFyZ2V0LmdldENvbnRleHQoKSk7CiAgICAgICAgICAgIG1HbG93UGFpbnRlci5uZWVkQWRtaXNzaW9uKHopOwogICAgICAgICAgICBtTGFzdEdsb2JhbFRpbWUgPSBTeXN0ZW0ubmFub1RpbWUoKTsKICAgICAgICAgICAgcmVzZXRUaW1lKCk7CiAgICAgICAgICAgIG1UYXJnZXQucG9zdCh0aGlzKTsKICAgICAgICB9CiAgICB9CgogICAgQE92ZXJyaWRlCiAgICBwdWJsaWMgdm9pZCBydW4oKSB7CiAgICAgICAgaWYgKG1HbG93UGFpbnRlciAhPSBudWxsKSB7CiAgICAgICAgICAgIHRpY2tQaW5nUG9uZygpOwogICAgICAgICAgICBtR2xvd1BhaW50ZXIuc2V0QW5pbVRpbWUobVRpbWUpOwogICAgICAgICAgICBtR2xvd1BhaW50ZXIuc2V0UmVzb2x1dGlvbihtVGFyZ2V0LmdldFdpZHRoKCksIG1UYXJnZXQuZ2V0SGVpZ2h0KCkpOwogICAgICAgICAgICBtVGFyZ2V0LnNldFJlbmRlckVmZmVjdChtR2xvd1BhaW50ZXIuZ2V0UmVuZGVyRWZmZWN0KCkpOwogICAgICAgICAgICBtVGFyZ2V0LnBvc3REZWxheWVkKHRoaXMsIDE2TCk7CiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgdm9pZCB0aWNrKCkgewogICAgICAgIGxvbmcgak5hbm9UaW1lID0gU3lzdGVtLm5hbm9UaW1lKCk7CiAgICAgICAgZmxvYXQgZiA9IChmbG9hdCkgKChqTmFub1RpbWUgLSBtTGFzdEdsb2JhbFRpbWUpICogMS4wRS05ZCk7CiAgICAgICAgbURlbHRhVGltZSA9IGY7CiAgICAgICAgbVRpbWUgKz0gZjsKICAgICAgICBtTGFzdEdsb2JhbFRpbWUgPSBqTmFub1RpbWU7CiAgICB9CgogICAgcHJpdmF0ZSB2b2lkIHRpY2tQaW5nUG9uZygpIHsKICAgICAgICBsb25nIGpOYW5vVGltZSA9IFN5c3RlbS5uYW5vVGltZSgpOwogICAgICAgIG1EZWx0YVRpbWUgPSAoZmxvYXQpICgoak5hbm9UaW1lIC0gbUxhc3RHbG9iYWxUaW1lKSAqIDEuMEUtOWQpOwogICAgICAgIG1UaW1lID0gbVRpbWUgKyAobURlbHRhVGltZSAqIG1UaW1lRGlyZWN0aW9uKTsKICAgICAgICBpZiAobVRpbWVEaXJlY3Rpb24gPiAwLjBmKSB7CiAgICAgICAgICAgIGlmIChtVGltZSA+PSAxMjAuMGYpIHsKICAgICAgICAgICAgICAgIG1UaW1lRGlyZWN0aW9uID0gLTEuMGY7CiAgICAgICAgICAgIH0KICAgICAgICB9IGVsc2UgaWYgKG1UaW1lIDw9IDIuMGYpIHsKICAgICAgICAgICAgbVRpbWVEaXJlY3Rpb24gPSAxLjBmOwogICAgICAgIH0KICAgICAgICBtTGFzdEdsb2JhbFRpbWUgPSBqTmFub1RpbWU7CiAgICB9CgogICAgcHVibGljIHZvaWQgcmVzZXRUaW1lKCkgewogICAgICAgIG1MYXN0R2xvYmFsVGltZSA9IFN5c3RlbS5uYW5vVGltZSgpOwogICAgICAgIG1UaW1lID0gMC4wZjsKICAgIH0KCiAgICBwdWJsaWMgdm9pZCBzZXRDaXJjbGVZT2Zmc2V0KGZsb2F0IGYpIHsKICAgICAgICBpZiAobUdsb3dQYWludGVyICE9IG51bGwpIHsKICAgICAgICAgICAgbUdsb3dQYWludGVyLnNldENpcmNsZVlPZmZzZXQoZik7CiAgICAgICAgfQogICAgfQoKICAgIHB1YmxpYyB2b2lkIHNldENpcmNsZVlPZmZzZXRXaXRoVmlldyhWaWV3IHZpZXcsIFZpZXcgdmlldzIpIHsKICAgICAgICBpZiAobUdsb3dQYWludGVyID09IG51bGwgfHwgdmlldyA9PSBudWxsIHx8IHZpZXcyID09IG51bGwpIHsKICAgICAgICAgICAgcmV0dXJuOwogICAgICAgIH0KICAgICAgICBpbnRbXSBpQXJyID0gbmV3IGludFsyXTsKICAgICAgICB2aWV3LmdldExvY2F0aW9uT25TY3JlZW4oaUFycik7CiAgICAgICAgaW50IGhlaWdodCA9IGlBcnJbMV0gKyAodmlldy5nZXRIZWlnaHQoKSAvIDIpOwogICAgICAgIGZsb2F0IGhlaWdodDIgPSB2aWV3Mi5nZXRIZWlnaHQoKTsKICAgICAgICBzZXRDaXJjbGVZT2Zmc2V0KCgoaGVpZ2h0MiAvIDIuMGYpIC0gaGVpZ2h0KSAvIGhlaWdodDIpOwogICAgfQoKICAgIHB1YmxpYyB2b2lkIHN0b3AoKSB7CiAgICAgICAgaWYgKG1HbG93UGFpbnRlciAhPSBudWxsKSB7CiAgICAgICAgICAgIG1UYXJnZXQucmVtb3ZlQ2FsbGJhY2tzKHRoaXMpOwogICAgICAgICAgICBtR2xvd1BhaW50ZXIgPSBudWxsOwogICAgICAgICAgICBtVGFyZ2V0LnNldFJlbmRlckVmZmVjdChudWxsKTsKICAgICAgICB9CiAgICB9Cgp9Cg==
+/*
+ * This file is part of ROM Hub, released under the GNU Affero General Public License v3.0.
+ *
+ * 本文件移植 / 改写自 HyperCeiler（AGPL-3.0，Copyright (C) 2023-2026 HyperCeiler
+ * Contributions），或为其等价替身实现 —— 完整来源与鸣谢见项目根目录 NOTICE.md。
+ *
+ * This program is free software: you can redistribute it and/or modify it under the terms
+ * of the GNU Affero General Public License as published by the Free Software Foundation,
+ * either version 3 of the License.
+ *
+ * This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+ * without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * See the GNU Affero General Public License for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License along with this
+ * program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
+package org.linbaogu.romhub.hc.provision.renderengine;
+
+import android.view.View;
+
+public class GlowController implements Runnable {
+
+    GlowPainter mGlowPainter;
+
+    private float mTime;
+    private float mDeltaTime;
+    private float mTimeDirection = 1.0f;
+
+    private long mLastGlobalTime;
+
+    private final View mTarget;
+
+    public GlowController(View target) {
+        mTarget = target;
+    }
+
+    public void start(boolean z) {
+        if (mGlowPainter == null) {
+            mGlowPainter = new GlowPainter(mTarget.getContext());
+            mGlowPainter.needAdmission(z);
+            mLastGlobalTime = System.nanoTime();
+            resetTime();
+            mTarget.post(this);
+        }
+    }
+
+    @Override
+    public void run() {
+        if (mGlowPainter != null) {
+            tickPingPong();
+            mGlowPainter.setAnimTime(mTime);
+            mGlowPainter.setResolution(mTarget.getWidth(), mTarget.getHeight());
+            mTarget.setRenderEffect(mGlowPainter.getRenderEffect());
+            mTarget.postDelayed(this, 16L);
+        }
+    }
+
+    private void tick() {
+        long jNanoTime = System.nanoTime();
+        float f = (float) ((jNanoTime - mLastGlobalTime) * 1.0E-9d);
+        mDeltaTime = f;
+        mTime += f;
+        mLastGlobalTime = jNanoTime;
+    }
+
+    private void tickPingPong() {
+        long jNanoTime = System.nanoTime();
+        mDeltaTime = (float) ((jNanoTime - mLastGlobalTime) * 1.0E-9d);
+        mTime = mTime + (mDeltaTime * mTimeDirection);
+        if (mTimeDirection > 0.0f) {
+            if (mTime >= 120.0f) {
+                mTimeDirection = -1.0f;
+            }
+        } else if (mTime <= 2.0f) {
+            mTimeDirection = 1.0f;
+        }
+        mLastGlobalTime = jNanoTime;
+    }
+
+    public void resetTime() {
+        mLastGlobalTime = System.nanoTime();
+        mTime = 0.0f;
+    }
+
+    public void setCircleYOffset(float f) {
+        if (mGlowPainter != null) {
+            mGlowPainter.setCircleYOffset(f);
+        }
+    }
+
+    public void setCircleYOffsetWithView(View view, View view2) {
+        if (mGlowPainter == null || view == null || view2 == null) {
+            return;
+        }
+        int[] iArr = new int[2];
+        view.getLocationOnScreen(iArr);
+        int height = iArr[1] + (view.getHeight() / 2);
+        float height2 = view2.getHeight();
+        setCircleYOffset(((height2 / 2.0f) - height) / height2);
+    }
+
+    public void stop() {
+        if (mGlowPainter != null) {
+            mTarget.removeCallbacks(this);
+            mGlowPainter = null;
+            mTarget.setRenderEffect(null);
+        }
+    }
+
+}

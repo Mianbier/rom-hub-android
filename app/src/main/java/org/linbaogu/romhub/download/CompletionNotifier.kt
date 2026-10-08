@@ -1,1 +1,75 @@
-cGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLmRvd25sb2FkCgppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQKaW1wb3J0IGFuZHJvaWQubWVkaWEuUmluZ3RvbmVNYW5hZ2VyCmltcG9ydCBhbmRyb2lkLm9zLkJ1aWxkCmltcG9ydCBhbmRyb2lkLm9zLlZpYnJhdGlvbkVmZmVjdAppbXBvcnQgYW5kcm9pZC5vcy5WaWJyYXRvcgppbXBvcnQgYW5kcm9pZC5vcy5WaWJyYXRvck1hbmFnZXIKaW1wb3J0IG9yZy5saW5iYW9ndS5yb21odWIuY29yZS5QcmVmcwppbXBvcnQgamF2YS5pby5GaWxlCgovKioKICog5LiL6L295a6M5oiQ5pe255qE55So5oi35Y+N6aaI77ya6ZyH5YqoIC8g5o+Q56S66Z+zIC8g6Ieq5Yqo5omT5byA44CCCiAqCiAqIOS4ieS4quW8gOWFs++8mgogKiAgIMK3IOWujOaIkOaXtumch+WKqAogKiAgIMK3IOWujOaIkOaXtuWTjemTgwogKiAgIMK3IOWujOaIkOWQjuiHquWKqOaJk+W8gOaWh+S7tgogKgogKiDkuInku7bkuovpg73lgZrmiJAi5Y+v5YWz44CB5aSx6LSl6Z2Z6buYIu+8mueUqOaIt+ayoeW8gOWwseS4jeWBmu+8jOezu+e7n+S4jee7meadg+mZkO+8iOavlOWmguayoeW8gOmch+WKqO+8iQogKiDkuZ/kuI3or6XorqnkuIvovb3lpLHotKUg4oCU4oCUIOaJgOS7peWFqOmDqCBgcnVuQ2F0Y2hpbmdgIOWMheS9j+OAggogKi8KaW50ZXJuYWwgb2JqZWN0IENvbXBsZXRpb25Ob3RpZmllciB7CgogICAgLyoqIOS4gOS4quS7u+WKoeS4i+WujOaXtuiwg+eUqOOAgiAqLwogICAgZnVuIG9uVGFza0RvbmUoY3R4OiBDb250ZXh0LCB0YXNrOiBEb3dubG9hZFRhc2ssIGZpbGU6IEZpbGUpIHsKICAgICAgICBydW5DYXRjaGluZyB7CiAgICAgICAgICAgIGlmIChQcmVmcy5kb3dubG9hZFZpYnJhdGUoY3R4KSkgdmlicmF0ZShjdHgpCiAgICAgICAgfQogICAgICAgIHJ1bkNhdGNoaW5nIHsKICAgICAgICAgICAgaWYgKFByZWZzLmRvd25sb2FkU291bmQoY3R4KSkgcGxheVNvdW5kKGN0eCkKICAgICAgICB9CiAgICAgICAgcnVuQ2F0Y2hpbmcgewogICAgICAgICAgICAvLyDoh6rliqjmiZPlvIDlj6rlnKgi5paH5Lu256Gu5a6e5a2Y5Zyo5LiU55So5oi35byA5LqGIuaXtuaJjeWBmgogICAgICAgICAgICBpZiAoUHJlZnMuZG93bmxvYWRBdXRvT3BlbihjdHgpICYmIGZpbGUuZXhpc3RzKCkpIHsKICAgICAgICAgICAgICAgIG9wZW5GaWxlKGN0eCwgZmlsZSkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIGZ1biB2aWJyYXRlKGN0eDogQ29udGV4dCkgewogICAgICAgIHZhbCB2aWI6IFZpYnJhdG9yID0gKGlmIChCdWlsZC5WRVJTSU9OLlNES19JTlQgPj0gQnVpbGQuVkVSU0lPTl9DT0RFUy5TKSB7CiAgICAgICAgICAgIHZhbCBtZ3IgPSBjdHguZ2V0U3lzdGVtU2VydmljZShWaWJyYXRvck1hbmFnZXI6OmNsYXNzLmphdmEpCiAgICAgICAgICAgIG1ncj8uZGVmYXVsdFZpYnJhdG9yCiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgQFN1cHByZXNzKCJERVBSRUNBVElPTiIpCiAgICAgICAgICAgIGN0eC5nZXRTeXN0ZW1TZXJ2aWNlKENvbnRleHQuVklCUkFUT1JfU0VSVklDRSkgYXM/IFZpYnJhdG9yCiAgICAgICAgfSkgPzogcmV0dXJuCgogICAgICAgIGlmICghdmliLmhhc1ZpYnJhdG9yKCkpIHJldHVybgogICAgICAgIC8vIOefreS/g+S4pOS4i++8jOWIq+eUqOmVv+mch++8iOWknOmHjOmch+S4gOS4i+WwseWkn+S6hu+8iQogICAgICAgIHZhbCBwYXR0ZXJuID0gbG9uZ0FycmF5T2YoMCwgMTIwLCA4MCwgMTIwKQogICAgICAgIHZpYi52aWJyYXRlKFZpYnJhdGlvbkVmZmVjdC5jcmVhdGVXYXZlZm9ybShwYXR0ZXJuLCAtMSkpCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gcGxheVNvdW5kKGN0eDogQ29udGV4dCkgewogICAgICAgIHZhbCB1cmkgPSBSaW5ndG9uZU1hbmFnZXIuZ2V0RGVmYXVsdFVyaShSaW5ndG9uZU1hbmFnZXIuVFlQRV9OT1RJRklDQVRJT04pID86IHJldHVybgogICAgICAgIFJpbmd0b25lTWFuYWdlci5nZXRSaW5ndG9uZShjdHgsIHVyaSk/LnBsYXkoKQogICAgfQoKICAgIHByaXZhdGUgZnVuIG9wZW5GaWxlKGN0eDogQ29udGV4dCwgZmlsZTogRmlsZSkgewogICAgICAgIHZhbCB1cmkgPSBhbmRyb2lkeC5jb3JlLmNvbnRlbnQuRmlsZVByb3ZpZGVyLmdldFVyaUZvckZpbGUoCiAgICAgICAgICAgIGN0eCwgIiR7Y3R4LnBhY2thZ2VOYW1lfS5maWxlcHJvdmlkZXIiLCBmaWxlLAogICAgICAgICkKICAgICAgICB2YWwgbWltZSA9IGFuZHJvaWQud2Via2l0Lk1pbWVUeXBlTWFwLmdldFNpbmdsZXRvbigpCiAgICAgICAgICAgIC5nZXRNaW1lVHlwZUZyb21FeHRlbnNpb24oZmlsZS5leHRlbnNpb24ubG93ZXJjYXNlKCkpID86ICIqLyoiCiAgICAgICAgY3R4LnN0YXJ0QWN0aXZpdHkoCiAgICAgICAgICAgIGFuZHJvaWQuY29udGVudC5JbnRlbnQoYW5kcm9pZC5jb250ZW50LkludGVudC5BQ1RJT05fVklFVykuYXBwbHkgewogICAgICAgICAgICAgICAgc2V0RGF0YUFuZFR5cGUodXJpLCBtaW1lKQogICAgICAgICAgICAgICAgYWRkRmxhZ3MoYW5kcm9pZC5jb250ZW50LkludGVudC5GTEFHX0dSQU5UX1JFQURfVVJJX1BFUk1JU1NJT04pCiAgICAgICAgICAgICAgICBhZGRGbGFncyhhbmRyb2lkLmNvbnRlbnQuSW50ZW50LkZMQUdfQUNUSVZJVFlfTkVXX1RBU0spCiAgICAgICAgICAgIH0KICAgICAgICApCiAgICB9Cn0K
+package org.linbaogu.romhub.download
+
+import android.content.Context
+import android.media.RingtoneManager
+import android.os.Build
+import android.os.VibrationEffect
+import android.os.Vibrator
+import android.os.VibratorManager
+import org.linbaogu.romhub.core.Prefs
+import java.io.File
+
+/**
+ * 下载完成时的用户反馈：震动 / 提示音 / 自动打开。
+ *
+ * 三个开关：
+ *   · 完成时震动
+ *   · 完成时响铃
+ *   · 完成后自动打开文件
+ *
+ * 三件事都做成"可关、失败静默"：用户没开就不做，系统不给权限（比如没开震动）
+ * 也不该让下载失败 —— 所以全部 `runCatching` 包住。
+ */
+internal object CompletionNotifier {
+
+    /** 一个任务下完时调用。 */
+    fun onTaskDone(ctx: Context, task: DownloadTask, file: File) {
+        runCatching {
+            if (Prefs.downloadVibrate(ctx)) vibrate(ctx)
+        }
+        runCatching {
+            if (Prefs.downloadSound(ctx)) playSound(ctx)
+        }
+        runCatching {
+            // 自动打开只在"文件确实存在且用户开了"时才做
+            if (Prefs.downloadAutoOpen(ctx) && file.exists()) {
+                openFile(ctx, file)
+            }
+        }
+    }
+
+    private fun vibrate(ctx: Context) {
+        val vib: Vibrator = (if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
+            val mgr = ctx.getSystemService(VibratorManager::class.java)
+            mgr?.defaultVibrator
+        } else {
+            @Suppress("DEPRECATION")
+            ctx.getSystemService(Context.VIBRATOR_SERVICE) as? Vibrator
+        }) ?: return
+
+        if (!vib.hasVibrator()) return
+        // 短促两下，别用长震（夜里震一下就够了）
+        val pattern = longArrayOf(0, 120, 80, 120)
+        vib.vibrate(VibrationEffect.createWaveform(pattern, -1))
+    }
+
+    private fun playSound(ctx: Context) {
+        val uri = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION) ?: return
+        RingtoneManager.getRingtone(ctx, uri)?.play()
+    }
+
+    private fun openFile(ctx: Context, file: File) {
+        val uri = androidx.core.content.FileProvider.getUriForFile(
+            ctx, "${ctx.packageName}.fileprovider", file,
+        )
+        val mime = android.webkit.MimeTypeMap.getSingleton()
+            .getMimeTypeFromExtension(file.extension.lowercase()) ?: "*/*"
+        ctx.startActivity(
+            android.content.Intent(android.content.Intent.ACTION_VIEW).apply {
+                setDataAndType(uri, mime)
+                addFlags(android.content.Intent.FLAG_GRANT_READ_URI_PERMISSION)
+                addFlags(android.content.Intent.FLAG_ACTIVITY_NEW_TASK)
+            }
+        )
+    }
+}

@@ -1,1 +1,14 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPEZyYW1lTGF5b3V0IHhtbG5zOmFuZHJvaWQ9Imh0dHA6Ly9zY2hlbWFzLmFuZHJvaWQuY29tL2Fway9yZXMvYW5kcm9pZCIKICAgIGFuZHJvaWQ6aWQ9IkAraWQvY29udGFpbmVyIgogICAgYW5kcm9pZDpsYXlvdXRfd2lkdGg9Im1hdGNoX3BhcmVudCIKICAgIGFuZHJvaWQ6bGF5b3V0X2hlaWdodD0ibWF0Y2hfcGFyZW50IgogICAgYW5kcm9pZDpjbGlwQ2hpbGRyZW49ImZhbHNlIgogICAgYW5kcm9pZDpjbGlwVG9QYWRkaW5nPSJmYWxzZSI+CgogICAgPG9yZy5saW5iYW9ndS5yb21odWIuaGMuaG9tZS53aWRnZXQuSG9tZVZpZXdQYWdlMgogICAgICAgIGFuZHJvaWQ6aWQ9IkAraWQvdnBfZnJhZ21lbnRzIgogICAgICAgIGFuZHJvaWQ6bGF5b3V0X3dpZHRoPSJtYXRjaF9wYXJlbnQiCiAgICAgICAgYW5kcm9pZDpsYXlvdXRfaGVpZ2h0PSJtYXRjaF9wYXJlbnQiIC8+Cgo8L0ZyYW1lTGF5b3V0Pg==
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    android:clipToPadding="false">
+
+    <org.linbaogu.romhub.hc.home.widget.HomeViewPage2
+        android:id="@+id/vp_fragments"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</FrameLayout>

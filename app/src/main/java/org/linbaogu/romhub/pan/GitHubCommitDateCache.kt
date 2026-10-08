@@ -1,1 +1,130 @@
-LyoKICogWXVuWCAo5LqR5p6QKSAtIEEgbmV0d29yayBkcml2ZSBzaGFyZS1saW5rIHBhcnNlciBhbmQgaGlnaC1zcGVlZCBkb3dubG9hZGVyIGZvciBBbmRyb2lkLgogKiBDb3B5cmlnaHQgKEMpIDIwMjYgQ1lRYXdhCiAqCiAqIFRoaXMgcHJvZ3JhbSBpcyBmcmVlIHNvZnR3YXJlOiB5b3UgY2FuIHJlZGlzdHJpYnV0ZSBpdCBhbmQvb3IgbW9kaWZ5CiAqIGl0IHVuZGVyIHRoZSB0ZXJtcyBvZiB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGFzIHB1Ymxpc2hlZCBieQogKiB0aGUgRnJlZSBTb2Z0d2FyZSBGb3VuZGF0aW9uLCBlaXRoZXIgdmVyc2lvbiAzIG9mIHRoZSBMaWNlbnNlLCBvcgogKiAoYXQgeW91ciBvcHRpb24pIGFueSBsYXRlciB2ZXJzaW9uLgogKgogKiBUaGlzIHByb2dyYW0gaXMgZGlzdHJpYnV0ZWQgaW4gdGhlIGhvcGUgdGhhdCBpdCB3aWxsIGJlIHVzZWZ1bCwKICogYnV0IFdJVEhPVVQgQU5ZIFdBUlJBTlRZOyB3aXRob3V0IGV2ZW4gdGhlIGltcGxpZWQgd2FycmFudHkgb2YKICogTUVSQ0hBTlRBQklMSVRZIG9yIEZJVE5FU1MgRk9SIEEgUEFSVElDVUxBUiBQVVJQT1NFLiAgU2VlIHRoZQogKiBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UgZm9yIG1vcmUgZGV0YWlscy4KICoKICogWW91IHNob3VsZCBoYXZlIHJlY2VpdmVkIGEgY29weSBvZiB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlCiAqIGFsb25nIHdpdGggdGhpcyBwcm9ncmFtLiAgSWYgbm90LCBzZWUgPGh0dHBzOi8vd3d3LmdudS5vcmcvbGljZW5zZXMvPi4KICovCgpwYWNrYWdlIG9yZy5saW5iYW9ndS5yb21odWIucGFuCgppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkRlZmVycmVkCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuYXN5bmMKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5jb3JvdXRpbmVTY29wZQppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLnN5bmMuTXV0ZXgKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5zeW5jLndpdGhMb2NrCmltcG9ydCBqYXZhLnV0aWwuY29uY3VycmVudC5Db25jdXJyZW50SGFzaE1hcAoKLyoqCiAqIEdpdEh1YiDnm67lvZXmnaHnm67nmoTjgIzmnIDlkI7mj5DkuqTml7bpl7TjgI3lhoXlrZjnvJPlrZjjgIIKICoKICog6IOM5pmv77ya6L+b5YWl5Luj56CB55uu5b2V5pe277yM5a+55b2T5YmN5bGC5q+P5Liq5p2h55uu6LCD5LiA5qyhIGNvbW1pdHMgQVBJ77yIW0dpdEh1YkFwaS5nZXRMYXN0Q29tbWl0RGF0ZV3vvInjgIIKICog5Yy/5ZCN6ZmQ6aKd5LuFIDYwIOasoS/lsI/ml7YvSVDvvIzph43lpI3ov5vlh7rlkIzkuIDnm67lvZXkvJrph43lpI3or7fmsYLvvIzlpLHotKXnq4vljbPph43or5XkvJrliqDliafpmZDmtYHjgIIKICoKICog6K6+6K6h77yaCiAqIC0gKirmiJDlip/nvJPlrZggVFRMID0gMTAg5YiG6ZKfKirvvJrmj5DkuqTml7bpl7TkuI3kvJrpopHnuYHlj5jljJbvvIwxMCDliIbpkp/lhoXph43lpI3mtY/op4jlkIzkuIDnm67lvZXkuI3lj5Hor7fmsYLvvJsKICogICDpgIkgMTAg5YiG6ZKf6ICM6Z2e5rC45LmF77yM5piv5Li65LqG5pawIHB1c2gg5ZCO55So5oi36IO95Zyo5ZCI55CG5pe26Ze05YaF55yL5Yiw5pu05paw44CCCiAqIC0gKirlpLHotKXkuZ/nvJPlrZggbnVsbO+8jFRUTCA9IDEg5YiG6ZKfKirvvJrpgb/lhY3lr7kgNDA0L+mZkOa1gS/nvZHnu5zplJnor6/nmoTmnaHnm67lnKjnn63ml7bpl7TlhoXlj43lpI3miZMgQVBJ44CCCiAqIC0gKippbi1mbGlnaHQg5Y676YeNKirvvJrlkIzkuIAga2V5IOWQjOaXtuWkmuS4quWNj+eoi+ivt+axguaXtuWPquWPkeS4gOS4que9kee7nOivt+axgu+8jOWFtuS9meWkjeeUqOe7k+aenO+8jAogKiAgIOmYsuatouWIl+ihqOa4suafk+WQjuW5tuWPkeihpeaXtumXtOaXtuWvueWQjOS4gOi3r+W+hOmHjeWkjeivt+axgu+8iOWunumZheebruW9leWxguS4jeS8mumHjeWkje+8jOS9humYsuW+oeaAp+iuvuiuoe+8ieOAggogKiAtICoq5a656YeP5LiK6ZmQIDUxMioq77ya5oyJ5YaZ5YWl6aG65bqP5reY5rGw5pyA5pen5p2h55uu77yM6YG/5YWN6ZW/5pe26Ze05L2/55So5ZCO5YaF5a2Y5peg6ZmQ5aKe6ZW/44CCCiAqCiAqIOazqOaEj++8muS7heS8muivneWGheWGheWtmOe8k+WtmO+8jOi3qOi/m+eoi+mHjeWQr+WQjuWkseaViO+8iOWxnumihOacn++8jOS4jeWBmuaMgeS5heWMlu+8ieOAggogKi8Kb2JqZWN0IEdpdEh1YkNvbW1pdERhdGVDYWNoZSB7CgogICAgcHJpdmF0ZSBkYXRhIGNsYXNzIENhY2hlRW50cnkoCiAgICAgICAgdmFsIGZldGNoZWRBdDogTG9uZywKICAgICAgICB2YWwgZGF0ZTogU3RyaW5nPywKICAgICAgICB2YWwgc3VjY2VzczogQm9vbGVhbgogICAgKQoKICAgIC8qKiBrZXkgPSAib3duZXIvcmVwby9wYXRoIiAqLwogICAgcHJpdmF0ZSB2YWwgY2FjaGUgPSBDb25jdXJyZW50SGFzaE1hcDxTdHJpbmcsIENhY2hlRW50cnk+KCkKCiAgICAvKiogaW4tZmxpZ2h0IOivt+axgu+8muWQjOS4gCBrZXkg5ZCI5bm25Li65Y2V5LiqIERlZmVycmVkICovCiAgICBwcml2YXRlIHZhbCBpbkZsaWdodCA9IENvbmN1cnJlbnRIYXNoTWFwPFN0cmluZywgRGVmZXJyZWQ8U3RyaW5nPz4+KCkKCiAgICAvKiog5L+d5oqk5a656YeP5reY5rGw5LiOIGluLWZsaWdodCDnmbvorrDnmoTkupLmlqXplIHvvIjnu4bnspLluqbvvIzku4Xkv53miqTlhYPmlbDmja7mk43kvZzvvIkgKi8KICAgIHByaXZhdGUgdmFsIG11dGV4ID0gTXV0ZXgoKQoKICAgIHByaXZhdGUgY29uc3QgdmFsIFNVQ0NFU1NfVFRMX01TID0gMTAgKiA2MCAqIDEwMDBMICAgLy8g5oiQ5Yqf77yaMTAg5YiG6ZKfCiAgICBwcml2YXRlIGNvbnN0IHZhbCBGQUlMVVJFX1RUTF9NUyA9IDEgKiA2MCAqIDEwMDBMICAgIC8vIOWksei0pe+8mjEg5YiG6ZKfCiAgICBwcml2YXRlIGNvbnN0IHZhbCBNQVhfRU5UUklFUyA9IDUxMgoKICAgIHByaXZhdGUgZnVuIGtleShvd25lcjogU3RyaW5nLCByZXBvOiBTdHJpbmcsIHBhdGg6IFN0cmluZykgPSAiJG93bmVyLyRyZXBvLyRwYXRoIgoKICAgIC8qKgogICAgICog6I635Y+W5p+Q6Lev5b6E5pyA5ZCO5o+Q5Lqk5pe26Ze044CC5ZG95Lit5pyq6L+H5pyf57yT5a2Y55u05o6l6L+U5Zue77yb5pyq5ZG95Lit5Y+R6K+35rGC5bm25YaZ57yT5a2Y44CCCiAgICAgKiDlpLHotKXov5Tlm54gbnVsbO+8iOS4jiBbR2l0SHViQXBpLmdldExhc3RDb21taXREYXRlXSDor63kuYnkuIDoh7TvvInjgIIKICAgICAqLwogICAgc3VzcGVuZCBmdW4gZ2V0KG93bmVyOiBTdHJpbmcsIHJlcG86IFN0cmluZywgcGF0aDogU3RyaW5nLCBhcGk6IEdpdEh1YkFwaSk6IFN0cmluZz8gewogICAgICAgIHZhbCBrID0ga2V5KG93bmVyLCByZXBvLCBwYXRoKQogICAgICAgIHZhbCBub3cgPSBTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKQoKICAgICAgICAvLyAxKSDmn6Xlt7LlrozmiJDnvJPlrZgKICAgICAgICBjYWNoZVtrXT8ubGV0IHsgZW50cnkgLT4KICAgICAgICAgICAgdmFsIHR0bCA9IGlmIChlbnRyeS5zdWNjZXNzKSBTVUNDRVNTX1RUTF9NUyBlbHNlIEZBSUxVUkVfVFRMX01TCiAgICAgICAgICAgIGlmIChub3cgLSBlbnRyeS5mZXRjaGVkQXQgPD0gdHRsKSB7CiAgICAgICAgICAgICAgICByZXR1cm4gZW50cnkuZGF0ZQogICAgICAgICAgICB9CiAgICAgICAgICAgIC8vIOi/h+acn++8jOenu+mZpAogICAgICAgICAgICBjYWNoZS5yZW1vdmUoaykKICAgICAgICB9CgogICAgICAgIC8vIDIpIGluLWZsaWdodCDljrvph43vvJrlt7LmnInor7fmsYLlnKjpo57liJnlpI3nlKgKICAgICAgICBpbkZsaWdodFtrXT8ubGV0IHsgcmV0dXJuIGl0LmF3YWl0KCkgfQoKICAgICAgICAvLyAzKSDlj5HotbfmlrDor7fmsYLvvIjnlKggY29yb3V0aW5lU2NvcGUg5YyF5LiA5bGC77yM55m76K6w5YiwIGluRmxpZ2h077yJCiAgICAgICAgdmFsIGRlZmVycmVkID0gY29yb3V0aW5lU2NvcGUgewogICAgICAgICAgICB2YWwgZCA9IGFzeW5jIHsKICAgICAgICAgICAgICAgIHJ1bkNhdGNoaW5nIHsgYXBpLmdldExhc3RDb21taXREYXRlKG93bmVyLCByZXBvLCBwYXRoKSB9LmdldE9yTnVsbCgpCiAgICAgICAgICAgIH0KICAgICAgICAgICAgLy8g55m76K6wIGluLWZsaWdodO+8m+iLpeW5tuWPkeernuaAgeW3suacieWQjCBrZXnvvIzliJnlj5bmtojmnKzljY/nqIvlubblpI3nlKjlt7LmnIkKICAgICAgICAgICAgdmFsIGV4aXN0aW5nID0gaW5GbGlnaHQucHV0SWZBYnNlbnQoaywgZCkKICAgICAgICAgICAgaWYgKGV4aXN0aW5nICE9IG51bGwpIHsKICAgICAgICAgICAgICAgIGQuY2FuY2VsKCkKICAgICAgICAgICAgICAgIHJldHVybkBjb3JvdXRpbmVTY29wZSBleGlzdGluZy5hd2FpdCgpCiAgICAgICAgICAgIH0KICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIHZhbCByZXN1bHQgPSBkLmF3YWl0KCkKICAgICAgICAgICAgICAgIC8vIOWGmee8k+WtmAogICAgICAgICAgICAgICAgcHV0KGssIG5vdyA9IFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpLCBkYXRlID0gcmVzdWx0LCBzdWNjZXNzID0gcmVzdWx0ICE9IG51bGwpCiAgICAgICAgICAgICAgICByZXN1bHQKICAgICAgICAgICAgfSBmaW5hbGx5IHsKICAgICAgICAgICAgICAgIGluRmxpZ2h0LnJlbW92ZShrKQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIHJldHVybiBkZWZlcnJlZAogICAgfQoKICAgIC8qKiDlhpnlhaXnvJPlrZjlubblgZrlrrnph4/mt5jmsbAgKi8KICAgIHByaXZhdGUgc3VzcGVuZCBmdW4gcHV0KGs6IFN0cmluZywgbm93OiBMb25nLCBkYXRlOiBTdHJpbmc/LCBzdWNjZXNzOiBCb29sZWFuKSA9IG11dGV4LndpdGhMb2NrIHsKICAgICAgICAvLyDlrrnph4/otoXpmZDvvJrmjIkgZmV0Y2hlZEF0IOenu+mZpOacgOaXp+adoeebru+8iOeugOWNlee6v+aAp+aJq+aPj++8jDUxMiDmnaHop4TmqKHlj6/mjqXlj5fvvIkKICAgICAgICBpZiAoY2FjaGUuc2l6ZSA+PSBNQVhfRU5UUklFUykgewogICAgICAgICAgICBjYWNoZS5lbnRyaWVzLm1pbkJ5T3JOdWxsIHsgaXQudmFsdWUuZmV0Y2hlZEF0IH0/LmxldCB7IG9sZGVzdCAtPgogICAgICAgICAgICAgICAgY2FjaGUucmVtb3ZlKG9sZGVzdC5rZXkpCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgY2FjaGVba10gPSBDYWNoZUVudHJ5KGZldGNoZWRBdCA9IG5vdywgZGF0ZSA9IGRhdGUsIHN1Y2Nlc3MgPSBzdWNjZXNzKQogICAgfQoKICAgIC8qKgogICAgICog5Yig6Zmk5omA5pyJIGtleSDku6UgW3ByZWZpeF0g5byA5aS055qE5p2h55uu77yI5LiL5ouJ5Yi35paw57uV57yT5a2Y55So77yJ44CCCiAgICAgKiBrZXkg5b2i5aaCICJvd25lci9yZXBvL3BhdGgi77yM5LygICJvd25lci9yZXBvLyIg5Y2z5Y+v5riF6K+l5LuT5bqT5YWo6YOo6Lev5b6E5pe26Ze057yT5a2Y77yMCiAgICAgKiDorqnnlKjmiLfkuLvliqjliLfmlrDml7bph43mlrDmi4nlj5bmnIDmlrDmj5DkuqTml7bpl7TjgIIKICAgICAqLwogICAgZnVuIGludmFsaWRhdGVQcmVmaXgocHJlZml4OiBTdHJpbmcpIHsKICAgICAgICBjYWNoZS5rZXlzLnJlbW92ZUFsbCB7IGl0LnN0YXJ0c1dpdGgocHJlZml4KSB9CiAgICB9Cn0K
+/*
+ * YunX (云析) - A network drive share-link parser and high-speed downloader for Android.
+ * Copyright (C) 2026 CYQawa
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Affero General Public License for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
+package org.linbaogu.romhub.pan
+
+import kotlinx.coroutines.Deferred
+import kotlinx.coroutines.async
+import kotlinx.coroutines.coroutineScope
+import kotlinx.coroutines.sync.Mutex
+import kotlinx.coroutines.sync.withLock
+import java.util.concurrent.ConcurrentHashMap
+
+/**
+ * GitHub 目录条目的「最后提交时间」内存缓存。
+ *
+ * 背景：进入代码目录时，对当前层每个条目调一次 commits API（[GitHubApi.getLastCommitDate]）。
+ * 匿名限额仅 60 次/小时/IP，重复进出同一目录会重复请求，失败立即重试会加剧限流。
+ *
+ * 设计：
+ * - **成功缓存 TTL = 10 分钟**：提交时间不会频繁变化，10 分钟内重复浏览同一目录不发请求；
+ *   选 10 分钟而非永久，是为了新 push 后用户能在合理时间内看到更新。
+ * - **失败也缓存 null，TTL = 1 分钟**：避免对 404/限流/网络错误的条目在短时间内反复打 API。
+ * - **in-flight 去重**：同一 key 同时多个协程请求时只发一个网络请求，其余复用结果，
+ *   防止列表渲染后并发补时间时对同一路径重复请求（实际目录层不会重复，但防御性设计）。
+ * - **容量上限 512**：按写入顺序淘汰最旧条目，避免长时间使用后内存无限增长。
+ *
+ * 注意：仅会话内内存缓存，跨进程重启后失效（属预期，不做持久化）。
+ */
+object GitHubCommitDateCache {
+
+    private data class CacheEntry(
+        val fetchedAt: Long,
+        val date: String?,
+        val success: Boolean
+    )
+
+    /** key = "owner/repo/path" */
+    private val cache = ConcurrentHashMap<String, CacheEntry>()
+
+    /** in-flight 请求：同一 key 合并为单个 Deferred */
+    private val inFlight = ConcurrentHashMap<String, Deferred<String?>>()
+
+    /** 保护容量淘汰与 in-flight 登记的互斥锁（细粒度，仅保护元数据操作） */
+    private val mutex = Mutex()
+
+    private const val SUCCESS_TTL_MS = 10 * 60 * 1000L   // 成功：10 分钟
+    private const val FAILURE_TTL_MS = 1 * 60 * 1000L    // 失败：1 分钟
+    private const val MAX_ENTRIES = 512
+
+    private fun key(owner: String, repo: String, path: String) = "$owner/$repo/$path"
+
+    /**
+     * 获取某路径最后提交时间。命中未过期缓存直接返回；未命中发请求并写缓存。
+     * 失败返回 null（与 [GitHubApi.getLastCommitDate] 语义一致）。
+     */
+    suspend fun get(owner: String, repo: String, path: String, api: GitHubApi): String? {
+        val k = key(owner, repo, path)
+        val now = System.currentTimeMillis()
+
+        // 1) 查已完成缓存
+        cache[k]?.let { entry ->
+            val ttl = if (entry.success) SUCCESS_TTL_MS else FAILURE_TTL_MS
+            if (now - entry.fetchedAt <= ttl) {
+                return entry.date
+            }
+            // 过期，移除
+            cache.remove(k)
+        }
+
+        // 2) in-flight 去重：已有请求在飞则复用
+        inFlight[k]?.let { return it.await() }
+
+        // 3) 发起新请求（用 coroutineScope 包一层，登记到 inFlight）
+        val deferred = coroutineScope {
+            val d = async {
+                runCatching { api.getLastCommitDate(owner, repo, path) }.getOrNull()
+            }
+            // 登记 in-flight；若并发竞态已有同 key，则取消本协程并复用已有
+            val existing = inFlight.putIfAbsent(k, d)
+            if (existing != null) {
+                d.cancel()
+                return@coroutineScope existing.await()
+            }
+            try {
+                val result = d.await()
+                // 写缓存
+                put(k, now = System.currentTimeMillis(), date = result, success = result != null)
+                result
+            } finally {
+                inFlight.remove(k)
+            }
+        }
+        return deferred
+    }
+
+    /** 写入缓存并做容量淘汰 */
+    private suspend fun put(k: String, now: Long, date: String?, success: Boolean) = mutex.withLock {
+        // 容量超限：按 fetchedAt 移除最旧条目（简单线性扫描，512 条规模可接受）
+        if (cache.size >= MAX_ENTRIES) {
+            cache.entries.minByOrNull { it.value.fetchedAt }?.let { oldest ->
+                cache.remove(oldest.key)
+            }
+        }
+        cache[k] = CacheEntry(fetchedAt = now, date = date, success = success)
+    }
+
+    /**
+     * 删除所有 key 以 [prefix] 开头的条目（下拉刷新绕缓存用）。
+     * key 形如 "owner/repo/path"，传 "owner/repo/" 即可清该仓库全部路径时间缓存，
+     * 让用户主动刷新时重新拉取最新提交时间。
+     */
+    fun invalidatePrefix(prefix: String) {
+        cache.keys.removeAll { it.startsWith(prefix) }
+    }
+}

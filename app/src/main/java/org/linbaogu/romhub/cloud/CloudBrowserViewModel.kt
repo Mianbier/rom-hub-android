@@ -1,1 +1,471 @@
-cGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLmNsb3VkCgppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5EaXNwYXRjaGVycwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuTXV0YWJsZVN0YXRlRmxvdwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuU3RhdGVGbG93CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5hc1N0YXRlRmxvdwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLndpdGhDb250ZXh0CmltcG9ydCBvcmcubGluYmFvZ3Uucm9taHViLnBhbi5QYW5IdWIKaW1wb3J0IG9yZy5saW5iYW9ndS5yb21odWIucGFuLlNoYXJlUGxhdGZvcm0KaW1wb3J0IG9yZy5saW5iYW9ndS5yb21odWIucGFuLm1vZGVsLlNoYXJlRmlsZQppbXBvcnQgb3JnLmxpbmJhb2d1LnJvbWh1Yi5wYW4ubW9kZWwuU2hhcmVJbmZvCmltcG9ydCBvcmcubGluYmFvZ3Uucm9taHViLnBhbi5tb2RlbC5TaGFyZUV4cGlyZQoKLyoqCiAqIOS6keebmOaWh+S7tua1j+iniOeahOe7n+S4gCBWaWV3TW9kZWzvvIg3IOWutue9keebmOWFseeUqO+8ieOAggogKgogKiDkupHmnpDkuLrmr4/lrrblhpnkuobkuIDkuKrni6znq4vnmoQgYCpDbG91ZFZpZXdNb2RlbGDvvIjlkITnuqYgNjgwIOihjO+8jDkwJSDmmK/ph43lpI3nmoTliIbpobUv6YCJ5oupL+i3r+W+hOmAu+i+ke+8ieOAggogKiDov5nph4zlj6rkv53nlZnkuIDku73nirbmgIHmnLrvvIzmiorjgIzmgI7kuYjosIPov5nlrrbnvZHnm5jjgI3lhajpg6jkuIvmsonliLAgW0Nsb3VkQXBpXSDpgILphY3lmajph4zjgIIKICoKICog54q25oCB5py65Y+q5pyJ5LiJ56eN77ya5Yqg6L295LitIC8g5Ye66ZSZIC8g5Yqg6L295a6M5oiQ77yI5bim5b2T5YmN55uu5b2V55qE5paH5Lu25YiX6KGoICsg6Z2i5YyF5bGR6Lev5b6E77yJ44CCCiAqCiAqIOaQrOi/kOiHquS6keaekO+8iENZUWF3YS9ZdW5Y77yMQUdQTC0zLjDvvInnmoQgdWkvdmlld21vZGVsIOS4i+eahOWQhOWutiBDbG91ZFZpZXdNb2RlbO+8jAogKiDlkIjlubbljrvph43lkI7nmoTnrYnku7flrp7njrDjgIIKICovCmNsYXNzIENsb3VkQnJvd3NlclZpZXdNb2RlbCgKICAgIHByaXZhdGUgdmFsIGN0eDogQ29udGV4dCwKICAgIHZhbCBwbGF0Zm9ybTogU2hhcmVQbGF0Zm9ybSwKKSB7CgogICAgcHJpdmF0ZSB2YWwgYXBpOiBDbG91ZEFwaT8gPSBQYW5IdWIuY2xvdWRBcGkocGxhdGZvcm0pCgogICAgLy8gLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSDnirbmgIEKCiAgICB2YWwgc3RhdGU6IFN0YXRlRmxvdzxDbG91ZFN0YXRlPiBnZXQoKSA9IF9zdGF0ZS5hc1N0YXRlRmxvdygpCiAgICBwcml2YXRlIHZhbCBfc3RhdGUgPSBNdXRhYmxlU3RhdGVGbG93PENsb3VkU3RhdGU+KENsb3VkU3RhdGUuTG9hZGluZykKCiAgICAvKiog5LiL5ouJ5Yi35paw5Lit77yI5LiO6aaW5qyh5Yqg6L295Yy65YiG77ya6aaW5qyh5pi+56S65pW06aG1IExvYWRpbmfvvIzliLfmlrDlj6rlnKjpobbpg6jovazlnIjvvIkgKi8KICAgIHZhbCByZWZyZXNoaW5nOiBTdGF0ZUZsb3c8Qm9vbGVhbj4gZ2V0KCkgPSBfcmVmcmVzaGluZy5hc1N0YXRlRmxvdygpCiAgICBwcml2YXRlIHZhbCBfcmVmcmVzaGluZyA9IE11dGFibGVTdGF0ZUZsb3coZmFsc2UpCgogICAgLyoqIOaTjeS9nOe7k+aenOaPkOekuu+8iOW8ueeql+WFs+mXreWQjuS7jeiDveW8ueWHuu+8jOaJgOS7peaUviBWaWV3TW9kZWwg5bGC77yJICovCiAgICB2YWwgbWVzc2FnZTogU3RhdGVGbG93PFN0cmluZz8+IGdldCgpID0gX21lc3NhZ2UuYXNTdGF0ZUZsb3coKQogICAgcHJpdmF0ZSB2YWwgX21lc3NhZ2UgPSBNdXRhYmxlU3RhdGVGbG93PFN0cmluZz8+KG51bGwpCgogICAgZnVuIGNvbnN1bWVNZXNzYWdlKCkgewogICAgICAgIF9tZXNzYWdlLnZhbHVlID0gbnVsbAogICAgfQoKICAgIC8vIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0g5pCc57SiCgogICAgLyoqIOi/meWutue9keebmOaUr+S4jeaUr+aMgeWFqOebmOaQnOe0oiAqLwogICAgdmFsIHN1cHBvcnRzU2VhcmNoOiBCb29sZWFuIGdldCgpID0gYXBpPy5zdXBwb3J0c1NlYXJjaCA9PSB0cnVlCgogICAgLyoqIOato+WcqOaQnOe0ouS4re+8iOaQnOe0ouahhuWQjumdoui9rOWciO+8iSAqLwogICAgdmFsIHNlYXJjaGluZzogU3RhdGVGbG93PEJvb2xlYW4+IGdldCgpID0gX3NlYXJjaGluZy5hc1N0YXRlRmxvdygpCiAgICBwcml2YXRlIHZhbCBfc2VhcmNoaW5nID0gTXV0YWJsZVN0YXRlRmxvdyhmYWxzZSkKCiAgICAvKioKICAgICAqIOaQnOe0oue7k+aenO+8m251bGwgPSDmsqHlnKjmkJzntKLvvIjmmL7npLrmraPluLjnm67lvZXliJfooajvvInjgIIKICAgICAqCiAgICAgKiDmkJzntKLmmK8qKuWFqOebmCoq55qE77yI6Leo55uu5b2V77yJ77yM5omA5Lul57uT5p6c6YeM55qE5paH5Lu25aS554K56L+b5Y676LWw55qE5piv44CM55SoIGZpZCDnm7TmjqXliJfnm67lvZXjgI3vvIwKICAgICAqIOiAjOS4jeaYr+ebuOWvueW9k+WJjeebruW9leeahCBlbnRlcigpIOKAlOKAlCDov5nngrnlkozmma7pgJrmtY/op4jkuI3lkIzvvIxbQ2xvdWRTdGF0ZS5Mb2FkZWRdIOmHjAogICAgICog55SoIFtDbG91ZFN0YXRlLkxvYWRlZC5pc1NlYXJjaFJlc3VsdF0g5qCH6K6w5Ye65p2l57uZ55WM6Z2i5Yy65YiG44CCCiAgICAgKi8KICAgIHZhbCBzZWFyY2hSZXN1bHQ6IFN0YXRlRmxvdzxDbG91ZFN0YXRlLkxvYWRlZD8+IGdldCgpID0gX3NlYXJjaFJlc3VsdC5hc1N0YXRlRmxvdygpCiAgICBwcml2YXRlIHZhbCBfc2VhcmNoUmVzdWx0ID0gTXV0YWJsZVN0YXRlRmxvdzxDbG91ZFN0YXRlLkxvYWRlZD8+KG51bGwpCgogICAgLyoqIOW9k+WJjeaQnOe0ouWFs+mUruivje+8iOepuuS4suihqOekuuayoeWcqOaQnOe0ou+8iSAqLwogICAgdmFyIGN1cnJlbnRLZXl3b3JkOiBTdHJpbmcgPSAiIgogICAgICAgIHByaXZhdGUgc2V0CgogICAgc3VzcGVuZCBmdW4gc2VhcmNoKGtleXdvcmQ6IFN0cmluZykgPSB3aXRoQ29udGV4dChEaXNwYXRjaGVycy5JTykgewogICAgICAgIHZhbCBhID0gYXBpCiAgICAgICAgdmFsIHEgPSBrZXl3b3JkLnRyaW0oKQogICAgICAgIGN1cnJlbnRLZXl3b3JkID0gcQogICAgICAgIGlmIChxLmlzRW1wdHkoKSkgewogICAgICAgICAgICBfc2VhcmNoUmVzdWx0LnZhbHVlID0gbnVsbAogICAgICAgICAgICByZXR1cm5Ad2l0aENvbnRleHQKICAgICAgICB9CiAgICAgICAgaWYgKGEgPT0gbnVsbCB8fCAhYS5zdXBwb3J0c1NlYXJjaCkgewogICAgICAgICAgICBfbWVzc2FnZS52YWx1ZSA9ICIke1Bhbkh1Yi5wbGF0Zm9ybU5hbWUocGxhdGZvcm0pfSDmmoLkuI3mlK/mjIHlhajnm5jmkJzntKIiCiAgICAgICAgICAgIHJldHVybkB3aXRoQ29udGV4dAogICAgICAgIH0KICAgICAgICBfc2VhcmNoaW5nLnZhbHVlID0gdHJ1ZQogICAgICAgIHZhbCByID0gcnVuQ2F0Y2hpbmcgeyBhLnNlYXJjaChxLCBjcmVkZW50aWFsKSB9CiAgICAgICAgX3NlYXJjaGluZy52YWx1ZSA9IGZhbHNlCiAgICAgICAgci5mb2xkKAogICAgICAgICAgICBvblN1Y2Nlc3MgPSB7IGZpbGVzIC0+CiAgICAgICAgICAgICAgICBpZiAoZmlsZXMgPT0gbnVsbCkgewogICAgICAgICAgICAgICAgICAgIF9zZWFyY2hSZXN1bHQudmFsdWUgPSBudWxsCiAgICAgICAgICAgICAgICAgICAgX21lc3NhZ2UudmFsdWUgPSAiJHtQYW5IdWIucGxhdGZvcm1OYW1lKHBsYXRmb3JtKX0g5pqC5LiN5pSv5oyB5YWo55uY5pCc57SiIgogICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICBfc2VhcmNoUmVzdWx0LnZhbHVlID0gQ2xvdWRTdGF0ZS5Mb2FkZWQoCiAgICAgICAgICAgICAgICAgICAgICAgIGZpbGVzID0gZmlsZXMuc29ydGVkV2l0aChmaWxlT3JkZXIpLAogICAgICAgICAgICAgICAgICAgICAgICBwYXRoTmFtZXMgPSBsaXN0T2YoIuaQnOe0ou+8miRxIiksCiAgICAgICAgICAgICAgICAgICAgICAgIHBhdGhJZHMgPSBlbXB0eUxpc3QoKSwKICAgICAgICAgICAgICAgICAgICAgICAgaXNTZWFyY2hSZXN1bHQgPSB0cnVlLAogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICBpZiAoZmlsZXMuaXNFbXB0eSgpKSBfbWVzc2FnZS52YWx1ZSA9ICLmsqHmnInmib7liLDlkKvjgIwkceOAjeeahOaWh+S7tiIKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfSwKICAgICAgICAgICAgb25GYWlsdXJlID0geyBlIC0+CiAgICAgICAgICAgICAgICBfc2VhcmNoUmVzdWx0LnZhbHVlID0gbnVsbAogICAgICAgICAgICAgICAgX21lc3NhZ2UudmFsdWUgPSAi5pCc57Si5aSx6LSl77yaJHtlLm1lc3NhZ2UgPzogIuacquefpemUmeivryJ9IgogICAgICAgICAgICB9LAogICAgICAgICkKICAgIH0KCiAgICBmdW4gY2xlYXJTZWFyY2goKSB7CiAgICAgICAgY3VycmVudEtleXdvcmQgPSAiIgogICAgICAgIF9zZWFyY2hSZXN1bHQudmFsdWUgPSBudWxsCiAgICB9CgogICAgLyoqIOS7juaQnOe0oue7k+aenOmHjOi/m+S4gOS4quebruW9le+8muaQnOWIsOeahOebruW9leS4jeWxnuS6juW9k+WJjei3r+W+hOagiO+8jOeUqCBmaWQg55u05o6l5YiX44CCICovCiAgICBzdXNwZW5kIGZ1biBvcGVuU2VhcmNoRGlyKGRpcjogU2hhcmVGaWxlKSA9IHdpdGhDb250ZXh0KERpc3BhdGNoZXJzLklPKSB7CiAgICAgICAgdmFsIGRpcklkID0gYXBpPy5kaXJJZE9mKGRpcikgPzogZGlyLmZpZAogICAgICAgIHBhdGhTdGFjayA9IG11dGFibGVMaXN0T2YoZGlySWQgdG8gZGlyLmZuYW1lKQogICAgICAgIGN1cnJlbnREaXJJZCA9IGRpcklkCiAgICAgICAgX3NlYXJjaFJlc3VsdC52YWx1ZSA9IG51bGwKICAgICAgICBjdXJyZW50S2V5d29yZCA9ICIiCiAgICAgICAgc2VsZWN0ZWQuY2xlYXIoKQogICAgICAgIGJ1bXBTZWxlY3Rpb24oKQogICAgICAgIGxvYWRDdXJyZW50KGZpcnN0TG9hZCA9IHRydWUpCiAgICB9CgogICAgLy8gLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSDkuIrkvKAKCiAgICAvKiog6L+Z5a62572R55uY5pSv5LiN5pSv5oyB5LiK5LygICovCiAgICB2YWwgc3VwcG9ydHNVcGxvYWQ6IEJvb2xlYW4gZ2V0KCkgPSBhcGk/LnN1cHBvcnRzVXBsb2FkID09IHRydWUKCiAgICAvKiog5LiK5Lyg6L+b6KGM5Lit55qE55m+5YiG5q+U77yILTEgPSDmsqHlnKjkuIrkvKDvvInjgIIwLi4xMDAgKi8KICAgIHZhbCB1cGxvYWRQcm9ncmVzczogU3RhdGVGbG93PEludD4gZ2V0KCkgPSBfdXBsb2FkUHJvZ3Jlc3MuYXNTdGF0ZUZsb3coKQogICAgcHJpdmF0ZSB2YWwgX3VwbG9hZFByb2dyZXNzID0gTXV0YWJsZVN0YXRlRmxvdygtMSkKCiAgICAvKioKICAgICAqIOS4iuS8oOS4gOaJueacrOWcsOaWh+S7tuWIsCoq5b2T5YmN55uu5b2VKirjgIIKICAgICAqCiAgICAgKiBAcGFyYW0gZmlsZXMg5bey57uP6Kej5p6Q5aW95YWD5pWw5o2u55qE5pys5Zyw5paH5Lu277yI5ZCNICsg5aSn5bCPICsg5q+P5qyh5omT5byA6L6T5YWl5rWB55qE5bel5Y6C77yJCiAgICAgKi8KICAgIHN1c3BlbmQgZnVuIHVwbG9hZEZpbGVzKGZpbGVzOiBMaXN0PExvY2FsVXBsb2FkPikgPSB3aXRoQ29udGV4dChEaXNwYXRjaGVycy5JTykgewogICAgICAgIHZhbCBhID0gYXBpCiAgICAgICAgaWYgKGEgPT0gbnVsbCB8fCAhYS5zdXBwb3J0c1VwbG9hZCkgewogICAgICAgICAgICBfbWVzc2FnZS52YWx1ZSA9ICIke1Bhbkh1Yi5wbGF0Zm9ybU5hbWUocGxhdGZvcm0pfSDmmoLkuI3mlK/mjIHkuIrkvKAiCiAgICAgICAgICAgIHJldHVybkB3aXRoQ29udGV4dAogICAgICAgIH0KICAgICAgICBpZiAoZmlsZXMuaXNFbXB0eSgpKSByZXR1cm5Ad2l0aENvbnRleHQKICAgICAgICB2YXIgb2sgPSAwCiAgICAgICAgZmlsZXMuZm9yRWFjaEluZGV4ZWQgeyBpLCBmIC0+CiAgICAgICAgICAgIHZhbCByID0gcnVuQ2F0Y2hpbmcgewogICAgICAgICAgICAgICAgYS51cGxvYWQoCiAgICAgICAgICAgICAgICAgICAgZGlySWQgPSBjdXJyZW50RGlySWQsCiAgICAgICAgICAgICAgICAgICAgZmlsZU5hbWUgPSBmLm5hbWUsCiAgICAgICAgICAgICAgICAgICAgc2l6ZSA9IGYuc2l6ZSwKICAgICAgICAgICAgICAgICAgICBvcGVuU3RyZWFtID0gZi5vcGVuU3RyZWFtLAogICAgICAgICAgICAgICAgICAgIGNyZWRlbnRpYWwgPSBjcmVkZW50aWFsLAogICAgICAgICAgICAgICAgKSB7IHNlbnQsIHRvdGFsIC0+CiAgICAgICAgICAgICAgICAgICAgLy8g6L+b5bqm5oyJ44CM56ysIGkg5Liq5paH5Lu244CN5oqY566X5Yiw5pW05om5CiAgICAgICAgICAgICAgICAgICAgdmFsIGJhc2UgPSBpICogMTAwZiAvIGZpbGVzLnNpemUKICAgICAgICAgICAgICAgICAgICB2YWwgcGFydCA9IGlmICh0b3RhbCA+IDApIHNlbnQudG9GbG9hdCgpIC8gdG90YWwgKiAxMDBmIC8gZmlsZXMuc2l6ZSBlbHNlIDBmCiAgICAgICAgICAgICAgICAgICAgX3VwbG9hZFByb2dyZXNzLnZhbHVlID0gKGJhc2UgKyBwYXJ0KS50b0ludCgpLmNvZXJjZUluKDAsIDEwMCkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICAgICBpZiAoci5nZXRPckRlZmF1bHQoZmFsc2UpKSBvaysrCiAgICAgICAgfQogICAgICAgIF91cGxvYWRQcm9ncmVzcy52YWx1ZSA9IC0xCiAgICAgICAgX21lc3NhZ2UudmFsdWUgPSBpZiAob2sgPT0gZmlsZXMuc2l6ZSkgewogICAgICAgICAgICAi5bey5LiK5LygICR7ZmlsZXMuc2l6ZX0g5Liq5paH5Lu2IgogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICLkuIrkvKDlrozmiJAgJG9rLyR7ZmlsZXMuc2l6ZX3vvIzlpLHotKXnmoTlj6/ku6Xph43or5UiCiAgICAgICAgfQogICAgICAgIGlmIChvayA+IDApIGxvYWRDdXJyZW50KGZpcnN0TG9hZCA9IGZhbHNlKQogICAgfQoKICAgIC8qKiDkuIDkuKrlvoXkuIrkvKDnmoTmnKzlnLDmlofku7bvvIjmioogQW5kcm9pZCBVcmkg55qE6K+75Y+W5bCB6KOF5Zyo55WM6Z2i5bGC77yMVk0g5Y+q6K6k6L+Z5LiJ5qC377yJ44CCICovCiAgICBkYXRhIGNsYXNzIExvY2FsVXBsb2FkKAogICAgICAgIHZhbCBuYW1lOiBTdHJpbmcsCiAgICAgICAgdmFsIHNpemU6IExvbmcsCiAgICAgICAgdmFsIG9wZW5TdHJlYW06ICgpIC0+IGphdmEuaW8uSW5wdXRTdHJlYW0sCiAgICApCgogICAgLyoqIOmcgOimgeWIh+WIsOOAjOS4i+i9veOAjeauteeahOS/oeWPt++8iOS4i+i9veWFpemYn+WQjueUsemhtemdoua2iOi0ue+8iSAqLwogICAgdmFsIGRvd25sb2FkVHJpZ2dlcmVkOiBTdGF0ZUZsb3c8SW50PiBnZXQoKSA9IF9kb3dubG9hZFRyaWdnZXJlZC5hc1N0YXRlRmxvdygpCiAgICBwcml2YXRlIHZhbCBfZG93bmxvYWRUcmlnZ2VyZWQgPSBNdXRhYmxlU3RhdGVGbG93KDApCgogICAgZnVuIGNvbnN1bWVEb3dubG9hZFRyaWdnZXJlZCgpIHsKICAgICAgICBfZG93bmxvYWRUcmlnZ2VyZWQudmFsdWUgPSAwCiAgICB9CgogICAgLy8gLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSDlpJrpgIkKCiAgICB2YWwgbXVsdGlTZWxlY3RNb2RlOiBTdGF0ZUZsb3c8Qm9vbGVhbj4gZ2V0KCkgPSBfbXVsdGlTZWxlY3RNb2RlLmFzU3RhdGVGbG93KCkKICAgIHByaXZhdGUgdmFsIF9tdWx0aVNlbGVjdE1vZGUgPSBNdXRhYmxlU3RhdGVGbG93KGZhbHNlKQoKICAgIC8qKiDlt7LpgInkuK3nmoTmlofku7bvvIjmjIkgZmlk77yJ77yM6L+b55uu5b2VL+WIt+aWsOS8muiHquWKqOa4heepuiAqLwogICAgcHJpdmF0ZSB2YWwgc2VsZWN0ZWQgPSBsaW5rZWRNYXBPZjxTdHJpbmcsIFNoYXJlRmlsZT4oKQoKICAgIHZhbCBzZWxlY3RlZEZpbGVzOiBMaXN0PFNoYXJlRmlsZT4gZ2V0KCkgPSBzZWxlY3RlZC52YWx1ZXMudG9MaXN0KCkKCiAgICBmdW4gZW50ZXJNdWx0aVNlbGVjdChmaWxlOiBTaGFyZUZpbGU/ID0gbnVsbCkgewogICAgICAgIF9tdWx0aVNlbGVjdE1vZGUudmFsdWUgPSB0cnVlCiAgICAgICAgaWYgKGZpbGUgIT0gbnVsbCkgc2VsZWN0ZWRbZmlsZS5maWRdID0gZmlsZQogICAgICAgIGJ1bXBTZWxlY3Rpb24oKQogICAgfQoKICAgIGZ1biBleGl0TXVsdGlTZWxlY3QoKSB7CiAgICAgICAgX211bHRpU2VsZWN0TW9kZS52YWx1ZSA9IGZhbHNlCiAgICAgICAgc2VsZWN0ZWQuY2xlYXIoKQogICAgICAgIGJ1bXBTZWxlY3Rpb24oKQogICAgfQoKICAgIC8qKiDngrnkuIDkuKrmlofku7booYzvvJrlpJrpgInmqKHlvI/kuIvliIfmjaLpgInkuK3vvIzlkKbliJnkuqTnu5nosIPnlKjmlrnlpITnkIbvvIjov5vnm67lvZUgLyDmiZPlvIDvvInjgIIgKi8KICAgIGZ1biB0b2dnbGVTZWxlY3QoZmlsZTogU2hhcmVGaWxlKSB7CiAgICAgICAgaWYgKHNlbGVjdGVkLmNvbnRhaW5zS2V5KGZpbGUuZmlkKSkgc2VsZWN0ZWQucmVtb3ZlKGZpbGUuZmlkKSBlbHNlIHNlbGVjdGVkW2ZpbGUuZmlkXSA9IGZpbGUKICAgICAgICBidW1wU2VsZWN0aW9uKCkKICAgIH0KCiAgICBmdW4gaXNTZWxlY3RlZChmaWQ6IFN0cmluZyk6IEJvb2xlYW4gPSBzZWxlY3RlZC5jb250YWluc0tleShmaWQpCgogICAgZnVuIHNlbGVjdEFsbChmaWxlczogTGlzdDxTaGFyZUZpbGU+KSB7CiAgICAgICAgZmlsZXMuZm9yRWFjaCB7IHNlbGVjdGVkW2l0LmZpZF0gPSBpdCB9CiAgICAgICAgYnVtcFNlbGVjdGlvbigpCiAgICB9CgogICAgZnVuIGNsZWFyU2VsZWN0aW9uKCkgewogICAgICAgIHNlbGVjdGVkLmNsZWFyKCkKICAgICAgICBidW1wU2VsZWN0aW9uKCkKICAgIH0KCiAgICAvKiog6YCJ5Lit6ZuG5Y+Y5YyW5pe25o6o6L+b5LiA5Liq54mI5pys5Y+377yM6K6pIENvbXBvc2Ug6YeN5paw6K+7IFtzZWxlY3RlZEZpbGVzXeOAgiAqLwogICAgcHJpdmF0ZSB2YWwgX3NlbGVjdGlvblJldiA9IE11dGFibGVTdGF0ZUZsb3coMCkKICAgIHZhbCBzZWxlY3Rpb25SZXY6IFN0YXRlRmxvdzxJbnQ+IGdldCgpID0gX3NlbGVjdGlvblJldi5hc1N0YXRlRmxvdygpCgogICAgcHJpdmF0ZSBmdW4gYnVtcFNlbGVjdGlvbigpIHsKICAgICAgICBfc2VsZWN0aW9uUmV2LnZhbHVlID0gX3NlbGVjdGlvblJldi52YWx1ZSArIDEKICAgIH0KCiAgICAvLyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tIOS4i+i9veehruiupOW8ueeqlwoKICAgIHZhbCBkb3dubG9hZExpbms6IFN0YXRlRmxvdzxQZW5kaW5nRG93bmxvYWQ/PiBnZXQoKSA9IF9kb3dubG9hZExpbmsuYXNTdGF0ZUZsb3coKQogICAgcHJpdmF0ZSB2YWwgX2Rvd25sb2FkTGluayA9IE11dGFibGVTdGF0ZUZsb3c8UGVuZGluZ0Rvd25sb2FkPz4obnVsbCkKCiAgICBmdW4gZGlzbWlzc0Rvd25sb2FkRGlhbG9nKCkgewogICAgICAgIF9kb3dubG9hZExpbmsudmFsdWUgPSBudWxsCiAgICB9CgogICAgZGF0YSBjbGFzcyBQZW5kaW5nRG93bmxvYWQoCiAgICAgICAgdmFsIGZpbGU6IFNoYXJlRmlsZSwKICAgICAgICB2YWwgdXJsOiBTdHJpbmcsCiAgICAgICAgdmFsIGhlYWRlcnM6IE1hcDxTdHJpbmcsIFN0cmluZz4sCiAgICAgICAgLyoqIOaYr+WQpuS4uiBITFPvvIhtM3U477yJ6L2s56CB5rWBIOKAlOKAlCDlhrPlrprotbAgSExTIOWIhuauteS4i+i9vei/mOaYr+aZrumAmuWIhueJh+S4i+i9vSAqLwogICAgICAgIHZhbCBpc0hsczogQm9vbGVhbiA9IGZhbHNlLAogICAgKQoKICAgIC8vIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0g5Yqg6L29CgogICAgcHJpdmF0ZSB2YXIgY3JlZGVudGlhbDogU3RyaW5nID0gIiIKCiAgICAvKiog5b2T5YmN55uu5b2V6Lev5b6E77ya5LuO5qC55Yiw5b2T5YmN55uu5b2V55qEIChmaWQsIG5hbWUpIOagiOOAguagueebruW9leS4uuepuuWIl+ihqOOAgiAqLwogICAgcHJpdmF0ZSB2YXIgcGF0aFN0YWNrOiBNdXRhYmxlTGlzdDxQYWlyPFN0cmluZywgU3RyaW5nPj4gPSBtdXRhYmxlTGlzdE9mKCkKICAgIHByaXZhdGUgdmFyIGN1cnJlbnREaXJJZDogU3RyaW5nID0gIiIKCiAgICBzdXNwZW5kIGZ1biBsb2FkUm9vdCgpID0gd2l0aENvbnRleHQoRGlzcGF0Y2hlcnMuSU8pIHsKICAgICAgICB2YWwgYSA9IGFwaQogICAgICAgIGlmIChhID09IG51bGwpIHsKICAgICAgICAgICAgX3N0YXRlLnZhbHVlID0gQ2xvdWRTdGF0ZS5FcnJvcigiJHtQYW5IdWIucGxhdGZvcm1OYW1lKHBsYXRmb3JtKX0g5pqC5LiN5pSv5oyB5paH5Lu25rWP6KeIIikKICAgICAgICAgICAgcmV0dXJuQHdpdGhDb250ZXh0CiAgICAgICAgfQogICAgICAgIGNyZWRlbnRpYWwgPSBydW5DYXRjaGluZyB7IFBhbkh1Yi5jcmVkZW50aWFsKGN0eCwgcGxhdGZvcm0pIH0uZ2V0T3JOdWxsKCkub3JFbXB0eSgpCiAgICAgICAgaWYgKGNyZWRlbnRpYWwuaXNCbGFuaygpKSB7CiAgICAgICAgICAgIF9zdGF0ZS52YWx1ZSA9IENsb3VkU3RhdGUuRXJyb3IoIiR7UGFuSHViLnBsYXRmb3JtTmFtZShwbGF0Zm9ybSl9IOi/mOayoeeZu+W9lSIpCiAgICAgICAgICAgIHJldHVybkB3aXRoQ29udGV4dAogICAgICAgIH0KICAgICAgICAvLyDlh63mja7kuI3pvZDvvIgxMzkg57y6IGF1dGhvcml6YXRpb24g6YKj56eN77yJ5pe277yM5Yir562J5Yiw5o6l5Y+j5oql6ZSZ5YaN5oqb5oq96LGh55qE5Y2K5Y+l6K+d77yMCiAgICAgICAgLy8g6L+Z6YeM5bCx5oqK5a6D57y65LuA5LmI44CB5oCO5LmI6KGl6K6y5riF5qWaCiAgICAgICAgdmFsIHdhcm4gPSBydW5DYXRjaGluZyB7IGEuY3JlZGVudGlhbFdhcm5pbmcoY3JlZGVudGlhbCkgfS5nZXRPck51bGwoKQogICAgICAgIGlmICghd2Fybi5pc051bGxPckJsYW5rKCkpIHsKICAgICAgICAgICAgX3N0YXRlLnZhbHVlID0gQ2xvdWRTdGF0ZS5FcnJvcih3YXJuKQogICAgICAgICAgICByZXR1cm5Ad2l0aENvbnRleHQKICAgICAgICB9CiAgICAgICAgcGF0aFN0YWNrID0gbXV0YWJsZUxpc3RPZigpCiAgICAgICAgY3VycmVudERpcklkID0gYS5yb290SWQKICAgICAgICBzZWxlY3RlZC5jbGVhcigpCiAgICAgICAgYnVtcFNlbGVjdGlvbigpCiAgICAgICAgbG9hZEN1cnJlbnQoZmlyc3RMb2FkID0gdHJ1ZSkKICAgIH0KCiAgICAvKiog6YeN5paw6K+75b2T5YmN55uu5b2V77yI5L+d6Lev5b6E77yJ44CCICovCiAgICBzdXNwZW5kIGZ1biByZWZyZXNoKCkgPSB3aXRoQ29udGV4dChEaXNwYXRjaGVycy5JTykgewogICAgICAgIF9yZWZyZXNoaW5nLnZhbHVlID0gdHJ1ZQogICAgICAgIGxvYWRDdXJyZW50KGZpcnN0TG9hZCA9IGZhbHNlKQogICAgICAgIF9yZWZyZXNoaW5nLnZhbHVlID0gZmFsc2UKICAgIH0KCiAgICBwcml2YXRlIHN1c3BlbmQgZnVuIGxvYWRDdXJyZW50KGZpcnN0TG9hZDogQm9vbGVhbikgewogICAgICAgIHZhbCBhID0gYXBpID86IHJldHVybgogICAgICAgIGlmIChmaXJzdExvYWQpIF9zdGF0ZS52YWx1ZSA9IENsb3VkU3RhdGUuTG9hZGluZwogICAgICAgIHZhbCByID0gcnVuQ2F0Y2hpbmcgeyBhLmxpc3QoY3VycmVudERpcklkLCBjcmVkZW50aWFsKSB9CiAgICAgICAgci5mb2xkKAogICAgICAgICAgICBvblN1Y2Nlc3MgPSB7IGZpbGVzIC0+CiAgICAgICAgICAgICAgICBfc3RhdGUudmFsdWUgPSBDbG91ZFN0YXRlLkxvYWRlZCgKICAgICAgICAgICAgICAgICAgICBmaWxlcyA9IGZpbGVzLnNvcnRlZFdpdGgoZmlsZU9yZGVyKSwKICAgICAgICAgICAgICAgICAgICBwYXRoTmFtZXMgPSBwYXRoU3RhY2subWFwIHsgaXQuc2Vjb25kIH0sCiAgICAgICAgICAgICAgICAgICAgcGF0aElkcyA9IHBhdGhTdGFjay5tYXAgeyBpdC5maXJzdCB9LAogICAgICAgICAgICAgICAgKQogICAgICAgICAgICB9LAogICAgICAgICAgICBvbkZhaWx1cmUgPSB7IGUgLT4KICAgICAgICAgICAgICAgIF9zdGF0ZS52YWx1ZSA9IENsb3VkU3RhdGUuRXJyb3IoZS5tZXNzYWdlID86ICLliqDovb3lpLHotKUiKQogICAgICAgICAgICB9LAogICAgICAgICkKICAgIH0KCiAgICAvKiog6L+b5YWl5a2Q55uu5b2V44CCICovCiAgICBzdXNwZW5kIGZ1biBlbnRlcihkaXI6IFNoYXJlRmlsZSkgPSB3aXRoQ29udGV4dChEaXNwYXRjaGVycy5JTykgewogICAgICAgIC8vIOKaoO+4jyDlv4XpobvotbAgYXBpLmRpcklkT2bvvJrnmb7luqbopoHnmoTmmK/nu53lr7not6/lvoTogIzkuI3mmK8gZnNfaWTvvIjpu5jorqTlrp7njrDlsLHmmK8gZmlk77yJCiAgICAgICAgdmFsIGRpcklkID0gYXBpPy5kaXJJZE9mKGRpcikgPzogZGlyLmZpZAogICAgICAgIHBhdGhTdGFjay5hZGQoZGlySWQgdG8gZGlyLmZuYW1lKQogICAgICAgIGN1cnJlbnREaXJJZCA9IGRpcklkCiAgICAgICAgc2VsZWN0ZWQuY2xlYXIoKQogICAgICAgIGJ1bXBTZWxlY3Rpb24oKQogICAgICAgIGxvYWRDdXJyZW50KGZpcnN0TG9hZCA9IHRydWUpCiAgICB9CgogICAgLyoqIOi/lOWbnuS4iuS4gOe6p+ebruW9le+8m+W3suWcqOaguei/lOWbniBmYWxzZe+8jOeUseiwg+eUqOaWueWGs+WumuaYr+WQpumAgOWHuumhtemdouOAgiAqLwogICAgc3VzcGVuZCBmdW4gYmFjaygpOiBCb29sZWFuID0gd2l0aENvbnRleHQoRGlzcGF0Y2hlcnMuSU8pIHsKICAgICAgICBpZiAocGF0aFN0YWNrLmlzRW1wdHkoKSkgcmV0dXJuQHdpdGhDb250ZXh0IGZhbHNlCiAgICAgICAgcGF0aFN0YWNrLnJlbW92ZUF0KHBhdGhTdGFjay5sYXN0SW5kZXgpCiAgICAgICAgY3VycmVudERpcklkID0gcGF0aFN0YWNrLmxhc3RPck51bGwoKT8uZmlyc3QgPzogKGFwaT8ucm9vdElkID86ICIiKQogICAgICAgIHNlbGVjdGVkLmNsZWFyKCkKICAgICAgICBidW1wU2VsZWN0aW9uKCkKICAgICAgICBsb2FkQ3VycmVudChmaXJzdExvYWQgPSB0cnVlKQogICAgICAgIHRydWUKICAgIH0KCiAgICAvLyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tIOS4i+i9vQoKICAgIC8qKiDljZXmlofku7bkuIvovb3vvJrlj5bnm7Tpk74g4oaSIOW8ueehruiupO+8iOWvuem9kOino+aekOmhte+8jOWxleekuuebtOmTvuWPr+WkjeWItu+8iSAqLwogICAgc3VzcGVuZCBmdW4gcHJlcGFyZURvd25sb2FkKGZpbGU6IFNoYXJlRmlsZSkgPSB3aXRoQ29udGV4dChEaXNwYXRjaGVycy5JTykgewogICAgICAgIHZhbCBhID0gYXBpID86IHJldHVybkB3aXRoQ29udGV4dAogICAgICAgIHZhbCBsaW5rID0gcnVuQ2F0Y2hpbmcgeyBhLmRvd25sb2FkTGluayhmaWxlLCBjcmVkZW50aWFsKSB9LmdldE9yTnVsbCgpCiAgICAgICAgaWYgKGxpbmsgPT0gbnVsbCB8fCBsaW5rLmRvd25sb2FkVXJsLmlzQmxhbmsoKSkgewogICAgICAgICAgICBfbWVzc2FnZS52YWx1ZSA9ICLlj5bkuI3liLDkuIvovb3nm7Tpk77vvIzlj6/og73mlofku7blt7LooqvliKDpmaTmiJbpnIDopoHkvJrlkZgiCiAgICAgICAgICAgIHJldHVybkB3aXRoQ29udGV4dAogICAgICAgIH0KICAgICAgICB2YWwgdXJsID0gcnVuQ2F0Y2hpbmcgeyBhLnJlZmluZURvd25sb2FkVXJsKGxpbmsuZG93bmxvYWRVcmwsIGNyZWRlbnRpYWwpIH0KICAgICAgICAgICAgLmdldE9yRGVmYXVsdChsaW5rLmRvd25sb2FkVXJsKQogICAgICAgIF9kb3dubG9hZExpbmsudmFsdWUgPSBQZW5kaW5nRG93bmxvYWQoCiAgICAgICAgICAgIGZpbGUgPSBmaWxlLAogICAgICAgICAgICB1cmwgPSB1cmwsCiAgICAgICAgICAgIGhlYWRlcnMgPSBhLmRvd25sb2FkSGVhZGVycyhjcmVkZW50aWFsKSwKICAgICAgICAgICAgaXNIbHMgPSBsaW5rLmlzSGxzLAogICAgICAgICkKICAgIH0KCiAgICAvKiog56Gu6K6k5LiL6L2977ya55yf5q2j5YWl6Zif44CCICovCiAgICBmdW4gc3RhcnREb3dubG9hZCgpIHsKICAgICAgICB2YWwgcCA9IF9kb3dubG9hZExpbmsudmFsdWUgPzogcmV0dXJuCiAgICAgICAgb3JnLmxpbmJhb2d1LnJvbWh1Yi5kb3dubG9hZC5Eb3dubG9hZE1hbmFnZXIuYWRkKAogICAgICAgICAgICB1cmwgPSBwLnVybCwKICAgICAgICAgICAgZmlsZU5hbWUgPSBwLmZpbGUuZm5hbWUsCiAgICAgICAgICAgIGhlYWRlcnMgPSBwLmhlYWRlcnMsCiAgICAgICAgICAgIHN1YkRpciA9IHBsYXRmb3JtLm5hbWUubG93ZXJjYXNlKCksCiAgICAgICAgICAgIGlzSGxzID0gcC5pc0hscywKICAgICAgICApCiAgICAgICAgX2Rvd25sb2FkTGluay52YWx1ZSA9IG51bGwKICAgICAgICBfbWVzc2FnZS52YWx1ZSA9ICLlt7LlvIDlp4vkuIvovb3vvJoke3AuZmlsZS5mbmFtZX0iCiAgICAgICAgX2Rvd25sb2FkVHJpZ2dlcmVkLnZhbHVlID0gX2Rvd25sb2FkVHJpZ2dlcmVkLnZhbHVlICsgMQogICAgfQoKICAgIC8qKiDmibnph4/kuIvovb3vvJrpgJDkuKrlj5bpk77lhaXpmJ/jgIIgKi8KICAgIHN1c3BlbmQgZnVuIGRvd25sb2FkRmlsZXMoZmlsZXM6IExpc3Q8U2hhcmVGaWxlPikgPSB3aXRoQ29udGV4dChEaXNwYXRjaGVycy5JTykgewogICAgICAgIHZhbCBhID0gYXBpID86IHJldHVybkB3aXRoQ29udGV4dAogICAgICAgIHZhciBvayA9IDAKICAgICAgICBmaWxlcy5maWx0ZXJOb3QgeyBpdC5pc2RpciB9LmZvckVhY2ggeyBmIC0+CiAgICAgICAgICAgIHZhbCBsaW5rID0gcnVuQ2F0Y2hpbmcgeyBhLmRvd25sb2FkTGluayhmLCBjcmVkZW50aWFsKSB9LmdldE9yTnVsbCgpCiAgICAgICAgICAgIGlmIChsaW5rICE9IG51bGwgJiYgbGluay5kb3dubG9hZFVybC5pc05vdEJsYW5rKCkpIHsKICAgICAgICAgICAgICAgIHZhbCB1cmwgPSBydW5DYXRjaGluZyB7IGEucmVmaW5lRG93bmxvYWRVcmwobGluay5kb3dubG9hZFVybCwgY3JlZGVudGlhbCkgfQogICAgICAgICAgICAgICAgICAgIC5nZXRPckRlZmF1bHQobGluay5kb3dubG9hZFVybCkKICAgICAgICAgICAgICAgIG9yZy5saW5iYW9ndS5yb21odWIuZG93bmxvYWQuRG93bmxvYWRNYW5hZ2VyLmFkZCgKICAgICAgICAgICAgICAgICAgICB1cmwgPSB1cmwsCiAgICAgICAgICAgICAgICAgICAgZmlsZU5hbWUgPSBmLmZuYW1lLAogICAgICAgICAgICAgICAgICAgIGhlYWRlcnMgPSBhLmRvd25sb2FkSGVhZGVycyhjcmVkZW50aWFsKSwKICAgICAgICAgICAgICAgICAgICBzdWJEaXIgPSBwbGF0Zm9ybS5uYW1lLmxvd2VyY2FzZSgpLAogICAgICAgICAgICAgICAgICAgIGlzSGxzID0gbGluay5pc0hscywKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIG9rKysKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICBfbWVzc2FnZS52YWx1ZSA9IGlmIChvayA+IDApICLlt7LlvIDlp4vkuIvovb0gJG9rIOS4quaWh+S7tiIgZWxzZSAi5rKh5pyJ5Y+v5LiL6L2955qE5paH5Lu2IgogICAgICAgIGlmIChvayA+IDApIF9kb3dubG9hZFRyaWdnZXJlZC52YWx1ZSA9IF9kb3dubG9hZFRyaWdnZXJlZC52YWx1ZSArIDEKICAgICAgICBleGl0TXVsdGlTZWxlY3QoKQogICAgfQoKICAgIC8vIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0g5paH5Lu25pON5L2cCgogICAgc3VzcGVuZCBmdW4gcmVuYW1lKGZpbGU6IFNoYXJlRmlsZSwgbmV3TmFtZTogU3RyaW5nKSA9IHdpdGhDb250ZXh0KERpc3BhdGNoZXJzLklPKSB7CiAgICAgICAgdmFsIGEgPSBhcGkgPzogcmV0dXJuQHdpdGhDb250ZXh0CiAgICAgICAgaWYgKG5ld05hbWUuaXNCbGFuaygpIHx8IG5ld05hbWUgPT0gZmlsZS5mbmFtZSkgcmV0dXJuQHdpdGhDb250ZXh0CiAgICAgICAgdmFsIG9rID0gcnVuQ2F0Y2hpbmcgeyBhLnJlbmFtZShmaWxlLCBuZXdOYW1lLCBjcmVkZW50aWFsKSB9LmdldE9yRGVmYXVsdChmYWxzZSkKICAgICAgICBfbWVzc2FnZS52YWx1ZSA9IGlmIChvaykgIuW3sumHjeWRveWQjSIgZWxzZSAi6YeN5ZG95ZCN5aSx6LSlIgogICAgICAgIGlmIChvaykgbG9hZEN1cnJlbnQoZmlyc3RMb2FkID0gZmFsc2UpCiAgICB9CgogICAgc3VzcGVuZCBmdW4gY3JlYXRlRm9sZGVyKG5hbWU6IFN0cmluZykgPSB3aXRoQ29udGV4dChEaXNwYXRjaGVycy5JTykgewogICAgICAgIHZhbCBhID0gYXBpID86IHJldHVybkB3aXRoQ29udGV4dAogICAgICAgIHZhbCBpZCA9IHJ1bkNhdGNoaW5nIHsgYS5jcmVhdGVGb2xkZXIobmFtZSwgY3VycmVudERpcklkLCBjcmVkZW50aWFsKSB9LmdldE9yTnVsbCgpCiAgICAgICAgX21lc3NhZ2UudmFsdWUgPSBpZiAoaWQgIT0gbnVsbCkgIuW3suWIm+W7uuaWh+S7tuWkue+8miRuYW1lIiBlbHNlICLliJvlu7rlpLHotKUiCiAgICAgICAgaWYgKGlkICE9IG51bGwpIGxvYWRDdXJyZW50KGZpcnN0TG9hZCA9IGZhbHNlKQogICAgfQoKICAgIHN1c3BlbmQgZnVuIGRlbGV0ZShmaWxlczogTGlzdDxTaGFyZUZpbGU+KSA9IHdpdGhDb250ZXh0KERpc3BhdGNoZXJzLklPKSB7CiAgICAgICAgdmFsIGEgPSBhcGkgPzogcmV0dXJuQHdpdGhDb250ZXh0CiAgICAgICAgdmFsIG9rID0gcnVuQ2F0Y2hpbmcgeyBhLmRlbGV0ZShmaWxlcywgY3JlZGVudGlhbCkgfS5nZXRPckRlZmF1bHQoZmFsc2UpCiAgICAgICAgX21lc3NhZ2UudmFsdWUgPSBpZiAob2spICLlt7LliKDpmaQgJHtmaWxlcy5zaXplfSDpobkiIGVsc2UgIuWIoOmZpOWksei0pSIKICAgICAgICBpZiAob2spIHsKICAgICAgICAgICAgZXhpdE11bHRpU2VsZWN0KCkKICAgICAgICAgICAgbG9hZEN1cnJlbnQoZmlyc3RMb2FkID0gZmFsc2UpCiAgICAgICAgfQogICAgfQoKICAgIHN1c3BlbmQgZnVuIG1vdmUoZmlsZXM6IExpc3Q8U2hhcmVGaWxlPiwgdG9EaXJJZDogU3RyaW5nKSA9IHdpdGhDb250ZXh0KERpc3BhdGNoZXJzLklPKSB7CiAgICAgICAgdmFsIGEgPSBhcGkgPzogcmV0dXJuQHdpdGhDb250ZXh0CiAgICAgICAgdmFsIG9rID0gcnVuQ2F0Y2hpbmcgeyBhLm1vdmUoZmlsZXMsIHRvRGlySWQsIGNyZWRlbnRpYWwpIH0uZ2V0T3JEZWZhdWx0KGZhbHNlKQogICAgICAgIF9tZXNzYWdlLnZhbHVlID0gaWYgKG9rKSAi5bey56e75YqoICR7ZmlsZXMuc2l6ZX0g6aG5IiBlbHNlICLnp7vliqjlpLHotKUiCiAgICAgICAgaWYgKG9rKSB7CiAgICAgICAgICAgIGV4aXRNdWx0aVNlbGVjdCgpCiAgICAgICAgICAgIGxvYWRDdXJyZW50KGZpcnN0TG9hZCA9IGZhbHNlKQogICAgICAgIH0KICAgIH0KCiAgICAvKiog5YiX5Ye65p+Q5Liq55uu5b2V55qE5a2Q5paH5Lu25aS577yI56e75YqoL+WIhuS6q+mAieebruW9leeUqO+8ieOAgiAqLwogICAgc3VzcGVuZCBmdW4gbGlzdERpcnMoZGlySWQ6IFN0cmluZyk6IExpc3Q8U2hhcmVGaWxlPiA9IHdpdGhDb250ZXh0KERpc3BhdGNoZXJzLklPKSB7CiAgICAgICAgdmFsIGEgPSBhcGkgPzogcmV0dXJuQHdpdGhDb250ZXh0IGVtcHR5TGlzdCgpCiAgICAgICAgcnVuQ2F0Y2hpbmcgeyBhLmxpc3QoZGlySWQsIGNyZWRlbnRpYWwpLmZpbHRlciB7IGl0LmlzZGlyIH0gfS5nZXRPckRlZmF1bHQoZW1wdHlMaXN0KCkpCiAgICB9CgogICAgc3VzcGVuZCBmdW4gY3JlYXRlU2hhcmUoCiAgICAgICAgZmlsZXM6IExpc3Q8U2hhcmVGaWxlPiwKICAgICAgICB1cmxUeXBlOiBJbnQsCiAgICAgICAgcGFzc2NvZGU6IFN0cmluZywKICAgICAgICBleHBpcmVkVHlwZTogSW50LAogICAgKTogU2hhcmVJbmZvPyA9IHdpdGhDb250ZXh0KERpc3BhdGNoZXJzLklPKSB7CiAgICAgICAgdmFsIGEgPSBhcGkgPzogcmV0dXJuQHdpdGhDb250ZXh0IG51bGwKICAgICAgICB2YWwgciA9IHJ1bkNhdGNoaW5nIHsgYS5jcmVhdGVTaGFyZShmaWxlcywgdXJsVHlwZSwgcGFzc2NvZGUsIGV4cGlyZWRUeXBlLCBjcmVkZW50aWFsKSB9CiAgICAgICAgICAgIC5nZXRPck51bGwoKQogICAgICAgIGlmIChyID09IG51bGwpIF9tZXNzYWdlLnZhbHVlID0gIuWIm+W7uuWIhuS6q+Wksei0pSIgZWxzZSBleGl0TXVsdGlTZWxlY3QoKQogICAgICAgIHIKICAgIH0KCiAgICB2YWwgZXhwaXJlT3B0aW9uczogTGlzdDxQYWlyPFN0cmluZywgSW50Pj4KICAgICAgICBnZXQoKSA9IGFwaT8uZXhwaXJlT3B0aW9ucyA/OiBkZWZhdWx0RXhwaXJlT3B0aW9ucwoKICAgIC8qKiDmjpLluo/vvJrmlofku7blpLnlnKjliY3vvIznhLblkI7mjInlkI3lrZfvvIjlv73nlaXlpKflsI/lhpnvvInjgIIgKi8KICAgIHByaXZhdGUgdmFsIGZpbGVPcmRlciA9IGNvbXBhcmVCeURlc2NlbmRpbmc8U2hhcmVGaWxlPiB7IGl0LmlzZGlyIH0KICAgICAgICAudGhlbkJ5KFN0cmluZy5DQVNFX0lOU0VOU0lUSVZFX09SREVSKSB7IGl0LmZuYW1lIH0KfQoKLyoqIOa1j+iniOmhteeahOS4ieenjeeKtuaAgeOAgiAqLwpzZWFsZWQgaW50ZXJmYWNlIENsb3VkU3RhdGUgewogICAgZGF0YSBvYmplY3QgTG9hZGluZyA6IENsb3VkU3RhdGUKCiAgICBkYXRhIGNsYXNzIEVycm9yKHZhbCBtZXNzYWdlOiBTdHJpbmcpIDogQ2xvdWRTdGF0ZQoKICAgIGRhdGEgY2xhc3MgTG9hZGVkKAogICAgICAgIHZhbCBmaWxlczogTGlzdDxTaGFyZUZpbGU+LAogICAgICAgIHZhbCBwYXRoTmFtZXM6IExpc3Q8U3RyaW5nPiwKICAgICAgICB2YWwgcGF0aElkczogTGlzdDxTdHJpbmc+LAogICAgICAgIC8qKiB0cnVlID0g6L+Z5piv5YWo55uY5pCc57Si57uT5p6c77yI5LiN5piv5p+Q5Liq55uu5b2V55qE5YaF5a6577yJ77yM55WM6Z2i5o2u5q2k5pS55qCH6aKY44CB6ZqQ6JeP6Z2i5YyF5bGRICovCiAgICAgICAgdmFsIGlzU2VhcmNoUmVzdWx0OiBCb29sZWFuID0gZmFsc2UsCiAgICApIDogQ2xvdWRTdGF0ZQp9Cg==
+package org.linbaogu.romhub.cloud
+
+import android.content.Context
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.withContext
+import org.linbaogu.romhub.pan.PanHub
+import org.linbaogu.romhub.pan.SharePlatform
+import org.linbaogu.romhub.pan.model.ShareFile
+import org.linbaogu.romhub.pan.model.ShareInfo
+import org.linbaogu.romhub.pan.model.ShareExpire
+
+/**
+ * 云盘文件浏览的统一 ViewModel（7 家网盘共用）。
+ *
+ * 云析为每家写了一个独立的 `*CloudViewModel`（各约 680 行，90% 是重复的分页/选择/路径逻辑）。
+ * 这里只保留一份状态机，把「怎么调这家网盘」全部下沉到 [CloudApi] 适配器里。
+ *
+ * 状态机只有三种：加载中 / 出错 / 加载完成（带当前目录的文件列表 + 面包屑路径）。
+ *
+ * 搬运自云析（CYQawa/YunX，AGPL-3.0）的 ui/viewmodel 下的各家 CloudViewModel，
+ * 合并去重后的等价实现。
+ */
+class CloudBrowserViewModel(
+    private val ctx: Context,
+    val platform: SharePlatform,
+) {
+
+    private val api: CloudApi? = PanHub.cloudApi(platform)
+
+    // ---------------------------------------------------------------- 状态
+
+    val state: StateFlow<CloudState> get() = _state.asStateFlow()
+    private val _state = MutableStateFlow<CloudState>(CloudState.Loading)
+
+    /** 下拉刷新中（与首次加载区分：首次显示整页 Loading，刷新只在顶部转圈） */
+    val refreshing: StateFlow<Boolean> get() = _refreshing.asStateFlow()
+    private val _refreshing = MutableStateFlow(false)
+
+    /** 操作结果提示（弹窗关闭后仍能弹出，所以放 ViewModel 层） */
+    val message: StateFlow<String?> get() = _message.asStateFlow()
+    private val _message = MutableStateFlow<String?>(null)
+
+    fun consumeMessage() {
+        _message.value = null
+    }
+
+    // ---------------------------------------------------------------- 搜索
+
+    /** 这家网盘支不支持全盘搜索 */
+    val supportsSearch: Boolean get() = api?.supportsSearch == true
+
+    /** 正在搜索中（搜索框后面转圈） */
+    val searching: StateFlow<Boolean> get() = _searching.asStateFlow()
+    private val _searching = MutableStateFlow(false)
+
+    /**
+     * 搜索结果；null = 没在搜索（显示正常目录列表）。
+     *
+     * 搜索是**全盘**的（跨目录），所以结果里的文件夹点进去走的是「用 fid 直接列目录」，
+     * 而不是相对当前目录的 enter() —— 这点和普通浏览不同，[CloudState.Loaded] 里
+     * 用 [CloudState.Loaded.isSearchResult] 标记出来给界面区分。
+     */
+    val searchResult: StateFlow<CloudState.Loaded?> get() = _searchResult.asStateFlow()
+    private val _searchResult = MutableStateFlow<CloudState.Loaded?>(null)
+
+    /** 当前搜索关键词（空串表示没在搜索） */
+    var currentKeyword: String = ""
+        private set
+
+    suspend fun search(keyword: String) = withContext(Dispatchers.IO) {
+        val a = api
+        val q = keyword.trim()
+        currentKeyword = q
+        if (q.isEmpty()) {
+            _searchResult.value = null
+            return@withContext
+        }
+        if (a == null || !a.supportsSearch) {
+            _message.value = "${PanHub.platformName(platform)} 暂不支持全盘搜索"
+            return@withContext
+        }
+        _searching.value = true
+        val r = runCatching { a.search(q, credential) }
+        _searching.value = false
+        r.fold(
+            onSuccess = { files ->
+                if (files == null) {
+                    _searchResult.value = null
+                    _message.value = "${PanHub.platformName(platform)} 暂不支持全盘搜索"
+                } else {
+                    _searchResult.value = CloudState.Loaded(
+                        files = files.sortedWith(fileOrder),
+                        pathNames = listOf("搜索：$q"),
+                        pathIds = emptyList(),
+                        isSearchResult = true,
+                    )
+                    if (files.isEmpty()) _message.value = "没有找到含「$q」的文件"
+                }
+            },
+            onFailure = { e ->
+                _searchResult.value = null
+                _message.value = "搜索失败：${e.message ?: "未知错误"}"
+            },
+        )
+    }
+
+    fun clearSearch() {
+        currentKeyword = ""
+        _searchResult.value = null
+    }
+
+    /** 从搜索结果里进一个目录：搜到的目录不属于当前路径栈，用 fid 直接列。 */
+    suspend fun openSearchDir(dir: ShareFile) = withContext(Dispatchers.IO) {
+        val dirId = api?.dirIdOf(dir) ?: dir.fid
+        pathStack = mutableListOf(dirId to dir.fname)
+        currentDirId = dirId
+        _searchResult.value = null
+        currentKeyword = ""
+        selected.clear()
+        bumpSelection()
+        loadCurrent(firstLoad = true)
+    }
+
+    // ---------------------------------------------------------------- 上传
+
+    /** 这家网盘支不支持上传 */
+    val supportsUpload: Boolean get() = api?.supportsUpload == true
+
+    /** 上传进行中的百分比（-1 = 没在上传）。0..100 */
+    val uploadProgress: StateFlow<Int> get() = _uploadProgress.asStateFlow()
+    private val _uploadProgress = MutableStateFlow(-1)
+
+    /**
+     * 上传一批本地文件到**当前目录**。
+     *
+     * @param files 已经解析好元数据的本地文件（名 + 大小 + 每次打开输入流的工厂）
+     */
+    suspend fun uploadFiles(files: List<LocalUpload>) = withContext(Dispatchers.IO) {
+        val a = api
+        if (a == null || !a.supportsUpload) {
+            _message.value = "${PanHub.platformName(platform)} 暂不支持上传"
+            return@withContext
+        }
+        if (files.isEmpty()) return@withContext
+        var ok = 0
+        files.forEachIndexed { i, f ->
+            val r = runCatching {
+                a.upload(
+                    dirId = currentDirId,
+                    fileName = f.name,
+                    size = f.size,
+                    openStream = f.openStream,
+                    credential = credential,
+                ) { sent, total ->
+                    // 进度按「第 i 个文件」折算到整批
+                    val base = i * 100f / files.size
+                    val part = if (total > 0) sent.toFloat() / total * 100f / files.size else 0f
+                    _uploadProgress.value = (base + part).toInt().coerceIn(0, 100)
+                }
+            }
+            if (r.getOrDefault(false)) ok++
+        }
+        _uploadProgress.value = -1
+        _message.value = if (ok == files.size) {
+            "已上传 ${files.size} 个文件"
+        } else {
+            "上传完成 $ok/${files.size}，失败的可以重试"
+        }
+        if (ok > 0) loadCurrent(firstLoad = false)
+    }
+
+    /** 一个待上传的本地文件（把 Android Uri 的读取封装在界面层，VM 只认这三样）。 */
+    data class LocalUpload(
+        val name: String,
+        val size: Long,
+        val openStream: () -> java.io.InputStream,
+    )
+
+    /** 需要切到「下载」段的信号（下载入队后由页面消费） */
+    val downloadTriggered: StateFlow<Int> get() = _downloadTriggered.asStateFlow()
+    private val _downloadTriggered = MutableStateFlow(0)
+
+    fun consumeDownloadTriggered() {
+        _downloadTriggered.value = 0
+    }
+
+    // ---------------------------------------------------------------- 多选
+
+    val multiSelectMode: StateFlow<Boolean> get() = _multiSelectMode.asStateFlow()
+    private val _multiSelectMode = MutableStateFlow(false)
+
+    /** 已选中的文件（按 fid），进目录/刷新会自动清空 */
+    private val selected = linkedMapOf<String, ShareFile>()
+
+    val selectedFiles: List<ShareFile> get() = selected.values.toList()
+
+    fun enterMultiSelect(file: ShareFile? = null) {
+        _multiSelectMode.value = true
+        if (file != null) selected[file.fid] = file
+        bumpSelection()
+    }
+
+    fun exitMultiSelect() {
+        _multiSelectMode.value = false
+        selected.clear()
+        bumpSelection()
+    }
+
+    /** 点一个文件行：多选模式下切换选中，否则交给调用方处理（进目录 / 打开）。 */
+    fun toggleSelect(file: ShareFile) {
+        if (selected.containsKey(file.fid)) selected.remove(file.fid) else selected[file.fid] = file
+        bumpSelection()
+    }
+
+    fun isSelected(fid: String): Boolean = selected.containsKey(fid)
+
+    fun selectAll(files: List<ShareFile>) {
+        files.forEach { selected[it.fid] = it }
+        bumpSelection()
+    }
+
+    fun clearSelection() {
+        selected.clear()
+        bumpSelection()
+    }
+
+    /** 选中集变化时推进一个版本号，让 Compose 重新读 [selectedFiles]。 */
+    private val _selectionRev = MutableStateFlow(0)
+    val selectionRev: StateFlow<Int> get() = _selectionRev.asStateFlow()
+
+    private fun bumpSelection() {
+        _selectionRev.value = _selectionRev.value + 1
+    }
+
+    // ---------------------------------------------------------------- 下载确认弹窗
+
+    val downloadLink: StateFlow<PendingDownload?> get() = _downloadLink.asStateFlow()
+    private val _downloadLink = MutableStateFlow<PendingDownload?>(null)
+
+    fun dismissDownloadDialog() {
+        _downloadLink.value = null
+    }
+
+    data class PendingDownload(
+        val file: ShareFile,
+        val url: String,
+        val headers: Map<String, String>,
+        /** 是否为 HLS（m3u8）转码流 —— 决定走 HLS 分段下载还是普通分片下载 */
+        val isHls: Boolean = false,
+    )
+
+    // ---------------------------------------------------------------- 加载
+
+    private var credential: String = ""
+
+    /** 当前目录路径：从根到当前目录的 (fid, name) 栈。根目录为空列表。 */
+    private var pathStack: MutableList<Pair<String, String>> = mutableListOf()
+    private var currentDirId: String = ""
+
+    suspend fun loadRoot() = withContext(Dispatchers.IO) {
+        val a = api
+        if (a == null) {
+            _state.value = CloudState.Error("${PanHub.platformName(platform)} 暂不支持文件浏览")
+            return@withContext
+        }
+        credential = runCatching { PanHub.credential(ctx, platform) }.getOrNull().orEmpty()
+        if (credential.isBlank()) {
+            _state.value = CloudState.Error("${PanHub.platformName(platform)} 还没登录")
+            return@withContext
+        }
+        // 凭据不齐（139 缺 authorization 那种）时，别等到接口报错再抛抽象的半句话，
+        // 这里就把它缺什么、怎么补讲清楚
+        val warn = runCatching { a.credentialWarning(credential) }.getOrNull()
+        if (!warn.isNullOrBlank()) {
+            _state.value = CloudState.Error(warn)
+            return@withContext
+        }
+        pathStack = mutableListOf()
+        currentDirId = a.rootId
+        selected.clear()
+        bumpSelection()
+        loadCurrent(firstLoad = true)
+    }
+
+    /** 重新读当前目录（保路径）。 */
+    suspend fun refresh() = withContext(Dispatchers.IO) {
+        _refreshing.value = true
+        loadCurrent(firstLoad = false)
+        _refreshing.value = false
+    }
+
+    private suspend fun loadCurrent(firstLoad: Boolean) {
+        val a = api ?: return
+        if (firstLoad) _state.value = CloudState.Loading
+        val r = runCatching { a.list(currentDirId, credential) }
+        r.fold(
+            onSuccess = { files ->
+                _state.value = CloudState.Loaded(
+                    files = files.sortedWith(fileOrder),
+                    pathNames = pathStack.map { it.second },
+                    pathIds = pathStack.map { it.first },
+                )
+            },
+            onFailure = { e ->
+                _state.value = CloudState.Error(e.message ?: "加载失败")
+            },
+        )
+    }
+
+    /** 进入子目录。 */
+    suspend fun enter(dir: ShareFile) = withContext(Dispatchers.IO) {
+        // ⚠️ 必须走 api.dirIdOf：百度要的是绝对路径而不是 fs_id（默认实现就是 fid）
+        val dirId = api?.dirIdOf(dir) ?: dir.fid
+        pathStack.add(dirId to dir.fname)
+        currentDirId = dirId
+        selected.clear()
+        bumpSelection()
+        loadCurrent(firstLoad = true)
+    }
+
+    /** 返回上一级目录；已在根返回 false，由调用方决定是否退出页面。 */
+    suspend fun back(): Boolean = withContext(Dispatchers.IO) {
+        if (pathStack.isEmpty()) return@withContext false
+        pathStack.removeAt(pathStack.lastIndex)
+        currentDirId = pathStack.lastOrNull()?.first ?: (api?.rootId ?: "")
+        selected.clear()
+        bumpSelection()
+        loadCurrent(firstLoad = true)
+        true
+    }
+
+    // ---------------------------------------------------------------- 下载
+
+    /** 单文件下载：取直链 → 弹确认（对齐解析页，展示直链可复制） */
+    suspend fun prepareDownload(file: ShareFile) = withContext(Dispatchers.IO) {
+        val a = api ?: return@withContext
+        val link = runCatching { a.downloadLink(file, credential) }.getOrNull()
+        if (link == null || link.downloadUrl.isBlank()) {
+            _message.value = "取不到下载直链，可能文件已被删除或需要会员"
+            return@withContext
+        }
+        val url = runCatching { a.refineDownloadUrl(link.downloadUrl, credential) }
+            .getOrDefault(link.downloadUrl)
+        _downloadLink.value = PendingDownload(
+            file = file,
+            url = url,
+            headers = a.downloadHeaders(credential),
+            isHls = link.isHls,
+        )
+    }
+
+    /** 确认下载：真正入队。 */
+    fun startDownload() {
+        val p = _downloadLink.value ?: return
+        org.linbaogu.romhub.download.DownloadManager.add(
+            url = p.url,
+            fileName = p.file.fname,
+            headers = p.headers,
+            subDir = platform.name.lowercase(),
+            isHls = p.isHls,
+        )
+        _downloadLink.value = null
+        _message.value = "已开始下载：${p.file.fname}"
+        _downloadTriggered.value = _downloadTriggered.value + 1
+    }
+
+    /** 批量下载：逐个取链入队。 */
+    suspend fun downloadFiles(files: List<ShareFile>) = withContext(Dispatchers.IO) {
+        val a = api ?: return@withContext
+        var ok = 0
+        files.filterNot { it.isdir }.forEach { f ->
+            val link = runCatching { a.downloadLink(f, credential) }.getOrNull()
+            if (link != null && link.downloadUrl.isNotBlank()) {
+                val url = runCatching { a.refineDownloadUrl(link.downloadUrl, credential) }
+                    .getOrDefault(link.downloadUrl)
+                org.linbaogu.romhub.download.DownloadManager.add(
+                    url = url,
+                    fileName = f.fname,
+                    headers = a.downloadHeaders(credential),
+                    subDir = platform.name.lowercase(),
+                    isHls = link.isHls,
+                )
+                ok++
+            }
+        }
+        _message.value = if (ok > 0) "已开始下载 $ok 个文件" else "没有可下载的文件"
+        if (ok > 0) _downloadTriggered.value = _downloadTriggered.value + 1
+        exitMultiSelect()
+    }
+
+    // ---------------------------------------------------------------- 文件操作
+
+    suspend fun rename(file: ShareFile, newName: String) = withContext(Dispatchers.IO) {
+        val a = api ?: return@withContext
+        if (newName.isBlank() || newName == file.fname) return@withContext
+        val ok = runCatching { a.rename(file, newName, credential) }.getOrDefault(false)
+        _message.value = if (ok) "已重命名" else "重命名失败"
+        if (ok) loadCurrent(firstLoad = false)
+    }
+
+    suspend fun createFolder(name: String) = withContext(Dispatchers.IO) {
+        val a = api ?: return@withContext
+        val id = runCatching { a.createFolder(name, currentDirId, credential) }.getOrNull()
+        _message.value = if (id != null) "已创建文件夹：$name" else "创建失败"
+        if (id != null) loadCurrent(firstLoad = false)
+    }
+
+    suspend fun delete(files: List<ShareFile>) = withContext(Dispatchers.IO) {
+        val a = api ?: return@withContext
+        val ok = runCatching { a.delete(files, credential) }.getOrDefault(false)
+        _message.value = if (ok) "已删除 ${files.size} 项" else "删除失败"
+        if (ok) {
+            exitMultiSelect()
+            loadCurrent(firstLoad = false)
+        }
+    }
+
+    suspend fun move(files: List<ShareFile>, toDirId: String) = withContext(Dispatchers.IO) {
+        val a = api ?: return@withContext
+        val ok = runCatching { a.move(files, toDirId, credential) }.getOrDefault(false)
+        _message.value = if (ok) "已移动 ${files.size} 项" else "移动失败"
+        if (ok) {
+            exitMultiSelect()
+            loadCurrent(firstLoad = false)
+        }
+    }
+
+    /** 列出某个目录的子文件夹（移动/分享选目录用）。 */
+    suspend fun listDirs(dirId: String): List<ShareFile> = withContext(Dispatchers.IO) {
+        val a = api ?: return@withContext emptyList()
+        runCatching { a.list(dirId, credential).filter { it.isdir } }.getOrDefault(emptyList())
+    }
+
+    suspend fun createShare(
+        files: List<ShareFile>,
+        urlType: Int,
+        passcode: String,
+        expiredType: Int,
+    ): ShareInfo? = withContext(Dispatchers.IO) {
+        val a = api ?: return@withContext null
+        val r = runCatching { a.createShare(files, urlType, passcode, expiredType, credential) }
+            .getOrNull()
+        if (r == null) _message.value = "创建分享失败" else exitMultiSelect()
+        r
+    }
+
+    val expireOptions: List<Pair<String, Int>>
+        get() = api?.expireOptions ?: defaultExpireOptions
+
+    /** 排序：文件夹在前，然后按名字（忽略大小写）。 */
+    private val fileOrder = compareByDescending<ShareFile> { it.isdir }
+        .thenBy(String.CASE_INSENSITIVE_ORDER) { it.fname }
+}
+
+/** 浏览页的三种状态。 */
+sealed interface CloudState {
+    data object Loading : CloudState
+
+    data class Error(val message: String) : CloudState
+
+    data class Loaded(
+        val files: List<ShareFile>,
+        val pathNames: List<String>,
+        val pathIds: List<String>,
+        /** true = 这是全盘搜索结果（不是某个目录的内容），界面据此改标题、隐藏面包屑 */
+        val isSearchResult: Boolean = false,
+    ) : CloudState
+}

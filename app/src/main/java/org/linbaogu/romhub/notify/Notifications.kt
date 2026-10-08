@@ -1,1 +1,157 @@
-cGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLm5vdGlmeQoKaW1wb3J0IGFuZHJvaWQuYXBwLk5vdGlmaWNhdGlvbkNoYW5uZWwKaW1wb3J0IGFuZHJvaWQuYXBwLk5vdGlmaWNhdGlvbk1hbmFnZXIKaW1wb3J0IGFuZHJvaWQuYXBwLlBlbmRpbmdJbnRlbnQKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuSW50ZW50CmltcG9ydCBhbmRyb2lkLm5ldC5VcmkKaW1wb3J0IGFuZHJvaWR4LmNvcmUuYXBwLk5vdGlmaWNhdGlvbkNvbXBhdAppbXBvcnQgYW5kcm9pZHguY29yZS5hcHAuTm90aWZpY2F0aW9uTWFuYWdlckNvbXBhdAppbXBvcnQgb3JnLmxpbmJhb2d1LnJvbWh1Yi5NYWluQWN0aXZpdHkKaW1wb3J0IG9yZy5saW5iYW9ndS5yb21odWIuUgoKLyoqCiAqIOezu+e7n+mAmuefpeOAggogKgogKiDkuKTkuKrmuKDpgZPvvIznlKjmiLflj6/ku6XlnKjns7vnu5/orr7nva7ph4wqKuWIhuWIq+WFs+aOiSoq5YW25Lit5LiA57G777yaCiAqICAgcm9taHViX29mZmljaWFsIMK3IOWumOaWueWMheabtOaWsO+8iOWQq+ato+W8j+eJiCAvIOWGhea1i+eJiCAvIOaWsOacuuWei+S4iue6v++8iQogKiAgIHJvbWh1Yl9wb3J0ICAgIMK3IOenu+akjeWMheabtOaWsAogKgogKiDmr4/mnaHpgJrnn6Xnu5/kuIDplb/ov5nmoLfvvJoKICoKICogICBSRURNSSBLMTAwIFBybyDCtyDlrpjmlrnljIXmm7TmlrAgICAgICDihpAg5qCH6aKY77ya5py65Z6LICsg5pu05paw57G75Z6LCiAqICAgT1MzLjAuOS45LldQSUNOWE0gICAgICAgICAgICAgICAg4oaQIOWwj+Wtl++8mueJiOacrOWPtwogKgogKiDngrnlh7vlkI7otbAgcm9taHViOi8vIOa3semTvu+8jOebtOaOpeaJk+W8gOWvueW6lOeahOeJiOacrOmhtSAvIOenu+akjeWMheivpuaDhemhteOAggogKi8Kb2JqZWN0IE5vdGlmaWNhdGlvbnMgewoKICAgIGNvbnN0IHZhbCBDSF9PRkZJQ0lBTCA9ICJyb21odWJfb2ZmaWNpYWwiCiAgICBjb25zdCB2YWwgQ0hfUE9SVCA9ICJyb21odWJfcG9ydCIKCiAgICAvKiog5pu05paw57G75Z6LIOKGkiDmoIfpopjph4znmoTkuK3mlofmoIfnrb7jgIIgKi8KICAgIGZ1biBraW5kTGFiZWwoa2luZDogU3RyaW5nKTogU3RyaW5nID0gd2hlbiAoa2luZCkgewogICAgICAgICJwb3J0IiAtPiAi56e75qSN5YyF5pu05pawIgogICAgICAgICJiZXRhIiAtPiAi5YaF5rWL54mI5pu05pawIgogICAgICAgICJkZXZpY2UiIC0+ICLmlrDmnLrlnovkuIrnur8iCiAgICAgICAgZWxzZSAtPiAi5a6Y5pa55YyF5pu05pawIgogICAgfQoKICAgIC8qKiDov5nmnaHpgJrnn6XlsZ7kuo7lk6rkuKrmuKDpgZPvvIjlhrPlrprnlKjmiLfog73kuI3og73ljZXni6zlhbPmjonlroPvvInjgIIgKi8KICAgIGZ1biBjaGFubmVsT2Yoa2luZDogU3RyaW5nKTogU3RyaW5nID0KICAgICAgICBpZiAoa2luZCA9PSAicG9ydCIpIENIX1BPUlQgZWxzZSBDSF9PRkZJQ0lBTAoKICAgIGZ1biBlbnN1cmVDaGFubmVscyhjdHg6IENvbnRleHQpIHsKICAgICAgICB2YWwgbWdyID0gY3R4LmdldFN5c3RlbVNlcnZpY2UoTm90aWZpY2F0aW9uTWFuYWdlcjo6Y2xhc3MuamF2YSkgPzogcmV0dXJuCiAgICAgICAgaWYgKG1nci5nZXROb3RpZmljYXRpb25DaGFubmVsKENIX09GRklDSUFMKSA9PSBudWxsKSB7CiAgICAgICAgICAgIG1nci5jcmVhdGVOb3RpZmljYXRpb25DaGFubmVsKAogICAgICAgICAgICAgICAgTm90aWZpY2F0aW9uQ2hhbm5lbChDSF9PRkZJQ0lBTCwgIuWumOaWueWMheabtOaWsCIsIE5vdGlmaWNhdGlvbk1hbmFnZXIuSU1QT1JUQU5DRV9ERUZBVUxUKS5hcHBseSB7CiAgICAgICAgICAgICAgICAgICAgZGVzY3JpcHRpb24gPSAi6K6i6ZiF55qE5py65Z6L5pyJ5paw55qE5a6Y5pa55YyF44CB5YaF5rWL54mI5pys5pe25o+Q6YaSIgogICAgICAgICAgICAgICAgICAgIGVuYWJsZUxpZ2h0cyh0cnVlKQogICAgICAgICAgICAgICAgICAgIGVuYWJsZVZpYnJhdGlvbih0cnVlKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICApCiAgICAgICAgfQogICAgICAgIGlmIChtZ3IuZ2V0Tm90aWZpY2F0aW9uQ2hhbm5lbChDSF9QT1JUKSA9PSBudWxsKSB7CiAgICAgICAgICAgIG1nci5jcmVhdGVOb3RpZmljYXRpb25DaGFubmVsKAogICAgICAgICAgICAgICAgTm90aWZpY2F0aW9uQ2hhbm5lbChDSF9QT1JULCAi56e75qSN5YyF5pu05pawIiwgTm90aWZpY2F0aW9uTWFuYWdlci5JTVBPUlRBTkNFX0RFRkFVTFQpLmFwcGx5IHsKICAgICAgICAgICAgICAgICAgICBkZXNjcmlwdGlvbiA9ICLorqLpmIXnmoTmnLrlnovmnInmlrDnp7vmpI3ljIXkuIrkvKDml7bmj5DphpIiCiAgICAgICAgICAgICAgICAgICAgZW5hYmxlTGlnaHRzKHRydWUpCiAgICAgICAgICAgICAgICAgICAgZW5hYmxlVmlicmF0aW9uKHRydWUpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICkKICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiDlj5HkuIDmnaHmm7TmlrDpgJrnn6XjgIIKICAgICAqCiAgICAgKiBAcGFyYW0gZGV2aWNlICDmnLrlnovlkI3vvIjmsqHmnInlsLHnlKjku6Plj7flhZzlupXvvIkKICAgICAqIEBwYXJhbSBraW5kICAgIOabtOaWsOexu+WeiyBraW5kIOWtl+aute+8jOWGs+Wumuagh+mimOagh+etvuS4jua4oOmBkwogICAgICogQHBhcmFtIHZlcnNpb24g54mI5pys5Y+377yM5L2c5Li65qCH6aKY5LiL55qE6YKj6KGM5bCP5a2XCiAgICAgKiBAcGFyYW0gc3VtbWFyeSDlsZXlvIDlkI7nmoTooaXlhYXkv6Hmga/vvIjmm7TmlrDor7TmmI7jgIHkvZzogIXnrYnvvInvvIzmsqHmnInlsLHnlZnnqboKICAgICAqIEBwYXJhbSBkZWVwTGluayDngrnlh7vopoHot7PliLDnmoTpobXpnaIKICAgICAqIEBwYXJhbSBpZCAgICAgIOmAmuefpSBpZO+8iOWQjOS4gOadoeabtOaWsOWPjeWkjeaOqOimgeWkjeeUqOWQjOS4gOS4qiBpZO+8jOmBv+WFjeWIt+Wxj++8iQogICAgICovCiAgICBmdW4gc2hvd1VwZGF0ZSgKICAgICAgICBjdHg6IENvbnRleHQsCiAgICAgICAgaWQ6IEludCwKICAgICAgICBkZXZpY2U6IFN0cmluZywKICAgICAgICBjb2RlbmFtZTogU3RyaW5nLAogICAgICAgIGtpbmQ6IFN0cmluZywKICAgICAgICB2ZXJzaW9uOiBTdHJpbmcsCiAgICAgICAgc3VtbWFyeTogU3RyaW5nID0gIiIsCiAgICAgICAgZGVlcExpbms6IFN0cmluZywKICAgICkgewogICAgICAgIGVuc3VyZUNoYW5uZWxzKGN0eCkKCiAgICAgICAgdmFsIGxhYmVsID0ga2luZExhYmVsKGtpbmQpCiAgICAgICAgdmFsIHRpdGxlID0gIiR7ZGV2aWNlLmlmQmxhbmsgeyBjb2RlbmFtZSB9fSDCtyAkbGFiZWwiCiAgICAgICAgdmFsIGJvZHkgPSB2ZXJzaW9uLmlmQmxhbmsgeyAi54K55Ye75p+l55yL6K+m5oOFIiB9CiAgICAgICAgdmFsIGJpZyA9IGxpc3RPZih2ZXJzaW9uLCBzdW1tYXJ5KS5maWx0ZXIgeyBpdC5pc05vdEJsYW5rKCkgfS5qb2luVG9TdHJpbmcoIlxuIikKCiAgICAgICAgZW5zdXJlQ2hhbm5lbHMoY3R4KQogICAgICAgIHNob3coCiAgICAgICAgICAgIGN0eCA9IGN0eCwKICAgICAgICAgICAgaWQgPSBpZCwKICAgICAgICAgICAgY2hhbm5lbCA9IGNoYW5uZWxPZihraW5kKSwKICAgICAgICAgICAgdGl0bGUgPSB0aXRsZSwKICAgICAgICAgICAgYm9keSA9IGJvZHksCiAgICAgICAgICAgIGJpZ1RleHQgPSBiaWcsCiAgICAgICAgICAgIGRlZXBMaW5rID0gZGVlcExpbmssCiAgICAgICAgICAgIGdyb3VwID0gImRldl8iICsgY29kZW5hbWUuaWZCbGFuayB7ICJtaXNjIiB9LAogICAgICAgICkKICAgIH0KCiAgICBwcml2YXRlIGZ1biBzaG93KAogICAgICAgIGN0eDogQ29udGV4dCwKICAgICAgICBpZDogSW50LAogICAgICAgIGNoYW5uZWw6IFN0cmluZywKICAgICAgICB0aXRsZTogU3RyaW5nLAogICAgICAgIGJvZHk6IFN0cmluZywKICAgICAgICBiaWdUZXh0OiBTdHJpbmcsCiAgICAgICAgZGVlcExpbms6IFN0cmluZywKICAgICAgICBncm91cDogU3RyaW5nLAogICAgKSB7CiAgICAgICAgZW5zdXJlQ2hhbm5lbHMoY3R4KQogICAgICAgIHZhbCBidWlsZGVyID0gTm90aWZpY2F0aW9uQ29tcGF0LkJ1aWxkZXIoY3R4LCBjaGFubmVsKQogICAgICAgICAgICAuc2V0U21hbGxJY29uKFIuZHJhd2FibGUuaWNfbm90aWZ5KQogICAgICAgICAgICAuc2V0Q29udGVudFRpdGxlKHRpdGxlKQogICAgICAgICAgICAuc2V0Q29udGVudFRleHQoYm9keSkKICAgICAgICAgICAgLnNldFN0eWxlKE5vdGlmaWNhdGlvbkNvbXBhdC5CaWdUZXh0U3R5bGUoKS5iaWdUZXh0KGJpZ1RleHQuaWZCbGFuayB7IGJvZHkgfSkpCiAgICAgICAgICAgIC5zZXRBdXRvQ2FuY2VsKHRydWUpCiAgICAgICAgICAgIC5zZXRDb250ZW50SW50ZW50KHBlbmRpbmdJbnRlbnQoY3R4LCBpZCwgZGVlcExpbmspKQogICAgICAgICAgICAuc2V0UHJpb3JpdHkoTm90aWZpY2F0aW9uQ29tcGF0LlBSSU9SSVRZX0RFRkFVTFQpCiAgICAgICAgICAgIC5zZXRHcm91cChncm91cCkKCiAgICAgICAgcnVuQ2F0Y2hpbmcgeyBOb3RpZmljYXRpb25NYW5hZ2VyQ29tcGF0LmZyb20oY3R4KS5ub3RpZnkoaWQsIGJ1aWxkZXIuYnVpbGQoKSkgfQogICAgfQoKICAgIC8qKiDngrnlh7vpgJrnn6XopoHot7PnmoTpobXpnaLvvIjmma7pgJrpgJrnn6XjgIFIeXBlck9TIOi2hee6p+Wym+OAgUNvbG9yT1Mg6IO25ZuK5LiJ5p2h6Lev5YWx55So77yJ44CCICovCiAgICBpbnRlcm5hbCBmdW4gcGVuZGluZ0ludGVudChjdHg6IENvbnRleHQsIGlkOiBJbnQsIGRlZXBMaW5rOiBTdHJpbmcpOiBQZW5kaW5nSW50ZW50IHsKICAgICAgICB2YWwgaW50ZW50ID0gSW50ZW50KGN0eCwgTWFpbkFjdGl2aXR5OjpjbGFzcy5qYXZhKS5hcHBseSB7CiAgICAgICAgICAgIGFjdGlvbiA9IEludGVudC5BQ1RJT05fVklFVwogICAgICAgICAgICBkYXRhID0gVXJpLnBhcnNlKGRlZXBMaW5rKQogICAgICAgICAgICBmbGFncyA9IEludGVudC5GTEFHX0FDVElWSVRZX05FV19UQVNLIG9yIEludGVudC5GTEFHX0FDVElWSVRZX1NJTkdMRV9UT1AKICAgICAgICB9CiAgICAgICAgcmV0dXJuIFBlbmRpbmdJbnRlbnQuZ2V0QWN0aXZpdHkoCiAgICAgICAgICAgIGN0eCwgaWQsIGludGVudCwKICAgICAgICAgICAgUGVuZGluZ0ludGVudC5GTEFHX1VQREFURV9DVVJSRU5UIG9yIFBlbmRpbmdJbnRlbnQuRkxBR19JTU1VVEFCTEUsCiAgICAgICAgKQogICAgfQoKICAgIC8qKiDlrpjmlrnljIUv54mI5pys57G755qE5rex6ZO+77yI6Lez5Yiw6K+l5py65Z6L55qE54mI5pys5YiX6KGo5bm26auY5Lqu6L+Z5Liq54mI5pys77yJ44CCICovCiAgICBmdW4gdmVyc2lvbkxpbmsoY29kZW5hbWU6IFN0cmluZywgcmVnaW9uOiBTdHJpbmcsIGJyYW5jaDogU3RyaW5nLCB2ZXJzaW9uOiBTdHJpbmcpOiBTdHJpbmcgPQogICAgICAgICJyb21odWI6Ly92ZXI/Y29kZT0kY29kZW5hbWUiICsKICAgICAgICAgICAgICAgICImcmVnaW9uPSR7ZW5jKHJlZ2lvbi5pZkJsYW5rIHsgImFsbCIgfSl9IiArCiAgICAgICAgICAgICAgICAiJmJyYW5jaD0ke2VuYyhicmFuY2guaWZCbGFuayB7ICJhbGwiIH0pfSIgKwogICAgICAgICAgICAgICAgIiZ2ZXI9JHtlbmModmVyc2lvbil9IgoKICAgIC8qKiDnp7vmpI3ljIXmt7Hpk77vvIjot7PliLDnp7vmpI3ljIXor6bmg4XpobXvvInjgIIgKi8KICAgIGZ1biBwb3J0TGluayhwb3J0SWQ6IExvbmcpOiBTdHJpbmcgPSAicm9taHViOi8vcG9ydD9pZD0kcG9ydElkIgoKICAgIGZ1biBjbGVhckFsbChjdHg6IENvbnRleHQpID0gTm90aWZpY2F0aW9uTWFuYWdlckNvbXBhdC5mcm9tKGN0eCkuY2FuY2VsQWxsKCkKCiAgICBmdW4gZW5jKHM6IFN0cmluZykgPSBqYXZhLm5ldC5VUkxFbmNvZGVyLmVuY29kZShzLCAiVVRGLTgiKQp9Cg==
+package org.linbaogu.romhub.notify
+
+import android.app.NotificationChannel
+import android.app.NotificationManager
+import android.app.PendingIntent
+import android.content.Context
+import android.content.Intent
+import android.net.Uri
+import androidx.core.app.NotificationCompat
+import androidx.core.app.NotificationManagerCompat
+import org.linbaogu.romhub.MainActivity
+import org.linbaogu.romhub.R
+
+/**
+ * 系统通知。
+ *
+ * 两个渠道，用户可以在系统设置里**分别关掉**其中一类：
+ *   romhub_official · 官方包更新（含正式版 / 内测版 / 新机型上线）
+ *   romhub_port    · 移植包更新
+ *
+ * 每条通知统一长这样：
+ *
+ *   REDMI K100 Pro · 官方包更新      ← 标题：机型 + 更新类型
+ *   OS3.0.9.9.WPICNXM                ← 小字：版本号
+ *
+ * 点击后走 romhub:// 深链，直接打开对应的版本页 / 移植包详情页。
+ */
+object Notifications {
+
+    const val CH_OFFICIAL = "romhub_official"
+    const val CH_PORT = "romhub_port"
+
+    /** 更新类型 → 标题里的中文标签。 */
+    fun kindLabel(kind: String): String = when (kind) {
+        "port" -> "移植包更新"
+        "beta" -> "内测版更新"
+        "device" -> "新机型上线"
+        else -> "官方包更新"
+    }
+
+    /** 这条通知属于哪个渠道（决定用户能不能单独关掉它）。 */
+    fun channelOf(kind: String): String =
+        if (kind == "port") CH_PORT else CH_OFFICIAL
+
+    fun ensureChannels(ctx: Context) {
+        val mgr = ctx.getSystemService(NotificationManager::class.java) ?: return
+        if (mgr.getNotificationChannel(CH_OFFICIAL) == null) {
+            mgr.createNotificationChannel(
+                NotificationChannel(CH_OFFICIAL, "官方包更新", NotificationManager.IMPORTANCE_DEFAULT).apply {
+                    description = "订阅的机型有新的官方包、内测版本时提醒"
+                    enableLights(true)
+                    enableVibration(true)
+                }
+            )
+        }
+        if (mgr.getNotificationChannel(CH_PORT) == null) {
+            mgr.createNotificationChannel(
+                NotificationChannel(CH_PORT, "移植包更新", NotificationManager.IMPORTANCE_DEFAULT).apply {
+                    description = "订阅的机型有新移植包上传时提醒"
+                    enableLights(true)
+                    enableVibration(true)
+                }
+            )
+        }
+    }
+
+    /**
+     * 发一条更新通知。
+     *
+     * @param device  机型名（没有就用代号兜底）
+     * @param kind    更新类型 kind 字段，决定标题标签与渠道
+     * @param version 版本号，作为标题下的那行小字
+     * @param summary 展开后的补充信息（更新说明、作者等），没有就留空
+     * @param deepLink 点击要跳到的页面
+     * @param id      通知 id（同一条更新反复推要复用同一个 id，避免刷屏）
+     */
+    fun showUpdate(
+        ctx: Context,
+        id: Int,
+        device: String,
+        codename: String,
+        kind: String,
+        version: String,
+        summary: String = "",
+        deepLink: String,
+    ) {
+        ensureChannels(ctx)
+
+        val label = kindLabel(kind)
+        val title = "${device.ifBlank { codename }} · $label"
+        val body = version.ifBlank { "点击查看详情" }
+        val big = listOf(version, summary).filter { it.isNotBlank() }.joinToString("\n")
+
+        ensureChannels(ctx)
+        show(
+            ctx = ctx,
+            id = id,
+            channel = channelOf(kind),
+            title = title,
+            body = body,
+            bigText = big,
+            deepLink = deepLink,
+            group = "dev_" + codename.ifBlank { "misc" },
+        )
+    }
+
+    private fun show(
+        ctx: Context,
+        id: Int,
+        channel: String,
+        title: String,
+        body: String,
+        bigText: String,
+        deepLink: String,
+        group: String,
+    ) {
+        ensureChannels(ctx)
+        val builder = NotificationCompat.Builder(ctx, channel)
+            .setSmallIcon(R.drawable.ic_notify)
+            .setContentTitle(title)
+            .setContentText(body)
+            .setStyle(NotificationCompat.BigTextStyle().bigText(bigText.ifBlank { body }))
+            .setAutoCancel(true)
+            .setContentIntent(pendingIntent(ctx, id, deepLink))
+            .setPriority(NotificationCompat.PRIORITY_DEFAULT)
+            .setGroup(group)
+
+        runCatching { NotificationManagerCompat.from(ctx).notify(id, builder.build()) }
+    }
+
+    /** 点击通知要跳的页面（普通通知、HyperOS 超级岛、ColorOS 胶囊三条路共用）。 */
+    internal fun pendingIntent(ctx: Context, id: Int, deepLink: String): PendingIntent {
+        val intent = Intent(ctx, MainActivity::class.java).apply {
+            action = Intent.ACTION_VIEW
+            data = Uri.parse(deepLink)
+            flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_SINGLE_TOP
+        }
+        return PendingIntent.getActivity(
+            ctx, id, intent,
+            PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE,
+        )
+    }
+
+    /** 官方包/版本类的深链（跳到该机型的版本列表并高亮这个版本）。 */
+    fun versionLink(codename: String, region: String, branch: String, version: String): String =
+        "romhub://ver?code=$codename" +
+                "&region=${enc(region.ifBlank { "all" })}" +
+                "&branch=${enc(branch.ifBlank { "all" })}" +
+                "&ver=${enc(version)}"
+
+    /** 移植包深链（跳到移植包详情页）。 */
+    fun portLink(portId: Long): String = "romhub://port?id=$portId"
+
+    fun clearAll(ctx: Context) = NotificationManagerCompat.from(ctx).cancelAll()
+
+    fun enc(s: String) = java.net.URLEncoder.encode(s, "UTF-8")
+}

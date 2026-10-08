@@ -1,1 +1,28 @@
-IyBHcmFkbGUgLyDmnoTlu7rkuqfniakNCiouaW1sDQouZ3JhZGxlLw0KLy5rb3RsaW4vDQpidWlsZC8NCi9hcHAvYnVpbGQvDQovY2FwdHVyZXMvDQouZXh0ZXJuYWxOYXRpdmVCdWlsZC8NCi5jeHgvDQpsb2NhbC5wcm9wZXJ0aWVzDQoNCiMgSURFDQovLmlkZWEvDQovLmlkZWENCi8udnNjb2RlLw0KKi5pcHINCiouaXdzDQouRFNfU3RvcmUNCg0KIyDmnoTlu7rovpPlh7rvvIjmoLnnm67lvZXkuIvnmoTmiJDlk4EgQVBLIOS4jeWFpeW6k++8iQ0KKi5hcGsNCiouYWFiDQoqLmFwXw0KKi5kZXgNCiouY2xhc3MNCg0KIyDml6Xlv5cNCioubG9nDQo=
+# Gradle / 构建产物
+*.iml
+.gradle/
+/.kotlin/
+build/
+/app/build/
+/captures/
+.externalNativeBuild/
+.cxx/
+local.properties
+
+# IDE
+/.idea/
+/.idea
+/.vscode/
+*.ipr
+*.iws
+.DS_Store
+
+# 构建输出（根目录下的成品 APK 不入库）
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+
+# 日志
+*.log

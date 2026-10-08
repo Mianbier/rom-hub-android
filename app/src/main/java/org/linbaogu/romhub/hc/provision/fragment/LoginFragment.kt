@@ -1,1 +1,259 @@
-LyoKICogVGhpcyBmaWxlIGlzIHBhcnQgb2YgUk9NIEh1YiwgcmVsZWFzZWQgdW5kZXIgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSB2My4wLgogKgogKiDmnKzmlofku7bnp7vmpI0gLyDmlLnlhpnoh6ogSHlwZXJDZWlsZXLvvIhBR1BMLTMuMO+8jENvcHlyaWdodCAoQykgMjAyMy0yMDI2IEh5cGVyQ2VpbGVyCiAqIENvbnRyaWJ1dGlvbnPvvInvvIzmiJbkuLrlhbbnrYnku7fmm7/ouqvlrp7njrAg4oCU4oCUIOWujOaVtOadpea6kOS4jum4o+iwouingemhueebruagueebruW9lSBOT1RJQ0UubWTjgIIKICoKICogVGhpcyBwcm9ncmFtIGlzIGZyZWUgc29mdHdhcmU6IHlvdSBjYW4gcmVkaXN0cmlidXRlIGl0IGFuZC9vciBtb2RpZnkgaXQgdW5kZXIgdGhlIHRlcm1zCiAqIG9mIHRoZSBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UgYXMgcHVibGlzaGVkIGJ5IHRoZSBGcmVlIFNvZnR3YXJlIEZvdW5kYXRpb24sCiAqIGVpdGhlciB2ZXJzaW9uIDMgb2YgdGhlIExpY2Vuc2UuCiAqCiAqIFRoaXMgcHJvZ3JhbSBpcyBkaXN0cmlidXRlZCBpbiB0aGUgaG9wZSB0aGF0IGl0IHdpbGwgYmUgdXNlZnVsLCBidXQgV0lUSE9VVCBBTlkgV0FSUkFOVFk7CiAqIHdpdGhvdXQgZXZlbiB0aGUgaW1wbGllZCB3YXJyYW50eSBvZiBNRVJDSEFOVEFCSUxJVFkgb3IgRklUTkVTUyBGT1IgQSBQQVJUSUNVTEFSIFBVUlBPU0UuCiAqIFNlZSB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGZvciBtb3JlIGRldGFpbHMuCiAqCiAqIFlvdSBzaG91bGQgaGF2ZSByZWNlaXZlZCBhIGNvcHkgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBhbG9uZyB3aXRoIHRoaXMKICogcHJvZ3JhbS4gIElmIG5vdCwgc2VlIDxodHRwczovL3d3dy5nbnUub3JnL2xpY2Vuc2VzLz4uCiAqLwoKcGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLmhjLnByb3Zpc2lvbi5mcmFnbWVudAoKaW1wb3J0IGFuZHJvaWQub3MuQnVuZGxlCmltcG9ydCBhbmRyb2lkLnZpZXcuVmlldwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5Db2x1bW4KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuU3BhY2VyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LmZpbGxNYXhXaWR0aAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5oZWlnaHQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQucGFkZGluZwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLkNvbXBvc2FibGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5nZXRWYWx1ZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLm11dGFibGVTdGF0ZU9mCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuc2V0VmFsdWUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuTW9kaWZpZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkucGxhdGZvcm0uQ29tcG9zZVZpZXcKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkucGxhdGZvcm0uVmlld0NvbXBvc2l0aW9uU3RyYXRlZ3kKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudGV4dC5pbnB1dC5QYXNzd29yZFZpc3VhbFRyYW5zZm9ybWF0aW9uCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnVuaXQuZHAKaW1wb3J0IGFuZHJvaWR4LmxpZmVjeWNsZS5zZXRWaWV3VHJlZUxpZmVjeWNsZU93bmVyCmltcG9ydCBhbmRyb2lkeC5saWZlY3ljbGUuc2V0Vmlld1RyZWVWaWV3TW9kZWxTdG9yZU93bmVyCmltcG9ydCBhbmRyb2lkeC5zYXZlZHN0YXRlLnNldFZpZXdUcmVlU2F2ZWRTdGF0ZVJlZ2lzdHJ5T3duZXIKaW1wb3J0IG9yZy5saW5iYW9ndS5yb21odWIuUgppbXBvcnQgb3JnLmxpbmJhb2d1LnJvbWh1Yi5oYy5wcm92aXNpb24uUHJvdmlzaW9uTG9naW4KaW1wb3J0IG9yZy5saW5iYW9ndS5yb21odWIudWkuY29tcG9uZW50Lkdob3N0QnV0dG9uCmltcG9ydCBvcmcubGluYmFvZ3Uucm9taHViLnVpLnRoZW1lLlJvbUh1YlRoZW1lCmltcG9ydCB0b3AueXVrb25nYS5taXVpeC5rbXAuYmFzaWMuQ2FyZAppbXBvcnQgdG9wLnl1a29uZ2EubWl1aXgua21wLmJhc2ljLlRleHQKaW1wb3J0IHRvcC55dWtvbmdhLm1pdWl4LmttcC5iYXNpYy5UZXh0RmllbGQKaW1wb3J0IHRvcC55dWtvbmdhLm1pdWl4LmttcC50aGVtZS5NaXVpeFRoZW1lCgovKioKICog5byV5a+85rWB56iL44CM55m75b2V44CN6aG155qE6KGo5Y2V54q25oCB44CCCiAqIEZyYWdtZW50IOWSjCBDb21wb3NlIOWGheWuueWFseeUqOWQjOS4gOS7ve+8jOW6lemDqOeahOOAjOe7p+e7reOAjeaMiemSru+8iOeUseWkluWxgiBQcm92aXNpb25CYXNlQWN0aXZpdHkKICog55qEIE1pdWl4IOaMiemSrue7hOaPkOS+m++8ieaJjeiDveivu+WIsOeUqOaIt+Whq+S6huS7gOS5iOOAggogKi8KY2xhc3MgTG9naW5Gb3JtU3RhdGUgewogICAgLyoqIOeZu+W9lSAvIOeUs+ivtyDkuKTnp43lvaLmgIHvvIzlhbHnlKjlkIzkuIDlvKDljaHniYflkozlupXpg6jpgqPpopfjgIznu6fnu63jgI3mjInpkq7jgIIgKi8KICAgIGVudW0gY2xhc3MgTW9kZSB7IExPR0lOLCBBUFBMWSB9CgogICAgdmFyIG1vZGUgYnkgbXV0YWJsZVN0YXRlT2YoTW9kZS5MT0dJTikKICAgIHZhciB1c2VybmFtZSBieSBtdXRhYmxlU3RhdGVPZigiIikKICAgIHZhciBwYXNzd29yZCBieSBtdXRhYmxlU3RhdGVPZigiIikKICAgIC8vIOeUs+ivt+aJjeeUqOWIsOeahOS4pOmhue+8muWQjeensOOAgemFt+WuieWQje+8iOi0puWPt+mCo+agj+Whq+mCrueuse+8iQogICAgdmFyIG5hbWUgYnkgbXV0YWJsZVN0YXRlT2YoIiIpCiAgICB2YXIgY29vbGFwayBieSBtdXRhYmxlU3RhdGVPZigiIikKICAgIHZhciBlcnJvciBieSBtdXRhYmxlU3RhdGVPZigiIikKICAgIHZhciBpbmZvIGJ5IG11dGFibGVTdGF0ZU9mKCIiKQogICAgdmFyIGJ1c3kgYnkgbXV0YWJsZVN0YXRlT2YoZmFsc2UpCn0KCi8qKgogKiDnmbvlvZXpobXnmoQgRnJhZ21lbnQg4oCU4oCUIOWPqui0n+i0o+S4remXtOmCo+Wdl+ihqOWNle+8iENvbXBvc2XvvInjgIIKICog5aSW5aOz77yI6L+U5Zue566t5aS0IC8g6aKE6KeI5Zu+IC8g5qCH6aKYIC8g5bqV6YOo6JOd6Imy5oyJ6ZKu57uE77yJ55SxIFByb3Zpc2lvbkJhc2VBY3Rpdml0eSDnu5/kuIDmj5DkvpvvvIwKICog5omA5Lul5a6D5ZKM5p2D6ZmQ6aG144CB5Y2P6K6u6aG144CB5Z+656GA6K6+572u6aG16ZW/5b6X5LiA5qih5LiA5qC344CCCiAqLwpjbGFzcyBMb2dpbkZyYWdtZW50IDogQmFzZUZyYWdtZW50KCkgewoKICAgIHByaXZhdGUgdmFsIGZvcm0gPSBMb2dpbkZvcm1TdGF0ZSgpCgogICAgb3ZlcnJpZGUgZnVuIGdldExheW91dElkKCk6IEludCA9IFIubGF5b3V0LnByb3Zpc2lvbl9sb2dpbl9sYXlvdXQKCiAgICBvdmVycmlkZSBmdW4gb25WaWV3Q3JlYXRlZCh2aWV3OiBWaWV3LCBzYXZlZEluc3RhbmNlU3RhdGU6IEJ1bmRsZT8pIHsKICAgICAgICBzdXBlci5vblZpZXdDcmVhdGVkKHZpZXcsIHNhdmVkSW5zdGFuY2VTdGF0ZSkKICAgICAgICB2YWwgY29tcG9zZVZpZXcgPSB2aWV3LmZpbmRWaWV3QnlJZDxDb21wb3NlVmlldz4oUi5pZC5sb2dpbl9jb21wb3NlKQoKICAgICAgICAvLyDimqAg5YWz6ZSu77ya5byV5a+86aG155qEIEFjdGl2aXR5IOaYryBgZmFuLmFwcGNvbXBhdC5hcHAuQXBwQ29tcGF0QWN0aXZpdHlg77yM5a6D6Ieq5bex6YeN5YaZ5LqGCiAgICAgICAgLy8gYHNldENvbnRlbnRWaWV3YO+8jCoq5rKh5pyJ6LWwIGFuZHJvaWR4IOeahCBpbml0aWFsaXplVmlld1RyZWVPd25lcnMoKSoqIOKGkgogICAgICAgIC8vIOinhuWbvuagkemHjOayoeaciSBWaWV3VHJlZUxpZmVjeWNsZU93bmVyIOKGkiBDb21wb3NlVmlldyDkuIAgYXR0YWNoIOWwseaKmwogICAgICAgIC8vIGBJbGxlZ2FsU3RhdGVFeGNlcHRpb246IFZpZXdUcmVlTGlmZWN5Y2xlT3duZXIgbm90IGZvdW5kYO+8iOeCueOAjOe7p+e7reOAjeebtOaOpemXqumAgO+8ieOAggogICAgICAgIC8vIOi/memHjOaJi+WKqOaKiiBGcmFnbWVudCDoh6rlt7HmjILmiJAgb3duZXLjgIIKICAgICAgICBjb21wb3NlVmlldy5zZXRWaWV3VHJlZUxpZmVjeWNsZU93bmVyKHRoaXMpCiAgICAgICAgY29tcG9zZVZpZXcuc2V0Vmlld1RyZWVWaWV3TW9kZWxTdG9yZU93bmVyKHRoaXMpCiAgICAgICAgY29tcG9zZVZpZXcuc2V0Vmlld1RyZWVTYXZlZFN0YXRlUmVnaXN0cnlPd25lcih0aGlzKQoKICAgICAgICBjb21wb3NlVmlldy5zZXRWaWV3Q29tcG9zaXRpb25TdHJhdGVneSgKICAgICAgICAgICAgVmlld0NvbXBvc2l0aW9uU3RyYXRlZ3kuRGlzcG9zZU9uVmlld1RyZWVMaWZlY3ljbGVEZXN0cm95ZWQKICAgICAgICApCiAgICAgICAgY29tcG9zZVZpZXcuc2V0Q29udGVudCB7CiAgICAgICAgICAgIFJvbUh1YlRoZW1lIHsKICAgICAgICAgICAgICAgIExvZ2luRm9ybShmb3JtKSB7CiAgICAgICAgICAgICAgICAgICAgLy8g5ri45a6i77ya55u05o6l5YaZ5Lya6K+d5bm25o6o6L+b5Yiw44CM5byA5aeL5L2/55So44CN44CCCiAgICAgICAgICAgICAgICAgICAgY29udGludWVBc0d1ZXN0KCkKICAgICAgICAgICAgICAgICAgICAoYWN0aXZpdHkgYXM/IG9yZy5saW5iYW9ndS5yb21odWIuaGMucHJvdmlzaW9uLmFjdGl2aXR5LkxvZ2luQWN0aXZpdHkpCiAgICAgICAgICAgICAgICAgICAgICAgID8uZmluaXNoV2l0aE9rKCkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIOeCueW6lemDqOOAjOe7p+e7reOAjeaXtuiwg+eUqO+8iOWkluWxgiBBY3Rpdml0eSDovazlj5Hov4fmnaXvvInjgIIKICAgICAqIOeUs+ivt+W9ouaAgeS4i+Wug+aPkOS6pOeUs+ivt++8jOeZu+W9leW9ouaAgeS4i+Wug+eZu+W9leOAggogICAgICogQHBhcmFtIG9uUmVzdWx0IOS4u+e6v+eoi+Wbnuiwg++8m251bGwgPSDmiJDlip/jgIIKICAgICAqLwogICAgZnVuIHN1Ym1pdChvblJlc3VsdDogKFN0cmluZz8pIC0+IFVuaXQpIHsKICAgICAgICBpZiAoZm9ybS5idXN5KSByZXR1cm4KICAgICAgICB2YWwgY3R4ID0gY29udGV4dCA/OiBydW4geyBvblJlc3VsdCgi6aG16Z2i5bey5YWz6ZetIik7IHJldHVybiB9CgogICAgICAgIGlmIChmb3JtLm1vZGUgPT0gTG9naW5Gb3JtU3RhdGUuTW9kZS5BUFBMWSkgewogICAgICAgICAgICBmb3JtLmJ1c3kgPSB0cnVlCiAgICAgICAgICAgIGZvcm0uZXJyb3IgPSAiIgogICAgICAgICAgICBmb3JtLmluZm8gPSAiIgogICAgICAgICAgICBQcm92aXNpb25Mb2dpbi5hcHBseShjdHgsIGZvcm0udXNlcm5hbWUsIGZvcm0ubmFtZSwgZm9ybS5jb29sYXBrLCBmb3JtLnBhc3N3b3JkKSB7IGVyciAtPgogICAgICAgICAgICAgICAgZm9ybS5idXN5ID0gZmFsc2UKICAgICAgICAgICAgICAgIGlmIChlcnIgIT0gbnVsbCkgewogICAgICAgICAgICAgICAgICAgIGZvcm0uZXJyb3IgPSBlcnIKICAgICAgICAgICAgICAgICAgICAvLyDnlLPor7flpLHotKUqKuS4jeimgSoq5o6o6L+b5rWB56iL77yIb25SZXN1bHQobnVsbCkg5Lya6Lez5Yiw5LiL5LiA6aG177yJCiAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgIC8vIOaIkOWKn+WwseWIh+WbnueZu+W9leOAgeaKiui0puWPt+WvhueggeeVmeedgO+8jOW5tuaPkOekuuetieermemVv+WuoeaguAogICAgICAgICAgICAgICAgICAgIGZvcm0uaW5mbyA9ICLlt7Lmj5DkuqTvvIznrYnnq5nplb/lrqHmoLjpgJrov4flkI7lsLHog73nlKjov5nkuKrotKblj7fnmbvlvZXkuobjgIIiCiAgICAgICAgICAgICAgICAgICAgZm9ybS5tb2RlID0gTG9naW5Gb3JtU3RhdGUuTW9kZS5MT0dJTgogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgICAgIHJldHVybgogICAgICAgIH0KCiAgICAgICAgaWYgKGZvcm0udXNlcm5hbWUuaXNCbGFuaygpIHx8IGZvcm0ucGFzc3dvcmQuaXNCbGFuaygpKSB7CiAgICAgICAgICAgIGZvcm0uZXJyb3IgPSAi6K+35aGr5YaZ6LSm5Y+35ZKM5a+G56CB77yM5oiW54K544CM6Lez6L+H44CN55So5ri45a6i6Lqr5Lu96L+b5YWlIgogICAgICAgICAgICByZXR1cm4KICAgICAgICB9CiAgICAgICAgZm9ybS5idXN5ID0gdHJ1ZQogICAgICAgIGZvcm0uZXJyb3IgPSAiIgogICAgICAgIFByb3Zpc2lvbkxvZ2luLmRldihjdHgsIGZvcm0udXNlcm5hbWUsIGZvcm0ucGFzc3dvcmQpIHsgZXJyIC0+CiAgICAgICAgICAgIGZvcm0uYnVzeSA9IGZhbHNlCiAgICAgICAgICAgIGlmIChlcnIgIT0gbnVsbCkgZm9ybS5lcnJvciA9IGVycgogICAgICAgICAgICBvblJlc3VsdChlcnIpCiAgICAgICAgfQogICAgfQoKICAgIC8qKiDngrnlupXpg6jjgIzot7Pov4fjgI3ml7bosIPnlKgg4oCU4oCUIOS7pea4uOWuoui6q+S7vee7p+e7reOAgiAqLwogICAgZnVuIGNvbnRpbnVlQXNHdWVzdCgpIHsKICAgICAgICB2YWwgY3R4ID0gY29udGV4dCA/OiByZXR1cm4KICAgICAgICBQcm92aXNpb25Mb2dpbi5ndWVzdChjdHgpCiAgICB9Cn0KCi8qKgogKiDooajljZXmnKzkvZPvvJrkuIDlvKDlrp7lupXljaHniYcgKyDkuKTkuKogTWl1aXgg6L6T5YWl5qGG44CCCiAqIOeUqOeahOaYryBgdG9wLnl1a29uZ2EubWl1aXgua21wLmJhc2ljLlRleHRGaWVsZGAg4oCU4oCUIOWSjCBIeXBlckNlaWxlciDorr7nva7pobXph4znmoTovpPlhaXmoYblkIzkuIDlpZfjgIIKICovCkBDb21wb3NhYmxlCnByaXZhdGUgZnVuIExvZ2luRm9ybShmb3JtOiBMb2dpbkZvcm1TdGF0ZSwgb25HdWVzdDogKCkgLT4gVW5pdCkgewogICAgQ2FyZCB7CiAgICAgICAgQ29sdW1uKE1vZGlmaWVyLmZpbGxNYXhXaWR0aCgpLnBhZGRpbmcoMTYuZHApKSB7CiAgICAgICAgICAgIFRleHQoCiAgICAgICAgICAgICAgICBpZiAoZm9ybS5tb2RlID09IExvZ2luRm9ybVN0YXRlLk1vZGUuQVBQTFkpICLnlLPor7flvIDlj5HogIXotKblj7ciIGVsc2UgIuW8gOWPkeiAhei0puWPtyIsCiAgICAgICAgICAgICAgICBmb250U2l6ZSA9IE1pdWl4VGhlbWUudGV4dFN0eWxlcy5ib2R5MS5mb250U2l6ZSwKICAgICAgICAgICAgKQogICAgICAgICAgICBTcGFjZXIoTW9kaWZpZXIuaGVpZ2h0KDEyLmRwKSkKCiAgICAgICAgICAgIFRleHRGaWVsZCgKICAgICAgICAgICAgICAgIHZhbHVlID0gZm9ybS51c2VybmFtZSwKICAgICAgICAgICAgICAgIG9uVmFsdWVDaGFuZ2UgPSB7IGZvcm0udXNlcm5hbWUgPSBpdDsgZm9ybS5lcnJvciA9ICIiIH0sCiAgICAgICAgICAgICAgICAvLyDnlLPor7fml7botKblj7flsLHmmK/pgq7nrrHvvIjnq5nplb/opoHmsYLnmoTvvInvvIzmiYDku6Xov5nph4zor7TmuIXmpZoKICAgICAgICAgICAgICAgIGxhYmVsID0gaWYgKGZvcm0ubW9kZSA9PSBMb2dpbkZvcm1TdGF0ZS5Nb2RlLkFQUExZKSAi6LSm5Y+377yI5aGr6YKu566x77yJIiBlbHNlICLotKblj7ciLAogICAgICAgICAgICAgICAgc2luZ2xlTGluZSA9IHRydWUsCiAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLmZpbGxNYXhXaWR0aCgpLAogICAgICAgICAgICApCgogICAgICAgICAgICBpZiAoZm9ybS5tb2RlID09IExvZ2luRm9ybVN0YXRlLk1vZGUuQVBQTFkpIHsKICAgICAgICAgICAgICAgIFNwYWNlcihNb2RpZmllci5oZWlnaHQoMTIuZHApKQogICAgICAgICAgICAgICAgVGV4dEZpZWxkKAogICAgICAgICAgICAgICAgICAgIHZhbHVlID0gZm9ybS5uYW1lLAogICAgICAgICAgICAgICAgICAgIG9uVmFsdWVDaGFuZ2UgPSB7IGZvcm0ubmFtZSA9IGl0OyBmb3JtLmVycm9yID0gIiIgfSwKICAgICAgICAgICAgICAgICAgICBsYWJlbCA9ICLlkI3np7AiLAogICAgICAgICAgICAgICAgICAgIHNpbmdsZUxpbmUgPSB0cnVlLAogICAgICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIuZmlsbE1heFdpZHRoKCksCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICBTcGFjZXIoTW9kaWZpZXIuaGVpZ2h0KDEyLmRwKSkKICAgICAgICAgICAgICAgIFRleHRGaWVsZCgKICAgICAgICAgICAgICAgICAgICB2YWx1ZSA9IGZvcm0uY29vbGFwaywKICAgICAgICAgICAgICAgICAgICBvblZhbHVlQ2hhbmdlID0geyBmb3JtLmNvb2xhcGsgPSBpdDsgZm9ybS5lcnJvciA9ICIiIH0sCiAgICAgICAgICAgICAgICAgICAgbGFiZWwgPSAi6YW35a6J5ZCNIiwKICAgICAgICAgICAgICAgICAgICBzaW5nbGVMaW5lID0gdHJ1ZSwKICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLmZpbGxNYXhXaWR0aCgpLAogICAgICAgICAgICAgICAgKQogICAgICAgICAgICB9CgogICAgICAgICAgICBTcGFjZXIoTW9kaWZpZXIuaGVpZ2h0KDEyLmRwKSkKICAgICAgICAgICAgVGV4dEZpZWxkKAogICAgICAgICAgICAgICAgdmFsdWUgPSBmb3JtLnBhc3N3b3JkLAogICAgICAgICAgICAgICAgb25WYWx1ZUNoYW5nZSA9IHsgZm9ybS5wYXNzd29yZCA9IGl0OyBmb3JtLmVycm9yID0gIiIgfSwKICAgICAgICAgICAgICAgIGxhYmVsID0gaWYgKGZvcm0ubW9kZSA9PSBMb2dpbkZvcm1TdGF0ZS5Nb2RlLkFQUExZKSAi5a+G56CB77yI4omlNiDkvY3vvIkiIGVsc2UgIuWvhueggSIsCiAgICAgICAgICAgICAgICBzaW5nbGVMaW5lID0gdHJ1ZSwKICAgICAgICAgICAgICAgIHZpc3VhbFRyYW5zZm9ybWF0aW9uID0gUGFzc3dvcmRWaXN1YWxUcmFuc2Zvcm1hdGlvbigpLAogICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci5maWxsTWF4V2lkdGgoKSwKICAgICAgICAgICAgKQoKICAgICAgICAgICAgaWYgKGZvcm0uZXJyb3IuaXNOb3RCbGFuaygpKSB7CiAgICAgICAgICAgICAgICBTcGFjZXIoTW9kaWZpZXIuaGVpZ2h0KDEyLmRwKSkKICAgICAgICAgICAgICAgIFRleHQoCiAgICAgICAgICAgICAgICAgICAgZm9ybS5lcnJvciwKICAgICAgICAgICAgICAgICAgICBmb250U2l6ZSA9IE1pdWl4VGhlbWUudGV4dFN0eWxlcy5mb290bm90ZTEuZm9udFNpemUsCiAgICAgICAgICAgICAgICAgICAgY29sb3IgPSBNaXVpeFRoZW1lLmNvbG9yU2NoZW1lLmVycm9yLAogICAgICAgICAgICAgICAgKQogICAgICAgICAgICB9CiAgICAgICAgICAgIGlmIChmb3JtLmluZm8uaXNOb3RCbGFuaygpKSB7CiAgICAgICAgICAgICAgICBTcGFjZXIoTW9kaWZpZXIuaGVpZ2h0KDEyLmRwKSkKICAgICAgICAgICAgICAgIFRleHQoCiAgICAgICAgICAgICAgICAgICAgZm9ybS5pbmZvLAogICAgICAgICAgICAgICAgICAgIGZvbnRTaXplID0gTWl1aXhUaGVtZS50ZXh0U3R5bGVzLmZvb3Rub3RlMS5mb250U2l6ZSwKICAgICAgICAgICAgICAgICAgICBjb2xvciA9IE1pdWl4VGhlbWUuY29sb3JTY2hlbWUucHJpbWFyeSwKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgfQoKICAgICAgICAgICAgU3BhY2VyKE1vZGlmaWVyLmhlaWdodCg2LmRwKSkKICAgICAgICAgICAgaWYgKGZvcm0ubW9kZSA9PSBMb2dpbkZvcm1TdGF0ZS5Nb2RlLkFQUExZKSB7CiAgICAgICAgICAgICAgICAvLyDnlLPor7flroznm7TmjqXliIflm57nmbvlvZXvvIzotKblj7flr4bnoIHpg73nlZnnnYDvvIznnIHlvpflho3ovpPkuIDpgY0KICAgICAgICAgICAgICAgIEdob3N0QnV0dG9uKAogICAgICAgICAgICAgICAgICAgIHRleHQgPSAi6L+U5Zue55m75b2VIiwKICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLmZpbGxNYXhXaWR0aCgpLAogICAgICAgICAgICAgICAgICAgIG9uQ2xpY2sgPSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGZvcm0ubW9kZSA9IExvZ2luRm9ybVN0YXRlLk1vZGUuTE9HSU4KICAgICAgICAgICAgICAgICAgICAgICAgZm9ybS5lcnJvciA9ICIiCiAgICAgICAgICAgICAgICAgICAgICAgIGZvcm0uaW5mbyA9ICIiCiAgICAgICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIC8vIOayoeacieW8gOWPkeiAhei0puWPt+S5n+iDvei/m++8mkh5cGVyQ2VpbGVyIOeahOW6lemDqOaMiemSrue7hOm7mOiupOWPquaYvuekuuS4u+aMiemSru+8jAogICAgICAgICAgICAgICAgLy8g44CM6Lez6L+H44CN6KKr6ZqQ6JeP5LqG77yM5omA5Lul5ri45a6i5YWl5Y+j55u05o6l5pS+5Zyo6KGo5Y2V6YeM77yM5LiN5L6d6LWW5bqV6YOo6Z2i5p2/44CCCiAgICAgICAgICAgICAgICBHaG9zdEJ1dHRvbigKICAgICAgICAgICAgICAgICAgICB0ZXh0ID0gIuayoeaciei0puWPt++8n+S7pea4uOWuoui6q+S7vee7p+e7rSIsCiAgICAgICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci5maWxsTWF4V2lkdGgoKSwKICAgICAgICAgICAgICAgICAgICBvbkNsaWNrID0gb25HdWVzdCwKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIFNwYWNlcihNb2RpZmllci5oZWlnaHQoNi5kcCkpCiAgICAgICAgICAgICAgICAvLyDnlLPor7flhaXlj6Mg4oCU4oCUIOS5i+WJjeWPquacieS4u+eVjOmdoumCo+Wll+eZu+W9lemhteacie+8jOW8leWvvOa1geeoi+i/meWll+a8j+S6hu+8jAogICAgICAgICAgICAgICAgLy8g55So5oi35Zyo5byV5a+86aG16YeM5qC55pys5om+5LiN5Yiw55Sz6K+355qE5Zyw5pa544CCCiAgICAgICAgICAgICAgICBHaG9zdEJ1dHRvbigKICAgICAgICAgICAgICAgICAgICB0ZXh0ID0gIueUs+ivt+W8gOWPkeiAhei0puWPtyIsCiAgICAgICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci5maWxsTWF4V2lkdGgoKSwKICAgICAgICAgICAgICAgICAgICBvbkNsaWNrID0gewogICAgICAgICAgICAgICAgICAgICAgICBmb3JtLm1vZGUgPSBMb2dpbkZvcm1TdGF0ZS5Nb2RlLkFQUExZCiAgICAgICAgICAgICAgICAgICAgICAgIGZvcm0uZXJyb3IgPSAiIgogICAgICAgICAgICAgICAgICAgICAgICBmb3JtLmluZm8gPSAiIgogICAgICAgICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9Cn0K
+/*
+ * This file is part of ROM Hub, released under the GNU Affero General Public License v3.0.
+ *
+ * 本文件移植 / 改写自 HyperCeiler（AGPL-3.0，Copyright (C) 2023-2026 HyperCeiler
+ * Contributions），或为其等价替身实现 —— 完整来源与鸣谢见项目根目录 NOTICE.md。
+ *
+ * This program is free software: you can redistribute it and/or modify it under the terms
+ * of the GNU Affero General Public License as published by the Free Software Foundation,
+ * either version 3 of the License.
+ *
+ * This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+ * without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * See the GNU Affero General Public License for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License along with this
+ * program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
+package org.linbaogu.romhub.hc.provision.fragment
+
+import android.os.Bundle
+import android.view.View
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.setValue
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.ComposeView
+import androidx.compose.ui.platform.ViewCompositionStrategy
+import androidx.compose.ui.text.input.PasswordVisualTransformation
+import androidx.compose.ui.unit.dp
+import androidx.lifecycle.setViewTreeLifecycleOwner
+import androidx.lifecycle.setViewTreeViewModelStoreOwner
+import androidx.savedstate.setViewTreeSavedStateRegistryOwner
+import org.linbaogu.romhub.R
+import org.linbaogu.romhub.hc.provision.ProvisionLogin
+import org.linbaogu.romhub.ui.component.GhostButton
+import org.linbaogu.romhub.ui.theme.RomHubTheme
+import top.yukonga.miuix.kmp.basic.Card
+import top.yukonga.miuix.kmp.basic.Text
+import top.yukonga.miuix.kmp.basic.TextField
+import top.yukonga.miuix.kmp.theme.MiuixTheme
+
+/**
+ * 引导流程「登录」页的表单状态。
+ * Fragment 和 Compose 内容共用同一份，底部的「继续」按钮（由外层 ProvisionBaseActivity
+ * 的 Miuix 按钮组提供）才能读到用户填了什么。
+ */
+class LoginFormState {
+    /** 登录 / 申请 两种形态，共用同一张卡片和底部那颗「继续」按钮。 */
+    enum class Mode { LOGIN, APPLY }
+
+    var mode by mutableStateOf(Mode.LOGIN)
+    var username by mutableStateOf("")
+    var password by mutableStateOf("")
+    // 申请才用到的两项：名称、酷安名（账号那栏填邮箱）
+    var name by mutableStateOf("")
+    var coolapk by mutableStateOf("")
+    var error by mutableStateOf("")
+    var info by mutableStateOf("")
+    var busy by mutableStateOf(false)
+}
+
+/**
+ * 登录页的 Fragment —— 只负责中间那块表单（Compose）。
+ * 外壳（返回箭头 / 预览图 / 标题 / 底部蓝色按钮组）由 ProvisionBaseActivity 统一提供，
+ * 所以它和权限页、协议页、基础设置页长得一模一样。
+ */
+class LoginFragment : BaseFragment() {
+
+    private val form = LoginFormState()
+
+    override fun getLayoutId(): Int = R.layout.provision_login_layout
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        val composeView = view.findViewById<ComposeView>(R.id.login_compose)
+
+        // ⚠ 关键：引导页的 Activity 是 `fan.appcompat.app.AppCompatActivity`，它自己重写了
+        // `setContentView`，**没有走 androidx 的 initializeViewTreeOwners()** →
+        // 视图树里没有 ViewTreeLifecycleOwner → ComposeView 一 attach 就抛
+        // `IllegalStateException: ViewTreeLifecycleOwner not found`（点「继续」直接闪退）。
+        // 这里手动把 Fragment 自己挂成 owner。
+        composeView.setViewTreeLifecycleOwner(this)
+        composeView.setViewTreeViewModelStoreOwner(this)
+        composeView.setViewTreeSavedStateRegistryOwner(this)
+
+        composeView.setViewCompositionStrategy(
+            ViewCompositionStrategy.DisposeOnViewTreeLifecycleDestroyed
+        )
+        composeView.setContent {
+            RomHubTheme {
+                LoginForm(form) {
+                    // 游客：直接写会话并推进到「开始使用」。
+                    continueAsGuest()
+                    (activity as? org.linbaogu.romhub.hc.provision.activity.LoginActivity)
+                        ?.finishWithOk()
+                }
+            }
+        }
+    }
+
+    /**
+     * 点底部「继续」时调用（外层 Activity 转发过来）。
+     * 申请形态下它提交申请，登录形态下它登录。
+     * @param onResult 主线程回调；null = 成功。
+     */
+    fun submit(onResult: (String?) -> Unit) {
+        if (form.busy) return
+        val ctx = context ?: run { onResult("页面已关闭"); return }
+
+        if (form.mode == LoginFormState.Mode.APPLY) {
+            form.busy = true
+            form.error = ""
+            form.info = ""
+            ProvisionLogin.apply(ctx, form.username, form.name, form.coolapk, form.password) { err ->
+                form.busy = false
+                if (err != null) {
+                    form.error = err
+                    // 申请失败**不要**推进流程（onResult(null) 会跳到下一页）
+                } else {
+                    // 成功就切回登录、把账号密码留着，并提示等站长审核
+                    form.info = "已提交，等站长审核通过后就能用这个账号登录了。"
+                    form.mode = LoginFormState.Mode.LOGIN
+                }
+            }
+            return
+        }
+
+        if (form.username.isBlank() || form.password.isBlank()) {
+            form.error = "请填写账号和密码，或点「跳过」用游客身份进入"
+            return
+        }
+        form.busy = true
+        form.error = ""
+        ProvisionLogin.dev(ctx, form.username, form.password) { err ->
+            form.busy = false
+            if (err != null) form.error = err
+            onResult(err)
+        }
+    }
+
+    /** 点底部「跳过」时调用 —— 以游客身份继续。 */
+    fun continueAsGuest() {
+        val ctx = context ?: return
+        ProvisionLogin.guest(ctx)
+    }
+}
+
+/**
+ * 表单本体：一张实底卡片 + 两个 Miuix 输入框。
+ * 用的是 `top.yukonga.miuix.kmp.basic.TextField` —— 和 HyperCeiler 设置页里的输入框同一套。
+ */
+@Composable
+private fun LoginForm(form: LoginFormState, onGuest: () -> Unit) {
+    Card {
+        Column(Modifier.fillMaxWidth().padding(16.dp)) {
+            Text(
+                if (form.mode == LoginFormState.Mode.APPLY) "申请开发者账号" else "开发者账号",
+                fontSize = MiuixTheme.textStyles.body1.fontSize,
+            )
+            Spacer(Modifier.height(12.dp))
+
+            TextField(
+                value = form.username,
+                onValueChange = { form.username = it; form.error = "" },
+                // 申请时账号就是邮箱（站长要求的），所以这里说清楚
+                label = if (form.mode == LoginFormState.Mode.APPLY) "账号（填邮箱）" else "账号",
+                singleLine = true,
+                modifier = Modifier.fillMaxWidth(),
+            )
+
+            if (form.mode == LoginFormState.Mode.APPLY) {
+                Spacer(Modifier.height(12.dp))
+                TextField(
+                    value = form.name,
+                    onValueChange = { form.name = it; form.error = "" },
+                    label = "名称",
+                    singleLine = true,
+                    modifier = Modifier.fillMaxWidth(),
+                )
+                Spacer(Modifier.height(12.dp))
+                TextField(
+                    value = form.coolapk,
+                    onValueChange = { form.coolapk = it; form.error = "" },
+                    label = "酷安名",
+                    singleLine = true,
+                    modifier = Modifier.fillMaxWidth(),
+                )
+            }
+
+            Spacer(Modifier.height(12.dp))
+            TextField(
+                value = form.password,
+                onValueChange = { form.password = it; form.error = "" },
+                label = if (form.mode == LoginFormState.Mode.APPLY) "密码（≥6 位）" else "密码",
+                singleLine = true,
+                visualTransformation = PasswordVisualTransformation(),
+                modifier = Modifier.fillMaxWidth(),
+            )
+
+            if (form.error.isNotBlank()) {
+                Spacer(Modifier.height(12.dp))
+                Text(
+                    form.error,
+                    fontSize = MiuixTheme.textStyles.footnote1.fontSize,
+                    color = MiuixTheme.colorScheme.error,
+                )
+            }
+            if (form.info.isNotBlank()) {
+                Spacer(Modifier.height(12.dp))
+                Text(
+                    form.info,
+                    fontSize = MiuixTheme.textStyles.footnote1.fontSize,
+                    color = MiuixTheme.colorScheme.primary,
+                )
+            }
+
+            Spacer(Modifier.height(6.dp))
+            if (form.mode == LoginFormState.Mode.APPLY) {
+                // 申请完直接切回登录，账号密码都留着，省得再输一遍
+                GhostButton(
+                    text = "返回登录",
+                    modifier = Modifier.fillMaxWidth(),
+                    onClick = {
+                        form.mode = LoginFormState.Mode.LOGIN
+                        form.error = ""
+                        form.info = ""
+                    },
+                )
+            } else {
+                // 没有开发者账号也能进：HyperCeiler 的底部按钮组默认只显示主按钮，
+                // 「跳过」被隐藏了，所以游客入口直接放在表单里，不依赖底部面板。
+                GhostButton(
+                    text = "没有账号？以游客身份继续",
+                    modifier = Modifier.fillMaxWidth(),
+                    onClick = onGuest,
+                )
+                Spacer(Modifier.height(6.dp))
+                // 申请入口 —— 之前只有主界面那套登录页有，引导流程这套漏了，
+                // 用户在引导页里根本找不到申请的地方。
+                GhostButton(
+                    text = "申请开发者账号",
+                    modifier = Modifier.fillMaxWidth(),
+                    onClick = {
+                        form.mode = LoginFormState.Mode.APPLY
+                        form.error = ""
+                        form.info = ""
+                    },
+                )
+            }
+        }
+    }
+}

@@ -1,1 +1,6 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHBhdGhJbnRlcnBvbGF0b3IgeG1sbnM6YW5kcm9pZD0iaHR0cDovL3NjaGVtYXMuYW5kcm9pZC5jb20vYXBrL3Jlcy9hbmRyb2lkIgogICAgYW5kcm9pZDpjb250cm9sWDE9IjAuMzciCiAgICBhbmRyb2lkOmNvbnRyb2xZMT0iMC4wIgogICAgYW5kcm9pZDpjb250cm9sWDI9IjAuNjMiCiAgICBhbmRyb2lkOmNvbnRyb2xZMj0iMS4wIiAvPgo=
+<?xml version="1.0" encoding="utf-8"?>
+<pathInterpolator xmlns:android="http://schemas.android.com/apk/res/android"
+    android:controlX1="0.37"
+    android:controlY1="0.0"
+    android:controlX2="0.63"
+    android:controlY2="1.0" />

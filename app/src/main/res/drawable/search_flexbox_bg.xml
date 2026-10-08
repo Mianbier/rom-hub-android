@@ -1,1 +1,6 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHNoYXBlIHhtbG5zOmFuZHJvaWQ9Imh0dHA6Ly9zY2hlbWFzLmFuZHJvaWQuY29tL2Fway9yZXMvYW5kcm9pZCI+CiAgICA8c2l6ZSBhbmRyb2lkOmhlaWdodD0iQGRpbWVuL3NlYXJjaF9oaXN0b3J5X3R2X2JnX2hlaWdodCIgLz4KICAgIDxjb3JuZXJzIGFuZHJvaWQ6cmFkaXVzPSJAZGltZW4vc2VhcmNoX2hpc3RvcnlfdHZfYmdfcmFkaXVzIiAvPgogICAgPHNvbGlkIGFuZHJvaWQ6Y29sb3I9IkBjb2xvci9zZWFyY2hfaGlzdG9yeV90dl9iZ19jb2xvciIgLz4KPC9zaGFwZT4K
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <size android:height="@dimen/search_history_tv_bg_height" />
+    <corners android:radius="@dimen/search_history_tv_bg_radius" />
+    <solid android:color="@color/search_history_tv_bg_color" />
+</shape>

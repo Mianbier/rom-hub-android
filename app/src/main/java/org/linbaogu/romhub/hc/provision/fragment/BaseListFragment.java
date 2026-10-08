@@ -1,1 +1,55 @@
-LyoKICogVGhpcyBmaWxlIGlzIHBhcnQgb2YgSHlwZXJDZWlsZXIuCgogKiBIeXBlckNlaWxlciBpcyBmcmVlIHNvZnR3YXJlOiB5b3UgY2FuIHJlZGlzdHJpYnV0ZSBpdCBhbmQvb3IgbW9kaWZ5CiAqIGl0IHVuZGVyIHRoZSB0ZXJtcyBvZiB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGFzCiAqIHB1Ymxpc2hlZCBieSB0aGUgRnJlZSBTb2Z0d2FyZSBGb3VuZGF0aW9uLCBlaXRoZXIgdmVyc2lvbiAzIG9mIHRoZQogKiBMaWNlbnNlLgoKICogVGhpcyBwcm9ncmFtIGlzIGRpc3RyaWJ1dGVkIGluIHRoZSBob3BlIHRoYXQgaXQgd2lsbCBiZSB1c2VmdWwsCiAqIGJ1dCBXSVRIT1VUIEFOWSBXQVJSQU5UWTsgd2l0aG91dCBldmVuIHRoZSBpbXBsaWVkIHdhcnJhbnR5IG9mCiAqIE1FUkNIQU5UQUJJTElUWSBvciBGSVRORVNTIEZPUiBBIFBBUlRJQ1VMQVIgUFVSUE9TRS4gIFNlZSB0aGUKICogR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGZvciBtb3JlIGRldGFpbHMuCgogKiBZb3Ugc2hvdWxkIGhhdmUgcmVjZWl2ZWQgYSBjb3B5IG9mIHRoZSBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UKICogYWxvbmcgd2l0aCB0aGlzIHByb2dyYW0uICBJZiBub3QsIHNlZSA8aHR0cHM6Ly93d3cuZ251Lm9yZy9saWNlbnNlcy8+LgoKICogQ29weXJpZ2h0IChDKSAyMDIzLTIwMjYgSHlwZXJDZWlsZXIgQ29udHJpYnV0aW9ucwogKi8KcGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLmhjLnByb3Zpc2lvbi5mcmFnbWVudDsKCmltcG9ydCBhbmRyb2lkLm9zLkJ1bmRsZTsKaW1wb3J0IGFuZHJvaWQudmlldy5MYXlvdXRJbmZsYXRlcjsKaW1wb3J0IGFuZHJvaWQudmlldy5WaWV3OwppbXBvcnQgYW5kcm9pZC52aWV3LlZpZXdHcm91cDsKCmltcG9ydCBhbmRyb2lkeC5hbm5vdGF0aW9uLk5vbk51bGw7CmltcG9ydCBhbmRyb2lkeC5hbm5vdGF0aW9uLk51bGxhYmxlOwppbXBvcnQgYW5kcm9pZHguZnJhZ21lbnQuYXBwLkxpc3RGcmFnbWVudDsKCmltcG9ydCBvcmcubGluYmFvZ3Uucm9taHViLlI7CgpwdWJsaWMgYWJzdHJhY3QgY2xhc3MgQmFzZUxpc3RGcmFnbWVudCBleHRlbmRzIExpc3RGcmFnbWVudCB7CgogICAgcHJvdGVjdGVkIFZpZXcgbVJvb3RWaWV3OwogICAgcHJvdGVjdGVkIFZpZXdHcm91cCBtQ3VzdG9tVmlldzsKCiAgICBwcm90ZWN0ZWQgaW50IGdldExheW91dElkKCkgewogICAgICAgIHJldHVybiBSLmxheW91dC5wcm92aXNpb25fbGlzdF9wYWdlX2xheW91dDsKICAgIH0KCiAgICBwcm90ZWN0ZWQgYWJzdHJhY3QgaW50IGdldEN1c3RvbUxheW91dElkKCk7CgogICAgQE51bGxhYmxlCiAgICBAT3ZlcnJpZGUKICAgIHB1YmxpYyBWaWV3IG9uQ3JlYXRlVmlldyhATm9uTnVsbCBMYXlvdXRJbmZsYXRlciBpbmZsYXRlciwgQE51bGxhYmxlIFZpZXdHcm91cCBjb250YWluZXIsIEBOdWxsYWJsZSBCdW5kbGUgc2F2ZWRJbnN0YW5jZVN0YXRlKSB7CiAgICAgICAgbVJvb3RWaWV3ID0gaW5mbGF0ZXIuaW5mbGF0ZShnZXRMYXlvdXRJZCgpLCBudWxsKTsKICAgICAgICBtQ3VzdG9tVmlldyA9IG1Sb290Vmlldy5maW5kVmlld0J5SWQoUi5pZC5jdXN0b21fdmlldyk7CiAgICAgICAgaWYgKGdldEN1c3RvbUxheW91dElkKCkgIT0gMCkgewogICAgICAgICAgICBWaWV3IGN1c3RvbVZpZXcgPSBpbmZsYXRlci5pbmZsYXRlKGdldEN1c3RvbUxheW91dElkKCksIG51bGwpOwogICAgICAgICAgICBtQ3VzdG9tVmlldy5hZGRWaWV3KGN1c3RvbVZpZXcpOwogICAgICAgIH0KICAgICAgICByZXR1cm4gbVJvb3RWaWV3OwogICAgfQoKfQo=
+/*
+ * This file is part of HyperCeiler.
+
+ * HyperCeiler is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as
+ * published by the Free Software Foundation, either version 3 of the
+ * License.
+
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Affero General Public License for more details.
+
+ * You should have received a copy of the GNU Affero General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+ * Copyright (C) 2023-2026 HyperCeiler Contributions
+ */
+package org.linbaogu.romhub.hc.provision.fragment;
+
+import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.ListFragment;
+
+import org.linbaogu.romhub.R;
+
+public abstract class BaseListFragment extends ListFragment {
+
+    protected View mRootView;
+    protected ViewGroup mCustomView;
+
+    protected int getLayoutId() {
+        return R.layout.provision_list_page_layout;
+    }
+
+    protected abstract int getCustomLayoutId();
+
+    @Nullable
+    @Override
+    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+        mRootView = inflater.inflate(getLayoutId(), null);
+        mCustomView = mRootView.findViewById(R.id.custom_view);
+        if (getCustomLayoutId() != 0) {
+            View customView = inflater.inflate(getCustomLayoutId(), null);
+            mCustomView.addView(customView);
+        }
+        return mRootView;
+    }
+
+}

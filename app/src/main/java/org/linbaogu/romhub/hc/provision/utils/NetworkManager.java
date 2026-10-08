@@ -1,1 +1,58 @@
-LyoKICogVGhpcyBmaWxlIGlzIHBhcnQgb2YgUk9NIEh1YiwgcmVsZWFzZWQgdW5kZXIgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSB2My4wLgogKgogKiDmnKzmlofku7bnp7vmpI0gLyDmlLnlhpnoh6ogSHlwZXJDZWlsZXLvvIhBR1BMLTMuMO+8jENvcHlyaWdodCAoQykgMjAyMy0yMDI2IEh5cGVyQ2VpbGVyCiAqIENvbnRyaWJ1dGlvbnPvvInvvIzmiJbkuLrlhbbnrYnku7fmm7/ouqvlrp7njrAg4oCU4oCUIOWujOaVtOadpea6kOS4jum4o+iwouingemhueebruagueebruW9lSBOT1RJQ0UubWTjgIIKICoKICogVGhpcyBwcm9ncmFtIGlzIGZyZWUgc29mdHdhcmU6IHlvdSBjYW4gcmVkaXN0cmlidXRlIGl0IGFuZC9vciBtb2RpZnkgaXQgdW5kZXIgdGhlIHRlcm1zCiAqIG9mIHRoZSBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UgYXMgcHVibGlzaGVkIGJ5IHRoZSBGcmVlIFNvZnR3YXJlIEZvdW5kYXRpb24sCiAqIGVpdGhlciB2ZXJzaW9uIDMgb2YgdGhlIExpY2Vuc2UuCiAqCiAqIFRoaXMgcHJvZ3JhbSBpcyBkaXN0cmlidXRlZCBpbiB0aGUgaG9wZSB0aGF0IGl0IHdpbGwgYmUgdXNlZnVsLCBidXQgV0lUSE9VVCBBTlkgV0FSUkFOVFk7CiAqIHdpdGhvdXQgZXZlbiB0aGUgaW1wbGllZCB3YXJyYW50eSBvZiBNRVJDSEFOVEFCSUxJVFkgb3IgRklUTkVTUyBGT1IgQSBQQVJUSUNVTEFSIFBVUlBPU0UuCiAqIFNlZSB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGZvciBtb3JlIGRldGFpbHMuCiAqCiAqIFlvdSBzaG91bGQgaGF2ZSByZWNlaXZlZCBhIGNvcHkgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBhbG9uZyB3aXRoIHRoaXMKICogcHJvZ3JhbS4gIElmIG5vdCwgc2VlIDxodHRwczovL3d3dy5nbnUub3JnL2xpY2Vuc2VzLz4uCiAqLwoKcGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLmhjLnByb3Zpc2lvbi51dGlsczsKCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dDsKaW1wb3J0IGFuZHJvaWQubmV0LkNvbm5lY3Rpdml0eU1hbmFnZXI7CmltcG9ydCBhbmRyb2lkLm5ldC5OZXR3b3JrOwppbXBvcnQgYW5kcm9pZC5uZXQuTmV0d29ya0NhcGFiaWxpdGllczsKCmltcG9ydCBqYXZhLm5ldC5JbmV0QWRkcmVzczsKaW1wb3J0IGphdmEubmV0LlVua25vd25Ib3N0RXhjZXB0aW9uOwoKcHVibGljIGNsYXNzIE5ldHdvcmtNYW5hZ2VyIHsKCiAgICBwdWJsaWMgc3RhdGljIGJvb2xlYW4gaXNOZXR3b3JrQ29ubmVjdGVkKENvbnRleHQgY29udGV4dCkgewogICAgICAgIGlmIChjb250ZXh0ID09IG51bGwpIHsKICAgICAgICAgICAgcmV0dXJuIGZhbHNlOwogICAgICAgIH0KICAgICAgICBDb25uZWN0aXZpdHlNYW5hZ2VyIGNtID0gKENvbm5lY3Rpdml0eU1hbmFnZXIpIGNvbnRleHQuZ2V0U3lzdGVtU2VydmljZShDb250ZXh0LkNPTk5FQ1RJVklUWV9TRVJWSUNFKTsKICAgICAgICBOZXR3b3JrIG5ldHdvcmsgPSBjbS5nZXRBY3RpdmVOZXR3b3JrKCk7CiAgICAgICAgaWYgKG5ldHdvcmsgIT0gbnVsbCkgewogICAgICAgICAgICBOZXR3b3JrQ2FwYWJpbGl0aWVzIG5jID0gY20uZ2V0TmV0d29ya0NhcGFiaWxpdGllcyhuZXR3b3JrKTsKICAgICAgICAgICAgaWYgKG5jICE9IG51bGwpIHsKICAgICAgICAgICAgICAgIGlmIChuYy5oYXNUcmFuc3BvcnQoTmV0d29ya0NhcGFiaWxpdGllcy5UUkFOU1BPUlRfV0lGSSkpIHsKICAgICAgICAgICAgICAgICAgICByZXR1cm4gdHJ1ZTsKICAgICAgICAgICAgICAgIH0gZWxzZSByZXR1cm4gbmMuaGFzVHJhbnNwb3J0KE5ldHdvcmtDYXBhYmlsaXRpZXMuVFJBTlNQT1JUX0NFTExVTEFSKTsKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICByZXR1cm4gZmFsc2U7CiAgICB9CgogICAgcHVibGljIHN0YXRpYyBib29sZWFuIGlzSW50ZXJuZXRBdmFpbGFibGUoKSB7CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgSW5ldEFkZHJlc3MgYWRkcmVzcyA9IEluZXRBZGRyZXNzLmdldEJ5TmFtZSgiY2xvdWRmbGFyZS5jb20iKTsKICAgICAgICAgICAgcmV0dXJuICFhZGRyZXNzLmVxdWFscygiIik7CiAgICAgICAgfSBjYXRjaCAoVW5rbm93bkhvc3RFeGNlcHRpb24gZSkgewogICAgICAgICAgICAvLyBMb2cgZXJyb3IKICAgICAgICB9CiAgICAgICAgcmV0dXJuIGZhbHNlOwogICAgfQoKfQo=
+/*
+ * This file is part of ROM Hub, released under the GNU Affero General Public License v3.0.
+ *
+ * 本文件移植 / 改写自 HyperCeiler（AGPL-3.0，Copyright (C) 2023-2026 HyperCeiler
+ * Contributions），或为其等价替身实现 —— 完整来源与鸣谢见项目根目录 NOTICE.md。
+ *
+ * This program is free software: you can redistribute it and/or modify it under the terms
+ * of the GNU Affero General Public License as published by the Free Software Foundation,
+ * either version 3 of the License.
+ *
+ * This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+ * without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * See the GNU Affero General Public License for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License along with this
+ * program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
+package org.linbaogu.romhub.hc.provision.utils;
+
+import android.content.Context;
+import android.net.ConnectivityManager;
+import android.net.Network;
+import android.net.NetworkCapabilities;
+
+import java.net.InetAddress;
+import java.net.UnknownHostException;
+
+public class NetworkManager {
+
+    public static boolean isNetworkConnected(Context context) {
+        if (context == null) {
+            return false;
+        }
+        ConnectivityManager cm = (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
+        Network network = cm.getActiveNetwork();
+        if (network != null) {
+            NetworkCapabilities nc = cm.getNetworkCapabilities(network);
+            if (nc != null) {
+                if (nc.hasTransport(NetworkCapabilities.TRANSPORT_WIFI)) {
+                    return true;
+                } else return nc.hasTransport(NetworkCapabilities.TRANSPORT_CELLULAR);
+            }
+        }
+        return false;
+    }
+
+    public static boolean isInternetAvailable() {
+        try {
+            InetAddress address = InetAddress.getByName("cloudflare.com");
+            return !address.equals("");
+        } catch (UnknownHostException e) {
+            // Log error
+        }
+        return false;
+    }
+
+}

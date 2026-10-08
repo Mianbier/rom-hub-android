@@ -1,1 +1,46 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IS0tCiAgfiBUaGlzIGZpbGUgaXMgcGFydCBvZiBIeXBlckNlaWxlci4KICB+CiAgfiBIeXBlckNlaWxlciBpcyBmcmVlIHNvZnR3YXJlOiB5b3UgY2FuIHJlZGlzdHJpYnV0ZSBpdCBhbmQvb3IgbW9kaWZ5CiAgfiBpdCB1bmRlciB0aGUgdGVybXMgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBhcwogIH4gcHVibGlzaGVkIGJ5IHRoZSBGcmVlIFNvZnR3YXJlIEZvdW5kYXRpb24sIGVpdGhlciB2ZXJzaW9uIDMgb2YgdGhlCiAgfiBMaWNlbnNlLgogIH4KICB+IFRoaXMgcHJvZ3JhbSBpcyBkaXN0cmlidXRlZCBpbiB0aGUgaG9wZSB0aGF0IGl0IHdpbGwgYmUgdXNlZnVsLAogIH4gYnV0IFdJVEhPVVQgQU5ZIFdBUlJBTlRZOyB3aXRob3V0IGV2ZW4gdGhlIGltcGxpZWQgd2FycmFudHkgb2YKICB+IE1FUkNIQU5UQUJJTElUWSBvciBGSVRORVNTIEZPUiBBIFBBUlRJQ1VMQVIgUFVSUE9TRS4gIFNlZSB0aGUKICB+IEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBmb3IgbW9yZSBkZXRhaWxzLgogIH4KICB+IFlvdSBzaG91bGQgaGF2ZSByZWNlaXZlZCBhIGNvcHkgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZQogIH4gYWxvbmcgd2l0aCB0aGlzIHByb2dyYW0uICBJZiBub3QsIHNlZSA8aHR0cHM6Ly93d3cuZ251Lm9yZy9saWNlbnNlcy8+LgogIH4KICB+IENvcHlyaWdodCAoQykgMjAyMy0yMDI2IEh5cGVyQ2VpbGVyIENvbnRyaWJ1dGlvbnMKICAtLT4KCjxQcmVmZXJlbmNlU2NyZWVuIHhtbG5zOmFuZHJvaWQ9Imh0dHA6Ly9zY2hlbWFzLmFuZHJvaWQuY29tL2Fway9yZXMvYW5kcm9pZCI+CiAgICA8Y29tLnNldnRpbmdlLmh5cGVyY2VpbGVyLnByZWZzLkxheW91dFByZWZlcmVuY2UKICAgICAgICBhbmRyb2lkOmVuYWJsZWQ9ImZhbHNlIgogICAgICAgIGFuZHJvaWQ6a2V5PSJwcmVmc19rZXlfdGV4dHZpZXdfZnVsbF9zdXBwb3J0X3ZlcnNpb24iCiAgICAgICAgYW5kcm9pZDpsYXlvdXQ9IkBsYXlvdXQvaGVhZHRpcF90aXAiCiAgICAgICAgYW5kcm9pZDp0aXRsZT0iQHN0cmluZy9oZWxwX3N1cHBvcnRfdmVyc2lvbl9kZXNjXzMiIC8+CgogICAgPGNvbS5zZXZ0aW5nZS5oeXBlcmNlaWxlci5wcmVmcy5MYXlvdXRQcmVmZXJlbmNlCiAgICAgICAgYW5kcm9pZDplbmFibGVkPSJmYWxzZSIKICAgICAgICBhbmRyb2lkOmtleT0icHJlZnNfa2V5X3RleHR2aWV3X3BhcnRpYWxfc3VwcG9ydF92ZXJzaW9uIgogICAgICAgIGFuZHJvaWQ6bGF5b3V0PSJAbGF5b3V0L2hlYWR0aXBfbm90aWNlIgogICAgICAgIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvaGVscF9zdXBwb3J0X3ZlcnNpb25fZGVzY180IiAvPgoKICAgIDxjb20uc2V2dGluZ2UuaHlwZXJjZWlsZXIucHJlZnMuTGF5b3V0UHJlZmVyZW5jZQogICAgICAgIGFuZHJvaWQ6ZW5hYmxlZD0iZmFsc2UiCiAgICAgICAgYW5kcm9pZDprZXk9InByZWZzX2tleV90ZXh0dmlld19ub3Rfc3VwcG9ydF92ZXJzaW9uIgogICAgICAgIGFuZHJvaWQ6bGF5b3V0PSJAbGF5b3V0L2hlYWR0aXBfd2FybiIKICAgICAgICBhbmRyb2lkOnRpdGxlPSJAc3RyaW5nL2hlbHBfc3VwcG9ydF92ZXJzaW9uX2Rlc2NfNSIgLz4KCiAgICA8UHJlZmVyZW5jZQogICAgICAgIGFuZHJvaWQ6ZW5hYmxlZD0iZmFsc2UiCiAgICAgICAgYW5kcm9pZDprZXk9InByZWZzX2tleV90ZXh0dmlld19oZWxwX3N1cHBvcnRfdmVyc2lvbiIKICAgICAgICBhbmRyb2lkOmxheW91dD0iQGxheW91dC9wcmVmZXJlbmNlX2hlbHAiCiAgICAgICAgYW5kcm9pZDpzdW1tYXJ5PSIiCiAgICAgICAgYW5kcm9pZDp0aXRsZT0iQHN0cmluZy9oZWxwX3N1cHBvcnRfdmVyc2lvbl90aXRsZSIgLz4KCjwvUHJlZmVyZW5jZVNjcmVlbj4=
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ This file is part of HyperCeiler.
+  ~
+  ~ HyperCeiler is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU Affero General Public License as
+  ~ published by the Free Software Foundation, either version 3 of the
+  ~ License.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU Affero General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU Affero General Public License
+  ~ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+  ~
+  ~ Copyright (C) 2023-2026 HyperCeiler Contributions
+  -->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.sevtinge.hyperceiler.prefs.LayoutPreference
+        android:enabled="false"
+        android:key="prefs_key_textview_full_support_version"
+        android:layout="@layout/headtip_tip"
+        android:title="@string/help_support_version_desc_3" />
+
+    <com.sevtinge.hyperceiler.prefs.LayoutPreference
+        android:enabled="false"
+        android:key="prefs_key_textview_partial_support_version"
+        android:layout="@layout/headtip_notice"
+        android:title="@string/help_support_version_desc_4" />
+
+    <com.sevtinge.hyperceiler.prefs.LayoutPreference
+        android:enabled="false"
+        android:key="prefs_key_textview_not_support_version"
+        android:layout="@layout/headtip_warn"
+        android:title="@string/help_support_version_desc_5" />
+
+    <Preference
+        android:enabled="false"
+        android:key="prefs_key_textview_help_support_version"
+        android:layout="@layout/preference_help"
+        android:summary=""
+        android:title="@string/help_support_version_title" />
+
+</PreferenceScreen>

@@ -1,1 +1,269 @@
-cGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLnVpLnNjcmVlbnMKCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LkFycmFuZ2VtZW50CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LkJveAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5Db2x1bW4KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuUm93CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LlNwYWNlcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5maWxsTWF4U2l6ZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5maWxsTWF4V2lkdGgKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuaGVpZ2h0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LmltZVBhZGRpbmcKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQucGFkZGluZwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5zaXplCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ucmVtZW1iZXJTY3JvbGxTdGF0ZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLnRleHQuS2V5Ym9hcmRPcHRpb25zCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24udmVydGljYWxTY3JvbGwKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5Db21wb3NhYmxlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuZ2V0VmFsdWUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5tdXRhYmxlU3RhdGVPZgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLnJlbWVtYmVyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUucmVtZW1iZXJDb3JvdXRpbmVTY29wZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLnNldFZhbHVlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLkFsaWdubWVudAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5Nb2RpZmllcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS50ZXh0LmZvbnQuRm9udFdlaWdodAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS50ZXh0LmlucHV0LktleWJvYXJkVHlwZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS50ZXh0LmlucHV0LlBhc3N3b3JkVmlzdWFsVHJhbnNmb3JtYXRpb24KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudGV4dC5zdHlsZS5UZXh0QWxpZ24KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudW5pdC5kcAppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmxhdW5jaAppbXBvcnQgb3JnLmxpbmJhb2d1LnJvbWh1Yi5uZXR3b3JrLkhlbHBMaW5rcwppbXBvcnQgb3JnLmxpbmJhb2d1LnJvbWh1Yi51aS5BcHBWaWV3TW9kZWwKaW1wb3J0IG9yZy5saW5iYW9ndS5yb21odWIudWkuY29tbW9uLm9wZW5VcmwKaW1wb3J0IG9yZy5saW5iYW9ndS5yb21odWIudWkuY29tcG9uZW50LkFwcExvZ28KaW1wb3J0IG9yZy5saW5iYW9ndS5yb21odWIudWkuY29tcG9uZW50Lkdob3N0QnV0dG9uCmltcG9ydCBvcmcubGluYmFvZ3Uucm9taHViLnVpLmNvbXBvbmVudC5QcmltYXJ5QnV0dG9uCmltcG9ydCBvcmcubGluYmFvZ3Uucm9taHViLnVpLmVmZmVjdC5CZ0VmZmVjdEJhY2tncm91bmQKaW1wb3J0IHRvcC55dWtvbmdhLm1pdWl4LmttcC5iYXNpYy5DYXJkCmltcG9ydCB0b3AueXVrb25nYS5taXVpeC5rbXAuYmFzaWMuVGV4dAppbXBvcnQgdG9wLnl1a29uZ2EubWl1aXgua21wLmJhc2ljLlRleHRGaWVsZAppbXBvcnQgdG9wLnl1a29uZ2EubWl1aXgua21wLnRoZW1lLk1pdWl4VGhlbWUKCnByaXZhdGUgZW51bSBjbGFzcyBNb2RlIHsgQ0hPT1NFLCBERVZfTE9HSU4sIERFVl9BUFBMWSB9CgpAQ29tcG9zYWJsZQpmdW4gTG9naW5TY3JlZW4odm06IEFwcFZpZXdNb2RlbCkgewogICAgdmFyIG1vZGUgYnkgcmVtZW1iZXIgeyBtdXRhYmxlU3RhdGVPZihNb2RlLkNIT09TRSkgfQogICAgdmFsIHNjb3BlID0gcmVtZW1iZXJDb3JvdXRpbmVTY29wZSgpCiAgICB2YWwgY3R4ID0gYW5kcm9pZHguY29tcG9zZS51aS5wbGF0Zm9ybS5Mb2NhbENvbnRleHQuY3VycmVudAoKICAgIHZhciB1c2VybmFtZSBieSByZW1lbWJlciB7IG11dGFibGVTdGF0ZU9mKCIiKSB9CiAgICB2YXIgcGFzc3dvcmQgYnkgcmVtZW1iZXIgeyBtdXRhYmxlU3RhdGVPZigiIikgfQogICAgLy8g55Sz6K+36KGo5Y2V77ya56uZ6ZW/6KaB5rGC55qE5Zub5qC3IOKAlOKAlCDotKblj7fvvIjpgq7nrrHvvIkvIOWQjeensCAvIOmFt+WuieWQjSAvIOWvhueggQogICAgdmFyIG5hbWUgYnkgcmVtZW1iZXIgeyBtdXRhYmxlU3RhdGVPZigiIikgfQogICAgdmFyIGNvb2xhcGsgYnkgcmVtZW1iZXIgeyBtdXRhYmxlU3RhdGVPZigiIikgfQogICAgdmFyIGJ1c3kgYnkgcmVtZW1iZXIgeyBtdXRhYmxlU3RhdGVPZihmYWxzZSkgfQogICAgdmFyIGVycm9yIGJ5IHJlbWVtYmVyIHsgbXV0YWJsZVN0YXRlT2YoIiIpIH0KICAgIHZhciBpbmZvIGJ5IHJlbWVtYmVyIHsgbXV0YWJsZVN0YXRlT2YoIiIpIH0KCiAgICBCZ0VmZmVjdEJhY2tncm91bmQoCiAgICAgICAgZHluYW1pY0JhY2tncm91bmQgPSB0cnVlLAogICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIuZmlsbE1heFNpemUoKSwKICAgICAgICBpc0Z1bGxTaXplID0gdHJ1ZSwKICAgICkgewogICAgICAgIENvbHVtbigKICAgICAgICAgICAgTW9kaWZpZXIKICAgICAgICAgICAgICAgIC5maWxsTWF4U2l6ZSgpCiAgICAgICAgICAgICAgICAudmVydGljYWxTY3JvbGwocmVtZW1iZXJTY3JvbGxTdGF0ZSgpKQogICAgICAgICAgICAgICAgLmltZVBhZGRpbmcoKQogICAgICAgICAgICAgICAgLnBhZGRpbmcoaG9yaXpvbnRhbCA9IDIyLmRwKQogICAgICAgICAgICAgICAgLnBhZGRpbmcodG9wID0gODQuZHAsIGJvdHRvbSA9IDMyLmRwKSwKICAgICAgICAgICAgaG9yaXpvbnRhbEFsaWdubWVudCA9IEFsaWdubWVudC5DZW50ZXJIb3Jpem9udGFsbHksCiAgICAgICAgKSB7CiAgICAgICAgICAgIEFwcExvZ28oKQogICAgICAgICAgICBTcGFjZXIoTW9kaWZpZXIuaGVpZ2h0KDE2LmRwKSkKICAgICAgICAgICAgVGV4dCgKICAgICAgICAgICAgICAgICJST00gSHViIiwKICAgICAgICAgICAgICAgIGZvbnRTaXplID0gTWl1aXhUaGVtZS50ZXh0U3R5bGVzLnRpdGxlMS5mb250U2l6ZSwKICAgICAgICAgICAgICAgIGZvbnRXZWlnaHQgPSBGb250V2VpZ2h0LkJvbGQsCiAgICAgICAgICAgICkKICAgICAgICAgICAgU3BhY2VyKE1vZGlmaWVyLmhlaWdodCg2LmRwKSkKICAgICAgICAgICAgVGV4dCgKICAgICAgICAgICAgICAgICLlsI/nsbMgUk9NIOe0ouW8lSDCtyDlrpjmlrnljIXkuI7npL7ljLrnp7vmpI3ljIUiLAogICAgICAgICAgICAgICAgZm9udFNpemUgPSBNaXVpeFRoZW1lLnRleHRTdHlsZXMuZm9vdG5vdGUxLmZvbnRTaXplLAogICAgICAgICAgICAgICAgY29sb3IgPSBNaXVpeFRoZW1lLmNvbG9yU2NoZW1lLm9uU3VyZmFjZVZhcmlhbnRTdW1tYXJ5LAogICAgICAgICAgICApCgogICAgICAgICAgICBTcGFjZXIoTW9kaWZpZXIuaGVpZ2h0KDMwLmRwKSkKCiAgICAgICAgICAgIHdoZW4gKG1vZGUpIHsKICAgICAgICAgICAgICAgIE1vZGUuQ0hPT1NFIC0+IHsKICAgICAgICAgICAgICAgICAgICBQcmltYXJ5QnV0dG9uKCLmuLjlrqLnmbvlvZUiKSB7IHZtLmxvZ2luR3Vlc3QoKSB9CiAgICAgICAgICAgICAgICAgICAgU3BhY2VyKE1vZGlmaWVyLmhlaWdodCgxMC5kcCkpCiAgICAgICAgICAgICAgICAgICAgVGV4dCgKICAgICAgICAgICAgICAgICAgICAgICAgIuWPr+a1j+iniOWFqOmDqOacuuWei+OAgeeJiOacrOS4juS4i+i9vemTvuaOpSIsCiAgICAgICAgICAgICAgICAgICAgICAgIGZvbnRTaXplID0gTWl1aXhUaGVtZS50ZXh0U3R5bGVzLmZvb3Rub3RlMi5mb250U2l6ZSwKICAgICAgICAgICAgICAgICAgICAgICAgY29sb3IgPSBNaXVpeFRoZW1lLmNvbG9yU2NoZW1lLm9uU3VyZmFjZVZhcmlhbnRTdW1tYXJ5LAogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICBTcGFjZXIoTW9kaWZpZXIuaGVpZ2h0KDE4LmRwKSkKICAgICAgICAgICAgICAgICAgICBQcmltYXJ5QnV0dG9uKCLlvIDlj5HogIXnmbvlvZUiKSB7IG1vZGUgPSBNb2RlLkRFVl9MT0dJTjsgZXJyb3IgPSAiIjsgaW5mbyA9ICIiIH0KICAgICAgICAgICAgICAgICAgICBTcGFjZXIoTW9kaWZpZXIuaGVpZ2h0KDEwLmRwKSkKICAgICAgICAgICAgICAgICAgICBUZXh0KAogICAgICAgICAgICAgICAgICAgICAgICAi5LiK5Lyg56e75qSN5YyF6ZyA6KaB5L2/55So5byA5Y+R6ICF6LSm5Y+3IiwKICAgICAgICAgICAgICAgICAgICAgICAgZm9udFNpemUgPSBNaXVpeFRoZW1lLnRleHRTdHlsZXMuZm9vdG5vdGUyLmZvbnRTaXplLAogICAgICAgICAgICAgICAgICAgICAgICBjb2xvciA9IE1pdWl4VGhlbWUuY29sb3JTY2hlbWUub25TdXJmYWNlVmFyaWFudFN1bW1hcnksCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIE1vZGUuREVWX0xPR0lOIC0+IHsKICAgICAgICAgICAgICAgICAgICBDYXJkIHsKICAgICAgICAgICAgICAgICAgICAgICAgQ29sdW1uKE1vZGlmaWVyLnBhZGRpbmcoMTQuZHApKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBUZXh0RmllbGQoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsdWUgPSB1c2VybmFtZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvblZhbHVlQ2hhbmdlID0geyB1c2VybmFtZSA9IGl0IH0sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbGFiZWwgPSAi6LSm5Y+3IiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzaW5nbGVMaW5lID0gdHJ1ZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLmZpbGxNYXhXaWR0aCgpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgU3BhY2VyKE1vZGlmaWVyLmhlaWdodCgxMC5kcCkpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBUZXh0RmllbGQoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsdWUgPSBwYXNzd29yZCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvblZhbHVlQ2hhbmdlID0geyBwYXNzd29yZCA9IGl0IH0sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbGFiZWwgPSAi5a+G56CBIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzaW5nbGVMaW5lID0gdHJ1ZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2aXN1YWxUcmFuc2Zvcm1hdGlvbiA9IFBhc3N3b3JkVmlzdWFsVHJhbnNmb3JtYXRpb24oKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLmZpbGxNYXhXaWR0aCgpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIGlmIChlcnJvci5pc05vdEJsYW5rKCkpIHsKICAgICAgICAgICAgICAgICAgICAgICAgTXNnVGV4dChlcnJvciwgdHJ1ZSkKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgaWYgKGluZm8uaXNOb3RCbGFuaygpKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIE1zZ1RleHQoaW5mbywgZmFsc2UpCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIFNwYWNlcihNb2RpZmllci5oZWlnaHQoMTQuZHApKQogICAgICAgICAgICAgICAgICAgIFByaW1hcnlCdXR0b24oCiAgICAgICAgICAgICAgICAgICAgICAgIGlmIChidXN5KSAi55m75b2V5Lit4oCmIiBlbHNlICLnmbvlvZUiLAogICAgICAgICAgICAgICAgICAgICAgICBvbkNsaWNrID0gewogICAgICAgICAgICAgICAgICAgICAgICAgICAgaWYgKGJ1c3kpIHJldHVybkBQcmltYXJ5QnV0dG9uCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBidXN5ID0gdHJ1ZQogICAgICAgICAgICAgICAgICAgICAgICAgICAgZXJyb3IgPSAiIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgc2NvcGUubGF1bmNoIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWwgZXJyID0gdm0ubG9naW5EZXYodXNlcm5hbWUsIHBhc3N3b3JkKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJ1c3kgPSBmYWxzZQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmIChlcnIgIT0gbnVsbCkgZXJyb3IgPSBlcnIKICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgICAgICAgICAgZW5hYmxlZCA9ICFidXN5LAogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICBTcGFjZXIoTW9kaWZpZXIuaGVpZ2h0KDguZHApKQogICAgICAgICAgICAgICAgICAgIFJvdyhNb2RpZmllci5maWxsTWF4V2lkdGgoKSwgaG9yaXpvbnRhbEFycmFuZ2VtZW50ID0gQXJyYW5nZW1lbnQuQ2VudGVyKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIEdob3N0QnV0dG9uKCLnlLPor7flvIDlj5HogIXotKblj7ciKSB7IG1vZGUgPSBNb2RlLkRFVl9BUFBMWTsgZXJyb3IgPSAiIjsgaW5mbyA9ICIiIH0KICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgU3BhY2VyKE1vZGlmaWVyLmhlaWdodCg0LmRwKSkKICAgICAgICAgICAgICAgICAgICBHaG9zdEJ1dHRvbigi6L+U5ZueIikgeyBtb2RlID0gTW9kZS5DSE9PU0U7IGVycm9yID0gIiI7IGluZm8gPSAiIiB9CiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgTW9kZS5ERVZfQVBQTFkgLT4gewogICAgICAgICAgICAgICAgICAgIENhcmQgewogICAgICAgICAgICAgICAgICAgICAgICBDb2x1bW4oTW9kaWZpZXIucGFkZGluZygxNC5kcCkpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIFRleHQoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIueUs+ivt+W8gOWPkeiAhei0puWPtyIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZm9udFdlaWdodCA9IEZvbnRXZWlnaHQuTWVkaXVtLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZvbnRTaXplID0gTWl1aXhUaGVtZS50ZXh0U3R5bGVzLmJvZHkxLmZvbnRTaXplLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgU3BhY2VyKE1vZGlmaWVyLmhlaWdodCg0LmRwKSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIFRleHQoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIuWhq+WGmei0puWPt++8iOmCrueuse+8ieOAgeWQjeensOOAgemFt+WuieWQjeWSjOWvhuegge+8m+aPkOS6pOWQjueUseermemVv+WuoeaguO+8jCIgKwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAi6YCa6L+H5ZCO5Y2z5Y+v55So6K+l6LSm5Y+355m75b2V5bm25LiK5Lyg56e75qSN5YyF44CCIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmb250U2l6ZSA9IE1pdWl4VGhlbWUudGV4dFN0eWxlcy5mb290bm90ZTIuZm9udFNpemUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY29sb3IgPSBNaXVpeFRoZW1lLmNvbG9yU2NoZW1lLm9uU3VyZmFjZVZhcmlhbnRTdW1tYXJ5LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgU3BhY2VyKE1vZGlmaWVyLmhlaWdodCgxMi5kcCkpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBUZXh0RmllbGQoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsdWUgPSB1c2VybmFtZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvblZhbHVlQ2hhbmdlID0geyB1c2VybmFtZSA9IGl0IH0sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbGFiZWwgPSAi6LSm5Y+377yI5aGr6YKu566x77yJIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzaW5nbGVMaW5lID0gdHJ1ZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBrZXlib2FyZE9wdGlvbnMgPSBLZXlib2FyZE9wdGlvbnMoa2V5Ym9hcmRUeXBlID0gS2V5Ym9hcmRUeXBlLkVtYWlsKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLmZpbGxNYXhXaWR0aCgpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgU3BhY2VyKE1vZGlmaWVyLmhlaWdodCgxMC5kcCkpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBUZXh0RmllbGQoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsdWUgPSBuYW1lLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uVmFsdWVDaGFuZ2UgPSB7IG5hbWUgPSBpdCB9LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGxhYmVsID0gIuWQjeensCIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc2luZ2xlTGluZSA9IHRydWUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci5maWxsTWF4V2lkdGgoKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIFNwYWNlcihNb2RpZmllci5oZWlnaHQoMTAuZHApKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgVGV4dEZpZWxkKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbHVlID0gY29vbGFwaywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvblZhbHVlQ2hhbmdlID0geyBjb29sYXBrID0gaXQgfSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBsYWJlbCA9ICLphbflronlkI0iLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNpbmdsZUxpbmUgPSB0cnVlLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIuZmlsbE1heFdpZHRoKCksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBTcGFjZXIoTW9kaWZpZXIuaGVpZ2h0KDEwLmRwKSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIFRleHRGaWVsZCgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWx1ZSA9IHBhc3N3b3JkLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uVmFsdWVDaGFuZ2UgPSB7IHBhc3N3b3JkID0gaXQgfSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBsYWJlbCA9ICLlr4bnoIHvvIjiiaU2IOS9je+8iSIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc2luZ2xlTGluZSA9IHRydWUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmlzdWFsVHJhbnNmb3JtYXRpb24gPSBQYXNzd29yZFZpc3VhbFRyYW5zZm9ybWF0aW9uKCksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci5maWxsTWF4V2lkdGgoKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBpZiAoZXJyb3IuaXNOb3RCbGFuaygpKSBNc2dUZXh0KGVycm9yLCB0cnVlKQogICAgICAgICAgICAgICAgICAgIGlmIChpbmZvLmlzTm90QmxhbmsoKSkgTXNnVGV4dChpbmZvLCBmYWxzZSkKICAgICAgICAgICAgICAgICAgICBTcGFjZXIoTW9kaWZpZXIuaGVpZ2h0KDE0LmRwKSkKICAgICAgICAgICAgICAgICAgICBQcmltYXJ5QnV0dG9uKAogICAgICAgICAgICAgICAgICAgICAgICBpZiAoYnVzeSkgIuaPkOS6pOS4reKApiIgZWxzZSAi5o+Q5Lqk55Sz6K+3IiwKICAgICAgICAgICAgICAgICAgICAgICAgb25DbGljayA9IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmIChidXN5KSByZXR1cm5AUHJpbWFyeUJ1dHRvbgogICAgICAgICAgICAgICAgICAgICAgICAgICAgYnVzeSA9IHRydWUKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGVycm9yID0gIiIKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGluZm8gPSAiIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgc2NvcGUubGF1bmNoIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWwgZXJyID0gdm0uYXBwbHlEZXYodXNlcm5hbWUsIHBhc3N3b3JkLCBuYW1lLCBjb29sYXBrKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJ1c3kgPSBmYWxzZQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmIChlcnIgPT0gbnVsbCkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpbmZvID0gIuW3suaPkOS6pO+8jOetieermemVv+WuoeaguOmAmui/h+WQjuWwseiDveeZu+W9leS6huOAgiIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbW9kZSA9IE1vZGUuREVWX0xPR0lOCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZXJyb3IgPSBlcnIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICAgICAgICAgICAgIGVuYWJsZWQgPSAhYnVzeSwKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgU3BhY2VyKE1vZGlmaWVyLmhlaWdodCg4LmRwKSkKICAgICAgICAgICAgICAgICAgICBHaG9zdEJ1dHRvbigi6L+U5ZueIikgeyBtb2RlID0gTW9kZS5ERVZfTE9HSU47IGVycm9yID0gIiI7IGluZm8gPSAiIiB9CiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICB9CgogICAgICAgICAgICBTcGFjZXIoTW9kaWZpZXIuaGVpZ2h0KDI2LmRwKSkKCiAgICAgICAgICAgIEJveChNb2RpZmllci5maWxsTWF4V2lkdGgoKSwgY29udGVudEFsaWdubWVudCA9IEFsaWdubWVudC5DZW50ZXIpIHsKICAgICAgICAgICAgICAgIFJvdyhob3Jpem9udGFsQXJyYW5nZW1lbnQgPSBBcnJhbmdlbWVudC5DZW50ZXIpIHsKICAgICAgICAgICAgICAgICAgICBHaG9zdEJ1dHRvbigi5byA5rqQ6K645Y+v5LiO6bij6LCiIikgeyBvcGVuVXJsKGN0eCwgSGVscExpbmtzLk5PVElDRSkgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CgogICAgICAgICAgICBTcGFjZXIoTW9kaWZpZXIuaGVpZ2h0KDE0LmRwKSkKICAgICAgICAgICAgVGV4dCgKICAgICAgICAgICAgICAgICLmnKzlupTnlKjku6UgQUdQTC0zLjAg6K645Y+v5Y+R5biD77yM55WM6Z2i5Y+C6ICDIEtlcm5lbFNVIOS4jiBIeXBlckNlaWxlcuOAglxuIiArCiAgICAgICAgICAgICAgICAgICAgICAgICJST00g5LiO56e75qSN5YyF5Z2H5Li656ys5LiJ5pa56LWE5rqQ77yM5Yi35py65pyJ6aOO6Zmp77yM6K+36Ieq6KGM5Yik5pat44CCIiwKICAgICAgICAgICAgICAgIGZvbnRTaXplID0gTWl1aXhUaGVtZS50ZXh0U3R5bGVzLmZvb3Rub3RlMi5mb250U2l6ZSwKICAgICAgICAgICAgICAgIGNvbG9yID0gTWl1aXhUaGVtZS5jb2xvclNjaGVtZS5vblN1cmZhY2VWYXJpYW50U3VtbWFyeSwKICAgICAgICAgICAgICAgIHRleHRBbGlnbiA9IFRleHRBbGlnbi5DZW50ZXIsCiAgICAgICAgICAgICkKICAgICAgICB9CiAgICB9Cn0KCkBDb21wb3NhYmxlCnByaXZhdGUgZnVuIE1zZ1RleHQodGV4dDogU3RyaW5nLCBpc0Vycm9yOiBCb29sZWFuKSB7CiAgICBTcGFjZXIoTW9kaWZpZXIuaGVpZ2h0KDEwLmRwKSkKICAgIFRleHQoCiAgICAgICAgdGV4dCA9IHRleHQsCiAgICAgICAgY29sb3IgPSBpZiAoaXNFcnJvcikgTWl1aXhUaGVtZS5jb2xvclNjaGVtZS5lcnJvciBlbHNlIE1pdWl4VGhlbWUuY29sb3JTY2hlbWUucHJpbWFyeSwKICAgICAgICBmb250U2l6ZSA9IE1pdWl4VGhlbWUudGV4dFN0eWxlcy5mb290bm90ZTEuZm9udFNpemUsCiAgICAgICAgdGV4dEFsaWduID0gVGV4dEFsaWduLkNlbnRlciwKICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLmZpbGxNYXhXaWR0aCgpLAogICAgKQp9Cg==
+package org.linbaogu.romhub.ui.screens
+
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.imePadding
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.text.KeyboardOptions
+import androidx.compose.foundation.verticalScroll
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.rememberCoroutineScope
+import androidx.compose.runtime.setValue
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.input.KeyboardType
+import androidx.compose.ui.text.input.PasswordVisualTransformation
+import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.unit.dp
+import kotlinx.coroutines.launch
+import org.linbaogu.romhub.network.HelpLinks
+import org.linbaogu.romhub.ui.AppViewModel
+import org.linbaogu.romhub.ui.common.openUrl
+import org.linbaogu.romhub.ui.component.AppLogo
+import org.linbaogu.romhub.ui.component.GhostButton
+import org.linbaogu.romhub.ui.component.PrimaryButton
+import org.linbaogu.romhub.ui.effect.BgEffectBackground
+import top.yukonga.miuix.kmp.basic.Card
+import top.yukonga.miuix.kmp.basic.Text
+import top.yukonga.miuix.kmp.basic.TextField
+import top.yukonga.miuix.kmp.theme.MiuixTheme
+
+private enum class Mode { CHOOSE, DEV_LOGIN, DEV_APPLY }
+
+@Composable
+fun LoginScreen(vm: AppViewModel) {
+    var mode by remember { mutableStateOf(Mode.CHOOSE) }
+    val scope = rememberCoroutineScope()
+    val ctx = androidx.compose.ui.platform.LocalContext.current
+
+    var username by remember { mutableStateOf("") }
+    var password by remember { mutableStateOf("") }
+    // 申请表单：站长要求的四样 —— 账号（邮箱）/ 名称 / 酷安名 / 密码
+    var name by remember { mutableStateOf("") }
+    var coolapk by remember { mutableStateOf("") }
+    var busy by remember { mutableStateOf(false) }
+    var error by remember { mutableStateOf("") }
+    var info by remember { mutableStateOf("") }
+
+    BgEffectBackground(
+        dynamicBackground = true,
+        modifier = Modifier.fillMaxSize(),
+        isFullSize = true,
+    ) {
+        Column(
+            Modifier
+                .fillMaxSize()
+                .verticalScroll(rememberScrollState())
+                .imePadding()
+                .padding(horizontal = 22.dp)
+                .padding(top = 84.dp, bottom = 32.dp),
+            horizontalAlignment = Alignment.CenterHorizontally,
+        ) {
+            AppLogo()
+            Spacer(Modifier.height(16.dp))
+            Text(
+                "ROM Hub",
+                fontSize = MiuixTheme.textStyles.title1.fontSize,
+                fontWeight = FontWeight.Bold,
+            )
+            Spacer(Modifier.height(6.dp))
+            Text(
+                "小米 ROM 索引 · 官方包与社区移植包",
+                fontSize = MiuixTheme.textStyles.footnote1.fontSize,
+                color = MiuixTheme.colorScheme.onSurfaceVariantSummary,
+            )
+
+            Spacer(Modifier.height(30.dp))
+
+            when (mode) {
+                Mode.CHOOSE -> {
+                    PrimaryButton("游客登录") { vm.loginGuest() }
+                    Spacer(Modifier.height(10.dp))
+                    Text(
+                        "可浏览全部机型、版本与下载链接",
+                        fontSize = MiuixTheme.textStyles.footnote2.fontSize,
+                        color = MiuixTheme.colorScheme.onSurfaceVariantSummary,
+                    )
+                    Spacer(Modifier.height(18.dp))
+                    PrimaryButton("开发者登录") { mode = Mode.DEV_LOGIN; error = ""; info = "" }
+                    Spacer(Modifier.height(10.dp))
+                    Text(
+                        "上传移植包需要使用开发者账号",
+                        fontSize = MiuixTheme.textStyles.footnote2.fontSize,
+                        color = MiuixTheme.colorScheme.onSurfaceVariantSummary,
+                    )
+                }
+
+                Mode.DEV_LOGIN -> {
+                    Card {
+                        Column(Modifier.padding(14.dp)) {
+                            TextField(
+                                value = username,
+                                onValueChange = { username = it },
+                                label = "账号",
+                                singleLine = true,
+                                modifier = Modifier.fillMaxWidth(),
+                            )
+                            Spacer(Modifier.height(10.dp))
+                            TextField(
+                                value = password,
+                                onValueChange = { password = it },
+                                label = "密码",
+                                singleLine = true,
+                                visualTransformation = PasswordVisualTransformation(),
+                                modifier = Modifier.fillMaxWidth(),
+                            )
+                        }
+                    }
+                    if (error.isNotBlank()) {
+                        MsgText(error, true)
+                    }
+                    if (info.isNotBlank()) {
+                        MsgText(info, false)
+                    }
+                    Spacer(Modifier.height(14.dp))
+                    PrimaryButton(
+                        if (busy) "登录中…" else "登录",
+                        onClick = {
+                            if (busy) return@PrimaryButton
+                            busy = true
+                            error = ""
+                            scope.launch {
+                                val err = vm.loginDev(username, password)
+                                busy = false
+                                if (err != null) error = err
+                            }
+                        },
+                        enabled = !busy,
+                    )
+                    Spacer(Modifier.height(8.dp))
+                    Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.Center) {
+                        GhostButton("申请开发者账号") { mode = Mode.DEV_APPLY; error = ""; info = "" }
+                    }
+                    Spacer(Modifier.height(4.dp))
+                    GhostButton("返回") { mode = Mode.CHOOSE; error = ""; info = "" }
+                }
+
+                Mode.DEV_APPLY -> {
+                    Card {
+                        Column(Modifier.padding(14.dp)) {
+                            Text(
+                                "申请开发者账号",
+                                fontWeight = FontWeight.Medium,
+                                fontSize = MiuixTheme.textStyles.body1.fontSize,
+                            )
+                            Spacer(Modifier.height(4.dp))
+                            Text(
+                                "填写账号（邮箱）、名称、酷安名和密码；提交后由站长审核，" +
+                                    "通过后即可用该账号登录并上传移植包。",
+                                fontSize = MiuixTheme.textStyles.footnote2.fontSize,
+                                color = MiuixTheme.colorScheme.onSurfaceVariantSummary,
+                            )
+                            Spacer(Modifier.height(12.dp))
+                            TextField(
+                                value = username,
+                                onValueChange = { username = it },
+                                label = "账号（填邮箱）",
+                                singleLine = true,
+                                keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Email),
+                                modifier = Modifier.fillMaxWidth(),
+                            )
+                            Spacer(Modifier.height(10.dp))
+                            TextField(
+                                value = name,
+                                onValueChange = { name = it },
+                                label = "名称",
+                                singleLine = true,
+                                modifier = Modifier.fillMaxWidth(),
+                            )
+                            Spacer(Modifier.height(10.dp))
+                            TextField(
+                                value = coolapk,
+                                onValueChange = { coolapk = it },
+                                label = "酷安名",
+                                singleLine = true,
+                                modifier = Modifier.fillMaxWidth(),
+                            )
+                            Spacer(Modifier.height(10.dp))
+                            TextField(
+                                value = password,
+                                onValueChange = { password = it },
+                                label = "密码（≥6 位）",
+                                singleLine = true,
+                                visualTransformation = PasswordVisualTransformation(),
+                                modifier = Modifier.fillMaxWidth(),
+                            )
+                        }
+                    }
+                    if (error.isNotBlank()) MsgText(error, true)
+                    if (info.isNotBlank()) MsgText(info, false)
+                    Spacer(Modifier.height(14.dp))
+                    PrimaryButton(
+                        if (busy) "提交中…" else "提交申请",
+                        onClick = {
+                            if (busy) return@PrimaryButton
+                            busy = true
+                            error = ""
+                            info = ""
+                            scope.launch {
+                                val err = vm.applyDev(username, password, name, coolapk)
+                                busy = false
+                                if (err == null) {
+                                    info = "已提交，等站长审核通过后就能登录了。"
+                                    mode = Mode.DEV_LOGIN
+                                } else {
+                                    error = err
+                                }
+                            }
+                        },
+                        enabled = !busy,
+                    )
+                    Spacer(Modifier.height(8.dp))
+                    GhostButton("返回") { mode = Mode.DEV_LOGIN; error = ""; info = "" }
+                }
+
+            }
+
+            Spacer(Modifier.height(26.dp))
+
+            Box(Modifier.fillMaxWidth(), contentAlignment = Alignment.Center) {
+                Row(horizontalArrangement = Arrangement.Center) {
+                    GhostButton("开源许可与鸣谢") { openUrl(ctx, HelpLinks.NOTICE) }
+                }
+            }
+
+            Spacer(Modifier.height(14.dp))
+            Text(
+                "本应用以 AGPL-3.0 许可发布，界面参考 KernelSU 与 HyperCeiler。\n" +
+                        "ROM 与移植包均为第三方资源，刷机有风险，请自行判断。",
+                fontSize = MiuixTheme.textStyles.footnote2.fontSize,
+                color = MiuixTheme.colorScheme.onSurfaceVariantSummary,
+                textAlign = TextAlign.Center,
+            )
+        }
+    }
+}
+
+@Composable
+private fun MsgText(text: String, isError: Boolean) {
+    Spacer(Modifier.height(10.dp))
+    Text(
+        text = text,
+        color = if (isError) MiuixTheme.colorScheme.error else MiuixTheme.colorScheme.primary,
+        fontSize = MiuixTheme.textStyles.footnote1.fontSize,
+        textAlign = TextAlign.Center,
+        modifier = Modifier.fillMaxWidth(),
+    )
+}

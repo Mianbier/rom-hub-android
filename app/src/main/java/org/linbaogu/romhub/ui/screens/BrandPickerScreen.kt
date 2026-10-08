@@ -1,1 +1,185 @@
-cGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLnVpLnNjcmVlbnMNCg0KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuQ29sdW1uDQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5Sb3cNCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LlNwYWNlcg0KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuZmlsbE1heFdpZHRoDQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5oZWlnaHQNCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LnBhZGRpbmcNCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LndpZHRoDQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLkNvbXBvc2FibGUNCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLkFsaWdubWVudA0KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuTW9kaWZpZXINCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnRleHQuZm9udC5Gb250V2VpZ2h0DQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS51bml0LkRwDQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS51bml0LmRwDQppbXBvcnQgb3JnLmxpbmJhb2d1LnJvbWh1Yi5kYXRhLmJyYW5kLkJyYW5kDQppbXBvcnQgb3JnLmxpbmJhb2d1LnJvbWh1Yi5kYXRhLmJyYW5kLkJyYW5kQ2F0YWxvZw0KaW1wb3J0IG9yZy5saW5iYW9ndS5yb21odWIuZGF0YS5icmFuZC5CcmFuZEZhbWlseQ0KaW1wb3J0IG9yZy5saW5iYW9ndS5yb21odWIudWkuY29tbW9uLkJyYW5kTG9nbw0KaW1wb3J0IG9yZy5saW5iYW9ndS5yb21odWIudWkuY29tbW9uLkhpbnQNCmltcG9ydCBvcmcubGluYmFvZ3Uucm9taHViLnVpLmNvbW1vbi5MaXN0U2NyZWVuDQppbXBvcnQgb3JnLmxpbmJhb2d1LnJvbWh1Yi51aS5jb21tb24uU2VjdGlvbkxhYmVsDQppbXBvcnQgdG9wLnl1a29uZ2EubWl1aXgua21wLmJhc2ljLkNhcmQNCmltcG9ydCB0b3AueXVrb25nYS5taXVpeC5rbXAuYmFzaWMuSWNvbg0KaW1wb3J0IHRvcC55dWtvbmdhLm1pdWl4LmttcC5iYXNpYy5UZXh0DQppbXBvcnQgdG9wLnl1a29uZ2EubWl1aXgua21wLmljb24uTWl1aXhJY29ucw0KaW1wb3J0IHRvcC55dWtvbmdhLm1pdWl4LmttcC5pY29uLmV4dGVuZGVkLkNoZXZyb25Gb3J3YXJkDQppbXBvcnQgdG9wLnl1a29uZ2EubWl1aXgua21wLnRoZW1lLk1pdWl4VGhlbWUNCg0KLyoqDQogKiDjgIzlm7rku7bkuIvovb3jgI3nmoTnrKzkuIDlsYIg4oCU4oCUICoq5ZOB54mM6aG1KirjgIINCiAqDQogKiDnu5PmnoTvvIgyMDI2LTEwLTA3IOaMieeUqOaIt+imgeaxgumHjeaOku+8ie+8mg0KICogYGBgDQogKiDlm7rku7bkuIvovb0NCiAqICDilJzilIAg5bCP57Gz5LiT5Yy6ICAgICAgICDihpAg5Y6f5p2l44CM5Zu65Lu25LiL6L2944CN6YeM6YKj5aWX5py65Z6L5bqT77yI5pyN5Yqh56uv5pWw5o2u77yJDQogKiAg4pSc4pSAIOW3suaOpeWFpeWTgeeJjCAgICAgICDihpAgT1BQTyAvIOS4gOWKoCAvIOecn+aIkSAvIHZpdm8gLyBpUU9P77yI5pys5Zyw5pWw5o2u5bGC77yJDQogKiAg4pSU4pSAIOWNs+WwhuaUr+aMgSAgICAgICAgIOKGkCDprYXml48gLyDnuqLprZQgLyDogZTmg7PvvIjmlbDmja7mupDmjqXlhaXkuK3vvIkNCiAqIGBgYA0KICog5q+P5Liq5ZOB54mM5YmN6Z2i6YO95pyJIFtCcmFuZExvZ29d77yI5ZOB54mM5Li76ImyICsg5a2X5qCH77yJ77yM5LiA55y86IO96K6k5Ye65piv6LCB44CCDQogKi8NCkBDb21wb3NhYmxlDQpmdW4gQnJhbmRQaWNrZXJTY3JlZW4oDQogICAgc3VidGl0bGU6IFN0cmluZyA9ICIiLA0KICAgIGJvdHRvbUlubmVyUGFkZGluZzogRHAgPSAwLmRwLA0KICAgIG9uUGljazogKEJyYW5kKSAtPiBVbml0LA0KICAgIG9uTm90UmVhZHk6IChTdHJpbmcpIC0+IFVuaXQsDQogICAgb25PcGVuWGlhb21pOiAoKSAtPiBVbml0LA0KKSB7DQogICAgdmFsIHJlYWR5ID0gQnJhbmRDYXRhbG9nLmFsbC5maWx0ZXIgew0KICAgICAgICBpdC5mYW1pbHkgIT0gQnJhbmRGYW1pbHkuWElBT01JICYmIGl0LmZhbWlseSAhPSBCcmFuZEZhbWlseS5PVEhFUg0KICAgIH0NCiAgICB2YWwgc29vbiA9IEJyYW5kQ2F0YWxvZy5hbGwuZmlsdGVyIHsgaXQuZmFtaWx5ID09IEJyYW5kRmFtaWx5Lk9USEVSIH0NCg0KICAgIExpc3RTY3JlZW4oDQogICAgICAgIHRpdGxlID0gIuWbuuS7tuS4i+i9vSIsDQogICAgICAgIHN1YnRpdGxlID0gc3VidGl0bGUsDQogICAgICAgIGxhcmdlVGl0bGUgPSAi6YCJ5oup5ZOB54mMIiwNCiAgICAgICAgYm90dG9tSW5uZXJQYWRkaW5nID0gYm90dG9tSW5uZXJQYWRkaW5nLA0KICAgICkgew0KICAgICAgICAvLyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0g5bCP57Gz5LiT5Yy6DQogICAgICAgIGl0ZW0geyBTZWN0aW9uTGFiZWwoIuWwj+exs+S4k+WMuiIpIH0NCiAgICAgICAgaXRlbSB7DQogICAgICAgICAgICB2YWwgeGlhb21pID0gQnJhbmRDYXRhbG9nLmJ5S2V5KCJ4aWFvbWkiKSA/OiBCcmFuZENhdGFsb2cuYWxsLmZpcnN0KCkNCiAgICAgICAgICAgIENhcmQoDQogICAgICAgICAgICAgICAgb25DbGljayA9IG9uT3BlblhpYW9taSwNCiAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyDQogICAgICAgICAgICAgICAgICAgIC5maWxsTWF4V2lkdGgoKQ0KICAgICAgICAgICAgICAgICAgICAucGFkZGluZyhob3Jpem9udGFsID0gMTIuZHAsIHZlcnRpY2FsID0gNC5kcCksDQogICAgICAgICAgICApIHsNCiAgICAgICAgICAgICAgICBSb3coDQogICAgICAgICAgICAgICAgICAgIE1vZGlmaWVyDQogICAgICAgICAgICAgICAgICAgICAgICAuZmlsbE1heFdpZHRoKCkNCiAgICAgICAgICAgICAgICAgICAgICAgIC5wYWRkaW5nKDE2LmRwKSwNCiAgICAgICAgICAgICAgICAgICAgdmVydGljYWxBbGlnbm1lbnQgPSBBbGlnbm1lbnQuQ2VudGVyVmVydGljYWxseSwNCiAgICAgICAgICAgICAgICApIHsNCiAgICAgICAgICAgICAgICAgICAgQnJhbmRMb2dvKHhpYW9taSwgc2l6ZSA9IDUwLmRwKQ0KICAgICAgICAgICAgICAgICAgICBDb2x1bW4oDQogICAgICAgICAgICAgICAgICAgICAgICBNb2RpZmllcg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIC53ZWlnaHQoMWYpDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgLnBhZGRpbmcoc3RhcnQgPSAxNC5kcCkNCiAgICAgICAgICAgICAgICAgICAgKSB7DQogICAgICAgICAgICAgICAgICAgICAgICBUZXh0KA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICLlsI/nsbMgLyBSZWRtaSIsDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgZm9udFNpemUgPSBNaXVpeFRoZW1lLnRleHRTdHlsZXMuYm9keTEuZm9udFNpemUsDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgZm9udFdlaWdodCA9IEZvbnRXZWlnaHQuTWVkaXVtLA0KICAgICAgICAgICAgICAgICAgICAgICAgKQ0KICAgICAgICAgICAgICAgICAgICAgICAgU3BhY2VyKE1vZGlmaWVyLmhlaWdodCgyLmRwKSkNCiAgICAgICAgICAgICAgICAgICAgICAgIFRleHQoDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgIk1JVUkgLyBIeXBlck9TIOWumOaWueWMhSDCtyDlkKvlhoXmtYsgLyBCZXRhIC8g56e75qSN5YyFIiwNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBmb250U2l6ZSA9IE1pdWl4VGhlbWUudGV4dFN0eWxlcy5mb290bm90ZTIuZm9udFNpemUsDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgY29sb3IgPSBNaXVpeFRoZW1lLmNvbG9yU2NoZW1lLm9uU3VyZmFjZVZhcmlhbnRTdW1tYXJ5LA0KICAgICAgICAgICAgICAgICAgICAgICAgKQ0KICAgICAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICAgICAgICAgIEljb24oDQogICAgICAgICAgICAgICAgICAgICAgICBNaXVpeEljb25zLkNoZXZyb25Gb3J3YXJkLA0KICAgICAgICAgICAgICAgICAgICAgICAgY29udGVudERlc2NyaXB0aW9uID0gbnVsbCwNCiAgICAgICAgICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIud2lkdGgoMTguZHApLA0KICAgICAgICAgICAgICAgICAgICApDQogICAgICAgICAgICAgICAgfQ0KICAgICAgICAgICAgfQ0KICAgICAgICB9DQoNCiAgICAgICAgLy8gLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tIOW3suaOpeWFpeWTgeeJjA0KICAgICAgICBpdGVtIHsgU2VjdGlvbkxhYmVsKCLlt7LmjqXlhaUgwrcg5YWo6YePIFJPTSDljIUiKSB9DQogICAgICAgIGl0ZW1zKHJlYWR5LnNpemUsIGtleSA9IHsgcmVhZHlbaXRdLmtleSB9KSB7IGkgLT4NCiAgICAgICAgICAgIEJyYW5kUm93KGJyYW5kID0gcmVhZHlbaV0sIHN1bW1hcnkgPSBmYW1pbHlMYWJlbChyZWFkeVtpXS5mYW1pbHkpKSB7DQogICAgICAgICAgICAgICAgb25QaWNrKHJlYWR5W2ldKQ0KICAgICAgICAgICAgfQ0KICAgICAgICB9DQoNCiAgICAgICAgLy8gLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tIOWNs+WwhuaUr+aMgQ0KICAgICAgICBpZiAoc29vbi5pc05vdEVtcHR5KCkpIHsNCiAgICAgICAgICAgIGl0ZW0geyBTZWN0aW9uTGFiZWwoIuWNs+WwhuaUr+aMgSIpIH0NCiAgICAgICAgICAgIGl0ZW1zKHNvb24uc2l6ZSwga2V5ID0geyBzb29uW2l0XS5rZXkgfSkgeyBpIC0+DQogICAgICAgICAgICAgICAgQnJhbmRSb3coYnJhbmQgPSBzb29uW2ldLCBzdW1tYXJ5ID0gIuaVsOaNrua6kOaOpeWFpeS4rSIsIGRpbSA9IHRydWUpIHsNCiAgICAgICAgICAgICAgICAgICAgb25Ob3RSZWFkeShzb29uW2ldLm5hbWVaaCkNCiAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICB9DQogICAgICAgIH0NCg0KICAgICAgICBpdGVtIHsNCiAgICAgICAgICAgIENvbHVtbihNb2RpZmllci5wYWRkaW5nKGhvcml6b250YWwgPSAxMi5kcCwgdmVydGljYWwgPSAxNi5kcCkpIHsNCiAgICAgICAgICAgICAgICBIaW50KA0KICAgICAgICAgICAgICAgICAgICAi5Zu65Lu25YyF5L2T56ev6YCa5bi4IDXigJMxMiBHQu+8jOivt+ehruS/neWtmOWCqOepuumXtOWFhei2s+OAglxuIiArDQogICAgICAgICAgICAgICAgICAgICAgICAi5LiL6L2955u06ZO+5p2l6Ieq5ZCE5ZOB54mM5a6Y5pa5IE9UQSDmjqXlj6PvvIzlpLHmlYjml7bkvJroh6rliqjmjaLmupDph43or5XjgIIiDQogICAgICAgICAgICAgICAgKQ0KICAgICAgICAgICAgfQ0KICAgICAgICB9DQogICAgfQ0KfQ0KDQovKiog5LiA6KGM5ZOB54mM77ya5ZOB54mM5qCH5Z2XICsg5ZCN5a2XICsg6K+05piOICsg566t5aS044CCICovDQpAQ29tcG9zYWJsZQ0KcHJpdmF0ZSBmdW4gQnJhbmRSb3coDQogICAgYnJhbmQ6IEJyYW5kLA0KICAgIHN1bW1hcnk6IFN0cmluZywNCiAgICBkaW06IEJvb2xlYW4gPSBmYWxzZSwNCiAgICBvbkNsaWNrOiAoKSAtPiBVbml0LA0KKSB7DQogICAgQ2FyZCgNCiAgICAgICAgb25DbGljayA9IG9uQ2xpY2ssDQogICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXINCiAgICAgICAgICAgIC5maWxsTWF4V2lkdGgoKQ0KICAgICAgICAgICAgLnBhZGRpbmcoaG9yaXpvbnRhbCA9IDEyLmRwLCB2ZXJ0aWNhbCA9IDQuZHApLA0KICAgICkgew0KICAgICAgICBSb3coDQogICAgICAgICAgICBNb2RpZmllcg0KICAgICAgICAgICAgICAgIC5maWxsTWF4V2lkdGgoKQ0KICAgICAgICAgICAgICAgIC5wYWRkaW5nKDE2LmRwKSwNCiAgICAgICAgICAgIHZlcnRpY2FsQWxpZ25tZW50ID0gQWxpZ25tZW50LkNlbnRlclZlcnRpY2FsbHksDQogICAgICAgICkgew0KICAgICAgICAgICAgQnJhbmRMb2dvKGJyYW5kLCBzaXplID0gNDYuZHAsIGRpbSA9IGRpbSkNCiAgICAgICAgICAgIENvbHVtbigNCiAgICAgICAgICAgICAgICBNb2RpZmllcg0KICAgICAgICAgICAgICAgICAgICAud2VpZ2h0KDFmKQ0KICAgICAgICAgICAgICAgICAgICAucGFkZGluZyhzdGFydCA9IDE0LmRwKQ0KICAgICAgICAgICAgKSB7DQogICAgICAgICAgICAgICAgVGV4dCgNCiAgICAgICAgICAgICAgICAgICAgYnJhbmQubmFtZVpoLA0KICAgICAgICAgICAgICAgICAgICBmb250U2l6ZSA9IE1pdWl4VGhlbWUudGV4dFN0eWxlcy5ib2R5MS5mb250U2l6ZSwNCiAgICAgICAgICAgICAgICAgICAgZm9udFdlaWdodCA9IEZvbnRXZWlnaHQuTWVkaXVtLA0KICAgICAgICAgICAgICAgICkNCiAgICAgICAgICAgICAgICBTcGFjZXIoTW9kaWZpZXIuaGVpZ2h0KDIuZHApKQ0KICAgICAgICAgICAgICAgIFRleHQoDQogICAgICAgICAgICAgICAgICAgIHN1bW1hcnksDQogICAgICAgICAgICAgICAgICAgIGZvbnRTaXplID0gTWl1aXhUaGVtZS50ZXh0U3R5bGVzLmZvb3Rub3RlMi5mb250U2l6ZSwNCiAgICAgICAgICAgICAgICAgICAgY29sb3IgPSBNaXVpeFRoZW1lLmNvbG9yU2NoZW1lLm9uU3VyZmFjZVZhcmlhbnRTdW1tYXJ5LA0KICAgICAgICAgICAgICAgICkNCiAgICAgICAgICAgIH0NCiAgICAgICAgICAgIEljb24oDQogICAgICAgICAgICAgICAgTWl1aXhJY29ucy5DaGV2cm9uRm9yd2FyZCwNCiAgICAgICAgICAgICAgICBjb250ZW50RGVzY3JpcHRpb24gPSBudWxsLA0KICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIud2lkdGgoMTguZHApLA0KICAgICAgICAgICAgKQ0KICAgICAgICB9DQogICAgfQ0KfQ0KDQpwcml2YXRlIGZ1biBmYW1pbHlMYWJlbChmOiBCcmFuZEZhbWlseSk6IFN0cmluZyA9IHdoZW4gKGYpIHsNCiAgICBCcmFuZEZhbWlseS5DT0xPUl9PUyAtPiAiQ29sb3JPUyDlrpjmlrnlhajph4/ljIUiDQogICAgQnJhbmRGYW1pbHkuT1JJR0lOX09TIC0+ICJPcmlnaW5PUyDlrpjmlrnlhajph4/ljIUiDQogICAgQnJhbmRGYW1pbHkuWElBT01JIC0+ICJNSVVJIC8gSHlwZXJPUyINCiAgICBCcmFuZEZhbWlseS5PVEhFUiAtPiAi5YW25LuWIg0KfQ0K
+package org.linbaogu.romhub.ui.screens
+
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.width
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.unit.Dp
+import androidx.compose.ui.unit.dp
+import org.linbaogu.romhub.data.brand.Brand
+import org.linbaogu.romhub.data.brand.BrandCatalog
+import org.linbaogu.romhub.data.brand.BrandFamily
+import org.linbaogu.romhub.ui.common.BrandLogo
+import org.linbaogu.romhub.ui.common.Hint
+import org.linbaogu.romhub.ui.common.ListScreen
+import org.linbaogu.romhub.ui.common.SectionLabel
+import top.yukonga.miuix.kmp.basic.Card
+import top.yukonga.miuix.kmp.basic.Icon
+import top.yukonga.miuix.kmp.basic.Text
+import top.yukonga.miuix.kmp.icon.MiuixIcons
+import top.yukonga.miuix.kmp.icon.extended.ChevronForward
+import top.yukonga.miuix.kmp.theme.MiuixTheme
+
+/**
+ * 「固件下载」的第一层 —— **品牌页**。
+ *
+ * 结构（2026-10-07 按用户要求重排）：
+ * ```
+ * 固件下载
+ *  ├─ 小米专区        ← 原来「固件下载」里那套机型库（服务端数据）
+ *  ├─ 已接入品牌       ← OPPO / 一加 / 真我 / vivo / iQOO（本地数据层）
+ *  └─ 即将支持         ← 魅族 / 红魔 / 联想（数据源接入中）
+ * ```
+ * 每个品牌前面都有 [BrandLogo]（品牌主色 + 字标），一眼能认出是谁。
+ */
+@Composable
+fun BrandPickerScreen(
+    subtitle: String = "",
+    bottomInnerPadding: Dp = 0.dp,
+    onPick: (Brand) -> Unit,
+    onNotReady: (String) -> Unit,
+    onOpenXiaomi: () -> Unit,
+) {
+    val ready = BrandCatalog.all.filter {
+        it.family != BrandFamily.XIAOMI && it.family != BrandFamily.OTHER
+    }
+    val soon = BrandCatalog.all.filter { it.family == BrandFamily.OTHER }
+
+    ListScreen(
+        title = "固件下载",
+        subtitle = subtitle,
+        largeTitle = "选择品牌",
+        bottomInnerPadding = bottomInnerPadding,
+    ) {
+        // ------------------------------------------------ 小米专区
+        item { SectionLabel("小米专区") }
+        item {
+            val xiaomi = BrandCatalog.byKey("xiaomi") ?: BrandCatalog.all.first()
+            Card(
+                onClick = onOpenXiaomi,
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(horizontal = 12.dp, vertical = 4.dp),
+            ) {
+                Row(
+                    Modifier
+                        .fillMaxWidth()
+                        .padding(16.dp),
+                    verticalAlignment = Alignment.CenterVertically,
+                ) {
+                    BrandLogo(xiaomi, size = 50.dp)
+                    Column(
+                        Modifier
+                            .weight(1f)
+                            .padding(start = 14.dp)
+                    ) {
+                        Text(
+                            "小米 / Redmi",
+                            fontSize = MiuixTheme.textStyles.body1.fontSize,
+                            fontWeight = FontWeight.Medium,
+                        )
+                        Spacer(Modifier.height(2.dp))
+                        Text(
+                            "MIUI / HyperOS 官方包 · 含内测 / Beta / 移植包",
+                            fontSize = MiuixTheme.textStyles.footnote2.fontSize,
+                            color = MiuixTheme.colorScheme.onSurfaceVariantSummary,
+                        )
+                    }
+                    Icon(
+                        MiuixIcons.ChevronForward,
+                        contentDescription = null,
+                        modifier = Modifier.width(18.dp),
+                    )
+                }
+            }
+        }
+
+        // ------------------------------------------------ 已接入品牌
+        item { SectionLabel("已接入 · 全量 ROM 包") }
+        items(ready.size, key = { ready[it].key }) { i ->
+            BrandRow(brand = ready[i], summary = familyLabel(ready[i].family)) {
+                onPick(ready[i])
+            }
+        }
+
+        // ------------------------------------------------ 即将支持
+        if (soon.isNotEmpty()) {
+            item { SectionLabel("即将支持") }
+            items(soon.size, key = { soon[it].key }) { i ->
+                BrandRow(brand = soon[i], summary = "数据源接入中", dim = true) {
+                    onNotReady(soon[i].nameZh)
+                }
+            }
+        }
+
+        item {
+            Column(Modifier.padding(horizontal = 12.dp, vertical = 16.dp)) {
+                Hint(
+                    "固件包体积通常 5–12 GB，请确保存储空间充足。\n" +
+                        "下载直链来自各品牌官方 OTA 接口，失效时会自动换源重试。"
+                )
+            }
+        }
+    }
+}
+
+/** 一行品牌：品牌标块 + 名字 + 说明 + 箭头。 */
+@Composable
+private fun BrandRow(
+    brand: Brand,
+    summary: String,
+    dim: Boolean = false,
+    onClick: () -> Unit,
+) {
+    Card(
+        onClick = onClick,
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(horizontal = 12.dp, vertical = 4.dp),
+    ) {
+        Row(
+            Modifier
+                .fillMaxWidth()
+                .padding(16.dp),
+            verticalAlignment = Alignment.CenterVertically,
+        ) {
+            BrandLogo(brand, size = 46.dp, dim = dim)
+            Column(
+                Modifier
+                    .weight(1f)
+                    .padding(start = 14.dp)
+            ) {
+                Text(
+                    brand.nameZh,
+                    fontSize = MiuixTheme.textStyles.body1.fontSize,
+                    fontWeight = FontWeight.Medium,
+                )
+                Spacer(Modifier.height(2.dp))
+                Text(
+                    summary,
+                    fontSize = MiuixTheme.textStyles.footnote2.fontSize,
+                    color = MiuixTheme.colorScheme.onSurfaceVariantSummary,
+                )
+            }
+            Icon(
+                MiuixIcons.ChevronForward,
+                contentDescription = null,
+                modifier = Modifier.width(18.dp),
+            )
+        }
+    }
+}
+
+private fun familyLabel(f: BrandFamily): String = when (f) {
+    BrandFamily.COLOR_OS -> "ColorOS 官方全量包"
+    BrandFamily.ORIGIN_OS -> "OriginOS 官方全量包"
+    BrandFamily.XIAOMI -> "MIUI / HyperOS"
+    BrandFamily.OTHER -> "其他"
+}

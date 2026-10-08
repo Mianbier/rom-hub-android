@@ -1,1 +1,7 @@
-cGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLmhjLnByb3Zpc2lvbjsKCmludGVyZmFjZSBJQW5pbUNhbGxiYWNrIHsKCiAgICB2b2lkIG9uQmFja0FuaW1TdGFydCgpOwogICAgdm9pZCBvbk5leHRBbWluU3RhcnQoKTsKfQo=
+package org.linbaogu.romhub.hc.provision;
+
+interface IAnimCallback {
+
+    void onBackAnimStart();
+    void onNextAminStart();
+}

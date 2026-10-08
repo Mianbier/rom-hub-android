@@ -1,1 +1,102 @@
-LyoKICogVGhpcyBmaWxlIGlzIHBhcnQgb2YgSHlwZXJDZWlsZXIuCgogKiBIeXBlckNlaWxlciBpcyBmcmVlIHNvZnR3YXJlOiB5b3UgY2FuIHJlZGlzdHJpYnV0ZSBpdCBhbmQvb3IgbW9kaWZ5CiAqIGl0IHVuZGVyIHRoZSB0ZXJtcyBvZiB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGFzCiAqIHB1Ymxpc2hlZCBieSB0aGUgRnJlZSBTb2Z0d2FyZSBGb3VuZGF0aW9uLCBlaXRoZXIgdmVyc2lvbiAzIG9mIHRoZQogKiBMaWNlbnNlLgoKICogVGhpcyBwcm9ncmFtIGlzIGRpc3RyaWJ1dGVkIGluIHRoZSBob3BlIHRoYXQgaXQgd2lsbCBiZSB1c2VmdWwsCiAqIGJ1dCBXSVRIT1VUIEFOWSBXQVJSQU5UWTsgd2l0aG91dCBldmVuIHRoZSBpbXBsaWVkIHdhcnJhbnR5IG9mCiAqIE1FUkNIQU5UQUJJTElUWSBvciBGSVRORVNTIEZPUiBBIFBBUlRJQ1VMQVIgUFVSUE9TRS4gIFNlZSB0aGUKICogR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGZvciBtb3JlIGRldGFpbHMuCgogKiBZb3Ugc2hvdWxkIGhhdmUgcmVjZWl2ZWQgYSBjb3B5IG9mIHRoZSBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UKICogYWxvbmcgd2l0aCB0aGlzIHByb2dyYW0uICBJZiBub3QsIHNlZSA8aHR0cHM6Ly93d3cuZ251Lm9yZy9saWNlbnNlcy8+LgoKICogQ29weXJpZ2h0IChDKSAyMDIzLTIwMjYgSHlwZXJDZWlsZXIgQ29udHJpYnV0aW9ucwogKi8KcGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLmhjLnByb3Zpc2lvbi5zZXJ2aWNlOwoKaW1wb3J0IGFuZHJvaWQuYXBwLlNlcnZpY2U7CmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuSW50ZW50OwppbXBvcnQgYW5kcm9pZC5vcy5JQmluZGVyOwppbXBvcnQgYW5kcm9pZC5vcy5SZW1vdGVDYWxsYmFja0xpc3Q7CmltcG9ydCBhbmRyb2lkLm9zLlJlbW90ZUV4Y2VwdGlvbjsKaW1wb3J0IGFuZHJvaWQudXRpbC5Mb2c7CgppbXBvcnQgYW5kcm9pZHguYW5ub3RhdGlvbi5OdWxsYWJsZTsKCmltcG9ydCBvcmcubGluYmFvZ3Uucm9taHViLmhjLnByb3Zpc2lvbi5JQW5pbUNhbGxiYWNrOwppbXBvcnQgb3JnLmxpbmJhb2d1LnJvbWh1Yi5oYy5wcm92aXNpb24uSVByb3Zpc2lvbkFuaW07CgppbXBvcnQgamF2YS51dGlsLkhhc2hNYXA7CgpwdWJsaWMgY2xhc3MgUHJvdmlzaW9uQW5pbVNlcnZpY2UgZXh0ZW5kcyBTZXJ2aWNlIHsKCiAgICBwcml2YXRlIHN0YXRpYyBmaW5hbCBTdHJpbmcgVEFHID0gIlByb3Zpc2lvbkFuaW1TZXJ2aWNlIjsKICAgIHB1YmxpYyBzdGF0aWMgSGFzaE1hcDxTdHJpbmcsIEludGVnZXI+IEZBU1RfQU5JTV9NQVAgPSBuZXcgSGFzaE1hcDw+KCk7CiAgICBJUHJvdmlzaW9uQW5pbS5TdHViIG1Qcm92aXNpb25BbmltU3R1YiA9IG5ldyBJUHJvdmlzaW9uQW5pbS5TdHViKCkgewoKICAgICAgICBwcml2YXRlIGZpbmFsIFJlbW90ZUNhbGxiYWNrTGlzdDxJQW5pbUNhbGxiYWNrPiBtTGlzdGVuZXJzID0gbmV3IFJlbW90ZUNhbGxiYWNrTGlzdDw+KCk7CgogICAgICAgIHByaXZhdGUgdm9pZCBkaXNwYXRjaFZpZGVvUGxheShib29sZWFuIGlzQmFja0FuaW0pIHsKICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIGludCBicm9hZGNhc3QgPSBtTGlzdGVuZXJzLmJlZ2luQnJvYWRjYXN0KCk7CiAgICAgICAgICAgICAgICBmb3IgKGludCBpID0gMDsgaSA8IGJyb2FkY2FzdDsgaSsrKSB7CiAgICAgICAgICAgICAgICAgICAgSUFuaW1DYWxsYmFjayBjYWxsYmFjayA9IG1MaXN0ZW5lcnMuZ2V0QnJvYWRjYXN0SXRlbShpKTsKICAgICAgICAgICAgICAgICAgICBpZiAoaXNCYWNrQW5pbSkgewogICAgICAgICAgICAgICAgICAgICAgICBjYWxsYmFjay5vbkJhY2tBbmltU3RhcnQoKTsKICAgICAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgICAgICBjYWxsYmFjay5vbk5leHRBbWluU3RhcnQoKTsKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBtTGlzdGVuZXJzLmZpbmlzaEJyb2FkY2FzdCgpOwogICAgICAgICAgICB9IGNhdGNoIChSZW1vdGVFeGNlcHRpb24gZSkgewogICAgICAgICAgICAgICAgTG9nLmUoVEFHLCAiQ2FuIG5vdCBjYWxsIElBbmltQ2FsbGJhY2s6IiwgZSk7CiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIEBPdmVycmlkZQogICAgICAgIHB1YmxpYyBJQmluZGVyIGFzQmluZGVyKCkgewogICAgICAgICAgICBMb2cuZChUQUcsICJzdHViIGFzQmluZGVyIG5vIGFuaW0iKTsKICAgICAgICAgICAgcmV0dXJuIHN1cGVyLmFzQmluZGVyKCk7CiAgICAgICAgfQoKICAgICAgICBAT3ZlcnJpZGUKICAgICAgICBwdWJsaWMgYm9vbGVhbiBpc0FuaW1FbmQoKSB0aHJvd3MgUmVtb3RlRXhjZXB0aW9uIHsKICAgICAgICAgICAgcmV0dXJuIHRydWU7CiAgICAgICAgfQoKICAgICAgICBAT3ZlcnJpZGUKICAgICAgICBwdWJsaWMgdm9pZCBwbGF5QmFja0FuaW0oaW50IGkpIHRocm93cyBSZW1vdGVFeGNlcHRpb24gewogICAgICAgICAgICBkaXNwYXRjaFZpZGVvUGxheSh0cnVlKTsKICAgICAgICB9CgogICAgICAgIEBPdmVycmlkZQogICAgICAgIHB1YmxpYyB2b2lkIHBsYXlOZXh0QW5pbShpbnQgaSkgdGhyb3dzIFJlbW90ZUV4Y2VwdGlvbiB7CiAgICAgICAgICAgIExvZy5pKFRBRywgIiB3aXRob3V0IGFpbSBwbGF5TmV4dEFuaW0iKTsKICAgICAgICAgICAgZGlzcGF0Y2hWaWRlb1BsYXkoZmFsc2UpOwogICAgICAgIH0KCiAgICAgICAgQE92ZXJyaWRlCiAgICAgICAgcHVibGljIHZvaWQgcmVnaXN0ZXJSZW1vdGVDYWxsYmFjayhJQW5pbUNhbGxiYWNrIGNhbGxiYWNrKSB0aHJvd3MgUmVtb3RlRXhjZXB0aW9uIHsKICAgICAgICAgICAgaWYgKGNhbGxiYWNrICE9IG51bGwpIHsKICAgICAgICAgICAgICAgIG1MaXN0ZW5lcnMucmVnaXN0ZXIoY2FsbGJhY2spOwogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICBAT3ZlcnJpZGUKICAgICAgICBwdWJsaWMgdm9pZCB1bnJlZ2lzdGVyUmVtb3RlQ2FsbGJhY2soSUFuaW1DYWxsYmFjayBjYWxsYmFjaykgdGhyb3dzIFJlbW90ZUV4Y2VwdGlvbiB7CiAgICAgICAgICAgIGlmIChjYWxsYmFjayAhPSBudWxsKSB7CiAgICAgICAgICAgICAgICBtTGlzdGVuZXJzLnVucmVnaXN0ZXIoY2FsbGJhY2spOwogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfTsKCiAgICBATnVsbGFibGUKICAgIEBPdmVycmlkZQogICAgcHVibGljIElCaW5kZXIgb25CaW5kKEludGVudCBpbnRlbnQpIHsKICAgICAgICByZXR1cm4gbVByb3Zpc2lvbkFuaW1TdHViLmFzQmluZGVyKCk7CiAgICB9Cn0K
+/*
+ * This file is part of HyperCeiler.
+
+ * HyperCeiler is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as
+ * published by the Free Software Foundation, either version 3 of the
+ * License.
+
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Affero General Public License for more details.
+
+ * You should have received a copy of the GNU Affero General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+ * Copyright (C) 2023-2026 HyperCeiler Contributions
+ */
+package org.linbaogu.romhub.hc.provision.service;
+
+import android.app.Service;
+import android.content.Intent;
+import android.os.IBinder;
+import android.os.RemoteCallbackList;
+import android.os.RemoteException;
+import android.util.Log;
+
+import androidx.annotation.Nullable;
+
+import org.linbaogu.romhub.hc.provision.IAnimCallback;
+import org.linbaogu.romhub.hc.provision.IProvisionAnim;
+
+import java.util.HashMap;
+
+public class ProvisionAnimService extends Service {
+
+    private static final String TAG = "ProvisionAnimService";
+    public static HashMap<String, Integer> FAST_ANIM_MAP = new HashMap<>();
+    IProvisionAnim.Stub mProvisionAnimStub = new IProvisionAnim.Stub() {
+
+        private final RemoteCallbackList<IAnimCallback> mListeners = new RemoteCallbackList<>();
+
+        private void dispatchVideoPlay(boolean isBackAnim) {
+            try {
+                int broadcast = mListeners.beginBroadcast();
+                for (int i = 0; i < broadcast; i++) {
+                    IAnimCallback callback = mListeners.getBroadcastItem(i);
+                    if (isBackAnim) {
+                        callback.onBackAnimStart();
+                    } else {
+                        callback.onNextAminStart();
+                    }
+                }
+                mListeners.finishBroadcast();
+            } catch (RemoteException e) {
+                Log.e(TAG, "Can not call IAnimCallback:", e);
+            }
+        }
+
+        @Override
+        public IBinder asBinder() {
+            Log.d(TAG, "stub asBinder no anim");
+            return super.asBinder();
+        }
+
+        @Override
+        public boolean isAnimEnd() throws RemoteException {
+            return true;
+        }
+
+        @Override
+        public void playBackAnim(int i) throws RemoteException {
+            dispatchVideoPlay(true);
+        }
+
+        @Override
+        public void playNextAnim(int i) throws RemoteException {
+            Log.i(TAG, " without aim playNextAnim");
+            dispatchVideoPlay(false);
+        }
+
+        @Override
+        public void registerRemoteCallback(IAnimCallback callback) throws RemoteException {
+            if (callback != null) {
+                mListeners.register(callback);
+            }
+        }
+
+        @Override
+        public void unregisterRemoteCallback(IAnimCallback callback) throws RemoteException {
+            if (callback != null) {
+                mListeners.unregister(callback);
+            }
+        }
+    };
+
+    @Nullable
+    @Override
+    public IBinder onBind(Intent intent) {
+        return mProvisionAnimStub.asBinder();
+    }
+}

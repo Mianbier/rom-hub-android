@@ -1,1 +1,79 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0NCiAgfiBUaGlzIGZpbGUgaXMgcGFydCBvZiBIeXBlckNlaWxlci4NCiAgfg0KICB+IEh5cGVyQ2VpbGVyIGlzIGZyZWUgc29mdHdhcmU6IHlvdSBjYW4gcmVkaXN0cmlidXRlIGl0IGFuZC9vciBtb2RpZnkNCiAgfiBpdCB1bmRlciB0aGUgdGVybXMgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBhcw0KICB+IHB1Ymxpc2hlZCBieSB0aGUgRnJlZSBTb2Z0d2FyZSBGb3VuZGF0aW9uLCBlaXRoZXIgdmVyc2lvbiAzIG9mIHRoZQ0KICB+IExpY2Vuc2UuDQogIH4NCiAgfiBUaGlzIHByb2dyYW0gaXMgZGlzdHJpYnV0ZWQgaW4gdGhlIGhvcGUgdGhhdCBpdCB3aWxsIGJlIHVzZWZ1bCwNCiAgfiBidXQgV0lUSE9VVCBBTlkgV0FSUkFOVFk7IHdpdGhvdXQgZXZlbiB0aGUgaW1wbGllZCB3YXJyYW50eSBvZg0KICB+IE1FUkNIQU5UQUJJTElUWSBvciBGSVRORVNTIEZPUiBBIFBBUlRJQ1VMQVIgUFVSUE9TRS4gIFNlZSB0aGUNCiAgfiBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UgZm9yIG1vcmUgZGV0YWlscy4NCiAgfg0KICB+IFlvdSBzaG91bGQgaGF2ZSByZWNlaXZlZCBhIGNvcHkgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZQ0KICB+IGFsb25nIHdpdGggdGhpcyBwcm9ncmFtLiAgSWYgbm90LCBzZWUgPGh0dHBzOi8vd3d3LmdudS5vcmcvbGljZW5zZXMvPi4NCiAgfg0KICB+IENvcHlyaWdodCAoQykgMjAyMy0yMDI2IEh5cGVyUm9taHViIENvbnRyaWJ1dGlvbnMNCiAgLS0+DQo8cmVzb3VyY2VzPg0KICAgIDxkaW1lbiBuYW1lPSJoZWFkZXJfaWNvbl9zaXplIj4zMGRwPC9kaW1lbj4NCg0KICAgIDxkaW1lbiBuYW1lPSJtYWdpY19weF81MCI+MTguMTc5OTkzZHA8L2RpbWVuPg0KICAgIDxkaW1lbiBuYW1lPSJtYWdpY19weF8xMDAiPjM2Ljc1OTk4ZHA8L2RpbWVuPg0KICAgIDxkaW1lbiBuYW1lPSJtYWdpY19zZWVrX2Jhcl9idWJibGVfc2hhcGVfYmdfc29saWRfcmFkaXVzIj42NS40NDk5OGRwPC9kaW1lbj4NCiAgICA8ZGltZW4gbmFtZT0ibWFnaWNfYnViYmxlX3NlZWtfYmFyX3NsaWRlcl90b19maWxsX2dhcF9oaWdobGlnaHQiPjMuNWRwPC9kaW1lbj4NCiAgICA8ZGltZW4gbmFtZT0ibWFnaWNfYnViYmxlX3NlZWtfYmFyX3NsaWRlcl90b19maWxsX2dhcF9ub3JtYWwiPjIuMTc5OTkyN2RwPC9kaW1lbj4NCg0KICAgIDxkaW1lbiBuYW1lPSJtYWdpY190ZXh0X3NpemVfNTAiPjE4LjE3OTk5M2RwPC9kaW1lbj4NCg0KICAgIDxkaW1lbiBuYW1lPSJwcmVmZXJlbmNlX2l0ZW1fY2hpbGRfcGFkZGluZyI+MjVkcDwvZGltZW4+DQoNCiAgICA8ZGltZW4gbmFtZT0icHJlZmVyZW5jZV9tYXJnaW5fdmVydGljYWwiPjE1ZHA8L2RpbWVuPg0KICAgIDxkaW1lbiBuYW1lPSJwcmVmZXJlbmNlX2JvcmRlcl9wYWRkaW5nX2luc2lkZSI+NWRwPC9kaW1lbj4NCiAgICA8ZGltZW4gbmFtZT0icHJlZmVyZW5jZV9jaGVja2JveF90aXRsZV90ZXh0X3NpemUiPjE1LjI3MjY3NXNwPC9kaW1lbj4NCiAgICA8ZGltZW4gbmFtZT0icHJlZmVyZW5jZV9jaGVja2JveF90aXRsZV9tYXJnaW5fdG9wIj43LjI3MjY3NDZkcDwvZGltZW4+DQogICAgPGRpbWVuIG5hbWU9InByZWZlcmVuY2VfY2hlY2tib3hfdGV4dF9tYXhfd2lkdGgiPjEwMGRwPC9kaW1lbj4NCiAgICA8ZGltZW4gbmFtZT0icHJlZmVyZW5jZV9jaGVja2JveF90aXRsZV9saW5lX2hlaWdodCI+MjAuMzYzNTg2c3A8L2RpbWVuPg0KDQogICAgPGRpbWVuIG5hbWU9InByZWZlcmVuY2VfY2hlY2tib3hfZGVzY190ZXh0X3NpemUiPjEyLjA5MDg4MXNwPC9kaW1lbj4NCiAgICA8ZGltZW4gbmFtZT0icHJlZmVyZW5jZV9jaGVja2JveF9kZXNjX21hcmdpbl90b3AiPjIuOTA4OTk2NmRwPC9kaW1lbj4NCiAgICA8ZGltZW4gbmFtZT0icHJlZmVyZW5jZV9jaGVja2JveF9kZXNjX2xpbmVfaGVpZ2h0Ij4xNy40NTQ0OThzcDwvZGltZW4+DQoNCiAgICA8IS0tIERlZmF1bHQgc2NyZWVuIG1hcmdpbnMsIHBlciB0aGUgQW5kcm9pZCBEZXNpZ24gZ3VpZGVsaW5lcy4gLS0+DQogICAgPGRpbWVuIG5hbWU9Im1pdWl4X2FwcGNvbXBhdF9zZWFyY2hiYXJfcmVzdWx0X21hcmdpbl90b3AiPjU0ZHA8L2RpbWVuPg0KICAgIDxkaW1lbiBuYW1lPSJwcmVmZXJlbmNlX3JlY29tbWVuZF9yYWRpdXMiPjE2ZHA8L2RpbWVuPg0KICAgIDxkaW1lbiBuYW1lPSJwcmVmZXJlbmNlX3JlY29tbWVuZF9yZWdpb25fbWFyZ2luIj4xMmRwPC9kaW1lbj4NCiAgICA8ZGltZW4gbmFtZT0icHJlZmVyZW5jZV9yZWNvbW1lbmRfcmVnaW9uX3BhZGRpbmdfYm90dG9tIj40ZHA8L2RpbWVuPg0KICAgIDxkaW1lbiBuYW1lPSJwcmVmZXJlbmNlX3JlY29tbWVuZF90aXRsZV9tYXJnaW5fdG9wIj4yMi41NDk5ODhkcDwvZGltZW4+DQogICAgPGRpbWVuIG5hbWU9InByZWZlcmVuY2VfcmVjb21tZW5kX3RpdGxlX21hcmdpbl9ib3R0b20iPjEyLjM1OTk4NWRwPC9kaW1lbj4NCiAgICA8ZGltZW4gbmFtZT0icHJlZmVyZW5jZV9yZWNvbW1lbmRfdGl0bGVfbWFyZ2luX2hvcml6b250YWwiPjIxLjgxOTk3N2RwPC9kaW1lbj4NCg0KICAgIDxkaW1lbiBuYW1lPSJwcmVmZXJlbmNlX3JlY29tbWVuZF9pdGVtX21hcmdpbl9ob3Jpem9udGFsIj4xNmRwPC9kaW1lbj4NCiAgICA8ZGltZW4gbmFtZT0icHJlZmVyZW5jZV9yZWNvbW1lbmRfaXRlbV9tYXJnaW5fdmVydGljYWwiPjEwLjE3OTk5M2RwPC9kaW1lbj4NCg0KICAgIDxkaW1lbiBuYW1lPSJkaXZpZGVyX21hcmdpbl90b3AiPjIxLjgxOTk3N2RwPC9kaW1lbj4NCiAgICA8ZGltZW4gbmFtZT0iZGl2aWRlcl9tYXJnaW5fYm90dG9tIj4yMS44MTk5NzdkcDwvZGltZW4+DQoNCiAgICA8ZGltZW4gbmFtZT0iY2FyZF90aWxlX2JhY2tncm91bmRfcmFkaXVzIj4yMGRwPC9kaW1lbj4NCiAgICA8ZGltZW4gbmFtZT0iY2FyZF90aWxlX2l0ZW1fZWRpdF9tYXJnaW4iPjMuNjY5OTgzZHA8L2RpbWVuPg0KICAgIDxkaW1lbiBuYW1lPSJjYXJkX3RpbGVfaXRlbV9lZGl0X21hcmtfc2l6ZSI+MjZkcDwvZGltZW4+DQoNCiAgICA8ZGltZW4gbmFtZT0iaXRlbV9jYXJkX3RpbGVfaWNvbl9zaXplIj42OGRwPC9kaW1lbj4NCg0KDQoNCiAgICA8ZGltZW4gbmFtZT0ibXlfY2FyZF9zaGFkb3dfZHgiPjBkcDwvZGltZW4+DQogICAgPGRpbWVuIG5hbWU9Im15X2NhcmRfc2hhZG93X2R5Ij4yMGRwPC9kaW1lbj4NCiAgICA8ZGltZW4gbmFtZT0ibXlfY2FyZF9zaGFkb3dfcmFkaXVzIj40MGRwPC9kaW1lbj4NCg0KICAgIDxkaW1lbiBuYW1lPSJhYm91dF9jb3B5X3JpZ2h0X3BhZGRpbmdfZWRnZSI+MjhkcDwvZGltZW4+DQoNCiAgICA8ZGltZW4gbmFtZT0icHJlZmVyZW5jZV9pdGVtX3BhZGRpbmciPjE2ZHA8L2RpbWVuPg0KDQogICAgPGRpbWVuIG5hbWU9Im1pdWl4X3ByZWZlcmVuY2VfY2hlY2thYmxlX2l0ZW1fYmdfcGFkZGluZ19lbmQiPkBkaW1lbi9taXVpeF90aGVtZV9wYWRkaW5nX2hvcml6b250YWxfY29tbW9uPC9kaW1lbj4NCiAgICA8ZGltZW4gbmFtZT0ibWl1aXhfcHJlZmVyZW5jZV9jaGVja2FibGVfaXRlbV9tYXNrX3BhZGRpbmdfc3RhcnQiPkBkaW1lbi9taXVpeF90aGVtZV9wYWRkaW5nX2hvcml6b250YWxfY29tbW9uPC9kaW1lbj4NCg0KICAgIDxkaW1lbiBuYW1lPSJzZWFyY2hfYmFyX21hcmdpbl9ob3Jpem9udGFsIj4wZHA8L2RpbWVuPg0KPC9yZXNvdXJjZXM+DQo=
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ This file is part of HyperCeiler.
+  ~
+  ~ HyperCeiler is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU Affero General Public License as
+  ~ published by the Free Software Foundation, either version 3 of the
+  ~ License.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU Affero General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU Affero General Public License
+  ~ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+  ~
+  ~ Copyright (C) 2023-2026 HyperRomhub Contributions
+  -->
+<resources>
+    <dimen name="header_icon_size">30dp</dimen>
+
+    <dimen name="magic_px_50">18.179993dp</dimen>
+    <dimen name="magic_px_100">36.75998dp</dimen>
+    <dimen name="magic_seek_bar_bubble_shape_bg_solid_radius">65.44998dp</dimen>
+    <dimen name="magic_bubble_seek_bar_slider_to_fill_gap_highlight">3.5dp</dimen>
+    <dimen name="magic_bubble_seek_bar_slider_to_fill_gap_normal">2.1799927dp</dimen>
+
+    <dimen name="magic_text_size_50">18.179993dp</dimen>
+
+    <dimen name="preference_item_child_padding">25dp</dimen>
+
+    <dimen name="preference_margin_vertical">15dp</dimen>
+    <dimen name="preference_border_padding_inside">5dp</dimen>
+    <dimen name="preference_checkbox_title_text_size">15.272675sp</dimen>
+    <dimen name="preference_checkbox_title_margin_top">7.2726746dp</dimen>
+    <dimen name="preference_checkbox_text_max_width">100dp</dimen>
+    <dimen name="preference_checkbox_title_line_height">20.363586sp</dimen>
+
+    <dimen name="preference_checkbox_desc_text_size">12.090881sp</dimen>
+    <dimen name="preference_checkbox_desc_margin_top">2.9089966dp</dimen>
+    <dimen name="preference_checkbox_desc_line_height">17.454498sp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="miuix_appcompat_searchbar_result_margin_top">54dp</dimen>
+    <dimen name="preference_recommend_radius">16dp</dimen>
+    <dimen name="preference_recommend_region_margin">12dp</dimen>
+    <dimen name="preference_recommend_region_padding_bottom">4dp</dimen>
+    <dimen name="preference_recommend_title_margin_top">22.549988dp</dimen>
+    <dimen name="preference_recommend_title_margin_bottom">12.359985dp</dimen>
+    <dimen name="preference_recommend_title_margin_horizontal">21.819977dp</dimen>
+
+    <dimen name="preference_recommend_item_margin_horizontal">16dp</dimen>
+    <dimen name="preference_recommend_item_margin_vertical">10.179993dp</dimen>
+
+    <dimen name="divider_margin_top">21.819977dp</dimen>
+    <dimen name="divider_margin_bottom">21.819977dp</dimen>
+
+    <dimen name="card_tile_background_radius">20dp</dimen>
+    <dimen name="card_tile_item_edit_margin">3.669983dp</dimen>
+    <dimen name="card_tile_item_edit_mark_size">26dp</dimen>
+
+    <dimen name="item_card_tile_icon_size">68dp</dimen>
+
+
+
+    <dimen name="my_card_shadow_dx">0dp</dimen>
+    <dimen name="my_card_shadow_dy">20dp</dimen>
+    <dimen name="my_card_shadow_radius">40dp</dimen>
+
+    <dimen name="about_copy_right_padding_edge">28dp</dimen>
+
+    <dimen name="preference_item_padding">16dp</dimen>
+
+    <dimen name="miuix_preference_checkable_item_bg_padding_end">@dimen/miuix_theme_padding_horizontal_common</dimen>
+    <dimen name="miuix_preference_checkable_item_mask_padding_start">@dimen/miuix_theme_padding_horizontal_common</dimen>
+
+    <dimen name="search_bar_margin_horizontal">0dp</dimen>
+</resources>

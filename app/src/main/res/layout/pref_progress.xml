@@ -1,1 +1,12 @@
-PExpbmVhckxheW91dCB4bWxuczphbmRyb2lkPSJodHRwOi8vc2NoZW1hcy5hbmRyb2lkLmNvbS9hcGsvcmVzL2FuZHJvaWQiCiAgICBhbmRyb2lkOm9yaWVudGF0aW9uPSJ2ZXJ0aWNhbCIKICAgIGFuZHJvaWQ6bGF5b3V0X3dpZHRoPSJtYXRjaF9wYXJlbnQiCiAgICBhbmRyb2lkOmxheW91dF9oZWlnaHQ9Im1hdGNoX3BhcmVudCIKICAgIGFuZHJvaWQ6Z3Jhdml0eT0iY2VudGVyIj4KCiAgICA8ZmFuLmFuZHJvaWRiYXNlLndpZGdldC5Qcm9ncmVzc0JhcgogICAgICAgIGFuZHJvaWQ6aWQ9IkAraWQvcHJvZ3Jlc3NfYmFyIgogICAgICAgIGFuZHJvaWQ6bGF5b3V0X3dpZHRoPSJ3cmFwX2NvbnRlbnQiCiAgICAgICAgYW5kcm9pZDpsYXlvdXRfaGVpZ2h0PSJ3cmFwX2NvbnRlbnQiCiAgICAgICAgc3R5bGU9IkBzdHlsZS9XaWRnZXQuUHJvZ3Jlc3NCYXIuRGF5TmlnaHQiLz4KPC9MaW5lYXJMYXlvdXQ+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <fan.androidbase.widget.ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Widget.ProgressBar.DayNight"/>
+</LinearLayout>

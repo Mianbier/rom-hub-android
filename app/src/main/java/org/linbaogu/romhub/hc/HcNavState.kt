@@ -1,1 +1,72 @@
-LyoKICogVGhpcyBmaWxlIGlzIHBhcnQgb2YgUk9NIEh1YiwgcmVsZWFzZWQgdW5kZXIgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSB2My4wLgogKgogKiDmnKzmlofku7bnp7vmpI0gLyDmlLnlhpnoh6ogSHlwZXJDZWlsZXLvvIhBR1BMLTMuMO+8jENvcHlyaWdodCAoQykgMjAyMy0yMDI2IEh5cGVyQ2VpbGVyCiAqIENvbnRyaWJ1dGlvbnPvvInvvIzmiJbkuLrlhbbnrYnku7fmm7/ouqvlrp7njrAg4oCU4oCUIOWujOaVtOadpea6kOS4jum4o+iwouingemhueebruagueebruW9lSBOT1RJQ0UubWTjgIIKICoKICogVGhpcyBwcm9ncmFtIGlzIGZyZWUgc29mdHdhcmU6IHlvdSBjYW4gcmVkaXN0cmlidXRlIGl0IGFuZC9vciBtb2RpZnkgaXQgdW5kZXIgdGhlIHRlcm1zCiAqIG9mIHRoZSBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UgYXMgcHVibGlzaGVkIGJ5IHRoZSBGcmVlIFNvZnR3YXJlIEZvdW5kYXRpb24sCiAqIGVpdGhlciB2ZXJzaW9uIDMgb2YgdGhlIExpY2Vuc2UuCiAqCiAqIFRoaXMgcHJvZ3JhbSBpcyBkaXN0cmlidXRlZCBpbiB0aGUgaG9wZSB0aGF0IGl0IHdpbGwgYmUgdXNlZnVsLCBidXQgV0lUSE9VVCBBTlkgV0FSUkFOVFk7CiAqIHdpdGhvdXQgZXZlbiB0aGUgaW1wbGllZCB3YXJyYW50eSBvZiBNRVJDSEFOVEFCSUxJVFkgb3IgRklUTkVTUyBGT1IgQSBQQVJUSUNVTEFSIFBVUlBPU0UuCiAqIFNlZSB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGZvciBtb3JlIGRldGFpbHMuCiAqCiAqIFlvdSBzaG91bGQgaGF2ZSByZWNlaXZlZCBhIGNvcHkgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBhbG9uZyB3aXRoIHRoaXMKICogcHJvZ3JhbS4gIElmIG5vdCwgc2VlIDxodHRwczovL3d3dy5nbnUub3JnL2xpY2Vuc2VzLz4uCiAqLwoKcGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLmhjCgppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5nZXRWYWx1ZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLm11dGFibGVTdGF0ZU9mCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuc2V0VmFsdWUKaW1wb3J0IG9yZy5saW5iYW9ndS5yb21odWIuY29yZS5QcmVmcwoKLyoqCiAqIOW6lemDqOWvvOiIquagj+W8gOWFs+eahCoq5Y+v6KeC5a+f54q25oCBKirvvIhDb21wb3NlIOS4juiuvue9rumhteWFseeUqOS4gOS7ve+8ieOAggogKgogKiAjIyDlvIDlhbPpgLvovpHvvIgyMDI2LTEwLTA3IOeQhumhuu+8iQogKiB8IOaCrOa1ruW6leagjyB8IOiDtuWbiueOu+eSgyB8IOe7k+aenCB8CiAqIHwtLS18LS0tfC0tLXwKICogfCDlvIAgfCDlvIAgfCAqKua2suS9k+eOu+eSg+aCrOa1ruiDtuWbiioq77ya6IO95oqY5bCE5bqV5LiL55qE5YaF5a6577yM5bim5YaF6Zi05b2x5LiO5ruR5Yqo5oyH56S65Zmo77yI6buY6K6k77yJIHwKICogfCDlvIAgfCDlhbMgfCDnuq/oibLmgqzmta7og7blm4rvvJrlkIzmoLfnmoTlvaLnirbkuI7liqjmlYjvvIzkuI3lgZrmipjlsIQgfAogKiB8IOWFsyB8IOKAlCAgfCAqKui0tOWcsOagh+etvuagjyoq77ya5LiN5oKs5rWu44CB6LS05L2P5bGP5bmV5bqV6YOo77yM5bm255WZ5Ye657O757uf5omL5Yq/5p2h6auY5bqm77yM5LiN5Lya6YGu5oyh5YaF5a65IHwKICoKICog5Lul5YmN5piv5Lik5Liq5byA5YWz6K+t5LmJ6YeN5Y+g77yI44CM5oKs5rWu5bqV5qCP44CN5ZKM44CM5oKs5rWu6IO25ZuK5qC35byP44CN6YO96IO95YiH6IO25ZuKL+agh+etvu+8ie+8jAogKiDogIzkuJTlhbPmjonmgqzmta7kvJrlm57okL3liLDlj6bkuIDlpZcgQ29tcG9zZSDlupXmoI/vvIjnmb3mnaHpga7mjKHvvInjgILnjrDlnKjlj6rkv53nlZnjgIzmgqzmta4gb3Ig6LS05Zyw44CNCiAqIOi/meS4gOS4quS4u+W8gOWFsyArIOOAjOimgeS4jeimgeeOu+eSg+OAjei/meS4gOS4quWkluinguW8gOWFs+OAggogKi8Kb2JqZWN0IEhjTmF2U3RhdGUgewoKICAgIC8qKiDmgqzmta7lupXmoI/vvJrlvIAgPSDmgqzmta7og7blm4rvvJvlhbMgPSDotLTlnLDmoIfnrb7moI/jgIIgKi8KICAgIHZhciBlbmFibGVkIGJ5IG11dGFibGVTdGF0ZU9mKHRydWUpCiAgICAgICAgcHJpdmF0ZSBzZXQKCiAgICAvKioKICAgICAqIOaCrOa1ruiDtuWbiuimgeS4jeimgeeOu+eSg+OAguWFs+aOieWwseaYr+e6r+iJsuiDtuWbiuOAggogICAgICog77yI5a2X5q615ZCN5rK/55SoIFtzdHlsZV0g55qE5Y6G5Y+y5YC877yM6YG/5YWN6ICB6YWN572u6K+75LiN5Ye65p2l44CC77yJCiAgICAgKi8KICAgIHZhciBnbGFzcyBieSBtdXRhYmxlU3RhdGVPZih0cnVlKQogICAgICAgIHByaXZhdGUgc2V0CgogICAgLyoqIOWFvOWuueaXp+S7o+egge+8muaYr+WQpuiDtuWbiuOAgueOsOWcqOOAjOaCrOa1ruOAjeWwseetieS6juiDtuWbiuOAgiAqLwogICAgdmFsIGNhcHN1bGU6IEJvb2xlYW4gZ2V0KCkgPSBlbmFibGVkCgogICAgLyoqIOS7jiBQcmVmcyDor7vkuIDmrKHvvIhBcHAg5ZCv5Yqo5pe26LCD55So77yJ44CCICovCiAgICBmdW4gbG9hZChjdHg6IENvbnRleHQpIHsKICAgICAgICBlbmFibGVkID0gUHJlZnMuaGNOYXZFbmFibGVkKGN0eCkKICAgICAgICBnbGFzcyA9IFByZWZzLmhjTmF2R2xhc3MoY3R4KQogICAgfQoKICAgIGZ1biBzZXRFbmFibGVkKGN0eDogQ29udGV4dCwgb246IEJvb2xlYW4pIHsKICAgICAgICBlbmFibGVkID0gb24KICAgICAgICBQcmVmcy5zZXRIY05hdkVuYWJsZWQoY3R4LCBvbikKICAgIH0KCiAgICBmdW4gc2V0R2xhc3MoY3R4OiBDb250ZXh0LCBvbjogQm9vbGVhbikgewogICAgICAgIGdsYXNzID0gb24KICAgICAgICBQcmVmcy5zZXRIY05hdkdsYXNzKGN0eCwgb24pCiAgICB9Cn0K
+/*
+ * This file is part of ROM Hub, released under the GNU Affero General Public License v3.0.
+ *
+ * 本文件移植 / 改写自 HyperCeiler（AGPL-3.0，Copyright (C) 2023-2026 HyperCeiler
+ * Contributions），或为其等价替身实现 —— 完整来源与鸣谢见项目根目录 NOTICE.md。
+ *
+ * This program is free software: you can redistribute it and/or modify it under the terms
+ * of the GNU Affero General Public License as published by the Free Software Foundation,
+ * either version 3 of the License.
+ *
+ * This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+ * without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * See the GNU Affero General Public License for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License along with this
+ * program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
+package org.linbaogu.romhub.hc
+
+import android.content.Context
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.setValue
+import org.linbaogu.romhub.core.Prefs
+
+/**
+ * 底部导航栏开关的**可观察状态**（Compose 与设置页共用一份）。
+ *
+ * ## 开关逻辑（2026-10-07 理顺）
+ * | 悬浮底栏 | 胶囊玻璃 | 结果 |
+ * |---|---|---|
+ * | 开 | 开 | **液体玻璃悬浮胶囊**：能折射底下的内容，带内阴影与滑动指示器（默认） |
+ * | 开 | 关 | 纯色悬浮胶囊：同样的形状与动效，不做折射 |
+ * | 关 | —  | **贴地标签栏**：不悬浮、贴住屏幕底部，并留出系统手势条高度，不会遮挡内容 |
+ *
+ * 以前是两个开关语义重叠（「悬浮底栏」和「悬浮胶囊样式」都能切胶囊/标签），
+ * 而且关掉悬浮会回落到另一套 Compose 底栏（白条遮挡）。现在只保留「悬浮 or 贴地」
+ * 这一个主开关 + 「要不要玻璃」这一个外观开关。
+ */
+object HcNavState {
+
+    /** 悬浮底栏：开 = 悬浮胶囊；关 = 贴地标签栏。 */
+    var enabled by mutableStateOf(true)
+        private set
+
+    /**
+     * 悬浮胶囊要不要玻璃。关掉就是纯色胶囊。
+     * （字段名沿用 [style] 的历史值，避免老配置读不出来。）
+     */
+    var glass by mutableStateOf(true)
+        private set
+
+    /** 兼容旧代码：是否胶囊。现在「悬浮」就等于胶囊。 */
+    val capsule: Boolean get() = enabled
+
+    /** 从 Prefs 读一次（App 启动时调用）。 */
+    fun load(ctx: Context) {
+        enabled = Prefs.hcNavEnabled(ctx)
+        glass = Prefs.hcNavGlass(ctx)
+    }
+
+    fun setEnabled(ctx: Context, on: Boolean) {
+        enabled = on
+        Prefs.setHcNavEnabled(ctx, on)
+    }
+
+    fun setGlass(ctx: Context, on: Boolean) {
+        glass = on
+        Prefs.setHcNavGlass(ctx, on)
+    }
+}

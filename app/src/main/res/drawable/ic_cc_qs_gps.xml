@@ -1,1 +1,35 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IS0tCiAgfiBUaGlzIGZpbGUgaXMgcGFydCBvZiBIeXBlckNlaWxlci4KICB+CiAgfiBIeXBlckNlaWxlciBpcyBmcmVlIHNvZnR3YXJlOiB5b3UgY2FuIHJlZGlzdHJpYnV0ZSBpdCBhbmQvb3IgbW9kaWZ5CiAgfiBpdCB1bmRlciB0aGUgdGVybXMgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBhcwogIH4gcHVibGlzaGVkIGJ5IHRoZSBGcmVlIFNvZnR3YXJlIEZvdW5kYXRpb24sIGVpdGhlciB2ZXJzaW9uIDMgb2YgdGhlCiAgfiBMaWNlbnNlLgogIH4KICB+IFRoaXMgcHJvZ3JhbSBpcyBkaXN0cmlidXRlZCBpbiB0aGUgaG9wZSB0aGF0IGl0IHdpbGwgYmUgdXNlZnVsLAogIH4gYnV0IFdJVEhPVVQgQU5ZIFdBUlJBTlRZOyB3aXRob3V0IGV2ZW4gdGhlIGltcGxpZWQgd2FycmFudHkgb2YKICB+IE1FUkNIQU5UQUJJTElUWSBvciBGSVRORVNTIEZPUiBBIFBBUlRJQ1VMQVIgUFVSUE9TRS4gIFNlZSB0aGUKICB+IEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBmb3IgbW9yZSBkZXRhaWxzLgogIH4KICB+IFlvdSBzaG91bGQgaGF2ZSByZWNlaXZlZCBhIGNvcHkgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZQogIH4gYWxvbmcgd2l0aCB0aGlzIHByb2dyYW0uICBJZiBub3QsIHNlZSA8aHR0cHM6Ly93d3cuZ251Lm9yZy9saWNlbnNlcy8+LgogIH4KICB+IENvcHlyaWdodCAoQykgMjAyMy0yMDI2IEh5cGVyQ2VpbGVyIENvbnRyaWJ1dGlvbnMKICAtLT4KPHZlY3RvciB4bWxuczphbmRyb2lkPSJodHRwOi8vc2NoZW1hcy5hbmRyb2lkLmNvbS9hcGsvcmVzL2FuZHJvaWQiCiAgICBhbmRyb2lkOmhlaWdodD0iMjA0ZHAiCiAgICBhbmRyb2lkOndpZHRoPSIyMDRkcCIKICAgIGFuZHJvaWQ6dmlld3BvcnRXaWR0aD0iMjA0IgogICAgYW5kcm9pZDp2aWV3cG9ydEhlaWdodD0iMjA0Ij4KICAgIDxncm91cAogICAgICAgIGFuZHJvaWQ6c2NhbGVYPSIzLjgiCiAgICAgICAgYW5kcm9pZDpzY2FsZVk9IjMuOCIKICAgICAgICBhbmRyb2lkOnRyYW5zbGF0ZVg9IjUwIgogICAgICAgIGFuZHJvaWQ6dHJhbnNsYXRlWT0iNTAiPgogICAgICAgIDxjbGlwLXBhdGggYW5kcm9pZDpwYXRoRGF0YT0iTTAsMGgyNnYyNmgtMjZ6IiAvPgogICAgICAgIDxwYXRoCiAgICAgICAgICAgIGFuZHJvaWQ6ZmlsbENvbG9yPSIjRkZGRkZGRkYiCiAgICAgICAgICAgIGFuZHJvaWQ6cGF0aERhdGE9Ik0xOS43NjQsNC4zODhDMjAuODIxLDMuOTQ0IDIxLjM1LDMuNzIyIDIxLjY3OCwzLjgyOEMyMS45NjMsMy45MjEgMjIuMTg2LDQuMTQ1IDIyLjI3Nyw0LjQzQzIyLjM4Miw0Ljc1OSAyMi4xNTgsNS4yODcgMjEuNzA5LDYuMzQyTDE1LjQyNywyMS4xMDhDMTQuODc2LDIyLjQwNSAxNC42LDIzLjA1MyAxNC4yNjEsMjMuMjAxQzEzLjk2OCwyMy4zMjkgMTMuNjMsMjMuMjk4IDEzLjM2NiwyMy4xMThDMTMuMDYsMjIuOTEgMTIuOTA5LDIyLjIyMiAxMi42MDYsMjAuODQ1TDExLjI4MywxNC44MjlMNS4wNDYsMTMuNTEyQzMuNjM5LDEzLjIxNSAyLjkzNiwxMy4wNjYgMi43MjUsMTIuNzZDMi41NDQsMTIuNDk1IDIuNTExLDEyLjE1NSAyLjY0LDExLjg2MUMyLjc4OSwxMS41MiAzLjQ1MiwxMS4yNDIgNC43NzcsMTAuNjg1TDE5Ljc2NCw0LjM4OFoiCiAgICAgICAgICAgIGFuZHJvaWQ6ZmlsbFR5cGU9ImV2ZW5PZGQiIC8+CiAgICA8L2dyb3VwPgo8L3ZlY3Rvcj4K
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ This file is part of HyperCeiler.
+  ~
+  ~ HyperCeiler is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU Affero General Public License as
+  ~ published by the Free Software Foundation, either version 3 of the
+  ~ License.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU Affero General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU Affero General Public License
+  ~ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+  ~
+  ~ Copyright (C) 2023-2026 HyperCeiler Contributions
+  -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="204dp"
+    android:width="204dp"
+    android:viewportWidth="204"
+    android:viewportHeight="204">
+    <group
+        android:scaleX="3.8"
+        android:scaleY="3.8"
+        android:translateX="50"
+        android:translateY="50">
+        <clip-path android:pathData="M0,0h26v26h-26z" />
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:pathData="M19.764,4.388C20.821,3.944 21.35,3.722 21.678,3.828C21.963,3.921 22.186,4.145 22.277,4.43C22.382,4.759 22.158,5.287 21.709,6.342L15.427,21.108C14.876,22.405 14.6,23.053 14.261,23.201C13.968,23.329 13.63,23.298 13.366,23.118C13.06,22.91 12.909,22.222 12.606,20.845L11.283,14.829L5.046,13.512C3.639,13.215 2.936,13.066 2.725,12.76C2.544,12.495 2.511,12.155 2.64,11.861C2.789,11.52 3.452,11.242 4.777,10.685L19.764,4.388Z"
+            android:fillType="evenOdd" />
+    </group>
+</vector>

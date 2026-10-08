@@ -1,1 +1,63 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IS0tCiAgfiBUaGlzIGZpbGUgaXMgcGFydCBvZiBIeXBlckNlaWxlci4KICB+CiAgfiBIeXBlckNlaWxlciBpcyBmcmVlIHNvZnR3YXJlOiB5b3UgY2FuIHJlZGlzdHJpYnV0ZSBpdCBhbmQvb3IgbW9kaWZ5CiAgfiBpdCB1bmRlciB0aGUgdGVybXMgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBhcwogIH4gcHVibGlzaGVkIGJ5IHRoZSBGcmVlIFNvZnR3YXJlIEZvdW5kYXRpb24sIGVpdGhlciB2ZXJzaW9uIDMgb2YgdGhlCiAgfiBMaWNlbnNlLgogIH4KICB+IFRoaXMgcHJvZ3JhbSBpcyBkaXN0cmlidXRlZCBpbiB0aGUgaG9wZSB0aGF0IGl0IHdpbGwgYmUgdXNlZnVsLAogIH4gYnV0IFdJVEhPVVQgQU5ZIFdBUlJBTlRZOyB3aXRob3V0IGV2ZW4gdGhlIGltcGxpZWQgd2FycmFudHkgb2YKICB+IE1FUkNIQU5UQUJJTElUWSBvciBGSVRORVNTIEZPUiBBIFBBUlRJQ1VMQVIgUFVSUE9TRS4gIFNlZSB0aGUKICB+IEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBmb3IgbW9yZSBkZXRhaWxzLgogIH4KICB+IFlvdSBzaG91bGQgaGF2ZSByZWNlaXZlZCBhIGNvcHkgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZQogIH4gYWxvbmcgd2l0aCB0aGlzIHByb2dyYW0uICBJZiBub3QsIHNlZSA8aHR0cHM6Ly93d3cuZ251Lm9yZy9saWNlbnNlcy8+LgogIH4KICB+IENvcHlyaWdodCAoQykgMjAyMy0yMDI2IEh5cGVyQ2VpbGVyIENvbnRyaWJ1dGlvbnMKICAtLT4KPEZyYW1lTGF5b3V0IHhtbG5zOmFuZHJvaWQ9Imh0dHA6Ly9zY2hlbWFzLmFuZHJvaWQuY29tL2Fway9yZXMvYW5kcm9pZCIKICAgIHhtbG5zOmFwcD0iaHR0cDovL3NjaGVtYXMuYW5kcm9pZC5jb20vYXBrL3Jlcy1hdXRvIgogICAgYW5kcm9pZDpsYXlvdXRfd2lkdGg9Im1hdGNoX3BhcmVudCIKICAgIGFuZHJvaWQ6bGF5b3V0X2hlaWdodD0ibWF0Y2hfcGFyZW50Ij4KCiAgICA8ZmFuLm5lc3RlZGhlYWRlci53aWRnZXQuTmVzdGVkSGVhZGVyTGF5b3V0CiAgICAgICAgYW5kcm9pZDppZD0iQCtpZC9uZXN0ZWRfaGVhZGVyX2xheW91dCIKICAgICAgICBhbmRyb2lkOmxheW91dF93aWR0aD0ibWF0Y2hfcGFyZW50IgogICAgICAgIGFuZHJvaWQ6bGF5b3V0X2hlaWdodD0ibWF0Y2hfcGFyZW50IgogICAgICAgIGFwcDpzY3JvbGxhYmxlVmlldz0iQGlkL3Njcm9sbGFibGVfdmlld19ncm91cCIKICAgICAgICBhcHA6aGVhZGVyVmlldz0iQGlkL3NlYXJjaF9iYXIiCiAgICAgICAgYXBwOnJhbmdlT2Zmc2V0PSIxcHgiCiAgICAgICAgYW5kcm9pZDpjbGlwQ2hpbGRyZW49ImZhbHNlIj4KCiAgICAgICAgPGZhbi5zcHJpbmdiYWNrLnZpZXcuU3ByaW5nQmFja0xheW91dAogICAgICAgICAgICBhbmRyb2lkOmlkPSJAK2lkL3Njcm9sbGFibGVfdmlld19ncm91cCIKICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfd2lkdGg9Im1hdGNoX3BhcmVudCIKICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfaGVpZ2h0PSJtYXRjaF9wYXJlbnQiCiAgICAgICAgICAgIGFuZHJvaWQ6Y2xpcENoaWxkcmVuPSJmYWxzZSIKICAgICAgICAgICAgYXBwOnNjcm9sbGFibGVWaWV3PSJAaWQvYXBwX2xpc3RfcnYiPgoKICAgICAgICAgICAgPGZhbi5yZWN5Y2xlcnZpZXcud2lkZ2V0LlJlY3ljbGVyVmlldwogICAgICAgICAgICAgICAgYW5kcm9pZDppZD0iQCtpZC9hcHBfbGlzdF9ydiIKICAgICAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X3dpZHRoPSJtYXRjaF9wYXJlbnQiCiAgICAgICAgICAgICAgICBhbmRyb2lkOmxheW91dF9oZWlnaHQ9Im1hdGNoX3BhcmVudCIgLz4KCiAgICAgICAgPC9mYW4uc3ByaW5nYmFjay52aWV3LlNwcmluZ0JhY2tMYXlvdXQ+CgogICAgICAgIDxpbmNsdWRlCiAgICAgICAgICAgIGFuZHJvaWQ6aWQ9IkAraWQvc2VhcmNoX2JhciIKICAgICAgICAgICAgbGF5b3V0PSJAbGF5b3V0L21pdWl4X2FwcGNvbXBhdF9zZWFyY2hfc3R1YiIKICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfd2lkdGg9Im1hdGNoX3BhcmVudCIKICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfaGVpZ2h0PSJ3cmFwX2NvbnRlbnQiCiAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X21hcmdpbkJvdHRvbT0iQGRpbWVuL3Byb3Zpc2lvbl9hY3Rpb25iYXJfcGFkZGluZ19ib3R0b20iLz4KCiAgICA8L2Zhbi5uZXN0ZWRoZWFkZXIud2lkZ2V0Lk5lc3RlZEhlYWRlckxheW91dD4KCiAgICA8UHJvZ3Jlc3NCYXIKICAgICAgICBhbmRyb2lkOmlkPSJAK2lkL2FtX3Byb2dyZXNzQmFyIgogICAgICAgIHN0eWxlPSJAc3R5bGUvV2lkZ2V0LlByb2dyZXNzQmFyLkRheU5pZ2h0IgogICAgICAgIGFuZHJvaWQ6bGF5b3V0X3dpZHRoPSJ3cmFwX2NvbnRlbnQiCiAgICAgICAgYW5kcm9pZDpsYXlvdXRfaGVpZ2h0PSJ3cmFwX2NvbnRlbnQiCiAgICAgICAgYW5kcm9pZDpsYXlvdXRfZ3Jhdml0eT0iY2VudGVyIiAvPgoKPC9GcmFtZUxheW91dD4K
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ This file is part of HyperCeiler.
+  ~
+  ~ HyperCeiler is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU Affero General Public License as
+  ~ published by the Free Software Foundation, either version 3 of the
+  ~ License.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU Affero General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU Affero General Public License
+  ~ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+  ~
+  ~ Copyright (C) 2023-2026 HyperCeiler Contributions
+  -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fan.nestedheader.widget.NestedHeaderLayout
+        android:id="@+id/nested_header_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:scrollableView="@id/scrollable_view_group"
+        app:headerView="@id/search_bar"
+        app:rangeOffset="1px"
+        android:clipChildren="false">
+
+        <fan.springback.view.SpringBackLayout
+            android:id="@+id/scrollable_view_group"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipChildren="false"
+            app:scrollableView="@id/app_list_rv">
+
+            <fan.recyclerview.widget.RecyclerView
+                android:id="@+id/app_list_rv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </fan.springback.view.SpringBackLayout>
+
+        <include
+            android:id="@+id/search_bar"
+            layout="@layout/miuix_appcompat_search_stub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/provision_actionbar_padding_bottom"/>
+
+    </fan.nestedheader.widget.NestedHeaderLayout>
+
+    <ProgressBar
+        android:id="@+id/am_progressBar"
+        style="@style/Widget.ProgressBar.DayNight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+</FrameLayout>

@@ -1,1 +1,60 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IS0tCiAgfiBUaGlzIGZpbGUgaXMgcGFydCBvZiBIeXBlckNlaWxlci4KICB+CiAgfiBIeXBlckNlaWxlciBpcyBmcmVlIHNvZnR3YXJlOiB5b3UgY2FuIHJlZGlzdHJpYnV0ZSBpdCBhbmQvb3IgbW9kaWZ5CiAgfiBpdCB1bmRlciB0aGUgdGVybXMgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBhcwogIH4gcHVibGlzaGVkIGJ5IHRoZSBGcmVlIFNvZnR3YXJlIEZvdW5kYXRpb24sIGVpdGhlciB2ZXJzaW9uIDMgb2YgdGhlCiAgfiBMaWNlbnNlLgogIH4KICB+IFRoaXMgcHJvZ3JhbSBpcyBkaXN0cmlidXRlZCBpbiB0aGUgaG9wZSB0aGF0IGl0IHdpbGwgYmUgdXNlZnVsLAogIH4gYnV0IFdJVEhPVVQgQU5ZIFdBUlJBTlRZOyB3aXRob3V0IGV2ZW4gdGhlIGltcGxpZWQgd2FycmFudHkgb2YKICB+IE1FUkNIQU5UQUJJTElUWSBvciBGSVRORVNTIEZPUiBBIFBBUlRJQ1VMQVIgUFVSUE9TRS4gIFNlZSB0aGUKICB+IEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBmb3IgbW9yZSBkZXRhaWxzLgogIH4KICB+IFlvdSBzaG91bGQgaGF2ZSByZWNlaXZlZCBhIGNvcHkgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZQogIH4gYWxvbmcgd2l0aCB0aGlzIHByb2dyYW0uICBJZiBub3QsIHNlZSA8aHR0cHM6Ly93d3cuZ251Lm9yZy9saWNlbnNlcy8+LgogIH4KICB+IENvcHlyaWdodCAoQykgMjAyMy0yMDI2IEh5cGVyQ2VpbGVyIENvbnRyaWJ1dGlvbnMKICAtLT4KPFByZWZlcmVuY2VTY3JlZW4geG1sbnM6YW5kcm9pZD0iaHR0cDovL3NjaGVtYXMuYW5kcm9pZC5jb20vYXBrL3Jlcy9hbmRyb2lkIgogICAgeG1sbnM6YXBwPSJodHRwOi8vc2NoZW1hcy5hbmRyb2lkLmNvbS9hcGsvcmVzLWF1dG8iCiAgICBhcHA6bXlMb2NhdGlvbj0iQHN0cmluZy9sYmUiCiAgICBhcHA6cXVpY2tfcmVzdGFydD0iY29tLmxiZS5zZWN1cml0eS5taXVpIj4KICAgIDxQcmVmZXJlbmNlQ2F0ZWdvcnk+CiAgICAgICAgPFN3aXRjaFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpkZWZhdWx0VmFsdWU9ImZhbHNlIgogICAgICAgICAgICBhbmRyb2lkOmtleT0icHJlZnNfa2V5X2xiZV9hdXRvX3N0YXJ0IgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJAc3RyaW5nL2xiZV9hdXRvX3N0YXJ0IiAvPgoKICAgIDwvUHJlZmVyZW5jZUNhdGVnb3J5PgogICAgPFByZWZlcmVuY2VDYXRlZ29yeSBhbmRyb2lkOnRpdGxlPSJAc3RyaW5nL2xiZV9wYXN0ZV90b2FzdCI+CiAgICAgICAgPFN3aXRjaFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpkZWZhdWx0VmFsdWU9ImZhbHNlIgogICAgICAgICAgICBhbmRyb2lkOmtleT0icHJlZnNfa2V5X2xiZV9wYXN0ZV90b2FzdF9jdXN0b20iCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvbGJlX3Bhc3RlX3RvYXN0X2N1c3RvbSIgLz4KCiAgICAgICAgPFNlZWtCYXJQcmVmZXJlbmNlQ29tcGF0CiAgICAgICAgICAgIGFuZHJvaWQ6ZGVmYXVsdFZhbHVlPSIxMDAiCiAgICAgICAgICAgIGFuZHJvaWQ6ZGVwZW5kZW5jeT0icHJlZnNfa2V5X2xiZV9wYXN0ZV90b2FzdF9jdXN0b20iCiAgICAgICAgICAgIGFuZHJvaWQ6a2V5PSJwcmVmc19rZXlfbGJlX3Bhc3RlX3RvYXN0X2N1c3RvbV90b2FzdF9vcGFjaXR5IgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJAc3RyaW5nL2xiZV9wYXN0ZV90b2FzdF9jdXN0b21fdG9hc3Rfb3BhY2l0eSIKICAgICAgICAgICAgYXBwOmZvcm1hdD0iJSUlIgogICAgICAgICAgICBhcHA6bWF4VmFsdWU9IjEwMCIKICAgICAgICAgICAgYXBwOm1pblZhbHVlPSIwIgogICAgICAgICAgICBhcHA6c2hvd1NlZWtCYXJWYWx1ZT0idHJ1ZSIKICAgICAgICAgICAgYXBwOnN0ZXBWYWx1ZT0iMSIgLz4KICAgICAgICA8U3dpdGNoUHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOmRlZmF1bHRWYWx1ZT0iZmFsc2UiCiAgICAgICAgICAgIGFuZHJvaWQ6ZGVwZW5kZW5jeT0icHJlZnNfa2V5X2xiZV9wYXN0ZV90b2FzdF9jdXN0b20iCiAgICAgICAgICAgIGFuZHJvaWQ6a2V5PSJwcmVmc19rZXlfbGJlX3Bhc3RlX3RvYXN0X2N1c3RvbV9jbG9zZV9idXR0b25fdG9fY2xvc2UiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvbGJlX3Bhc3RlX3RvYXN0X2N1c3RvbV9jbG9zZV9idXR0b25fdG9fY2xvc2UiIC8+CgogICAgICAgIDxFZGl0VGV4dFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpkZXBlbmRlbmN5PSJwcmVmc19rZXlfbGJlX3Bhc3RlX3RvYXN0X2N1c3RvbSIKICAgICAgICAgICAgYW5kcm9pZDpzdW1tYXJ5PSJAc3RyaW5nL2xiZV9wYXN0ZV90b2FzdF9jdXN0b21fY2xvc2VfYnV0dG9uX3RleHRfdGlwIgogICAgICAgICAgICBhbmRyb2lkOmRlZmF1bHRWYWx1ZT0iIgogICAgICAgICAgICBhbmRyb2lkOmtleT0icHJlZnNfa2V5X2xiZV9wYXN0ZV90b2FzdF9jdXN0b21fY2xvc2VfYnV0dG9uX3RleHRfY3VzdG9tIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJAc3RyaW5nL2xiZV9wYXN0ZV90b2FzdF9jdXN0b21fY2xvc2VfYnV0dG9uX3RleHRfY3VzdG9tIiAvPgogICAgPC9QcmVmZXJlbmNlQ2F0ZWdvcnk+Cgo8L1ByZWZlcmVuY2VTY3JlZW4+
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ This file is part of HyperCeiler.
+  ~
+  ~ HyperCeiler is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU Affero General Public License as
+  ~ published by the Free Software Foundation, either version 3 of the
+  ~ License.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU Affero General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU Affero General Public License
+  ~ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+  ~
+  ~ Copyright (C) 2023-2026 HyperCeiler Contributions
+  -->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:myLocation="@string/lbe"
+    app:quick_restart="com.lbe.security.miui">
+    <PreferenceCategory>
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefs_key_lbe_auto_start"
+            android:title="@string/lbe_auto_start" />
+
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/lbe_paste_toast">
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefs_key_lbe_paste_toast_custom"
+            android:title="@string/lbe_paste_toast_custom" />
+
+        <SeekBarPreferenceCompat
+            android:defaultValue="100"
+            android:dependency="prefs_key_lbe_paste_toast_custom"
+            android:key="prefs_key_lbe_paste_toast_custom_toast_opacity"
+            android:title="@string/lbe_paste_toast_custom_toast_opacity"
+            app:format="%%%"
+            app:maxValue="100"
+            app:minValue="0"
+            app:showSeekBarValue="true"
+            app:stepValue="1" />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:dependency="prefs_key_lbe_paste_toast_custom"
+            android:key="prefs_key_lbe_paste_toast_custom_close_button_to_close"
+            android:title="@string/lbe_paste_toast_custom_close_button_to_close" />
+
+        <EditTextPreference
+            android:dependency="prefs_key_lbe_paste_toast_custom"
+            android:summary="@string/lbe_paste_toast_custom_close_button_text_tip"
+            android:defaultValue=""
+            android:key="prefs_key_lbe_paste_toast_custom_close_button_text_custom"
+            android:title="@string/lbe_paste_toast_custom_close_button_text_custom" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

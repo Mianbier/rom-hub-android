@@ -1,1 +1,71 @@
-LyoKICogVGhpcyBmaWxlIGlzIHBhcnQgb2YgSHlwZXJDZWlsZXIuCgogKiBIeXBlckNlaWxlciBpcyBmcmVlIHNvZnR3YXJlOiB5b3UgY2FuIHJlZGlzdHJpYnV0ZSBpdCBhbmQvb3IgbW9kaWZ5CiAqIGl0IHVuZGVyIHRoZSB0ZXJtcyBvZiB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGFzCiAqIHB1Ymxpc2hlZCBieSB0aGUgRnJlZSBTb2Z0d2FyZSBGb3VuZGF0aW9uLCBlaXRoZXIgdmVyc2lvbiAzIG9mIHRoZQogKiBMaWNlbnNlLgoKICogVGhpcyBwcm9ncmFtIGlzIGRpc3RyaWJ1dGVkIGluIHRoZSBob3BlIHRoYXQgaXQgd2lsbCBiZSB1c2VmdWwsCiAqIGJ1dCBXSVRIT1VUIEFOWSBXQVJSQU5UWTsgd2l0aG91dCBldmVuIHRoZSBpbXBsaWVkIHdhcnJhbnR5IG9mCiAqIE1FUkNIQU5UQUJJTElUWSBvciBGSVRORVNTIEZPUiBBIFBBUlRJQ1VMQVIgUFVSUE9TRS4gIFNlZSB0aGUKICogR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGZvciBtb3JlIGRldGFpbHMuCgogKiBZb3Ugc2hvdWxkIGhhdmUgcmVjZWl2ZWQgYSBjb3B5IG9mIHRoZSBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UKICogYWxvbmcgd2l0aCB0aGlzIHByb2dyYW0uICBJZiBub3QsIHNlZSA8aHR0cHM6Ly93d3cuZ251Lm9yZy9saWNlbnNlcy8+LgoKICogQ29weXJpZ2h0IChDKSAyMDIzLTIwMjYgSHlwZXJDZWlsZXIgQ29udHJpYnV0aW9ucwogKi8KcGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLmhjLnByb3Zpc2lvbi5hY3Rpdml0eTsKCmltcG9ydCBhbmRyb2lkeC5mcmFnbWVudC5hcHAuRnJhZ21lbnQ7CgppbXBvcnQgb3JnLmxpbmJhb2d1LnJvbWh1Yi5SOwppbXBvcnQgb3JnLmxpbmJhb2d1LnJvbWh1Yi5oYy5wcm92aXNpb24uZnJhZ21lbnQuVGVybXNBbmRTdGF0ZW1lbnRGcmFnbWVudDsKCnB1YmxpYyBjbGFzcyBUZXJtc0FuZFN0YXRlbWVudEFjdGl2aXR5IGV4dGVuZHMgQmFzZUFjdGl2aXR5IHsKCiAgICBAT3ZlcnJpZGUKICAgIHByb3RlY3RlZCBpbnQgZ2V0UHJldmlld0RyYXdhYmxlKCkgewogICAgICAgIHJldHVybiBSLmRyYXdhYmxlLnByb3Zpc2lvbl90ZXJtczsKICAgIH0KCiAgICBAT3ZlcnJpZGUKICAgIHByb3RlY3RlZCBGcmFnbWVudCBnZXRGcmFnbWVudCgpIHsKICAgICAgICByZXR1cm4gbmV3IFRlcm1zQW5kU3RhdGVtZW50RnJhZ21lbnQoKTsKICAgIH0KCiAgICBAT3ZlcnJpZGUKICAgIHByb3RlY3RlZCBTdHJpbmcgZ2V0RnJhZ21lbnRUYWcoKSB7CiAgICAgICAgcmV0dXJuIFRlcm1zQW5kU3RhdGVtZW50QWN0aXZpdHkuY2xhc3MuZ2V0U2ltcGxlTmFtZSgpOwogICAgfQoKICAgIEBPdmVycmlkZQogICAgcHJvdGVjdGVkIENoYXJTZXF1ZW5jZSBnZXRMaXN0RGVzY0NoYXJTZXF1ZW5jZSgpIHsKICAgICAgICByZXR1cm4gbnVsbDsKICAgIH0KCiAgICBAT3ZlcnJpZGUKICAgIHByb3RlY3RlZCBpbnQgZ2V0TG9nb0RyYXdhYmxlSWQoKSB7CiAgICAgICAgcmV0dXJuIFIuZHJhd2FibGUucHJvdmlzaW9uX2xvZ29fdGVybXM7CiAgICB9CgogICAgQE92ZXJyaWRlCiAgICBwcm90ZWN0ZWQgaW50IGdldFRpdGxlU3RyaW5nSWQoKSB7CiAgICAgICAgcmV0dXJuIFIuc3RyaW5nLnByb3Zpc2lvbl90ZXJtc19hbmRfc3RhdGVtZW50X3RpdGxlOwogICAgfQoKICAgIEBPdmVycmlkZQogICAgcHVibGljIHZvaWQgb25OZXh0QW1pblN0YXJ0KCkgewogICAgICAgIGlmIChtRnJhZ21lbnQgaW5zdGFuY2VvZiBUZXJtc0FuZFN0YXRlbWVudEZyYWdtZW50KSB7CiAgICAgICAgICAgICgoVGVybXNBbmRTdGF0ZW1lbnRGcmFnbWVudCkgbUZyYWdtZW50KS5nb05leHQoKTsKICAgICAgICB9CiAgICB9CgogICAgQE92ZXJyaWRlCiAgICBwdWJsaWMgdm9pZCBvbkJhY2tBbmltU3RhcnQoKSB7CiAgICAgICAgc3VwZXIub25CYWNrQW5pbVN0YXJ0KCk7CiAgICAgICAgc2V0UmVzdWx0KDApOwogICAgICAgIGZpbmlzaCgpOwogICAgfQp9Cg==
+/*
+ * This file is part of HyperCeiler.
+
+ * HyperCeiler is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as
+ * published by the Free Software Foundation, either version 3 of the
+ * License.
+
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Affero General Public License for more details.
+
+ * You should have received a copy of the GNU Affero General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+ * Copyright (C) 2023-2026 HyperCeiler Contributions
+ */
+package org.linbaogu.romhub.hc.provision.activity;
+
+import androidx.fragment.app.Fragment;
+
+import org.linbaogu.romhub.R;
+import org.linbaogu.romhub.hc.provision.fragment.TermsAndStatementFragment;
+
+public class TermsAndStatementActivity extends BaseActivity {
+
+    @Override
+    protected int getPreviewDrawable() {
+        return R.drawable.provision_terms;
+    }
+
+    @Override
+    protected Fragment getFragment() {
+        return new TermsAndStatementFragment();
+    }
+
+    @Override
+    protected String getFragmentTag() {
+        return TermsAndStatementActivity.class.getSimpleName();
+    }
+
+    @Override
+    protected CharSequence getListDescCharSequence() {
+        return null;
+    }
+
+    @Override
+    protected int getLogoDrawableId() {
+        return R.drawable.provision_logo_terms;
+    }
+
+    @Override
+    protected int getTitleStringId() {
+        return R.string.provision_terms_and_statement_title;
+    }
+
+    @Override
+    public void onNextAminStart() {
+        if (mFragment instanceof TermsAndStatementFragment) {
+            ((TermsAndStatementFragment) mFragment).goNext();
+        }
+    }
+
+    @Override
+    public void onBackAnimStart() {
+        super.onBackAnimStart();
+        setResult(0);
+        finish();
+    }
+}

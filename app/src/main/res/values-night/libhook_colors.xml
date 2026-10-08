@@ -1,1 +1,49 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0NCiAgfiBUaGlzIGZpbGUgaXMgcGFydCBvZiBIeXBlckNlaWxlci4NCiAgfg0KICB+IEh5cGVyQ2VpbGVyIGlzIGZyZWUgc29mdHdhcmU6IHlvdSBjYW4gcmVkaXN0cmlidXRlIGl0IGFuZC9vciBtb2RpZnkNCiAgfiBpdCB1bmRlciB0aGUgdGVybXMgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBhcw0KICB+IHB1Ymxpc2hlZCBieSB0aGUgRnJlZSBTb2Z0d2FyZSBGb3VuZGF0aW9uLCBlaXRoZXIgdmVyc2lvbiAzIG9mIHRoZQ0KICB+IExpY2Vuc2UuDQogIH4NCiAgfiBUaGlzIHByb2dyYW0gaXMgZGlzdHJpYnV0ZWQgaW4gdGhlIGhvcGUgdGhhdCBpdCB3aWxsIGJlIHVzZWZ1bCwNCiAgfiBidXQgV0lUSE9VVCBBTlkgV0FSUkFOVFk7IHdpdGhvdXQgZXZlbiB0aGUgaW1wbGllZCB3YXJyYW50eSBvZg0KICB+IE1FUkNIQU5UQUJJTElUWSBvciBGSVRORVNTIEZPUiBBIFBBUlRJQ1VMQVIgUFVSUE9TRS4gIFNlZSB0aGUNCiAgfiBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UgZm9yIG1vcmUgZGV0YWlscy4NCiAgfg0KICB+IFlvdSBzaG91bGQgaGF2ZSByZWNlaXZlZCBhIGNvcHkgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZQ0KICB+IGFsb25nIHdpdGggdGhpcyBwcm9ncmFtLiAgSWYgbm90LCBzZWUgPGh0dHBzOi8vd3d3LmdudS5vcmcvbGljZW5zZXMvPi4NCiAgfg0KICB+IENvcHlyaWdodCAoQykgMjAyMy0yMDI2IEh5cGVyUm9taHViIENvbnRyaWJ1dGlvbnMNCiAgLS0+DQo8cmVzb3VyY2VzPg0KICAgIDxjb2xvciBuYW1lPSJjb2xvcl9zdXJmYWNlX3ZhcmlhbnQiPiNEMDJFMkUzMDwvY29sb3I+DQoNCiAgICA8Y29sb3IgbmFtZT0icGFfd2lkZ2V0X2JsdXJfY29sb3JfbGFiIj4jMTQ5NDAwPC9jb2xvcj4NCiAgICA8Y29sb3IgbmFtZT0icGFfd2lkZ2V0X2JsdXJfY29sb3JfbGluZWFyX2xpZ2h0Ij4jYjM3Njc2NzY8L2NvbG9yPg0KDQogICAgPGNvbG9yIG5hbWU9ImZvY3VzX25vdGlmaWNhdGlvbl9lbGVtZW50X2JsZW5kX2hlYWRzVXBfY29sb3JfMSI+Izc3Nzc3NzwvY29sb3I+DQogICAgPGNvbG9yIG5hbWU9ImZvY3VzX25vdGlmaWNhdGlvbl9lbGVtZW50X2JsZW5kX2hlYWRzVXBfY29sb3JfMiI+IzFhNzMwMDwvY29sb3I+DQogICAgPGNvbG9yIG5hbWU9ImZvY3VzX25vdGlmaWNhdGlvbl9lbGVtZW50X2JsZW5kX2hlYWRzVXBfY29sb3JfMyI+IzAwMDAwMDAwPC9jb2xvcj4NCiAgICA8Y29sb3IgbmFtZT0iZm9jdXNfbm90aWZpY2F0aW9uX2VsZW1lbnRfYmxlbmRfa2V5Z3VhcmRfY29sb3JfMSI+Izc3Nzc3NzwvY29sb3I+DQogICAgPGNvbG9yIG5hbWU9ImZvY3VzX25vdGlmaWNhdGlvbl9lbGVtZW50X2JsZW5kX2tleWd1YXJkX2NvbG9yXzIiPiMxNTU5MDA8L2NvbG9yPg0KICAgIDxjb2xvciBuYW1lPSJmb2N1c19ub3RpZmljYXRpb25fZWxlbWVudF9ibGVuZF9rZXlndWFyZF9jb2xvcl8zIj4jMDAwMDAwMDA8L2NvbG9yPg0KICAgIDxjb2xvciBuYW1lPSJmb2N1c19ub3RpZmljYXRpb25fZWxlbWVudF9ibGVuZF9zaGFkZV9jb2xvcl8xIj4jNzM3MzczPC9jb2xvcj4NCiAgICA8Y29sb3IgbmFtZT0iZm9jdXNfbm90aWZpY2F0aW9uX2VsZW1lbnRfYmxlbmRfc2hhZGVfY29sb3JfMiI+IzEyOGYwMDwvY29sb3I+DQogICAgPGNvbG9yIG5hbWU9ImZvY3VzX25vdGlmaWNhdGlvbl9lbGVtZW50X2JsZW5kX3NoYWRlX2NvbG9yXzMiPiMwMDAwMDAwMDwvY29sb3I+DQoNCiAgICA8Y29sb3IgbmFtZT0ibWVkaWFfbm90aWZpY2F0aW9uX2VsZW1lbnRfYmxlbmRfa2V5Z3VhcmRfY29sb3JfMSI+Izc3Nzc3NzwvY29sb3I+DQogICAgPGNvbG9yIG5hbWU9Im1lZGlhX25vdGlmaWNhdGlvbl9lbGVtZW50X2JsZW5kX2tleWd1YXJkX2NvbG9yXzIiPiMxNTU5MDA8L2NvbG9yPg0KICAgIDxjb2xvciBuYW1lPSJtZWRpYV9ub3RpZmljYXRpb25fZWxlbWVudF9ibGVuZF9rZXlndWFyZF9jb2xvcl8zIj4jMDAwMDAwMDA8L2NvbG9yPg0KICAgIDxjb2xvciBuYW1lPSJtZWRpYV9ub3RpZmljYXRpb25fZWxlbWVudF9ibGVuZF9zaGFkZV9jb2xvcl8xIj4jNzM3MzczPC9jb2xvcj4NCiAgICA8Y29sb3IgbmFtZT0ibWVkaWFfbm90aWZpY2F0aW9uX2VsZW1lbnRfYmxlbmRfc2hhZGVfY29sb3JfMiI+IzEyOGYwMDwvY29sb3I+DQogICAgPGNvbG9yIG5hbWU9Im1lZGlhX25vdGlmaWNhdGlvbl9lbGVtZW50X2JsZW5kX3NoYWRlX2NvbG9yXzMiPiMwMDAwMDAwMDwvY29sb3I+DQoNCiAgICA8Y29sb3IgbmFtZT0ibm90aWZpY2F0aW9uX2VsZW1lbnRfYmxlbmRfaGVhZHNVcF9jb2xvcl8xIj4jNzc3Nzc3PC9jb2xvcj4NCiAgICA8Y29sb3IgbmFtZT0ibm90aWZpY2F0aW9uX2VsZW1lbnRfYmxlbmRfaGVhZHNVcF9jb2xvcl8yIj4jMWE3MzAwPC9jb2xvcj4NCiAgICA8Y29sb3IgbmFtZT0ibm90aWZpY2F0aW9uX2VsZW1lbnRfYmxlbmRfa2V5Z3VhcmRfY29sb3JfMSI+Izc3Nzc3NzwvY29sb3I+DQogICAgPGNvbG9yIG5hbWU9Im5vdGlmaWNhdGlvbl9lbGVtZW50X2JsZW5kX2tleWd1YXJkX2NvbG9yXzIiPiMxNTU5MDA8L2NvbG9yPg0KICAgIDxjb2xvciBuYW1lPSJub3RpZmljYXRpb25fZWxlbWVudF9ibGVuZF9zaGFkZV9jb2xvcl8xIj4jNzM3MzczPC9jb2xvcj4NCiAgICA8Y29sb3IgbmFtZT0ibm90aWZpY2F0aW9uX2VsZW1lbnRfYmxlbmRfc2hhZGVfY29sb3JfMiI+IzEyOGYwMDwvY29sb3I+DQo8L3Jlc291cmNlcz4NCg==
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ This file is part of HyperCeiler.
+  ~
+  ~ HyperCeiler is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU Affero General Public License as
+  ~ published by the Free Software Foundation, either version 3 of the
+  ~ License.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU Affero General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU Affero General Public License
+  ~ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+  ~
+  ~ Copyright (C) 2023-2026 HyperRomhub Contributions
+  -->
+<resources>
+    <color name="color_surface_variant">#D02E2E30</color>
+
+    <color name="pa_widget_blur_color_lab">#149400</color>
+    <color name="pa_widget_blur_color_linear_light">#b3767676</color>
+
+    <color name="focus_notification_element_blend_headsUp_color_1">#777777</color>
+    <color name="focus_notification_element_blend_headsUp_color_2">#1a7300</color>
+    <color name="focus_notification_element_blend_headsUp_color_3">#00000000</color>
+    <color name="focus_notification_element_blend_keyguard_color_1">#777777</color>
+    <color name="focus_notification_element_blend_keyguard_color_2">#155900</color>
+    <color name="focus_notification_element_blend_keyguard_color_3">#00000000</color>
+    <color name="focus_notification_element_blend_shade_color_1">#737373</color>
+    <color name="focus_notification_element_blend_shade_color_2">#128f00</color>
+    <color name="focus_notification_element_blend_shade_color_3">#00000000</color>
+
+    <color name="media_notification_element_blend_keyguard_color_1">#777777</color>
+    <color name="media_notification_element_blend_keyguard_color_2">#155900</color>
+    <color name="media_notification_element_blend_keyguard_color_3">#00000000</color>
+    <color name="media_notification_element_blend_shade_color_1">#737373</color>
+    <color name="media_notification_element_blend_shade_color_2">#128f00</color>
+    <color name="media_notification_element_blend_shade_color_3">#00000000</color>
+
+    <color name="notification_element_blend_headsUp_color_1">#777777</color>
+    <color name="notification_element_blend_headsUp_color_2">#1a7300</color>
+    <color name="notification_element_blend_keyguard_color_1">#777777</color>
+    <color name="notification_element_blend_keyguard_color_2">#155900</color>
+    <color name="notification_element_blend_shade_color_1">#737373</color>
+    <color name="notification_element_blend_shade_color_2">#128f00</color>
+</resources>

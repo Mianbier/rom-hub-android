@@ -1,1 +1,358 @@
-cGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLmRhdGEKCmltcG9ydCBrb3RsaW54LnNlcmlhbGl6YXRpb24uU2VyaWFsaXphYmxlCgovLyDor7TmmI7vvJpKU09OIOmUruaYr+S4i+WIkue6v+mjjuagvO+8jOWuouaIt+err+e7n+S4gOeUqCBKc29uTmFtaW5nU3RyYXRlZ3kuU25ha2VDYXNlIOaYoOWwhO+8jAovLyDmiYDku6Xov5nph4zlhpnpqbzls7DljbPlj6/vvIjop4EgQXBpLmt0IOeahCBSb21Kc29u77yJ44CCCgpAU2VyaWFsaXphYmxlCmRhdGEgY2xhc3MgRGV2aWNlSXRlbSgKICAgIHZhbCBjb2RlOiBTdHJpbmcgPSAiIiwKICAgIHZhbCBuYW1lWmg6IFN0cmluZyA9ICIiLAogICAgdmFsIG5hbWVFbjogU3RyaW5nID0gIiIsCiAgICB2YWwgc2VyaWVzOiBTdHJpbmcgPSAiIiwKICAgIHZhbCBicmFuZDogU3RyaW5nID0gIiIsCiAgICB2YWwgYnJhbmRaaDogU3RyaW5nID0gIiIsCiAgICB2YWwgc3VwcG9ydHM6IFN0cmluZyA9ICIiLAogICAgdmFsIGFuZHJvaWQ6IFN0cmluZyA9ICIiLAogICAgdmFsIGltYWdlOiBTdHJpbmcgPSAiIiwKICAgIHZhbCB1cGRhdGVkQXQ6IFN0cmluZyA9ICIiLAogICAgdmFsIHJvbUNvdW50OiBJbnQgPSAwLAogICAgdmFsIGxhc3REYXRlOiBTdHJpbmcgPSAiIiwKICAgIHZhbCBsYXRlc3RWZXJzaW9uOiBTdHJpbmcgPSAiIiwKICAgIHZhbCBsYXRlc3RSZWdpb246IFN0cmluZyA9ICIiLAogICAgdmFsIGxhdGVzdEJyYW5jaDogU3RyaW5nID0gIiIsCikgewogICAgdmFsIGRpc3BsYXlOYW1lOiBTdHJpbmcgZ2V0KCkgPSBuYW1lWmguaWZCbGFuayB7IG5hbWVFbi5pZkJsYW5rIHsgY29kZSB9IH0KCiAgICAvKioKICAgICAqIOWFs+mUruivjeWMuemFjeOAggogICAgICoKICAgICAqIOaOpeWPo+aMguaOieaXtueUqCBDRE4g5b+r54Wn5Zyo5pys5Zyw562b77yI5b+r54Wn5piv5YWo6YeP6KGo77yJ77yM5a2X5q616IyD5Zu05ZKM5pyN5Yqh56uv5LiA6Ie077yaCiAgICAgKiDku6Plj7fjgIHkuK3oi7HmloflkI3jgIHns7vliJfjgIHlk4HniYzjgIIKICAgICAqLwogICAgZnVuIG1hdGNoZXMoa2V5d29yZDogU3RyaW5nKTogQm9vbGVhbiB7CiAgICAgICAgdmFsIGsgPSBrZXl3b3JkLnRyaW0oKS5sb3dlcmNhc2UoKQogICAgICAgIGlmIChrLmlzQmxhbmsoKSkgcmV0dXJuIHRydWUKICAgICAgICByZXR1cm4gY29kZS5sb3dlcmNhc2UoKS5jb250YWlucyhrKSB8fAogICAgICAgICAgICBuYW1lWmgubG93ZXJjYXNlKCkuY29udGFpbnMoaykgfHwKICAgICAgICAgICAgbmFtZUVuLmxvd2VyY2FzZSgpLmNvbnRhaW5zKGspIHx8CiAgICAgICAgICAgIHNlcmllcy5sb3dlcmNhc2UoKS5jb250YWlucyhrKSB8fAogICAgICAgICAgICBicmFuZC5sb3dlcmNhc2UoKS5jb250YWlucyhrKSB8fAogICAgICAgICAgICBicmFuZFpoLmxvd2VyY2FzZSgpLmNvbnRhaW5zKGspCiAgICB9Cn0KCkBTZXJpYWxpemFibGUKZGF0YSBjbGFzcyBEZXZpY2VMaXN0UmVzcCh2YWwgdG90YWw6IEludCA9IDAsIHZhbCBpdGVtczogTGlzdDxEZXZpY2VJdGVtPiA9IGVtcHR5TGlzdCgpKQoKQFNlcmlhbGl6YWJsZQpkYXRhIGNsYXNzIFJvbUl0ZW0oCiAgICB2YWwgaWQ6IExvbmcgPSAwLAogICAgdmFsIGNvZGVuYW1lOiBTdHJpbmcgPSAiIiwKICAgIHZhbCByZWdpb246IFN0cmluZyA9ICIiLAogICAgdmFsIGJyYW5jaDogU3RyaW5nID0gIiIsCiAgICB2YWwgbmFtZTogU3RyaW5nID0gIiIsCiAgICB2YWwgcGFnZVVybDogU3RyaW5nID0gIiIsCiAgICB2YWwgbGF0ZXN0VmVyc2lvbjogU3RyaW5nID0gIiIsCiAgICB2YWwgbGF0ZXN0RGF0ZTogU3RyaW5nID0gIiIsCiAgICB2YWwgYW5kcm9pZDogU3RyaW5nID0gIiIsCiAgICB2YWwgb3NUeXBlOiBTdHJpbmcgPSAiIiwKICAgIHZhbCBlbmFibGVkOiBJbnQgPSAxLAogICAgdmFsIHVwZGF0ZWRBdDogU3RyaW5nID0gIiIsCiAgICB2YWwgcmVnaW9uWmg6IFN0cmluZyA9ICIiLAogICAgdmFsIGJyYW5jaFpoOiBTdHJpbmcgPSAiIiwKICAgIHZhbCB2ZXJzaW9uQ291bnQ6IEludCA9IDAsCikKCkBTZXJpYWxpemFibGUKZGF0YSBjbGFzcyBEZXZpY2VEZXRhaWxSZXNwKAogICAgdmFsIGRldmljZTogRGV2aWNlSXRlbSA9IERldmljZUl0ZW0oKSwKICAgIHZhbCByb21zOiBMaXN0PFJvbUl0ZW0+ID0gZW1wdHlMaXN0KCksCikKCkBTZXJpYWxpemFibGUKZGF0YSBjbGFzcyBNaXJyb3IoCiAgICB2YWwgbmFtZTogU3RyaW5nID0gIiIsCiAgICB2YWwgcmVjb3Zlcnk6IFN0cmluZyA9ICIiLAogICAgdmFsIGZhc3Rib290OiBTdHJpbmcgPSAiIiwKKSB7CiAgICB2YWwgaGFzQW55OiBCb29sZWFuIGdldCgpID0gcmVjb3ZlcnkuaXNOb3RCbGFuaygpIHx8IGZhc3Rib290LmlzTm90QmxhbmsoKQp9CgpAU2VyaWFsaXphYmxlCmRhdGEgY2xhc3MgUm9tVmVyc2lvbigKICAgIHZhbCBpZDogTG9uZyA9IDAsCiAgICB2YWwgY29kZW5hbWU6IFN0cmluZyA9ICIiLAogICAgdmFsIHJlZ2lvbjogU3RyaW5nID0gIiIsCiAgICB2YWwgYnJhbmNoOiBTdHJpbmcgPSAiIiwKICAgIHZhbCB2ZXJzaW9uOiBTdHJpbmcgPSAiIiwKICAgIHZhbCBkb3dubG9hZFBhZ2U6IFN0cmluZyA9ICIiLAogICAgdmFsIGZhc3Rib290VXJsOiBTdHJpbmcgPSAiIiwKICAgIHZhbCByZWNvdmVyeVVybDogU3RyaW5nID0gIiIsCiAgICB2YWwgZmlsZW5hbWVGYXN0OiBTdHJpbmcgPSAiIiwKICAgIHZhbCBmaWxlbmFtZVJlYzogU3RyaW5nID0gIiIsCiAgICB2YWwgYW5kcm9pZDogU3RyaW5nID0gIiIsCiAgICB2YWwgb3NUeXBlOiBTdHJpbmcgPSAiIiwKICAgIHZhbCBzaXplVGV4dDogU3RyaW5nID0gIiIsCiAgICB2YWwgcm9tRGF0ZTogU3RyaW5nID0gIiIsCiAgICB2YWwgcmVzb2x2ZWQ6IEludCA9IDAsCiAgICB2YWwgcmVzb2x2ZWRBdDogU3RyaW5nID0gIiIsCiAgICB2YWwgZGV0ZWN0ZWRBdDogU3RyaW5nID0gIiIsCiAgICB2YWwgZmlyc3RTZWVuOiBTdHJpbmcgPSAiIiwKICAgIHZhbCBsYXN0U2VlbjogU3RyaW5nID0gIiIsCiAgICB2YWwgZ29uZUF0OiBTdHJpbmc/ID0gbnVsbCwKICAgIHZhbCBwdWJsaWNBdDogU3RyaW5nPyA9IG51bGwsCiAgICB2YWwgcmVzdW1lZEF0OiBTdHJpbmc/ID0gbnVsbCwKICAgIHZhbCByZWdpb25aaDogU3RyaW5nID0gIiIsCiAgICB2YWwgYnJhbmNoWmg6IFN0cmluZyA9ICIiLAogICAgdmFsIG1pcnJvcnM6IExpc3Q8TWlycm9yPiA9IGVtcHR5TGlzdCgpLAogICAgdmFsIHNwZWVkU2lnOiBTdHJpbmcgPSAiIiwKKQoKQFNlcmlhbGl6YWJsZQpkYXRhIGNsYXNzIFJvbVZlcnNpb25MaXN0UmVzcCh2YWwgdG90YWw6IEludCA9IDAsIHZhbCBpdGVtczogTGlzdDxSb21WZXJzaW9uPiA9IGVtcHR5TGlzdCgpKQoKQFNlcmlhbGl6YWJsZQpkYXRhIGNsYXNzIEZhc3RMaW5rUmVzcCh2YWwgdXJsOiBTdHJpbmcgPSAiIikKCkBTZXJpYWxpemFibGUKZGF0YSBjbGFzcyBSb21VcGRhdGUoCiAgICB2YWwgaWQ6IExvbmcgPSAwLAogICAgdmFsIGNvZGVuYW1lOiBTdHJpbmcgPSAiIiwKICAgIHZhbCByZWdpb246IFN0cmluZyA9ICIiLAogICAgdmFsIGJyYW5jaDogU3RyaW5nID0gIiIsCiAgICB2YWwgb2xkVmVyc2lvbjogU3RyaW5nID0gIiIsCiAgICB2YWwgbmV3VmVyc2lvbjogU3RyaW5nID0gIiIsCiAgICB2YWwgdmVyc2lvbklkOiBMb25nID0gMCwKICAgIHZhbCBwb3J0SWQ6IExvbmcgPSAwLAogICAgdmFsIGRldGVjdGVkQXQ6IFN0cmluZyA9ICIiLAogICAgdmFsIGtpbmQ6IFN0cmluZyA9ICIiLAogICAgdmFsIGRldmljZU5hbWU6IFN0cmluZyA9ICIiLAogICAgdmFsIHN0YXRlOiBTdHJpbmcgPSAiIiwKICAgIHZhbCBzdGF0ZVRleHQ6IFN0cmluZyA9ICIiLAogICAgdmFsIHJlZ2lvblpoOiBTdHJpbmcgPSAiIiwKICAgIHZhbCBicmFuY2haaDogU3RyaW5nID0gIiIsCiAgICB2YWwgc2hvcnREYXRlOiBTdHJpbmcgPSAiIiwKICAgIHZhbCBraW5kWmg6IFN0cmluZyA9ICIiLAogICAgdmFsIGRlc2M6IFN0cmluZyA9ICIiLAopCgpAU2VyaWFsaXphYmxlCmRhdGEgY2xhc3MgUm9tVXBkYXRlTGlzdFJlc3AoCiAgICB2YWwgdG90YWw6IEludCA9IDAsCiAgICB2YWwgaXRlbXM6IExpc3Q8Um9tVXBkYXRlPiA9IGVtcHR5TGlzdCgpLAogICAgdmFsIGNvdW50czogTWFwPFN0cmluZywgSW50PiA9IGVtcHR5TWFwKCksCiAgICB2YWwgc2VydmVyVGltZTogU3RyaW5nID0gIiIsCikKCkBTZXJpYWxpemFibGUKZGF0YSBjbGFzcyBQb3J0UGFja2FnZSgKICAgIHZhbCBpZDogTG9uZyA9IDAsCiAgICB2YWwgY29kZW5hbWU6IFN0cmluZyA9ICIiLAogICAgdmFsIGRldmljZU5hbWU6IFN0cmluZyA9ICIiLAogICAgdmFsIGF1dGhvcjogU3RyaW5nID0gIiIsCiAgICB2YWwgc291cmNlOiBTdHJpbmcgPSAiIiwKICAgIHZhbCB0aXRsZTogU3RyaW5nID0gIiIsCiAgICB2YWwgcG9ydFR5cGU6IFN0cmluZyA9ICIiLAogICAgdmFsIHBvcnRLaW5kOiBTdHJpbmcgPSAiIiwKICAgIHZhbCB2ZXJzaW9uOiBTdHJpbmcgPSAiIiwKICAgIHZhbCBzaGFyZVVybDogU3RyaW5nID0gIiIsCiAgICB2YWwgcGxhdGZvcm06IFN0cmluZyA9ICIiLAogICAgdmFsIHBsYXRmb3JtWmg6IFN0cmluZyA9ICIiLAogICAgdmFsIGZpbGVOYW1lOiBTdHJpbmcgPSAiIiwKICAgIHZhbCBmaWxlU2l6ZTogU3RyaW5nID0gIiIsCiAgICB2YWwgcHVibGlzaGVkQXQ6IFN0cmluZyA9ICIiLAogICAgdmFsIG5vdGljZTogU3RyaW5nID0gIiIsCiAgICB2YWwgc3VibWl0dGVkQnk6IFN0cmluZyA9ICIiLAogICAgdmFsIGVuYWJsZWQ6IEludCA9IDEsCiAgICB2YWwgY3JlYXRlZEF0OiBTdHJpbmcgPSAiIiwKICAgIHZhbCBzaG9ydERhdGU6IFN0cmluZyA9ICIiLAopCgpAU2VyaWFsaXphYmxlCmRhdGEgY2xhc3MgUG9ydExpc3RSZXNwKHZhbCBpdGVtczogTGlzdDxQb3J0UGFja2FnZT4gPSBlbXB0eUxpc3QoKSkKCkBTZXJpYWxpemFibGUKZGF0YSBjbGFzcyBQb3J0RGV0YWlsUmVzcCh2YWwgaXRlbTogUG9ydFBhY2thZ2UgPSBQb3J0UGFja2FnZSgpKQoKQFNlcmlhbGl6YWJsZQpkYXRhIGNsYXNzIE5vdGljZSgKICAgIHZhbCBpZDogTG9uZyA9IDAsCiAgICB2YWwgc291cmNlOiBTdHJpbmcgPSAiIiwKICAgIHZhbCBleHRlcm5hbElkOiBTdHJpbmcgPSAiIiwKICAgIHZhbCB0aXRsZTogU3RyaW5nID0gIiIsCiAgICB2YWwgc3VtbWFyeTogU3RyaW5nID0gIiIsCiAgICB2YWwgYXV0aG9yOiBTdHJpbmcgPSAiIiwKICAgIHZhbCB1cmw6IFN0cmluZyA9ICIiLAogICAgdmFsIGNvbW1lbnRzOiBJbnQgPSAwLAogICAgdmFsIGxpa2VzOiBJbnQgPSAwLAogICAgdmFsIHB1Ymxpc2hlZEF0OiBTdHJpbmcgPSAiIiwKICAgIHZhbCBmZXRjaGVkQXQ6IFN0cmluZyA9ICIiLAopCgpAU2VyaWFsaXphYmxlCmRhdGEgY2xhc3MgTm90aWNlTGlzdFJlc3AodmFsIHRvdGFsOiBJbnQgPSAwLCB2YWwgaXRlbXM6IExpc3Q8Tm90aWNlPiA9IGVtcHR5TGlzdCgpKQoKQFNlcmlhbGl6YWJsZQpkYXRhIGNsYXNzIFJvbVN0YXRzKAogICAgdmFsIGRldmljZXM6IEludCA9IDAsCiAgICB2YWwgcm9tczogSW50ID0gMCwKICAgIHZhbCB2ZXJzaW9uczogSW50ID0gMCwKICAgIHZhbCByZXNvbHZlZDogSW50ID0gMCwKICAgIHZhbCB1cGRhdGVzOiBJbnQgPSAwLAogICAgdmFsIGxhc3RTeW5jQXQ6IFN0cmluZyA9ICIiLAopCgovLyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0g5byA5Y+R6ICFCgpAU2VyaWFsaXphYmxlCmRhdGEgY2xhc3MgRGV2QXBwbHlSZXEoCiAgICAvKiog6LSm5Y+3IOKAlOKAlCDnq5nplb/opoHmsYLloasqKumCrueusSoq44CCICovCiAgICB2YWwgdXNlcm5hbWU6IFN0cmluZywKICAgIHZhbCBwYXNzd29yZDogU3RyaW5nLAogICAgLyoqIOWQjeensOOAgiAqLwogICAgdmFsIG5hbWU6IFN0cmluZyA9ICIiLAogICAgLyoqIOmFt+WuieWQjSDigJTigJQg56uZ6ZW/5Li76KaB6Z2g6L+Z5Liq6K6k5Lq644CCICovCiAgICB2YWwgY29vbGFwazogU3RyaW5nID0gIiIsCiAgICAvKiog5pen55qE44CM6IGU57O75pa55byPIC8g6K+05piO44CN77yM5L+d55WZ5YW85a656ICB5pyN5Yqh56uv44CCICovCiAgICB2YWwgY29udGFjdDogU3RyaW5nID0gIiIsCiAgICB2YWwgbm90ZTogU3RyaW5nID0gIiIsCikKCkBTZXJpYWxpemFibGUKZGF0YSBjbGFzcyBEZXZMb2dpblJlcSh2YWwgdXNlcm5hbWU6IFN0cmluZywgdmFsIHBhc3N3b3JkOiBTdHJpbmcpCgpAU2VyaWFsaXphYmxlCmRhdGEgY2xhc3MgRGV2TG9naW5SZXNwKAogICAgdmFsIG9rOiBCb29sZWFuID0gZmFsc2UsCiAgICB2YWwgdG9rZW46IFN0cmluZyA9ICIiLAogICAgdmFsIHVzZXJuYW1lOiBTdHJpbmcgPSAiIiwKICAgIHZhbCByb2xlOiBTdHJpbmcgPSAiZGV2IiwKICAgIHZhbCBlcnJvcjogU3RyaW5nID0gIiIsCikKCkBTZXJpYWxpemFibGUKZGF0YSBjbGFzcyBEZXZBcHBseVJlc3AoCiAgICB2YWwgb2s6IEJvb2xlYW4gPSBmYWxzZSwKICAgIHZhbCBpZDogTG9uZyA9IDAsCiAgICB2YWwgc3RhdHVzOiBTdHJpbmcgPSAiIiwKICAgIHZhbCBlcnJvcjogU3RyaW5nID0gIiIsCikKCkBTZXJpYWxpemFibGUKZGF0YSBjbGFzcyBEZXZNZVJlc3AoCiAgICB2YWwgb2s6IEJvb2xlYW4gPSBmYWxzZSwKICAgIHZhbCB1c2VybmFtZTogU3RyaW5nID0gIiIsCiAgICB2YWwgc3RhdHVzOiBTdHJpbmcgPSAiIiwKICAgIHZhbCBlcnJvcjogU3RyaW5nID0gIiIsCikKCkBTZXJpYWxpemFibGUKZGF0YSBjbGFzcyBQb3J0VXBsb2FkUmVxKAogICAgdmFsIGNvZGVuYW1lOiBTdHJpbmcgPSAiIiwKICAgIHZhbCBkZXZpY2VOYW1lOiBTdHJpbmcgPSAiIiwKICAgIHZhbCBhdXRob3I6IFN0cmluZyA9ICIiLAogICAgdmFsIHNvdXJjZTogU3RyaW5nID0gIiIsCiAgICB2YWwgdGl0bGU6IFN0cmluZyA9ICIiLAogICAgdmFsIHBvcnRUeXBlOiBTdHJpbmcgPSAiIiwKICAgIHZhbCBwb3J0S2luZDogU3RyaW5nID0gIiIsCiAgICB2YWwgdmVyc2lvbjogU3RyaW5nID0gIiIsCiAgICB2YWwgc2hhcmVVcmw6IFN0cmluZywKICAgIHZhbCBmaWxlTmFtZTogU3RyaW5nID0gIiIsCiAgICB2YWwgZmlsZVNpemU6IFN0cmluZyA9ICIiLAogICAgdmFsIHB1Ymxpc2hlZEF0OiBTdHJpbmcgPSAiIiwKICAgIHZhbCBub3RpY2U6IFN0cmluZyA9ICIiLAopCgpAU2VyaWFsaXphYmxlCmRhdGEgY2xhc3MgUG9ydFVwbG9hZFJlc3AoCiAgICB2YWwgb2s6IEJvb2xlYW4gPSBmYWxzZSwKICAgIHZhbCBpZDogTG9uZyA9IDAsCiAgICB2YWwgZHVwbGljYXRlZDogQm9vbGVhbiA9IGZhbHNlLAogICAgdmFsIGVycm9yOiBTdHJpbmcgPSAiIiwKKQoKQFNlcmlhbGl6YWJsZQpkYXRhIGNsYXNzIFBvcnRQYXJzZUZpbGUoCiAgICB2YWwgbmFtZTogU3RyaW5nID0gIiIsCiAgICB2YWwgc2l6ZUh1bWFuOiBTdHJpbmcgPSAiIiwKICAgIHZhbCBjcmVhdGVkQXQ6IFN0cmluZyA9ICIiLAogICAgdmFsIHZlcnNpb246IFN0cmluZyA9ICIiLAopCgpAU2VyaWFsaXphYmxlCmRhdGEgY2xhc3MgUG9ydFBhcnNlUmVzcCgKICAgIHZhbCBvazogQm9vbGVhbiA9IGZhbHNlLAogICAgdmFsIHBsYXRmb3JtOiBTdHJpbmcgPSAiIiwKICAgIHZhbCBwbGF0Zm9ybVpoOiBTdHJpbmcgPSAiIiwKICAgIHZhbCBmaWxlczogTGlzdDxQb3J0UGFyc2VGaWxlPiA9IGVtcHR5TGlzdCgpLAogICAgdmFsIGVycm9yOiBTdHJpbmcgPSAiIiwKKQoKLyoqIOe9keebmOWIhuS6q+mVnOWDj++8iEFwcCDoh6rmo4Dmm7TmlrDph4zlj6/pgInnmoTkuIvovb3mlrnlvI/kuYvkuIDvvInjgIIgKi8KQFNlcmlhbGl6YWJsZQpkYXRhIGNsYXNzIFVwZGF0ZU1pcnJvcigKICAgIHZhbCBuYW1lOiBTdHJpbmcgPSAiIiwKICAgIHZhbCB1cmw6IFN0cmluZyA9ICIiLAogICAgdmFsIGNvZGU6IFN0cmluZyA9ICIiLAopCgovKiog5pu05paw5YWs5ZGK77ya5by65Yi25by556qX44CB5LiN5Y+v6Lez6L+H77yI5L6L5aaC5LiL5p625p+Q54mI5pys44CB6KaB5rGC6YeN6KOF77yJ44CCICovCkBTZXJpYWxpemFibGUKZGF0YSBjbGFzcyBVcGRhdGVOb3RpY2UoCiAgICB2YWwgdGl0bGU6IFN0cmluZyA9ICIiLAogICAgdmFsIGJvZHk6IFN0cmluZyA9ICIiLAogICAgLyoqIGluZm8gLyB3YXJuIC8gY3JpdGljYWwg4oCU4oCUIGNyaXRpY2FsIOinhuS4uuS4jeWPr+i3s+i/h+OAgiAqLwogICAgdmFsIGxldmVsOiBTdHJpbmcgPSAiaW5mbyIsCiAgICB2YWwgYXQ6IFN0cmluZyA9ICIiLAopCgovKiog5pyN5Yqh56uvIGBzZXJ2ZXIvZGF0YS9hcHBfdXBkYXRlLmpzb25gIOeahOWGheWuue+8iEdFVCAvYXBpL2FwcC91cGRhdGXvvInjgIIgKi8KQFNlcmlhbGl6YWJsZQpkYXRhIGNsYXNzIEFwcFVwZGF0ZUluZm8oCiAgICB2YWwgb2s6IEJvb2xlYW4gPSBmYWxzZSwKICAgIHZhbCBoYXNVcGRhdGU6IEJvb2xlYW4gPSBmYWxzZSwKICAgIHZhbCB2ZXJzaW9uQ29kZTogSW50ID0gMCwKICAgIHZhbCB2ZXJzaW9uTmFtZTogU3RyaW5nID0gIiIsCiAgICB2YWwgdXJsOiBTdHJpbmcgPSAiIiwKICAgIHZhbCBub3RlczogU3RyaW5nID0gIiIsCiAgICB2YWwgZm9yY2U6IEJvb2xlYW4gPSBmYWxzZSwKICAgIHZhbCB1cGRhdGVkQXQ6IFN0cmluZyA9ICIiLAogICAgLyoqIOe9keebmOWIhuS6q++8muWkuOWFiy/ok53lpY8vMTIzIOetie+8jEFwcCDorqTlvpfov5nkupvpk77mjqXvvIzngrnlvIDnm7TmjqXov5vlhoXnva7kuIvovb3lmajjgIIgKi8KICAgIHZhbCBtaXJyb3JzOiBMaXN0PFVwZGF0ZU1pcnJvcj4gPSBlbXB0eUxpc3QoKSwKICAgIC8qKiDmm7TmlrDlhazlkYrjgIIgKi8KICAgIHZhbCBub3RpY2U6IFVwZGF0ZU5vdGljZSA9IFVwZGF0ZU5vdGljZSgpLAogICAgLyoqCiAgICAgKiDngbDluqblj5HluIPvvJrnq5nplb/lj6/ku6Xmiorov5nmrKHmjqjpgIHpmZDlrprlnKjmn5DkuKogdmVyc2lvbkNvZGUg5Yy66Ze044CCCiAgICAgKiDkuI3lnKjljLrpl7TlhoXml7YqKuacjeWKoeerryoq5Lya5oqKIGhhc191cGRhdGUg5Y6L5oiQIGZhbHNlIOW5tuW4puS4iiBvdXRfb2ZfcmFuZ2UgPSB0cnVl44CCCiAgICAgKiDlrqLmiLfnq6/mja7mraTmiorjgIzlt7LmmK/mnIDmlrDniYjmnKzjgI3mjaLmiJDjgIzmnKzmrKHmjqjpgIHkuI3pgILnlKjkuo7lvZPliY3niYjmnKzjgI3vvIwKICAgICAqIOWQpuWImeeUqOaIt+S8muW+l+WIsOS4gOS4quWBh+e7k+iuuu+8iOaYjuaYjuacieaWsOeJiO+8jOWNtOWRiuivieS7luW3suaYr+acgOaWsO+8ieOAggogICAgICovCiAgICB2YWwgb3V0T2ZSYW5nZTogQm9vbGVhbiA9IGZhbHNlLAopIHsKICAgIC8qKiDmnInnvZHnm5jplZzlg4/kuZ/nrpfmnInmm7TmlrDvvIjlj6/og73ljovmoLnmsqHnm7Tpk77vvInjgIIgKi8KICAgIHZhbCBlZmZlY3RpdmVIYXNVcGRhdGU6IEJvb2xlYW4KICAgICAgICBnZXQoKSA9IGhhc1VwZGF0ZSB8fCBtaXJyb3JzLmlzTm90RW1wdHkoKSB8fCBub3RpY2UudGl0bGUuaXNOb3RCbGFuaygpIHx8IG5vdGljZS5ib2R5LmlzTm90QmxhbmsoKQoKICAgIC8qKiDlhazlkYrnuqfliKvliLAgY3JpdGljYWwg5pe25LiN5Y+v6Lez6L+H77yM5ZKMIGZvcmNlIOS4gOagt+W8uuOAgiAqLwogICAgdmFsIG5vdGljZUJsb2NraW5nOiBCb29sZWFuCiAgICAgICAgZ2V0KCkgPSBub3RpY2UubGV2ZWwgPT0gImNyaXRpY2FsIiAmJiAobm90aWNlLnRpdGxlLmlzTm90QmxhbmsoKSB8fCBub3RpY2UuYm9keS5pc05vdEJsYW5rKCkpCn0KCgovKioKICog5LqR56uv5LiL5Y+R55qE55So5oi35Y2P6K6uIC8g6ZqQ56eB5pS/562W44CCCiAqCiAqIOWGheWuueWtmOWcqOacjeWKoeerr+W5tuWPkeW4g+WIsCBLVu+8iGBkYXRhL2xlZ2FsLmpzb25g77yJ77yM5a6i5oi356uvKirkvJjlhYjor7sgS1YqKiDigJTigJQKICog6LWwIENETu+8jOaJi+acuua6kOermeayoeW8gOS5n+iDveivu+WIsO+8jOi/mOS4jeeUqOavj+asoeWbnua6kOOAggogKi8KQFNlcmlhbGl6YWJsZQpkYXRhIGNsYXNzIExlZ2FsSW5mbygKICAgIHZhbCBvazogQm9vbGVhbiA9IGZhbHNlLAogICAgLyoqIOavj+asoeermemVv+S/neWtmCArMeOAguWuouaIt+err+aLv+Wug+WSjOiHquW3seOAjOW3suWQjOaEj+OAjeeahOeJiOacrOavlO+8jOWPmOWkp+S6huaJjeW8ueeql+OAgiAqLwogICAgdmFsIHZlcnNpb246IEludCA9IDAsCiAgICB2YWwgdXBkYXRlZEF0OiBTdHJpbmcgPSAiIiwKICAgIHZhbCB0ZXJtczogU3RyaW5nID0gIiIsCiAgICB2YWwgcHJpdmFjeTogU3RyaW5nID0gIiIsCikK
+package org.linbaogu.romhub.data
+
+import kotlinx.serialization.Serializable
+
+// 说明：JSON 键是下划线风格，客户端统一用 JsonNamingStrategy.SnakeCase 映射，
+// 所以这里写驼峰即可（见 Api.kt 的 RomJson）。
+
+@Serializable
+data class DeviceItem(
+    val code: String = "",
+    val nameZh: String = "",
+    val nameEn: String = "",
+    val series: String = "",
+    val brand: String = "",
+    val brandZh: String = "",
+    val supports: String = "",
+    val android: String = "",
+    val image: String = "",
+    val updatedAt: String = "",
+    val romCount: Int = 0,
+    val lastDate: String = "",
+    val latestVersion: String = "",
+    val latestRegion: String = "",
+    val latestBranch: String = "",
+) {
+    val displayName: String get() = nameZh.ifBlank { nameEn.ifBlank { code } }
+
+    /**
+     * 关键词匹配。
+     *
+     * 接口挂掉时用 CDN 快照在本地筛（快照是全量表），字段范围和服务端一致：
+     * 代号、中英文名、系列、品牌。
+     */
+    fun matches(keyword: String): Boolean {
+        val k = keyword.trim().lowercase()
+        if (k.isBlank()) return true
+        return code.lowercase().contains(k) ||
+            nameZh.lowercase().contains(k) ||
+            nameEn.lowercase().contains(k) ||
+            series.lowercase().contains(k) ||
+            brand.lowercase().contains(k) ||
+            brandZh.lowercase().contains(k)
+    }
+}
+
+@Serializable
+data class DeviceListResp(val total: Int = 0, val items: List<DeviceItem> = emptyList())
+
+@Serializable
+data class RomItem(
+    val id: Long = 0,
+    val codename: String = "",
+    val region: String = "",
+    val branch: String = "",
+    val name: String = "",
+    val pageUrl: String = "",
+    val latestVersion: String = "",
+    val latestDate: String = "",
+    val android: String = "",
+    val osType: String = "",
+    val enabled: Int = 1,
+    val updatedAt: String = "",
+    val regionZh: String = "",
+    val branchZh: String = "",
+    val versionCount: Int = 0,
+)
+
+@Serializable
+data class DeviceDetailResp(
+    val device: DeviceItem = DeviceItem(),
+    val roms: List<RomItem> = emptyList(),
+)
+
+@Serializable
+data class Mirror(
+    val name: String = "",
+    val recovery: String = "",
+    val fastboot: String = "",
+) {
+    val hasAny: Boolean get() = recovery.isNotBlank() || fastboot.isNotBlank()
+}
+
+@Serializable
+data class RomVersion(
+    val id: Long = 0,
+    val codename: String = "",
+    val region: String = "",
+    val branch: String = "",
+    val version: String = "",
+    val downloadPage: String = "",
+    val fastbootUrl: String = "",
+    val recoveryUrl: String = "",
+    val filenameFast: String = "",
+    val filenameRec: String = "",
+    val android: String = "",
+    val osType: String = "",
+    val sizeText: String = "",
+    val romDate: String = "",
+    val resolved: Int = 0,
+    val resolvedAt: String = "",
+    val detectedAt: String = "",
+    val firstSeen: String = "",
+    val lastSeen: String = "",
+    val goneAt: String? = null,
+    val publicAt: String? = null,
+    val resumedAt: String? = null,
+    val regionZh: String = "",
+    val branchZh: String = "",
+    val mirrors: List<Mirror> = emptyList(),
+    val speedSig: String = "",
+)
+
+@Serializable
+data class RomVersionListResp(val total: Int = 0, val items: List<RomVersion> = emptyList())
+
+@Serializable
+data class FastLinkResp(val url: String = "")
+
+@Serializable
+data class RomUpdate(
+    val id: Long = 0,
+    val codename: String = "",
+    val region: String = "",
+    val branch: String = "",
+    val oldVersion: String = "",
+    val newVersion: String = "",
+    val versionId: Long = 0,
+    val portId: Long = 0,
+    val detectedAt: String = "",
+    val kind: String = "",
+    val deviceName: String = "",
+    val state: String = "",
+    val stateText: String = "",
+    val regionZh: String = "",
+    val branchZh: String = "",
+    val shortDate: String = "",
+    val kindZh: String = "",
+    val desc: String = "",
+)
+
+@Serializable
+data class RomUpdateListResp(
+    val total: Int = 0,
+    val items: List<RomUpdate> = emptyList(),
+    val counts: Map<String, Int> = emptyMap(),
+    val serverTime: String = "",
+)
+
+@Serializable
+data class PortPackage(
+    val id: Long = 0,
+    val codename: String = "",
+    val deviceName: String = "",
+    val author: String = "",
+    val source: String = "",
+    val title: String = "",
+    val portType: String = "",
+    val portKind: String = "",
+    val version: String = "",
+    val shareUrl: String = "",
+    val platform: String = "",
+    val platformZh: String = "",
+    val fileName: String = "",
+    val fileSize: String = "",
+    val publishedAt: String = "",
+    val notice: String = "",
+    val submittedBy: String = "",
+    val enabled: Int = 1,
+    val createdAt: String = "",
+    val shortDate: String = "",
+)
+
+@Serializable
+data class PortListResp(val items: List<PortPackage> = emptyList())
+
+@Serializable
+data class PortDetailResp(val item: PortPackage = PortPackage())
+
+@Serializable
+data class Notice(
+    val id: Long = 0,
+    val source: String = "",
+    val externalId: String = "",
+    val title: String = "",
+    val summary: String = "",
+    val author: String = "",
+    val url: String = "",
+    val comments: Int = 0,
+    val likes: Int = 0,
+    val publishedAt: String = "",
+    val fetchedAt: String = "",
+)
+
+@Serializable
+data class NoticeListResp(val total: Int = 0, val items: List<Notice> = emptyList())
+
+@Serializable
+data class RomStats(
+    val devices: Int = 0,
+    val roms: Int = 0,
+    val versions: Int = 0,
+    val resolved: Int = 0,
+    val updates: Int = 0,
+    val lastSyncAt: String = "",
+)
+
+// ------------------------------------------------------------------ 开发者
+
+@Serializable
+data class DevApplyReq(
+    /** 账号 —— 站长要求填**邮箱**。 */
+    val username: String,
+    val password: String,
+    /** 名称。 */
+    val name: String = "",
+    /** 酷安名 —— 站长主要靠这个认人。 */
+    val coolapk: String = "",
+    /** 旧的「联系方式 / 说明」，保留兼容老服务端。 */
+    val contact: String = "",
+    val note: String = "",
+)
+
+@Serializable
+data class DevLoginReq(val username: String, val password: String)
+
+@Serializable
+data class DevLoginResp(
+    val ok: Boolean = false,
+    val token: String = "",
+    val username: String = "",
+    val role: String = "dev",
+    val error: String = "",
+)
+
+@Serializable
+data class DevApplyResp(
+    val ok: Boolean = false,
+    val id: Long = 0,
+    val status: String = "",
+    val error: String = "",
+)
+
+@Serializable
+data class DevMeResp(
+    val ok: Boolean = false,
+    val username: String = "",
+    val status: String = "",
+    val error: String = "",
+)
+
+@Serializable
+data class PortUploadReq(
+    val codename: String = "",
+    val deviceName: String = "",
+    val author: String = "",
+    val source: String = "",
+    val title: String = "",
+    val portType: String = "",
+    val portKind: String = "",
+    val version: String = "",
+    val shareUrl: String,
+    val fileName: String = "",
+    val fileSize: String = "",
+    val publishedAt: String = "",
+    val notice: String = "",
+)
+
+@Serializable
+data class PortUploadResp(
+    val ok: Boolean = false,
+    val id: Long = 0,
+    val duplicated: Boolean = false,
+    val error: String = "",
+)
+
+@Serializable
+data class PortParseFile(
+    val name: String = "",
+    val sizeHuman: String = "",
+    val createdAt: String = "",
+    val version: String = "",
+)
+
+@Serializable
+data class PortParseResp(
+    val ok: Boolean = false,
+    val platform: String = "",
+    val platformZh: String = "",
+    val files: List<PortParseFile> = emptyList(),
+    val error: String = "",
+)
+
+/** 网盘分享镜像（App 自检更新里可选的下载方式之一）。 */
+@Serializable
+data class UpdateMirror(
+    val name: String = "",
+    val url: String = "",
+    val code: String = "",
+)
+
+/** 更新公告：强制弹窗、不可跳过（例如下架某版本、要求重装）。 */
+@Serializable
+data class UpdateNotice(
+    val title: String = "",
+    val body: String = "",
+    /** info / warn / critical —— critical 视为不可跳过。 */
+    val level: String = "info",
+    val at: String = "",
+)
+
+/** 服务端 `server/data/app_update.json` 的内容（GET /api/app/update）。 */
+@Serializable
+data class AppUpdateInfo(
+    val ok: Boolean = false,
+    val hasUpdate: Boolean = false,
+    val versionCode: Int = 0,
+    val versionName: String = "",
+    val url: String = "",
+    val notes: String = "",
+    val force: Boolean = false,
+    val updatedAt: String = "",
+    /** 网盘分享：夸克/蓝奏/123 等，App 认得这些链接，点开直接进内置下载器。 */
+    val mirrors: List<UpdateMirror> = emptyList(),
+    /** 更新公告。 */
+    val notice: UpdateNotice = UpdateNotice(),
+    /**
+     * 灰度发布：站长可以把这次推送限定在某个 versionCode 区间。
+     * 不在区间内时**服务端**会把 has_update 压成 false 并带上 out_of_range = true。
+     * 客户端据此把「已是最新版本」换成「本次推送不适用于当前版本」，
+     * 否则用户会得到一个假结论（明明有新版，却告诉他已是最新）。
+     */
+    val outOfRange: Boolean = false,
+) {
+    /** 有网盘镜像也算有更新（可能压根没直链）。 */
+    val effectiveHasUpdate: Boolean
+        get() = hasUpdate || mirrors.isNotEmpty() || notice.title.isNotBlank() || notice.body.isNotBlank()
+
+    /** 公告级别到 critical 时不可跳过，和 force 一样强。 */
+    val noticeBlocking: Boolean
+        get() = notice.level == "critical" && (notice.title.isNotBlank() || notice.body.isNotBlank())
+}
+
+
+/**
+ * 云端下发的用户协议 / 隐私政策。
+ *
+ * 内容存在服务端并发布到 KV（`data/legal.json`），客户端**优先读 KV** ——
+ * 走 CDN，手机源站没开也能读到，还不用每次回源。
+ */
+@Serializable
+data class LegalInfo(
+    val ok: Boolean = false,
+    /** 每次站长保存 +1。客户端拿它和自己「已同意」的版本比，变大了才弹窗。 */
+    val version: Int = 0,
+    val updatedAt: String = "",
+    val terms: String = "",
+    val privacy: String = "",
+)

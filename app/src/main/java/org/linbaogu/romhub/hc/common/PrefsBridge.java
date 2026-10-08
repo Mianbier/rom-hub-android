@@ -1,1 +1,107 @@
-LyoKICogVGhpcyBmaWxlIGlzIHBhcnQgb2YgUk9NIEh1YiwgcmVsZWFzZWQgdW5kZXIgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSB2My4wLgogKgogKiDmnKzmlofku7bnp7vmpI0gLyDmlLnlhpnoh6ogSHlwZXJDZWlsZXLvvIhBR1BMLTMuMO+8jENvcHlyaWdodCAoQykgMjAyMy0yMDI2IEh5cGVyQ2VpbGVyCiAqIENvbnRyaWJ1dGlvbnPvvInvvIzmiJbkuLrlhbbnrYnku7fmm7/ouqvlrp7njrAg4oCU4oCUIOWujOaVtOadpea6kOS4jum4o+iwouingemhueebruagueebruW9lSBOT1RJQ0UubWTjgIIKICoKICogVGhpcyBwcm9ncmFtIGlzIGZyZWUgc29mdHdhcmU6IHlvdSBjYW4gcmVkaXN0cmlidXRlIGl0IGFuZC9vciBtb2RpZnkgaXQgdW5kZXIgdGhlIHRlcm1zCiAqIG9mIHRoZSBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UgYXMgcHVibGlzaGVkIGJ5IHRoZSBGcmVlIFNvZnR3YXJlIEZvdW5kYXRpb24sCiAqIGVpdGhlciB2ZXJzaW9uIDMgb2YgdGhlIExpY2Vuc2UuCiAqCiAqIFRoaXMgcHJvZ3JhbSBpcyBkaXN0cmlidXRlZCBpbiB0aGUgaG9wZSB0aGF0IGl0IHdpbGwgYmUgdXNlZnVsLCBidXQgV0lUSE9VVCBBTlkgV0FSUkFOVFk7CiAqIHdpdGhvdXQgZXZlbiB0aGUgaW1wbGllZCB3YXJyYW50eSBvZiBNRVJDSEFOVEFCSUxJVFkgb3IgRklUTkVTUyBGT1IgQSBQQVJUSUNVTEFSIFBVUlBPU0UuCiAqIFNlZSB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGZvciBtb3JlIGRldGFpbHMuCiAqCiAqIFlvdSBzaG91bGQgaGF2ZSByZWNlaXZlZCBhIGNvcHkgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBhbG9uZyB3aXRoIHRoaXMKICogcHJvZ3JhbS4gIElmIG5vdCwgc2VlIDxodHRwczovL3d3dy5nbnUub3JnL2xpY2Vuc2VzLz4uCiAqLwoKcGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLmhjLmNvbW1vbjsNCg0KaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0Ow0KaW1wb3J0IGFuZHJvaWQuY29udGVudC5TaGFyZWRQcmVmZXJlbmNlczsNCg0KaW1wb3J0IGphdmEudXRpbC5NYXA7DQoNCi8qKg0KICogSHlwZXJDZWlsZXIgYFByZWZzQnJpZGdlYCDnmoTnrYnku7fmm7/ouqvjgIINCiAqDQogKiBwcm92aXNpb24g5rWB56iL6YeM5Y+q55So5YiwIGBwdXRCeUFwcChrZXksIHZhbHVlKWDvvIjmiororr7nva7lhpnov5sgQXBwIOS+pyBwcmVmc++8ieOAgg0KICog5oiR5Lus55u05o6l6JC95Yiw5pysIEFwcCDoh6rlt7HnmoQgU2hhcmVkUHJlZmVyZW5jZXPvvIzkuI3mkKwgSHlwZXJDZWlsZXIg6YKj5aWXDQogKiDot6jov5vnqIsgcHJlZnMg5qGl77yI5a6D5Y+I5ouWIHByZWZzIOWMhe+8jOmTvuadoeWkqumVv++8ieOAgg0KICovDQpwdWJsaWMgZmluYWwgY2xhc3MgUHJlZnNCcmlkZ2Ugew0KDQogICAgcHJpdmF0ZSBzdGF0aWMgZmluYWwgU3RyaW5nIFNQX05BTUUgPSAiaGNfcHJvdmlzaW9uIjsNCg0KICAgIHByaXZhdGUgc3RhdGljIENvbnRleHQgc0FwcENvbnRleHQ7DQoNCiAgICBwcml2YXRlIFByZWZzQnJpZGdlKCkgew0KICAgIH0NCg0KICAgIC8qKiBBcHAg5ZCv5Yqo5pe26LCD5LiA5qyh77yM5L6b5pegIENvbnRleHQg55qEIHB1dEJ5QXBwIOS9v+eUqOOAgiAqLw0KICAgIHB1YmxpYyBzdGF0aWMgdm9pZCBpbml0Rm9yQXBwKENvbnRleHQgY3R4KSB7DQogICAgICAgIGlmIChjdHggIT0gbnVsbCkgc0FwcENvbnRleHQgPSBjdHguZ2V0QXBwbGljYXRpb25Db250ZXh0KCk7DQogICAgfQ0KDQogICAgcHJpdmF0ZSBzdGF0aWMgU2hhcmVkUHJlZmVyZW5jZXMgc3AoKSB7DQogICAgICAgIGlmIChzQXBwQ29udGV4dCA9PSBudWxsKSB0aHJvdyBuZXcgSWxsZWdhbFN0YXRlRXhjZXB0aW9uKCJQcmVmc0JyaWRnZS5pbml0Rm9yQXBwKCkg5pyq6LCD55SoIik7DQogICAgICAgIHJldHVybiBzQXBwQ29udGV4dC5nZXRTaGFyZWRQcmVmZXJlbmNlcyhTUF9OQU1FLCBDb250ZXh0Lk1PREVfUFJJVkFURSk7DQogICAgfQ0KDQogICAgLyoqIOWOn+eJiOetvuWQje+8muaXoCBDb250ZXh077yI6LWw6Z2Z5oCBIGFwcCBjb250ZXh077yJ44CCICovDQogICAgcHVibGljIHN0YXRpYyB2b2lkIHB1dEJ5QXBwKFN0cmluZyBrZXksIE9iamVjdCB2YWx1ZSkgew0KICAgICAgICBTaGFyZWRQcmVmZXJlbmNlcy5FZGl0b3IgZSA9IHNwKCkuZWRpdCgpOw0KICAgICAgICBpZiAodmFsdWUgaW5zdGFuY2VvZiBCb29sZWFuKSBlLnB1dEJvb2xlYW4oa2V5LCAoQm9vbGVhbikgdmFsdWUpOw0KICAgICAgICBlbHNlIGlmICh2YWx1ZSBpbnN0YW5jZW9mIEludGVnZXIpIGUucHV0SW50KGtleSwgKEludGVnZXIpIHZhbHVlKTsNCiAgICAgICAgZWxzZSBpZiAodmFsdWUgaW5zdGFuY2VvZiBMb25nKSBlLnB1dExvbmcoa2V5LCAoTG9uZykgdmFsdWUpOw0KICAgICAgICBlbHNlIGlmICh2YWx1ZSBpbnN0YW5jZW9mIEZsb2F0KSBlLnB1dEZsb2F0KGtleSwgKEZsb2F0KSB2YWx1ZSk7DQogICAgICAgIGVsc2UgZS5wdXRTdHJpbmcoa2V5LCB2YWx1ZSA9PSBudWxsID8gbnVsbCA6IFN0cmluZy52YWx1ZU9mKHZhbHVlKSk7DQogICAgICAgIGUuYXBwbHkoKTsNCiAgICB9DQoNCiAgICBwdWJsaWMgc3RhdGljIFNoYXJlZFByZWZlcmVuY2VzIGdldFNoYXJlZFByZWZlcmVuY2VzKENvbnRleHQgY3R4KSB7DQogICAgICAgIHJldHVybiBjdHguZ2V0QXBwbGljYXRpb25Db250ZXh0KCkuZ2V0U2hhcmVkUHJlZmVyZW5jZXMoU1BfTkFNRSwgQ29udGV4dC5NT0RFX1BSSVZBVEUpOw0KICAgIH0NCg0KICAgIC8qKiDlhpnkuIDkuKrorr7nva7pobnvvIjmjInlgLznsbvlnovliIbmtL7vvInjgIIgKi8NCiAgICBwdWJsaWMgc3RhdGljIHZvaWQgcHV0QnlBcHAoQ29udGV4dCBjdHgsIFN0cmluZyBrZXksIE9iamVjdCB2YWx1ZSkgew0KICAgICAgICBTaGFyZWRQcmVmZXJlbmNlcy5FZGl0b3IgZSA9IGdldFNoYXJlZFByZWZlcmVuY2VzKGN0eCkuZWRpdCgpOw0KICAgICAgICBpZiAodmFsdWUgaW5zdGFuY2VvZiBCb29sZWFuKSB7DQogICAgICAgICAgICBlLnB1dEJvb2xlYW4oa2V5LCAoQm9vbGVhbikgdmFsdWUpOw0KICAgICAgICB9IGVsc2UgaWYgKHZhbHVlIGluc3RhbmNlb2YgSW50ZWdlcikgew0KICAgICAgICAgICAgZS5wdXRJbnQoa2V5LCAoSW50ZWdlcikgdmFsdWUpOw0KICAgICAgICB9IGVsc2UgaWYgKHZhbHVlIGluc3RhbmNlb2YgTG9uZykgew0KICAgICAgICAgICAgZS5wdXRMb25nKGtleSwgKExvbmcpIHZhbHVlKTsNCiAgICAgICAgfSBlbHNlIGlmICh2YWx1ZSBpbnN0YW5jZW9mIEZsb2F0KSB7DQogICAgICAgICAgICBlLnB1dEZsb2F0KGtleSwgKEZsb2F0KSB2YWx1ZSk7DQogICAgICAgIH0gZWxzZSB7DQogICAgICAgICAgICBlLnB1dFN0cmluZyhrZXksIHZhbHVlID09IG51bGwgPyBudWxsIDogU3RyaW5nLnZhbHVlT2YodmFsdWUpKTsNCiAgICAgICAgfQ0KICAgICAgICBlLmFwcGx5KCk7DQogICAgfQ0KDQogICAgLyoqIOWFvOWuue+8muacieS6m+iwg+eUqOeCueeUqCAoa2V5LCB2YWx1ZSkg5Lik5Y+C6YeN6L2944CCICovDQogICAgcHVibGljIHN0YXRpYyB2b2lkIHB1dEJ5QXBwKENvbnRleHQgY3R4LCBNYXA8U3RyaW5nLCA/PiB2YWx1ZXMpIHsNCiAgICAgICAgU2hhcmVkUHJlZmVyZW5jZXMuRWRpdG9yIGUgPSBnZXRTaGFyZWRQcmVmZXJlbmNlcyhjdHgpLmVkaXQoKTsNCiAgICAgICAgZm9yIChNYXAuRW50cnk8U3RyaW5nLCA/PiBlbiA6IHZhbHVlcy5lbnRyeVNldCgpKSB7DQogICAgICAgICAgICBPYmplY3QgdiA9IGVuLmdldFZhbHVlKCk7DQogICAgICAgICAgICBpZiAodiBpbnN0YW5jZW9mIEJvb2xlYW4pIHsNCiAgICAgICAgICAgICAgICBlLnB1dEJvb2xlYW4oZW4uZ2V0S2V5KCksIChCb29sZWFuKSB2KTsNCiAgICAgICAgICAgIH0gZWxzZSBpZiAodiBpbnN0YW5jZW9mIEludGVnZXIpIHsNCiAgICAgICAgICAgICAgICBlLnB1dEludChlbi5nZXRLZXkoKSwgKEludGVnZXIpIHYpOw0KICAgICAgICAgICAgfSBlbHNlIGlmICh2IGluc3RhbmNlb2YgTG9uZykgew0KICAgICAgICAgICAgICAgIGUucHV0TG9uZyhlbi5nZXRLZXkoKSwgKExvbmcpIHYpOw0KICAgICAgICAgICAgfSBlbHNlIGlmICh2IGluc3RhbmNlb2YgRmxvYXQpIHsNCiAgICAgICAgICAgICAgICBlLnB1dEZsb2F0KGVuLmdldEtleSgpLCAoRmxvYXQpIHYpOw0KICAgICAgICAgICAgfSBlbHNlIHsNCiAgICAgICAgICAgICAgICBlLnB1dFN0cmluZyhlbi5nZXRLZXkoKSwgdiA9PSBudWxsID8gbnVsbCA6IFN0cmluZy52YWx1ZU9mKHYpKTsNCiAgICAgICAgICAgIH0NCiAgICAgICAgfQ0KICAgICAgICBlLmFwcGx5KCk7DQogICAgfQ0KDQogICAgcHVibGljIHN0YXRpYyBib29sZWFuIGlzSG9va1Byb2Nlc3MoKSB7DQogICAgICAgIHJldHVybiBmYWxzZTsNCiAgICB9DQp9DQo=
+/*
+ * This file is part of ROM Hub, released under the GNU Affero General Public License v3.0.
+ *
+ * 本文件移植 / 改写自 HyperCeiler（AGPL-3.0，Copyright (C) 2023-2026 HyperCeiler
+ * Contributions），或为其等价替身实现 —— 完整来源与鸣谢见项目根目录 NOTICE.md。
+ *
+ * This program is free software: you can redistribute it and/or modify it under the terms
+ * of the GNU Affero General Public License as published by the Free Software Foundation,
+ * either version 3 of the License.
+ *
+ * This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+ * without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * See the GNU Affero General Public License for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License along with this
+ * program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
+package org.linbaogu.romhub.hc.common;
+
+import android.content.Context;
+import android.content.SharedPreferences;
+
+import java.util.Map;
+
+/**
+ * HyperCeiler `PrefsBridge` 的等价替身。
+ *
+ * provision 流程里只用到 `putByApp(key, value)`（把设置写进 App 侧 prefs）。
+ * 我们直接落到本 App 自己的 SharedPreferences，不搬 HyperCeiler 那套
+ * 跨进程 prefs 桥（它又拖 prefs 包，链条太长）。
+ */
+public final class PrefsBridge {
+
+    private static final String SP_NAME = "hc_provision";
+
+    private static Context sAppContext;
+
+    private PrefsBridge() {
+    }
+
+    /** App 启动时调一次，供无 Context 的 putByApp 使用。 */
+    public static void initForApp(Context ctx) {
+        if (ctx != null) sAppContext = ctx.getApplicationContext();
+    }
+
+    private static SharedPreferences sp() {
+        if (sAppContext == null) throw new IllegalStateException("PrefsBridge.initForApp() 未调用");
+        return sAppContext.getSharedPreferences(SP_NAME, Context.MODE_PRIVATE);
+    }
+
+    /** 原版签名：无 Context（走静态 app context）。 */
+    public static void putByApp(String key, Object value) {
+        SharedPreferences.Editor e = sp().edit();
+        if (value instanceof Boolean) e.putBoolean(key, (Boolean) value);
+        else if (value instanceof Integer) e.putInt(key, (Integer) value);
+        else if (value instanceof Long) e.putLong(key, (Long) value);
+        else if (value instanceof Float) e.putFloat(key, (Float) value);
+        else e.putString(key, value == null ? null : String.valueOf(value));
+        e.apply();
+    }
+
+    public static SharedPreferences getSharedPreferences(Context ctx) {
+        return ctx.getApplicationContext().getSharedPreferences(SP_NAME, Context.MODE_PRIVATE);
+    }
+
+    /** 写一个设置项（按值类型分派）。 */
+    public static void putByApp(Context ctx, String key, Object value) {
+        SharedPreferences.Editor e = getSharedPreferences(ctx).edit();
+        if (value instanceof Boolean) {
+            e.putBoolean(key, (Boolean) value);
+        } else if (value instanceof Integer) {
+            e.putInt(key, (Integer) value);
+        } else if (value instanceof Long) {
+            e.putLong(key, (Long) value);
+        } else if (value instanceof Float) {
+            e.putFloat(key, (Float) value);
+        } else {
+            e.putString(key, value == null ? null : String.valueOf(value));
+        }
+        e.apply();
+    }
+
+    /** 兼容：有些调用点用 (key, value) 两参重载。 */
+    public static void putByApp(Context ctx, Map<String, ?> values) {
+        SharedPreferences.Editor e = getSharedPreferences(ctx).edit();
+        for (Map.Entry<String, ?> en : values.entrySet()) {
+            Object v = en.getValue();
+            if (v instanceof Boolean) {
+                e.putBoolean(en.getKey(), (Boolean) v);
+            } else if (v instanceof Integer) {
+                e.putInt(en.getKey(), (Integer) v);
+            } else if (v instanceof Long) {
+                e.putLong(en.getKey(), (Long) v);
+            } else if (v instanceof Float) {
+                e.putFloat(en.getKey(), (Float) v);
+            } else {
+                e.putString(en.getKey(), v == null ? null : String.valueOf(v));
+            }
+        }
+        e.apply();
+    }
+
+    public static boolean isHookProcess() {
+        return false;
+    }
+}

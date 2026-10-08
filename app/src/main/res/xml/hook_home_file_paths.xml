@@ -1,1 +1,62 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IS0tCiAgfiBUaGlzIGZpbGUgaXMgcGFydCBvZiBIeXBlckNlaWxlci4KICB+CiAgfiBIeXBlckNlaWxlciBpcyBmcmVlIHNvZnR3YXJlOiB5b3UgY2FuIHJlZGlzdHJpYnV0ZSBpdCBhbmQvb3IgbW9kaWZ5CiAgfiBpdCB1bmRlciB0aGUgdGVybXMgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBhcwogIH4gcHVibGlzaGVkIGJ5IHRoZSBGcmVlIFNvZnR3YXJlIEZvdW5kYXRpb24sIGVpdGhlciB2ZXJzaW9uIDMgb2YgdGhlCiAgfiBMaWNlbnNlLgogIH4KICB+IFRoaXMgcHJvZ3JhbSBpcyBkaXN0cmlidXRlZCBpbiB0aGUgaG9wZSB0aGF0IGl0IHdpbGwgYmUgdXNlZnVsLAogIH4gYnV0IFdJVEhPVVQgQU5ZIFdBUlJBTlRZOyB3aXRob3V0IGV2ZW4gdGhlIGltcGxpZWQgd2FycmFudHkgb2YKICB+IE1FUkNIQU5UQUJJTElUWSBvciBGSVRORVNTIEZPUiBBIFBBUlRJQ1VMQVIgUFVSUE9TRS4gIFNlZSB0aGUKICB+IEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBmb3IgbW9yZSBkZXRhaWxzLgogIH4KICB+IFlvdSBzaG91bGQgaGF2ZSByZWNlaXZlZCBhIGNvcHkgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZQogIH4gYWxvbmcgd2l0aCB0aGlzIHByb2dyYW0uICBJZiBub3QsIHNlZSA8aHR0cHM6Ly93d3cuZ251Lm9yZy9saWNlbnNlcy8+LgogIH4KICB+IENvcHlyaWdodCAoQykgMjAyMy0yMDI2IEh5cGVyQ2VpbGVyIENvbnRyaWJ1dGlvbnMKICAtLT4KPHBhdGhzPgogICAgPGZpbGVzLXBhdGgKICAgICAgICBuYW1lPSJzaGFyZV9pbWFnZXMiCiAgICAgICAgcGF0aD0iaW1hZ2VzLyIgLz4KICAgIDxmaWxlcy1wYXRoCiAgICAgICAgbmFtZT0iaG9tZV9wcmV2aWV3LnBuZyIKICAgICAgICBwYXRoPSIuIiAvPgogICAgPGZpbGVzLXBhdGgKICAgICAgICBuYW1lPSJwYV9oZWFkZXIiCiAgICAgICAgcGF0aD0iL2ltYWdlcy9hc3Npc3RhbnQiIC8+CiAgICA8cm9vdC1wYXRoCiAgICAgICAgbmFtZT0iZGF0YV9hcHAiCiAgICAgICAgcGF0aD0iL2RhdGEvYXBwLyIgLz4KICAgIDxyb290LXBhdGgKICAgICAgICBuYW1lPSJwcm9kdWN0X2FwcCIKICAgICAgICBwYXRoPSIvcHJvZHVjdC9kYXRhLWFwcC8iIC8+CiAgICA8cm9vdC1wYXRoCiAgICAgICAgbmFtZT0iZGF0YV9hcHBfcmVjb21tZW5kIgogICAgICAgIHBhdGg9Ii9kYXRhL21pdWkvcmVjb21tZW5kLyIgLz4KICAgIDxyb290LXBhdGgKICAgICAgICBuYW1lPSJjdXN0X2FwcCIKICAgICAgICBwYXRoPSIvY3VzdC9hcHAvIiAvPgogICAgPHJvb3QtcGF0aAogICAgICAgIG5hbWU9ImN1c3RfZGF0YV9hcHAiCiAgICAgICAgcGF0aD0iL2N1c3QvZGF0YS1hcHAvIiAvPgogICAgPGZpbGVzLXBhdGgKICAgICAgICBuYW1lPSJtYW1sX2NvbmZpZyIKICAgICAgICBwYXRoPSIvbWFtbC9jb25maWciIC8+CiAgICA8ZmlsZXMtcGF0aAogICAgICAgIG5hbWU9Im1hbWxfcmVzIgogICAgICAgIHBhdGg9Ii9tYW1sL3JlcyIgLz4KICAgIDxyb290LXBhdGgKICAgICAgICBuYW1lPSJzeXN0ZW1fYXBwIgogICAgICAgIHBhdGg9Ii9zeXN0ZW0vYXBwIiAvPgogICAgPHJvb3QtcGF0aAogICAgICAgIG5hbWU9InN5c3RlbV9wcml2X2FwcCIKICAgICAgICBwYXRoPSIvc3lzdGVtL3ByaXYtYXBwIiAvPgogICAgPHJvb3QtcGF0aAogICAgICAgIG5hbWU9InN5c3RlbV9wcm9kdWN0X2FwcCIKICAgICAgICBwYXRoPSIvc3lzdGVtL3Byb2R1Y3QvYXBwIiAvPgogICAgPHJvb3QtcGF0aAogICAgICAgIG5hbWU9InN5c3RlbV9leHRfYXBwIgogICAgICAgIHBhdGg9Ii9zeXN0ZW1fZXh0L3ByaXYtYXBwIiAvPgo8L3BhdGhzPg==
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ This file is part of HyperCeiler.
+  ~
+  ~ HyperCeiler is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU Affero General Public License as
+  ~ published by the Free Software Foundation, either version 3 of the
+  ~ License.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU Affero General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU Affero General Public License
+  ~ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+  ~
+  ~ Copyright (C) 2023-2026 HyperCeiler Contributions
+  -->
+<paths>
+    <files-path
+        name="share_images"
+        path="images/" />
+    <files-path
+        name="home_preview.png"
+        path="." />
+    <files-path
+        name="pa_header"
+        path="/images/assistant" />
+    <root-path
+        name="data_app"
+        path="/data/app/" />
+    <root-path
+        name="product_app"
+        path="/product/data-app/" />
+    <root-path
+        name="data_app_recommend"
+        path="/data/miui/recommend/" />
+    <root-path
+        name="cust_app"
+        path="/cust/app/" />
+    <root-path
+        name="cust_data_app"
+        path="/cust/data-app/" />
+    <files-path
+        name="maml_config"
+        path="/maml/config" />
+    <files-path
+        name="maml_res"
+        path="/maml/res" />
+    <root-path
+        name="system_app"
+        path="/system/app" />
+    <root-path
+        name="system_priv_app"
+        path="/system/priv-app" />
+    <root-path
+        name="system_product_app"
+        path="/system/product/app" />
+    <root-path
+        name="system_ext_app"
+        path="/system_ext/priv-app" />
+</paths>

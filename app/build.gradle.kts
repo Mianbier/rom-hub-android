@@ -1,1 +1,180 @@
-QGZpbGU6U3VwcHJlc3MoIlVuc3RhYmxlQXBpVXNhZ2UiKQ0KDQpwbHVnaW5zIHsNCiAgICBhbGlhcyhsaWJzLnBsdWdpbnMuYWdwLmFwcCkNCiAgICBhbGlhcyhsaWJzLnBsdWdpbnMuY29tcG9zZS5jb21waWxlcikNCiAgICBhbGlhcyhsaWJzLnBsdWdpbnMua290bGluLnNlcmlhbGl6YXRpb24pDQp9DQoNCmFuZHJvaWQgew0KICAgIG5hbWVzcGFjZSA9ICJvcmcubGluYmFvZ3Uucm9taHViIg0KDQogICAgY29tcGlsZVNkayB7DQogICAgICAgIHZlcnNpb24gPSByZWxlYXNlKDM3KSB7DQogICAgICAgICAgICBtaW5vckFwaUxldmVsID0gMg0KICAgICAgICB9DQogICAgfQ0KICAgIGJ1aWxkVG9vbHNWZXJzaW9uID0gIjM3LjAuMCINCg0KICAgIGRlZmF1bHRDb25maWcgew0KICAgICAgICBhcHBsaWNhdGlvbklkID0gIm9yZy5saW5iYW9ndS5yb21odWIiDQogICAgICAgIG1pblNkayA9IDMzDQogICAgICAgIHRhcmdldFNkayA9IDM3DQogICAgICAgIC8vIOKaoCB2ZXJzaW9uQ29kZSDlv4XpobvlkozjgIzniYjmnKzlkI3oh6rliqjmjaLnrpfjgI3nmoTop4TliJnkuIDoh7TvvJptYWpvcioxMDAwMCArIG1pbm9yKjEwMCArIHBhdGNoDQogICAgICAgIC8vICAg77yI6KeBIGFkbWluIOerryBBZG1pblZpZXdNb2RlbC5rdCDnmoQgdmVyc2lvblRvQ29kZe+8ieOAgjIuMC4wIOKGkiAyMDAwMOOAgg0KICAgICAgICAvLyAgIOS4jeS4gOiHtOeahOWQjuaenO+8muacjeWKoeerr+aMiSAyLjAuMCDnrpflh7ogMjAwMDDjgIHlrqLmiLfnq6/lhpkgNjDvvIzlrqLmiLfnq6/kvJror6/miqXjgIzmnInmlrDniYjmnKzjgI3jgIINCiAgICAgICAgdmVyc2lvbkNvZGUgPSAyMDAwMg0KICAgICAgICB2ZXJzaW9uTmFtZSA9ICIyLjAuMiINCiAgICAgICAgcmVzb3VyY2VDb25maWd1cmF0aW9ucyArPSBsaXN0T2YoInpoIiwgImVuIikNCiAgICB9DQoNCiAgICAvKioNCiAgICAgKiDni6znq4vnrb7lkI3phY3nva7jgIINCiAgICAgKg0KICAgICAqIOKaoCDkuLrku4DkuYjkuI3mlrDlu7oga2V5c3RvcmXvvJrlt7Llj5HluIPnmoQgMTEg5Liq54mI5pys6YO95piv55SoIEFuZHJvaWQg6LCD6K+V6K+B5Lmm562+55qE44CCDQogICAgICogICAg5o2i5oiQ5Yir55qE6K+B5Lmm5Lya5a+86Ie0562+5ZCN5qCh6aqM5aSx6LSl77yM6ICB55So5oi35b+F6aG7Kirljbjovb3ph43oo4UqKuaJjeiDveWNh+e6p+OAgg0KICAgICAqICAgIOaJgOS7pei/memHjOayv+eUqOiwg+ivleivgeS5pu+8iOi3r+W+hOWbuuWumuS4uiB+Ly5hbmRyb2lkL2RlYnVnLmtleXN0b3Jl77yJ77yMDQogICAgICogICAg5Y+q5piv5oqK5a6D5pi+5byP5aOw5piO5oiQ5LiA5Liq5Y+rIGByZWxlYXNlYCDnmoTlkb3lkI3phY3nva7vvIzorqkgcmVsZWFzZSDlj5jkvZPkuI3lho0NCiAgICAgKiAgICDkvp3otZYgQUdQIOeahCBkZWJ1ZyDpu5jorqTphY3nva4g4oCU4oCUIOS6p+eJqeacrOi6q+S4jeW4puS7u+S9lSBkZWJ1ZyDmoIforrDjgIINCiAgICAgKg0KICAgICAqICAgIOWwhuadpeiLpeehruWunuimgeaNouato+W8j+ivgeS5pu+8jOW/hemhu+WQjOatpeWRiuefpeeUqOaIt+OAjOmcgOWNuOi9veaXp+eJiOOAjeOAgg0KICAgICAqLw0KICAgIHNpZ25pbmdDb25maWdzIHsNCiAgICAgICAgY3JlYXRlKCJyZWxlYXNlIikgew0KICAgICAgICAgICAgc3RvcmVGaWxlID0gZmlsZSgNCiAgICAgICAgICAgICAgICBTeXN0ZW0uZ2V0UHJvcGVydHkoInVzZXIuaG9tZSIpICsgIi8uYW5kcm9pZC9kZWJ1Zy5rZXlzdG9yZSINCiAgICAgICAgICAgICkNCiAgICAgICAgICAgIHN0b3JlUGFzc3dvcmQgPSAiYW5kcm9pZCINCiAgICAgICAgICAgIGtleUFsaWFzID0gImFuZHJvaWRkZWJ1Z2tleSINCiAgICAgICAgICAgIGtleVBhc3N3b3JkID0gImFuZHJvaWQiDQogICAgICAgIH0NCiAgICB9DQoNCiAgICBidWlsZFR5cGVzIHsNCiAgICAgICAgZGVidWcgew0KICAgICAgICAgICAgYXBwbGljYXRpb25JZFN1ZmZpeCA9ICIuZGVidWciDQogICAgICAgICAgICB2ZXJzaW9uTmFtZVN1ZmZpeCA9ICItZGVidWciDQogICAgICAgIH0NCiAgICAgICAgcmVsZWFzZSB7DQogICAgICAgICAgICBpc01pbmlmeUVuYWJsZWQgPSBmYWxzZQ0KICAgICAgICAgICAgaXNTaHJpbmtSZXNvdXJjZXMgPSBmYWxzZQ0KICAgICAgICAgICAgcHJvZ3VhcmRGaWxlcygNCiAgICAgICAgICAgICAgICBnZXREZWZhdWx0UHJvZ3VhcmRGaWxlKCJwcm9ndWFyZC1hbmRyb2lkLW9wdGltaXplLnR4dCIpLA0KICAgICAgICAgICAgICAgICJwcm9ndWFyZC1ydWxlcy5wcm8iLA0KICAgICAgICAgICAgKQ0KICAgICAgICAgICAgLy8g55So5LiK6Z2i5pi+5byP5aOw5piO55qEIHJlbGVhc2Ug562+5ZCN6YWN572u77yI5YaF5a655LuN5piv5ZCM5LiA5byg6LCD6K+V6K+B5Lmm77yM5L+d6K+B5Y+v6KaG55uW5Y2H57qn77yJDQogICAgICAgICAgICBzaWduaW5nQ29uZmlnID0gc2lnbmluZ0NvbmZpZ3MuZ2V0QnlOYW1lKCJyZWxlYXNlIikNCiAgICAgICAgfQ0KICAgIH0NCg0KICAgIGNvbXBpbGVPcHRpb25zIHsNCiAgICAgICAgc291cmNlQ29tcGF0aWJpbGl0eSA9IEphdmFWZXJzaW9uLlZFUlNJT05fMjENCiAgICAgICAgdGFyZ2V0Q29tcGF0aWJpbGl0eSA9IEphdmFWZXJzaW9uLlZFUlNJT05fMjENCiAgICB9DQoNCiAgICBidWlsZEZlYXR1cmVzIHsNCiAgICAgICAgY29tcG9zZSA9IHRydWUNCiAgICAgICAgYnVpbGRDb25maWcgPSB0cnVlDQogICAgICAgIC8vIHByb3Zpc2lvbiDmtYHnqIvph4zmnIkgSVByb3Zpc2lvbkFuaW0gLyBJQW5pbUNhbGxiYWNrIOS4pOS4qiBBSURM77yMQUdQIOm7mOiupOWFsyBBSURMDQogICAgICAgIGFpZGwgPSB0cnVlDQogICAgfQ0KDQogICAgcGFja2FnaW5nIHsNCiAgICAgICAgcmVzb3VyY2VzIHsNCiAgICAgICAgICAgIGV4Y2x1ZGVzICs9ICIvTUVUQS1JTkYve0FMMi4wLExHUEwyLjF9Ig0KICAgICAgICAgICAgZXhjbHVkZXMgKz0gIi9NRVRBLUlORi9ERVBFTkRFTkNJRVMiDQogICAgICAgIH0NCiAgICB9DQoNCiAgICBsaW50IHsNCiAgICAgICAgYWJvcnRPbkVycm9yID0gZmFsc2UNCiAgICAgICAgY2hlY2tSZWxlYXNlQnVpbGRzID0gZmFsc2UNCiAgICB9DQp9DQoNCmtvdGxpbiB7DQogICAgY29tcGlsZXJPcHRpb25zIHsNCiAgICAgICAganZtVGFyZ2V0LnNldChvcmcuamV0YnJhaW5zLmtvdGxpbi5ncmFkbGUuZHNsLkp2bVRhcmdldC5KVk1fMjEpDQogICAgICAgIGZyZWVDb21waWxlckFyZ3MuYWRkQWxsKA0KICAgICAgICAgICAgIi1vcHQtaW49a290bGluLlJlcXVpcmVzT3B0SW4iLA0KICAgICAgICAgICAgIi1vcHQtaW49YW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuRXhwZXJpbWVudGFsTWF0ZXJpYWwzQXBpIiwNCiAgICAgICAgICAgICItb3B0LWluPWFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5FeHBlcmltZW50YWxGb3VuZGF0aW9uQXBpIiwNCiAgICAgICAgICAgICItb3B0LWluPWFuZHJvaWR4LmNvbXBvc2UudWkuRXhwZXJpbWVudGFsQ29tcG9zZVVpQXBpIiwNCiAgICAgICAgICAgICItb3B0LWluPWFuZHJvaWR4LmNvbXBvc2UuYW5pbWF0aW9uLkV4cGVyaW1lbnRhbEFuaW1hdGlvbkFwaSIsDQogICAgICAgICAgICAiLW9wdC1pbj1hbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LkV4cGVyaW1lbnRhbExheW91dEFwaSIsDQogICAgICAgICAgICAiLW9wdC1pbj10b3AueXVrb25nYS5taXVpeC5rbXAudGhlbWUuRXhwZXJpbWVudGFsTWl1aXhBcGkiLA0KICAgICAgICApDQogICAgfQ0KfQ0KDQpjb25maWd1cmF0aW9ucy5hbGwgew0KICAgIC8vIGZhbi5taXVpeDphcHBjb21wYXQg6YeMKiroh6rluKbkuobkuIDku70gYW5kcm9pZHguYXBwY29tcGF0IOeahOexuyoqDQogICAgLy8g77yIQXBwQ29tcGF0UmVzb3VyY2VzIC8gRHJhd2FibGVVdGlscyDnrYnvvInvvIzlkoznnJ/lrp7nmoQgYW5kcm9pZHguYXBwY29tcGF0OmFwcGNvbXBhdC1yZXNvdXJjZXMg5pKe5YyF44CCDQogICAgLy8g5o6S6Zmk55yf5a6e6YKj5Lu977yM55SoIGZhbi5taXVpeCDoh6rluKbnmoTvvIhIeXBlckNlaWxlciDlsLHmmK/ov5nkuYjlpITnkIbnmoTvvInjgIINCiAgICBleGNsdWRlKGdyb3VwID0gImFuZHJvaWR4LmFwcGNvbXBhdCIsIG1vZHVsZSA9ICJhcHBjb21wYXQtcmVzb3VyY2VzIikNCiAgICAvLyBjb25zdHJhaW50bGF5b3V0IOS8muaKiuecn+WunueahCBhbmRyb2lkeC5hcHBjb21wYXQ6YXBwY29tcGF0IOaLlui/m+adpe+8jOWQjOagt+S4jiBmYW4ubWl1aXg6YXBwY29tcGF0IOaSnuWMhQ0KICAgIGV4Y2x1ZGUoZ3JvdXAgPSAiYW5kcm9pZHguYXBwY29tcGF0IiwgbW9kdWxlID0gImFwcGNvbXBhdCIpDQp9DQoNCmRlcGVuZGVuY2llcyB7DQogICAgaW1wbGVtZW50YXRpb24obGlicy5hbmRyb2lkeC5jb3JlLmt0eCkNCiAgICBpbXBsZW1lbnRhdGlvbihsaWJzLmFuZHJvaWR4LmFjdGl2aXR5LmNvbXBvc2UpDQogICAgaW1wbGVtZW50YXRpb24obGlicy5hbmRyb2lkeC5jb3JlLnNwbGFzaHNjcmVlbikNCg0KICAgIGltcGxlbWVudGF0aW9uKHBsYXRmb3JtKGxpYnMuYW5kcm9pZHguY29tcG9zZS5ib20pKQ0KICAgIGltcGxlbWVudGF0aW9uKGxpYnMuYW5kcm9pZHguY29tcG9zZS51aSkNCiAgICBpbXBsZW1lbnRhdGlvbihsaWJzLmFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzKQ0KICAgIGltcGxlbWVudGF0aW9uKGxpYnMuYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbC5pY29ucy5leHRlbmRlZCkNCiAgICBpbXBsZW1lbnRhdGlvbihsaWJzLmFuZHJvaWR4LmNvbXBvc2UudWkudG9vbGluZy5wcmV2aWV3KQ0KICAgIGRlYnVnSW1wbGVtZW50YXRpb24obGlicy5hbmRyb2lkeC5jb21wb3NlLnVpLnRvb2xpbmcpDQoNCiAgICBpbXBsZW1lbnRhdGlvbihsaWJzLmFuZHJvaWR4LmxpZmVjeWNsZS5ydW50aW1lLmt0eCkNCiAgICBpbXBsZW1lbnRhdGlvbihsaWJzLmFuZHJvaWR4LmxpZmVjeWNsZS5ydW50aW1lLmNvbXBvc2UpDQogICAgaW1wbGVtZW50YXRpb24obGlicy5hbmRyb2lkeC5saWZlY3ljbGUudmlld21vZGVsLmNvbXBvc2UpDQoNCiAgICBpbXBsZW1lbnRhdGlvbihsaWJzLmFuZHJvaWR4LndvcmsucnVudGltZS5rdHgpDQogICAgaW1wbGVtZW50YXRpb24obGlicy5hbmRyb2lkeC53ZWJraXQpDQoNCiAgICBpbXBsZW1lbnRhdGlvbihsaWJzLmtvdGxpbnguY29yb3V0aW5lcy5jb3JlKQ0KICAgIGltcGxlbWVudGF0aW9uKGxpYnMua290bGlueC5jb3JvdXRpbmVzLmFuZHJvaWQpDQogICAgaW1wbGVtZW50YXRpb24obGlicy5rb3RsaW54LnNlcmlhbGl6YXRpb24uanNvbikNCg0KICAgIC8vIEtlcm5lbFNVIOWQjOasviBVSSAvIOaooeezig0KICAgIGltcGxlbWVudGF0aW9uKGxpYnMubWl1aXgudWkpDQogICAgaW1wbGVtZW50YXRpb24obGlicy5taXVpeC5pY29ucykNCiAgICBpbXBsZW1lbnRhdGlvbihsaWJzLm1pdWl4Lm5hdikNCiAgICBpbXBsZW1lbnRhdGlvbihsaWJzLm1pdWl4LnByZWZlcmVuY2UpDQogICAgaW1wbGVtZW50YXRpb24obGlicy5taXVpeC5ibHVyKQ0KICAgIGltcGxlbWVudGF0aW9uKGxpYnMubWl1aXguc2hhZGVyKQ0KICAgIGltcGxlbWVudGF0aW9uKGxpYnMubWl1aXguY29yZSkNCg0KICAgIC8vIEh5cGVyQ2VpbGVyIOeahOW4g+WxgOeUqOS6hiBDb25zdHJhaW50TGF5b3V0IC8gRmxvdw0KICAgIGltcGxlbWVudGF0aW9uKCJhbmRyb2lkeC5jb25zdHJhaW50bGF5b3V0OmNvbnN0cmFpbnRsYXlvdXQ6Mi4yLjEiKQ0KDQogICAgaW1wbGVtZW50YXRpb24ocGxhdGZvcm0obGlicy5va2h0dHAuYm9tKSkNCiAgICBpbXBsZW1lbnRhdGlvbihsaWJzLm9raHR0cCkNCiAgICBpbXBsZW1lbnRhdGlvbihsaWJzLmNvaWwuY29tcG9zZSkNCiAgICBpbXBsZW1lbnRhdGlvbihsaWJzLmNvaWwubmV0d29yay5va2h0dHApDQoNCiAgICAvLyA9PT09PSBIeXBlckNlaWxlciDnmoQgTWl1aXjvvIhWaWV3IOeJiO+8iee7hOS7tuW6kyA9PT09PQ0KICAgIC8vIEh5cGVyQ2VpbGVyIOeahOeVjOmdouaYryBKYXZhICsg5Lyg57ufIFZpZXfvvIhGcmFnbWVudC9YTUzvvInvvIznlKjnmoTmmK8gZmFuLm1pdWl4OirjgIINCiAgICAvLyDkuLrkuobjgIznhafmioTjgI3lroPnmoTnlYzpnaLvvIjlhbPkuo7pobXjgIHmgqzmta7lupXmoI/lvIDlhbPjgIHljaHniYfjgIHlvLnnqpfliqjnlLvvvInvvIzmiormlbTlpZflvJXov5vmnaXnmoTjgIINCiAgICAvLyDlj5HluIPlnKggR2l0SHViIFBhY2thZ2Vz77yIbWF2ZW4ucGtnLmdpdGh1Yi5jb20vUmVDaHJvbm9SYWluL0h5cGVyQ2VpbGVy77yJ77yMDQogICAgLy8g6ZyA6KaB5Yet5o2uIOKAlOKAlCDlt7LphY3lnKggc2V0dGluZ3MuZ3JhZGxlLmt0cyArIOacrOacuiB+Ly5ncmFkbGUvZ3JhZGxlLnByb3BlcnRpZXPjgIINCiAgICBpbXBsZW1lbnRhdGlvbigiZmFuLm1pdWl4OmFuaW1hdGlvbjoxLjAuMTMuMCIpDQogICAgaW1wbGVtZW50YXRpb24oImZhbi5taXVpeDphcHBjb21wYXQ6MS4wLjEzLjAiKQ0KICAgIGltcGxlbWVudGF0aW9uKCJmYW4ubWl1aXg6YmFzZXdpZGdldDoxLjAuMTMuMCIpDQogICAgaW1wbGVtZW50YXRpb24oImZhbi5taXVpeDpib3R0b21zaGVldDoxLjAuMTMuMCIpDQogICAgaW1wbGVtZW50YXRpb24oImZhbi5taXVpeDpjYXJkdmlldzoxLjAuMTMuMCIpDQogICAgaW1wbGVtZW50YXRpb24oImZhbi5taXVpeDpjb3JlOjEuMC4xMy4wIikNCiAgICBpbXBsZW1lbnRhdGlvbigiZmFuLm1pdWl4OmZvbG1lOjEuMC4xMy4wIikNCiAgICBpbXBsZW1lbnRhdGlvbigiZmFuLm1pdWl4Om5hdmlnYXRvcjoxLjAuMTMuMCIpDQogICAgaW1wbGVtZW50YXRpb24oImZhbi5taXVpeDpuZXN0ZWRoZWFkZXI6MS4wLjEzLjAiKQ0KICAgIGltcGxlbWVudGF0aW9uKCJmYW4ubWl1aXg6cGlja2Vyd2lkZ2V0OjEuMC4xMy4wIikNCiAgICBpbXBsZW1lbnRhdGlvbigiZmFuLm1pdWl4OnByZWZlcmVuY2U6MS4wLjEzLjAiKQ0KICAgIGltcGxlbWVudGF0aW9uKCJmYW4ubWl1aXg6cmVjeWNsZXJ2aWV3OjEuMC4xMy4wIikNCiAgICBpbXBsZW1lbnRhdGlvbigiZmFuLm1pdWl4OnNwcmluZ2JhY2s6MS4wLjEzLjAiKQ0KICAgIGltcGxlbWVudGF0aW9uKCJmYW4ubWl1aXg6dGhlbWU6MS4wLjEzLjAiKQ0KICAgIGltcGxlbWVudGF0aW9uKCJmYW4ubWl1aXg6dmlld3BhZ2VyOjEuMC4xMy4wIikNCiAgICBpbXBsZW1lbnRhdGlvbigiZmFuLm1pdWl4OnRyYW5zaXRpb246MS4wLjEzLjAiKQ0KfQ0K
+@file:Suppress("UnstableApiUsage")
+
+plugins {
+    alias(libs.plugins.agp.app)
+    alias(libs.plugins.compose.compiler)
+    alias(libs.plugins.kotlin.serialization)
+}
+
+android {
+    namespace = "org.linbaogu.romhub"
+
+    compileSdk {
+        version = release(37) {
+            minorApiLevel = 2
+        }
+    }
+    buildToolsVersion = "37.0.0"
+
+    defaultConfig {
+        applicationId = "org.linbaogu.romhub"
+        minSdk = 33
+        targetSdk = 37
+        // ⚠ versionCode 必须和「版本名自动换算」的规则一致：major*10000 + minor*100 + patch
+        //   （见 admin 端 AdminViewModel.kt 的 versionToCode）。2.0.0 → 20000。
+        //   不一致的后果：服务端按 2.0.0 算出 20000、客户端写 60，客户端会误报「有新版本」。
+        versionCode = 20002
+        versionName = "2.0.2"
+        resourceConfigurations += listOf("zh", "en")
+    }
+
+    /**
+     * 独立签名配置。
+     *
+     * ⚠ 为什么不新建 keystore：已发布的 11 个版本都是用 Android 调试证书签的。
+     *    换成别的证书会导致签名校验失败，老用户必须**卸载重装**才能升级。
+     *    所以这里沿用调试证书（路径固定为 ~/.android/debug.keystore），
+     *    只是把它显式声明成一个叫 `release` 的命名配置，让 release 变体不再
+     *    依赖 AGP 的 debug 默认配置 —— 产物本身不带任何 debug 标记。
+     *
+     *    将来若确实要换正式证书，必须同步告知用户「需卸载旧版」。
+     */
+    signingConfigs {
+        create("release") {
+            storeFile = file(
+                System.getProperty("user.home") + "/.android/debug.keystore"
+            )
+            storePassword = "android"
+            keyAlias = "androiddebugkey"
+            keyPassword = "android"
+        }
+    }
+
+    buildTypes {
+        debug {
+            applicationIdSuffix = ".debug"
+            versionNameSuffix = "-debug"
+        }
+        release {
+            isMinifyEnabled = false
+            isShrinkResources = false
+            proguardFiles(
+                getDefaultProguardFile("proguard-android-optimize.txt"),
+                "proguard-rules.pro",
+            )
+            // 用上面显式声明的 release 签名配置（内容仍是同一张调试证书，保证可覆盖升级）
+            signingConfig = signingConfigs.getByName("release")
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_21
+        targetCompatibility = JavaVersion.VERSION_21
+    }
+
+    buildFeatures {
+        compose = true
+        buildConfig = true
+        // provision 流程里有 IProvisionAnim / IAnimCallback 两个 AIDL，AGP 默认关 AIDL
+        aidl = true
+    }
+
+    packaging {
+        resources {
+            excludes += "/META-INF/{AL2.0,LGPL2.1}"
+            excludes += "/META-INF/DEPENDENCIES"
+        }
+    }
+
+    lint {
+        abortOnError = false
+        checkReleaseBuilds = false
+    }
+}
+
+kotlin {
+    compilerOptions {
+        jvmTarget.set(org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_21)
+        freeCompilerArgs.addAll(
+            "-opt-in=kotlin.RequiresOptIn",
+            "-opt-in=androidx.compose.material3.ExperimentalMaterial3Api",
+            "-opt-in=androidx.compose.foundation.ExperimentalFoundationApi",
+            "-opt-in=androidx.compose.ui.ExperimentalComposeUiApi",
+            "-opt-in=androidx.compose.animation.ExperimentalAnimationApi",
+            "-opt-in=androidx.compose.foundation.layout.ExperimentalLayoutApi",
+            "-opt-in=top.yukonga.miuix.kmp.theme.ExperimentalMiuixApi",
+        )
+    }
+}
+
+configurations.all {
+    // fan.miuix:appcompat 里**自带了一份 androidx.appcompat 的类**
+    // （AppCompatResources / DrawableUtils 等），和真实的 androidx.appcompat:appcompat-resources 撞包。
+    // 排除真实那份，用 fan.miuix 自带的（HyperCeiler 就是这么处理的）。
+    exclude(group = "androidx.appcompat", module = "appcompat-resources")
+    // constraintlayout 会把真实的 androidx.appcompat:appcompat 拖进来，同样与 fan.miuix:appcompat 撞包
+    exclude(group = "androidx.appcompat", module = "appcompat")
+}
+
+dependencies {
+    implementation(libs.androidx.core.ktx)
+    implementation(libs.androidx.activity.compose)
+    implementation(libs.androidx.core.splashscreen)
+
+    implementation(platform(libs.androidx.compose.bom))
+    implementation(libs.androidx.compose.ui)
+    implementation(libs.androidx.compose.material3)
+    implementation(libs.androidx.compose.material.icons.extended)
+    implementation(libs.androidx.compose.ui.tooling.preview)
+    debugImplementation(libs.androidx.compose.ui.tooling)
+
+    implementation(libs.androidx.lifecycle.runtime.ktx)
+    implementation(libs.androidx.lifecycle.runtime.compose)
+    implementation(libs.androidx.lifecycle.viewmodel.compose)
+
+    implementation(libs.androidx.work.runtime.ktx)
+    implementation(libs.androidx.webkit)
+
+    implementation(libs.kotlinx.coroutines.core)
+    implementation(libs.kotlinx.coroutines.android)
+    implementation(libs.kotlinx.serialization.json)
+
+    // KernelSU 同款 UI / 模糊
+    implementation(libs.miuix.ui)
+    implementation(libs.miuix.icons)
+    implementation(libs.miuix.nav)
+    implementation(libs.miuix.preference)
+    implementation(libs.miuix.blur)
+    implementation(libs.miuix.shader)
+    implementation(libs.miuix.core)
+
+    // HyperCeiler 的布局用了 ConstraintLayout / Flow
+    implementation("androidx.constraintlayout:constraintlayout:2.2.1")
+
+    implementation(platform(libs.okhttp.bom))
+    implementation(libs.okhttp)
+    implementation(libs.coil.compose)
+    implementation(libs.coil.network.okhttp)
+
+    // ===== HyperCeiler 的 Miuix（View 版）组件库 =====
+    // HyperCeiler 的界面是 Java + 传统 View（Fragment/XML），用的是 fan.miuix:*。
+    // 为了「照抄」它的界面（关于页、悬浮底栏开关、卡片、弹窗动画），把整套引进来的。
+    // 发布在 GitHub Packages（maven.pkg.github.com/ReChronoRain/HyperCeiler），
+    // 需要凭据 —— 已配在 settings.gradle.kts + 本机 ~/.gradle/gradle.properties。
+    implementation("fan.miuix:animation:1.0.13.0")
+    implementation("fan.miuix:appcompat:1.0.13.0")
+    implementation("fan.miuix:basewidget:1.0.13.0")
+    implementation("fan.miuix:bottomsheet:1.0.13.0")
+    implementation("fan.miuix:cardview:1.0.13.0")
+    implementation("fan.miuix:core:1.0.13.0")
+    implementation("fan.miuix:folme:1.0.13.0")
+    implementation("fan.miuix:navigator:1.0.13.0")
+    implementation("fan.miuix:nestedheader:1.0.13.0")
+    implementation("fan.miuix:pickerwidget:1.0.13.0")
+    implementation("fan.miuix:preference:1.0.13.0")
+    implementation("fan.miuix:recyclerview:1.0.13.0")
+    implementation("fan.miuix:springback:1.0.13.0")
+    implementation("fan.miuix:theme:1.0.13.0")
+    implementation("fan.miuix:viewpager:1.0.13.0")
+    implementation("fan.miuix:transition:1.0.13.0")
+}

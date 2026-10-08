@@ -1,1 +1,111 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IS0tCiAgfiBUaGlzIGZpbGUgaXMgcGFydCBvZiBIeXBlckNlaWxlci4KICB+CiAgfiBIeXBlckNlaWxlciBpcyBmcmVlIHNvZnR3YXJlOiB5b3UgY2FuIHJlZGlzdHJpYnV0ZSBpdCBhbmQvb3IgbW9kaWZ5CiAgfiBpdCB1bmRlciB0aGUgdGVybXMgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBhcwogIH4gcHVibGlzaGVkIGJ5IHRoZSBGcmVlIFNvZnR3YXJlIEZvdW5kYXRpb24sIGVpdGhlciB2ZXJzaW9uIDMgb2YgdGhlCiAgfiBMaWNlbnNlLgogIH4KICB+IFRoaXMgcHJvZ3JhbSBpcyBkaXN0cmlidXRlZCBpbiB0aGUgaG9wZSB0aGF0IGl0IHdpbGwgYmUgdXNlZnVsLAogIH4gYnV0IFdJVEhPVVQgQU5ZIFdBUlJBTlRZOyB3aXRob3V0IGV2ZW4gdGhlIGltcGxpZWQgd2FycmFudHkgb2YKICB+IE1FUkNIQU5UQUJJTElUWSBvciBGSVRORVNTIEZPUiBBIFBBUlRJQ1VMQVIgUFVSUE9TRS4gIFNlZSB0aGUKICB+IEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBmb3IgbW9yZSBkZXRhaWxzLgogIH4KICB+IFlvdSBzaG91bGQgaGF2ZSByZWNlaXZlZCBhIGNvcHkgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZQogIH4gYWxvbmcgd2l0aCB0aGlzIHByb2dyYW0uICBJZiBub3QsIHNlZSA8aHR0cHM6Ly93d3cuZ251Lm9yZy9saWNlbnNlcy8+LgogIH4KICB+IENvcHlyaWdodCAoQykgMjAyMy0yMDI2IEh5cGVyQ2VpbGVyIENvbnRyaWJ1dGlvbnMKICAtLT4KPFByZWZlcmVuY2VTY3JlZW4geG1sbnM6YW5kcm9pZD0iaHR0cDovL3NjaGVtYXMuYW5kcm9pZC5jb20vYXBrL3Jlcy9hbmRyb2lkIgogICAgeG1sbnM6YXBwPSJodHRwOi8vc2NoZW1hcy5hbmRyb2lkLmNvbS9hcGsvcmVzLWF1dG8iCiAgICBhcHA6bXlMb2NhdGlvbj0iQHN0cmluZy9jYW1lcmEiCiAgICBhcHA6cXVpY2tfcmVzdGFydD0iY29tLmFuZHJvaWQuY2FtZXJhIj4KICAgIDxjb20uc2V2dGluZ2UuaHlwZXJjZWlsZXIucHJlZnMuTGF5b3V0UHJlZmVyZW5jZQogICAgICAgIGFuZHJvaWQ6ZW5hYmxlZD0iZmFsc2UiCiAgICAgICAgYW5kcm9pZDprZXk9InByZWZzX2tleV9jYW1lcmFfdW5zdXBwb3J0ZWQiCiAgICAgICAgYW5kcm9pZDpsYXlvdXQ9IkBsYXlvdXQvaGVhZHRpcF93YXJuIgogICAgICAgIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvdW5zdXBwb3J0ZWRfZnVuY190aXBzIiAvPgoKICAgIDxQcmVmZXJlbmNlQ2F0ZWdvcnk+CiAgICAgICAgPFN3aXRjaFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpkZWZhdWx0VmFsdWU9ImZhbHNlIgogICAgICAgICAgICBhbmRyb2lkOmtleT0icHJlZnNfa2V5X2NhbWVyYV9jdXN0b21fdGhlbWVfY29sb3IiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvY2FtZXJhX2N1c3RvbV90aGVtZV9jb2xvciIgLz4KCiAgICAgICAgPENvbG9yUGlja2VyUHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOmRlZmF1bHRWYWx1ZT0iLTIwMjU2NzciCiAgICAgICAgICAgIGFuZHJvaWQ6ZGVwZW5kZW5jeT0icHJlZnNfa2V5X2NhbWVyYV9jdXN0b21fdGhlbWVfY29sb3IiCiAgICAgICAgICAgIGFuZHJvaWQ6a2V5PSJwcmVmc19rZXlfY2FtZXJhX2N1c3RvbV90aGVtZV9jb2xvcl9waWNrZXIiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvY2FtZXJhX2N1c3RvbV90aGVtZV9jb2xvcl9waWNrZXIiIC8+CgogICAgICAgIDxTd2l0Y2hQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6ZGVmYXVsdFZhbHVlPSJmYWxzZSIKICAgICAgICAgICAgYW5kcm9pZDprZXk9InByZWZzX2tleV9jYW1lcmFfbWF4X2JyaWdodG5lc3MiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvY2FtZXJhX21heF9icmlnaHRuZXNzIiAvPgoKICAgICAgICA8U3dpdGNoUHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOmRlZmF1bHRWYWx1ZT0iZmFsc2UiCiAgICAgICAgICAgIGFuZHJvaWQ6a2V5PSJwcmVmc19rZXlfY2FtZXJhX3VubG9ja180azYwIgogICAgICAgICAgICBhbmRyb2lkOnN1bW1hcnk9IkBzdHJpbmcvb25seV9uZXdfdmVyc2lvbl9jYW5fZG8iCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvY2FtZXJhX3VubG9ja180azYwIiAvPgoKICAgIDwvUHJlZmVyZW5jZUNhdGVnb3J5PgoKICAgIDxQcmVmZXJlbmNlQ2F0ZWdvcnk+CiAgICAgICAgPFN3aXRjaFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpkZWZhdWx0VmFsdWU9ImZhbHNlIgogICAgICAgICAgICBhbmRyb2lkOmtleT0icHJlZnNfa2V5X2NhbWVyYV9jdXN0b21fd2F0ZXJtYXJrIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJAc3RyaW5nL2NhbWVyYV9jdXN0b21fd2F0ZXJtYXJrIiAvPgoKICAgICAgICA8RWRpdFRleHRQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6ZGVmYXVsdFZhbHVlPSIiCiAgICAgICAgICAgIGFuZHJvaWQ6ZGVwZW5kZW5jeT0icHJlZnNfa2V5X2NhbWVyYV9jdXN0b21fd2F0ZXJtYXJrIgogICAgICAgICAgICBhbmRyb2lkOmtleT0icHJlZnNfa2V5X2NhbWVyYV9jdXN0b21fd2F0ZXJtYXJrX21hbnVmYWN0dXJlciIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iQHN0cmluZy9jYW1lcmFfY3VzdG9tX3dhdGVybWFya19tYW51ZmFjdHVyZXIiIC8+CgogICAgICAgIDxFZGl0VGV4dFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpkZWZhdWx0VmFsdWU9IiIKICAgICAgICAgICAgYW5kcm9pZDpkZXBlbmRlbmN5PSJwcmVmc19rZXlfY2FtZXJhX2N1c3RvbV93YXRlcm1hcmsiCiAgICAgICAgICAgIGFuZHJvaWQ6a2V5PSJwcmVmc19rZXlfY2FtZXJhX2N1c3RvbV93YXRlcm1hcmtfZGV2aWNlIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJAc3RyaW5nL2NhbWVyYV9jdXN0b21fd2F0ZXJtYXJrX2RldmljZSIgLz4KCiAgICAgICAgPFN3aXRjaFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpkZWZhdWx0VmFsdWU9ImZhbHNlIgogICAgICAgICAgICBhbmRyb2lkOmtleT0icHJlZnNfa2V5X2NhbWVyYV9ibGFja19sZWljYSIKICAgICAgICAgICAgYW5kcm9pZDpzdW1tYXJ5PSJAc3RyaW5nL2NhbWVyYV9ibGFja19sZWljYV9kZXNjIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJAc3RyaW5nL2NhbWVyYV9ibGFja19sZWljYSIgLz4KCiAgICAgICAgPFN3aXRjaFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpkZWZhdWx0VmFsdWU9ImZhbHNlIgogICAgICAgICAgICBhbmRyb2lkOmtleT0icHJlZnNfa2V5X2NhbWVyYV9jbG91ZF93YXRlcm1hcmsiCiAgICAgICAgICAgIGFuZHJvaWQ6c3VtbWFyeT0iQHN0cmluZy9jYW1lcmFfY2xvdWRfd2F0ZXJtYXJrX2Rlc2MiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvY2FtZXJhX2Nsb3VkX3dhdGVybWFyayIgLz4KCiAgICA8L1ByZWZlcmVuY2VDYXRlZ29yeT4KCiAgICA8UHJlZmVyZW5jZUNhdGVnb3J5PgogICAgICAgIDxTd2l0Y2hQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6ZGVmYXVsdFZhbHVlPSJmYWxzZSIKICAgICAgICAgICAgYW5kcm9pZDprZXk9InByZWZzX2tleV9jYW1lcmFfdW5sb2NrX2xlaWNhIgogICAgICAgICAgICBhbmRyb2lkOnN1bW1hcnk9IkBzdHJpbmcvb25seV9uZXdfdmVyc2lvbl9jYW5fZG8iCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvY2FtZXJhX3VubG9ja19sZWljYSIgLz4KCiAgICAgICAgPFN3aXRjaFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpkZWZhdWx0VmFsdWU9ImZhbHNlIgogICAgICAgICAgICBhbmRyb2lkOmtleT0icHJlZnNfa2V5X2NhbWVyYV9zdXBlcl9oaWdoX3F1YWxpdHkiCiAgICAgICAgICAgIGFuZHJvaWQ6c3VtbWFyeT0iQHN0cmluZy9vbmx5X25ld192ZXJzaW9uX2Nhbl9kbyIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iQHN0cmluZy9jYW1lcmFfc3VwZXJfaGlnaF9xdWFsaXR5IiAvPgoKICAgICAgICA8U3dpdGNoUHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOmRlZmF1bHRWYWx1ZT0iZmFsc2UiCiAgICAgICAgICAgIGFuZHJvaWQ6a2V5PSJwcmVmc19rZXlfY2FtZXJhX3NldHRpbmdzX2xhYl9vcHRpb25zIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJAc3RyaW5nL2NhbWVyYV9zZXR0aW5nc19sYWJfb3B0aW9ucyIgLz4KCiAgICAgICAgPFN3aXRjaFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpkZWZhdWx0VmFsdWU9ImZhbHNlIgogICAgICAgICAgICBhbmRyb2lkOmRlcGVuZGVuY3k9InByZWZzX2tleV9jYW1lcmFfc2V0dGluZ3NfbGFiX29wdGlvbnMiCiAgICAgICAgICAgIGFuZHJvaWQ6a2V5PSJwcmVmc19rZXlfY2FtZXJhX3NldHRpbmdzX3RyYWNrX2V5ZXMiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvY2FtZXJhX3NldHRpbmdzX3RyYWNrX2V5ZXMiIC8+CgogICAgPC9QcmVmZXJlbmNlQ2F0ZWdvcnk+CjwvUHJlZmVyZW5jZVNjcmVlbj4=
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ This file is part of HyperCeiler.
+  ~
+  ~ HyperCeiler is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU Affero General Public License as
+  ~ published by the Free Software Foundation, either version 3 of the
+  ~ License.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU Affero General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU Affero General Public License
+  ~ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+  ~
+  ~ Copyright (C) 2023-2026 HyperCeiler Contributions
+  -->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:myLocation="@string/camera"
+    app:quick_restart="com.android.camera">
+    <com.sevtinge.hyperceiler.prefs.LayoutPreference
+        android:enabled="false"
+        android:key="prefs_key_camera_unsupported"
+        android:layout="@layout/headtip_warn"
+        android:title="@string/unsupported_func_tips" />
+
+    <PreferenceCategory>
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefs_key_camera_custom_theme_color"
+            android:title="@string/camera_custom_theme_color" />
+
+        <ColorPickerPreference
+            android:defaultValue="-2025677"
+            android:dependency="prefs_key_camera_custom_theme_color"
+            android:key="prefs_key_camera_custom_theme_color_picker"
+            android:title="@string/camera_custom_theme_color_picker" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefs_key_camera_max_brightness"
+            android:title="@string/camera_max_brightness" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefs_key_camera_unlock_4k60"
+            android:summary="@string/only_new_version_can_do"
+            android:title="@string/camera_unlock_4k60" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory>
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefs_key_camera_custom_watermark"
+            android:title="@string/camera_custom_watermark" />
+
+        <EditTextPreference
+            android:defaultValue=""
+            android:dependency="prefs_key_camera_custom_watermark"
+            android:key="prefs_key_camera_custom_watermark_manufacturer"
+            android:title="@string/camera_custom_watermark_manufacturer" />
+
+        <EditTextPreference
+            android:defaultValue=""
+            android:dependency="prefs_key_camera_custom_watermark"
+            android:key="prefs_key_camera_custom_watermark_device"
+            android:title="@string/camera_custom_watermark_device" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefs_key_camera_black_leica"
+            android:summary="@string/camera_black_leica_desc"
+            android:title="@string/camera_black_leica" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefs_key_camera_cloud_watermark"
+            android:summary="@string/camera_cloud_watermark_desc"
+            android:title="@string/camera_cloud_watermark" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory>
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefs_key_camera_unlock_leica"
+            android:summary="@string/only_new_version_can_do"
+            android:title="@string/camera_unlock_leica" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefs_key_camera_super_high_quality"
+            android:summary="@string/only_new_version_can_do"
+            android:title="@string/camera_super_high_quality" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefs_key_camera_settings_lab_options"
+            android:title="@string/camera_settings_lab_options" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:dependency="prefs_key_camera_settings_lab_options"
+            android:key="prefs_key_camera_settings_track_eyes"
+            android:title="@string/camera_settings_track_eyes" />
+
+    </PreferenceCategory>
+</PreferenceScreen>

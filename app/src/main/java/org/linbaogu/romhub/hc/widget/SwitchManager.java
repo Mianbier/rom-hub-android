@@ -1,1 +1,141 @@
-LyoKICogVGhpcyBmaWxlIGlzIHBhcnQgb2YgUk9NIEh1YiwgcmVsZWFzZWQgdW5kZXIgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSB2My4wLgogKgogKiDmnKzmlofku7bnp7vmpI0gLyDmlLnlhpnoh6ogSHlwZXJDZWlsZXLvvIhBR1BMLTMuMO+8jENvcHlyaWdodCAoQykgMjAyMy0yMDI2IEh5cGVyQ2VpbGVyCiAqIENvbnRyaWJ1dGlvbnPvvInvvIzmiJbkuLrlhbbnrYnku7fmm7/ouqvlrp7njrAg4oCU4oCUIOWujOaVtOadpea6kOS4jum4o+iwouingemhueebruagueebruW9lSBOT1RJQ0UubWTjgIIKICoKICogVGhpcyBwcm9ncmFtIGlzIGZyZWUgc29mdHdhcmU6IHlvdSBjYW4gcmVkaXN0cmlidXRlIGl0IGFuZC9vciBtb2RpZnkgaXQgdW5kZXIgdGhlIHRlcm1zCiAqIG9mIHRoZSBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UgYXMgcHVibGlzaGVkIGJ5IHRoZSBGcmVlIFNvZnR3YXJlIEZvdW5kYXRpb24sCiAqIGVpdGhlciB2ZXJzaW9uIDMgb2YgdGhlIExpY2Vuc2UuCiAqCiAqIFRoaXMgcHJvZ3JhbSBpcyBkaXN0cmlidXRlZCBpbiB0aGUgaG9wZSB0aGF0IGl0IHdpbGwgYmUgdXNlZnVsLCBidXQgV0lUSE9VVCBBTlkgV0FSUkFOVFk7CiAqIHdpdGhvdXQgZXZlbiB0aGUgaW1wbGllZCB3YXJyYW50eSBvZiBNRVJDSEFOVEFCSUxJVFkgb3IgRklUTkVTUyBGT1IgQSBQQVJUSUNVTEFSIFBVUlBPU0UuCiAqIFNlZSB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGZvciBtb3JlIGRldGFpbHMuCiAqCiAqIFlvdSBzaG91bGQgaGF2ZSByZWNlaXZlZCBhIGNvcHkgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBhbG9uZyB3aXRoIHRoaXMKICogcHJvZ3JhbS4gIElmIG5vdCwgc2VlIDxodHRwczovL3d3dy5nbnUub3JnL2xpY2Vuc2VzLz4uCiAqLwoKcGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLmhjLndpZGdldDsKCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dDsKaW1wb3J0IGFuZHJvaWQudmlldy5HcmF2aXR5OwppbXBvcnQgYW5kcm9pZC52aWV3LkxheW91dEluZmxhdGVyOwppbXBvcnQgYW5kcm9pZC52aWV3LlZpZXc7CmltcG9ydCBhbmRyb2lkLnZpZXcuVmlld0dyb3VwOwppbXBvcnQgYW5kcm9pZC53aWRnZXQuRnJhbWVMYXlvdXQ7CgppbXBvcnQgYW5kcm9pZHguY29yZS52aWV3LlZpZXdDb21wYXQ7CmltcG9ydCBhbmRyb2lkeC5jb3JlLnZpZXcuV2luZG93SW5zZXRzQ29tcGF0OwoKaW1wb3J0IG9yZy5saW5iYW9ndS5yb21odWIuUjsKCmltcG9ydCBmYW4uY2FyZHZpZXcuSHlwZXJDYXJkVmlldzsKaW1wb3J0IGZhbi5jb3JlLnV0aWxzLkh5cGVyTWF0ZXJpYWxVdGlsczsKaW1wb3J0IGZhbi5jb3JlLnV0aWxzLk1hdGVyaWFsRGF5TmlnaHRDb25maWc7CmltcG9ydCBmYW4uY29yZS51dGlscy5Sb21VdGlsczsKaW1wb3J0IGZhbi50aGVtZS50b2tlbi5CbG9vbVN0cm9rZVRva2VuOwppbXBvcnQgZmFuLnRoZW1lLnRva2VuLkNvbG9yQmxlbmRUb2tlbjsKaW1wb3J0IGZhbi50aGVtZS50b2tlbi5NYXRlcmlhbERheU5pZ2h0VG9rZW47CmltcG9ydCBmYW4udGhlbWUudG9rZW4uTWF0ZXJpYWxUb2tlbjsKaW1wb3J0IGZhbi50aGVtZS50b2tlbi5oeXBlcm1hdGVyaWFsLk1hc2s7CgppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQ7CmltcG9ydCBhbmRyb2lkLnZpZXcuVmlldzsKaW1wb3J0IGFuZHJvaWQudmlldy5WaWV3R3JvdXA7CmltcG9ydCBhbmRyb2lkLndpZGdldC5GcmFtZUxheW91dDsKCnB1YmxpYyBjbGFzcyBTd2l0Y2hNYW5hZ2VyIHsKCiAgICBwcml2YXRlIGZpbmFsIENvbnRleHQgbUNvbnRleHQ7CiAgICBwcml2YXRlIGZpbmFsIFZpZXdHcm91cCBtUGFyZW50OwogICAgcHJpdmF0ZSBTd2l0Y2hWaWV3IG1Td2l0Y2hWaWV3OwoKICAgIHByaXZhdGUgYm9vbGVhbiBpc0Zsb2F0aW5nU3R5bGU7CiAgICBwcml2YXRlIE9uU3dpdGNoQ2hhbmdlTGlzdGVuZXIgbVVzZXJMaXN0ZW5lcjsKCiAgICBwdWJsaWMgU3dpdGNoTWFuYWdlcihWaWV3R3JvdXAgcGFyZW50KSB7CiAgICAgICAgbVBhcmVudCA9IHBhcmVudDsKICAgICAgICBtQ29udGV4dCA9IHBhcmVudC5nZXRDb250ZXh0KCk7CiAgICB9CgogICAgcHVibGljIGJvb2xlYW4gaXNGbG9hdGluZ1N0eWxlKCkgewogICAgICAgIHJldHVybiBpc0Zsb2F0aW5nU3R5bGU7CiAgICB9CgogICAgLyoqCiAgICAgKiDliJ3lp4vljJblubbmjILovb3op4blm74KICAgICAqLwogICAgcHVibGljIHZvaWQgYWRkU3dpdGNoVmlldyhpbnQgbWVudVJlcywgTmF2aWdhdGlvblN0eWxlIHN0eWxlKSB7CiAgICAgICAgaWYgKG1Td2l0Y2hWaWV3ID09IG51bGwpIHsKICAgICAgICAgICAgbVN3aXRjaFZpZXcgPSAoU3dpdGNoVmlldykgTGF5b3V0SW5mbGF0ZXIuZnJvbShtQ29udGV4dCkKICAgICAgICAgICAgICAgIC5pbmZsYXRlKFIubGF5b3V0LnN3aXRjaF9jYXJkX3ZpZXcsIG1QYXJlbnQsIGZhbHNlKTsKICAgICAgICAgICAgaWYgKG1Vc2VyTGlzdGVuZXIgIT0gbnVsbCkgewogICAgICAgICAgICAgICAgbVN3aXRjaFZpZXcuc2V0T25Td2l0Y2hDaGFuZ2VMaXN0ZW5lcihtVXNlckxpc3RlbmVyKTsKICAgICAgICAgICAgfQoKICAgICAgICAgICAgRnJhbWVMYXlvdXQuTGF5b3V0UGFyYW1zIGxwID0gbmV3IEZyYW1lTGF5b3V0LkxheW91dFBhcmFtcygKICAgICAgICAgICAgICAgIFZpZXdHcm91cC5MYXlvdXRQYXJhbXMuTUFUQ0hfUEFSRU5ULAogICAgICAgICAgICAgICAgVmlld0dyb3VwLkxheW91dFBhcmFtcy5XUkFQX0NPTlRFTlQKICAgICAgICAgICAgKTsKCiAgICAgICAgICAgIG1QYXJlbnQuYWRkVmlldyhtU3dpdGNoVmlldywgbHApOwoKICAgICAgICAgICAgVmlld0NvbXBhdC5yZXF1ZXN0QXBwbHlJbnNldHMobVN3aXRjaFZpZXcpOwogICAgICAgIH0KCiAgICAgICAgbVN3aXRjaFZpZXcuaW5mbGF0ZU1lbnUobWVudVJlcyk7CiAgICAgICAgc2V0RmxvYXRpbmdTdHlsZShzdHlsZSA9PSBOYXZpZ2F0aW9uU3R5bGUuQ0FQU1VMRV9JQ09OKTsKICAgIH0KCiAgICAvKioKICAgICAqIOe7n+S4gOWFpeWPo++8muWIh+aNouagt+W8jwogICAgICovCiAgICBwdWJsaWMgdm9pZCBzZXRGbG9hdGluZ1N0eWxlKGJvb2xlYW4gdXNlRmxvYXRpbmcpIHsKICAgICAgICB0aGlzLmlzRmxvYXRpbmdTdHlsZSA9IHVzZUZsb2F0aW5nOwogICAgICAgIGlmIChtU3dpdGNoVmlldyAhPSBudWxsKSB7CiAgICAgICAgICAgIG1Td2l0Y2hWaWV3LnVwZGF0ZVN0eWxlKHVzZUZsb2F0aW5nID8gTmF2aWdhdGlvblN0eWxlLkNBUFNVTEVfSUNPTiA6IE5hdmlnYXRpb25TdHlsZS5CT1RUT01fTEFCRUwpOwogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIOWklumDqOaOp+WItumAieS4re+8muaMiee0ouW8lQogICAgICovCiAgICBwdWJsaWMgdm9pZCBzZXRTZWxlY3RlZFBvc2l0aW9uKGludCBwb3NpdGlvbiwgYm9vbGVhbiBub3RpZnkpIHsKICAgICAgICBpZiAobVN3aXRjaFZpZXcgIT0gbnVsbCkgewogICAgICAgICAgICBtU3dpdGNoVmlldy5zZXRTZWxlY3RlZFRhYihwb3NpdGlvbiwgbm90aWZ5KTsKICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiDlpJbpg6jmjqfliLbpgInkuK3vvJrmjIkgTWVudSBJRAogICAgICovCiAgICBwdWJsaWMgdm9pZCBzZXRTZWxlY3RlZEl0ZW1JZChpbnQgaXRlbUlkLCBib29sZWFuIG5vdGlmeSkgewogICAgICAgIGlmIChtU3dpdGNoVmlldyAhPSBudWxsKSB7CiAgICAgICAgICAgIGludCBwb3MgPSBtU3dpdGNoVmlldy5nZXRQb3NpdGlvbkJ5SWQoaXRlbUlkKTsKICAgICAgICAgICAgaWYgKHBvcyAhPSAtMSkgbVN3aXRjaFZpZXcuc2V0U2VsZWN0ZWRUYWIocG9zLCBub3RpZnkpOwogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIOS7o+eQhuiuvue9ruebkeWQrOWZqAogICAgICovCiAgICBwdWJsaWMgdm9pZCBzZXRPblN3aXRjaENoYW5nZUxpc3RlbmVyKE9uU3dpdGNoQ2hhbmdlTGlzdGVuZXIgbGlzdGVuZXIpIHsKICAgICAgICBtVXNlckxpc3RlbmVyID0gbGlzdGVuZXI7CiAgICAgICAgaWYgKG1Td2l0Y2hWaWV3ICE9IG51bGwpIHsKICAgICAgICAgICAgbVN3aXRjaFZpZXcuc2V0T25Td2l0Y2hDaGFuZ2VMaXN0ZW5lcihsaXN0ZW5lcik7CiAgICAgICAgfQogICAgfQoKICAgIHB1YmxpYyB2b2lkIHNob3coKSB7CiAgICAgICAgaWYgKG1Td2l0Y2hWaWV3ICE9IG51bGwpIG1Td2l0Y2hWaWV3LnNldFZpc2liaWxpdHkoVmlldy5WSVNJQkxFKTsKICAgIH0KCiAgICBwdWJsaWMgdm9pZCBoaWRlKCkgewogICAgICAgIGlmIChtU3dpdGNoVmlldyAhPSBudWxsKSBtU3dpdGNoVmlldy5zZXRWaXNpYmlsaXR5KFZpZXcuR09ORSk7CiAgICB9CgogICAgcHVibGljIFN3aXRjaFZpZXcgZ2V0U3dpdGNoVmlldygpIHsKICAgICAgICByZXR1cm4gbVN3aXRjaFZpZXc7CiAgICB9Cn0K
+/*
+ * This file is part of ROM Hub, released under the GNU Affero General Public License v3.0.
+ *
+ * 本文件移植 / 改写自 HyperCeiler（AGPL-3.0，Copyright (C) 2023-2026 HyperCeiler
+ * Contributions），或为其等价替身实现 —— 完整来源与鸣谢见项目根目录 NOTICE.md。
+ *
+ * This program is free software: you can redistribute it and/or modify it under the terms
+ * of the GNU Affero General Public License as published by the Free Software Foundation,
+ * either version 3 of the License.
+ *
+ * This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+ * without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * See the GNU Affero General Public License for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License along with this
+ * program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
+package org.linbaogu.romhub.hc.widget;
+
+import android.content.Context;
+import android.view.Gravity;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.FrameLayout;
+
+import androidx.core.view.ViewCompat;
+import androidx.core.view.WindowInsetsCompat;
+
+import org.linbaogu.romhub.R;
+
+import fan.cardview.HyperCardView;
+import fan.core.utils.HyperMaterialUtils;
+import fan.core.utils.MaterialDayNightConfig;
+import fan.core.utils.RomUtils;
+import fan.theme.token.BloomStrokeToken;
+import fan.theme.token.ColorBlendToken;
+import fan.theme.token.MaterialDayNightToken;
+import fan.theme.token.MaterialToken;
+import fan.theme.token.hypermaterial.Mask;
+
+import android.content.Context;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.FrameLayout;
+
+public class SwitchManager {
+
+    private final Context mContext;
+    private final ViewGroup mParent;
+    private SwitchView mSwitchView;
+
+    private boolean isFloatingStyle;
+    private OnSwitchChangeListener mUserListener;
+
+    public SwitchManager(ViewGroup parent) {
+        mParent = parent;
+        mContext = parent.getContext();
+    }
+
+    public boolean isFloatingStyle() {
+        return isFloatingStyle;
+    }
+
+    /**
+     * 初始化并挂载视图
+     */
+    public void addSwitchView(int menuRes, NavigationStyle style) {
+        if (mSwitchView == null) {
+            mSwitchView = (SwitchView) LayoutInflater.from(mContext)
+                .inflate(R.layout.switch_card_view, mParent, false);
+            if (mUserListener != null) {
+                mSwitchView.setOnSwitchChangeListener(mUserListener);
+            }
+
+            FrameLayout.LayoutParams lp = new FrameLayout.LayoutParams(
+                ViewGroup.LayoutParams.MATCH_PARENT,
+                ViewGroup.LayoutParams.WRAP_CONTENT
+            );
+
+            mParent.addView(mSwitchView, lp);
+
+            ViewCompat.requestApplyInsets(mSwitchView);
+        }
+
+        mSwitchView.inflateMenu(menuRes);
+        setFloatingStyle(style == NavigationStyle.CAPSULE_ICON);
+    }
+
+    /**
+     * 统一入口：切换样式
+     */
+    public void setFloatingStyle(boolean useFloating) {
+        this.isFloatingStyle = useFloating;
+        if (mSwitchView != null) {
+            mSwitchView.updateStyle(useFloating ? NavigationStyle.CAPSULE_ICON : NavigationStyle.BOTTOM_LABEL);
+        }
+    }
+
+    /**
+     * 外部控制选中：按索引
+     */
+    public void setSelectedPosition(int position, boolean notify) {
+        if (mSwitchView != null) {
+            mSwitchView.setSelectedTab(position, notify);
+        }
+    }
+
+    /**
+     * 外部控制选中：按 Menu ID
+     */
+    public void setSelectedItemId(int itemId, boolean notify) {
+        if (mSwitchView != null) {
+            int pos = mSwitchView.getPositionById(itemId);
+            if (pos != -1) mSwitchView.setSelectedTab(pos, notify);
+        }
+    }
+
+    /**
+     * 代理设置监听器
+     */
+    public void setOnSwitchChangeListener(OnSwitchChangeListener listener) {
+        mUserListener = listener;
+        if (mSwitchView != null) {
+            mSwitchView.setOnSwitchChangeListener(listener);
+        }
+    }
+
+    public void show() {
+        if (mSwitchView != null) mSwitchView.setVisibility(View.VISIBLE);
+    }
+
+    public void hide() {
+        if (mSwitchView != null) mSwitchView.setVisibility(View.GONE);
+    }
+
+    public SwitchView getSwitchView() {
+        return mSwitchView;
+    }
+}

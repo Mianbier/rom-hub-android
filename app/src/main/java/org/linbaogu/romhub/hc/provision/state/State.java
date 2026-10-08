@@ -1,1 +1,148 @@
-LyoKICogVGhpcyBmaWxlIGlzIHBhcnQgb2YgUk9NIEh1YiwgcmVsZWFzZWQgdW5kZXIgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSB2My4wLgogKgogKiDmnKzmlofku7bnp7vmpI0gLyDmlLnlhpnoh6ogSHlwZXJDZWlsZXLvvIhBR1BMLTMuMO+8jENvcHlyaWdodCAoQykgMjAyMy0yMDI2IEh5cGVyQ2VpbGVyCiAqIENvbnRyaWJ1dGlvbnPvvInvvIzmiJbkuLrlhbbnrYnku7fmm7/ouqvlrp7njrAg4oCU4oCUIOWujOaVtOadpea6kOS4jum4o+iwouingemhueebruagueebruW9lSBOT1RJQ0UubWTjgIIKICoKICogVGhpcyBwcm9ncmFtIGlzIGZyZWUgc29mdHdhcmU6IHlvdSBjYW4gcmVkaXN0cmlidXRlIGl0IGFuZC9vciBtb2RpZnkgaXQgdW5kZXIgdGhlIHRlcm1zCiAqIG9mIHRoZSBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UgYXMgcHVibGlzaGVkIGJ5IHRoZSBGcmVlIFNvZnR3YXJlIEZvdW5kYXRpb24sCiAqIGVpdGhlciB2ZXJzaW9uIDMgb2YgdGhlIExpY2Vuc2UuCiAqCiAqIFRoaXMgcHJvZ3JhbSBpcyBkaXN0cmlidXRlZCBpbiB0aGUgaG9wZSB0aGF0IGl0IHdpbGwgYmUgdXNlZnVsLCBidXQgV0lUSE9VVCBBTlkgV0FSUkFOVFk7CiAqIHdpdGhvdXQgZXZlbiB0aGUgaW1wbGllZCB3YXJyYW50eSBvZiBNRVJDSEFOVEFCSUxJVFkgb3IgRklUTkVTUyBGT1IgQSBQQVJUSUNVTEFSIFBVUlBPU0UuCiAqIFNlZSB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGZvciBtb3JlIGRldGFpbHMuCiAqCiAqIFlvdSBzaG91bGQgaGF2ZSByZWNlaXZlZCBhIGNvcHkgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBhbG9uZyB3aXRoIHRoaXMKICogcHJvZ3JhbS4gIElmIG5vdCwgc2VlIDxodHRwczovL3d3dy5nbnUub3JnL2xpY2Vuc2VzLz4uCiAqLwoKcGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLmhjLnByb3Zpc2lvbi5zdGF0ZTsKCmltcG9ydCBhbmRyb2lkLmFwcC5BY3Rpdml0eTsKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0OwppbXBvcnQgYW5kcm9pZC5jb250ZW50LkludGVudDsKaW1wb3J0IGFuZHJvaWQub3MuQnVuZGxlOwppbXBvcnQgYW5kcm9pZC5vcy5IYW5kbGVyOwppbXBvcnQgYW5kcm9pZC5vcy5Mb29wZXI7CmltcG9ydCBhbmRyb2lkLnRleHQuVGV4dFV0aWxzOwppbXBvcnQgYW5kcm9pZC51dGlsLkxvZzsKCmltcG9ydCBhbmRyb2lkeC5hbm5vdGF0aW9uLk5vbk51bGw7CmltcG9ydCBhbmRyb2lkeC5hbm5vdGF0aW9uLk51bGxhYmxlOwoKaW1wb3J0IG9yZy5saW5iYW9ndS5yb21odWIuaGMucHJvdmlzaW9uLmFjdGl2aXR5LkRlZmF1bHRBY3Rpdml0eTsKCmltcG9ydCBqYXZhLmxhbmcucmVmbGVjdC5JbnZvY2F0aW9uVGFyZ2V0RXhjZXB0aW9uOwoKaW1wb3J0IGZhbi5wcm92aXNpb24uT29iZVV0aWxzOwoKcHVibGljIGNsYXNzIFN0YXRlIHsKCiAgICBwcml2YXRlIHN0YXRpYyBmaW5hbCBTdHJpbmcgVEFHID0gIlN0YXRlIjsKICAgIHB1YmxpYyBzdGF0aWMgZmluYWwgU3RyaW5nIFBSRUZJWCA9ICJvcmcubGluYmFvZ3Uucm9taHViLmhjLnByb3Zpc2lvbi5zdGF0ZS4iOwoKICAgIHByb3RlY3RlZCBDb250ZXh0IG1Db250ZXh0OwoKICAgIHByb3RlY3RlZCBTdGF0ZU1hY2hpbmUgbVN0YXRlTWFjaGluZTsKICAgIHByb3RlY3RlZCBTdHJpbmcgbVBhY2thZ2VOYW1lOwogICAgcHVibGljIFN0cmluZyBtQ2xhc3NOYW1lOwogICAgcHVibGljIENsYXNzPD8+IG1UYXJnZXRDbGFzczsKCiAgICBwcm90ZWN0ZWQgSGFuZGxlciBtSGFuZGxlciA9IG5ldyBIYW5kbGVyKExvb3Blci5nZXRNYWluTG9vcGVyKCkpOwoKICAgIHB1YmxpYyBib29sZWFuIGNhbkJhY2tUbygpIHsKICAgICAgICByZXR1cm4gdHJ1ZTsKICAgIH0KCiAgICBwdWJsaWMgU3RhdGUgZ2V0TmV4dFN0YXRlKCkgewogICAgICAgIHJldHVybiBudWxsOwogICAgfQoKICAgIHB1YmxpYyB2b2lkIG9uTGVhdmUoKSB7fQoKICAgIHB1YmxpYyBzdGF0aWMgU3RhdGUgY3JlYXRlKFN0cmluZyBuYW1lKSB7CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgcmV0dXJuIChTdGF0ZSkgQ2xhc3MuZm9yTmFtZShQUkVGSVggKyBuYW1lKS5nZXREZWNsYXJlZENvbnN0cnVjdG9yKCkubmV3SW5zdGFuY2UoKTsKICAgICAgICB9IGNhdGNoIChDbGFzc05vdEZvdW5kRXhjZXB0aW9uIHwgSW5zdGFudGlhdGlvbkV4Y2VwdGlvbiB8IElsbGVnYWxBY2Nlc3NFeGNlcHRpb24gZSkgewogICAgICAgICAgICBMb2cuZShUQUcsIFN0cmluZy52YWx1ZU9mKGUpKTsKICAgICAgICAgICAgcmV0dXJuIG51bGw7CiAgICAgICAgfSBjYXRjaCAoSW52b2NhdGlvblRhcmdldEV4Y2VwdGlvbiB8IE5vU3VjaE1ldGhvZEV4Y2VwdGlvbiBlKSB7CiAgICAgICAgICAgIHRocm93IG5ldyBSdW50aW1lRXhjZXB0aW9uKGUpOwogICAgICAgIH0KICAgIH0KCiAgICBwdWJsaWMgU3RhdGUgc2V0UGFja2FnZU5hbWUoU3RyaW5nIHBhY2thZ2VOYW1lKSB7CiAgICAgICAgbVBhY2thZ2VOYW1lID0gcGFja2FnZU5hbWU7CiAgICAgICAgcmV0dXJuIHRoaXM7CiAgICB9CgogICAgcHVibGljIFN0YXRlIHNldENsYXNzTmFtZShTdHJpbmcgY2xhc3NOYW1lKSB7CiAgICAgICAgbUNsYXNzTmFtZSA9IGNsYXNzTmFtZTsKICAgICAgICByZXR1cm4gdGhpczsKICAgIH0KCiAgICBwdWJsaWMgU3RhdGUgc2V0VGFyZ2V0Q2xhc3MoQ2xhc3M8Pz4gdGFyZ2V0Q2xhc3MpIHsKICAgICAgICBtVGFyZ2V0Q2xhc3MgPSB0YXJnZXRDbGFzczsKICAgICAgICByZXR1cm4gdGhpczsKICAgIH0KCiAgICBwdWJsaWMgU3RhdGUgc2V0U3RhdGVNYWNoaW5lKFN0YXRlTWFjaGluZSBzdGF0ZU1hY2hpbmUpIHsKICAgICAgICBtU3RhdGVNYWNoaW5lID0gc3RhdGVNYWNoaW5lOwogICAgICAgIG1Db250ZXh0ID0gc3RhdGVNYWNoaW5lLmdldENvbnRleHQoKTsKICAgICAgICByZXR1cm4gdGhpczsKICAgIH0KCiAgICBwdWJsaWMgdm9pZCBzZXRTdGF0ZUNvbnRleHQoQ29udGV4dCBjb250ZXh0KSB7CiAgICAgICAgbUNvbnRleHQgPSBjb250ZXh0OwogICAgfQoKICAgIHB1YmxpYyB2b2lkIG9uRW50ZXIoYm9vbGVhbiB6LCBib29sZWFuIHoyKSB7CiAgICAgICAgb25FbnRlcih6LCB6MiwgbnVsbCk7CiAgICB9CgogICAgcHVibGljIHZvaWQgb25FbnRlcihib29sZWFuIHosIGJvb2xlYW4gejIsIEBOdWxsYWJsZSBCdW5kbGUgYWN0aXZpdHlPcHRpb25zKSB7CiAgICAgICAgTG9nLmQoVEFHLCAidGFyZ2V0Q2xhc3MgaXMgIiArIG1UYXJnZXRDbGFzcyk7CiAgICAgICAgSW50ZW50IGludGVudCA9IGNyZWF0ZUVudGVySW50ZW50KHosIHoyKTsKICAgICAgICBsYXVuY2hJbnRlbnQoaW50ZW50LCBhY3Rpdml0eU9wdGlvbnMpOwogICAgfQoKICAgIHByb3RlY3RlZCBJbnRlbnQgY3JlYXRlRW50ZXJJbnRlbnQoYm9vbGVhbiBjYW5CYWNrLCBib29sZWFuIHRvTmV4dCkgewogICAgICAgIEludGVudCBpbnRlbnQgPSBnZXRJbnRlbnQoKTsKICAgICAgICBpbnRlbnQucHV0RXh0cmEoImV4dHJhX2Rpc2FibGVfYmFjayIsICFjYW5CYWNrKTsKICAgICAgICBpbnRlbnQucHV0RXh0cmEoImV4dHJhX3RvX25leHQiLCB0b05leHQpOwogICAgICAgIHJldHVybiBpbnRlbnQ7CiAgICB9CgogICAgcHJvdGVjdGVkIHZvaWQgbGF1bmNoSW50ZW50KEBOb25OdWxsIEludGVudCBpbnRlbnQsIEBOdWxsYWJsZSBCdW5kbGUgYWN0aXZpdHlPcHRpb25zKSB7CiAgICAgICAgaWYgKG1Db250ZXh0IGluc3RhbmNlb2YgRGVmYXVsdEFjdGl2aXR5IGFjdGl2aXR5KSB7CiAgICAgICAgICAgIGFjdGl2aXR5LmxhdW5jaFN0YXRlQWN0aXZpdHlGb3JSZXN1bHQoaW50ZW50LCAwLCBhY3Rpdml0eU9wdGlvbnMpOwogICAgICAgICAgICByZXR1cm47CiAgICAgICAgfQogICAgICAgIGlmIChtQ29udGV4dCBpbnN0YW5jZW9mIEFjdGl2aXR5IGFjdGl2aXR5KSB7CiAgICAgICAgICAgIGFjdGl2aXR5LnN0YXJ0QWN0aXZpdHkoaW50ZW50LCBhY3Rpdml0eU9wdGlvbnMpOwogICAgICAgICAgICByZXR1cm47CiAgICAgICAgfQogICAgICAgIG1Db250ZXh0LnN0YXJ0QWN0aXZpdHkoaW50ZW50KTsKICAgIH0KCiAgICBwdWJsaWMgYm9vbGVhbiBpc0F2YWlsYWJsZShib29sZWFuIGF2YWlsYWJsZSkgewogICAgICAgIHJldHVybiBtQ29udGV4dC5nZXRQYWNrYWdlTWFuYWdlcigpLnJlc29sdmVBY3Rpdml0eShnZXRJbnRlbnQoKSwgMCkgIT0gbnVsbDsKICAgIH0KCiAgICBwcm90ZWN0ZWQgSW50ZW50IGdldEludGVudCgpIHsKICAgICAgICBJbnRlbnQgaW50ZW50ID0gbmV3IEludGVudCgpOwogICAgICAgIGlmIChUZXh0VXRpbHMuaXNFbXB0eShtUGFja2FnZU5hbWUpKSB7CiAgICAgICAgICAgIGludGVudC5zZXRDbGFzcyhtQ29udGV4dCwgbVRhcmdldENsYXNzKTsKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICBpbnRlbnQuc2V0Q2xhc3NOYW1lKG1QYWNrYWdlTmFtZSwgbUNsYXNzTmFtZSk7CiAgICAgICAgfQogICAgICAgIGlmIChPb2JlVXRpbHMuaXNEZWJ1Z09vYmVNb2RlKG1Db250ZXh0KSkgewogICAgICAgICAgICBpbnRlbnQucHV0RXh0cmEoT29iZVV0aWxzLkVYVFJBX0RFQlVHX09PQkUsIHRydWUpOwogICAgICAgIH0KICAgICAgICByZXR1cm4gaW50ZW50OwogICAgfQoKICAgIHB1YmxpYyBTdHJpbmcgZ2V0UGFnZVRhZygpIHsKICAgICAgICByZXR1cm4gIiI7CiAgICB9Cn0K
+/*
+ * This file is part of ROM Hub, released under the GNU Affero General Public License v3.0.
+ *
+ * 本文件移植 / 改写自 HyperCeiler（AGPL-3.0，Copyright (C) 2023-2026 HyperCeiler
+ * Contributions），或为其等价替身实现 —— 完整来源与鸣谢见项目根目录 NOTICE.md。
+ *
+ * This program is free software: you can redistribute it and/or modify it under the terms
+ * of the GNU Affero General Public License as published by the Free Software Foundation,
+ * either version 3 of the License.
+ *
+ * This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+ * without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * See the GNU Affero General Public License for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License along with this
+ * program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
+package org.linbaogu.romhub.hc.provision.state;
+
+import android.app.Activity;
+import android.content.Context;
+import android.content.Intent;
+import android.os.Bundle;
+import android.os.Handler;
+import android.os.Looper;
+import android.text.TextUtils;
+import android.util.Log;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+
+import org.linbaogu.romhub.hc.provision.activity.DefaultActivity;
+
+import java.lang.reflect.InvocationTargetException;
+
+import fan.provision.OobeUtils;
+
+public class State {
+
+    private static final String TAG = "State";
+    public static final String PREFIX = "org.linbaogu.romhub.hc.provision.state.";
+
+    protected Context mContext;
+
+    protected StateMachine mStateMachine;
+    protected String mPackageName;
+    public String mClassName;
+    public Class<?> mTargetClass;
+
+    protected Handler mHandler = new Handler(Looper.getMainLooper());
+
+    public boolean canBackTo() {
+        return true;
+    }
+
+    public State getNextState() {
+        return null;
+    }
+
+    public void onLeave() {}
+
+    public static State create(String name) {
+        try {
+            return (State) Class.forName(PREFIX + name).getDeclaredConstructor().newInstance();
+        } catch (ClassNotFoundException | InstantiationException | IllegalAccessException e) {
+            Log.e(TAG, String.valueOf(e));
+            return null;
+        } catch (InvocationTargetException | NoSuchMethodException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    public State setPackageName(String packageName) {
+        mPackageName = packageName;
+        return this;
+    }
+
+    public State setClassName(String className) {
+        mClassName = className;
+        return this;
+    }
+
+    public State setTargetClass(Class<?> targetClass) {
+        mTargetClass = targetClass;
+        return this;
+    }
+
+    public State setStateMachine(StateMachine stateMachine) {
+        mStateMachine = stateMachine;
+        mContext = stateMachine.getContext();
+        return this;
+    }
+
+    public void setStateContext(Context context) {
+        mContext = context;
+    }
+
+    public void onEnter(boolean z, boolean z2) {
+        onEnter(z, z2, null);
+    }
+
+    public void onEnter(boolean z, boolean z2, @Nullable Bundle activityOptions) {
+        Log.d(TAG, "targetClass is " + mTargetClass);
+        Intent intent = createEnterIntent(z, z2);
+        launchIntent(intent, activityOptions);
+    }
+
+    protected Intent createEnterIntent(boolean canBack, boolean toNext) {
+        Intent intent = getIntent();
+        intent.putExtra("extra_disable_back", !canBack);
+        intent.putExtra("extra_to_next", toNext);
+        return intent;
+    }
+
+    protected void launchIntent(@NonNull Intent intent, @Nullable Bundle activityOptions) {
+        if (mContext instanceof DefaultActivity activity) {
+            activity.launchStateActivityForResult(intent, 0, activityOptions);
+            return;
+        }
+        if (mContext instanceof Activity activity) {
+            activity.startActivity(intent, activityOptions);
+            return;
+        }
+        mContext.startActivity(intent);
+    }
+
+    public boolean isAvailable(boolean available) {
+        return mContext.getPackageManager().resolveActivity(getIntent(), 0) != null;
+    }
+
+    protected Intent getIntent() {
+        Intent intent = new Intent();
+        if (TextUtils.isEmpty(mPackageName)) {
+            intent.setClass(mContext, mTargetClass);
+        } else {
+            intent.setClassName(mPackageName, mClassName);
+        }
+        if (OobeUtils.isDebugOobeMode(mContext)) {
+            intent.putExtra(OobeUtils.EXTRA_DEBUG_OOBE, true);
+        }
+        return intent;
+    }
+
+    public String getPageTag() {
+        return "";
+    }
+}

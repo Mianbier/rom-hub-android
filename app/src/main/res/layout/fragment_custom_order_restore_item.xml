@@ -1,1 +1,19 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPExpbmVhckxheW91dCB4bWxuczphbmRyb2lkPSJodHRwOi8vc2NoZW1hcy5hbmRyb2lkLmNvbS9hcGsvcmVzL2FuZHJvaWQiCiAgICBhbmRyb2lkOmlkPSJAK2lkL2NhcmRfbGF5b3V0IgogICAgYW5kcm9pZDpsYXlvdXRfd2lkdGg9Im1hdGNoX3BhcmVudCIKICAgIGFuZHJvaWQ6bGF5b3V0X2hlaWdodD0iQGRpbWVuL2N1c3RvbV9vcmRlcl9pdGVtX2hlaWdodCIKICAgIGFuZHJvaWQ6bGF5b3V0X21hcmdpbkJvdHRvbT0iQGRpbWVuL2N1c3RvbV9vcmRlcl9yZXN0b3JlX21hcmdpbl9ib3R0b20iCiAgICBhbmRyb2lkOmJhY2tncm91bmQ9IkBkcmF3YWJsZS9pdGVtX2NhcmRfYmciPgoKICAgIDxUZXh0VmlldwogICAgICAgIGFuZHJvaWQ6aWQ9IkAraWQvcmVzdG9yZV9idXR0b24iCiAgICAgICAgYW5kcm9pZDpsYXlvdXRfd2lkdGg9IndyYXBfY29udGVudCIKICAgICAgICBhbmRyb2lkOmxheW91dF9oZWlnaHQ9IndyYXBfY29udGVudCIKICAgICAgICBhbmRyb2lkOmxheW91dF9ncmF2aXR5PSJjZW50ZXIiCiAgICAgICAgYW5kcm9pZDpsYXlvdXRfbWFyZ2luU3RhcnQ9IkBkaW1lbi9jdXN0b21fb3JkZXJfaXRlbV9tYXJnaW4iCiAgICAgICAgYW5kcm9pZDpmb250RmFtaWx5PSJtaXByby1tZWRpdW0iCiAgICAgICAgYW5kcm9pZDp0ZXh0PSJAc3RyaW5nL3JldmVydCIKICAgICAgICBhbmRyb2lkOnRleHRDb2xvcj0iP2NvbG9yUHJpbWFyeSIKICAgICAgICBhbmRyb2lkOnRleHRTaXplPSIxN3NwIiAvPgo8L0xpbmVhckxheW91dD4K
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_layout"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/custom_order_item_height"
+    android:layout_marginBottom="@dimen/custom_order_restore_margin_bottom"
+    android:background="@drawable/item_card_bg">
+
+    <TextView
+        android:id="@+id/restore_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="@dimen/custom_order_item_margin"
+        android:fontFamily="mipro-medium"
+        android:text="@string/revert"
+        android:textColor="?colorPrimary"
+        android:textSize="17sp" />
+</LinearLayout>

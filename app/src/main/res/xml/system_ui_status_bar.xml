@@ -1,1 +1,64 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IS0tCiAgfiBUaGlzIGZpbGUgaXMgcGFydCBvZiBIeXBlckNlaWxlci4KICB+CiAgfiBIeXBlckNlaWxlciBpcyBmcmVlIHNvZnR3YXJlOiB5b3UgY2FuIHJlZGlzdHJpYnV0ZSBpdCBhbmQvb3IgbW9kaWZ5CiAgfiBpdCB1bmRlciB0aGUgdGVybXMgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBhcwogIH4gcHVibGlzaGVkIGJ5IHRoZSBGcmVlIFNvZnR3YXJlIEZvdW5kYXRpb24sIGVpdGhlciB2ZXJzaW9uIDMgb2YgdGhlCiAgfiBMaWNlbnNlLgogIH4KICB+IFRoaXMgcHJvZ3JhbSBpcyBkaXN0cmlidXRlZCBpbiB0aGUgaG9wZSB0aGF0IGl0IHdpbGwgYmUgdXNlZnVsLAogIH4gYnV0IFdJVEhPVVQgQU5ZIFdBUlJBTlRZOyB3aXRob3V0IGV2ZW4gdGhlIGltcGxpZWQgd2FycmFudHkgb2YKICB+IE1FUkNIQU5UQUJJTElUWSBvciBGSVRORVNTIEZPUiBBIFBBUlRJQ1VMQVIgUFVSUE9TRS4gIFNlZSB0aGUKICB+IEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBmb3IgbW9yZSBkZXRhaWxzLgogIH4KICB+IFlvdSBzaG91bGQgaGF2ZSByZWNlaXZlZCBhIGNvcHkgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZQogIH4gYWxvbmcgd2l0aCB0aGlzIHByb2dyYW0uICBJZiBub3QsIHNlZSA8aHR0cHM6Ly93d3cuZ251Lm9yZy9saWNlbnNlcy8+LgogIH4KICB+IENvcHlyaWdodCAoQykgMjAyMy0yMDI2IEh5cGVyQ2VpbGVyIENvbnRyaWJ1dGlvbnMKICAtLT4KPFByZWZlcmVuY2VTY3JlZW4geG1sbnM6YW5kcm9pZD0iaHR0cDovL3NjaGVtYXMuYW5kcm9pZC5jb20vYXBrL3Jlcy9hbmRyb2lkIgogICAgeG1sbnM6YXBwPSJodHRwOi8vc2NoZW1hcy5hbmRyb2lkLmNvbS9hcGsvcmVzLWF1dG8iCiAgICBhcHA6bXlMb2NhdGlvbj0iQHN0cmluZy9zeXN0ZW1fdWlfc3RhdHVzYmFyX3RpdGxlIgogICAgYXBwOnF1aWNrX3Jlc3RhcnQ9ImNvbS5hbmRyb2lkLnN5c3RlbXVpIj4KICAgIDxQcmVmZXJlbmNlQ2F0ZWdvcnk+CiAgICAgICAgPFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpmcmFnbWVudD0iY29tLnNldnRpbmdlLmh5cGVyY2VpbGVyLmhvb2tlci5zeXN0ZW11aS5zdGF0dXNiYXIuSWNvbk1hbmFnZU5ld1NldHRpbmdzIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJAc3RyaW5nL3N5c3RlbV91aV9zdGF0dXNiYXJfaWNvbm1hbmFnZV90aXRsZSIgLz4KCiAgICAgICAgPFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpmcmFnbWVudD0iY29tLnNldnRpbmdlLmh5cGVyY2VpbGVyLmhvb2tlci5zeXN0ZW11aS5zdGF0dXNiYXIuTW9iaWxlTmV0d29ya1NldHRpbmdzIgogICAgICAgICAgICBhbmRyb2lkOmtleT0icHJlZnNfa2V5X3N0YXR1YmFyX21vYmlsZV9uZXR3b3JrIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJAc3RyaW5nL3N5c3RlbV91aV9zdGF0dXNfYmFyX21vYmlsZV90aXRsZSIgLz4KCiAgICAgICAgPFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpmcmFnbWVudD0iY29tLnNldnRpbmdlLmh5cGVyY2VpbGVyLmhvb2tlci5zeXN0ZW11aS5zdGF0dXNiYXIuTmV0d29ya1NwZWVkSW5kaWNhdG9yU2V0dGluZ3MiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvc3lzdGVtX3VpX3N0YXR1c2Jhcl9uZXR3b3JrX3NwZWVkX2luZGljYXRvcl90aXRsZSIgLz4KCiAgICAgICAgPFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpmcmFnbWVudD0iY29tLnNldnRpbmdlLmh5cGVyY2VpbGVyLmhvb2tlci5zeXN0ZW11aS5zdGF0dXNiYXIuTmV3Q2xvY2tJbmRpY2F0b3JTZXR0aW5ncyIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iQHN0cmluZy9zeXN0ZW1fdWlfc3RhdHVzYmFyX2Nsb2NrX3RpdGxlIiAvPgoKICAgICAgICA8UHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOmZyYWdtZW50PSJjb20uc2V2dGluZ2UuaHlwZXJjZWlsZXIuaG9va2VyLnN5c3RlbXVpLnN0YXR1c2Jhci5Gb2N1c05vdGlmaWNhdGlvblNldHRpbmdzIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJAc3RyaW5nL3N5c3RlbV91aV9zdGF0dXNiYXJfZm9jdXNfbm90aWZfdGl0bGUiIC8+CgogICAgICAgIDxQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6ZnJhZ21lbnQ9ImNvbS5zZXZ0aW5nZS5oeXBlcmNlaWxlci5ob29rZXIuc3lzdGVtdWkuc3RhdHVzYmFyLkJhdHRlcnlEZXRhaWxJbmRpY2F0b3JTZXR0aW5ncyIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iQHN0cmluZy9zeXN0ZW1fdWlfc3RhdHVzYmFyX2JhdHRlcnlfZGV0YWlsIiAvPgoKICAgIDwvUHJlZmVyZW5jZUNhdGVnb3J5PgoKICAgIDxQcmVmZXJlbmNlQ2F0ZWdvcnkgYW5kcm9pZDp0aXRsZT0iQHN0cmluZy9zeXN0ZW1fdWlfb3RoZXJfdGl0bGUiPgogICAgICAgIDxTd2l0Y2hQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6ZGVmYXVsdFZhbHVlPSJmYWxzZSIKICAgICAgICAgICAgYW5kcm9pZDprZXk9InByZWZzX2tleV9zeXN0ZW1fdWlfc3RhdHVzX2Jhcl9kb3VibGVfdGFwX3RvX3NsZWVwIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJAc3RyaW5nL3N5c3RlbV91aV9zdGF0dXNfYmFyX2RvdWJsZV90YXBfdG9fc2xlZXAiIC8+CgogICAgICAgIDxTd2l0Y2hQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6ZGVmYXVsdFZhbHVlPSJmYWxzZSIKICAgICAgICAgICAgYW5kcm9pZDprZXk9InByZWZzX2tleV9zeXN0ZW1fdWlfc3RhdHVzX2Jhcl9oaWRlX2ljb24iCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvc3lzdGVtX3VpX3N0YXR1c19iYXJfaGlkZV9pY29uIiAvPgoKICAgIDwvUHJlZmVyZW5jZUNhdGVnb3J5PgoKPC9QcmVmZXJlbmNlU2NyZWVuPg==
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ This file is part of HyperCeiler.
+  ~
+  ~ HyperCeiler is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU Affero General Public License as
+  ~ published by the Free Software Foundation, either version 3 of the
+  ~ License.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU Affero General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU Affero General Public License
+  ~ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+  ~
+  ~ Copyright (C) 2023-2026 HyperCeiler Contributions
+  -->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:myLocation="@string/system_ui_statusbar_title"
+    app:quick_restart="com.android.systemui">
+    <PreferenceCategory>
+        <Preference
+            android:fragment="com.sevtinge.hyperceiler.hooker.systemui.statusbar.IconManageNewSettings"
+            android:title="@string/system_ui_statusbar_iconmanage_title" />
+
+        <Preference
+            android:fragment="com.sevtinge.hyperceiler.hooker.systemui.statusbar.MobileNetworkSettings"
+            android:key="prefs_key_statubar_mobile_network"
+            android:title="@string/system_ui_status_bar_mobile_title" />
+
+        <Preference
+            android:fragment="com.sevtinge.hyperceiler.hooker.systemui.statusbar.NetworkSpeedIndicatorSettings"
+            android:title="@string/system_ui_statusbar_network_speed_indicator_title" />
+
+        <Preference
+            android:fragment="com.sevtinge.hyperceiler.hooker.systemui.statusbar.NewClockIndicatorSettings"
+            android:title="@string/system_ui_statusbar_clock_title" />
+
+        <Preference
+            android:fragment="com.sevtinge.hyperceiler.hooker.systemui.statusbar.FocusNotificationSettings"
+            android:title="@string/system_ui_statusbar_focus_notif_title" />
+
+        <Preference
+            android:fragment="com.sevtinge.hyperceiler.hooker.systemui.statusbar.BatteryDetailIndicatorSettings"
+            android:title="@string/system_ui_statusbar_battery_detail" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/system_ui_other_title">
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefs_key_system_ui_status_bar_double_tap_to_sleep"
+            android:title="@string/system_ui_status_bar_double_tap_to_sleep" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefs_key_system_ui_status_bar_hide_icon"
+            android:title="@string/system_ui_status_bar_hide_icon" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

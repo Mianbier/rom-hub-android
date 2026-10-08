@@ -1,1 +1,53 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLQogIH4gVGhpcyBmaWxlIGlzIHBhcnQgb2YgSHlwZXJDZWlsZXIuCiAgfgogIH4gSHlwZXJDZWlsZXIgaXMgZnJlZSBzb2Z0d2FyZTogeW91IGNhbiByZWRpc3RyaWJ1dGUgaXQgYW5kL29yIG1vZGlmeQogIH4gaXQgdW5kZXIgdGhlIHRlcm1zIG9mIHRoZSBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UgYXMKICB+IHB1Ymxpc2hlZCBieSB0aGUgRnJlZSBTb2Z0d2FyZSBGb3VuZGF0aW9uLCBlaXRoZXIgdmVyc2lvbiAzIG9mIHRoZQogIH4gTGljZW5zZS4KICB+CiAgfiBUaGlzIHByb2dyYW0gaXMgZGlzdHJpYnV0ZWQgaW4gdGhlIGhvcGUgdGhhdCBpdCB3aWxsIGJlIHVzZWZ1bCwKICB+IGJ1dCBXSVRIT1VUIEFOWSBXQVJSQU5UWTsgd2l0aG91dCBldmVuIHRoZSBpbXBsaWVkIHdhcnJhbnR5IG9mCiAgfiBNRVJDSEFOVEFCSUxJVFkgb3IgRklUTkVTUyBGT1IgQSBQQVJUSUNVTEFSIFBVUlBPU0UuICBTZWUgdGhlCiAgfiBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UgZm9yIG1vcmUgZGV0YWlscy4KICB+CiAgfiBZb3Ugc2hvdWxkIGhhdmUgcmVjZWl2ZWQgYSBjb3B5IG9mIHRoZSBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UKICB+IGFsb25nIHdpdGggdGhpcyBwcm9ncmFtLiAgSWYgbm90LCBzZWUgPGh0dHBzOi8vd3d3LmdudS5vcmcvbGljZW5zZXMvPi4KICB+CiAgfiBDb3B5cmlnaHQgKEMpIDIwMjMtMjAyNiBIeXBlckNlaWxlciBDb250cmlidXRpb25zCiAgLS0+CjxMaW5lYXJMYXlvdXQgeG1sbnM6YW5kcm9pZD0iaHR0cDovL3NjaGVtYXMuYW5kcm9pZC5jb20vYXBrL3Jlcy9hbmRyb2lkIgogICAgYW5kcm9pZDpsYXlvdXRfd2lkdGg9Im1hdGNoX3BhcmVudCIKICAgIGFuZHJvaWQ6bGF5b3V0X2hlaWdodD0id3JhcF9jb250ZW50IgogICAgYW5kcm9pZDpvcmllbnRhdGlvbj0idmVydGljYWwiCiAgICBhbmRyb2lkOnBhZGRpbmdTdGFydD0iQGRpbWVuL3Byb3Zpc2lvbl9saWNlbnNlX2l0ZW1fc3RhcnQiCiAgICBhbmRyb2lkOnBhZGRpbmdFbmQ9IkBkaW1lbi9wcm92aXNpb25fbGljZW5zZV9pdGVtX2VuZCI+CgogICAgPFRleHRWaWV3CiAgICAgICAgYW5kcm9pZDppZD0iQCtpZC90ZXJtc19uYW1lIgogICAgICAgIHN0eWxlPSJAc3R5bGUvUHJvdmlzaW9uU2VydmljZVRpdGxlVGV4dFN0eWxlIgogICAgICAgIGFuZHJvaWQ6bGF5b3V0X3dpZHRoPSJ3cmFwX2NvbnRlbnQiCiAgICAgICAgYW5kcm9pZDpsYXlvdXRfaGVpZ2h0PSJ3cmFwX2NvbnRlbnQiCiAgICAgICAgYW5kcm9pZDpsYXlvdXRfYWxpZ25QYXJlbnRTdGFydD0idHJ1ZSIgLz4KCiAgICA8VGV4dFZpZXcKICAgICAgICBhbmRyb2lkOmlkPSJAK2lkL3Rlcm1zX3RpdGxlIgogICAgICAgIHN0eWxlPSJAc3R5bGUvUHJvdmlzaW9uTGlzdFNlY29uZGFyeVRleHRTdHlsZSIKICAgICAgICBhbmRyb2lkOmxheW91dF93aWR0aD0ibWF0Y2hfcGFyZW50IgogICAgICAgIGFuZHJvaWQ6bGF5b3V0X2hlaWdodD0id3JhcF9jb250ZW50IgogICAgICAgIGFuZHJvaWQ6bGF5b3V0X21hcmdpblN0YXJ0PSJAZGltZW4vcHJvdmlzaW9uX2xpc3RfdGVybXNfZGVzY3JpcHRpb25fbWFyZ2luX3N0YXJ0IgogICAgICAgIGFuZHJvaWQ6bGF5b3V0X21hcmdpbkVuZD0iQGRpbWVuL3Byb3Zpc2lvbl9saXN0X3Rlcm1zX2Rlc2NyaXB0aW9uX21hcmdpbl9lbmQiCiAgICAgICAgYW5kcm9pZDp0ZXh0Q29sb3I9IkBjb2xvci9wcm92aXNpb25fbGlzdF9kZXNjcmlwdGlvbl9jb2xvciIgLz4KCiAgICA8VGV4dFZpZXcKICAgICAgICBhbmRyb2lkOmlkPSJAK2lkL2xpc3RfdGVybXNfZGVzY3JpcHRpb24iCiAgICAgICAgc3R5bGU9IkBzdHlsZS9Qcm92aXNpb25MaXN0U2Vjb25kYXJ5VGV4dFN0eWxlIgogICAgICAgIGFuZHJvaWQ6bGF5b3V0X3dpZHRoPSJtYXRjaF9wYXJlbnQiCiAgICAgICAgYW5kcm9pZDpsYXlvdXRfaGVpZ2h0PSJ3cmFwX2NvbnRlbnQiCiAgICAgICAgYW5kcm9pZDpsYXlvdXRfbWFyZ2luU3RhcnQ9IkBkaW1lbi9wcm92aXNpb25fbGlzdF90ZXJtc19kZXNjcmlwdGlvbl9tYXJnaW5fc3RhcnQiCiAgICAgICAgYW5kcm9pZDpsYXlvdXRfbWFyZ2luRW5kPSJAZGltZW4vcHJvdmlzaW9uX2xpc3RfdGVybXNfZGVzY3JpcHRpb25fbWFyZ2luX2VuZCIKICAgICAgICBhbmRyb2lkOmxheW91dF9tYXJnaW5Cb3R0b209IkBkaW1lbi9wcm92aXNpb25fbGlzdF90ZXJtc19kZXNjcmlwdGlvbl9tYXJnaW5fYm90dG9tIgogICAgICAgIGFuZHJvaWQ6dGV4dENvbG9yPSJAY29sb3IvcHJvdmlzaW9uX2xpc3RfZGVzY3JpcHRpb25fY29sb3IiCiAgICAgICAgYW5kcm9pZDp0ZXh0U2l6ZT0iQGRpbWVuL3Byb3Zpc2lvbl9saWNlbnNlX2Rlc2NyaXB0aW9uX3RleHRfc2l6ZSIgLz4KPC9MaW5lYXJMYXlvdXQ+Cg==
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ This file is part of HyperCeiler.
+  ~
+  ~ HyperCeiler is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU Affero General Public License as
+  ~ published by the Free Software Foundation, either version 3 of the
+  ~ License.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU Affero General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU Affero General Public License
+  ~ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+  ~
+  ~ Copyright (C) 2023-2026 HyperCeiler Contributions
+  -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingStart="@dimen/provision_license_item_start"
+    android:paddingEnd="@dimen/provision_license_item_end">
+
+    <TextView
+        android:id="@+id/terms_name"
+        style="@style/ProvisionServiceTitleTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/terms_title"
+        style="@style/ProvisionListSecondaryTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/provision_list_terms_description_margin_start"
+        android:layout_marginEnd="@dimen/provision_list_terms_description_margin_end"
+        android:textColor="@color/provision_list_description_color" />
+
+    <TextView
+        android:id="@+id/list_terms_description"
+        style="@style/ProvisionListSecondaryTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/provision_list_terms_description_margin_start"
+        android:layout_marginEnd="@dimen/provision_list_terms_description_margin_end"
+        android:layout_marginBottom="@dimen/provision_list_terms_description_margin_bottom"
+        android:textColor="@color/provision_list_description_color"
+        android:textSize="@dimen/provision_license_description_text_size" />
+</LinearLayout>

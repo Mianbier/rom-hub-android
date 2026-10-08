@@ -1,1 +1,394 @@
-cGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLnVpLnNjcmVlbnMKCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24uYmFja2dyb3VuZAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmNsaWNrYWJsZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5BcnJhbmdlbWVudAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5Cb3gKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuQ29sdW1uCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LlJvdwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5TcGFjZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuZmlsbE1heFdpZHRoCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LmhlaWdodAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5wYWRkaW5nCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LnNpemUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQud2lkdGgKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXp5LkxhenlSb3cKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXp5Lml0ZW1zCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ucmVtZW1iZXJTY3JvbGxTdGF0ZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLnNoYXBlLlJvdW5kZWRDb3JuZXJTaGFwZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLnRleHQuQmFzaWNUZXh0RmllbGQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi52ZXJ0aWNhbFNjcm9sbAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLkNvbXBvc2FibGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5jb2xsZWN0QXNTdGF0ZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLmdldFZhbHVlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUubXV0YWJsZVN0YXRlT2YKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5yZW1lbWJlcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLnJlbWVtYmVyQ29yb3V0aW5lU2NvcGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5zZXRWYWx1ZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5BbGlnbm1lbnQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuTW9kaWZpZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuZHJhdy5jbGlwCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmdyYXBoaWNzLkNvbG9yCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmdyYXBoaWNzLlNvbGlkQ29sb3IKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkucGxhdGZvcm0uTG9jYWxDbGlwYm9hcmRNYW5hZ2VyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnBsYXRmb3JtLkxvY2FsQ29udGV4dAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS50ZXh0LlRleHRTdHlsZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS50ZXh0LmZvbnQuRm9udFdlaWdodAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS50ZXh0LnN0eWxlLlRleHRPdmVyZmxvdwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS51bml0LkRwCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnVuaXQuZHAKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5sYXVuY2gKaW1wb3J0IG9yZy5saW5iYW9ndS5yb21odWIuZG93bmxvYWQuRG93bmxvYWRFbnRyeQppbXBvcnQgb3JnLmxpbmJhb2d1LnJvbWh1Yi5wYW4uU2hhcmVMaW5rUGFyc2VyCmltcG9ydCBvcmcubGluYmFvZ3Uucm9taHViLnBhbi5zdG9yZS5Cb29rbWFya0VudGl0eQppbXBvcnQgb3JnLmxpbmJhb2d1LnJvbWh1Yi5wYW4uc3RvcmUuQm9va21hcmtTdG9yZQppbXBvcnQgb3JnLmxpbmJhb2d1LnJvbWh1Yi51aS5jb21tb24uSGludAppbXBvcnQgb3JnLmxpbmJhb2d1LnJvbWh1Yi51aS5jb21tb24uTGlzdFNjcmVlbgppbXBvcnQgb3JnLmxpbmJhb2d1LnJvbWh1Yi51aS5jb21tb24uU2VjdGlvbkxhYmVsCmltcG9ydCBvcmcubGluYmFvZ3Uucm9taHViLnVpLmNvbW1vbi5TbmFja2JhckNvbnRyb2xsZXIKaW1wb3J0IG9yZy5saW5iYW9ndS5yb21odWIudWkuY29tcG9uZW50Lkdob3N0QnV0dG9uCmltcG9ydCBvcmcubGluYmFvZ3Uucm9taHViLnVpLmxvZ2luLk1pdWl4RGlhbG9nCmltcG9ydCB0b3AueXVrb25nYS5taXVpeC5rbXAuYmFzaWMuQ2FyZAppbXBvcnQgdG9wLnl1a29uZ2EubWl1aXgua21wLmJhc2ljLkhvcml6b250YWxEaXZpZGVyCmltcG9ydCB0b3AueXVrb25nYS5taXVpeC5rbXAuYmFzaWMuVGV4dAppbXBvcnQgdG9wLnl1a29uZ2EubWl1aXgua21wLnRoZW1lLk1pdWl4VGhlbWUKCi8qKgogKiDnvZHnm5jpk77mjqXmlLbol4/pobXjgIIKICoKICog5L+d5a2Y5LiL5p2l55qE5YiG5Lqr6ZO+5o6l5Y+v5Lul5Zyo6L+Z6YeM77yaCiAqICAgwrcg5YiG57G7562b6YCJ77yI6KeG6aKRIC8g5paH5qGjIC8g6L2v5Lu24oCm77yM5Lmf6IO96Ieq5a6a5LmJ77yJCiAqICAgwrcg5LiA6ZSu5Lii57uZ5LiL6L295Zmo6Kej5p6QCiAqICAgwrcg5Zu65a6a5Yiw6aaW6aG15b+r5o235pa55byP77yI5bim6Ieq5a6a5LmJ5qCH562+77yJCiAqCiAqIOWKn+iDveWvuem9kOS6keaekOeahOaUtuiXj+mhte+8jOeVjOmdouaNouaIkCBNaXVpeCDpo47moLzjgIIKICovCkBDb21wb3NhYmxlCmZ1biBCb29rbWFya1NjcmVlbigKICAgIHN0b3JlOiBCb29rbWFya1N0b3JlLAogICAgYm90dG9tSW5uZXJQYWRkaW5nOiBEcCA9IDAuZHAsCikgewogICAgdmFsIGN0eCA9IExvY2FsQ29udGV4dC5jdXJyZW50CiAgICB2YWwgc2NvcGUgPSByZW1lbWJlckNvcm91dGluZVNjb3BlKCkKICAgIHZhbCBjbGlwYm9hcmQgPSBMb2NhbENsaXBib2FyZE1hbmFnZXIuY3VycmVudAoKICAgIHZhbCBhbGwgYnkgc3RvcmUuYWxsLmNvbGxlY3RBc1N0YXRlKCkKICAgIHZhciBzZWxlY3RlZENhdGVnb3J5IGJ5IHJlbWVtYmVyIHsgbXV0YWJsZVN0YXRlT2Y8U3RyaW5nPz4obnVsbCkgfQogICAgdmFyIHNob3dBZGQgYnkgcmVtZW1iZXIgeyBtdXRhYmxlU3RhdGVPZihmYWxzZSkgfQogICAgdmFyIG1lbnVUYXJnZXQgYnkgcmVtZW1iZXIgeyBtdXRhYmxlU3RhdGVPZjxCb29rbWFya0VudGl0eT8+KG51bGwpIH0KICAgIHZhciBsYWJlbFRhcmdldCBieSByZW1lbWJlciB7IG11dGFibGVTdGF0ZU9mPEJvb2ttYXJrRW50aXR5Pz4obnVsbCkgfQogICAgdmFyIGNhdGVnb3J5VGFyZ2V0IGJ5IHJlbWVtYmVyIHsgbXV0YWJsZVN0YXRlT2Y8Qm9va21hcmtFbnRpdHk/PihudWxsKSB9CgogICAgdmFsIGNhdGVnb3JpZXMgPSByZW1lbWJlcihhbGwpIHsgc3RvcmUuY2F0ZWdvcmllcygpIH0KICAgIHZhbCBmaWx0ZXJlZCA9IHJlbWVtYmVyKGFsbCwgc2VsZWN0ZWRDYXRlZ29yeSkgewogICAgICAgIHZhbCBjID0gc2VsZWN0ZWRDYXRlZ29yeQogICAgICAgIGlmIChjID09IG51bGwpIGFsbCBlbHNlIGFsbC5maWx0ZXIgeyBpdC5jYXRlZ29yeSA9PSBjIH0KICAgIH0KCiAgICBMaXN0U2NyZWVuKAogICAgICAgIHRpdGxlID0gIuaUtuiXjyIsCiAgICAgICAgc3VidGl0bGUgPSBpZiAoYWxsLmlzRW1wdHkoKSkgIuaUtuiXj+eahOe9keebmOmTvuaOpeS8muWHuueOsOWcqOi/memHjCIgZWxzZSAi5YWxICR7YWxsLnNpemV9IOadoSIsCiAgICAgICAgYm90dG9tSW5uZXJQYWRkaW5nID0gYm90dG9tSW5uZXJQYWRkaW5nLAogICAgICAgIGFjdGlvbnMgPSB7CiAgICAgICAgICAgIEdob3N0QnV0dG9uKCLmt7vliqAiKSB7IHNob3dBZGQgPSB0cnVlIH0KICAgICAgICB9LAogICAgKSB7CiAgICAgICAgLy8gLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tIOWIhuexu+etm+mAiQogICAgICAgIGlmIChjYXRlZ29yaWVzLmlzTm90RW1wdHkoKSkgewogICAgICAgICAgICBpdGVtIHsKICAgICAgICAgICAgICAgIExhenlSb3coaG9yaXpvbnRhbEFycmFuZ2VtZW50ID0gQXJyYW5nZW1lbnQuc3BhY2VkQnkoOC5kcCkpIHsKICAgICAgICAgICAgICAgICAgICBpdGVtIHsKICAgICAgICAgICAgICAgICAgICAgICAgRmlsdGVyQ2hpcCgi5YWo6YOoIiwgc2VsZWN0ZWRDYXRlZ29yeSA9PSBudWxsKSB7IHNlbGVjdGVkQ2F0ZWdvcnkgPSBudWxsIH0KICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgaXRlbXMoY2F0ZWdvcmllcykgeyBjIC0+CiAgICAgICAgICAgICAgICAgICAgICAgIEZpbHRlckNoaXAoYywgc2VsZWN0ZWRDYXRlZ29yeSA9PSBjKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzZWxlY3RlZENhdGVnb3J5ID0gaWYgKHNlbGVjdGVkQ2F0ZWdvcnkgPT0gYykgbnVsbCBlbHNlIGMKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgLy8gLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tIOWIl+ihqAogICAgICAgIGlmIChmaWx0ZXJlZC5pc0VtcHR5KCkpIHsKICAgICAgICAgICAgaXRlbSB7CiAgICAgICAgICAgICAgICBIaW50KAogICAgICAgICAgICAgICAgICAgIGlmIChhbGwuaXNFbXB0eSgpKSAi6L+Y5rKh5pyJ5pS26JePIOKAlOKAlCDngrnlj7PkuIrop5LjgIzmt7vliqDjgI3vvIzmiJbogIXlhYjmlLbol4/kuIDmnaHliIbkuqvpk77mjqUiCiAgICAgICAgICAgICAgICAgICAgZWxzZSAi6L+Z5Liq5YiG57G75LiL5rKh5pyJ5YaF5a65IgogICAgICAgICAgICAgICAgKQogICAgICAgICAgICB9CiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgaXRlbXMoZmlsdGVyZWQsIGtleSA9IHsgaXQuaWQgfSkgeyBibSAtPgogICAgICAgICAgICAgICAgQm9va21hcmtSb3coCiAgICAgICAgICAgICAgICAgICAgYm9va21hcmsgPSBibSwKICAgICAgICAgICAgICAgICAgICBvbkRvd25sb2FkID0gewogICAgICAgICAgICAgICAgICAgICAgICBzY29wZS5sYXVuY2ggewogICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsIHIgPSBEb3dubG9hZEVudHJ5LnN0YXJ0KGN0eCwgYm0ubGluaywgYm0ucHdkLmlmQmxhbmsgeyBudWxsIH0pCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBTbmFja2JhckNvbnRyb2xsZXIuc2hvdygKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB3aGVuIChyKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlzIERvd25sb2FkRW50cnkuRW50cnlSZXN1bHQuU3RhcnRlZCAtPiAi5bey5byA5aeL5LiL6L2977yaJHtyLnRhc2suZmlsZU5hbWV9IgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpcyBEb3dubG9hZEVudHJ5LkVudHJ5UmVzdWx0Lk5lZWRMb2dpbiAtPiAi6ZyA6KaB5YWI55m75b2V5a+55bqU55qE572R55uY6LSm5Y+3IgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpcyBEb3dubG9hZEVudHJ5LkVudHJ5UmVzdWx0Lk5lZWRQYXNzd29yZCAtPiAi6ZyA6KaB5o+Q5Y+W56CB77yM5Y6744CM5LiL6L2944CN6aG15aGr5YWlIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpcyBEb3dubG9hZEVudHJ5LkVudHJ5UmVzdWx0LkNob29zZUZpbGVzIC0+ICLliIbkuqvph4zmnInlpJrkuKrmlofku7bvvIzljrvjgIzkuIvovb3jgI3pobXpgInmi6kiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlzIERvd25sb2FkRW50cnkuRW50cnlSZXN1bHQuR2l0SHViUmVwbyAtPiAi6L+Z5pivIEdpdEh1YiDku5PlupPvvIzljrvjgIzkuIvovb3jgI3pobXmiZPlvIDku5PlupPmjJHmlofku7YiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlzIERvd25sb2FkRW50cnkuRW50cnlSZXN1bHQuRmFpbGVkIC0+IHIubWVzc2FnZQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICAgICAgICAgb25Db3B5ID0gewogICAgICAgICAgICAgICAgICAgICAgICBjbGlwYm9hcmQuc2V0VGV4dChhbmRyb2lkeC5jb21wb3NlLnVpLnRleHQuQW5ub3RhdGVkU3RyaW5nKGJtLmxpbmspKQogICAgICAgICAgICAgICAgICAgICAgICBTbmFja2JhckNvbnRyb2xsZXIuc2hvdygi6ZO+5o6l5bey5aSN5Yi2IikKICAgICAgICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgICAgICAgIG9uTWVudSA9IHsgbWVudVRhcmdldCA9IGJtIH0sCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgLy8gLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tIOadoeebruiPnOWNlQogICAgbWVudVRhcmdldD8ubGV0IHsgYm0gLT4KICAgICAgICBNaXVpeERpYWxvZygKICAgICAgICAgICAgdGl0bGUgPSBibS50aXRsZS5pZkJsYW5rIHsgYm0ubGluay50YWtlKDQwKSB9LAogICAgICAgICAgICBtZXNzYWdlID0gYnVpbGRTdHJpbmcgewogICAgICAgICAgICAgICAgYXBwZW5kKCLliIbnsbvvvJoke2JtLmNhdGVnb3J5fSIpCiAgICAgICAgICAgICAgICBpZiAoYm0ucHdkLmlzTm90QmxhbmsoKSkgYXBwZW5kKCJcbuaPkOWPluegge+8miR7Ym0ucHdkfSIpCiAgICAgICAgICAgICAgICBpZiAoYm0uaG9tZVBpbm5lZCkgYXBwZW5kKCJcbuW3suWbuuWumuWIsOmmlumhteW/q+aNt+aWueW8jyIpCiAgICAgICAgICAgIH0sCiAgICAgICAgICAgIGNvbmZpcm1UZXh0ID0gIuWFs+mXrSIsCiAgICAgICAgICAgIG9uQ29uZmlybSA9IHsgbWVudVRhcmdldCA9IG51bGwgfSwKICAgICAgICAgICAgb25EaXNtaXNzID0geyBtZW51VGFyZ2V0ID0gbnVsbCB9LAogICAgICAgICAgICBkaXNtaXNzVGV4dCA9ICLliKDpmaQiLAogICAgICAgICAgICBvbkRpc21pc3NCdXR0b24gPSB7CiAgICAgICAgICAgICAgICBzdG9yZS5kZWxldGUoYm0uaWQpCiAgICAgICAgICAgICAgICBtZW51VGFyZ2V0ID0gbnVsbAogICAgICAgICAgICAgICAgU25hY2tiYXJDb250cm9sbGVyLnNob3coIuW3suWIoOmZpCIpCiAgICAgICAgICAgIH0sCiAgICAgICAgKQogICAgfQoKICAgIC8vIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSDmt7vliqAKICAgIGlmIChzaG93QWRkKSB7CiAgICAgICAgQm9va21hcmtFZGl0b3IoCiAgICAgICAgICAgIHRpdGxlID0gIua3u+WKoOaUtuiXjyIsCiAgICAgICAgICAgIG9uRGlzbWlzcyA9IHsgc2hvd0FkZCA9IGZhbHNlIH0sCiAgICAgICAgICAgIG9uU2F2ZSA9IHsgbGluaywgbmFtZSwgcHdkLCBjYXRlZ29yeSAtPgogICAgICAgICAgICAgICAgaWYgKGxpbmsuaXNCbGFuaygpKSB7CiAgICAgICAgICAgICAgICAgICAgU25hY2tiYXJDb250cm9sbGVyLnNob3coIumTvuaOpeS4jeiDveS4uuepuiIpCiAgICAgICAgICAgICAgICAgICAgcmV0dXJuQEJvb2ttYXJrRWRpdG9yCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBpZiAoc3RvcmUuZmluZEJ5TGluayhsaW5rKSAhPSBudWxsKSB7CiAgICAgICAgICAgICAgICAgICAgU25hY2tiYXJDb250cm9sbGVyLnNob3coIui/meadoemTvuaOpeW3sue7j+aUtuiXj+i/h+S6hiIpCiAgICAgICAgICAgICAgICAgICAgcmV0dXJuQEJvb2ttYXJrRWRpdG9yCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB2YWwgcGxhdGZvcm0gPSBTaGFyZUxpbmtQYXJzZXIucGFyc2UobGluayk/LnBsYXRmb3JtPy5uYW1lLm9yRW1wdHkoKQogICAgICAgICAgICAgICAgc3RvcmUuaW5zZXJ0KAogICAgICAgICAgICAgICAgICAgIEJvb2ttYXJrRW50aXR5KAogICAgICAgICAgICAgICAgICAgICAgICBsaW5rID0gbGluay50cmltKCksCiAgICAgICAgICAgICAgICAgICAgICAgIHRpdGxlID0gbmFtZS50cmltKCksCiAgICAgICAgICAgICAgICAgICAgICAgIHB3ZCA9IHB3ZC50cmltKCksCiAgICAgICAgICAgICAgICAgICAgICAgIHBsYXRmb3JtID0gcGxhdGZvcm0sCiAgICAgICAgICAgICAgICAgICAgICAgIGNhdGVnb3J5ID0gY2F0ZWdvcnksCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgc2hvd0FkZCA9IGZhbHNlCiAgICAgICAgICAgICAgICBTbmFja2JhckNvbnRyb2xsZXIuc2hvdygi5bey5pS26JePIikKICAgICAgICAgICAgfSwKICAgICAgICApCiAgICB9Cn0KCi8vIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0g5Y2V5p2hCgpAQ29tcG9zYWJsZQpwcml2YXRlIGZ1biBCb29rbWFya1JvdygKICAgIGJvb2ttYXJrOiBCb29rbWFya0VudGl0eSwKICAgIG9uRG93bmxvYWQ6ICgpIC0+IFVuaXQsCiAgICBvbkNvcHk6ICgpIC0+IFVuaXQsCiAgICBvbk1lbnU6ICgpIC0+IFVuaXQsCikgewogICAgdmFsIGNzID0gTWl1aXhUaGVtZS5jb2xvclNjaGVtZQogICAgQ2FyZChNb2RpZmllci5wYWRkaW5nKHZlcnRpY2FsID0gMi5kcCkpIHsKICAgICAgICBDb2x1bW4oTW9kaWZpZXIucGFkZGluZygxNC5kcCkpIHsKICAgICAgICAgICAgVGV4dCgKICAgICAgICAgICAgICAgIGJvb2ttYXJrLnRpdGxlLmlmQmxhbmsgeyBib29rbWFyay5saW5rIH0sCiAgICAgICAgICAgICAgICBmb250U2l6ZSA9IE1pdWl4VGhlbWUudGV4dFN0eWxlcy5ib2R5MS5mb250U2l6ZSwKICAgICAgICAgICAgICAgIGNvbG9yID0gY3Mub25TdXJmYWNlLAogICAgICAgICAgICAgICAgbWF4TGluZXMgPSAyLAogICAgICAgICAgICAgICAgb3ZlcmZsb3cgPSBUZXh0T3ZlcmZsb3cuRWxsaXBzaXMsCiAgICAgICAgICAgICkKICAgICAgICAgICAgaWYgKGJvb2ttYXJrLnRpdGxlLmlzTm90QmxhbmsoKSkgewogICAgICAgICAgICAgICAgU3BhY2VyKE1vZGlmaWVyLmhlaWdodCgzLmRwKSkKICAgICAgICAgICAgICAgIFRleHQoCiAgICAgICAgICAgICAgICAgICAgYm9va21hcmsubGluaywKICAgICAgICAgICAgICAgICAgICBmb250U2l6ZSA9IE1pdWl4VGhlbWUudGV4dFN0eWxlcy5mb290bm90ZTIuZm9udFNpemUsCiAgICAgICAgICAgICAgICAgICAgY29sb3IgPSBjcy5vblN1cmZhY2VWYXJpYW50U3VtbWFyeSwKICAgICAgICAgICAgICAgICAgICBtYXhMaW5lcyA9IDEsCiAgICAgICAgICAgICAgICAgICAgb3ZlcmZsb3cgPSBUZXh0T3ZlcmZsb3cuRWxsaXBzaXMsCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0KICAgICAgICAgICAgU3BhY2VyKE1vZGlmaWVyLmhlaWdodCg2LmRwKSkKICAgICAgICAgICAgUm93KHZlcnRpY2FsQWxpZ25tZW50ID0gQWxpZ25tZW50LkNlbnRlclZlcnRpY2FsbHkpIHsKICAgICAgICAgICAgICAgIGlmIChib29rbWFyay5jYXRlZ29yeS5pc05vdEJsYW5rKCkpIHsKICAgICAgICAgICAgICAgICAgICBCb3goCiAgICAgICAgICAgICAgICAgICAgICAgIE1vZGlmaWVyCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAuY2xpcChSb3VuZGVkQ29ybmVyU2hhcGUoNC5kcCkpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAuYmFja2dyb3VuZChjcy5wcmltYXJ5LmNvcHkoYWxwaGEgPSAwLjEyZikpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAucGFkZGluZyhob3Jpem9udGFsID0gNS5kcCwgdmVydGljYWwgPSAxLmRwKSwKICAgICAgICAgICAgICAgICAgICApIHsKICAgICAgICAgICAgICAgICAgICAgICAgVGV4dCgKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJvb2ttYXJrLmNhdGVnb3J5LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgZm9udFNpemUgPSBNaXVpeFRoZW1lLnRleHRTdHlsZXMuZm9vdG5vdGUyLmZvbnRTaXplLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgY29sb3IgPSBjcy5wcmltYXJ5LAogICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgaWYgKGJvb2ttYXJrLnB3ZC5pc05vdEJsYW5rKCkpIHsKICAgICAgICAgICAgICAgICAgICBTcGFjZXIoTW9kaWZpZXIud2lkdGgoNi5kcCkpCiAgICAgICAgICAgICAgICAgICAgVGV4dCgKICAgICAgICAgICAgICAgICAgICAgICAgIueggSAke2Jvb2ttYXJrLnB3ZH0iLAogICAgICAgICAgICAgICAgICAgICAgICBmb250U2l6ZSA9IE1pdWl4VGhlbWUudGV4dFN0eWxlcy5mb290bm90ZTIuZm9udFNpemUsCiAgICAgICAgICAgICAgICAgICAgICAgIGNvbG9yID0gY3Mub25TdXJmYWNlVmFyaWFudFN1bW1hcnksCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgU3BhY2VyKE1vZGlmaWVyLndlaWdodCgxZikpCiAgICAgICAgICAgIH0KICAgICAgICAgICAgU3BhY2VyKE1vZGlmaWVyLmhlaWdodCgxMC5kcCkpCiAgICAgICAgICAgIFJvdyhob3Jpem9udGFsQXJyYW5nZW1lbnQgPSBBcnJhbmdlbWVudC5zcGFjZWRCeSg4LmRwKSkgewogICAgICAgICAgICAgICAgR2hvc3RCdXR0b24oIuS4i+i9vSIpIHsgb25Eb3dubG9hZCgpIH0KICAgICAgICAgICAgICAgIEdob3N0QnV0dG9uKCLlpI3liLYiKSB7IG9uQ29weSgpIH0KICAgICAgICAgICAgICAgIEdob3N0QnV0dG9uKCLmm7TlpJoiKSB7IG9uTWVudSgpIH0KICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KfQoKQENvbXBvc2FibGUKcHJpdmF0ZSBmdW4gRmlsdGVyQ2hpcCh0ZXh0OiBTdHJpbmcsIHNlbGVjdGVkOiBCb29sZWFuLCBvbkNsaWNrOiAoKSAtPiBVbml0KSB7CiAgICB2YWwgY3MgPSBNaXVpeFRoZW1lLmNvbG9yU2NoZW1lCiAgICBCb3goCiAgICAgICAgTW9kaWZpZXIKICAgICAgICAgICAgLmNsaXAoUm91bmRlZENvcm5lclNoYXBlKDUwKSkKICAgICAgICAgICAgLmJhY2tncm91bmQoaWYgKHNlbGVjdGVkKSBjcy5wcmltYXJ5LmNvcHkoYWxwaGEgPSAwLjE0ZikgZWxzZSBjcy5zdXJmYWNlQ29udGFpbmVySGlnaCkKICAgICAgICAgICAgLmNsaWNrYWJsZSB7IG9uQ2xpY2soKSB9CiAgICAgICAgICAgIC5wYWRkaW5nKGhvcml6b250YWwgPSAxMi5kcCwgdmVydGljYWwgPSA3LmRwKSwKICAgICkgewogICAgICAgIFRleHQoCiAgICAgICAgICAgIHRleHQsCiAgICAgICAgICAgIGZvbnRTaXplID0gTWl1aXhUaGVtZS50ZXh0U3R5bGVzLmZvb3Rub3RlMS5mb250U2l6ZSwKICAgICAgICAgICAgZm9udFdlaWdodCA9IGlmIChzZWxlY3RlZCkgRm9udFdlaWdodC5NZWRpdW0gZWxzZSBGb250V2VpZ2h0Lk5vcm1hbCwKICAgICAgICAgICAgY29sb3IgPSBpZiAoc2VsZWN0ZWQpIGNzLnByaW1hcnkgZWxzZSBjcy5vblN1cmZhY2VWYXJpYW50U3VtbWFyeSwKICAgICAgICApCiAgICB9Cn0KCi8vIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0g57yW6L6R5by556qXCgpAQ29tcG9zYWJsZQpwcml2YXRlIGZ1biBCb29rbWFya0VkaXRvcigKICAgIHRpdGxlOiBTdHJpbmcsCiAgICBpbml0aWFsOiBCb29rbWFya0VudGl0eT8gPSBudWxsLAogICAgb25EaXNtaXNzOiAoKSAtPiBVbml0LAogICAgb25TYXZlOiAobGluazogU3RyaW5nLCBuYW1lOiBTdHJpbmcsIHB3ZDogU3RyaW5nLCBjYXRlZ29yeTogU3RyaW5nKSAtPiBVbml0LAopIHsKICAgIHZhciBsaW5rIGJ5IHJlbWVtYmVyIHsgbXV0YWJsZVN0YXRlT2YoaW5pdGlhbD8ubGluay5vckVtcHR5KCkpIH0KICAgIHZhciBuYW1lIGJ5IHJlbWVtYmVyIHsgbXV0YWJsZVN0YXRlT2YoaW5pdGlhbD8udGl0bGUub3JFbXB0eSgpKSB9CiAgICB2YXIgcHdkIGJ5IHJlbWVtYmVyIHsgbXV0YWJsZVN0YXRlT2YoaW5pdGlhbD8ucHdkLm9yRW1wdHkoKSkgfQogICAgdmFyIGNhdGVnb3J5IGJ5IHJlbWVtYmVyIHsgbXV0YWJsZVN0YXRlT2YoaW5pdGlhbD8uY2F0ZWdvcnkgPzogQm9va21hcmtFbnRpdHkuREVGQVVMVF9DQVRFR09SWSkgfQogICAgdmFyIGN1c3RvbSBieSByZW1lbWJlciB7IG11dGFibGVTdGF0ZU9mKCIiKSB9CgogICAgYW5kcm9pZHguY29tcG9zZS51aS53aW5kb3cuRGlhbG9nKG9uRGlzbWlzc1JlcXVlc3QgPSBvbkRpc21pc3MpIHsKICAgICAgICBDYXJkIHsKICAgICAgICAgICAgQ29sdW1uKAogICAgICAgICAgICAgICAgTW9kaWZpZXIKICAgICAgICAgICAgICAgICAgICAucGFkZGluZygxOC5kcCkKICAgICAgICAgICAgICAgICAgICAudmVydGljYWxTY3JvbGwocmVtZW1iZXJTY3JvbGxTdGF0ZSgpKSwKICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICBUZXh0KAogICAgICAgICAgICAgICAgICAgIHRpdGxlLAogICAgICAgICAgICAgICAgICAgIGZvbnRTaXplID0gTWl1aXhUaGVtZS50ZXh0U3R5bGVzLnRpdGxlNC5mb250U2l6ZSwKICAgICAgICAgICAgICAgICAgICBmb250V2VpZ2h0ID0gRm9udFdlaWdodC5NZWRpdW0sCiAgICAgICAgICAgICAgICAgICAgY29sb3IgPSBNaXVpeFRoZW1lLmNvbG9yU2NoZW1lLm9uU3VyZmFjZSwKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIFNwYWNlcihNb2RpZmllci5oZWlnaHQoMTIuZHApKQoKICAgICAgICAgICAgICAgIEZpZWxkKCLliIbkuqvpk77mjqUiLCBsaW5rLCB7IGxpbmsgPSBpdCB9LCBsaW5lcyA9IDIpCiAgICAgICAgICAgICAgICBTcGFjZXIoTW9kaWZpZXIuaGVpZ2h0KDEwLmRwKSkKICAgICAgICAgICAgICAgIEZpZWxkKCLlpIfms6jlkI3np7DvvIjlj6/nqbrvvIkiLCBuYW1lLCB7IG5hbWUgPSBpdCB9KQogICAgICAgICAgICAgICAgU3BhY2VyKE1vZGlmaWVyLmhlaWdodCgxMC5kcCkpCiAgICAgICAgICAgICAgICBGaWVsZCgi5o+Q5Y+W56CB77yI5Y+v56m677yJIiwgcHdkLCB7IHB3ZCA9IGl0IH0pCiAgICAgICAgICAgICAgICBTcGFjZXIoTW9kaWZpZXIuaGVpZ2h0KDEyLmRwKSkKCiAgICAgICAgICAgICAgICBUZXh0KAogICAgICAgICAgICAgICAgICAgICLliIbnsbsiLAogICAgICAgICAgICAgICAgICAgIGZvbnRTaXplID0gTWl1aXhUaGVtZS50ZXh0U3R5bGVzLmZvb3Rub3RlMi5mb250U2l6ZSwKICAgICAgICAgICAgICAgICAgICBjb2xvciA9IE1pdWl4VGhlbWUuY29sb3JTY2hlbWUub25TdXJmYWNlVmFyaWFudFN1bW1hcnksCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICBTcGFjZXIoTW9kaWZpZXIuaGVpZ2h0KDguZHApKQogICAgICAgICAgICAgICAgTGF6eVJvdyhob3Jpem9udGFsQXJyYW5nZW1lbnQgPSBBcnJhbmdlbWVudC5zcGFjZWRCeSg4LmRwKSkgewogICAgICAgICAgICAgICAgICAgIGl0ZW1zKEJvb2ttYXJrRW50aXR5LlBSRVNFVF9DQVRFR09SSUVTKSB7IGMgLT4KICAgICAgICAgICAgICAgICAgICAgICAgRmlsdGVyQ2hpcChjLCBjYXRlZ29yeSA9PSBjKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjYXRlZ29yeSA9IGMKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGN1c3RvbSA9ICIiCiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBTcGFjZXIoTW9kaWZpZXIuaGVpZ2h0KDEwLmRwKSkKICAgICAgICAgICAgICAgIEZpZWxkKCLoh6rlrprkuYnliIbnsbvvvIjloavkuoblsLHkvJjlhYjnlKjlroPvvIkiLCBjdXN0b20sIHsgY3VzdG9tID0gaXQgfSkKCiAgICAgICAgICAgICAgICBTcGFjZXIoTW9kaWZpZXIuaGVpZ2h0KDE4LmRwKSkKICAgICAgICAgICAgICAgIFJvdyhNb2RpZmllci5maWxsTWF4V2lkdGgoKSwgaG9yaXpvbnRhbEFycmFuZ2VtZW50ID0gQXJyYW5nZW1lbnQuc3BhY2VkQnkoOC5kcCkpIHsKICAgICAgICAgICAgICAgICAgICBHaG9zdEJ1dHRvbigi5Y+W5raIIikgeyBvbkRpc21pc3MoKSB9CiAgICAgICAgICAgICAgICAgICAgU3BhY2VyKE1vZGlmaWVyLndlaWdodCgxZikpCiAgICAgICAgICAgICAgICAgICAgR2hvc3RCdXR0b24oIuS/neWtmCIpIHsKICAgICAgICAgICAgICAgICAgICAgICAgb25TYXZlKGxpbmssIG5hbWUsIHB3ZCwgY3VzdG9tLmlmQmxhbmsgeyBjYXRlZ29yeSB9KQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KfQoKQENvbXBvc2FibGUKcHJpdmF0ZSBmdW4gRmllbGQoCiAgICBsYWJlbDogU3RyaW5nLAogICAgdmFsdWU6IFN0cmluZywKICAgIG9uVmFsdWVDaGFuZ2U6IChTdHJpbmcpIC0+IFVuaXQsCiAgICBsaW5lczogSW50ID0gMSwKKSB7CiAgICBDb2x1bW4gewogICAgICAgIFRleHQoCiAgICAgICAgICAgIGxhYmVsLAogICAgICAgICAgICBmb250U2l6ZSA9IE1pdWl4VGhlbWUudGV4dFN0eWxlcy5mb290bm90ZTIuZm9udFNpemUsCiAgICAgICAgICAgIGNvbG9yID0gTWl1aXhUaGVtZS5jb2xvclNjaGVtZS5vblN1cmZhY2VWYXJpYW50U3VtbWFyeSwKICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci5wYWRkaW5nKHN0YXJ0ID0gMi5kcCwgYm90dG9tID0gNS5kcCksCiAgICAgICAgKQogICAgICAgIEJveCgKICAgICAgICAgICAgTW9kaWZpZXIKICAgICAgICAgICAgICAgIC5maWxsTWF4V2lkdGgoKQogICAgICAgICAgICAgICAgLmhlaWdodChpZiAobGluZXMgPiAxKSA2Mi5kcCBlbHNlIDQ0LmRwKQogICAgICAgICAgICAgICAgLmNsaXAoUm91bmRlZENvcm5lclNoYXBlKDEwLmRwKSkKICAgICAgICAgICAgICAgIC5iYWNrZ3JvdW5kKE1pdWl4VGhlbWUuY29sb3JTY2hlbWUuc3VyZmFjZUNvbnRhaW5lckhpZ2gpCiAgICAgICAgICAgICAgICAucGFkZGluZyhob3Jpem9udGFsID0gMTAuZHAsIHZlcnRpY2FsID0gOS5kcCksCiAgICAgICAgKSB7CiAgICAgICAgICAgIGlmICh2YWx1ZS5pc0VtcHR5KCkpIHsKICAgICAgICAgICAgICAgIFRleHQoCiAgICAgICAgICAgICAgICAgICAgIuivt+i+k+WFpSIsCiAgICAgICAgICAgICAgICAgICAgZm9udFNpemUgPSBNaXVpeFRoZW1lLnRleHRTdHlsZXMuZm9vdG5vdGUxLmZvbnRTaXplLAogICAgICAgICAgICAgICAgICAgIGNvbG9yID0gTWl1aXhUaGVtZS5jb2xvclNjaGVtZS5vblN1cmZhY2VWYXJpYW50U3VtbWFyeSwKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgfQogICAgICAgICAgICBCYXNpY1RleHRGaWVsZCgKICAgICAgICAgICAgICAgIHZhbHVlID0gdmFsdWUsCiAgICAgICAgICAgICAgICBvblZhbHVlQ2hhbmdlID0gb25WYWx1ZUNoYW5nZSwKICAgICAgICAgICAgICAgIHRleHRTdHlsZSA9IFRleHRTdHlsZSgKICAgICAgICAgICAgICAgICAgICBmb250U2l6ZSA9IE1pdWl4VGhlbWUudGV4dFN0eWxlcy5mb290bm90ZTEuZm9udFNpemUsCiAgICAgICAgICAgICAgICAgICAgY29sb3IgPSBNaXVpeFRoZW1lLmNvbG9yU2NoZW1lLm9uU3VyZmFjZSwKICAgICAgICAgICAgICAgICksCiAgICAgICAgICAgICAgICBjdXJzb3JCcnVzaCA9IFNvbGlkQ29sb3IoTWl1aXhUaGVtZS5jb2xvclNjaGVtZS5wcmltYXJ5KSwKICAgICAgICAgICAgICAgIG1heExpbmVzID0gbGluZXMsCiAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLmZpbGxNYXhXaWR0aCgpLAogICAgICAgICAgICApCiAgICAgICAgfQogICAgfQp9Cg==
+package org.linbaogu.romhub.ui.screens
+
+import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.lazy.LazyRow
+import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.foundation.text.BasicTextField
+import androidx.compose.foundation.verticalScroll
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.collectAsState
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.rememberCoroutineScope
+import androidx.compose.runtime.setValue
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.platform.LocalClipboardManager
+import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextOverflow
+import androidx.compose.ui.unit.Dp
+import androidx.compose.ui.unit.dp
+import kotlinx.coroutines.launch
+import org.linbaogu.romhub.download.DownloadEntry
+import org.linbaogu.romhub.pan.ShareLinkParser
+import org.linbaogu.romhub.pan.store.BookmarkEntity
+import org.linbaogu.romhub.pan.store.BookmarkStore
+import org.linbaogu.romhub.ui.common.Hint
+import org.linbaogu.romhub.ui.common.ListScreen
+import org.linbaogu.romhub.ui.common.SectionLabel
+import org.linbaogu.romhub.ui.common.SnackbarController
+import org.linbaogu.romhub.ui.component.GhostButton
+import org.linbaogu.romhub.ui.login.MiuixDialog
+import top.yukonga.miuix.kmp.basic.Card
+import top.yukonga.miuix.kmp.basic.HorizontalDivider
+import top.yukonga.miuix.kmp.basic.Text
+import top.yukonga.miuix.kmp.theme.MiuixTheme
+
+/**
+ * 网盘链接收藏页。
+ *
+ * 保存下来的分享链接可以在这里：
+ *   · 分类筛选（视频 / 文档 / 软件…，也能自定义）
+ *   · 一键丢给下载器解析
+ *   · 固定到首页快捷方式（带自定义标签）
+ *
+ * 功能对齐云析的收藏页，界面换成 Miuix 风格。
+ */
+@Composable
+fun BookmarkScreen(
+    store: BookmarkStore,
+    bottomInnerPadding: Dp = 0.dp,
+) {
+    val ctx = LocalContext.current
+    val scope = rememberCoroutineScope()
+    val clipboard = LocalClipboardManager.current
+
+    val all by store.all.collectAsState()
+    var selectedCategory by remember { mutableStateOf<String?>(null) }
+    var showAdd by remember { mutableStateOf(false) }
+    var menuTarget by remember { mutableStateOf<BookmarkEntity?>(null) }
+    var labelTarget by remember { mutableStateOf<BookmarkEntity?>(null) }
+    var categoryTarget by remember { mutableStateOf<BookmarkEntity?>(null) }
+
+    val categories = remember(all) { store.categories() }
+    val filtered = remember(all, selectedCategory) {
+        val c = selectedCategory
+        if (c == null) all else all.filter { it.category == c }
+    }
+
+    ListScreen(
+        title = "收藏",
+        subtitle = if (all.isEmpty()) "收藏的网盘链接会出现在这里" else "共 ${all.size} 条",
+        bottomInnerPadding = bottomInnerPadding,
+        actions = {
+            GhostButton("添加") { showAdd = true }
+        },
+    ) {
+        // ------------------------------------------------ 分类筛选
+        if (categories.isNotEmpty()) {
+            item {
+                LazyRow(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                    item {
+                        FilterChip("全部", selectedCategory == null) { selectedCategory = null }
+                    }
+                    items(categories) { c ->
+                        FilterChip(c, selectedCategory == c) {
+                            selectedCategory = if (selectedCategory == c) null else c
+                        }
+                    }
+                }
+            }
+        }
+
+        // ------------------------------------------------ 列表
+        if (filtered.isEmpty()) {
+            item {
+                Hint(
+                    if (all.isEmpty()) "还没有收藏 —— 点右上角「添加」，或者先收藏一条分享链接"
+                    else "这个分类下没有内容"
+                )
+            }
+        } else {
+            items(filtered, key = { it.id }) { bm ->
+                BookmarkRow(
+                    bookmark = bm,
+                    onDownload = {
+                        scope.launch {
+                            val r = DownloadEntry.start(ctx, bm.link, bm.pwd.ifBlank { null })
+                            SnackbarController.show(
+                                when (r) {
+                                    is DownloadEntry.EntryResult.Started -> "已开始下载：${r.task.fileName}"
+                                    is DownloadEntry.EntryResult.NeedLogin -> "需要先登录对应的网盘账号"
+                                    is DownloadEntry.EntryResult.NeedPassword -> "需要提取码，去「下载」页填入"
+                                    is DownloadEntry.EntryResult.ChooseFiles -> "分享里有多个文件，去「下载」页选择"
+                                    is DownloadEntry.EntryResult.GitHubRepo -> "这是 GitHub 仓库，去「下载」页打开仓库挑文件"
+                                    is DownloadEntry.EntryResult.Failed -> r.message
+                                }
+                            )
+                        }
+                    },
+                    onCopy = {
+                        clipboard.setText(androidx.compose.ui.text.AnnotatedString(bm.link))
+                        SnackbarController.show("链接已复制")
+                    },
+                    onMenu = { menuTarget = bm },
+                )
+            }
+        }
+    }
+
+    // ------------------------------------------------ 条目菜单
+    menuTarget?.let { bm ->
+        MiuixDialog(
+            title = bm.title.ifBlank { bm.link.take(40) },
+            message = buildString {
+                append("分类：${bm.category}")
+                if (bm.pwd.isNotBlank()) append("\n提取码：${bm.pwd}")
+                if (bm.homePinned) append("\n已固定到首页快捷方式")
+            },
+            confirmText = "关闭",
+            onConfirm = { menuTarget = null },
+            onDismiss = { menuTarget = null },
+            dismissText = "删除",
+            onDismissButton = {
+                store.delete(bm.id)
+                menuTarget = null
+                SnackbarController.show("已删除")
+            },
+        )
+    }
+
+    // ------------------------------------------------ 添加
+    if (showAdd) {
+        BookmarkEditor(
+            title = "添加收藏",
+            onDismiss = { showAdd = false },
+            onSave = { link, name, pwd, category ->
+                if (link.isBlank()) {
+                    SnackbarController.show("链接不能为空")
+                    return@BookmarkEditor
+                }
+                if (store.findByLink(link) != null) {
+                    SnackbarController.show("这条链接已经收藏过了")
+                    return@BookmarkEditor
+                }
+                val platform = ShareLinkParser.parse(link)?.platform?.name.orEmpty()
+                store.insert(
+                    BookmarkEntity(
+                        link = link.trim(),
+                        title = name.trim(),
+                        pwd = pwd.trim(),
+                        platform = platform,
+                        category = category,
+                    )
+                )
+                showAdd = false
+                SnackbarController.show("已收藏")
+            },
+        )
+    }
+}
+
+// ---------------------------------------------------------------- 单条
+
+@Composable
+private fun BookmarkRow(
+    bookmark: BookmarkEntity,
+    onDownload: () -> Unit,
+    onCopy: () -> Unit,
+    onMenu: () -> Unit,
+) {
+    val cs = MiuixTheme.colorScheme
+    Card(Modifier.padding(vertical = 2.dp)) {
+        Column(Modifier.padding(14.dp)) {
+            Text(
+                bookmark.title.ifBlank { bookmark.link },
+                fontSize = MiuixTheme.textStyles.body1.fontSize,
+                color = cs.onSurface,
+                maxLines = 2,
+                overflow = TextOverflow.Ellipsis,
+            )
+            if (bookmark.title.isNotBlank()) {
+                Spacer(Modifier.height(3.dp))
+                Text(
+                    bookmark.link,
+                    fontSize = MiuixTheme.textStyles.footnote2.fontSize,
+                    color = cs.onSurfaceVariantSummary,
+                    maxLines = 1,
+                    overflow = TextOverflow.Ellipsis,
+                )
+            }
+            Spacer(Modifier.height(6.dp))
+            Row(verticalAlignment = Alignment.CenterVertically) {
+                if (bookmark.category.isNotBlank()) {
+                    Box(
+                        Modifier
+                            .clip(RoundedCornerShape(4.dp))
+                            .background(cs.primary.copy(alpha = 0.12f))
+                            .padding(horizontal = 5.dp, vertical = 1.dp),
+                    ) {
+                        Text(
+                            bookmark.category,
+                            fontSize = MiuixTheme.textStyles.footnote2.fontSize,
+                            color = cs.primary,
+                        )
+                    }
+                }
+                if (bookmark.pwd.isNotBlank()) {
+                    Spacer(Modifier.width(6.dp))
+                    Text(
+                        "码 ${bookmark.pwd}",
+                        fontSize = MiuixTheme.textStyles.footnote2.fontSize,
+                        color = cs.onSurfaceVariantSummary,
+                    )
+                }
+                Spacer(Modifier.weight(1f))
+            }
+            Spacer(Modifier.height(10.dp))
+            Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                GhostButton("下载") { onDownload() }
+                GhostButton("复制") { onCopy() }
+                GhostButton("更多") { onMenu() }
+            }
+        }
+    }
+}
+
+@Composable
+private fun FilterChip(text: String, selected: Boolean, onClick: () -> Unit) {
+    val cs = MiuixTheme.colorScheme
+    Box(
+        Modifier
+            .clip(RoundedCornerShape(50))
+            .background(if (selected) cs.primary.copy(alpha = 0.14f) else cs.surfaceContainerHigh)
+            .clickable { onClick() }
+            .padding(horizontal = 12.dp, vertical = 7.dp),
+    ) {
+        Text(
+            text,
+            fontSize = MiuixTheme.textStyles.footnote1.fontSize,
+            fontWeight = if (selected) FontWeight.Medium else FontWeight.Normal,
+            color = if (selected) cs.primary else cs.onSurfaceVariantSummary,
+        )
+    }
+}
+
+// ---------------------------------------------------------------- 编辑弹窗
+
+@Composable
+private fun BookmarkEditor(
+    title: String,
+    initial: BookmarkEntity? = null,
+    onDismiss: () -> Unit,
+    onSave: (link: String, name: String, pwd: String, category: String) -> Unit,
+) {
+    var link by remember { mutableStateOf(initial?.link.orEmpty()) }
+    var name by remember { mutableStateOf(initial?.title.orEmpty()) }
+    var pwd by remember { mutableStateOf(initial?.pwd.orEmpty()) }
+    var category by remember { mutableStateOf(initial?.category ?: BookmarkEntity.DEFAULT_CATEGORY) }
+    var custom by remember { mutableStateOf("") }
+
+    androidx.compose.ui.window.Dialog(onDismissRequest = onDismiss) {
+        Card {
+            Column(
+                Modifier
+                    .padding(18.dp)
+                    .verticalScroll(rememberScrollState()),
+            ) {
+                Text(
+                    title,
+                    fontSize = MiuixTheme.textStyles.title4.fontSize,
+                    fontWeight = FontWeight.Medium,
+                    color = MiuixTheme.colorScheme.onSurface,
+                )
+                Spacer(Modifier.height(12.dp))
+
+                Field("分享链接", link, { link = it }, lines = 2)
+                Spacer(Modifier.height(10.dp))
+                Field("备注名称（可空）", name, { name = it })
+                Spacer(Modifier.height(10.dp))
+                Field("提取码（可空）", pwd, { pwd = it })
+                Spacer(Modifier.height(12.dp))
+
+                Text(
+                    "分类",
+                    fontSize = MiuixTheme.textStyles.footnote2.fontSize,
+                    color = MiuixTheme.colorScheme.onSurfaceVariantSummary,
+                )
+                Spacer(Modifier.height(8.dp))
+                LazyRow(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                    items(BookmarkEntity.PRESET_CATEGORIES) { c ->
+                        FilterChip(c, category == c) {
+                            category = c
+                            custom = ""
+                        }
+                    }
+                }
+                Spacer(Modifier.height(10.dp))
+                Field("自定义分类（填了就优先用它）", custom, { custom = it })
+
+                Spacer(Modifier.height(18.dp))
+                Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                    GhostButton("取消") { onDismiss() }
+                    Spacer(Modifier.weight(1f))
+                    GhostButton("保存") {
+                        onSave(link, name, pwd, custom.ifBlank { category })
+                    }
+                }
+            }
+        }
+    }
+}
+
+@Composable
+private fun Field(
+    label: String,
+    value: String,
+    onValueChange: (String) -> Unit,
+    lines: Int = 1,
+) {
+    Column {
+        Text(
+            label,
+            fontSize = MiuixTheme.textStyles.footnote2.fontSize,
+            color = MiuixTheme.colorScheme.onSurfaceVariantSummary,
+            modifier = Modifier.padding(start = 2.dp, bottom = 5.dp),
+        )
+        Box(
+            Modifier
+                .fillMaxWidth()
+                .height(if (lines > 1) 62.dp else 44.dp)
+                .clip(RoundedCornerShape(10.dp))
+                .background(MiuixTheme.colorScheme.surfaceContainerHigh)
+                .padding(horizontal = 10.dp, vertical = 9.dp),
+        ) {
+            if (value.isEmpty()) {
+                Text(
+                    "请输入",
+                    fontSize = MiuixTheme.textStyles.footnote1.fontSize,
+                    color = MiuixTheme.colorScheme.onSurfaceVariantSummary,
+                )
+            }
+            BasicTextField(
+                value = value,
+                onValueChange = onValueChange,
+                textStyle = TextStyle(
+                    fontSize = MiuixTheme.textStyles.footnote1.fontSize,
+                    color = MiuixTheme.colorScheme.onSurface,
+                ),
+                cursorBrush = SolidColor(MiuixTheme.colorScheme.primary),
+                maxLines = lines,
+                modifier = Modifier.fillMaxWidth(),
+            )
+        }
+    }
+}

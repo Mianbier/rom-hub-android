@@ -1,1 +1,323 @@
-LyoKICogWXVuWCAo5LqR5p6QKSAtIEEgbmV0d29yayBkcml2ZSBzaGFyZS1saW5rIHBhcnNlciBhbmQgaGlnaC1zcGVlZCBkb3dubG9hZGVyIGZvciBBbmRyb2lkLgogKiBDb3B5cmlnaHQgKEMpIDIwMjYgQ1lRYXdhCiAqCiAqIFRoaXMgcHJvZ3JhbSBpcyBmcmVlIHNvZnR3YXJlOiB5b3UgY2FuIHJlZGlzdHJpYnV0ZSBpdCBhbmQvb3IgbW9kaWZ5CiAqIGl0IHVuZGVyIHRoZSB0ZXJtcyBvZiB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGFzIHB1Ymxpc2hlZCBieQogKiB0aGUgRnJlZSBTb2Z0d2FyZSBGb3VuZGF0aW9uLCBlaXRoZXIgdmVyc2lvbiAzIG9mIHRoZSBMaWNlbnNlLCBvcgogKiAoYXQgeW91ciBvcHRpb24pIGFueSBsYXRlciB2ZXJzaW9uLgogKgogKiBUaGlzIHByb2dyYW0gaXMgZGlzdHJpYnV0ZWQgaW4gdGhlIGhvcGUgdGhhdCBpdCB3aWxsIGJlIHVzZWZ1bCwKICogYnV0IFdJVEhPVVQgQU5ZIFdBUlJBTlRZOyB3aXRob3V0IGV2ZW4gdGhlIGltcGxpZWQgd2FycmFudHkgb2YKICogTUVSQ0hBTlRBQklMSVRZIG9yIEZJVE5FU1MgRk9SIEEgUEFSVElDVUxBUiBQVVJQT1NFLiAgU2VlIHRoZQogKiBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UgZm9yIG1vcmUgZGV0YWlscy4KICoKICogWW91IHNob3VsZCBoYXZlIHJlY2VpdmVkIGEgY29weSBvZiB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlCiAqIGFsb25nIHdpdGggdGhpcyBwcm9ncmFtLiAgSWYgbm90LCBzZWUgPGh0dHBzOi8vd3d3LmdudS5vcmcvbGljZW5zZXMvPi4KICovCgpwYWNrYWdlIG9yZy5saW5iYW9ndS5yb21odWIucGFuCgovKioKICogMTE1IOe9keebmOW4uOmHj+OAggogKgogKiDkvp3mja7lrp7mtYvmipPljIXmlofmoaMgYOS6keaekOWIhuaekOi1hOaWmS/nvZHnm5hBUEnmlofmoaMvMTE1LzExNV9hcGkubWRg77yI5Liq5Lq655uY77yJ5LiOIGAxMTVfc2hhcmVfYXBpLm1kYO+8iOWIhuS6q++8ieOAggogKiDlh6DkuKrlrrnmmJPouKnnmoTngrnvvJoKICogLSDkuJrliqEgQVBJIOWFqOmDqOWcqCBgd2ViYXBpLjExNS5jb21g77yMUE9TVCDpu5jorqTooajljZXnvJbnoIHvvJsKICogLSDlhpnmk43kvZzph4znmoQgYGZpZGAg5a+55paH5Lu25pivIGBmaWxlX2lkYOOAgeWvueaWh+S7tuWkueaYryBgY2F0ZV9pZGDvvIjljbPliJfooajph4znmoQgYGNpZGDvvInvvIzop4HmlofmoaMgwqcyLjEg55qE5o+Q6YaS77ybCiAqIC0g55u06ZO+IENETiDpnIDopoHjgIzkuKrkurrnm5jnm7Tpk77lk43lupTlpLTkuIvlj5HnmoQgOTAwIOenkiBDb29raWXjgI3vvIzkuJTopoHkuI7nmbvlvZUgQ29va2llIOaLvOaOpeWQjuS4gOi1t+WPkeOAggogKi8Kb2JqZWN0IFBhbjExNUNvbnN0YW50cyB7CgogICAgLy8gLS0tLS0tLS0tLSDln7rlnYAgLS0tLS0tLS0tLQoKICAgIC8qKiDkuJrliqEgQVBJIOS4u+Wfn++8iOS4quS6uuebmCArIOWIhuS6q+aOpeWPo+WQjOWfn++8iSAqLwogICAgY29uc3QgdmFsIEFQSV9CQVNFID0gImh0dHBzOi8vd2ViYXBpLjExNS5jb20iCgogICAgLyoqIOe9kemhteeJiOeZu+W9leWFpeWPo++8iFdlYlZpZXcg55m75b2V5ZCO55SxIENvb2tpZU1hbmFnZXIg5Y+W55m75b2VIENvb2tpZe+8iSAqLwogICAgY29uc3QgdmFsIFdFQl9MT0dJTl9VUkwgPSAiaHR0cHM6Ly8xMTUuY29tLyIKCiAgICAvKiog5YiG5Lqr6ZO+5o6l5Z+f5ZCN77yI5paw5YiG5Lqr6buY6K6kIDExNWNkbi5jb23vvJsxMTUuY29tIC8gMTE1cmMuY29tIOWQjOagt+acieaViO+8iSAqLwogICAgY29uc3QgdmFsIFNIQVJFX0hPU1QgPSAiaHR0cHM6Ly8xMTVjZG4uY29tIgoKICAgIC8qKiDpgJrnlKggUmVmZXJlcu+8iOaWh+ahoyDCpzHvvJror7fmsYLlpLTpnIDluKblr7nlupTpobXpnaIgUmVmZXJlcu+8iSAqLwogICAgY29uc3QgdmFsIFJFRkVSRVIgPSAiaHR0cHM6Ly8xMTUuY29tLyIKCiAgICAvKiog55u06ZO+5LiL6L295b+F6aG75pC65bim55qEIFJlZmVyZXLvvIjmlofmoaMgwqc0LjPvvIkgKi8KICAgIGNvbnN0IHZhbCBET1dOTE9BRF9SRUZFUkVSID0gImh0dHBzOi8vMTE1LmNvbS8iCgogICAgLy8gLS0tLS0tLS0tLSDmjqXlj6Pot6/lvoQgLS0tLS0tLS0tLQoKICAgIC8qKiDnmbvlvZXmgIHmoKHpqowgKyDmmLXnp7DvvIhkYXRhIOS4uuiEseaVj+aJi+acuuWPt++8m+WkseaViCBlcnJubz05OTAwMDHvvIkgKi8KICAgIGNvbnN0IHZhbCBVU0VSX0lORk9fVVJMID0gIiRBUElfQkFTRS91c2VyL2luZm8/Y3Q9anNvbiIKCiAgICAvKiog5Liq5Lq655uY5YiX55uu5b2VICovCiAgICBjb25zdCB2YWwgRklMRVNfVVJMID0gIiRBUElfQkFTRS9maWxlcyIKCiAgICAvKiog5Liq5Lq655uY56m66Ze05L+h5oGvICovCiAgICBjb25zdCB2YWwgSU5ERVhfSU5GT19VUkwgPSAiJEFQSV9CQVNFL2ZpbGVzL2luZGV4X2luZm8/Y291bnRfc3BhY2VfbnVtcz0xIgoKICAgIC8qKiDmlrDlu7rmlofku7blpLnvvIhwaWTjgIFjbmFtZe+8iSAqLwogICAgY29uc3QgdmFsIEZJTEVfQUREX1VSTCA9ICIkQVBJX0JBU0UvZmlsZXMvYWRkIgoKICAgIC8qKiDnp7vliqggLyDlpI3liLbvvIhwaWTjgIFmaWRbaV3jgIFjb3B5PTEg6KGo56S65aSN5Yi277yJICovCiAgICBjb25zdCB2YWwgRklMRV9NT1ZFX1VSTCA9ICIkQVBJX0JBU0UvZmlsZXMvbW92ZSIKCiAgICAvKiog56e75Yqo5byC5q2l6L+b5bqm77yIbW92ZV9wcm9pZO+8iSAqLwogICAgY29uc3QgdmFsIE1PVkVfUFJPR1JFU1NfVVJMID0gIiRBUElfQkFTRS9maWxlcy9tb3ZlX3Byb2dyZXNzIgoKICAgIC8qKiDph43lkb3lkI3vvIhmaWTjgIFmaWxlX25hbWXjgIFmaWxlc19uZXdfbmFtZVtpZF3vvIkgKi8KICAgIGNvbnN0IHZhbCBGSUxFX1JFTkFNRV9VUkwgPSAiJEFQSV9CQVNFL2ZpbGVzL2JhdGNoX3JlbmFtZSIKCiAgICAvKiog5Yig6Zmk77yI6L+b5Zue5pS256uZ77ybcGlk44CBZmlkWzBd44CBaWdub3JlX3dhcm49Me+8iSAqLwogICAgY29uc3QgdmFsIEZJTEVfREVMRVRFX1VSTCA9ICIkQVBJX0JBU0UvcmIvZGVsZXRlIgoKICAgIC8qKiDkuKrkurrnm5jnm7Tpk77vvIhwaWNrY29kZT085YiX6KGo6aG555qEIHBjPu+8ieOAguS7heWwj+aWh+S7tuWPr+eUqO+8jOWkp+aWh+S7tui/lOWbniA1MDAyOCAqLwogICAgY29uc3QgdmFsIEZJTEVfRE9XTkxPQURfVVJMID0gIiRBUElfQkFTRS9maWxlcy9kb3dubG9hZCIKCiAgICAvKioKICAgICAqIOOAjOeUteiEkeerr+OAjeebtOmTvuaOpeWPo++8iOWKoOWvhuWNj+iuru+8jOingSBbUGFuMTE1Q3J5cHRvXe+8ieOAguiwg+eUqOaXtumcgOaLvCBgP3Q9PHVuaXjnp5I+YO+8jAogICAgICog6KGo5Y2VIGBkYXRhPTzliqDlr4blkI7nmoQgeyJwaWNrY29kZSI64oCmfT5g44CC6L+Z5pivIDExNSDlrpjmlrnlrqLmiLfnq6/kuIvovb3lpKfmlofku7bnmoTpgJrpgZPvvIwKICAgICAqIOe9kemhteerr+aOpeWPo++8iFtGSUxFX0RPV05MT0FEX1VSTF3vvInlr7nlpKfmlofku7bkuIDlvosgNTAwMjjjgIIKICAgICAqLwogICAgY29uc3QgdmFsIEFQUF9ET1dOTE9BRF9VUkwgPSAiaHR0cHM6Ly9wcm9hcGkuMTE1LmNvbS9hcHAvY2hyb21lL2Rvd251cmwiCgogICAgLyoqIOmmluasoeWIhuS6q+WJjeeahOWNj+iuruehruiupO+8iGFjdGlvbj1wdWJzaGFyZe+8iSAqLwogICAgY29uc3QgdmFsIEFMTE9XX1BST1RPQ09MX1VSTCA9ICIkQVBJX0JBU0UvdXNlci9hbGxvd19wcm90b2NvbCIKCiAgICAvKiog5Yib5bu65YiG5Lqr77yIdXNlcl9pZOOAgWZpbGVfaWRz44CBaWdub3JlX3dhcm7vvIkgKi8KICAgIGNvbnN0IHZhbCBTSEFSRV9TRU5EX1VSTCA9ICIkQVBJX0JBU0Uvc2hhcmUvc2VuZCIKCiAgICAvKiog5L+u5pS55YiG5Lqr77yIc2hhcmVfY29kZeOAgXNoYXJlX2R1cmF0aW9uIOetie+8iSAqLwogICAgY29uc3QgdmFsIFNIQVJFX1VQREFURV9VUkwgPSAiJEFQSV9CQVNFL3NoYXJlL3VwZGF0ZXNoYXJlIgoKICAgIC8qKiDliIbkuqvor6bmg4Xlm57or7sgKi8KICAgIGNvbnN0IHZhbCBTSEFSRV9JTkZPX1VSTCA9ICIkQVBJX0JBU0Uvc2hhcmUvc2hhcmVpbmZvIgoKICAgIC8qKiDliIbkuqvliJfnm67lvZXvvIhjaWQ9MCDkuLrliIbkuqvmoLnvvIkgKi8KICAgIGNvbnN0IHZhbCBTSEFSRV9TTkFQX1VSTCA9ICIkQVBJX0JBU0Uvc2hhcmUvc25hcCIKCiAgICAvKiog5YiG5Lqr55u06ZO+77yIdXNlcl9pZCDkuLrliIbkuqvogIUgVUlE77yJICovCiAgICBjb25zdCB2YWwgU0hBUkVfRE9XTkxPQURfVVJMID0gIiRBUElfQkFTRS9zaGFyZS9kb3dudXJsIgoKICAgIC8qKiDovazlrZjvvIjmjqXmlLbliIbkuqvliLDoh6rlt7HnmoTnvZHnm5jvvIkgKi8KICAgIGNvbnN0IHZhbCBTSEFSRV9SRUNFSVZFX1VSTCA9ICIkQVBJX0JBU0Uvc2hhcmUvcmVjZWl2ZSIKCiAgICAvLyAtLS0tLS0tLS0tIOivt+axguWPguaVsCAtLS0tLS0tLS0tCgogICAgLyoqIOS4quS6uuebmOWMuuWfnyBJRO+8iOWbuuWumiAx77yJICovCiAgICBjb25zdCB2YWwgQUlEX1BFUlNPTkFMID0gIjEiCgogICAgLyoqIOagueebruW9lSBjaWQgKi8KICAgIGNvbnN0IHZhbCBST09UX0NJRCA9ICIwIgoKICAgIC8qKiDmr4/pobXmnaHmlbDvvIjkuI7nvZHpobXniYjkuIDoh7TvvIkgKi8KICAgIGNvbnN0IHZhbCBQQUdFX0xJTUlUID0gMTAwCgogICAgLyoqIOWIhuS6q+WIl+ebruW9leavj+mhteadoeaVsO+8iOaWh+ahoyDCpzMg5oqT5YyF55SoIDIw77yM5pS+5a695YiwIDEwMO+8iSAqLwogICAgY29uc3QgdmFsIFNIQVJFX1BBR0VfTElNSVQgPSAxMDAKCiAgICAvKiog56e75Yqo5byC5q2l6L2u6K+i5LiK6ZmQ5LiO6Ze06ZqU77yI5q+r56eS77yJICovCiAgICBjb25zdCB2YWwgTU9WRV9QT0xMX01BWCA9IDIwCiAgICBjb25zdCB2YWwgTU9WRV9QT0xMX0lOVEVSVkFMX01TID0gNDAwTAoKICAgIC8qKiDkuLTml7bovazlrZjmoLnnm67lvZXlkI3vvIjliIbkuqvnm7Tpk77ooqvmi5Lml7bvvIzlhYjovazlrZjliLDov5nph4zlho3nlKjnlLXohJHnq6/mjqXlj6Plj5bpk77vvIzkuIvovb3lrozliKDmjonlrZDnm67lvZXvvIkgKi8KICAgIGNvbnN0IHZhbCBURU1QX0RJUl9OQU1FID0gIll1bljkuLTml7bovazlrZgiCgogICAgLyoqIOavj+asoei9rOWtmOeUqOeahOWUr+S4gOWtkOebruW9leWJjee8gO+8iOWQjOWQjeaWh+S7tuS4jeS8muS6kuebuOimhueblu+8iSAqLwogICAgY29uc3QgdmFsIFRFTVBfU1VCRElSX1BSRUZJWCA9ICJ0cl8iCgogICAgLy8gLS0tLS0tLS0tLSDlhazlhbHor7fmsYLlpLQgLS0tLS0tLS0tLQoKICAgIC8qKgogICAgICog5qGM6Z2iIENocm9tZSBVQeOAggogICAgICog5paH5qGj5Y+q6KaB5rGCIFJlZmVyZXIgKyBDb29raWXvvIzkvYYgMTE1IOWvuemdnua1j+iniOWZqCBVQSDmnInpo47mjqfvvIzkv53mjIHkuI7nvZHpobXniYjkuIDoh7Tmm7TnqLPjgIIKICAgICAqLwogICAgY29uc3QgdmFsIFdFQl9VQSA9CiAgICAgICAgIk1vemlsbGEvNS4wIChXaW5kb3dzIE5UIDEwLjA7IFdpbjY0OyB4NjQpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS8xMjcuMC4wLjAgU2FmYXJpLzUzNy4zNiIKCiAgICAvKiog5pC65bimIENvb2tpZSDml7blv4Xpobvlo7DmmI7vvIjmlofmoaMgwqcx77yJICovCiAgICBjb25zdCB2YWwgWF9SRVFVRVNURURfV0lUSCA9ICJYTUxIdHRwUmVxdWVzdCIKCiAgICAvKioKICAgICAqICoq5LiL6L295LiT55So5a6i5oi356uvIFVBIOeahOeJiOacrOWPt+WFnOW6leWAvCoq44CCCiAgICAgKgogICAgICogMTE1IOS8muagoemqjOWuouaIt+err+eJiOacrO+8mlVBIOmHjOeJiOacrOi/h+S9juaXtu+8jOi/nuWPluebtOmTvumDveS8muiiq+aLku+8iGA1MDAyOSDlvZPliY3niYjmnKzov4fkvY7vvIzor7fljYfnuqfliLDmnIDmlrDniYjmnKzkuIvovb3jgIJgCiAgICAgKiDlrp7mtYvmnaXoh6ogYWxpc3Qg6buY6K6k54mI5pysIGAyNy4wLjUuN2DvvIwyMDI2LTEwLTAzIOaKk+WMhSBgL3N0b3JhZ2UvZW11bGF0ZWQvMC/mipPljIUvYnVnLzExNS9g77yJ44CCCiAgICAgKiDmiYDku6XniYjmnKzlj7fkuI3lhpnmrbvvvJpgUGFuMTE1QXBpLnJlZnJlc2hDbGllbnRWZXJzaW9uKClgIOS8muS7jiBbQVBQX1ZFUlNJT05fVVJMXSDmi4nlvZPliY3niYjmnKwKICAgICAqIO+8iGFsaXN0IGBkcml2ZXJzLzExNS9hcHB2ZXIuZ29gIOeahCBgZ2V0QXBwVmVyKClgIOWQjOasvuWBmuazle+8ie+8jOaLieS4jeWIsOaXtuaJjeeUqOi/meS4quWFnOW6leWAvOOAggogICAgICovCiAgICBjb25zdCB2YWwgQ0xJRU5UX1VBX1ZFUlNJT05fRkFMTEJBQ0sgPSAiMzYuMC4xIgoKICAgIC8qKiAxMTUg5a6i5oi356uv54mI5pys5o6l5Y+j77yIYGRhdGEud2luLnZlcnNpb25fY29kZWAg5Y2z5b2T5YmNIFdpbmRvd3Mg54mIIDExNSDmtY/op4jlmajniYjmnKzvvIzlhY3nmbvlvZXlj6/nlKjvvIkgKi8KICAgIGNvbnN0IHZhbCBBUFBfVkVSU0lPTl9VUkwgPSAiaHR0cHM6Ly9hcHB2ZXJzaW9uLjExNS5jb20vMS93ZWIvMS4wL2FwaS9jaHJvbWUiCgogICAgLyoqCiAgICAgKiAqKuS4i+i9veS4k+eUqOWuouaIt+erryBVQSoq77yI5b2i5aaCIGBNb3ppbGxhLzUuMCAxMTVCcm93c2VyLzzniYjmnKw+YO+8jOWQjCBhbGlzdCBgZHJpdmVycy8xMTUvdXRpbC5nbzoxMzJg77yJ44CCCiAgICAgKgogICAgICogMTE1IOS8muaMiSBVQSDliKTlrprjgIznvZHpobXnq68gLyDlrqLmiLfnq6/jgI3vvJrmtY/op4jlmaggVUEg6L+e5bCP5paH5Lu255qE5LiL6L296K+35rGC6YO95Lya6KKr5beu5Yir5a+55b6F77ybCiAgICAgKiDniYjmnKzlj7fov4fkvY7liJnnm7TmjqUgYDUwMDI5YOOAguWboOatpOi/memHjOaYryoq5Y+v5Y+Y55qE6L+b56iL57qn57yT5a2YKiog4oCU4oCUIOWPluebtOmTvuWJjeeUsQogICAgICogYFBhbjExNUFwaS5yZWZyZXNoQ2xpZW50VmVyc2lvbigpYCDnlKggW0FQUF9WRVJTSU9OX1VSTF0g55qE5pyA5paw54mI5pys5Yi35pawIFthcHBseUNsaWVudFZlcnNpb25d77yMCiAgICAgKiDlj5bpk77kuI7pmo/lkI7nmoTkuIvovb3or7fmsYLpg73or7vlkIzkuIDkuKrlgLzvvIzniYjmnKzmm7TmlrDlkI7ml6DpnIDlj5HniYjjgIIKICAgICAqCiAgICAgKiAqKuazqOaEjyoq77yaVUEg5Y+q5piv6Zeo56Wo77yM5ou/5aSn5paH5Lu255u06ZO+5LuN5b+F6aG76LWw44CM55S16ISR56uv44CN5Yqg5a+G5o6l5Y+jIFtBUFBfRE9XTkxPQURfVVJMXe+8iOingSBbUGFuMTE1Q3J5cHRvXe+8ie+8mgogICAgICog5Liq5Lq655uY6LWwIGBnZXRBcHBEb3dubG9hZExpbmtg77yM5YiG5Lqr6LWw44CM6L2s5a2YICsg55S16ISR56uv5o6l5Y+j44CN44CCCiAgICAgKi8KICAgIEBWb2xhdGlsZQogICAgdmFyIENMSUVOVF9VQTogU3RyaW5nID0gY2xpZW50VWEoQ0xJRU5UX1VBX1ZFUlNJT05fRkFMTEJBQ0spCiAgICAgICAgcHJpdmF0ZSBzZXQKCiAgICAvKiog5ou85a6i5oi356uvIFVBICovCiAgICBmdW4gY2xpZW50VWEodmVyc2lvbjogU3RyaW5nKTogU3RyaW5nID0gIk1vemlsbGEvNS4wIDExNUJyb3dzZXIvJHZlcnNpb24iCgogICAgLyoqIOeUqOacgOaWsOeahOWuouaIt+err+eJiOacrOWPt+WIt+aWsCBbQ0xJRU5UX1VBXe+8iOmdnuazleWAvOW/veeVpe+8jOWksei0peaXtuS/neeVmeaXp+WAvO+8iSAqLwogICAgZnVuIGFwcGx5Q2xpZW50VmVyc2lvbih2ZXJzaW9uOiBTdHJpbmc/KSB7CiAgICAgICAgdmFsIHZhbHVlID0gdmVyc2lvbj8udHJpbSgpLm9yRW1wdHkoKQogICAgICAgIC8vIOW9ouWmgiAzNi4wLjEgLyAzNi4wLjEw77yM6L+H5ruk5o6J5o6l5Y+j5byC5bi45pe255qE56m65YC85oiW5Z6D5Zy+5LiyCiAgICAgICAgaWYgKHZhbHVlLmlzRW1wdHkoKSB8fCAhdmFsdWUuZmlyc3QoKS5pc0RpZ2l0KCkgfHwgdmFsdWUubGVuZ3RoID4gMTYpIHJldHVybgogICAgICAgIGlmICghdmFsdWUuYWxsIHsgaXQuaXNEaWdpdCgpIHx8IGl0ID09ICcuJyB9KSByZXR1cm4KICAgICAgICBpZiAoQ0xJRU5UX1VBLmVuZHNXaXRoKCIvJHZhbHVlIikpIHJldHVybgogICAgICAgIENMSUVOVF9VQSA9IGNsaWVudFVhKHZhbHVlKQogICAgfQoKICAgIC8qKiDliIbkuqvpk77mjqXln5/lkI3vvIjnlKjkuo7lsZXnpLov5pS26JeP5bmz5Y+w6K+G5Yir77yJICovCiAgICBjb25zdCB2YWwgU0hBUkVfTElOS19IT1NUID0gIjExNWNkbi5jb20iCgogICAgLyoqIOe9kemhteeZu+W9lSBDb29raWUg5Li75Z+f77yI55m75b2V5ZCOIFVJRC9DSUQvU0VJRC9LSUQg6YO95LiL5Y+R5ZyoIDExNS5jb20g5LiL77yJICovCiAgICBjb25zdCB2YWwgQ09PS0lFX0RPTUFJTiA9ICJodHRwczovLzExNS5jb20iCgogICAgLyoqIOWkh+eUqCBDb29raWUg5Z+f5ZCN77yI6YOo5YiG5Lya6K+d5a2X5q615oyC5ZyoIHdlYmFwaSDlrZDln5/vvIkgKi8KICAgIGNvbnN0IHZhbCBDT09LSUVfRE9NQUlOX0JBQ0tVUCA9ICJodHRwczovL3dlYmFwaS4xMTUuY29tIgoKICAgIC8qKgogICAgICog6ZyA6KaB5L+d55WZ55qEIENvb2tpZSDlrZfmrrXvvJphbGlzdCDlrp7mtYvmnIDlsI/lj6/nlKjpm4bkuLogVUlEL0NJRC9TRUlEL0tJRO+8jAogICAgICog5YW25L2Z5Lya6K+d5a2X5q615LiA5bm25L+d55WZ77yI57y65a2X5q615pe25pyN5Yqh56uv5Lya5LulIGVycm5vPTk5MDAwMSDmmI7noa7miqXplJnvvInjgIIKICAgICAqLwogICAgdmFsIENPT0tJRV9LRUVQX0tFWVMgPSBsaW5rZWRTZXRPZigKICAgICAgICAiVUlEIiwgIkNJRCIsICJTRUlEIiwgIktJRCIsICJQSFBTRVNTSUQiLCAiR1NUIiwgIlVTRVJTRVNTSU9OSUQiCiAgICApCgogICAgLy8gLS0tLS0tLS0tLSDplJnor6/noIHvvIjmlofmoaMgMTE1X2FwaS5tZCDCpzEuMSAvIDExNV9zaGFyZV9hcGkubWQgwqc377yJIC0tLS0tLS0tLS0KCiAgICAvKiog55m75b2V6LaF5pe2ICovCiAgICBjb25zdCB2YWwgRVJSTk9fTE9HSU5fVElNRU9VVCA9IDk5MDAwMQoKICAgIC8qKiDliIbkuqvpnIDopoHorr/pl67noIEgKi8KICAgIGNvbnN0IHZhbCBFUlJOT19ORUVEX0NPREUgPSA0MTAwMDEyCgogICAgLyoqIOiuv+mXrueggemUmeivryAqLwogICAgY29uc3QgdmFsIEVSUk5PX1dST05HX0NPREUgPSA0MTAwMDA4CgogICAgLyoqIOWIhuS6q+mTvuaOpeS4jeWtmOWcqOaIluW3suiiq+WIoOmZpCAqLwogICAgY29uc3QgdmFsIEVSUk5PX1NIQVJFX0dPTkUgPSA0MTAwMDI2CgogICAgLyoqIOS4jeWFgeiuuOWIhuS6q+epuuaWh+S7tuWkuSAqLwogICAgY29uc3QgdmFsIEVSUk5PX0VNUFRZX0ZPTERFUiA9IDQxMDAwMTYKCiAgICAvKiog5LiK5LiA5qyh5pON5L2c5bCa5pyq5omn6KGM5a6M5oiQ77yI5Yig6ZmkL+enu+WKqO+8iSAqLwogICAgY29uc3QgdmFsIEVSUk5PX0JVU1kgPSA5OTAwMDkKCiAgICAvKiog6ZyA6KaB5LqM5qyh56Gu6K6k77yI5Yig6Zmk5pen5paH5Lu2562J77yJICovCiAgICBjb25zdCB2YWwgRVJSTk9fTkVFRF9DT05GSVJNID0gODAwMDA3CgogICAgLyoqIOS4quS6uuebmOS4i+i9ve+8muaWh+S7tuWkp+Wwj+i2heWHuue9kemhteerr+mZkOWItu+8iGDmlofku7blpKflsI/otoXlh7rpmZDliLbvvIzor7fkvb/nlKgxMTXnlLXohJHnq6/kuIvovb1g77yJICovCiAgICBjb25zdCB2YWwgRVJSTk9fV0VCX1NJWkVfTElNSVQgPSA1MDAyOAoKICAgIC8qKiDliIbkuqvkuIvovb3vvJrooqvliKTlrprlrqLmiLfnq6/niYjmnKzov4fkvY7vvIhg5b2T5YmN54mI5pys6L+H5L2O77yM6K+35Y2H57qn5Yiw5pyA5paw54mI5pys5LiL6L29YO+8iSAqLwogICAgY29uc3QgdmFsIEVSUk5PX0NMSUVOVF9UT09fT0xEID0gNTAwMjkKCiAgICAvKiog56m66Ze05LiN6Laz77yIMTE1IOi9rOWtmC/kuIrkvKDml7bov5Tlm57vvIxgZXJyb3JgIOWtl+auteS4gOiIrOaYr+OAjOepuumXtOS4jei2s+OAje+8iSAqLwogICAgY29uc3QgdmFsIEVSUk5PX05PX1NQQUNFID0gNDAwMDcwMQoKICAgIC8qKiDnqbrpl7TkuI3otrPnmoTlj6bkuIDkuKrluLjop4HnoIHvvIjpg6jliIbmjqXlj6PniYjmnKznlKjov5nkuKrvvIkgKi8KICAgIGNvbnN0IHZhbCBFUlJOT19OT19TUEFDRV9BTFQgPSA5OTAwMjAKCiAgICAvKiog55uu5qCH55uu5b2V5LiN5a2Y5ZyoICovCiAgICBjb25zdCB2YWwgRVJSTk9fRElSX05PVF9GT1VORCA9IDQwMDAxMDEKCiAgICAvKiog5ZCM5ZCN5paH5Lu25bey5a2Y5ZyoICovCiAgICBjb25zdCB2YWwgRVJSTk9fRklMRV9FWElTVFMgPSA0MDAwMzAxCgogICAgLy8gLS0tLS0tLS0tLSDlt6Xlhbfmlrnms5UgLS0tLS0tLS0tLQoKICAgIC8qKiDliIbkuqvpobUgUmVmZXJlcu+8iGFsaXN0IOWunui3te+8mmBodHRwczovLzExNWNkbi5jb20vcy88Y29kZT4/cGFzc3dvcmQ9PGNvZGU+JmDvvIkgKi8KICAgIGZ1biBzaGFyZVJlZmVyZXIoc2hhcmVDb2RlOiBTdHJpbmcsIHJlY2VpdmVDb2RlOiBTdHJpbmcpOiBTdHJpbmcgPQogICAgICAgIGlmIChyZWNlaXZlQ29kZS5pc0JsYW5rKCkpIHsKICAgICAgICAgICAgIiRTSEFSRV9IT1NUL3MvJHNoYXJlQ29kZSIKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAiJFNIQVJFX0hPU1Qvcy8kc2hhcmVDb2RlP3Bhc3N3b3JkPSRyZWNlaXZlQ29kZSYiCiAgICAgICAgfQoKICAgIC8qKiDlj5YgQ29va2llIOS4reafkOWtl+auteeahOWAvO+8iENvb2tpZSDlvaLlpoIgYFVJRD0xMDM2MTYwMjJfQTFfMTY5OyBDSUQ9eHh4YO+8iSAqLwogICAgZnVuIGNvb2tpZVZhbHVlKGNvb2tpZTogU3RyaW5nLCBuYW1lOiBTdHJpbmcpOiBTdHJpbmc/ID0KICAgICAgICBjb29raWUuc3BsaXQoJzsnKQogICAgICAgICAgICAuYXNTZXF1ZW5jZSgpCiAgICAgICAgICAgIC5tYXAgeyBpdC50cmltKCkgfQogICAgICAgICAgICAuZmlyc3RPck51bGwgeyBpdC5zdGFydHNXaXRoKCIkbmFtZT0iKSB9CiAgICAgICAgICAgID8uc3Vic3RyaW5nQWZ0ZXIoJz0nKQogICAgICAgICAgICA/LnRha2VJZiB7IGl0LmlzTm90QmxhbmsoKSB9CgogICAgLyoqCiAgICAgKiDnmbvlvZXmgIEgQ29va2llIOaYr+WQpuWPr+eUqOOAggogICAgICog5Y+q5qCh6aqMIGBVSURg77yaYFNFSURgL2BLSURgIOaYryBIdHRwT25seSDkuJTkvJrova7mjaLvvIznvLrlpLHml7borqnmnI3liqHnq6/nlKggZXJybm89OTkwMDAxIOaYjuehruaKpemUmeabtOWlveWumuS9jeOAggogICAgICovCiAgICBmdW4gaGFzTG9naW5Db29raWUoY29va2llOiBTdHJpbmcpOiBCb29sZWFuID0gY29va2llVmFsdWUoY29va2llLCAiVUlEIikgIT0gbnVsbAoKICAgIC8qKgogICAgICogQ29va2llIOmHjOeahCBgVUlEYCDlvaLlpoIgYDEwMzYxNjAyMl9BMV885pe26Ze05oizPmDvvIzlj5bliY3pnaLnmoTnuq/mlbDlrZfpg6jliIbjgIIKICAgICAqIOWIm+W7uuWIhuS6q+eahCBgdXNlcl9pZGAg5LiO5YiG5Lqr55u06ZO+55qEIGB1c2VyX2lkYCDpg73opoHov5nkuKrmlbDlrZflvaLlvI/jgIIKICAgICAqLwogICAgZnVuIGV4dHJhY3RVc2VySWQoY29va2llOiBTdHJpbmcpOiBTdHJpbmc/ID0KICAgICAgICBjb29raWVWYWx1ZShjb29raWUsICJVSUQiKT8uc3Vic3RyaW5nQmVmb3JlKCdfJyk/LnRha2VJZiB7IGl0LmlzTm90QmxhbmsoKSB9CgogICAgLyoqIOWQiOW5tuWkmuautSBDb29raWXvvIjnmbvlvZUgQ29va2llICsg55u06ZO+5ZON5bqU5LiL5Y+R55qEIENETiBDb29raWXvvIzmlofmoaMgwqc0LjPvvIkgKi8KICAgIGZ1biBtZXJnZUNvb2tpZXModmFyYXJnIHBhcnRzOiBTdHJpbmcpOiBTdHJpbmcgPQogICAgICAgIHBhcnRzLmZpbHRlciB7IGl0LmlzTm90QmxhbmsoKSB9LmpvaW5Ub1N0cmluZygiOyAiKQoKICAgIC8qKgogICAgICog5LuOIFdlYlZpZXcg55qEIENvb2tpZU1hbmFnZXIg5o+Q5Y+W55m75b2VIENvb2tpZeOAggogICAgICog5L6d6LWW5rOo5YWl55qEIFtnZXRDb29raWVdIOS+neasoeivu+WPluS4u+Wfn+S4juWkh+eUqOWfn++8iEFuZHJvaWQg55qEIENvb2tpZU1hbmFnZXIg6IO96K+75YiwIEh0dHBPbmx5IOeahCBTRUlEL0tJRO+8ie+8jAogICAgICog5Y+q5L+d55WZIFtDT09LSUVfS0VFUF9LRVlTXSDkuK3nmoTlrZfmrrXlubbljrvph43vvIzmi7zmiJDor7fmsYLlpLTlj6/nm7TmjqXkvb/nlKjnmoTmlbTkuLIgQ29va2ll44CCCiAgICAgKi8KICAgIGZ1biBleHRyYWN0Q29va2llcyhnZXRDb29raWU6IChTdHJpbmcpIC0+IFN0cmluZz8pOiBTdHJpbmcgewogICAgICAgIHZhbCBvdXQgPSBsaW5rZWRNYXBPZjxTdHJpbmcsIFN0cmluZz4oKQogICAgICAgIGZvciAoZG9tYWluIGluIGxpc3RPZihDT09LSUVfRE9NQUlOLCBDT09LSUVfRE9NQUlOX0JBQ0tVUCkpIHsKICAgICAgICAgICAgdmFsIHJhdyA9IGdldENvb2tpZShkb21haW4pID86IGNvbnRpbnVlCiAgICAgICAgICAgIGZvciAoa3YgaW4gcmF3LnNwbGl0KCI7IikpIHsKICAgICAgICAgICAgICAgIHZhbCBwYWlyID0ga3YudHJpbSgpCiAgICAgICAgICAgICAgICB2YWwgZXEgPSBwYWlyLmluZGV4T2YoJz0nKQogICAgICAgICAgICAgICAgaWYgKGVxIDw9IDApIGNvbnRpbnVlCiAgICAgICAgICAgICAgICB2YWwga2V5ID0gcGFpci5zdWJzdHJpbmcoMCwgZXEpCiAgICAgICAgICAgICAgICB2YWwgdmFsdWUgPSBwYWlyLnN1YnN0cmluZyhlcSArIDEpCiAgICAgICAgICAgICAgICBpZiAoa2V5IGluIENPT0tJRV9LRUVQX0tFWVMgJiYga2V5ICFpbiBvdXQpIG91dFtrZXldID0gdmFsdWUKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICByZXR1cm4gb3V0LmVudHJpZXMuam9pblRvU3RyaW5nKCI7ICIpIHsgIiR7aXQua2V5fT0ke2l0LnZhbHVlfSIgfQogICAgfQoKICAgIC8qKgogICAgICog55m75b2VIENvb2tpZSDmmK/lkKblvaLkvLzlj6/nlKjvvIjnmbvlvZXpobXoh6rliqjmo4DmtYvnmoTjgIxwbGF1c2libGXjgI3liKTmja7vvInjgIIKICAgICAqIOWPquimgeaxgiBVSUQgKyBTRUlE77yb55yf5q2j5piv5ZCm5pyJ5pWI55SxIGBHRVQgL3VzZXIvaW5mb2Ag5qCh6aqM77yIW1BhbjExNUFwaS5mZXRjaE5pY2tuYW1lXe+8ieOAggogICAgICovCiAgICBmdW4gaXNWYWxpZENvb2tpZShjb29raWU6IFN0cmluZz8pOiBCb29sZWFuIHsKICAgICAgICBpZiAoY29va2llLmlzTnVsbE9yQmxhbmsoKSkgcmV0dXJuIGZhbHNlCiAgICAgICAgZnVuIGhhcyhuYW1lOiBTdHJpbmcpID0gY29va2llLnNwbGl0KCI7IikuYW55IHsKICAgICAgICAgICAgdmFsIHBhaXIgPSBpdC50cmltKCkKICAgICAgICAgICAgcGFpci5zdGFydHNXaXRoKCIkbmFtZT0iKSAmJiBwYWlyLmxlbmd0aCA+IG5hbWUubGVuZ3RoICsgMQogICAgICAgIH0KICAgICAgICByZXR1cm4gaGFzKCJVSUQiKSAmJiBoYXMoIlNFSUQiKQogICAgfQoKICAgIC8qKgogICAgICog5YiG5Lqr5Lya6K+dIHRva2Vu77yaYDxyZWNlaXZlX2NvZGU+fDzliIbkuqvogIUgdXNlcl9pZD5g44CCCiAgICAgKiBgU2hhcmVTZXNzaW9uYCDlj6rmnIkgc2hhcmVJZC9zdG9rZW4vdGl0bGUg5LiJ5Liq5a2X5q6177yM5YiG5Lqr6ICFIFVJRO+8iOWPluebtOmTvuW/hemcgO+8ieWPquiDvemajyBzdG9rZW4g5bim6LWw44CCCiAgICAgKi8KICAgIGZ1biBlbmNvZGVTaGFyZVRva2VuKHJlY2VpdmVDb2RlOiBTdHJpbmcsIHVzZXJJZDogU3RyaW5nKTogU3RyaW5nID0gIiRyZWNlaXZlQ29kZXwkdXNlcklkIgoKICAgIC8qKiDlj43op6MgW2VuY29kZVNoYXJlVG9rZW5d77yb5qC85byP5byC5bi45pe25oqK5pW05Liy5b2T5o+Q5Y+W56CB44CBVUlEIOinhuS4uuepuiAqLwogICAgZnVuIGRlY29kZVNoYXJlVG9rZW4odG9rZW46IFN0cmluZyk6IFBhaXI8U3RyaW5nLCBTdHJpbmc+IHsKICAgICAgICB2YWwgaW5kZXggPSB0b2tlbi5pbmRleE9mKCd8JykKICAgICAgICBpZiAoaW5kZXggPCAwKSByZXR1cm4gdG9rZW4gdG8gIiIKICAgICAgICByZXR1cm4gdG9rZW4uc3Vic3RyaW5nKDAsIGluZGV4KSB0byB0b2tlbi5zdWJzdHJpbmcoaW5kZXggKyAxKQogICAgfQp9Cg==
+/*
+ * YunX (云析) - A network drive share-link parser and high-speed downloader for Android.
+ * Copyright (C) 2026 CYQawa
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Affero General Public License for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
+package org.linbaogu.romhub.pan
+
+/**
+ * 115 网盘常量。
+ *
+ * 依据实测抓包文档 `云析分析资料/网盘API文档/115/115_api.md`（个人盘）与 `115_share_api.md`（分享）。
+ * 几个容易踩的点：
+ * - 业务 API 全部在 `webapi.115.com`，POST 默认表单编码；
+ * - 写操作里的 `fid` 对文件是 `file_id`、对文件夹是 `cate_id`（即列表里的 `cid`），见文档 §2.1 的提醒；
+ * - 直链 CDN 需要「个人盘直链响应头下发的 900 秒 Cookie」，且要与登录 Cookie 拼接后一起发。
+ */
+object Pan115Constants {
+
+    // ---------- 基址 ----------
+
+    /** 业务 API 主域（个人盘 + 分享接口同域） */
+    const val API_BASE = "https://webapi.115.com"
+
+    /** 网页版登录入口（WebView 登录后由 CookieManager 取登录 Cookie） */
+    const val WEB_LOGIN_URL = "https://115.com/"
+
+    /** 分享链接域名（新分享默认 115cdn.com；115.com / 115rc.com 同样有效） */
+    const val SHARE_HOST = "https://115cdn.com"
+
+    /** 通用 Referer（文档 §1：请求头需带对应页面 Referer） */
+    const val REFERER = "https://115.com/"
+
+    /** 直链下载必须携带的 Referer（文档 §4.3） */
+    const val DOWNLOAD_REFERER = "https://115.com/"
+
+    // ---------- 接口路径 ----------
+
+    /** 登录态校验 + 昵称（data 为脱敏手机号；失效 errno=990001） */
+    const val USER_INFO_URL = "$API_BASE/user/info?ct=json"
+
+    /** 个人盘列目录 */
+    const val FILES_URL = "$API_BASE/files"
+
+    /** 个人盘空间信息 */
+    const val INDEX_INFO_URL = "$API_BASE/files/index_info?count_space_nums=1"
+
+    /** 新建文件夹（pid、cname） */
+    const val FILE_ADD_URL = "$API_BASE/files/add"
+
+    /** 移动 / 复制（pid、fid[i]、copy=1 表示复制） */
+    const val FILE_MOVE_URL = "$API_BASE/files/move"
+
+    /** 移动异步进度（move_proid） */
+    const val MOVE_PROGRESS_URL = "$API_BASE/files/move_progress"
+
+    /** 重命名（fid、file_name、files_new_name[id]） */
+    const val FILE_RENAME_URL = "$API_BASE/files/batch_rename"
+
+    /** 删除（进回收站；pid、fid[0]、ignore_warn=1） */
+    const val FILE_DELETE_URL = "$API_BASE/rb/delete"
+
+    /** 个人盘直链（pickcode=<列表项的 pc>）。仅小文件可用，大文件返回 50028 */
+    const val FILE_DOWNLOAD_URL = "$API_BASE/files/download"
+
+    /**
+     * 「电脑端」直链接口（加密协议，见 [Pan115Crypto]）。调用时需拼 `?t=<unix秒>`，
+     * 表单 `data=<加密后的 {"pickcode":…}>`。这是 115 官方客户端下载大文件的通道，
+     * 网页端接口（[FILE_DOWNLOAD_URL]）对大文件一律 50028。
+     */
+    const val APP_DOWNLOAD_URL = "https://proapi.115.com/app/chrome/downurl"
+
+    /** 首次分享前的协议确认（action=pubshare） */
+    const val ALLOW_PROTOCOL_URL = "$API_BASE/user/allow_protocol"
+
+    /** 创建分享（user_id、file_ids、ignore_warn） */
+    const val SHARE_SEND_URL = "$API_BASE/share/send"
+
+    /** 修改分享（share_code、share_duration 等） */
+    const val SHARE_UPDATE_URL = "$API_BASE/share/updateshare"
+
+    /** 分享详情回读 */
+    const val SHARE_INFO_URL = "$API_BASE/share/shareinfo"
+
+    /** 分享列目录（cid=0 为分享根） */
+    const val SHARE_SNAP_URL = "$API_BASE/share/snap"
+
+    /** 分享直链（user_id 为分享者 UID） */
+    const val SHARE_DOWNLOAD_URL = "$API_BASE/share/downurl"
+
+    /** 转存（接收分享到自己的网盘） */
+    const val SHARE_RECEIVE_URL = "$API_BASE/share/receive"
+
+    // ---------- 请求参数 ----------
+
+    /** 个人盘区域 ID（固定 1） */
+    const val AID_PERSONAL = "1"
+
+    /** 根目录 cid */
+    const val ROOT_CID = "0"
+
+    /** 每页条数（与网页版一致） */
+    const val PAGE_LIMIT = 100
+
+    /** 分享列目录每页条数（文档 §3 抓包用 20，放宽到 100） */
+    const val SHARE_PAGE_LIMIT = 100
+
+    /** 移动异步轮询上限与间隔（毫秒） */
+    const val MOVE_POLL_MAX = 20
+    const val MOVE_POLL_INTERVAL_MS = 400L
+
+    /** 临时转存根目录名（分享直链被拒时，先转存到这里再用电脑端接口取链，下载完删掉子目录） */
+    const val TEMP_DIR_NAME = "YunX临时转存"
+
+    /** 每次转存用的唯一子目录前缀（同名文件不会互相覆盖） */
+    const val TEMP_SUBDIR_PREFIX = "tr_"
+
+    // ---------- 公共请求头 ----------
+
+    /**
+     * 桌面 Chrome UA。
+     * 文档只要求 Referer + Cookie，但 115 对非浏览器 UA 有风控，保持与网页版一致更稳。
+     */
+    const val WEB_UA =
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+
+    /** 携带 Cookie 时必须声明（文档 §1） */
+    const val X_REQUESTED_WITH = "XMLHttpRequest"
+
+    /**
+     * **下载专用客户端 UA 的版本号兜底值**。
+     *
+     * 115 会校验客户端版本：UA 里版本过低时，连取直链都会被拒（`50029 当前版本过低，请升级到最新版本下载。`
+     * 实测来自 alist 默认版本 `27.0.5.7`，2026-10-03 抓包 `/storage/emulated/0/抓包/bug/115/`）。
+     * 所以版本号不写死：`Pan115Api.refreshClientVersion()` 会从 [APP_VERSION_URL] 拉当前版本
+     * （alist `drivers/115/appver.go` 的 `getAppVer()` 同款做法），拉不到时才用这个兜底值。
+     */
+    const val CLIENT_UA_VERSION_FALLBACK = "36.0.1"
+
+    /** 115 客户端版本接口（`data.win.version_code` 即当前 Windows 版 115 浏览器版本，免登录可用） */
+    const val APP_VERSION_URL = "https://appversion.115.com/1/web/1.0/api/chrome"
+
+    /**
+     * **下载专用客户端 UA**（形如 `Mozilla/5.0 115Browser/<版本>`，同 alist `drivers/115/util.go:132`）。
+     *
+     * 115 会按 UA 判定「网页端 / 客户端」：浏览器 UA 连小文件的下载请求都会被差别对待；
+     * 版本号过低则直接 `50029`。因此这里是**可变的进程级缓存** —— 取直链前由
+     * `Pan115Api.refreshClientVersion()` 用 [APP_VERSION_URL] 的最新版本刷新 [applyClientVersion]，
+     * 取链与随后的下载请求都读同一个值，版本更新后无需发版。
+     *
+     * **注意**：UA 只是门票，拿大文件直链仍必须走「电脑端」加密接口 [APP_DOWNLOAD_URL]（见 [Pan115Crypto]）：
+     * 个人盘走 `getAppDownloadLink`，分享走「转存 + 电脑端接口」。
+     */
+    @Volatile
+    var CLIENT_UA: String = clientUa(CLIENT_UA_VERSION_FALLBACK)
+        private set
+
+    /** 拼客户端 UA */
+    fun clientUa(version: String): String = "Mozilla/5.0 115Browser/$version"
+
+    /** 用最新的客户端版本号刷新 [CLIENT_UA]（非法值忽略，失败时保留旧值） */
+    fun applyClientVersion(version: String?) {
+        val value = version?.trim().orEmpty()
+        // 形如 36.0.1 / 36.0.10，过滤掉接口异常时的空值或垃圾串
+        if (value.isEmpty() || !value.first().isDigit() || value.length > 16) return
+        if (!value.all { it.isDigit() || it == '.' }) return
+        if (CLIENT_UA.endsWith("/$value")) return
+        CLIENT_UA = clientUa(value)
+    }
+
+    /** 分享链接域名（用于展示/收藏平台识别） */
+    const val SHARE_LINK_HOST = "115cdn.com"
+
+    /** 网页登录 Cookie 主域（登录后 UID/CID/SEID/KID 都下发在 115.com 下） */
+    const val COOKIE_DOMAIN = "https://115.com"
+
+    /** 备用 Cookie 域名（部分会话字段挂在 webapi 子域） */
+    const val COOKIE_DOMAIN_BACKUP = "https://webapi.115.com"
+
+    /**
+     * 需要保留的 Cookie 字段：alist 实测最小可用集为 UID/CID/SEID/KID，
+     * 其余会话字段一并保留（缺字段时服务端会以 errno=990001 明确报错）。
+     */
+    val COOKIE_KEEP_KEYS = linkedSetOf(
+        "UID", "CID", "SEID", "KID", "PHPSESSID", "GST", "USERSESSIONID"
+    )
+
+    // ---------- 错误码（文档 115_api.md §1.1 / 115_share_api.md §7） ----------
+
+    /** 登录超时 */
+    const val ERRNO_LOGIN_TIMEOUT = 990001
+
+    /** 分享需要访问码 */
+    const val ERRNO_NEED_CODE = 4100012
+
+    /** 访问码错误 */
+    const val ERRNO_WRONG_CODE = 4100008
+
+    /** 分享链接不存在或已被删除 */
+    const val ERRNO_SHARE_GONE = 4100026
+
+    /** 不允许分享空文件夹 */
+    const val ERRNO_EMPTY_FOLDER = 4100016
+
+    /** 上一次操作尚未执行完成（删除/移动） */
+    const val ERRNO_BUSY = 990009
+
+    /** 需要二次确认（删除旧文件等） */
+    const val ERRNO_NEED_CONFIRM = 800007
+
+    /** 个人盘下载：文件大小超出网页端限制（`文件大小超出限制，请使用115电脑端下载`） */
+    const val ERRNO_WEB_SIZE_LIMIT = 50028
+
+    /** 分享下载：被判定客户端版本过低（`当前版本过低，请升级到最新版本下载`） */
+    const val ERRNO_CLIENT_TOO_OLD = 50029
+
+    /** 空间不足（115 转存/上传时返回，`error` 字段一般是「空间不足」） */
+    const val ERRNO_NO_SPACE = 4000701
+
+    /** 空间不足的另一个常见码（部分接口版本用这个） */
+    const val ERRNO_NO_SPACE_ALT = 990020
+
+    /** 目标目录不存在 */
+    const val ERRNO_DIR_NOT_FOUND = 4000101
+
+    /** 同名文件已存在 */
+    const val ERRNO_FILE_EXISTS = 4000301
+
+    // ---------- 工具方法 ----------
+
+    /** 分享页 Referer（alist 实践：`https://115cdn.com/s/<code>?password=<code>&`） */
+    fun shareReferer(shareCode: String, receiveCode: String): String =
+        if (receiveCode.isBlank()) {
+            "$SHARE_HOST/s/$shareCode"
+        } else {
+            "$SHARE_HOST/s/$shareCode?password=$receiveCode&"
+        }
+
+    /** 取 Cookie 中某字段的值（Cookie 形如 `UID=103616022_A1_169; CID=xxx`） */
+    fun cookieValue(cookie: String, name: String): String? =
+        cookie.split(';')
+            .asSequence()
+            .map { it.trim() }
+            .firstOrNull { it.startsWith("$name=") }
+            ?.substringAfter('=')
+            ?.takeIf { it.isNotBlank() }
+
+    /**
+     * 登录态 Cookie 是否可用。
+     * 只校验 `UID`：`SEID`/`KID` 是 HttpOnly 且会轮换，缺失时让服务端用 errno=990001 明确报错更好定位。
+     */
+    fun hasLoginCookie(cookie: String): Boolean = cookieValue(cookie, "UID") != null
+
+    /**
+     * Cookie 里的 `UID` 形如 `103616022_A1_<时间戳>`，取前面的纯数字部分。
+     * 创建分享的 `user_id` 与分享直链的 `user_id` 都要这个数字形式。
+     */
+    fun extractUserId(cookie: String): String? =
+        cookieValue(cookie, "UID")?.substringBefore('_')?.takeIf { it.isNotBlank() }
+
+    /** 合并多段 Cookie（登录 Cookie + 直链响应下发的 CDN Cookie，文档 §4.3） */
+    fun mergeCookies(vararg parts: String): String =
+        parts.filter { it.isNotBlank() }.joinToString("; ")
+
+    /**
+     * 从 WebView 的 CookieManager 提取登录 Cookie。
+     * 依赖注入的 [getCookie] 依次读取主域与备用域（Android 的 CookieManager 能读到 HttpOnly 的 SEID/KID），
+     * 只保留 [COOKIE_KEEP_KEYS] 中的字段并去重，拼成请求头可直接使用的整串 Cookie。
+     */
+    fun extractCookies(getCookie: (String) -> String?): String {
+        val out = linkedMapOf<String, String>()
+        for (domain in listOf(COOKIE_DOMAIN, COOKIE_DOMAIN_BACKUP)) {
+            val raw = getCookie(domain) ?: continue
+            for (kv in raw.split(";")) {
+                val pair = kv.trim()
+                val eq = pair.indexOf('=')
+                if (eq <= 0) continue
+                val key = pair.substring(0, eq)
+                val value = pair.substring(eq + 1)
+                if (key in COOKIE_KEEP_KEYS && key !in out) out[key] = value
+            }
+        }
+        return out.entries.joinToString("; ") { "${it.key}=${it.value}" }
+    }
+
+    /**
+     * 登录 Cookie 是否形似可用（登录页自动检测的「plausible」判据）。
+     * 只要求 UID + SEID；真正是否有效由 `GET /user/info` 校验（[Pan115Api.fetchNickname]）。
+     */
+    fun isValidCookie(cookie: String?): Boolean {
+        if (cookie.isNullOrBlank()) return false
+        fun has(name: String) = cookie.split(";").any {
+            val pair = it.trim()
+            pair.startsWith("$name=") && pair.length > name.length + 1
+        }
+        return has("UID") && has("SEID")
+    }
+
+    /**
+     * 分享会话 token：`<receive_code>|<分享者 user_id>`。
+     * `ShareSession` 只有 shareId/stoken/title 三个字段，分享者 UID（取直链必需）只能随 stoken 带走。
+     */
+    fun encodeShareToken(receiveCode: String, userId: String): String = "$receiveCode|$userId"
+
+    /** 反解 [encodeShareToken]；格式异常时把整串当提取码、UID 视为空 */
+    fun decodeShareToken(token: String): Pair<String, String> {
+        val index = token.indexOf('|')
+        if (index < 0) return token to ""
+        return token.substring(0, index) to token.substring(index + 1)
+    }
+}

@@ -1,1 +1,39 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHJlc291cmNlcz4KICAgIDxzdHlsZSBuYW1lPSJBcHBUaGVtZSIgcGFyZW50PSJCYXNlLlRoZW1lLkh5cGVyQ2VpbGVyLkRheU5pZ2h0IiAvPgoKICAgIDxzdHlsZSBuYW1lPSJTcGxhc2hUaGVtZSIgcGFyZW50PSJUaGVtZS5BcHBDb21wYXQuRGF5TmlnaHQuTm9BY3Rpb25CYXIiPgogICAgICAgIDxpdGVtIG5hbWU9ImFuZHJvaWQ6d2luZG93QmFja2dyb3VuZCI+QGNvbG9yL3doaXRlPC9pdGVtPgogICAgICAgIDxpdGVtIG5hbWU9ImFuZHJvaWQ6c3RhdHVzQmFyQ29sb3IiPkBhbmRyb2lkOmNvbG9yL3RyYW5zcGFyZW50PC9pdGVtPgoKICAgICAgICA8aXRlbSBuYW1lPSJhbGVydERpYWxvZ1RoZW1lIj5AbGF5b3V0L21pdWl4X2FwcGNvbXBhdF9hbGVydF9kaWFsb2dfY29udGVudDwvaXRlbT4KICAgIDwvc3R5bGU+CgogICAgPHN0eWxlIG5hbWU9IkxvZ1ZpZXdlclRoZW1lIiBwYXJlbnQ9IlRoZW1lLkFwcENvbXBhdC5EYXlOaWdodCI+CiAgICAgICAgPGl0ZW0gbmFtZT0iYW5kcm9pZDphY3Rpb25CYXJJdGVtQmFja2dyb3VuZCI+QGFuZHJvaWQ6Y29sb3IvdHJhbnNwYXJlbnQ8L2l0ZW0+CiAgICAgICAgPGl0ZW0gbmFtZT0iYW5kcm9pZDp3aW5kb3dCYWNrZ3JvdW5kIj5AY29sb3IvbWl1aXhfZGVzaWduX2RlZmF1bHRfY29sb3Jfc3VyZmFjZV92YXJpYW50X2xpZ2h0PC9pdGVtPgogICAgICAgIDxpdGVtIG5hbWU9ImFuZHJvaWQ6d2luZG93VHJhbnNsdWNlbnRTdGF0dXMiPnRydWU8L2l0ZW0+CiAgICAgICAgPGl0ZW0gbmFtZT0iYW5kcm9pZDp3aW5kb3dUcmFuc2x1Y2VudE5hdmlnYXRpb24iPnRydWU8L2l0ZW0+CiAgICAgICAgPGl0ZW0gbmFtZT0iYW5kcm9pZDpzdGF0dXNCYXJDb2xvciI+QGFuZHJvaWQ6Y29sb3IvdHJhbnNwYXJlbnQ8L2l0ZW0+CiAgICAgICAgPGl0ZW0gbmFtZT0iYW5kcm9pZDpuYXZpZ2F0aW9uQmFyQ29sb3IiPkBhbmRyb2lkOmNvbG9yL3RyYW5zcGFyZW50PC9pdGVtPgogICAgICAgIDxpdGVtIG5hbWU9ImFuZHJvaWQ6d2luZG93TGF5b3V0SW5EaXNwbGF5Q3V0b3V0TW9kZSI+c2hvcnRFZGdlczwvaXRlbT4KICAgICAgICA8aXRlbSBuYW1lPSJhbmRyb2lkOndpbmRvd09wdE91dEVkZ2VUb0VkZ2VFbmZvcmNlbWVudCI+dHJ1ZTwvaXRlbT4KICAgICAgICA8aXRlbSBuYW1lPSJhbmRyb2lkOnVzZUxvY2FsZVByZWZlcnJlZExpbmVIZWlnaHRGb3JNaW5pbXVtIj5mYWxzZTwvaXRlbT4KICAgICAgICA8aXRlbSBuYW1lPSJzZWFyY2hBY3Rpb25Nb2RlSW5wdXRCYWNrZ3JvdW5kIj5AYW5kcm9pZDpjb2xvci90cmFuc3BhcmVudDwvaXRlbT4KCiAgICAgICAgPGl0ZW0gbmFtZT0icHJlZmVyZW5jZUNhdGVnb3J5VGV4dENvbG9yIj5AY29sb3IvbWl1aXhfcHJlZmVyZW5jZV9jYXRlZ29yeV90ZXh0X2NvbG9yX2xpZ2h0PC9pdGVtPgoKICAgICAgICA8aXRlbSBuYW1lPSJpdGVtVmlld1RpdGxlVGV4dENvbG9yIj5AY29sb3IvaXRlbV92aWV3X3RpdGxlX2NvbG9yX2xpZ2h0PC9pdGVtPgogICAgICAgIDxpdGVtIG5hbWU9Iml0ZW1WaWV3U3VtbWFyeVRleHRDb2xvciI+QGNvbG9yL2l0ZW1fdmlld19zdW1tYXJ5X2NvbG9yX2xpZ2h0PC9pdGVtPgogICAgICAgIDxpdGVtIG5hbWU9Iml0ZW1WaWV3QXJyb3dSaWdodEZpbGxDb2xvciI+QGNvbG9yL2l0ZW1fdmlld19hcnJvd19yaWdodF9maWxsX2NvbG9yX2xpZ2h0PC9pdGVtPgogICAgICAgIDxpdGVtIG5hbWU9Iml0ZW1WaWV3QmFja2dyb3VuZENvbG9yIj5AY29sb3IvaXRlbV92aWV3X2JnX25vcm1hbF9jb2xvcl9saWdodDwvaXRlbT4KCiAgICAgICAgPGl0ZW0gbmFtZT0idGV4dENvbG9yRGlhbG9nU2luZ2xlQ2hvaWNlSXRlbSI+QGNvbG9yL21pdWl4X2FwcGNvbXBhdF9kaWFsb2dfbGlzdF90ZXh0X3NpbmdsZV9jaG9pY2VfbGlnaHQ8L2l0ZW0+CgogICAgICAgIDxpdGVtIG5hbWU9InJlY3ljbGVyVmlld0NhcmRTdHlsZSI+QHN0eWxlL0xvZ1ZpZXdlclJlY3ljbGVyVmlld0NhcmRTdHlsZTwvaXRlbT4KCiAgICAgICAgPGl0ZW0gbmFtZT0iZW5kQWN0aW9uTWVudUVuYWJsZWQiPnRydWU8L2l0ZW0+CiAgICAgICAgPGl0ZW0gbmFtZT0iYm90dG9tU2hlZXRTdHlsZSI+QHN0eWxlL0JvdHRvbVNoZWV0TW9kYWxTdHlsZTwvaXRlbT4KICAgIDwvc3R5bGU+Cgo8L3Jlc291cmNlcz4K
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Base.Theme.HyperCeiler.DayNight" />
+
+    <style name="SplashTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+
+        <item name="alertDialogTheme">@layout/miuix_appcompat_alert_dialog_content</item>
+    </style>
+
+    <style name="LogViewerTheme" parent="Theme.AppCompat.DayNight">
+        <item name="android:actionBarItemBackground">@android:color/transparent</item>
+        <item name="android:windowBackground">@color/miuix_design_default_color_surface_variant_light</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+        <item name="android:windowOptOutEdgeToEdgeEnforcement">true</item>
+        <item name="android:useLocalePreferredLineHeightForMinimum">false</item>
+        <item name="searchActionModeInputBackground">@android:color/transparent</item>
+
+        <item name="preferenceCategoryTextColor">@color/miuix_preference_category_text_color_light</item>
+
+        <item name="itemViewTitleTextColor">@color/item_view_title_color_light</item>
+        <item name="itemViewSummaryTextColor">@color/item_view_summary_color_light</item>
+        <item name="itemViewArrowRightFillColor">@color/item_view_arrow_right_fill_color_light</item>
+        <item name="itemViewBackgroundColor">@color/item_view_bg_normal_color_light</item>
+
+        <item name="textColorDialogSingleChoiceItem">@color/miuix_appcompat_dialog_list_text_single_choice_light</item>
+
+        <item name="recyclerViewCardStyle">@style/LogViewerRecyclerViewCardStyle</item>
+
+        <item name="endActionMenuEnabled">true</item>
+        <item name="bottomSheetStyle">@style/BottomSheetModalStyle</item>
+    </style>
+
+</resources>

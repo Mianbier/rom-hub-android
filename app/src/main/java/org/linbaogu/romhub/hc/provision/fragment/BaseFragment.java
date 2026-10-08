@@ -1,1 +1,63 @@
-LyoKICogVGhpcyBmaWxlIGlzIHBhcnQgb2YgSHlwZXJDZWlsZXIuCgogKiBIeXBlckNlaWxlciBpcyBmcmVlIHNvZnR3YXJlOiB5b3UgY2FuIHJlZGlzdHJpYnV0ZSBpdCBhbmQvb3IgbW9kaWZ5CiAqIGl0IHVuZGVyIHRoZSB0ZXJtcyBvZiB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGFzCiAqIHB1Ymxpc2hlZCBieSB0aGUgRnJlZSBTb2Z0d2FyZSBGb3VuZGF0aW9uLCBlaXRoZXIgdmVyc2lvbiAzIG9mIHRoZQogKiBMaWNlbnNlLgoKICogVGhpcyBwcm9ncmFtIGlzIGRpc3RyaWJ1dGVkIGluIHRoZSBob3BlIHRoYXQgaXQgd2lsbCBiZSB1c2VmdWwsCiAqIGJ1dCBXSVRIT1VUIEFOWSBXQVJSQU5UWTsgd2l0aG91dCBldmVuIHRoZSBpbXBsaWVkIHdhcnJhbnR5IG9mCiAqIE1FUkNIQU5UQUJJTElUWSBvciBGSVRORVNTIEZPUiBBIFBBUlRJQ1VMQVIgUFVSUE9TRS4gIFNlZSB0aGUKICogR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGZvciBtb3JlIGRldGFpbHMuCgogKiBZb3Ugc2hvdWxkIGhhdmUgcmVjZWl2ZWQgYSBjb3B5IG9mIHRoZSBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UKICogYWxvbmcgd2l0aCB0aGlzIHByb2dyYW0uICBJZiBub3QsIHNlZSA8aHR0cHM6Ly93d3cuZ251Lm9yZy9saWNlbnNlcy8+LgoKICogQ29weXJpZ2h0IChDKSAyMDIzLTIwMjYgSHlwZXJDZWlsZXIgQ29udHJpYnV0aW9ucwogKi8KcGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLmhjLnByb3Zpc2lvbi5mcmFnbWVudDsKCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dDsKaW1wb3J0IGFuZHJvaWQuY29udGVudC5JbnRlbnQ7CmltcG9ydCBhbmRyb2lkLm9zLkJ1bmRsZTsKaW1wb3J0IGFuZHJvaWQudmlldy5MYXlvdXRJbmZsYXRlcjsKaW1wb3J0IGFuZHJvaWQudmlldy5WaWV3OwppbXBvcnQgYW5kcm9pZC52aWV3LlZpZXdHcm91cDsKCmltcG9ydCBhbmRyb2lkeC5hbm5vdGF0aW9uLk5vbk51bGw7CmltcG9ydCBhbmRyb2lkeC5hbm5vdGF0aW9uLk51bGxhYmxlOwppbXBvcnQgYW5kcm9pZHguZnJhZ21lbnQuYXBwLkZyYWdtZW50OwoKcHVibGljIGFic3RyYWN0IGNsYXNzIEJhc2VGcmFnbWVudCBleHRlbmRzIEZyYWdtZW50IHsKCiAgICBwcm90ZWN0ZWQgQ29udGV4dCBtQ29udGV4dDsKICAgIHByb3RlY3RlZCBWaWV3IG1Sb290VmlldzsKCiAgICBwcm90ZWN0ZWQgYWJzdHJhY3QgaW50IGdldExheW91dElkKCk7CgogICAgQE51bGxhYmxlCiAgICBAT3ZlcnJpZGUKICAgIHB1YmxpYyBWaWV3IG9uQ3JlYXRlVmlldyhATm9uTnVsbCBMYXlvdXRJbmZsYXRlciBpbmZsYXRlciwgQE51bGxhYmxlIFZpZXdHcm91cCBjb250YWluZXIsIEBOdWxsYWJsZSBCdW5kbGUgc2F2ZWRJbnN0YW5jZVN0YXRlKSB7CiAgICAgICAgcmV0dXJuIGluaXRGcmFnbWVudChpbmZsYXRlciwgY29udGFpbmVyKTsKICAgIH0KCiAgICBwcml2YXRlIFZpZXcgaW5pdEZyYWdtZW50KExheW91dEluZmxhdGVyIGluZmxhdGVyLCBWaWV3R3JvdXAgY29udGFpbmVyKSB7CiAgICAgICAgaWYgKG1Sb290VmlldyA9PSBudWxsKSB7CiAgICAgICAgICAgIG1Sb290VmlldyA9IGluZmxhdGVyLmluZmxhdGUoZ2V0TGF5b3V0SWQoKSwgbnVsbCk7CiAgICAgICAgfQogICAgICAgIHJldHVybiBtUm9vdFZpZXc7CiAgICB9CgogICAgcHVibGljIHZvaWQgc2V0UmVzdWx0KGludCByZXN1bHRDb2RlKSB7CiAgICAgICAgcmVxdWlyZUFjdGl2aXR5KCkuc2V0UmVzdWx0KHJlc3VsdENvZGUpOwogICAgfQoKICAgIHB1YmxpYyB2b2lkIHN0YXJ0QWN0aXZpdHkoSW50ZW50IGludGVudCkgewogICAgICAgIHJlcXVpcmVBY3Rpdml0eSgpLnN0YXJ0QWN0aXZpdHkoaW50ZW50KTsKICAgIH0KCiAgICBwdWJsaWMgdm9pZCBmaW5pc2goKSB7CiAgICAgICAgcmVxdWlyZUFjdGl2aXR5KCkuZmluaXNoKCk7CiAgICB9Cn0K
+/*
+ * This file is part of HyperCeiler.
+
+ * HyperCeiler is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as
+ * published by the Free Software Foundation, either version 3 of the
+ * License.
+
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Affero General Public License for more details.
+
+ * You should have received a copy of the GNU Affero General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+ * Copyright (C) 2023-2026 HyperCeiler Contributions
+ */
+package org.linbaogu.romhub.hc.provision.fragment;
+
+import android.content.Context;
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
+
+public abstract class BaseFragment extends Fragment {
+
+    protected Context mContext;
+    protected View mRootView;
+
+    protected abstract int getLayoutId();
+
+    @Nullable
+    @Override
+    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+        return initFragment(inflater, container);
+    }
+
+    private View initFragment(LayoutInflater inflater, ViewGroup container) {
+        if (mRootView == null) {
+            mRootView = inflater.inflate(getLayoutId(), null);
+        }
+        return mRootView;
+    }
+
+    public void setResult(int resultCode) {
+        requireActivity().setResult(resultCode);
+    }
+
+    public void startActivity(Intent intent) {
+        requireActivity().startActivity(intent);
+    }
+
+    public void finish() {
+        requireActivity().finish();
+    }
+}

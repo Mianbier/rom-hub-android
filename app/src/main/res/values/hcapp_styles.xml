@@ -1,1 +1,18 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHJlc291cmNlcz4KCiAgICA8c3R5bGUgbmFtZT0iQXBwVXBkYXRlQ2FyZFN0eWxlIiBwYXJlbnQ9Ikh5cGVyQ2FyZFZpZXcuTGlnaHQiPgogICAgICAgIDxpdGVtIG5hbWU9ImFuZHJvaWQ6c2hhZG93Q29sb3IiPkBjb2xvci9teV9jYXJkX3NoYWRvd19jb2xvcjwvaXRlbT4KICAgICAgICA8aXRlbSBuYW1lPSJhbmRyb2lkOnNoYWRvd0R4Ij5AZGltZW4vYXBwX3VwZGF0ZV9jYXJkX3NoYWRvd19keDwvaXRlbT4KICAgICAgICA8aXRlbSBuYW1lPSJhbmRyb2lkOnNoYWRvd0R5Ij5AZGltZW4vYXBwX3VwZGF0ZV9jYXJkX3NoYWRvd19keTwvaXRlbT4KICAgICAgICA8aXRlbSBuYW1lPSJhbmRyb2lkOnNoYWRvd1JhZGl1cyI+QGRpbWVuL2FwcF91cGRhdGVfY2FyZF9zaGFkb3dfcmFkaXVzPC9pdGVtPgogICAgICAgIDxpdGVtIG5hbWU9ImNhcmRCYWNrZ3JvdW5kQ29sb3IiPkBjb2xvci9hcHBfdXBkYXRlX2NhcmRfYmc8L2l0ZW0+CiAgICAgICAgPGl0ZW0gbmFtZT0iY2FyZENvcm5lclJhZGl1cyI+QGRpbWVuL2FwcF9kZXZpY2VfY2FyZF9iYWNrZ3JvdW5kX3JhZGl1czwvaXRlbT4KICAgICAgICA8aXRlbSBuYW1lPSJzdHJva2VHcmFkaWVudENvbG9ycyI+QGFycmF5L2FwcF91cGRhdGVfY2FyZF9zdHJva2VfZ3JhZGllbnRfY29sb3JzX2xpZ2h0PC9pdGVtPgogICAgICAgIDxpdGVtIG5hbWU9InN0cm9rZVdpZHRoIj4xZHA8L2l0ZW0+CiAgICA8L3N0eWxlPgoKICAgIDxzdHlsZSBuYW1lPSJIZWFkZXJSZWN5Y2xlclZpZXdDYXJkU3R5bGUiIHBhcmVudD0iUmVjeWNsZXJWaWV3Q2FyZFN0eWxlLkRheU5pZ2h0Ij4KICAgICAgICA8aXRlbSBuYW1lPSJjYXJkR3JvdXBNYXJnaW5Ub3AiPjMzM2RwPC9pdGVtPgogICAgPC9zdHlsZT4KPC9yZXNvdXJjZXM+
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppUpdateCardStyle" parent="HyperCardView.Light">
+        <item name="android:shadowColor">@color/my_card_shadow_color</item>
+        <item name="android:shadowDx">@dimen/app_update_card_shadow_dx</item>
+        <item name="android:shadowDy">@dimen/app_update_card_shadow_dy</item>
+        <item name="android:shadowRadius">@dimen/app_update_card_shadow_radius</item>
+        <item name="cardBackgroundColor">@color/app_update_card_bg</item>
+        <item name="cardCornerRadius">@dimen/app_device_card_background_radius</item>
+        <item name="strokeGradientColors">@array/app_update_card_stroke_gradient_colors_light</item>
+        <item name="strokeWidth">1dp</item>
+    </style>
+
+    <style name="HeaderRecyclerViewCardStyle" parent="RecyclerViewCardStyle.DayNight">
+        <item name="cardGroupMarginTop">333dp</item>
+    </style>
+</resources>

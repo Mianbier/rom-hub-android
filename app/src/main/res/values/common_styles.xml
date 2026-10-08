@@ -1,1 +1,42 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHJlc291cmNlcz4KICAgIDxzdHlsZSBuYW1lPSJJdGVtVmlld1N0eWxlIj4KICAgICAgICA8aXRlbSBuYW1lPSJhbmRyb2lkOmdyYXZpdHkiPmNlbnRlcl92ZXJ0aWNhbDwvaXRlbT4KICAgICAgICA8aXRlbSBuYW1lPSJhbmRyb2lkOm9yaWVudGF0aW9uIj5ob3Jpem9udGFsPC9pdGVtPgogICAgICAgIDxpdGVtIG5hbWU9ImFuZHJvaWQ6bWluSGVpZ2h0Ij5AZGltZW4vaXRlbV92aWV3X2hlaWdodDwvaXRlbT4KICAgICAgICA8aXRlbSBuYW1lPSJhbmRyb2lkOnBhZGRpbmdWZXJ0aWNhbCI+MTVkcDwvaXRlbT4KICAgICAgICA8aXRlbSBuYW1lPSJhbmRyb2lkOnBhZGRpbmdIb3Jpem9udGFsIj5AZGltZW4vaXRlbV92aWV3X3BhZGRpbmc8L2l0ZW0+CiAgICA8L3N0eWxlPgoKICAgIDxzdHlsZSBuYW1lPSJJdGVtVmlld1N0eWxlLkxpZ2h0Ij4KICAgICAgICA8aXRlbSBuYW1lPSJhbmRyb2lkOmJhY2tncm91bmQiPkBkcmF3YWJsZS9pdGVtX3ZpZXdfYmFja2dyb3VuZF9saWdodDwvaXRlbT4KCiAgICAgICAgPGl0ZW0gbmFtZT0idGl0bGVUZXh0Q29sb3IiPkBjb2xvci9pdGVtX3ZpZXdfdGl0bGVfY29sb3JfbGlnaHQ8L2l0ZW0+CiAgICAgICAgPGl0ZW0gbmFtZT0ic3VtbWFyeVRleHRDb2xvciI+QGNvbG9yL2l0ZW1fdmlld19zdW1tYXJ5X2NvbG9yX2xpZ2h0PC9pdGVtPgogICAgPC9zdHlsZT4KCiAgICA8c3R5bGUgbmFtZT0iSXRlbVZpZXdTdHlsZS5EYXJrIj4KICAgICAgICA8aXRlbSBuYW1lPSJhbmRyb2lkOmJhY2tncm91bmQiPkBkcmF3YWJsZS9pdGVtX3ZpZXdfYmFja2dyb3VuZF9kYXJrPC9pdGVtPgoKICAgICAgICA8aXRlbSBuYW1lPSJ0aXRsZVRleHRDb2xvciI+QGNvbG9yL2l0ZW1fdmlld190aXRsZV9jb2xvcl9kYXJrPC9pdGVtPgogICAgICAgIDxpdGVtIG5hbWU9InN1bW1hcnlUZXh0Q29sb3IiPkBjb2xvci9pdGVtX3ZpZXdfc3VtbWFyeV9jb2xvcl9kYXJrPC9pdGVtPgogICAgPC9zdHlsZT4KCiAgICA8c3R5bGUgbmFtZT0iSXRlbVZpZXdTdHlsZS5EYXlOaWdodCIgcGFyZW50PSJJdGVtVmlld1N0eWxlLkxpZ2h0IiAvPgoKICAgIDxzdHlsZSBuYW1lPSJJdGVtVmlld1RpdGxlU3R5bGUiPgogICAgICAgIDxpdGVtIG5hbWU9ImFuZHJvaWQ6dGV4dFN0eWxlIj5ib2xkPC9pdGVtPgogICAgICAgIDxpdGVtIG5hbWU9ImFuZHJvaWQ6dGV4dFNpemUiPkBkaW1lbi9pdGVtX3ZpZXdfdGl0bGVfc2l6ZTwvaXRlbT4KICAgICAgICA8aXRlbSBuYW1lPSJhbmRyb2lkOmZvbnRGYW1pbHkiPkBzdHJpbmcvbWl1aXhfZm9udF9zdHlsZV9taXNhbnNfbWVkaXVtX2ZvbnRfZmFtaWx5PC9pdGVtPgogICAgPC9zdHlsZT4KCiAgICA8c3R5bGUgbmFtZT0iSXRlbVZpZXdTdW1tYXJ5U3R5bGUiPgogICAgICAgIDxpdGVtIG5hbWU9ImFuZHJvaWQ6dGV4dFN0eWxlIj5ib2xkPC9pdGVtPgogICAgICAgIDxpdGVtIG5hbWU9ImFuZHJvaWQ6dGV4dFNpemUiPkBkaW1lbi9pdGVtX3ZpZXdfc3VtbWFyeV9zaXplPC9pdGVtPgogICAgPC9zdHlsZT4KCgogICAgPHN0eWxlIG5hbWU9IkxvZ1ZpZXdlclJlY3ljbGVyVmlld0NhcmRTdHlsZSIgcGFyZW50PSJAc3R5bGUvUmVjeWNsZXJWaWV3Q2FyZFN0eWxlLkRheU5pZ2h0Ij4KICAgICAgICA8aXRlbSBuYW1lPSJjYXJkR3JvdXBCYWNrZ3JvdW5kIj4/aXRlbVZpZXdCYWNrZ3JvdW5kQ29sb3I8L2l0ZW0+CiAgICA8L3N0eWxlPgo8L3Jlc291cmNlcz4=
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ItemViewStyle">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:minHeight">@dimen/item_view_height</item>
+        <item name="android:paddingVertical">15dp</item>
+        <item name="android:paddingHorizontal">@dimen/item_view_padding</item>
+    </style>
+
+    <style name="ItemViewStyle.Light">
+        <item name="android:background">@drawable/item_view_background_light</item>
+
+        <item name="titleTextColor">@color/item_view_title_color_light</item>
+        <item name="summaryTextColor">@color/item_view_summary_color_light</item>
+    </style>
+
+    <style name="ItemViewStyle.Dark">
+        <item name="android:background">@drawable/item_view_background_dark</item>
+
+        <item name="titleTextColor">@color/item_view_title_color_dark</item>
+        <item name="summaryTextColor">@color/item_view_summary_color_dark</item>
+    </style>
+
+    <style name="ItemViewStyle.DayNight" parent="ItemViewStyle.Light" />
+
+    <style name="ItemViewTitleStyle">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/item_view_title_size</item>
+        <item name="android:fontFamily">@string/miuix_font_style_misans_medium_font_family</item>
+    </style>
+
+    <style name="ItemViewSummaryStyle">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/item_view_summary_size</item>
+    </style>
+
+
+    <style name="LogViewerRecyclerViewCardStyle" parent="@style/RecyclerViewCardStyle.DayNight">
+        <item name="cardGroupBackground">?itemViewBackgroundColor</item>
+    </style>
+</resources>

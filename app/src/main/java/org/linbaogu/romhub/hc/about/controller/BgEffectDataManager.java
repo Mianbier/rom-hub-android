@@ -1,1 +1,171 @@
-LyoKICogVGhpcyBmaWxlIGlzIHBhcnQgb2YgUk9NIEh1YiwgcmVsZWFzZWQgdW5kZXIgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSB2My4wLgogKgogKiDmnKzmlofku7bnp7vmpI0gLyDmlLnlhpnoh6ogSHlwZXJDZWlsZXLvvIhBR1BMLTMuMO+8jENvcHlyaWdodCAoQykgMjAyMy0yMDI2IEh5cGVyQ2VpbGVyCiAqIENvbnRyaWJ1dGlvbnPvvInvvIzmiJbkuLrlhbbnrYnku7fmm7/ouqvlrp7njrAg4oCU4oCUIOWujOaVtOadpea6kOS4jum4o+iwouingemhueebruagueebruW9lSBOT1RJQ0UubWTjgIIKICoKICogVGhpcyBwcm9ncmFtIGlzIGZyZWUgc29mdHdhcmU6IHlvdSBjYW4gcmVkaXN0cmlidXRlIGl0IGFuZC9vciBtb2RpZnkgaXQgdW5kZXIgdGhlIHRlcm1zCiAqIG9mIHRoZSBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UgYXMgcHVibGlzaGVkIGJ5IHRoZSBGcmVlIFNvZnR3YXJlIEZvdW5kYXRpb24sCiAqIGVpdGhlciB2ZXJzaW9uIDMgb2YgdGhlIExpY2Vuc2UuCiAqCiAqIFRoaXMgcHJvZ3JhbSBpcyBkaXN0cmlidXRlZCBpbiB0aGUgaG9wZSB0aGF0IGl0IHdpbGwgYmUgdXNlZnVsLCBidXQgV0lUSE9VVCBBTlkgV0FSUkFOVFk7CiAqIHdpdGhvdXQgZXZlbiB0aGUgaW1wbGllZCB3YXJyYW50eSBvZiBNRVJDSEFOVEFCSUxJVFkgb3IgRklUTkVTUyBGT1IgQSBQQVJUSUNVTEFSIFBVUlBPU0UuCiAqIFNlZSB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGZvciBtb3JlIGRldGFpbHMuCiAqCiAqIFlvdSBzaG91bGQgaGF2ZSByZWNlaXZlZCBhIGNvcHkgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBhbG9uZyB3aXRoIHRoaXMKICogcHJvZ3JhbS4gIElmIG5vdCwgc2VlIDxodHRwczovL3d3dy5nbnUub3JnL2xpY2Vuc2VzLz4uCiAqLwoKcGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLmhjLmFib3V0LmNvbnRyb2xsZXI7CgppbXBvcnQgc3RhdGljIG9yZy5saW5iYW9ndS5yb21odWIuaGMuYWJvdXQuY29udHJvbGxlci5CZ0VmZmVjdERhdGFNYW5hZ2VyLkRldmljZVR5cGUuUEhPTkU7CgoKcHVibGljIGNsYXNzIEJnRWZmZWN0RGF0YU1hbmFnZXIgewoKICAgIHB1YmxpYyBCZ0VmZmVjdERhdGEgbVBob25lTGlnaHREYXRhOwogICAgcHVibGljIEJnRWZmZWN0RGF0YSBtUGhvbmVEYXJrRGF0YTsKCiAgICBwdWJsaWMgQmdFZmZlY3REYXRhIG1QYWRMaWdodERhdGE7CiAgICBwdWJsaWMgQmdFZmZlY3REYXRhIG1QYWREYXJrRGF0YTsKCiAgICBwdWJsaWMgZW51bSBEZXZpY2VUeXBlIHsKICAgICAgICBQSE9ORSwKICAgICAgICBUQUJMRVQKICAgIH0KCiAgICBwdWJsaWMgZW51bSBUaGVtZU1vZGUgewogICAgICAgIExJR0hULAogICAgICAgIERBUksKICAgIH0KCiAgICBwdWJsaWMgY2xhc3MgQmdFZmZlY3REYXRhIHsKICAgICAgICBwdWJsaWMgZmxvYXQgY29sb3JJbnRlcnBQZXJpb2Q7CiAgICAgICAgcHVibGljIGZsb2F0W10gZ3JhZGllbnRDb2xvcnMxOwogICAgICAgIHB1YmxpYyBmbG9hdFtdIGdyYWRpZW50Q29sb3JzMjsKICAgICAgICBwdWJsaWMgZmxvYXRbXSBncmFkaWVudENvbG9yczM7CiAgICAgICAgcHVibGljIGZsb2F0IGdyYWRpZW50U3BlZWRDaGFuZ2U7CiAgICAgICAgcHVibGljIGZsb2F0IGdyYWRpZW50U3BlZWRSZXN0OwogICAgICAgIHB1YmxpYyBmbG9hdCB1QWxwaGFNdWx0aTsKICAgICAgICBwdWJsaWMgZmxvYXQgdUFscGhhT2Zmc2V0OwogICAgICAgIHB1YmxpYyBmbG9hdCB1TGlnaHRPZmZzZXQ7CiAgICAgICAgcHVibGljIGZsb2F0IHVOb2lzZVNjYWxlOwogICAgICAgIHB1YmxpYyBmbG9hdCB1UG9pbnRPZmZzZXQ7CiAgICAgICAgcHVibGljIGZsb2F0IHVQb2ludFJhZGl1c011bHRpOwogICAgICAgIHB1YmxpYyBmbG9hdFtdIHVQb2ludHM7CiAgICAgICAgcHVibGljIGZsb2F0IHVTYXR1cmF0ZU9mZnNldDsKICAgICAgICBwdWJsaWMgZmxvYXQgdVNoYWRvd0NvbG9yTXVsdGk7CiAgICAgICAgcHVibGljIGZsb2F0IHVTaGFkb3dDb2xvck9mZnNldDsKICAgICAgICBwdWJsaWMgZmxvYXQgdVNoYWRvd05vaXNlU2NhbGU7CiAgICAgICAgcHVibGljIGZsb2F0IHVTaGFkb3dPZmZzZXQ7CiAgICAgICAgcHVibGljIGZsb2F0IHVUcmFuc2xhdGVZOwogICAgfQoKICAgIHB1YmxpYyBCZ0VmZmVjdERhdGFNYW5hZ2VyKCkgewogICAgICAgIG1QaG9uZUxpZ2h0RGF0YSA9IG5ldyBCZ0VmZmVjdERhdGEoKTsKICAgICAgICBtUGhvbmVMaWdodERhdGEudVRyYW5zbGF0ZVkgPSAwLjBmOwogICAgICAgIG1QaG9uZUxpZ2h0RGF0YS51UG9pbnRzID0gbmV3IGZsb2F0W117MC44ZiwgMC4yZiwgMS4wZiwgMC44ZiwgMC45ZiwgMS4wZiwgMC4yZiwgMC45ZiwgMS4wZiwgMC4yZiwgMC4yZiwgMS4wZn07CiAgICAgICAgbVBob25lTGlnaHREYXRhLnVBbHBoYU11bHRpID0gMS4wZjsKICAgICAgICBtUGhvbmVMaWdodERhdGEudU5vaXNlU2NhbGUgPSAxLjVmOwogICAgICAgIG1QaG9uZUxpZ2h0RGF0YS51UG9pbnRPZmZzZXQgPSAwLjJmOwogICAgICAgIG1QaG9uZUxpZ2h0RGF0YS51UG9pbnRSYWRpdXNNdWx0aSA9IDEuMGY7CiAgICAgICAgbVBob25lTGlnaHREYXRhLnVTYXR1cmF0ZU9mZnNldCA9IDAuMmY7CiAgICAgICAgbVBob25lTGlnaHREYXRhLnVMaWdodE9mZnNldCA9IDAuMWY7CiAgICAgICAgbVBob25lTGlnaHREYXRhLnVBbHBoYU9mZnNldCA9IDAuNWY7CiAgICAgICAgbVBob25lTGlnaHREYXRhLnVTaGFkb3dDb2xvck11bHRpID0gMC4zZjsKICAgICAgICBtUGhvbmVMaWdodERhdGEudVNoYWRvd0NvbG9yT2Zmc2V0ID0gMC4zZjsKICAgICAgICBtUGhvbmVMaWdodERhdGEudVNoYWRvd05vaXNlU2NhbGUgPSA1LjBmOwogICAgICAgIG1QaG9uZUxpZ2h0RGF0YS51U2hhZG93T2Zmc2V0ID0gMC4wMWY7CiAgICAgICAgbVBob25lTGlnaHREYXRhLmNvbG9ySW50ZXJwUGVyaW9kID0gNS4wZjsKICAgICAgICBtUGhvbmVMaWdodERhdGEuZ3JhZGllbnRTcGVlZENoYW5nZSA9IDEuNmY7CiAgICAgICAgbVBob25lTGlnaHREYXRhLmdyYWRpZW50U3BlZWRSZXN0ID0gMS4wNWY7CiAgICAgICAgbVBob25lTGlnaHREYXRhLmdyYWRpZW50Q29sb3JzMSA9IG5ldyBmbG9hdFtdezEuMGYsIDAuOWYsIDAuOTRmLCAxLjBmLCAxLjBmLCAwLjg0ZiwgMC44OWYsIDEuMGYsIDAuOTdmLCAwLjczZiwgMC44MmYsIDEuMGYsIDAuNjRmLCAwLjY1ZiwgMC45OGYsIDEuMGZ9OwogICAgICAgIG1QaG9uZUxpZ2h0RGF0YS5ncmFkaWVudENvbG9yczIgPSBuZXcgZmxvYXRbXXswLjU4ZiwgMC43NGYsIDEuMGYsIDEuMGYsIDEuMGYsIDAuOWYsIDAuOTNmLCAxLjBmLCAwLjc0ZiwgMC43NmYsIDEuMGYsIDEuMGYsIDAuOTdmLCAwLjc3ZiwgMC44NGYsIDEuMGZ9OwogICAgICAgIG1QaG9uZUxpZ2h0RGF0YS5ncmFkaWVudENvbG9yczMgPSBuZXcgZmxvYXRbXXswLjk4ZiwgMC44NmYsIDAuOWYsIDEuMGYsIDAuNmYsIDAuNzNmLCAwLjk4ZiwgMS4wZiwgMC45MmYsIDAuOTNmLCAxLjBmLCAxLjBmLCAwLjU2ZiwgMC42OWYsIDEuMGYsIDEuMGZ9OwoKICAgICAgICBtUGFkTGlnaHREYXRhID0gbmV3IEJnRWZmZWN0RGF0YSgpOwogICAgICAgIG1QYWRMaWdodERhdGEudVRyYW5zbGF0ZVkgPSAwLjBmOwogICAgICAgIG1QYWRMaWdodERhdGEudVBvaW50cyA9IG5ldyBmbG9hdFtdezAuOGYsIDAuMmYsIDEuMGYsIDAuOGYsIDAuOWYsIDEuMGYsIDAuMmYsIDAuOWYsIDEuMGYsIDAuMmYsIDAuMmYsIDEuMGZ9OwogICAgICAgIG1QYWRMaWdodERhdGEudUFscGhhTXVsdGkgPSAxLjBmOwogICAgICAgIG1QYWRMaWdodERhdGEudU5vaXNlU2NhbGUgPSAxLjVmOwogICAgICAgIG1QYWRMaWdodERhdGEudVBvaW50T2Zmc2V0ID0gMC4yZjsKICAgICAgICBtUGFkTGlnaHREYXRhLnVQb2ludFJhZGl1c011bHRpID0gMS4wZjsKICAgICAgICBtUGFkTGlnaHREYXRhLnVTYXR1cmF0ZU9mZnNldCA9IDAuMmY7CiAgICAgICAgbVBhZExpZ2h0RGF0YS51TGlnaHRPZmZzZXQgPSAwLjFmOwogICAgICAgIG1QYWRMaWdodERhdGEudUFscGhhT2Zmc2V0ID0gMC41ZjsKICAgICAgICBtUGFkTGlnaHREYXRhLnVTaGFkb3dDb2xvck11bHRpID0gMC4zZjsKICAgICAgICBtUGFkTGlnaHREYXRhLnVTaGFkb3dDb2xvck9mZnNldCA9IDAuM2Y7CiAgICAgICAgbVBhZExpZ2h0RGF0YS51U2hhZG93Tm9pc2VTY2FsZSA9IDUuMGY7CiAgICAgICAgbVBhZExpZ2h0RGF0YS51U2hhZG93T2Zmc2V0ID0gMC4wMWY7CiAgICAgICAgbVBhZExpZ2h0RGF0YS5jb2xvckludGVycFBlcmlvZCA9IDcuMGY7CiAgICAgICAgbVBhZExpZ2h0RGF0YS5ncmFkaWVudFNwZWVkQ2hhbmdlID0gMS44ZjsKICAgICAgICBtUGFkTGlnaHREYXRhLmdyYWRpZW50U3BlZWRSZXN0ID0gMS4wZjsKICAgICAgICBtUGFkTGlnaHREYXRhLmdyYWRpZW50Q29sb3JzMSA9IG5ldyBmbG9hdFtdezAuOTlmLCAwLjc3ZiwgMC44NmYsIDEuMGYsIDAuNzRmLCAwLjc2ZiwgMS4wZiwgMS4wZiwgMC43MmYsIDAuNzRmLCAxLjBmLCAxLjBmLCAwLjk4ZiwgMC43NmYsIDAuOGYsIDEuMGZ9OwogICAgICAgIG1QYWRMaWdodERhdGEuZ3JhZGllbnRDb2xvcnMyID0gbmV3IGZsb2F0W117MC42NmYsIDAuNzVmLCAxLjBmLCAxLjBmLCAxLjBmLCAwLjg2ZiwgMC45MWYsIDEuMGYsIDAuNzRmLCAwLjc2ZiwgMS4wZiwgMS4wZiwgMC45N2YsIDAuNzdmLCAwLjg0ZiwgMS4wZn07CiAgICAgICAgbVBhZExpZ2h0RGF0YS5ncmFkaWVudENvbG9yczMgPSBuZXcgZmxvYXRbXXswLjk3ZiwgMC43OWYsIDAuODVmLCAxLjBmLCAwLjY1ZiwgMC42OGYsIDAuOThmLCAxLjBmLCAwLjY2ZiwgMC43N2YsIDEuMGYsIDEuMGYsIDAuNzJmLCAwLjczZiwgMC45OGYsIDEuMGZ9OwoKICAgICAgICBtUGhvbmVEYXJrRGF0YSA9IG5ldyBCZ0VmZmVjdERhdGEoKTsKICAgICAgICBtUGhvbmVEYXJrRGF0YS51VHJhbnNsYXRlWSA9IDAuMGY7CiAgICAgICAgbVBob25lRGFya0RhdGEudVBvaW50cyA9IG5ldyBmbG9hdFtdezAuOGYsIDAuMmYsIDEuMGYsIDAuOGYsIDAuOWYsIDEuMGYsIDAuMmYsIDAuOWYsIDEuMGYsIDAuMmYsIDAuMmYsIDEuMGZ9OwogICAgICAgIG1QaG9uZURhcmtEYXRhLnVBbHBoYU11bHRpID0gMS4wZjsKICAgICAgICBtUGhvbmVEYXJrRGF0YS51Tm9pc2VTY2FsZSA9IDEuNWY7CiAgICAgICAgbVBob25lRGFya0RhdGEudVBvaW50T2Zmc2V0ID0gMC40ZjsKICAgICAgICBtUGhvbmVEYXJrRGF0YS51UG9pbnRSYWRpdXNNdWx0aSA9IDEuMGY7CiAgICAgICAgbVBob25lRGFya0RhdGEudVNhdHVyYXRlT2Zmc2V0ID0gMC4xN2Y7CiAgICAgICAgbVBob25lRGFya0RhdGEudUxpZ2h0T2Zmc2V0ID0gMC4wZjsKICAgICAgICBtUGhvbmVEYXJrRGF0YS51QWxwaGFPZmZzZXQgPSAwLjVmOwogICAgICAgIG1QaG9uZURhcmtEYXRhLnVTaGFkb3dDb2xvck11bHRpID0gMC4zZjsKICAgICAgICBtUGhvbmVEYXJrRGF0YS51U2hhZG93Q29sb3JPZmZzZXQgPSAwLjNmOwogICAgICAgIG1QaG9uZURhcmtEYXRhLnVTaGFkb3dOb2lzZVNjYWxlID0gNS4wZjsKICAgICAgICBtUGhvbmVEYXJrRGF0YS51U2hhZG93T2Zmc2V0ID0gMC4wMWY7CiAgICAgICAgbVBob25lRGFya0RhdGEuY29sb3JJbnRlcnBQZXJpb2QgPSA4LjBmOwogICAgICAgIG1QaG9uZURhcmtEYXRhLmdyYWRpZW50U3BlZWRDaGFuZ2UgPSAxLjBmOwogICAgICAgIG1QaG9uZURhcmtEYXRhLmdyYWRpZW50U3BlZWRSZXN0ID0gMS4wZjsKICAgICAgICBtUGhvbmVEYXJrRGF0YS5ncmFkaWVudENvbG9yczEgPSBuZXcgZmxvYXRbXXswLjJmLCAwLjA2ZiwgMC44OGYsIDAuNGYsIDAuM2YsIDAuMTRmLCAwLjU1ZiwgMC41ZiwgMC4wZiwgMC42NGYsIDAuOTZmLCAwLjVmLCAwLjExZiwgMC4xNmYsIDAuODNmLCAwLjRmfTsKICAgICAgICBtUGhvbmVEYXJrRGF0YS5ncmFkaWVudENvbG9yczIgPSBuZXcgZmxvYXRbXXswLjA3ZiwgMC4xNWYsIDAuNzlmLCAwLjVmLCAwLjYyZiwgMC4yMWYsIDAuNjdmLCAwLjVmLCAwLjA2ZiwgMC4yNWYsIDAuODRmLCAwLjVmLCAwLjBmLCAwLjJmLCAwLjc4ZiwgMC41Zn07CiAgICAgICAgbVBob25lRGFya0RhdGEuZ3JhZGllbnRDb2xvcnMzID0gbmV3IGZsb2F0W117MC41OGYsIDAuM2YsIDAuNzRmLCAwLjRmLCAwLjI3ZiwgMC4xOGYsIDAuNmYsIDAuNWYsIDAuNjZmLCAwLjI2ZiwgMC42MmYsIDAuNWYsIDAuMTJmLCAwLjE2ZiwgMC43ZiwgMC42Zn07CgoKICAgICAgICBtUGFkRGFya0RhdGEgPSBuZXcgQmdFZmZlY3REYXRhKCk7CiAgICAgICAgbVBhZERhcmtEYXRhLnVUcmFuc2xhdGVZID0gMC4wZjsKICAgICAgICBtUGFkRGFya0RhdGEudVBvaW50cyA9IG5ldyBmbG9hdFtdezAuOGYsIDAuMmYsIDEuMGYsIDAuOGYsIDAuOWYsIDEuMGYsIDAuMmYsIDAuOWYsIDEuMGYsIDAuMmYsIDAuMmYsIDEuMGZ9OwogICAgICAgIG1QYWREYXJrRGF0YS51QWxwaGFNdWx0aSA9IDEuMGY7CiAgICAgICAgbVBhZERhcmtEYXRhLnVOb2lzZVNjYWxlID0gMS41ZjsKICAgICAgICBtUGFkRGFya0RhdGEudVBvaW50T2Zmc2V0ID0gMC4yZjsKICAgICAgICBtUGFkRGFya0RhdGEudVBvaW50UmFkaXVzTXVsdGkgPSAxLjBmOwogICAgICAgIG1QYWREYXJrRGF0YS51U2F0dXJhdGVPZmZzZXQgPSAwLjBmOwogICAgICAgIG1QYWREYXJrRGF0YS51TGlnaHRPZmZzZXQgPSAwLjBmOwogICAgICAgIG1QYWREYXJrRGF0YS51QWxwaGFPZmZzZXQgPSAwLjVmOwogICAgICAgIG1QYWREYXJrRGF0YS51U2hhZG93Q29sb3JNdWx0aSA9IDAuM2Y7CiAgICAgICAgbVBhZERhcmtEYXRhLnVTaGFkb3dDb2xvck9mZnNldCA9IDAuM2Y7CiAgICAgICAgbVBhZERhcmtEYXRhLnVTaGFkb3dOb2lzZVNjYWxlID0gNS4wZjsKICAgICAgICBtUGFkRGFya0RhdGEudVNoYWRvd09mZnNldCA9IDAuMDFmOwogICAgICAgIG1QYWREYXJrRGF0YS5jb2xvckludGVycFBlcmlvZCA9IDcuMGY7CiAgICAgICAgbVBhZERhcmtEYXRhLmdyYWRpZW50U3BlZWRDaGFuZ2UgPSAxLjZmOwogICAgICAgIG1QYWREYXJrRGF0YS5ncmFkaWVudFNwZWVkUmVzdCA9IDEuMmY7CiAgICAgICAgbVBhZERhcmtEYXRhLmdyYWRpZW50Q29sb3JzMSA9IG5ldyBmbG9hdFtdezAuNjZmLCAwLjI2ZiwgMC42MmYsIDAuNGYsIDAuMDZmLCAwLjI1ZiwgMC44NGYsIDAuNWYsIDAuMGYsIDAuNjRmLCAwLjk2ZiwgMC41ZiwgMC4xNGYsIDAuMThmLCAwLjU1ZiwgMC41Zn07CiAgICAgICAgbVBhZERhcmtEYXRhLmdyYWRpZW50Q29sb3JzMiA9IG5ldyBmbG9hdFtdezAuMDdmLCAwLjE1ZiwgMC43OWYsIDAuNWYsIDAuMTFmLCAwLjE2ZiwgMC44M2YsIDAuNWYsIDAuMDZmLCAwLjI1ZiwgMC44NGYsIDAuNWYsIDAuNjZmLCAwLjI2ZiwgMC42MmYsIDAuNWZ9OwogICAgICAgIG1QYWREYXJrRGF0YS5ncmFkaWVudENvbG9yczMgPSBuZXcgZmxvYXRbXXswLjU4ZiwgMC4zZiwgMC43NGYsIDAuNWYsIDAuMTFmLCAwLjE2ZiwgMC44M2YsIDAuNWYsIDAuNjZmLCAwLjI2ZiwgMC42MmYsIDAuNWYsIDAuMjdmLCAwLjE4ZiwgMC42ZiwgMC42Zn07CiAgICB9CgogICAgcHVibGljIEJnRWZmZWN0RGF0YSBnZXREYXRhKERldmljZVR5cGUgZGV2aWNlVHlwZSwgVGhlbWVNb2RlIHRoZW1lTW9kZSkgewogICAgICAgIEJnRWZmZWN0RGF0YSBkYXRhID0gbnVsbDsKICAgICAgICBpZiAodGhlbWVNb2RlID09IFRoZW1lTW9kZS5MSUdIVCkgewogICAgICAgICAgICBkYXRhID0gZGV2aWNlVHlwZSA9PSBQSE9ORSA/IG1QaG9uZUxpZ2h0RGF0YSA6IG1QYWRMaWdodERhdGE7CiAgICAgICAgICAgIGlmIChmYWxzZSkgewogICAgICAgICAgICAgICAgZGF0YS5ncmFkaWVudENvbG9yczEgPSBuZXcgZmxvYXRbXXsxLjBmLCAwLjgzZiwgMC42OGYsIDEuMGYsIDAuOTJmLCAwLjU2ZiwgMC40N2YsIDEuMGYsIDAuOThmLCAwLjc0ZiwgMC43MmYsIDEuMGYsIDEuMGYsIDAuNjJmLCAwLjUzZiwgMS4wZn07CiAgICAgICAgICAgICAgICBkYXRhLmdyYWRpZW50Q29sb3JzMiA9IG5ldyBmbG9hdFtdezEuMGYsIDAuODNmLCAwLjY4ZiwgMS4wZiwgMC45MmYsIDAuNTZmLCAwLjQ3ZiwgMS4wZiwgMC45OGYsIDAuNzRmLCAwLjcyZiwgMS4wZiwgMS4wZiwgMC42MmYsIDAuNTNmLCAxLjBmfTsKICAgICAgICAgICAgICAgIGRhdGEuZ3JhZGllbnRDb2xvcnMzID0gbmV3IGZsb2F0W117MS4wZiwgMC44M2YsIDAuNjhmLCAxLjBmLCAwLjkyZiwgMC41NmYsIDAuNDdmLCAxLjBmLCAwLjk4ZiwgMC43NGYsIDAuNzJmLCAxLjBmLCAxLjBmLCAwLjYyZiwgMC41M2YsIDEuMGZ9OwogICAgICAgICAgICB9CiAgICAgICAgfSBlbHNlIGlmICh0aGVtZU1vZGUgPT0gVGhlbWVNb2RlLkRBUkspewogICAgICAgICAgICBkYXRhID0gZGV2aWNlVHlwZSA9PSBQSE9ORSA/IG1QaG9uZURhcmtEYXRhIDogbVBhZERhcmtEYXRhOwogICAgICAgICAgICBpZiAoZmFsc2UpIHsKICAgICAgICAgICAgICAgIGRhdGEuZ3JhZGllbnRDb2xvcnMxID0gbmV3IGZsb2F0W117MC41OGYsIDAuNGYsIDAuMjhmLCAxLjBmLCAwLjQ4ZiwgMC4xMmYsIDAuMWYsIDEuMGYsIDAuNTZmLCAwLjI4ZiwgMC4xMmYsIDEuMGYsIDAuNDZmLCAwLjE2ZiwgMC4xMWYsIDEuMGZ9OwogICAgICAgICAgICAgICAgZGF0YS5ncmFkaWVudENvbG9yczIgPSBuZXcgZmxvYXRbXXswLjU4ZiwgMC40ZiwgMC4yOGYsIDEuMGYsIDAuNDhmLCAwLjEyZiwgMC4xZiwgMS4wZiwgMC41NmYsIDAuMjhmLCAwLjEyZiwgMS4wZiwgMC40NmYsIDAuMTZmLCAwLjExZiwgMS4wZn07CiAgICAgICAgICAgICAgICBkYXRhLmdyYWRpZW50Q29sb3JzMyA9IG5ldyBmbG9hdFtdezAuNThmLCAwLjRmLCAwLjI4ZiwgMS4wZiwgMC40OGYsIDAuMTJmLCAwLjFmLCAxLjBmLCAwLjU2ZiwgMC4yOGYsIDAuMTJmLCAxLjBmLCAwLjQ2ZiwgMC4xNmYsIDAuMTFmLCAxLjBmfTsKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgcmV0dXJuIGRhdGE7CiAgICB9Cn0K
+/*
+ * This file is part of ROM Hub, released under the GNU Affero General Public License v3.0.
+ *
+ * 本文件移植 / 改写自 HyperCeiler（AGPL-3.0，Copyright (C) 2023-2026 HyperCeiler
+ * Contributions），或为其等价替身实现 —— 完整来源与鸣谢见项目根目录 NOTICE.md。
+ *
+ * This program is free software: you can redistribute it and/or modify it under the terms
+ * of the GNU Affero General Public License as published by the Free Software Foundation,
+ * either version 3 of the License.
+ *
+ * This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+ * without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * See the GNU Affero General Public License for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License along with this
+ * program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
+package org.linbaogu.romhub.hc.about.controller;
+
+import static org.linbaogu.romhub.hc.about.controller.BgEffectDataManager.DeviceType.PHONE;
+
+
+public class BgEffectDataManager {
+
+    public BgEffectData mPhoneLightData;
+    public BgEffectData mPhoneDarkData;
+
+    public BgEffectData mPadLightData;
+    public BgEffectData mPadDarkData;
+
+    public enum DeviceType {
+        PHONE,
+        TABLET
+    }
+
+    public enum ThemeMode {
+        LIGHT,
+        DARK
+    }
+
+    public class BgEffectData {
+        public float colorInterpPeriod;
+        public float[] gradientColors1;
+        public float[] gradientColors2;
+        public float[] gradientColors3;
+        public float gradientSpeedChange;
+        public float gradientSpeedRest;
+        public float uAlphaMulti;
+        public float uAlphaOffset;
+        public float uLightOffset;
+        public float uNoiseScale;
+        public float uPointOffset;
+        public float uPointRadiusMulti;
+        public float[] uPoints;
+        public float uSaturateOffset;
+        public float uShadowColorMulti;
+        public float uShadowColorOffset;
+        public float uShadowNoiseScale;
+        public float uShadowOffset;
+        public float uTranslateY;
+    }
+
+    public BgEffectDataManager() {
+        mPhoneLightData = new BgEffectData();
+        mPhoneLightData.uTranslateY = 0.0f;
+        mPhoneLightData.uPoints = new float[]{0.8f, 0.2f, 1.0f, 0.8f, 0.9f, 1.0f, 0.2f, 0.9f, 1.0f, 0.2f, 0.2f, 1.0f};
+        mPhoneLightData.uAlphaMulti = 1.0f;
+        mPhoneLightData.uNoiseScale = 1.5f;
+        mPhoneLightData.uPointOffset = 0.2f;
+        mPhoneLightData.uPointRadiusMulti = 1.0f;
+        mPhoneLightData.uSaturateOffset = 0.2f;
+        mPhoneLightData.uLightOffset = 0.1f;
+        mPhoneLightData.uAlphaOffset = 0.5f;
+        mPhoneLightData.uShadowColorMulti = 0.3f;
+        mPhoneLightData.uShadowColorOffset = 0.3f;
+        mPhoneLightData.uShadowNoiseScale = 5.0f;
+        mPhoneLightData.uShadowOffset = 0.01f;
+        mPhoneLightData.colorInterpPeriod = 5.0f;
+        mPhoneLightData.gradientSpeedChange = 1.6f;
+        mPhoneLightData.gradientSpeedRest = 1.05f;
+        mPhoneLightData.gradientColors1 = new float[]{1.0f, 0.9f, 0.94f, 1.0f, 1.0f, 0.84f, 0.89f, 1.0f, 0.97f, 0.73f, 0.82f, 1.0f, 0.64f, 0.65f, 0.98f, 1.0f};
+        mPhoneLightData.gradientColors2 = new float[]{0.58f, 0.74f, 1.0f, 1.0f, 1.0f, 0.9f, 0.93f, 1.0f, 0.74f, 0.76f, 1.0f, 1.0f, 0.97f, 0.77f, 0.84f, 1.0f};
+        mPhoneLightData.gradientColors3 = new float[]{0.98f, 0.86f, 0.9f, 1.0f, 0.6f, 0.73f, 0.98f, 1.0f, 0.92f, 0.93f, 1.0f, 1.0f, 0.56f, 0.69f, 1.0f, 1.0f};
+
+        mPadLightData = new BgEffectData();
+        mPadLightData.uTranslateY = 0.0f;
+        mPadLightData.uPoints = new float[]{0.8f, 0.2f, 1.0f, 0.8f, 0.9f, 1.0f, 0.2f, 0.9f, 1.0f, 0.2f, 0.2f, 1.0f};
+        mPadLightData.uAlphaMulti = 1.0f;
+        mPadLightData.uNoiseScale = 1.5f;
+        mPadLightData.uPointOffset = 0.2f;
+        mPadLightData.uPointRadiusMulti = 1.0f;
+        mPadLightData.uSaturateOffset = 0.2f;
+        mPadLightData.uLightOffset = 0.1f;
+        mPadLightData.uAlphaOffset = 0.5f;
+        mPadLightData.uShadowColorMulti = 0.3f;
+        mPadLightData.uShadowColorOffset = 0.3f;
+        mPadLightData.uShadowNoiseScale = 5.0f;
+        mPadLightData.uShadowOffset = 0.01f;
+        mPadLightData.colorInterpPeriod = 7.0f;
+        mPadLightData.gradientSpeedChange = 1.8f;
+        mPadLightData.gradientSpeedRest = 1.0f;
+        mPadLightData.gradientColors1 = new float[]{0.99f, 0.77f, 0.86f, 1.0f, 0.74f, 0.76f, 1.0f, 1.0f, 0.72f, 0.74f, 1.0f, 1.0f, 0.98f, 0.76f, 0.8f, 1.0f};
+        mPadLightData.gradientColors2 = new float[]{0.66f, 0.75f, 1.0f, 1.0f, 1.0f, 0.86f, 0.91f, 1.0f, 0.74f, 0.76f, 1.0f, 1.0f, 0.97f, 0.77f, 0.84f, 1.0f};
+        mPadLightData.gradientColors3 = new float[]{0.97f, 0.79f, 0.85f, 1.0f, 0.65f, 0.68f, 0.98f, 1.0f, 0.66f, 0.77f, 1.0f, 1.0f, 0.72f, 0.73f, 0.98f, 1.0f};
+
+        mPhoneDarkData = new BgEffectData();
+        mPhoneDarkData.uTranslateY = 0.0f;
+        mPhoneDarkData.uPoints = new float[]{0.8f, 0.2f, 1.0f, 0.8f, 0.9f, 1.0f, 0.2f, 0.9f, 1.0f, 0.2f, 0.2f, 1.0f};
+        mPhoneDarkData.uAlphaMulti = 1.0f;
+        mPhoneDarkData.uNoiseScale = 1.5f;
+        mPhoneDarkData.uPointOffset = 0.4f;
+        mPhoneDarkData.uPointRadiusMulti = 1.0f;
+        mPhoneDarkData.uSaturateOffset = 0.17f;
+        mPhoneDarkData.uLightOffset = 0.0f;
+        mPhoneDarkData.uAlphaOffset = 0.5f;
+        mPhoneDarkData.uShadowColorMulti = 0.3f;
+        mPhoneDarkData.uShadowColorOffset = 0.3f;
+        mPhoneDarkData.uShadowNoiseScale = 5.0f;
+        mPhoneDarkData.uShadowOffset = 0.01f;
+        mPhoneDarkData.colorInterpPeriod = 8.0f;
+        mPhoneDarkData.gradientSpeedChange = 1.0f;
+        mPhoneDarkData.gradientSpeedRest = 1.0f;
+        mPhoneDarkData.gradientColors1 = new float[]{0.2f, 0.06f, 0.88f, 0.4f, 0.3f, 0.14f, 0.55f, 0.5f, 0.0f, 0.64f, 0.96f, 0.5f, 0.11f, 0.16f, 0.83f, 0.4f};
+        mPhoneDarkData.gradientColors2 = new float[]{0.07f, 0.15f, 0.79f, 0.5f, 0.62f, 0.21f, 0.67f, 0.5f, 0.06f, 0.25f, 0.84f, 0.5f, 0.0f, 0.2f, 0.78f, 0.5f};
+        mPhoneDarkData.gradientColors3 = new float[]{0.58f, 0.3f, 0.74f, 0.4f, 0.27f, 0.18f, 0.6f, 0.5f, 0.66f, 0.26f, 0.62f, 0.5f, 0.12f, 0.16f, 0.7f, 0.6f};
+
+
+        mPadDarkData = new BgEffectData();
+        mPadDarkData.uTranslateY = 0.0f;
+        mPadDarkData.uPoints = new float[]{0.8f, 0.2f, 1.0f, 0.8f, 0.9f, 1.0f, 0.2f, 0.9f, 1.0f, 0.2f, 0.2f, 1.0f};
+        mPadDarkData.uAlphaMulti = 1.0f;
+        mPadDarkData.uNoiseScale = 1.5f;
+        mPadDarkData.uPointOffset = 0.2f;
+        mPadDarkData.uPointRadiusMulti = 1.0f;
+        mPadDarkData.uSaturateOffset = 0.0f;
+        mPadDarkData.uLightOffset = 0.0f;
+        mPadDarkData.uAlphaOffset = 0.5f;
+        mPadDarkData.uShadowColorMulti = 0.3f;
+        mPadDarkData.uShadowColorOffset = 0.3f;
+        mPadDarkData.uShadowNoiseScale = 5.0f;
+        mPadDarkData.uShadowOffset = 0.01f;
+        mPadDarkData.colorInterpPeriod = 7.0f;
+        mPadDarkData.gradientSpeedChange = 1.6f;
+        mPadDarkData.gradientSpeedRest = 1.2f;
+        mPadDarkData.gradientColors1 = new float[]{0.66f, 0.26f, 0.62f, 0.4f, 0.06f, 0.25f, 0.84f, 0.5f, 0.0f, 0.64f, 0.96f, 0.5f, 0.14f, 0.18f, 0.55f, 0.5f};
+        mPadDarkData.gradientColors2 = new float[]{0.07f, 0.15f, 0.79f, 0.5f, 0.11f, 0.16f, 0.83f, 0.5f, 0.06f, 0.25f, 0.84f, 0.5f, 0.66f, 0.26f, 0.62f, 0.5f};
+        mPadDarkData.gradientColors3 = new float[]{0.58f, 0.3f, 0.74f, 0.5f, 0.11f, 0.16f, 0.83f, 0.5f, 0.66f, 0.26f, 0.62f, 0.5f, 0.27f, 0.18f, 0.6f, 0.6f};
+    }
+
+    public BgEffectData getData(DeviceType deviceType, ThemeMode themeMode) {
+        BgEffectData data = null;
+        if (themeMode == ThemeMode.LIGHT) {
+            data = deviceType == PHONE ? mPhoneLightData : mPadLightData;
+            if (false) {
+                data.gradientColors1 = new float[]{1.0f, 0.83f, 0.68f, 1.0f, 0.92f, 0.56f, 0.47f, 1.0f, 0.98f, 0.74f, 0.72f, 1.0f, 1.0f, 0.62f, 0.53f, 1.0f};
+                data.gradientColors2 = new float[]{1.0f, 0.83f, 0.68f, 1.0f, 0.92f, 0.56f, 0.47f, 1.0f, 0.98f, 0.74f, 0.72f, 1.0f, 1.0f, 0.62f, 0.53f, 1.0f};
+                data.gradientColors3 = new float[]{1.0f, 0.83f, 0.68f, 1.0f, 0.92f, 0.56f, 0.47f, 1.0f, 0.98f, 0.74f, 0.72f, 1.0f, 1.0f, 0.62f, 0.53f, 1.0f};
+            }
+        } else if (themeMode == ThemeMode.DARK){
+            data = deviceType == PHONE ? mPhoneDarkData : mPadDarkData;
+            if (false) {
+                data.gradientColors1 = new float[]{0.58f, 0.4f, 0.28f, 1.0f, 0.48f, 0.12f, 0.1f, 1.0f, 0.56f, 0.28f, 0.12f, 1.0f, 0.46f, 0.16f, 0.11f, 1.0f};
+                data.gradientColors2 = new float[]{0.58f, 0.4f, 0.28f, 1.0f, 0.48f, 0.12f, 0.1f, 1.0f, 0.56f, 0.28f, 0.12f, 1.0f, 0.46f, 0.16f, 0.11f, 1.0f};
+                data.gradientColors3 = new float[]{0.58f, 0.4f, 0.28f, 1.0f, 0.48f, 0.12f, 0.1f, 1.0f, 0.56f, 0.28f, 0.12f, 1.0f, 0.46f, 0.16f, 0.11f, 1.0f};
+            }
+        }
+
+        return data;
+    }
+}

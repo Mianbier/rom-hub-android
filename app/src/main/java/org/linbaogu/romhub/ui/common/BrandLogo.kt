@@ -1,1 +1,65 @@
-cGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLnVpLmNvbW1vbgoKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5iYWNrZ3JvdW5kCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LkJveAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5zaXplCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24uc2hhcGUuUm91bmRlZENvcm5lclNoYXBlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuQ29tcG9zYWJsZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5BbGlnbm1lbnQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuTW9kaWZpZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuZHJhdy5jbGlwCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmdyYXBoaWNzLkJydXNoCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmdyYXBoaWNzLkNvbG9yCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnBsYXRmb3JtLkxvY2FsRGVuc2l0eQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS50ZXh0LmZvbnQuRm9udFdlaWdodAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS50ZXh0LnN0eWxlLlRleHRBbGlnbgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS51bml0LkRwCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnVuaXQuZHAKaW1wb3J0IG9yZy5saW5iYW9ndS5yb21odWIuZGF0YS5icmFuZC5CcmFuZAppbXBvcnQgdG9wLnl1a29uZ2EubWl1aXgua21wLmJhc2ljLlRleHQKCi8qKgogKiDlk4HniYzmoIflnZcg4oCU4oCUIOWTgeeJjOmhteS4iuavj+S4quWTgeeJjOWJjemdoumCo+Wdl+OAjOWTgeeJjOWbvuOAjeOAggogKgogKiDlgZrms5XmmK/jgIzlk4HniYzkuLvoibLmuJDlj5ggKyDlk4HniYzlrZfmoIfjgI3vvIzogIzkuI3mmK/ljrvmkKzlkITlrrbnmoTllYbmoIflm77niYfvvJoKICogIMK3ICoq56a757q/5Y+v55SoKirvvJrkuI3kvp3otZbku7vkvZXlm77luoov5aSW6ZO+77yM5pat572R5Lmf5piv5a6M5pW055qE77ybCiAqICDCtyDkuI3mtonlj4rllYbmoIfntKDmnZDnmoTkuozmrKHliIblj5HvvJsKICogIMK3IOiHquWKqOi3n+maj+a3sea1heiJsuS4u+mimO+8jOavlOWGmeatu+S4gOW8oCBQTkcg5bmy5YeA5b6X5aSa77ybCiAqICDCtyDlrZfmoIfplb/luqboh6rliqjosIPlrZflj7cg4oCU4oCUIGBNSWAgLyBgMStgIOiDveaUvuWkp++8jGBSRURNQUdJQ2Ag5Lya57yp5Yiw5Yia5aW95pS+5b6X5LiL44CCCiAqLwpAQ29tcG9zYWJsZQpmdW4gQnJhbmRMb2dvKAogICAgYnJhbmQ6IEJyYW5kLAogICAgc2l6ZTogRHAgPSA0Ni5kcCwKICAgIGRpbTogQm9vbGVhbiA9IGZhbHNlLAopIHsKICAgIC8vIOWTgeeJjOS4u+iJsuaYryAweEFBUlJHR0JCIOeahCBMb25n77yM5aGe6L+bIFVMb25nIOmrmCAzMiDkvY3miY3mmK8gQ29tcG9zZSDorqTnmoQgQVJHQgogICAgdmFsIGJhc2UgPSBDb2xvcihicmFuZC5jb2xvci50b1VMb25nKCkgc2hsIDMyKQogICAgdmFsIHRvcCA9IGlmIChkaW0pIGJhc2UuY29weShhbHBoYSA9IDAuMzRmKSBlbHNlIGJhc2UuY29weShhbHBoYSA9IDAuOTJmKQogICAgdmFsIGJvdHRvbSA9IGlmIChkaW0pIGJhc2UuY29weShhbHBoYSA9IDAuMjBmKSBlbHNlIGJhc2UKCiAgICAvLyDlrZfmoIfotorplb/lrZflj7fotorlsI8KICAgIHZhbCBmYWN0b3IgPSB3aGVuIChicmFuZC53b3JkbWFyay5sZW5ndGgpIHsKICAgICAgICAwLCAxLCAyIC0+IDAuNDBmCiAgICAgICAgMywgNCAtPiAwLjI3ZgogICAgICAgIGVsc2UgLT4gMC4xODVmCiAgICB9CiAgICB2YWwgZm9udFNpemUgPSB3aXRoKExvY2FsRGVuc2l0eS5jdXJyZW50KSB7IChzaXplICogZmFjdG9yKS50b1NwKCkgfQoKICAgIEJveCgKICAgICAgICBNb2RpZmllcgogICAgICAgICAgICAuc2l6ZShzaXplKQogICAgICAgICAgICAuY2xpcChSb3VuZGVkQ29ybmVyU2hhcGUoc2l6ZSAqIDAuMjZmKSkKICAgICAgICAgICAgLmJhY2tncm91bmQoQnJ1c2gudmVydGljYWxHcmFkaWVudChsaXN0T2YodG9wLCBib3R0b20pKSksCiAgICAgICAgY29udGVudEFsaWdubWVudCA9IEFsaWdubWVudC5DZW50ZXIsCiAgICApIHsKICAgICAgICBUZXh0KAogICAgICAgICAgICB0ZXh0ID0gYnJhbmQud29yZG1hcmssCiAgICAgICAgICAgIGNvbG9yID0gQ29sb3IuV2hpdGUuY29weShhbHBoYSA9IGlmIChkaW0pIDAuNzJmIGVsc2UgMWYpLAogICAgICAgICAgICBmb250U2l6ZSA9IGZvbnRTaXplLAogICAgICAgICAgICBmb250V2VpZ2h0ID0gRm9udFdlaWdodC5Cb2xkLAogICAgICAgICAgICB0ZXh0QWxpZ24gPSBUZXh0QWxpZ24uQ2VudGVyLAogICAgICAgICAgICBtYXhMaW5lcyA9IDEsCiAgICAgICAgKQogICAgfQp9Cg==
+package org.linbaogu.romhub.ui.common
+
+import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.Brush
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.LocalDensity
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.unit.Dp
+import androidx.compose.ui.unit.dp
+import org.linbaogu.romhub.data.brand.Brand
+import top.yukonga.miuix.kmp.basic.Text
+
+/**
+ * 品牌标块 —— 品牌页上每个品牌前面那块「品牌图」。
+ *
+ * 做法是「品牌主色渐变 + 品牌字标」，而不是去搬各家的商标图片：
+ *  · **离线可用**：不依赖任何图床/外链，断网也是完整的；
+ *  · 不涉及商标素材的二次分发；
+ *  · 自动跟随深浅色主题，比写死一张 PNG 干净得多；
+ *  · 字标长度自动调字号 —— `MI` / `1+` 能放大，`REDMAGIC` 会缩到刚好放得下。
+ */
+@Composable
+fun BrandLogo(
+    brand: Brand,
+    size: Dp = 46.dp,
+    dim: Boolean = false,
+) {
+    // 品牌主色是 0xAARRGGBB 的 Long，塞进 ULong 高 32 位才是 Compose 认的 ARGB
+    val base = Color(brand.color.toULong() shl 32)
+    val top = if (dim) base.copy(alpha = 0.34f) else base.copy(alpha = 0.92f)
+    val bottom = if (dim) base.copy(alpha = 0.20f) else base
+
+    // 字标越长字号越小
+    val factor = when (brand.wordmark.length) {
+        0, 1, 2 -> 0.40f
+        3, 4 -> 0.27f
+        else -> 0.185f
+    }
+    val fontSize = with(LocalDensity.current) { (size * factor).toSp() }
+
+    Box(
+        Modifier
+            .size(size)
+            .clip(RoundedCornerShape(size * 0.26f))
+            .background(Brush.verticalGradient(listOf(top, bottom))),
+        contentAlignment = Alignment.Center,
+    ) {
+        Text(
+            text = brand.wordmark,
+            color = Color.White.copy(alpha = if (dim) 0.72f else 1f),
+            fontSize = fontSize,
+            fontWeight = FontWeight.Bold,
+            textAlign = TextAlign.Center,
+            maxLines = 1,
+        )
+    }
+}

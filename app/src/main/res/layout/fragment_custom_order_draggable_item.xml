@@ -1,1 +1,34 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPExpbmVhckxheW91dCB4bWxuczphbmRyb2lkPSJodHRwOi8vc2NoZW1hcy5hbmRyb2lkLmNvbS9hcGsvcmVzL2FuZHJvaWQiCiAgICBhbmRyb2lkOmlkPSJAaWQvY2FyZF9sYXlvdXQiCiAgICBhbmRyb2lkOmxheW91dF93aWR0aD0ibWF0Y2hfcGFyZW50IgogICAgYW5kcm9pZDpsYXlvdXRfaGVpZ2h0PSI1NmRwIgogICAgYW5kcm9pZDpsYXlvdXRfbWFyZ2luU3RhcnQ9IkBkaW1lbi9jdXN0b21fb3JkZXJfaXRlbV9tYXJnaW5faW50ZXIiCiAgICBhbmRyb2lkOmxheW91dF9tYXJnaW5FbmQ9IkBkaW1lbi9jdXN0b21fb3JkZXJfaXRlbV9tYXJnaW5faW50ZXIiCiAgICBhbmRyb2lkOmxheW91dF9tYXJnaW5Cb3R0b209IkBkaW1lbi9jdXN0b21fb3JkZXJfaXRlbV9tYXJnaW5fdG9wIgogICAgYW5kcm9pZDpiYWNrZ3JvdW5kPSJAZHJhd2FibGUvaXRlbV9jYXJkX2JnIgogICAgYW5kcm9pZDplbGV2YXRpb249IjBkcCIKICAgIGFuZHJvaWQ6Zm9jdXNhYmxlPSJ0cnVlIgogICAgYW5kcm9pZDpncmF2aXR5PSJjZW50ZXJfdmVydGljYWwiCiAgICBhbmRyb2lkOmltcG9ydGFudEZvckFjY2Vzc2liaWxpdHk9InllcyI+CgogICAgPEltYWdlQnV0dG9uCiAgICAgICAgYW5kcm9pZDppZD0iQCtpZC9tb3ZlX2J1dHRvbiIKICAgICAgICBhbmRyb2lkOmxheW91dF93aWR0aD0id3JhcF9jb250ZW50IgogICAgICAgIGFuZHJvaWQ6bGF5b3V0X2hlaWdodD0id3JhcF9jb250ZW50IgogICAgICAgIGFuZHJvaWQ6bGF5b3V0X21hcmdpblN0YXJ0PSJAZGltZW4vY3VzdG9tX29yZGVyX2l0ZW1fbWFyZ2luIgogICAgICAgIGFuZHJvaWQ6YmFja2dyb3VuZD0iQGRyYXdhYmxlL2ljX25hdmlnYXRpb25fcmVhcnJhbmdlIgogICAgICAgIGFuZHJvaWQ6Y2xpY2thYmxlPSJmYWxzZSIgLz4KCiAgICA8VGV4dFZpZXcKICAgICAgICBhbmRyb2lkOmlkPSJAK2lkL3RpdGxlX3RleHRfdmlldyIKICAgICAgICBhbmRyb2lkOmxheW91dF93aWR0aD0id3JhcF9jb250ZW50IgogICAgICAgIGFuZHJvaWQ6bGF5b3V0X2hlaWdodD0id3JhcF9jb250ZW50IgogICAgICAgIGFuZHJvaWQ6bGF5b3V0X21hcmdpblN0YXJ0PSIxNmRwIgogICAgICAgIGFuZHJvaWQ6ZWxsaXBzaXplPSJlbmQiCiAgICAgICAgYW5kcm9pZDpmb250RmFtaWx5PSJtaXByby1tZWRpdW0iCiAgICAgICAgYW5kcm9pZDptYXhMaW5lcz0iMSIKICAgICAgICBhbmRyb2lkOnRleHQ9IkNhcmQgVGl0bGUiCiAgICAgICAgYW5kcm9pZDp0ZXh0Q29sb3I9Ij9jb2xvck9uU3VyZmFjZSIKICAgICAgICBhbmRyb2lkOnRleHRTaXplPSIxN3NwIiAvPgo8L0xpbmVhckxheW91dD4K
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/card_layout"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:layout_marginStart="@dimen/custom_order_item_margin_inter"
+    android:layout_marginEnd="@dimen/custom_order_item_margin_inter"
+    android:layout_marginBottom="@dimen/custom_order_item_margin_top"
+    android:background="@drawable/item_card_bg"
+    android:elevation="0dp"
+    android:focusable="true"
+    android:gravity="center_vertical"
+    android:importantForAccessibility="yes">
+
+    <ImageButton
+        android:id="@+id/move_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/custom_order_item_margin"
+        android:background="@drawable/ic_navigation_rearrange"
+        android:clickable="false" />
+
+    <TextView
+        android:id="@+id/title_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:ellipsize="end"
+        android:fontFamily="mipro-medium"
+        android:maxLines="1"
+        android:text="Card Title"
+        android:textColor="?colorOnSurface"
+        android:textSize="17sp" />
+</LinearLayout>

@@ -1,1 +1,66 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0NCiAgfiBUaGlzIGZpbGUgaXMgcGFydCBvZiBIeXBlckNlaWxlci4NCiAgfg0KICB+IEh5cGVyQ2VpbGVyIGlzIGZyZWUgc29mdHdhcmU6IHlvdSBjYW4gcmVkaXN0cmlidXRlIGl0IGFuZC9vciBtb2RpZnkNCiAgfiBpdCB1bmRlciB0aGUgdGVybXMgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBhcw0KICB+IHB1Ymxpc2hlZCBieSB0aGUgRnJlZSBTb2Z0d2FyZSBGb3VuZGF0aW9uLCBlaXRoZXIgdmVyc2lvbiAzIG9mIHRoZQ0KICB+IExpY2Vuc2UuDQogIH4NCiAgfiBUaGlzIHByb2dyYW0gaXMgZGlzdHJpYnV0ZWQgaW4gdGhlIGhvcGUgdGhhdCBpdCB3aWxsIGJlIHVzZWZ1bCwNCiAgfiBidXQgV0lUSE9VVCBBTlkgV0FSUkFOVFk7IHdpdGhvdXQgZXZlbiB0aGUgaW1wbGllZCB3YXJyYW50eSBvZg0KICB+IE1FUkNIQU5UQUJJTElUWSBvciBGSVRORVNTIEZPUiBBIFBBUlRJQ1VMQVIgUFVSUE9TRS4gIFNlZSB0aGUNCiAgfiBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UgZm9yIG1vcmUgZGV0YWlscy4NCiAgfg0KICB+IFlvdSBzaG91bGQgaGF2ZSByZWNlaXZlZCBhIGNvcHkgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZQ0KICB+IGFsb25nIHdpdGggdGhpcyBwcm9ncmFtLiAgSWYgbm90LCBzZWUgPGh0dHBzOi8vd3d3LmdudS5vcmcvbGljZW5zZXMvPi4NCiAgfg0KICB+IENvcHlyaWdodCAoQykgMjAyMy0yMDI2IEh5cGVyUm9taHViIENvbnRyaWJ1dGlvbnMNCiAgLS0+DQo8cmVzb3VyY2VzPg0KDQogICAgPHN0eWxlIG5hbWU9IlByb3Zpc2lvblRoZW1lIiBwYXJlbnQ9IkBzdHlsZS9UaGVtZS5BcHBDb21wYXQuRGF5TmlnaHQiPg0KICAgICAgICA8aXRlbSBuYW1lPSJ3aW5kb3dBY3Rpb25CYXIiPmZhbHNlPC9pdGVtPg0KICAgICAgICA8aXRlbSBuYW1lPSJ3aW5kb3dBY3Rpb25CYXJPdmVybGF5Ij5mYWxzZTwvaXRlbT4NCiAgICAgICAgPGl0ZW0gbmFtZT0iYW5kcm9pZDphY3Rpb25CYXJJdGVtQmFja2dyb3VuZCI+QGFuZHJvaWQ6Y29sb3IvdHJhbnNwYXJlbnQ8L2l0ZW0+DQoNCiAgICAgICAgPGl0ZW0gbmFtZT0iYW5kcm9pZDp3aW5kb3dEaXNhYmxlUHJldmlldyI+dHJ1ZTwvaXRlbT4NCiAgICAgICAgPGl0ZW0gbmFtZT0iYW5kcm9pZDp3aW5kb3dEcmF3c1N5c3RlbUJhckJhY2tncm91bmRzIj50cnVlPC9pdGVtPg0KICAgICAgICA8aXRlbSBuYW1lPSJhbmRyb2lkOndpbmRvd0xheW91dEluRGlzcGxheUN1dG91dE1vZGUiPmFsd2F5czwvaXRlbT4NCiAgICAgICAgPGl0ZW0gbmFtZT0iYW5kcm9pZDp3aW5kb3dCYWNrZ3JvdW5kIj5AY29sb3IvbWl1aXhfZGVzaWduX2RlZmF1bHRfY29sb3Jfc3VyZmFjZV92YXJpYW50PC9pdGVtPg0KDQogICAgICAgIDxpdGVtIG5hbWU9InByZWZlcmVuY2VJdGVtUGFkZGluZ0VuZCI+QGRpbWVuL21pdWl4X3ByZWZlcmVuY2VfaXRlbV9wYWRkaW5nX2VuZDwvaXRlbT4NCiAgICAgICAgPGl0ZW0gbmFtZT0icHJlZmVyZW5jZUl0ZW1QYWRkaW5nU3RhcnQiPkBkaW1lbi9taXVpeF9wcmVmZXJlbmNlX2l0ZW1fcGFkZGluZ19zdGFydDwvaXRlbT4NCiAgICAgICAgPGl0ZW0gbmFtZT0icHJlZmVyZW5jZVByaW1hcnlUZXh0Q29sb3IiPkBjb2xvci9taXVpeF9wcmVmZXJlbmNlX3ByaW1hcnlfdGV4dF9saWdodDwvaXRlbT4NCiAgICAgICAgPGl0ZW0gbmFtZT0icHJlZmVyZW5jZVNlY29uZGFyeVRleHRDb2xvciI+QGNvbG9yL21pdWl4X3ByZWZlcmVuY2Vfc2Vjb25kYXJ5X3RleHRfbGlnaHQ8L2l0ZW0+DQoNCiAgICAgICAgPGl0ZW0gbmFtZT0icHJlZmVyZW5jZVRoZW1lIj5Ac3R5bGUvVGhlbWVPdmVybGF5LlByZWZlcmVuY2UuTGlnaHQuT1MyPC9pdGVtPg0KDQogICAgICAgIDxpdGVtIG5hbWU9ImFuZHJvaWQ6bGlzdERpdmlkZXIiPkBudWxsPC9pdGVtPg0KICAgICAgICA8aXRlbSBuYW1lPSJhbmRyb2lkOndpbmRvd1RyYW5zbHVjZW50U3RhdHVzIj50cnVlPC9pdGVtPg0KICAgICAgICA8aXRlbSBuYW1lPSJhbmRyb2lkOndpbmRvd1RyYW5zbHVjZW50TmF2aWdhdGlvbiI+dHJ1ZTwvaXRlbT4NCg0KICAgICAgICA8aXRlbSBuYW1lPSJib3R0b21TaGVldFN0eWxlIj5Ac3R5bGUvQm90dG9tU2hlZXRNb2RhbFN0eWxlPC9pdGVtPg0KDQogICAgICAgIDxpdGVtIG5hbWU9Imdyb3VwQnV0dG9uc1BhbmVsQmFja2dyb3VuZCI+QGFuZHJvaWQ6Y29sb3IvdHJhbnNwYXJlbnQ8L2l0ZW0+DQogICAgICAgIDxpdGVtIG5hbWU9Imdyb3VwQnV0dG9uc1ByaW1hcnlCdXR0b25TdHlsZSI+QHN0eWxlL1dpZGdldC5CdXR0b24uUHJpbWFyeTwvaXRlbT4NCiAgICAgICAgPGl0ZW0gbmFtZT0iZ3JvdXBCdXR0b25zU2Vjb25kYXJ5QnV0dG9uU3R5bGUiPkBzdHlsZS9XaWRnZXQuQnV0dG9uPC9pdGVtPg0KICAgICAgICA8aXRlbSBuYW1lPSJncm91cEJ1dHRvbnNUZXJ0aWFyeUJ1dHRvblN0eWxlIj5Ac3R5bGUvV2lkZ2V0LkJ1dHRvbjwvaXRlbT4NCiAgICA8L3N0eWxlPg0KDQogICAgPCEtLQ0KICAgICAg57uZ44CM54Wn5oqE6L+H5p2l55qEIEh5cGVyQ2VpbGVyIFZpZXcg57uE5Lu244CN55So55qE5Li76aKY5Y+g5Yqg5bGC44CCDQogICAgICBNaXVpeCDnmoQgYD9hdHRyL3ByZWZlcmVuY2VTZWNvbmRhcnlUZXh0Q29sb3JgIC8gYHByZWZlcmVuY2VQcmltYXJ5VGV4dENvbG9yYCDnrYkNCiAgICAgIOWPquWcqCBgVGhlbWVPdmVybGF5LlByZWZlcmVuY2UuKmAg6YeM5a6a5LmJ77ybSHlwZXJDZWlsZXIg5piv6Z2gIFByZWZlcmVuY2VGcmFnbWVudCDoh6rliqjlj6DkuIrljrvnmoTvvIwNCiAgICAgIOaIkeS7rOWcqCBDb21wb3NlIOeahCBBbmRyb2lkVmlldyDph4zlv4XpobvmiYvliqjlpZfkuIDlsYLvvIzlkKbliJkgaW5mbGF0ZSDnm7TmjqXmipsNCiAgICAgIGBVbnN1cHBvcnRlZE9wZXJhdGlvbkV4Y2VwdGlvbjogRmFpbGVkIHRvIHJlc29sdmUgYXR0cmlidXRlYOOAgg0KICAgIC0tPg0KICAgIDxzdHlsZSBuYW1lPSJIY0Fib3V0T3ZlcmxheSIgcGFyZW50PSJAc3R5bGUvVGhlbWVPdmVybGF5LlByZWZlcmVuY2UuRGF5TmlnaHQiIC8+DQoNCiAgICA8c3R5bGUgbmFtZT0iVHJhbnNwYXJlbnRBY3Rpb25CYXJUaGVtZSIgcGFyZW50PSJUaGVtZS5BcHBDb21wYXQuRGF5TmlnaHQuTm9BY3Rpb25CYXIiPg0KICAgICAgICA8aXRlbSBuYW1lPSJhY3Rpb25CYXJCYWNrZ3JvdW5kIj5AYW5kcm9pZDpjb2xvci90cmFuc3BhcmVudDwvaXRlbT4NCiAgICAgICAgPGl0ZW0gbmFtZT0iYW5kcm9pZDphY3Rpb25CYXJJdGVtQmFja2dyb3VuZCI+QGFuZHJvaWQ6Y29sb3IvdHJhbnNwYXJlbnQ8L2l0ZW0+DQogICAgICAgIDxpdGVtIG5hbWU9IndpbmRvd0FjdGlvbkJhck92ZXJsYXkiPnRydWU8L2l0ZW0+DQogICAgICAgIDxpdGVtIG5hbWU9ImJvdHRvbVNoZWV0U3R5bGUiPkBzdHlsZS9Cb3R0b21TaGVldE1vZGFsU3R5bGU8L2l0ZW0+DQogICAgPC9zdHlsZT4NCjwvcmVzb3VyY2VzPg0K
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ This file is part of HyperCeiler.
+  ~
+  ~ HyperCeiler is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU Affero General Public License as
+  ~ published by the Free Software Foundation, either version 3 of the
+  ~ License.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU Affero General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU Affero General Public License
+  ~ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+  ~
+  ~ Copyright (C) 2023-2026 HyperRomhub Contributions
+  -->
+<resources>
+
+    <style name="ProvisionTheme" parent="@style/Theme.AppCompat.DayNight">
+        <item name="windowActionBar">false</item>
+        <item name="windowActionBarOverlay">false</item>
+        <item name="android:actionBarItemBackground">@android:color/transparent</item>
+
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">always</item>
+        <item name="android:windowBackground">@color/miuix_design_default_color_surface_variant</item>
+
+        <item name="preferenceItemPaddingEnd">@dimen/miuix_preference_item_padding_end</item>
+        <item name="preferenceItemPaddingStart">@dimen/miuix_preference_item_padding_start</item>
+        <item name="preferencePrimaryTextColor">@color/miuix_preference_primary_text_light</item>
+        <item name="preferenceSecondaryTextColor">@color/miuix_preference_secondary_text_light</item>
+
+        <item name="preferenceTheme">@style/ThemeOverlay.Preference.Light.OS2</item>
+
+        <item name="android:listDivider">@null</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+
+        <item name="bottomSheetStyle">@style/BottomSheetModalStyle</item>
+
+        <item name="groupButtonsPanelBackground">@android:color/transparent</item>
+        <item name="groupButtonsPrimaryButtonStyle">@style/Widget.Button.Primary</item>
+        <item name="groupButtonsSecondaryButtonStyle">@style/Widget.Button</item>
+        <item name="groupButtonsTertiaryButtonStyle">@style/Widget.Button</item>
+    </style>
+
+    <!--
+      给「照抄过来的 HyperCeiler View 组件」用的主题叠加层。
+      Miuix 的 `?attr/preferenceSecondaryTextColor` / `preferencePrimaryTextColor` 等
+      只在 `ThemeOverlay.Preference.*` 里定义；HyperCeiler 是靠 PreferenceFragment 自动叠上去的，
+      我们在 Compose 的 AndroidView 里必须手动套一层，否则 inflate 直接抛
+      `UnsupportedOperationException: Failed to resolve attribute`。
+    -->
+    <style name="HcAboutOverlay" parent="@style/ThemeOverlay.Preference.DayNight" />
+
+    <style name="TransparentActionBarTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="actionBarBackground">@android:color/transparent</item>
+        <item name="android:actionBarItemBackground">@android:color/transparent</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="bottomSheetStyle">@style/BottomSheetModalStyle</item>
+    </style>
+</resources>

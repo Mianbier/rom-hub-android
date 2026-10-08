@@ -1,1 +1,382 @@
-LyoKICogWXVuWCAo5LqR5p6QKSAtIEEgbmV0d29yayBkcml2ZSBzaGFyZS1saW5rIHBhcnNlciBhbmQgaGlnaC1zcGVlZCBkb3dubG9hZGVyIGZvciBBbmRyb2lkLgogKiBDb3B5cmlnaHQgKEMpIDIwMjYgQ1lRYXdhCiAqCiAqIFRoaXMgcHJvZ3JhbSBpcyBmcmVlIHNvZnR3YXJlOiB5b3UgY2FuIHJlZGlzdHJpYnV0ZSBpdCBhbmQvb3IgbW9kaWZ5CiAqIGl0IHVuZGVyIHRoZSB0ZXJtcyBvZiB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGFzIHB1Ymxpc2hlZCBieQogKiB0aGUgRnJlZSBTb2Z0d2FyZSBGb3VuZGF0aW9uLCBlaXRoZXIgdmVyc2lvbiAzIG9mIHRoZSBMaWNlbnNlLCBvcgogKiAoYXQgeW91ciBvcHRpb24pIGFueSBsYXRlciB2ZXJzaW9uLgogKgogKiBUaGlzIHByb2dyYW0gaXMgZGlzdHJpYnV0ZWQgaW4gdGhlIGhvcGUgdGhhdCBpdCB3aWxsIGJlIHVzZWZ1bCwKICogYnV0IFdJVEhPVVQgQU5ZIFdBUlJBTlRZOyB3aXRob3V0IGV2ZW4gdGhlIGltcGxpZWQgd2FycmFudHkgb2YKICogTUVSQ0hBTlRBQklMSVRZIG9yIEZJVE5FU1MgRk9SIEEgUEFSVElDVUxBUiBQVVJQT1NFLiAgU2VlIHRoZQogKiBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UgZm9yIG1vcmUgZGV0YWlscy4KICoKICogWW91IHNob3VsZCBoYXZlIHJlY2VpdmVkIGEgY29weSBvZiB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlCiAqIGFsb25nIHdpdGggdGhpcyBwcm9ncmFtLiAgSWYgbm90LCBzZWUgPGh0dHBzOi8vd3d3LmdudS5vcmcvbGljZW5zZXMvPi4KICovCgpwYWNrYWdlIG9yZy5saW5iYW9ndS5yb21odWIucGFuCgppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkRpc3BhdGNoZXJzCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMud2l0aENvbnRleHQKaW1wb3J0IG9raHR0cDMuT2tIdHRwQ2xpZW50CmltcG9ydCBva2h0dHAzLlJlcXVlc3QKaW1wb3J0IG9yZy5qc29uLkpTT05BcnJheQppbXBvcnQgb3JnLmpzb24uSlNPTk9iamVjdAoKLyoqCiAqIEdpdEh1YiBSRVNUIEFQSSDlsIHoo4XvvIjljL/lkI0gLyDlj6/pgIkgVG9rZW7vvInjgIIKICoKICogLSDmnKrphY3nva4gVG9rZW7vvJrpmZDpop0gNjAg5qyhL+Wwj+aXti9JUO+8mwogKiAtIOmFjee9riBUb2tlbu+8mumZkOmineaPkOWNh+iHsyA1MDAwIOasoS/lsI/ml7bvvJsKICogLSBUb2tlbiDku4XnlKjkuo7mj5DljYfpmZDpop3vvIzkuI3nlKjkuo7nmbvlvZXmgIHvvJvkuKXnpoHmiZPljbDliLDml6Xlv5fjgIIKICoKICog5omA5pyJ5pa55rOV5Z2H6L+Q6KGM5ZyoIFtEaXNwYXRjaGVycy5JT13vvIzlpLHotKXvvIjnvZHnu5zlvILluLggLyDpnZ4gMnh4IC8gSlNPTiDop6PmnpDlpLHotKXvvInov5Tlm54gbnVsbOOAggogKi8KY2xhc3MgR2l0SHViQXBpKAogICAgcHJpdmF0ZSB2YWwgY2xpZW50UHJvdmlkZXI6ICgpIC0+IE9rSHR0cENsaWVudCA9IHsgSHR0cENsaWVudHMuYXBpQ2xpZW50KCkgfSwKICAgIHByaXZhdGUgdmFsIHRva2VuUHJvdmlkZXI6ICgpIC0+IFN0cmluZz8gPSB7IG51bGwgfQopIHsKICAgIC8qKiDmr4/mrKHor7fmsYLliqjmgIHojrflj5blhajlsYDlrqLmiLfnq6/vvIjlv73nlaUgU1NMIOW8gOWFs+WIh+aNouWNs+aXtueUn+aViO+8iSAqLwogICAgcHJpdmF0ZSB2YWwgY2xpZW50IGdldCgpID0gY2xpZW50UHJvdmlkZXIoKQoKICAgIC8qKgogICAgICog5pC65bim55qEIFRva2VuIOiiqyBHaXRIdWIg5ouS57ud77yISFRUUCA0MDHvvInml7blm57osIPvvIzlj6rlm57osIPkuIDmrKHjgIIKICAgICAqCiAgICAgKiDkuLrku4DkuYjlv4XpobvlpITnkIbvvJpHaXRIdWIg5a+55bimKirml6DmlYgqKiBBdXRob3JpemF0aW9uIOWktOeahOS4gOWIh+ivt+axgumDvei/lOWbniA0MDHvvIwKICAgICAqIOi/nuWFrOW8gOS7k+W6ky9SZWxlYXNlIOino+aekOS5n+S8muWFqOmHj+Wksei0pe+8iOS4jeWPquaYr+mZkOminemXrumimO+8ie+8jOaJgOS7peS4iuWxguimgea4hemZpOi/meS4qiBUb2tlbiDmiY3og73mgaLlpI3ljL/lkI3orr/pl67jgIIKICAgICAqLwogICAgdmFyIG9uVW5hdXRob3JpemVkOiAoKCkgLT4gVW5pdCk/ID0gbnVsbAoKICAgIHByaXZhdGUgdmFyIHVuYXV0aG9yaXplZE5vdGlmaWVkID0gZmFsc2UKCiAgICAvKiog57uf5LiA5qOA5p+l5ZON5bqU56CB77yaNDAxIOKGkiDmuIXnqbrnvJPlrZjvvIjlpLHotKXmnaHnm67kvJrnvJPlrZggMSDliIbpkp/vvIzkuI3muIXkvJrorqnjgIzkv67lpb3kuYvlkI7jgI3ku43lpLHotKXvvInlubbpgJrnn6XkuIrlsYIgKi8KICAgIHByaXZhdGUgZnVuIG5vdGVSZXNwb25zZUNvZGUoY29kZTogSW50KSB7CiAgICAgICAgaWYgKGNvZGUgIT0gNDAxIHx8IHVuYXV0aG9yaXplZE5vdGlmaWVkKSByZXR1cm4KICAgICAgICB1bmF1dGhvcml6ZWROb3RpZmllZCA9IHRydWUKICAgICAgICBHaXRIdWJSZXNwb25zZUNhY2hlLmNsZWFyKCkKICAgICAgICBvblVuYXV0aG9yaXplZD8uaW52b2tlKCkKICAgIH0KCiAgICAvKiog6I635Y+W5Y2V5Liq5LuT5bqT5L+h5oGv77yaR0VUIC9yZXBvcy97b3duZXJ9L3tyZXBvfe+8iOe7k+aenOe7j+e7n+S4gOe8k+WtmO+8iSAqLwogICAgc3VzcGVuZCBmdW4gZ2V0UmVwbyhvd25lcjogU3RyaW5nLCByZXBvOiBTdHJpbmcpOiBHaXRIdWJSZXBvPyA9IHdpdGhDb250ZXh0KERpc3BhdGNoZXJzLklPKSB7CiAgICAgICAgcnVuQ2F0Y2hpbmcgewogICAgICAgICAgICB2YWwgcmF3ID0gY2FjaGVkQm9keSgicmVwbzokb3duZXIvJHJlcG8iLCAiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9yZXBvcy8kb3duZXIvJHJlcG8iKQogICAgICAgICAgICAgICAgPzogcmV0dXJuQHdpdGhDb250ZXh0IG51bGwKICAgICAgICAgICAgcGFyc2VSZXBvKEpTT05PYmplY3QocmF3KSkKICAgICAgICB9LmdldE9yTnVsbCgpCiAgICB9CgogICAgLyoqCiAgICAgKiDojrflj5bnm67lvZXmoJHvvIjku4XlvZPliY3lsYLvvIwqKuS4jeWKoCByZWN1cnNpdmU9MSoq77yM55Sx5rWP6KeI5bGC5oyJ6ZyA6L+b5YWl5a2Q55uu5b2V77yJ44CCCiAgICAgKiBHRVQgL3JlcG9zL3tvd25lcn0ve3JlcG99L2dpdC90cmVlcy97c2hhfe+8iOe7k+aenOe7j+e7n+S4gOe8k+WtmO+8ieOAggogICAgICovCiAgICBzdXNwZW5kIGZ1biBnZXRUcmVlKG93bmVyOiBTdHJpbmcsIHJlcG86IFN0cmluZywgc2hhOiBTdHJpbmcpOiBMaXN0PEdpdEh1YlRyZWVFbnRyeT4/ID0KICAgICAgICB3aXRoQ29udGV4dChEaXNwYXRjaGVycy5JTykgewogICAgICAgICAgICBydW5DYXRjaGluZyB7CiAgICAgICAgICAgICAgICB2YWwgcmF3ID0gY2FjaGVkQm9keSgKICAgICAgICAgICAgICAgICAgICAidHJlZTokb3duZXIvJHJlcG8vJHNoYSIsCiAgICAgICAgICAgICAgICAgICAgImh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3MvJG93bmVyLyRyZXBvL2dpdC90cmVlcy8kc2hhIgogICAgICAgICAgICAgICAgKSA/OiByZXR1cm5Ad2l0aENvbnRleHQgbnVsbAogICAgICAgICAgICAgICAgdmFsIGFyciA9IEpTT05PYmplY3QocmF3KS5vcHRKU09OQXJyYXkoInRyZWUiKSA/OiByZXR1cm5Ad2l0aENvbnRleHQgZW1wdHlMaXN0KCkKICAgICAgICAgICAgICAgIGJ1aWxkTGlzdCB7CiAgICAgICAgICAgICAgICAgICAgZm9yIChpIGluIDAgdW50aWwgYXJyLmxlbmd0aCgpKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIHZhbCBvID0gYXJyLm9wdEpTT05PYmplY3QoaSkgPzogY29udGludWUKICAgICAgICAgICAgICAgICAgICAgICAgYWRkKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgR2l0SHViVHJlZUVudHJ5KAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHBhdGggPSBvLm9wdFN0cmluZygicGF0aCIpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHR5cGUgPSBvLm9wdFN0cmluZygidHlwZSIpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNoYSA9IG8ub3B0U3RyaW5nKCJzaGEiKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzaXplID0gaWYgKG8uaXNOdWxsKCJzaXplIikpIG51bGwgZWxzZSBvLm9wdExvbmcoInNpemUiKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9LmdldE9yTnVsbCgpCiAgICAgICAgfQoKICAgIC8qKiBSZWxlYXNlcyDliJfooajvvIjliIbpobXvvIxwZXJfcGFnZT0xMDDvvInvvJpHRVQgL3JlcG9zL3tvd25lcn0ve3JlcG99L3JlbGVhc2Vz77yI57uT5p6c57uP57uf5LiA57yT5a2Y77yJICovCiAgICBzdXNwZW5kIGZ1biBnZXRSZWxlYXNlcyhvd25lcjogU3RyaW5nLCByZXBvOiBTdHJpbmcsIHBhZ2U6IEludCA9IDEpOiBMaXN0PEdpdEh1YlJlbGVhc2U+PyA9CiAgICAgICAgd2l0aENvbnRleHQoRGlzcGF0Y2hlcnMuSU8pIHsKICAgICAgICAgICAgcnVuQ2F0Y2hpbmcgewogICAgICAgICAgICAgICAgdmFsIHJhdyA9IGNhY2hlZEJvZHkoCiAgICAgICAgICAgICAgICAgICAgInJlbGVhc2VzOiRvd25lci8kcmVwbzokcGFnZSIsCiAgICAgICAgICAgICAgICAgICAgImh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3MvJG93bmVyLyRyZXBvL3JlbGVhc2VzP3Blcl9wYWdlPTEwMCZwYWdlPSRwYWdlIgogICAgICAgICAgICAgICAgKSA/OiByZXR1cm5Ad2l0aENvbnRleHQgbnVsbAogICAgICAgICAgICAgICAgdmFsIGFyciA9IEpTT05BcnJheShyYXcpCiAgICAgICAgICAgICAgICBidWlsZExpc3QgewogICAgICAgICAgICAgICAgICAgIGZvciAoaSBpbiAwIHVudGlsIGFyci5sZW5ndGgoKSkgewogICAgICAgICAgICAgICAgICAgICAgICB2YWwgbyA9IGFyci5vcHRKU09OT2JqZWN0KGkpID86IGNvbnRpbnVlCiAgICAgICAgICAgICAgICAgICAgICAgIGFkZChwYXJzZVJlbGVhc2UobykpCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9LmdldE9yTnVsbCgpCiAgICAgICAgfQoKICAgIC8qKiDnlKjmiLflhazlvIDku5PlupPliJfooajvvIjliIbpobXvvInvvJpHRVQgL3VzZXJzL3tvd25lcn0vcmVwb3M/c29ydD11cGRhdGVk77yI5bimIFRva2VuIOaMh+e6uSBrZXnvvIznu5Pmnpznu4/nvJPlrZjvvIkgKi8KICAgIHN1c3BlbmQgZnVuIGdldFVzZXJSZXBvcyhvd25lcjogU3RyaW5nLCBwYWdlOiBJbnQgPSAxKTogTGlzdDxHaXRIdWJSZXBvPj8gPQogICAgICAgIHdpdGhDb250ZXh0KERpc3BhdGNoZXJzLklPKSB7CiAgICAgICAgICAgIHJ1bkNhdGNoaW5nIHsKICAgICAgICAgICAgICAgIHZhbCByYXcgPSBjYWNoZWRCb2R5KAogICAgICAgICAgICAgICAgICAgICJ1c2VycmVwb3M6JG93bmVyOiRwYWdlOiR7dG9rZW5GaW5nZXJwcmludCgpfSIsCiAgICAgICAgICAgICAgICAgICAgImh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vdXNlcnMvJG93bmVyL3JlcG9zP3Blcl9wYWdlPTEwMCZwYWdlPSRwYWdlJnNvcnQ9dXBkYXRlZCIKICAgICAgICAgICAgICAgICkgPzogcmV0dXJuQHdpdGhDb250ZXh0IG51bGwKICAgICAgICAgICAgICAgIHZhbCBhcnIgPSBKU09OQXJyYXkocmF3KQogICAgICAgICAgICAgICAgYnVpbGRMaXN0IHsKICAgICAgICAgICAgICAgICAgICBmb3IgKGkgaW4gMCB1bnRpbCBhcnIubGVuZ3RoKCkpIHsKICAgICAgICAgICAgICAgICAgICAgICAgdmFsIG8gPSBhcnIub3B0SlNPTk9iamVjdChpKSA/OiBjb250aW51ZQogICAgICAgICAgICAgICAgICAgICAgICBhZGQocGFyc2VSZXBvKG8pKQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfS5nZXRPck51bGwoKQogICAgICAgIH0KCiAgICAvKiog57uE57uH5YWs5byA5LuT5bqT5YiX6KGo77yI5YiG6aG177yJ77yaR0VUIC9vcmdzL3tvd25lcn0vcmVwb3M/c29ydD11cGRhdGVk77yI5bimIFRva2VuIOaMh+e6uSBrZXnvvIznu5Pmnpznu4/nvJPlrZjvvIkgKi8KICAgIHN1c3BlbmQgZnVuIGdldE9yZ1JlcG9zKG93bmVyOiBTdHJpbmcsIHBhZ2U6IEludCA9IDEpOiBMaXN0PEdpdEh1YlJlcG8+PyA9CiAgICAgICAgd2l0aENvbnRleHQoRGlzcGF0Y2hlcnMuSU8pIHsKICAgICAgICAgICAgcnVuQ2F0Y2hpbmcgewogICAgICAgICAgICAgICAgdmFsIHJhdyA9IGNhY2hlZEJvZHkoCiAgICAgICAgICAgICAgICAgICAgIm9yZ3JlcG9zOiRvd25lcjokcGFnZToke3Rva2VuRmluZ2VycHJpbnQoKX0iLAogICAgICAgICAgICAgICAgICAgICJodHRwczovL2FwaS5naXRodWIuY29tL29yZ3MvJG93bmVyL3JlcG9zP3Blcl9wYWdlPTEwMCZwYWdlPSRwYWdlJnNvcnQ9dXBkYXRlZCIKICAgICAgICAgICAgICAgICkgPzogcmV0dXJuQHdpdGhDb250ZXh0IG51bGwKICAgICAgICAgICAgICAgIHZhbCBhcnIgPSBKU09OQXJyYXkocmF3KQogICAgICAgICAgICAgICAgYnVpbGRMaXN0IHsKICAgICAgICAgICAgICAgICAgICBmb3IgKGkgaW4gMCB1bnRpbCBhcnIubGVuZ3RoKCkpIHsKICAgICAgICAgICAgICAgICAgICAgICAgdmFsIG8gPSBhcnIub3B0SlNPTk9iamVjdChpKSA/OiBjb250aW51ZQogICAgICAgICAgICAgICAgICAgICAgICBhZGQocGFyc2VSZXBvKG8pKQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfS5nZXRPck51bGwoKQogICAgICAgIH0KCiAgICAvKioKICAgICAqIOWIpOaWrSBvd25lciDmmK/nlKjmiLfov5jmmK/nu4Tnu4fvvJpHRVQgL3VzZXJzL3tvd25lcn3vvIzlj5bov5Tlm57lr7nosaHnmoQgdHlwZSDlrZfmrrXvvIjnu5Pmnpznu4/nvJPlrZjvvInjgIIKICAgICAqIEByZXR1cm4gIlVzZXIiIC8gIk9yZ2FuaXphdGlvbiLvvJtvd25lciDkuI3lrZjlnKjmiJbnvZHnu5zlpLHotKXov5Tlm54gbnVsbO+8iOiwg+eUqOaWueaMieWksei0peWFnOW6le+8ieOAggogICAgICovCiAgICBzdXNwZW5kIGZ1biBnZXRVc2VyVHlwZShvd25lcjogU3RyaW5nKTogU3RyaW5nPyA9CiAgICAgICAgd2l0aENvbnRleHQoRGlzcGF0Y2hlcnMuSU8pIHsKICAgICAgICAgICAgcnVuQ2F0Y2hpbmcgewogICAgICAgICAgICAgICAgdmFsIHJhdyA9IGNhY2hlZEJvZHkoInVzZXJ0eXBlOiRvd25lciIsICJodHRwczovL2FwaS5naXRodWIuY29tL3VzZXJzLyRvd25lciIpCiAgICAgICAgICAgICAgICAgICAgPzogcmV0dXJuQHdpdGhDb250ZXh0IG51bGwKICAgICAgICAgICAgICAgIEpTT05PYmplY3QocmF3KS5vcHRTdHJpbmcoInR5cGUiKS50YWtlSWYgeyBpdC5pc05vdEJsYW5rKCkgfQogICAgICAgICAgICB9LmdldE9yTnVsbCgpCiAgICAgICAgfQoKICAgIC8qKgogICAgICog6I635Y+W5b2T5YmNIFRva2VuIOWvueW6lOeUqOaIt+eahOeZu+W9leWQje+8mkdFVCAvdXNlcu+8iOmcgCBCZWFyZXIgdG9rZW7vvInvvIzlj5YgbG9naW4g5a2X5q6177yI5bimIFRva2VuIOaMh+e6uSBrZXnvvInjgIIKICAgICAqIOacqumFjee9riBUb2tlbiAvIOaXoOaViCBUb2tlbiAvIOe9kee7nOWksei0pei/lOWbniBudWxs44CCCiAgICAgKi8KICAgIHN1c3BlbmQgZnVuIGdldFVzZXJMb2dpbigpOiBTdHJpbmc/ID0KICAgICAgICB3aXRoQ29udGV4dChEaXNwYXRjaGVycy5JTykgewogICAgICAgICAgICBydW5DYXRjaGluZyB7CiAgICAgICAgICAgICAgICB2YWwgcmF3ID0gY2FjaGVkQm9keSgidXNlcmxvZ2luOiR7dG9rZW5GaW5nZXJwcmludCgpfSIsICJodHRwczovL2FwaS5naXRodWIuY29tL3VzZXIiKQogICAgICAgICAgICAgICAgICAgID86IHJldHVybkB3aXRoQ29udGV4dCBudWxsCiAgICAgICAgICAgICAgICBKU09OT2JqZWN0KHJhdykub3B0U3RyaW5nKCJsb2dpbiIpLnRha2VJZiB7IGl0LmlzTm90QmxhbmsoKSB9CiAgICAgICAgICAgIH0uZ2V0T3JOdWxsKCkKICAgICAgICB9CgogICAgLyoqCiAgICAgKiDmoKHpqozkuIDkuKoqKuWwmuacquS/neWtmCoq55qEIFRva2Vu77yaR0VUIC91c2Vy44CCCiAgICAgKgogICAgICog5LiN6LWwIFtjYWNoZWRCb2R5Xe+8iOe8k+WtmCBrZXkg5bimIFRva2VuIOaMh+e6ue+8jOagoemqjOeahCBUb2tlbiDov5jmsqHkv53lrZjvvIzkvJrkuI7ljL/lkI0ga2V5IOS4suWPt++8ieOAggogICAgICog5L+d5a2Y5YmN5YWI5qCh6aqM5Y+v5oum5L2P5Lmx5aGr55qEIFRva2VuIOKAlOKAlCDml6DmlYggVG9rZW4g5Lya6K6p5LmL5ZCO5omA5pyJIEdpdEh1YiDor7fmsYLov5Tlm54gNDAx44CCCiAgICAgKi8KICAgIHN1c3BlbmQgZnVuIHZhbGlkYXRlVG9rZW4odG9rZW46IFN0cmluZyk6IFRva2VuQ2hlY2sgPSB3aXRoQ29udGV4dChEaXNwYXRjaGVycy5JTykgewogICAgICAgIHJ1bkNhdGNoaW5nIHsKICAgICAgICAgICAgdmFsIHJlcXVlc3QgPSBSZXF1ZXN0LkJ1aWxkZXIoKQogICAgICAgICAgICAgICAgLnVybCgiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS91c2VyIikKICAgICAgICAgICAgICAgIC5oZWFkZXIoIlVzZXItQWdlbnQiLCAiWXVuWCIpCiAgICAgICAgICAgICAgICAuaGVhZGVyKCJBY2NlcHQiLCAiYXBwbGljYXRpb24vdm5kLmdpdGh1Yitqc29uIikKICAgICAgICAgICAgICAgIC5oZWFkZXIoIkF1dGhvcml6YXRpb24iLCAiQmVhcmVyICR0b2tlbiIpCiAgICAgICAgICAgICAgICAuZ2V0KCkKICAgICAgICAgICAgICAgIC5idWlsZCgpCiAgICAgICAgICAgIGNsaWVudC5uZXdDYWxsKHJlcXVlc3QpLmV4ZWN1dGUoKS51c2UgeyByZXNwIC0+CiAgICAgICAgICAgICAgICBpZiAoIXJlc3AuaXNTdWNjZXNzZnVsKSB7CiAgICAgICAgICAgICAgICAgICAgLy8gNDAxID0gVG9rZW4g5peg5pWIL+W3sui/h+acny/ooqvmkqTplIDvvJvlhbbkvZnvvIg0MDMg6ZmQ5rWB44CBNXh4IOetie+8ieaXoOazleWIpOWumuacieaViOaApwogICAgICAgICAgICAgICAgICAgIGlmIChyZXNwLmNvZGUgPT0gNDAxKSBUb2tlbkNoZWNrLkludmFsaWQgZWxzZSBUb2tlbkNoZWNrLlVua25vd24KICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgdmFsIGxvZ2luID0gcmVzcC5ib2R5Py5zdHJpbmcoKQogICAgICAgICAgICAgICAgICAgICAgICA/LmxldCB7IGJvZHkgLT4gcnVuQ2F0Y2hpbmcgeyBKU09OT2JqZWN0KGJvZHkpLm9wdFN0cmluZygibG9naW4iKSB9LmdldE9yTnVsbCgpIH0KICAgICAgICAgICAgICAgICAgICBpZiAobG9naW4uaXNOdWxsT3JCbGFuaygpKSBUb2tlbkNoZWNrLlVua25vd24gZWxzZSBUb2tlbkNoZWNrLlZhbGlkKGxvZ2luKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfS5nZXRPckVsc2UgeyBUb2tlbkNoZWNrLlVua25vd24gfQogICAgfQoKICAgIC8qKgogICAgICog6I635Y+W5LuT5bqTIFJFQURNRSDljp/mlofvvIhNYXJrZG93bu+8ieOAggogICAgICogLSDkvJjlhYggR0VUIC9yZXBvcy97b3duZXJ9L3tyZXBvfS9yZWFkbWXvvIxBY2NlcHQ6IGFwcGxpY2F0aW9uL3ZuZC5naXRodWIucmF377yI6L+U5Zue57qv5paH5pys77yM6Ieq5Yqo6K+G5YirIFJFQURNRS5tZC9yZWFkbWUucnN0IOetie+8ie+8mwogICAgICogLSA0MDQg6KeG5Li65pegIFJFQURNRe+8jOi/lOWbniBudWxs77ybCiAgICAgKiAtIEFQSSDnvZHnu5zlpLHotKXml7blhZzlupXor7fmsYIgcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS97b3duZXJ9L3tyZXBvfS97ZGVmYXVsdEJyYW5jaH0vUkVBRE1FLm1k77ybCiAgICAgKiAtIOWFqOmDqOWksei0pei/lOWbniBudWxs77yM5LiN5oqb5byC5bi444CCCiAgICAgKi8KICAgIHN1c3BlbmQgZnVuIGdldFJlYWRtZShvd25lcjogU3RyaW5nLCByZXBvOiBTdHJpbmcsIGRlZmF1bHRCcmFuY2g6IFN0cmluZyk6IFN0cmluZz8gPQogICAgICAgIHdpdGhDb250ZXh0KERpc3BhdGNoZXJzLklPKSB7CiAgICAgICAgICAgIC8vIFJFQURNRSDljp/mlofnvJPlrZjvvJs+MTI4S0Ig5LiN5YaZ57yT5a2Y77yI6Ziy6LaF5aSnIFJFQURNRSDljaDlhoXlrZjvvIzlrp7pmYXmnoHlsJHotoXvvIkKICAgICAgICAgICAgR2l0SHViUmVzcG9uc2VDYWNoZS5nZXRPckZldGNoKCJyZWFkbWU6JG93bmVyLyRyZXBvLyRkZWZhdWx0QnJhbmNoIiwgbWF4Qnl0ZXMgPSAxMjggKiAxMDI0KSB7CiAgICAgICAgICAgICAgICBydW5DYXRjaGluZyB7CiAgICAgICAgICAgICAgICAgICAgLy8gMSkgQVBJIHJlYWRtZSDmjqXlj6PvvIjljp/lp4sgTWFya2Rvd27vvIkKICAgICAgICAgICAgICAgICAgICB2YWwgYXBpUmVxdWVzdCA9IFJlcXVlc3QuQnVpbGRlcigpCiAgICAgICAgICAgICAgICAgICAgICAgIC51cmwoImh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3MvJG93bmVyLyRyZXBvL3JlYWRtZSIpCiAgICAgICAgICAgICAgICAgICAgICAgIC5oZWFkZXIoIlVzZXItQWdlbnQiLCAiWXVuWCIpCiAgICAgICAgICAgICAgICAgICAgICAgIC5oZWFkZXIoIkFjY2VwdCIsICJhcHBsaWNhdGlvbi92bmQuZ2l0aHViLnJhdyIpCiAgICAgICAgICAgICAgICAgICAgICAgIC5nZXQoKQogICAgICAgICAgICAgICAgICAgICAgICAuYWxzbyB7IGIgLT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRva2VuUHJvdmlkZXIoKT8udGFrZUlmIHsgaXQuaXNOb3RCbGFuaygpIH0/LmxldCB7IGIuaGVhZGVyKCJBdXRob3JpemF0aW9uIiwgIkJlYXJlciAkaXQiKSB9CiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgLmJ1aWxkKCkKICAgICAgICAgICAgICAgICAgICBjbGllbnQubmV3Q2FsbChhcGlSZXF1ZXN0KS5leGVjdXRlKCkudXNlIHsgcmVzcCAtPgogICAgICAgICAgICAgICAgICAgICAgICBub3RlUmVzcG9uc2VDb2RlKHJlc3AuY29kZSkKICAgICAgICAgICAgICAgICAgICAgICAgaWYgKHJlc3AuaXNTdWNjZXNzZnVsKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWwgYm9keSA9IHJlc3AuYm9keT8uc3RyaW5nKCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmICghYm9keS5pc051bGxPckJsYW5rKCkpIHJldHVybkBnZXRPckZldGNoIGJvZHkKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICAvLyA0MDQg5oiW56m677ya57un57ut5YWc5bqVCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIC8vIDIpIOWFnOW6le+8mnJhdyBSRUFETUUubWQKICAgICAgICAgICAgICAgICAgICB2YWwgcmF3UmVxdWVzdCA9IGJ1aWxkUmVxdWVzdCgKICAgICAgICAgICAgICAgICAgICAgICAgImh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS8kb3duZXIvJHJlcG8vJGRlZmF1bHRCcmFuY2gvUkVBRE1FLm1kIgogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICBjbGllbnQubmV3Q2FsbChyYXdSZXF1ZXN0KS5leGVjdXRlKCkudXNlIHsgcmVzcCAtPgogICAgICAgICAgICAgICAgICAgICAgICBpZiAoIXJlc3AuaXNTdWNjZXNzZnVsKSByZXR1cm5AdXNlIG51bGwKICAgICAgICAgICAgICAgICAgICAgICAgcmVzcC5ib2R5Py5zdHJpbmcoKT8udGFrZUlmIHsgaXQuaXNOb3RCbGFuaygpIH0KICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9LmdldE9yTnVsbCgpCiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgLyoqCiAgICAgKiDojrflj5bmn5Dot6/lvoTmnIDlkI7kuIDmrKHmj5DkuqTnmoTml7bpl7TvvIhJU084NjAx77yM5aaCICIyMDI2LTA5LTIwVDEwOjMwOjAwWiLvvInjgIIKICAgICAqIEdFVCAvcmVwb3Mve293bmVyfS97cmVwb30vY29tbWl0cz9wYXRoPXtwYXRofSZwZXJfcGFnZT0x77yM5Y+WIFswXS5jb21taXQuY29tbWl0dGVyLmRhdGXjgIIKICAgICAqIOS7u+S9leWksei0pe+8iDQwNC80MDEvNDAzL+i2heaXti/nvZHnu5zplJnor68v56m65pWw57uE77yJ5LiA5b6L6L+U5ZueIG51bGzvvIzkuI3mipvlvILluLjjgIIKICAgICAqLwogICAgc3VzcGVuZCBmdW4gZ2V0TGFzdENvbW1pdERhdGUob3duZXI6IFN0cmluZywgcmVwbzogU3RyaW5nLCBwYXRoOiBTdHJpbmcpOiBTdHJpbmc/ID0KICAgICAgICB3aXRoQ29udGV4dChEaXNwYXRjaGVycy5JTykgewogICAgICAgICAgICBydW5DYXRjaGluZyB7CiAgICAgICAgICAgICAgICB2YWwgdXJsID0gImh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3MvJG93bmVyLyRyZXBvL2NvbW1pdHM/cGF0aD0ke2phdmEubmV0LlVSTEVuY29kZXIuZW5jb2RlKHBhdGgsICJVVEYtOCIpfSZwZXJfcGFnZT0xIgogICAgICAgICAgICAgICAgdmFsIGFyciA9IHJlcXVlc3RKc29uQXJyYXkodXJsKSA/OiByZXR1cm5AcnVuQ2F0Y2hpbmcgbnVsbAogICAgICAgICAgICAgICAgaWYgKGFyci5sZW5ndGgoKSA9PSAwKSByZXR1cm5AcnVuQ2F0Y2hpbmcgbnVsbAogICAgICAgICAgICAgICAgYXJyLm9wdEpTT05PYmplY3QoMCkKICAgICAgICAgICAgICAgICAgICA/Lm9wdEpTT05PYmplY3QoImNvbW1pdCIpCiAgICAgICAgICAgICAgICAgICAgPy5vcHRKU09OT2JqZWN0KCJjb21taXR0ZXIiKQogICAgICAgICAgICAgICAgICAgID8ub3B0U3RyaW5nKCJkYXRlIikKICAgICAgICAgICAgICAgICAgICA/LnRha2VJZiB7IGl0LmlzTm90QmxhbmsoKSB9CiAgICAgICAgICAgIH0uZ2V0T3JOdWxsKCkKICAgICAgICB9CgogICAgLy8gLS0tLS0tLS0tLSDlhoXpg6jop6PmnpAgLS0tLS0tLS0tLQoKICAgIHByaXZhdGUgZnVuIHBhcnNlUmVwbyhvOiBKU09OT2JqZWN0KTogR2l0SHViUmVwbyB7CiAgICAgICAgdmFsIHBhcmVudCA9IG8ub3B0SlNPTk9iamVjdCgicGFyZW50IikKICAgICAgICByZXR1cm4gR2l0SHViUmVwbygKICAgICAgICAgICAgbmFtZSA9IG8ub3B0U3RyaW5nKCJuYW1lIiksCiAgICAgICAgICAgIGZ1bGxOYW1lID0gby5vcHRTdHJpbmcoImZ1bGxfbmFtZSIpLAogICAgICAgICAgICBkZXNjcmlwdGlvbiA9IG8ub3B0U3RyaW5nKCJkZXNjcmlwdGlvbiIpLmlmQmxhbmsgeyBudWxsIH0sCiAgICAgICAgICAgIGZvcmsgPSBvLm9wdEJvb2xlYW4oImZvcmsiLCBmYWxzZSksCiAgICAgICAgICAgIHBhcmVudEZ1bGxOYW1lID0gcGFyZW50Py5vcHRTdHJpbmcoImZ1bGxfbmFtZSIpPy50YWtlSWYgeyBpdC5pc05vdEJsYW5rKCkgfSwKICAgICAgICAgICAgZGVmYXVsdEJyYW5jaCA9IG8ub3B0U3RyaW5nKCJkZWZhdWx0X2JyYW5jaCIpLmlmQmxhbmsgeyAibWFpbiIgfSwKICAgICAgICAgICAgbGFuZ3VhZ2UgPSBvLm9wdFN0cmluZygibGFuZ3VhZ2UiKS5pZkJsYW5rIHsgbnVsbCB9LAogICAgICAgICAgICB1cGRhdGVkQXQgPSBvLm9wdFN0cmluZygidXBkYXRlZF9hdCIpLmlmQmxhbmsgeyBudWxsIH0sCiAgICAgICAgICAgIHB1c2hlZEF0ID0gby5vcHRTdHJpbmcoInB1c2hlZF9hdCIpLmlmQmxhbmsgeyBudWxsIH0sCiAgICAgICAgICAgIHN0YXJzID0gby5vcHRJbnQoInN0YXJnYXplcnNfY291bnQiLCAwKSwKICAgICAgICAgICAgZm9ya3MgPSBvLm9wdEludCgiZm9ya3NfY291bnQiLCAwKQogICAgICAgICkKICAgIH0KCiAgICBwcml2YXRlIGZ1biBwYXJzZVJlbGVhc2UobzogSlNPTk9iamVjdCk6IEdpdEh1YlJlbGVhc2UgewogICAgICAgIHZhbCBhc3NldHNBcnIgPSBvLm9wdEpTT05BcnJheSgiYXNzZXRzIikKICAgICAgICB2YWwgYXNzZXRzID0gYnVpbGRMaXN0IHsKICAgICAgICAgICAgaWYgKGFzc2V0c0FyciAhPSBudWxsKSB7CiAgICAgICAgICAgICAgICBmb3IgKGkgaW4gMCB1bnRpbCBhc3NldHNBcnIubGVuZ3RoKCkpIHsKICAgICAgICAgICAgICAgICAgICB2YWwgYSA9IGFzc2V0c0Fyci5vcHRKU09OT2JqZWN0KGkpID86IGNvbnRpbnVlCiAgICAgICAgICAgICAgICAgICAgYWRkKAogICAgICAgICAgICAgICAgICAgICAgICBHaXRIdWJBc3NldCgKICAgICAgICAgICAgICAgICAgICAgICAgICAgIG5hbWUgPSBhLm9wdFN0cmluZygibmFtZSIpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgZG93bmxvYWRVcmwgPSBhLm9wdFN0cmluZygiYnJvd3Nlcl9kb3dubG9hZF91cmwiKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNpemUgPSBhLm9wdExvbmcoInNpemUiKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRlbnRUeXBlID0gYS5vcHRTdHJpbmcoImNvbnRlbnRfdHlwZSIpLmlmQmxhbmsgeyBudWxsIH0sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB1cGRhdGVkQXQgPSBhLm9wdFN0cmluZygidXBkYXRlZF9hdCIpLmlmQmxhbmsgeyBudWxsIH0sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBkb3dubG9hZENvdW50ID0gYS5vcHRJbnQoImRvd25sb2FkX2NvdW50IiwgMCkKICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICByZXR1cm4gR2l0SHViUmVsZWFzZSgKICAgICAgICAgICAgdGFnTmFtZSA9IG8ub3B0U3RyaW5nKCJ0YWdfbmFtZSIpLAogICAgICAgICAgICBuYW1lID0gby5vcHRTdHJpbmcoIm5hbWUiKS5pZkJsYW5rIHsgbnVsbCB9LAogICAgICAgICAgICBwdWJsaXNoZWRBdCA9IG8ub3B0U3RyaW5nKCJwdWJsaXNoZWRfYXQiKS5pZkJsYW5rIHsgbnVsbCB9LAogICAgICAgICAgICBhc3NldHMgPSBhc3NldHMsCiAgICAgICAgICAgIHByZXJlbGVhc2UgPSBvLm9wdEJvb2xlYW4oInByZXJlbGVhc2UiLCBmYWxzZSksCiAgICAgICAgICAgIGRyYWZ0ID0gby5vcHRCb29sZWFuKCJkcmFmdCIsIGZhbHNlKQogICAgICAgICkKICAgIH0KCiAgICAvLyAtLS0tLS0tLS0tIOivt+axguaJp+ihjCAtLS0tLS0tLS0tCgogICAgLyoqIFRva2VuIOefreaMh+e6ue+8muW4piBUb2tlbiDnmoTor7fmsYIga2V5IOaLvOS4iu+8jOaNoi/muIUgVG9rZW4g5ZCO5pen57yT5a2Y5LiN5ZG95Lit44CB5LiN5Liy5Y+3ICovCiAgICBwcml2YXRlIGZ1biB0b2tlbkZpbmdlcnByaW50KCk6IFN0cmluZyA9CiAgICAgICAgdG9rZW5Qcm92aWRlcigpPy50YWtlSWYgeyBpdC5pc05vdEJsYW5rKCkgfT8uaGFzaENvZGUoKT8udG9TdHJpbmcoKSA/OiAiYW5vbiIKCiAgICAvKioKICAgICAqIOi1sOe7n+S4gOe8k+WtmOWPliBKU09OIOWOn+Wni+WTjeW6lOaWh+acrOOAgumdniAyeHggLyDnqbogYm9keSDov5Tlm54gbnVsbO+8iOWksei0peS5n+S8muiiq+e8k+WtmOefrSBUVEzvvInjgIIKICAgICAqIOiwg+eUqOaWueWGjeiHquihjOeUqCBKU09OT2JqZWN0L0pTT05BcnJheSDop6PmnpDjgIIKICAgICAqLwogICAgcHJpdmF0ZSBzdXNwZW5kIGZ1biBjYWNoZWRCb2R5KGtleTogU3RyaW5nLCB1cmw6IFN0cmluZyk6IFN0cmluZz8gPQogICAgICAgIEdpdEh1YlJlc3BvbnNlQ2FjaGUuZ2V0T3JGZXRjaChrZXkpIHsKICAgICAgICAgICAgY2xpZW50Lm5ld0NhbGwoYnVpbGRSZXF1ZXN0KHVybCkpLmV4ZWN1dGUoKS51c2UgeyByZXNwIC0+CiAgICAgICAgICAgICAgICBub3RlUmVzcG9uc2VDb2RlKHJlc3AuY29kZSkKICAgICAgICAgICAgICAgIGlmICghcmVzcC5pc1N1Y2Nlc3NmdWwpIHJldHVybkB1c2UgbnVsbAogICAgICAgICAgICAgICAgcmVzcC5ib2R5Py5zdHJpbmcoKQogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgIC8qKiDmnoTlu7rluKbpibTmnYPlpLTnmoQgUmVxdWVzdCDlubbmiafooYzvvIzov5Tlm54gSlNPTk9iamVjdO+8m+mdniAyeHggLyDnqbrlk43lupQgLyDop6PmnpDlpLHotKXov5Tlm54gbnVsbCAqLwogICAgcHJpdmF0ZSBmdW4gcmVxdWVzdEpzb24odXJsOiBTdHJpbmcpOiBKU09OT2JqZWN0PyB7CiAgICAgICAgdmFsIHJlcXVlc3QgPSBidWlsZFJlcXVlc3QodXJsKQogICAgICAgIGNsaWVudC5uZXdDYWxsKHJlcXVlc3QpLmV4ZWN1dGUoKS51c2UgeyByZXNwb25zZSAtPgogICAgICAgICAgICBub3RlUmVzcG9uc2VDb2RlKHJlc3BvbnNlLmNvZGUpCiAgICAgICAgICAgIGlmICghcmVzcG9uc2UuaXNTdWNjZXNzZnVsKSByZXR1cm4gbnVsbAogICAgICAgICAgICB2YWwgYm9keSA9IHJlc3BvbnNlLmJvZHk/LnN0cmluZygpID86IHJldHVybiBudWxsCiAgICAgICAgICAgIHJldHVybiBydW5DYXRjaGluZyB7IEpTT05PYmplY3QoYm9keSkgfS5nZXRPck51bGwoKQogICAgICAgIH0KICAgIH0KCiAgICAvKiog5p6E5bu65bim6Ym05p2D5aS055qEIFJlcXVlc3Qg5bm25omn6KGM77yM6L+U5ZueIEpTT05BcnJhee+8m+mdniAyeHggLyDnqbrlk43lupQgLyDop6PmnpDlpLHotKXov5Tlm54gbnVsbCAqLwogICAgcHJpdmF0ZSBmdW4gcmVxdWVzdEpzb25BcnJheSh1cmw6IFN0cmluZyk6IEpTT05BcnJheT8gewogICAgICAgIHZhbCByZXF1ZXN0ID0gYnVpbGRSZXF1ZXN0KHVybCkKICAgICAgICBjbGllbnQubmV3Q2FsbChyZXF1ZXN0KS5leGVjdXRlKCkudXNlIHsgcmVzcG9uc2UgLT4KICAgICAgICAgICAgbm90ZVJlc3BvbnNlQ29kZShyZXNwb25zZS5jb2RlKQogICAgICAgICAgICBpZiAoIXJlc3BvbnNlLmlzU3VjY2Vzc2Z1bCkgcmV0dXJuIG51bGwKICAgICAgICAgICAgdmFsIGJvZHkgPSByZXNwb25zZS5ib2R5Py5zdHJpbmcoKSA/OiByZXR1cm4gbnVsbAogICAgICAgICAgICByZXR1cm4gcnVuQ2F0Y2hpbmcgeyBKU09OQXJyYXkoYm9keSkgfS5nZXRPck51bGwoKQogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIGZ1biBidWlsZFJlcXVlc3QodXJsOiBTdHJpbmcpOiBSZXF1ZXN0IHsKICAgICAgICB2YWwgYnVpbGRlciA9IFJlcXVlc3QuQnVpbGRlcigpCiAgICAgICAgICAgIC51cmwodXJsKQogICAgICAgICAgICAuaGVhZGVyKCJVc2VyLUFnZW50IiwgIll1blgiKQogICAgICAgICAgICAuaGVhZGVyKCJBY2NlcHQiLCAiYXBwbGljYXRpb24vdm5kLmdpdGh1Yitqc29uIikKICAgICAgICAgICAgLmdldCgpCiAgICAgICAgLy8gVG9rZW4g6Z2e56m65pe25pC65bimIEF1dGhvcml6YXRpb246IEJlYXJlcu+8iOS7heaPkOWNh+mZkOmine+8jOS4jeaJk+WNsO+8iQogICAgICAgIHZhbCB0b2tlbiA9IHRva2VuUHJvdmlkZXIoKQogICAgICAgIGlmICghdG9rZW4uaXNOdWxsT3JCbGFuaygpKSB7CiAgICAgICAgICAgIGJ1aWxkZXIuaGVhZGVyKCJBdXRob3JpemF0aW9uIiwgIkJlYXJlciAkdG9rZW4iKQogICAgICAgIH0KICAgICAgICByZXR1cm4gYnVpbGRlci5idWlsZCgpCiAgICB9Cn0KCi8qKiBbR2l0SHViQXBpLnZhbGlkYXRlVG9rZW5dIOeahOagoemqjOe7k+aenCAqLwpzZWFsZWQgY2xhc3MgVG9rZW5DaGVjayB7CiAgICAvKiog5qCh6aqM6YCa6L+H77yMW2xvZ2luXSDkuLogVG9rZW4g5a+55bqU55qEIEdpdEh1YiDnmbvlvZXlkI0gKi8KICAgIGRhdGEgY2xhc3MgVmFsaWQodmFsIGxvZ2luOiBTdHJpbmcpIDogVG9rZW5DaGVjaygpCgogICAgLyoqIEdpdEh1YiDmmI7noa7mi5Lnu53vvIhIVFRQIDQwMe+8ie+8mlRva2VuIOaXoOaViCAvIOW3sui/h+acnyAvIOiiq+aSpOmUgCAqLwogICAgb2JqZWN0IEludmFsaWQgOiBUb2tlbkNoZWNrKCkKCiAgICAvKiog5peg5rOV5Yik5a6a77yI572R57uc5byC5bi4562J77yJ77ya5LiN6JC955uY77yM5o+Q56S655So5oi36IGU572R5ZCO6YeN6K+VICovCiAgICBvYmplY3QgVW5rbm93biA6IFRva2VuQ2hlY2soKQp9Cg==
+/*
+ * YunX (云析) - A network drive share-link parser and high-speed downloader for Android.
+ * Copyright (C) 2026 CYQawa
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Affero General Public License for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
+package org.linbaogu.romhub.pan
+
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
+import okhttp3.OkHttpClient
+import okhttp3.Request
+import org.json.JSONArray
+import org.json.JSONObject
+
+/**
+ * GitHub REST API 封装（匿名 / 可选 Token）。
+ *
+ * - 未配置 Token：限额 60 次/小时/IP；
+ * - 配置 Token：限额提升至 5000 次/小时；
+ * - Token 仅用于提升限额，不用于登录态；严禁打印到日志。
+ *
+ * 所有方法均运行在 [Dispatchers.IO]，失败（网络异常 / 非 2xx / JSON 解析失败）返回 null。
+ */
+class GitHubApi(
+    private val clientProvider: () -> OkHttpClient = { HttpClients.apiClient() },
+    private val tokenProvider: () -> String? = { null }
+) {
+    /** 每次请求动态获取全局客户端（忽略 SSL 开关切换即时生效） */
+    private val client get() = clientProvider()
+
+    /**
+     * 携带的 Token 被 GitHub 拒绝（HTTP 401）时回调，只回调一次。
+     *
+     * 为什么必须处理：GitHub 对带**无效** Authorization 头的一切请求都返回 401，
+     * 连公开仓库/Release 解析也会全量失败（不只是限额问题），所以上层要清除这个 Token 才能恢复匿名访问。
+     */
+    var onUnauthorized: (() -> Unit)? = null
+
+    private var unauthorizedNotified = false
+
+    /** 统一检查响应码：401 → 清空缓存（失败条目会缓存 1 分钟，不清会让「修好之后」仍失败）并通知上层 */
+    private fun noteResponseCode(code: Int) {
+        if (code != 401 || unauthorizedNotified) return
+        unauthorizedNotified = true
+        GitHubResponseCache.clear()
+        onUnauthorized?.invoke()
+    }
+
+    /** 获取单个仓库信息：GET /repos/{owner}/{repo}（结果经统一缓存） */
+    suspend fun getRepo(owner: String, repo: String): GitHubRepo? = withContext(Dispatchers.IO) {
+        runCatching {
+            val raw = cachedBody("repo:$owner/$repo", "https://api.github.com/repos/$owner/$repo")
+                ?: return@withContext null
+            parseRepo(JSONObject(raw))
+        }.getOrNull()
+    }
+
+    /**
+     * 获取目录树（仅当前层，**不加 recursive=1**，由浏览层按需进入子目录）。
+     * GET /repos/{owner}/{repo}/git/trees/{sha}（结果经统一缓存）。
+     */
+    suspend fun getTree(owner: String, repo: String, sha: String): List<GitHubTreeEntry>? =
+        withContext(Dispatchers.IO) {
+            runCatching {
+                val raw = cachedBody(
+                    "tree:$owner/$repo/$sha",
+                    "https://api.github.com/repos/$owner/$repo/git/trees/$sha"
+                ) ?: return@withContext null
+                val arr = JSONObject(raw).optJSONArray("tree") ?: return@withContext emptyList()
+                buildList {
+                    for (i in 0 until arr.length()) {
+                        val o = arr.optJSONObject(i) ?: continue
+                        add(
+                            GitHubTreeEntry(
+                                path = o.optString("path"),
+                                type = o.optString("type"),
+                                sha = o.optString("sha"),
+                                size = if (o.isNull("size")) null else o.optLong("size")
+                            )
+                        )
+                    }
+                }
+            }.getOrNull()
+        }
+
+    /** Releases 列表（分页，per_page=100）：GET /repos/{owner}/{repo}/releases（结果经统一缓存） */
+    suspend fun getReleases(owner: String, repo: String, page: Int = 1): List<GitHubRelease>? =
+        withContext(Dispatchers.IO) {
+            runCatching {
+                val raw = cachedBody(
+                    "releases:$owner/$repo:$page",
+                    "https://api.github.com/repos/$owner/$repo/releases?per_page=100&page=$page"
+                ) ?: return@withContext null
+                val arr = JSONArray(raw)
+                buildList {
+                    for (i in 0 until arr.length()) {
+                        val o = arr.optJSONObject(i) ?: continue
+                        add(parseRelease(o))
+                    }
+                }
+            }.getOrNull()
+        }
+
+    /** 用户公开仓库列表（分页）：GET /users/{owner}/repos?sort=updated（带 Token 指纹 key，结果经缓存） */
+    suspend fun getUserRepos(owner: String, page: Int = 1): List<GitHubRepo>? =
+        withContext(Dispatchers.IO) {
+            runCatching {
+                val raw = cachedBody(
+                    "userrepos:$owner:$page:${tokenFingerprint()}",
+                    "https://api.github.com/users/$owner/repos?per_page=100&page=$page&sort=updated"
+                ) ?: return@withContext null
+                val arr = JSONArray(raw)
+                buildList {
+                    for (i in 0 until arr.length()) {
+                        val o = arr.optJSONObject(i) ?: continue
+                        add(parseRepo(o))
+                    }
+                }
+            }.getOrNull()
+        }
+
+    /** 组织公开仓库列表（分页）：GET /orgs/{owner}/repos?sort=updated（带 Token 指纹 key，结果经缓存） */
+    suspend fun getOrgRepos(owner: String, page: Int = 1): List<GitHubRepo>? =
+        withContext(Dispatchers.IO) {
+            runCatching {
+                val raw = cachedBody(
+                    "orgrepos:$owner:$page:${tokenFingerprint()}",
+                    "https://api.github.com/orgs/$owner/repos?per_page=100&page=$page&sort=updated"
+                ) ?: return@withContext null
+                val arr = JSONArray(raw)
+                buildList {
+                    for (i in 0 until arr.length()) {
+                        val o = arr.optJSONObject(i) ?: continue
+                        add(parseRepo(o))
+                    }
+                }
+            }.getOrNull()
+        }
+
+    /**
+     * 判断 owner 是用户还是组织：GET /users/{owner}，取返回对象的 type 字段（结果经缓存）。
+     * @return "User" / "Organization"；owner 不存在或网络失败返回 null（调用方按失败兜底）。
+     */
+    suspend fun getUserType(owner: String): String? =
+        withContext(Dispatchers.IO) {
+            runCatching {
+                val raw = cachedBody("usertype:$owner", "https://api.github.com/users/$owner")
+                    ?: return@withContext null
+                JSONObject(raw).optString("type").takeIf { it.isNotBlank() }
+            }.getOrNull()
+        }
+
+    /**
+     * 获取当前 Token 对应用户的登录名：GET /user（需 Bearer token），取 login 字段（带 Token 指纹 key）。
+     * 未配置 Token / 无效 Token / 网络失败返回 null。
+     */
+    suspend fun getUserLogin(): String? =
+        withContext(Dispatchers.IO) {
+            runCatching {
+                val raw = cachedBody("userlogin:${tokenFingerprint()}", "https://api.github.com/user")
+                    ?: return@withContext null
+                JSONObject(raw).optString("login").takeIf { it.isNotBlank() }
+            }.getOrNull()
+        }
+
+    /**
+     * 校验一个**尚未保存**的 Token：GET /user。
+     *
+     * 不走 [cachedBody]（缓存 key 带 Token 指纹，校验的 Token 还没保存，会与匿名 key 串号）。
+     * 保存前先校验可拦住乱填的 Token —— 无效 Token 会让之后所有 GitHub 请求返回 401。
+     */
+    suspend fun validateToken(token: String): TokenCheck = withContext(Dispatchers.IO) {
+        runCatching {
+            val request = Request.Builder()
+                .url("https://api.github.com/user")
+                .header("User-Agent", "YunX")
+                .header("Accept", "application/vnd.github+json")
+                .header("Authorization", "Bearer $token")
+                .get()
+                .build()
+            client.newCall(request).execute().use { resp ->
+                if (!resp.isSuccessful) {
+                    // 401 = Token 无效/已过期/被撤销；其余（403 限流、5xx 等）无法判定有效性
+                    if (resp.code == 401) TokenCheck.Invalid else TokenCheck.Unknown
+                } else {
+                    val login = resp.body?.string()
+                        ?.let { body -> runCatching { JSONObject(body).optString("login") }.getOrNull() }
+                    if (login.isNullOrBlank()) TokenCheck.Unknown else TokenCheck.Valid(login)
+                }
+            }
+        }.getOrElse { TokenCheck.Unknown }
+    }
+
+    /**
+     * 获取仓库 README 原文（Markdown）。
+     * - 优先 GET /repos/{owner}/{repo}/readme，Accept: application/vnd.github.raw（返回纯文本，自动识别 README.md/readme.rst 等）；
+     * - 404 视为无 README，返回 null；
+     * - API 网络失败时兜底请求 raw.githubusercontent.com/{owner}/{repo}/{defaultBranch}/README.md；
+     * - 全部失败返回 null，不抛异常。
+     */
+    suspend fun getReadme(owner: String, repo: String, defaultBranch: String): String? =
+        withContext(Dispatchers.IO) {
+            // README 原文缓存；>128KB 不写缓存（防超大 README 占内存，实际极少超）
+            GitHubResponseCache.getOrFetch("readme:$owner/$repo/$defaultBranch", maxBytes = 128 * 1024) {
+                runCatching {
+                    // 1) API readme 接口（原始 Markdown）
+                    val apiRequest = Request.Builder()
+                        .url("https://api.github.com/repos/$owner/$repo/readme")
+                        .header("User-Agent", "YunX")
+                        .header("Accept", "application/vnd.github.raw")
+                        .get()
+                        .also { b ->
+                            tokenProvider()?.takeIf { it.isNotBlank() }?.let { b.header("Authorization", "Bearer $it") }
+                        }
+                        .build()
+                    client.newCall(apiRequest).execute().use { resp ->
+                        noteResponseCode(resp.code)
+                        if (resp.isSuccessful) {
+                            val body = resp.body?.string()
+                            if (!body.isNullOrBlank()) return@getOrFetch body
+                        }
+                        // 404 或空：继续兜底
+                    }
+                    // 2) 兜底：raw README.md
+                    val rawRequest = buildRequest(
+                        "https://raw.githubusercontent.com/$owner/$repo/$defaultBranch/README.md"
+                    )
+                    client.newCall(rawRequest).execute().use { resp ->
+                        if (!resp.isSuccessful) return@use null
+                        resp.body?.string()?.takeIf { it.isNotBlank() }
+                    }
+                }.getOrNull()
+            }
+        }
+
+    /**
+     * 获取某路径最后一次提交的时间（ISO8601，如 "2026-09-20T10:30:00Z"）。
+     * GET /repos/{owner}/{repo}/commits?path={path}&per_page=1，取 [0].commit.committer.date。
+     * 任何失败（404/401/403/超时/网络错误/空数组）一律返回 null，不抛异常。
+     */
+    suspend fun getLastCommitDate(owner: String, repo: String, path: String): String? =
+        withContext(Dispatchers.IO) {
+            runCatching {
+                val url = "https://api.github.com/repos/$owner/$repo/commits?path=${java.net.URLEncoder.encode(path, "UTF-8")}&per_page=1"
+                val arr = requestJsonArray(url) ?: return@runCatching null
+                if (arr.length() == 0) return@runCatching null
+                arr.optJSONObject(0)
+                    ?.optJSONObject("commit")
+                    ?.optJSONObject("committer")
+                    ?.optString("date")
+                    ?.takeIf { it.isNotBlank() }
+            }.getOrNull()
+        }
+
+    // ---------- 内部解析 ----------
+
+    private fun parseRepo(o: JSONObject): GitHubRepo {
+        val parent = o.optJSONObject("parent")
+        return GitHubRepo(
+            name = o.optString("name"),
+            fullName = o.optString("full_name"),
+            description = o.optString("description").ifBlank { null },
+            fork = o.optBoolean("fork", false),
+            parentFullName = parent?.optString("full_name")?.takeIf { it.isNotBlank() },
+            defaultBranch = o.optString("default_branch").ifBlank { "main" },
+            language = o.optString("language").ifBlank { null },
+            updatedAt = o.optString("updated_at").ifBlank { null },
+            pushedAt = o.optString("pushed_at").ifBlank { null },
+            stars = o.optInt("stargazers_count", 0),
+            forks = o.optInt("forks_count", 0)
+        )
+    }
+
+    private fun parseRelease(o: JSONObject): GitHubRelease {
+        val assetsArr = o.optJSONArray("assets")
+        val assets = buildList {
+            if (assetsArr != null) {
+                for (i in 0 until assetsArr.length()) {
+                    val a = assetsArr.optJSONObject(i) ?: continue
+                    add(
+                        GitHubAsset(
+                            name = a.optString("name"),
+                            downloadUrl = a.optString("browser_download_url"),
+                            size = a.optLong("size"),
+                            contentType = a.optString("content_type").ifBlank { null },
+                            updatedAt = a.optString("updated_at").ifBlank { null },
+                            downloadCount = a.optInt("download_count", 0)
+                        )
+                    )
+                }
+            }
+        }
+        return GitHubRelease(
+            tagName = o.optString("tag_name"),
+            name = o.optString("name").ifBlank { null },
+            publishedAt = o.optString("published_at").ifBlank { null },
+            assets = assets,
+            prerelease = o.optBoolean("prerelease", false),
+            draft = o.optBoolean("draft", false)
+        )
+    }
+
+    // ---------- 请求执行 ----------
+
+    /** Token 短指纹：带 Token 的请求 key 拼上，换/清 Token 后旧缓存不命中、不串号 */
+    private fun tokenFingerprint(): String =
+        tokenProvider()?.takeIf { it.isNotBlank() }?.hashCode()?.toString() ?: "anon"
+
+    /**
+     * 走统一缓存取 JSON 原始响应文本。非 2xx / 空 body 返回 null（失败也会被缓存短 TTL）。
+     * 调用方再自行用 JSONObject/JSONArray 解析。
+     */
+    private suspend fun cachedBody(key: String, url: String): String? =
+        GitHubResponseCache.getOrFetch(key) {
+            client.newCall(buildRequest(url)).execute().use { resp ->
+                noteResponseCode(resp.code)
+                if (!resp.isSuccessful) return@use null
+                resp.body?.string()
+            }
+        }
+
+    /** 构建带鉴权头的 Request 并执行，返回 JSONObject；非 2xx / 空响应 / 解析失败返回 null */
+    private fun requestJson(url: String): JSONObject? {
+        val request = buildRequest(url)
+        client.newCall(request).execute().use { response ->
+            noteResponseCode(response.code)
+            if (!response.isSuccessful) return null
+            val body = response.body?.string() ?: return null
+            return runCatching { JSONObject(body) }.getOrNull()
+        }
+    }
+
+    /** 构建带鉴权头的 Request 并执行，返回 JSONArray；非 2xx / 空响应 / 解析失败返回 null */
+    private fun requestJsonArray(url: String): JSONArray? {
+        val request = buildRequest(url)
+        client.newCall(request).execute().use { response ->
+            noteResponseCode(response.code)
+            if (!response.isSuccessful) return null
+            val body = response.body?.string() ?: return null
+            return runCatching { JSONArray(body) }.getOrNull()
+        }
+    }
+
+    private fun buildRequest(url: String): Request {
+        val builder = Request.Builder()
+            .url(url)
+            .header("User-Agent", "YunX")
+            .header("Accept", "application/vnd.github+json")
+            .get()
+        // Token 非空时携带 Authorization: Bearer（仅提升限额，不打印）
+        val token = tokenProvider()
+        if (!token.isNullOrBlank()) {
+            builder.header("Authorization", "Bearer $token")
+        }
+        return builder.build()
+    }
+}
+
+/** [GitHubApi.validateToken] 的校验结果 */
+sealed class TokenCheck {
+    /** 校验通过，[login] 为 Token 对应的 GitHub 登录名 */
+    data class Valid(val login: String) : TokenCheck()
+
+    /** GitHub 明确拒绝（HTTP 401）：Token 无效 / 已过期 / 被撤销 */
+    object Invalid : TokenCheck()
+
+    /** 无法判定（网络异常等）：不落盘，提示用户联网后重试 */
+    object Unknown : TokenCheck()
+}

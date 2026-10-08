@@ -1,1 +1,76 @@
-cGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLnVpLmNvbW1vbgoKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuQm94CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LmZpbGxNYXhTaXplCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5TbmFja2Jhckhvc3QKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLlNuYWNrYmFySG9zdFN0YXRlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuQ29tcG9zYWJsZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLkxhdW5jaGVkRWZmZWN0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUucmVtZW1iZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuQWxpZ25tZW50CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLk1vZGlmaWVyCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5NdXRhYmxlU3RhdGVGbG93CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5TdGF0ZUZsb3cKCi8qKgogKiDlhajlsYDmj5DnpLrmnaHpgJrpgZPvvJrku7vkvZXkvY3nva7vvIhDb21wb3NhYmxlIC8g5bel5YW35Ye95pWw77yJ6LCDIFtzaG93XSDljbPlj6/lvLnlh7rmj5DnpLrvvIwKICog6aG16Z2i5bGC55SoIFtyZW1lbWJlckdsb2JhbFNuYWNrYmFySG9zdFN0YXRlXSDmjILkuIDkuKrlrr/kuLvmuLLmn5PjgIIKICoKICog5pCs6L+Q6Ieq5LqR5p6Q77yIQ1lRYXdhL1l1bljvvIxBR1BMLTMuMO+8ieeahCBTbmFja2JhckNvbnRyb2xsZXLjgIIKICog5L+d55WZ5a6D44CM6Ieq5aKe5bqP5Y+3ICsg5Y+q5riF6Ieq5bex6YKj5p2h44CN55qE6K6+6K6h77ya5bm25Y+R5aSa5p2h5o+Q56S65pe25LiN5Lya5LqS55u455uW5o6JIOKAlOKAlAogKiDmr4/mnaEgc2hvdygpIOmDveeUn+aIkOeLrOeri+S6i+S7tu+8jOWJjeS4gOadoea2iOWkseWQju+8jOacn+mXtOaOkumYn+eahOS4i+S4gOadoeS8muiHquWKqOmhtuS4iuOAggogKgogKiDlpJrkuKrlrr/kuLvlkIzml7bmtLvot4PvvIjkuLvnlYzpnaIgLyDlkITnmbvlvZXpobUgLyDlkITlvLnnqpfvvInml7blhbHkuqvlkIzkuIDku73lub/mkq3vvIzlkIToh6rmuLLmn5PkuIDku73jgIIKICovCm9iamVjdCBTbmFja2JhckNvbnRyb2xsZXIgewoKICAgIGludGVybmFsIGRhdGEgY2xhc3MgRXZlbnQodmFsIHNlcTogTG9uZywgdmFsIG1lc3NhZ2U6IFN0cmluZykKCiAgICBwcml2YXRlIHZhbCBfZXZlbnRzID0gTXV0YWJsZVN0YXRlRmxvdzxFdmVudD8+KG51bGwpCiAgICBwcml2YXRlIHZhciBzZXEgPSAwTAoKICAgIGludGVybmFsIHZhbCBldmVudHM6IFN0YXRlRmxvdzxFdmVudD8+ID0gX2V2ZW50cwoKICAgIGZ1biBzaG93KG1lc3NhZ2U6IFN0cmluZykgewogICAgICAgIC8vIOavj+asoemDveaNouaWsCBFdmVudO+8iHNlcSDpgJLlop7vvInihpIgU3RhdGVGbG93IOeahOWAvOW/heeEtuWPmOWMliDihpIg5omA5pyJ5pS26ZuG6ICF6YO96IO95pS25YiwCiAgICAgICAgX2V2ZW50cy52YWx1ZSA9IEV2ZW50KCsrc2VxLCBtZXNzYWdlKQogICAgfQoKICAgIC8qKiDmtojotLnkuovku7bvvJrlj6rmnInjgIzlvZPliY3kuovku7bmraPmmK/liJrmmL7npLrnmoTpgqPmnaHjgI3miY3muIXnqbrvvIzpgb/lhY3miormnJ/pl7TmlrDmnaXnmoTmtojmga/or6/muIXmjonjgIIgKi8KICAgIGZ1biBjb25zdW1lKHNob3duU2VxOiBMb25nKSB7CiAgICAgICAgdmFsIGN1ciA9IF9ldmVudHMudmFsdWUKICAgICAgICBpZiAoY3VyICE9IG51bGwgJiYgY3VyLnNlcSA9PSBzaG93blNlcSkgX2V2ZW50cy52YWx1ZSA9IG51bGwKICAgIH0KfQoKLyoqIOa4suafk+aPkOekuuadoeW5tuebkeWQrOWFqOWxgOS6i+S7tu+8m+aUvui/m+mhtemdouacgOWkluWxgiBCb3gg5Y2z5Y+v77yI55uW5Zyo5YaF5a655LmL5LiK77yM5L2G5LiN5oum54K55Ye777yJ44CCICovCkBDb21wb3NhYmxlCmZ1biBHbG9iYWxTbmFja2Jhckhvc3QobW9kaWZpZXI6IE1vZGlmaWVyID0gTW9kaWZpZXIpIHsKICAgIHZhbCBob3N0U3RhdGUgPSByZW1lbWJlciB7IFNuYWNrYmFySG9zdFN0YXRlKCkgfQogICAgTGF1bmNoZWRFZmZlY3QoaG9zdFN0YXRlKSB7CiAgICAgICAgU25hY2tiYXJDb250cm9sbGVyLmV2ZW50cy5jb2xsZWN0IHsgZXZlbnQgLT4KICAgICAgICAgICAgaWYgKGV2ZW50ICE9IG51bGwpIHsKICAgICAgICAgICAgICAgIGhvc3RTdGF0ZS5zaG93U25hY2tiYXIoZXZlbnQubWVzc2FnZSkKICAgICAgICAgICAgICAgIFNuYWNrYmFyQ29udHJvbGxlci5jb25zdW1lKGV2ZW50LnNlcSkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KICAgIEJveChtb2RpZmllciA9IG1vZGlmaWVyLmZpbGxNYXhTaXplKCkpIHsKICAgICAgICBTbmFja2Jhckhvc3QoaG9zdFN0YXRlID0gaG9zdFN0YXRlLCBtb2RpZmllciA9IE1vZGlmaWVyLmFsaWduKEFsaWdubWVudC5Cb3R0b21DZW50ZXIpKQogICAgfQp9CgovKiog57uZIFNjYWZmb2xkKHNuYWNrYmFySG9zdCA9IC4uLikg5oiW6aG16Z2iIEJveCDnlKjnmoTlrr/kuLvnirbmgIHvvIjoh6rliqjnm5HlkKzlhajlsYDkuovku7bvvInjgIIgKi8KQENvbXBvc2FibGUKZnVuIHJlbWVtYmVyR2xvYmFsU25hY2tiYXJIb3N0U3RhdGUoKTogU25hY2tiYXJIb3N0U3RhdGUgewogICAgdmFsIGhvc3RTdGF0ZSA9IHJlbWVtYmVyIHsgU25hY2tiYXJIb3N0U3RhdGUoKSB9CiAgICBMYXVuY2hlZEVmZmVjdChob3N0U3RhdGUpIHsKICAgICAgICBTbmFja2JhckNvbnRyb2xsZXIuZXZlbnRzLmNvbGxlY3QgeyBldmVudCAtPgogICAgICAgICAgICBpZiAoZXZlbnQgIT0gbnVsbCkgewogICAgICAgICAgICAgICAgaG9zdFN0YXRlLnNob3dTbmFja2JhcihldmVudC5tZXNzYWdlKQogICAgICAgICAgICAgICAgU25hY2tiYXJDb250cm9sbGVyLmNvbnN1bWUoZXZlbnQuc2VxKQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQogICAgcmV0dXJuIGhvc3RTdGF0ZQp9Cg==
+package org.linbaogu.romhub.ui.common
+
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.material3.SnackbarHost
+import androidx.compose.material3.SnackbarHostState
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.remember
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.StateFlow
+
+/**
+ * 全局提示条通道：任何位置（Composable / 工具函数）调 [show] 即可弹出提示，
+ * 页面层用 [rememberGlobalSnackbarHostState] 挂一个宿主渲染。
+ *
+ * 搬运自云析（CYQawa/YunX，AGPL-3.0）的 SnackbarController。
+ * 保留它「自增序号 + 只清自己那条」的设计：并发多条提示时不会互相盖掉 ——
+ * 每条 show() 都生成独立事件，前一条消失后，期间排队的下一条会自动顶上。
+ *
+ * 多个宿主同时活跃（主界面 / 各登录页 / 各弹窗）时共享同一份广播，各自渲染一份。
+ */
+object SnackbarController {
+
+    internal data class Event(val seq: Long, val message: String)
+
+    private val _events = MutableStateFlow<Event?>(null)
+    private var seq = 0L
+
+    internal val events: StateFlow<Event?> = _events
+
+    fun show(message: String) {
+        // 每次都换新 Event（seq 递增）→ StateFlow 的值必然变化 → 所有收集者都能收到
+        _events.value = Event(++seq, message)
+    }
+
+    /** 消费事件：只有「当前事件正是刚显示的那条」才清空，避免把期间新来的消息误清掉。 */
+    fun consume(shownSeq: Long) {
+        val cur = _events.value
+        if (cur != null && cur.seq == shownSeq) _events.value = null
+    }
+}
+
+/** 渲染提示条并监听全局事件；放进页面最外层 Box 即可（盖在内容之上，但不拦点击）。 */
+@Composable
+fun GlobalSnackbarHost(modifier: Modifier = Modifier) {
+    val hostState = remember { SnackbarHostState() }
+    LaunchedEffect(hostState) {
+        SnackbarController.events.collect { event ->
+            if (event != null) {
+                hostState.showSnackbar(event.message)
+                SnackbarController.consume(event.seq)
+            }
+        }
+    }
+    Box(modifier = modifier.fillMaxSize()) {
+        SnackbarHost(hostState = hostState, modifier = Modifier.align(Alignment.BottomCenter))
+    }
+}
+
+/** 给 Scaffold(snackbarHost = ...) 或页面 Box 用的宿主状态（自动监听全局事件）。 */
+@Composable
+fun rememberGlobalSnackbarHostState(): SnackbarHostState {
+    val hostState = remember { SnackbarHostState() }
+    LaunchedEffect(hostState) {
+        SnackbarController.events.collect { event ->
+            if (event != null) {
+                hostState.showSnackbar(event.message)
+                SnackbarController.consume(event.seq)
+            }
+        }
+    }
+    return hostState
+}

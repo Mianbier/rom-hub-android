@@ -1,1 +1,64 @@
-LyoKICogVGhpcyBmaWxlIGlzIHBhcnQgb2YgSHlwZXJDZWlsZXIuCgogKiBIeXBlckNlaWxlciBpcyBmcmVlIHNvZnR3YXJlOiB5b3UgY2FuIHJlZGlzdHJpYnV0ZSBpdCBhbmQvb3IgbW9kaWZ5CiAqIGl0IHVuZGVyIHRoZSB0ZXJtcyBvZiB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGFzCiAqIHB1Ymxpc2hlZCBieSB0aGUgRnJlZSBTb2Z0d2FyZSBGb3VuZGF0aW9uLCBlaXRoZXIgdmVyc2lvbiAzIG9mIHRoZQogKiBMaWNlbnNlLgoKICogVGhpcyBwcm9ncmFtIGlzIGRpc3RyaWJ1dGVkIGluIHRoZSBob3BlIHRoYXQgaXQgd2lsbCBiZSB1c2VmdWwsCiAqIGJ1dCBXSVRIT1VUIEFOWSBXQVJSQU5UWTsgd2l0aG91dCBldmVuIHRoZSBpbXBsaWVkIHdhcnJhbnR5IG9mCiAqIE1FUkNIQU5UQUJJTElUWSBvciBGSVRORVNTIEZPUiBBIFBBUlRJQ1VMQVIgUFVSUE9TRS4gIFNlZSB0aGUKICogR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGZvciBtb3JlIGRldGFpbHMuCgogKiBZb3Ugc2hvdWxkIGhhdmUgcmVjZWl2ZWQgYSBjb3B5IG9mIHRoZSBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UKICogYWxvbmcgd2l0aCB0aGlzIHByb2dyYW0uICBJZiBub3QsIHNlZSA8aHR0cHM6Ly93d3cuZ251Lm9yZy9saWNlbnNlcy8+LgoKICogQ29weXJpZ2h0IChDKSAyMDIzLTIwMjYgSHlwZXJDZWlsZXIgQ29udHJpYnV0aW9ucwogKi8KcGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLmhjLnByb3Zpc2lvbi5hY3Rpdml0eTsKCmltcG9ydCBhbmRyb2lkeC5mcmFnbWVudC5hcHAuRnJhZ21lbnQ7CgppbXBvcnQgb3JnLmxpbmJhb2d1LnJvbWh1Yi5SOwppbXBvcnQgb3JnLmxpbmJhb2d1LnJvbWh1Yi5oYy5wcm92aXNpb24uZnJhZ21lbnQuQmFzaWNTZXR0aW5nc0ZyYWdtZW50OwoKcHVibGljIGNsYXNzIEJhc2ljU2V0dGluZ3NBY3Rpdml0eSBleHRlbmRzIEJhc2VBY3Rpdml0eSB7CgogICAgQE92ZXJyaWRlCiAgICBwcm90ZWN0ZWQgRnJhZ21lbnQgZ2V0RnJhZ21lbnQoKSB7CiAgICAgICAgcmV0dXJuIG5ldyBCYXNpY1NldHRpbmdzRnJhZ21lbnQoKTsKICAgIH0KCiAgICBAT3ZlcnJpZGUKICAgIHByb3RlY3RlZCBTdHJpbmcgZ2V0RnJhZ21lbnRUYWcoKSB7CiAgICAgICAgcmV0dXJuIEJhc2ljU2V0dGluZ3NGcmFnbWVudC5jbGFzcy5nZXRTaW1wbGVOYW1lKCk7CiAgICB9CgogICAgQE92ZXJyaWRlCiAgICBwcm90ZWN0ZWQgQ2hhclNlcXVlbmNlIGdldExpc3REZXNjQ2hhclNlcXVlbmNlKCkgewogICAgICAgIHJldHVybiBudWxsOwogICAgfQoKICAgIEBPdmVycmlkZQogICAgcHJvdGVjdGVkIGludCBnZXRMb2dvRHJhd2FibGVJZCgpIHsKICAgICAgICByZXR1cm4gMDsKICAgIH0KCiAgICBAT3ZlcnJpZGUKICAgIHByb3RlY3RlZCBpbnQgZ2V0UHJldmlld0RyYXdhYmxlKCkgewogICAgICAgIHJldHVybiBSLmRyYXdhYmxlLnByb3Zpc2lvbl9iYXNpY19zZXR0aW5nczsKICAgIH0KCiAgICBAT3ZlcnJpZGUKICAgIHByb3RlY3RlZCBpbnQgZ2V0VGl0bGVTdHJpbmdJZCgpIHsKICAgICAgICByZXR1cm4gUi5zdHJpbmcucHJvdmlzaW9uX2Jhc2ljX3NldHRpbmdzX3RpdGxlOwogICAgfQoKICAgIEBPdmVycmlkZQogICAgcHVibGljIHZvaWQgb25OZXh0QW1pblN0YXJ0KCkgewogICAgICAgIHN1cGVyLm9uTmV4dEFtaW5TdGFydCgpOwogICAgICAgIHNldFJlc3VsdCgtMSk7CiAgICAgICAgZmluaXNoKCk7CiAgICB9Cn0K
+/*
+ * This file is part of HyperCeiler.
+
+ * HyperCeiler is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as
+ * published by the Free Software Foundation, either version 3 of the
+ * License.
+
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Affero General Public License for more details.
+
+ * You should have received a copy of the GNU Affero General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+ * Copyright (C) 2023-2026 HyperCeiler Contributions
+ */
+package org.linbaogu.romhub.hc.provision.activity;
+
+import androidx.fragment.app.Fragment;
+
+import org.linbaogu.romhub.R;
+import org.linbaogu.romhub.hc.provision.fragment.BasicSettingsFragment;
+
+public class BasicSettingsActivity extends BaseActivity {
+
+    @Override
+    protected Fragment getFragment() {
+        return new BasicSettingsFragment();
+    }
+
+    @Override
+    protected String getFragmentTag() {
+        return BasicSettingsFragment.class.getSimpleName();
+    }
+
+    @Override
+    protected CharSequence getListDescCharSequence() {
+        return null;
+    }
+
+    @Override
+    protected int getLogoDrawableId() {
+        return 0;
+    }
+
+    @Override
+    protected int getPreviewDrawable() {
+        return R.drawable.provision_basic_settings;
+    }
+
+    @Override
+    protected int getTitleStringId() {
+        return R.string.provision_basic_settings_title;
+    }
+
+    @Override
+    public void onNextAminStart() {
+        super.onNextAminStart();
+        setResult(-1);
+        finish();
+    }
+}

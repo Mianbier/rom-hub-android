@@ -1,1 +1,95 @@
-cGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLnVpLmNvbXBvbmVudAoKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuQ29sdW1uCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LlBhZGRpbmdWYWx1ZXMKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuUm93CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LlNwYWNlcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5maWxsTWF4V2lkdGgKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQucGFkZGluZwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5zaXplCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuQ29tcG9zYWJsZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5BbGlnbm1lbnQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuTW9kaWZpZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuZ3JhcGhpY3MudmVjdG9yLkltYWdlVmVjdG9yCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnVuaXQuZHAKaW1wb3J0IHRvcC55dWtvbmdhLm1pdWl4LmttcC5iYXNpYy5CdXR0b24KaW1wb3J0IHRvcC55dWtvbmdhLm1pdWl4LmttcC5iYXNpYy5JY29uCmltcG9ydCB0b3AueXVrb25nYS5taXVpeC5rbXAuYmFzaWMuVGV4dAppbXBvcnQgdG9wLnl1a29uZ2EubWl1aXgua21wLmJhc2ljLlRleHRCdXR0b24KaW1wb3J0IHRvcC55dWtvbmdhLm1pdWl4LmttcC50aGVtZS5NaXVpeFRoZW1lCgovKioKICog5rOo5oSP77yab25DbGljayDkuIDlvovmlL7lnKgqKuacgOWQjuS4gOS4quWPguaVsCoq77yM6L+Z5qC36LCD55So5aSE5Y+v5Lul5YaZ5oiQIGBQcmltYXJ5QnV0dG9uKCLmj5DkuqQiKSB7IC4uLiB9YOOAggogKi8KQENvbXBvc2FibGUKZnVuIFByaW1hcnlCdXR0b24oCiAgICB0ZXh0OiBTdHJpbmcsCiAgICBtb2RpZmllcjogTW9kaWZpZXIgPSBNb2RpZmllciwKICAgIGVuYWJsZWQ6IEJvb2xlYW4gPSB0cnVlLAogICAgaWNvbjogSW1hZ2VWZWN0b3I/ID0gbnVsbCwKICAgIG9uQ2xpY2s6ICgpIC0+IFVuaXQsCikgewogICAgQnV0dG9uKAogICAgICAgIG9uQ2xpY2sgPSBvbkNsaWNrLAogICAgICAgIG1vZGlmaWVyID0gbW9kaWZpZXIuZmlsbE1heFdpZHRoKCksCiAgICAgICAgZW5hYmxlZCA9IGVuYWJsZWQsCiAgICAgICAgaW5zaWRlTWFyZ2luID0gUGFkZGluZ1ZhbHVlcyhob3Jpem9udGFsID0gMTYuZHAsIHZlcnRpY2FsID0gMTIuZHApLAogICAgKSB7CiAgICAgICAgUm93KAogICAgICAgICAgICB2ZXJ0aWNhbEFsaWdubWVudCA9IEFsaWdubWVudC5DZW50ZXJWZXJ0aWNhbGx5LAogICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLmZpbGxNYXhXaWR0aCgpLAogICAgICAgICkgewogICAgICAgICAgICBpZiAoaWNvbiAhPSBudWxsKSB7CiAgICAgICAgICAgICAgICBJY29uKGljb24sIG51bGwsIE1vZGlmaWVyLnNpemUoMTguZHApKQogICAgICAgICAgICAgICAgU3BhY2VyKE1vZGlmaWVyLnNpemUoNi5kcCkpCiAgICAgICAgICAgIH0KICAgICAgICAgICAgVGV4dCh0ZXh0KQogICAgICAgIH0KICAgIH0KfQoKQENvbXBvc2FibGUKZnVuIEdob3N0QnV0dG9uKAogICAgdGV4dDogU3RyaW5nLAogICAgbW9kaWZpZXI6IE1vZGlmaWVyID0gTW9kaWZpZXIsCiAgICBlbmFibGVkOiBCb29sZWFuID0gdHJ1ZSwKICAgIGljb246IEltYWdlVmVjdG9yPyA9IG51bGwsCiAgICBvbkNsaWNrOiAoKSAtPiBVbml0LAopIHsKICAgIFRleHRCdXR0b24oCiAgICAgICAgdGV4dCA9IHRleHQsCiAgICAgICAgb25DbGljayA9IG9uQ2xpY2ssCiAgICAgICAgbW9kaWZpZXIgPSBtb2RpZmllciwKICAgICAgICBlbmFibGVkID0gZW5hYmxlZCwKICAgICAgICBpbnNpZGVNYXJnaW4gPSBQYWRkaW5nVmFsdWVzKGhvcml6b250YWwgPSAxNi5kcCwgdmVydGljYWwgPSAxMC5kcCksCiAgICApCn0KCi8qKiDlhbPkuo7pobXpgqPnp43jgIzlm77moIcgKyDmoIfpopggKyDlia/moIfpopjjgI3nmoTliJfooajpobkgKi8KQENvbXBvc2FibGUKZnVuIFNldHRpbmdSb3coCiAgICBpY29uOiBJbWFnZVZlY3RvciwKICAgIHRpdGxlOiBTdHJpbmcsCiAgICBzdWJ0aXRsZTogU3RyaW5nID0gIiIsCiAgICB0cmFpbGluZzogQENvbXBvc2FibGUgKCgpIC0+IFVuaXQpPyA9IG51bGwsCikgewogICAgdmFsIGNzID0gTWl1aXhUaGVtZS5jb2xvclNjaGVtZQogICAgUm93KAogICAgICAgIE1vZGlmaWVyLmZpbGxNYXhXaWR0aCgpLnBhZGRpbmcoaG9yaXpvbnRhbCA9IDE0LmRwLCB2ZXJ0aWNhbCA9IDEyLmRwKSwKICAgICAgICB2ZXJ0aWNhbEFsaWdubWVudCA9IEFsaWdubWVudC5DZW50ZXJWZXJ0aWNhbGx5LAogICAgKSB7CiAgICAgICAgSWNvbihpY29uLCBudWxsLCBNb2RpZmllci5zaXplKDIwLmRwKSwgdGludCA9IGNzLnByaW1hcnkpCiAgICAgICAgU3BhY2VyKE1vZGlmaWVyLnNpemUoMTIuZHApKQogICAgICAgIENvbHVtbihNb2RpZmllci53ZWlnaHQoMWYpKSB7CiAgICAgICAgICAgIFRleHQodGl0bGUsIGZvbnRTaXplID0gTWl1aXhUaGVtZS50ZXh0U3R5bGVzLmJvZHkxLmZvbnRTaXplKQogICAgICAgICAgICBpZiAoc3VidGl0bGUuaXNOb3RCbGFuaygpKSB7CiAgICAgICAgICAgICAgICBUZXh0KAogICAgICAgICAgICAgICAgICAgIHN1YnRpdGxlLAogICAgICAgICAgICAgICAgICAgIGZvbnRTaXplID0gTWl1aXhUaGVtZS50ZXh0U3R5bGVzLmZvb3Rub3RlMi5mb250U2l6ZSwKICAgICAgICAgICAgICAgICAgICBjb2xvciA9IGNzLm9uU3VyZmFjZVZhcmlhbnRTdW1tYXJ5LAogICAgICAgICAgICAgICAgKQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIGlmICh0cmFpbGluZyAhPSBudWxsKSB0cmFpbGluZygpCiAgICB9Cn0K
+package org.linbaogu.romhub.ui.component
+
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.PaddingValues
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.unit.dp
+import top.yukonga.miuix.kmp.basic.Button
+import top.yukonga.miuix.kmp.basic.Icon
+import top.yukonga.miuix.kmp.basic.Text
+import top.yukonga.miuix.kmp.basic.TextButton
+import top.yukonga.miuix.kmp.theme.MiuixTheme
+
+/**
+ * 注意：onClick 一律放在**最后一个参数**，这样调用处可以写成 `PrimaryButton("提交") { ... }`。
+ */
+@Composable
+fun PrimaryButton(
+    text: String,
+    modifier: Modifier = Modifier,
+    enabled: Boolean = true,
+    icon: ImageVector? = null,
+    onClick: () -> Unit,
+) {
+    Button(
+        onClick = onClick,
+        modifier = modifier.fillMaxWidth(),
+        enabled = enabled,
+        insideMargin = PaddingValues(horizontal = 16.dp, vertical = 12.dp),
+    ) {
+        Row(
+            verticalAlignment = Alignment.CenterVertically,
+            modifier = Modifier.fillMaxWidth(),
+        ) {
+            if (icon != null) {
+                Icon(icon, null, Modifier.size(18.dp))
+                Spacer(Modifier.size(6.dp))
+            }
+            Text(text)
+        }
+    }
+}
+
+@Composable
+fun GhostButton(
+    text: String,
+    modifier: Modifier = Modifier,
+    enabled: Boolean = true,
+    icon: ImageVector? = null,
+    onClick: () -> Unit,
+) {
+    TextButton(
+        text = text,
+        onClick = onClick,
+        modifier = modifier,
+        enabled = enabled,
+        insideMargin = PaddingValues(horizontal = 16.dp, vertical = 10.dp),
+    )
+}
+
+/** 关于页那种「图标 + 标题 + 副标题」的列表项 */
+@Composable
+fun SettingRow(
+    icon: ImageVector,
+    title: String,
+    subtitle: String = "",
+    trailing: @Composable (() -> Unit)? = null,
+) {
+    val cs = MiuixTheme.colorScheme
+    Row(
+        Modifier.fillMaxWidth().padding(horizontal = 14.dp, vertical = 12.dp),
+        verticalAlignment = Alignment.CenterVertically,
+    ) {
+        Icon(icon, null, Modifier.size(20.dp), tint = cs.primary)
+        Spacer(Modifier.size(12.dp))
+        Column(Modifier.weight(1f)) {
+            Text(title, fontSize = MiuixTheme.textStyles.body1.fontSize)
+            if (subtitle.isNotBlank()) {
+                Text(
+                    subtitle,
+                    fontSize = MiuixTheme.textStyles.footnote2.fontSize,
+                    color = cs.onSurfaceVariantSummary,
+                )
+            }
+        }
+        if (trailing != null) trailing()
+    }
+}

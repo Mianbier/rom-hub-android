@@ -1,1 +1,289 @@
-cGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLmRhdGEuYnJhbmQKCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuRGlzcGF0Y2hlcnMKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy53aXRoQ29udGV4dAppbXBvcnQgb2todHRwMy5NZWRpYVR5cGUuQ29tcGFuaW9uLnRvTWVkaWFUeXBlCmltcG9ydCBva2h0dHAzLk9rSHR0cENsaWVudAppbXBvcnQgb2todHRwMy5SZXF1ZXN0CmltcG9ydCBva2h0dHAzLlJlcXVlc3RCb2R5LkNvbXBhbmlvbi50b1JlcXVlc3RCb2R5CmltcG9ydCBqYXZhLmlvLkJ5dGVBcnJheU91dHB1dFN0cmVhbQppbXBvcnQga290bGluLnJhbmRvbS5SYW5kb20KCi8qKgogKiBPcmlnaW5PUyDlrpjmlrkgT1RBIOafpeivou+8iHZpdm8gLyBpUU9P77yJ44CCCiAqCiAqIOenu+akjeiHqiBgZ2l0aHViLmNvbS9KZXJyeVRzZS1PU1MvVklWTy1PVEEtVHJhY2tlcmAg55qEIGBWaXZvT3RhVHJhY2tlci5weWDvvIjkvZzogIUgSmVycnkgVHNl77yJ44CCCiAqIOWNj+iuruacrOi6q+WcqCAyMDI2LTEwLTA0IOmqjOivgei/h+aYr+ato+ehrueahO+8mgogKiBgYGAKICogUEQyNDA4IC8gVjI0MDhBIC8gMTYuMS4xNi41LlcxMAogKiAgIOKGkiAxNi4xLjE5LjcuVzEwLlYwMDBMMSAgIDEwLDE1Niw1NTAsMTU3IOWtl+iKgiAoOS42IEdCKQogKiAgIOKGkiBodHRwczovL3N5c3VwdHhkbC52aXZvLmNvbS5jbi91cGdyYWRlL29lbS9maWxlcy8yMDI2Li4uMDkzMi4uLi56aXAKICogICDihpIgSFRUUCAyMDYgIENvbnRlbnQtUmFuZ2U6IGJ5dGVzIDAtMTAyMy8xMDE1NjU1MDE1NyAgYXBwbGljYXRpb24vemlwCiAqIGBgYAogKgogKiDljY/orq7mmK/oh6rnoJTnmoTjgIzliqDlr4bkv6HlsIHjgI3vvJoKICogYGBgCiAqIOaYjuaWhyA9IHF1ZXJ5IHN0cmluZwogKiAg4oaTIEFFUy0xMjgtQ0JDL1BLQ1M177yI5Zu65a6aIElWICsg5Zu65a6a5a+G6ZKl77yM5LuOIHNvIOmHjOmAhuWQkeWHuuadpeeahO+8iQogKiDlr4bmlocKICogIOKGkyDmi7zkv6HlsIHvvJpb5oC76ZW/IHUxNmJlXVtjcmMzMijlpLQpIHU2NGJlXVvniYjmnKwgdTE2YmVdW3Rva2Vu6ZW/5bqmIHU4XVt0b2tlbl0KICogICAgICAgICAgICAgIFvlr4bpkqXniYjmnKwgdTE2YmVdW+a2iOaBr+exu+WeiyB1OF0gKyDlr4bmlocKICogIOKGkyBiYXNlNjR1cmzvvIjml6AgcGFkZGluZ++8iQogKiBQT1NUIGJvZHk6IGp2cV9wYXJhbT085LiK6Z2i6L+Z5Z2oPgogKiBgYGAKICog5ZON5bqU5a+556ew77yM6Kej5byA5bCx6IO95ou/5YiwIGBwa05hbWVg77yM55u06ZO+5pivIGBodHRwczovL3N5c3VwdHhkbC52aXZvLmNvbS5jbi91cGdyYWRlL29lbS9maWxlcy97cGtOYW1lfWDjgIIKICoKICog4pqg77iP4pqg77iPIDIwMjYtMTAtMDQg5pma6Ze05aSN5rWL77yaKirov5nkuKrmjqXlj6PnjrDlnKjlr7nmnKwgQXBwIOW3suW9u+W6leWFs+mXrSoq44CCCiAqIOS4iumdoumCo+S4quabvue7j+aIkOWKn+eahCBQRDI0MDgg5qGI5L6L77yM546w5Zyo6L+e5ZCMIFBEMjUwNSAvIFBEMjYwNiDlnKjlhoXnmoTmiYDmnInmn6Xor6IKICog5LiA5b6L6L+U5ZueIGB7Im1lc3NhZ2UiOiLml6Dmm7TmlrAiLCJyZXRjb2RlIjoyMTB9YO+8jOS4lCoq5LiO6K+35rGC5qC85byP5peg5YWzKiog4oCU4oCUCiAqIOivlei/hyBgc2Y9MGDjgIHliKDmjokgYHNmYCDlrZfmrrXjgIFgaXNGdWxsPTBg44CB6Z2e56m6IGBod0ZpbmdlcnByaW50YOOAgWBjeT1VU2DjgIEKICogYGNoZWNrVHJpZ2U9QVVUT2DjgIFgaGFzVmdjPTBg44CB5Lul5Y+K5ou/IGBQRHh4eHhfTUFf5pW05LiyYCDlvZMgc3dWZXLvvIwKICogMTAg56eN5Y+Y5L2T5YWo6YOoIDIxMOOAguWIpOaWreaYr+acjeWKoeerr+ivhuWIq+WHuuS6huS8qumAoOivt+axggogKiDvvIjnnJ/mnLogdXBkYXRlciDkvJrluKbnoazku7bmjIfnurnlkoznrb7lkI3vvIzmnKwgQXBwIOayoeacie+8ieOAggogKgogKiDmiYDku6UqKuebruWJjeS4jeimgeaMh+acm+i/meadoei3r+iDveaLv+WIsOWMhSoq77yM5a6D5Y+q5piv5Y+W55u06ZO+5aSx6LSl5pe255qE5pyA5ZCO5LiA5qC556i76I2J44CCCiAqIOimgeaBouWkjeW+l+aLv+WIsOecn+WunuiuvuWkh+eOr+Wig+aKk+WMhe+8jOaIluWPpuaJvuWFrOW8gOeahCBPVEEg5rqQ44CCCiAqCiAqIOKaoO+4jyDor63kuYnpmZDliLbvvIjmjqXlj6PmgaLlpI3lkI7kvp3nhLbmiJDnq4vvvInvvJrov5nmmK/jgIwqKuaIkeeOsOWcqOi/meS4queJiOacrOiDveWNh+WIsOWTqioq44CN55qE5q2j5ZCR5p+l6K+i77yMCiAqIOaJgOS7peWPquiDveaLv+W9k+WJjeacgOaWsOS4gOeJiO+8jOaLv+S4jeWIsOS7u+aEj+WOhuWPsueJiOacrOeahOWMheOAggogKi8KY2xhc3MgVml2b090YUFwaSgKICAgIHByaXZhdGUgdmFsIGNsaWVudDogT2tIdHRwQ2xpZW50ID0gZGVmYXVsdENsaWVudCgpLAopIHsKCiAgICAvKioKICAgICAqIOafpeS4gOasoSBPVEHjgIIKICAgICAqCiAgICAgKiBAcGFyYW0gbW9kZWwgICAgICAg6L2v5Lu25Z6L5Y+377yM5aaCIGBQRDI0MDhgCiAgICAgKiBAcGFyYW0gZGV2aWNlTW9kZWwg6K6+5aSH5Z6L5Y+377yI5a+55aSW5Z6L5Y+377yJ77yM5aaCIGBWMjQwOEFgCiAgICAgKiBAcGFyYW0gY3VycmVudFZlciAgKirlvZPliY0qKueJiOacrOWPt++8jOWmgiBgMTYuMS4xNi41LlcxMGDvvIjlv4XloavvvIznvLrkuobmnI3liqHnq6/kvJrlvZPlvILluLjor7fmsYLvvIkKICAgICAqLwogICAgc3VzcGVuZCBmdW4gcXVlcnkoCiAgICAgICAgbW9kZWw6IFN0cmluZywKICAgICAgICBkZXZpY2VNb2RlbDogU3RyaW5nLAogICAgICAgIGN1cnJlbnRWZXI6IFN0cmluZywKICAgICAgICBpc0Z1bGw6IEJvb2xlYW4gPSB0cnVlLAogICAgKTogVml2b090YVJlc3VsdCA9IHdpdGhDb250ZXh0KERpc3BhdGNoZXJzLklPKSB7CiAgICAgICAgdmFsIHBsYWluID0gYnVpbGRRdWVyeVN0cmluZyhtb2RlbCwgZGV2aWNlTW9kZWwsIGN1cnJlbnRWZXIsIGlzRnVsbCkKICAgICAgICB2YWwganZxID0gZW5jcnlwdEVudmVsb3BlKHBsYWluKQogICAgICAgIHZhbCBib2R5ID0gImp2cV9wYXJhbT0kanZxIi50b1JlcXVlc3RCb2R5KAogICAgICAgICAgICAiYXBwbGljYXRpb24veC13d3ctZm9ybS11cmxlbmNvZGVkOyBjaGFyc2V0PXV0Zi04Ii50b01lZGlhVHlwZSgpLAogICAgICAgICkKCiAgICAgICAgdmFsIHJlcXVlc3QgPSBSZXF1ZXN0LkJ1aWxkZXIoKQogICAgICAgICAgICAudXJsKCIkQkFTRV9VUkwkVVBEQVRFX0VORFBPSU5UIikKICAgICAgICAgICAgLnBvc3QoYm9keSkKICAgICAgICAgICAgLmhlYWRlcigiQ29udGVudC1UeXBlIiwgImFwcGxpY2F0aW9uL3gtd3d3LWZvcm0tdXJsZW5jb2RlZDsgY2hhcnNldD11dGYtOCIpCiAgICAgICAgICAgIC5oZWFkZXIoIlVzZXItQWdlbnQiLCAib2todHRwLzQuMy4yMyIpCiAgICAgICAgICAgIC5idWlsZCgpCgogICAgICAgIGNsaWVudC5uZXdDYWxsKHJlcXVlc3QpLmV4ZWN1dGUoKS51c2UgeyByZXNwIC0+CiAgICAgICAgICAgIHZhbCB0ZXh0ID0gcmVzcC5ib2R5Py5zdHJpbmcoKS5vckVtcHR5KCkudHJpbSgpCiAgICAgICAgICAgIGlmICh0ZXh0LmlzQmxhbmsoKSkgcmV0dXJuQHdpdGhDb250ZXh0IFZpdm9PdGFSZXN1bHQuZmFpbHVyZSgiSFRUUCAke3Jlc3AuY29kZX3vvJrnqbrlk43lupQiKQoKICAgICAgICAgICAgLy8g5q2j5bi45ZON5bqU5LulIEFDdyAvIEFDbyDlvIDlpLTvvIhiYXNlNjR1cmwg5ZCO55qE5L+h5bCB77yJCiAgICAgICAgICAgIGlmICghdGV4dC5zdGFydHNXaXRoKCJBQ3ciKSAmJiAhdGV4dC5zdGFydHNXaXRoKCJBQ28iKSkgewogICAgICAgICAgICAgICAgcmV0dXJuQHdpdGhDb250ZXh0IFZpdm9PdGFSZXN1bHQuZmFpbHVyZSgi5o6l5Y+j6L+U5Zue5byC5bi477yaJHt0ZXh0LnRha2UoMTYwKX0iKQogICAgICAgICAgICB9CgogICAgICAgICAgICB2YWwgZGVjcnlwdGVkID0gcnVuQ2F0Y2hpbmcgeyBkZWNyeXB0RW52ZWxvcGUodGV4dCkgfS5nZXRPck51bGwoKQogICAgICAgICAgICAgICAgPzogcmV0dXJuQHdpdGhDb250ZXh0IFZpdm9PdGFSZXN1bHQuZmFpbHVyZSgi5ZON5bqU6Kej5a+G5aSx6LSlIikKCiAgICAgICAgICAgIHBhcnNlKGRlY3J5cHRlZCkKICAgICAgICB9CiAgICB9CgogICAgLy8gLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSDor7fmsYLmmI7mlocKCiAgICAvKioKICAgICAqIOaLvCBxdWVyeSBzdHJpbmfjgILlrZfmrrXlkI3lkozpobrluo/pg73mmK/ku47lrpjmlrkgdXBkYXRlciDnmoQgc28g6YeM5omS5Ye65p2l55qE77yMCiAgICAgKiDlsJHkuIDkuKrpg73lj6/og73ooqvmnI3liqHnq6/liKTkuLrpnZ7ms5Xor7fmsYLjgIIKICAgICAqCiAgICAgKiDimqDvuI8gYHN3VmVyYCDnmoTlkI7nvIDlj6rog73liqDkuIDmrKHvvIgyMDI2LTEwLTA0IOS/ruato++8ieOAggogICAgICog5a6Y5pa56ISa5pysIGBWaXZvT3RhVHJhY2tlci5weWAg55qE57qm5a6a5piv77ya5Lyg5YWl55qE54mI5pys5Y+35b+F6aG75pivKiroo7jniYjmnKzlj7cqKgogICAgICog77yIYDE2LjAuMjQuMS5XMzBg77yJ77yMYC5WMDAwTDFgIOeUseiEmuacrOiHquW3seihpeOAggogICAgICog6ICM5oiR5Lus55qE54mI5pys5Y+35p2l6IeqIG9wdXNyb20gLyDlhoXnva7ooajvvIwqKuacrOadpeWwseW4piBgLlYwMDBMMWAqKu+8jAogICAgICog5Y+q5Yik5patIGBjb250YWlucygiLlciKWAg5Lya5ou85Ye6IGAxNi4wLjI0LjEuVzMwLlYwMDBMMS5WMDAwTDFgIOKAlOKAlCDmnI3liqHnq68KICAgICAqIOiupOS4jeWHuu+8jOebtOaOpei/lCAyMTDjgILlt7Llrp7mtYvvvJrluKbph43lpI3lkI7nvIDnmoTor7fmsYIgMTAwJSDlpLHotKXjgIIKICAgICAqLwogICAgcHJpdmF0ZSBmdW4gYnVpbGRRdWVyeVN0cmluZygKICAgICAgICBtb2RlbDogU3RyaW5nLAogICAgICAgIGRldmljZU1vZGVsOiBTdHJpbmcsCiAgICAgICAgY3VycmVudFZlcjogU3RyaW5nLAogICAgICAgIGlzRnVsbDogQm9vbGVhbiwKICAgICk6IFN0cmluZyB7CiAgICAgICAgdmFsIGh3VmVyID0gIiR7bW9kZWx9TUEiCiAgICAgICAgLy8g5bey57uP5pyJIC5WMDAwTDEg5bCx5Yir5YaN5Yqg5LqGIOKAlOKAlCDov5nmmK/kuYvliY3lhajov5QgMjEwIOeahOS4gOS4quecn+WHtgogICAgICAgIHZhbCBmdWxsU3dWZXJzaW9uID0gd2hlbiB7CiAgICAgICAgICAgIGN1cnJlbnRWZXIuZW5kc1dpdGgoIi5WMDAwTDEiKSAtPiBjdXJyZW50VmVyCiAgICAgICAgICAgIGN1cnJlbnRWZXIuY29udGFpbnMoIi5XIikgLT4gIiRjdXJyZW50VmVyLlYwMDBMMSIKICAgICAgICAgICAgZWxzZSAtPiBjdXJyZW50VmVyCiAgICAgICAgfQogICAgICAgIHZhbCBmdWxsVmVyID0gIiR7bW9kZWx9X0FfJGZ1bGxTd1ZlcnNpb24iCiAgICAgICAgdmFsIHZlcnNpb25Mb25nID0gIiR7bW9kZWx9X05fJHtod1Zlcn1fJGZ1bGxTd1ZlcnNpb24iCgogICAgICAgIHZhbCBwID0gTGlua2VkSGFzaE1hcDxTdHJpbmcsIFN0cmluZz4oKQogICAgICAgIHBbInZnY05ld0FjdGl2ZVZlciJdID0gIiIKICAgICAgICBwWyJudCJdID0gIldJRkkiCiAgICAgICAgcFsidmdjU3dWZXIiXSA9ICIxLjEuMSIKICAgICAgICBwWyJmdWxsVmVyIl0gPSBmdWxsVmVyCiAgICAgICAgcFsiZW1tY2lkIl0gPSAiIgogICAgICAgIHBbInNtMSJdID0gIm51bGwiCiAgICAgICAgcFsic20yIl0gPSAibnVsbCIKICAgICAgICBwWyJtb2RlbCJdID0gbW9kZWwKICAgICAgICBwWyJoYXNWZ2MiXSA9ICIxIgogICAgICAgIHBbInZnY05ld1Bhc3NpdmVWZXIiXSA9ICIiCiAgICAgICAgcFsiY2giXSA9ICJOIgogICAgICAgIHBbImduIl0gPSAiMCIKICAgICAgICBwWyJuZXdBY3RpdmVWZXIiXSA9ICIiCiAgICAgICAgcFsidmVyc2lvbiJdID0gdmVyc2lvbkxvbmcKICAgICAgICBwWyJzdDIiXSA9ICIwIgogICAgICAgIHBbImN1Il0gPSAiTiIKICAgICAgICBwWyJzcm0yIl0gPSAiMCIKICAgICAgICBwWyJzcm0xIl0gPSAiMCIKICAgICAgICBwWyJjeSJdID0gIkNOLVpIIgogICAgICAgIHBbInNuMiJdID0gIm51bGwiCiAgICAgICAgcFsibmUiXSA9ICJudWxsIgogICAgICAgIHBbInNuMSJdID0gIm51bGwiCiAgICAgICAgcFsicHVibGljX21vZGVsIl0gPSBkZXZpY2VNb2RlbAogICAgICAgIHBbIm5ld1Bhc3NpdmVWZXIiXSA9ICIiCiAgICAgICAgcFsiaHdWZXIiXSA9IGh3VmVyCiAgICAgICAgcFsic3dWZXIiXSA9IGZ1bGxTd1ZlcnNpb24KICAgICAgICBwWyJsYW5ndWFnZSJdID0gInpoX0NOIgogICAgICAgIHBbImlzTWFuIl0gPSAiMSIKICAgICAgICBwWyJpc0Z1bGwiXSA9IGlmIChpc0Z1bGwpICIxIiBlbHNlICIwIgogICAgICAgIHBbInByb3RvY2FsdmVyc2lvbiJdID0gIjEuMCIKICAgICAgICBwWyJjaGVja1RyaWdlIl0gPSAiTUFOVUwiCiAgICAgICAgcFsiaXNzdGxpZmVvdmVyIl0gPSAiZmFsc2UiCiAgICAgICAgcFsiaHdGaW5nZXJwcmludCJdID0gIiIKICAgICAgICAvLyDmiYvmnLrkuJPlsZ4KICAgICAgICBwWyJ2Z2NDdSJdID0gIlYwMDAiCiAgICAgICAgcFsic2YiXSA9ICIxIgogICAgICAgIHBbInNpIl0gPSAibnVsbCIKICAgICAgICBwWyJkVHlwZSJdID0gInBob25lIgogICAgICAgIHBbInNfbiJdID0gIm51bGwiCiAgICAgICAgcFsiZWxhcHNlZHRpbWUiXSA9ICgxNDAwMDAgKyBSYW5kb20ubmV4dEludCgwLCA4MDAwMCkpLnRvU3RyaW5nKCkKICAgICAgICBwWyJzdDEiXSA9ICgxMDAwMDAgKyBSYW5kb20ubmV4dEludCgwLCA2MDAwMCkpLnRvU3RyaW5nKCkKICAgICAgICBwWyJpbWVpIl0gPSByYW5kb21JbWVpKCkKICAgICAgICBwWyJtcyJdID0gIjAiCiAgICAgICAgcFsibXR5cGUiXSA9ICJubyIKICAgICAgICBwWyJyYWRpb3R5cGUiXSA9ICJMIgoKICAgICAgICByZXR1cm4gcC5lbnRyaWVzLmpvaW5Ub1N0cmluZygiJiIpIHsgKGssIHYpIC0+ICIkaz0kdiIgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIHJhbmRvbUltZWkoKTogU3RyaW5nID0gKDAgdW50aWwgMTUpLm1hcCB7IFJhbmRvbS5uZXh0SW50KDAsIDEwKSB9LmpvaW5Ub1N0cmluZygiIikKCiAgICAvLyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tIOS/oeWwgeWKoOino+WvhgoKICAgIHByaXZhdGUgZnVuIGVuY3J5cHRFbnZlbG9wZShwbGFpbjogU3RyaW5nKTogU3RyaW5nIHsKICAgICAgICB2YWwgY2lwaGVyID0gT3RhQ3J5cHRvLmFlc0NiY0VuY3J5cHQoS0VZX0tWMiwgSVYsIHBsYWluLnRvQnl0ZUFycmF5KENoYXJzZXRzLlVURl84KSkKICAgICAgICB2YWwgdG9rZW5CeXRlcyA9IFRPS0VOLnRvQnl0ZUFycmF5KENoYXJzZXRzLlVURl84KQoKICAgICAgICB2YWwgaGVhZGVyID0gQnl0ZUFycmF5T3V0cHV0U3RyZWFtKCkuYXBwbHkgewogICAgICAgICAgICB3cml0ZShPdGFDcnlwdG8udTE2YmUoUFJPVE9DT0xfVkVSU0lPTikpCiAgICAgICAgICAgIHdyaXRlKHRva2VuQnl0ZXMuc2l6ZSkKICAgICAgICAgICAgd3JpdGUodG9rZW5CeXRlcykKICAgICAgICAgICAgd3JpdGUoT3RhQ3J5cHRvLnUxNmJlKEtFWV9WRVJTSU9OKSkKICAgICAgICAgICAgd3JpdGUoTVNHX1RZUEVfRU5DUllQVC50b0ludCgpKQogICAgICAgIH0udG9CeXRlQXJyYXkoKQoKICAgICAgICB2YWwgdG90YWxMZW4gPSBIRUFERVJfQkFTRV9MRU4gKyB0b2tlbkJ5dGVzLnNpemUKICAgICAgICB2YWwgcGFja2V0ID0gQnl0ZUFycmF5T3V0cHV0U3RyZWFtKCkuYXBwbHkgewogICAgICAgICAgICB3cml0ZShPdGFDcnlwdG8udTE2YmUodG90YWxMZW4pKQogICAgICAgICAgICB3cml0ZShPdGFDcnlwdG8uY3JjMzJCeXRlcyhPdGFDcnlwdG8uY3JjMzIoaGVhZGVyKSkpCiAgICAgICAgICAgIHdyaXRlKGhlYWRlcikKICAgICAgICAgICAgd3JpdGUoY2lwaGVyKQogICAgICAgIH0udG9CeXRlQXJyYXkoKQoKICAgICAgICByZXR1cm4gT3RhQ3J5cHRvLmI2NFVybChwYWNrZXQpCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gZGVjcnlwdEVudmVsb3BlKGI2NDogU3RyaW5nKTogU3RyaW5nIHsKICAgICAgICB2YWwgcGFja2V0ID0gT3RhQ3J5cHRvLmI2NFVybERlY29kZShiNjQpCiAgICAgICAgdmFsIGhlYWRlckxlbiA9ICgocGFja2V0WzBdLnRvSW50KCkgYW5kIDB4RkYpIHNobCA4KSBvciAocGFja2V0WzFdLnRvSW50KCkgYW5kIDB4RkYpCiAgICAgICAgdmFsIGNpcGhlciA9IHBhY2tldC5jb3B5T2ZSYW5nZShoZWFkZXJMZW4sIHBhY2tldC5zaXplKQogICAgICAgIHZhbCBwbGFpbiA9IE90YUNyeXB0by5hZXNDYmNEZWNyeXB0KEtFWV9LVjIsIElWLCBjaXBoZXIpCiAgICAgICAgcmV0dXJuIFN0cmluZyhwbGFpbiwgQ2hhcnNldHMuVVRGXzgpCiAgICB9CgogICAgLy8gLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSDop6PmnpAKCiAgICBwcml2YXRlIGZ1biBwYXJzZShyYXc6IFN0cmluZyk6IFZpdm9PdGFSZXN1bHQgewogICAgICAgIC8vIDIxMCA9IOacjeWKoeerr+S4muWKoeaLpuaIquOAggogICAgICAgIC8vIDIwMjYtMTAtMDQg5aSN5rWL5Y+R546w77yM5Lyq6YCg6K+35rGC5LiA5b6L5pKe6L+Z5Liq56CB77yI6L+e6IO95Ye65YyF55qE5py65Z6L5Lmf5piv77yJ77yMCiAgICAgICAgLy8g5omA5Lul6L+Z5Liq5o+Q56S65LiN6IO96K+044CM5a6Y5pa55pqC5pe25LiL5p625LqG44CN4oCU4oCUIOmCo+S8muaKiueUqOaIt+W8leWQkemUmeivr+aWueWQkeOAggogICAgICAgIGlmIChyYXcuY29udGFpbnMoIlwicmV0Y29kZVwiOjIxMCIpIHx8IHJhdy5jb250YWlucygicmV0Y29kZT0yMTAiKSkgewogICAgICAgICAgICByZXR1cm4gVml2b090YVJlc3VsdC5mYWlsdXJlKAogICAgICAgICAgICAgICAgIuWumOaWuSBPVEEg5o6l5Y+j6L+U5ZueIDIxMO+8iOacquaUvuihjO+8ieOAgiIgKwogICAgICAgICAgICAgICAgICAgICLor6XmjqXlj6Pnm67liY3lj6rmlL7ooYzluKblrozmlbTnoazku7bmjIfnurnlkoznrb7lkI3nmoTnnJ/mnLror7fmsYLvvIxBcHAg5pqC5pe25ou/5LiN5Yiw5o6o6YCB5YyFIiwKICAgICAgICAgICAgKQogICAgICAgIH0KCiAgICAgICAgdmFsIHBrTmFtZSA9IHBpY2tTdHJpbmcocmF3LCAicGtOYW1lIikKICAgICAgICBpZiAocGtOYW1lLmlzQmxhbmsoKSkgewogICAgICAgICAgICByZXR1cm4gVml2b090YVJlc3VsdC5mYWlsdXJlKCLlk43lupTph4zmsqHmnIkgcGtOYW1l77yaJHtyYXcudGFrZSgyMDApfSIpCiAgICAgICAgfQoKICAgICAgICByZXR1cm4gVml2b090YVJlc3VsdCgKICAgICAgICAgICAgc3VjY2VzcyA9IHRydWUsCiAgICAgICAgICAgIHZlcnNpb24gPSBwaWNrU3RyaW5nKHJhdywgInZlcnNpb24iKSwKICAgICAgICAgICAgZmlsZU5hbWUgPSBwa05hbWUsCiAgICAgICAgICAgIHNpemVUZXh0ID0gcHJldHR5U2l6ZShwaWNrU3RyaW5nKHJhdywgInBrTGVuIikpLAogICAgICAgICAgICBzaXplQnl0ZXMgPSBwaWNrU3RyaW5nKHJhdywgInBrTGVuIikudG9Mb25nT3JOdWxsKCkgPzogMEwsCiAgICAgICAgICAgIGRvd25sb2FkVXJsID0gIiRET1dOTE9BRF9CQVNFLyRwa05hbWUiLAogICAgICAgICAgICBjaGFuZ2Vsb2dVcmwgPSBwaWNrU3RyaW5nKHJhdywgImg1VXJsIiksCiAgICAgICAgKQogICAgfQoKICAgIC8qKiDku47miYHlubMgSlNPTiDph4zmiqDlh7ogYCJrZXkiOiJ2YWx1ZSJg44CC5pyN5Yqh56uv6L+U5Zue5LiN5piv5qCH5YeGIEpTT07vvIjlgLzph4zluLjluKboo7jlrZfnrKbvvInjgIIgKi8KICAgIHByaXZhdGUgZnVuIHBpY2tTdHJpbmcoanNvbjogU3RyaW5nLCBrZXk6IFN0cmluZyk6IFN0cmluZyB7CiAgICAgICAgdmFsIG5lZWRsZSA9ICJcIiRrZXlcIjpcIiIKICAgICAgICB2YWwgaWR4ID0ganNvbi5pbmRleE9mKG5lZWRsZSkKICAgICAgICBpZiAoaWR4IDwgMCkgcmV0dXJuICIiCiAgICAgICAgdmFsIHN0YXJ0ID0gaWR4ICsgbmVlZGxlLmxlbmd0aAogICAgICAgIHZhbCBlbmQgPSBqc29uLmluZGV4T2YoJyInLCBzdGFydCkKICAgICAgICBpZiAoZW5kIDwgMCkgcmV0dXJuICIiCiAgICAgICAgcmV0dXJuIGpzb24uc3Vic3RyaW5nKHN0YXJ0LCBlbmQpLnJlcGxhY2UoIlxcLyIsICIvIikKICAgIH0KCiAgICBjb21wYW5pb24gb2JqZWN0IHsKICAgICAgICBwcml2YXRlIGNvbnN0IHZhbCBCQVNFX1VSTCA9ICJodHRwczovL3N5c3VwZ3JhZGUudml2by5jb20uY24iCiAgICAgICAgcHJpdmF0ZSBjb25zdCB2YWwgVVBEQVRFX0VORFBPSU5UID0gIi92Z2MvdjIvZ2V0VmdjQW5kUGF0Y2guZG8iCiAgICAgICAgcHJpdmF0ZSBjb25zdCB2YWwgRE9XTkxPQURfQkFTRSA9ICJodHRwczovL3N5c3VwdHhkbC52aXZvLmNvbS5jbi91cGdyYWRlL29lbS9maWxlcyIKCiAgICAgICAgLy8g5Lul5LiL5bi46YeP5p2l6IeqIGxpYnZpdm9zZWNrZXlfbjQuc28g55qE6YCG5ZCR57uT5p6cCiAgICAgICAgcHJpdmF0ZSB2YWwgSVYgPSBPdGFDcnlwdG8udW5IZXgoIjA0N2NkNzZkNjVkM2IyOGI0Y2NjMmMwMjQ2NjgxYWE2IikKICAgICAgICBwcml2YXRlIHZhbCBLRVlfS1YxID0gT3RhQ3J5cHRvLnVuSGV4KCI1ZGE1OTA4NjMwNTIwODk4OTMxOTliMmE5MDFiNjQ3MCIpCiAgICAgICAgcHJpdmF0ZSB2YWwgS0VZX0tWMiA9IE90YUNyeXB0by51bkhleCgiODM2ZTc1YWZkZGFlNzI4NTUxYWQyMmIyYmFlNmNhNTciKQogICAgICAgIHByaXZhdGUgY29uc3QgdmFsIEtFWV9WRVJTSU9OID0gMgogICAgICAgIHByaXZhdGUgY29uc3QgdmFsIFBST1RPQ09MX1ZFUlNJT04gPSAxCiAgICAgICAgcHJpdmF0ZSBjb25zdCB2YWwgVE9LRU4gPSAiam5pc2dtYWluX3YyQGNvbS5iYmsudXBkYXRlciIKICAgICAgICBwcml2YXRlIGNvbnN0IHZhbCBNU0dfVFlQRV9FTkNSWVBUOiBCeXRlID0gNQogICAgICAgIHByaXZhdGUgY29uc3QgdmFsIEhFQURFUl9CQVNFX0xFTiA9IDE2CgogICAgICAgIGZ1biBkZWZhdWx0Q2xpZW50KCk6IE9rSHR0cENsaWVudCA9IE9rSHR0cENsaWVudC5CdWlsZGVyKCkKICAgICAgICAgICAgLmNvbm5lY3RUaW1lb3V0KDE1LCBqYXZhLnV0aWwuY29uY3VycmVudC5UaW1lVW5pdC5TRUNPTkRTKQogICAgICAgICAgICAucmVhZFRpbWVvdXQoNDAsIGphdmEudXRpbC5jb25jdXJyZW50LlRpbWVVbml0LlNFQ09ORFMpCiAgICAgICAgICAgIC5yZXRyeU9uQ29ubmVjdGlvbkZhaWx1cmUodHJ1ZSkKICAgICAgICAgICAgLmJ1aWxkKCkKICAgIH0KfQoKLy8gLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tIOe7k+aenOaooeWeiwoKZGF0YSBjbGFzcyBWaXZvT3RhUmVzdWx0KAogICAgdmFsIHN1Y2Nlc3M6IEJvb2xlYW4sCiAgICB2YWwgdmVyc2lvbjogU3RyaW5nID0gIiIsCiAgICB2YWwgZmlsZU5hbWU6IFN0cmluZyA9ICIiLAogICAgdmFsIHNpemVUZXh0OiBTdHJpbmcgPSAiIiwKICAgIHZhbCBzaXplQnl0ZXM6IExvbmcgPSAwTCwKICAgIC8qKiDnm7Tpk77vvIzmsLjkuI3ov4fmnJ/vvIzmlK/mjIEgUmFuZ2Ug5pat54K557ut5LygICovCiAgICB2YWwgZG93bmxvYWRVcmw6IFN0cmluZyA9ICIiLAogICAgdmFsIGNoYW5nZWxvZ1VybDogU3RyaW5nID0gIiIsCiAgICB2YWwgZXJyb3I6IFN0cmluZyA9ICIiLAopIHsKICAgIGNvbXBhbmlvbiBvYmplY3QgewogICAgICAgIGZ1biBmYWlsdXJlKG1zZzogU3RyaW5nKSA9IFZpdm9PdGFSZXN1bHQoc3VjY2VzcyA9IGZhbHNlLCBlcnJvciA9IG1zZykKICAgIH0KfQo=
+package org.linbaogu.romhub.data.brand
+
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
+import okhttp3.MediaType.Companion.toMediaType
+import okhttp3.OkHttpClient
+import okhttp3.Request
+import okhttp3.RequestBody.Companion.toRequestBody
+import java.io.ByteArrayOutputStream
+import kotlin.random.Random
+
+/**
+ * OriginOS 官方 OTA 查询（vivo / iQOO）。
+ *
+ * 移植自 `github.com/JerryTse-OSS/VIVO-OTA-Tracker` 的 `VivoOtaTracker.py`（作者 Jerry Tse）。
+ * 协议本身在 2026-10-04 验证过是正确的：
+ * ```
+ * PD2408 / V2408A / 16.1.16.5.W10
+ *   → 16.1.19.7.W10.V000L1   10,156,550,157 字节 (9.6 GB)
+ *   → https://sysuptxdl.vivo.com.cn/upgrade/oem/files/2026...0932....zip
+ *   → HTTP 206  Content-Range: bytes 0-1023/10156550157  application/zip
+ * ```
+ *
+ * 协议是自研的「加密信封」：
+ * ```
+ * 明文 = query string
+ *  ↓ AES-128-CBC/PKCS5（固定 IV + 固定密钥，从 so 里逆向出来的）
+ * 密文
+ *  ↓ 拼信封：[总长 u16be][crc32(头) u64be][版本 u16be][token长度 u8][token]
+ *              [密钥版本 u16be][消息类型 u8] + 密文
+ *  ↓ base64url（无 padding）
+ * POST body: jvq_param=<上面这坨>
+ * ```
+ * 响应对称，解开就能拿到 `pkName`，直链是 `https://sysuptxdl.vivo.com.cn/upgrade/oem/files/{pkName}`。
+ *
+ * ⚠️⚠️ 2026-10-04 晚间复测：**这个接口现在对本 App 已彻底关闭**。
+ * 上面那个曾经成功的 PD2408 案例，现在连同 PD2505 / PD2606 在内的所有查询
+ * 一律返回 `{"message":"无更新","retcode":210}`，且**与请求格式无关** ——
+ * 试过 `sf=0`、删掉 `sf` 字段、`isFull=0`、非空 `hwFingerprint`、`cy=US`、
+ * `checkTrige=AUTO`、`hasVgc=0`、以及拿 `PDxxxx_MA_整串` 当 swVer，
+ * 10 种变体全部 210。判断是服务端识别出了伪造请求
+ * （真机 updater 会带硬件指纹和签名，本 App 没有）。
+ *
+ * 所以**目前不要指望这条路能拿到包**，它只是取直链失败时的最后一根稻草。
+ * 要恢复得拿到真实设备环境抓包，或另找公开的 OTA 源。
+ *
+ * ⚠️ 语义限制（接口恢复后依然成立）：这是「**我现在这个版本能升到哪**」的正向查询，
+ * 所以只能拿当前最新一版，拿不到任意历史版本的包。
+ */
+class VivoOtaApi(
+    private val client: OkHttpClient = defaultClient(),
+) {
+
+    /**
+     * 查一次 OTA。
+     *
+     * @param model       软件型号，如 `PD2408`
+     * @param deviceModel 设备型号（对外型号），如 `V2408A`
+     * @param currentVer  **当前**版本号，如 `16.1.16.5.W10`（必填，缺了服务端会当异常请求）
+     */
+    suspend fun query(
+        model: String,
+        deviceModel: String,
+        currentVer: String,
+        isFull: Boolean = true,
+    ): VivoOtaResult = withContext(Dispatchers.IO) {
+        val plain = buildQueryString(model, deviceModel, currentVer, isFull)
+        val jvq = encryptEnvelope(plain)
+        val body = "jvq_param=$jvq".toRequestBody(
+            "application/x-www-form-urlencoded; charset=utf-8".toMediaType(),
+        )
+
+        val request = Request.Builder()
+            .url("$BASE_URL$UPDATE_ENDPOINT")
+            .post(body)
+            .header("Content-Type", "application/x-www-form-urlencoded; charset=utf-8")
+            .header("User-Agent", "okhttp/4.3.23")
+            .build()
+
+        client.newCall(request).execute().use { resp ->
+            val text = resp.body?.string().orEmpty().trim()
+            if (text.isBlank()) return@withContext VivoOtaResult.failure("HTTP ${resp.code}：空响应")
+
+            // 正常响应以 ACw / ACo 开头（base64url 后的信封）
+            if (!text.startsWith("ACw") && !text.startsWith("ACo")) {
+                return@withContext VivoOtaResult.failure("接口返回异常：${text.take(160)}")
+            }
+
+            val decrypted = runCatching { decryptEnvelope(text) }.getOrNull()
+                ?: return@withContext VivoOtaResult.failure("响应解密失败")
+
+            parse(decrypted)
+        }
+    }
+
+    // ------------------------------------------------------------- 请求明文
+
+    /**
+     * 拼 query string。字段名和顺序都是从官方 updater 的 so 里扒出来的，
+     * 少一个都可能被服务端判为非法请求。
+     *
+     * ⚠️ `swVer` 的后缀只能加一次（2026-10-04 修正）。
+     * 官方脚本 `VivoOtaTracker.py` 的约定是：传入的版本号必须是**裸版本号**
+     * （`16.0.24.1.W30`），`.V000L1` 由脚本自己补。
+     * 而我们的版本号来自 opusrom / 内置表，**本来就带 `.V000L1`**，
+     * 只判断 `contains(".W")` 会拼出 `16.0.24.1.W30.V000L1.V000L1` —— 服务端
+     * 认不出，直接返 210。已实测：带重复后缀的请求 100% 失败。
+     */
+    private fun buildQueryString(
+        model: String,
+        deviceModel: String,
+        currentVer: String,
+        isFull: Boolean,
+    ): String {
+        val hwVer = "${model}MA"
+        // 已经有 .V000L1 就别再加了 —— 这是之前全返 210 的一个真凶
+        val fullSwVersion = when {
+            currentVer.endsWith(".V000L1") -> currentVer
+            currentVer.contains(".W") -> "$currentVer.V000L1"
+            else -> currentVer
+        }
+        val fullVer = "${model}_A_$fullSwVersion"
+        val versionLong = "${model}_N_${hwVer}_$fullSwVersion"
+
+        val p = LinkedHashMap<String, String>()
+        p["vgcNewActiveVer"] = ""
+        p["nt"] = "WIFI"
+        p["vgcSwVer"] = "1.1.1"
+        p["fullVer"] = fullVer
+        p["emmcid"] = ""
+        p["sm1"] = "null"
+        p["sm2"] = "null"
+        p["model"] = model
+        p["hasVgc"] = "1"
+        p["vgcNewPassiveVer"] = ""
+        p["ch"] = "N"
+        p["gn"] = "0"
+        p["newActiveVer"] = ""
+        p["version"] = versionLong
+        p["st2"] = "0"
+        p["cu"] = "N"
+        p["srm2"] = "0"
+        p["srm1"] = "0"
+        p["cy"] = "CN-ZH"
+        p["sn2"] = "null"
+        p["ne"] = "null"
+        p["sn1"] = "null"
+        p["public_model"] = deviceModel
+        p["newPassiveVer"] = ""
+        p["hwVer"] = hwVer
+        p["swVer"] = fullSwVersion
+        p["language"] = "zh_CN"
+        p["isMan"] = "1"
+        p["isFull"] = if (isFull) "1" else "0"
+        p["protocalversion"] = "1.0"
+        p["checkTrige"] = "MANUL"
+        p["isstlifeover"] = "false"
+        p["hwFingerprint"] = ""
+        // 手机专属
+        p["vgcCu"] = "V000"
+        p["sf"] = "1"
+        p["si"] = "null"
+        p["dType"] = "phone"
+        p["s_n"] = "null"
+        p["elapsedtime"] = (140000 + Random.nextInt(0, 80000)).toString()
+        p["st1"] = (100000 + Random.nextInt(0, 60000)).toString()
+        p["imei"] = randomImei()
+        p["ms"] = "0"
+        p["mtype"] = "no"
+        p["radiotype"] = "L"
+
+        return p.entries.joinToString("&") { (k, v) -> "$k=$v" }
+    }
+
+    private fun randomImei(): String = (0 until 15).map { Random.nextInt(0, 10) }.joinToString("")
+
+    // ------------------------------------------------------------- 信封加解密
+
+    private fun encryptEnvelope(plain: String): String {
+        val cipher = OtaCrypto.aesCbcEncrypt(KEY_KV2, IV, plain.toByteArray(Charsets.UTF_8))
+        val tokenBytes = TOKEN.toByteArray(Charsets.UTF_8)
+
+        val header = ByteArrayOutputStream().apply {
+            write(OtaCrypto.u16be(PROTOCOL_VERSION))
+            write(tokenBytes.size)
+            write(tokenBytes)
+            write(OtaCrypto.u16be(KEY_VERSION))
+            write(MSG_TYPE_ENCRYPT.toInt())
+        }.toByteArray()
+
+        val totalLen = HEADER_BASE_LEN + tokenBytes.size
+        val packet = ByteArrayOutputStream().apply {
+            write(OtaCrypto.u16be(totalLen))
+            write(OtaCrypto.crc32Bytes(OtaCrypto.crc32(header)))
+            write(header)
+            write(cipher)
+        }.toByteArray()
+
+        return OtaCrypto.b64Url(packet)
+    }
+
+    private fun decryptEnvelope(b64: String): String {
+        val packet = OtaCrypto.b64UrlDecode(b64)
+        val headerLen = ((packet[0].toInt() and 0xFF) shl 8) or (packet[1].toInt() and 0xFF)
+        val cipher = packet.copyOfRange(headerLen, packet.size)
+        val plain = OtaCrypto.aesCbcDecrypt(KEY_KV2, IV, cipher)
+        return String(plain, Charsets.UTF_8)
+    }
+
+    // ------------------------------------------------------------- 解析
+
+    private fun parse(raw: String): VivoOtaResult {
+        // 210 = 服务端业务拦截。
+        // 2026-10-04 复测发现，伪造请求一律撞这个码（连能出包的机型也是），
+        // 所以这个提示不能说「官方暂时下架了」—— 那会把用户引向错误方向。
+        if (raw.contains("\"retcode\":210") || raw.contains("retcode=210")) {
+            return VivoOtaResult.failure(
+                "官方 OTA 接口返回 210（未放行）。" +
+                    "该接口目前只放行带完整硬件指纹和签名的真机请求，App 暂时拿不到推送包",
+            )
+        }
+
+        val pkName = pickString(raw, "pkName")
+        if (pkName.isBlank()) {
+            return VivoOtaResult.failure("响应里没有 pkName：${raw.take(200)}")
+        }
+
+        return VivoOtaResult(
+            success = true,
+            version = pickString(raw, "version"),
+            fileName = pkName,
+            sizeText = prettySize(pickString(raw, "pkLen")),
+            sizeBytes = pickString(raw, "pkLen").toLongOrNull() ?: 0L,
+            downloadUrl = "$DOWNLOAD_BASE/$pkName",
+            changelogUrl = pickString(raw, "h5Url"),
+        )
+    }
+
+    /** 从扁平 JSON 里抠出 `"key":"value"`。服务端返回不是标准 JSON（值里常带裸字符）。 */
+    private fun pickString(json: String, key: String): String {
+        val needle = "\"$key\":\""
+        val idx = json.indexOf(needle)
+        if (idx < 0) return ""
+        val start = idx + needle.length
+        val end = json.indexOf('"', start)
+        if (end < 0) return ""
+        return json.substring(start, end).replace("\\/", "/")
+    }
+
+    companion object {
+        private const val BASE_URL = "https://sysupgrade.vivo.com.cn"
+        private const val UPDATE_ENDPOINT = "/vgc/v2/getVgcAndPatch.do"
+        private const val DOWNLOAD_BASE = "https://sysuptxdl.vivo.com.cn/upgrade/oem/files"
+
+        // 以下常量来自 libvivoseckey_n4.so 的逆向结果
+        private val IV = OtaCrypto.unHex("047cd76d65d3b28b4ccc2c0246681aa6")
+        private val KEY_KV1 = OtaCrypto.unHex("5da590863052089893199b2a901b6470")
+        private val KEY_KV2 = OtaCrypto.unHex("836e75afddae728551ad22b2bae6ca57")
+        private const val KEY_VERSION = 2
+        private const val PROTOCOL_VERSION = 1
+        private const val TOKEN = "jnisgmain_v2@com.bbk.updater"
+        private const val MSG_TYPE_ENCRYPT: Byte = 5
+        private const val HEADER_BASE_LEN = 16
+
+        fun defaultClient(): OkHttpClient = OkHttpClient.Builder()
+            .connectTimeout(15, java.util.concurrent.TimeUnit.SECONDS)
+            .readTimeout(40, java.util.concurrent.TimeUnit.SECONDS)
+            .retryOnConnectionFailure(true)
+            .build()
+    }
+}
+
+// ------------------------------------------------------------------ 结果模型
+
+data class VivoOtaResult(
+    val success: Boolean,
+    val version: String = "",
+    val fileName: String = "",
+    val sizeText: String = "",
+    val sizeBytes: Long = 0L,
+    /** 直链，永不过期，支持 Range 断点续传 */
+    val downloadUrl: String = "",
+    val changelogUrl: String = "",
+    val error: String = "",
+) {
+    companion object {
+        fun failure(msg: String) = VivoOtaResult(success = false, error = msg)
+    }
+}

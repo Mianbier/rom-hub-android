@@ -1,1 +1,61 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPExpbmVhckxheW91dCB4bWxuczphbmRyb2lkPSJodHRwOi8vc2NoZW1hcy5hbmRyb2lkLmNvbS9hcGsvcmVzL2FuZHJvaWQiCiAgICBhbmRyb2lkOmxheW91dF93aWR0aD0ibWF0Y2hfcGFyZW50IgogICAgYW5kcm9pZDpsYXlvdXRfaGVpZ2h0PSJ3cmFwX2NvbnRlbnQiCiAgICBhbmRyb2lkOmxheW91dF9ncmF2aXR5PSJjZW50ZXJfdmVydGljYWwiCiAgICBhbmRyb2lkOmdyYXZpdHk9ImNlbnRlciIKICAgIGFuZHJvaWQ6cGFkZGluZ1N0YXJ0PSJAZGltZW4vY3VzdG9tX29yZGVyX2FjdGlvbl9iYXJfcGFkZGluZ19zdGFydCIKICAgIGFuZHJvaWQ6cGFkZGluZ0VuZD0iQGRpbWVuL2N1c3RvbV9vcmRlcl9hY3Rpb25fYmFyX3BhZGRpbmdfZW5kIj4KCiAgICA8QnV0dG9uCiAgICAgICAgYW5kcm9pZDppZD0iQGlkL2NhbmNlbF9idXR0b24iCiAgICAgICAgc3R5bGU9Ij9hdHRyL2FjdGlvbk1vZGVDYW5jZWxCdXR0b25TdHlsZSIKICAgICAgICBhbmRyb2lkOmxheW91dF93aWR0aD0iQGRpbWVuL2N1c3RvbV9vcmRlcl9idXR0b25fc2l6ZSIKICAgICAgICBhbmRyb2lkOmxheW91dF9oZWlnaHQ9IkBkaW1lbi9jdXN0b21fb3JkZXJfYnV0dG9uX3NpemUiCiAgICAgICAgYW5kcm9pZDpiYWNrZ3JvdW5kPSJAZHJhd2FibGUvaWNvbl9jYW5jZWwiCiAgICAgICAgYW5kcm9pZDpjb250ZW50RGVzY3JpcHRpb249IkBhbmRyb2lkOnN0cmluZy9jYW5jZWwiCiAgICAgICAgYW5kcm9pZDp0ZXh0PSIiIC8+CgogICAgPFJlbGF0aXZlTGF5b3V0CiAgICAgICAgYW5kcm9pZDpsYXlvdXRfd2lkdGg9IjBkcCIKICAgICAgICBhbmRyb2lkOmxheW91dF9oZWlnaHQ9IndyYXBfY29udGVudCIKICAgICAgICBhbmRyb2lkOmxheW91dF93ZWlnaHQ9IjEuMCIKICAgICAgICBhbmRyb2lkOmdyYXZpdHk9ImNlbnRlcl92ZXJ0aWNhbCI+CgogICAgICAgIDxUZXh0VmlldwogICAgICAgICAgICBhbmRyb2lkOmlkPSJAYW5kcm9pZDppZC90aXRsZSIKICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfd2lkdGg9IndyYXBfY29udGVudCIKICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfaGVpZ2h0PSJ3cmFwX2NvbnRlbnQiCiAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X2NlbnRlckhvcml6b250YWw9InRydWUiCiAgICAgICAgICAgIGFuZHJvaWQ6ZWxsaXBzaXplPSJlbmQiCiAgICAgICAgICAgIGFuZHJvaWQ6Zm9udEZhbWlseT0ibWlwcm8tbWVkaXVtIgogICAgICAgICAgICBhbmRyb2lkOmdyYXZpdHk9ImNlbnRlciIKICAgICAgICAgICAgYW5kcm9pZDpzaW5nbGVMaW5lPSJ0cnVlIgogICAgICAgICAgICBhbmRyb2lkOnRleHQ9IkBzdHJpbmcvY3VzdG9tX29yZGVyX3RpdGxlIgogICAgICAgICAgICBhbmRyb2lkOnRleHRDb2xvcj0iQGNvbG9yL2NvbG9yX29uX3N1cmZhY2UiCiAgICAgICAgICAgIGFuZHJvaWQ6dGV4dFNpemU9IjIwc3AiCiAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X2NlbnRlckluUGFyZW50PSJ0cnVlIi8+CgogICAgICAgIDxUZXh0VmlldwogICAgICAgICAgICBhbmRyb2lkOmlkPSJAK2lkL3N1YnRpdGxlIgogICAgICAgICAgICBhbmRyb2lkOmxheW91dF93aWR0aD0id3JhcF9jb250ZW50IgogICAgICAgICAgICBhbmRyb2lkOmxheW91dF9oZWlnaHQ9IndyYXBfY29udGVudCIKICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfYmVsb3c9IkBhbmRyb2lkOmlkL3RpdGxlIgogICAgICAgICAgICBhbmRyb2lkOmxheW91dF9jZW50ZXJIb3Jpem9udGFsPSJ0cnVlIgogICAgICAgICAgICBhbmRyb2lkOmZvbnRGYW1pbHk9Im1pcHJvLXJlZ3VsYXIiCiAgICAgICAgICAgIGFuZHJvaWQ6Z3Jhdml0eT0iY2VudGVyIgogICAgICAgICAgICBhbmRyb2lkOnRleHQ9IiIKICAgICAgICAgICAgYW5kcm9pZDp0ZXh0Q29sb3I9IkBjb2xvci9jb2xvcl9vbl9zdXJmYWNlX3RlcnRpYXJ5IgogICAgICAgICAgICBhbmRyb2lkOnRleHRTaXplPSIxNHNwIgogICAgICAgICAgICBhbmRyb2lkOnZpc2liaWxpdHk9ImdvbmUiLz4KICAgIDwvUmVsYXRpdmVMYXlvdXQ+CgogICAgPEJ1dHRvbgogICAgICAgIGFuZHJvaWQ6aWQ9IkAraWQvY29uZmlybV9idXR0b24iCiAgICAgICAgc3R5bGU9Ij9hdHRyL2FjdGlvbk1vZGVDb25maXJtQnV0dG9uU3R5bGUiCiAgICAgICAgYW5kcm9pZDpsYXlvdXRfd2lkdGg9IkBkaW1lbi9jdXN0b21fb3JkZXJfYnV0dG9uX3NpemUiCiAgICAgICAgYW5kcm9pZDpsYXlvdXRfaGVpZ2h0PSJAZGltZW4vY3VzdG9tX29yZGVyX2J1dHRvbl9zaXplIgogICAgICAgIGFuZHJvaWQ6YmFja2dyb3VuZD0iQGRyYXdhYmxlL2ljb25fY29uZmlybSIKICAgICAgICBhbmRyb2lkOmNvbnRlbnREZXNjcmlwdGlvbj0iQGFuZHJvaWQ6c3RyaW5nL29rIgogICAgICAgIGFuZHJvaWQ6dGV4dD0iIiAvPgo8L0xpbmVhckxheW91dD4K
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:gravity="center"
+    android:paddingStart="@dimen/custom_order_action_bar_padding_start"
+    android:paddingEnd="@dimen/custom_order_action_bar_padding_end">
+
+    <Button
+        android:id="@id/cancel_button"
+        style="?attr/actionModeCancelButtonStyle"
+        android:layout_width="@dimen/custom_order_button_size"
+        android:layout_height="@dimen/custom_order_button_size"
+        android:background="@drawable/icon_cancel"
+        android:contentDescription="@android:string/cancel"
+        android:text="" />
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@android:id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:ellipsize="end"
+            android:fontFamily="mipro-medium"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="@string/custom_order_title"
+            android:textColor="@color/color_on_surface"
+            android:textSize="20sp"
+            android:layout_centerInParent="true"/>
+
+        <TextView
+            android:id="@+id/subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@android:id/title"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="mipro-regular"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/color_on_surface_tertiary"
+            android:textSize="14sp"
+            android:visibility="gone"/>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/confirm_button"
+        style="?attr/actionModeConfirmButtonStyle"
+        android:layout_width="@dimen/custom_order_button_size"
+        android:layout_height="@dimen/custom_order_button_size"
+        android:background="@drawable/icon_confirm"
+        android:contentDescription="@android:string/ok"
+        android:text="" />
+</LinearLayout>

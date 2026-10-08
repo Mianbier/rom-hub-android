@@ -1,1 +1,26 @@
-LyoKICogWXVuWCAo5LqR5p6QKSAtIEEgbmV0d29yayBkcml2ZSBzaGFyZS1saW5rIHBhcnNlciBhbmQgaGlnaC1zcGVlZCBkb3dubG9hZGVyIGZvciBBbmRyb2lkLgogKiBDb3B5cmlnaHQgKEMpIDIwMjYgQ1lRYXdhCiAqCiAqIFRoaXMgcHJvZ3JhbSBpcyBmcmVlIHNvZnR3YXJlOiB5b3UgY2FuIHJlZGlzdHJpYnV0ZSBpdCBhbmQvb3IgbW9kaWZ5CiAqIGl0IHVuZGVyIHRoZSB0ZXJtcyBvZiB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGFzIHB1Ymxpc2hlZCBieQogKiB0aGUgRnJlZSBTb2Z0d2FyZSBGb3VuZGF0aW9uLCBlaXRoZXIgdmVyc2lvbiAzIG9mIHRoZSBMaWNlbnNlLCBvcgogKiAoYXQgeW91ciBvcHRpb24pIGFueSBsYXRlciB2ZXJzaW9uLgogKgogKiBUaGlzIHByb2dyYW0gaXMgZGlzdHJpYnV0ZWQgaW4gdGhlIGhvcGUgdGhhdCBpdCB3aWxsIGJlIHVzZWZ1bCwKICogYnV0IFdJVEhPVVQgQU5ZIFdBUlJBTlRZOyB3aXRob3V0IGV2ZW4gdGhlIGltcGxpZWQgd2FycmFudHkgb2YKICogTUVSQ0hBTlRBQklMSVRZIG9yIEZJVE5FU1MgRk9SIEEgUEFSVElDVUxBUiBQVVJQT1NFLiAgU2VlIHRoZQogKiBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UgZm9yIG1vcmUgZGV0YWlscy4KICoKICogWW91IHNob3VsZCBoYXZlIHJlY2VpdmVkIGEgY29weSBvZiB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlCiAqIGFsb25nIHdpdGggdGhpcyBwcm9ncmFtLiAgSWYgbm90LCBzZWUgPGh0dHBzOi8vd3d3LmdudS5vcmcvbGljZW5zZXMvPi4KICovCgpwYWNrYWdlIG9yZy5saW5iYW9ndS5yb21odWIucGFuCgovKioKICog5aS45YWLIEFQSSDkuJrliqHlvILluLjvvJrmkLrluKbmnI3liqHnq6/ov5Tlm57nmoQgbWVzc2FnZSDkuI4gY29kZSDlrZfmrrXvvIwKICog55So5LqO5oqK5YW35L2T6ZSZ6K+v5Y6f5Zug77yI5aaC44CM5o+Q5Y+W56CB6ZSZ6K+v44CN44CM5YiG5Lqr5bey5aSx5pWI44CN44CMZmlsZSBub3QgZm91bmTjgI3vvInpgI/kvKDnu5kgVUnvvJsKICogY29kZSDkvpvkuIrlsYLor4bliKvnibnlrprplJnor6/vvIjlpoIgMjEwMDEg6Kem5Y+R5YWc5bqV6YeN6L2s77yJ44CCCiAqLwpjbGFzcyBRdWFya0FwaUV4Y2VwdGlvbihtZXNzYWdlOiBTdHJpbmcsIHZhbCBjb2RlOiBJbnQgPSAwKSA6IEV4Y2VwdGlvbihtZXNzYWdlKQ==
+/*
+ * YunX (云析) - A network drive share-link parser and high-speed downloader for Android.
+ * Copyright (C) 2026 CYQawa
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Affero General Public License for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
+package org.linbaogu.romhub.pan
+
+/**
+ * 夸克 API 业务异常：携带服务端返回的 message 与 code 字段，
+ * 用于把具体错误原因（如「提取码错误」「分享已失效」「file not found」）透传给 UI；
+ * code 供上层识别特定错误（如 21001 触发兜底重转）。
+ */
+class QuarkApiException(message: String, val code: Int = 0) : Exception(message)

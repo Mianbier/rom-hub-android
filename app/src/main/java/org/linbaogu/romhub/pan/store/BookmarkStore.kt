@@ -1,1 +1,128 @@
-cGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLnBhbi5zdG9yZQoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5NdXRhYmxlU3RhdGVGbG93CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5TdGF0ZUZsb3cKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93LmFzU3RhdGVGbG93CmltcG9ydCBrb3RsaW54LnNlcmlhbGl6YXRpb24uU2VyaWFsaXphYmxlCmltcG9ydCBrb3RsaW54LnNlcmlhbGl6YXRpb24uYnVpbHRpbnMuTGlzdFNlcmlhbGl6ZXIKaW1wb3J0IGtvdGxpbnguc2VyaWFsaXphdGlvbi5qc29uLkpzb24KaW1wb3J0IGphdmEuaW8uRmlsZQoKLyoqCiAqIOe9keebmOWIhuS6q+mTvuaOpeaUtuiXj+OAggogKgogKiDkupHmnpDpgqPovrnmmK8gUm9vbSDooajvvJvov5nph4zlkIzmoLfmjaLmiJAgSlNPTiDigJTigJQg5pS26JeP6YeP57qn5bCx5piv5Yeg5Y2B5LiK55m+5p2h77yMCiAqIOWFqOmHj+ivu+WGmeWujOWFqOWkn+eUqO+8jOi/mOecgeaOiSBLU1AgKyBSb29tIOS4pOS4quaehOW7uueOr+iKguOAggogKgogKiDlr7nlpJbkv53nlZnlkozljp8gRGFvIOS4gOagt+eahOaWueazleWQje+8jOeVjOmdouWxgueFp+aQrOi/h+adpeWHoOS5juS4jeeUqOaUueOAggogKi8KQFNlcmlhbGl6YWJsZQpkYXRhIGNsYXNzIEJvb2ttYXJrRW50aXR5KAogICAgdmFsIGlkOiBMb25nID0gMCwKICAgIC8qKiDlrozmlbTliIbkuqvpk77mjqUgLyDliIbkuqvmlofmoYjvvIjlho3mrKHop6PmnpDnlKjvvIzljp/moLfkv53lrZjvvIkgKi8KICAgIHZhbCBsaW5rOiBTdHJpbmcsCiAgICAvKiog5YiG5Lqr5qCH6aKY77yI6Kej5p6Q5ZCO5Zue5aGr77yb5omL5Yqo5re75Yqg5Y+v5Li656m677yM5bGV56S65pe25Zue6YCA5oiQ6ZO+5o6l77yJICovCiAgICB2YWwgdGl0bGU6IFN0cmluZyA9ICIiLAogICAgLyoqIOW5s+WPsOWQje+8iFFVQVJLL1VDL1hVTkxFSS9CQUlEVS9DMTM5L1BBTjEyMy9QQU4xMTXvvInvvIzmnKrnn6XkuLrnqbrkuLIgKi8KICAgIHZhbCBwbGF0Zm9ybTogU3RyaW5nID0gIiIsCiAgICAvKiog5o+Q5Y+W56CBICovCiAgICB2YWwgcHdkOiBTdHJpbmcgPSAiIiwKICAgIHZhbCBjYXRlZ29yeTogU3RyaW5nID0gREVGQVVMVF9DQVRFR09SWSwKICAgIC8qKiDmmK/lkKblm7rlrprliLDpppbpobXlv6vmjbfmlrnlvI8gKi8KICAgIHZhbCBob21lUGlubmVkOiBCb29sZWFuID0gZmFsc2UsCiAgICAvKiog6aaW6aG15b+r5o235pa55byP55qE6Ieq5a6a5LmJ5paH5a2X77yI56m6ID0g6Ieq5Yqo5Y+W5qCH6aKY5YmN5Yeg5Liq5a2X77yJICovCiAgICB2YWwgaG9tZUxhYmVsOiBTdHJpbmcgPSAiIiwKICAgIHZhbCBjcmVhdGVUaW1lOiBMb25nID0gU3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCksCikgewogICAgY29tcGFuaW9uIG9iamVjdCB7CiAgICAgICAgY29uc3QgdmFsIERFRkFVTFRfQ0FURUdPUlkgPSAi5pyq5YiG57G7IgoKICAgICAgICB2YWwgUFJFU0VUX0NBVEVHT1JJRVMgPSBsaXN0T2YoCiAgICAgICAgICAgIERFRkFVTFRfQ0FURUdPUlksICLop4bpopEiLCAi5paH5qGjIiwgIui9r+S7tiIsICLpn7PkuZAiLCAi5Zu+54mHIiwgIuWOi+e8qeWMhSIsICLlhbbku5YiLAogICAgICAgICkKICAgIH0KfQoKLyoqCiAqIOS5puetvuS7k+W6k++8iOWOnyBCb29rbWFya0RhbyDnmoTmm7/ku6Plk4HvvInjgIIKICoKICog5YaF6YOo57u05oqk5LiA5Lu95YaF5a2Y5YiX6KGoICsgU3RhdGVGbG9377yM5YaZ5YWl5pe25pW05L2T6JC955uY44CC5pS26JeP6L+Z56eN6YeP57qn77yMCiAqIOWFqOmHj+WGmSBKU09OIOavlOWinumHjyBTUUwg566A5Y2V5b6X5aSa77yM5Lmf5LiN5Lya5pyJ5bm25Y+R5YaZ5Z2P5paH5Lu255qE6Zeu6aKY77yI5paH5Lu25bCP77yM5YaZ5a6M5Y2z6L+U5Zue77yJ44CCCiAqLwpjbGFzcyBCb29rbWFya1N0b3JlKHByaXZhdGUgdmFsIGN0eDogQ29udGV4dCkgewoKICAgIHByaXZhdGUgdmFsIGpzb24gPSBKc29uIHsKICAgICAgICBpZ25vcmVVbmtub3duS2V5cyA9IHRydWUKICAgICAgICBlbmNvZGVEZWZhdWx0cyA9IHRydWUKICAgIH0KICAgIHByaXZhdGUgdmFsIGZpbGUgPSBGaWxlKGN0eC5maWxlc0RpciwgInJvbWh1Yl9ib29rbWFya3MuanNvbiIpCiAgICBwcml2YXRlIHZhbCBzZXJpYWxpemVyID0gTGlzdFNlcmlhbGl6ZXIoQm9va21hcmtFbnRpdHkuc2VyaWFsaXplcigpKQoKICAgIHByaXZhdGUgdmFsIF9hbGwgPSBNdXRhYmxlU3RhdGVGbG93KGxvYWQoKSkKICAgIHZhbCBhbGw6IFN0YXRlRmxvdzxMaXN0PEJvb2ttYXJrRW50aXR5Pj4gPSBfYWxsLmFzU3RhdGVGbG93KCkKCiAgICBwcml2YXRlIGZ1biBsb2FkKCk6IExpc3Q8Qm9va21hcmtFbnRpdHk+ID0gcnVuQ2F0Y2hpbmcgewogICAgICAgIGlmICghZmlsZS5leGlzdHMoKSkgcmV0dXJuQHJ1bkNhdGNoaW5nIGVtcHR5TGlzdCgpCiAgICAgICAgdmFsIHRleHQgPSBmaWxlLnJlYWRUZXh0KCkKICAgICAgICBpZiAodGV4dC5pc0JsYW5rKCkpIGVtcHR5TGlzdCgpIGVsc2UganNvbi5kZWNvZGVGcm9tU3RyaW5nKHNlcmlhbGl6ZXIsIHRleHQpCiAgICB9LmdldE9yRGVmYXVsdChlbXB0eUxpc3QoKSkKCiAgICBwcml2YXRlIGZ1biBwZXJzaXN0KGxpc3Q6IExpc3Q8Qm9va21hcmtFbnRpdHk+KSB7CiAgICAgICAgcnVuQ2F0Y2hpbmcgewogICAgICAgICAgICB2YWwgdG1wID0gRmlsZShjdHguZmlsZXNEaXIsICJyb21odWJfYm9va21hcmtzLmpzb24udG1wIikKICAgICAgICAgICAgdG1wLndyaXRlVGV4dChqc29uLmVuY29kZVRvU3RyaW5nKHNlcmlhbGl6ZXIsIGxpc3QpKQogICAgICAgICAgICBpZiAoZmlsZS5leGlzdHMoKSkgZmlsZS5kZWxldGUoKQogICAgICAgICAgICB0bXAucmVuYW1lVG8oZmlsZSkKICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gbXV0YXRlKGJsb2NrOiAoTGlzdDxCb29rbWFya0VudGl0eT4pIC0+IExpc3Q8Qm9va21hcmtFbnRpdHk+KSB7CiAgICAgICAgdmFsIG5leHQgPSBibG9jayhfYWxsLnZhbHVlKQogICAgICAgIF9hbGwudmFsdWUgPSBuZXh0CiAgICAgICAgcGVyc2lzdChuZXh0KQogICAgfQoKICAgIC8qKiDmlrDlop7vvJvov5Tlm57mlrDmnaHnm67nmoQgaWQgKi8KICAgIGZ1biBpbnNlcnQoYm9va21hcms6IEJvb2ttYXJrRW50aXR5KTogTG9uZyB7CiAgICAgICAgdmFsIGlkID0gaWYgKGJvb2ttYXJrLmlkID4gMEwpIGJvb2ttYXJrLmlkIGVsc2UgKG5leHRJZCgpKQogICAgICAgIG11dGF0ZSB7IGxpc3QgLT4gbGlzdCArIGJvb2ttYXJrLmNvcHkoaWQgPSBpZCkgfQogICAgICAgIHJldHVybiBpZAogICAgfQoKICAgIC8qKiDlkIzkuIDkuKrpk77mjqXlt7Lnu4/mlLbol4/ov4fvvJ/ov5Tlm57lt7LmnInmnaHnm67vvIjnlKjmnaXlgZrjgIzlt7LmlLbol4/jgI3moIforrAgLyDpgb/lhY3ph43lpI3mlLbol4/vvInjgIIgKi8KICAgIGZ1biBmaW5kQnlMaW5rKGxpbms6IFN0cmluZyk6IEJvb2ttYXJrRW50aXR5PyA9CiAgICAgICAgX2FsbC52YWx1ZS5maXJzdE9yTnVsbCB7IGl0LmxpbmsudHJpbSgpID09IGxpbmsudHJpbSgpIH0KCiAgICBmdW4gdXBkYXRlQ2F0ZWdvcnkoaWQ6IExvbmcsIGNhdGVnb3J5OiBTdHJpbmcpID0KICAgICAgICBtdXRhdGUgeyBsaXN0IC0+IGxpc3QubWFwIHsgaWYgKGl0LmlkID09IGlkKSBpdC5jb3B5KGNhdGVnb3J5ID0gY2F0ZWdvcnkpIGVsc2UgaXQgfSB9CgogICAgZnVuIHVwZGF0ZUhvbWVQaW5uZWQoaWQ6IExvbmcsIHBpbm5lZDogQm9vbGVhbikgPQogICAgICAgIG11dGF0ZSB7IGxpc3QgLT4gbGlzdC5tYXAgeyBpZiAoaXQuaWQgPT0gaWQpIGl0LmNvcHkoaG9tZVBpbm5lZCA9IHBpbm5lZCkgZWxzZSBpdCB9IH0KCiAgICBmdW4gdXBkYXRlSG9tZUxhYmVsKGlkOiBMb25nLCBsYWJlbDogU3RyaW5nKSA9CiAgICAgICAgbXV0YXRlIHsgbGlzdCAtPiBsaXN0Lm1hcCB7IGlmIChpdC5pZCA9PSBpZCkgaXQuY29weShob21lTGFiZWwgPSBsYWJlbCkgZWxzZSBpdCB9IH0KCiAgICAvKiog6Kej5p6Q5oiQ5Yqf5ZCO5Zue5aGr5qCH6aKYIC8g5bmz5Y+w77yI5qCH6aKY5Li656m65pe25omN5YaZ77yM6YG/5YWN6KaG55uW55So5oi35pS56L+H55qE5ZCN5a2X77yJ44CCICovCiAgICBmdW4gYmFja2ZpbGxUaXRsZShpZDogTG9uZywgdGl0bGU6IFN0cmluZywgcGxhdGZvcm06IFN0cmluZykgPQogICAgICAgIG11dGF0ZSB7IGxpc3QgLT4KICAgICAgICAgICAgbGlzdC5tYXAgewogICAgICAgICAgICAgICAgaWYgKGl0LmlkID09IGlkKSBpdC5jb3B5KAogICAgICAgICAgICAgICAgICAgIHRpdGxlID0gaXQudGl0bGUuaWZCbGFuayB7IHRpdGxlIH0sCiAgICAgICAgICAgICAgICAgICAgcGxhdGZvcm0gPSBpdC5wbGF0Zm9ybS5pZkJsYW5rIHsgcGxhdGZvcm0gfSwKICAgICAgICAgICAgICAgICkgZWxzZSBpdAogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgIGZ1biBkZWxldGUoaWQ6IExvbmcpID0gbXV0YXRlIHsgbGlzdCAtPiBsaXN0LmZpbHRlck5vdCB7IGl0LmlkID09IGlkIH0gfQoKICAgIC8qKiDnjrDmnInliIbnsbvvvIjlkKvoh6rlrprkuYnnmoTvvInvvIzljrvph43lkI7mjInpooTorr7pobrluo/mjpLliY3pnaLjgIIgKi8KICAgIGZ1biBjYXRlZ29yaWVzKCk6IExpc3Q8U3RyaW5nPiB7CiAgICAgICAgdmFsIHVzZWQgPSBfYWxsLnZhbHVlLm1hcCB7IGl0LmNhdGVnb3J5IH0uZmlsdGVyIHsgaXQuaXNOb3RCbGFuaygpIH0udG9TZXQoKQogICAgICAgIHZhbCBwcmVzZXQgPSBCb29rbWFya0VudGl0eS5QUkVTRVRfQ0FURUdPUklFUy5maWx0ZXIgeyBpdCBpbiB1c2VkIH0KICAgICAgICB2YWwgY3VzdG9tID0gKHVzZWQgLSBwcmVzZXQudG9TZXQoKSkuc29ydGVkKCkKICAgICAgICByZXR1cm4gcHJlc2V0ICsgY3VzdG9tCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gbmV4dElkKCk6IExvbmcgPSAoX2FsbC52YWx1ZS5tYXhPZk9yTnVsbCB7IGl0LmlkIH0gPzogMEwpICsgMUwKfQo=
+package org.linbaogu.romhub.pan.store
+
+import android.content.Context
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.serialization.Serializable
+import kotlinx.serialization.builtins.ListSerializer
+import kotlinx.serialization.json.Json
+import java.io.File
+
+/**
+ * 网盘分享链接收藏。
+ *
+ * 云析那边是 Room 表；这里同样换成 JSON —— 收藏量级就是几十上百条，
+ * 全量读写完全够用，还省掉 KSP + Room 两个构建环节。
+ *
+ * 对外保留和原 Dao 一样的方法名，界面层照搬过来几乎不用改。
+ */
+@Serializable
+data class BookmarkEntity(
+    val id: Long = 0,
+    /** 完整分享链接 / 分享文案（再次解析用，原样保存） */
+    val link: String,
+    /** 分享标题（解析后回填；手动添加可为空，展示时回退成链接） */
+    val title: String = "",
+    /** 平台名（QUARK/UC/XUNLEI/BAIDU/C139/PAN123/PAN115），未知为空串 */
+    val platform: String = "",
+    /** 提取码 */
+    val pwd: String = "",
+    val category: String = DEFAULT_CATEGORY,
+    /** 是否固定到首页快捷方式 */
+    val homePinned: Boolean = false,
+    /** 首页快捷方式的自定义文字（空 = 自动取标题前几个字） */
+    val homeLabel: String = "",
+    val createTime: Long = System.currentTimeMillis(),
+) {
+    companion object {
+        const val DEFAULT_CATEGORY = "未分类"
+
+        val PRESET_CATEGORIES = listOf(
+            DEFAULT_CATEGORY, "视频", "文档", "软件", "音乐", "图片", "压缩包", "其他",
+        )
+    }
+}
+
+/**
+ * 书签仓库（原 BookmarkDao 的替代品）。
+ *
+ * 内部维护一份内存列表 + StateFlow，写入时整体落盘。收藏这种量级，
+ * 全量写 JSON 比增量 SQL 简单得多，也不会有并发写坏文件的问题（文件小，写完即返回）。
+ */
+class BookmarkStore(private val ctx: Context) {
+
+    private val json = Json {
+        ignoreUnknownKeys = true
+        encodeDefaults = true
+    }
+    private val file = File(ctx.filesDir, "romhub_bookmarks.json")
+    private val serializer = ListSerializer(BookmarkEntity.serializer())
+
+    private val _all = MutableStateFlow(load())
+    val all: StateFlow<List<BookmarkEntity>> = _all.asStateFlow()
+
+    private fun load(): List<BookmarkEntity> = runCatching {
+        if (!file.exists()) return@runCatching emptyList()
+        val text = file.readText()
+        if (text.isBlank()) emptyList() else json.decodeFromString(serializer, text)
+    }.getOrDefault(emptyList())
+
+    private fun persist(list: List<BookmarkEntity>) {
+        runCatching {
+            val tmp = File(ctx.filesDir, "romhub_bookmarks.json.tmp")
+            tmp.writeText(json.encodeToString(serializer, list))
+            if (file.exists()) file.delete()
+            tmp.renameTo(file)
+        }
+    }
+
+    private fun mutate(block: (List<BookmarkEntity>) -> List<BookmarkEntity>) {
+        val next = block(_all.value)
+        _all.value = next
+        persist(next)
+    }
+
+    /** 新增；返回新条目的 id */
+    fun insert(bookmark: BookmarkEntity): Long {
+        val id = if (bookmark.id > 0L) bookmark.id else (nextId())
+        mutate { list -> list + bookmark.copy(id = id) }
+        return id
+    }
+
+    /** 同一个链接已经收藏过？返回已有条目（用来做「已收藏」标记 / 避免重复收藏）。 */
+    fun findByLink(link: String): BookmarkEntity? =
+        _all.value.firstOrNull { it.link.trim() == link.trim() }
+
+    fun updateCategory(id: Long, category: String) =
+        mutate { list -> list.map { if (it.id == id) it.copy(category = category) else it } }
+
+    fun updateHomePinned(id: Long, pinned: Boolean) =
+        mutate { list -> list.map { if (it.id == id) it.copy(homePinned = pinned) else it } }
+
+    fun updateHomeLabel(id: Long, label: String) =
+        mutate { list -> list.map { if (it.id == id) it.copy(homeLabel = label) else it } }
+
+    /** 解析成功后回填标题 / 平台（标题为空时才写，避免覆盖用户改过的名字）。 */
+    fun backfillTitle(id: Long, title: String, platform: String) =
+        mutate { list ->
+            list.map {
+                if (it.id == id) it.copy(
+                    title = it.title.ifBlank { title },
+                    platform = it.platform.ifBlank { platform },
+                ) else it
+            }
+        }
+
+    fun delete(id: Long) = mutate { list -> list.filterNot { it.id == id } }
+
+    /** 现有分类（含自定义的），去重后按预设顺序排前面。 */
+    fun categories(): List<String> {
+        val used = _all.value.map { it.category }.filter { it.isNotBlank() }.toSet()
+        val preset = BookmarkEntity.PRESET_CATEGORIES.filter { it in used }
+        val custom = (used - preset.toSet()).sorted()
+        return preset + custom
+    }
+
+    private fun nextId(): Long = (_all.value.maxOfOrNull { it.id } ?: 0L) + 1L
+}

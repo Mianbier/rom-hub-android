@@ -1,1 +1,276 @@
-cGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLnVpLm5hdg0KDQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLmdldFZhbHVlDQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLm11dGFibGVTdGF0ZUxpc3RPZg0KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5tdXRhYmxlU3RhdGVPZg0KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5zZXRWYWx1ZQ0KDQovKiog6aG16Z2i5qCI6YeM55qE5LiA5bGC44CC5Y+C54WnIEtlcm5lbFNVIOeahCBOYXZpZ2F0b3LvvJrljZXkuIDmoIjvvIxwb3Ag5Y+q5ZyoIHNpemU+MSDml7blj5HnlJ/jgIIgKi8NCnNlYWxlZCBpbnRlcmZhY2UgU2NyZWVuIHsNCiAgICBkYXRhIGNsYXNzIFRhYih2YWwgaW5kZXg6IEludCkgOiBTY3JlZW4NCiAgICBkYXRhIGNsYXNzIERldmljZURldGFpbCh2YWwgY29kZTogU3RyaW5nKSA6IFNjcmVlbg0KICAgIGRhdGEgY2xhc3MgVmVyc2lvbkxpc3QoDQogICAgICAgIHZhbCBjb2RlOiBTdHJpbmcsDQogICAgICAgIHZhbCByZWdpb246IFN0cmluZywNCiAgICAgICAgdmFsIGJyYW5jaDogU3RyaW5nLA0KICAgICAgICB2YWwgaGlnaGxpZ2h0OiBTdHJpbmcgPSAiIiwNCiAgICApIDogU2NyZWVuDQogICAgZGF0YSBjbGFzcyBQb3J0RGV0YWlsKHZhbCBpZDogTG9uZykgOiBTY3JlZW4NCg0KICAgIC8qKiDmn5Dlk4HniYzkuIvnmoTmnLrlnovliJfooajjgIIgW2JyYW5kS2V5XSDop4EgQnJhbmRDYXRhbG9n44CCICovDQogICAgZGF0YSBjbGFzcyBCcmFuZERldmljZXModmFsIGJyYW5kS2V5OiBTdHJpbmcpIDogU2NyZWVuDQoNCiAgICAvKiog5p+Q5Y+w5py65Z6L55qE54mI5pys5YiX6KGo44CCIFticmFuZEtleV0gKyBbZGV2aWNlTmFtZV0g5a6a5L2N5LiA5Y+w5py65Zmo44CCICovDQogICAgZGF0YSBjbGFzcyBCcmFuZFZlcnNpb25zKA0KICAgICAgICB2YWwgYnJhbmRLZXk6IFN0cmluZywNCiAgICAgICAgdmFsIGRldmljZU5hbWU6IFN0cmluZywNCiAgICAgICAgdmFsIHNlcmllczogU3RyaW5nLA0KICAgICkgOiBTY3JlZW4NCg0KICAgIC8qKg0KICAgICAqIOmmlumhteOAjOWKn+iDveOAjemHjOeahOWbm+S4quWFpeWPo+OAgg0KICAgICAqDQogICAgICog5Lul5YmN6L+Z5Zub5Liq5pivKirlnKjpppbpobXlhoXogZTlsZXlvIAqKueahO+8iOS4gOS4qiBgc3ViYCDlsYDpg6jnirbmgIHnm7TmjqXmjaLlhoXlrrnvvInvvIwNCiAgICAgKiDku6Pku7fmmK/vvJrikaAg5YiH5o2i5rKh5pyJ6L2s5Zy65Yqo55S777yb4pGhIOi/lOWbnumAu+i+keWSjOWkluWxgumhtemdouagiOS4jeS4gOiHtOOAgg0KICAgICAqIOeOsOWcqOaUueaIkOato+W4uOeahOmhtemdouagiO+8jOi/m+WHuuWcuuWwsei1sCBbQXBwUm9vdF0g6YeM6YKj5aWXIEh5cGVyT1Mg5by557Cn5ruR5YWlIC8g5ruR5Ye6DQogICAgICog77yI5ZKMIEh5cGVyQ2VpbGVyIOeahCBgcHJvdmlzaW9uX3NsaWRlX2luX3JpZ2h0YCDkuIDkuKrmhI/mgJ3vvInvvIzov5Tlm57kuZ/nu5/kuIDnlLENCiAgICAgKiBbQXBwTmF2LmJhY2tdIOWkhOeQhuOAgg0KICAgICAqDQogICAgICogW0Zpcm13YXJlXSDnjrDlnKjmmK8qKuWTgeeJjOmhtSoq77yI5bCP57Gz5LiT5Yy6ICsg5ZCE5ZOB54mM77yJ77yMDQogICAgICog54K544CM5bCP57Gz5LiT5Yy644CN5omN6L+bIFtYaWFvbWlab25lXe+8iOWOn+adpemCo+Wll+Wwj+exs+acuuWei+W6k++8ieOAgg0KICAgICAqLw0KICAgIG9iamVjdCBGaXJtd2FyZSA6IFNjcmVlbg0KDQogICAgLyoqIOWwj+exs+S4k+WMuu+8muWOn+adpeeahOacuuWei+W6k++8iOacjeWKoeerr+aVsOaNrua6kO+8ie+8jOS7juWTgeeJjOmhtei/m+OAgiAqLw0KICAgIG9iamVjdCBYaWFvbWlab25lIDogU2NyZWVuDQogICAgb2JqZWN0IEZlZWQgOiBTY3JlZW4NCiAgICBvYmplY3QgUGFuSHViIDogU2NyZWVuDQogICAgb2JqZWN0IFVwbG9hZCA6IFNjcmVlbg0KfQ0KDQovKioNCiAqIOWvvOiIqueKtuaAgeOAgg0KICoNCiAqIOi/lOWbnuS8mOWFiOe6p+eFp+aQrCBLZXJuZWxTVe+8mg0KICogIOKRoCDov5jmnInmm7Tmt7HnmoTpobXpnaIg4oaSIHBvcA0KICogIOKRoSDlt7LlnKggdGFiIOagueOAgeS9huS4jeWcqOesrCAwIOS4qiB0YWIg4oaSIOWbnuesrCAwIOS4qiB0YWINCiAqICDikaIg5bey5Zyo56ysIDAg5LiqIHRhYiDnmoTmoLkg4oaSIOS6pOWbnuezu+e7n++8iEFjdGl2aXR5IOiHquW3seWGs+WumumAgOWHuu+8iQ0KICoNCiAqIOWPpuWkluS8muaKiuaVtOadoeagiOW6j+WIl+WMluWtmOi/myBbUHJlZnNd77yM6L+Z5qC36Lez5rWP6KeI5Zmo77yI5oiW57O757uf5oqK6L+b56iL5Zue5pS277yJ5LmL5ZCO5Zue5p2l77yMDQogKiDov5jlgZzlnKjljp/mnaXpgqPkuIDpobXvvIzkuI3kvJrooqvouLnlm57pppbpobXjgIINCiAqLw0KY2xhc3MgQXBwTmF2U3RhdGUocHJpdmF0ZSB2YWwgcGVyc2lzdDogKFN0cmluZykgLT4gVW5pdCA9IHt9KSB7DQoNCiAgICB2YWwgc3RhY2sgPSBtdXRhYmxlU3RhdGVMaXN0T2Y8U2NyZWVuPihTY3JlZW4uVGFiKDApKQ0KDQogICAgLyoqDQogICAgICog5LiOIFtzdGFja10g5bmz6KGM55qE6aG16Z2i5ZSv5LiAIGlk77yI6Ieq5aKe77yJ44CCDQogICAgICoNCiAgICAgKiDnlKjpgJTvvJrmt7HlsYLpobXpnaIqKuW4uOmpuyBjb21wb3NpdGlvbioqIOeahCBrZXkg4oCU4oCUIOagiOmHjOeahOmhtemdouS7juS4jemUgOavge+8jA0KICAgICAqIOi/lOWbnuaXtuaVsOaNri/mu5rliqjkvY3nva4v6L6T5YWl5qGG5YaF5a655Y6f5qC36L+Y5Zyo77yM6Zu26YeN5paw5Yqg6L2944CCDQogICAgICovDQogICAgdmFsIHVpZHMgPSBtdXRhYmxlU3RhdGVMaXN0T2Y8TG9uZz4oMEwpDQogICAgcHJpdmF0ZSB2YXIgdWlkU2VxID0gMEwNCg0KICAgIC8qKg0KICAgICAqIOWImuiiqyBwb3Ag5Ye65Y6755qE6aG16Z2i77yI5bm954G15bGC77yJ77ya6L+U5Zue5Yqo55S75pyf6Ze05LuN5riy5p+T5Zyo5pyA5LiK5bGC5pKt5pS+5ruR5Ye677yMDQogICAgICog5Yqo55S757uT5p2f5ZCO55SxIFtjbGVhckdob3N0XSDnnJ/mraPnp7vpmaTjgILmsqHmnInlroPvvIxwb3Ag55qE556s6Ze05pen6aG16Z2i5Lya55u05o6l5raI5aSx44CCDQogICAgICovDQogICAgdmFyIGdob3N0IGJ5IG11dGFibGVTdGF0ZU9mPFNjcmVlbj8+KG51bGwpDQogICAgICAgIHByaXZhdGUgc2V0DQogICAgdmFyIGdob3N0VWlkIGJ5IG11dGFibGVTdGF0ZU9mKDBMKQ0KICAgICAgICBwcml2YXRlIHNldA0KDQogICAgZnVuIGNsZWFyR2hvc3QoKSB7DQogICAgICAgIGdob3N0ID0gbnVsbA0KICAgICAgICBnaG9zdFVpZCA9IDBMDQogICAgfQ0KDQogICAgZnVuIHVpZEF0KGluZGV4OiBJbnQpOiBMb25nID0gdWlkcy5nZXRPck51bGwoaW5kZXgpID86IGluZGV4LnRvTG9uZygpDQoNCiAgICB2YXIgdGFiQ291bnQgYnkgbXV0YWJsZVN0YXRlT2YoMykNCg0KICAgIHZhbCBjdXJyZW50OiBTY3JlZW4gZ2V0KCkgPSBzdGFjay5sYXN0KCkNCg0KICAgIHZhbCBpc0F0Um9vdDogQm9vbGVhbiBnZXQoKSA9IHN0YWNrLnNpemUgPT0gMQ0KDQogICAgdmFsIGN1cnJlbnRUYWI6IEludCBnZXQoKSA9IChzdGFjay5maXJzdE9yTnVsbCgpIGFzPyBTY3JlZW4uVGFiKT8uaW5kZXggPzogMA0KDQogICAgcHJpdmF0ZSBmdW4gcmVzZXRJZHMoKSB7DQogICAgICAgIHVpZHMuY2xlYXIoKQ0KICAgICAgICB1aWRzLmFkZCgrK3VpZFNlcSkNCiAgICB9DQoNCiAgICBmdW4gc3dpdGNoVGFiKGluZGV4OiBJbnQpIHsNCiAgICAgICAgaWYgKGluZGV4ICFpbiAwIHVudGlsIHRhYkNvdW50KSByZXR1cm4NCiAgICAgICAgc3RhY2suY2xlYXIoKQ0KICAgICAgICBzdGFjay5hZGQoU2NyZWVuLlRhYihpbmRleCkpDQogICAgICAgIHJlc2V0SWRzKCkNCiAgICAgICAgY2xlYXJHaG9zdCgpDQogICAgICAgIHNhdmUoKQ0KICAgIH0NCg0KICAgIGZ1biBwdXNoKHNjcmVlbjogU2NyZWVuKSB7DQogICAgICAgIGlmIChzdGFjay5zaXplID4gMjQpIHJldHVybg0KICAgICAgICBzdGFjay5hZGQoc2NyZWVuKQ0KICAgICAgICB1aWRzLmFkZCgrK3VpZFNlcSkNCiAgICAgICAgc2F2ZSgpDQogICAgfQ0KDQogICAgZnVuIHJlcGxhY2VUb3Aoc2NyZWVuOiBTY3JlZW4pIHsNCiAgICAgICAgaWYgKHN0YWNrLmlzTm90RW1wdHkoKSkgc3RhY2sucmVtb3ZlQXQoc3RhY2subGFzdEluZGV4KQ0KICAgICAgICBzdGFjay5hZGQoc2NyZWVuKQ0KICAgICAgICAvLyByZXBsYWNlVG9wIOivreS5ieS4iuaYryLmjaLkuIDpobUi77yM57uZ5a6D5pawIGlk77yM5pen54q25oCB5LiN5oGi5aSNDQogICAgICAgIGlmICh1aWRzLmlzTm90RW1wdHkoKSkgdWlkc1t1aWRzLmxhc3RJbmRleF0gPSArK3VpZFNlcSBlbHNlIHVpZHMuYWRkKCsrdWlkU2VxKQ0KICAgICAgICBzYXZlKCkNCiAgICB9DQoNCiAgICAvKiogQHJldHVybiB0cnVlIOihqOekuuW3sua2iOi0ue+8m2ZhbHNlIOihqOekuuivpeS6pOe7meezu+e7n+S6hiAqLw0KICAgIGZ1biBiYWNrKCk6IEJvb2xlYW4gew0KICAgICAgICBpZiAoc3RhY2suc2l6ZSA+IDEpIHsNCiAgICAgICAgICAgIC8vIOiiq+W8ueWHuueahOmhtemdouWFiOi/m+W5veeBteWxguaSreaUvua7keWHuuWKqOeUu++8jOetieWKqOeUu+e7k+adn+WGjeecn+ato+mUgOavgQ0KICAgICAgICAgICAgZ2hvc3QgPSBzdGFjay5sYXN0KCkNCiAgICAgICAgICAgIGdob3N0VWlkID0gdWlkcy5sYXN0KCkNCiAgICAgICAgICAgIHN0YWNrLnJlbW92ZUF0KHN0YWNrLmxhc3RJbmRleCkNCiAgICAgICAgICAgIGlmICh1aWRzLnNpemUgPiBzdGFjay5zaXplKSB1aWRzLnJlbW92ZUF0KHVpZHMubGFzdEluZGV4KQ0KICAgICAgICAgICAgc2F2ZSgpDQogICAgICAgICAgICByZXR1cm4gdHJ1ZQ0KICAgICAgICB9DQogICAgICAgIHZhbCB0YWIgPSBjdXJyZW50VGFiDQogICAgICAgIGlmICh0YWIgIT0gMCkgew0KICAgICAgICAgICAgc3dpdGNoVGFiKDApDQogICAgICAgICAgICByZXR1cm4gdHJ1ZQ0KICAgICAgICB9DQogICAgICAgIHJldHVybiBmYWxzZQ0KICAgIH0NCg0KICAgIGZ1biB0b1Jvb3QoKSB7DQogICAgICAgIGlmIChzdGFjay5zaXplIDw9IDEpIHJldHVybg0KICAgICAgICAvLyDov57nu63lvLnlpJrlsYLvvJrlj6rnlZnmnIDpobbpgqPkuKrlgZrlub3ngbXliqjnlLvvvIzlhbbkvZnnm7TmjqXplIDmr4ENCiAgICAgICAgZ2hvc3QgPSBzdGFjay5sYXN0KCkNCiAgICAgICAgZ2hvc3RVaWQgPSB1aWRzLmxhc3QoKQ0KICAgICAgICB3aGlsZSAoc3RhY2suc2l6ZSA+IDEpIHN0YWNrLnJlbW92ZUF0KHN0YWNrLmxhc3RJbmRleCkNCiAgICAgICAgd2hpbGUgKHVpZHMuc2l6ZSA+IDEpIHVpZHMucmVtb3ZlQXQodWlkcy5sYXN0SW5kZXgpDQogICAgICAgIHNhdmUoKQ0KICAgIH0NCg0KICAgIC8vIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSDmjIHkuYXljJYNCg0KICAgIHByaXZhdGUgZnVuIHNhdmUoKSB7DQogICAgICAgIHJ1bkNhdGNoaW5nIHsgcGVyc2lzdChzbmFwc2hvdCgpKSB9DQogICAgfQ0KDQogICAgLyoqIOaKiuaVtOadoeagiOe8luaIkOS4gOS4quWtl+espuS4su+8jOS+i+WmgiBgdDI7ZDphdGhlbnM7cjphdGhlbnMsY24sc3RhYmxlLE9TMS4wYOOAgiAqLw0KICAgIGZ1biBzbmFwc2hvdCgpOiBTdHJpbmcgPSBzdGFjay5qb2luVG9TdHJpbmcoIjsiKSB7IHMgLT4NCiAgICAgICAgd2hlbiAocykgew0KICAgICAgICAgICAgaXMgU2NyZWVuLlRhYiAtPiAidCR7cy5pbmRleH0iDQogICAgICAgICAgICBpcyBTY3JlZW4uRGV2aWNlRGV0YWlsIC0+ICJkJHtzLmNvZGV9Ig0KICAgICAgICAgICAgaXMgU2NyZWVuLlZlcnNpb25MaXN0IC0+ICJyJHtzLmNvZGV9LCR7cy5yZWdpb259LCR7cy5icmFuY2h9LCR7cy5oaWdobGlnaHR9Ig0KICAgICAgICAgICAgaXMgU2NyZWVuLlBvcnREZXRhaWwgLT4gInAke3MuaWR9Ig0KICAgICAgICAgICAgaXMgU2NyZWVuLkJyYW5kRGV2aWNlcyAtPiAiYiR7cy5icmFuZEtleX0iDQogICAgICAgICAgICBpcyBTY3JlZW4uQnJhbmRWZXJzaW9ucyAtPiAiQiR7ZW5jKHMuYnJhbmRLZXkpfSwke2VuYyhzLmRldmljZU5hbWUpfSwke2VuYyhzLnNlcmllcyl9Ig0KICAgICAgICAgICAgLy8g6aaW6aG15Yqf6IO95a2Q6aG177ya5Y2V5a2X5q+N5YmN57yA77yM5Y+C5pWw5Li656m6DQogICAgICAgICAgICBTY3JlZW4uRmlybXdhcmUgLT4gImYiDQogICAgICAgICAgICBTY3JlZW4uWGlhb21pWm9uZSAtPiAieCINCiAgICAgICAgICAgIFNjcmVlbi5GZWVkIC0+ICJuIg0KICAgICAgICAgICAgU2NyZWVuLlBhbkh1YiAtPiAiUCINCiAgICAgICAgICAgIFNjcmVlbi5VcGxvYWQgLT4gInUiDQogICAgICAgIH0NCiAgICB9DQoNCiAgICAvKioNCiAgICAgKiDku47lrZfnrKbkuLLmgaLlpI3jgILku7vkvZXkuIDmrrXop6PmnpDkuI3lh7rmnaXlsLHkuKLmjonpgqPkuIDmrrXvvJsNCiAgICAgKiDnrKzkuIDlsYLlv4XpobvmmK/kuKogVGFi77yM5ZCm5YiZ5pW05p2h5L2c5bqf77yI5Zue5Yiw6aaW6aG177yJ44CCDQogICAgICog5rOo5oSP77ya6L+Z6YeMKirkuI3op6blj5Hkv53lrZgqKu+8jOmBv+WFjeWQr+WKqOaXtuaKiuepuuS4suWGmeWbnuWOu+OAgg0KICAgICAqLw0KICAgIGZ1biByZXN0b3JlKHJhdzogU3RyaW5nPykgew0KICAgICAgICB2YWwgbGlzdCA9IHJhdy5vckVtcHR5KCkuc3BsaXQoJzsnKS5maWx0ZXIgeyBpdC5pc05vdEJsYW5rKCkgfS5tYXBOb3ROdWxsKDo6ZGVjb2RlU2NyZWVuKQ0KICAgICAgICBpZiAobGlzdC5pc0VtcHR5KCkgfHwgbGlzdC5maXJzdCgpICFpcyBTY3JlZW4uVGFiKSByZXR1cm4NCiAgICAgICAgdmFsIGZpeGVkID0gbGlzdC5tYXAgeyBpZiAoaXQgaXMgU2NyZWVuLlRhYikgU2NyZWVuLlRhYihpdC5pbmRleCkgZWxzZSBpdCB9DQogICAgICAgICAgICAudGFrZSgyNCkNCiAgICAgICAgICAgIC50b011dGFibGVMaXN0KCkNCiAgICAgICAgLy8g56ys5LiA5bGC55qEIHRhYiDntKLlvJXopoHlkIjms5UNCiAgICAgICAgdmFsIGhlYWQgPSBmaXhlZC5maXJzdCgpDQogICAgICAgIGlmICgoaGVhZCBhcyBTY3JlZW4uVGFiKS5pbmRleCAhaW4gMCB1bnRpbCB0YWJDb3VudCkgZml4ZWRbMF0gPSBTY3JlZW4uVGFiKDApDQogICAgICAgIHN0YWNrLmNsZWFyKCkNCiAgICAgICAgc3RhY2suYWRkQWxsKGZpeGVkKQ0KICAgICAgICAvLyDmgaLlpI3nmoTmoIjmsqHmnInljoblj7IgaWTvvIzpgJDlsYLph43mlrDliIbphY3vvIjov5vnqIvooqvmnYDlkI4gc2F2ZWFibGUg54q25oCB5pys5bCx5rKh5LqG77yJDQogICAgICAgIHJlc2V0SWRzKCkNCiAgICAgICAgcmVwZWF0KGZpeGVkLnNpemUgLSAxKSB7IHVpZHMuYWRkKCsrdWlkU2VxKSB9DQogICAgfQ0KDQogICAgcHJpdmF0ZSBmdW4gZGVjb2RlU2NyZWVuKHM6IFN0cmluZyk6IFNjcmVlbj8gPSB3aGVuIChzLmZpcnN0T3JOdWxsKCkpIHsNCiAgICAgICAgJ3QnIC0+IHMuZHJvcCgxKS50b0ludE9yTnVsbCgpPy5sZXQgeyBTY3JlZW4uVGFiKGl0KSB9DQogICAgICAgICdkJyAtPiBzLmRyb3AoMSkudGFrZUlmIHsgaXQuaXNOb3RCbGFuaygpIH0/LmxldCB7IFNjcmVlbi5EZXZpY2VEZXRhaWwoaXQpIH0NCiAgICAgICAgJ3AnIC0+IHMuZHJvcCgxKS50b0xvbmdPck51bGwoKT8ubGV0IHsgU2NyZWVuLlBvcnREZXRhaWwoaXQpIH0NCiAgICAgICAgJ3InIC0+IHsNCiAgICAgICAgICAgIHZhbCBmID0gcy5kcm9wKDEpLnNwbGl0KCcsJykNCiAgICAgICAgICAgIGlmIChmLnNpemUgPj0gMyAmJiBmWzBdLmlzTm90QmxhbmsoKSkgew0KICAgICAgICAgICAgICAgIFNjcmVlbi5WZXJzaW9uTGlzdChmWzBdLCBmWzFdLCBmWzJdLCBmLmdldE9yRWxzZSgzKSB7ICIiIH0pDQogICAgICAgICAgICB9IGVsc2Ugew0KICAgICAgICAgICAgICAgIG51bGwNCiAgICAgICAgICAgIH0NCiAgICAgICAgfQ0KICAgICAgICAvLyDmnLrlnovlkI3ph4zlj6/og73mnInpgJflj7fvvIh2aXZvIOacieOAjGlRT08gNyA0R0IrMTI4R0LniYjjgI3ov5nnsbvvvInvvIwNCiAgICAgICAgLy8g5omA5Lul5oyJ5YiG6ZqU56ym5YiH5oiQ5LiJ5q6177yM56ys5LiA5q615piv5ZOB54mM44CB5pyA5ZCO5LiA5q615piv57O75YiX77yM5Lit6Ze05YWo6YOo566X5py65Z6L5ZCNDQogICAgICAgICdCJyAtPiB7DQogICAgICAgICAgICB2YWwgZiA9IHMuZHJvcCgxKS5zcGxpdCgnLCcpDQogICAgICAgICAgICBpZiAoZi5zaXplID49IDMpIHsNCiAgICAgICAgICAgICAgICBTY3JlZW4uQnJhbmRWZXJzaW9ucyh1bmVzY2FwZUZpZWxkKGZbMF0pLCBmLmRyb3BMYXN0KDIpLmpvaW5Ub1N0cmluZygiLCIpLCB1bmVzY2FwZUZpZWxkKGYubGFzdCgpKSkNCiAgICAgICAgICAgIH0gZWxzZSB7DQogICAgICAgICAgICAgICAgbnVsbA0KICAgICAgICAgICAgfQ0KICAgICAgICB9DQogICAgICAgICdiJyAtPiBzLmRyb3AoMSkudGFrZUlmIHsgaXQuaXNOb3RCbGFuaygpIH0/LmxldCB7IFNjcmVlbi5CcmFuZERldmljZXModW5lc2NhcGVGaWVsZChpdCkpIH0NCiAgICAgICAgLy8g6aaW6aG15Yqf6IO95a2Q6aG1DQogICAgICAgICdmJyAtPiBTY3JlZW4uRmlybXdhcmUNCiAgICAgICAgJ3gnIC0+IFNjcmVlbi5YaWFvbWlab25lDQogICAgICAgICduJyAtPiBTY3JlZW4uRmVlZA0KICAgICAgICAnUCcgLT4gU2NyZWVuLlBhbkh1Yg0KICAgICAgICAndScgLT4gU2NyZWVuLlVwbG9hZA0KICAgICAgICBlbHNlIC0+IG51bGwNCiAgICB9DQoNCiAgICAvKiog5b+r54Wn6YeM6YCX5Y+35YiG6ZqU55qE5a2X5q616KaB6L2s5LmJ77yM5ZCm5YiZ5py65Z6L5ZCN6YeM55qE6YCX5Y+35Lya5oqK5qCI6Kej5p6Q5Z2P44CCICovDQogICAgcHJpdmF0ZSBmdW4gZW5jKHM6IFN0cmluZyk6IFN0cmluZyA9IGphdmEubmV0LlVSTEVuY29kZXIuZW5jb2RlKHMsICJVVEYtOCIpDQp9DQoNCi8qKiDop6PmnpAgcm9taHViOi8vIOa3semTvuOAgumAmuefpeeCueWHu+WQjui1sOi/memHjOOAgiAqLw0KZnVuIHBhcnNlRGVlcExpbmsodXJpOiBTdHJpbmcpOiBTY3JlZW4/IHsNCiAgICBpZiAoIXVyaS5zdGFydHNXaXRoKCJyb21odWI6Ly8iKSkgcmV0dXJuIG51bGwNCiAgICB2YWwgYm9keSA9IHVyaS5yZW1vdmVQcmVmaXgoInJvbWh1YjovLyIpDQogICAgdmFsIHBhdGggPSBib2R5LnN1YnN0cmluZ0JlZm9yZSgnPycpDQogICAgdmFsIHF1ZXJ5ID0gYm9keS5zdWJzdHJpbmdBZnRlcignPycsICIiKQ0KICAgIHZhbCBxOiBNYXA8U3RyaW5nLCBTdHJpbmc+ID0gcXVlcnkuc3BsaXQoJyYnKQ0KICAgICAgICAubWFwTm90TnVsbCB7DQogICAgICAgICAgICB2YWwgaSA9IGl0LmluZGV4T2YoJz0nKQ0KICAgICAgICAgICAgaWYgKGkgPD0gMCkgbnVsbCBlbHNlIGl0LnN1YnN0cmluZygwLCBpKSB0byBkZWNvZGUoaXQuc3Vic3RyaW5nKGkgKyAxKSkNCiAgICAgICAgfQ0KICAgICAgICAudG9NYXAoKQ0KDQogICAgcmV0dXJuIHdoZW4gKHBhdGgpIHsNCiAgICAgICAgInZlciIgLT4gew0KICAgICAgICAgICAgdmFsIGNvZGUgPSBxWyJjb2RlIl0ub3JFbXB0eSgpDQogICAgICAgICAgICBpZiAoY29kZS5pc0JsYW5rKCkpIG51bGwNCiAgICAgICAgICAgIGVsc2UgU2NyZWVuLlZlcnNpb25MaXN0KA0KICAgICAgICAgICAgICAgIGNvZGUgPSBjb2RlLA0KICAgICAgICAgICAgICAgIHJlZ2lvbiA9IHFbInJlZ2lvbiJdLm9yRW1wdHkoKS5pZkJsYW5rIHsgImFsbCIgfSwNCiAgICAgICAgICAgICAgICBicmFuY2ggPSBxWyJicmFuY2giXS5vckVtcHR5KCkuaWZCbGFuayB7ICJhbGwiIH0sDQogICAgICAgICAgICAgICAgaGlnaGxpZ2h0ID0gcVsidmVyIl0ub3JFbXB0eSgpLA0KICAgICAgICAgICAgKQ0KICAgICAgICB9DQoNCiAgICAgICAgInBvcnQiIC0+IHFbImlkIl0/LnRvTG9uZ09yTnVsbCgpPy5sZXQgeyBTY3JlZW4uUG9ydERldGFpbChpdCkgfQ0KICAgICAgICAiZGV2IiAtPiBxWyJjb2RlIl0/LnRha2VJZiB7IGl0LmlzTm90QmxhbmsoKSB9Py5sZXQgeyBTY3JlZW4uRGV2aWNlRGV0YWlsKGl0KSB9DQogICAgICAgIGVsc2UgLT4gbnVsbA0KICAgIH0NCn0NCg0KcHJpdmF0ZSBmdW4gZGVjb2RlKHM6IFN0cmluZyk6IFN0cmluZyA9IHJ1bkNhdGNoaW5nIHsNCiAgICBqYXZhLm5ldC5VUkxEZWNvZGVyLmRlY29kZShzLCAiVVRGLTgiKQ0KfS5nZXRPckRlZmF1bHQocykNCg0KLyoqIOW/q+eFp+Wtl+auteeahOWPjei9rOS5ie+8jOS4jiBbQXBwTmF2U3RhdGVdIOmHjOeahCBlbmMg6YWN5a+544CCICovDQpwcml2YXRlIGZ1biB1bmVzY2FwZUZpZWxkKHM6IFN0cmluZyk6IFN0cmluZyA9IHJ1bkNhdGNoaW5nIHsNCiAgICBqYXZhLm5ldC5VUkxEZWNvZGVyLmRlY29kZShzLCAiVVRGLTgiKQ0KfS5nZXRPckRlZmF1bHQocykNCg==
+package org.linbaogu.romhub.ui.nav
+
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateListOf
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.setValue
+
+/** 页面栈里的一层。参照 KernelSU 的 Navigator：单一栈，pop 只在 size>1 时发生。 */
+sealed interface Screen {
+    data class Tab(val index: Int) : Screen
+    data class DeviceDetail(val code: String) : Screen
+    data class VersionList(
+        val code: String,
+        val region: String,
+        val branch: String,
+        val highlight: String = "",
+    ) : Screen
+    data class PortDetail(val id: Long) : Screen
+
+    /** 某品牌下的机型列表。 [brandKey] 见 BrandCatalog。 */
+    data class BrandDevices(val brandKey: String) : Screen
+
+    /** 某台机型的版本列表。 [brandKey] + [deviceName] 定位一台机器。 */
+    data class BrandVersions(
+        val brandKey: String,
+        val deviceName: String,
+        val series: String,
+    ) : Screen
+
+    /**
+     * 首页「功能」里的四个入口。
+     *
+     * 以前这四个是**在首页内联展开**的（一个 `sub` 局部状态直接换内容），
+     * 代价是：① 切换没有转场动画；② 返回逻辑和外层页面栈不一致。
+     * 现在改成正常的页面栈，进出场就走 [AppRoot] 里那套 HyperOS 弹簧滑入 / 滑出
+     * （和 HyperCeiler 的 `provision_slide_in_right` 一个意思），返回也统一由
+     * [AppNav.back] 处理。
+     *
+     * [Firmware] 现在是**品牌页**（小米专区 + 各品牌），
+     * 点「小米专区」才进 [XiaomiZone]（原来那套小米机型库）。
+     */
+    object Firmware : Screen
+
+    /** 小米专区：原来的机型库（服务端数据源），从品牌页进。 */
+    object XiaomiZone : Screen
+    object Feed : Screen
+    object PanHub : Screen
+    object Upload : Screen
+}
+
+/**
+ * 导航状态。
+ *
+ * 返回优先级照搬 KernelSU：
+ *  ① 还有更深的页面 → pop
+ *  ② 已在 tab 根、但不在第 0 个 tab → 回第 0 个 tab
+ *  ③ 已在第 0 个 tab 的根 → 交回系统（Activity 自己决定退出）
+ *
+ * 另外会把整条栈序列化存进 [Prefs]，这样跳浏览器（或系统把进程回收）之后回来，
+ * 还停在原来那一页，不会被踹回首页。
+ */
+class AppNavState(private val persist: (String) -> Unit = {}) {
+
+    val stack = mutableStateListOf<Screen>(Screen.Tab(0))
+
+    /**
+     * 与 [stack] 平行的页面唯一 id（自增）。
+     *
+     * 用途：深层页面**常驻 composition** 的 key —— 栈里的页面从不销毁，
+     * 返回时数据/滚动位置/输入框内容原样还在，零重新加载。
+     */
+    val uids = mutableStateListOf<Long>(0L)
+    private var uidSeq = 0L
+
+    /**
+     * 刚被 pop 出去的页面（幽灵层）：返回动画期间仍渲染在最上层播放滑出，
+     * 动画结束后由 [clearGhost] 真正移除。没有它，pop 的瞬间旧页面会直接消失。
+     */
+    var ghost by mutableStateOf<Screen?>(null)
+        private set
+    var ghostUid by mutableStateOf(0L)
+        private set
+
+    fun clearGhost() {
+        ghost = null
+        ghostUid = 0L
+    }
+
+    fun uidAt(index: Int): Long = uids.getOrNull(index) ?: index.toLong()
+
+    var tabCount by mutableStateOf(3)
+
+    val current: Screen get() = stack.last()
+
+    val isAtRoot: Boolean get() = stack.size == 1
+
+    val currentTab: Int get() = (stack.firstOrNull() as? Screen.Tab)?.index ?: 0
+
+    private fun resetIds() {
+        uids.clear()
+        uids.add(++uidSeq)
+    }
+
+    fun switchTab(index: Int) {
+        if (index !in 0 until tabCount) return
+        stack.clear()
+        stack.add(Screen.Tab(index))
+        resetIds()
+        clearGhost()
+        save()
+    }
+
+    fun push(screen: Screen) {
+        if (stack.size > 24) return
+        stack.add(screen)
+        uids.add(++uidSeq)
+        save()
+    }
+
+    fun replaceTop(screen: Screen) {
+        if (stack.isNotEmpty()) stack.removeAt(stack.lastIndex)
+        stack.add(screen)
+        // replaceTop 语义上是"换一页"，给它新 id，旧状态不恢复
+        if (uids.isNotEmpty()) uids[uids.lastIndex] = ++uidSeq else uids.add(++uidSeq)
+        save()
+    }
+
+    /** @return true 表示已消费；false 表示该交给系统了 */
+    fun back(): Boolean {
+        if (stack.size > 1) {
+            // 被弹出的页面先进幽灵层播放滑出动画，等动画结束再真正销毁
+            ghost = stack.last()
+            ghostUid = uids.last()
+            stack.removeAt(stack.lastIndex)
+            if (uids.size > stack.size) uids.removeAt(uids.lastIndex)
+            save()
+            return true
+        }
+        val tab = currentTab
+        if (tab != 0) {
+            switchTab(0)
+            return true
+        }
+        return false
+    }
+
+    fun toRoot() {
+        if (stack.size <= 1) return
+        // 连续弹多层：只留最顶那个做幽灵动画，其余直接销毁
+        ghost = stack.last()
+        ghostUid = uids.last()
+        while (stack.size > 1) stack.removeAt(stack.lastIndex)
+        while (uids.size > 1) uids.removeAt(uids.lastIndex)
+        save()
+    }
+
+    // ------------------------------------------------------------ 持久化
+
+    private fun save() {
+        runCatching { persist(snapshot()) }
+    }
+
+    /** 把整条栈编成一个字符串，例如 `t2;d:athens;r:athens,cn,stable,OS1.0`。 */
+    fun snapshot(): String = stack.joinToString(";") { s ->
+        when (s) {
+            is Screen.Tab -> "t${s.index}"
+            is Screen.DeviceDetail -> "d${s.code}"
+            is Screen.VersionList -> "r${s.code},${s.region},${s.branch},${s.highlight}"
+            is Screen.PortDetail -> "p${s.id}"
+            is Screen.BrandDevices -> "b${s.brandKey}"
+            is Screen.BrandVersions -> "B${enc(s.brandKey)},${enc(s.deviceName)},${enc(s.series)}"
+            // 首页功能子页：单字母前缀，参数为空
+            Screen.Firmware -> "f"
+            Screen.XiaomiZone -> "x"
+            Screen.Feed -> "n"
+            Screen.PanHub -> "P"
+            Screen.Upload -> "u"
+        }
+    }
+
+    /**
+     * 从字符串恢复。任何一段解析不出来就丢掉那一段；
+     * 第一层必须是个 Tab，否则整条作废（回到首页）。
+     * 注意：这里**不触发保存**，避免启动时把空串写回去。
+     */
+    fun restore(raw: String?) {
+        val list = raw.orEmpty().split(';').filter { it.isNotBlank() }.mapNotNull(::decodeScreen)
+        if (list.isEmpty() || list.first() !is Screen.Tab) return
+        val fixed = list.map { if (it is Screen.Tab) Screen.Tab(it.index) else it }
+            .take(24)
+            .toMutableList()
+        // 第一层的 tab 索引要合法
+        val head = fixed.first()
+        if ((head as Screen.Tab).index !in 0 until tabCount) fixed[0] = Screen.Tab(0)
+        stack.clear()
+        stack.addAll(fixed)
+        // 恢复的栈没有历史 id，逐层重新分配（进程被杀后 saveable 状态本就没了）
+        resetIds()
+        repeat(fixed.size - 1) { uids.add(++uidSeq) }
+    }
+
+    private fun decodeScreen(s: String): Screen? = when (s.firstOrNull()) {
+        't' -> s.drop(1).toIntOrNull()?.let { Screen.Tab(it) }
+        'd' -> s.drop(1).takeIf { it.isNotBlank() }?.let { Screen.DeviceDetail(it) }
+        'p' -> s.drop(1).toLongOrNull()?.let { Screen.PortDetail(it) }
+        'r' -> {
+            val f = s.drop(1).split(',')
+            if (f.size >= 3 && f[0].isNotBlank()) {
+                Screen.VersionList(f[0], f[1], f[2], f.getOrElse(3) { "" })
+            } else {
+                null
+            }
+        }
+        // 机型名里可能有逗号（vivo 有「iQOO 7 4GB+128GB版」这类），
+        // 所以按分隔符切成三段，第一段是品牌、最后一段是系列，中间全部算机型名
+        'B' -> {
+            val f = s.drop(1).split(',')
+            if (f.size >= 3) {
+                Screen.BrandVersions(unescapeField(f[0]), f.dropLast(2).joinToString(","), unescapeField(f.last()))
+            } else {
+                null
+            }
+        }
+        'b' -> s.drop(1).takeIf { it.isNotBlank() }?.let { Screen.BrandDevices(unescapeField(it)) }
+        // 首页功能子页
+        'f' -> Screen.Firmware
+        'x' -> Screen.XiaomiZone
+        'n' -> Screen.Feed
+        'P' -> Screen.PanHub
+        'u' -> Screen.Upload
+        else -> null
+    }
+
+    /** 快照里逗号分隔的字段要转义，否则机型名里的逗号会把栈解析坏。 */
+    private fun enc(s: String): String = java.net.URLEncoder.encode(s, "UTF-8")
+}
+
+/** 解析 romhub:// 深链。通知点击后走这里。 */
+fun parseDeepLink(uri: String): Screen? {
+    if (!uri.startsWith("romhub://")) return null
+    val body = uri.removePrefix("romhub://")
+    val path = body.substringBefore('?')
+    val query = body.substringAfter('?', "")
+    val q: Map<String, String> = query.split('&')
+        .mapNotNull {
+            val i = it.indexOf('=')
+            if (i <= 0) null else it.substring(0, i) to decode(it.substring(i + 1))
+        }
+        .toMap()
+
+    return when (path) {
+        "ver" -> {
+            val code = q["code"].orEmpty()
+            if (code.isBlank()) null
+            else Screen.VersionList(
+                code = code,
+                region = q["region"].orEmpty().ifBlank { "all" },
+                branch = q["branch"].orEmpty().ifBlank { "all" },
+                highlight = q["ver"].orEmpty(),
+            )
+        }
+
+        "port" -> q["id"]?.toLongOrNull()?.let { Screen.PortDetail(it) }
+        "dev" -> q["code"]?.takeIf { it.isNotBlank() }?.let { Screen.DeviceDetail(it) }
+        else -> null
+    }
+}
+
+private fun decode(s: String): String = runCatching {
+    java.net.URLDecoder.decode(s, "UTF-8")
+}.getOrDefault(s)
+
+/** 快照字段的反转义，与 [AppNavState] 里的 enc 配对。 */
+private fun unescapeField(s: String): String = runCatching {
+    java.net.URLDecoder.decode(s, "UTF-8")
+}.getOrDefault(s)

@@ -1,1 +1,95 @@
-LyoKICogVGhpcyBmaWxlIGlzIHBhcnQgb2YgUk9NIEh1YiwgcmVsZWFzZWQgdW5kZXIgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSB2My4wLgogKgogKiDmnKzmlofku7bnp7vmpI0gLyDmlLnlhpnoh6ogSHlwZXJDZWlsZXLvvIhBR1BMLTMuMO+8jENvcHlyaWdodCAoQykgMjAyMy0yMDI2IEh5cGVyQ2VpbGVyCiAqIENvbnRyaWJ1dGlvbnPvvInvvIzmiJbkuLrlhbbnrYnku7fmm7/ouqvlrp7njrAg4oCU4oCUIOWujOaVtOadpea6kOS4jum4o+iwouingemhueebruagueebruW9lSBOT1RJQ0UubWTjgIIKICoKICogVGhpcyBwcm9ncmFtIGlzIGZyZWUgc29mdHdhcmU6IHlvdSBjYW4gcmVkaXN0cmlidXRlIGl0IGFuZC9vciBtb2RpZnkgaXQgdW5kZXIgdGhlIHRlcm1zCiAqIG9mIHRoZSBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UgYXMgcHVibGlzaGVkIGJ5IHRoZSBGcmVlIFNvZnR3YXJlIEZvdW5kYXRpb24sCiAqIGVpdGhlciB2ZXJzaW9uIDMgb2YgdGhlIExpY2Vuc2UuCiAqCiAqIFRoaXMgcHJvZ3JhbSBpcyBkaXN0cmlidXRlZCBpbiB0aGUgaG9wZSB0aGF0IGl0IHdpbGwgYmUgdXNlZnVsLCBidXQgV0lUSE9VVCBBTlkgV0FSUkFOVFk7CiAqIHdpdGhvdXQgZXZlbiB0aGUgaW1wbGllZCB3YXJyYW50eSBvZiBNRVJDSEFOVEFCSUxJVFkgb3IgRklUTkVTUyBGT1IgQSBQQVJUSUNVTEFSIFBVUlBPU0UuCiAqIFNlZSB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGZvciBtb3JlIGRldGFpbHMuCiAqCiAqIFlvdSBzaG91bGQgaGF2ZSByZWNlaXZlZCBhIGNvcHkgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBhbG9uZyB3aXRoIHRoaXMKICogcHJvZ3JhbS4gIElmIG5vdCwgc2VlIDxodHRwczovL3d3dy5nbnUub3JnL2xpY2Vuc2VzLz4uCiAqLwoKcGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLmhjLmFib3V0LndpZGdldDsKCmltcG9ydCBzdGF0aWMgb3JnLmxpbmJhb2d1LnJvbWh1Yi5oYy51dGlsLkRldmljZUhlbHBlci5TeXN0ZW0uZ2V0U3lzdGVtVmVyc2lvbkluY3JlbWVudGFsOwppbXBvcnQgc3RhdGljIG9yZy5saW5iYW9ndS5yb21odWIuaGMudXRpbC5EZXZpY2VIZWxwZXIuU3lzdGVtLmlzTW9yZUFuZHJvaWRWZXJzaW9uOwppbXBvcnQgc3RhdGljIG9yZy5saW5iYW9ndS5yb21odWIuaGMudXRpbC5Qcm9wVXRpbHMuZ2V0UHJvcDsKaW1wb3J0IHN0YXRpYyBvcmcubGluYmFvZ3Uucm9taHViLmhjLnV0aWwuUHJvcFV0aWxzLmdldFByb3BTdTsKCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dDsKaW1wb3J0IGFuZHJvaWQudXRpbC5BdHRyaWJ1dGVTZXQ7CmltcG9ydCBhbmRyb2lkLnZpZXcuTGF5b3V0SW5mbGF0ZXI7CmltcG9ydCBhbmRyb2lkLndpZGdldC5GcmFtZUxheW91dDsKaW1wb3J0IGFuZHJvaWQud2lkZ2V0LlRleHRWaWV3OwoKaW1wb3J0IGFuZHJvaWR4LmFubm90YXRpb24uTm9uTnVsbDsKaW1wb3J0IGFuZHJvaWR4LmFubm90YXRpb24uTnVsbGFibGU7CgppbXBvcnQgb3JnLmxpbmJhb2d1LnJvbWh1Yi5SOwppbXBvcnQgb3JnLmxpbmJhb2d1LnJvbWh1Yi5oYy51dGlsLkFib3V0UGhvbmVVdGlsczsKCmltcG9ydCBqYXZhLnV0aWwuT2JqZWN0czsKCnB1YmxpYyBjbGFzcyBEZXZpY2VJbmZvQ2FyZCBleHRlbmRzIEZyYW1lTGF5b3V0IHsKCiAgICBwcml2YXRlIFRleHRWaWV3IG1EZXZpY2VOYW1lVGl0bGU7CiAgICBwcml2YXRlIFRleHRWaWV3IG1EZXZpY2VJbmZvRGV2aWNlVGl0bGUsIG1EZXZpY2VJbmZvRGV2aWNlU3VtbWFyeTsKICAgIHByaXZhdGUgVGV4dFZpZXcgbURldmljZUluZm9BbmRyb2lkVGl0bGUsIG1EZXZpY2VJbmZvQW5kcm9pZFN1bW1hcnk7CiAgICBwcml2YXRlIFRleHRWaWV3IG1EZXZpY2VJbmZvT1NUaXRsZSwgbURldmljZUluZm9PU1N1bW1hcnk7CgogICAgcHVibGljIERldmljZUluZm9DYXJkKEBOb25OdWxsIENvbnRleHQgY29udGV4dCkgewogICAgICAgIHRoaXMoY29udGV4dCwgbnVsbCk7CiAgICB9CgogICAgcHVibGljIERldmljZUluZm9DYXJkKEBOb25OdWxsIENvbnRleHQgY29udGV4dCwgQE51bGxhYmxlIEF0dHJpYnV0ZVNldCBhdHRycykgewogICAgICAgIHN1cGVyKGNvbnRleHQsIGF0dHJzKTsKICAgICAgICBpbml0VmlldygpOwogICAgfQoKICAgIHByaXZhdGUgdm9pZCBpbml0VmlldygpIHsKICAgICAgICBMYXlvdXRJbmZsYXRlci5mcm9tKGdldENvbnRleHQoKSkuaW5mbGF0ZShSLmxheW91dC5hcHBfZGV2aWNlX2luZm9faXRlbTIsIHRoaXMsIHRydWUpOwogICAgICAgIG1EZXZpY2VOYW1lVGl0bGUgPSBmaW5kVmlld0J5SWQoUi5pZC5kZXZpY2VfbmFtZSk7CiAgICAgICAgbURldmljZUluZm9EZXZpY2VUaXRsZSA9IGZpbmRWaWV3QnlJZChSLmlkLmRldmljZV9pbmZvX2RldmljZV90aXRsZSk7CiAgICAgICAgbURldmljZUluZm9EZXZpY2VTdW1tYXJ5ID0gZmluZFZpZXdCeUlkKFIuaWQuZGV2aWNlX2luZm9fZGV2aWNlX3N1bW1hcnkpOwogICAgICAgIG1EZXZpY2VJbmZvQW5kcm9pZFRpdGxlID0gZmluZFZpZXdCeUlkKFIuaWQuZGV2aWNlX2luZm9fYW5kcm9pZF90aXRsZSk7CiAgICAgICAgbURldmljZUluZm9BbmRyb2lkU3VtbWFyeSA9IGZpbmRWaWV3QnlJZChSLmlkLmRldmljZV9pbmZvX2FuZHJvaWRfc3VtbWFyeSk7CiAgICAgICAgbURldmljZUluZm9PU1RpdGxlID0gZmluZFZpZXdCeUlkKFIuaWQuZGV2aWNlX2luZm9fb3NfdGl0bGUpOwogICAgICAgIG1EZXZpY2VJbmZvT1NTdW1tYXJ5ID0gZmluZFZpZXdCeUlkKFIuaWQuZGV2aWNlX2luZm9fb3Nfc3VtbWFyeSk7CgogICAgICAgcmVmcmVzaERldmljZUluZm8oKTsKICAgIH0KCgogICAgcHVibGljIHZvaWQgcmVmcmVzaERldmljZUluZm8oKSB7CiAgICAgICAgU3RyaW5nIGRldmljZU5hbWU7CiAgICAgICAgaWYgKGlzTW9yZUFuZHJvaWRWZXJzaW9uKDM2KSkgewogICAgICAgICAgICAvLyDmiJHlsLHor7TmiJHorr7lpIflkI3lrZfmgI7kuYjlsLHlr7nkuI3kuIrkuobvvIzov5nnjqnmhI/ov5jopoEgUm9vdCDojrflj5bvvIznoLTng4IKICAgICAgICAgICAgZGV2aWNlTmFtZSA9IGdldFByb3BTdSgicGVyc2lzdC5wcml2YXRlLmRldmljZV9uYW1lIik7CiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgZGV2aWNlTmFtZSA9IGdldFByb3AoInBlcnNpc3Quc3lzLmRldmljZV9uYW1lIik7CiAgICAgICAgfQogICAgICAgIFN0cmluZyBtYXJrZXROYW1lID0gZ2V0UHJvcCgicm8ucHJvZHVjdC5tYXJrZXRuYW1lIik7CiAgICAgICAgU3RyaW5nIGFuZHJvaWRWZXJzaW9uID0gZ2V0UHJvcCgicm8uYnVpbGQudmVyc2lvbi5yZWxlYXNlIik7CiAgICAgICAgU3RyaW5nIG9zVmVyc2lvbiA9IEFib3V0UGhvbmVVdGlscy5hZGRWZXJzaW9uU3VmZml4KGdldENvbnRleHQoKSk7CgogICAgICAgIGlmIChPYmplY3RzLmVxdWFscyhtYXJrZXROYW1lLCAiIikpIG1hcmtldE5hbWUgPSBhbmRyb2lkLm9zLkJ1aWxkLk1PREVMOwogICAgICAgIGlmIChPYmplY3RzLmVxdWFscyhkZXZpY2VOYW1lLCAiIikpIGRldmljZU5hbWUgPSBtYXJrZXROYW1lOwogICAgICAgIGlmIChPYmplY3RzLmVxdWFscyhvc1ZlcnNpb24sICIiKSkgb3NWZXJzaW9uID0gZ2V0U3lzdGVtVmVyc2lvbkluY3JlbWVudGFsKCk7CiAgICAgICAgaWYgKE9iamVjdHMuZXF1YWxzKG9zVmVyc2lvbiwgIiIpKSBvc1ZlcnNpb24gPSBhbmRyb2lkVmVyc2lvbjsKCiAgICAgICAgbURldmljZU5hbWVUaXRsZS5zZXRUZXh0KGRldmljZU5hbWUpOwogICAgICAgIG1EZXZpY2VJbmZvRGV2aWNlVGl0bGUuc2V0VGV4dChtYXJrZXROYW1lKTsKICAgICAgICBtRGV2aWNlSW5mb0RldmljZVN1bW1hcnkuc2V0VGV4dChvcmcubGluYmFvZ3Uucm9taHViLlIuc3RyaW5nLmFib3V0X2RldmljZV9pbmZvX2RldmljZSk7CiAgICAgICAgbURldmljZUluZm9BbmRyb2lkVGl0bGUuc2V0VGV4dChhbmRyb2lkVmVyc2lvbik7CiAgICAgICAgbURldmljZUluZm9BbmRyb2lkU3VtbWFyeS5zZXRUZXh0KG9yZy5saW5iYW9ndS5yb21odWIuUi5zdHJpbmcuYWJvdXRfZGV2aWNlX2luZm9fYW5kcm9pZCk7CiAgICAgICAgbURldmljZUluZm9PU1RpdGxlLnNldFRleHQob3NWZXJzaW9uKTsKICAgICAgICBtRGV2aWNlSW5mb09TU3VtbWFyeS5zZXRUZXh0KG9yZy5saW5iYW9ndS5yb21odWIuUi5zdHJpbmcuYWJvdXRfZGV2aWNlX2luZm9fb3MpOwogICAgfQp9Cg==
+/*
+ * This file is part of ROM Hub, released under the GNU Affero General Public License v3.0.
+ *
+ * 本文件移植 / 改写自 HyperCeiler（AGPL-3.0，Copyright (C) 2023-2026 HyperCeiler
+ * Contributions），或为其等价替身实现 —— 完整来源与鸣谢见项目根目录 NOTICE.md。
+ *
+ * This program is free software: you can redistribute it and/or modify it under the terms
+ * of the GNU Affero General Public License as published by the Free Software Foundation,
+ * either version 3 of the License.
+ *
+ * This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+ * without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * See the GNU Affero General Public License for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License along with this
+ * program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
+package org.linbaogu.romhub.hc.about.widget;
+
+import static org.linbaogu.romhub.hc.util.DeviceHelper.System.getSystemVersionIncremental;
+import static org.linbaogu.romhub.hc.util.DeviceHelper.System.isMoreAndroidVersion;
+import static org.linbaogu.romhub.hc.util.PropUtils.getProp;
+import static org.linbaogu.romhub.hc.util.PropUtils.getPropSu;
+
+import android.content.Context;
+import android.util.AttributeSet;
+import android.view.LayoutInflater;
+import android.widget.FrameLayout;
+import android.widget.TextView;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+
+import org.linbaogu.romhub.R;
+import org.linbaogu.romhub.hc.util.AboutPhoneUtils;
+
+import java.util.Objects;
+
+public class DeviceInfoCard extends FrameLayout {
+
+    private TextView mDeviceNameTitle;
+    private TextView mDeviceInfoDeviceTitle, mDeviceInfoDeviceSummary;
+    private TextView mDeviceInfoAndroidTitle, mDeviceInfoAndroidSummary;
+    private TextView mDeviceInfoOSTitle, mDeviceInfoOSSummary;
+
+    public DeviceInfoCard(@NonNull Context context) {
+        this(context, null);
+    }
+
+    public DeviceInfoCard(@NonNull Context context, @Nullable AttributeSet attrs) {
+        super(context, attrs);
+        initView();
+    }
+
+    private void initView() {
+        LayoutInflater.from(getContext()).inflate(R.layout.app_device_info_item2, this, true);
+        mDeviceNameTitle = findViewById(R.id.device_name);
+        mDeviceInfoDeviceTitle = findViewById(R.id.device_info_device_title);
+        mDeviceInfoDeviceSummary = findViewById(R.id.device_info_device_summary);
+        mDeviceInfoAndroidTitle = findViewById(R.id.device_info_android_title);
+        mDeviceInfoAndroidSummary = findViewById(R.id.device_info_android_summary);
+        mDeviceInfoOSTitle = findViewById(R.id.device_info_os_title);
+        mDeviceInfoOSSummary = findViewById(R.id.device_info_os_summary);
+
+       refreshDeviceInfo();
+    }
+
+
+    public void refreshDeviceInfo() {
+        String deviceName;
+        if (isMoreAndroidVersion(36)) {
+            // 我就说我设备名字怎么就对不上了，这玩意还要 Root 获取，破烂
+            deviceName = getPropSu("persist.private.device_name");
+        } else {
+            deviceName = getProp("persist.sys.device_name");
+        }
+        String marketName = getProp("ro.product.marketname");
+        String androidVersion = getProp("ro.build.version.release");
+        String osVersion = AboutPhoneUtils.addVersionSuffix(getContext());
+
+        if (Objects.equals(marketName, "")) marketName = android.os.Build.MODEL;
+        if (Objects.equals(deviceName, "")) deviceName = marketName;
+        if (Objects.equals(osVersion, "")) osVersion = getSystemVersionIncremental();
+        if (Objects.equals(osVersion, "")) osVersion = androidVersion;
+
+        mDeviceNameTitle.setText(deviceName);
+        mDeviceInfoDeviceTitle.setText(marketName);
+        mDeviceInfoDeviceSummary.setText(org.linbaogu.romhub.R.string.about_device_info_device);
+        mDeviceInfoAndroidTitle.setText(androidVersion);
+        mDeviceInfoAndroidSummary.setText(org.linbaogu.romhub.R.string.about_device_info_android);
+        mDeviceInfoOSTitle.setText(osVersion);
+        mDeviceInfoOSSummary.setText(org.linbaogu.romhub.R.string.about_device_info_os);
+    }
+}

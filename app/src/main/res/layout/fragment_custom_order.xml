@@ -1,1 +1,35 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPExpbmVhckxheW91dCB4bWxuczphbmRyb2lkPSJodHRwOi8vc2NoZW1hcy5hbmRyb2lkLmNvbS9hcGsvcmVzL2FuZHJvaWQiCiAgICB4bWxuczphcHA9Imh0dHA6Ly9zY2hlbWFzLmFuZHJvaWQuY29tL2Fway9yZXMtYXV0byIKICAgIGFuZHJvaWQ6bGF5b3V0X3dpZHRoPSJtYXRjaF9wYXJlbnQiCiAgICBhbmRyb2lkOmxheW91dF9oZWlnaHQ9Im1hdGNoX3BhcmVudCIKICAgIGFuZHJvaWQ6b3JpZW50YXRpb249InZlcnRpY2FsIgogICAgYW5kcm9pZDpzdXBwb3J0c1J0bD0idHJ1ZSI+CgogICAgPGluY2x1ZGUKICAgICAgICBhbmRyb2lkOmlkPSJAK2lkL3NldF9vcmRlcl9hY3Rpb25iYXIiCiAgICAgICAgbGF5b3V0PSJAbGF5b3V0L3NldF9vcmRlcl90aXRsZSIKICAgICAgICBhbmRyb2lkOmxheW91dF93aWR0aD0ibWF0Y2hfcGFyZW50IgogICAgICAgIGFuZHJvaWQ6bGF5b3V0X2hlaWdodD0id3JhcF9jb250ZW50IgoKICAgICAgICBhbmRyb2lkOmxheW91dF9tYXJnaW5Cb3R0b209IkBkaW1lbi9ib3R0b21fc2hlZXRfZGlhbG9nX3RpdGxlX21hcmdpbl9ib3R0b20iIC8+CgogICAgPGZhbi5zcHJpbmdiYWNrLnZpZXcuU3ByaW5nQmFja0xheW91dAogICAgICAgIGFuZHJvaWQ6aWQ9IkAraWQvc3ByaW5nQmFja0xheW91dCIKICAgICAgICBhbmRyb2lkOmxheW91dF93aWR0aD0ibWF0Y2hfcGFyZW50IgogICAgICAgIGFuZHJvaWQ6bGF5b3V0X2hlaWdodD0ibWF0Y2hfcGFyZW50IgogICAgICAgIGFuZHJvaWQ6Y2xpcFRvUGFkZGluZz0iZmFsc2UiCiAgICAgICAgYXBwOnNjcm9sbE9yaWVudGF0aW9uPSJ2ZXJ0aWNhbCIKICAgICAgICBhcHA6c2Nyb2xsYWJsZVZpZXc9IkBpZC9yZWN5Y2xlcl92aWV3Ij4KCiAgICAgICAgPGZhbi5yZWN5Y2xlcnZpZXcud2lkZ2V0LlJlY3ljbGVyVmlldwogICAgICAgICAgICBhbmRyb2lkOmlkPSJAK2lkL3JlY3ljbGVyX3ZpZXciCiAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X3dpZHRoPSJtYXRjaF9wYXJlbnQiCiAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X2hlaWdodD0ibWF0Y2hfcGFyZW50IgogICAgICAgICAgICBhbmRyb2lkOmxheW91dF9tYXJnaW5Ub3A9IkBkaW1lbi9ib3R0b21fc2hlZXRfZGlhbG9nX3JlY3ljbGVyX3ZpZXdfcGFkZGluZ190b3AiCiAgICAgICAgICAgIGFuZHJvaWQ6Y2xpcFRvUGFkZGluZz0iZmFsc2UiCiAgICAgICAgICAgIGFuZHJvaWQ6bmVzdGVkU2Nyb2xsaW5nRW5hYmxlZD0iZmFsc2UiCiAgICAgICAgICAgIGFuZHJvaWQ6b3ZlclNjcm9sbE1vZGU9Im5ldmVyIgogICAgICAgICAgICBhbmRyb2lkOnBhZGRpbmdIb3Jpem9udGFsPSJAZGltZW4vY3VzdG9tX29yZGVyX2l0ZW1fcGFkZGluZ19Ib3Jpem9udGFsIi8+CiAgICA8L2Zhbi5zcHJpbmdiYWNrLnZpZXcuU3ByaW5nQmFja0xheW91dD4KPC9MaW5lYXJMYXlvdXQ+Cg==
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:supportsRtl="true">
+
+    <include
+        android:id="@+id/set_order_actionbar"
+        layout="@layout/set_order_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginBottom="@dimen/bottom_sheet_dialog_title_margin_bottom" />
+
+    <fan.springback.view.SpringBackLayout
+        android:id="@+id/springBackLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        app:scrollOrientation="vertical"
+        app:scrollableView="@id/recycler_view">
+
+        <fan.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/bottom_sheet_dialog_recycler_view_padding_top"
+            android:clipToPadding="false"
+            android:nestedScrollingEnabled="false"
+            android:overScrollMode="never"
+            android:paddingHorizontal="@dimen/custom_order_item_padding_Horizontal"/>
+    </fan.springback.view.SpringBackLayout>
+</LinearLayout>

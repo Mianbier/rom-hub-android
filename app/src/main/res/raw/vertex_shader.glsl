@@ -1,1 +1,12 @@
-I3ZlcnNpb24gMzAwIGVzCnVuaWZvcm0gbWF0NCB1TWF0cml4OwoKbGF5b3V0IChsb2NhdGlvbiA9IDEpIGluIHZlYzMgYVBvc2l0aW9uOwpsYXlvdXQgKGxvY2F0aW9uID0gMCkgaW4gdmVjMiBhVXY7CgpvdXQgdmVjMiB2VXY7Cgp2b2lkIG1haW4oKSB7CiAgICB2VXYgPSBhVXY7CiAgICBnbF9Qb3NpdGlvbiA9IHVNYXRyaXggKiB2ZWM0KGFQb3NpdGlvbiwgMS4wKTsKfQ==
+#version 300 es
+uniform mat4 uMatrix;
+
+layout (location = 1) in vec3 aPosition;
+layout (location = 0) in vec2 aUv;
+
+out vec2 vUv;
+
+void main() {
+    vUv = aUv;
+    gl_Position = uMatrix * vec4(aPosition, 1.0);
+}

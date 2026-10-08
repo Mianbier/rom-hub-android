@@ -1,1 +1,509 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IS0tCiAgfiBUaGlzIGZpbGUgaXMgcGFydCBvZiBIeXBlckNlaWxlci4KICB+CiAgfiBIeXBlckNlaWxlciBpcyBmcmVlIHNvZnR3YXJlOiB5b3UgY2FuIHJlZGlzdHJpYnV0ZSBpdCBhbmQvb3IgbW9kaWZ5CiAgfiBpdCB1bmRlciB0aGUgdGVybXMgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBhcwogIH4gcHVibGlzaGVkIGJ5IHRoZSBGcmVlIFNvZnR3YXJlIEZvdW5kYXRpb24sIGVpdGhlciB2ZXJzaW9uIDMgb2YgdGhlCiAgfiBMaWNlbnNlLgogIH4KICB+IFRoaXMgcHJvZ3JhbSBpcyBkaXN0cmlidXRlZCBpbiB0aGUgaG9wZSB0aGF0IGl0IHdpbGwgYmUgdXNlZnVsLAogIH4gYnV0IFdJVEhPVVQgQU5ZIFdBUlJBTlRZOyB3aXRob3V0IGV2ZW4gdGhlIGltcGxpZWQgd2FycmFudHkgb2YKICB+IE1FUkNIQU5UQUJJTElUWSBvciBGSVRORVNTIEZPUiBBIFBBUlRJQ1VMQVIgUFVSUE9TRS4gIFNlZSB0aGUKICB+IEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBmb3IgbW9yZSBkZXRhaWxzLgogIH4KICB+IFlvdSBzaG91bGQgaGF2ZSByZWNlaXZlZCBhIGNvcHkgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZQogIH4gYWxvbmcgd2l0aCB0aGlzIHByb2dyYW0uICBJZiBub3QsIHNlZSA8aHR0cHM6Ly93d3cuZ251Lm9yZy9saWNlbnNlcy8+LgogIH4KICB+IENvcHlyaWdodCAoQykgMjAyMy0yMDI2IEh5cGVyQ2VpbGVyIENvbnRyaWJ1dGlvbnMKICAtLT4KPFByZWZlcmVuY2VTY3JlZW4geG1sbnM6YW5kcm9pZD0iaHR0cDovL3NjaGVtYXMuYW5kcm9pZC5jb20vYXBrL3Jlcy9hbmRyb2lkIj4KICAgIDxQcmVmZXJlbmNlIGFuZHJvaWQ6c3VtbWFyeT0iQHN0cmluZy9hYm91dF91c2VfZGVzYyIgLz4KICAgIDxQcmVmZXJlbmNlQ2F0ZWdvcnkgYW5kcm9pZDp0aXRsZT0iQHN0cmluZy9vcGVuX3NvdXJjZSI+CiAgICAgICAgPFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpzdW1tYXJ5PSJBbmRyb2lkIE9wZW4gU291cmNlIFByb2plY3QsIEdvb2dsZSBJbmMuIHwgQXBhY2hlLTIuMCIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iQWNjb21wYW5pc3QiPgogICAgICAgICAgICA8aW50ZW50CiAgICAgICAgICAgICAgICBhbmRyb2lkOmFjdGlvbj0iYW5kcm9pZC5pbnRlbnQuYWN0aW9uLlZJRVciCiAgICAgICAgICAgICAgICBhbmRyb2lkOmRhdGE9Imh0dHBzOi8vZ29vZ2xlLmdpdGh1Yi5pby9hY2NvbXBhbmlzdCIgLz4KICAgICAgICA8L1ByZWZlcmVuY2U+CiAgICAgICAgPFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpzdW1tYXJ5PSJBbmRyb2lkIE9wZW4gU291cmNlIFByb2plY3QsIEdvb2dsZSBJbmMuIHwgQXBhY2hlLTIuMCIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iQW5kcm9pZCI+CiAgICAgICAgICAgIDxpbnRlbnQKICAgICAgICAgICAgICAgIGFuZHJvaWQ6YWN0aW9uPSJhbmRyb2lkLmludGVudC5hY3Rpb24uVklFVyIKICAgICAgICAgICAgICAgIGFuZHJvaWQ6ZGF0YT0iaHR0cHM6Ly9zb3VyY2UuYW5kcm9pZC5nb29nbGUuY24vbGljZW5zZSIgLz4KICAgICAgICA8L1ByZWZlcmVuY2U+CiAgICAgICAgPFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpzdW1tYXJ5PSJMU1Bvc2VkIHwgQXBhY2hlLTIuMCIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iQW5kcm9pZEhpZGRlbkFwaUJ5cGFzcyI+CiAgICAgICAgICAgIDxpbnRlbnQKICAgICAgICAgICAgICAgIGFuZHJvaWQ6YWN0aW9uPSJhbmRyb2lkLmludGVudC5hY3Rpb24uVklFVyIKICAgICAgICAgICAgICAgIGFuZHJvaWQ6ZGF0YT0iaHR0cHM6Ly9naXRodWIuY29tL0xTUG9zZWQvQW5kcm9pZEhpZGRlbkFwaUJ5cGFzcyIgLz4KICAgICAgICA8L1ByZWZlcmVuY2U+CiAgICAgICAgPFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpzdW1tYXJ5PSJBbmRyb2lkIE9wZW4gU291cmNlIFByb2plY3QsIEdvb2dsZSBJbmMuLCBhbmRyb2lkeCB8IEFwYWNoZS0yLjAiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IkFuZHJvaWRYIj4KICAgICAgICAgICAgPGludGVudAogICAgICAgICAgICAgICAgYW5kcm9pZDphY3Rpb249ImFuZHJvaWQuaW50ZW50LmFjdGlvbi5WSUVXIgogICAgICAgICAgICAgICAgYW5kcm9pZDpkYXRhPSJodHRwczovL2dpdGh1Yi5jb20vYW5kcm9pZHgvYW5kcm9pZHgiIC8+CiAgICAgICAgPC9QcmVmZXJlbmNlPgogICAgICAgIDxQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6c3VtbWFyeT0iTWluYU1pY2hpdGEgfCBObyBMaWNlbnNlIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJBbnRpQW50aURlZnJhdWQiPgogICAgICAgICAgICA8aW50ZW50CiAgICAgICAgICAgICAgICBhbmRyb2lkOmFjdGlvbj0iYW5kcm9pZC5pbnRlbnQuYWN0aW9uLlZJRVciCiAgICAgICAgICAgICAgICBhbmRyb2lkOmRhdGE9Imh0dHBzOi8vZ2l0aHViLmNvbS9NaW5hTWljaGl0YS9BbnRpQW50aURlZnJhdWQiIC8+CiAgICAgICAgPC9QcmVmZXJlbmNlPgogICAgICAgIDxQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6c3VtbWFyeT0idGVoY25la28gfCBHUEwtMy4wIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJBT1NQIFBhY2thZ2UgSW5zdGFsbGVyIj4KICAgICAgICAgICAgPGludGVudAogICAgICAgICAgICAgICAgYW5kcm9pZDphY3Rpb249ImFuZHJvaWQuaW50ZW50LmFjdGlvbi5WSUVXIgogICAgICAgICAgICAgICAgYW5kcm9pZDpkYXRhPSJodHRwczovL2dpdGh1Yi5jb20vWHBvc2VkLU1vZHVsZXMtUmVwby9pby5naXRodWIudGVoY25la28uaHlwZXJvcy5hb3NwaW5zdGFsbGVyIiAvPgogICAgICAgIDwvUHJlZmVyZW5jZT4KICAgICAgICA8UHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOnN1bW1hcnk9IkhDaGVuWCB8IEdQTC0zLjAiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IkF1dG9TRWZmU3dpdGNoIj4KICAgICAgICAgICAgPGludGVudAogICAgICAgICAgICAgICAgYW5kcm9pZDphY3Rpb249ImFuZHJvaWQuaW50ZW50LmFjdGlvbi5WSUVXIgogICAgICAgICAgICAgICAgYW5kcm9pZDpkYXRhPSJodHRwczovL2dpdGh1Yi5jb20vSENoZW5YL0F1dG9TRWZmU3dpdGNoIiAvPgogICAgICAgIDwvUHJlZmVyZW5jZT4KICAgICAgICA8UHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOnN1bW1hcnk9IkdTV1hYTiB8IEFHUEwtMy4wIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJBdXRvIE5GQyI+CiAgICAgICAgICAgIDxpbnRlbnQKICAgICAgICAgICAgICAgIGFuZHJvaWQ6YWN0aW9uPSJhbmRyb2lkLmludGVudC5hY3Rpb24uVklFVyIKICAgICAgICAgICAgICAgIGFuZHJvaWQ6ZGF0YT0iaHR0cHM6Ly9naXRodWIuY29tL0dTV1hYTi9BdXRvTkZDIiAvPgogICAgICAgIDwvUHJlZmVyZW5jZT4KICAgICAgICA8UHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOnN1bW1hcnk9IldldmVyc2VzIHwgR1BMLTMuMCIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iQnlwYXNzU2lnbkNoZWNrIj4KICAgICAgICAgICAgPGludGVudAogICAgICAgICAgICAgICAgYW5kcm9pZDphY3Rpb249ImFuZHJvaWQuaW50ZW50LmFjdGlvbi5WSUVXIgogICAgICAgICAgICAgICAgYW5kcm9pZDpkYXRhPSJodHRwczovL2dpdGh1Yi5jb20vV2V2ZXJzZXMvQnlwYXNzU2lnbkNoZWNrIiAvPgogICAgICAgIDwvUHJlZmVyZW5jZT4KICAgICAgICA8UHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOnN1bW1hcnk9IkxTUG9zZWQgfCBHUEwtMi4wIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJDb3JlUGF0Y2giPgogICAgICAgICAgICA8aW50ZW50CiAgICAgICAgICAgICAgICBhbmRyb2lkOmFjdGlvbj0iYW5kcm9pZC5pbnRlbnQuYWN0aW9uLlZJRVciCiAgICAgICAgICAgICAgICBhbmRyb2lkOmRhdGE9Imh0dHBzOi8vZ2l0aHViLmNvbS9MU1Bvc2VkL0NvcmVQYXRjaCIgLz4KICAgICAgICA8L1ByZWZlcmVuY2U+CiAgICAgICAgPFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpzdW1tYXJ5PSJNb253RiB8IEdQTC0zLjAiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IkN1c3RvTUlVSXplciI+CiAgICAgICAgICAgIDxpbnRlbnQKICAgICAgICAgICAgICAgIGFuZHJvaWQ6YWN0aW9uPSJhbmRyb2lkLmludGVudC5hY3Rpb24uVklFVyIKICAgICAgICAgICAgICAgIGFuZHJvaWQ6ZGF0YT0iaHR0cHM6Ly9naXRodWIuY29tL01vbndGL2N1c3RvbWl1aXplciIgLz4KICAgICAgICA8L1ByZWZlcmVuY2U+CiAgICAgICAgPFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpzdW1tYXJ5PSJsaXlhZmUxOTk3IHwgR1BMLTMuMCIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iQ3VzdG9NSVVJemVyTW9kIj4KICAgICAgICAgICAgPGludGVudAogICAgICAgICAgICAgICAgYW5kcm9pZDphY3Rpb249ImFuZHJvaWQuaW50ZW50LmFjdGlvbi5WSUVXIgogICAgICAgICAgICAgICAgYW5kcm9pZDpkYXRhPSJodHRwczovL2dpdGh1Yi5jb20vbGl5YWZlMTk5Ny9DdXN0b01JVUl6ZXJNb2QiIC8+CiAgICAgICAgPC9QcmVmZXJlbmNlPgogICAgICAgIDxQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6c3VtbWFyeT0iSENoZW5YIHwgR1BMLTMuMCIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iQ2xpcGJvYXJkTGlzdCI+CiAgICAgICAgICAgIDxpbnRlbnQKICAgICAgICAgICAgICAgIGFuZHJvaWQ6YWN0aW9uPSJhbmRyb2lkLmludGVudC5hY3Rpb24uVklFVyIKICAgICAgICAgICAgICAgIGFuZHJvaWQ6ZGF0YT0iaHR0cHM6Ly9naXRodWIuY29tL0hDaGVuWC9DbGlwYm9hcmRMaXN0IiAvPgogICAgICAgIDwvUHJlZmVyZW5jZT4KICAgICAgICA8UHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOnN1bW1hcnk9Ikx1Y2t5UHJheSB8IExHUEwtMy4wIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJEZXhLaXQiPgogICAgICAgICAgICA8aW50ZW50CiAgICAgICAgICAgICAgICBhbmRyb2lkOmFjdGlvbj0iYW5kcm9pZC5pbnRlbnQuYWN0aW9uLlZJRVciCiAgICAgICAgICAgICAgICBhbmRyb2lkOmRhdGE9Imh0dHBzOi8vZ2l0aHViLmNvbS9MdWNreVByYXkvRGV4S2l0IiAvPgogICAgICAgIDwvUHJlZmVyZW5jZT4KICAgICAgICA8UHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOnN1bW1hcnk9InRlaGNuZWtvIHwgR1BMLTMuMCIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iRGlzYWJsZSBhcHAgbGluayB2ZXJpZnkiPgogICAgICAgICAgICA8aW50ZW50CiAgICAgICAgICAgICAgICBhbmRyb2lkOmFjdGlvbj0iYW5kcm9pZC5pbnRlbnQuYWN0aW9uLlZJRVciCiAgICAgICAgICAgICAgICBhbmRyb2lkOmRhdGE9Imh0dHBzOi8vZ2l0aHViLmNvbS9YcG9zZWQtTW9kdWxlcy1SZXBvL2lvLmdpdGh1Yi50ZWhjbmVrby5hcHBsaW5rdmVyaWZ5IiAvPgogICAgICAgIDwvUHJlZmVyZW5jZT4KICAgICAgICA8UHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOnN1bW1hcnk9IkxTUG9zZWQgfCBHUEwtMy4wIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJEaXNhYmxlRmxhZ1NlY3VyZSI+CiAgICAgICAgICAgIDxpbnRlbnQKICAgICAgICAgICAgICAgIGFuZHJvaWQ6YWN0aW9uPSJhbmRyb2lkLmludGVudC5hY3Rpb24uVklFVyIKICAgICAgICAgICAgICAgIGFuZHJvaWQ6ZGF0YT0iaHR0cHM6Ly9naXRodWIuY29tL0xTUG9zZWQvRGlzYWJsZUZsYWdTZWN1cmUiIC8+CiAgICAgICAgPC9QcmVmZXJlbmNlPgogICAgICAgIDxQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6c3VtbWFyeT0iUXVlYWxseVRlY2ggfCBBR1BMLTMuMCIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iRGlzYWJsZUxvZ1JlcXVlc3QiPgogICAgICAgICAgICA8aW50ZW50CiAgICAgICAgICAgICAgICBhbmRyb2lkOmFjdGlvbj0iYW5kcm9pZC5pbnRlbnQuYWN0aW9uLlZJRVciCiAgICAgICAgICAgICAgICBhbmRyb2lkOmRhdGE9Imh0dHBzOi8vZ2l0aHViLmNvbS9RdWVhbGx5VGVjaC9EaXNhYmxlTG9nUmVxdWVzdCIgLz4KICAgICAgICA8L1ByZWZlcmVuY2U+CiAgICAgICAgPFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpzdW1tYXJ5PSJLeXV1YmlSYW4gfCBBcGFjaGUtMi4wIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJFelhIZWxwZXIiPgogICAgICAgICAgICA8aW50ZW50CiAgICAgICAgICAgICAgICBhbmRyb2lkOmFjdGlvbj0iYW5kcm9pZC5pbnRlbnQuYWN0aW9uLlZJRVciCiAgICAgICAgICAgICAgICBhbmRyb2lkOmRhdGE9Imh0dHBzOi8vZ2l0aHViLmNvbS9LeXV1YmlSYW4vRXpYSGVscGVyIiAvPgogICAgICAgIDwvUHJlZmVyZW5jZT4KICAgICAgICA8UHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOnN1bW1hcnk9IkxpbmdxaXFpIHwgTUlUIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJFekhvb2tUb29sIj4KICAgICAgICAgICAgPGludGVudAogICAgICAgICAgICAgICAgYW5kcm9pZDphY3Rpb249ImFuZHJvaWQuaW50ZW50LmFjdGlvbi5WSUVXIgogICAgICAgICAgICAgICAgYW5kcm9pZDpkYXRhPSJodHRwczovL2dpdGh1Yi5jb20vbGluZ3FpcWk1MjExL0V6SG9va1Rvb2wiIC8+CiAgICAgICAgPC9QcmVmZXJlbmNlPgogICAgICAgIDxQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6c3VtbWFyeT0ia29vcml0ZWEgfCBObyBMaWNlbnNlIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJmY21maXgiPgogICAgICAgICAgICA8aW50ZW50CiAgICAgICAgICAgICAgICBhbmRyb2lkOmFjdGlvbj0iYW5kcm9pZC5pbnRlbnQuYWN0aW9uLlZJRVciCiAgICAgICAgICAgICAgICBhbmRyb2lkOmRhdGE9Imh0dHBzOi8vZ2l0aHViLmNvbS9rb29yaXRlYS9mY21maXgiIC8+CiAgICAgICAgPC9QcmVmZXJlbmNlPgogICAgICAgIDxQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6c3VtbWFyeT0icXFsaXR0bGVpY2UgfCBHUEwtMy4wIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJGaXhNaXVpTWVkaWFDb250cm9sUGFuZWwiPgogICAgICAgICAgICA8aW50ZW50CiAgICAgICAgICAgICAgICBhbmRyb2lkOmFjdGlvbj0iYW5kcm9pZC5pbnRlbnQuYWN0aW9uLlZJRVciCiAgICAgICAgICAgICAgICBhbmRyb2lkOmRhdGE9Imh0dHBzOi8vZ2l0aHViLmNvbS9xcWxpdHRsZWljZS9GaXhNaXVpTWVkaWFDb250cm9sUGFuZWwiIC8+CiAgICAgICAgPC9QcmVmZXJlbmNlPgogICAgICAgIDxQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6c3VtbWFyeT0id3V5b3UtMTIzIHwgTm8gTGljZW5zZSIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iRm9jdXNOb3RpZkx5cmljIj4KICAgICAgICAgICAgPGludGVudAogICAgICAgICAgICAgICAgYW5kcm9pZDphY3Rpb249ImFuZHJvaWQuaW50ZW50LmFjdGlvbi5WSUVXIgogICAgICAgICAgICAgICAgYW5kcm9pZDpkYXRhPSJodHRwczovL2dpdGh1Yi5jb20vd3V5b3UtMTIzL0ZvY3VzTm90aWZMeXJpYyIgLz4KICAgICAgICA8L1ByZWZlcmVuY2U+CiAgICAgICAgPFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpzdW1tYXJ5PSJIQ2hlblggfCBHUEwtMy4wIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJGb3JlZ3JvdW5kUGluIj4KICAgICAgICAgICAgPGludGVudAogICAgICAgICAgICAgICAgYW5kcm9pZDphY3Rpb249ImFuZHJvaWQuaW50ZW50LmFjdGlvbi5WSUVXIgogICAgICAgICAgICAgICAgYW5kcm9pZDpkYXRhPSJodHRwczovL2dpdGh1Yi5jb20vSENoZW5YL0ZvcmVncm91bmRQaW4iIC8+CiAgICAgICAgPC9QcmVmZXJlbmNlPgogICAgICAgIDxQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6c3VtbWFyeT0ieGlhb3dpbmUgfCBObyBMaWNlbnNlIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJGdWNrTkZDIj4KICAgICAgICAgICAgPGludGVudAogICAgICAgICAgICAgICAgYW5kcm9pZDphY3Rpb249ImFuZHJvaWQuaW50ZW50LmFjdGlvbi5WSUVXIgogICAgICAgICAgICAgICAgYW5kcm9pZDpkYXRhPSJodHRwczovL2dpdGh1Yi5jb20veGlhb3dpbmUvRnVja05GQyIgLz4KICAgICAgICA8L1ByZWZlcmVuY2U+CiAgICAgICAgPFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpzdW1tYXJ5PSJ3ZWl4aWFuc2VuNTc0IHwgTm8gTGljZW5zZSIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iRnVja1Vua25vd25Tb3VyY2VzUmVzdHJpY3Rpb25zIj4KICAgICAgICAgICAgPGludGVudAogICAgICAgICAgICAgICAgYW5kcm9pZDphY3Rpb249ImFuZHJvaWQuaW50ZW50LmFjdGlvbi5WSUVXIgogICAgICAgICAgICAgICAgYW5kcm9pZDpkYXRhPSJodHRwczovL2dpdGh1Yi5jb20vd2VpeGlhbnNlbjU3NC9GdWNrVW5rbm93blNvdXJjZXNSZXN0cmljdGlvbnMiIC8+CiAgICAgICAgPC9QcmVmZXJlbmNlPgogICAgICAgIDxQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6c3VtbWFyeT0iQW5kcm9pZCBPcGVuIFNvdXJjZSBQcm9qZWN0LCBHb29nbGUgSW5jLiB8IEFwYWNoZS0yLjAiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9Ikdzb24iPgogICAgICAgICAgICA8aW50ZW50CiAgICAgICAgICAgICAgICBhbmRyb2lkOmFjdGlvbj0iYW5kcm9pZC5pbnRlbnQuYWN0aW9uLlZJRVciCiAgICAgICAgICAgICAgICBhbmRyb2lkOmRhdGE9Imh0dHBzOi8vZ2l0aHViLmNvbS9nb29nbGUvZ3NvbiIgLz4KICAgICAgICA8L1ByZWZlcmVuY2U+CiAgICAgICAgPFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpzdW1tYXJ5PSJSaWtrYUFwcHMgfCBNSVQiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IkhpZGRlbkFwaVJlZmluZVBsdWdpbiI+CiAgICAgICAgICAgIDxpbnRlbnQKICAgICAgICAgICAgICAgIGFuZHJvaWQ6YWN0aW9uPSJhbmRyb2lkLmludGVudC5hY3Rpb24uVklFVyIKICAgICAgICAgICAgICAgIGFuZHJvaWQ6ZGF0YT0iaHR0cHM6Ly9naXRodWIuY29tL1Jpa2thQXBwcy9IaWRkZW5BcGlSZWZpbmVQbHVnaW4iIC8+CiAgICAgICAgPC9QcmVmZXJlbmNlPgogICAgICAgIDxQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6c3VtbWFyeT0iemVyb3Jvb290IHwgR1BMLTMuMCIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iSGlkZU1pdWlDbGlwYm9hcmREaWFsb2ciPgogICAgICAgICAgICA8aW50ZW50CiAgICAgICAgICAgICAgICBhbmRyb2lkOmFjdGlvbj0iYW5kcm9pZC5pbnRlbnQuYWN0aW9uLlZJRVciCiAgICAgICAgICAgICAgICBhbmRyb2lkOmRhdGE9Imh0dHBzOi8vZ2l0aHViLmNvbS96ZXJvcm9vb3QvSGlkZU1pdWlDbGlwYm9hcmREaWFsb2ciIC8+CiAgICAgICAgPC9QcmVmZXJlbmNlPgogICAgICAgIDxQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6c3VtbWFyeT0iZ2hoY2NnaGsgfCBObyBMaWNlbnNlIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJIeXBlckZvY3VzQXBpIj4KICAgICAgICAgICAgPGludGVudAogICAgICAgICAgICAgICAgYW5kcm9pZDphY3Rpb249ImFuZHJvaWQuaW50ZW50LmFjdGlvbi5WSUVXIgogICAgICAgICAgICAgICAgYW5kcm9pZDpkYXRhPSJodHRwczovL2dpdGh1Yi5jb20vZ2hoY2NnaGsvSHlwZXJGb2N1c0FwaSIgLz4KICAgICAgICA8L1ByZWZlcmVuY2U+CiAgICAgICAgPFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpzdW1tYXJ5PSJIQ2hlblggfCBHUEwtMy4wIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJIb29rVG9vbCI+CiAgICAgICAgICAgIDxpbnRlbnQKICAgICAgICAgICAgICAgIGFuZHJvaWQ6YWN0aW9uPSJhbmRyb2lkLmludGVudC5hY3Rpb24uVklFVyIKICAgICAgICAgICAgICAgIGFuZHJvaWQ6ZGF0YT0iaHR0cHM6Ly9naXRodWIuY29tL0hDaGVuWC9Ib29rVG9vbCIgLz4KICAgICAgICA8L1ByZWZlcmVuY2U+CiAgICAgICAgPFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpzdW1tYXJ5PSJIb3dhcmQyMDE4MSB8IEdQTC0zLjAiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9Ikh5cGVyT1NfRkNNX0xpdmUiPgogICAgICAgICAgICA8aW50ZW50CiAgICAgICAgICAgICAgICBhbmRyb2lkOmFjdGlvbj0iYW5kcm9pZC5pbnRlbnQuYWN0aW9uLlZJRVciCiAgICAgICAgICAgICAgICBhbmRyb2lkOmRhdGE9Imh0dHBzOi8vZ2l0aHViLmNvbS9Ib3dhcmQyMDE4MS9IeXBlck9TX0ZDTV9MaXZlIiAvPgogICAgICAgIDwvUHJlZmVyZW5jZT4KICAgICAgICA8UHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOnN1bW1hcnk9Ill1S29uZ0EgfCBHUEwtMy4wIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJIeXBlck9TIFhYTCI+CiAgICAgICAgICAgIDxpbnRlbnQKICAgICAgICAgICAgICAgIGFuZHJvaWQ6YWN0aW9uPSJhbmRyb2lkLmludGVudC5hY3Rpb24uVklFVyIKICAgICAgICAgICAgICAgIGFuZHJvaWQ6ZGF0YT0iaHR0cHM6Ly9naXRodWIuY29tL1l1S29uZ0EvTWl1aV9YWEwiIC8+CiAgICAgICAgPC9QcmVmZXJlbmNlPgogICAgICAgIDxQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6c3VtbWFyeT0iYnVmZmNvdyB8IEFwYWNoZS0yLjAiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9Ikh5cGVyU21hcnRDaGFyZ2UiPgogICAgICAgICAgICA8aW50ZW50CiAgICAgICAgICAgICAgICBhbmRyb2lkOmFjdGlvbj0iYW5kcm9pZC5pbnRlbnQuYWN0aW9uLlZJRVciCiAgICAgICAgICAgICAgICBhbmRyb2lkOmRhdGE9Imh0dHBzOi8vZ2l0aHViLmNvbS9idWZmY293L0h5cGVyU21hcnRDaGFyZ2UiIC8+CiAgICAgICAgPC9QcmVmZXJlbmNlPgogICAgICAgIDxQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6c3VtbWFyeT0iWXVuWmlBIHwgR1BMLTMuMCIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iSHlwZXJTdGFyMi4wIj4KICAgICAgICAgICAgPGludGVudAogICAgICAgICAgICAgICAgYW5kcm9pZDphY3Rpb249ImFuZHJvaWQuaW50ZW50LmFjdGlvbi5WSUVXIgogICAgICAgICAgICAgICAgYW5kcm9pZDpkYXRhPSJodHRwczovL2dpdGh1Yi5jb20vWXVuWmlBL0h5cGVyU3RhcjIuMCIgLz4KICAgICAgICA8L1ByZWZlcmVuY2U+CiAgICAgICAgPFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpzdW1tYXJ5PSJKZXRCcmFpbnMgfCBObyBMaWNlbnNlIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJLb3RsaW4iPgogICAgICAgICAgICA8aW50ZW50CiAgICAgICAgICAgICAgICBhbmRyb2lkOmFjdGlvbj0iYW5kcm9pZC5pbnRlbnQuYWN0aW9uLlZJRVciCiAgICAgICAgICAgICAgICBhbmRyb2lkOmRhdGE9Imh0dHBzOi8vZ2l0aHViLmNvbS9KZXRCcmFpbnMva290bGluIiAvPgogICAgICAgIDwvUHJlZmVyZW5jZT4KICAgICAgICA8UHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOnN1bW1hcnk9IkxTUG9zZWQgfCBBcGFjaGUtMi4wIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJMU1BhcmFub2lkIj4KICAgICAgICAgICAgPGludGVudAogICAgICAgICAgICAgICAgYW5kcm9pZDphY3Rpb249ImFuZHJvaWQuaW50ZW50LmFjdGlvbi5WSUVXIgogICAgICAgICAgICAgICAgYW5kcm9pZDpkYXRhPSJodHRwczovL2dpdGh1Yi5jb20vTFNQb3NlZC9MU1BhcmFub2lkIiAvPgogICAgICAgIDwvUHJlZmVyZW5jZT4KICAgICAgICA8UHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOnN1bW1hcnk9IndvbGZob25nIHwgTUlUIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJMdW5hckNhbGVuZGFyIj4KICAgICAgICAgICAgPGludGVudAogICAgICAgICAgICAgICAgYW5kcm9pZDphY3Rpb249ImFuZHJvaWQuaW50ZW50LmFjdGlvbi5WSUVXIgogICAgICAgICAgICAgICAgYW5kcm9pZDpkYXRhPSJodHRwczovL2dpdGh1Yi5jb20vd29sZmhvbmcvTHVuYXJDYWxlbmRhciIgLz4KICAgICAgICA8L1ByZWZlcmVuY2U+CiAgICAgICAgPFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpzdW1tYXJ5PSJZaWZlUGxheXRlIHwgR1BMLTMuMCIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iTWF4RnJlZUZvcm0iPgogICAgICAgICAgICA8aW50ZW50CiAgICAgICAgICAgICAgICBhbmRyb2lkOmFjdGlvbj0iYW5kcm9pZC5pbnRlbnQuYWN0aW9uLlZJRVciCiAgICAgICAgICAgICAgICBhbmRyb2lkOmRhdGE9Imh0dHBzOi8vZ2l0aHViLmNvbS9ZaWZlUGxheXRlL01heEZyZWVGb3JtIiAvPgogICAgICAgIDwvUHJlZmVyZW5jZT4KICAgICAgICA8UHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOnN1bW1hcnk9Ill1S29uZ0EgfCBNSVQiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9Ik1lZGlhQ29udHJvbC1CbHVyQmciPgogICAgICAgICAgICA8aW50ZW50CiAgICAgICAgICAgICAgICBhbmRyb2lkOmFjdGlvbj0iYW5kcm9pZC5pbnRlbnQuYWN0aW9uLlZJRVciCiAgICAgICAgICAgICAgICBhbmRyb2lkOmRhdGE9Imh0dHBzOi8vZ2l0aHViLmNvbS9ZdUtvbmdBL01lZGlhQ29udHJvbC1CbHVyQmciIC8+CiAgICAgICAgPC9QcmVmZXJlbmNlPgogICAgICAgIDxQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6c3VtbWFyeT0iSG93YXJkMjAxODEgfCBHUEwtMy4wIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJNaV9BT1NQX0lNRSI+CiAgICAgICAgICAgIDxpbnRlbnQKICAgICAgICAgICAgICAgIGFuZHJvaWQ6YWN0aW9uPSJhbmRyb2lkLmludGVudC5hY3Rpb24uVklFVyIKICAgICAgICAgICAgICAgIGFuZHJvaWQ6ZGF0YT0iaHR0cHM6Ly9naXRodWIuY29tL0hvd2FyZDIwMTgxL01pX0FPU1BfSU1FIiAvPgogICAgICAgIDwvUHJlZmVyZW5jZT4KICAgICAgICA8UHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOnN1bW1hcnk9InBhcmFsbGVsY2MgfCBHUEwtMy4wIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJNaUNUUyI+CiAgICAgICAgICAgIDxpbnRlbnQKICAgICAgICAgICAgICAgIGFuZHJvaWQ6YWN0aW9uPSJhbmRyb2lkLmludGVudC5hY3Rpb24uVklFVyIKICAgICAgICAgICAgICAgIGFuZHJvaWQ6ZGF0YT0iaHR0cHM6Ly9naXRodWIuY29tL3BhcmFsbGVsY2MvTWlDVFMiIC8+CiAgICAgICAgPC9QcmVmZXJlbmNlPgogICAgICAgIDxQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6c3VtbWFyeT0iQXJ0LUNoZW4gfCBBR1BMLTMuMCIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iTUlVSSBFeHRyYSI+CiAgICAgICAgICAgIDxpbnRlbnQKICAgICAgICAgICAgICAgIGFuZHJvaWQ6YWN0aW9uPSJhbmRyb2lkLmludGVudC5hY3Rpb24uVklFVyIKICAgICAgICAgICAgICAgIGFuZHJvaWQ6ZGF0YT0iaHR0cHM6Ly9naXRodWIuY29tL0FydC1DaGVuL01JVUktRXh0cmEtWXVraUFQSSIgLz4KICAgICAgICA8L1ByZWZlcmVuY2U+CiAgICAgICAgPFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpzdW1tYXJ5PSJxcWxpdHRsZWljZSB8IEdQTC0zLjAiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9Ik1pdWlIb21lUiI+CiAgICAgICAgICAgIDxpbnRlbnQKICAgICAgICAgICAgICAgIGFuZHJvaWQ6YWN0aW9uPSJhbmRyb2lkLmludGVudC5hY3Rpb24uVklFVyIKICAgICAgICAgICAgICAgIGFuZHJvaWQ6ZGF0YT0iaHR0cHM6Ly9naXRodWIuY29tL3FxbGl0dGxlaWNlL01pdWlIb21lX1IiIC8+CiAgICAgICAgPC9QcmVmZXJlbmNlPgogICAgICAgIDxQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6c3VtbWFyeT0iUkMxODQ0IHwgTUlUIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJNSVVJIElNRSBVbmxvY2siPgogICAgICAgICAgICA8aW50ZW50CiAgICAgICAgICAgICAgICBhbmRyb2lkOmFjdGlvbj0iYW5kcm9pZC5pbnRlbnQuYWN0aW9uLlZJRVciCiAgICAgICAgICAgICAgICBhbmRyb2lkOmRhdGE9Imh0dHBzOi8vZ2l0aHViLmNvbS9SQzE4NDQvTUlVSV9JTUVfVW5sb2NrIiAvPgogICAgICAgIDwvUHJlZmVyZW5jZT4KICAgICAgICA8UHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOnN1bW1hcnk9Imd5a2t1byB8IEdQTC0zLjAiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9Ik1JVUkgTm9HdWFyZCI+CiAgICAgICAgICAgIDxpbnRlbnQKICAgICAgICAgICAgICAgIGFuZHJvaWQ6YWN0aW9uPSJhbmRyb2lkLmludGVudC5hY3Rpb24uVklFVyIKICAgICAgICAgICAgICAgIGFuZHJvaWQ6ZGF0YT0iaHR0cHM6Ly9naXRodWIuY29tL2d5a2t1by9NSVVJX05vR3VhcmQiIC8+CiAgICAgICAgPC9QcmVmZXJlbmNlPgogICAgICAgIDxQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6c3VtbWFyeT0iY2hzYnVmZmVyIHwgTm8gTGljZW5zZSIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iTUlVSVFPTCI+CiAgICAgICAgICAgIDxpbnRlbnQKICAgICAgICAgICAgICAgIGFuZHJvaWQ6YWN0aW9uPSJhbmRyb2lkLmludGVudC5hY3Rpb24uVklFVyIKICAgICAgICAgICAgICAgIGFuZHJvaWQ6ZGF0YT0iaHR0cHM6Ly9naXRodWIuY29tL2Noc2J1ZmZlci9NSVVJUU9MIiAvPgogICAgICAgIDwvUHJlZmVyZW5jZT4KICAgICAgICA8UHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOnN1bW1hcnk9IldpbmUtTmV0d29yayB8IEdQTC0zLjAiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9Ik1pdWkgWFhMIj4KICAgICAgICAgICAgPGludGVudAogICAgICAgICAgICAgICAgYW5kcm9pZDphY3Rpb249ImFuZHJvaWQuaW50ZW50LmFjdGlvbi5WSUVXIgogICAgICAgICAgICAgICAgYW5kcm9pZDpkYXRhPSJodHRwczovL2dpdGh1Yi5jb20vV2luZS1OZXR3b3JrL01pdWlfWFhMIiAvPgogICAgICAgIDwvUHJlZmVyZW5jZT4KICAgICAgICA8UHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOnN1bW1hcnk9InRlaGNuZWtvIHwgR1BMLTMuMCIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iTUlVSSDpgJrnn6Xkv67lpI0iPgogICAgICAgICAgICA8aW50ZW50CiAgICAgICAgICAgICAgICBhbmRyb2lkOmFjdGlvbj0iYW5kcm9pZC5pbnRlbnQuYWN0aW9uLlZJRVciCiAgICAgICAgICAgICAgICBhbmRyb2lkOmRhdGE9Imh0dHBzOi8vZ2l0aHViLmNvbS9YcG9zZWQtTW9kdWxlcy1SZXBvL2lvLmdpdGh1Yi50ZWhjbmVrby5taXVpbm90aWZpY2F0aW9uZml4IiAvPgogICAgICAgIDwvUHJlZmVyZW5jZT4KICAgICAgICA8UHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOnN1bW1hcnk9IldldmVyc2UgfCBHUEwtMy4wIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJNb2RlbVBybyI+CiAgICAgICAgICAgIDxpbnRlbnQKICAgICAgICAgICAgICAgIGFuZHJvaWQ6YWN0aW9uPSJhbmRyb2lkLmludGVudC5hY3Rpb24uVklFVyIKICAgICAgICAgICAgICAgIGFuZHJvaWQ6ZGF0YT0iaHR0cHM6Ly9naXRodWIuY29tL1dldmVyc2VzL01vZGVtUHJvIiAvPgogICAgICAgIDwvUHJlZmVyZW5jZT4KICAgICAgICA8UHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOnN1bW1hcnk9IkRhbkdMRVMzIHwgR1BMLTMuMCIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iTm9TdG9yYWdlUmVzdHJpY3QiPgogICAgICAgICAgICA8aW50ZW50CiAgICAgICAgICAgICAgICBhbmRyb2lkOmFjdGlvbj0iYW5kcm9pZC5pbnRlbnQuYWN0aW9uLlZJRVciCiAgICAgICAgICAgICAgICBhbmRyb2lkOmRhdGE9Imh0dHBzOi8vZ2l0aHViLmNvbS9YcG9zZWQtTW9kdWxlcy1SZXBvL2NvbS5naXRodWIuZGFuLm5vc3RvcmFnZXJlc3RyaWN0IiAvPgogICAgICAgIDwvUHJlZmVyZW5jZT4KICAgICAgICA8UHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOnN1bW1hcnk9Ikhhb2NlbjIwMDQgfCBNSVQiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IlBvcnRhbCBIb29rIj4KICAgICAgICAgICAgPGludGVudAogICAgICAgICAgICAgICAgYW5kcm9pZDphY3Rpb249ImFuZHJvaWQuaW50ZW50LmFjdGlvbi5WSUVXIgogICAgICAgICAgICAgICAgYW5kcm9pZDpkYXRhPSJodHRwczovL2dpdGh1Yi5jb20vSGFvY2VuMjAwNC9Qb3J0YWxIb29rIiAvPgogICAgICAgIDwvUHJlZmVyZW5jZT4KICAgICAgICA8UHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOnN1bW1hcnk9IkhDaGVuWCB8IEdQTC0zLjAiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IlBpbm5pbmdBcHAiPgogICAgICAgICAgICA8aW50ZW50CiAgICAgICAgICAgICAgICBhbmRyb2lkOmFjdGlvbj0iYW5kcm9pZC5pbnRlbnQuYWN0aW9uLlZJRVciCiAgICAgICAgICAgICAgICBhbmRyb2lkOmRhdGE9Imh0dHBzOi8vZ2l0aHViLmNvbS9IQ2hlblgvUGlubmluZ0FwcCIgLz4KICAgICAgICA8L1ByZWZlcmVuY2U+CiAgICAgICAgPFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpzdW1tYXJ5PSJjaW5pdCB8IFByb3ByaWV0YXJ5IExpY2Vuc2UiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IlFBdXhpbGlhcnkiPgogICAgICAgICAgICA8aW50ZW50CiAgICAgICAgICAgICAgICBhbmRyb2lkOmFjdGlvbj0iYW5kcm9pZC5pbnRlbnQuYWN0aW9uLlZJRVciCiAgICAgICAgICAgICAgICBhbmRyb2lkOmRhdGE9Imh0dHBzOi8vZ2l0aHViLmNvbS9jaW5pdC9RQXV4aWxpYXJ5IiAvPgogICAgICAgIDwvUHJlZmVyZW5jZT4KICAgICAgICA8UHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOnN1bW1hcnk9ImdmYmpuZ2ppYm4gfCBHUEwtMy4wIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJSZW1vdmVNaXVpU3lzdGVtU2VsZlByb3RlY3Rpb24iPgogICAgICAgICAgICA8aW50ZW50CiAgICAgICAgICAgICAgICBhbmRyb2lkOmFjdGlvbj0iYW5kcm9pZC5pbnRlbnQuYWN0aW9uLlZJRVciCiAgICAgICAgICAgICAgICBhbmRyb2lkOmRhdGE9Imh0dHBzOi8vZ2l0aHViLmNvbS9nZmJqbmdqaWJuL1JlbW92ZU1pdWlTeXN0ZW1TZWxmUHJvdGVjdGlvbiIgLz4KICAgICAgICA8L1ByZWZlcmVuY2U+CiAgICAgICAgPFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpzdW1tYXJ5PSJTZXRvU2tpbnMgfCBHUEwtMy4wIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJTZXRvSG9vayI+CiAgICAgICAgICAgIDxpbnRlbnQKICAgICAgICAgICAgICAgIGFuZHJvaWQ6YWN0aW9uPSJhbmRyb2lkLmludGVudC5hY3Rpb24uVklFVyIKICAgICAgICAgICAgICAgIGFuZHJvaWQ6ZGF0YT0iaHR0cHM6Ly9naXRodWIuY29tL1NldG9Ta2lucy9TZXRvSG9vayIgLz4KICAgICAgICA8L1ByZWZlcmVuY2U+CiAgICAgICAgPFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpzdW1tYXJ5PSJ3ZWl4aWFuc2VuNTc0IHwgTm8gTGljZW5zZSIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iU2V0dGluZ3NEb250VGhyb3VnaFRoZUxpc3QiPgogICAgICAgICAgICA8aW50ZW50CiAgICAgICAgICAgICAgICBhbmRyb2lkOmFjdGlvbj0iYW5kcm9pZC5pbnRlbnQuYWN0aW9uLlZJRVciCiAgICAgICAgICAgICAgICBhbmRyb2lkOmRhdGE9Imh0dHBzOi8vZ2l0aHViLmNvbS93ZWl4aWFuc2VuNTc0L3NldHRpbmdzZG9udHRocm91Z2h0aGVsaXN0IiAvPgogICAgICAgIDwvUHJlZmVyZW5jZT4KICAgICAgICA8UHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOnN1bW1hcnk9Imhvc2l6b3JhcnUgfCBHUEwtMy4wIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJTdGFyVm95YWdlciI+CiAgICAgICAgICAgIDxpbnRlbnQKICAgICAgICAgICAgICAgIGFuZHJvaWQ6YWN0aW9uPSJhbmRyb2lkLmludGVudC5hY3Rpb24uVklFVyIKICAgICAgICAgICAgICAgIGFuZHJvaWQ6ZGF0YT0iaHR0cHM6Ly9naXRodWIuY29tL2hvc2l6b3JhcnUvU3RhclZveWFnZXIiIC8+CiAgICAgICAgPC9QcmVmZXJlbmNlPgogICAgICAgIDxQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6c3VtbWFyeT0iSENoZW5YIHwgR1BMLTMuMCIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iU3VwZXJMeXJpYyI+CiAgICAgICAgICAgIDxpbnRlbnQKICAgICAgICAgICAgICAgIGFuZHJvaWQ6YWN0aW9uPSJhbmRyb2lkLmludGVudC5hY3Rpb24uVklFVyIKICAgICAgICAgICAgICAgIGFuZHJvaWQ6ZGF0YT0iaHR0cHM6Ly9naXRodWIuY29tL0hDaGVuWC9TdXBlckx5cmljIiAvPgogICAgICAgIDwvUHJlZmVyZW5jZT4KICAgICAgICA8UHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOnN1bW1hcnk9Im91aG91a3lvIHwgTUlUIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJXSU5JIj4KICAgICAgICAgICAgPGludGVudAogICAgICAgICAgICAgICAgYW5kcm9pZDphY3Rpb249ImFuZHJvaWQuaW50ZW50LmFjdGlvbi5WSUVXIgogICAgICAgICAgICAgICAgYW5kcm9pZDpkYXRhPSJodHRwczovL2dpdGh1Yi5jb20vb3Vob3VreW8vV0lOSSIgLz4KICAgICAgICA8L1ByZWZlcmVuY2U+CiAgICAgICAgPFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpzdW1tYXJ5PSJZaWZlUGxheXRlIHwgR1BMLTMuMCIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iV09NTU8iPgogICAgICAgICAgICA8aW50ZW50CiAgICAgICAgICAgICAgICBhbmRyb2lkOmFjdGlvbj0iYW5kcm9pZC5pbnRlbnQuYWN0aW9uLlZJRVciCiAgICAgICAgICAgICAgICBhbmRyb2lkOmRhdGE9Imh0dHBzOi8vZ2l0aHViLmNvbS9ZaWZlUGxheXRlL1dPTU1PIiAvPgogICAgICAgIDwvUHJlZmVyZW5jZT4KICAgICAgICA8UHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOnN1bW1hcnk9Imhvc2l6b3JhcnUgfCBHUEwtMy4wIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJXb29ib3ggRm9yIE1JVUkiPgogICAgICAgICAgICA8aW50ZW50CiAgICAgICAgICAgICAgICBhbmRyb2lkOmFjdGlvbj0iYW5kcm9pZC5pbnRlbnQuYWN0aW9uLlZJRVciCiAgICAgICAgICAgICAgICBhbmRyb2lkOmRhdGE9Imh0dHBzOi8vZ2l0aHViLmNvbS9ob3Npem9yYXJ1L1dvb0JveEZvck1JVUkiIC8+CiAgICAgICAgPC9QcmVmZXJlbmNlPgogICAgICAgIDxQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6c3VtbWFyeT0iU2ltcGxpY2l0eS1UZWFtIHwgR1BMLTMuMCIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iV29vYm94IEZvciBNSVVJIj4KICAgICAgICAgICAgPGludGVudAogICAgICAgICAgICAgICAgYW5kcm9pZDphY3Rpb249ImFuZHJvaWQuaW50ZW50LmFjdGlvbi5WSUVXIgogICAgICAgICAgICAgICAgYW5kcm9pZDpkYXRhPSJodHRwczovL2dpdGh1Yi5jb20vU2ltcGxpY2l0eS1UZWFtL1dvb0JveEZvck1JVUkiIC8+CiAgICAgICAgPC9QcmVmZXJlbmNlPgogICAgICAgIDxQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6c3VtbWFyeT0iSG93aWVIQ2hlbiB8IEdQTC0zLjAiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9IlhpYW9taUhlbHBlciI+CiAgICAgICAgICAgIDxpbnRlbnQKICAgICAgICAgICAgICAgIGFuZHJvaWQ6YWN0aW9uPSJhbmRyb2lkLmludGVudC5hY3Rpb24uVklFVyIKICAgICAgICAgICAgICAgIGFuZHJvaWQ6ZGF0YT0iaHR0cHM6Ly9naXRodWIuY29tL0hvd2llSENoZW4vWGlhb21pSGVscGVyIiAvPgogICAgICAgIDwvUHJlZmVyZW5jZT4KICAgICAgICA8UHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOnN1bW1hcnk9InJvdm84OSwgVHVuZ3N0d2VudHkgfCBBcGFjaGUtMi4wIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJYcG9zZWQiPgogICAgICAgICAgICA8aW50ZW50CiAgICAgICAgICAgICAgICBhbmRyb2lkOmFjdGlvbj0iYW5kcm9pZC5pbnRlbnQuYWN0aW9uLlZJRVciCiAgICAgICAgICAgICAgICBhbmRyb2lkOmRhdGE9Imh0dHBzOi8vZ2l0aHViLmNvbS9yb3ZvODkvWHBvc2VkQnJpZGdlIiAvPgogICAgICAgIDwvUHJlZmVyZW5jZT4KICAgICAgICA8UHJlZmVyZW5jZQogICAgICAgICAgICBhbmRyb2lkOnN1bW1hcnk9InJvdm84OSB8IE5vIExpY2Vuc2UiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9Ilhwb3NlZEJyaWRnZSI+CiAgICAgICAgICAgIDxpbnRlbnQKICAgICAgICAgICAgICAgIGFuZHJvaWQ6YWN0aW9uPSJhbmRyb2lkLmludGVudC5hY3Rpb24uVklFVyIKICAgICAgICAgICAgICAgIGFuZHJvaWQ6ZGF0YT0iaHR0cHM6Ly9naXRodWIuY29tL3Jvdm84OS9YcG9zZWRCcmlkZ2UiIC8+CiAgICAgICAgPC9QcmVmZXJlbmNlPgogICAgICAgIDxQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6c3VtbWFyeT0iS3IzMjggfCBObyBMaWNlbnNlIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSIueGxEb3dubG9hZCI+CiAgICAgICAgICAgIDxpbnRlbnQKICAgICAgICAgICAgICAgIGFuZHJvaWQ6YWN0aW9uPSJhbmRyb2lkLmludGVudC5hY3Rpb24uVklFVyIKICAgICAgICAgICAgICAgIGFuZHJvaWQ6ZGF0YT0iaHR0cHM6Ly9naXRodWIuY29tL0tyMzI4Ly54bERvd25sb2FkIiAvPgogICAgICAgIDwvUHJlZmVyZW5jZT4KICAgIDwvUHJlZmVyZW5jZUNhdGVnb3J5PgogICAgPFByZWZlcmVuY2VDYXRlZ29yeSBhbmRyb2lkOnRpdGxlPSJAc3RyaW5nL2Nsb3NlX3NvdXJjZSI+CiAgICAgICAgPFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpzdW1tYXJ5PSJHcmVlbiBZYW5nIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJJV2FuU2V0dGluZyI+CiAgICAgICAgICAgIDxpbnRlbnQKICAgICAgICAgICAgICAgIGFuZHJvaWQ6YWN0aW9uPSJhbmRyb2lkLmludGVudC5hY3Rpb24uVklFVyIKICAgICAgICAgICAgICAgIGFuZHJvaWQ6ZGF0YT0iaHR0cHM6Ly93d3cuY29vbGFway5jb20vYXBrL2NvbS5ieXlvdW5nLnNldHRpbmciIC8+CiAgICAgICAgPC9QcmVmZXJlbmNlPgogICAgICAgIDxQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6c3VtbWFyeT0iTW9yYWxOb3JtIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJNaXVpIEZlYXR1cmUiPgogICAgICAgICAgICA8aW50ZW50CiAgICAgICAgICAgICAgICBhbmRyb2lkOmFjdGlvbj0iYW5kcm9pZC5pbnRlbnQuYWN0aW9uLlZJRVciCiAgICAgICAgICAgICAgICBhbmRyb2lkOmRhdGE9Imh0dHBzOi8vZ2l0aHViLmNvbS9tb3JhbG5vcm0iIC8+CiAgICAgICAgPC9QcmVmZXJlbmNlPgogICAgICAgIDxQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6c3VtbWFyeT0iTW9uZXRDYXJsb3MiCiAgICAgICAgICAgIGFuZHJvaWQ6dGl0bGU9Ik9yaWdpbiBBcmNoaXRlY3R1cmUiPgogICAgICAgICAgICA8aW50ZW50CiAgICAgICAgICAgICAgICBhbmRyb2lkOmFjdGlvbj0iYW5kcm9pZC5pbnRlbnQuYWN0aW9uLlZJRVciCiAgICAgICAgICAgICAgICBhbmRyb2lkOmRhdGE9Imh0dHBzOi8vd3d3LmNvb2xhcGsuY29tL3UvOTAyMTg1NSIgLz4KICAgICAgICA8L1ByZWZlcmVuY2U+CiAgICA8L1ByZWZlcmVuY2VDYXRlZ29yeT4KCjwvUHJlZmVyZW5jZVNjcmVlbj4=
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ This file is part of HyperCeiler.
+  ~
+  ~ HyperCeiler is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU Affero General Public License as
+  ~ published by the Free Software Foundation, either version 3 of the
+  ~ License.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU Affero General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU Affero General Public License
+  ~ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+  ~
+  ~ Copyright (C) 2023-2026 HyperCeiler Contributions
+  -->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:summary="@string/about_use_desc" />
+    <PreferenceCategory android:title="@string/open_source">
+        <Preference
+            android:summary="Android Open Source Project, Google Inc. | Apache-2.0"
+            android:title="Accompanist">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://google.github.io/accompanist" />
+        </Preference>
+        <Preference
+            android:summary="Android Open Source Project, Google Inc. | Apache-2.0"
+            android:title="Android">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://source.android.google.cn/license" />
+        </Preference>
+        <Preference
+            android:summary="LSPosed | Apache-2.0"
+            android:title="AndroidHiddenApiBypass">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/LSPosed/AndroidHiddenApiBypass" />
+        </Preference>
+        <Preference
+            android:summary="Android Open Source Project, Google Inc., androidx | Apache-2.0"
+            android:title="AndroidX">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/androidx/androidx" />
+        </Preference>
+        <Preference
+            android:summary="MinaMichita | No License"
+            android:title="AntiAntiDefraud">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/MinaMichita/AntiAntiDefraud" />
+        </Preference>
+        <Preference
+            android:summary="tehcneko | GPL-3.0"
+            android:title="AOSP Package Installer">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/Xposed-Modules-Repo/io.github.tehcneko.hyperos.aospinstaller" />
+        </Preference>
+        <Preference
+            android:summary="HChenX | GPL-3.0"
+            android:title="AutoSEffSwitch">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/HChenX/AutoSEffSwitch" />
+        </Preference>
+        <Preference
+            android:summary="GSWXXN | AGPL-3.0"
+            android:title="Auto NFC">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/GSWXXN/AutoNFC" />
+        </Preference>
+        <Preference
+            android:summary="Weverses | GPL-3.0"
+            android:title="BypassSignCheck">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/Weverses/BypassSignCheck" />
+        </Preference>
+        <Preference
+            android:summary="LSPosed | GPL-2.0"
+            android:title="CorePatch">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/LSPosed/CorePatch" />
+        </Preference>
+        <Preference
+            android:summary="MonwF | GPL-3.0"
+            android:title="CustoMIUIzer">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/MonwF/customiuizer" />
+        </Preference>
+        <Preference
+            android:summary="liyafe1997 | GPL-3.0"
+            android:title="CustoMIUIzerMod">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/liyafe1997/CustoMIUIzerMod" />
+        </Preference>
+        <Preference
+            android:summary="HChenX | GPL-3.0"
+            android:title="ClipboardList">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/HChenX/ClipboardList" />
+        </Preference>
+        <Preference
+            android:summary="LuckyPray | LGPL-3.0"
+            android:title="DexKit">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/LuckyPray/DexKit" />
+        </Preference>
+        <Preference
+            android:summary="tehcneko | GPL-3.0"
+            android:title="Disable app link verify">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/Xposed-Modules-Repo/io.github.tehcneko.applinkverify" />
+        </Preference>
+        <Preference
+            android:summary="LSPosed | GPL-3.0"
+            android:title="DisableFlagSecure">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/LSPosed/DisableFlagSecure" />
+        </Preference>
+        <Preference
+            android:summary="QueallyTech | AGPL-3.0"
+            android:title="DisableLogRequest">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/QueallyTech/DisableLogRequest" />
+        </Preference>
+        <Preference
+            android:summary="KyuubiRan | Apache-2.0"
+            android:title="EzXHelper">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/KyuubiRan/EzXHelper" />
+        </Preference>
+        <Preference
+            android:summary="Lingqiqi | MIT"
+            android:title="EzHookTool">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/lingqiqi5211/EzHookTool" />
+        </Preference>
+        <Preference
+            android:summary="kooritea | No License"
+            android:title="fcmfix">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/kooritea/fcmfix" />
+        </Preference>
+        <Preference
+            android:summary="qqlittleice | GPL-3.0"
+            android:title="FixMiuiMediaControlPanel">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/qqlittleice/FixMiuiMediaControlPanel" />
+        </Preference>
+        <Preference
+            android:summary="wuyou-123 | No License"
+            android:title="FocusNotifLyric">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/wuyou-123/FocusNotifLyric" />
+        </Preference>
+        <Preference
+            android:summary="HChenX | GPL-3.0"
+            android:title="ForegroundPin">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/HChenX/ForegroundPin" />
+        </Preference>
+        <Preference
+            android:summary="xiaowine | No License"
+            android:title="FuckNFC">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/xiaowine/FuckNFC" />
+        </Preference>
+        <Preference
+            android:summary="weixiansen574 | No License"
+            android:title="FuckUnknownSourcesRestrictions">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/weixiansen574/FuckUnknownSourcesRestrictions" />
+        </Preference>
+        <Preference
+            android:summary="Android Open Source Project, Google Inc. | Apache-2.0"
+            android:title="Gson">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/google/gson" />
+        </Preference>
+        <Preference
+            android:summary="RikkaApps | MIT"
+            android:title="HiddenApiRefinePlugin">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/RikkaApps/HiddenApiRefinePlugin" />
+        </Preference>
+        <Preference
+            android:summary="zerorooot | GPL-3.0"
+            android:title="HideMiuiClipboardDialog">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/zerorooot/HideMiuiClipboardDialog" />
+        </Preference>
+        <Preference
+            android:summary="ghhccghk | No License"
+            android:title="HyperFocusApi">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/ghhccghk/HyperFocusApi" />
+        </Preference>
+        <Preference
+            android:summary="HChenX | GPL-3.0"
+            android:title="HookTool">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/HChenX/HookTool" />
+        </Preference>
+        <Preference
+            android:summary="Howard20181 | GPL-3.0"
+            android:title="HyperOS_FCM_Live">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/Howard20181/HyperOS_FCM_Live" />
+        </Preference>
+        <Preference
+            android:summary="YuKongA | GPL-3.0"
+            android:title="HyperOS XXL">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/YuKongA/Miui_XXL" />
+        </Preference>
+        <Preference
+            android:summary="buffcow | Apache-2.0"
+            android:title="HyperSmartCharge">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/buffcow/HyperSmartCharge" />
+        </Preference>
+        <Preference
+            android:summary="YunZiA | GPL-3.0"
+            android:title="HyperStar2.0">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/YunZiA/HyperStar2.0" />
+        </Preference>
+        <Preference
+            android:summary="JetBrains | No License"
+            android:title="Kotlin">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/JetBrains/kotlin" />
+        </Preference>
+        <Preference
+            android:summary="LSPosed | Apache-2.0"
+            android:title="LSParanoid">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/LSPosed/LSParanoid" />
+        </Preference>
+        <Preference
+            android:summary="wolfhong | MIT"
+            android:title="LunarCalendar">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/wolfhong/LunarCalendar" />
+        </Preference>
+        <Preference
+            android:summary="YifePlayte | GPL-3.0"
+            android:title="MaxFreeForm">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/YifePlayte/MaxFreeForm" />
+        </Preference>
+        <Preference
+            android:summary="YuKongA | MIT"
+            android:title="MediaControl-BlurBg">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/YuKongA/MediaControl-BlurBg" />
+        </Preference>
+        <Preference
+            android:summary="Howard20181 | GPL-3.0"
+            android:title="Mi_AOSP_IME">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/Howard20181/Mi_AOSP_IME" />
+        </Preference>
+        <Preference
+            android:summary="parallelcc | GPL-3.0"
+            android:title="MiCTS">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/parallelcc/MiCTS" />
+        </Preference>
+        <Preference
+            android:summary="Art-Chen | AGPL-3.0"
+            android:title="MIUI Extra">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/Art-Chen/MIUI-Extra-YukiAPI" />
+        </Preference>
+        <Preference
+            android:summary="qqlittleice | GPL-3.0"
+            android:title="MiuiHomeR">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/qqlittleice/MiuiHome_R" />
+        </Preference>
+        <Preference
+            android:summary="RC1844 | MIT"
+            android:title="MIUI IME Unlock">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/RC1844/MIUI_IME_Unlock" />
+        </Preference>
+        <Preference
+            android:summary="gykkuo | GPL-3.0"
+            android:title="MIUI NoGuard">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/gykkuo/MIUI_NoGuard" />
+        </Preference>
+        <Preference
+            android:summary="chsbuffer | No License"
+            android:title="MIUIQOL">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/chsbuffer/MIUIQOL" />
+        </Preference>
+        <Preference
+            android:summary="Wine-Network | GPL-3.0"
+            android:title="Miui XXL">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/Wine-Network/Miui_XXL" />
+        </Preference>
+        <Preference
+            android:summary="tehcneko | GPL-3.0"
+            android:title="MIUI 通知修复">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/Xposed-Modules-Repo/io.github.tehcneko.miuinotificationfix" />
+        </Preference>
+        <Preference
+            android:summary="Weverse | GPL-3.0"
+            android:title="ModemPro">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/Weverses/ModemPro" />
+        </Preference>
+        <Preference
+            android:summary="DanGLES3 | GPL-3.0"
+            android:title="NoStorageRestrict">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/Xposed-Modules-Repo/com.github.dan.nostoragerestrict" />
+        </Preference>
+        <Preference
+            android:summary="Haocen2004 | MIT"
+            android:title="Portal Hook">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/Haocen2004/PortalHook" />
+        </Preference>
+        <Preference
+            android:summary="HChenX | GPL-3.0"
+            android:title="PinningApp">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/HChenX/PinningApp" />
+        </Preference>
+        <Preference
+            android:summary="cinit | Proprietary License"
+            android:title="QAuxiliary">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/cinit/QAuxiliary" />
+        </Preference>
+        <Preference
+            android:summary="gfbjngjibn | GPL-3.0"
+            android:title="RemoveMiuiSystemSelfProtection">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/gfbjngjibn/RemoveMiuiSystemSelfProtection" />
+        </Preference>
+        <Preference
+            android:summary="SetoSkins | GPL-3.0"
+            android:title="SetoHook">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/SetoSkins/SetoHook" />
+        </Preference>
+        <Preference
+            android:summary="weixiansen574 | No License"
+            android:title="SettingsDontThroughTheList">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/weixiansen574/settingsdontthroughthelist" />
+        </Preference>
+        <Preference
+            android:summary="hosizoraru | GPL-3.0"
+            android:title="StarVoyager">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/hosizoraru/StarVoyager" />
+        </Preference>
+        <Preference
+            android:summary="HChenX | GPL-3.0"
+            android:title="SuperLyric">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/HChenX/SuperLyric" />
+        </Preference>
+        <Preference
+            android:summary="ouhoukyo | MIT"
+            android:title="WINI">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/ouhoukyo/WINI" />
+        </Preference>
+        <Preference
+            android:summary="YifePlayte | GPL-3.0"
+            android:title="WOMMO">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/YifePlayte/WOMMO" />
+        </Preference>
+        <Preference
+            android:summary="hosizoraru | GPL-3.0"
+            android:title="Woobox For MIUI">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/hosizoraru/WooBoxForMIUI" />
+        </Preference>
+        <Preference
+            android:summary="Simplicity-Team | GPL-3.0"
+            android:title="Woobox For MIUI">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/Simplicity-Team/WooBoxForMIUI" />
+        </Preference>
+        <Preference
+            android:summary="HowieHChen | GPL-3.0"
+            android:title="XiaomiHelper">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/HowieHChen/XiaomiHelper" />
+        </Preference>
+        <Preference
+            android:summary="rovo89, Tungstwenty | Apache-2.0"
+            android:title="Xposed">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/rovo89/XposedBridge" />
+        </Preference>
+        <Preference
+            android:summary="rovo89 | No License"
+            android:title="XposedBridge">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/rovo89/XposedBridge" />
+        </Preference>
+        <Preference
+            android:summary="Kr328 | No License"
+            android:title=".xlDownload">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/Kr328/.xlDownload" />
+        </Preference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/close_source">
+        <Preference
+            android:summary="Green Yang"
+            android:title="IWanSetting">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://www.coolapk.com/apk/com.byyoung.setting" />
+        </Preference>
+        <Preference
+            android:summary="MoralNorm"
+            android:title="Miui Feature">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/moralnorm" />
+        </Preference>
+        <Preference
+            android:summary="MonetCarlos"
+            android:title="Origin Architecture">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://www.coolapk.com/u/9021855" />
+        </Preference>
+    </PreferenceCategory>
+
+</PreferenceScreen>

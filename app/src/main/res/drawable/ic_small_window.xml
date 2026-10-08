@@ -1,1 +1,40 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IS0tCiAgfiBUaGlzIGZpbGUgaXMgcGFydCBvZiBIeXBlckNlaWxlci4KICB+CiAgfiBIeXBlckNlaWxlciBpcyBmcmVlIHNvZnR3YXJlOiB5b3UgY2FuIHJlZGlzdHJpYnV0ZSBpdCBhbmQvb3IgbW9kaWZ5CiAgfiBpdCB1bmRlciB0aGUgdGVybXMgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBhcwogIH4gcHVibGlzaGVkIGJ5IHRoZSBGcmVlIFNvZnR3YXJlIEZvdW5kYXRpb24sIGVpdGhlciB2ZXJzaW9uIDMgb2YgdGhlCiAgfiBMaWNlbnNlLgogIH4KICB+IFRoaXMgcHJvZ3JhbSBpcyBkaXN0cmlidXRlZCBpbiB0aGUgaG9wZSB0aGF0IGl0IHdpbGwgYmUgdXNlZnVsLAogIH4gYnV0IFdJVEhPVVQgQU5ZIFdBUlJBTlRZOyB3aXRob3V0IGV2ZW4gdGhlIGltcGxpZWQgd2FycmFudHkgb2YKICB+IE1FUkNIQU5UQUJJTElUWSBvciBGSVRORVNTIEZPUiBBIFBBUlRJQ1VMQVIgUFVSUE9TRS4gIFNlZSB0aGUKICB+IEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBmb3IgbW9yZSBkZXRhaWxzLgogIH4KICB+IFlvdSBzaG91bGQgaGF2ZSByZWNlaXZlZCBhIGNvcHkgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZQogIH4gYWxvbmcgd2l0aCB0aGlzIHByb2dyYW0uICBJZiBub3QsIHNlZSA8aHR0cHM6Ly93d3cuZ251Lm9yZy9saWNlbnNlcy8+LgogIH4KICB+IENvcHlyaWdodCAoQykgMjAyMy0yMDI2IEh5cGVyQ2VpbGVyIENvbnRyaWJ1dGlvbnMKICAtLT4KPHZlY3RvciB4bWxuczphbmRyb2lkPSJodHRwOi8vc2NoZW1hcy5hbmRyb2lkLmNvbS9hcGsvcmVzL2FuZHJvaWQiCiAgICBhbmRyb2lkOmhlaWdodD0iMzAuNTM5OTgyZHAiCiAgICBhbmRyb2lkOndpZHRoPSIzNi4zNTk5ODlkcCIKICAgIGFuZHJvaWQ6dmlld3BvcnRXaWR0aD0iMTAwLjAiCiAgICBhbmRyb2lkOnZpZXdwb3J0SGVpZ2h0PSI4NC4wIj4KICAgIDxwYXRoCiAgICAgICAgYW5kcm9pZDpmaWxsQ29sb3I9IkBjb2xvci9pY19zbWFsbF93aW5kb3dfY29sb3IiCiAgICAgICAgYW5kcm9pZDpwYXRoRGF0YT0iTTI4LDI2bS0yMiwwYTIyLDIyIDAsMSAxLDQ0IDBhMjIsMjIgMCwxIDEsLTQ0IDAiIC8+CiAgICA8cGF0aAogICAgICAgIGFuZHJvaWQ6ZmlsbENvbG9yPSJAY29sb3IvaWNfc21hbGxfd2luZG93X2NvbG9yMiIKICAgICAgICBhbmRyb2lkOnBhdGhEYXRhPSJNNzgsMzJtLTE2LDBhMTYsMTYgMCwxIDEsMzIgMGExNiwxNiAwLDEgMSwtMzIgMCIgLz4KICAgIDxwYXRoCgogICAgICAgIGFuZHJvaWQ6ZmlsbENvbG9yPSJAY29sb3IvaWNfc21hbGxfd2luZG93X2NvbG9yMyIKICAgICAgICBhbmRyb2lkOnBhdGhEYXRhPSJNNzgsMzJtLTE2LDBhMTYsMTYgMCwxIDEsMzIgMGExNiwxNiAwLDEgMSwtMzIgMCIgLz4KICAgIDxwYXRoCiAgICAgICAgYW5kcm9pZDpmaWxsQ29sb3I9IkBjb2xvci9pY19zbWFsbF93aW5kb3dfY29sb3I0IgogICAgICAgIGFuZHJvaWQ6cGF0aERhdGE9Ik01Mi41LDY1LjVtLTEzLjUsMGExMy41LDEzLjUgMCwxIDEsMjcgMGExMy41LDEzLjUgMCwxIDEsLTI3IDAiIC8+CiAgICA8cGF0aAogICAgICAgIGFuZHJvaWQ6ZmlsbENvbG9yPSJAY29sb3IvaWNfc21hbGxfd2luZG93X2NvbG9yNSIKICAgICAgICBhbmRyb2lkOnBhdGhEYXRhPSJNNTIuNSw2NS41bS0xMy41LDBhMTMuNSwxMy41IDAsMSAxLDI3IDBhMTMuNSwxMy41IDAsMSAxLC0yNyAwIiAvPgo8L3ZlY3Rvcj4=
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ This file is part of HyperCeiler.
+  ~
+  ~ HyperCeiler is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU Affero General Public License as
+  ~ published by the Free Software Foundation, either version 3 of the
+  ~ License.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU Affero General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU Affero General Public License
+  ~ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+  ~
+  ~ Copyright (C) 2023-2026 HyperCeiler Contributions
+  -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="30.539982dp"
+    android:width="36.359989dp"
+    android:viewportWidth="100.0"
+    android:viewportHeight="84.0">
+    <path
+        android:fillColor="@color/ic_small_window_color"
+        android:pathData="M28,26m-22,0a22,22 0,1 1,44 0a22,22 0,1 1,-44 0" />
+    <path
+        android:fillColor="@color/ic_small_window_color2"
+        android:pathData="M78,32m-16,0a16,16 0,1 1,32 0a16,16 0,1 1,-32 0" />
+    <path
+
+        android:fillColor="@color/ic_small_window_color3"
+        android:pathData="M78,32m-16,0a16,16 0,1 1,32 0a16,16 0,1 1,-32 0" />
+    <path
+        android:fillColor="@color/ic_small_window_color4"
+        android:pathData="M52.5,65.5m-13.5,0a13.5,13.5 0,1 1,27 0a13.5,13.5 0,1 1,-27 0" />
+    <path
+        android:fillColor="@color/ic_small_window_color5"
+        android:pathData="M52.5,65.5m-13.5,0a13.5,13.5 0,1 1,27 0a13.5,13.5 0,1 1,-27 0" />
+</vector>

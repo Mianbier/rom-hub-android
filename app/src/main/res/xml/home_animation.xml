@@ -1,1 +1,53 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPFByZWZlcmVuY2VTY3JlZW4geG1sbnM6YW5kcm9pZD0iaHR0cDovL3NjaGVtYXMuYW5kcm9pZC5jb20vYXBrL3Jlcy9hbmRyb2lkIgogICAgeG1sbnM6YXBwPSJodHRwOi8vc2NoZW1hcy5hbmRyb2lkLmNvbS9hcGsvcmVzLWF1dG8iCiAgICBhcHA6bXlMb2NhdGlvbj0iQHN0cmluZy9ob21lX2FuaW1hdGlvbiIKICAgIGFwcDpxdWlja19yZXN0YXJ0PSJjb20ubWl1aS5ob21lIj4KCiAgICA8UHJlZmVyZW5jZUNhdGVnb3J5IGFuZHJvaWQ6dGl0bGU9IkBzdHJpbmcvaG9tZV9hbmltYXRpb25fb3Blbl9jYXRlZ29yeSI+CgogICAgICAgIDxTd2l0Y2hQcmVmZXJlbmNlCiAgICAgICAgICAgIGFuZHJvaWQ6ZGVmYXVsdFZhbHVlPSJmYWxzZSIKICAgICAgICAgICAgYW5kcm9pZDprZXk9InByZWZzX2tleV9ob21lX2FuaW1hdGlvbl9vcGVuX3JhdGVfZW5hYmxlIgogICAgICAgICAgICBhbmRyb2lkOnN1bW1hcnk9IkBzdHJpbmcvaG9tZV9hbmltYXRpb25fb3Blbl9yYXRlX2VuYWJsZV9kZXNjIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJAc3RyaW5nL2hvbWVfYW5pbWF0aW9uX29wZW5fcmF0ZV9lbmFibGUiIC8+CgogICAgICAgIDxTZWVrQmFyUHJlZmVyZW5jZUNvbXBhdAogICAgICAgICAgICBhbmRyb2lkOmRlcGVuZGVuY3k9InByZWZzX2tleV9ob21lX2FuaW1hdGlvbl9vcGVuX3JhdGVfZW5hYmxlIgogICAgICAgICAgICBhbmRyb2lkOmtleT0icHJlZnNfa2V5X2hvbWVfYW5pbWF0aW9uX29wZW5fcmF0ZSIKICAgICAgICAgICAgYW5kcm9pZDpzdW1tYXJ5PSJAc3RyaW5nL2hvbWVfYW5pbWF0aW9uX29wZW5fcmF0ZV9kZXNjIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJAc3RyaW5nL2hvbWVfYW5pbWF0aW9uX29wZW5fcmF0ZSIKICAgICAgICAgICAgYXBwOmRlZmF1bHRWYWx1ZT0iMTAwIgogICAgICAgICAgICBhcHA6ZGVmYXVsdFZhbHVlVGl0bGU9IkBzdHJpbmcvYXJyYXlfZGVmYXVsdCIKICAgICAgICAgICAgYXBwOmZvcm1hdD0iJXMlJSIKICAgICAgICAgICAgYXBwOm1heFZhbHVlPSIyMDAiCiAgICAgICAgICAgIGFwcDptaW5WYWx1ZT0iMzAiCiAgICAgICAgICAgIGFwcDpzaG93U2Vla0JhclZhbHVlPSJ0cnVlIgogICAgICAgICAgICBhcHA6c3RlcFZhbHVlPSIxIiAvPgoKICAgIDwvUHJlZmVyZW5jZUNhdGVnb3J5PgoKICAgIDxQcmVmZXJlbmNlQ2F0ZWdvcnkgYW5kcm9pZDp0aXRsZT0iQHN0cmluZy9ob21lX2FuaW1hdGlvbl9yZWNlbnRzX2NhdGVnb3J5Ij4KCiAgICAgICAgPFN3aXRjaFByZWZlcmVuY2UKICAgICAgICAgICAgYW5kcm9pZDpkZWZhdWx0VmFsdWU9ImZhbHNlIgogICAgICAgICAgICBhbmRyb2lkOmtleT0icHJlZnNfa2V5X2hvbWVfYW5pbWF0aW9uX3JlY2VudHNfZW5hYmxlIgogICAgICAgICAgICBhbmRyb2lkOnN1bW1hcnk9IkBzdHJpbmcvaG9tZV9hbmltYXRpb25fcmVjZW50c19lbmFibGVfZGVzYyIKICAgICAgICAgICAgYW5kcm9pZDp0aXRsZT0iQHN0cmluZy9ob21lX2FuaW1hdGlvbl9yZWNlbnRzX2VuYWJsZSIgLz4KCiAgICAgICAgPFNlZWtCYXJQcmVmZXJlbmNlQ29tcGF0CiAgICAgICAgICAgIGFuZHJvaWQ6ZGVwZW5kZW5jeT0icHJlZnNfa2V5X2hvbWVfYW5pbWF0aW9uX3JlY2VudHNfZW5hYmxlIgogICAgICAgICAgICBhbmRyb2lkOmtleT0icHJlZnNfa2V5X2hvbWVfYW5pbWF0aW9uX3JlY2VudHNfcmF0ZSIKICAgICAgICAgICAgYW5kcm9pZDpzdW1tYXJ5PSJAc3RyaW5nL2hvbWVfYW5pbWF0aW9uX29wZW5fcmF0ZV9kZXNjIgogICAgICAgICAgICBhbmRyb2lkOnRpdGxlPSJAc3RyaW5nL2hvbWVfYW5pbWF0aW9uX29wZW5fcmF0ZSIKICAgICAgICAgICAgYXBwOmRlZmF1bHRWYWx1ZT0iMTAwIgogICAgICAgICAgICBhcHA6ZGVmYXVsdFZhbHVlVGl0bGU9IkBzdHJpbmcvYXJyYXlfZGVmYXVsdCIKICAgICAgICAgICAgYXBwOmZvcm1hdD0iJXMlJSIKICAgICAgICAgICAgYXBwOm1heFZhbHVlPSIyMDAiCiAgICAgICAgICAgIGFwcDptaW5WYWx1ZT0iMzAiCiAgICAgICAgICAgIGFwcDpzaG93U2Vla0JhclZhbHVlPSJ0cnVlIgogICAgICAgICAgICBhcHA6c3RlcFZhbHVlPSIxIiAvPgoKICAgIDwvUHJlZmVyZW5jZUNhdGVnb3J5PgoKPC9QcmVmZXJlbmNlU2NyZWVuPgo=
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:myLocation="@string/home_animation"
+    app:quick_restart="com.miui.home">
+
+    <PreferenceCategory android:title="@string/home_animation_open_category">
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefs_key_home_animation_open_rate_enable"
+            android:summary="@string/home_animation_open_rate_enable_desc"
+            android:title="@string/home_animation_open_rate_enable" />
+
+        <SeekBarPreferenceCompat
+            android:dependency="prefs_key_home_animation_open_rate_enable"
+            android:key="prefs_key_home_animation_open_rate"
+            android:summary="@string/home_animation_open_rate_desc"
+            android:title="@string/home_animation_open_rate"
+            app:defaultValue="100"
+            app:defaultValueTitle="@string/array_default"
+            app:format="%s%%"
+            app:maxValue="200"
+            app:minValue="30"
+            app:showSeekBarValue="true"
+            app:stepValue="1" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/home_animation_recents_category">
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="prefs_key_home_animation_recents_enable"
+            android:summary="@string/home_animation_recents_enable_desc"
+            android:title="@string/home_animation_recents_enable" />
+
+        <SeekBarPreferenceCompat
+            android:dependency="prefs_key_home_animation_recents_enable"
+            android:key="prefs_key_home_animation_recents_rate"
+            android:summary="@string/home_animation_open_rate_desc"
+            android:title="@string/home_animation_open_rate"
+            app:defaultValue="100"
+            app:defaultValueTitle="@string/array_default"
+            app:format="%s%%"
+            app:maxValue="200"
+            app:minValue="30"
+            app:showSeekBarValue="true"
+            app:stepValue="1" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

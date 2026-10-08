@@ -1,1 +1,51 @@
-LyoKICogVGhpcyBmaWxlIGlzIHBhcnQgb2YgUk9NIEh1YiwgcmVsZWFzZWQgdW5kZXIgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSB2My4wLgogKgogKiDmnKzmlofku7bnp7vmpI0gLyDmlLnlhpnoh6ogSHlwZXJDZWlsZXLvvIhBR1BMLTMuMO+8jENvcHlyaWdodCAoQykgMjAyMy0yMDI2IEh5cGVyQ2VpbGVyCiAqIENvbnRyaWJ1dGlvbnPvvInvvIzmiJbkuLrlhbbnrYnku7fmm7/ouqvlrp7njrAg4oCU4oCUIOWujOaVtOadpea6kOS4jum4o+iwouingemhueebruagueebruW9lSBOT1RJQ0UubWTjgIIKICoKICogVGhpcyBwcm9ncmFtIGlzIGZyZWUgc29mdHdhcmU6IHlvdSBjYW4gcmVkaXN0cmlidXRlIGl0IGFuZC9vciBtb2RpZnkgaXQgdW5kZXIgdGhlIHRlcm1zCiAqIG9mIHRoZSBHTlUgQWZmZXJvIEdlbmVyYWwgUHVibGljIExpY2Vuc2UgYXMgcHVibGlzaGVkIGJ5IHRoZSBGcmVlIFNvZnR3YXJlIEZvdW5kYXRpb24sCiAqIGVpdGhlciB2ZXJzaW9uIDMgb2YgdGhlIExpY2Vuc2UuCiAqCiAqIFRoaXMgcHJvZ3JhbSBpcyBkaXN0cmlidXRlZCBpbiB0aGUgaG9wZSB0aGF0IGl0IHdpbGwgYmUgdXNlZnVsLCBidXQgV0lUSE9VVCBBTlkgV0FSUkFOVFk7CiAqIHdpdGhvdXQgZXZlbiB0aGUgaW1wbGllZCB3YXJyYW50eSBvZiBNRVJDSEFOVEFCSUxJVFkgb3IgRklUTkVTUyBGT1IgQSBQQVJUSUNVTEFSIFBVUlBPU0UuCiAqIFNlZSB0aGUgR05VIEFmZmVybyBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGZvciBtb3JlIGRldGFpbHMuCiAqCiAqIFlvdSBzaG91bGQgaGF2ZSByZWNlaXZlZCBhIGNvcHkgb2YgdGhlIEdOVSBBZmZlcm8gR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBhbG9uZyB3aXRoIHRoaXMKICogcHJvZ3JhbS4gIElmIG5vdCwgc2VlIDxodHRwczovL3d3dy5nbnUub3JnL2xpY2Vuc2VzLz4uCiAqLwoKcGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViLmhjLnV0aWw7CgppbXBvcnQgYW5kcm9pZC5vcy5CdWlsZDsKCi8qKgogKiBIeXBlckNlaWxlciBgbGliaG9vay51dGlscy5hcGkuRGV2aWNlSGVscGVyYCDnmoTnrYnku7fmm7/ouqvjgIIKICoKICog54Wn5oqE44CM5YWz5LqO6aG144CN55qE6K6+5aSH5L+h5oGv5Y2h5pe255So5Yiw5a6D55qEIGBTeXN0ZW1gIOWGhemDqOexu++8iOivu+ezu+e7n+eJiOacrCAvIOWIpOaWrSBBbmRyb2lkIOeJiOacrO+8ieOAggogKiDljp/niYjmmK8gaG9vayDmoYbmnrbnmoTkuIDpg6jliIbvvIjkvJror7vkuIDloIYgTUlVSSDnp4HmnInlsZ7mgKfvvInvvIxST00gSHViIOeUqOS4jeWIsOmCo+Wll++8jAogKiDov5nph4znm7TmjqXnlKjmoIflh4YgQW5kcm9pZCBBUEkg6L+Y5Y6f5ZCM5qC355qE5L+h5oGv44CCCiAqLwpwdWJsaWMgZmluYWwgY2xhc3MgRGV2aWNlSGVscGVyIHsKCiAgICBwcml2YXRlIERldmljZUhlbHBlcigpIHsKICAgIH0KCiAgICAvKiog6K6+5aSHIC8g57O757uf55u45YWz55qE5Y+W5YC844CCICovCiAgICBwdWJsaWMgc3RhdGljIGZpbmFsIGNsYXNzIFN5c3RlbSB7CgogICAgICAgIHByaXZhdGUgU3lzdGVtKCkgewogICAgICAgIH0KCiAgICAgICAgLyoqIOezu+e7n+WinumHj+eJiOacrOWPt++8iEh5cGVyQ2VpbGVyIOeUqOadpeaYvuekuiBPUyDniYjmnKzvvJvov5nph4zpgIDlm54gQW5kcm9pZCDniYjmnKzvvInjgIIgKi8KICAgICAgICBwdWJsaWMgc3RhdGljIFN0cmluZyBnZXRTeXN0ZW1WZXJzaW9uSW5jcmVtZW50YWwoKSB7CiAgICAgICAgICAgIHJldHVybiBCdWlsZC5WRVJTSU9OLlJFTEVBU0U7CiAgICAgICAgfQoKICAgICAgICAvKiogQW5kcm9pZCDniYjmnKzmmK/lkKYgPj0g5oyH5a6a5YC844CCICovCiAgICAgICAgcHVibGljIHN0YXRpYyBib29sZWFuIGlzTW9yZUFuZHJvaWRWZXJzaW9uKGludCB2ZXJzaW9uKSB7CiAgICAgICAgICAgIHJldHVybiBCdWlsZC5WRVJTSU9OLlNES19JTlQgPj0gdmVyc2lvbjsKICAgICAgICB9CiAgICB9Cn0K
+/*
+ * This file is part of ROM Hub, released under the GNU Affero General Public License v3.0.
+ *
+ * 本文件移植 / 改写自 HyperCeiler（AGPL-3.0，Copyright (C) 2023-2026 HyperCeiler
+ * Contributions），或为其等价替身实现 —— 完整来源与鸣谢见项目根目录 NOTICE.md。
+ *
+ * This program is free software: you can redistribute it and/or modify it under the terms
+ * of the GNU Affero General Public License as published by the Free Software Foundation,
+ * either version 3 of the License.
+ *
+ * This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+ * without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * See the GNU Affero General Public License for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License along with this
+ * program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
+package org.linbaogu.romhub.hc.util;
+
+import android.os.Build;
+
+/**
+ * HyperCeiler `libhook.utils.api.DeviceHelper` 的等价替身。
+ *
+ * 照抄「关于页」的设备信息卡时用到它的 `System` 内部类（读系统版本 / 判断 Android 版本）。
+ * 原版是 hook 框架的一部分（会读一堆 MIUI 私有属性），ROM Hub 用不到那套，
+ * 这里直接用标准 Android API 还原同样的信息。
+ */
+public final class DeviceHelper {
+
+    private DeviceHelper() {
+    }
+
+    /** 设备 / 系统相关的取值。 */
+    public static final class System {
+
+        private System() {
+        }
+
+        /** 系统增量版本号（HyperCeiler 用来显示 OS 版本；这里退回 Android 版本）。 */
+        public static String getSystemVersionIncremental() {
+            return Build.VERSION.RELEASE;
+        }
+
+        /** Android 版本是否 >= 指定值。 */
+        public static boolean isMoreAndroidVersion(int version) {
+            return Build.VERSION.SDK_INT >= version;
+        }
+    }
+}

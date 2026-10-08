@@ -1,1 +1,48 @@
-cGFja2FnZSBvcmcubGluYmFvZ3Uucm9taHViCgppbXBvcnQgYW5kcm9pZC5hcHAuQXBwbGljYXRpb24KaW1wb3J0IGNvaWwzLkltYWdlTG9hZGVyCmltcG9ydCBjb2lsMy5TaW5nbGV0b25JbWFnZUxvYWRlcgppbXBvcnQgY29pbDMubmV0d29yay5va2h0dHAuT2tIdHRwTmV0d29ya0ZldGNoZXJGYWN0b3J5CmltcG9ydCBjb2lsMy5yZXF1ZXN0LmNyb3NzZmFkZQppbXBvcnQgb3JnLmxpbmJhb2d1LnJvbWh1Yi5kb3dubG9hZC5Eb3dubG9hZE1hbmFnZXIKaW1wb3J0IG9yZy5saW5iYW9ndS5yb21odWIubm90aWZ5Lk5vdGlmaWNhdGlvbnMKaW1wb3J0IG9yZy5saW5iYW9ndS5yb21odWIubm90aWZ5Lk5vdGlmeVNjaGVkdWxlcgoKY2xhc3MgUm9tSHViQXBwIDogQXBwbGljYXRpb24oKSB7CgogICAgb3ZlcnJpZGUgZnVuIG9uQ3JlYXRlKCkgewogICAgICAgIHN1cGVyLm9uQ3JlYXRlKCkKCiAgICAgICAgLy8g6Ieq5oSI77ya5qGM6Z2i5Zu+5qCH5byA5YWz6buY6K6k5byA44CC5LiH5LiA5LmL5YmN6KKr5YWz5o6J77yI5ZCv5Yqo5Zmo57uE5Lu26KKr56aB55SoIOKGkiDmoYzpnaLmib7kuI3liLDlm77moIfvvInvvIwKICAgICAgICAvLyDlj6ropoHov5vnqIvov5jog73ooqvmi4notbfmnaXlsLHnq4vliLvmiornu4Tku7bmgaLlpI3vvIzpgb/lhY3nlKjmiLflvbvlupXov5vkuI3ljrvjgIIKICAgICAgICBydW5DYXRjaGluZyB7CiAgICAgICAgICAgIGlmIChvcmcubGluYmFvZ3Uucm9taHViLmhjLmNvbW1vbi5BcHBTZXR0aW5nc1N0b3JlLmlzSGlkZUFwcEljb25FbmFibGVkKHRoaXMpKSB7CiAgICAgICAgICAgICAgICBwYWNrYWdlTWFuYWdlci5zZXRDb21wb25lbnRFbmFibGVkU2V0dGluZygKICAgICAgICAgICAgICAgICAgICBhbmRyb2lkLmNvbnRlbnQuQ29tcG9uZW50TmFtZSh0aGlzLCBNYWluQWN0aXZpdHk6OmNsYXNzLmphdmEpLAogICAgICAgICAgICAgICAgICAgIGFuZHJvaWQuY29udGVudC5wbS5QYWNrYWdlTWFuYWdlci5DT01QT05FTlRfRU5BQkxFRF9TVEFURV9FTkFCTEVELAogICAgICAgICAgICAgICAgICAgIGFuZHJvaWQuY29udGVudC5wbS5QYWNrYWdlTWFuYWdlci5ET05UX0tJTExfQVBQLAogICAgICAgICAgICAgICAgKQogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICAvLyDpgJrnn6XmuKDpgZPvvIjlrpjmlrnljIUgLyDnp7vmpI3ljIXkuKTkuKrvvIzlj6/liIbliKvlhbPpl63vvIkrIOWQjuWPsOWFnOW6lei9ruivogogICAgICAgIE5vdGlmaWNhdGlvbnMuZW5zdXJlQ2hhbm5lbHModGhpcykKICAgICAgICBOb3RpZnlTY2hlZHVsZXIuc2NoZWR1bGUodGhpcykKCiAgICAgICAgLy8g5Luj55CG6YWN572u77ya5b+F6aG75Zyo5Lu75L2V572R57uc6K+35rGC5LmL5YmN5aWX5LiK77yM5ZCm5YiZ6aaW5qyh6K+35rGC5Lya6LWw55u06L+eCiAgICAgICAgLy8g5byA5YWz5YWz552A5pe26L+Z6YeM5piv55u06L+e77yM6KGM5Li65LiN5Y+Y44CCCiAgICAgICAgb3JnLmxpbmJhb2d1LnJvbWh1Yi5jb3JlLlByZWZzLmFwcGx5UHJveHkodGhpcykKCiAgICAgICAgLy8g5LiL6L295Zmo77ya5oGi5aSN5LiK5qyh5rKh5LiL5a6M55qE5Lu75Yqh77yI57uf5LiA6JC95oiQ44CM5bey5pqC5YGc44CN77yM562J55So5oi354K557un57ut77yJCiAgICAgICAgRG93bmxvYWRNYW5hZ2VyLmluaXQodGhpcykKCiAgICAgICAgLy8g5py65Z6L5Zu+54mH6LWwIE9rSHR0cCDliqDovb0KICAgICAgICBTaW5nbGV0b25JbWFnZUxvYWRlci5zZXRTYWZlIHsgY3R4IC0+CiAgICAgICAgICAgIEltYWdlTG9hZGVyLkJ1aWxkZXIoY3R4KQogICAgICAgICAgICAgICAgLmNvbXBvbmVudHMgeyBhZGQoT2tIdHRwTmV0d29ya0ZldGNoZXJGYWN0b3J5KCkpIH0KICAgICAgICAgICAgICAgIC5jcm9zc2ZhZGUodHJ1ZSkKICAgICAgICAgICAgICAgIC5idWlsZCgpCiAgICAgICAgfQogICAgfQp9Cg==
+package org.linbaogu.romhub
+
+import android.app.Application
+import coil3.ImageLoader
+import coil3.SingletonImageLoader
+import coil3.network.okhttp.OkHttpNetworkFetcherFactory
+import coil3.request.crossfade
+import org.linbaogu.romhub.download.DownloadManager
+import org.linbaogu.romhub.notify.Notifications
+import org.linbaogu.romhub.notify.NotifyScheduler
+
+class RomHubApp : Application() {
+
+    override fun onCreate() {
+        super.onCreate()
+
+        // 自愈：桌面图标开关默认开。万一之前被关掉（启动器组件被禁用 → 桌面找不到图标），
+        // 只要进程还能被拉起来就立刻把组件恢复，避免用户彻底进不去。
+        runCatching {
+            if (org.linbaogu.romhub.hc.common.AppSettingsStore.isHideAppIconEnabled(this)) {
+                packageManager.setComponentEnabledSetting(
+                    android.content.ComponentName(this, MainActivity::class.java),
+                    android.content.pm.PackageManager.COMPONENT_ENABLED_STATE_ENABLED,
+                    android.content.pm.PackageManager.DONT_KILL_APP,
+                )
+            }
+        }
+
+        // 通知渠道（官方包 / 移植包两个，可分别关闭）+ 后台兜底轮询
+        Notifications.ensureChannels(this)
+        NotifyScheduler.schedule(this)
+
+        // 代理配置：必须在任何网络请求之前套上，否则首次请求会走直连
+        // 开关关着时这里是直连，行为不变。
+        org.linbaogu.romhub.core.Prefs.applyProxy(this)
+
+        // 下载器：恢复上次没下完的任务（统一落成「已暂停」，等用户点继续）
+        DownloadManager.init(this)
+
+        // 机型图片走 OkHttp 加载
+        SingletonImageLoader.setSafe { ctx ->
+            ImageLoader.Builder(ctx)
+                .components { add(OkHttpNetworkFetcherFactory()) }
+                .crossfade(true)
+                .build()
+        }
+    }
+}
